@@ -1,0 +1,183 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Aeon Onboarding"
+      },
+      "children": [
+        "date_text",
+        "summary_text",
+        "passing_section",
+        "separator1",
+        "warnings_section",
+        "separator2",
+        "next_steps"
+      ]
+    },
+    "date_text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-05-16",
+        "variant": "caption"
+      }
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon will run, but 3 optional piece(s) need attention.",
+        "variant": "lead"
+      }
+    },
+    "passing_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "passing_heading",
+        "passing_items_stack"
+      ]
+    },
+    "passing_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "✅ Passing (7)",
+        "level": "h3"
+      }
+    },
+    "passing_items_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pass_item_1",
+        "pass_item_2",
+        "pass_item_3",
+        "pass_item_4",
+        "pass_item_5",
+        "pass_item_6",
+        "pass_item_7"
+      ]
+    },
+    "pass_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "• workflow .github/workflows/aeon.yml — present"
+      }
+    },
+    "pass_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "• workflow .github/workflows/messages.yml — present"
+      }
+    },
+    "pass_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "• workflow .github/workflows/chain-runner.yml — present"
+      }
+    },
+    "pass_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "• aeon.yml — 7 skill(s) enabled"
+      }
+    },
+    "pass_item_5": {
+      "type": "Text",
+      "props": {
+        "text": "• memory/ — writable, MEMORY.md present"
+      }
+    },
+    "pass_item_6": {
+      "type": "Text",
+      "props": {
+        "text": "• notification channel — Telegram configured (TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID set)"
+      }
+    },
+    "pass_item_7": {
+      "type": "Text",
+      "props": {
+        "text": "• skill activity log — 2 daily log file(s) under memory/logs/"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "warnings_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "warnings_heading",
+        "warnings_items_stack"
+      ]
+    },
+    "warnings_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "⚠ Warnings (3)",
+        "level": "h3"
+      }
+    },
+    "warnings_items_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "warning_item_1",
+        "warning_item_2",
+        "warning_item_3"
+      ]
+    },
+    "warning_item_1": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "auth secret",
+        "message": "ANTHROPIC_API_KEY/CLAUDE_CODE_OAUTH_TOKEN not set; agent authenticated via BANKR_LLM_KEY (Bankr LLM Gateway). gh secret list returns 403 in Actions so direct verification is unavailable.\n\nfix: No action needed if using Bankr LLM Gateway. To switch to direct Anthropic: gh secret set ANTHROPIC_API_KEY --body 'sk-ant-...' -R madebyshun/blueagent-aeon"
+      }
+    },
+    "warning_item_2": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "GitHub Actions",
+        "message": "no runs yet for messages.yml\n\nfix: Enable Actions: gh workflow enable messages.yml -R madebyshun/blueagent-aeon  (or visit Settings → Actions → General and allow workflows)."
+      }
+    },
+    "warning_item_3": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "GH_GLOBAL (cross-repo PAT)",
+        "message": "not configured (optional)\n\nfix: Only needed for cross-repo skills (github-monitor, pr-review, external-feature). Create a fine-grained PAT and: gh secret set GH_GLOBAL -R madebyshun/blueagent-aeon"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "next_steps": {
+      "type": "Text",
+      "props": {
+        "text": "Next: Optional improvements — Aeon will run regardless. Rerun ./onboard once addressed."
+      }
+    }
+  }
+}

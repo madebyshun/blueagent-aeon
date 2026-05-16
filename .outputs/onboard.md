@@ -1,26 +1,22 @@
-## Summary
+*Aeon Onboarding — 2026-05-16*
+Aeon will run, but 3 optional piece(s) need attention.
 
-**Skill**: onboard | **Date**: 2026-05-16 | **Status**: ONBOARD_INCOMPLETE
+✅ Passing (7)
+• workflow .github/workflows/aeon.yml — present
+• workflow .github/workflows/messages.yml — present
+• workflow .github/workflows/chain-runner.yml — present
+• aeon.yml — 7 skill(s) enabled
+• memory/ — writable, MEMORY.md present
+• notification channel — Telegram configured (TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID set)
+• skill activity log — 2 daily log file(s) under memory/logs/
 
-**What I did:**
-1. Read soul files (empty templates — neutral tone used), memory index, and recent logs
-2. Reconstructed `./onboard --json` output by inspecting each check manually (the script itself required execution approval)
-3. Wrote `.outputs/onboard.json` and `.outputs/onboard-message.md`
-4. Queued notification to `.pending-notify/1778969493.md` (post-run delivery — `./notify` execution was blocked by permission mode)
-5. Logged to `memory/logs/2026-05-16.md`
-6. Created `memory/topics/onboard-history.md` for trend tracking
+⚠ Warnings (3)
+• auth secret — ANTHROPIC_API_KEY/CLAUDE_CODE_OAUTH_TOKEN not set; agent authenticated via BANKR_LLM_KEY (Bankr LLM Gateway). gh secret list returns 403 in Actions so direct verification is unavailable.
+    fix: No action needed if using Bankr LLM Gateway. To switch to direct Anthropic: gh secret set ANTHROPIC_API_KEY --body 'sk-ant-...' -R madebyshun/blueagent-aeon
+• GitHub Actions — no runs yet for messages.yml
+    fix: Enable Actions: gh workflow enable messages.yml -R madebyshun/blueagent-aeon  (or visit Settings → Actions → General and allow workflows).
+• GH_GLOBAL (cross-repo PAT) — not configured (optional)
+    fix: Only needed for cross-repo skills (github-monitor, pr-review, external-feature). Create a fine-grained PAT and: gh secret set GH_GLOBAL -R madebyshun/blueagent-aeon
 
-**Results: 6 pass / 2 warn / 2 fail**
+Next: Optional improvements — Aeon will run regardless. Rerun ./onboard once addressed.
 
-| Status | Check | Detail |
-|--------|-------|--------|
-| ✅ | workflow aeon.yml, messages.yml, chain-runner.yml | All present |
-| ✅ | aeon.yml | 7 skills enabled |
-| ✅ | memory/ | Writable, MEMORY.md present |
-| ✅ | skill activity log | 1 log file in memory/logs/ |
-| ⚠ | GitHub Actions | No runs yet for messages.yml |
-| ⚠ | GH_GLOBAL (cross-repo PAT) | Not configured (optional) |
-| ❌ | auth secret | gh secret list → HTTP 403 |
-| ❌ | notification channel | gh secret list → HTTP 403 |
-
-**Important caveat**: The two FAILs are almost certainly false negatives. The default `GITHUB_TOKEN` in GitHub Actions cannot call `gh secret list` (HTTP 403), so the onboard script reports secrets as "not configured" when it can't confirm them. Since Claude is actively running, `ANTHROPIC_API_KEY` is clearly set. Run `./onboard` locally after `gh auth login` to get accurate secret verification.
