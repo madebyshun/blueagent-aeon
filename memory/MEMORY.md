@@ -1,25 +1,42 @@
-# Long-term Memory
-*Last consolidated: never*
+# Long-term Memory — Blue Agent Aeon
+*Last consolidated: 2026-05-17*
 
 ## About This Repo
-- Autonomous agent running on GitHub Actions via Claude Code
+- Autonomous monitoring agent for Blocky Studio / Blue Agent ecosystem
+- Runs on GitHub Actions via Claude + Bankr LLM Gateway
+- Sends daily digests to Telegram: t.me/blueagent_hub
 
-## Recent Articles
-| Date | Title | Topic |
-|------|-------|-------|
+## Identity
+- Project: Blue Agent by Blocky Studio (@blockyonbase)
+- Token: $BLUEAGENT — 0xf895783b2931c919955e18b5e3343e7c7c456ba3 (Base, Uniswap v4)
+- Token: $BLOCKY — 0x1E11dC42b7916621EEE1874da5664d75A0D74b07 (Base)
+- Treasury: 0xf31f59e7b8b58555f7871f71973a394c4c8f1bffe5 (Base)
+- Repo: madebyshun/blue-agent
 
-## Recent Digests
-| Date | Type | Key Topics |
-|------|------|------------|
+## Interests & Focus
+- Base chain ecosystem — new projects, builders, agents
+- AI × crypto narratives — agent economy, agentic payments, onchain AI
+- $BLUEAGENT & $BLOCKY token activity — price, volume, holders
+- Base builder community — new projects shipping on Base
+- Polymarket / prediction markets — signals that matter for Base ecosystem
 
-## Skills Built
-| Skill | Date | Notes |
-|-------|------|-------|
+## Active Watchlist
+Tokens:
+- $BLUEAGENT: 0xf895783b2931c919955e18b5e3343e7c7c456ba3
+- $BLOCKY: 0x1E11dC42b7916621EEE1874da5664d75A0D74b07
 
-## Lessons Learned
-- Digest format: Markdown with clickable links, under 4000 chars
-- Always save files AND commit before logging
+Repos to monitor:
+- madebyshun/blue-agent (primary)
+- madebyshun/blocky-builder-bot
+- aaronjmars/aeon
+
+## Output Style
+- Concise. No fluff.
+- Base-native framing — always mention Base context
+- Actionable alerts only — no noise
+- Telegram-friendly format (no markdown tables, use bullet lists)
 
 ## Next Priorities
-- Configure notification channels (Telegram, Discord, or Slack)
-- Run first digest
+- Confirm secrets are set (ANTHROPIC_API_KEY / BANKR_LLM_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID)
+- Run first token-movers digest
+- Enable narrative-tracker for daily AI×crypto narrative map
