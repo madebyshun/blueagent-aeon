@@ -209,7 +209,7 @@ model: claude-sonnet-4-6
 # provider: direct (default, uses ANTHROPIC_API_KEY) | bankr (uses BANKR_LLM_KEY)
 # Bankr docs: https://docs.bankr.bot/llm-gateway/overview
 gateway:
-  provider: bankr  # route via Bankr LLM Gateway (~67% cheaper)
+  provider: direct  # uses ANTHROPIC_API_KEY or CLAUDE_CODE_OAUTH_TOKEN
 
 # Output channels
 channels:
