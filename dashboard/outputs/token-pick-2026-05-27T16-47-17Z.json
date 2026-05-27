@@ -1,0 +1,318 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-05-27"
+      },
+      "children": [
+        "section-icp",
+        "separator-1",
+        "section-market",
+        "separator-2",
+        "footer-info"
+      ]
+    },
+    "section-icp": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-icp",
+        "badges-icp",
+        "stats-icp-group",
+        "text-icp-score",
+        "text-icp-catalyst",
+        "text-icp-risk"
+      ]
+    },
+    "heading-icp": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: ICP",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badges-icp": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-icp-high",
+        "badge-icp-signal"
+      ]
+    },
+    "badge-icp-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-icp-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 8/10",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stats-icp-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-icp-price",
+        "stat-icp-24h",
+        "stat-icp-7d",
+        "stat-icp-mcap",
+        "stat-icp-vol",
+        "stat-icp-volmcap"
+      ]
+    },
+    "stat-icp-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$2.94"
+      },
+      "children": []
+    },
+    "stat-icp-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+8.47%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-icp-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+15.22%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-icp-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$1.6B"
+      },
+      "children": []
+    },
+    "stat-icp-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$222M"
+      },
+      "children": []
+    },
+    "stat-icp-volmcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/MCap Ratio",
+        "value": "0.136"
+      },
+      "children": []
+    },
+    "text-icp-score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: 24h>0+1, 7d>0+1, both>5%+2, vol/mcap≥0.10+2, RS vs BTC/ETH+2 = 8/10",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-icp-catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: MISSION70 tokenomics upgrade (passed Jan 2026) cuts ICP inflation from 9.72% to ~2.92% by end-2026 — structural supply reduction as deflationary pressure builds",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-icp-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: Broader market in mild sell-off (BTC -1.95%, ETH -0.75% 24h) — momentum may not hold if BTC deteriorates further",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-market",
+        "badges-market",
+        "stats-market-group",
+        "text-market-fair",
+        "text-market-thesis",
+        "text-market-risk"
+      ]
+    },
+    "heading-market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will Keir Starmer cease to be UK PM by June 30, 2026?",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badges-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-market-high",
+        "badge-market-edge"
+      ]
+    },
+    "badge-market-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-market-edge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 18.5pp",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stats-market-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-market-yes",
+        "stat-market-no",
+        "stat-market-vol",
+        "stat-market-resolve"
+      ]
+    },
+    "stat-market-yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "18.5¢"
+      },
+      "children": []
+    },
+    "stat-market-no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "81.5¢"
+      },
+      "children": []
+    },
+    "stat-market-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$101.6k"
+      },
+      "children": []
+    },
+    "stat-market-resolve": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "2026-06-30"
+      },
+      "children": []
+    },
+    "text-market-fair": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~37% (inputs: 95+ Labour MPs demanding resignation, Wes Streeting resigned cabinet post and declared leadership run, UK precedent — Boris Johnson forced out in ~3 weeks under similar internal revolt)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-market-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: Market pricing only ~18% chance of Starmer exit despite an acute, documented political crisis; party is functionally ungovernable at this point",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-market-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: UK PMs cannot be removed without formal no-confidence vote — Starmer could dig in, wait out the pressure, and survive past June 30",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-footer-sources",
+        "text-footer-disclaimer"
+      ]
+    },
+    "text-footer-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=ok, poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-footer-disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
