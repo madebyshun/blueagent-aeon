@@ -1,0 +1,82 @@
+name: Blue Agent Schedule
+
+on:
+  schedule:
+    - cron: "0 7 * * *"   # 07:00 UTC — morning-brief
+    - cron: "0 9 * * *"   # 09:00 UTC — github-trending
+    - cron: "0 12 * * *"  # 12:00 UTC — token-pick, token-movers, defi-monitor
+    - cron: "30 13 * * *" # 13:30 UTC — narrative-tracker
+    - cron: "0 14 * * *"  # 14:00 UTC — security-digest
+    - cron: "0 14 * * 1"  # 14:00 UTC Monday — deal-flow
+  workflow_dispatch:
+    inputs:
+      skill:
+        description: 'Run a specific skill now'
+        required: false
+        type: choice
+        options:
+          - token-pick
+          - token-movers
+          - narrative-tracker
+          - morning-brief
+          - defi-monitor
+          - deal-flow
+          - github-trending
+          - security-digest
+
+jobs:
+  morning-brief:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.skill == 'morning-brief' || (github.event_name == 'schedule' && startsWith(github.event.schedule, '0 7'))
+    uses: ./.github/workflows/aeon.yml
+    secrets: inherit
+    with:
+      skill: morning-brief
+
+  github-trending:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.skill == 'github-trending' || (github.event_name == 'schedule' && startsWith(github.event.schedule, '0 9'))
+    uses: ./.github/workflows/aeon.yml
+    secrets: inherit
+    with:
+      skill: github-trending
+
+  token-pick:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.skill == 'token-pick' || (github.event_name == 'schedule' && startsWith(github.event.schedule, '0 12'))
+    uses: ./.github/workflows/aeon.yml
+    secrets: inherit
+    with:
+      skill: token-pick
+
+  token-movers:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.skill == 'token-movers' || (github.event_name == 'schedule' && startsWith(github.event.schedule, '0 12'))
+    uses: ./.github/workflows/aeon.yml
+    secrets: inherit
+    with:
+      skill: token-movers
+
+  defi-monitor:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.skill == 'defi-monitor' || (github.event_name == 'schedule' && startsWith(github.event.schedule, '0 12'))
+    uses: ./.github/workflows/aeon.yml
+    secrets: inherit
+    with:
+      skill: defi-monitor
+
+  narrative-tracker:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.skill == 'narrative-tracker' || (github.event_name == 'schedule' && startsWith(github.event.schedule, '30 13'))
+    uses: ./.github/workflows/aeon.yml
+    secrets: inherit
+    with:
+      skill: narrative-tracker
+
+  security-digest:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.skill == 'security-digest' || (github.event_name == 'schedule' && startsWith(github.event.schedule, '0 14') && github.event.schedule != '0 14 * * 1')
+    uses: ./.github/workflows/aeon.yml
+    secrets: inherit
+    with:
+      skill: security-digest
+
+  deal-flow:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.skill == 'deal-flow' || (github.event_name == 'schedule' && startsWith(github.event.schedule, '0 14 * * 1'))
+    uses: ./.github/workflows/aeon.yml
+    secrets: inherit
+    with:
+      skill: deal-flow
