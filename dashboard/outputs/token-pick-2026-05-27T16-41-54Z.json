@@ -1,0 +1,275 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-05-27"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token_header",
+        "sep1",
+        "price_section",
+        "sep2",
+        "score_section",
+        "sep3",
+        "catalyst_section",
+        "sep4",
+        "risk_section",
+        "sep5",
+        "market_section"
+      ]
+    },
+    "token_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token_name",
+        "badge_high",
+        "signal_score"
+      ]
+    },
+    "token_name": {
+      "type": "Heading",
+      "props": {
+        "text": "ICP",
+        "level": "h2"
+      }
+    },
+    "badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "signal_score": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "8/10"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "price_label",
+        "price_grid"
+      ]
+    },
+    "price_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Price & Market Data",
+        "level": "h3"
+      }
+    },
+    "price_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "price_current",
+        "price_24h",
+        "price_7d",
+        "market_cap",
+        "volume_24h",
+        "vol_mcap_ratio"
+      ]
+    },
+    "price_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$2.94"
+      }
+    },
+    "price_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+8.3%",
+        "trend": "up"
+      }
+    },
+    "price_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+15.1%",
+        "trend": "up"
+      }
+    },
+    "market_cap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$1.63B"
+      }
+    },
+    "volume_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$222M"
+      }
+    },
+    "vol_mcap_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap",
+        "value": "0.14"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "score_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score_label",
+        "score_breakdown"
+      ]
+    },
+    "score_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      }
+    },
+    "score_breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "[24h>0 +1, 7d>0 +1, both>5% +2, vol/mcap≥0.10 +2, RS vs BTC/ETH +2] = 8/10",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalyst_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst_label",
+        "catalyst_text"
+      ]
+    },
+    "catalyst_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "AI-chain narrative driven by OpenAI IPO filing anticipation (May 22) and network milestone of 287B mainnet txs at 2.9K TPS, leading all chains in 30-day volume; MISSION70 deflationary tokenomics upgrade upcoming",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "risk_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "risk_label",
+        "risk_text"
+      ]
+    },
+    "risk_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      }
+    },
+    "risk_text": {
+      "type": "Text",
+      "props": {
+        "text": "Narrative-driven pumps on ICP have historically reversed sharply; MISSION70 activation is months out; no DeFi TVL moat",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_label",
+        "market_text"
+      ]
+    },
+    "market_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Market",
+        "level": "h3"
+      }
+    },
+    "market_text": {
+      "type": "Text",
+      "props": {
+        "text": "MicroStrategy",
+        "variant": "body"
+      }
+    }
+  }
+}
