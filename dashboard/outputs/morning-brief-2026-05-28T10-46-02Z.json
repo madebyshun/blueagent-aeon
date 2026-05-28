@@ -1,0 +1,267 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-05-28"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_yesterday",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_item1",
+        "focus_item2"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_item1_title",
+        "focus_item1_reason"
+      ]
+    },
+    "focus_item1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. Confirm secrets",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus_item1_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: token-movers, token-pick, narrative-tracker run at noon UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_item2_title",
+        "focus_item2_reason",
+        "focus_item2_bg"
+      ]
+    },
+    "focus_item2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. Investigate onboard skill",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus_item2_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 33% success rate, unresolved since May 16",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item2_bg": {
+      "type": "Text",
+      "props": {
+        "text": "background: Update MEMORY.md — narrative-tracker already enabled, stale priority",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_yesterday",
+        "yesterday_item1",
+        "yesterday_item2",
+        "yesterday_item3"
+      ]
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday_item1": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick ran ×2: ICP (score 8/10) both rounds, Starmer/MicroStrategy markets flagged with 12–18pp edges",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_item2": {
+      "type": "Text",
+      "props": {
+        "text": "onboard last succeeded May 16; 4 of 6 lifetime runs failed — no consecutive failures currently but rate stays at 0.33",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_item3": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker active in aeon.yml (MEMORY.md still lists it as a next priority — outdated)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_item"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch_item": {
+      "type": "Alert",
+      "props": {
+        "title": "Base MCP Launch",
+        "message": "Base MCP launched May 26 + Azul upgrade + $5.6B TVL — Base cementing AI agent execution layer status; narrative-tracker today should front-run this",
+        "type": "info"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_table"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Time",
+          "Skill"
+        ],
+        "rows": [
+          [
+            "08:00 UTC",
+            "heartbeat"
+          ],
+          [
+            "09:00 UTC",
+            "github-monitor"
+          ],
+          [
+            "12:00 UTC",
+            "token-movers"
+          ],
+          [
+            "12:00 UTC",
+            "token-pick"
+          ],
+          [
+            "13:30 UTC",
+            "narrative-tracker"
+          ],
+          [
+            "14:00 UTC",
+            "heartbeat"
+          ],
+          [
+            "20:00 UTC",
+            "heartbeat"
+          ]
+        ]
+      },
+      "children": []
+    }
+  }
+}
