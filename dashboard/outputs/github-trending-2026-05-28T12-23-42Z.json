@@ -1,0 +1,596 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-05-28"
+      },
+      "children": [
+        "top-pick-section",
+        "sep1",
+        "ai-ml-section",
+        "sep2",
+        "devtools-section",
+        "sep3",
+        "web-apps-section",
+        "sep4",
+        "sources"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-label",
+        "understand-anything-top"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "understand-anything-top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "understand-anything-top-link",
+        "understand-anything-top-desc"
+      ]
+    },
+    "understand-anything-top-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Lum1104/Understand-Anything",
+        "href": "https://github.com/Lum1104/Understand-Anything"
+      },
+      "children": []
+    },
+    "understand-anything-top-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Highest momentum repo today: parses any codebase into a traversable knowledge graph — the missing layer between grep and a senior dev explaining the repo."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "ai-ml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-heading",
+        "taste-skill-item",
+        "ecc-item",
+        "superpowers-item"
+      ]
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "taste-skill-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "taste-skill-title-meta",
+        "taste-skill-desc"
+      ]
+    },
+    "taste-skill-title-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "taste-skill-link",
+        "taste-skill-badges"
+      ]
+    },
+    "taste-skill-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Leonxlnx/taste-skill",
+        "href": "https://github.com/Leonxlnx/taste-skill"
+      },
+      "children": []
+    },
+    "taste-skill-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "taste-skill-stars",
+        "taste-skill-lang",
+        "taste-skill-status"
+      ]
+    },
+    "taste-skill-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 2,235 today (25.5k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "taste-skill-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell"
+      },
+      "children": []
+    },
+    "taste-skill-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "taste-skill-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Injects a judgment layer before LLM output — filters generic, sycophantic, and corporate-speak responses before they ship."
+      },
+      "children": []
+    },
+    "ecc-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ecc-title-meta",
+        "ecc-desc"
+      ]
+    },
+    "ecc-title-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ecc-link",
+        "ecc-badges"
+      ]
+    },
+    "ecc-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "affaan-m/ECC",
+        "href": "https://github.com/affaan-m/ECC"
+      },
+      "children": []
+    },
+    "ecc-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ecc-stars",
+        "ecc-lang",
+        "ecc-status"
+      ]
+    },
+    "ecc-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1,388 today (197k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ecc-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JS"
+      },
+      "children": []
+    },
+    "ecc-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "ecc-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Compacts Claude Code's agent harness context — same capability, lower token overhead per session."
+      },
+      "children": []
+    },
+    "superpowers-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "superpowers-title-meta",
+        "superpowers-desc"
+      ]
+    },
+    "superpowers-title-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "superpowers-link",
+        "superpowers-badges"
+      ]
+    },
+    "superpowers-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "obra/superpowers",
+        "href": "https://github.com/obra/superpowers"
+      },
+      "children": []
+    },
+    "superpowers-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "superpowers-stars",
+        "superpowers-lang",
+        "superpowers-status"
+      ]
+    },
+    "superpowers-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1,726 today (211k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "superpowers-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell"
+      },
+      "children": []
+    },
+    "superpowers-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "superpowers-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Define agent skills in Markdown, run on any LLM with zero config — the canonical open scaffolding for skill-based agents."
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "understand-anything-devtools",
+        "markitdown-item"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "understand-anything-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "understand-anything-dev-title-meta",
+        "understand-anything-dev-desc"
+      ]
+    },
+    "understand-anything-dev-title-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "understand-anything-dev-link",
+        "understand-anything-dev-badges"
+      ]
+    },
+    "understand-anything-dev-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Lum1104/Understand-Anything",
+        "href": "https://github.com/Lum1104/Understand-Anything"
+      },
+      "children": []
+    },
+    "understand-anything-dev-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "understand-anything-dev-stars",
+        "understand-anything-dev-lang",
+        "understand-anything-dev-status"
+      ]
+    },
+    "understand-anything-dev-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 3,766 today (42k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "understand-anything-dev-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      },
+      "children": []
+    },
+    "understand-anything-dev-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "understand-anything-dev-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Parses any repo into an interactive knowledge graph — traverse, query, annotate, blank-to-mapped in one command."
+      },
+      "children": []
+    },
+    "markitdown-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "markitdown-title-meta",
+        "markitdown-desc"
+      ]
+    },
+    "markitdown-title-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "markitdown-link",
+        "markitdown-badges"
+      ]
+    },
+    "markitdown-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "microsoft/markitdown",
+        "href": "https://github.com/microsoft/markitdown"
+      },
+      "children": []
+    },
+    "markitdown-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "markitdown-stars",
+        "markitdown-lang",
+        "markitdown-status"
+      ]
+    },
+    "markitdown-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1,263 today (127k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "markitdown-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      },
+      "children": []
+    },
+    "markitdown-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "markitdown-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Converts PDFs, Word docs, spreadsheets, and audio transcriptions to clean Markdown via one unified API."
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "web-apps-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web-apps-heading",
+        "moneyprinterturbo-item"
+      ]
+    },
+    "web-apps-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "moneyprinterturbo-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "moneyprinterturbo-title-meta",
+        "moneyprinterturbo-desc"
+      ]
+    },
+    "moneyprinterturbo-title-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "moneyprinterturbo-link",
+        "moneyprinterturbo-badges"
+      ]
+    },
+    "moneyprinterturbo-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "harry0703/MoneyPrinterTurbo",
+        "href": "https://github.com/harry0703/MoneyPrinterTurbo"
+      },
+      "children": []
+    },
+    "moneyprinterturbo-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "moneyprinterturbo-stars",
+        "moneyprinterturbo-lang",
+        "moneyprinterturbo-status"
+      ]
+    },
+    "moneyprinterturbo-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1,742 today (65k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "moneyprinterturbo-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      },
+      "children": []
+    },
+    "moneyprinterturbo-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "moneyprinterturbo-desc": {
+      "type": "Text",
+      "props": {
+        "text": "LLM script → TTS voiceover → stock footage → subtitles → export in one pipeline command."
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/13",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
