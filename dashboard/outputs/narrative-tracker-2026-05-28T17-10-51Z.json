@@ -1,0 +1,781 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-05-28"
+      },
+      "children": [
+        "transitions_section",
+        "separator1",
+        "reflexivity_section",
+        "separator2",
+        "positions_section",
+        "separator3",
+        "map_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions_heading",
+        "transition_note",
+        "transition1",
+        "transition2",
+        "transition3",
+        "transition4"
+      ]
+    },
+    "transitions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transition_note": {
+      "type": "Text",
+      "props": {
+        "text": "No prior baseline — all narratives surfaced fresh today.",
+        "variant": "muted"
+      }
+    },
+    "transition1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1_badge",
+        "t1_text"
+      ]
+    },
+    "t1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW: Stablecoin-RWA Convergence"
+      }
+    },
+    "t1_text": {
+      "type": "Text",
+      "props": {
+        "text": "a16z: stablecoins backed by RWA = sectors merging. $311B stablecoin cap + $32B RWA ex-stables. Structural, not hype.",
+        "variant": "body"
+      }
+    },
+    "transition2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2_badge",
+        "t2_text"
+      ]
+    },
+    "t2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW: AI Agent Payment Rails (live infra)"
+      }
+    },
+    "t2_text": {
+      "type": "Text",
+      "props": {
+        "text": "AWS Bedrock AgentCore Payments (Coinbase/Stripe) + Pay.sh (Solana Fndn/Google Cloud, USDC). Agents paying for APIs. Not vaporware.",
+        "variant": "body"
+      }
+    },
+    "transition3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3_badge",
+        "t3_text"
+      ]
+    },
+    "t3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW: Base as AI Agent Execution Layer"
+      }
+    },
+    "t3_text": {
+      "type": "Text",
+      "props": {
+        "text": "Base Azul live + MCP launch this week; $5.6B TVL = 46.6% of L2 DeFi. Coinbase distribution moat holding.",
+        "variant": "body"
+      }
+    },
+    "transition4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4_badge",
+        "t4_text"
+      ]
+    },
+    "t4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW: DTCC Tokenized Securities milestone"
+      }
+    },
+    "t4_text": {
+      "type": "Text",
+      "props": {
+        "text": "Limited production begins July 2026. 6-week runway on RWA's biggest TradFi credibility moment.",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_heading",
+        "reflexivity_alert1",
+        "reflexivity_alert2"
+      ]
+    },
+    "reflexivity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity_alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "AI Agents",
+        "message": "AWS + Coinbase branding creates reflexive loop: institutional names → project rebranding as \"AI agent native\" → token demand. 68% of Q1 DeFi launches claim AI agent integration. Verify on-chain revenue, not labels.",
+        "type": "warning"
+      }
+    },
+    "reflexivity_alert2": {
+      "type": "Alert",
+      "props": {
+        "title": "RWA",
+        "message": "BlackRock filed for 2 more tokenized fund structures May 9 (BUIDL at $2.5B). Institutional presence manufacturing FOMO in RWA tokens. Secondary liquidity near zero on most tokenized products.",
+        "type": "warning"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions_heading",
+        "position1",
+        "position2",
+        "position3",
+        "position4",
+        "position5",
+        "position6",
+        "position7"
+      ]
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "position1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p1_header",
+        "p1_tags",
+        "p1_bear"
+      ]
+    },
+    "p1_header": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN: Stablecoin-RWA Convergence",
+        "variant": "lead"
+      }
+    },
+    "p1_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p1_tag1",
+        "p1_tag2",
+        "p1_tag3"
+      ]
+    },
+    "p1_tag1": {
+      "type": "Badge",
+      "props": {
+        "text": "mindshare 4 ↑↑"
+      }
+    },
+    "p1_tag2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "p1_tag3": {
+      "type": "Badge",
+      "props": {
+        "text": "a16z, BlackRock, Tether"
+      }
+    },
+    "p1_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: think-piece abstraction, traders care about products not sector taxonomy",
+        "variant": "muted"
+      }
+    },
+    "position2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p2_header",
+        "p2_tags",
+        "p2_bear"
+      ]
+    },
+    "p2_header": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: AI Agents + Payments",
+        "variant": "lead"
+      }
+    },
+    "p2_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p2_tag1",
+        "p2_tag2",
+        "p2_tag3"
+      ]
+    },
+    "p2_tag1": {
+      "type": "Badge",
+      "props": {
+        "text": "5 →"
+      }
+    },
+    "p2_tag2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "p2_tag3": {
+      "type": "Badge",
+      "props": {
+        "text": "AWS/Coinbase, SolanaFndn/Google Cloud"
+      }
+    },
+    "p2_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: \"AI agent\" label without on-chain revenue; 919 active projects, few profitable",
+        "variant": "muted"
+      }
+    },
+    "position3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p3_header",
+        "p3_tags",
+        "p3_bear"
+      ]
+    },
+    "p3_header": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: RWA Tokenization",
+        "variant": "lead"
+      }
+    },
+    "p3_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p3_tag1",
+        "p3_tag2",
+        "p3_tag3"
+      ]
+    },
+    "p3_tag1": {
+      "type": "Badge",
+      "props": {
+        "text": "5 ↑"
+      }
+    },
+    "p3_tag2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "p3_tag3": {
+      "type": "Badge",
+      "props": {
+        "text": "BlackRock BUIDL, DTCC July date, a16z"
+      }
+    },
+    "p3_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: tokenized assets illiquid in practice, zero secondary premium priced in",
+        "variant": "muted"
+      }
+    },
+    "position4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p4_header",
+        "p4_tags",
+        "p4_bear"
+      ]
+    },
+    "p4_header": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: Base AI Execution Layer",
+        "variant": "lead"
+      }
+    },
+    "p4_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p4_tag1",
+        "p4_tag2",
+        "p4_tag3"
+      ]
+    },
+    "p4_tag1": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑"
+      }
+    },
+    "p4_tag2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "p4_tag3": {
+      "type": "Badge",
+      "props": {
+        "text": "@jessepollak, @coinbase, Blue Agent ecosystem"
+      }
+    },
+    "p4_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: \"Base = L2 winner\" already consensus",
+        "variant": "muted"
+      }
+    },
+    "position5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p5_header",
+        "p5_tags",
+        "p5_note"
+      ]
+    },
+    "p5_header": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: Restaking",
+        "variant": "lead"
+      }
+    },
+    "p5_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p5_tag1",
+        "p5_tag2",
+        "p5_tag3"
+      ]
+    },
+    "p5_tag1": {
+      "type": "Badge",
+      "props": {
+        "text": "3 →"
+      }
+    },
+    "p5_tag2": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "secondary"
+      }
+    },
+    "p5_tag3": {
+      "type": "Badge",
+      "props": {
+        "text": "EigenLayer, ether.fi"
+      }
+    },
+    "p5_note": {
+      "type": "Text",
+      "props": {
+        "text": "Peak narrative, leverage-on-leverage slashing risk",
+        "variant": "muted"
+      }
+    },
+    "position6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p6_header",
+        "p6_tags",
+        "p6_note"
+      ]
+    },
+    "p6_header": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: InfoFi / Kaito Markets",
+        "variant": "lead"
+      }
+    },
+    "p6_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p6_tag1",
+        "p6_tag2",
+        "p6_tag3"
+      ]
+    },
+    "p6_tag1": {
+      "type": "Badge",
+      "props": {
+        "text": "2 →"
+      }
+    },
+    "p6_tag2": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "secondary"
+      }
+    },
+    "p6_tag3": {
+      "type": "Badge",
+      "props": {
+        "text": "@kaito_ai + @Polymarket"
+      }
+    },
+    "p6_note": {
+      "type": "Text",
+      "props": {
+        "text": "Post-Yaps rebuild, not yet tradeable",
+        "variant": "muted"
+      }
+    },
+    "position7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p7_header",
+        "p7_tags",
+        "p7_note"
+      ]
+    },
+    "p7_header": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: ETH TVL Share",
+        "variant": "lead"
+      }
+    },
+    "p7_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p7_tag1",
+        "p7_tag2",
+        "p7_tag3"
+      ]
+    },
+    "p7_tag1": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↓"
+      }
+    },
+    "p7_tag2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear/Mixed",
+        "variant": "secondary"
+      }
+    },
+    "p7_tag3": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH at 54% share vs 63.5% early 2025, absolute TVL $45.4B"
+      }
+    },
+    "p7_note": {
+      "type": "Text",
+      "props": {
+        "text": "Fading bear-ETH thesis, peak \"ETH is losing\"",
+        "variant": "muted"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_heading",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerging_label",
+        "map_emerging_b1",
+        "map_emerging_b2"
+      ]
+    },
+    "map_emerging_label": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging:",
+        "variant": "lead"
+      }
+    },
+    "map_emerging_b1": {
+      "type": "Badge",
+      "props": {
+        "text": "Stablecoin-RWA Convergence"
+      }
+    },
+    "map_emerging_b2": {
+      "type": "Badge",
+      "props": {
+        "text": "InfoFi/Kaito"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_label",
+        "map_rising_b1",
+        "map_rising_b2",
+        "map_rising_b3"
+      ]
+    },
+    "map_rising_label": {
+      "type": "Text",
+      "props": {
+        "text": "Rising:",
+        "variant": "lead"
+      }
+    },
+    "map_rising_b1": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Payment Rails"
+      }
+    },
+    "map_rising_b2": {
+      "type": "Badge",
+      "props": {
+        "text": "Base AI Layer"
+      }
+    },
+    "map_rising_b3": {
+      "type": "Badge",
+      "props": {
+        "text": "RWA Tokenization"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_label",
+        "map_peak_b1",
+        "map_peak_b2",
+        "map_peak_b3"
+      ]
+    },
+    "map_peak_label": {
+      "type": "Text",
+      "props": {
+        "text": "Peak:",
+        "variant": "lead"
+      }
+    },
+    "map_peak_b1": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agents (broad)"
+      }
+    },
+    "map_peak_b2": {
+      "type": "Badge",
+      "props": {
+        "text": "Restaking"
+      }
+    },
+    "map_peak_b3": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC Dominance (60%)"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_label",
+        "map_fading_b1",
+        "map_fading_b2"
+      ]
+    },
+    "map_fading_label": {
+      "type": "Text",
+      "props": {
+        "text": "Fading:",
+        "variant": "lead"
+      }
+    },
+    "map_fading_b1": {
+      "type": "Badge",
+      "props": {
+        "text": "ETH TVL Share"
+      }
+    },
+    "map_fading_b2": {
+      "type": "Badge",
+      "props": {
+        "text": "Fair Token Launches"
+      }
+    }
+  }
+}

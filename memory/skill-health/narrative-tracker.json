@@ -1,0 +1,16 @@
+{
+  "skill": "narrative-tracker",
+  "last_analyzed": "2026-05-28T17:10:51Z",
+  "quality_score": 4,
+  "assessment": "Substantive narrative identification with specific position calls (FRONT-RUN, RIDE, FADE, WATCH), catalyst dates, and reflexivity analysis; XAI 403 handled with WebSearch fallback; properly logged",
+  "flags": [
+    "api_error"
+  ],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-05-28",
+      "score": 4
+    }
+  ]
+}
