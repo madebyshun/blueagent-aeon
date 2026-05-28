@@ -1,0 +1,541 @@
+{
+  "root": "root-card",
+  "state": {},
+  "elements": {
+    "root-card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-05-28"
+      },
+      "children": [
+        "verdict",
+        "sep-1",
+        "patch-today-section",
+        "sep-2",
+        "patch-week-section",
+        "sep-3",
+        "monitor-section"
+      ]
+    },
+    "verdict": {
+      "type": "Text",
+      "props": {
+        "text": "3 actively exploited (KEV), 5 patch this week, 2 to monitor. Sources: CISA KEV · GH Advisory · EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch-today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-today-heading",
+        "patch-today-stack"
+      ]
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "patch-today-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve-2025-34291",
+        "cve-2026-9082",
+        "cve-2026-8398"
+      ]
+    },
+    "cve-2025-34291": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-2025-34291-link",
+        "cve-2025-34291-meta",
+        "cve-2025-34291-desc",
+        "cve-2025-34291-action"
+      ]
+    },
+    "cve-2025-34291-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2025-34291 — Langflow (pip)",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2025-34291"
+      }
+    },
+    "cve-2025-34291-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-05-21 · EPSS 0.35 · CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve-2025-34291-desc": {
+      "type": "Text",
+      "props": {
+        "text": "CORS misconfig + refresh token bypass → full system compromise. Actively exploited.",
+        "variant": "body"
+      }
+    },
+    "cve-2025-34291-action": {
+      "type": "Alert",
+      "props": {
+        "message": "patch or remove Langflow · due 2026-06-04",
+        "type": "warning"
+      }
+    },
+    "cve-2026-9082": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-2026-9082-link",
+        "cve-2026-9082-meta",
+        "cve-2026-9082-desc",
+        "cve-2026-9082-action"
+      ]
+    },
+    "cve-2026-9082-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-9082 — Drupal Core",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-9082"
+      }
+    },
+    "cve-2026-9082-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-05-22 · EPSS 0.34 · CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve-2026-9082-desc": {
+      "type": "Text",
+      "props": {
+        "text": "DB API SQL injection → privilege escalation + RCE. CISA due date 2026-05-27 — OVERDUE.",
+        "variant": "body"
+      }
+    },
+    "cve-2026-9082-action": {
+      "type": "Alert",
+      "props": {
+        "message": "apply Drupal security update immediately",
+        "type": "error"
+      }
+    },
+    "cve-2026-8398": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-2026-8398-link",
+        "cve-2026-8398-meta",
+        "cve-2026-8398-desc",
+        "cve-2026-8398-action"
+      ]
+    },
+    "cve-2026-8398-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-8398 — Daemon Tools Lite",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-8398"
+      }
+    },
+    "cve-2026-8398-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-05-27 · EPSS 0.33 · CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve-2026-8398-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Embedded malicious code; CIA triad fully compromised.",
+        "variant": "body"
+      }
+    },
+    "cve-2026-8398-action": {
+      "type": "Alert",
+      "props": {
+        "message": "remove or patch Daemon Tools Lite · due 2026-05-30",
+        "type": "error"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch-week-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-week-heading",
+        "patch-week-stack"
+      ]
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch-week-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve-2026-48027",
+        "cve-2026-45321",
+        "cve-2026-48172",
+        "ghsa-gf2q",
+        "ghsa-mxfr"
+      ]
+    },
+    "cve-2026-48027": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-2026-48027-link",
+        "cve-2026-48027-meta",
+        "cve-2026-48027-desc",
+        "cve-2026-48027-action"
+      ]
+    },
+    "cve-2026-48027-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-48027 — Nx Console (npm/VSCode)",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-48027"
+      }
+    },
+    "cve-2026-48027-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-05-27 · EPSS 0.27 · CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve-2026-48027-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Malicious extension version harvested credentials from disk + memory.",
+        "variant": "body"
+      }
+    },
+    "cve-2026-48027-action": {
+      "type": "Alert",
+      "props": {
+        "message": "uninstall or pin to clean version; rotate exposed credentials",
+        "type": "warning"
+      }
+    },
+    "cve-2026-45321": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-2026-45321-link",
+        "cve-2026-45321-meta",
+        "cve-2026-45321-desc",
+        "cve-2026-45321-action"
+      ]
+    },
+    "cve-2026-45321-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-45321 — TanStack (npm)",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-45321"
+      }
+    },
+    "cve-2026-45321-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-05-27 · EPSS 0.15 · CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve-2026-45321-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Malicious npm versions published credential-stealing malware. In-the-wild exploitation confirmed.",
+        "variant": "body"
+      }
+    },
+    "cve-2026-45321-action": {
+      "type": "Alert",
+      "props": {
+        "message": "audit TanStack installs; upgrade to clean release; rotate exposed creds",
+        "type": "warning"
+      }
+    },
+    "cve-2026-48172": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-2026-48172-link",
+        "cve-2026-48172-meta",
+        "cve-2026-48172-desc",
+        "cve-2026-48172-action"
+      ]
+    },
+    "cve-2026-48172-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-48172 — LiteSpeed cPanel Plugin",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-48172"
+      }
+    },
+    "cve-2026-48172-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-05-26 · EPSS 0.08 · CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve-2026-48172-desc": {
+      "type": "Text",
+      "props": {
+        "text": "cPanel users exec arbitrary scripts as root. DUE TOMORROW 2026-05-29.",
+        "variant": "body"
+      }
+    },
+    "cve-2026-48172-action": {
+      "type": "Alert",
+      "props": {
+        "message": "apply LiteSpeed cPanel plugin update now",
+        "type": "error"
+      }
+    },
+    "ghsa-gf2q": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-gf2q-link",
+        "ghsa-gf2q-meta",
+        "ghsa-gf2q-desc",
+        "ghsa-gf2q-action"
+      ]
+    },
+    "ghsa-gf2q-link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-gf2q-c269-pqgc — liquidjs (npm)",
+        "href": "https://github.com/advisories/GHSA-gf2q-c269-pqgc"
+      }
+    },
+    "ghsa-gf2q-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 10.0 · EPSS 0.00 · no public PoC",
+        "variant": "caption"
+      }
+    },
+    "ghsa-gf2q-desc": {
+      "type": "Text",
+      "props": {
+        "text": "RCE via crafted templates exploiting filter evaluation. Max severity.",
+        "variant": "body"
+      }
+    },
+    "ghsa-gf2q-action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade liquidjs to ≥10.26.0",
+        "type": "error"
+      }
+    },
+    "ghsa-mxfr": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-mxfr-link",
+        "ghsa-mxfr-meta",
+        "ghsa-mxfr-desc",
+        "ghsa-mxfr-action"
+      ]
+    },
+    "ghsa-mxfr-link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-mxfr-6hcw-j9rq — langroid (pip)",
+        "href": "https://github.com/advisories/GHSA-mxfr-6hcw-j9rq"
+      }
+    },
+    "ghsa-mxfr-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.8 · EPSS 0.00",
+        "variant": "caption"
+      }
+    },
+    "ghsa-mxfr-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Prompt-to-SQL injection → RCE via DB dialect primitives. AI agent framework risk.",
+        "variant": "body"
+      }
+    },
+    "ghsa-mxfr-action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade langroid to ≥0.63.0",
+        "type": "error"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "monitor-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor-heading",
+        "monitor-stack"
+      ]
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "monitor-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa-hh27",
+        "ghsa-chqv"
+      ]
+    },
+    "ghsa-hh27": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-hh27-link",
+        "ghsa-hh27-meta",
+        "ghsa-hh27-desc",
+        "ghsa-hh27-action"
+      ]
+    },
+    "ghsa-hh27-link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-hh27-hf48-9f5q — liquidjs (npm)",
+        "href": "https://github.com/advisories/GHSA-hh27-hf48-9f5q"
+      }
+    },
+    "ghsa-hh27-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 7.5 · no fix yet · EPSS 0.00",
+        "variant": "caption"
+      }
+    },
+    "ghsa-hh27-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Memory/render limit bypass via unbounded date filter width specifiers.",
+        "variant": "body"
+      }
+    },
+    "ghsa-hh27-action": {
+      "type": "Alert",
+      "props": {
+        "message": "restrict template input sources; watch for patched release",
+        "type": "info"
+      }
+    },
+    "ghsa-chqv": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-chqv-link",
+        "ghsa-chqv-meta",
+        "ghsa-chqv-desc",
+        "ghsa-chqv-action"
+      ]
+    },
+    "ghsa-chqv-link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-chqv-56wv-7564 — deno (crates.io)",
+        "href": "https://github.com/advisories/GHSA-chqv-56wv-7564"
+      }
+    },
+    "ghsa-chqv-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 7.4 · patch: ≥2.7.8 · EPSS 0.00",
+        "variant": "caption"
+      }
+    },
+    "ghsa-chqv-desc": {
+      "type": "Text",
+      "props": {
+        "text": "TLS retry reuses stale upgrade hook → plaintext data when autoSelectFamily enabled.",
+        "variant": "body"
+      }
+    },
+    "ghsa-chqv-action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade deno to ≥2.7.8",
+        "type": "warning"
+      }
+    }
+  }
+}
