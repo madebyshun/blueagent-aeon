@@ -52,14 +52,15 @@
     "last_error": "ef966f6\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
   },
   "defi-monitor": {
-    "last_status": "failed",
+    "last_status": "success",
     "last_failed": "2026-05-28T15:26:34Z",
-    "total_runs": 1,
-    "total_successes": 0,
+    "total_runs": 2,
+    "total_successes": 1,
     "total_failures": 1,
-    "consecutive_failures": 1,
-    "success_rate": 0,
-    "last_error": "9ef3984\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
+    "consecutive_failures": 0,
+    "success_rate": 0.5,
+    "last_error": "9ef3984\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"",
+    "last_success": "2026-05-29T14:43:41Z"
   },
   "narrative-tracker": {
     "last_status": "success",
