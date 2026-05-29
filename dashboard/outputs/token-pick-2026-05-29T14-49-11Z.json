@@ -1,0 +1,258 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-05-29"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token_header",
+        "separator1",
+        "price_section",
+        "separator2",
+        "score_section",
+        "separator3",
+        "catalyst_section",
+        "separator4",
+        "risk_section",
+        "separator5",
+        "comparison_section",
+        "separator6",
+        "market_section"
+      ]
+    },
+    "token_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "token_name",
+        "badge_high",
+        "signal_badge"
+      ]
+    },
+    "token_name": {
+      "type": "Heading",
+      "props": {
+        "text": "INJ",
+        "level": "h2"
+      }
+    },
+    "badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "default"
+      }
+    },
+    "signal_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 10/10",
+        "variant": "secondary"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "price_stat",
+        "price_details"
+      ]
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$6.18",
+        "delta": "+16.7% 24h / +13.3% 7d",
+        "trend": "up"
+      }
+    },
+    "price_details": {
+      "type": "Text",
+      "props": {
+        "text": "mcap $617M | vol $221M (vol/mcap 0.36)",
+        "variant": "muted"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "score_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score_heading",
+        "score_breakdown"
+      ]
+    },
+    "score_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h4"
+      }
+    },
+    "score_breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "trending+2, both 24h/7d>5%+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2, 24h>0+1, 7d>0+1 = 11 → 10/10",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalyst_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst_heading",
+        "catalyst_text"
+      ]
+    },
+    "catalyst_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "Binance US launched INJ staking today (May 29) — largest US retail on-ramp for INJ yield; layered on top of Circle native USDC+CCTP integration (May 7), CFTC-regulated futures on Bitnomial, and record-participation BuyBack (+90% in May 2026)",
+        "variant": "body"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "risk_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "risk_heading",
+        "risk_text"
+      ]
+    },
+    "risk_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      }
+    },
+    "risk_text": {
+      "type": "Text",
+      "props": {
+        "text": "Post-staking sell-the-news in a weak macro week (BTC/ETH both -6% 7d); 90% monthly gain leaves the trade extended",
+        "variant": "body"
+      }
+    },
+    "separator5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "comparison_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "comparison_label",
+        "comparison_value"
+      ]
+    },
+    "comparison_label": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks:",
+        "variant": "caption"
+      }
+    },
+    "comparison_value": {
+      "type": "Text",
+      "props": {
+        "text": "first time",
+        "variant": "caption"
+      }
+    },
+    "separator6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "market_label",
+        "market_badge"
+      ]
+    },
+    "market_label": {
+      "type": "Text",
+      "props": {
+        "text": "Market:",
+        "variant": "caption"
+      }
+    },
+    "market_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "US",
+        "variant": "outline"
+      }
+    }
+  }
+}
