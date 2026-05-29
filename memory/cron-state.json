@@ -43,13 +43,13 @@
   },
   "token-movers": {
     "last_status": "failed",
-    "last_failed": "2026-05-28T15:26:31Z",
-    "total_runs": 1,
+    "last_failed": "2026-05-29T14:54:20Z",
+    "total_runs": 2,
     "total_successes": 0,
-    "total_failures": 1,
-    "consecutive_failures": 1,
+    "total_failures": 2,
+    "consecutive_failures": 2,
     "success_rate": 0,
-    "last_error": "ef966f6\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
+    "last_error": "=false&price_change_percentage=1h,24h,7d'\\nwith urllib.request.urlopen(url, timeout=30) as r:\\n    markets = json.loads(r.read())\\n\\nwith open('cg_markets.json', 'w') as f:\\n    json.dump(markets, f)\\"
   },
   "defi-monitor": {
     "last_status": "success",
