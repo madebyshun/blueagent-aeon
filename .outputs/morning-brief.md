@@ -1,22 +1,23 @@
-*Morning Brief — 2026-05-28*
+*Morning Brief — 2026-05-29*
 
 *Focus today*
-1. Confirm secrets — why now: token-movers, token-pick, narrative-tracker run at noon UTC
-2. Investigate onboard skill — why now: 33% success rate, unresolved since May 16
-background: Update MEMORY.md — narrative-tracker already enabled, stale priority
+1. Token-movers + token-pick failures — why now: retry at noon UTC; 0-token API errors need root-cause before re-run
+2. background: MEMORY.md Next Priorities — stale section lists completed tasks; misleads every skill run
 
 *Since yesterday*
-- token-pick ran ×2: ICP (score 8/10) both rounds, Starmer/MicroStrategy markets flagged with 12–18pp edges
-- onboard last succeeded May 16; 4 of 6 lifetime runs failed — no consecutive failures currently but rate stays at 0.33
-- narrative-tracker active in aeon.yml (MEMORY.md still lists it as a next priority — outdated)
+- narrative-tracker: ran ok (XAI 403 → WebSearch fallback) — AI Agents + Payments + RWA at RIDE, Stablecoin-RWA FRONT-RUN
+- security-digest: 3 critical — 2 npm KEV supply-chain entries (Nx Console, TanStack)
+- github-trending: 6 picks incl. Lum1104/Understand-Anything
+- token-movers: FAILED (0-token API error)
+- token-pick: FAILED (0-token API error)
+- onboard: last run succeeded; consecutive failures reset to 0
 
 *Watch*
-- Base MCP launched May 26 + Azul upgrade + $5.6B TVL — Base cementing AI agent execution layer status; narrative-tracker today should front-run this
+- Robinhood launching AI-powered crypto trading beta — AI Agents + Payments entering TradFi, confirms RIDE from yesterday
 
 *Running today*
-- heartbeat @ 08:00 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
-- heartbeat @ 14:00, 20:00 UTC

@@ -1,0 +1,443 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-05-29"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "since_section",
+        "sep2",
+        "watch_section",
+        "sep3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_item1",
+        "focus_item2"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Token-movers + token-pick failures — why now: retry at noon UTC; 0-token API errors need root-cause before re-run",
+        "variant": "body"
+      }
+    },
+    "focus_item2": {
+      "type": "Text",
+      "props": {
+        "text": "2. background: MEMORY.md Next Priorities — stale section lists completed tasks; misleads every skill run",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "since_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_heading",
+        "since_item1",
+        "since_item2",
+        "since_item3",
+        "since_item4",
+        "since_item5",
+        "since_item6"
+      ]
+    },
+    "since_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "since_1_skill",
+        "since_1_status",
+        "since_1_detail"
+      ]
+    },
+    "since_1_skill": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker:",
+        "variant": "body"
+      }
+    },
+    "since_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ok",
+        "variant": "default"
+      }
+    },
+    "since_1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "(XAI 403 → WebSearch fallback) — AI Agents + Payments + RWA at RIDE, Stablecoin-RWA FRONT-RUN",
+        "variant": "caption"
+      }
+    },
+    "since_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "since_2_skill",
+        "since_2_status",
+        "since_2_detail"
+      ]
+    },
+    "since_2_skill": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest:",
+        "variant": "body"
+      }
+    },
+    "since_2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "3 critical",
+        "variant": "destructive"
+      }
+    },
+    "since_2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "2 npm KEV supply-chain entries (Nx Console, TanStack)",
+        "variant": "caption"
+      }
+    },
+    "since_item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "since_3_skill",
+        "since_3_status",
+        "since_3_detail"
+      ]
+    },
+    "since_3_skill": {
+      "type": "Text",
+      "props": {
+        "text": "github-trending:",
+        "variant": "body"
+      }
+    },
+    "since_3_status": {
+      "type": "Badge",
+      "props": {
+        "text": "6 picks",
+        "variant": "secondary"
+      }
+    },
+    "since_3_detail": {
+      "type": "Text",
+      "props": {
+        "text": "incl. Lum1104/Understand-Anything",
+        "variant": "caption"
+      }
+    },
+    "since_item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "since_4_skill",
+        "since_4_status"
+      ]
+    },
+    "since_4_skill": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers:",
+        "variant": "body"
+      }
+    },
+    "since_4_status": {
+      "type": "Badge",
+      "props": {
+        "text": "FAILED (0-token API error)",
+        "variant": "destructive"
+      }
+    },
+    "since_item5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "since_5_skill",
+        "since_5_status"
+      ]
+    },
+    "since_5_skill": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick:",
+        "variant": "body"
+      }
+    },
+    "since_5_status": {
+      "type": "Badge",
+      "props": {
+        "text": "FAILED (0-token API error)",
+        "variant": "destructive"
+      }
+    },
+    "since_item6": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "since_6_skill",
+        "since_6_status",
+        "since_6_detail"
+      ]
+    },
+    "since_6_skill": {
+      "type": "Text",
+      "props": {
+        "text": "onboard:",
+        "variant": "body"
+      }
+    },
+    "since_6_status": {
+      "type": "Badge",
+      "props": {
+        "text": "succeeded",
+        "variant": "default"
+      }
+    },
+    "since_6_detail": {
+      "type": "Text",
+      "props": {
+        "text": "last run succeeded; consecutive failures reset to 0",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_heading",
+        "watch_item"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_item": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood launching AI-powered crypto trading beta — AI Agents + Payments entering TradFi, confirms RIDE from yesterday",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_heading",
+        "running_item1",
+        "running_item2",
+        "running_item3",
+        "running_item4",
+        "running_item5"
+      ]
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "run1_skill",
+        "run1_time"
+      ]
+    },
+    "run1_skill": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat",
+        "variant": "body"
+      }
+    },
+    "run1_time": {
+      "type": "Badge",
+      "props": {
+        "text": "08:00, 14:00, 20:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "running_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "run2_skill",
+        "run2_time"
+      ]
+    },
+    "run2_skill": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor",
+        "variant": "body"
+      }
+    },
+    "run2_time": {
+      "type": "Badge",
+      "props": {
+        "text": "09:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "running_item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "run3_skill",
+        "run3_time"
+      ]
+    },
+    "run3_skill": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers",
+        "variant": "body"
+      }
+    },
+    "run3_time": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "running_item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "run4_skill",
+        "run4_time"
+      ]
+    },
+    "run4_skill": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick",
+        "variant": "body"
+      }
+    },
+    "run4_time": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "running_item5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "run5_skill",
+        "run5_time"
+      ]
+    },
+    "run5_skill": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "body"
+      }
+    },
+    "run5_time": {
+      "type": "Badge",
+      "props": {
+        "text": "13:30 UTC",
+        "variant": "outline"
+      }
+    }
+  }
+}
