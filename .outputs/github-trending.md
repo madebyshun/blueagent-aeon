@@ -1,28 +1,29 @@
-*GitHub Trending — 2026-05-28*
+*GitHub Trending — 2026-05-30*
 
-*Top pick* — [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything)
-Highest momentum repo today: parses any codebase into a traversable knowledge graph — the missing layer between grep and a senior dev explaining the repo.
+*Top pick* — [run-llama/liteparse](https://github.com/run-llama/liteparse)
+LlamaIndex going open-source in Rust for doc parsing — serious competition for cloud-locked PDF extractors.
 
 *AI/ML*
-• [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — ★ 2,235 today (25.5k total) · Shell · [ACCELERATING]
-Injects a judgment layer before LLM output — filters generic, sycophantic, and corporate-speak responses before they ship.
+• [run-llama/liteparse](https://github.com/run-llama/liteparse) — ★ 701 today (7.6k total) · Rust · [ACCELERATING]
+LlamaIndex's open Rust parser — production speed, no cloud lock-in, drops into any RAG pipeline.
 
-• [affaan-m/ECC](https://github.com/affaan-m/ECC) — ★ 1,388 today (197k total) · JS · [ACCELERATING]
-Compacts Claude Code's agent harness context — same capability, lower token overhead per session.
-
-• [obra/superpowers](https://github.com/obra/superpowers) — ★ 1,726 today (211k total) · Shell · [RETURNING]
-Define agent skills in Markdown, run on any LLM with zero config — the canonical open scaffolding for skill-based agents.
+• [galilai-group/stable-worldmodel](https://github.com/galilai-group/stable-worldmodel) — ★ 362 today (1.3k total) · Python · [RETURNING]
+Reproducible eval harness for world models — spike signals a preprint or major release this week.
 
 *Devtools*
-• [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) — ★ 3,766 today (42k total) · TypeScript · [ACCELERATING]
-Parses any repo into an interactive knowledge graph — traverse, query, annotate, blank-to-mapped in one command.
+• [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) — ★ 617 today (7.2k total) · [ACCELERATING]
+Single-file skill strips AI-sounding prose patterns — diff-reviewable, no LLM call needed.
 
-• [microsoft/markitdown](https://github.com/microsoft/markitdown) — ★ 1,263 today (127k total) · Python · [RETURNING]
-Converts PDFs, Word docs, spreadsheets, and audio transcriptions to clean Markdown via one unified API.
+• [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) — ★ 353 today (18.3k total) · TypeScript · [ACCELERATING]
+Syncs memory + context across Claude Code, Codex, and Cursor — one plugin, all three editors.
 
 *Web/Apps*
-• [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — ★ 1,742 today (65k total) · Python · [RETURNING]
-LLM script → TTS voiceover → stock footage → subtitles → export in one pipeline command.
+• [twentyhq/twenty](https://github.com/twentyhq/twenty) — ★ 578 today (48.6k total) · TypeScript · [RETURNING]
+Open Salesforce alternative rebuilt for AI agents — API-first, workflow-native, fully self-hostable.
+
+*Other*
+• [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) — ★ 318 today (27.1k total) · TypeScript · [ACCELERATING]
+Self-contained offline AI computer — full tool stack + knowledge base, runs air-gapped on commodity hardware.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/13
+sources: trending=ok · gh_api=ok · kept 6/17

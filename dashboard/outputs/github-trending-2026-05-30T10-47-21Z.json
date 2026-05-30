@@ -1,0 +1,532 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-05-30"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_top_pick",
+        "sep1",
+        "section_ai_ml",
+        "sep2",
+        "section_devtools",
+        "sep3",
+        "section_web_apps",
+        "sep4",
+        "section_other",
+        "sep5",
+        "footer"
+      ]
+    },
+    "section_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_top_pick",
+        "repo_top_pick"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_liteparse_top",
+        "text_liteparse_top"
+      ]
+    },
+    "link_liteparse_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "run-llama/liteparse",
+        "href": "https://github.com/run-llama/liteparse"
+      },
+      "children": []
+    },
+    "text_liteparse_top": {
+      "type": "Text",
+      "props": {
+        "text": "LlamaIndex going open-source in Rust for doc parsing — serious competition for cloud-locked PDF extractors.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_ai_ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_ai_ml",
+        "repo_liteparse",
+        "repo_stable_worldmodel"
+      ]
+    },
+    "heading_ai_ml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_liteparse": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "info_liteparse",
+        "link_liteparse",
+        "text_liteparse"
+      ]
+    },
+    "info_liteparse": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_acc_1",
+        "stat_liteparse"
+      ]
+    },
+    "badge_acc_1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat_liteparse": {
+      "type": "Text",
+      "props": {
+        "text": "★ 701 today (7.6k total) · Rust",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_liteparse": {
+      "type": "StoryLink",
+      "props": {
+        "title": "run-llama/liteparse",
+        "href": "https://github.com/run-llama/liteparse"
+      },
+      "children": []
+    },
+    "text_liteparse": {
+      "type": "Text",
+      "props": {
+        "text": "LlamaIndex's open Rust parser — production speed, no cloud lock-in, drops into any RAG pipeline.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo_stable_worldmodel": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "info_stable_worldmodel",
+        "link_stable_worldmodel",
+        "text_stable_worldmodel"
+      ]
+    },
+    "info_stable_worldmodel": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ret_1",
+        "stat_stable_worldmodel"
+      ]
+    },
+    "badge_ret_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat_stable_worldmodel": {
+      "type": "Text",
+      "props": {
+        "text": "★ 362 today (1.3k total) · Python",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_stable_worldmodel": {
+      "type": "StoryLink",
+      "props": {
+        "title": "galilai-group/stable-worldmodel",
+        "href": "https://github.com/galilai-group/stable-worldmodel"
+      },
+      "children": []
+    },
+    "text_stable_worldmodel": {
+      "type": "Text",
+      "props": {
+        "text": "Reproducible eval harness for world models — spike signals a preprint or major release this week.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "repo_stop_slop",
+        "repo_compound"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_stop_slop": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "info_stop_slop",
+        "link_stop_slop",
+        "text_stop_slop"
+      ]
+    },
+    "info_stop_slop": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_acc_2",
+        "stat_stop_slop"
+      ]
+    },
+    "badge_acc_2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat_stop_slop": {
+      "type": "Text",
+      "props": {
+        "text": "★ 617 today (7.2k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_stop_slop": {
+      "type": "StoryLink",
+      "props": {
+        "title": "hardikpandya/stop-slop",
+        "href": "https://github.com/hardikpandya/stop-slop"
+      },
+      "children": []
+    },
+    "text_stop_slop": {
+      "type": "Text",
+      "props": {
+        "text": "Single-file skill strips AI-sounding prose patterns — diff-reviewable, no LLM call needed.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo_compound": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "info_compound",
+        "link_compound",
+        "text_compound"
+      ]
+    },
+    "info_compound": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_acc_3",
+        "stat_compound"
+      ]
+    },
+    "badge_acc_3": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat_compound": {
+      "type": "Text",
+      "props": {
+        "text": "★ 353 today (18.3k total) · TypeScript",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_compound": {
+      "type": "StoryLink",
+      "props": {
+        "title": "EveryInc/compound-engineering-plugin",
+        "href": "https://github.com/EveryInc/compound-engineering-plugin"
+      },
+      "children": []
+    },
+    "text_compound": {
+      "type": "Text",
+      "props": {
+        "text": "Syncs memory + context across Claude Code, Codex, and Cursor — one plugin, all three editors.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_web_apps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_web_apps",
+        "repo_twenty"
+      ]
+    },
+    "heading_web_apps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_twenty": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "info_twenty",
+        "link_twenty",
+        "text_twenty"
+      ]
+    },
+    "info_twenty": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ret_2",
+        "stat_twenty"
+      ]
+    },
+    "badge_ret_2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat_twenty": {
+      "type": "Text",
+      "props": {
+        "text": "★ 578 today (48.6k total) · TypeScript",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_twenty": {
+      "type": "StoryLink",
+      "props": {
+        "title": "twentyhq/twenty",
+        "href": "https://github.com/twentyhq/twenty"
+      },
+      "children": []
+    },
+    "text_twenty": {
+      "type": "Text",
+      "props": {
+        "text": "Open Salesforce alternative rebuilt for AI agents — API-first, workflow-native, fully self-hostable.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_other": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_other",
+        "repo_nomad"
+      ]
+    },
+    "heading_other": {
+      "type": "Heading",
+      "props": {
+        "text": "Other",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_nomad": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "info_nomad",
+        "link_nomad",
+        "text_nomad"
+      ]
+    },
+    "info_nomad": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_acc_4",
+        "stat_nomad"
+      ]
+    },
+    "badge_acc_4": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat_nomad": {
+      "type": "Text",
+      "props": {
+        "text": "★ 318 today (27.1k total) · TypeScript",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "link_nomad": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Crosstalk-Solutions/project-nomad",
+        "href": "https://github.com/Crosstalk-Solutions/project-nomad"
+      },
+      "children": []
+    },
+    "text_nomad": {
+      "type": "Text",
+      "props": {
+        "text": "Self-contained offline AI computer — full tool stack + knowledge base, runs air-gapped on commodity hardware.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/17",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
