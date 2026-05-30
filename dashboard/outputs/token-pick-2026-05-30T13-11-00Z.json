@@ -1,0 +1,250 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-05-30"
+      },
+      "children": [
+        "token_info",
+        "sep1",
+        "price_data",
+        "sep2",
+        "score_section",
+        "sep3",
+        "catalyst_alert",
+        "sep4",
+        "risk_alert",
+        "sep5",
+        "sources_section",
+        "sep6",
+        "disclaimer_text"
+      ]
+    },
+    "token_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token_name",
+        "signal_badge",
+        "score_stat"
+      ]
+    },
+    "token_name": {
+      "type": "Heading",
+      "props": {
+        "text": "XLM",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "signal_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "score_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "10/10"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "price_data": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "price_current",
+        "change_24h_stat",
+        "change_7d_stat",
+        "mcap_stat",
+        "volume_stat",
+        "vol_ratio_stat"
+      ]
+    },
+    "price_current": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.247"
+      },
+      "children": []
+    },
+    "change_24h_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+21.3%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "change_7d_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+75.1%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "mcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$8.3B"
+      },
+      "children": []
+    },
+    "volume_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$2.48B"
+      },
+      "children": []
+    },
+    "vol_ratio_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/MCap",
+        "value": "0.30"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "score_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score_heading",
+        "score_breakdown"
+      ]
+    },
+    "score_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "score_breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "trending +2 | vol/mcap +3 | RS vs BTC/ETH +2 | both >5% +2 | price >0 +2 = 11→10/10",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "catalyst_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Catalyst",
+        "message": "DTCC (world's largest securities processor) announced it will connect its tokenized platform to Stellar — Russell 1000 stocks and US Treasuries on a public blockchain for the first time, under SEC no-action letter, H1 2027 target",
+        "type": "info"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "risk_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "75% 7d surge front-runs a 2027 delivery date; no near-term catalyst before next year, early buyers could rotate out",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_heading",
+        "sources_status"
+      ]
+    },
+    "sources_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "sources_status": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok | dex=fail | poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "disclaimer_text": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
