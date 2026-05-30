@@ -31,13 +31,13 @@
     "success_rate": 1
   },
   "github-trending": {
-    "last_status": "failed",
-    "last_success": "2026-05-28T12:24:17Z",
-    "total_runs": 2,
-    "total_successes": 1,
+    "last_status": "success",
+    "last_success": "2026-05-30T10:48:02Z",
+    "total_runs": 3,
+    "total_successes": 2,
     "total_failures": 1,
-    "consecutive_failures": 1,
-    "success_rate": 0.5,
+    "consecutive_failures": 0,
+    "success_rate": 0.67,
     "last_failed": "2026-05-29T12:09:05Z",
     "last_error": "Tokens\":12,\"cacheReadInputTokens\":0,\"cacheCreationInputTokens\":0,\"webSearchRequests\":0,\"costUSD\":0.0005250000000000001,\"contextWindow\":200000,\"maxOutputTokens\":32000},\"claude-sonnet-4-6\":{\"inputTokens"
   },
