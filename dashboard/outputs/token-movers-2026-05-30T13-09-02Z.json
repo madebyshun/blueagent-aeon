@@ -1,0 +1,718 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-05-30"
+      },
+      "children": [
+        "overview",
+        "sep1",
+        "winners-heading",
+        "winners-table",
+        "sep2",
+        "losers-heading",
+        "losers-table",
+        "sep3",
+        "trending-heading",
+        "trending-stack",
+        "sep4",
+        "notable-heading",
+        "notable-stack"
+      ]
+    },
+    "overview": {
+      "type": "Text",
+      "props": {
+        "text": "Broad risk-on — 80%+ of non-stables in the top 100 are green, median ~+2.5%; alt rotation led by XLM, ALGO, and HBAR alongside AI/DeFi names.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "LAB",
+            "$7.55",
+            "+27.5%",
+            "+63.4%",
+            "+3.4%",
+            "$129M / #97",
+            "TRENDING+UP, BREAKOUT"
+          ],
+          [
+            "XLM (Stellar)",
+            "$0.2471",
+            "+21.3%",
+            "+75.2%",
+            "−1.8%",
+            "$2.49B / #17",
+            "TRENDING+UP, BREAKOUT, MAJOR"
+          ],
+          [
+            "H (Humanity)",
+            "$0.3186",
+            "+17.7%",
+            "+52.2%",
+            "−4.2%",
+            "$84.9M / #96",
+            "BREAKOUT"
+          ],
+          [
+            "FET (ASI Alliance)",
+            "$0.2690",
+            "+15.4%",
+            "+37.1%",
+            "+3.2%",
+            "$241M / #94",
+            "TRENDING+UP, BREAKOUT"
+          ],
+          [
+            "INJ (Injective)",
+            "$6.72",
+            "+12.6%",
+            "+37.1%",
+            "+1.5%",
+            "$342M / #87",
+            ""
+          ],
+          [
+            "HBAR (Hedera)",
+            "$0.1003",
+            "+11.6%",
+            "+16.5%",
+            "+1.4%",
+            "$562M / #27",
+            "TRENDING+UP"
+          ],
+          [
+            "ALGO (Algorand)",
+            "$0.1265",
+            "+11.5%",
+            "+15.1%",
+            "−0.0%",
+            "$126M / #63",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "$68.27",
+            "+10.2%",
+            "+24.0%",
+            "+0.7%",
+            "$1.57B / #11",
+            "TRENDING+UP, MAJOR"
+          ],
+          [
+            "NIGHT (Midnight)",
+            "$0.03781",
+            "+7.7%",
+            "+16.5%",
+            "+1.1%",
+            "$14.5M / #90",
+            ""
+          ],
+          [
+            "XDC (XDC Network)",
+            "$0.03367",
+            "+6.6%",
+            "+7.5%",
+            "−2.0%",
+            "$18.4M / #86",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "M (MemeCore)",
+            "$2.85",
+            "−5.8%",
+            "+4.3%",
+            "+0.8%",
+            "$6.97M / #30",
+            ""
+          ],
+          [
+            "ONDO",
+            "$0.3469",
+            "−3.3%",
+            "−13.0%",
+            "−0.2%",
+            "$206M / #50",
+            ""
+          ],
+          [
+            "STABLE",
+            "$0.03772",
+            "−1.9%",
+            "+13.8%",
+            "−0.2%",
+            "$13.5M / #76",
+            ""
+          ],
+          [
+            "ZEC (Zcash)",
+            "$523.17",
+            "−1.4%",
+            "−10.1%",
+            "−0.2%",
+            "$562M / #16",
+            ""
+          ],
+          [
+            "SKY",
+            "$0.06484",
+            "−1.2%",
+            "−6.8%",
+            "+0.2%",
+            "$8.56M / #54",
+            ""
+          ],
+          [
+            "NEAR",
+            "$2.40",
+            "−1.2%",
+            "+15.8%",
+            "−0.5%",
+            "$815M / #33",
+            ""
+          ],
+          [
+            "RAIN",
+            "$0.01438",
+            "−1.0%",
+            "+98.8%",
+            "−0.3%",
+            "$44.4M / #14",
+            ""
+          ],
+          [
+            "CC (Canton)",
+            "$0.1548",
+            "−0.9%",
+            "−0.4%",
+            "+0.0%",
+            "$10.3M / #22",
+            ""
+          ],
+          [
+            "FLR (Flare)",
+            "$0.007718",
+            "−0.5%",
+            "−6.1%",
+            "+0.1%",
+            "$3.97M / #88",
+            ""
+          ],
+          [
+            "SUI",
+            "$0.9001",
+            "−0.4%",
+            "−10.2%",
+            "+0.3%",
+            "$517M / #31",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "trending-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trend-item-1",
+        "trend-item-2",
+        "trend-item-3",
+        "trend-item-4",
+        "trend-item-5",
+        "trend-item-6",
+        "trend-item-7"
+      ]
+    },
+    "trend-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trend-1-token",
+        "trend-1-rank",
+        "trend-1-price",
+        "trend-1-change"
+      ]
+    },
+    "trend-1-token": {
+      "type": "Text",
+      "props": {
+        "text": "BONK",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trend-1-rank": {
+      "type": "Badge",
+      "props": {
+        "text": "#110"
+      },
+      "children": []
+    },
+    "trend-1-price": {
+      "type": "Text",
+      "props": {
+        "text": "$0.0000055",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "trend-1-change": {
+      "type": "Badge",
+      "props": {
+        "text": "+1.8%",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trend-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trend-2-token",
+        "trend-2-rank",
+        "trend-2-price",
+        "trend-2-change"
+      ]
+    },
+    "trend-2-token": {
+      "type": "Text",
+      "props": {
+        "text": "PENGU (Pudgy Penguins)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trend-2-rank": {
+      "type": "Badge",
+      "props": {
+        "text": "#105"
+      },
+      "children": []
+    },
+    "trend-2-price": {
+      "type": "Text",
+      "props": {
+        "text": "$0.00802",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "trend-2-change": {
+      "type": "Badge",
+      "props": {
+        "text": "+5.5%",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trend-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trend-3-token",
+        "trend-3-rank",
+        "trend-3-price",
+        "trend-3-change",
+        "trend-3-tag"
+      ]
+    },
+    "trend-3-token": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE (Hyperliquid)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trend-3-rank": {
+      "type": "Badge",
+      "props": {
+        "text": "#11"
+      },
+      "children": []
+    },
+    "trend-3-price": {
+      "type": "Text",
+      "props": {
+        "text": "$68.02",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "trend-3-change": {
+      "type": "Badge",
+      "props": {
+        "text": "+9.8%",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trend-3-tag": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "trend-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trend-4-token",
+        "trend-4-rank",
+        "trend-4-price",
+        "trend-4-change",
+        "trend-4-tag"
+      ]
+    },
+    "trend-4-token": {
+      "type": "Text",
+      "props": {
+        "text": "XLM (Stellar)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trend-4-rank": {
+      "type": "Badge",
+      "props": {
+        "text": "#17"
+      },
+      "children": []
+    },
+    "trend-4-price": {
+      "type": "Text",
+      "props": {
+        "text": "$0.2469",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "trend-4-change": {
+      "type": "Badge",
+      "props": {
+        "text": "+21.2%",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trend-4-tag": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "trend-item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trend-5-token",
+        "trend-5-rank",
+        "trend-5-price",
+        "trend-5-change"
+      ]
+    },
+    "trend-5-token": {
+      "type": "Text",
+      "props": {
+        "text": "LIT (Lighter)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trend-5-rank": {
+      "type": "Badge",
+      "props": {
+        "text": "#129"
+      },
+      "children": []
+    },
+    "trend-5-price": {
+      "type": "Text",
+      "props": {
+        "text": "$1.419",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "trend-5-change": {
+      "type": "Badge",
+      "props": {
+        "text": "+23.7%",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trend-item-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trend-6-token",
+        "trend-6-rank",
+        "trend-6-price",
+        "trend-6-change",
+        "trend-6-tag"
+      ]
+    },
+    "trend-6-token": {
+      "type": "Text",
+      "props": {
+        "text": "HBAR (Hedera)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trend-6-rank": {
+      "type": "Badge",
+      "props": {
+        "text": "#27"
+      },
+      "children": []
+    },
+    "trend-6-price": {
+      "type": "Text",
+      "props": {
+        "text": "$0.1001",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "trend-6-change": {
+      "type": "Badge",
+      "props": {
+        "text": "+11.3%",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trend-6-tag": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "trend-item-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trend-7-token",
+        "trend-7-rank",
+        "trend-7-price",
+        "trend-7-change",
+        "trend-7-tag"
+      ]
+    },
+    "trend-7-token": {
+      "type": "Text",
+      "props": {
+        "text": "LAB",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trend-7-rank": {
+      "type": "Badge",
+      "props": {
+        "text": "#97"
+      },
+      "children": []
+    },
+    "trend-7-price": {
+      "type": "Text",
+      "props": {
+        "text": "$7.508",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "trend-7-change": {
+      "type": "Badge",
+      "props": {
+        "text": "+27.0%",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trend-7-tag": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "notable-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "notable-1": {
+      "type": "Alert",
+      "props": {
+        "title": "XLM: Sustained Major Breakout",
+        "message": "Trending + +21.3% on $2.49B volume, 7d +75.2% — sustained major breakout",
+        "type": "success"
+      },
+      "children": []
+    },
+    "notable-2": {
+      "type": "Alert",
+      "props": {
+        "title": "LAB: Breakout at Rank 97",
+        "message": "Trending + +27.5% on $129M volume, 7d +63.4% — breakout at rank 97",
+        "type": "success"
+      },
+      "children": []
+    },
+    "notable-3": {
+      "type": "Alert",
+      "props": {
+        "title": "FET: AI Momentum",
+        "message": "AI-token + trending, +15.4% / 7d +37.1% — ASI Alliance narrative momentum",
+        "type": "info"
+      },
+      "children": []
+    },
+    "notable-4": {
+      "type": "Alert",
+      "props": {
+        "title": "RAIN: Extreme Liquidity Warning",
+        "message": "RAIN (#14): 7d +98.8% on $44M daily volume vs $8.95B mcap — extremely thin liquidity, today's −1% may signal distribution",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
