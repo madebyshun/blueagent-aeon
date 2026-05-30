@@ -1,23 +1,21 @@
-*Morning Brief — 2026-05-29*
+*Morning Brief — 2026-05-30*
 
 *Focus today*
-1. Token-movers + token-pick failures — why now: retry at noon UTC; 0-token API errors need root-cause before re-run
-2. background: MEMORY.md Next Priorities — stale section lists completed tasks; misleads every skill run
+1. token-movers repair — why now: 3rd failure at 12:00 UTC, sandbox blocks Python urllib
+2. background: MEMORY.md Next Priorities stale — narrative-tracker already enabled, token-movers is the real gap
 
 *Since yesterday*
-- narrative-tracker: ran ok (XAI 403 → WebSearch fallback) — AI Agents + Payments + RWA at RIDE, Stablecoin-RWA FRONT-RUN
-- security-digest: 3 critical — 2 npm KEV supply-chain entries (Nx Console, TanStack)
-- github-trending: 6 picks incl. Lum1104/Understand-Anything
-- token-movers: FAILED (0-token API error)
-- token-pick: FAILED (0-token API error)
-- onboard: last run succeeded; consecutive failures reset to 0
+- token-pick: INJ +16.7%, score 10/10 — notified ✓
+- defi-monitor: skipped (no on-chain-watches.yml)
+- github-trending: 1 consecutive failure — disabled, won't rerun today
+- security-digest: 1 consecutive failure — disabled, won't rerun today
 
 *Watch*
-- Robinhood launching AI-powered crypto trading beta — AI Agents + Payments entering TradFi, confirms RIDE from yesterday
+- Base MCP live (May 26): AI agents now execute on-chain DeFi on Base via Claude/ChatGPT — direct narrative tailwind for $BLUEAGENT; narrative-tracker runs today at 13:30 UTC and should capture it
 
 *Running today*
-- heartbeat @ 08:00, 14:00, 20:00 UTC
+- heartbeat @ 08:00 / 14:00 / 20:00 UTC
 - github-monitor @ 09:00 UTC
-- token-movers @ 12:00 UTC
+- token-movers @ 12:00 UTC ⚠️ (2 failures)
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC

@@ -8,3 +8,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-05-28,security-digest,claude-sonnet-4-6,421,17563,470557,39495
 2026-05-29,morning-brief,claude-sonnet-4-6,11,7799,282266,30302
 2026-05-29,token-pick,claude-sonnet-4-6,2000,17793,547956,47916
+2026-05-30,morning-brief,claude-sonnet-4-6,13,5988,361042,27824

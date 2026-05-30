@@ -1,0 +1,252 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-05-30"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "yesterday_section",
+        "sep2",
+        "watch_section",
+        "sep3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_item1",
+        "focus_item2"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_item1": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers repair — why now: 3rd failure at 12:00 UTC, sandbox blocks Python urllib",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item2": {
+      "type": "Text",
+      "props": {
+        "text": "background: MEMORY.md Next Priorities stale — narrative-tracker already enabled, token-movers is the real gap",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "yesterday_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_heading",
+        "yesterday_item1",
+        "yesterday_item2",
+        "yesterday_item3",
+        "yesterday_item4"
+      ]
+    },
+    "yesterday_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "yest1_text",
+        "yest1_badge"
+      ]
+    },
+    "yest1_text": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick: INJ +16.7%, score 10/10 — notified",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yest1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "✓",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "yesterday_item2": {
+      "type": "Text",
+      "props": {
+        "text": "defi-monitor: skipped (no on-chain-watches.yml)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_item3": {
+      "type": "Text",
+      "props": {
+        "text": "github-trending: 1 consecutive failure — disabled, won't rerun today",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_item4": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest: 1 consecutive failure — disabled, won't rerun today",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_heading",
+        "watch_item"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch_item": {
+      "type": "Text",
+      "props": {
+        "text": "Base MCP live (May 26): AI agents now execute on-chain DeFi on Base via Claude/ChatGPT — direct narrative tailwind for $BLUEAGENT; narrative-tracker runs today at 13:30 UTC and should capture it",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_heading",
+        "running_item1",
+        "running_item2",
+        "running_item3",
+        "running_item4",
+        "running_item5"
+      ]
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running_item1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 / 14:00 / 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_item2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_item3": {
+      "type": "Alert",
+      "props": {
+        "title": "token-movers @ 12:00 UTC",
+        "message": "2 failures",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "running_item4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_item5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
