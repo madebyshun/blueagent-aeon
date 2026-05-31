@@ -1,0 +1,767 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-05-31"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-transitions",
+        "transitions-stack",
+        "separator-1",
+        "heading-reflexivity",
+        "reflexivity-stack",
+        "separator-2",
+        "heading-positions",
+        "positions-stack",
+        "separator-3",
+        "heading-map",
+        "map-stack"
+      ]
+    },
+    "heading-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS (baseline run — no prior 3-day entries)",
+        "level": "h2"
+      }
+    },
+    "transitions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans-ai-payments",
+        "trans-rwa",
+        "trans-base",
+        "trans-prediction"
+      ]
+    },
+    "trans-ai-payments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-ai-payments-heading",
+        "trans-ai-payments-text"
+      ]
+    },
+    "trans-ai-payments-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NEW: AI Agent Payments",
+        "level": "h3"
+      }
+    },
+    "trans-ai-payments-text": {
+      "type": "Text",
+      "props": {
+        "text": "AWS AgentCore + Coinbase x402 live on Base; enterprise AI wallets are infrastructure now, not narrative"
+      }
+    },
+    "trans-rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-rwa-heading",
+        "trans-rwa-text"
+      ]
+    },
+    "trans-rwa-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NEW: RWA Tokenization",
+        "level": "h3"
+      }
+    },
+    "trans-rwa-text": {
+      "type": "Text",
+      "props": {
+        "text": "$34.5B on-chain, Ondo/JPMorgan/Mastercard/Ripple first near-real-time cross-border tokenized Treasury redemption (May 6)"
+      }
+    },
+    "trans-base": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-base-heading",
+        "trans-base-text"
+      ]
+    },
+    "trans-base-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NEW: Base Ecosystem Momentum",
+        "level": "h3"
+      }
+    },
+    "trans-base-text": {
+      "type": "Text",
+      "props": {
+        "text": "Base Azul Apr 22, Base Batches SF Demo Day, x402 default settlement on Base for AgentCore"
+      }
+    },
+    "trans-prediction": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-prediction-heading",
+        "trans-prediction-text"
+      ]
+    },
+    "trans-prediction-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NEW: Prediction Market Controversy",
+        "level": "h3"
+      }
+    },
+    "trans-prediction-text": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket war-bet precision flagged as national security risk, DEATH BETS Act filed in Congress"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflex-ai-payments",
+        "reflex-rwa",
+        "reflex-prediction"
+      ]
+    },
+    "reflex-ai-payments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflex-ai-payments-heading",
+        "reflex-ai-payments-text"
+      ]
+    },
+    "reflex-ai-payments-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agent Payments",
+        "level": "h3"
+      }
+    },
+    "reflex-ai-payments-text": {
+      "type": "Text",
+      "props": {
+        "text": "Projects rebranding \"agent-native\" with no on-chain revenue; $BLUEAGENT-tier tokens moving on AWS narrative, not fundamentals"
+      }
+    },
+    "reflex-rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflex-rwa-heading",
+        "reflex-rwa-text",
+        "reflex-rwa-stat"
+      ]
+    },
+    "reflex-rwa-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "RWA Tokenization",
+        "level": "h3"
+      }
+    },
+    "reflex-rwa-text": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO +23% in 24h on JPMorgan/Mastercard/Ripple settlement news; sell-the-news pattern forming"
+      }
+    },
+    "reflex-rwa-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ONDO Change (24h)",
+        "value": "+23%",
+        "trend": "up"
+      }
+    },
+    "reflex-prediction": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflex-prediction-heading",
+        "reflex-prediction-text"
+      ]
+    },
+    "reflex-prediction-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Prediction Markets",
+        "level": "h3"
+      }
+    },
+    "reflex-prediction-text": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket is now both the signal source and the subject of the story it surfaced"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos-ai-payments",
+        "pos-base",
+        "pos-rwa",
+        "pos-prediction",
+        "pos-stablecoin",
+        "pos-ai-infra"
+      ]
+    },
+    "pos-ai-payments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-ai-payments-header",
+        "pos-ai-payments-thesis",
+        "pos-ai-payments-bear"
+      ]
+    },
+    "pos-ai-payments-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-ai-payments-title",
+        "pos-ai-payments-mindshare",
+        "pos-ai-payments-sentiment"
+      ]
+    },
+    "pos-ai-payments-title": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE: AI Agent Payments",
+        "level": "h3"
+      }
+    },
+    "pos-ai-payments-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "4",
+        "trend": "up"
+      }
+    },
+    "pos-ai-payments-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos-ai-payments-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "@AWS @coinbase @stripe",
+        "variant": "body"
+      }
+    },
+    "pos-ai-payments-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: x402 two-sided network slow to bootstrap",
+        "variant": "caption"
+      }
+    },
+    "pos-base": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-base-header",
+        "pos-base-thesis",
+        "pos-base-bear"
+      ]
+    },
+    "pos-base-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-base-title",
+        "pos-base-mindshare",
+        "pos-base-sentiment"
+      ]
+    },
+    "pos-base-title": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE: Base Ecosystem",
+        "level": "h3"
+      }
+    },
+    "pos-base-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "3",
+        "trend": "up"
+      }
+    },
+    "pos-base-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos-base-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "@base @jessepollak",
+        "variant": "body"
+      }
+    },
+    "pos-base-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: tied to Coinbase regulatory risk",
+        "variant": "caption"
+      }
+    },
+    "pos-rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-rwa-header",
+        "pos-rwa-thesis",
+        "pos-rwa-detail"
+      ]
+    },
+    "pos-rwa-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-rwa-title",
+        "pos-rwa-mindshare",
+        "pos-rwa-sentiment"
+      ]
+    },
+    "pos-rwa-title": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE: RWA Tokenization",
+        "level": "h3"
+      }
+    },
+    "pos-rwa-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "5",
+        "trend": "neutral"
+      }
+    },
+    "pos-rwa-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Reflexivity",
+        "variant": "warning"
+      }
+    },
+    "pos-rwa-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "@BlackRock @OndoFinance @JPMorgan",
+        "variant": "body"
+      }
+    },
+    "pos-rwa-detail": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO +23% on milestone = top signal",
+        "variant": "caption"
+      }
+    },
+    "pos-prediction": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-prediction-header",
+        "pos-prediction-thesis",
+        "pos-prediction-detail"
+      ]
+    },
+    "pos-prediction-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-prediction-title",
+        "pos-prediction-mindshare",
+        "pos-prediction-sentiment"
+      ]
+    },
+    "pos-prediction-title": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE: Prediction Markets",
+        "level": "h3"
+      }
+    },
+    "pos-prediction-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "4",
+        "trend": "up"
+      }
+    },
+    "pos-prediction-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos-prediction-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "@polymarket",
+        "variant": "body"
+      }
+    },
+    "pos-prediction-detail": {
+      "type": "Text",
+      "props": {
+        "text": "DEATH BETS Act + national security optics forming ceiling",
+        "variant": "caption"
+      }
+    },
+    "pos-stablecoin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-stablecoin-header",
+        "pos-stablecoin-thesis",
+        "pos-stablecoin-detail"
+      ]
+    },
+    "pos-stablecoin-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-stablecoin-title",
+        "pos-stablecoin-mindshare",
+        "pos-stablecoin-sentiment"
+      ]
+    },
+    "pos-stablecoin-title": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH: Stablecoin Regulatory Clarity",
+        "level": "h3"
+      }
+    },
+    "pos-stablecoin-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "3",
+        "trend": "neutral"
+      }
+    },
+    "pos-stablecoin-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos-stablecoin-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "GENIUS Act implementation",
+        "variant": "body"
+      }
+    },
+    "pos-stablecoin-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Narrative catalyst spent",
+        "variant": "caption"
+      }
+    },
+    "pos-ai-infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-ai-infra-header",
+        "pos-ai-infra-thesis",
+        "pos-ai-infra-detail"
+      ]
+    },
+    "pos-ai-infra-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-ai-infra-title",
+        "pos-ai-infra-mindshare",
+        "pos-ai-infra-sentiment"
+      ]
+    },
+    "pos-ai-infra-title": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH: AI Crypto Infrastructure",
+        "level": "h3"
+      }
+    },
+    "pos-ai-infra-mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "3",
+        "trend": "neutral"
+      }
+    },
+    "pos-ai-infra-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos-ai-infra-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "@Bittensor @virtuals_io",
+        "variant": "body"
+      }
+    },
+    "pos-ai-infra-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Quality floor held post-Q1, less alpha from here",
+        "variant": "caption"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-rising",
+        "map-peak",
+        "map-fading",
+        "map-emerging"
+      ]
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-heading",
+        "map-rising-text"
+      ]
+    },
+    "map-rising-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      }
+    },
+    "map-rising-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments, Base Ecosystem, AI Crypto Infrastructure"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-heading",
+        "map-peak-text"
+      ]
+    },
+    "map-peak-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      }
+    },
+    "map-peak-text": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization, Prediction Markets"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-heading",
+        "map-fading-text"
+      ]
+    },
+    "map-fading-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      }
+    },
+    "map-fading-text": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin Narrative"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-heading",
+        "map-emerging-text"
+      ]
+    },
+    "map-emerging-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      }
+    },
+    "map-emerging-text": {
+      "type": "Text",
+      "props": {
+        "text": "—"
+      }
+    }
+  }
+}

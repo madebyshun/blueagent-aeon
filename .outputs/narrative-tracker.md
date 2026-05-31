@@ -1,27 +1,26 @@
-*Narrative Tracker — 2026-05-28*
+*Narrative Tracker — 2026-05-31*
 
-TRANSITIONS
-*(No prior baseline — all narratives surfaced fresh today.)*
-• NEW: Stablecoin-RWA Convergence — a16z: stablecoins backed by RWA = sectors merging. $311B stablecoin cap + $32B RWA ex-stables. Structural, not hype.
-• NEW: AI Agent Payment Rails (live infra) — AWS Bedrock AgentCore Payments (Coinbase/Stripe) + Pay.sh (Solana Fndn/Google Cloud, USDC). Agents paying for APIs. Not vaporware.
-• NEW: Base as AI Agent Execution Layer — Base Azul live + MCP launch this week; $5.6B TVL = 46.6% of L2 DeFi. Coinbase distribution moat holding.
-• NEW: DTCC Tokenized Securities milestone — limited production begins July 2026. 6-week runway on RWA's biggest TradFi credibility moment.
+TRANSITIONS (baseline run — no prior 3-day entries)
+• NEW: AI Agent Payments — AWS AgentCore + Coinbase x402 live on Base; enterprise AI wallets are infrastructure now, not narrative
+• NEW: RWA Tokenization — $34.5B on-chain, Ondo/JPMorgan/Mastercard/Ripple first near-real-time cross-border tokenized Treasury redemption (May 6)
+• NEW: Base Ecosystem Momentum — Base Azul Apr 22, Base Batches SF Demo Day, x402 default settlement on Base for AgentCore
+• NEW: Prediction Market Controversy — Polymarket war-bet precision flagged as national security risk, DEATH BETS Act filed in Congress
 
 REFLEXIVITY ALERT
-• AI Agents — AWS + Coinbase branding creates reflexive loop: institutional names → project rebranding as "AI agent native" → token demand. 68% of Q1 DeFi launches claim AI agent integration. Verify on-chain revenue, not labels.
-• RWA — BlackRock filed for 2 more tokenized fund structures May 9 (BUIDL at $2.5B). Institutional presence manufacturing FOMO in RWA tokens. Secondary liquidity near zero on most tokenized products.
+• AI Agent Payments — projects rebranding "agent-native" with no on-chain revenue; $BLUEAGENT-tier tokens moving on AWS narrative, not fundamentals
+• RWA Tokenization — ONDO +23% in 24h on JPMorgan/Mastercard/Ripple settlement news; sell-the-news pattern forming
+• Prediction Markets — Polymarket is now both the signal source and the subject of the story it surfaced
 
 POSITIONS
-• FRONT-RUN: Stablecoin-RWA Convergence (mindshare 4 ↑↑, Bull) — a16z, BlackRock, Tether — bear case: think-piece abstraction, traders care about products not sector taxonomy
-• RIDE: AI Agents + Payments (5 →, Bull) — AWS/Coinbase, SolanaFndn/Google Cloud — bear case: "AI agent" label without on-chain revenue; 919 active projects, few profitable
-• RIDE: RWA Tokenization (5 ↑, Bull) — BlackRock BUIDL, DTCC July date, a16z — bear case: tokenized assets illiquid in practice, zero secondary premium priced in
-• RIDE: Base AI Execution Layer (3 ↑, Bull) — @jessepollak, @coinbase, Blue Agent ecosystem — bear case: "Base = L2 winner" already consensus
-• WATCH: Restaking (3 →, Mixed) — EigenLayer, ether.fi — peak narrative, leverage-on-leverage slashing risk
-• WATCH: InfoFi / Kaito Markets (2 →, Mixed) — @kaito_ai + @Polymarket attention wagering — post-Yaps rebuild, not yet tradeable
-• FADE: ETH TVL Share (3 ↓, Bear/Mixed) — ETH at 54% share vs 63.5% early 2025, absolute TVL $45.4B — fading bear-ETH thesis, peak "ETH is losing"
+• RIDE: AI Agent Payments (mindshare 4 ↑↑, Bull) — @AWS @coinbase @stripe; bear: x402 two-sided network slow to bootstrap
+• RIDE: Base Ecosystem (mindshare 3 ↑, Bull) — @base @jessepollak; bear: tied to Coinbase regulatory risk
+• FADE: RWA Tokenization (mindshare 5 →, Reflexivity) — @BlackRock @OndoFinance @JPMorgan; ONDO +23% on milestone = top signal
+• FADE: Prediction Markets (mindshare 4 ↑, Mixed) — @polymarket; DEATH BETS Act + national security optics forming ceiling
+• WATCH: Stablecoin Regulatory Clarity (mindshare 3 →, Mixed) — GENIUS Act implementation; narrative catalyst spent
+• WATCH: AI Crypto Infrastructure (mindshare 3 →, Bull) — @Bittensor @virtuals_io; quality floor held post-Q1, less alpha from here
 
 MAP
-Emerging: Stablecoin-RWA Convergence, InfoFi/Kaito
-Rising: AI Agent Payment Rails, Base AI Layer, RWA Tokenization
-Peak: AI Agents (broad), Restaking, BTC Dominance (60%)
-Fading: ETH TVL Share, Fair Token Launches
+Rising: AI Agent Payments, Base Ecosystem, AI Crypto Infrastructure
+Peak: RWA Tokenization, Prediction Markets
+Fading: Stablecoin Narrative
+Emerging: —
