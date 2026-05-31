@@ -1,0 +1,259 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-05-31"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "since_section",
+        "sep2",
+        "watch_section",
+        "sep3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_heading",
+        "focus_item1",
+        "focus_item2",
+        "focus_item3"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item1": {
+      "type": "Text",
+      "props": {
+        "text": "1. MEMORY.md consolidation — why now: stale priorities mislead skill runs and corrupt tomorrow's brief",
+        "variant": "body"
+      }
+    },
+    "focus_item2": {
+      "type": "Text",
+      "props": {
+        "text": "2. security-digest repair — why now: 2 consecutive failures, skill disabled, no fix plan on record",
+        "variant": "body"
+      }
+    },
+    "focus_item3": {
+      "type": "Text",
+      "props": {
+        "text": "3. narrative-tracker output — why now: first run since AWS AgentCore + Base payment rail launched",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_heading",
+        "since_item1",
+        "since_item2",
+        "since_item3"
+      ]
+    },
+    "since_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_badge1",
+        "since_text1"
+      ]
+    },
+    "since_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_text1": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers recovered — clean run at 12:00 UTC after 2 consecutive failures",
+        "variant": "body"
+      }
+    },
+    "since_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_badge2",
+        "since_text2"
+      ]
+    },
+    "since_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_text2": {
+      "type": "Text",
+      "props": {
+        "text": "XLM token pick (score 10/10) — DTCC tokenized-securities on Stellar confirmed driver",
+        "variant": "body"
+      }
+    },
+    "since_item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_badge3",
+        "since_text3"
+      ]
+    },
+    "since_badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "since_text3": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest — consecutive_failures=2, still no repair initiated",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_heading",
+        "watch_item"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_item": {
+      "type": "Text",
+      "props": {
+        "text": "AWS AgentCore Payments live on Base (USDC, Coinbase + Stripe) — validates AI agent payment narrative for $BLUEAGENT; narrative-tracker should surface this today",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running_heading",
+        "running_table"
+      ]
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Schedule"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00 UTC"
+          ],
+          [
+            "github-monitor",
+            "09:00 UTC"
+          ],
+          [
+            "token-movers",
+            "12:00 UTC"
+          ],
+          [
+            "token-pick",
+            "12:00 UTC"
+          ],
+          [
+            "narrative-tracker",
+            "13:30 UTC"
+          ]
+        ]
+      }
+    }
+  }
+}
