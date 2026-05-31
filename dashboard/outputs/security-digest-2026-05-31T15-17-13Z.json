@@ -1,0 +1,466 @@
+{
+  "root": "card-security",
+  "state": {},
+  "elements": {
+    "card-security": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-05-31"
+      },
+      "children": [
+        "verdict",
+        "sep-a",
+        "patch-today-section",
+        "sep-b",
+        "patch-week-section",
+        "sep-c",
+        "monitor-section"
+      ]
+    },
+    "verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 3 actively exploited (KEV-confirmed), 3 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep-a": {
+      "type": "Separator"
+    },
+    "patch-today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-today-heading",
+        "item-cve-0257",
+        "item-cve-48027",
+        "item-cve-45321"
+      ]
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "item-cve-0257": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-cve-0257",
+        "meta-cve-0257",
+        "desc-cve-0257",
+        "action-cve-0257"
+      ]
+    },
+    "link-cve-0257": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-0257 — Palo Alto PAN-OS",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "KEV"
+      }
+    },
+    "meta-cve-0257": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-05-29 · EPSS 0.415",
+        "variant": "caption"
+      }
+    },
+    "desc-cve-0257": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass allows unauthenticated attackers to establish unauthorized VPN sessions. CISA due 2026-06-01."
+      }
+    },
+    "action-cve-0257": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply PAN-OS vendor patches or disable affected VPN endpoints today.",
+        "variant": "muted"
+      }
+    },
+    "item-cve-48027": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-cve-48027",
+        "meta-cve-48027",
+        "desc-cve-48027",
+        "action-cve-48027"
+      ]
+    },
+    "link-cve-48027": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48027 — Nx Console (npm)",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "KEV"
+      }
+    },
+    "meta-cve-48027": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-05-27 · EPSS 0.268",
+        "variant": "caption"
+      }
+    },
+    "desc-cve-48027": {
+      "type": "Text",
+      "props": {
+        "text": "Malicious version harvested credentials from disk and memory. Supply chain compromise."
+      }
+    },
+    "action-cve-48027": {
+      "type": "Text",
+      "props": {
+        "text": "→ audit npm lockfile for compromised Nx Console versions; upgrade to clean release.",
+        "variant": "muted"
+      }
+    },
+    "item-cve-45321": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-cve-45321",
+        "meta-cve-45321",
+        "desc-cve-45321",
+        "action-cve-45321"
+      ]
+    },
+    "link-cve-45321": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-45321 — TanStack (npm)",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "KEV"
+      }
+    },
+    "meta-cve-45321": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-05-27 · EPSS 0.171",
+        "variant": "caption"
+      }
+    },
+    "desc-cve-45321": {
+      "type": "Text",
+      "props": {
+        "text": "Malicious npm versions deployed credential-stealing malware via registry."
+      }
+    },
+    "action-cve-45321": {
+      "type": "Text",
+      "props": {
+        "text": "→ audit lockfile for compromised TanStack versions; rotate any exposed secrets.",
+        "variant": "muted"
+      }
+    },
+    "sep-b": {
+      "type": "Separator"
+    },
+    "patch-week-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-week-heading",
+        "item-cve-8398",
+        "item-ghsa-axios",
+        "item-ghsa-auth"
+      ]
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "item-cve-8398": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-cve-8398",
+        "meta-cve-8398",
+        "desc-cve-8398",
+        "action-cve-8398"
+      ]
+    },
+    "link-cve-8398": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-8398 — Daemon Tools Lite",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "KEV"
+      }
+    },
+    "meta-cve-8398": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-05-27 · EPSS 0.155",
+        "variant": "caption"
+      }
+    },
+    "desc-cve-8398": {
+      "type": "Text",
+      "props": {
+        "text": "Embedded malicious code. CISA due date 2026-05-30 has passed — high-confidence exploitation."
+      }
+    },
+    "action-cve-8398": {
+      "type": "Text",
+      "props": {
+        "text": "→ update or uninstall Daemon Tools Lite immediately.",
+        "variant": "muted"
+      }
+    },
+    "item-ghsa-axios": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ghsa-axios",
+        "meta-ghsa-axios",
+        "desc-ghsa-axios",
+        "action-ghsa-axios"
+      ]
+    },
+    "link-ghsa-axios": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-35jp-ww65-95wh — axios (npm ≥1.0.0 <1.16.0)",
+        "href": "https://github.com/advisories/GHSA-35jp-ww65-95wh",
+        "source": "GH Advisory"
+      }
+    },
+    "meta-ghsa-axios": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 8.7 · PoC confirmed",
+        "variant": "caption"
+      }
+    },
+    "desc-ghsa-axios": {
+      "type": "Text",
+      "props": {
+        "text": "Prototype pollution in config.proxy routes all requests through attacker proxy; intercepts Authorization headers (full MITM)."
+      }
+    },
+    "action-ghsa-axios": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: axios → ≥1.16.0.",
+        "variant": "muted"
+      }
+    },
+    "item-ghsa-auth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ghsa-auth",
+        "meta-ghsa-auth",
+        "desc-ghsa-auth",
+        "action-ghsa-auth"
+      ]
+    },
+    "link-ghsa-auth": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-c3m2-jqmq-pvp3 — goauthentik.io (Go <20260528)",
+        "href": "https://github.com/advisories/GHSA-c3m2-jqmq-pvp3",
+        "source": "GH Advisory"
+      }
+    },
+    "meta-ghsa-auth": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 8.5 · no public PoC",
+        "variant": "caption"
+      }
+    },
+    "desc-ghsa-auth": {
+      "type": "Text",
+      "props": {
+        "text": "XML Signature Wrapping in SAML ACS allows auth bypass as any federated user."
+      }
+    },
+    "action-ghsa-auth": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: goauthentik.io → post-2026-05-28 commit a370d76d23c7.",
+        "variant": "muted"
+      }
+    },
+    "sep-c": {
+      "type": "Separator"
+    },
+    "monitor-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor-heading",
+        "item-ghsa-vm2",
+        "item-ghsa-praisonai",
+        "item-ghsa-platform"
+      ]
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "item-ghsa-vm2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ghsa-vm2",
+        "meta-ghsa-vm2",
+        "desc-ghsa-vm2",
+        "action-ghsa-vm2"
+      ]
+    },
+    "link-ghsa-vm2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-v6mx-mf47-r5wg +4 — vm2 (npm ≤3.11.3)",
+        "href": "https://github.com/advisories/GHSA-v6mx-mf47-r5wg",
+        "source": "GH Advisory"
+      }
+    },
+    "meta-ghsa-vm2": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 10.0 · no fix · abandoned",
+        "variant": "caption"
+      }
+    },
+    "desc-ghsa-vm2": {
+      "type": "Text",
+      "props": {
+        "text": "5 sandbox escapes published this week (builtins leak, Promise species, Symbol.for). No patch will ship."
+      }
+    },
+    "action-ghsa-vm2": {
+      "type": "Text",
+      "props": {
+        "text": "→ migrate off vm2; consider isolated-vm or quickjs-emscripten.",
+        "variant": "muted"
+      }
+    },
+    "item-ghsa-praisonai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ghsa-praisonai",
+        "meta-ghsa-praisonai",
+        "desc-ghsa-praisonai",
+        "action-ghsa-praisonai"
+      ]
+    },
+    "link-ghsa-praisonai": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-4mr5-g6f9-cfrh — praisonaiagents (pip ≤1.6.39)",
+        "href": "https://github.com/advisories/GHSA-4mr5-g6f9-cfrh",
+        "source": "GH Advisory"
+      }
+    },
+    "meta-ghsa-praisonai": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.9 · no fix",
+        "variant": "caption"
+      }
+    },
+    "desc-ghsa-praisonai": {
+      "type": "Text",
+      "props": {
+        "text": "Sandbox escape via print.__self__ builtins module leak in execute_code subprocess mode."
+      }
+    },
+    "action-ghsa-praisonai": {
+      "type": "Text",
+      "props": {
+        "text": "→ track; no patch yet. Avoid exposing execute_code to untrusted input.",
+        "variant": "muted"
+      }
+    },
+    "item-ghsa-platform": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ghsa-platform",
+        "meta-ghsa-platform",
+        "desc-ghsa-platform",
+        "action-ghsa-platform"
+      ]
+    },
+    "link-ghsa-platform": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-3qg8-5g3r-79v5 — praisonai-platform (pip ≤0.1.2)",
+        "href": "https://github.com/advisories/GHSA-3qg8-5g3r-79v5",
+        "source": "GH Advisory"
+      }
+    },
+    "meta-ghsa-platform": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.8 · no fix",
+        "variant": "caption"
+      }
+    },
+    "desc-ghsa-platform": {
+      "type": "Text",
+      "props": {
+        "text": "JWT signing key defaults to hardcoded dev-secret; any user can forge tokens for any account."
+      }
+    },
+    "action-ghsa-platform": {
+      "type": "Text",
+      "props": {
+        "text": "→ track; no patch yet. Override JWT secret via PLATFORM_ENV explicitly.",
+        "variant": "muted"
+      }
+    }
+  }
+}
