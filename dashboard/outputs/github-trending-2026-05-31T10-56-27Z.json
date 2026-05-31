@@ -1,0 +1,502 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-05-31"
+      },
+      "children": [
+        "section-top-pick",
+        "sep1",
+        "section-aiml",
+        "sep2",
+        "section-devtools",
+        "sep3",
+        "section-infra",
+        "sep4",
+        "section-webapps",
+        "sep5",
+        "footer"
+      ]
+    },
+    "section-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-top-pick",
+        "stack-top-repo"
+      ]
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "stack-top-repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-ecc-top",
+        "text-ecc-top"
+      ]
+    },
+    "story-ecc-top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "affaan-m/ECC",
+        "href": "https://github.com/affaan-m/ECC"
+      }
+    },
+    "text-ecc-top": {
+      "type": "Text",
+      "props": {
+        "text": "200k stars in 4 months — fastest-growing agent harness on GitHub, and it pushed an update this morning."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-aiml",
+        "repo-voxcpm"
+      ]
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "repo-voxcpm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "row-voxcpm-header",
+        "text-voxcpm"
+      ]
+    },
+    "row-voxcpm-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "story-voxcpm",
+        "stat-voxcpm-today",
+        "stat-voxcpm-total",
+        "badge-voxcpm-lang",
+        "badge-voxcpm-status"
+      ]
+    },
+    "story-voxcpm": {
+      "type": "StoryLink",
+      "props": {
+        "title": "OpenBMB/VoxCPM",
+        "href": "https://github.com/OpenBMB/VoxCPM"
+      }
+    },
+    "stat-voxcpm-today": {
+      "type": "Stat",
+      "props": {
+        "value": "779",
+        "label": "today"
+      }
+    },
+    "stat-voxcpm-total": {
+      "type": "Stat",
+      "props": {
+        "value": "23k",
+        "label": "total"
+      }
+    },
+    "badge-voxcpm-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge-voxcpm-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text-voxcpm": {
+      "type": "Text",
+      "props": {
+        "text": "Drops the tokenizer bottleneck: any multilingual text speakable without per-language retraining."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-devtools",
+        "repo-ecc-devtools",
+        "repo-skills"
+      ]
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "repo-ecc-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "row-ecc-devtools-header",
+        "text-ecc-devtools"
+      ]
+    },
+    "row-ecc-devtools-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "story-ecc-devtools",
+        "stat-ecc-devtools-today",
+        "stat-ecc-devtools-total",
+        "badge-ecc-devtools-lang",
+        "badge-ecc-devtools-status"
+      ]
+    },
+    "story-ecc-devtools": {
+      "type": "StoryLink",
+      "props": {
+        "title": "affaan-m/ECC",
+        "href": "https://github.com/affaan-m/ECC"
+      }
+    },
+    "stat-ecc-devtools-today": {
+      "type": "Stat",
+      "props": {
+        "value": "908",
+        "label": "today"
+      }
+    },
+    "stat-ecc-devtools-total": {
+      "type": "Stat",
+      "props": {
+        "value": "200k",
+        "label": "total"
+      }
+    },
+    "badge-ecc-devtools-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript"
+      }
+    },
+    "badge-ecc-devtools-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text-ecc-devtools": {
+      "type": "Text",
+      "props": {
+        "text": "200k stars in 4 months makes this the fastest-growing agent harness on GitHub — pushed again today."
+      }
+    },
+    "repo-skills": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "row-skills-header",
+        "text-skills"
+      ]
+    },
+    "row-skills-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "story-skills",
+        "stat-skills-today",
+        "stat-skills-total",
+        "badge-skills-lang",
+        "badge-skills-status"
+      ]
+    },
+    "story-skills": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anthropics/skills",
+        "href": "https://github.com/anthropics/skills"
+      }
+    },
+    "stat-skills-today": {
+      "type": "Stat",
+      "props": {
+        "value": "454",
+        "label": "today"
+      }
+    },
+    "stat-skills-total": {
+      "type": "Stat",
+      "props": {
+        "value": "144k",
+        "label": "total"
+      }
+    },
+    "badge-skills-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge-skills-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text-skills": {
+      "type": "Text",
+      "props": {
+        "text": "Official public skills library for Claude Code — browse production patterns for tool-use, memory, and multi-step agents."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-infra",
+        "repo-ruview"
+      ]
+    },
+    "heading-infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "repo-ruview": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "row-ruview-header",
+        "text-ruview"
+      ]
+    },
+    "row-ruview-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "story-ruview",
+        "stat-ruview-today",
+        "stat-ruview-total",
+        "badge-ruview-lang",
+        "badge-ruview-status"
+      ]
+    },
+    "story-ruview": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ruvnet/RuView",
+        "href": "https://github.com/ruvnet/RuView"
+      }
+    },
+    "stat-ruview-today": {
+      "type": "Stat",
+      "props": {
+        "value": "655",
+        "label": "today"
+      }
+    },
+    "stat-ruview-total": {
+      "type": "Stat",
+      "props": {
+        "value": "69k",
+        "label": "total"
+      }
+    },
+    "badge-ruview-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "badge-ruview-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text-ruview": {
+      "type": "Text",
+      "props": {
+        "text": "Commodity WiFi becomes a camera-free system for room presence, breathing rate, and heartbeat detection."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-webapps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-webapps",
+        "repo-moneyprinter"
+      ]
+    },
+    "heading-webapps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "repo-moneyprinter": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "row-moneyprinter-header",
+        "text-moneyprinter"
+      ]
+    },
+    "row-moneyprinter-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "story-moneyprinter",
+        "stat-moneyprinter-today",
+        "stat-moneyprinter-total",
+        "badge-moneyprinter-lang",
+        "badge-moneyprinter-status"
+      ]
+    },
+    "story-moneyprinter": {
+      "type": "StoryLink",
+      "props": {
+        "title": "harry0703/MoneyPrinterTurbo",
+        "href": "https://github.com/harry0703/MoneyPrinterTurbo"
+      }
+    },
+    "stat-moneyprinter-today": {
+      "type": "Stat",
+      "props": {
+        "value": "2,768",
+        "label": "today"
+      }
+    },
+    "stat-moneyprinter-total": {
+      "type": "Stat",
+      "props": {
+        "value": "73k",
+        "label": "total"
+      }
+    },
+    "badge-moneyprinter-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge-moneyprinter-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text-moneyprinter": {
+      "type": "Text",
+      "props": {
+        "text": "AI video generator turning any topic into a short-form clip; updated May 30 and pulling massive traffic today."
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/19",
+        "variant": "caption"
+      }
+    }
+  }
+}
