@@ -1,0 +1,518 @@
+{
+  "root": "card-deal-flow",
+  "state": {},
+  "elements": {
+    "card-deal-flow": {
+      "type": "Card",
+      "props": {
+        "title": "Deal Flow — 2026-06-01"
+      },
+      "children": [
+        "text-intro",
+        "sep-1",
+        "company-1",
+        "sep-2",
+        "company-2",
+        "sep-3",
+        "company-3",
+        "sep-4",
+        "company-4",
+        "sep-5",
+        "company-5",
+        "sep-6",
+        "company-6",
+        "sep-7",
+        "company-7",
+        "sep-8",
+        "text-sources"
+      ]
+    },
+    "text-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Read: Anthropic's $65B is priced-in; the real signal sits one floor below — OpenRouter (routing), Modal (compute), Exa (retrieval) raised $700M+ in a coordinated stack play within 6 days of each other. Agentic payments crossed into regulated finance: Catena Labs filed for a federal bank charter. Capital has decided the model wars are over; who controls the plumbing wins.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "company-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-anthropic",
+        "text-anthropic-desc",
+        "text-anthropic-funding",
+        "stack-anthropic-leads",
+        "text-anthropic-why"
+      ]
+    },
+    "h-anthropic": {
+      "type": "Heading",
+      "props": {
+        "text": "Anthropic",
+        "level": "h3"
+      }
+    },
+    "text-anthropic-desc": {
+      "type": "Text",
+      "props": {
+        "text": "frontier AI lab; Claude, enterprise safety"
+      }
+    },
+    "text-anthropic-funding": {
+      "type": "Text",
+      "props": {
+        "text": "$65B Series H @ $965B post (UP >15× vs prior private rounds)"
+      }
+    },
+    "stack-anthropic-leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-anthropic-sequoia",
+        "badge-anthropic-altimeter",
+        "badge-anthropic-dragoneer"
+      ]
+    },
+    "badge-anthropic-sequoia": {
+      "type": "Badge",
+      "props": {
+        "text": "Sequoia"
+      }
+    },
+    "badge-anthropic-altimeter": {
+      "type": "Badge",
+      "props": {
+        "text": "Altimeter"
+      }
+    },
+    "badge-anthropic-dragoneer": {
+      "type": "Badge",
+      "props": {
+        "text": "Dragoneer"
+      }
+    },
+    "text-anthropic-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Sequoia re-upping at near-trillion pre-IPO valuation sets the public market floor for frontier AI safety labs.",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "company-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-exa",
+        "text-exa-desc",
+        "text-exa-funding",
+        "stack-exa-leads",
+        "text-exa-why"
+      ]
+    },
+    "h-exa": {
+      "type": "Heading",
+      "props": {
+        "text": "Exa",
+        "level": "h3"
+      }
+    },
+    "text-exa-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI-native search and retrieval API for LLMs and agents"
+      }
+    },
+    "text-exa-funding": {
+      "type": "Text",
+      "props": {
+        "text": "$250M Series C @ $2.2B post (UP 3× vs $700M Series B, Sep 2025)"
+      }
+    },
+    "stack-exa-leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-exa-a16z"
+      ]
+    },
+    "badge-exa-a16z": {
+      "type": "Badge",
+      "props": {
+        "text": "a16z"
+      }
+    },
+    "text-exa-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: a16z paying 3× for a retrieval layer confirms real-time data access is the defensible agentic moat, not the model.",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "company-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-modal",
+        "text-modal-desc",
+        "text-modal-funding",
+        "stack-modal-leads",
+        "text-modal-why"
+      ]
+    },
+    "h-modal": {
+      "type": "Heading",
+      "props": {
+        "text": "Modal Labs",
+        "level": "h3"
+      }
+    },
+    "text-modal-desc": {
+      "type": "Text",
+      "props": {
+        "text": "serverless AI inference cloud with agent sandboxing"
+      }
+    },
+    "text-modal-funding": {
+      "type": "Text",
+      "props": {
+        "text": "$355M Series C @ $4.65B post (UP 4× vs $1.1B, Fall 2025)"
+      }
+    },
+    "stack-modal-leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-modal-redpoint",
+        "badge-modal-gc"
+      ]
+    },
+    "badge-modal-redpoint": {
+      "type": "Badge",
+      "props": {
+        "text": "Redpoint"
+      }
+    },
+    "badge-modal-gc": {
+      "type": "Badge",
+      "props": {
+        "text": "General Catalyst"
+      }
+    },
+    "text-modal-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: $60M → $300M ARR in 8 months, driven by AI coding agents — fastest documented infra scaling on record.",
+        "variant": "caption"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "company-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-openrouter",
+        "text-openrouter-desc",
+        "text-openrouter-funding",
+        "stack-openrouter-leads",
+        "text-openrouter-why"
+      ]
+    },
+    "h-openrouter": {
+      "type": "Heading",
+      "props": {
+        "text": "OpenRouter",
+        "level": "h3"
+      }
+    },
+    "text-openrouter-desc": {
+      "type": "Text",
+      "props": {
+        "text": "single API routing across 400+ AI models"
+      }
+    },
+    "text-openrouter-funding": {
+      "type": "Text",
+      "props": {
+        "text": "$113M Series B @ $1.3B post (UP 2.4× vs $547M, Jun 2025)"
+      }
+    },
+    "stack-openrouter-leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-openrouter-capitalg",
+        "badge-openrouter-nventures"
+      ]
+    },
+    "badge-openrouter-capitalg": {
+      "type": "Badge",
+      "props": {
+        "text": "CapitalG (Google)"
+      }
+    },
+    "badge-openrouter-nventures": {
+      "type": "Badge",
+      "props": {
+        "text": "NVentures (Nvidia)"
+      }
+    },
+    "text-openrouter-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Google and Nvidia jointly backing the model-neutral router is a structural admission that incumbent lock-in fails.",
+        "variant": "caption"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "company-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-cognition",
+        "text-cognition-desc",
+        "text-cognition-funding",
+        "stack-cognition-leads",
+        "text-cognition-why"
+      ]
+    },
+    "h-cognition": {
+      "type": "Heading",
+      "props": {
+        "text": "Cognition (Devin)",
+        "level": "h3"
+      }
+    },
+    "text-cognition-desc": {
+      "type": "Text",
+      "props": {
+        "text": "autonomous AI software engineer"
+      }
+    },
+    "text-cognition-funding": {
+      "type": "Text",
+      "props": {
+        "text": "$1B Series D @ $26B post (UP 2.5× vs $10.2B, Sep 2025)"
+      }
+    },
+    "stack-cognition-leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cognition-lux",
+        "badge-cognition-gc2",
+        "badge-cognition-8vc"
+      ]
+    },
+    "badge-cognition-lux": {
+      "type": "Badge",
+      "props": {
+        "text": "Lux Capital"
+      }
+    },
+    "badge-cognition-gc2": {
+      "type": "Badge",
+      "props": {
+        "text": "General Catalyst"
+      }
+    },
+    "badge-cognition-8vc": {
+      "type": "Badge",
+      "props": {
+        "text": "8VC"
+      }
+    },
+    "text-cognition-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: $492M ARR at a company writing 89% of its own code kills the enterprise AI-agent adoption skeptics.",
+        "variant": "caption"
+      }
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "company-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-corgi",
+        "text-corgi-desc",
+        "text-corgi-funding",
+        "stack-corgi-leads",
+        "text-corgi-why"
+      ]
+    },
+    "h-corgi": {
+      "type": "Heading",
+      "props": {
+        "text": "Corgi",
+        "level": "h3"
+      }
+    },
+    "text-corgi-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI-native insurance platform for startups"
+      }
+    },
+    "text-corgi-funding": {
+      "type": "Text",
+      "props": {
+        "text": "$106M Series B1 @ $2.6B post (UP 2× vs $1.3B, 21 days ago)"
+      }
+    },
+    "stack-corgi-leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-corgi-tcv"
+      ]
+    },
+    "badge-corgi-tcv": {
+      "type": "Badge",
+      "props": {
+        "text": "TCV"
+      }
+    },
+    "text-corgi-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: TCV doubled the valuation on a follow-on tranche 3 weeks after Series B — fastest documented UP repricing of 2026.",
+        "variant": "caption"
+      }
+    },
+    "sep-7": {
+      "type": "Separator",
+      "props": {}
+    },
+    "company-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-catena",
+        "text-catena-desc",
+        "text-catena-funding",
+        "stack-catena-leads",
+        "text-catena-why"
+      ]
+    },
+    "h-catena": {
+      "type": "Heading",
+      "props": {
+        "text": "Catena Labs",
+        "level": "h3"
+      }
+    },
+    "text-catena-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI-native bank + agentic finance guardrails"
+      }
+    },
+    "text-catena-funding": {
+      "type": "Text",
+      "props": {
+        "text": "$30M Series A"
+      }
+    },
+    "stack-catena-leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-catena-acrew",
+        "badge-catena-a16z-crypto"
+      ]
+    },
+    "badge-catena-acrew": {
+      "type": "Badge",
+      "props": {
+        "text": "Acrew Capital"
+      }
+    },
+    "badge-catena-a16z-crypto": {
+      "type": "Badge",
+      "props": {
+        "text": "a16z crypto"
+      }
+    },
+    "text-catena-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Filing for a federal OCC bank charter to govern AI agent spending accounts imposes fiduciary rails on autonomous money movement.",
+        "variant": "caption"
+      }
+    },
+    "sep-8": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: crunchbase=ok, techcrunch=ok, cryptorank=partial, aift=ok, crypto-fundraising=ok | candidates=25 → kept=7",
+        "variant": "muted"
+      }
+    }
+  }
+}
