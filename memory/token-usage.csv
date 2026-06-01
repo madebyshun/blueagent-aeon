@@ -19,3 +19,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-01,github-trending,claude-sonnet-4-6,17,18033,534515,36937
 2026-06-01,defi-monitor,claude-sonnet-4-6,7,1275,160445,11708
 2026-06-01,defi-monitor,claude-sonnet-4-6,5,1737,101230,11356
+2026-06-01,narrative-tracker,claude-sonnet-4-6,944,10745,407138,31071

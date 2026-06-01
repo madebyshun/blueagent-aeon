@@ -1,0 +1,647 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker",
+        "description": "2026-06-01"
+      },
+      "children": [
+        "heading-main",
+        "sep1",
+        "section-transitions",
+        "sep2",
+        "section-reflexivity",
+        "sep3",
+        "section-positions",
+        "sep4",
+        "section-map"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "NARRATIVE TRACKER",
+        "level": "h1"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-trans",
+        "item-new-am",
+        "item-new-aas",
+        "item-prom-stables",
+        "item-dem-aap",
+        "item-dem-pm"
+      ]
+    },
+    "heading-trans": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "item-new-am": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-1",
+        "text-new-am"
+      ]
+    },
+    "badge-new-1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text-new-am": {
+      "type": "Text",
+      "props": {
+        "text": "Attention Markets (InfoFi) — Kaito × Polymarket wagering on mindshare; Wallchain building Solana equivalent; POLYMARKET at 53% mindshare gain on Kaito leaderboard",
+        "variant": "body"
+      }
+    },
+    "item-new-aas": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-2",
+        "text-new-aas"
+      ]
+    },
+    "badge-new-2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text-new-aas": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Security — $45M breach (memory poisoning, indirect injection) exposes protocol risk; agent autonomy = new attack surface",
+        "variant": "body"
+      }
+    },
+    "item-prom-stables": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-prom",
+        "text-prom-stables"
+      ]
+    },
+    "badge-prom": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "default"
+      }
+    },
+    "text-prom-stables": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins as Infrastructure — was Regulatory Clarity (WATCH/Fading); $311B mkt cap (+50% from 2025), running remittances + settlements — structural shift",
+        "variant": "body"
+      }
+    },
+    "item-dem-aap": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-dem-1",
+        "text-dem-aap"
+      ]
+    },
+    "badge-dem-1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "text-dem-aap": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments — Bull → Mixed; velocity ↑↑ → ↑ on breach headwind; narrative intact, conviction dampened",
+        "variant": "body"
+      }
+    },
+    "item-dem-pm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-dem-2",
+        "text-dem-pm"
+      ]
+    },
+    "badge-dem-2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "text-dem-pm": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets — Peak → Fading; DEATH BETS Act ceiling; Attention Markets is the sharper adjacent play",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-refl",
+        "alert-am",
+        "alert-aap"
+      ]
+    },
+    "heading-refl": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert-am": {
+      "type": "Alert",
+      "props": {
+        "title": "Attention Markets",
+        "message": "wagering on mindshare is reflexive by design: the bet increases attention to the bet. POLYMARKET at 53% gain = crowd already in",
+        "type": "warning"
+      }
+    },
+    "alert-aap": {
+      "type": "Alert",
+      "props": {
+        "title": "AI Agent Payments",
+        "message": "projects rebranding 'agent-native' with zero on-chain revenue (continued from May 31 flag)",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-pos",
+        "pos-am",
+        "pos-stables",
+        "pos-aap",
+        "pos-base",
+        "pos-pm",
+        "pos-rwa",
+        "pos-aas",
+        "pos-acinfra"
+      ]
+    },
+    "heading-pos": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos-am": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-frontrun",
+        "text-pos-am",
+        "text-pos-am-bear"
+      ]
+    },
+    "badge-frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "text-pos-am": {
+      "type": "Text",
+      "props": {
+        "text": "Attention Markets / InfoFi (mindshare 2 ↑, Bull) — @KaitoAI, @Polymarket, Wallchain",
+        "variant": "lead"
+      }
+    },
+    "text-pos-am-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: X API revocation rebuilt Kaito on weaker rails + reflexivity gameable",
+        "variant": "caption"
+      }
+    },
+    "pos-stables": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride-1",
+        "text-pos-stables",
+        "text-pos-stables-bear"
+      ]
+    },
+    "badge-ride-1": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "text-pos-stables": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins as Infrastructure (mindshare 4 ↑, Bull) — Tether, Circle, Stripe rails",
+        "variant": "lead"
+      }
+    },
+    "text-pos-stables-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: USDT/USDC duopoly concentrates risk + GENIUS Act favors banks",
+        "variant": "caption"
+      }
+    },
+    "pos-aap": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride-2",
+        "text-pos-aap",
+        "text-pos-aap-bear"
+      ]
+    },
+    "badge-ride-2": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "text-pos-aap": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments (mindshare 4 ↑, Mixed) — @AWS, @coinbase, Skyfire",
+        "variant": "lead"
+      }
+    },
+    "text-pos-aap-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: $45M breach + agent autonomy = new attack surface",
+        "variant": "caption"
+      }
+    },
+    "pos-base": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride-3",
+        "text-pos-base",
+        "text-pos-base-bear"
+      ]
+    },
+    "badge-ride-3": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "text-pos-base": {
+      "type": "Text",
+      "props": {
+        "text": "Base Ecosystem (mindshare 3 ↑, Bull) — @base, @jessepollak, Base MCP",
+        "variant": "lead"
+      }
+    },
+    "text-pos-base-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: Coinbase regulatory exposure",
+        "variant": "caption"
+      }
+    },
+    "pos-pm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade-1",
+        "text-pos-pm",
+        "text-pos-pm-bear"
+      ]
+    },
+    "badge-fade-1": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "outline"
+      }
+    },
+    "text-pos-pm": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets (mindshare 4 ↓, Mixed) — @Polymarket",
+        "variant": "lead"
+      }
+    },
+    "text-pos-pm-bear": {
+      "type": "Text",
+      "props": {
+        "text": "DEATH BETS Act + national security optics = ceiling",
+        "variant": "caption"
+      }
+    },
+    "pos-rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade-2",
+        "text-pos-rwa",
+        "text-pos-rwa-bear"
+      ]
+    },
+    "badge-fade-2": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "outline"
+      }
+    },
+    "text-pos-rwa": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization (mindshare 5 →, Mixed) — @BlackRock, @OndoFinance",
+        "variant": "lead"
+      }
+    },
+    "text-pos-rwa-bear": {
+      "type": "Text",
+      "props": {
+        "text": "practical integration phase won't re-rate prices",
+        "variant": "caption"
+      }
+    },
+    "pos-aas": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-1",
+        "text-pos-aas",
+        "text-pos-aas-bear"
+      ]
+    },
+    "badge-watch-1": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "text-pos-aas": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Security (mindshare 2 ↑, Bear)",
+        "variant": "lead"
+      }
+    },
+    "text-pos-aas-bear": {
+      "type": "Text",
+      "props": {
+        "text": "headwind signal for AI×Crypto positions",
+        "variant": "caption"
+      }
+    },
+    "pos-acinfra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-2",
+        "text-pos-acinfra",
+        "text-pos-acinfra-bear"
+      ]
+    },
+    "badge-watch-2": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "text-pos-acinfra": {
+      "type": "Text",
+      "props": {
+        "text": "AI Crypto Infrastructure (mindshare 3 →, Bull) — @Bittensor, @virtuals_io",
+        "variant": "lead"
+      }
+    },
+    "text-pos-acinfra-bear": {
+      "type": "Text",
+      "props": {
+        "text": "breach adds risk premium",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-map",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "heading-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-map-emerging-label",
+        "text-map-emerging-items"
+      ]
+    },
+    "text-map-emerging-label": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging",
+        "variant": "lead"
+      }
+    },
+    "text-map-emerging-items": {
+      "type": "Text",
+      "props": {
+        "text": "Attention Markets, AI Agent Security",
+        "variant": "body"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-map-rising-label",
+        "text-map-rising-items"
+      ]
+    },
+    "text-map-rising-label": {
+      "type": "Text",
+      "props": {
+        "text": "Rising",
+        "variant": "lead"
+      }
+    },
+    "text-map-rising-items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments, Stablecoins as Infrastructure, Base Ecosystem, AI Crypto Infrastructure",
+        "variant": "body"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-map-peak-label",
+        "text-map-peak-items"
+      ]
+    },
+    "text-map-peak-label": {
+      "type": "Text",
+      "props": {
+        "text": "Peak",
+        "variant": "lead"
+      }
+    },
+    "text-map-peak-items": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization",
+        "variant": "body"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-map-fading-label",
+        "text-map-fading-items"
+      ]
+    },
+    "text-map-fading-label": {
+      "type": "Text",
+      "props": {
+        "text": "Fading",
+        "variant": "lead"
+      }
+    },
+    "text-map-fading-items": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "body"
+      }
+    }
+  }
+}

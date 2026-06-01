@@ -1,26 +1,28 @@
-*Narrative Tracker — 2026-05-31*
+*Narrative Tracker — 2026-06-01*
 
-TRANSITIONS (baseline run — no prior 3-day entries)
-• NEW: AI Agent Payments — AWS AgentCore + Coinbase x402 live on Base; enterprise AI wallets are infrastructure now, not narrative
-• NEW: RWA Tokenization — $34.5B on-chain, Ondo/JPMorgan/Mastercard/Ripple first near-real-time cross-border tokenized Treasury redemption (May 6)
-• NEW: Base Ecosystem Momentum — Base Azul Apr 22, Base Batches SF Demo Day, x402 default settlement on Base for AgentCore
-• NEW: Prediction Market Controversy — Polymarket war-bet precision flagged as national security risk, DEATH BETS Act filed in Congress
+TRANSITIONS
+• NEW: Attention Markets (InfoFi) — Kaito × Polymarket wagering on mindshare; Wallchain building Solana equivalent; POLYMARKET at 53% mindshare gain on Kaito leaderboard
+• NEW: AI Agent Security — $45M breach (memory poisoning, indirect injection) exposes protocol risk; agent autonomy = new attack surface
+• PROMOTED: Stablecoins as Infrastructure — was Regulatory Clarity (WATCH/Fading); $311B mkt cap (+50% from 2025), running remittances + settlements — structural shift
+• DEMOTED: AI Agent Payments — Bull → Mixed; velocity ↑↑ → ↑ on breach headwind; narrative intact, conviction dampened
+• DEMOTED: Prediction Markets — Peak → Fading; DEATH BETS Act ceiling; Attention Markets is the sharper adjacent play
 
 REFLEXIVITY ALERT
-• AI Agent Payments — projects rebranding "agent-native" with no on-chain revenue; $BLUEAGENT-tier tokens moving on AWS narrative, not fundamentals
-• RWA Tokenization — ONDO +23% in 24h on JPMorgan/Mastercard/Ripple settlement news; sell-the-news pattern forming
-• Prediction Markets — Polymarket is now both the signal source and the subject of the story it surfaced
+• Attention Markets — wagering on mindshare is reflexive by design: the bet increases attention to the bet. POLYMARKET at 53% gain = crowd already in
+• AI Agent Payments — projects rebranding 'agent-native' with zero on-chain revenue (continued from May 31 flag)
 
 POSITIONS
-• RIDE: AI Agent Payments (mindshare 4 ↑↑, Bull) — @AWS @coinbase @stripe; bear: x402 two-sided network slow to bootstrap
-• RIDE: Base Ecosystem (mindshare 3 ↑, Bull) — @base @jessepollak; bear: tied to Coinbase regulatory risk
-• FADE: RWA Tokenization (mindshare 5 →, Reflexivity) — @BlackRock @OndoFinance @JPMorgan; ONDO +23% on milestone = top signal
-• FADE: Prediction Markets (mindshare 4 ↑, Mixed) — @polymarket; DEATH BETS Act + national security optics forming ceiling
-• WATCH: Stablecoin Regulatory Clarity (mindshare 3 →, Mixed) — GENIUS Act implementation; narrative catalyst spent
-• WATCH: AI Crypto Infrastructure (mindshare 3 →, Bull) — @Bittensor @virtuals_io; quality floor held post-Q1, less alpha from here
+• FRONT-RUN: Attention Markets / InfoFi (mindshare 2 ↑, Bull) — @KaitoAI, @Polymarket, Wallchain — bear: X API revocation rebuilt Kaito on weaker rails + reflexivity gameable
+• RIDE: Stablecoins as Infrastructure (mindshare 4 ↑, Bull) — Tether, Circle, Stripe rails — bear: USDT/USDC duopoly concentrates risk + GENIUS Act favors banks
+• RIDE: AI Agent Payments (mindshare 4 ↑, Mixed) — @AWS, @coinbase, Skyfire — bear: $45M breach + agent autonomy = new attack surface
+• RIDE: Base Ecosystem (mindshare 3 ↑, Bull) — @base, @jessepollak, Base MCP — bear: Coinbase regulatory exposure
+• FADE: Prediction Markets (mindshare 4 ↓, Mixed) — @Polymarket — DEATH BETS Act + national security optics = ceiling
+• FADE: RWA Tokenization (mindshare 5 →, Mixed) — @BlackRock, @OndoFinance — practical integration phase won't re-rate prices
+• WATCH: AI Agent Security (mindshare 2 ↑, Bear) — headwind signal for AI×Crypto positions
+• WATCH: AI Crypto Infrastructure (mindshare 3 →, Bull) — @Bittensor, @virtuals_io — breach adds risk premium
 
 MAP
-Rising: AI Agent Payments, Base Ecosystem, AI Crypto Infrastructure
-Peak: RWA Tokenization, Prediction Markets
-Fading: Stablecoin Narrative
-Emerging: —
+Emerging: Attention Markets, AI Agent Security
+Rising: AI Agent Payments, Stablecoins as Infrastructure, Base Ecosystem, AI Crypto Infrastructure
+Peak: RWA Tokenization
+Fading: Prediction Markets
