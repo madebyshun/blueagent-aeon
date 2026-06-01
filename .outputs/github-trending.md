@@ -1,26 +1,29 @@
-*GitHub Trending — 2026-05-31*
+*GitHub Trending — 2026-06-01*
 
-*Top pick* — [affaan-m/ECC](https://github.com/affaan-m/ECC)
-200k stars in 4 months — fastest-growing agent harness on GitHub, and it pushed an update this morning.
+*Top pick* — [microsoft/markitdown](https://github.com/microsoft/markitdown)
+v0.1.6 ships OCR for scanned PDFs and embedded images — closes the document ingestion gap that makes most AI pipelines brittle.
 
 *AI/ML*
-• [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) — ★ 779 today (23k total) · Python · [ACCELERATING]
-Drops the tokenizer bottleneck: any multilingual text speakable without per-language retraining.
+• [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) — ★ 660 today (24k total) · TypeScript · [RETURNING]
+Unified memory API with search, dedup, and metadata — drops into any AI app as a single SDK call.
+
+• [revfactory/harness](https://github.com/revfactory/harness) — ★ 527 today (5k total) · HTML · [ACCELERATING]
+Generates a full agent team spec — roles, skill files, and coordination logic — from a one-line problem statement.
 
 *Devtools*
-• [affaan-m/ECC](https://github.com/affaan-m/ECC) — ★ 908 today (200k total) · JavaScript · [ACCELERATING]
-200k stars in 4 months makes this the fastest-growing agent harness on GitHub — pushed again today.
+• [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) — ★ 333 today (9k total) · TypeScript · [ACCELERATING]
+Hash-anchored edits guarantee file integrity before apply — stops agents from silently corrupting tracked files.
 
-• [anthropics/skills](https://github.com/anthropics/skills) — ★ 454 today (144k total) · Python · [ACCELERATING]
-Official public skills library for Claude Code — browse production patterns for tool-use, memory, and multi-step agents.
-
-*Infra*
-• [ruvnet/RuView](https://github.com/ruvnet/RuView) — ★ 655 today (69k total) · Rust · [ACCELERATING]
-Commodity WiFi becomes a camera-free system for room presence, breathing rate, and heartbeat detection.
+• [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — ★ 317 today (32k total) · JavaScript · [ACCELERATING]
+Design token system built for LLM pipelines — outputs structured UI specs, not free-form HTML.
 
 *Web/Apps*
-• [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — ★ 2,768 today (73k total) · Python · [RETURNING]
-AI video generator turning any topic into a short-form clip; updated May 30 and pulling massive traffic today.
+• [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) — ★ 984 today (11k total) · Python · [ACCELERATING]
+Three releases today — Hermes Agent's web and mobile UI is moving faster than most desktop frameworks.
+
+*Infra*
+• [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — ★ 1,475 today (58k total) · Python · [RETURNING]
+Fingerprint-rotating, anti-bot-aware scraper that adapts per site — Playwright and httpx backends under one API.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/19
+sources: trending=ok · gh_api=ok · kept 7/17

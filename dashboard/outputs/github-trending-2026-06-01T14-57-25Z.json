@@ -1,0 +1,610 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-01"
+      },
+      "children": [
+        "top-pick-section",
+        "separator1",
+        "aiml-section",
+        "separator2",
+        "devtools-section",
+        "separator3",
+        "webapps-section",
+        "separator4",
+        "infra-section",
+        "separator5",
+        "footer-section"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-label",
+        "microsoft-repo"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "microsoft-repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "microsoft-link",
+        "microsoft-desc"
+      ]
+    },
+    "microsoft-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "microsoft/markitdown",
+        "href": "https://github.com/microsoft/markitdown",
+        "source": "GitHub"
+      }
+    },
+    "microsoft-desc": {
+      "type": "Text",
+      "props": {
+        "text": "v0.1.6 ships OCR for scanned PDFs and embedded images — closes the document ingestion gap that makes most AI pipelines brittle.",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml-heading",
+        "aiml-repo1",
+        "aiml-repo2"
+      ]
+    },
+    "aiml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml1-link-row",
+        "aiml1-stats-row",
+        "aiml1-desc"
+      ]
+    },
+    "aiml1-link-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml1-link",
+        "aiml1-badge"
+      ]
+    },
+    "aiml1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "supermemoryai/supermemory",
+        "href": "https://github.com/supermemoryai/supermemory",
+        "source": "GitHub"
+      }
+    },
+    "aiml1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "aiml1-stats-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml1-stars",
+        "aiml1-lang"
+      ]
+    },
+    "aiml1-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 660 today (24k total)",
+        "variant": "caption"
+      }
+    },
+    "aiml1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "aiml1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unified memory API with search, dedup, and metadata — drops into any AI app as a single SDK call.",
+        "variant": "body"
+      }
+    },
+    "aiml-repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml2-link-row",
+        "aiml2-stats-row",
+        "aiml2-desc"
+      ]
+    },
+    "aiml2-link-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml2-link",
+        "aiml2-badge"
+      ]
+    },
+    "aiml2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "revfactory/harness",
+        "href": "https://github.com/revfactory/harness",
+        "source": "GitHub"
+      }
+    },
+    "aiml2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "aiml2-stats-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml2-stars",
+        "aiml2-lang"
+      ]
+    },
+    "aiml2-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 527 today (5k total)",
+        "variant": "caption"
+      }
+    },
+    "aiml2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "HTML",
+        "variant": "outline"
+      }
+    },
+    "aiml2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Generates a full agent team spec — roles, skill files, and coordination logic — from a one-line problem statement.",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-repo1",
+        "devtools-repo2"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools1-link-row",
+        "devtools1-stats-row",
+        "devtools1-desc"
+      ]
+    },
+    "devtools1-link-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools1-link",
+        "devtools1-badge"
+      ]
+    },
+    "devtools1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "can1357/oh-my-pi",
+        "href": "https://github.com/can1357/oh-my-pi",
+        "source": "GitHub"
+      }
+    },
+    "devtools1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools1-stats-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools1-stars",
+        "devtools1-lang"
+      ]
+    },
+    "devtools1-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 333 today (9k total)",
+        "variant": "caption"
+      }
+    },
+    "devtools1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "devtools1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Hash-anchored edits guarantee file integrity before apply — stops agents from silently corrupting tracked files.",
+        "variant": "body"
+      }
+    },
+    "devtools-repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools2-link-row",
+        "devtools2-stats-row",
+        "devtools2-desc"
+      ]
+    },
+    "devtools2-link-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools2-link",
+        "devtools2-badge"
+      ]
+    },
+    "devtools2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "pbakaus/impeccable",
+        "href": "https://github.com/pbakaus/impeccable",
+        "source": "GitHub"
+      }
+    },
+    "devtools2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools2-stats-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools2-stars",
+        "devtools2-lang"
+      ]
+    },
+    "devtools2-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 317 today (32k total)",
+        "variant": "caption"
+      }
+    },
+    "devtools2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "outline"
+      }
+    },
+    "devtools2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Design token system built for LLM pipelines — outputs structured UI specs, not free-form HTML.",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "webapps-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "webapps-heading",
+        "webapps-repo1"
+      ]
+    },
+    "webapps-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "webapps-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "webapps1-link-row",
+        "webapps1-stats-row",
+        "webapps1-desc"
+      ]
+    },
+    "webapps1-link-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "webapps1-link",
+        "webapps1-badge"
+      ]
+    },
+    "webapps1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "nesquena/hermes-webui",
+        "href": "https://github.com/nesquena/hermes-webui",
+        "source": "GitHub"
+      }
+    },
+    "webapps1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "webapps1-stats-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "webapps1-stars",
+        "webapps1-lang"
+      ]
+    },
+    "webapps1-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 984 today (11k total)",
+        "variant": "caption"
+      }
+    },
+    "webapps1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "webapps1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Three releases today — Hermes Agent's web and mobile UI is moving faster than most desktop frameworks.",
+        "variant": "body"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "infra-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra-heading",
+        "infra-repo1"
+      ]
+    },
+    "infra-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infra-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra1-link-row",
+        "infra1-stats-row",
+        "infra1-desc"
+      ]
+    },
+    "infra1-link-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra1-link",
+        "infra1-badge"
+      ]
+    },
+    "infra1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "D4Vinci/Scrapling",
+        "href": "https://github.com/D4Vinci/Scrapling",
+        "source": "GitHub"
+      }
+    },
+    "infra1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "infra1-stats-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "infra1-stars",
+        "infra1-lang"
+      ]
+    },
+    "infra1-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1,475 today (58k total)",
+        "variant": "caption"
+      }
+    },
+    "infra1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "infra1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Fingerprint-rotating, anti-bot-aware scraper that adapts per site — Playwright and httpx backends under one API.",
+        "variant": "body"
+      }
+    },
+    "separator5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer-text"
+      ]
+    },
+    "footer-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/17",
+        "variant": "caption"
+      }
+    }
+  }
+}
