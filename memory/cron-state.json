@@ -13,13 +13,13 @@
   "token-pick": {
     "last_status": "failed",
     "last_success": "2026-05-30T13:11:36Z",
-    "total_runs": 7,
+    "total_runs": 8,
     "total_successes": 4,
-    "total_failures": 3,
-    "consecutive_failures": 2,
-    "success_rate": 0.57,
-    "last_failed": "2026-06-01T17:24:10Z",
-    "last_error": ": vol,\\n        'vol_mcap': round(vol_mcap, 3),\\n        'score': score\\n    })\\nresults.sort(key=lambda x: x['score'], reverse=True)\\nfor r in results[:30]:\\n    print(f\\\\\\\"{r['symbol']:12} score={r["
+    "total_failures": 4,
+    "consecutive_failures": 3,
+    "success_rate": 0.5,
+    "last_failed": "2026-06-01T17:24:25Z",
+    "last_error": "41a0e81\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
   },
   "morning-brief": {
     "last_status": "success",
