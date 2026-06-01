@@ -1,0 +1,802 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest"
+      },
+      "children": [
+        "heading_date",
+        "verdict_alert",
+        "sep1",
+        "section_patch_today",
+        "sep2",
+        "section_patch_week",
+        "sep3",
+        "section_monitor"
+      ]
+    },
+    "heading_date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-01",
+        "variant": "muted"
+      }
+    },
+    "verdict_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Verdict",
+        "message": "2 actively exploited (KEV), 1 urgent by CVSS 9.8+PoC, 3 to schedule, 2 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "type": "warning"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_patch_today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_patch_today",
+        "vuln_cve_2024_21182",
+        "vuln_cve_2026_48172",
+        "vuln_ghsa_vitest"
+      ]
+    },
+    "heading_patch_today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "vuln_cve_2024_21182": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve_2024_21182_header",
+        "cve_2024_21182_meta",
+        "cve_2024_21182_desc",
+        "cve_2024_21182_action"
+      ]
+    },
+    "cve_2024_21182_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve_2024_21182_link",
+        "cve_2024_21182_product",
+        "cve_2024_21182_kev_badge"
+      ]
+    },
+    "cve_2024_21182_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2024-21182",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2024-21182"
+      }
+    },
+    "cve_2024_21182_product": {
+      "type": "Text",
+      "props": {
+        "text": "Oracle WebLogic Server",
+        "variant": "lead"
+      }
+    },
+    "cve_2024_21182_kev_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV",
+        "variant": "destructive"
+      }
+    },
+    "cve_2024_21182_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve_2024_21182_date",
+        "cve_2024_21182_epss",
+        "cve_2024_21182_cvss"
+      ]
+    },
+    "cve_2024_21182_date": {
+      "type": "Text",
+      "props": {
+        "text": "KEV added 2026-06-01 · Due 2026-06-04",
+        "variant": "caption"
+      }
+    },
+    "cve_2024_21182_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.88"
+      }
+    },
+    "cve_2024_21182_cvss": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS N/A (KEV-confirmed)",
+        "variant": "caption"
+      }
+    },
+    "cve_2024_21182_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth RCE via T3/IIOP. Actively exploited per CISA.",
+        "variant": "body"
+      }
+    },
+    "cve_2024_21182_action": {
+      "type": "Alert",
+      "props": {
+        "message": "Apply Oracle CPU patch for WebLogic today.",
+        "type": "error"
+      }
+    },
+    "vuln_cve_2026_48172": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve_2026_48172_header",
+        "cve_2026_48172_meta",
+        "cve_2026_48172_desc",
+        "cve_2026_48172_action"
+      ]
+    },
+    "cve_2026_48172_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve_2026_48172_link",
+        "cve_2026_48172_product",
+        "cve_2026_48172_overdue_badge"
+      ]
+    },
+    "cve_2026_48172_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48172",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-48172"
+      }
+    },
+    "cve_2026_48172_product": {
+      "type": "Text",
+      "props": {
+        "text": "LiteSpeed cPanel Plugin",
+        "variant": "lead"
+      }
+    },
+    "cve_2026_48172_overdue_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "OVERDUE",
+        "variant": "destructive"
+      }
+    },
+    "cve_2026_48172_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve_2026_48172_date",
+        "cve_2026_48172_epss",
+        "cve_2026_48172_cvss"
+      ]
+    },
+    "cve_2026_48172_date": {
+      "type": "Text",
+      "props": {
+        "text": "KEV added 2026-05-26 · Was due 2026-05-29",
+        "variant": "caption"
+      }
+    },
+    "cve_2026_48172_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.08"
+      }
+    },
+    "cve_2026_48172_cvss": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS N/A",
+        "variant": "caption"
+      }
+    },
+    "cve_2026_48172_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Priv escalation: any cPanel user executes scripts as root.",
+        "variant": "body"
+      }
+    },
+    "cve_2026_48172_action": {
+      "type": "Alert",
+      "props": {
+        "message": "Update LiteSpeed cPanel plugin immediately.",
+        "type": "error"
+      }
+    },
+    "vuln_ghsa_vitest": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_vitest_header",
+        "ghsa_vitest_meta",
+        "ghsa_vitest_desc",
+        "ghsa_vitest_action"
+      ]
+    },
+    "ghsa_vitest_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_vitest_link",
+        "ghsa_vitest_product",
+        "ghsa_vitest_poc_badge"
+      ]
+    },
+    "ghsa_vitest_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-5xrq-8626-4rwp",
+        "href": "https://github.com/advisories/GHSA-5xrq-8626-4rwp"
+      }
+    },
+    "ghsa_vitest_product": {
+      "type": "Text",
+      "props": {
+        "text": "vitest (npm)",
+        "variant": "lead"
+      }
+    },
+    "ghsa_vitest_poc_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "destructive"
+      }
+    },
+    "ghsa_vitest_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_vitest_cvss",
+        "ghsa_vitest_epss"
+      ]
+    },
+    "ghsa_vitest_cvss": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.8"
+      }
+    },
+    "ghsa_vitest_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0"
+      }
+    },
+    "ghsa_vitest_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Vitest UI server: arbitrary file read + code execution on Windows when network-exposed.",
+        "variant": "body"
+      }
+    },
+    "ghsa_vitest_action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade vitest to ≥ 4.1.0 and redeploy.",
+        "type": "error"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_patch_week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_patch_week",
+        "vuln_ghsa_vitest_browser",
+        "vuln_ghsa_dompurify",
+        "vuln_ghsa_agenticmail"
+      ]
+    },
+    "heading_patch_week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "vuln_ghsa_vitest_browser": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_vitest_browser_header",
+        "ghsa_vitest_browser_meta",
+        "ghsa_vitest_browser_desc",
+        "ghsa_vitest_browser_action"
+      ]
+    },
+    "ghsa_vitest_browser_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_vitest_browser_link",
+        "ghsa_vitest_browser_product",
+        "ghsa_vitest_browser_poc_badge"
+      ]
+    },
+    "ghsa_vitest_browser_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-2h32-95rg-cppp",
+        "href": "https://github.com/advisories/GHSA-2h32-95rg-cppp"
+      }
+    },
+    "ghsa_vitest_browser_product": {
+      "type": "Text",
+      "props": {
+        "text": "@vitest/browser (npm)",
+        "variant": "lead"
+      }
+    },
+    "ghsa_vitest_browser_poc_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "destructive"
+      }
+    },
+    "ghsa_vitest_browser_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_vitest_browser_cvss",
+        "ghsa_vitest_browser_epss"
+      ]
+    },
+    "ghsa_vitest_browser_cvss": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.6"
+      }
+    },
+    "ghsa_vitest_browser_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0"
+      }
+    },
+    "ghsa_vitest_browser_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unsanitized otelCarrier param → reflected XSS → RCE via embedded API token.",
+        "variant": "body"
+      }
+    },
+    "ghsa_vitest_browser_action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade @vitest/browser to ≥ 4.1.6.",
+        "type": "warning"
+      }
+    },
+    "vuln_ghsa_dompurify": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_dompurify_header",
+        "ghsa_dompurify_meta",
+        "ghsa_dompurify_desc",
+        "ghsa_dompurify_action"
+      ]
+    },
+    "ghsa_dompurify_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_dompurify_link",
+        "ghsa_dompurify_product",
+        "ghsa_dompurify_poc_badge"
+      ]
+    },
+    "ghsa_dompurify_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-87xg-pxx2-7hvx",
+        "href": "https://github.com/advisories/GHSA-87xg-pxx2-7hvx"
+      }
+    },
+    "ghsa_dompurify_product": {
+      "type": "Text",
+      "props": {
+        "text": "dompurify (npm)",
+        "variant": "lead"
+      }
+    },
+    "ghsa_dompurify_poc_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "destructive"
+      }
+    },
+    "ghsa_dompurify_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_dompurify_cvss",
+        "ghsa_dompurify_epss"
+      ]
+    },
+    "ghsa_dompurify_cvss": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "8.2"
+      }
+    },
+    "ghsa_dompurify_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0"
+      }
+    },
+    "ghsa_dompurify_desc": {
+      "type": "Text",
+      "props": {
+        "text": "selectedcontent re-clone bypasses sanitizer; affects 3.4.4 only.",
+        "variant": "body"
+      }
+    },
+    "ghsa_dompurify_action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade dompurify to ≥ 3.4.5.",
+        "type": "warning"
+      }
+    },
+    "vuln_ghsa_agenticmail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_agenticmail_header",
+        "ghsa_agenticmail_meta",
+        "ghsa_agenticmail_desc",
+        "ghsa_agenticmail_action"
+      ]
+    },
+    "ghsa_agenticmail_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_agenticmail_link",
+        "ghsa_agenticmail_product",
+        "ghsa_agenticmail_poc_badge"
+      ]
+    },
+    "ghsa_agenticmail_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-63gr-g7jc-v8rg",
+        "href": "https://github.com/advisories/GHSA-63gr-g7jc-v8rg"
+      }
+    },
+    "ghsa_agenticmail_product": {
+      "type": "Text",
+      "props": {
+        "text": "@agenticmail/mcp (npm)",
+        "variant": "lead"
+      }
+    },
+    "ghsa_agenticmail_poc_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "destructive"
+      }
+    },
+    "ghsa_agenticmail_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_agenticmail_severity"
+      ]
+    },
+    "ghsa_agenticmail_severity": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH severity",
+        "variant": "destructive"
+      }
+    },
+    "ghsa_agenticmail_desc": {
+      "type": "Text",
+      "props": {
+        "text": "MCP HTTP transport unauthenticated — anyone can invoke admin tools.",
+        "variant": "body"
+      }
+    },
+    "ghsa_agenticmail_action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade @agenticmail/mcp to ≥ 0.9.27.",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_monitor",
+        "vuln_ghsa_praisonai",
+        "vuln_ghsa_nezha"
+      ]
+    },
+    "heading_monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "vuln_ghsa_praisonai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_praisonai_header",
+        "ghsa_praisonai_meta",
+        "ghsa_praisonai_desc",
+        "ghsa_praisonai_action"
+      ]
+    },
+    "ghsa_praisonai_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_praisonai_link",
+        "ghsa_praisonai_product"
+      ]
+    },
+    "ghsa_praisonai_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-8g2p-pqm3-fcfh",
+        "href": "https://github.com/advisories/GHSA-8g2p-pqm3-fcfh"
+      }
+    },
+    "ghsa_praisonai_product": {
+      "type": "Text",
+      "props": {
+        "text": "praisonai-platform (pip)",
+        "variant": "lead"
+      }
+    },
+    "ghsa_praisonai_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_praisonai_cvss",
+        "ghsa_praisonai_epss",
+        "ghsa_praisonai_patch_badge"
+      ]
+    },
+    "ghsa_praisonai_cvss": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.6"
+      }
+    },
+    "ghsa_praisonai_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0"
+      }
+    },
+    "ghsa_praisonai_patch_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "no confirmed patch",
+        "variant": "outline"
+      }
+    },
+    "ghsa_praisonai_desc": {
+      "type": "Text",
+      "props": {
+        "text": "5 new auth bypass CVEs today (privesc, workspace delete, 3x IDOR). All < 0.1.4.",
+        "variant": "body"
+      }
+    },
+    "ghsa_praisonai_action": {
+      "type": "Alert",
+      "props": {
+        "message": "avoid multi-tenant use; watch for 0.1.4 patch.",
+        "type": "info"
+      }
+    },
+    "vuln_ghsa_nezha": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_nezha_header",
+        "ghsa_nezha_meta",
+        "ghsa_nezha_desc",
+        "ghsa_nezha_action"
+      ]
+    },
+    "ghsa_nezha_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_nezha_link",
+        "ghsa_nezha_product"
+      ]
+    },
+    "ghsa_nezha_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-4g6j-g789-rghm",
+        "href": "https://github.com/advisories/GHSA-4g6j-g789-rghm"
+      }
+    },
+    "ghsa_nezha_product": {
+      "type": "Text",
+      "props": {
+        "text": "nezha (go)",
+        "variant": "lead"
+      }
+    },
+    "ghsa_nezha_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_nezha_cvss",
+        "ghsa_nezha_epss",
+        "ghsa_nezha_fix_badge"
+      ]
+    },
+    "ghsa_nezha_cvss": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "7.1"
+      }
+    },
+    "ghsa_nezha_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0"
+      }
+    },
+    "ghsa_nezha_fix_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "outline"
+      }
+    },
+    "ghsa_nezha_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Authenticated agents can forge monitor results for other users services.",
+        "variant": "body"
+      }
+    },
+    "ghsa_nezha_action": {
+      "type": "Alert",
+      "props": {
+        "message": "watch for 1.14.15+/2.0.12+; restrict agent endpoint trust.",
+        "type": "info"
+      }
+    }
+  }
+}
