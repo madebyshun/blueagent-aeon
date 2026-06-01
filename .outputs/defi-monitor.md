@@ -1,7 +1,8 @@
-`memory/on-chain-watches.yml` does not exist — no DeFi positions are configured. Logged `DEFI_MONITOR_OK` to today's log and ended as instructed.
+No `memory/on-chain-watches.yml` found — no DeFi positions are configured. Logged `DEFI_MONITOR_OK` to `memory/logs/2026-06-01.md` and ending.
 
 ## Summary
 
-- **Checked:** `memory/on-chain-watches.yml` — file not found.
-- **Action:** No DeFi positions to monitor; logged `DEFI_MONITOR_OK` to `memory/logs/2026-05-30.md`.
-- **Follow-up:** To use this skill, create `memory/on-chain-watches.yml` with wallet/pool/position entries (see SKILL.md for schema).
+- **Skill:** defi-monitor
+- **Outcome:** `DEFI_MONITOR_OK` — `memory/on-chain-watches.yml` does not exist, so there are no watched pools or positions to check.
+- **Files modified:** `memory/logs/2026-06-01.md` (appended log entry)
+- **Follow-up:** To use this skill, create `memory/on-chain-watches.yml` with pool/position/wallet entries as described in the skill config schema.
