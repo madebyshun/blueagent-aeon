@@ -1,20 +1,21 @@
-*Morning Brief — 2026-05-31*
+*Morning Brief — 2026-06-01*
 
 *Focus today*
-1. MEMORY.md consolidation — why now: stale priorities mislead skill runs and corrupt tomorrow's brief
-2. security-digest repair — why now: 2 consecutive failures, skill disabled, no fix plan on record
-3. narrative-tracker output — why now: first run since AWS AgentCore + Base payment rail launched
+1. token-movers + token-pick — why now: second failure today → consecutive_failures:2, repair triggers fire
+2. narrative-tracker XAI credits — why now: 403 again at 13:30; buy-or-accept-fallback needs a call today
+3. background: MEMORY.md Next Priorities all resolved — index is stale, misleads future briefs
 
 *Since yesterday*
-- moved: token-movers recovered — clean run at 12:00 UTC after 2 consecutive failures
-- moved: XLM token pick (score 10/10) — DTCC tokenized-securities on Stellar confirmed driver
-- stuck: security-digest — consecutive_failures=2, still no repair initiated
+- security-digest: repaired — back to success after 2 consecutive failures
+- narrative-tracker: ran OK on WebSearch fallback (XAI 403, no credits)
+- token-movers: failed — 0-token output, success_rate now 25%
+- token-pick: failed — same pattern, consecutive_failures:1
 
 *Watch*
-- AWS AgentCore Payments live on Base (USDC, Coinbase + Stripe) — validates AI agent payment narrative for $BLUEAGENT; narrative-tracker should surface this today
+- Base MCP live (May 26): ChatGPT + Claude execute real DeFi trades on Base — AI Agent Payments has live infra; RIDE signal for $BLUEAGENT strengthens
 
 *Running today*
-- heartbeat @ 08:00, 14:00, 20:00 UTC
+- heartbeat @ 08:00/14:00/20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC

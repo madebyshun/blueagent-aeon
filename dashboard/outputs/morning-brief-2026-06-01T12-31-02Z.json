@@ -1,0 +1,196 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-06-01"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_since",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_item1",
+        "focus_item2",
+        "focus_item3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      }
+    },
+    "focus_item1": {
+      "type": "Text",
+      "props": {
+        "text": "1. token-movers + token-pick — why now: second failure today → consecutive_failures:2, repair triggers fire"
+      }
+    },
+    "focus_item2": {
+      "type": "Text",
+      "props": {
+        "text": "2. narrative-tracker XAI credits — why now: 403 again at 13:30; buy-or-accept-fallback needs a call today"
+      }
+    },
+    "focus_item3": {
+      "type": "Text",
+      "props": {
+        "text": "3. background: MEMORY.md Next Priorities all resolved — index is stale, misleads future briefs"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "since_item1",
+        "since_item2",
+        "since_item3",
+        "since_item4"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h3"
+      }
+    },
+    "since_item1": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest: repaired — back to success after 2 consecutive failures"
+      }
+    },
+    "since_item2": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker: ran OK on WebSearch fallback (XAI 403, no credits)"
+      }
+    },
+    "since_item3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers: failed — 0-token output, success_rate now 25%"
+      }
+    },
+    "since_item4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick: failed — same pattern, consecutive_failures:1"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_item"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h3"
+      }
+    },
+    "watch_item": {
+      "type": "Text",
+      "props": {
+        "text": "Base MCP live (May 26): ChatGPT + Claude execute real DeFi trades on Base — AI Agent Payments has live infra; RIDE signal for $BLUEAGENT strengthens"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_table"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h3"
+      }
+    },
+    "running_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Time"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "08:00/14:00/20:00 UTC"
+          ],
+          [
+            "github-monitor",
+            "09:00 UTC"
+          ],
+          [
+            "token-movers",
+            "12:00 UTC"
+          ],
+          [
+            "token-pick",
+            "12:00 UTC"
+          ],
+          [
+            "narrative-tracker",
+            "13:30 UTC"
+          ]
+        ]
+      }
+    }
+  }
+}
