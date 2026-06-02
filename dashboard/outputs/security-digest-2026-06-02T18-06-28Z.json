@@ -1,0 +1,458 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-06-02"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "verdict_section",
+        "sep1",
+        "patch_today_section",
+        "sep2",
+        "patch_week_section"
+      ]
+    },
+    "verdict_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verdict_heading",
+        "verdict_stat",
+        "verdict_sources"
+      ]
+    },
+    "verdict_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Verdict",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "verdict_stat": {
+      "type": "Text",
+      "props": {
+        "text": "3 actively exploited/KEV, 5 to schedule",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "verdict_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV, GH Advisory, EPSS",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "patch_today_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_today_heading",
+        "patch_today_vulns_stack"
+      ]
+    },
+    "patch_today_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "patch_today_vulns_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "vuln_cve_48027",
+        "vuln_cve_45321",
+        "vuln_vm2",
+        "vuln_linux"
+      ]
+    },
+    "vuln_cve_48027": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_cve_48027",
+        "desc_48027",
+        "remediate_48027"
+      ]
+    },
+    "link_cve_48027": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48027",
+        "href": "https://github.com/advisories/GHSA-rp36-8xq3-r6c4",
+        "source": "Nx Console (npm/VS Code ext) · KEV 2026-05-27 · EPSS 0.32 · CVSS N/A"
+      },
+      "children": []
+    },
+    "desc_48027": {
+      "type": "Text",
+      "props": {
+        "text": "Supply chain: malicious version harvested credentials from disk and memory.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "remediate_48027": {
+      "type": "Text",
+      "props": {
+        "text": "→ Uninstall compromised Nx Console; upgrade VS Code extension to latest verified release.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "vuln_cve_45321": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_cve_45321",
+        "desc_45321",
+        "remediate_45321"
+      ]
+    },
+    "link_cve_45321": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-45321",
+        "href": "https://github.com/advisories/GHSA-rp36-8xq3-r6c4",
+        "source": "TanStack (npm) · KEV 2026-05-27 · EPSS 0.17 · CVSS N/A"
+      },
+      "children": []
+    },
+    "desc_45321": {
+      "type": "Text",
+      "props": {
+        "text": "Supply chain: credential-stealing malware published to npm under trusted package identity.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "remediate_45321": {
+      "type": "Text",
+      "props": {
+        "text": "→ Run npm audit; upgrade all @tanstack/* packages; audit CI deps.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "vuln_vm2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_vm2",
+        "desc_vm2",
+        "remediate_vm2"
+      ]
+    },
+    "link_vm2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-rp36-8xq3-r6c4 + 4 related",
+        "href": "https://github.com/advisories/GHSA-rp36-8xq3-r6c4",
+        "source": "vm2 (npm) · CVSS 10.0 · public PoC"
+      },
+      "children": []
+    },
+    "desc_vm2": {
+      "type": "Text",
+      "props": {
+        "text": "Sandbox escape cluster: builtin denylist bypass + JSPI Promise species bypass → host RCE confirmed.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "remediate_vm2": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade vm2 to >=3.11.4 today, or migrate to isolated-vm.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "vuln_linux": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_linux"
+      ]
+    },
+    "text_linux": {
+      "type": "Text",
+      "props": {
+        "text": "Also new in KEV: CVE-2022-0492 Linux Kernel priv-esc (EPSS 0.05) — patch OS/containers.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "patch_week_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_week_heading",
+        "patch_week_vulns_stack"
+      ]
+    },
+    "patch_week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "patch_week_vulns_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "vuln_ghsa_3qg8",
+        "vuln_ghsa_4mr5",
+        "vuln_ghsa_29h4",
+        "vuln_ghsa_vg22",
+        "vuln_ghsa_c2m8"
+      ]
+    },
+    "vuln_ghsa_3qg8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_3qg8",
+        "desc_3qg8",
+        "remediate_3qg8"
+      ]
+    },
+    "link_ghsa_3qg8": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-3qg8-5g3r-79v5",
+        "href": "https://github.com/advisories/GHSA-3qg8-5g3r-79v5",
+        "source": "praisonai-platform (pip) · CVSS 9.8"
+      },
+      "children": []
+    },
+    "desc_3qg8": {
+      "type": "Text",
+      "props": {
+        "text": "JWT key defaults to hardcoded dev-secret-change-me. Any user token forgeable.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "remediate_3qg8": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade to >=0.1.4; rotate JWT_SECRET.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "vuln_ghsa_4mr5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_4mr5",
+        "desc_4mr5",
+        "remediate_4mr5"
+      ]
+    },
+    "link_ghsa_4mr5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-4mr5-g6f9-cfrh",
+        "href": "https://github.com/advisories/GHSA-4mr5-g6f9-cfrh",
+        "source": "praisonaiagents (pip) · CVSS 9.9"
+      },
+      "children": []
+    },
+    "desc_4mr5": {
+      "type": "Text",
+      "props": {
+        "text": "Sandbox escape via print.__self__ builtins leak → arbitrary Python exec.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "remediate_4mr5": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade praisonaiagents >=1.6.40, PraisonAI >=4.6.40.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "vuln_ghsa_29h4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_29h4",
+        "desc_29h4",
+        "remediate_29h4"
+      ]
+    },
+    "link_ghsa_29h4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-29h4-r29x-hchv",
+        "href": "https://github.com/advisories/GHSA-29h4-r29x-hchv",
+        "source": "redshift-connector (pip) · CVSS 9.8 · EPSS 0.00076"
+      },
+      "children": []
+    },
+    "desc_29h4": {
+      "type": "Text",
+      "props": {
+        "text": "eval() injection RCE via server response in amazon-redshift-python-driver.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "remediate_29h4": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade redshift-connector to >=2.1.14.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "vuln_ghsa_vg22": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_vg22",
+        "desc_vg22",
+        "remediate_vg22"
+      ]
+    },
+    "link_ghsa_vg22": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-vg22-4gmj-prxw",
+        "href": "https://github.com/advisories/GHSA-vg22-4gmj-prxw",
+        "source": "PraisonAI (pip) · CVSS 9.8"
+      },
+      "children": []
+    },
+    "desc_vg22": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated A2A endpoint reaches real LLM eval() execution.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "remediate_vg22": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade PraisonAI >=4.6.40; add auth to A2A endpoints.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "vuln_ghsa_c2m8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_c2m8",
+        "desc_c2m8",
+        "remediate_c2m8"
+      ]
+    },
+    "link_ghsa_c2m8": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-c2m8-4gcg-v22g",
+        "href": "https://github.com/advisories/GHSA-c2m8-4gcg-v22g",
+        "source": "praisonai-platform (pip) · CVSS 9.6"
+      },
+      "children": []
+    },
+    "desc_c2m8": {
+      "type": "Text",
+      "props": {
+        "text": "Any workspace member can PATCH self to owner role.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "remediate_c2m8": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade praisonai-platform >=0.1.4.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

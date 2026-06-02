@@ -1,37 +1,38 @@
-*Security Digest — 2026-06-01*
-Verdict: 2 actively exploited (KEV), 1 urgent by CVSS 9.8+PoC, 3 to schedule, 2 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-06-02*
+Verdict: 3 actively exploited/KEV, 5 to schedule. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- [CVE-2024-21182](https://nvd.nist.gov/vuln/detail/CVE-2024-21182) — Oracle WebLogic Server · KEV added 2026-06-01 · EPSS 0.88 · CVSS N/A (KEV-confirmed)
-  Unauth RCE via T3/IIOP. Actively exploited per CISA; due 2026-06-04.
-  → Apply Oracle CPU patch for WebLogic today.
+- [CVE-2026-48027](https://github.com/advisories/GHSA-rp36-8xq3-r6c4) — Nx Console (npm/VS Code ext) · KEV 2026-05-27 · EPSS 0.32 · CVSS N/A
+  Supply chain: malicious version harvested credentials from disk and memory.
+  → Uninstall compromised Nx Console; upgrade VS Code extension to latest verified release.
 
-- [CVE-2026-48172](https://nvd.nist.gov/vuln/detail/CVE-2026-48172) — LiteSpeed cPanel Plugin · KEV added 2026-05-26 · EPSS 0.08 · CVSS N/A
-  Priv escalation: any cPanel user executes scripts as root. Was due 2026-05-29 — overdue.
-  → Update LiteSpeed cPanel plugin immediately.
+- [CVE-2026-45321](https://github.com/advisories/GHSA-rp36-8xq3-r6c4) — TanStack (npm) · KEV 2026-05-27 · EPSS 0.17 · CVSS N/A
+  Supply chain: credential-stealing malware published to npm under trusted package identity.
+  → Run npm audit; upgrade all @tanstack/* packages; audit CI deps.
 
-- [GHSA-5xrq-8626-4rwp](https://github.com/advisories/GHSA-5xrq-8626-4rwp) — vitest (npm) · CVSS 9.8 · EPSS 0 · public PoC
-  Vitest UI server: arbitrary file read + code execution on Windows when network-exposed.
-  → upgrade vitest to ≥ 4.1.0 and redeploy.
+- [GHSA-rp36-8xq3-r6c4](https://github.com/advisories/GHSA-rp36-8xq3-r6c4) + 4 related — vm2 (npm) · CVSS 10.0 · public PoC
+  Sandbox escape cluster: builtin denylist bypass + JSPI Promise species bypass → host RCE confirmed.
+  → upgrade vm2 to >=3.11.4 today, or migrate to isolated-vm.
+
+_Also new in KEV: CVE-2022-0492 Linux Kernel priv-esc (EPSS 0.05) — patch OS/containers._
 
 *PATCH THIS WEEK*
-- [GHSA-2h32-95rg-cppp](https://github.com/advisories/GHSA-2h32-95rg-cppp) — @vitest/browser (npm) · CVSS 9.6 · EPSS 0 · public PoC
-  Unsanitized otelCarrier param → reflected XSS → RCE via embedded API token.
-  → upgrade @vitest/browser to ≥ 4.1.6.
+- [GHSA-3qg8-5g3r-79v5](https://github.com/advisories/GHSA-3qg8-5g3r-79v5) — praisonai-platform (pip) · CVSS 9.8
+  JWT key defaults to hardcoded dev-secret-change-me. Any user token forgeable.
+  → upgrade to >=0.1.4; rotate JWT_SECRET.
 
-- [GHSA-87xg-pxx2-7hvx](https://github.com/advisories/GHSA-87xg-pxx2-7hvx) — dompurify (npm) · CVSS 8.2 · EPSS 0 · public PoC
-  selectedcontent re-clone bypasses sanitizer; affects 3.4.4 only.
-  → upgrade dompurify to ≥ 3.4.5.
+- [GHSA-4mr5-g6f9-cfrh](https://github.com/advisories/GHSA-4mr5-g6f9-cfrh) — praisonaiagents (pip) · CVSS 9.9
+  Sandbox escape via print.__self__ builtins leak → arbitrary Python exec.
+  → upgrade praisonaiagents >=1.6.40, PraisonAI >=4.6.40.
 
-- [GHSA-63gr-g7jc-v8rg](https://github.com/advisories/GHSA-63gr-g7jc-v8rg) — @agenticmail/mcp (npm) · high · no CVSS · public PoC
-  MCP HTTP transport unauthenticated — anyone can invoke admin tools.
-  → upgrade @agenticmail/mcp to ≥ 0.9.27.
+- [GHSA-29h4-r29x-hchv](https://github.com/advisories/GHSA-29h4-r29x-hchv) — redshift-connector (pip) · CVSS 9.8 · EPSS 0.00076
+  eval() injection RCE via server response in amazon-redshift-python-driver.
+  → upgrade redshift-connector to >=2.1.14.
 
-*MONITOR*
-- [GHSA-8g2p-pqm3-fcfh](https://github.com/advisories/GHSA-8g2p-pqm3-fcfh) — praisonai-platform (pip) · CVSS 9.6 · no confirmed patch · EPSS 0
-  5 new auth bypass CVEs today (privesc, workspace delete, 3x IDOR). All < 0.1.4.
-  → avoid multi-tenant use; watch for 0.1.4 patch.
+- [GHSA-vg22-4gmj-prxw](https://github.com/advisories/GHSA-vg22-4gmj-prxw) — PraisonAI (pip) · CVSS 9.8
+  Unauthenticated A2A endpoint reaches real LLM eval() execution.
+  → upgrade PraisonAI >=4.6.40; add auth to A2A endpoints.
 
-- [GHSA-4g6j-g789-rghm](https://github.com/advisories/GHSA-4g6j-g789-rghm) — nezha (go) · CVSS 7.1 · no fix · EPSS 0
-  Authenticated agents can forge monitor results for other users services.
-  → watch for 1.14.15+/2.0.12+; restrict agent endpoint trust.
+- [GHSA-c2m8-4gcg-v22g](https://github.com/advisories/GHSA-c2m8-4gcg-v22g) — praisonai-platform (pip) · CVSS 9.6
+  Any workspace member can PATCH self to owner role.
+  → upgrade praisonai-platform >=0.1.4.
