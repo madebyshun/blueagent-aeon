@@ -1,0 +1,242 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-02"
+      },
+      "children": [
+        "header_stack",
+        "sep1",
+        "price_stack",
+        "mcap_vol_grid",
+        "sep2",
+        "score_text",
+        "sep3",
+        "catalyst_section",
+        "sep4",
+        "risk_alert",
+        "sep5",
+        "recent_picks_text",
+        "sep6",
+        "sources_text",
+        "sep7",
+        "disclaimer_text"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token_heading",
+        "high_badge",
+        "signal_badge"
+      ]
+    },
+    "token_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: LAB",
+        "level": "h3"
+      }
+    },
+    "high_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "signal_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 8/10",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "price_stat",
+        "price_change_24h",
+        "price_change_7d"
+      ]
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$20.34"
+      }
+    },
+    "price_change_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+32.97%",
+        "trend": "up"
+      }
+    },
+    "price_change_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+340.91%",
+        "trend": "up"
+      }
+    },
+    "mcap_vol_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "mcap_stat",
+        "vol_stat",
+        "ratio_stat"
+      ]
+    },
+    "mcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$6.34B"
+      }
+    },
+    "vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$188.9M"
+      }
+    },
+    "ratio_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "vol/mcap",
+        "value": "0.030"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "score_text": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [trending+2, both>5%+2, RS vs BTC/ETH+2, 24h>0+1, 7d>0+1] = 8/10",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalyst_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "catalyst_heading",
+        "catalyst_item1",
+        "catalyst_item2"
+      ]
+    },
+    "catalyst_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "catalyst_item1": {
+      "type": "Text",
+      "props": {
+        "text": "Deflationary buyback program launched June 1 — fee revenue auto-repurchases tokens to compress circulating float",
+        "variant": "body"
+      }
+    },
+    "catalyst_item2": {
+      "type": "Text",
+      "props": {
+        "text": "Rewards season tying $LAB payouts to trading activity announced May 29",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "risk_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "ZachXBT warning — 69% of supply still locked; concentrated holder unlocks expected July/Aug 2026; thin order books amplify downside sharply",
+        "type": "warning"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "recent_picks_text": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time",
+        "variant": "muted"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok (no qualifying market — MSTR resolved, others below $50K vol gate)",
+        "variant": "caption"
+      }
+    },
+    "sep7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "disclaimer_text": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
