@@ -1,0 +1,457 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-02"
+      },
+      "children": [
+        "section_top_pick",
+        "sep1",
+        "section_aiml",
+        "sep2",
+        "section_devtools",
+        "sep3",
+        "status_line"
+      ]
+    },
+    "section_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_top_pick",
+        "top_pick_repo"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "top_pick_repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top_link",
+        "top_desc"
+      ]
+    },
+    "top_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "OpenBMB/VoxCPM",
+        "href": "https://github.com/OpenBMB/VoxCPM"
+      },
+      "children": []
+    },
+    "top_desc": {
+      "type": "Text",
+      "props": {
+        "text": "VoxCPM2 dropped a tokenizer-free TTS architecture with voice cloning — skips the phoneme tokenization step that bottlenecks every other multilingual TTS system.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aiml",
+        "repo_voxcpm",
+        "repo_trading",
+        "repo_heretic"
+      ]
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_voxcpm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "voxcpm_link",
+        "voxcpm_meta",
+        "voxcpm_desc"
+      ]
+    },
+    "voxcpm_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "OpenBMB/VoxCPM",
+        "href": "https://github.com/OpenBMB/VoxCPM"
+      },
+      "children": []
+    },
+    "voxcpm_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "voxcpm_stars",
+        "voxcpm_lang",
+        "voxcpm_status"
+      ]
+    },
+    "voxcpm_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 779 today (24.8k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "voxcpm_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "voxcpm_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "voxcpm_desc": {
+      "type": "Text",
+      "props": {
+        "text": "VoxCPM2 ditches phoneme tokenization; voice cloning from a short audio clip across dozens of languages without retraining.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo_trading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trading_link",
+        "trading_meta",
+        "trading_desc"
+      ]
+    },
+    "trading_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "TauricResearch/TradingAgents",
+        "href": "https://github.com/TauricResearch/TradingAgents"
+      },
+      "children": []
+    },
+    "trading_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trading_stars",
+        "trading_lang",
+        "trading_status"
+      ]
+    },
+    "trading_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 768 today (82.2k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "trading_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "trading_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trading_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Specialist LLM agents (analyst, researcher, trader) coordinated as a synthetic trading desk — pushed yesterday, 768★ vs 284★ the day prior.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo_heretic": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heretic_link",
+        "heretic_meta",
+        "heretic_desc"
+      ]
+    },
+    "heretic_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "p-e-w/heretic",
+        "href": "https://github.com/p-e-w/heretic"
+      },
+      "children": []
+    },
+    "heretic_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "heretic_stars",
+        "heretic_lang",
+        "heretic_status"
+      ]
+    },
+    "heretic_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 357 today (23.2k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "heretic_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "heretic_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "heretic_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Automatically strips safety filters from local LLMs at inference time — no fine-tuning, no jailbreak prompts required.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "repo_fff",
+        "repo_godot"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_fff": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fff_link",
+        "fff_meta",
+        "fff_desc"
+      ]
+    },
+    "fff_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "dmtrKovalenko/fff",
+        "href": "https://github.com/dmtrKovalenko/fff"
+      },
+      "children": []
+    },
+    "fff_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "fff_stars",
+        "fff_lang",
+        "fff_status"
+      ]
+    },
+    "fff_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 424 today (7.4k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "fff_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "fff_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "fff_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rust file search built for AI agent workflows — structured JSON output and fuzzy matching native, not duct-taped onto grep.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo_godot": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "godot_link",
+        "godot_meta",
+        "godot_desc"
+      ]
+    },
+    "godot_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "godotengine/godot",
+        "href": "https://github.com/godotengine/godot"
+      },
+      "children": []
+    },
+    "godot_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "godot_stars",
+        "godot_lang",
+        "godot_status"
+      ]
+    },
+    "godot_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 417 today (111.9k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "godot_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C++",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "godot_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "godot_desc": {
+      "type": "Text",
+      "props": {
+        "text": "MIT-licensed Unity alternative spiking 17× above daily baseline — likely a release or community wave; no royalties, MIT license.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "status_line": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/17",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}

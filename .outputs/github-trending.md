@@ -1,29 +1,24 @@
-*GitHub Trending — 2026-06-01*
+*GitHub Trending — 2026-06-02*
 
-*Top pick* — [microsoft/markitdown](https://github.com/microsoft/markitdown)
-v0.1.6 ships OCR for scanned PDFs and embedded images — closes the document ingestion gap that makes most AI pipelines brittle.
+*Top pick* — [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)
+VoxCPM2 dropped a tokenizer-free TTS architecture with voice cloning — skips the phoneme tokenization step that bottlenecks every other multilingual TTS system.
 
 *AI/ML*
-• [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) — ★ 660 today (24k total) · TypeScript · [RETURNING]
-Unified memory API with search, dedup, and metadata — drops into any AI app as a single SDK call.
+• [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) — ★ 779 today (24.8k total) · Python · [ACCELERATING]
+VoxCPM2 ditches phoneme tokenization; voice cloning from a short audio clip across dozens of languages without retraining.
 
-• [revfactory/harness](https://github.com/revfactory/harness) — ★ 527 today (5k total) · HTML · [ACCELERATING]
-Generates a full agent team spec — roles, skill files, and coordination logic — from a one-line problem statement.
+• [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) — ★ 768 today (82.2k total) · Python · [RETURNING]
+Specialist LLM agents (analyst, researcher, trader) coordinated as a synthetic trading desk — pushed yesterday, 768★ vs 284★ the day prior.
+
+• [p-e-w/heretic](https://github.com/p-e-w/heretic) — ★ 357 today (23.2k total) · Python · [RETURNING]
+Automatically strips safety filters from local LLMs at inference time — no fine-tuning, no jailbreak prompts required.
 
 *Devtools*
-• [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) — ★ 333 today (9k total) · TypeScript · [ACCELERATING]
-Hash-anchored edits guarantee file integrity before apply — stops agents from silently corrupting tracked files.
+• [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) — ★ 424 today (7.4k total) · Rust · [RETURNING]
+Rust file search built for AI agent workflows — structured JSON output and fuzzy matching native, not duct-taped onto grep.
 
-• [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — ★ 317 today (32k total) · JavaScript · [ACCELERATING]
-Design token system built for LLM pipelines — outputs structured UI specs, not free-form HTML.
-
-*Web/Apps*
-• [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) — ★ 984 today (11k total) · Python · [ACCELERATING]
-Three releases today — Hermes Agent's web and mobile UI is moving faster than most desktop frameworks.
-
-*Infra*
-• [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — ★ 1,475 today (58k total) · Python · [RETURNING]
-Fingerprint-rotating, anti-bot-aware scraper that adapts per site — Playwright and httpx backends under one API.
+• [godotengine/godot](https://github.com/godotengine/godot) — ★ 417 today (111.9k total) · C++ · [RETURNING]
+MIT-licensed Unity alternative spiking 17× above daily baseline — likely a release or community wave; no royalties, MIT license.
 
 ---
-sources: trending=ok · gh_api=ok · kept 7/17
+sources: trending=ok · gh_api=ok · kept 5/17
