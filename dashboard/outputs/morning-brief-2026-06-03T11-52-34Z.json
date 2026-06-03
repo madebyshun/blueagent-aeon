@@ -1,0 +1,345 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-03"
+      },
+      "children": [
+        "focus-section",
+        "sep-1",
+        "since-section",
+        "sep-2",
+        "watch-section",
+        "sep-3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-h",
+        "focus-bg",
+        "focus-1",
+        "focus-2"
+      ]
+    },
+    "focus-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-bg": {
+      "type": "Text",
+      "props": {
+        "text": "background: MEMORY.md Next Priorities stale — all three original items resolved or active",
+        "variant": "caption"
+      }
+    },
+    "focus-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-t",
+        "focus-1-d"
+      ]
+    },
+    "focus-1-t": {
+      "type": "Text",
+      "props": {
+        "text": "1. token-movers repair",
+        "variant": "lead"
+      }
+    },
+    "focus-1-d": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 4 failures, noon run today, CoinGecko break hits tomorrow",
+        "variant": "body"
+      }
+    },
+    "focus-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-t",
+        "focus-2-d"
+      ]
+    },
+    "focus-2-t": {
+      "type": "Text",
+      "props": {
+        "text": "2. XAI credits decision",
+        "variant": "lead"
+      }
+    },
+    "focus-2-d": {
+      "type": "Text",
+      "props": {
+        "text": "why now: narrative-tracker fires 13:30 UTC, fourth day fallback",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-h",
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-4"
+      ]
+    },
+    "since-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since-b1",
+        "since-t1"
+      ]
+    },
+    "since-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "recovered",
+        "variant": "secondary"
+      }
+    },
+    "since-t1": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick: LAB +33%/24h scored 8/10, first clean run since streak",
+        "variant": "body"
+      }
+    },
+    "since-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since-b2",
+        "since-t2"
+      ]
+    },
+    "since-b2": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "since-t2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers: 4 consecutive failures, root cause unconfirmed (sandbox + Python)",
+        "variant": "body"
+      }
+    },
+    "since-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since-b3",
+        "since-t3"
+      ]
+    },
+    "since-b3": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "since-t3": {
+      "type": "Text",
+      "props": {
+        "text": "XAI 403: three days running, narrative-tracker on WebSearch fallback",
+        "variant": "body"
+      }
+    },
+    "since-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since-b4",
+        "since-t4"
+      ]
+    },
+    "since-b4": {
+      "type": "Badge",
+      "props": {
+        "text": "noted",
+        "variant": "outline"
+      }
+    },
+    "since-t4": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest: vm2 RCE cluster (CVSS 10.0, PoC public) + 2 npm supply chain in KEV",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-h",
+        "watch-1",
+        "watch-2"
+      ]
+    },
+    "watch-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "Base AI Chat-to-Chain ships amid confirmed low x402 adoption — AI Agent Payments RIDE bear case materializing (focus #2)",
+        "variant": "body"
+      }
+    },
+    "watch-2": {
+      "type": "Text",
+      "props": {
+        "text": "CoinGecko sparkline domain moves www→data June 4 — additional break vector for token-movers if hardcoded (focus #1)",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-h",
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "running-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 / 14:00 / 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "running-3-t",
+        "running-3-b"
+      ]
+    },
+    "running-3-t": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-3-b": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠️",
+        "variant": "destructive"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}

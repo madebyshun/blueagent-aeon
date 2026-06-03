@@ -1,20 +1,23 @@
-*Morning Brief — 2026-06-02*
+*Morning Brief — 2026-06-03*
 
 *Focus today*
-1. token-movers + token-pick repair — why now: 3rd consecutive failure; both fire at noon today
-2. XAI credits decision — why now: narrative-tracker fires at 13:30; 3rd day without real XAI data
-3. background: Refresh MEMORY.md Next Priorities — all 3 listed items are resolved, index stale
+1. token-movers repair — why now: 4 failures, noon run today, CoinGecko break hits tomorrow
+2. XAI credits decision — why now: narrative-tracker fires 13:30 UTC, fourth day fallback
+background: MEMORY.md Next Priorities stale — all three original items resolved or active
 
 *Since yesterday*
-- token-movers: consecutive_failures=3, success_rate=0.17 — zero input tokens per error, API/sandbox root cause likely shared with token-pick
-- token-pick: consecutive_failures=3, success_rate=0.5 — same error signature; skill-repair reactive trigger still commented out (no auto-fix)
-- narrative-tracker: OK (WebSearch fallback) — new narratives: Attention Markets/InfoFi (FRONT-RUN), AI Agent Security (WATCH)
-- deal-flow: OK — Anthropic $65B Series H leads; AI infra stack capital accelerating
-- $BLUEAGENT: $0.00000031, -2.27% 24h, volume $163 — no signal
+- [recovered] token-pick: LAB +33%/24h scored 8/10, first clean run since streak
+- [stuck] token-movers: 4 consecutive failures, root cause unconfirmed (sandbox + Python)
+- [stuck] XAI 403: three days running, narrative-tracker on WebSearch fallback
+- [noted] security-digest: vm2 RCE cluster (CVSS 10.0, PoC public) + 2 npm supply chain in KEV
+
+*Watch*
+- Base AI Chat-to-Chain ships amid confirmed low x402 adoption — AI Agent Payments RIDE bear case materializing (focus #2)
+- CoinGecko sparkline domain moves www→data June 4 — additional break vector for token-movers if hardcoded (focus #1)
 
 *Running today*
-- heartbeat @ 08:00/14:00/20:00 UTC
+- heartbeat @ 08:00 / 14:00 / 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC ⚠️
-- token-pick @ 12:00 UTC ⚠️
-- narrative-tracker @ 13:30 UTC (XAI fallback expected)
+- token-pick @ 12:00 UTC
+- narrative-tracker @ 13:30 UTC
