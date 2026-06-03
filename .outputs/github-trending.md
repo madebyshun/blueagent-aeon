@@ -1,24 +1,28 @@
-*GitHub Trending — 2026-06-02*
+*GitHub Trending — 2026-06-03*
 
-*Top pick* — [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)
-VoxCPM2 dropped a tokenizer-free TTS architecture with voice cloning — skips the phoneme tokenization step that bottlenecks every other multilingual TTS system.
+*Top pick* — [chopratejas/headroom](https://github.com/chopratejas/headroom)
+Token compression at the proxy layer: the dominant LLM cost problem gets a drop-in library + MCP server claiming 60-95% input reduction with no quality loss.
 
 *AI/ML*
-• [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) — ★ 779 today (24.8k total) · Python · [ACCELERATING]
-VoxCPM2 ditches phoneme tokenization; voice cloning from a short audio clip across dozens of languages without retraining.
+• [chopratejas/headroom](https://github.com/chopratejas/headroom) — ★ 3,528 today (8.4k total) · Python · [ACCELERATING]
+Compresses LLM inputs 60-95% before they hit the model — same answers, fraction of tokens, ships as library, proxy, or MCP server.
 
-• [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) — ★ 768 today (82.2k total) · Python · [RETURNING]
-Specialist LLM agents (analyst, researcher, trader) coordinated as a synthetic trading desk — pushed yesterday, 768★ vs 284★ the day prior.
+• [ClaudioDrews/memory-os](https://github.com/ClaudioDrews/memory-os) — ★ 705 new (3 days) · Python · [DEBUT]
+7-tier memory hierarchy for agents: Qdrant vectors, structured facts, wiki recall, and surgical context injection in one drop-in stack.
 
-• [p-e-w/heretic](https://github.com/p-e-w/heretic) — ★ 357 today (23.2k total) · Python · [RETURNING]
-Automatically strips safety filters from local LLMs at inference time — no fine-tuning, no jailbreak prompts required.
+• [QwenLM/Qwen-VLA](https://github.com/QwenLM/Qwen-VLA) — ★ 461 new (6 days) · [DEBUT]
+Alibaba's official VLA release — one model bridging vision, language understanding, and robot action in a unified architecture.
 
 *Devtools*
-• [dmtrKovalenko/fff](https://github.com/dmtrKovalenko/fff) — ★ 424 today (7.4k total) · Rust · [RETURNING]
-Rust file search built for AI agent workflows — structured JSON output and fuzzy matching native, not duct-taped onto grep.
+• [Sophomoresty/gemini-web2api](https://github.com/Sophomoresty/gemini-web2api) — ★ 1.3k new (6 days) · Python · [DEBUT]
+Single Python file: turns Gemini's web UI into an OpenAI-compatible API endpoint, zero API key or account required.
 
-• [godotengine/godot](https://github.com/godotengine/godot) — ★ 417 today (111.9k total) · C++ · [RETURNING]
-MIT-licensed Unity alternative spiking 17× above daily baseline — likely a release or community wave; no royalties, MIT license.
+• [reconurge/flowsint](https://github.com/reconurge/flowsint) — ★ 509 today (4.8k total) · TypeScript · [RETURNING]
+Graph-based OSINT canvas — link entities, traverse networks, and build investigation maps interactively.
+
+*Infra*
+• [c0deJedi/nbd-vram](https://github.com/c0deJedi/nbd-vram) — ★ 278 new (4 days) · Shell · [DEBUT]
+Mounts idle RTX VRAM as Linux swap via NBD — converts 8GB of video memory into working RAM on soldered-memory laptops.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/17
+sources: trending=ok · gh_api=ok · kept 6/17

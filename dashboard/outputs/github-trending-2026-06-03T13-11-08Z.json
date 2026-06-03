@@ -1,0 +1,316 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-03"
+      },
+      "children": [
+        "topPickSection",
+        "sep1",
+        "aimlSection",
+        "sep2",
+        "devtoolsSection",
+        "sep3",
+        "infraSection",
+        "sep4",
+        "footer"
+      ]
+    },
+    "topPickSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "topPickHeading",
+        "topPickRepo"
+      ]
+    },
+    "topPickHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h3"
+      }
+    },
+    "topPickRepo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "topPickLink",
+        "topPickDesc"
+      ]
+    },
+    "topPickLink": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chopratejas/headroom",
+        "href": "https://github.com/chopratejas/headroom"
+      }
+    },
+    "topPickDesc": {
+      "type": "Text",
+      "props": {
+        "text": "Token compression at the proxy layer: the dominant LLM cost problem gets a drop-in library + MCP server claiming 60-95% input reduction with no quality loss.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aimlSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aimlHeading",
+        "aimlRepo1",
+        "aimlRepo2",
+        "aimlRepo3"
+      ]
+    },
+    "aimlHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aimlRepo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aimlRepo1Link",
+        "aimlRepo1Desc"
+      ]
+    },
+    "aimlRepo1Link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chopratejas/headroom",
+        "href": "https://github.com/chopratejas/headroom",
+        "source": "Python · ACCELERATING",
+        "score": "★ 3,528 today (8.4k total)"
+      }
+    },
+    "aimlRepo1Desc": {
+      "type": "Text",
+      "props": {
+        "text": "Compresses LLM inputs 60-95% before they hit the model — same answers, fraction of tokens, ships as library, proxy, or MCP server.",
+        "variant": "body"
+      }
+    },
+    "aimlRepo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aimlRepo2Link",
+        "aimlRepo2Desc"
+      ]
+    },
+    "aimlRepo2Link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ClaudioDrews/memory-os",
+        "href": "https://github.com/ClaudioDrews/memory-os",
+        "source": "Python · DEBUT",
+        "score": "★ 705 new (3 days)"
+      }
+    },
+    "aimlRepo2Desc": {
+      "type": "Text",
+      "props": {
+        "text": "7-tier memory hierarchy for agents: Qdrant vectors, structured facts, wiki recall, and surgical context injection in one drop-in stack.",
+        "variant": "body"
+      }
+    },
+    "aimlRepo3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aimlRepo3Link",
+        "aimlRepo3Desc"
+      ]
+    },
+    "aimlRepo3Link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "QwenLM/Qwen-VLA",
+        "href": "https://github.com/QwenLM/Qwen-VLA",
+        "source": "DEBUT",
+        "score": "★ 461 new (6 days)"
+      }
+    },
+    "aimlRepo3Desc": {
+      "type": "Text",
+      "props": {
+        "text": "Alibaba's official VLA release — one model bridging vision, language understanding, and robot action in a unified architecture.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtoolsSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtoolsHeading",
+        "devtoolsRepo1",
+        "devtoolsRepo2"
+      ]
+    },
+    "devtoolsHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtoolsRepo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtoolsRepo1Link",
+        "devtoolsRepo1Desc"
+      ]
+    },
+    "devtoolsRepo1Link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Sophomoresty/gemini-web2api",
+        "href": "https://github.com/Sophomoresty/gemini-web2api",
+        "source": "Python · DEBUT",
+        "score": "★ 1.3k new (6 days)"
+      }
+    },
+    "devtoolsRepo1Desc": {
+      "type": "Text",
+      "props": {
+        "text": "Single Python file: turns Gemini's web UI into an OpenAI-compatible API endpoint, zero API key or account required.",
+        "variant": "body"
+      }
+    },
+    "devtoolsRepo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtoolsRepo2Link",
+        "devtoolsRepo2Desc"
+      ]
+    },
+    "devtoolsRepo2Link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "reconurge/flowsint",
+        "href": "https://github.com/reconurge/flowsint",
+        "source": "TypeScript · RETURNING",
+        "score": "★ 509 today (4.8k total)"
+      }
+    },
+    "devtoolsRepo2Desc": {
+      "type": "Text",
+      "props": {
+        "text": "Graph-based OSINT canvas — link entities, traverse networks, and build investigation maps interactively.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "infraSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infraHeading",
+        "infraRepo1"
+      ]
+    },
+    "infraHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infraRepo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infraRepo1Link",
+        "infraRepo1Desc"
+      ]
+    },
+    "infraRepo1Link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "c0deJedi/nbd-vram",
+        "href": "https://github.com/c0deJedi/nbd-vram",
+        "source": "Shell · DEBUT",
+        "score": "★ 278 new (4 days)"
+      }
+    },
+    "infraRepo1Desc": {
+      "type": "Text",
+      "props": {
+        "text": "Mounts idle RTX VRAM as Linux swap via NBD — converts 8GB of video memory into working RAM on soldered-memory laptops.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/17",
+        "variant": "muted"
+      }
+    }
+  }
+}
