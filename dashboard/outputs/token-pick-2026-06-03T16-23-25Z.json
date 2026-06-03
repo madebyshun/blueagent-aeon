@@ -1,0 +1,471 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-03"
+      },
+      "children": [
+        "section-near",
+        "separator-1",
+        "section-mstr",
+        "separator-2",
+        "disclaimer"
+      ]
+    },
+    "section-near": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "near-header",
+        "near-price-grid",
+        "near-mcap-vol",
+        "near-score",
+        "near-catalyst",
+        "near-risk",
+        "near-recent"
+      ]
+    },
+    "near-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "near-title",
+        "near-signal-badge",
+        "near-signal-progress"
+      ]
+    },
+    "near-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: NEAR",
+        "level": "h2"
+      }
+    },
+    "near-signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "default"
+      }
+    },
+    "near-signal-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 9,
+        "max": 10,
+        "label": "Signal"
+      }
+    },
+    "near-price-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "near-price",
+        "near-24h",
+        "near-7d"
+      ]
+    },
+    "near-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$2.87"
+      }
+    },
+    "near-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h change",
+        "value": "±13.3%",
+        "trend": "neutral"
+      }
+    },
+    "near-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d change",
+        "value": "±12.7%",
+        "trend": "neutral"
+      }
+    },
+    "near-mcap-vol": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "near-mcap",
+        "near-vol",
+        "near-vol-mcap"
+      ]
+    },
+    "near-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$3.7B"
+      }
+    },
+    "near-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$1.37B"
+      }
+    },
+    "near-vol-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/MCap",
+        "value": "0.37"
+      }
+    },
+    "near-score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "near-score-label",
+        "near-score-text"
+      ]
+    },
+    "near-score-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h4"
+      }
+    },
+    "near-score-text": {
+      "type": "Text",
+      "props": {
+        "text": "24h positive +1 | 7d positive +1 | both >5% +2 | vol/mcap ≥0.20 +3 | RS vs BTC/ETH +2 = 9/10",
+        "variant": "caption"
+      }
+    },
+    "near-catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "near-catalyst-label",
+        "near-catalyst-text"
+      ]
+    },
+    "near-catalyst-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "near-catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "Dynamic Resharding upgrade launches June 2026 enabling autonomous AI-chain scaling; Enterprise AI event June 4 with AWS + NEAR AI adds institutional validation at the same time BTC/ETH are down 12%+ on the week",
+        "variant": "body"
+      }
+    },
+    "near-risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "near-risk-label",
+        "near-risk-text"
+      ]
+    },
+    "near-risk-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      }
+    },
+    "near-risk-text": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade priced in ahead of delivery — any testnet delay or post-quantum crypto vulnerability found pre-launch triggers a sharp reversal in a weak macro tape",
+        "variant": "body"
+      }
+    },
+    "near-recent": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "near-recent-label",
+        "near-recent-text"
+      ]
+    },
+    "near-recent-label": {
+      "type": "Heading",
+      "props": {
+        "text": "vs Recent Picks",
+        "level": "h4"
+      }
+    },
+    "near-recent-text": {
+      "type": "Text",
+      "props": {
+        "text": "First time (INJ May 29, XLM May 30, LAB Jun 2, ICP May 27)",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-mstr": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mstr-header",
+        "mstr-current",
+        "mstr-fair",
+        "mstr-thesis",
+        "mstr-risk",
+        "mstr-sources"
+      ]
+    },
+    "mstr-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "mstr-title",
+        "mstr-signal-badge",
+        "mstr-edge-badge"
+      ]
+    },
+    "mstr-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: \"MicroStrategy sells any Bitcoin by May 31, 2026?\"",
+        "level": "h2"
+      }
+    },
+    "mstr-signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "default"
+      }
+    },
+    "mstr-edge-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 35pp",
+        "variant": "default"
+      }
+    },
+    "mstr-current": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mstr-current-label",
+        "mstr-current-grid",
+        "mstr-resolve"
+      ]
+    },
+    "mstr-current-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Odds",
+        "level": "h4"
+      }
+    },
+    "mstr-current-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "mstr-yes",
+        "mstr-no",
+        "mstr-vol"
+      ]
+    },
+    "mstr-yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "0.35¢"
+      }
+    },
+    "mstr-no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "99.65¢"
+      }
+    },
+    "mstr-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Vol",
+        "value": "$125M"
+      }
+    },
+    "mstr-resolve": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 48–96h (UMA vote live)",
+        "variant": "caption"
+      }
+    },
+    "mstr-fair": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mstr-fair-label",
+        "mstr-fair-val",
+        "mstr-fair-inputs"
+      ]
+    },
+    "mstr-fair-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair YES",
+        "level": "h4"
+      }
+    },
+    "mstr-fair-val": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair Value",
+        "value": "~35%"
+      }
+    },
+    "mstr-fair-inputs": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: [MSTR 8-K explicitly dates sale \"as of May 31, 2026, 4:00 PM ET\"] [on-chain sale 32 BTC confirmed May 26–31] [UMA DVM vote underway — 48–96h window]",
+        "variant": "caption"
+      }
+    },
+    "mstr-thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mstr-thesis-label",
+        "mstr-thesis-text"
+      ]
+    },
+    "mstr-thesis-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      }
+    },
+    "mstr-thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "MicroStrategy's SEC filing is the stated resolution source — transaction date is May 31, full stop; market prices 99.65% NO as governance risk discount, but the factual record is unambiguous",
+        "variant": "body"
+      }
+    },
+    "mstr-risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mstr-risk-label",
+        "mstr-risk-text"
+      ]
+    },
+    "mstr-risk-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      }
+    },
+    "mstr-risk-text": {
+      "type": "Text",
+      "props": {
+        "text": "UMA whale concentration may override facts — 60%+ of voters hold Polymarket positions, creating a conflict; if governance fails, YES → $0 regardless of what the 8-K says",
+        "variant": "body"
+      }
+    },
+    "mstr-sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mstr-sources-label",
+        "mstr-sources-text"
+      ]
+    },
+    "mstr-sources-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h4"
+      }
+    },
+    "mstr-sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "disclaimer": {
+      "type": "Alert",
+      "props": {
+        "message": "not financial advice — pattern-matching only",
+        "type": "info"
+      }
+    }
+  }
+}
