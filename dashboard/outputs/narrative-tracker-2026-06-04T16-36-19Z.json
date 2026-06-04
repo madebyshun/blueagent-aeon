@@ -1,0 +1,395 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-06-04"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_transitions",
+        "stack_transitions",
+        "sep_1",
+        "heading_reflexivity",
+        "stack_reflexivity",
+        "sep_2",
+        "heading_positions",
+        "table_positions",
+        "sep_3",
+        "heading_map",
+        "stack_map"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "stack_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transition_1",
+        "transition_2",
+        "transition_3",
+        "transition_4"
+      ]
+    },
+    "transition_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new",
+        "text_transition_1"
+      ]
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "text_transition_1": {
+      "type": "Text",
+      "props": {
+        "text": "TradFi AI Capital Rotation — crypto's worst 2-day liquidation in months; CoinDesk confirms investors fleeing to AI stocks (BTC ~$60K, derivatives \"unambiguous warning\"). Direct headwind to all crypto-AI narratives.",
+        "variant": "body"
+      }
+    },
+    "transition_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted",
+        "text_transition_2"
+      ]
+    },
+    "badge_promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_transition_2": {
+      "type": "Text",
+      "props": {
+        "text": "Attention Markets / InfoFi Rising confirmed — Wallchain bringing Kaito-like leaderboard to Solana (Blockworks); Polygon + Katana x Kaito live. AttentionFi now an L2 incentive primitive, not just a Kaito product.",
+        "variant": "body"
+      }
+    },
+    "transition_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted_1",
+        "text_transition_3"
+      ]
+    },
+    "badge_demoted_1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "text_transition_3": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments Rising→Watch — x402 adoption confirmed slow (Base AI Chat-to-Chain low uptake); capital rotating to TradFi AI; RIDE→WATCH.",
+        "variant": "body"
+      }
+    },
+    "transition_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted_2",
+        "text_transition_4"
+      ]
+    },
+    "badge_demoted_2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "text_transition_4": {
+      "type": "Text",
+      "props": {
+        "text": "AI Crypto Infrastructure RIDE→WATCH — TAO/NEAR catalysts active but TradFi AI pulling narrative oxygen from the sector.",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "stack_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_1",
+        "reflexivity_2"
+      ]
+    },
+    "reflexivity_1": {
+      "type": "Alert",
+      "props": {
+        "title": "TradFi AI Capital Rotation",
+        "message": "crypto-AI thesis assumed AI tailwinds would flow into on-chain rails. Inverse is occurring — TradFi AI (ChatGPT, Copilot) capturing AI adoption without needing crypto infrastructure. Narrative undermining its own moat argument.",
+        "type": "warning"
+      }
+    },
+    "reflexivity_2": {
+      "type": "Alert",
+      "props": {
+        "title": "Attention Markets / InfoFi",
+        "message": "each new chain (Solana, Polygon, Katana) adding a Kaito-style leaderboard amplifies the AttentionFi meta-narrative. Structurally self-reinforcing by design.",
+        "type": "info"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "table_positions": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Status",
+          "Narrative",
+          "Rating",
+          "Details"
+        ],
+        "rows": [
+          [
+            "FRONT-RUN",
+            "Attention Markets / InfoFi",
+            "3 ↑, Bull",
+            "Wallchain/Solana, @KaitoAI, @Polymarket | bear: engagement farming degrades signal quality at scale"
+          ],
+          [
+            "RIDE",
+            "Hyperliquid / Perp DEXs",
+            "4 →, Bull",
+            "@HyperliquidX | liquidation vol spike; bear: cascade risk"
+          ],
+          [
+            "RIDE",
+            "Base Ecosystem",
+            "3 →, Bull",
+            "@base, @jessepollak | bear: no new catalyst since May 26"
+          ],
+          [
+            "WATCH",
+            "AI Agent Payments",
+            "4 ↓, Mixed",
+            "hold only if x402 adoption improves"
+          ],
+          [
+            "WATCH",
+            "AI Crypto Infrastructure",
+            "4 →, Mixed",
+            "TAO Covenant-72B + NEAR/AWS; wait for rotation clarity"
+          ],
+          [
+            "WATCH",
+            "Stablecoins as Infrastructure",
+            "4 →, Bull",
+            "Schwab 24/7 expansion; GENIUS Act risk"
+          ],
+          [
+            "FADE",
+            "RWA Tokenization",
+            "5 →, Mixed",
+            "2025's winner, no 2026 re-rating catalyst"
+          ],
+          [
+            "FADE",
+            "Prediction Markets",
+            "3 ↓, Bear",
+            "DEATH BETS Act ceiling confirmed"
+          ]
+        ]
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "stack_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_emerging",
+        "text_emerging"
+      ]
+    },
+    "badge_emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "default"
+      }
+    },
+    "text_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Security",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_rising",
+        "text_rising"
+      ]
+    },
+    "badge_rising": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "text_rising": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid/Perp DEXs, Base Ecosystem, Attention Markets/InfoFi",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_peak",
+        "text_peak"
+      ]
+    },
+    "badge_peak": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "secondary"
+      }
+    },
+    "text_peak": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization, Stablecoins as Infrastructure",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_fading",
+        "text_fading"
+      ]
+    },
+    "badge_fading": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      }
+    },
+    "text_fading": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets, Bitcoin Dominance, AI Agent Payments (transitioning)",
+        "variant": "body"
+      }
+    }
+  }
+}

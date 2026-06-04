@@ -1,17 +1,27 @@
-## Summary
+*Narrative Tracker — 2026-06-04*
 
-**narrative-tracker run complete — 2026-06-02**
+TRANSITIONS
+• NEW: TradFi AI Capital Rotation — crypto's worst 2-day liquidation in months; CoinDesk confirms investors fleeing to AI stocks (BTC ~$60K, derivatives "unambiguous warning"). Direct headwind to all crypto-AI narratives.
+• PROMOTED: Attention Markets / InfoFi Rising confirmed — Wallchain bringing Kaito-like leaderboard to Solana (Blockworks); Polygon + Katana x Kaito live. AttentionFi now an L2 incentive primitive, not just a Kaito product.
+• DEMOTED: AI Agent Payments Rising→Watch — x402 adoption confirmed slow (Base AI Chat-to-Chain low uptake); capital rotating to TradFi AI; RIDE→WATCH.
+• DEMOTED: AI Crypto Infrastructure RIDE→WATCH — TAO/NEAR catalysts active but TradFi AI pulling narrative oxygen from the sector.
 
-**Signal source:** XAI cache miss (403, third consecutive day — no credits). Fell back to WebSearch triangulation across 3 queries (crypto narratives, AI agent trends, Kaito mindshare).
+REFLEXIVITY ALERT
+• TradFi AI Capital Rotation: crypto-AI thesis assumed AI tailwinds would flow into on-chain rails. Inverse is occurring — TradFi AI (ChatGPT, Copilot) capturing AI adoption without needing crypto infrastructure. Narrative undermining its own moat argument.
+• Attention Markets / InfoFi: each new chain (Solana, Polygon, Katana) adding a Kaito-style leaderboard amplifies the AttentionFi meta-narrative. Structurally self-reinforcing by design.
 
-**5 transitions detected** (highest-value output):
-- **NEW**: Hyperliquid / Perp DEXs — HYPE broke global top-10 market cap + new ATH; wasn't in the prior 3-day map
-- **PROMOTED**: Attention Markets / InfoFi — Emerging → Rising; FRONT-RUN → RIDE; Kaito's 4-product suite + Polymarket partnership now operational
-- **PROMOTED**: AI Crypto Infrastructure — mindshare 3→4, velocity →→↑; WATCH → RIDE
-- **PROMOTED**: AI Agent Payments — mindshare 4→5; narrative absorbed thematic capital-rotation role across crypto
-- **DEMOTED**: Prediction Markets — velocity ↓→↓↓, sentiment Mixed→Bear; DEATH BETS Act ceiling firming
-- **DEMOTED**: Stablecoins as Infrastructure — velocity cooling, Rising → Peak; RIDE → WATCH
+POSITIONS
+• FRONT-RUN: Attention Markets / InfoFi (3 ↑, Bull) — Wallchain/Solana, @KaitoAI, @Polymarket — bear: engagement farming degrades signal quality at scale
+• RIDE: Hyperliquid / Perp DEXs (4 →, Bull) — @HyperliquidX — liquidation vol spike; bear: cascade risk
+• RIDE: Base Ecosystem (3 →, Bull) — @base, @jessepollak — bear: no new catalyst since May 26
+• WATCH: AI Agent Payments (4 ↓, Mixed) — hold only if x402 adoption improves
+• WATCH: AI Crypto Infrastructure (4 →, Mixed) — TAO Covenant-72B + NEAR/AWS; wait for rotation clarity
+• WATCH: Stablecoins as Infrastructure (4 →, Bull) — Schwab 24/7 expansion; GENIUS Act risk
+• FADE: RWA Tokenization (5 →, Mixed) — 2025's winner, no 2026 re-rating catalyst
+• FADE: Prediction Markets (3 ↓, Bear) — DEATH BETS Act ceiling confirmed
 
-**2 reflexivity flags**: HYPE pricing itself on its own AI agent capital flows; Kaito × Polymarket betting-on-mindshare is reflexive by product design.
-
-**Notification**: Queued to `.pending-notify/1780423152.md` for post-run Telegram delivery. Log committed to `memory/logs/2026-06-02.md`.
+MAP
+Emerging: AI Agent Security
+Rising: Hyperliquid/Perp DEXs, Base Ecosystem, Attention Markets/InfoFi
+Peak: RWA Tokenization, Stablecoins as Infrastructure
+Fading: Prediction Markets, Bitcoin Dominance, AI Agent Payments (transitioning)
