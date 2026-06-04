@@ -1,0 +1,276 @@
+{
+  "root": "card-morning-brief",
+  "state": {},
+  "elements": {
+    "card-morning-brief": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-04"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-yesterday",
+        "sep-2",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "item-focus-1",
+        "item-focus-2",
+        "item-focus-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "item-focus-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title-focus-1",
+        "text-focus-1"
+      ]
+    },
+    "title-focus-1": {
+      "type": "Heading",
+      "props": {
+        "text": "token-movers",
+        "level": "h3"
+      }
+    },
+    "text-focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "why now: CoinGecko www→data domain migrates today; 12:00 UTC run likely breaks again"
+      }
+    },
+    "item-focus-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title-focus-2",
+        "text-focus-2"
+      ]
+    },
+    "title-focus-2": {
+      "type": "Heading",
+      "props": {
+        "text": "NEAR catalyst",
+        "level": "h3"
+      }
+    },
+    "text-focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "why now: AWS/NEAR AI Enterprise event live today; yesterday's HIGH pick at $2.87"
+      }
+    },
+    "item-focus-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title-focus-3",
+        "text-focus-3"
+      ]
+    },
+    "title-focus-3": {
+      "type": "Heading",
+      "props": {
+        "text": "security-digest",
+        "level": "h3"
+      }
+    },
+    "text-focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "background: disabled in aeon.yml but 1 consecutive failure; confirm intentional vs oversight"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-yesterday",
+        "item-yesterday-1",
+        "item-yesterday-2",
+        "item-yesterday-3"
+      ]
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "item-yesterday-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-moved-1",
+        "text-yesterday-1"
+      ]
+    },
+    "badge-moved-1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text-yesterday-1": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers: 4-failure streak broken — ran successfully 2026-06-03 16:28Z"
+      }
+    },
+    "item-yesterday-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-moved-2",
+        "text-yesterday-2"
+      ]
+    },
+    "badge-moved-2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text-yesterday-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick: NEAR 9/10 HIGH — $2.87, +13.3% 24h; MSTR Polymarket resolves 48–96h"
+      }
+    },
+    "item-yesterday-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-stuck",
+        "text-yesterday-3"
+      ]
+    },
+    "badge-stuck": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "text-yesterday-3": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest: failed 2026-06-03 18:16Z, disabled in aeon.yml — won't auto-retry"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "table-running"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "table-running": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Task",
+          "Schedule",
+          "Status"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00 UTC",
+            ""
+          ],
+          [
+            "github-monitor",
+            "09:00 UTC",
+            ""
+          ],
+          [
+            "token-movers",
+            "12:00 UTC",
+            "⚠️"
+          ],
+          [
+            "token-pick",
+            "12:00 UTC",
+            ""
+          ],
+          [
+            "narrative-tracker",
+            "13:30 UTC",
+            ""
+          ]
+        ]
+      }
+    }
+  }
+}
