@@ -1,0 +1,446 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending"
+      },
+      "children": [
+        "date-text",
+        "sep-1",
+        "toppick-heading",
+        "toppick-stack",
+        "sep-2",
+        "aiml-heading",
+        "aiml-stack",
+        "sep-3",
+        "webapp-heading",
+        "webapp-item",
+        "sep-4",
+        "devtools-heading",
+        "devtools-item",
+        "sep-5",
+        "footer-text"
+      ]
+    },
+    "date-text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-04",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "toppick-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "toppick-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "toppick-link",
+        "toppick-desc"
+      ]
+    },
+    "toppick-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "NousResearch/hermes-agent",
+        "href": "https://github.com/NousResearch/hermes-agent",
+        "score": "★ 1.7k today (180k total)"
+      }
+    },
+    "toppick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "The team behind the popular Hermes fine-tuned model family ships their first-party agent runtime — pushed to prod today, the missing orchestration layer for Hermes-based deployments.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml-repo-1",
+        "aiml-repo-2",
+        "aiml-repo-3",
+        "aiml-repo-4"
+      ]
+    },
+    "aiml-repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-1-link",
+        "aiml-1-meta",
+        "aiml-1-desc"
+      ]
+    },
+    "aiml-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "NousResearch/hermes-agent",
+        "href": "https://github.com/NousResearch/hermes-agent",
+        "score": "★ 1.7k today (180k total)"
+      }
+    },
+    "aiml-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-1-lang",
+        "aiml-1-status"
+      ]
+    },
+    "aiml-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "aiml-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "aiml-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "NousResearch's Hermes model family gets a first-party agent runtime — pushed to production today.",
+        "variant": "body"
+      }
+    },
+    "aiml-repo-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-2-link",
+        "aiml-2-meta",
+        "aiml-2-desc"
+      ]
+    },
+    "aiml-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "NVIDIA/cosmos",
+        "href": "https://github.com/NVIDIA/cosmos",
+        "score": "★ 138 today (8.8k total)"
+      }
+    },
+    "aiml-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-2-lang",
+        "aiml-2-status"
+      ]
+    },
+    "aiml-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Jupyter"
+      }
+    },
+    "aiml-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "aiml-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "NVIDIA's open world-model platform for physical AI — pushed today, free GPU-ready backbone for robotics sim-to-real.",
+        "variant": "body"
+      }
+    },
+    "aiml-repo-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-3-link",
+        "aiml-3-meta",
+        "aiml-3-desc"
+      ]
+    },
+    "aiml-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "lfnovo/open-notebook",
+        "href": "https://github.com/lfnovo/open-notebook",
+        "score": "★ 227 today (24k total)"
+      }
+    },
+    "aiml-3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-3-lang",
+        "aiml-3-status"
+      ]
+    },
+    "aiml-3-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "aiml-3-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "aiml-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted NotebookLM alternative with local model support — your notes and research stay on your own server.",
+        "variant": "body"
+      }
+    },
+    "aiml-repo-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-4-link",
+        "aiml-4-meta",
+        "aiml-4-desc"
+      ]
+    },
+    "aiml-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mvanhorn/last30days-skill",
+        "href": "https://github.com/mvanhorn/last30days-skill",
+        "score": "★ 173 today (27k total)"
+      }
+    },
+    "aiml-4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-4-lang",
+        "aiml-4-status"
+      ]
+    },
+    "aiml-4-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "aiml-4-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "aiml-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI agent skill cross-referencing Reddit, X, YouTube, and HN to triangulate what's actually happening in a topic.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "webapp-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "webapp-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "webapp-1-link",
+        "webapp-1-meta",
+        "webapp-1-desc"
+      ]
+    },
+    "webapp-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Open-LLM-VTuber/Open-LLM-VTuber",
+        "href": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+        "score": "★ 693 today (9.3k total)"
+      }
+    },
+    "webapp-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "webapp-1-lang",
+        "webapp-1-status"
+      ]
+    },
+    "webapp-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "webapp-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "webapp-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Fully local LLM frontend with Live2D avatar and voice I/O — 693 stars today suggests a viral moment or new release.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-link",
+        "devtools-1-meta",
+        "devtools-1-desc"
+      ]
+    },
+    "devtools-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PaddlePaddle/PaddleOCR",
+        "href": "https://github.com/PaddlePaddle/PaddleOCR",
+        "score": "★ 105 today (79.6k total)"
+      }
+    },
+    "devtools-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-lang",
+        "devtools-1-status"
+      ]
+    },
+    "devtools-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "devtools-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "devtools-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "100-language OCR with a new PDF-to-structured-data pipeline — covers what most OCR tools stop at extraction.",
+        "variant": "body"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/14",
+        "variant": "caption"
+      }
+    }
+  }
+}

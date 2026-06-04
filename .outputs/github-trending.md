@@ -1,28 +1,28 @@
-*GitHub Trending — 2026-06-03*
+*GitHub Trending — 2026-06-04*
 
-*Top pick* — [chopratejas/headroom](https://github.com/chopratejas/headroom)
-Token compression at the proxy layer: the dominant LLM cost problem gets a drop-in library + MCP server claiming 60-95% input reduction with no quality loss.
+*Top pick* — [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+The team behind the popular Hermes fine-tuned model family ships their first-party agent runtime — pushed to prod today, the missing orchestration layer for Hermes-based deployments.
 
 *AI/ML*
-• [chopratejas/headroom](https://github.com/chopratejas/headroom) — ★ 3,528 today (8.4k total) · Python · [ACCELERATING]
-Compresses LLM inputs 60-95% before they hit the model — same answers, fraction of tokens, ships as library, proxy, or MCP server.
+• [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — ★ 1.7k today (180k total) · Python · [ACCELERATING]
+NousResearch's Hermes model family gets a first-party agent runtime — pushed to production today.
 
-• [ClaudioDrews/memory-os](https://github.com/ClaudioDrews/memory-os) — ★ 705 new (3 days) · Python · [DEBUT]
-7-tier memory hierarchy for agents: Qdrant vectors, structured facts, wiki recall, and surgical context injection in one drop-in stack.
+• [NVIDIA/cosmos](https://github.com/NVIDIA/cosmos) — ★ 138 today (8.8k total) · Jupyter · [RETURNING]
+NVIDIA's open world-model platform for physical AI — pushed today, free GPU-ready backbone for robotics sim-to-real.
 
-• [QwenLM/Qwen-VLA](https://github.com/QwenLM/Qwen-VLA) — ★ 461 new (6 days) · [DEBUT]
-Alibaba's official VLA release — one model bridging vision, language understanding, and robot action in a unified architecture.
+• [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) — ★ 227 today (24k total) · TypeScript · [RETURNING]
+Self-hosted NotebookLM alternative with local model support — your notes and research stay on your own server.
+
+• [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — ★ 173 today (27k total) · Python · [ACCELERATING]
+AI agent skill cross-referencing Reddit, X, YouTube, and HN to triangulate what's actually happening in a topic.
+
+*Web/Apps*
+• [Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) — ★ 693 today (9.3k total) · Python · [RETURNING]
+Fully local LLM frontend with Live2D avatar and voice I/O — 693 stars today suggests a viral moment or new release.
 
 *Devtools*
-• [Sophomoresty/gemini-web2api](https://github.com/Sophomoresty/gemini-web2api) — ★ 1.3k new (6 days) · Python · [DEBUT]
-Single Python file: turns Gemini's web UI into an OpenAI-compatible API endpoint, zero API key or account required.
-
-• [reconurge/flowsint](https://github.com/reconurge/flowsint) — ★ 509 today (4.8k total) · TypeScript · [RETURNING]
-Graph-based OSINT canvas — link entities, traverse networks, and build investigation maps interactively.
-
-*Infra*
-• [c0deJedi/nbd-vram](https://github.com/c0deJedi/nbd-vram) — ★ 278 new (4 days) · Shell · [DEBUT]
-Mounts idle RTX VRAM as Linux swap via NBD — converts 8GB of video memory into working RAM on soldered-memory laptops.
+• [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) — ★ 105 today (79.6k total) · Python · [RETURNING]
+100-language OCR with a new PDF-to-structured-data pipeline — covers what most OCR tools stop at extraction.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/17
+sources: trending=ok · gh_api=ok · kept 6/14
