@@ -1,28 +1,22 @@
-*GitHub Trending — 2026-06-04*
+*GitHub Trending — 2026-06-05*
 
-*Top pick* — [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
-The team behind the popular Hermes fine-tuned model family ships their first-party agent runtime — pushed to prod today, the missing orchestration layer for Hermes-based deployments.
+*Top pick* — [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)
+Vibe coding crosses into quant finance — natural-language strategy to live LLM execution, no quant background needed.
 
 *AI/ML*
-• [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — ★ 1.7k today (180k total) · Python · [ACCELERATING]
-NousResearch's Hermes model family gets a first-party agent runtime — pushed to production today.
+• [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) — ★ 884 today (10.8k total) · Python · [ACCELERATING]
+Natural-language trading strategy → live execution agent; describe the trade in plain English, skip the backtester.
 
-• [NVIDIA/cosmos](https://github.com/NVIDIA/cosmos) — ★ 138 today (8.8k total) · Jupyter · [RETURNING]
-NVIDIA's open world-model platform for physical AI — pushed today, free GPU-ready backbone for robotics sim-to-real.
-
-• [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) — ★ 227 today (24k total) · TypeScript · [RETURNING]
-Self-hosted NotebookLM alternative with local model support — your notes and research stay on your own server.
-
-• [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — ★ 173 today (27k total) · Python · [ACCELERATING]
-AI agent skill cross-referencing Reddit, X, YouTube, and HN to triangulate what's actually happening in a topic.
+• [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) — ★ 127 today (21.3k total) · Python · [ACCELERATING]
+Gives agents live web eyes across Twitter, Reddit, YouTube, GitHub — one MCP-compatible layer, no API juggling.
 
 *Web/Apps*
-• [Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) — ★ 693 today (9.3k total) · Python · [RETURNING]
-Fully local LLM frontend with Live2D avatar and voice I/O — 693 stars today suggests a viral moment or new release.
+• [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) — ★ 350 today (32.3k total) · TypeScript · [RETURNING]
+Production-ready React components for streaming agent UI — skip WebSocket plumbing and state management entirely.
 
-*Devtools*
-• [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) — ★ 105 today (79.6k total) · Python · [RETURNING]
-100-language OCR with a new PDF-to-structured-data pipeline — covers what most OCR tools stop at extraction.
+*Infra*
+• [aquasecurity/trivy](https://github.com/aquasecurity/trivy) — ★ 255 today (35.8k total) · Go · [RETURNING]
+CVE scanning, secret detection, and SBOM across containers, k8s, and code — one CLI, pushed today.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/14
+sources: trending=ok · gh_api=ok · kept 4/17

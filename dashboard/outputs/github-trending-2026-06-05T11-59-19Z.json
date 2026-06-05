@@ -1,0 +1,419 @@
+{
+  "root": "root_card",
+  "state": {},
+  "elements": {
+    "root_card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-05"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_heading",
+        "top_pick_vibe_trading",
+        "sep1",
+        "aiml_heading",
+        "aiml_stack",
+        "sep2",
+        "web_heading",
+        "web_stack",
+        "sep3",
+        "infra_heading",
+        "infra_stack",
+        "sep4",
+        "sources_text"
+      ]
+    },
+    "top_pick_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "top_pick_vibe_trading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vibe_trading_link_1",
+        "vibe_trading_desc_1"
+      ]
+    },
+    "vibe_trading_link_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HKUDS/Vibe-Trading",
+        "href": "https://github.com/HKUDS/Vibe-Trading"
+      },
+      "children": []
+    },
+    "vibe_trading_desc_1": {
+      "type": "Text",
+      "props": {
+        "text": "Vibe coding crosses into quant finance — natural-language strategy to live LLM execution, no quant background needed.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "aiml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "aiml_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_repo1",
+        "aiml_repo2"
+      ]
+    },
+    "aiml_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_r1_header",
+        "aiml_r1_meta",
+        "aiml_r1_desc"
+      ]
+    },
+    "aiml_r1_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HKUDS/Vibe-Trading",
+        "href": "https://github.com/HKUDS/Vibe-Trading"
+      },
+      "children": []
+    },
+    "aiml_r1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_r1_stars",
+        "aiml_r1_lang",
+        "aiml_r1_status"
+      ]
+    },
+    "aiml_r1_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 884 today (10.8k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "aiml_r1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "aiml_r1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "aiml_r1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Natural-language trading strategy → live execution agent; describe the trade in plain English, skip the backtester.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "aiml_repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_r2_header",
+        "aiml_r2_meta",
+        "aiml_r2_desc"
+      ]
+    },
+    "aiml_r2_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Panniantong/Agent-Reach",
+        "href": "https://github.com/Panniantong/Agent-Reach"
+      },
+      "children": []
+    },
+    "aiml_r2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_r2_stars",
+        "aiml_r2_lang",
+        "aiml_r2_status"
+      ]
+    },
+    "aiml_r2_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 127 today (21.3k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "aiml_r2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "aiml_r2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "aiml_r2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Gives agents live web eyes across Twitter, Reddit, YouTube, GitHub — one MCP-compatible layer, no API juggling.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "web_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "web_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web_repo1"
+      ]
+    },
+    "web_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "web_r1_header",
+        "web_r1_meta",
+        "web_r1_desc"
+      ]
+    },
+    "web_r1_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CopilotKit/CopilotKit",
+        "href": "https://github.com/CopilotKit/CopilotKit"
+      },
+      "children": []
+    },
+    "web_r1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "web_r1_stars",
+        "web_r1_lang",
+        "web_r1_status"
+      ]
+    },
+    "web_r1_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 350 today (32.3k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "web_r1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "web_r1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "web_r1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Production-ready React components for streaming agent UI — skip WebSocket plumbing and state management entirely.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "infra_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "infra_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra_repo1"
+      ]
+    },
+    "infra_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_r1_header",
+        "infra_r1_meta",
+        "infra_r1_desc"
+      ]
+    },
+    "infra_r1_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aquasecurity/trivy",
+        "href": "https://github.com/aquasecurity/trivy"
+      },
+      "children": []
+    },
+    "infra_r1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_r1_stars",
+        "infra_r1_lang",
+        "infra_r1_status"
+      ]
+    },
+    "infra_r1_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 255 today (35.8k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "infra_r1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "infra_r1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "infra_r1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "CVE scanning, secret detection, and SBOM across containers, k8s, and code — one CLI, pushed today.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/17",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
