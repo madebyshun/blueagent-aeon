@@ -1,0 +1,171 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-05"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_wld",
+        "stack_wld_header",
+        "stack_wld_stats",
+        "text_score",
+        "text_catalyst",
+        "text_risk",
+        "text_vs_recent",
+        "separator_1",
+        "heading_market",
+        "stack_market_header",
+        "text_odds",
+        "text_fair"
+      ]
+    },
+    "heading_wld": {
+      "type": "Heading",
+      "props": {
+        "text": "WLD",
+        "level": "h2"
+      }
+    },
+    "stack_wld_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_signal"
+      ]
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "10/10 [HIGH]",
+        "variant": "default"
+      }
+    },
+    "stack_wld_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_price",
+        "stat_mcap",
+        "stat_vol",
+        "text_vol_ratio"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.54",
+        "delta": "±6.0% (24h) / ±84.6% (7d)"
+      }
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$1.79B"
+      }
+    },
+    "stat_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$1.77B"
+      }
+    },
+    "text_vol_ratio": {
+      "type": "Text",
+      "props": {
+        "text": "Vol/MCap: 0.99"
+      }
+    },
+    "text_score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, CG trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2] = 11/10 (capped at 10)",
+        "variant": "caption"
+      }
+    },
+    "text_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: OpenAI IPO filing at $1T valuation triggered Sam Altman / World ID narrative — market pricing in integration speculation; July 24 unlock cuts daily supply 43% (5.1M → 2.9M tokens/day) reducing persistent sell pressure",
+        "variant": "body"
+      }
+    },
+    "text_risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: Altman-WLD link is association not contract; early buyers may dump into the July 24 catalyst",
+        "variant": "body"
+      }
+    },
+    "text_vs_recent": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time",
+        "variant": "caption"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_market": {
+      "type": "Heading",
+      "props": {
+        "text": "US x Iran permanent peace deal by June 15, 2026?",
+        "level": "h2"
+      }
+    },
+    "stack_market_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_market_edge"
+      ]
+    },
+    "badge_market_edge": {
+      "type": "Badge",
+      "props": {
+        "text": "~7pp edge [MEDIUM]",
+        "variant": "secondary"
+      }
+    },
+    "text_odds": {
+      "type": "Text",
+      "props": {
+        "text": "Current: YES 11.5¢ / NO 88.5¢ | 24h vol $1.22M | resolves: June 15"
+      }
+    },
+    "text_fair": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~4-5% (inputs: no deal signed as of June 5 [Axios]; ongoing framework = 60-day ceasefire extension, not a permanent deal [CNN/Axios May 24]; zero historical precedent for permanent US-Iran deal in 10 days). Thesis: Market is mis-pricing permanent."
+      }
+    }
+  }
+}
