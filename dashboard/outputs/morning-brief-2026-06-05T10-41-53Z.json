@@ -1,0 +1,395 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-05"
+      },
+      "children": [
+        "mainStack"
+      ]
+    },
+    "mainStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "focusSection",
+        "separator1",
+        "sinceSection",
+        "separator2",
+        "watchSection",
+        "separator3",
+        "runningSection"
+      ]
+    },
+    "focusSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focusHeading",
+        "focusStack"
+      ]
+    },
+    "focusHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focusStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus1",
+        "focus2",
+        "focus3"
+      ]
+    },
+    "focus1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus1Title",
+        "focus1Reason"
+      ]
+    },
+    "focus1Title": {
+      "type": "Text",
+      "props": {
+        "text": "1. token-movers reliability",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus1Reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: runs 12:00 UTC; 0.22 success rate, CoinGecko domain fix unresolved",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus2Title",
+        "focus2Reason"
+      ]
+    },
+    "focus2Title": {
+      "type": "Text",
+      "props": {
+        "text": "2. XAI credits (day 5)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus2Reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: narrative-tracker at 13:30 UTC; primary feed still 403",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus3Title",
+        "focus3Reason"
+      ]
+    },
+    "focus3Title": {
+      "type": "Text",
+      "props": {
+        "text": "3. Broad market drawdown",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus3Reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: mid-caps -8%, sets defensive context for today's token-pick thesis",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sinceSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sinceHeading",
+        "sinceStack"
+      ]
+    },
+    "sinceHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sinceStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since1",
+        "since2",
+        "since3"
+      ]
+    },
+    "since1": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers: failed Jun 4 again — CoinGecko domain migration likely root cause (7/9 runs failed)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since2": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker: XAI 403 day 4, WebSearch fallback held, quality score 4",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since3": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest: recovered after Jun 3 failure",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "watchSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watchHeading",
+        "watchStack"
+      ]
+    },
+    "watchHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watchStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch1",
+        "watch2"
+      ]
+    },
+    "watch1": {
+      "type": "Text",
+      "props": {
+        "text": "NEAR dynamic resharding (June 2026) — AI agent infra upgrade month; AI Crypto Infrastructure WATCH position",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "watch2": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid HYPE at ATH (~$59+) — Perp DEX RIDE thesis from Jun 4 confirmed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "runningSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "runningHeading",
+        "runningStack"
+      ]
+    },
+    "runningHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "runningStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running1",
+        "running2",
+        "running3",
+        "running4",
+        "running5"
+      ]
+    },
+    "running1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 / 14:00 / 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "running3Text",
+        "running3Badge"
+      ]
+    },
+    "running3Text": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running3Badge": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠️",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "running4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "running4Text",
+        "running4Badge"
+      ]
+    },
+    "running4Text": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running4Badge": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠️",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "running5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running5Text",
+        "running5Sub"
+      ]
+    },
+    "running5Text": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running5Sub": {
+      "type": "Text",
+      "props": {
+        "text": "(XAI fallback expected)",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
