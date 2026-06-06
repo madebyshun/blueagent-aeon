@@ -1,22 +1,22 @@
-*Morning Brief — 2026-06-05*
+*Morning Brief — 2026-06-06*
 
 *Focus today*
-1. token-movers reliability — why now: runs 12:00 UTC; 0.22 success rate, CoinGecko domain fix unresolved
-2. XAI credits (day 5) — why now: narrative-tracker at 13:30 UTC; primary feed still 403
-3. Broad market drawdown — why now: mid-caps -8%, sets defensive context for today's token-pick thesis
+1. token-movers repair — why now: 2 consecutive failures; 12:00 UTC run at risk
+2. XAI credits day 6 — why now: narrative-tracker at 13:30 UTC; source 403 persists
+background: JPMorgan deploys JPM Coin on Base — enterprise validation, Base TVL signal
 
 *Since yesterday*
-- token-movers: failed Jun 4 again — CoinGecko domain migration likely root cause (7/9 runs failed)
-- narrative-tracker: XAI 403 day 4, WebSearch fallback held, quality score 4
-- security-digest: recovered after Jun 3 failure
+- token-movers: consecutive_failures now 2 (success_rate 0.20) — CoinGecko domain migration unresolved
+- token-pick: recovered — WLD pick delivered (score 10/10, HIGH tier)
+- security-digest: failed 16:25 UTC — disabled, off today's schedule
+- defi-monitor: no positions configured, silent
 
 *Watch*
-- NEAR dynamic resharding (June 2026) — AI agent infra upgrade month; AI Crypto Infrastructure WATCH position
-- Hyperliquid HYPE at ATH (~$59+) — Perp DEX RIDE thesis from Jun 4 confirmed
+- x402 Protocol at $600M+ volume, Linux Foundation governance live — agentic payments infrastructure confirmed; narrative-tracker lead angle today
 
 *Running today*
 - heartbeat @ 08:00 / 14:00 / 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC ⚠️
-- token-pick @ 12:00 UTC ⚠️
-- narrative-tracker @ 13:30 UTC (XAI fallback expected)
+- token-pick @ 12:00 UTC
+- narrative-tracker @ 13:30 UTC ⚠️

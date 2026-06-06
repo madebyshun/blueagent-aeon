@@ -1,0 +1,402 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-06"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "yesterday_section",
+        "sep2",
+        "watch_section",
+        "sep3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_item1",
+        "focus_item2",
+        "focus_bg"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_item1_title",
+        "focus_item1_reason"
+      ]
+    },
+    "focus_item1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. token-movers repair",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus_item1_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 2 consecutive failures; 12:00 UTC run at risk",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_item2_title",
+        "focus_item2_reason"
+      ]
+    },
+    "focus_item2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. XAI credits day 6",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus_item2_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: narrative-tracker at 13:30 UTC; source 403 persists",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus_bg": {
+      "type": "Text",
+      "props": {
+        "text": "background: JPMorgan deploys JPM Coin on Base — enterprise validation, Base TVL signal",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "yesterday_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_heading",
+        "yesterday_item1",
+        "yesterday_item2",
+        "yesterday_item3",
+        "yesterday_item4"
+      ]
+    },
+    "yesterday_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "y1_status",
+        "y1_detail"
+      ]
+    },
+    "y1_status": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers: consecutive_failures now 2 (success_rate 0.20)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "y1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "CoinGecko domain migration unresolved",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "yesterday_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "y2_text",
+        "y2_badge"
+      ]
+    },
+    "y2_text": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick: recovered — WLD pick delivered (score 10/10, HIGH tier)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "y2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Recovered",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "yesterday_item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "y3_text",
+        "y3_badge"
+      ]
+    },
+    "y3_text": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest: failed 16:25 UTC — disabled, off today's schedule",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "y3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Disabled",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "yesterday_item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "y4_text",
+        "y4_badge"
+      ]
+    },
+    "y4_text": {
+      "type": "Text",
+      "props": {
+        "text": "defi-monitor: no positions configured, silent",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "y4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Silent",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_heading",
+        "watch_item"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch_item": {
+      "type": "Text",
+      "props": {
+        "text": "x402 Protocol at $600M+ volume, Linux Foundation governance live — agentic payments infrastructure confirmed; narrative-tracker lead angle today",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_heading",
+        "run_item1",
+        "run_item2",
+        "run_item3",
+        "run_item4",
+        "run_item5"
+      ]
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "run_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "run1_text",
+        "run1_badge"
+      ]
+    },
+    "run1_text": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 / 14:00 / 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "run1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "OK",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "run_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "run2_text",
+        "run2_badge"
+      ]
+    },
+    "run2_text": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "run2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "OK",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "run_item3": {
+      "type": "Alert",
+      "props": {
+        "title": "token-movers @ 12:00 UTC",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "run_item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "run4_text",
+        "run4_badge"
+      ]
+    },
+    "run4_text": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "run4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "OK",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "run_item5": {
+      "type": "Alert",
+      "props": {
+        "title": "narrative-tracker @ 13:30 UTC",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
