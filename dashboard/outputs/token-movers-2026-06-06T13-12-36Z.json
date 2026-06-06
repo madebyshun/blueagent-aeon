@@ -1,0 +1,408 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-06-06",
+        "description": "Broad risk-off: fewer than 20% of top-100 non-stables green; median 24h near −4%; BTC −1.5% while ETH −5.7%, SOL −4.6%."
+      },
+      "children": [
+        "winners_heading",
+        "winners_table",
+        "sep1",
+        "losers_heading",
+        "losers_table",
+        "sep2",
+        "trending_heading",
+        "trending_table",
+        "sep3",
+        "notable_heading",
+        "notable_stack"
+      ]
+    },
+    "winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Market Cap",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "BEAT (Audiera)",
+            "$2.10",
+            "+28.8%",
+            "+73.7%",
+            "+2.7%",
+            "$38.3M",
+            "#88",
+            "BREAKOUT"
+          ],
+          [
+            "SIREN",
+            "$0.8281",
+            "+25.3%",
+            "+73.0%",
+            "+0.8%",
+            "$26.9M",
+            "#89",
+            "BREAKOUT"
+          ],
+          [
+            "ZEC (Zcash)",
+            "$374.05",
+            "+17.1%",
+            "−28.4%",
+            "+2.2%",
+            "$1.95B",
+            "#16",
+            "MAJOR, TRENDING+UP"
+          ],
+          [
+            "TVK (Virtua)",
+            "$0.2069",
+            "+8.2%",
+            "+21.2%",
+            "+3.3%",
+            "$9.1M",
+            "#108",
+            ""
+          ],
+          [
+            "XLM (Stellar)",
+            "$0.202",
+            "+6.5%",
+            "−18.2%",
+            "+1.6%",
+            "$768.6M",
+            "#15",
+            "MAJOR"
+          ],
+          [
+            "ENA (Ethena)",
+            "$0.0922",
+            "+5.3%",
+            "+4.3%",
+            "+1.0%",
+            "$356.0M",
+            "#74",
+            ""
+          ],
+          [
+            "BinanceLife",
+            "$0.7196",
+            "+5.3%",
+            "+56.7%",
+            "+2.4%",
+            "$59.4M",
+            "#84",
+            ""
+          ],
+          [
+            "CC (Canton)",
+            "$0.153",
+            "+4.7%",
+            "−1.2%",
+            "−1.3%",
+            "$18.4M",
+            "#17",
+            ""
+          ],
+          [
+            "H (Humanity)",
+            "$0.609",
+            "+3.4%",
+            "+91.9%",
+            "+3.3%",
+            "$103.4M",
+            "#62",
+            ""
+          ],
+          [
+            "INJ (Injective)",
+            "$5.17",
+            "+3.0%",
+            "−22.7%",
+            "−0.8%",
+            "$182.8M",
+            "#99",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Market Cap",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "WLD (Worldcoin)",
+            "$0.413",
+            "−21.8%",
+            "+35.5%",
+            "−2.7%",
+            "$919.1M",
+            "#54",
+            "TRENDING+DOWN, CAPITULATION"
+          ],
+          [
+            "LAB",
+            "$8.67",
+            "−20.4%",
+            "+18.6%",
+            "−4.5%",
+            "$121.1M",
+            "#34",
+            ""
+          ],
+          [
+            "STABLE",
+            "$0.0325",
+            "−8.4%",
+            "−13.6%",
+            "−0.8%",
+            "$18.6M",
+            "#81",
+            ""
+          ],
+          [
+            "XMR (Monero)",
+            "$299.41",
+            "−8.4%",
+            "−21.5%",
+            "−0.6%",
+            "$152.3M",
+            "#19",
+            "MAJOR"
+          ],
+          [
+            "EIGEN (Eigenlayer)",
+            "$2.38",
+            "−7.7%",
+            "−29.4%",
+            "−0.4%",
+            "$90.9M",
+            "#111",
+            ""
+          ],
+          [
+            "ONDO",
+            "$0.327",
+            "−7.3%",
+            "−5.8%",
+            "+0.7%",
+            "$199.5M",
+            "#49",
+            ""
+          ],
+          [
+            "FIL (Filecoin)",
+            "$0.733",
+            "−7.1%",
+            "−25.2%",
+            "+0.9%",
+            "$186.5M",
+            "#92",
+            ""
+          ],
+          [
+            "NEAR",
+            "$1.91",
+            "−7.0%",
+            "−20.5%",
+            "−0.5%",
+            "$715.8M",
+            "#39",
+            ""
+          ],
+          [
+            "ASTER",
+            "$0.618",
+            "−6.8%",
+            "−10.8%",
+            "+0.4%",
+            "$254.6M",
+            "#48",
+            ""
+          ],
+          [
+            "KCS (KuCoin)",
+            "$6.17",
+            "−6.8%",
+            "−22.3%",
+            "−0.1%",
+            "$4.2M",
+            "#79",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h%",
+          "Status"
+        ],
+        "rows": [
+          [
+            "ALLO (Allora)",
+            "#279",
+            "$0.390",
+            "+105.3%",
+            "PUMP-RISK"
+          ],
+          [
+            "ZEC (Zcash)",
+            "#16",
+            "$374.05",
+            "+16.6%",
+            "TRENDING+UP"
+          ],
+          [
+            "ETH (Ethereum)",
+            "#2",
+            "$1,572",
+            "−5.0%",
+            ""
+          ],
+          [
+            "SOL (Solana)",
+            "#7",
+            "$62.86",
+            "−4.1%",
+            ""
+          ],
+          [
+            "BTC (Bitcoin)",
+            "#1",
+            "$61,070",
+            "−1.4%",
+            ""
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#114",
+            "$0.00633",
+            "−1.7%",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "#10",
+            "$59.32",
+            "−4.3%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_allo",
+        "notable_wld",
+        "notable_zec",
+        "notable_beat_siren"
+      ]
+    },
+    "notable_allo": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "ALLO: Pump Risk",
+        "message": "Trending #1, +105% at rank 279 — PUMP-RISK; low cap, high manipulation probability"
+      }
+    },
+    "notable_wld": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "WLD: Capitulation Flush",
+        "message": "−21.8% on 0.66× daily turnover — CAPITULATION flush; was yesterday's bullish token pick"
+      }
+    },
+    "notable_zec": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "ZEC: Unusual Volume",
+        "message": "TRENDING+UP, +17% on $1.95B vol — unusual volume for Zcash; watch for reversal"
+      }
+    },
+    "notable_beat_siren": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "BEAT & SIREN: Breakout Extensions",
+        "message": "Both BREAKOUT with 7d > 70% — extended move, exits may accelerate"
+      }
+    }
+  }
+}
