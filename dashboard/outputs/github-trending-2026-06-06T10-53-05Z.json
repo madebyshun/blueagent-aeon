@@ -1,0 +1,315 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-06"
+      },
+      "children": [
+        "heading_toppick",
+        "link_headroom_toppick",
+        "text_headroom_toppick",
+        "sep_1",
+        "heading_devtools",
+        "link_headroom",
+        "stack_headroom_meta",
+        "text_headroom_desc",
+        "link_copilot",
+        "stack_copilot_meta",
+        "text_copilot_desc",
+        "sep_2",
+        "heading_aiml",
+        "link_flue",
+        "stack_flue_meta",
+        "text_flue_desc",
+        "link_openclaw",
+        "stack_openclaw_meta",
+        "text_openclaw_desc",
+        "sep_3",
+        "text_sources"
+      ]
+    },
+    "heading_toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "link_headroom_toppick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chopratejas/headroom",
+        "href": "https://github.com/chopratejas/headroom"
+      }
+    },
+    "text_headroom_toppick": {
+      "type": "Text",
+      "props": {
+        "text": "As LLM costs stay high, a 60-95% token cut on tool/log outputs before they hit context is the most actionable efficiency tool to land in months.",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "link_headroom": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chopratejas/headroom",
+        "href": "https://github.com/chopratejas/headroom"
+      }
+    },
+    "stack_headroom_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_headroom_today",
+        "stat_headroom_total",
+        "badge_headroom_lang",
+        "badge_headroom_status"
+      ]
+    },
+    "stat_headroom_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "2,473"
+      }
+    },
+    "stat_headroom_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "15k"
+      }
+    },
+    "badge_headroom_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "badge_headroom_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "text_headroom_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Strips verbose bash/tool output to semantic signal before LLM context — 60-95% token cut, zero prompt changes required.",
+        "variant": "body"
+      }
+    },
+    "link_copilot": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github/copilot-sdk",
+        "href": "https://github.com/github/copilot-sdk"
+      }
+    },
+    "stack_copilot_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_copilot_today",
+        "stat_copilot_total",
+        "badge_copilot_lang",
+        "badge_copilot_status"
+      ]
+    },
+    "stat_copilot_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "309"
+      }
+    },
+    "stat_copilot_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "9.3k"
+      }
+    },
+    "badge_copilot_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Java",
+        "variant": "secondary"
+      }
+    },
+    "badge_copilot_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "text_copilot_desc": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub's official multi-platform Copilot Agent SDK — embed Copilot reasoning into any product without requiring the web UI.",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "link_flue": {
+      "type": "StoryLink",
+      "props": {
+        "title": "withastro/flue",
+        "href": "https://github.com/withastro/flue"
+      }
+    },
+    "stack_flue_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_flue_today",
+        "stat_flue_total",
+        "badge_flue_lang",
+        "badge_flue_status"
+      ]
+    },
+    "stat_flue_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "126"
+      }
+    },
+    "stat_flue_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "4.6k"
+      }
+    },
+    "badge_flue_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_flue_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "text_flue_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Astro team's agent sandbox framework — runs untrusted agent code in isolated contexts, TypeScript-native with no VM overhead.",
+        "variant": "body"
+      }
+    },
+    "link_openclaw": {
+      "type": "StoryLink",
+      "props": {
+        "title": "openclaw/openclaw-windows-node",
+        "href": "https://github.com/openclaw/openclaw-windows-node"
+      }
+    },
+    "stack_openclaw_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_openclaw_today",
+        "stat_openclaw_total",
+        "badge_openclaw_lang",
+        "badge_openclaw_status"
+      ]
+    },
+    "stat_openclaw_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "326"
+      }
+    },
+    "stat_openclaw_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "1.6k"
+      }
+    },
+    "badge_openclaw_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C#",
+        "variant": "secondary"
+      }
+    },
+    "badge_openclaw_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "text_openclaw_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Scott Hanselman's OpenClaw AI assistant gets a native Windows hub — PowerToys command palette, WSL gateway, system tray in one .NET 10 install.",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/17",
+        "variant": "caption"
+      }
+    }
+  }
+}

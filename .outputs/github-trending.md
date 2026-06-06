@@ -1,22 +1,21 @@
-*GitHub Trending — 2026-06-05*
+*GitHub Trending — 2026-06-06*
 
-*Top pick* — [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)
-Vibe coding crosses into quant finance — natural-language strategy to live LLM execution, no quant background needed.
+*Top pick* — [chopratejas/headroom](https://github.com/chopratejas/headroom)
+As LLM costs stay high, a 60-95% token cut on tool/log outputs before they hit context is the most actionable efficiency tool to land in months.
+
+*Devtools*
+• [chopratejas/headroom](https://github.com/chopratejas/headroom) — ★ 2,473 today (15k total) · Python · [ACCELERATING]
+Strips verbose bash/tool output to semantic signal before LLM context — 60-95% token cut, zero prompt changes required.
+
+• [github/copilot-sdk](https://github.com/github/copilot-sdk) — ★ 309 today (9.3k total) · Java · [ACCELERATING]
+GitHub's official multi-platform Copilot Agent SDK — embed Copilot reasoning into any product without requiring the web UI.
 
 *AI/ML*
-• [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) — ★ 884 today (10.8k total) · Python · [ACCELERATING]
-Natural-language trading strategy → live execution agent; describe the trade in plain English, skip the backtester.
+• [withastro/flue](https://github.com/withastro/flue) — ★ 126 today (4.6k total) · TypeScript · [RETURNING]
+Astro team's agent sandbox framework — runs untrusted agent code in isolated contexts, TypeScript-native with no VM overhead.
 
-• [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) — ★ 127 today (21.3k total) · Python · [ACCELERATING]
-Gives agents live web eyes across Twitter, Reddit, YouTube, GitHub — one MCP-compatible layer, no API juggling.
-
-*Web/Apps*
-• [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) — ★ 350 today (32.3k total) · TypeScript · [RETURNING]
-Production-ready React components for streaming agent UI — skip WebSocket plumbing and state management entirely.
-
-*Infra*
-• [aquasecurity/trivy](https://github.com/aquasecurity/trivy) — ★ 255 today (35.8k total) · Go · [RETURNING]
-CVE scanning, secret detection, and SBOM across containers, k8s, and code — one CLI, pushed today.
+• [openclaw/openclaw-windows-node](https://github.com/openclaw/openclaw-windows-node) — ★ 326 today (1.6k total) · C# · [RETURNING]
+Scott Hanselman's OpenClaw AI assistant gets a native Windows hub — PowerToys command palette, WSL gateway, system tray in one .NET 10 install.
 
 ---
 sources: trending=ok · gh_api=ok · kept 4/17
