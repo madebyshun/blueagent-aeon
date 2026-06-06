@@ -1,0 +1,356 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-06"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_token",
+        "sep_main",
+        "section_market",
+        "sep_footer",
+        "footer"
+      ]
+    },
+    "section_token": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "token_header_row",
+        "token_price_row",
+        "token_stats_row",
+        "text_score_header",
+        "text_score_details",
+        "heading_catalyst",
+        "text_catalyst_desc",
+        "alert_token_risk",
+        "text_vs_recent"
+      ]
+    },
+    "token_header_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_token_name",
+        "badge_signal"
+      ]
+    },
+    "text_token_name": {
+      "type": "Text",
+      "props": {
+        "text": "Token: ALLO",
+        "variant": "lead"
+      }
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH  10/10",
+        "variant": "default"
+      }
+    },
+    "token_price_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text_price_value",
+        "text_price_changes"
+      ]
+    },
+    "text_price_value": {
+      "type": "Text",
+      "props": {
+        "text": "Price: $0.42",
+        "variant": "body"
+      }
+    },
+    "text_price_changes": {
+      "type": "Text",
+      "props": {
+        "text": "+117.1% 24h / +46.7% 7d",
+        "variant": "caption"
+      }
+    },
+    "token_stats_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_mcap",
+        "stat_vol",
+        "text_vol_ratio"
+      ]
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$97M"
+      }
+    },
+    "stat_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$352M"
+      }
+    },
+    "text_vol_ratio": {
+      "type": "Text",
+      "props": {
+        "text": "vol/mcap: 3.63",
+        "variant": "caption"
+      }
+    },
+    "text_score_header": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown (12→10/10):",
+        "variant": "lead"
+      }
+    },
+    "text_score_details": {
+      "type": "Text",
+      "props": {
+        "text": "CG trending #1 +2 | vol/mcap≥0.20 +3 | RS vs BTC/ETH on 7d +2 | 24h>0 +1 | 7d>0 +1 | both>+5% +2 | DexScreener confirmed +1",
+        "variant": "body"
+      }
+    },
+    "heading_catalyst": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "text_catalyst_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Allora's AI inference network went live today on Kalshi via Cobot — autonomous agents placing real-money trades using ALLO network outputs; converts speculative AI infra narrative into concrete revenue/demand loop",
+        "variant": "body"
+      }
+    },
+    "alert_token_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Entering after 100%+ same-day pump; vol/mcap=3.6 signals extreme speculation — if Kalshi integration volume disappoints post-hype, violent reversal likely",
+        "type": "warning"
+      }
+    },
+    "text_vs_recent": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: First time picked",
+        "variant": "caption"
+      }
+    },
+    "sep_main": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_header_row",
+        "market_odds_row",
+        "market_volume_resolves",
+        "text_fair_value_header",
+        "progress_fair_value",
+        "text_fair_value_details",
+        "heading_thesis",
+        "text_thesis_desc",
+        "alert_market_risk"
+      ]
+    },
+    "market_header_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_market_question",
+        "badge_edge"
+      ]
+    },
+    "text_market_question": {
+      "type": "Text",
+      "props": {
+        "text": "Market: \"Will the New York Knicks win the 2026 NBA Finals?\"",
+        "variant": "lead"
+      }
+    },
+    "badge_edge": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM  ~6pp edge",
+        "variant": "secondary"
+      }
+    },
+    "market_odds_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text_current_label",
+        "progress_yes_odds",
+        "text_no_odds"
+      ]
+    },
+    "text_current_label": {
+      "type": "Text",
+      "props": {
+        "text": "Current odds:",
+        "variant": "caption"
+      }
+    },
+    "progress_yes_odds": {
+      "type": "Progress",
+      "props": {
+        "label": "YES",
+        "value": 78.65,
+        "max": 100
+      }
+    },
+    "text_no_odds": {
+      "type": "Text",
+      "props": {
+        "text": "NO 21.35¢",
+        "variant": "caption"
+      }
+    },
+    "market_volume_resolves": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_market_vol",
+        "text_resolves"
+      ]
+    },
+    "stat_market_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$1.37M"
+      }
+    },
+    "text_resolves": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-07-01",
+        "variant": "caption"
+      }
+    },
+    "text_fair_value_header": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~85%",
+        "variant": "lead"
+      }
+    },
+    "progress_fair_value": {
+      "type": "Progress",
+      "props": {
+        "label": "Fair value estimate",
+        "value": 85,
+        "max": 100
+      }
+    },
+    "text_fair_value_details": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: general 2-0 playoff lead rate 92.6% | Finals-specific discount ~75% | Knicks home court G3-4 + 13-game winning streak +5-10pp",
+        "variant": "body"
+      }
+    },
+    "heading_thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h3"
+      }
+    },
+    "text_thesis_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Market prices Knicks at 79% while 2-0 series lead + home court + historic 13-game streak points to ~85% fair value — long Knicks YES",
+        "variant": "body"
+      }
+    },
+    "alert_market_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Finals small-sample variance; Spurs at home Games 3-4 with Wembanyama; any Knicks injury flips odds significantly",
+        "type": "warning"
+      }
+    },
+    "sep_footer": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text_sources",
+        "text_disclaimer"
+      ]
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=ok, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "text_disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "caption"
+      }
+    }
+  }
+}
