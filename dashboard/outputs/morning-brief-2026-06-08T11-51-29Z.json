@@ -1,0 +1,199 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-08"
+      },
+      "children": [
+        "focus-heading",
+        "focus-item1",
+        "focus-item2",
+        "focus-item3",
+        "sep1",
+        "yesterday-heading",
+        "yesterday-item1",
+        "yesterday-item2",
+        "yesterday-item3",
+        "yesterday-item4",
+        "sep2",
+        "watch-heading",
+        "watch-item",
+        "sep3",
+        "running-heading",
+        "running-table"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-item1": {
+      "type": "Alert",
+      "props": {
+        "title": "June 7 fleet failure",
+        "message": "7 skills hit 0-token errors; 12 UTC runs at risk",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "focus-item2": {
+      "type": "Alert",
+      "props": {
+        "title": "token-movers chronic 25% success",
+        "message": "Active skill, runs again at 12 UTC today",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "focus-item3": {
+      "type": "Alert",
+      "props": {
+        "title": "background: security-digest",
+        "message": "3 consecutive failures since June 4; no security coverage",
+        "type": "error"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday-item1": {
+      "type": "Text",
+      "props": {
+        "text": "Fleet-wide failure June 7: morning-brief, token-pick, token-movers, defi-monitor, narrative-tracker, github-trending — all 0-token errors (shared root cause, likely transient API issue)"
+      },
+      "children": []
+    },
+    "yesterday-item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "y2-title",
+        "y2-stat"
+      ]
+    },
+    "y2-title": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick: degraded, consecutive failure"
+      },
+      "children": []
+    },
+    "y2-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Success rate",
+        "value": "57%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "yesterday-item3": {
+      "type": "Alert",
+      "props": {
+        "title": "security-digest",
+        "message": "3rd consecutive failure (disabled; would fail if re-enabled)",
+        "type": "error"
+      },
+      "children": []
+    },
+    "yesterday-item4": {
+      "type": "Text",
+      "props": {
+        "text": "$BLUEAGENT at $0.063 / $163 24h vol — near silent on-chain"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch-item": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic payments hit 100M txns on Base (Chainalysis, June 3) — implication for Focus #3: agent economy validates $BLUEAGENT security OS demand; trading volume lags thesis badly"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Schedule (UTC)"
+        ],
+        "rows": [
+          [
+            "github-monitor",
+            "09:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "token-pick",
+            "12:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ],
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00"
+          ]
+        ]
+      },
+      "children": []
+    }
+  }
+}

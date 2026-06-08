@@ -1,22 +1,22 @@
-*Morning Brief — 2026-06-06*
+*Morning Brief — 2026-06-08*
 
 *Focus today*
-1. token-movers repair — why now: 2 consecutive failures; 12:00 UTC run at risk
-2. XAI credits day 6 — why now: narrative-tracker at 13:30 UTC; source 403 persists
-background: JPMorgan deploys JPM Coin on Base — enterprise validation, Base TVL signal
+1. June 7 fleet failure — why now: 7 skills hit 0-token errors; 12 UTC runs at risk
+2. token-movers chronic 25% success — why now: active skill, runs again at 12 UTC today
+3. background: security-digest — 3 consecutive failures since June 4; no security coverage
 
 *Since yesterday*
-- token-movers: consecutive_failures now 2 (success_rate 0.20) — CoinGecko domain migration unresolved
-- token-pick: recovered — WLD pick delivered (score 10/10, HIGH tier)
-- security-digest: failed 16:25 UTC — disabled, off today's schedule
-- defi-monitor: no positions configured, silent
+- Fleet-wide failure June 7: morning-brief, token-pick, token-movers, defi-monitor, narrative-tracker, github-trending — all 0-token errors (shared root cause, likely transient API issue)
+- token-pick: 57% success rate (degraded), consecutive failure
+- security-digest: 3rd consecutive failure (disabled; would fail if re-enabled)
+- $BLUEAGENT at $0.063 / $163 24h vol — near silent on-chain
 
 *Watch*
-- x402 Protocol at $600M+ volume, Linux Foundation governance live — agentic payments infrastructure confirmed; narrative-tracker lead angle today
+- Agentic payments hit 100M txns on Base (Chainalysis, June 3) — implication for Focus #3: agent economy validates $BLUEAGENT security OS demand; trading volume lags thesis badly
 
 *Running today*
-- heartbeat @ 08:00 / 14:00 / 20:00 UTC
 - github-monitor @ 09:00 UTC
-- token-movers @ 12:00 UTC ⚠️
+- token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
-- narrative-tracker @ 13:30 UTC ⚠️
+- narrative-tracker @ 13:30 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC
