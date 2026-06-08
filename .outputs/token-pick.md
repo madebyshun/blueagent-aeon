@@ -1,17 +1,16 @@
-*Daily Pick — 2026-06-06*
+*Daily Pick — 2026-06-08*
 
-*Token: ALLO*  [HIGH]  signal 10/10
-Price: $0.42 (+117.1% 24h / +46.7% 7d) | mcap $97M | vol $352M (vol/mcap 3.63)
-Score breakdown: [CG trending #1 +2, vol/mcap≥0.20 +3, RS vs BTC/ETH on 7d +2, 24h>0 +1, 7d>0 +1, both>+5% +2, DexScreener confirmed +1] = 12→10/10
-Catalyst: Allora's AI inference network went live today on Kalshi via Cobot — autonomous agents placing real-money trades using ALLO network outputs; converts speculative AI infra narrative into concrete revenue/demand loop
-Risk: Entering after 100%+ same-day pump; vol/mcap=3.6 signals extreme speculation — if Kalshi integration volume disappoints post-hype, violent reversal likely
-Vs recent picks: First time picked
+*Token: LIT*  [HIGH]  signal 10/10
+Price: $1.55 (+11.2% 24h / +24.7% 7d) | mcap $387M | vol $60M (vol/mcap 0.155)
+Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, trending+2, vol/mcap>=0.10+2, RS>BTC+ETH+2] = 10/10
+Catalyst: HYPE ATH lifted the entire perp DEX sector; LIT added RWA perpetuals for DELL/IBM on June 1 and is trading as direct Hyperliquid beta — narrative now has fee-capture mechanics, not just speculation
+Risk: HYPE holds >60% perp DEX share; LIT drops further as the beta if HYPE corrects; vol/mcap 0.155 shows real buying but also real reversal potential
 
-*Market: "Will the New York Knicks win the 2026 NBA Finals?"*  [MEDIUM]  edge ~6pp
-Current: YES 78.65¢ / NO 21.35¢ | 24h vol $1.37M | resolves: 2026-07-01
-Fair YES: ~85% (inputs: general 2-0 playoff lead rate 92.6%, Finals-specific discount ~75%, Knicks home court G3-4 + 13-game winning streak +5-10pp)
-Thesis: Market prices Knicks at 79% while 2-0 series lead + home court + historic 13-game streak points to ~85% fair value — long Knicks YES
-Risk: Finals small-sample variance; Spurs at home Games 3-4 with Wembanyama; any Knicks injury flips odds significantly
+*Market: Starmer out by June 30, 2026?*  [MEDIUM]  edge 6.5pp
+Current: YES 14.5c / NO 85.5c | 24h vol 55K | resolves: 2026-06-30
+Fair YES: ~8% (inputs: Starmer refused to resign May 12; Labour leadership process takes weeks, cannot complete by June 30 even if triggered today; no formal challenge filed despite 95+ MPs calling for departure)
+Thesis: market over-prices the crisis at 14.5% -- UK Labour rules structurally prevent exit by June 30; NO is undervalued
+Risk: sudden voluntary resignation or health event before June 30
 
 sources: cg=ok, dex=ok, poly=ok
-not financial advice — pattern-matching only
+not financial advice -- pattern-matching only

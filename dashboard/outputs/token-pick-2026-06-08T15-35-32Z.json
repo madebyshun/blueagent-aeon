@@ -1,0 +1,297 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-08",
+        "description": "Token analysis and market predictions"
+      },
+      "children": [
+        "lit-section",
+        "separator-1",
+        "market-section",
+        "separator-2",
+        "sources-section",
+        "disclaimer"
+      ]
+    },
+    "lit-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "lit-heading",
+        "lit-badges",
+        "lit-price",
+        "lit-mcap",
+        "lit-volume",
+        "lit-volmcap",
+        "lit-score",
+        "lit-catalyst-heading",
+        "lit-catalyst",
+        "lit-risk-heading",
+        "lit-risk"
+      ]
+    },
+    "lit-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: LIT",
+        "level": "h2"
+      }
+    },
+    "lit-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "lit-badge-high",
+        "lit-badge-signal"
+      ]
+    },
+    "lit-badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "lit-badge-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "10/10 signal",
+        "variant": "default"
+      }
+    },
+    "lit-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price (24h / 7d)",
+        "value": "$1.55",
+        "delta": "+11.2% / +24.7%",
+        "trend": "up"
+      }
+    },
+    "lit-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$387M"
+      }
+    },
+    "lit-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$60M"
+      }
+    },
+    "lit-volmcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/MCap Ratio",
+        "value": "0.155"
+      }
+    },
+    "lit-score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, trending+2, vol/mcap>=0.10+2, RS>BTC+ETH+2] = 10/10",
+        "variant": "caption"
+      }
+    },
+    "lit-catalyst-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "lit-catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE ATH lifted the entire perp DEX sector; LIT added RWA perpetuals for DELL/IBM on June 1 and is trading as direct Hyperliquid beta — narrative now has fee-capture mechanics, not just speculation",
+        "variant": "body"
+      }
+    },
+    "lit-risk-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      }
+    },
+    "lit-risk": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE holds >60% perp DEX share; LIT drops further as the beta if HYPE corrects; vol/mcap 0.155 shows real buying but also real reversal potential",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-heading",
+        "market-badges",
+        "market-odds",
+        "market-volume",
+        "market-resolution",
+        "market-fair",
+        "market-inputs",
+        "market-thesis-heading",
+        "market-thesis",
+        "market-risk-heading",
+        "market-risk"
+      ]
+    },
+    "market-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Starmer out by June 30, 2026?",
+        "level": "h2"
+      }
+    },
+    "market-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "market-badge-medium",
+        "market-badge-edge"
+      ]
+    },
+    "market-badge-medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      }
+    },
+    "market-badge-edge": {
+      "type": "Badge",
+      "props": {
+        "text": "6.5pp edge",
+        "variant": "default"
+      }
+    },
+    "market-odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market-odds-yes",
+        "market-odds-no"
+      ]
+    },
+    "market-odds-yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES Odds",
+        "value": "14.5¢"
+      }
+    },
+    "market-odds-no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO Odds",
+        "value": "85.5¢"
+      }
+    },
+    "market-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "55K"
+      }
+    },
+    "market-resolution": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-06-30",
+        "variant": "body"
+      }
+    },
+    "market-fair": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES",
+        "value": "~8%"
+      }
+    },
+    "market-inputs": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: Starmer refused to resign May 12; Labour leadership process takes weeks, cannot complete by June 30 even if triggered today; no formal challenge filed despite 95+ MPs calling for departure",
+        "variant": "caption"
+      }
+    },
+    "market-thesis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      }
+    },
+    "market-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "market over-prices the crisis at 14.5% -- UK Labour rules structurally prevent exit by June 30; NO is undervalued",
+        "variant": "body"
+      }
+    },
+    "market-risk-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      }
+    },
+    "market-risk": {
+      "type": "Text",
+      "props": {
+        "text": "sudden voluntary resignation or health event before June 30",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-section": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=ok, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "disclaimer": {
+      "type": "Alert",
+      "props": {
+        "message": "not financial advice -- pattern-matching only",
+        "type": "info"
+      }
+    }
+  }
+}
