@@ -1,0 +1,341 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest",
+        "description": "2026-06-08"
+      },
+      "children": [
+        "alert_verdict",
+        "sep1",
+        "section_patch_today",
+        "sep2",
+        "section_patch_week",
+        "sep3",
+        "section_monitor"
+      ]
+    },
+    "alert_verdict": {
+      "type": "Alert",
+      "props": {
+        "title": "Verdict",
+        "message": "1 actively exploited, 5 to patch this week, 3 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "type": "warning"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_patch_today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_today",
+        "vuln_today_1"
+      ]
+    },
+    "heading_today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "vuln_today_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_cve_2026_28318",
+        "text_today_1_desc",
+        "text_today_1_fix"
+      ]
+    },
+    "link_cve_2026_28318": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-28318 — SolarWinds Serv-U",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-28318",
+        "source": "KEV added 2026-06-05 · EPSS 0.067 · CVSS N/A"
+      }
+    },
+    "text_today_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated DoS via crafted deflate POST — crashes the service with no auth. Exploited per CISA. Due: 2026-06-19."
+      }
+    },
+    "text_today_1_fix": {
+      "type": "Text",
+      "props": {
+        "text": "Apply SolarWinds Serv-U vendor patch or take offline.",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_patch_week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_week",
+        "vuln_week_1",
+        "vuln_week_2",
+        "vuln_week_3",
+        "vuln_week_4",
+        "vuln_week_5"
+      ]
+    },
+    "heading_week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "vuln_week_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_week_1",
+        "text_week_1_note"
+      ]
+    },
+    "link_week_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-8v3q-9vmx-36vc — dbgate-serve (npm)",
+        "href": "https://github.com/advisories/GHSA-8v3q-9vmx-36vc",
+        "source": "CVSS 10.0 · EPSS unscored"
+      }
+    },
+    "text_week_1_note": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated RCE via JSON Script Runner. +2 related dbgate CVEs (CVSS 9.4/9.3) same fix. Upgrade dbgate / dbgate-serve to ≥7.1.9."
+      }
+    },
+    "vuln_week_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_week_2",
+        "text_week_2_note"
+      ]
+    },
+    "link_week_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-jpvj-wpmj-h7rv — @cap-js/openapi (npm)",
+        "href": "https://github.com/advisories/GHSA-jpvj-wpmj-h7rv",
+        "source": "CVSS 9.6 · EPSS unscored"
+      }
+    },
+    "text_week_2_note": {
+      "type": "Text",
+      "props": {
+        "text": "Supply chain compromise: malicious code in version 1.4.1. Reject 1.4.1; upgrade to ≥1.4.2 now."
+      }
+    },
+    "vuln_week_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_week_3",
+        "text_week_3_note"
+      ]
+    },
+    "link_week_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-4p62-hqp5-g644 — stata-mcp (pip)",
+        "href": "https://github.com/advisories/GHSA-4p62-hqp5-g644",
+        "source": "CVSS 9.3 · EPSS unscored"
+      }
+    },
+    "text_week_3_note": {
+      "type": "Text",
+      "props": {
+        "text": "Command injection via log_file_name parameter. Upgrade stata-mcp to ≥1.17.3."
+      }
+    },
+    "vuln_week_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_week_4",
+        "text_week_4_note"
+      ]
+    },
+    "link_week_4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-p462-prxw-mjx4 — ait-core (pip)",
+        "href": "https://github.com/advisories/GHSA-p462-prxw-mjx4",
+        "source": "CVSS 9.1 · EPSS unscored"
+      }
+    },
+    "text_week_4_note": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal → arbitrary file append (NASA AMMOS toolkit). Upgrade ait-core to ≥2.6.1 or ≥3.1.1."
+      }
+    },
+    "vuln_week_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_week_5",
+        "text_week_5_note"
+      ]
+    },
+    "link_week_5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-vg35-5wq7-3x7w — TinyMCE XSS cluster (npm)",
+        "href": "https://github.com/advisories/GHSA-vg35-5wq7-3x7w",
+        "source": "CVSS 8.7 · EPSS 0.00032"
+      }
+    },
+    "text_week_5_note": {
+      "type": "Text",
+      "props": {
+        "text": "4 XSS vectors: media plugin, mce:protected comments, data-mce-* attrs, nested SVG bypass. +3 related. Upgrade tinymce to ≥7.9.3 (v7), ≥8.5.1 (v8), or ≥5.11.1 LTS."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_monitor",
+        "mon_1",
+        "mon_2",
+        "mon_3"
+      ]
+    },
+    "heading_monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "mon_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_mon_1",
+        "text_mon_1_note"
+      ]
+    },
+    "link_mon_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-q4x5-8cj6-52wg — @sync-in/server (npm)",
+        "href": "https://github.com/advisories/GHSA-q4x5-8cj6-52wg",
+        "source": "CVSS 7.7 · fix: ≥2.3.0"
+      }
+    },
+    "text_mon_1_note": {
+      "type": "Text",
+      "props": {
+        "text": "SSRF bypass via IPv4-mapped IPv6 addresses. Upgrade if internet-facing."
+      }
+    },
+    "mon_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_mon_2",
+        "text_mon_2_note"
+      ]
+    },
+    "link_mon_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-rm5c-5x2p-48wr — klever-go DoS cluster (Go)",
+        "href": "https://github.com/advisories/GHSA-rm5c-5x2p-48wr",
+        "source": "CVSS 7.5 · fix: ≥1.7.18"
+      }
+    },
+    "text_mon_2_note": {
+      "type": "Text",
+      "props": {
+        "text": "3 P2P/REST DoS: nil-ptr crash, connection exhaustion, unbounded goroutines. +2 related."
+      }
+    },
+    "mon_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_mon_3",
+        "text_mon_3_note"
+      ]
+    },
+    "link_mon_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-wx3m-whqv-xv47 — skillctl (Rust)",
+        "href": "https://github.com/advisories/GHSA-wx3m-whqv-xv47",
+        "source": "CVSS 7.1 · fix: ≥0.1.2"
+      }
+    },
+    "text_mon_3_note": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal + symlink follow → file disclosure and deletion."
+      }
+    }
+  }
+}
