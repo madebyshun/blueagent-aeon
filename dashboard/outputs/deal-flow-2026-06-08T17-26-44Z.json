@@ -1,0 +1,930 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Deal Flow — 2026-06-08"
+      },
+      "children": [
+        "lead_text",
+        "separator1",
+        "deals_stack",
+        "separator2",
+        "sources_stack"
+      ]
+    },
+    "lead_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sovereign funds (GIC, Temasek, Ontario Teachers) stepped in where US VC left gaps this week; hardest signal: Supabase's 600% agent-driven DB creation confirms autonomous compute generates its own backend demand.",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deals_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "deal1",
+        "sep_d1",
+        "deal2",
+        "sep_d2",
+        "deal3",
+        "sep_d3",
+        "deal4",
+        "sep_d4",
+        "deal5",
+        "sep_d5",
+        "deal6",
+        "sep_d6",
+        "deal7",
+        "sep_d7",
+        "deal8"
+      ]
+    },
+    "deal1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d1_head",
+        "d1_desc",
+        "d1_fund_stack",
+        "d1_lead_stack",
+        "d1_co_stack",
+        "d1_why"
+      ]
+    },
+    "d1_head": {
+      "type": "Heading",
+      "props": {
+        "text": "1. Supabase",
+        "level": "h3"
+      }
+    },
+    "d1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "open-source backend and database platform for AI app builders"
+      }
+    },
+    "d1_fund_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d1_amt",
+        "d1_val",
+        "d1_comp"
+      ]
+    },
+    "d1_amt": {
+      "type": "Stat",
+      "props": {
+        "label": "Series F Funding",
+        "value": "$500M"
+      }
+    },
+    "d1_val": {
+      "type": "Stat",
+      "props": {
+        "label": "Post-Money Valuation",
+        "value": "$10.5B"
+      }
+    },
+    "d1_comp": {
+      "type": "Text",
+      "props": {
+        "text": "UP vs ~$5.2B Series E (8 months ago)",
+        "variant": "caption"
+      }
+    },
+    "d1_lead_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d1_lead_lbl",
+        "d1_lead_badge"
+      ]
+    },
+    "d1_lead_lbl": {
+      "type": "Text",
+      "props": {
+        "text": "Lead:",
+        "variant": "muted"
+      }
+    },
+    "d1_lead_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "GIC"
+      }
+    },
+    "d1_co_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d1_co_lbl",
+        "d1_co_b1",
+        "d1_co_b2",
+        "d1_co_b3"
+      ]
+    },
+    "d1_co_lbl": {
+      "type": "Text",
+      "props": {
+        "text": "Co-investors:",
+        "variant": "muted"
+      }
+    },
+    "d1_co_b1": {
+      "type": "Badge",
+      "props": {
+        "text": "Stripe"
+      }
+    },
+    "d1_co_b2": {
+      "type": "Badge",
+      "props": {
+        "text": "Salesforce Ventures"
+      }
+    },
+    "d1_co_b3": {
+      "type": "Badge",
+      "props": {
+        "text": "Accel"
+      }
+    },
+    "d1_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: AI agents now drive majority of Supabase DB deployments — 600% YoY creation is first at-scale proof agentic compute needs dedicated backend infra."
+      }
+    },
+    "sep_d1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d2_head",
+        "d2_desc",
+        "d2_fund_stack",
+        "d2_lead_stack",
+        "d2_co_stack",
+        "d2_why"
+      ]
+    },
+    "d2_head": {
+      "type": "Heading",
+      "props": {
+        "text": "2. PhysicsX",
+        "level": "h3"
+      }
+    },
+    "d2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI simulation replacing physical testing for industrial engineering"
+      }
+    },
+    "d2_fund_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d2_amt",
+        "d2_val",
+        "d2_comp"
+      ]
+    },
+    "d2_amt": {
+      "type": "Stat",
+      "props": {
+        "label": "Series C Funding",
+        "value": "$300M"
+      }
+    },
+    "d2_val": {
+      "type": "Stat",
+      "props": {
+        "label": "Post-Money Valuation",
+        "value": "$2.4B"
+      }
+    },
+    "d2_comp": {
+      "type": "Text",
+      "props": {
+        "text": "UP from ~$1B Series B",
+        "variant": "caption"
+      }
+    },
+    "d2_lead_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d2_lead_lbl",
+        "d2_lead_badge"
+      ]
+    },
+    "d2_lead_lbl": {
+      "type": "Text",
+      "props": {
+        "text": "Lead:",
+        "variant": "muted"
+      }
+    },
+    "d2_lead_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Temasek"
+      }
+    },
+    "d2_co_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d2_co_lbl",
+        "d2_co_b1",
+        "d2_co_b2",
+        "d2_co_b3"
+      ]
+    },
+    "d2_co_lbl": {
+      "type": "Text",
+      "props": {
+        "text": "Co-investors:",
+        "variant": "muted"
+      }
+    },
+    "d2_co_b1": {
+      "type": "Badge",
+      "props": {
+        "text": "Nvidia"
+      }
+    },
+    "d2_co_b2": {
+      "type": "Badge",
+      "props": {
+        "text": "Applied Materials"
+      }
+    },
+    "d2_co_b3": {
+      "type": "Badge",
+      "props": {
+        "text": "General Catalyst"
+      }
+    },
+    "d2_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Temasek sovereign capital doubled valuation in under 12 months; sovereign wealth diversifying off US frontier AI megarounds into industrial AI."
+      }
+    },
+    "sep_d2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d3_head",
+        "d3_desc",
+        "d3_fund_stack",
+        "d3_investors_stack",
+        "d3_why"
+      ]
+    },
+    "d3_head": {
+      "type": "Heading",
+      "props": {
+        "text": "3. Flourish",
+        "level": "h3"
+      }
+    },
+    "d3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI models built on human brain architecture (pre-product)"
+      }
+    },
+    "d3_fund_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d3_amt"
+      ]
+    },
+    "d3_amt": {
+      "type": "Stat",
+      "props": {
+        "label": "Initial Funding",
+        "value": "$500M"
+      }
+    },
+    "d3_investors_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d3_inv_lbl",
+        "d3_inv_b1",
+        "d3_inv_b2",
+        "d3_inv_b3"
+      ]
+    },
+    "d3_inv_lbl": {
+      "type": "Text",
+      "props": {
+        "text": "Lead/Co-investors:",
+        "variant": "muted"
+      }
+    },
+    "d3_inv_b1": {
+      "type": "Badge",
+      "props": {
+        "text": "Bezos"
+      }
+    },
+    "d3_inv_b2": {
+      "type": "Badge",
+      "props": {
+        "text": "Lux Capital"
+      }
+    },
+    "d3_inv_b3": {
+      "type": "Badge",
+      "props": {
+        "text": "Google Ventures"
+      }
+    },
+    "d3_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: $500M pre-product into brain-architecture AI; Bezos + GV funding a transformer-ceiling insurance policy alongside frontier lab exposure."
+      }
+    },
+    "sep_d3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d4_head",
+        "d4_desc",
+        "d4_fund_stack",
+        "d4_lead_stack",
+        "d4_why"
+      ]
+    },
+    "d4_head": {
+      "type": "Heading",
+      "props": {
+        "text": "4. NewLimit",
+        "level": "h3"
+      }
+    },
+    "d4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "epigenetic reprogramming medicines restoring youthful cell function"
+      }
+    },
+    "d4_fund_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d4_amt"
+      ]
+    },
+    "d4_amt": {
+      "type": "Stat",
+      "props": {
+        "label": "Series C Funding",
+        "value": "$435M"
+      }
+    },
+    "d4_lead_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d4_lead_lbl",
+        "d4_lead_badge"
+      ]
+    },
+    "d4_lead_lbl": {
+      "type": "Text",
+      "props": {
+        "text": "Lead:",
+        "variant": "muted"
+      }
+    },
+    "d4_lead_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Founders Fund"
+      }
+    },
+    "d4_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Founders Fund escalates longevity thesis from blood transfusion (prior bet) to cellular reprogramming — structurally long aging is reversible."
+      }
+    },
+    "sep_d4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d5_head",
+        "d5_desc",
+        "d5_fund_stack",
+        "d5_lead_stack",
+        "d5_why"
+      ]
+    },
+    "d5_head": {
+      "type": "Heading",
+      "props": {
+        "text": "5. Generalist AI",
+        "level": "h3"
+      }
+    },
+    "d5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "generalist AI policy enabling robots to perform complex tasks"
+      }
+    },
+    "d5_fund_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d5_amt",
+        "d5_val"
+      ]
+    },
+    "d5_amt": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$400M"
+      }
+    },
+    "d5_val": {
+      "type": "Stat",
+      "props": {
+        "label": "Post-Money Valuation",
+        "value": "$2B"
+      }
+    },
+    "d5_lead_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d5_lead_lbl",
+        "d5_lead_badge"
+      ]
+    },
+    "d5_lead_lbl": {
+      "type": "Text",
+      "props": {
+        "text": "Lead:",
+        "variant": "muted"
+      }
+    },
+    "d5_lead_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Radical Ventures"
+      }
+    },
+    "d5_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: $2B sub-prices generalist robotics AI vs Figure AI's $2.6B Series B in 2024; catch-up capital entering the embodied-AI stack below premium."
+      }
+    },
+    "sep_d5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d6_head",
+        "d6_desc",
+        "d6_fund_stack",
+        "d6_lead_stack",
+        "d6_why"
+      ]
+    },
+    "d6_head": {
+      "type": "Heading",
+      "props": {
+        "text": "6. Suno",
+        "level": "h3"
+      }
+    },
+    "d6_desc": {
+      "type": "Text",
+      "props": {
+        "text": "text-to-music AI platform at consumer and enterprise scale"
+      }
+    },
+    "d6_fund_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d6_amt",
+        "d6_val"
+      ]
+    },
+    "d6_amt": {
+      "type": "Stat",
+      "props": {
+        "label": "Series D Funding",
+        "value": "$400M"
+      }
+    },
+    "d6_val": {
+      "type": "Stat",
+      "props": {
+        "label": "Post-Money Valuation",
+        "value": "$5.4B"
+      }
+    },
+    "d6_lead_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d6_lead_lbl",
+        "d6_lead_badge"
+      ]
+    },
+    "d6_lead_lbl": {
+      "type": "Text",
+      "props": {
+        "text": "Lead:",
+        "variant": "muted"
+      }
+    },
+    "d6_lead_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Bond"
+      }
+    },
+    "d6_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Bond-led $400M signals media conglomerates are now priced out of acqui-hiring AI music — standalone platform bet confirmed."
+      }
+    },
+    "sep_d6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d7_head",
+        "d7_desc",
+        "d7_fund_stack",
+        "d7_lead_stack",
+        "d7_co_stack",
+        "d7_why"
+      ]
+    },
+    "d7_head": {
+      "type": "Heading",
+      "props": {
+        "text": "7. EDGE Markets",
+        "level": "h3"
+      }
+    },
+    "d7_desc": {
+      "type": "Text",
+      "props": {
+        "text": "FDIC-insured crypto banking and debit for betting/gaming users"
+      }
+    },
+    "d7_fund_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d7_amt"
+      ]
+    },
+    "d7_amt": {
+      "type": "Stat",
+      "props": {
+        "label": "Series A Funding",
+        "value": "$29.2M"
+      }
+    },
+    "d7_lead_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d7_lead_lbl",
+        "d7_lead_badge"
+      ]
+    },
+    "d7_lead_lbl": {
+      "type": "Text",
+      "props": {
+        "text": "Lead:",
+        "variant": "muted"
+      }
+    },
+    "d7_lead_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CoinFund"
+      }
+    },
+    "d7_co_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d7_co_lbl",
+        "d7_co_b1",
+        "d7_co_b2",
+        "d7_co_b3"
+      ]
+    },
+    "d7_co_lbl": {
+      "type": "Text",
+      "props": {
+        "text": "Co-investors:",
+        "variant": "muted"
+      }
+    },
+    "d7_co_b1": {
+      "type": "Badge",
+      "props": {
+        "text": "Mantis (Chainsmokers)"
+      }
+    },
+    "d7_co_b2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bullpen"
+      }
+    },
+    "d7_co_b3": {
+      "type": "Badge",
+      "props": {
+        "text": "StepStone"
+      }
+    },
+    "d7_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: First FDIC-insured crypto debit targeting prediction-market users — directly bridges Polymarket liquidity to regulated banking rails."
+      }
+    },
+    "sep_d7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d8_head",
+        "d8_desc",
+        "d8_fund_stack",
+        "d8_lead_stack",
+        "d8_why"
+      ]
+    },
+    "d8_head": {
+      "type": "Heading",
+      "props": {
+        "text": "8. Ramp",
+        "level": "h3"
+      }
+    },
+    "d8_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI-native spend-management platform for businesses"
+      }
+    },
+    "d8_fund_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d8_amt",
+        "d8_val"
+      ]
+    },
+    "d8_amt": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$750M"
+      }
+    },
+    "d8_val": {
+      "type": "Stat",
+      "props": {
+        "label": "Post-Money Valuation",
+        "value": "$44B"
+      }
+    },
+    "d8_lead_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d8_lead_lbl",
+        "d8_lead_b1",
+        "d8_lead_b2",
+        "d8_lead_b3"
+      ]
+    },
+    "d8_lead_lbl": {
+      "type": "Text",
+      "props": {
+        "text": "Lead/Co-investors:",
+        "variant": "muted"
+      }
+    },
+    "d8_lead_b1": {
+      "type": "Badge",
+      "props": {
+        "text": "Iconiq"
+      }
+    },
+    "d8_lead_b2": {
+      "type": "Badge",
+      "props": {
+        "text": "GIC"
+      }
+    },
+    "d8_lead_b3": {
+      "type": "Badge",
+      "props": {
+        "text": "Ontario Teachers"
+      }
+    },
+    "d8_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Ontario Teachers + GIC pension capital co-leading; institutional shift from public-market fintech exits to private-growth fintech as IPO windows narrow."
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_head",
+        "sources_text",
+        "candidates_text"
+      ]
+    },
+    "sources_head": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h4"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "crunchbase=ok, techcrunch=ok, crypto-fundraising.info=ok (partial), aift=partial (cutoff Jun 1)",
+        "variant": "caption"
+      }
+    },
+    "candidates_text": {
+      "type": "Text",
+      "props": {
+        "text": "Candidates evaluated: 28 → kept: 8",
+        "variant": "caption"
+      }
+    }
+  }
+}

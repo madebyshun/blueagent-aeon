@@ -1,33 +1,37 @@
-*Deal Flow — 2026-06-01*
+*Deal Flow — 2026-06-08*
 
-**Read:** Anthropic's $65B is priced-in; the real signal sits one floor below — OpenRouter (routing), Modal (compute), Exa (retrieval) raised $700M+ in a coordinated stack play within 6 days of each other. Agentic payments crossed into regulated finance: Catena Labs filed for a federal bank charter. Capital has decided the model wars are over; who controls the plumbing wins.
+**Read:** Sovereign funds (GIC, Temasek, Ontario Teachers) stepped in where US VC left gaps this week; hardest signal: Supabase's 600% agent-driven DB creation confirms autonomous compute generates its own backend demand.
 
-1. **Anthropic** — frontier AI lab; Claude, enterprise safety
-   $65B Series H @ $965B post (UP >15× vs prior private rounds) | Lead: Sequoia, Altimeter, Dragoneer
-   *Why it matters:* Sequoia re-upping at near-trillion pre-IPO valuation sets the public market floor for frontier AI safety labs.
+1. **Supabase** — open-source backend and database platform for AI app builders
+   $500M Series F @ $10.5B post (UP vs ~$5.2B Series E, 8mo ago) | Lead: GIC; co: Stripe, Salesforce Ventures, Accel
+   *Why it matters:* AI agents now drive majority of Supabase DB deployments — 600% YoY creation is first at-scale proof agentic compute needs dedicated backend infra.
 
-2. **Exa** — AI-native search and retrieval API for LLMs and agents
-   $250M Series C @ $2.2B post (UP 3× vs $700M Series B, Sep 2025) | Lead: a16z
-   *Why it matters:* a16z paying 3× for a retrieval layer confirms real-time data access is the defensible agentic moat, not the model.
+2. **PhysicsX** — AI simulation replacing physical testing for industrial engineering
+   $300M Series C @ $2.4B post (UP from ~$1B Series B) | Lead: Temasek; co: Nvidia, Applied Materials, General Catalyst
+   *Why it matters:* Temasek sovereign capital doubled valuation in under 12 months; sovereign wealth diversifying off US frontier AI megarounds into industrial AI.
 
-3. **Modal Labs** — serverless AI inference cloud with agent sandboxing
-   $355M Series C @ $4.65B post (UP 4× vs $1.1B, Fall 2025) | Lead: Redpoint, General Catalyst
-   *Why it matters:* $60M → $300M ARR in 8 months, driven by AI coding agents — fastest documented infra scaling on record.
+3. **Flourish** — AI models built on human brain architecture (pre-product)
+   $500M initial | Lead: Bezos/Lux Capital/Google Ventures
+   *Why it matters:* $500M pre-product into brain-architecture AI; Bezos + GV funding a transformer-ceiling insurance policy alongside frontier lab exposure.
 
-4. **OpenRouter** — single API routing across 400+ AI models
-   $113M Series B @ $1.3B post (UP 2.4× vs $547M, Jun 2025) | Lead: CapitalG (Google), NVentures (Nvidia)
-   *Why it matters:* Google and Nvidia jointly backing the model-neutral router is a structural admission that incumbent lock-in fails.
+4. **NewLimit** — epigenetic reprogramming medicines restoring youthful cell function
+   $435M Series C @ n/d | Lead: Founders Fund
+   *Why it matters:* Founders Fund escalates longevity thesis from blood transfusion (prior bet) to cellular reprogramming — structurally long aging is reversible.
 
-5. **Cognition (Devin)** — autonomous AI software engineer
-   $1B Series D @ $26B post (UP 2.5× vs $10.2B, Sep 2025) | Lead: Lux Capital, General Catalyst, 8VC
-   *Why it matters:* $492M ARR at a company writing 89% of its own code kills the enterprise AI-agent adoption skeptics.
+5. **Generalist AI** — generalist AI policy enabling robots to perform complex tasks
+   $400M @ $2B post (n/d vs prior) | Lead: Radical Ventures
+   *Why it matters:* $2B sub-prices generalist robotics AI vs Figure AI's $2.6B Series B in 2024; catch-up capital entering the embodied-AI stack below premium.
 
-6. **Corgi** — AI-native insurance platform for startups
-   $106M Series B1 @ $2.6B post (UP 2× vs $1.3B, 21 days ago) | Lead: TCV
-   *Why it matters:* TCV doubled the valuation on a follow-on tranche 3 weeks after Series B — fastest documented UP repricing of 2026.
+6. **Suno** — text-to-music AI platform at consumer and enterprise scale
+   $400M Series D @ $5.4B post (n/d vs prior) | Lead: Bond
+   *Why it matters:* Bond-led $400M signals media conglomerates are now priced out of acqui-hiring AI music — standalone platform bet confirmed.
 
-7. **Catena Labs** — AI-native bank + agentic finance guardrails
-   $30M Series A | Lead: Acrew Capital, a16z crypto
-   *Why it matters:* Filing for a federal OCC bank charter to govern AI agent spending accounts imposes fiduciary rails on autonomous money movement.
+7. **EDGE Markets** — FDIC-insured crypto banking and debit for betting/gaming users
+   $29.2M Series A @ n/d | Lead: CoinFund; co: Mantis (Chainsmokers), Bullpen, StepStone
+   *Why it matters:* First FDIC-insured crypto debit targeting prediction-market users — directly bridges Polymarket liquidity to regulated banking rails.
 
-*Sources:* crunchbase=ok, techcrunch=ok, cryptorank=partial, aift=ok, crypto-fundraising=ok | candidates=25 → kept=7
+8. **Ramp** — AI-native spend-management platform for businesses
+   $750M @ $44B post (n/d vs prior) | Lead: Iconiq/GIC/Ontario Teachers
+   *Why it matters:* Ontario Teachers + GIC pension capital co-leading; institutional shift from public-market fintech exits to private-growth fintech as IPO windows narrow.
+
+*Sources:* crunchbase=ok, techcrunch=ok, crypto-fundraising.info=ok (partial), aift=partial (cutoff Jun 1) | candidates=28 → kept=8
