@@ -1,0 +1,1107 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-06-08"
+      },
+      "children": [
+        "heading_transitions",
+        "stack_transitions",
+        "sep1",
+        "heading_reflexivity",
+        "stack_reflexivity",
+        "sep2",
+        "heading_positions",
+        "stack_positions",
+        "sep3",
+        "heading_map",
+        "stack_map"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "stack_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans_base_promoted",
+        "trans_agent_payments_promoted",
+        "trans_tradfi_demoted",
+        "trans_privacy_new"
+      ]
+    },
+    "trans_base_promoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_trans_promoted_1",
+        "text_trans_base_1"
+      ]
+    },
+    "badge_trans_promoted_1": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_base_1": {
+      "type": "Text",
+      "props": {
+        "text": "Base Ecosystem Rising→ Rising↑ — JPM Coin deployed on Base (Jun 6, first major enterprise L2 deployment) + Chainalysis confirms 100M agentic payment txns on Base (Jun 3). Two concrete catalysts in 4 days. Mindshare 3→4."
+      }
+    },
+    "trans_agent_payments_promoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_trans_promoted_2",
+        "text_trans_agent_payments"
+      ]
+    },
+    "badge_trans_promoted_2": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_agent_payments": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments Watch→RIDE — Chainalysis \"100M agentic txns on Base\" (Jun 3) is the first real usage milestone. Velocity ↓→→. Story now has a number."
+      }
+    },
+    "trans_tradfi_demoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_trans_demoted",
+        "text_trans_tradfi"
+      ]
+    },
+    "badge_trans_demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "text_trans_tradfi": {
+      "type": "Text",
+      "props": {
+        "text": "TradFi AI Capital Rotation New→Fading — broad risk-on recovery Jun 8 (BTC +3.5%, ETH +4.2%, 72/100 coins green) undermines the \"capital fleeing to TradFi AI\" thesis. Was new Jun 4, fading fast."
+      }
+    },
+    "trans_privacy_new": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_trans_new",
+        "text_trans_privacy"
+      ]
+    },
+    "badge_trans_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "outline"
+      }
+    },
+    "text_trans_privacy": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZK — ZEC trending back-to-back (Jun 6: +17.1%, Jun 8: still top-7 trending). No prior log entry. Emerging with sustained velocity."
+      }
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "stack_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_base",
+        "alert_attention"
+      ]
+    },
+    "alert_base": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_base_refl",
+        "text_base_refl"
+      ]
+    },
+    "heading_base_refl": {
+      "type": "Heading",
+      "props": {
+        "text": "Base Ecosystem",
+        "level": "h4"
+      }
+    },
+    "text_base_refl": {
+      "type": "Text",
+      "props": {
+        "text": "JPM Coin deployment validates \"institutions choose Base\" thesis, drawing more institutional research to Base → self-reinforcing inflow signal."
+      }
+    },
+    "alert_attention": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_attention_refl",
+        "text_attention_refl"
+      ]
+    },
+    "heading_attention_refl": {
+      "type": "Heading",
+      "props": {
+        "text": "Attention Markets / InfoFi",
+        "level": "h4"
+      }
+    },
+    "text_attention_refl": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito updated its algorithm after community backlash (anti-spam filters, participation thresholds). Platform correcting its own reflexivity problem. Durability signal, not fragility."
+      }
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "stack_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "pos_kai",
+        "pos_agent_payments",
+        "pos_hyperliquid",
+        "pos_base",
+        "pos_ai_infra",
+        "pos_stablecoins",
+        "pos_rwa",
+        "pos_privacy_zk",
+        "pos_prediction_markets",
+        "pos_tradfi_ai"
+      ]
+    },
+    "pos_kai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_kai_header",
+        "pos_kai_projects",
+        "pos_kai_bull",
+        "pos_kai_bear"
+      ]
+    },
+    "pos_kai_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_kai_status",
+        "heading_kai_name",
+        "stat_kai_mindshare"
+      ]
+    },
+    "badge_kai_status": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "heading_kai_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Attention Markets / InfoFi",
+        "level": "h3"
+      }
+    },
+    "stat_kai_mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "3",
+        "trend": "up"
+      }
+    },
+    "pos_kai_projects": {
+      "type": "Text",
+      "props": {
+        "text": "@KaitoAI + @Polymarket + Polygon + Solana (Wallchain) + Katana all deploying",
+        "variant": "caption"
+      }
+    },
+    "pos_kai_bull": {
+      "type": "Text",
+      "props": {
+        "text": "Bull: Cross-chain expansion = multiple narratives reinforcing one",
+        "variant": "lead"
+      }
+    },
+    "pos_kai_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: algorithm credibility crisis if anti-spam fails",
+        "variant": "muted"
+      }
+    },
+    "pos_agent_payments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_agent_header",
+        "pos_agent_projects",
+        "pos_agent_bull",
+        "pos_agent_bear"
+      ]
+    },
+    "pos_agent_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_agent_status",
+        "heading_agent_name",
+        "stat_agent_mindshare"
+      ]
+    },
+    "badge_agent_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "heading_agent_name": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agent Payments",
+        "level": "h3"
+      }
+    },
+    "stat_agent_mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "4",
+        "trend": "neutral"
+      }
+    },
+    "pos_agent_projects": {
+      "type": "Text",
+      "props": {
+        "text": "@AWS, @coinbase, x402",
+        "variant": "caption"
+      }
+    },
+    "pos_agent_bull": {
+      "type": "Text",
+      "props": {
+        "text": "Bull: 100M txns milestone validates",
+        "variant": "lead"
+      }
+    },
+    "pos_agent_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: on-chain AI payments still fraction of total txn volume",
+        "variant": "muted"
+      }
+    },
+    "pos_hyperliquid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_hyper_header",
+        "pos_hyper_projects",
+        "pos_hyper_bull",
+        "pos_hyper_bear"
+      ]
+    },
+    "pos_hyper_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_hyper_status",
+        "heading_hyper_name",
+        "stat_hyper_mindshare"
+      ]
+    },
+    "badge_hyper_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "heading_hyper_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Hyperliquid / Perp DEXs",
+        "level": "h3"
+      }
+    },
+    "stat_hyper_mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "5",
+        "trend": "up"
+      }
+    },
+    "pos_hyper_projects": {
+      "type": "Text",
+      "props": {
+        "text": "@HyperliquidX, Lighter (LIT) adding RWA perps (DELL/IBM collateral). HYPE global top-10",
+        "variant": "caption"
+      }
+    },
+    "pos_hyper_bull": {
+      "type": "Text",
+      "props": {
+        "text": "Bull: RWA perp expansion narrative",
+        "variant": "lead"
+      }
+    },
+    "pos_hyper_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: liquidation cascade reflexivity",
+        "variant": "muted"
+      }
+    },
+    "pos_base": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_base_header",
+        "pos_base_projects",
+        "pos_base_bull",
+        "pos_base_bear"
+      ]
+    },
+    "pos_base_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_base_status",
+        "heading_base_name",
+        "stat_base_mindshare"
+      ]
+    },
+    "badge_base_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "heading_base_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Base Ecosystem",
+        "level": "h3"
+      }
+    },
+    "stat_base_mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "4",
+        "trend": "up"
+      }
+    },
+    "pos_base_projects": {
+      "type": "Text",
+      "props": {
+        "text": "@jessepollak, JPMorgan, @coinbase",
+        "variant": "caption"
+      }
+    },
+    "pos_base_bull": {
+      "type": "Text",
+      "props": {
+        "text": "Bull: Enterprise adoption momentum",
+        "variant": "lead"
+      }
+    },
+    "pos_base_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: single-chain concentration; Coinbase regulatory exposure",
+        "variant": "muted"
+      }
+    },
+    "pos_ai_infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ai_infra_header",
+        "pos_ai_infra_projects",
+        "pos_ai_infra_bull",
+        "pos_ai_infra_bear"
+      ]
+    },
+    "pos_ai_infra_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_ai_infra_status",
+        "heading_ai_infra_name",
+        "stat_ai_infra_mindshare"
+      ]
+    },
+    "badge_ai_infra_status": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "heading_ai_infra_name": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Crypto Infrastructure",
+        "level": "h3"
+      }
+    },
+    "stat_ai_infra_mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "4",
+        "trend": "neutral"
+      }
+    },
+    "pos_ai_infra_projects": {
+      "type": "Text",
+      "props": {
+        "text": "@bittensor, @NEARProtocol, @virtuals_io",
+        "variant": "caption"
+      }
+    },
+    "pos_ai_infra_bull": {
+      "type": "Text",
+      "props": {
+        "text": "Bull: Infrastructure capital rotation signal with TradFi AI headwind easing",
+        "variant": "lead"
+      }
+    },
+    "pos_ai_infra_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: TradFi AI still capturing AI adoption without on-chain rails",
+        "variant": "muted"
+      }
+    },
+    "pos_stablecoins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_stable_header",
+        "pos_stable_metric",
+        "pos_stable_bull",
+        "pos_stable_bear"
+      ]
+    },
+    "pos_stable_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_stable_status",
+        "heading_stable_name",
+        "stat_stable_mindshare"
+      ]
+    },
+    "badge_stable_status": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "heading_stable_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Stablecoins as Infrastructure",
+        "level": "h3"
+      }
+    },
+    "stat_stable_mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "5",
+        "trend": "neutral"
+      }
+    },
+    "pos_stable_metric": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$311B"
+      }
+    },
+    "pos_stable_bull": {
+      "type": "Text",
+      "props": {
+        "text": "Bull: H2 2026 lead macro narrative",
+        "variant": "lead"
+      }
+    },
+    "pos_stable_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: GENIUS Act bank-favor risk",
+        "variant": "muted"
+      }
+    },
+    "pos_rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_rwa_header",
+        "pos_rwa_metric",
+        "pos_rwa_bull",
+        "pos_rwa_bear"
+      ]
+    },
+    "pos_rwa_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_rwa_status",
+        "heading_rwa_name",
+        "stat_rwa_mindshare"
+      ]
+    },
+    "badge_rwa_status": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "heading_rwa_name": {
+      "type": "Heading",
+      "props": {
+        "text": "RWA Tokenization",
+        "level": "h3"
+      }
+    },
+    "stat_rwa_mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "5",
+        "trend": "neutral"
+      }
+    },
+    "pos_rwa_metric": {
+      "type": "Stat",
+      "props": {
+        "label": "Tokenized Assets",
+        "value": "$29.2B"
+      }
+    },
+    "pos_rwa_bull": {
+      "type": "Text",
+      "props": {
+        "text": "Bull: JPM on Base keeps it alive",
+        "variant": "lead"
+      }
+    },
+    "pos_rwa_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: integration phase = no re-rating catalyst",
+        "variant": "muted"
+      }
+    },
+    "pos_privacy_zk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_privacy_header",
+        "pos_privacy_note"
+      ]
+    },
+    "pos_privacy_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_privacy_status",
+        "heading_privacy_name",
+        "stat_privacy_mindshare"
+      ]
+    },
+    "badge_privacy_status": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "heading_privacy_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Privacy/ZK",
+        "level": "h3"
+      }
+    },
+    "stat_privacy_mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "2",
+        "trend": "up"
+      }
+    },
+    "pos_privacy_note": {
+      "type": "Text",
+      "props": {
+        "text": "Too early for position",
+        "variant": "caption"
+      }
+    },
+    "pos_prediction_markets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_pred_header",
+        "pos_pred_narrative"
+      ]
+    },
+    "pos_pred_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_pred_status",
+        "heading_pred_name",
+        "stat_pred_mindshare"
+      ]
+    },
+    "badge_pred_status": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "heading_pred_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Prediction Markets",
+        "level": "h3"
+      }
+    },
+    "stat_pred_mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "3",
+        "trend": "down"
+      }
+    },
+    "pos_pred_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "DEATH BETS Act ceiling confirmed; pure prediction markets fading even as Attention Markets sub-narrative survives",
+        "variant": "muted"
+      }
+    },
+    "pos_tradfi_ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_tradfi_header",
+        "pos_tradfi_narrative"
+      ]
+    },
+    "pos_tradfi_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_tradfi_status",
+        "heading_tradfi_name",
+        "stat_tradfi_mindshare"
+      ]
+    },
+    "badge_tradfi_status": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "heading_tradfi_name": {
+      "type": "Heading",
+      "props": {
+        "text": "TradFi AI Capital Rotation",
+        "level": "h3"
+      }
+    },
+    "stat_tradfi_mindshare": {
+      "type": "Stat",
+      "props": {
+        "label": "Mindshare",
+        "value": "2",
+        "trend": "down"
+      }
+    },
+    "pos_tradfi_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "Risk-on recovery erases thesis",
+        "variant": "muted"
+      }
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "stack_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_map_emerging",
+        "badges_map_emerging"
+      ]
+    },
+    "heading_map_emerging": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      }
+    },
+    "badges_map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_privacy_zk_map",
+        "badge_ai_agent_sec_map"
+      ]
+    },
+    "badge_privacy_zk_map": {
+      "type": "Badge",
+      "props": {
+        "text": "Privacy/ZK",
+        "variant": "outline"
+      }
+    },
+    "badge_ai_agent_sec_map": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Security",
+        "variant": "outline"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_map_rising",
+        "badges_map_rising"
+      ]
+    },
+    "heading_map_rising": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      }
+    },
+    "badges_map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_agent_pay_map",
+        "badge_hyperliq_map",
+        "badge_base_eco_map",
+        "badge_ai_crypto_map",
+        "badge_attention_map"
+      ]
+    },
+    "badge_agent_pay_map": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Payments",
+        "variant": "secondary"
+      }
+    },
+    "badge_hyperliq_map": {
+      "type": "Badge",
+      "props": {
+        "text": "Hyperliquid/Perp DEXs",
+        "variant": "secondary"
+      }
+    },
+    "badge_base_eco_map": {
+      "type": "Badge",
+      "props": {
+        "text": "Base Ecosystem",
+        "variant": "secondary"
+      }
+    },
+    "badge_ai_crypto_map": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Crypto Infrastructure",
+        "variant": "secondary"
+      }
+    },
+    "badge_attention_map": {
+      "type": "Badge",
+      "props": {
+        "text": "Attention Markets/InfoFi",
+        "variant": "secondary"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_map_peak",
+        "badges_map_peak"
+      ]
+    },
+    "heading_map_peak": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      }
+    },
+    "badges_map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_rwa_map",
+        "badge_stable_map"
+      ]
+    },
+    "badge_rwa_map": {
+      "type": "Badge",
+      "props": {
+        "text": "RWA Tokenization",
+        "variant": "default"
+      }
+    },
+    "badge_stable_map": {
+      "type": "Badge",
+      "props": {
+        "text": "Stablecoins as Infrastructure",
+        "variant": "default"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_map_fading",
+        "badges_map_fading"
+      ]
+    },
+    "heading_map_fading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      }
+    },
+    "badges_map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pred_map",
+        "badge_tradfi_map",
+        "badge_btc_dom_map"
+      ]
+    },
+    "badge_pred_map": {
+      "type": "Badge",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "destructive"
+      }
+    },
+    "badge_tradfi_map": {
+      "type": "Badge",
+      "props": {
+        "text": "TradFi AI Capital Rotation",
+        "variant": "destructive"
+      }
+    },
+    "badge_btc_dom_map": {
+      "type": "Badge",
+      "props": {
+        "text": "Bitcoin Dominance",
+        "variant": "destructive"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    }
+  }
+}
