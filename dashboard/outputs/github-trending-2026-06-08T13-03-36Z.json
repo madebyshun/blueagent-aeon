@@ -1,0 +1,546 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-08"
+      },
+      "children": [
+        "top-pick-section",
+        "separator-1",
+        "ai-ml-section",
+        "separator-2",
+        "devtools-section",
+        "separator-3",
+        "web-apps-section",
+        "separator-4",
+        "footer"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-heading",
+        "turbovec-top-link",
+        "turbovec-top-desc"
+      ]
+    },
+    "top-pick-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "turbovec-top-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "RyanCodrai/turbovec",
+        "href": "https://github.com/RyanCodrai/turbovec",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "turbovec-top-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Novel quantized vector index with Python bindings — 1.7k★ on its first trending day signals a real gap in the embedding stack being filled.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "ai-ml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-heading",
+        "ai-ml-item-1",
+        "ai-ml-item-2",
+        "ai-ml-item-3",
+        "ai-ml-item-4"
+      ]
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "ai-ml-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-1-header",
+        "ai-ml-1-desc"
+      ]
+    },
+    "ai-ml-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-1-link",
+        "ai-ml-1-stars",
+        "ai-ml-1-lang",
+        "ai-ml-1-badge"
+      ]
+    },
+    "ai-ml-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mvanhorn/last30days-skill",
+        "href": "https://github.com/mvanhorn/last30days-skill",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "ai-ml-1-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "3,558 today",
+        "delta": "+33.1k total"
+      },
+      "children": []
+    },
+    "ai-ml-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "ai-ml-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "ai-ml-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Five-source research aggregator (Reddit, X, YouTube, HN, Polymarket) — 3.5k stars today suggests a major update or HN post hit.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ai-ml-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-2-header",
+        "ai-ml-2-desc"
+      ]
+    },
+    "ai-ml-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-2-link",
+        "ai-ml-2-stars",
+        "ai-ml-2-lang",
+        "ai-ml-2-badge"
+      ]
+    },
+    "ai-ml-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Panniantong/Agent-Reach",
+        "href": "https://github.com/Panniantong/Agent-Reach",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "ai-ml-2-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "961 today",
+        "delta": "+23.6k total"
+      },
+      "children": []
+    },
+    "ai-ml-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "ai-ml-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "ai-ml-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Search layer for agents across Twitter, Reddit, YouTube, GitHub, and Bilibili — still pulling strong 3 days after its debut.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ai-ml-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-3-header",
+        "ai-ml-3-desc"
+      ]
+    },
+    "ai-ml-3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-3-link",
+        "ai-ml-3-stars",
+        "ai-ml-3-lang",
+        "ai-ml-3-badge"
+      ]
+    },
+    "ai-ml-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "roboflow/supervision",
+        "href": "https://github.com/roboflow/supervision",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "ai-ml-3-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "957 today",
+        "delta": "+42k total"
+      },
+      "children": []
+    },
+    "ai-ml-3-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "ai-ml-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "ai-ml-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Established 2022 CV toolkit spiking again — 957★ today on a years-old repo means something significant just dropped.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ai-ml-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-4-header",
+        "ai-ml-4-desc"
+      ]
+    },
+    "ai-ml-4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-4-link",
+        "ai-ml-4-stars",
+        "ai-ml-4-lang",
+        "ai-ml-4-badge"
+      ]
+    },
+    "ai-ml-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aaif-goose/goose",
+        "href": "https://github.com/aaif-goose/goose",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "ai-ml-4-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "699 today",
+        "delta": "+47.9k total"
+      },
+      "children": []
+    },
+    "ai-ml-4-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "ai-ml-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "ai-ml-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rust-native AI agent with self-install and test loops — at 47.9k stars it's becoming a serious competitor to Python agent frameworks.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-item-1"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "devtools-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-header",
+        "devtools-1-desc"
+      ]
+    },
+    "devtools-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-link",
+        "devtools-1-stars",
+        "devtools-1-lang",
+        "devtools-1-badge"
+      ]
+    },
+    "devtools-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "RyanCodrai/turbovec",
+        "href": "https://github.com/RyanCodrai/turbovec",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "devtools-1-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "1,730 today",
+        "delta": "+8k total"
+      },
+      "children": []
+    },
+    "devtools-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "devtools-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "devtools-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Quantization-first vector search in a Python package — high-speed similarity search without a dedicated vector DB service.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "web-apps-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web-apps-heading",
+        "web-apps-item-1"
+      ]
+    },
+    "web-apps-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "web-apps-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "web-apps-1-header",
+        "web-apps-1-desc"
+      ]
+    },
+    "web-apps-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "web-apps-1-link",
+        "web-apps-1-stars",
+        "web-apps-1-lang",
+        "web-apps-1-badge"
+      ]
+    },
+    "web-apps-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "refactoringhq/tolaria",
+        "href": "https://github.com/refactoringhq/tolaria",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "web-apps-1-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "649 today",
+        "delta": "+13.3k total"
+      },
+      "children": []
+    },
+    "web-apps-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "web-apps-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "web-apps-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Desktop-native Markdown knowledge base manager — 13k stars in 4 months, gaining fast as a dev-focused Obsidian alternative.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/16",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
