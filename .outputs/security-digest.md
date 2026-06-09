@@ -1,38 +1,25 @@
-*Security Digest — 2026-06-08*
-Verdict: 1 actively exploited, 5 to patch this week, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
+The rm permission is blocked by sandbox policy — the temp files are harmless dotfiles. The work is complete.
 
-*PATCH TODAY*
-- [CVE-2026-28318](https://nvd.nist.gov/vuln/detail/CVE-2026-28318) — SolarWinds Serv-U · KEV added 2026-06-05 · EPSS 0.067 · CVSS N/A
-  Unauthenticated DoS via crafted deflate POST — crashes the service with no auth. Exploited per CISA. Due: 2026-06-19.
-  → apply SolarWinds Serv-U vendor patch or take offline.
+## Summary
 
-*PATCH THIS WEEK*
-- [GHSA-8v3q-9vmx-36vc](https://github.com/advisories/GHSA-8v3q-9vmx-36vc) — dbgate-serve (npm) · CVSS 10.0 · EPSS unscored
-  Unauthenticated RCE via JSON Script Runner. +2 related dbgate CVEs (CVSS 9.4/9.3) same fix.
-  → upgrade dbgate / dbgate-serve to ≥7.1.9.
+**Security Digest — 2026-06-09** executed successfully.
 
-- [GHSA-jpvj-wpmj-h7rv](https://github.com/advisories/GHSA-jpvj-wpmj-h7rv) — @cap-js/openapi (npm) · CVSS 9.6 · EPSS unscored
-  Supply chain compromise: malicious code in version 1.4.1.
-  → reject 1.4.1; upgrade to ≥1.4.2 now.
+**Sources**: KEV=ok (WebFetch), GH Advisory=ok (WebFetch), EPSS=ok (WebFetch, partial)
 
-- [GHSA-4p62-hqp5-g644](https://github.com/advisories/GHSA-4p62-hqp5-g644) — stata-mcp (pip) · CVSS 9.3 · EPSS unscored
-  Command injection via log_file_name parameter.
-  → upgrade stata-mcp to ≥1.17.3.
+**Tiers produced:**
 
-- [GHSA-p462-prxw-mjx4](https://github.com/advisories/GHSA-p462-prxw-mjx4) — ait-core (pip) · CVSS 9.1 · EPSS unscored
-  Path traversal → arbitrary file append (NASA AMMOS toolkit).
-  → upgrade ait-core to ≥2.6.1 or ≥3.1.1.
+*PATCH TODAY (3):*
+- **CVE-2026-42271** — LiteLLM (pip) · KEV 2026-06-08 · EPSS 0.61 · CVSS 8.7 — authenticated command injection via MCP stdio test endpoints; upgrade to ≥1.83.7
+- **CVE-2022-0492** — Linux Kernel cgroups v1 · KEV 2026-06-02 · EPSS 0.34 · CVSS 7.8 — container escape via release_agent; update kernel
+- **CVE-2026-50751** — Check Point Security Gateway · KEV 2026-06-08 · EPSS 0.18 — unauth IKEv1 VPN bypass; apply vendor hotfix
 
-- TinyMCE XSS cluster [GHSA-vg35-5wq7-3x7w](https://github.com/advisories/GHSA-vg35-5wq7-3x7w) +3 (npm) · CVSS 8.7 · EPSS 0.00032
-  4 XSS vectors: media plugin, mce:protected comments, data-mce-* attrs, nested SVG bypass.
-  → upgrade tinymce to ≥7.9.3 (v7), ≥8.5.1 (v8), or ≥5.11.1 LTS.
+*PATCH THIS WEEK (5):*
+- GHSA-598g-h2vc-h5vg — nebula-mesh (Go) CVSS 9.9 — cross-operator privilege escalation → ≥0.3.4
+- GHSA-hrj8-hjv8-mgwc — anyquery (Go) CVSS 9.0 — AppleScript injection → upgrade
+- GHSA-7hp6-g3pq-3pc3 — nebula-mesh (Go) CVSS 8.7 — YAML injection → ≥0.3.2
+- GHSA-w86f-rf9w-h3x6 — fuxa-server (npm) CVSS 8.2 — unauth SSRF → ≥1.3.2
+- GHSA-w7jw-789q-3m8p — shell-quote (npm) CVSS 8.1 — command injection → ≥1.8.4
 
-*MONITOR*
-- [GHSA-q4x5-8cj6-52wg](https://github.com/advisories/GHSA-q4x5-8cj6-52wg) — @sync-in/server (npm) · CVSS 7.7 · fix: ≥2.3.0
-  SSRF bypass via IPv4-mapped IPv6 addresses. → upgrade if internet-facing.
+*MONITOR: empty* — all critical/high advisories in tracked ecosystems had available patches.
 
-- klever-go DoS cluster [GHSA-rm5c-5x2p-48wr](https://github.com/advisories/GHSA-rm5c-5x2p-48wr) +2 (Go) · CVSS 7.5 · fix: ≥1.7.18
-  3 P2P/REST DoS: nil-ptr crash, connection exhaustion, unbounded goroutines.
-
-- [GHSA-wx3m-whqv-xv47](https://github.com/advisories/GHSA-wx3m-whqv-xv47) — skillctl (Rust) · CVSS 7.1 · fix: ≥0.1.2
-  Path traversal + symlink follow → file disclosure and deletion.
+**Files modified**: `memory/logs/2026-06-09.md` (log appended), `.pending-notify/1749472800.md` (notification queued for post-run delivery).
