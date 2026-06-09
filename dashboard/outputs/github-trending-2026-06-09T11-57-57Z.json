@@ -1,0 +1,448 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-06-09"
+      },
+      "children": [
+        "top_pick_section",
+        "sep1",
+        "ai_ml_section",
+        "sep2",
+        "devtools_section",
+        "sep3",
+        "infra_section",
+        "sep4",
+        "web_apps_section",
+        "sep5",
+        "sources_info"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_heading",
+        "top_pick_item"
+      ]
+    },
+    "top_pick_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "top_pick_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top_pick_link",
+        "top_pick_desc"
+      ]
+    },
+    "top_pick_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "francescopace/espectre",
+        "href": "https://github.com/francescopace/espectre",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "top_pick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Camera-free motion detection via Wi-Fi CSI is a genuinely novel approach most devs haven't seen — and the Home Assistant integration makes it deployable today without new hardware.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "ai_ml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai_ml_heading",
+        "ai_ml_item_1"
+      ]
+    },
+    "ai_ml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "ai_ml_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_link_1",
+        "ai_ml_desc_1",
+        "ai_ml_meta_1"
+      ]
+    },
+    "ai_ml_link_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "maziyarpanahi/openmed",
+        "href": "https://github.com/maziyarpanahi/openmed",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "ai_ml_desc_1": {
+      "type": "Text",
+      "props": {
+        "text": "On-device LLM stack for healthcare — DeepSeek/Qwen via MLX on Apple silicon, PII detection built in, no cloud, no patient data leaving the device.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ai_ml_meta_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_stars_1",
+        "ai_ml_lang_1",
+        "ai_ml_status_1"
+      ]
+    },
+    "ai_ml_stars_1": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "165/1.6k"
+      },
+      "children": []
+    },
+    "ai_ml_lang_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      },
+      "children": []
+    },
+    "ai_ml_status_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "devtools_item_1"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "devtools_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_link_1",
+        "devtools_desc_1",
+        "devtools_meta_1"
+      ]
+    },
+    "devtools_link_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Andyyyy64/whichllm",
+        "href": "https://github.com/Andyyyy64/whichllm",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "devtools_desc_1": {
+      "type": "Text",
+      "props": {
+        "text": "One command benchmarks which local LLMs actually run on your hardware — sorted by recency-weighted performance, not parameter count or marketing.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "devtools_meta_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_stars_1",
+        "devtools_lang_1",
+        "devtools_status_1"
+      ]
+    },
+    "devtools_stars_1": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "143/3.8k"
+      },
+      "children": []
+    },
+    "devtools_lang_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      },
+      "children": []
+    },
+    "devtools_status_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "infra_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra_heading",
+        "infra_item_1"
+      ]
+    },
+    "infra_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "infra_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_link_1",
+        "infra_desc_1",
+        "infra_meta_1"
+      ]
+    },
+    "infra_link_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "francescopace/espectre",
+        "href": "https://github.com/francescopace/espectre",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "infra_desc_1": {
+      "type": "Text",
+      "props": {
+        "text": "Detects motion by analyzing Wi-Fi channel state info — no camera, no PIR sensor, works through walls, hooks natively into Home Assistant.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "infra_meta_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_stars_1",
+        "infra_lang_1",
+        "infra_status_1"
+      ]
+    },
+    "infra_stars_1": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "112/8k"
+      },
+      "children": []
+    },
+    "infra_lang_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      },
+      "children": []
+    },
+    "infra_status_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "web_apps_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web_apps_heading",
+        "web_apps_item_1"
+      ]
+    },
+    "web_apps_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "web_apps_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "web_apps_link_1",
+        "web_apps_desc_1",
+        "web_apps_meta_1"
+      ]
+    },
+    "web_apps_link_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "yikart/AiToEarn",
+        "href": "https://github.com/yikart/AiToEarn",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "web_apps_desc_1": {
+      "type": "Text",
+      "props": {
+        "text": "Electron app for batch-publishing across Douyin, Xiaohongshu, and Kuaishou — one dashboard for the entire Chinese short-video distribution stack.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "web_apps_meta_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "web_apps_stars_1",
+        "web_apps_lang_1",
+        "web_apps_status_1"
+      ]
+    },
+    "web_apps_stars_1": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "786/20k"
+      },
+      "children": []
+    },
+    "web_apps_lang_1": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      },
+      "children": []
+    },
+    "web_apps_status_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources_info": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/16",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
