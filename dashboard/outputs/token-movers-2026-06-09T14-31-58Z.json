@@ -1,0 +1,421 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-06-09",
+        "description": "Hard risk-off — 9/72 filtered large-caps green, median −2.0% for top 50; yesterday's recovery fully reversed."
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "winners_section",
+        "sep_1",
+        "losers_section",
+        "sep_2",
+        "trending_section",
+        "sep_3",
+        "notable_section"
+      ]
+    },
+    "winners_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners_heading",
+        "table_winners"
+      ]
+    },
+    "winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table_winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Name",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Vol / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "KTA (Keeta)",
+            "$0.2072",
+            "+33.4%",
+            "+25.8%",
+            "−3.5%",
+            "$8.3M / #237",
+            "TRENDING+UP, BREAKOUT, PUMP-RISK"
+          ],
+          [
+            "VELVET (Velvet)",
+            "$0.4524",
+            "+25.2%",
+            "+391%",
+            "+6.7%",
+            "$45.0M / #179",
+            "TRENDING+UP, BREAKOUT"
+          ],
+          [
+            "GWEI (ETHGas)",
+            "$0.1738",
+            "+19.6%",
+            "+73.3%",
+            "−0.7%",
+            "$13.3M / #123",
+            "BREAKOUT"
+          ],
+          [
+            "WLD (Worldcoin)",
+            "$0.5297",
+            "+13.0%",
+            "+26.2%",
+            "+0.5%",
+            "$940M / #44",
+            "TRENDING+UP"
+          ],
+          [
+            "BEAT (Audiera)",
+            "$4.620",
+            "+11.1%",
+            "+317%",
+            "+5.9%",
+            "$54.6M / #57",
+            ""
+          ],
+          [
+            "RUNE (THORChain)",
+            "$0.3721",
+            "+6.9%",
+            "−8.0%",
+            "−2.8%",
+            "$10.6M / #229",
+            ""
+          ],
+          [
+            "BTW (Bitway)",
+            "$0.0645",
+            "+6.3%",
+            "+422%",
+            "+1.4%",
+            "$26.3M / #214",
+            ""
+          ],
+          [
+            "ZEC (Zcash)",
+            "$461.3",
+            "+6.2%",
+            "−19.7%",
+            "−0.6%",
+            "$932M / #15",
+            "TRENDING+UP, MAJOR"
+          ],
+          [
+            "CHZ (Chiliz)",
+            "$0.0264",
+            "+5.0%",
+            "−25.7%",
+            "−5.3%",
+            "$111M / #137",
+            ""
+          ],
+          [
+            "CC (Canton)",
+            "$0.1651",
+            "+4.6%",
+            "+6.4%",
+            "−1.3%",
+            "$25.2M / #17",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep_1": {
+      "type": "Separator"
+    },
+    "losers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers_heading",
+        "table_losers"
+      ]
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table_losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Name",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Vol / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "H (Humanity)",
+            "$0.2027",
+            "−70.0%",
+            "−70.4%",
+            "+0.4%",
+            "$454M / #125",
+            "TRENDING+DOWN, CAPITULATION"
+          ],
+          [
+            "LAB",
+            "$10.12",
+            "−21.8%",
+            "−51.6%",
+            "−2.9%",
+            "$28.0M / #30",
+            ""
+          ],
+          [
+            "SKYAI (SkyAI)",
+            "$0.2030",
+            "−14.8%",
+            "+36.1%",
+            "−2.2%",
+            "$45.1M / #174",
+            ""
+          ],
+          [
+            "VVV (Venice Token)",
+            "$15.75",
+            "−12.9%",
+            "−12.6%",
+            "−0.5%",
+            "$64.8M / #83",
+            ""
+          ],
+          [
+            "EDGE (edgeX)",
+            "$0.4102",
+            "−8.7%",
+            "−35.6%",
+            "−3.6%",
+            "$15.8M / #212",
+            ""
+          ],
+          [
+            "DYDX (dYdX)",
+            "$0.1309",
+            "−8.4%",
+            "−24.5%",
+            "−1.3%",
+            "$6.1M / #249",
+            ""
+          ],
+          [
+            "MON (Monad)",
+            "$0.02053",
+            "−8.0%",
+            "−4.6%",
+            "−1.0%",
+            "$63.0M / #149",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "$59.92",
+            "−7.6%",
+            "−18.6%",
+            "−3.1%",
+            "$849M / #10",
+            "TRENDING+DOWN, MAJOR"
+          ],
+          [
+            "POL (ex-MATIC)",
+            "$0.07490",
+            "−7.1%",
+            "−18.4%",
+            "−1.3%",
+            "$38.7M / #80",
+            ""
+          ],
+          [
+            "DEXE (DeXe)",
+            "$21.52",
+            "−6.9%",
+            "+20.0%",
+            "−3.4%",
+            "$21.7M / #65",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep_2": {
+      "type": "Separator"
+    },
+    "trending_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending_heading",
+        "table_trending"
+      ]
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table_trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Name / Rank",
+          "Price",
+          "24h %",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "DEUS (XMAQUINA) / #819",
+            "$0.03846",
+            "+7.5%",
+            ""
+          ],
+          [
+            "H (Humanity) / #125",
+            "$0.2027",
+            "−70.4%",
+            "TRENDING+DOWN, CAPITULATION"
+          ],
+          [
+            "PENGU (Pudgy Penguins) / #112",
+            "$0.006712",
+            "−2.9%",
+            ""
+          ],
+          [
+            "MORPHO (Morpho) / #62",
+            "$1.858",
+            "−1.0%",
+            ""
+          ],
+          [
+            "WLD (Worldcoin) / #44",
+            "$0.5297",
+            "+10.9%",
+            "TRENDING+UP"
+          ],
+          [
+            "ZEC (Zcash) / #15",
+            "$461.9",
+            "+6.1%",
+            "TRENDING+UP, MAJOR"
+          ],
+          [
+            "HYPE (Hyperliquid) / #10",
+            "$59.95",
+            "−7.3%",
+            "TRENDING+DOWN, MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep_3": {
+      "type": "Separator"
+    },
+    "notable_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_heading",
+        "notable_stack"
+      ]
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_item_1",
+        "notable_item_2",
+        "notable_item_3",
+        "notable_item_4"
+      ]
+    },
+    "notable_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "H trending #2 while down −70%: [CAPITULATION] — vol/mcap 1.24×, extreme selling pressure; watch for contagion",
+        "variant": "body"
+      }
+    },
+    "notable_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "KTA (#237) +33.4% on $8.3M vol: [PUMP-RISK] — low-cap spike, low liquidity",
+        "variant": "body"
+      }
+    },
+    "notable_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "GWEI back in winners +19.6% [BREAKOUT]: 7d +73%, sustained move (was +11.5% Jun 8 — accelerating)",
+        "variant": "body"
+      }
+    },
+    "notable_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE [TRENDING+DOWN] at −7.6%: reversal after Jun 8 +10.9%; perp DEX leader showing weakness",
+        "variant": "body"
+      }
+    }
+  }
+}
