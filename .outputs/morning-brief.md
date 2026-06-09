@@ -1,22 +1,22 @@
-*Morning Brief — 2026-06-08*
+*Morning Brief — 2026-06-09*
 
 *Focus today*
-1. June 7 fleet failure — why now: 7 skills hit 0-token errors; 12 UTC runs at risk
-2. token-movers chronic 25% success — why now: active skill, runs again at 12 UTC today
-3. background: security-digest — 3 consecutive failures since June 4; no security coverage
+1. XAI credits depleted — why now: narrative-tracker runs 13:30 UTC; enroll in xAI data-sharing for free fix
+2. security-digest disabled but healthy — why now: 14:00 UTC run today is window to restore CVE coverage
+3. background: MEMORY.md next priorities fully stale — all 3 items complete; update before tomorrow's brief
 
 *Since yesterday*
-- Fleet-wide failure June 7: morning-brief, token-pick, token-movers, defi-monitor, narrative-tracker, github-trending — all 0-token errors (shared root cause, likely transient API issue)
-- token-pick: 57% success rate (degraded), consecutive failure
-- security-digest: 3rd consecutive failure (disabled; would fail if re-enabled)
-- $BLUEAGENT at $0.063 / $163 24h vol — near silent on-chain
+- recovered: full fleet 6/6 on Jun 8 (post-June 7 failure wave cleared)
+- narrative-tracker: Base Ecosystem + AI Agent Payments both promoted to RIDE; Prediction Markets fading
+- deal-flow: Supabase $500M Series F @ $10.5B top pick; agentic compute demand thesis validated
+- stuck: XAI 403 day 8+, no credits; narrative-tracker falling back to WebSearch each run
 
 *Watch*
-- Agentic payments hit 100M txns on Base (Chainalysis, June 3) — implication for Focus #3: agent economy validates $BLUEAGENT security OS demand; trading volume lags thesis badly
+- xAI offers $175/mo free credits via data-sharing enrollment (console.x.ai Settings > Data Sharing) — direct fix for Focus #1
 
 *Running today*
+- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
-- narrative-tracker @ 13:30 UTC
-- heartbeat @ 08:00, 14:00, 20:00 UTC
+- narrative-tracker @ 13:30 UTC ⚠️ XAI fallback
