@@ -1,16 +1,17 @@
-*Daily Pick — 2026-06-08*
+*Daily Pick — 2026-06-09*
 
-*Token: LIT*  [HIGH]  signal 10/10
-Price: $1.55 (+11.2% 24h / +24.7% 7d) | mcap $387M | vol $60M (vol/mcap 0.155)
-Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, trending+2, vol/mcap>=0.10+2, RS>BTC+ETH+2] = 10/10
-Catalyst: HYPE ATH lifted the entire perp DEX sector; LIT added RWA perpetuals for DELL/IBM on June 1 and is trading as direct Hyperliquid beta — narrative now has fee-capture mechanics, not just speculation
-Risk: HYPE holds >60% perp DEX share; LIT drops further as the beta if HYPE corrects; vol/mcap 0.155 shows real buying but also real reversal potential
+*Token: VELVET*  [HIGH]  signal 10/10
+Price: $0.451 (+24.9% 24h / +300%+ 7d) | mcap $187M | vol $44.9M (vol/mcap 0.24)
+Score breakdown: [trending+2, 24h>0+1, 7d>0+1, both>5%+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2] = 11→10/10
+Catalyst: Trade.xyz integration (June 3) gives Velvet's DeFAI OS access to global markets — stocks, commodities, crypto in one onchain terminal; token broke ATH and entered price discovery territory.
+Risk: 300% move in 6 days with catalyst already priced in — no named next driver; narrative-fade or profit-taking could reverse gains fast.
+Vs recent picks: First time
 
-*Market: Starmer out by June 30, 2026?*  [MEDIUM]  edge 6.5pp
-Current: YES 14.5c / NO 85.5c | 24h vol 55K | resolves: 2026-06-30
-Fair YES: ~8% (inputs: Starmer refused to resign May 12; Labour leadership process takes weeks, cannot complete by June 30 even if triggered today; no formal challenge filed despite 95+ MPs calling for departure)
-Thesis: market over-prices the crisis at 14.5% -- UK Labour rules structurally prevent exit by June 30; NO is undervalued
-Risk: sudden voluntary resignation or health event before June 30
+*Market: "Starmer out by December 31, 2026?"*  [HIGH]  edge 15pp
+Current: YES 75.5¢ / NO 24.5¢ | 24h vol $109,809 | resolves: 2026-12-31
+Fair YES: ~60% (inputs: [1] Starmer survived May crisis — 111 MPs backed him vs 97 calling to quit; [2] no formal Labour NEC no-confidence vote triggered despite peak pressure; [3] CNBC/Eurasia analysts say "unlikely to last the year" but probabilistic, not certain)
+Thesis: Market prices 75.5% exit — too rich. Starmer already weathered the worst of it in May with majority MPs still backing him; formal UK leadership removal requires more than backbench noise. Buy NO at 24.5¢.
+Risk: A new scandal, economic shock, or by-election wipeout before December restarts the pressure cycle.
 
-sources: cg=ok, dex=ok, poly=ok
-not financial advice -- pattern-matching only
+sources: cg=ok, dex=skip, poly=ok
+not financial advice — pattern-matching only

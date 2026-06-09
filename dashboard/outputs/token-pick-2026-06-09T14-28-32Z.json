@@ -1,0 +1,365 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-09"
+      },
+      "children": [
+        "velvet_section",
+        "separator1",
+        "market_section",
+        "separator2",
+        "footer_section"
+      ]
+    },
+    "velvet_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "velvet_heading",
+        "velvet_badges",
+        "velvet_stats",
+        "velvet_breakdown",
+        "velvet_catalyst",
+        "velvet_risk",
+        "velvet_history"
+      ]
+    },
+    "velvet_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "VELVET",
+        "level": "h2"
+      }
+    },
+    "velvet_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_high",
+        "badge_signal"
+      ]
+    },
+    "badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 10/10",
+        "variant": "default"
+      }
+    },
+    "velvet_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_price",
+        "stat_mcap",
+        "stat_vol",
+        "stat_vol_ratio"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.451",
+        "delta": "+24.9% 24h / +300%+ 7d"
+      }
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$187M"
+      }
+    },
+    "stat_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$44.9M"
+      }
+    },
+    "stat_vol_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap Ratio",
+        "value": "0.24"
+      }
+    },
+    "velvet_breakdown": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "breakdown_label",
+        "breakdown_text"
+      ]
+    },
+    "breakdown_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h4"
+      }
+    },
+    "breakdown_text": {
+      "type": "Text",
+      "props": {
+        "text": "trending +2, 24h>0 +1, 7d>0 +1, both>5% +2, vol/mcap≥0.20 +3, RS vs BTC/ETH +2 = 11→10/10",
+        "variant": "body"
+      }
+    },
+    "velvet_catalyst": {
+      "type": "Alert",
+      "props": {
+        "title": "Catalyst",
+        "message": "Trade.xyz integration (June 3) gives Velvet's DeFAI OS access to global markets — stocks, commodities, crypto in one onchain terminal; token broke ATH and entered price discovery territory.",
+        "type": "info"
+      }
+    },
+    "velvet_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "300% move in 6 days with catalyst already priced in — no named next driver; narrative-fade or profit-taking could reverse gains fast.",
+        "type": "warning"
+      }
+    },
+    "velvet_history": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: First time",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_heading",
+        "market_badges",
+        "market_current",
+        "market_vol",
+        "market_resolution",
+        "market_fair",
+        "market_thesis",
+        "market_risk",
+        "market_inputs"
+      ]
+    },
+    "market_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Starmer out by December 31, 2026?",
+        "level": "h2"
+      }
+    },
+    "market_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_market_high",
+        "badge_market_edge"
+      ]
+    },
+    "badge_market_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "badge_market_edge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 15pp",
+        "variant": "default"
+      }
+    },
+    "market_current": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "odds_yes",
+        "odds_no"
+      ]
+    },
+    "odds_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "75.5¢"
+      }
+    },
+    "odds_no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "24.5¢"
+      }
+    },
+    "market_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$109,809"
+      }
+    },
+    "market_resolution": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-12-31",
+        "variant": "caption"
+      }
+    },
+    "market_fair": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair_label",
+        "fair_stat"
+      ]
+    },
+    "fair_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair Value Assessment",
+        "level": "h4"
+      }
+    },
+    "fair_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES",
+        "value": "~60%"
+      }
+    },
+    "market_thesis": {
+      "type": "Alert",
+      "props": {
+        "title": "Thesis",
+        "message": "Market prices 75.5% exit — too rich. Starmer already weathered the worst of it in May with majority MPs still backing him; formal UK leadership removal requires more than backbench noise. Buy NO at 24.5¢.",
+        "type": "info"
+      }
+    },
+    "market_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "A new scandal, economic shock, or by-election wipeout before December restarts the pressure cycle.",
+        "type": "warning"
+      }
+    },
+    "market_inputs": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "inputs_label",
+        "input_1",
+        "input_2",
+        "input_3"
+      ]
+    },
+    "inputs_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Inputs",
+        "level": "h4"
+      }
+    },
+    "input_1": {
+      "type": "Text",
+      "props": {
+        "text": "[1] Starmer survived May crisis — 111 MPs backed him vs 97 calling to quit",
+        "variant": "body"
+      }
+    },
+    "input_2": {
+      "type": "Text",
+      "props": {
+        "text": "[2] No formal Labour NEC no-confidence vote triggered despite peak pressure",
+        "variant": "body"
+      }
+    },
+    "input_3": {
+      "type": "Text",
+      "props": {
+        "text": "[3] CNBC/Eurasia analysts say \"unlikely to last the year\" but probabilistic, not certain",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_text",
+        "disclaimer_text"
+      ]
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: CoinGecko ✓ | Dex (skipped) | Polygon ✓",
+        "variant": "caption"
+      }
+    },
+    "disclaimer_text": {
+      "type": "Text",
+      "props": {
+        "text": "⚠ Not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
