@@ -1,0 +1,412 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-06-10"
+      },
+      "children": [
+        "verdict-section",
+        "sep-1",
+        "heading-patch-today",
+        "cve-items-stack",
+        "sep-2",
+        "heading-patch-week",
+        "ghsa-items-stack"
+      ]
+    },
+    "verdict-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-exploited",
+        "stat-schedule",
+        "text-sources"
+      ]
+    },
+    "stat-exploited": {
+      "type": "Stat",
+      "props": {
+        "label": "Actively Exploited",
+        "value": "3"
+      }
+    },
+    "stat-schedule": {
+      "type": "Stat",
+      "props": {
+        "label": "To Schedule",
+        "value": "5"
+      }
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV, GH Advisory, EPSS"
+      }
+    },
+    "sep-1": {
+      "type": "Separator"
+    },
+    "heading-patch-today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve-items-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "cve-1-item",
+        "cve-2-item",
+        "cve-3-item"
+      ]
+    },
+    "cve-1-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-1-link",
+        "cve-1-badges",
+        "cve-1-description",
+        "cve-1-action"
+      ]
+    },
+    "cve-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-7473 — Arista EOS",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-7473",
+        "source": "KEV 2026-06-09",
+        "score": "EPSS 0.22"
+      }
+    },
+    "cve-1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cve1-exploited"
+      ]
+    },
+    "badge-cve1-exploited": {
+      "type": "Badge",
+      "props": {
+        "text": "Actively Exploited",
+        "variant": "destructive"
+      }
+    },
+    "cve-1-description": {
+      "type": "Text",
+      "props": {
+        "text": "Tunnel decap incomplete comparison; actively exploited in the wild."
+      }
+    },
+    "cve-1-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Arista EOS vendor patch today."
+      }
+    },
+    "cve-2-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-2-link",
+        "cve-2-description",
+        "cve-2-action"
+      ]
+    },
+    "cve-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-11645 — Google Chromium V8",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-11645",
+        "source": "KEV 2026-06-09",
+        "score": "EPSS 0.05"
+      }
+    },
+    "cve-2-description": {
+      "type": "Text",
+      "props": {
+        "text": "Out-of-bounds RCE via crafted HTML; all Chromium-based browsers affected."
+      }
+    },
+    "cve-2-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ update Chrome/Edge/Brave to latest release today."
+      }
+    },
+    "cve-3-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-3-link",
+        "cve-3-description",
+        "cve-3-action"
+      ]
+    },
+    "cve-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-20245 — Cisco Catalyst SD-WAN Manager",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-20245",
+        "source": "KEV 2026-06-09",
+        "score": "EPSS 0.003"
+      }
+    },
+    "cve-3-description": {
+      "type": "Text",
+      "props": {
+        "text": "Authenticated local command injection escalates to root."
+      }
+    },
+    "cve-3-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Cisco SD-WAN Manager patch today."
+      }
+    },
+    "sep-2": {
+      "type": "Separator"
+    },
+    "heading-patch-week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "ghsa-items-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "ghsa-1-item",
+        "ghsa-2-item",
+        "ghsa-3-item",
+        "ghsa-4-item",
+        "ghsa-5-item"
+      ]
+    },
+    "ghsa-1-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-1-link",
+        "ghsa-1-badges",
+        "ghsa-1-description",
+        "ghsa-1-action"
+      ]
+    },
+    "ghsa-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-wm5r-5qp3-5vxf — dbgate-api (npm)",
+        "href": "https://github.com/advisories/GHSA-wm5r-5qp3-5vxf",
+        "score": "CVSS 9.4"
+      }
+    },
+    "ghsa-1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ghsa1-poc"
+      ]
+    },
+    "badge-ghsa1-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "No public PoC",
+        "variant": "outline"
+      }
+    },
+    "ghsa-1-description": {
+      "type": "Text",
+      "props": {
+        "text": "Authenticated RCE via loadReader functionName code injection."
+      }
+    },
+    "ghsa-1-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade dbgate-api to ≥7.1.9."
+      }
+    },
+    "ghsa-2-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-2-link",
+        "ghsa-2-description",
+        "ghsa-2-action"
+      ]
+    },
+    "ghsa-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-mqq6-462x-jxmm — go-base (Go)",
+        "href": "https://github.com/advisories/GHSA-mqq6-462x-jxmm",
+        "score": "CVSS 9.1"
+      }
+    },
+    "ghsa-2-description": {
+      "type": "Text",
+      "props": {
+        "text": "Hardcoded JWT secret allows token forgery by any user."
+      }
+    },
+    "ghsa-2-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade github.com/dhax/go-base to ≥0.0.0-20260517152733."
+      }
+    },
+    "ghsa-3-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-3-link",
+        "ghsa-3-badges",
+        "ghsa-3-description",
+        "ghsa-3-action"
+      ]
+    },
+    "ghsa-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-7qjx-gp9h-65qj — dex (Go)",
+        "href": "https://github.com/advisories/GHSA-7qjx-gp9h-65qj",
+        "score": "CVSS 8.7"
+      }
+    },
+    "ghsa-3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ghsa3-poc"
+      ]
+    },
+    "badge-ghsa3-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "No public PoC",
+        "variant": "outline"
+      }
+    },
+    "ghsa-3-description": {
+      "type": "Text",
+      "props": {
+        "text": "Token-exchange endpoint skips AllowedConnectors enforcement; auth bypass."
+      }
+    },
+    "ghsa-3-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade github.com/dexidp/dex to ≥0.0.0-20260303131938."
+      }
+    },
+    "ghsa-4-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-4-link",
+        "ghsa-4-description",
+        "ghsa-4-action"
+      ]
+    },
+    "ghsa-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-9vc9-4jv3-rf86 — @hulumi/policies (npm)",
+        "href": "https://github.com/advisories/GHSA-9vc9-4jv3-rf86",
+        "score": "CVSS 8.5"
+      }
+    },
+    "ghsa-4-description": {
+      "type": "Text",
+      "props": {
+        "text": "HULUMI-H5 policy bypassed via decoy sibling resource targeting different bucket."
+      }
+    },
+    "ghsa-4-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade @hulumi/policies to ≥1.4.0."
+      }
+    },
+    "ghsa-5-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-5-link",
+        "ghsa-5-description",
+        "ghsa-5-action"
+      ]
+    },
+    "ghsa-5-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-rhgj-6g2c-frmm — @hulumi/policies (npm)",
+        "href": "https://github.com/advisories/GHSA-rhgj-6g2c-frmm",
+        "score": "CVSS 8.4"
+      }
+    },
+    "ghsa-5-description": {
+      "type": "Text",
+      "props": {
+        "text": "Policy bypass via forged Pulumi-URN logical name."
+      }
+    },
+    "ghsa-5-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade @hulumi/policies to ≥1.4.0."
+      }
+    }
+  }
+}
