@@ -79,12 +79,12 @@
   },
   "security-digest": {
     "last_status": "success",
-    "last_success": "2026-06-09T16:32:25Z",
-    "total_runs": 13,
-    "total_successes": 7,
+    "last_success": "2026-06-10T17:00:19Z",
+    "total_runs": 14,
+    "total_successes": 8,
     "total_failures": 6,
     "consecutive_failures": 0,
-    "success_rate": 0.54,
+    "success_rate": 0.57,
     "last_failed": "2026-06-07T15:18:04Z",
     "last_error": "e4bb180\",\"total_cost_usd\":0,\"usage\":{\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\""
   },
