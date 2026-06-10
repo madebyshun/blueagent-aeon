@@ -1,0 +1,392 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "date_heading",
+        "sep1",
+        "top_pick_section",
+        "sep2",
+        "ai_ml_section",
+        "sep3",
+        "devtools_section",
+        "sep4",
+        "sources_text"
+      ]
+    },
+    "date_heading": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub Trending — 2026-06-10",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_label",
+        "top_pick_repo"
+      ]
+    },
+    "top_pick_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "top_pick_repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top_pick_link",
+        "top_pick_desc"
+      ]
+    },
+    "top_pick_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "apple/container",
+        "href": "https://github.com/apple/container"
+      }
+    },
+    "top_pick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Apple's official OCI container runtime for Apple Silicon makes Linux containers a first-class macOS tool — no Docker Desktop, no third-party abstraction layer.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai_ml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai_ml_heading",
+        "ai_ml_item1",
+        "ai_ml_item2"
+      ]
+    },
+    "ai_ml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "ai_ml_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_1_title",
+        "ai_ml_1_meta",
+        "ai_ml_1_desc"
+      ]
+    },
+    "ai_ml_1_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "harry0703/MoneyPrinterTurbo",
+        "href": "https://github.com/harry0703/MoneyPrinterTurbo"
+      }
+    },
+    "ai_ml_1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_1_stars",
+        "ai_ml_1_lang",
+        "ai_ml_1_status"
+      ]
+    },
+    "ai_ml_1_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "1.5k",
+        "delta": "84k total"
+      }
+    },
+    "ai_ml_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "ai_ml_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "ai_ml_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Fully local pipeline: topic → script → TTS narration → timed subtitles → rendered short video, no cloud APIs required.",
+        "variant": "body"
+      }
+    },
+    "ai_ml_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_2_title",
+        "ai_ml_2_meta",
+        "ai_ml_2_desc"
+      ]
+    },
+    "ai_ml_2_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ruvnet/RuView",
+        "href": "https://github.com/ruvnet/RuView"
+      }
+    },
+    "ai_ml_2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_2_stars",
+        "ai_ml_2_lang",
+        "ai_ml_2_status"
+      ]
+    },
+    "ai_ml_2_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "439",
+        "delta": "73k total"
+      }
+    },
+    "ai_ml_2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      }
+    },
+    "ai_ml_2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "ai_ml_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Uses commodity WiFi hardware to passively detect breathing rate and heart rate — no wearables, no cameras, no sensors.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "devtools_item1",
+        "devtools_item2"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "devtools_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_1_title",
+        "devtools_1_meta",
+        "devtools_1_desc"
+      ]
+    },
+    "devtools_1_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "apple/container",
+        "href": "https://github.com/apple/container"
+      }
+    },
+    "devtools_1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_1_stars",
+        "devtools_1_lang",
+        "devtools_1_status"
+      ]
+    },
+    "devtools_1_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "1.4k",
+        "delta": "28k total"
+      }
+    },
+    "devtools_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Swift",
+        "variant": "secondary"
+      }
+    },
+    "devtools_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Apple-authored OCI runtime for Apple Silicon: run Linux containers at macOS-native memory overhead, no Docker Desktop required.",
+        "variant": "body"
+      }
+    },
+    "devtools_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_2_title",
+        "devtools_2_meta",
+        "devtools_2_desc"
+      ]
+    },
+    "devtools_2_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "soxoj/maigret",
+        "href": "https://github.com/soxoj/maigret"
+      }
+    },
+    "devtools_2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_2_stars",
+        "devtools_2_lang",
+        "devtools_2_status"
+      ]
+    },
+    "devtools_2_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "261",
+        "delta": "32k total"
+      }
+    },
+    "devtools_2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "devtools_2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "devtools_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "One username → presence report across 3,000+ platforms in minutes; Jun 8 push driving today's spike.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/17",
+        "variant": "caption"
+      }
+    }
+  }
+}

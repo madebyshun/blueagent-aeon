@@ -1,23 +1,21 @@
-*GitHub Trending — 2026-06-09*
+*GitHub Trending — 2026-06-10*
 
-*Top pick* — [francescopace/espectre](https://github.com/francescopace/espectre)
-Camera-free motion detection via Wi-Fi CSI is a genuinely novel approach most devs haven't seen — and the Home Assistant integration makes it deployable today without new hardware.
+*Top pick* — [apple/container](https://github.com/apple/container)
+Apple's official OCI container runtime for Apple Silicon makes Linux containers a first-class macOS tool — no Docker Desktop, no third-party abstraction layer.
 
 *AI/ML*
-• [maziyarpanahi/openmed](https://github.com/maziyarpanahi/openmed) — ★ 165 today (1.6k total) · Python · [RETURNING]
-On-device LLM stack for healthcare — DeepSeek/Qwen via MLX on Apple silicon, PII detection built in, no cloud, no patient data leaving the device.
+• [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — ★ 1.5k today (84k total) · Python · [ACCELERATING]
+Fully local pipeline: topic → script → TTS narration → timed subtitles → rendered short video, no cloud APIs required.
+
+• [ruvnet/RuView](https://github.com/ruvnet/RuView) — ★ 439 today (73k total) · Rust · [RETURNING]
+Uses commodity WiFi hardware to passively detect breathing rate and heart rate — no wearables, no cameras, no sensors.
 
 *Devtools*
-• [Andyyyy64/whichllm](https://github.com/Andyyyy64/whichllm) — ★ 143 today (3.8k total) · Python · [RETURNING]
-One command benchmarks which local LLMs actually run on your hardware — sorted by recency-weighted performance, not parameter count or marketing.
+• [apple/container](https://github.com/apple/container) — ★ 1.4k today (28k total) · Swift · [ACCELERATING]
+Apple-authored OCI runtime for Apple Silicon: run Linux containers at macOS-native memory overhead, no Docker Desktop required.
 
-*Infra*
-• [francescopace/espectre](https://github.com/francescopace/espectre) — ★ 112 today (8k total) · Python · [RETURNING]
-Detects motion by analyzing Wi-Fi channel state info — no camera, no PIR sensor, works through walls, hooks natively into Home Assistant.
-
-*Web/Apps*
-• [yikart/AiToEarn](https://github.com/yikart/AiToEarn) — ★ 786 today (20k total) · TypeScript · [RETURNING]
-Electron app for batch-publishing across Douyin, Xiaohongshu, and Kuaishou — one dashboard for the entire Chinese short-video distribution stack.
+• [soxoj/maigret](https://github.com/soxoj/maigret) — ★ 261 today (32k total) · Python · [RETURNING]
+One username → presence report across 3,000+ platforms in minutes; Jun 8 push driving today's spike.
 
 ---
-sources: trending=ok · gh_api=ok · kept 4/16
+sources: trending=ok · gh_api=ok · kept 4/17
