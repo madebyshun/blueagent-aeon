@@ -1,0 +1,411 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-10"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "since_section",
+        "sep2",
+        "watch_section",
+        "sep3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_item1",
+        "focus_item2",
+        "focus_item3"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "f1_main",
+        "f1_reason"
+      ]
+    },
+    "f1_main": {
+      "type": "Text",
+      "props": {
+        "text": "1. Resolve XAI 403 before 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "f1_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: day 10, narrative-tracker runs today, free fix via data-sharing enrollment",
+        "variant": "caption"
+      }
+    },
+    "focus_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "f2_main",
+        "f2_reason"
+      ]
+    },
+    "f2_main": {
+      "type": "Text",
+      "props": {
+        "text": "2. Re-enable security-digest in aeon.yml",
+        "variant": "body"
+      }
+    },
+    "f2_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: confirmed healthy Jun 9; CVE gap grows daily without config flip",
+        "variant": "caption"
+      }
+    },
+    "focus_item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "f3_main",
+        "f3_reason"
+      ]
+    },
+    "f3_main": {
+      "type": "Text",
+      "props": {
+        "text": "3. Update MEMORY.md priorities",
+        "variant": "body"
+      }
+    },
+    "f3_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 3 weeks stale, all listed goals done, flagged yesterday and still not done",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_heading",
+        "since_item1",
+        "since_item2",
+        "since_item3",
+        "since_item4"
+      ]
+    },
+    "since_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "si1_label",
+        "si1_desc",
+        "si1_stats"
+      ]
+    },
+    "si1_label": {
+      "type": "Text",
+      "props": {
+        "text": "[moved] token-movers",
+        "variant": "body"
+      }
+    },
+    "si1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "hard risk-off (capitulation)",
+        "variant": "muted"
+      }
+    },
+    "si1_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "si1_stat1",
+        "si1_stat2",
+        "si1_stat3"
+      ]
+    },
+    "si1_stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "KTA",
+        "value": "+33.4%",
+        "trend": "up"
+      }
+    },
+    "si1_stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "VELVET",
+        "value": "+25.2%",
+        "trend": "up"
+      }
+    },
+    "si1_stat3": {
+      "type": "Stat",
+      "props": {
+        "label": "H",
+        "value": "−70.0%",
+        "trend": "down"
+      }
+    },
+    "since_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "si2_label",
+        "si2_moves"
+      ]
+    },
+    "si2_label": {
+      "type": "Text",
+      "props": {
+        "text": "[moved] narrative-tracker (WebSearch fallback)",
+        "variant": "body"
+      }
+    },
+    "si2_moves": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "si2_badge1",
+        "si2_badge2"
+      ]
+    },
+    "si2_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Payments → Peak",
+        "variant": "secondary"
+      }
+    },
+    "si2_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Crypto Infrastructure → RIDE",
+        "variant": "secondary"
+      }
+    },
+    "since_item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "si3_label",
+        "si3_items"
+      ]
+    },
+    "si3_label": {
+      "type": "Text",
+      "props": {
+        "text": "[moved] security-digest",
+        "variant": "body"
+      }
+    },
+    "si3_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "si3_badge1",
+        "si3_badge2"
+      ]
+    },
+    "si3_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "LiteLLM EPSS 0.61 (authenticated MCP RCE)",
+        "variant": "destructive"
+      }
+    },
+    "si3_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "nebula-mesh CVSS 9.9 cluster",
+        "variant": "destructive"
+      }
+    },
+    "since_item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "si4_label",
+        "si4_detail"
+      ]
+    },
+    "si4_label": {
+      "type": "Text",
+      "props": {
+        "text": "[moved] token-pick",
+        "variant": "body"
+      }
+    },
+    "si4_detail": {
+      "type": "Text",
+      "props": {
+        "text": "VELVET +24.9%, Starmer market — flag NO at 75.5¢",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_section": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Watch",
+        "message": "IC3 study on Unstoppable Autonomous Agents (Jun 8): wallet-accessing UAAs framed as systemic risk — potential headwind for AI Agent Payments (Peak) if regulatory framing takes hold"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_heading",
+        "running_item1",
+        "running_item2",
+        "running_item3",
+        "running_item4",
+        "running_item5"
+      ]
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_item1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "run4_text",
+        "run4_badge"
+      ]
+    },
+    "run4_text": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "run4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠️ XAI fallback",
+        "variant": "warning"
+      }
+    },
+    "running_item5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 / 14:00 / 20:00 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
