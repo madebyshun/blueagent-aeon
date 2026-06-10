@@ -1,0 +1,1168 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-06-10"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-transitions",
+        "separator-1",
+        "section-reflexivity",
+        "separator-2",
+        "section-positions",
+        "separator-3",
+        "section-map"
+      ]
+    },
+    "section-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-transitions",
+        "transition-1",
+        "transition-2",
+        "transition-3",
+        "transition-4"
+      ]
+    },
+    "h-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transition-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans1-header",
+        "trans1-details",
+        "trans1-stat"
+      ]
+    },
+    "trans1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-new",
+        "trans1-title"
+      ]
+    },
+    "badge-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "trans1-title": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional DeFi / Onchain Credit",
+        "variant": "lead"
+      }
+    },
+    "trans1-details": {
+      "type": "Text",
+      "props": {
+        "text": "Morpho $175M (a16z + Paradigm + Ribbit, Jun 9), $2B valuation, $11B TVL, Coinbase/Kraken/Binance as users"
+      }
+    },
+    "trans1-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "MORPHO",
+        "value": "+15.5%",
+        "trend": "up"
+      }
+    },
+    "transition-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans2-header",
+        "trans2-details",
+        "trans2-stats"
+      ]
+    },
+    "trans2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-promoted",
+        "trans2-title"
+      ]
+    },
+    "badge-promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "trans2-title": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins as Infrastructure WATCH → RIDE",
+        "variant": "lead"
+      }
+    },
+    "trans2-details": {
+      "type": "Text",
+      "props": {
+        "text": "NY DFS proposes GENIUS Act alignment (Jun 9), FDIC comment period closed, Treasury FinCEN/OFAC rule published"
+      }
+    },
+    "trans2-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trans2-stat-genius",
+        "trans2-stat-stable"
+      ]
+    },
+    "trans2-stat-genius": {
+      "type": "Stat",
+      "props": {
+        "label": "GENIUS",
+        "value": "+13.4%",
+        "trend": "up"
+      }
+    },
+    "trans2-stat-stable": {
+      "type": "Stat",
+      "props": {
+        "label": "STABLE",
+        "value": "+10.1%",
+        "trend": "up"
+      }
+    },
+    "transition-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans3-header",
+        "trans3-details",
+        "trans3-stat"
+      ]
+    },
+    "trans3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-demoted",
+        "trans3-title"
+      ]
+    },
+    "badge-demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "trans3-title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments RIDE → WATCH",
+        "variant": "lead"
+      }
+    },
+    "trans3-details": {
+      "type": "Text",
+      "props": {
+        "text": "IC3 UAA study (Jun 8) + IMF Note 2026/004 frame wallet-accessing agents as systemic risk; EU AI Act applies Aug 2"
+      }
+    },
+    "trans3-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SKYAI",
+        "value": "−22.2%",
+        "trend": "down"
+      }
+    },
+    "transition-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans4-header",
+        "trans4-details",
+        "trans4-stats"
+      ]
+    },
+    "trans4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-demoted2",
+        "trans4-title"
+      ]
+    },
+    "badge-demoted2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "trans4-title": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid/Perp DEXs WATCH → FADE",
+        "variant": "lead"
+      }
+    },
+    "trans4-details": {
+      "type": "Text",
+      "props": {
+        "text": "VVV −14.5%, INJ −6.8%; 2-day ↓ streak; no recovery catalyst vs cautious bounce"
+      }
+    },
+    "trans4-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trans4-stat-vvv",
+        "trans4-stat-inj"
+      ]
+    },
+    "trans4-stat-vvv": {
+      "type": "Stat",
+      "props": {
+        "label": "VVV",
+        "value": "−14.5%",
+        "trend": "down"
+      }
+    },
+    "trans4-stat-inj": {
+      "type": "Stat",
+      "props": {
+        "label": "INJ",
+        "value": "−6.8%",
+        "trend": "down"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-reflexivity",
+        "reflexivity-1",
+        "reflexivity-2",
+        "reflexivity-3"
+      ]
+    },
+    "h-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl1-title",
+        "refl1-content"
+      ]
+    },
+    "refl1-title": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional DeFi",
+        "variant": "lead"
+      }
+    },
+    "refl1-content": {
+      "type": "Text",
+      "props": {
+        "text": "a16z/Paradigm $175M headline → MORPHO trending #3 same day → bold message for Wall Street across 8+ outlets → institutional eyes → loop. Price action front-ran coverage cycle within 24hrs."
+      }
+    },
+    "reflexivity-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl2-title",
+        "refl2-content"
+      ]
+    },
+    "refl2-title": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins/GENIUS",
+        "variant": "lead"
+      }
+    },
+    "refl2-content": {
+      "type": "Text",
+      "props": {
+        "text": "NY DFS harmonization → federal certification → GENIUS/STABLE tokens priced in regulatory clarity before implementation."
+      }
+    },
+    "reflexivity-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl3-title",
+        "refl3-content"
+      ]
+    },
+    "refl3-title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments (reverse)",
+        "variant": "lead"
+      }
+    },
+    "refl3-content": {
+      "type": "Text",
+      "props": {
+        "text": "IC3 → MEXC/Fenwick/Taylor Wessing cite it → EU AI Act enforcement window opens Aug 2. Counter-narrative now has institutional co-signers."
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-positions",
+        "position-1",
+        "position-2",
+        "position-3",
+        "position-4",
+        "position-5",
+        "position-6",
+        "position-7",
+        "position-8",
+        "position-9"
+      ]
+    },
+    "h-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "position-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1-header",
+        "pos1-meta",
+        "pos1-bear"
+      ]
+    },
+    "pos1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-frontrun",
+        "pos1-title"
+      ]
+    },
+    "badge-frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "pos1-title": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional DeFi/Onchain Credit",
+        "variant": "lead"
+      }
+    },
+    "pos1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos1-stat",
+        "badge-bull"
+      ]
+    },
+    "pos1-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "mindshare",
+        "value": "3 ↑↑"
+      }
+    },
+    "badge-bull": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos1-bear": {
+      "type": "Text",
+      "props": {
+        "text": "@Paradigm + @a16z + @MorphoLabs — bear: regulatory lending risk",
+        "variant": "caption"
+      }
+    },
+    "position-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos2-header",
+        "pos2-meta",
+        "pos2-bear"
+      ]
+    },
+    "pos2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-frontrun2",
+        "pos2-title"
+      ]
+    },
+    "badge-frontrun2": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "pos2-title": {
+      "type": "Text",
+      "props": {
+        "text": "Attention Markets/InfoFi",
+        "variant": "lead"
+      }
+    },
+    "pos2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos2-stat",
+        "badge-bull2"
+      ]
+    },
+    "pos2-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "trend",
+        "value": "3 →"
+      }
+    },
+    "badge-bull2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos2-bear": {
+      "type": "Text",
+      "props": {
+        "text": "@KaitoAI + Polymarket — bear: algo credibility",
+        "variant": "caption"
+      }
+    },
+    "position-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos3-header",
+        "pos3-meta",
+        "pos3-bear"
+      ]
+    },
+    "pos3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-ride",
+        "pos3-title"
+      ]
+    },
+    "badge-ride": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "pos3-title": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins as Infrastructure",
+        "variant": "lead"
+      }
+    },
+    "pos3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos3-stat",
+        "badge-bull3"
+      ]
+    },
+    "pos3-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "trend",
+        "value": "5 ↑"
+      }
+    },
+    "badge-bull3": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos3-bear": {
+      "type": "Text",
+      "props": {
+        "text": "NY DFS + FDIC + Circle — bear: GENIUS bank-favoring provisions",
+        "variant": "caption"
+      }
+    },
+    "position-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos4-header",
+        "pos4-meta",
+        "pos4-bear"
+      ]
+    },
+    "pos4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-ride2",
+        "pos4-title"
+      ]
+    },
+    "badge-ride2": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "pos4-title": {
+      "type": "Text",
+      "props": {
+        "text": "Base Ecosystem",
+        "variant": "lead"
+      }
+    },
+    "pos4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos4-stat",
+        "badge-bull4"
+      ]
+    },
+    "pos4-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "trend",
+        "value": "4 ↑"
+      }
+    },
+    "badge-bull4": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos4-bear": {
+      "type": "Text",
+      "props": {
+        "text": "@jessepollak + Morpho + x402 — bear: single-chain concentration",
+        "variant": "caption"
+      }
+    },
+    "position-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos5-header",
+        "pos5-meta",
+        "pos5-bear"
+      ]
+    },
+    "pos5-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-ride3",
+        "pos5-title"
+      ]
+    },
+    "badge-ride3": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "pos5-title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Crypto Infrastructure",
+        "variant": "lead"
+      }
+    },
+    "pos5-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos5-stat",
+        "badge-mixed"
+      ]
+    },
+    "pos5-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "trend",
+        "value": "4 →"
+      }
+    },
+    "badge-mixed": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos5-bear": {
+      "type": "Text",
+      "props": {
+        "text": "@bittensor + QAIT — bear: SKYAI −22%, FET range-bound",
+        "variant": "caption"
+      }
+    },
+    "position-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos6-header",
+        "pos6-meta",
+        "pos6-bear"
+      ]
+    },
+    "pos6-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-watch",
+        "pos6-title"
+      ]
+    },
+    "badge-watch": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos6-title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments",
+        "variant": "lead"
+      }
+    },
+    "pos6-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos6-stat",
+        "badge-mixed2"
+      ]
+    },
+    "pos6-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "trend",
+        "value": "5 →"
+      }
+    },
+    "badge-mixed2": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos6-bear": {
+      "type": "Text",
+      "props": {
+        "text": "IC3 + EU AI Act Aug 2 — first bear catalyst at peak",
+        "variant": "caption"
+      }
+    },
+    "position-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos7-header",
+        "pos7-meta",
+        "pos7-bear"
+      ]
+    },
+    "pos7-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-watch2",
+        "pos7-title"
+      ]
+    },
+    "badge-watch2": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos7-title": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization",
+        "variant": "lead"
+      }
+    },
+    "pos7-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos7-stat",
+        "badge-peak"
+      ]
+    },
+    "pos7-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "trend",
+        "value": "5 →"
+      }
+    },
+    "badge-peak": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "secondary"
+      }
+    },
+    "pos7-bear": {
+      "type": "Text",
+      "props": {
+        "text": "@BlackRock + @OndoFinance — Morpho competing for same capital",
+        "variant": "caption"
+      }
+    },
+    "position-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos8-header",
+        "pos8-meta",
+        "pos8-bear"
+      ]
+    },
+    "pos8-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-fade",
+        "pos8-title"
+      ]
+    },
+    "badge-fade": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "pos8-title": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid/Perp DEXs",
+        "variant": "lead"
+      }
+    },
+    "pos8-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos8-stat",
+        "badge-mixed3"
+      ]
+    },
+    "pos8-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "trend",
+        "value": "4 ↓"
+      }
+    },
+    "badge-mixed3": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos8-bear": {
+      "type": "Text",
+      "props": {
+        "text": "VVV/INJ bleeding",
+        "variant": "caption"
+      }
+    },
+    "position-9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos9-header",
+        "pos9-meta",
+        "pos9-bear"
+      ]
+    },
+    "pos9-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-fade2",
+        "pos9-title"
+      ]
+    },
+    "badge-fade2": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "pos9-title": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "lead"
+      }
+    },
+    "pos9-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos9-stat",
+        "badge-bear"
+      ]
+    },
+    "pos9-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "trend",
+        "value": "2 ↓"
+      }
+    },
+    "badge-bear": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear",
+        "variant": "destructive"
+      }
+    },
+    "pos9-bear": {
+      "type": "Text",
+      "props": {
+        "text": "DEATH BETS Act ceiling confirmed",
+        "variant": "caption"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-map",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "h-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emg-label",
+        "map-emg-items"
+      ]
+    },
+    "map-emg-label": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging",
+        "variant": "lead"
+      }
+    },
+    "map-emg-items": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional DeFi/Onchain Credit · AI Agent Security · Privacy/ZK"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rise-label",
+        "map-rise-items"
+      ]
+    },
+    "map-rise-label": {
+      "type": "Text",
+      "props": {
+        "text": "Rising",
+        "variant": "lead"
+      }
+    },
+    "map-rise-items": {
+      "type": "Text",
+      "props": {
+        "text": "Base Ecosystem · AI Crypto Infrastructure · Attention Markets/InfoFi"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-label",
+        "map-peak-items"
+      ]
+    },
+    "map-peak-label": {
+      "type": "Text",
+      "props": {
+        "text": "Peak",
+        "variant": "lead"
+      }
+    },
+    "map-peak-items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments · Stablecoins as Infrastructure · RWA Tokenization"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fade-label",
+        "map-fade-items"
+      ]
+    },
+    "map-fade-label": {
+      "type": "Text",
+      "props": {
+        "text": "Fading",
+        "variant": "lead"
+      }
+    },
+    "map-fade-items": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid/Perp DEXs · Prediction Markets · TradFi AI Capital Rotation"
+      }
+    }
+  }
+}

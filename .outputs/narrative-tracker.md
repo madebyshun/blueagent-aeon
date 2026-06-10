@@ -1,24 +1,29 @@
-Narrative Tracker — 2026-06-09
+*Narrative Tracker — 2026-06-10*
 
 TRANSITIONS
-PROMOTED: AI Agent Payments Rising to Peak — MetaMask Agent Wallet (Jun 8) gives x402 mainstream distribution; 600M+ vol, 500K wallets, 100M+ txns in 3Q
-PROMOTED: AI Crypto Infrastructure WATCH to RIDE — a16z AI x automation x crypto confirmed; GWEI +73% 7d; capital rotating from speculative AI to infra-heavy (TAO, RENDER, NEAR, AKT)
-DEMOTED: Hyperliquid/Perp DEXs RIDE to WATCH — HYPE -7.6% reversal; hard risk-off today (9/72 large-caps green), no new catalyst
+• NEW: Institutional DeFi / Onchain Credit — Morpho $175M (a16z + Paradigm + Ribbit, Jun 9), $2B valuation, $11B TVL, Coinbase/Kraken/Binance as users; MORPHO +15.5% trending day-after
+• PROMOTED: Stablecoins as Infrastructure WATCH → RIDE — NY DFS proposes GENIUS Act alignment (Jun 9), FDIC comment period closed, Treasury FinCEN/OFAC rule published; GENIUS +13.4%, STABLE +10.1%
+• DEMOTED: AI Agent Payments RIDE → WATCH — IC3 UAA study (Jun 8) + IMF Note 2026/004 frame wallet-accessing agents as systemic risk; EU AI Act applies Aug 2; SKYAI −22.2%
+• DEMOTED: Hyperliquid/Perp DEXs WATCH → FADE — VVV −14.5%, INJ −6.8%; 2-day ↓ streak; no recovery catalyst vs cautious bounce
 
 REFLEXIVITY ALERT
-AI Agent Payments — MetaMask distribution loop: 500K wallets, more protocol adoption, more volume, more legitimacy. Concrete: 600M+ vol already, MetaMask now adds millions of potential wallets.
-AI Crypto Infrastructure — a16z 3 AI trends for 2026 post is itself narrative-moving. VC endorsement before fundamentals shift = watch for TAO/FET/NEAR/RENDER inflows.
+• Institutional DeFi: a16z/Paradigm $175M headline → MORPHO trending #3 same day → bold message for Wall Street across 8+ outlets → institutional eyes → loop. Price action front-ran coverage cycle within 24hrs.
+• Stablecoins/GENIUS: NY DFS harmonization → federal certification → GENIUS/STABLE tokens priced in regulatory clarity before implementation.
+• AI Agent Payments (reverse): IC3 → MEXC/Fenwick/Taylor Wessing cite it → EU AI Act enforcement window opens Aug 2. Counter-narrative now has institutional co-signers.
 
 POSITIONS
-RIDE: AI Agent Payments (5 up-up, Bull) — @MetaMask, @coinbase x402, @Travala — bear: CLI-first, not consumer; vol still small vs CeFi
-RIDE: Base Ecosystem (4 up, Bull) — @jessepollak, @coinbase — bear: single-chain concentration; 1+ USD txns now 95% of Base volume
-RIDE: AI Crypto Infrastructure (4 up, Bull) — @a16zcrypto, @bittensor, GWEI — bear: TradFi AI capturing adoption without on-chain rails
-FRONT-RUN: Attention Markets/InfoFi (3 flat, Bull) — @KaitoAI, Polygon leaderboard, Wallchain — bear: X API shutout constrains Kaito reach
-WATCH: Hyperliquid/Perp DEXs (4 down, Bull) — @HyperliquidX, LIT — stalling on hard risk-off, wait for BTC recovery
-FADE: Prediction Markets (2 down, Bear) — @Polymarket — DEATH BETS Act ceiling confirmed
+• FRONT-RUN: Institutional DeFi/Onchain Credit (mindshare 3 ↑↑, Bull) — @Paradigm + @a16z + @MorphoLabs — bear: regulatory lending risk
+• FRONT-RUN: Attention Markets/InfoFi (3 →, Bull) — @KaitoAI + Polymarket — bear: algo credibility
+• RIDE: Stablecoins as Infrastructure (5 ↑, Bull) — NY DFS + FDIC + Circle — bear: GENIUS bank-favoring provisions
+• RIDE: Base Ecosystem (4 ↑, Bull) — @jessepollak + Morpho + x402 — bear: single-chain concentration
+• RIDE: AI Crypto Infrastructure (4 →, Mixed) — @bittensor + QAIT — bear: SKYAI −22%, FET range-bound
+• WATCH: AI Agent Payments (5 →, Mixed) — IC3 + EU AI Act Aug 2 — first bear catalyst at peak
+• WATCH: RWA Tokenization (5 →, Peak) — @BlackRock + @OndoFinance — Morpho competing for same capital
+• FADE: Hyperliquid/Perp DEXs (4 ↓, Mixed) — VVV/INJ bleeding
+• FADE: Prediction Markets (2 ↓, Bear) — DEATH BETS Act ceiling confirmed
 
 MAP
-Emerging: Privacy/ZK, AI Agent Security
-Rising: Attention Markets/InfoFi, Base Ecosystem, AI Crypto Infrastructure
-Peak: AI Agent Payments, Stablecoins, RWA
-Fading: Prediction Markets, TradFi AI Capital Rotation
+Emerging: Institutional DeFi/Onchain Credit · AI Agent Security · Privacy/ZK
+Rising: Base Ecosystem · AI Crypto Infrastructure · Attention Markets/InfoFi
+Peak: AI Agent Payments · Stablecoins as Infrastructure · RWA Tokenization
+Fading: Hyperliquid/Perp DEXs · Prediction Markets · TradFi AI Capital Rotation
