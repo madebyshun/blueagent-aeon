@@ -1,17 +1,10 @@
-*Daily Pick — 2026-06-09*
+*Daily Pick — 2026-06-10*
 
-*Token: VELVET*  [HIGH]  signal 10/10
-Price: $0.451 (+24.9% 24h / +300%+ 7d) | mcap $187M | vol $44.9M (vol/mcap 0.24)
-Score breakdown: [trending+2, 24h>0+1, 7d>0+1, both>5%+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2] = 11→10/10
-Catalyst: Trade.xyz integration (June 3) gives Velvet's DeFAI OS access to global markets — stocks, commodities, crypto in one onchain terminal; token broke ATH and entered price discovery territory.
-Risk: 300% move in 6 days with catalyst already priced in — no named next driver; narrative-fade or profit-taking could reverse gains fast.
-Vs recent picks: First time
+*Token: MORPHO*  [HIGH]  signal 8/10
+Price: $2.09 (+15.5% 24h / +8.4% 7d) | mcap $1.35B | vol $31.6M (vol/mcap 0.023)
+Score breakdown: [24h>0 +1, 7d>0 +1, both>5% +2, CG trending#3 +2, RS vs BTC/ETH +2] = 8/10
+Catalyst: $175M raise (Paradigm + a16z + Ribbit, June 9) — DeFi's largest ever funding round; Morpho Midnight fixed-rate institutional lending protocol unveiled June 8; $11B TVL serving Coinbase, Kraken, Binance
+Risk: Apollo acquiring 90M tokens (9% of supply) over 48 months = steady sell pressure; initial +7.5% move on June 9 already priced; today's run may include momentum tourists
 
-*Market: "Starmer out by December 31, 2026?"*  [HIGH]  edge 15pp
-Current: YES 75.5¢ / NO 24.5¢ | 24h vol $109,809 | resolves: 2026-12-31
-Fair YES: ~60% (inputs: [1] Starmer survived May crisis — 111 MPs backed him vs 97 calling to quit; [2] no formal Labour NEC no-confidence vote triggered despite peak pressure; [3] CNBC/Eurasia analysts say "unlikely to last the year" but probabilistic, not certain)
-Thesis: Market prices 75.5% exit — too rich. Starmer already weathered the worst of it in May with majority MPs still backing him; formal UK leadership removal requires more than backbench noise. Buy NO at 24.5¢.
-Risk: A new scandal, economic shock, or by-election wipeout before December restarts the pressure cycle.
-
-sources: cg=ok, dex=skip, poly=ok
+sources: cg=ok, dex=ok, poly=ok
 not financial advice — pattern-matching only

@@ -1,0 +1,274 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-10"
+      },
+      "children": [
+        "header_stack",
+        "sep_1",
+        "price_section",
+        "sep_2",
+        "score_section",
+        "sep_3",
+        "catalyst_section",
+        "sep_4",
+        "risk_section",
+        "sep_5",
+        "sources_section"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token_name",
+        "badge_high",
+        "score_display"
+      ]
+    },
+    "token_name": {
+      "type": "Heading",
+      "props": {
+        "text": "MORPHO",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "score_display": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "8/10"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "price_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price_stat",
+        "change_24h_stat",
+        "change_7d_stat",
+        "mcap_stat",
+        "volume_stat",
+        "vol_mcap_stat"
+      ]
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$2.09"
+      },
+      "children": []
+    },
+    "change_24h_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+15.5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "change_7d_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+8.4%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "mcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$1.35B"
+      },
+      "children": []
+    },
+    "volume_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$31.6M"
+      },
+      "children": []
+    },
+    "vol_mcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/MCap Ratio",
+        "value": "0.023"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "score_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "score_heading",
+        "score_breakdown_text"
+      ]
+    },
+    "score_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "score_breakdown_text": {
+      "type": "Text",
+      "props": {
+        "text": "24h>0 +1, 7d>0 +1, both>5% +2, CG trending#3 +2, RS vs BTC/ETH +2 = 8/10"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "catalyst_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "catalyst_heading",
+        "catalyst_text"
+      ]
+    },
+    "catalyst_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "$175M raise (Paradigm + a16z + Ribbit, June 9) — DeFi's largest ever funding round; Morpho Midnight fixed-rate institutional lending protocol unveiled June 8; $11B TVL serving Coinbase, Kraken, Binance"
+      },
+      "children": []
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "risk_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "risk_heading",
+        "risk_text"
+      ]
+    },
+    "risk_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "risk_text": {
+      "type": "Text",
+      "props": {
+        "text": "Apollo acquiring 90M tokens (9% of supply) over 48 months = steady sell pressure; initial +7.5% move on June 9 already priced; today's run may include momentum tourists"
+      },
+      "children": []
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sources_heading",
+        "sources_text",
+        "disclaimer_alert"
+      ]
+    },
+    "sources_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=ok, poly=ok"
+      },
+      "children": []
+    },
+    "disclaimer_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Not financial advice — pattern-matching only"
+      },
+      "children": []
+    }
+  }
+}
