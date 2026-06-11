@@ -1,10 +1,11 @@
-*Daily Pick — 2026-06-10*
+*Daily Pick — 2026-06-11*
 
-*Token: MORPHO*  [HIGH]  signal 8/10
-Price: $2.09 (+15.5% 24h / +8.4% 7d) | mcap $1.35B | vol $31.6M (vol/mcap 0.023)
-Score breakdown: [24h>0 +1, 7d>0 +1, both>5% +2, CG trending#3 +2, RS vs BTC/ETH +2] = 8/10
-Catalyst: $175M raise (Paradigm + a16z + Ribbit, June 9) — DeFi's largest ever funding round; Morpho Midnight fixed-rate institutional lending protocol unveiled June 8; $11B TVL serving Coinbase, Kraken, Binance
-Risk: Apollo acquiring 90M tokens (9% of supply) over 48 months = steady sell pressure; initial +7.5% move on June 9 already priced; today's run may include momentum tourists
+*Token: KITE*  [HIGH]  signal 8/10
+Price: $0.188 (+7.1% 24h / +5.4% 7d) | mcap $439M | vol $45.8M (vol/mcap 0.104)
+Score breakdown: [vol/mcap≥0.10+2, RS vs BTC+ETH+2, both 24h+7d>5%+2, 24h>0+1, 7d>0+1] = 8/10
+Catalyst: Kite AI showcased its Agent Passport — a programmable wallet for autonomous AI agents — at Consensus 2026 this week; PoS EVM L1 backed by $33M from PayPal Ventures + General Catalyst; price recovering after $12.35M token unlock overhang cleared
+Risk: Freshly unlocked token supply may continue weighing on price; AI Agent Payments narrative at WATCH (demoted Jun 10 on IC3/EU regulatory headwinds)
+Vs recent picks: first time
 
-sources: cg=ok, dex=ok, poly=ok
+sources: cg=ok, dex=fail, poly=ok (market SKIP — best: Hurricanes Stanley Cup YES 57.5¢ / fair ~58% / edge <1pp)
 not financial advice — pattern-matching only

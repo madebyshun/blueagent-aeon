@@ -1,0 +1,275 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-11"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token_header",
+        "sep1",
+        "price_stat",
+        "metrics_grid",
+        "sep2",
+        "score_stack",
+        "sep3",
+        "catalyst_stack",
+        "sep4",
+        "risk_stack",
+        "sep5",
+        "picks_stack",
+        "sep6",
+        "sources_stack",
+        "sep7",
+        "disclaimer_text"
+      ]
+    },
+    "token_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token_heading",
+        "high_badge",
+        "signal_badge"
+      ]
+    },
+    "token_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "KITE",
+        "level": "h2"
+      }
+    },
+    "high_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH"
+      }
+    },
+    "signal_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 8/10"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.188",
+        "delta": "+7.1% 24h / +5.4% 7d",
+        "trend": "up"
+      }
+    },
+    "metrics_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "mcap_stat",
+        "vol_stat",
+        "ratio_stat"
+      ]
+    },
+    "mcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "mcap",
+        "value": "$439M"
+      }
+    },
+    "vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "vol",
+        "value": "$45.8M"
+      }
+    },
+    "ratio_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "vol/mcap",
+        "value": "0.104"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "score_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score_heading",
+        "score_text"
+      ]
+    },
+    "score_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score breakdown",
+        "level": "h3"
+      }
+    },
+    "score_text": {
+      "type": "Text",
+      "props": {
+        "text": "vol/mcap≥0.10 +2 | RS vs BTC+ETH +2 | both 24h+7d>5% +2 | 24h>0 +1 | 7d>0 +1 = 8/10"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "catalyst_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst_heading",
+        "catalyst_text"
+      ]
+    },
+    "catalyst_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "Kite AI showcased its Agent Passport — a programmable wallet for autonomous AI agents — at Consensus 2026 this week; PoS EVM L1 backed by $33M from PayPal Ventures + General Catalyst; price recovering after $12.35M token unlock overhang cleared"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "risk_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "risk_heading",
+        "risk_text"
+      ]
+    },
+    "risk_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      }
+    },
+    "risk_text": {
+      "type": "Text",
+      "props": {
+        "text": "Freshly unlocked token supply may continue weighing on price; AI Agent Payments narrative at WATCH (demoted Jun 10 on IC3/EU regulatory headwinds)"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "picks_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "picks_heading",
+        "picks_text"
+      ]
+    },
+    "picks_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Vs recent picks",
+        "level": "h3"
+      }
+    },
+    "picks_text": {
+      "type": "Text",
+      "props": {
+        "text": "first time"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sources_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_heading",
+        "sources_text",
+        "market_text"
+      ]
+    },
+    "sources_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h3"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=fail, poly=ok"
+      }
+    },
+    "market_text": {
+      "type": "Text",
+      "props": {
+        "text": "market SKIP — best: Hurricanes Stanley Cup YES 57.5¢ / fair ~58% / edge <1pp"
+      }
+    },
+    "sep7": {
+      "type": "Separator",
+      "props": {}
+    },
+    "disclaimer_text": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
