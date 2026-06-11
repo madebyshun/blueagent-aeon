@@ -1,0 +1,418 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-11"
+      },
+      "children": [
+        "top_pick_heading",
+        "top_pick_item",
+        "top_pick_desc",
+        "sep1",
+        "aiml_heading",
+        "aiml_stack",
+        "sep2",
+        "devtools_heading",
+        "devtools_stack",
+        "sep3",
+        "sources_text"
+      ]
+    },
+    "top_pick_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "top_pick_item": {
+      "type": "StoryLink",
+      "props": {
+        "title": "kenn-io/agentsview",
+        "href": "https://github.com/kenn-io/agentsview"
+      }
+    },
+    "top_pick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "The most immediately actionable pick today: a local-first Claude Code analytics dashboard pushed this morning, billed as a 100x faster drop-in replacement for ccusage — supports 20+ coding agents.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "aiml_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "agency_agents_item",
+        "skillspector_item",
+        "sia_item"
+      ]
+    },
+    "agency_agents_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "agency_agents_header",
+        "agency_agents_desc"
+      ]
+    },
+    "agency_agents_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "agency_agents_link",
+        "agency_agents_badges"
+      ]
+    },
+    "agency_agents_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "msitarzewski/agency-agents",
+        "href": "https://github.com/msitarzewski/agency-agents",
+        "score": "★ 1,434 today (111k total)"
+      }
+    },
+    "agency_agents_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "agency_agents_lang",
+        "agency_agents_status"
+      ]
+    },
+    "agency_agents_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell",
+        "variant": "secondary"
+      }
+    },
+    "agency_agents_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "agency_agents_desc": {
+      "type": "Text",
+      "props": {
+        "text": "111k-star library of role-specific agent workflows — each persona ships process docs and deliverable templates, not just a system prompt.",
+        "variant": "body"
+      }
+    },
+    "skillspector_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "skillspector_header",
+        "skillspector_desc"
+      ]
+    },
+    "skillspector_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "skillspector_link",
+        "skillspector_badges"
+      ]
+    },
+    "skillspector_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "NVIDIA/SkillSpector",
+        "href": "https://github.com/NVIDIA/SkillSpector",
+        "score": "★ 308 today (2.3k total)"
+      }
+    },
+    "skillspector_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "skillspector_lang",
+        "skillspector_status"
+      ]
+    },
+    "skillspector_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "skillspector_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "skillspector_desc": {
+      "type": "Text",
+      "props": {
+        "text": "NVIDIA's open security scanner for agent skill files — catches prompt injection, tool misuse, and malicious patterns before deployment.",
+        "variant": "body"
+      }
+    },
+    "sia_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sia_header",
+        "sia_desc"
+      ]
+    },
+    "sia_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "sia_link",
+        "sia_badges"
+      ]
+    },
+    "sia_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "hexo-ai/sia",
+        "href": "https://github.com/hexo-ai/sia",
+        "score": "★ 177 today (1k total)"
+      }
+    },
+    "sia_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "sia_lang",
+        "sia_status"
+      ]
+    },
+    "sia_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "sia_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "sia_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Closed-loop benchmark optimizer: SIA runs eval, proposes code patches, validates against benchmark — fully unattended improvement loop.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "devtools_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "agentsview_devtools_item",
+        "tolaria_item"
+      ]
+    },
+    "agentsview_devtools_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "agentsview_devtools_header",
+        "agentsview_devtools_desc"
+      ]
+    },
+    "agentsview_devtools_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "agentsview_devtools_link",
+        "agentsview_devtools_badges"
+      ]
+    },
+    "agentsview_devtools_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "kenn-io/agentsview",
+        "href": "https://github.com/kenn-io/agentsview",
+        "score": "★ 98 today (1.4k total)"
+      }
+    },
+    "agentsview_devtools_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "agentsview_devtools_lang",
+        "agentsview_devtools_status"
+      ]
+    },
+    "agentsview_devtools_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "secondary"
+      }
+    },
+    "agentsview_devtools_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "agentsview_devtools_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Drop-in ccusage replacement — tracks token spend, cost, and session patterns across Claude Code, Codex, and 20+ coding agents; local-first, pushed today.",
+        "variant": "body"
+      }
+    },
+    "tolaria_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tolaria_header",
+        "tolaria_desc"
+      ]
+    },
+    "tolaria_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tolaria_link",
+        "tolaria_badges"
+      ]
+    },
+    "tolaria_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "refactoringhq/tolaria",
+        "href": "https://github.com/refactoringhq/tolaria",
+        "score": "★ 604 today (15k total)"
+      }
+    },
+    "tolaria_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tolaria_lang",
+        "tolaria_status"
+      ]
+    },
+    "tolaria_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "tolaria_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "tolaria_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Native macOS markdown vault desktop app — offline-first, git-friendly; fresh release pushed today (15k stars in 4 months).",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/19",
+        "variant": "caption"
+      }
+    }
+  }
+}

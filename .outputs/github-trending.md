@@ -1,21 +1,24 @@
-*GitHub Trending — 2026-06-10*
+*GitHub Trending — 2026-06-11*
 
-*Top pick* — [apple/container](https://github.com/apple/container)
-Apple's official OCI container runtime for Apple Silicon makes Linux containers a first-class macOS tool — no Docker Desktop, no third-party abstraction layer.
+*Top pick* — [kenn-io/agentsview](https://github.com/kenn-io/agentsview)
+The most immediately actionable pick today: a local-first Claude Code analytics dashboard pushed this morning, billed as a 100x faster drop-in replacement for ccusage — supports 20+ coding agents.
 
 *AI/ML*
-• [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — ★ 1.5k today (84k total) · Python · [ACCELERATING]
-Fully local pipeline: topic → script → TTS narration → timed subtitles → rendered short video, no cloud APIs required.
+• [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) — ★ 1,434 today (111k total) · Shell · [ACCELERATING]
+111k-star library of role-specific agent workflows — each persona ships process docs and deliverable templates, not just a system prompt.
 
-• [ruvnet/RuView](https://github.com/ruvnet/RuView) — ★ 439 today (73k total) · Rust · [RETURNING]
-Uses commodity WiFi hardware to passively detect breathing rate and heart rate — no wearables, no cameras, no sensors.
+• [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) — ★ 308 today (2.3k total) · Python · [ACCELERATING]
+NVIDIA's open security scanner for agent skill files — catches prompt injection, tool misuse, and malicious patterns before deployment.
+
+• [hexo-ai/sia](https://github.com/hexo-ai/sia) — ★ 177 today (1k total) · Python · [ACCELERATING]
+Closed-loop benchmark optimizer: SIA runs eval, proposes code patches, validates against benchmark — fully unattended improvement loop.
 
 *Devtools*
-• [apple/container](https://github.com/apple/container) — ★ 1.4k today (28k total) · Swift · [ACCELERATING]
-Apple-authored OCI runtime for Apple Silicon: run Linux containers at macOS-native memory overhead, no Docker Desktop required.
+• [kenn-io/agentsview](https://github.com/kenn-io/agentsview) — ★ 98 today (1.4k total) · Go · [RETURNING]
+Drop-in ccusage replacement — tracks token spend, cost, and session patterns across Claude Code, Codex, and 20+ coding agents; local-first, pushed today.
 
-• [soxoj/maigret](https://github.com/soxoj/maigret) — ★ 261 today (32k total) · Python · [RETURNING]
-One username → presence report across 3,000+ platforms in minutes; Jun 8 push driving today's spike.
+• [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) — ★ 604 today (15k total) · TypeScript · [ACCELERATING]
+Native macOS markdown vault desktop app — offline-first, git-friendly; fresh release pushed today (15k stars in 4 months).
 
 ---
-sources: trending=ok · gh_api=ok · kept 4/17
+sources: trending=ok · gh_api=ok · kept 5/19
