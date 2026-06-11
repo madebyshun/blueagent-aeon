@@ -1,0 +1,290 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-11"
+      },
+      "children": [
+        "focus-heading",
+        "focus-stack",
+        "sep1",
+        "since-heading",
+        "since-stack",
+        "sep2",
+        "watch-heading",
+        "watch-stack",
+        "sep3",
+        "running-heading",
+        "running-stack"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Re-enable security-digest — 3 KEVs added Jun 9 still unseen; config flip is one line",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Update MEMORY.md priorities — 3+ weeks stale; all listed goals done; downstream quality degrades daily",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. XAI 403 still unresolved — narrative-tracker runs 13:30 UTC today; AP4M launch makes clean data higher-value",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "since-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "since-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "morpho-stack",
+        "security-digest-text",
+        "narrative-tracker-stack",
+        "ai-agent-text"
+      ]
+    },
+    "morpho-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "morpho-stat",
+        "morpho-detail"
+      ]
+    },
+    "morpho-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "MORPHO",
+        "value": "15.5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "morpho-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Jun 10, trending #3 — Institutional DeFi/Onchain Credit confirmed FRONT-RUN",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "security-digest-text": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest ran successfully Jun 10 — 3 KEV adds (Arista EOS, Chrome V8, Cisco SD-WAN); still disabled in config",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "narrative-tracker-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "narrative-label",
+        "narrative-progress-bar"
+      ]
+    },
+    "narrative-label": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker ran quality_score 4/10 — XAI 403 persists; WebSearch fallback held",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "narrative-progress-bar": {
+      "type": "Progress",
+      "props": {
+        "value": 4,
+        "max": 10,
+        "label": "quality_score"
+      },
+      "children": []
+    },
+    "ai-agent-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments: RIDE→WATCH — IC3 UAA study + IMF Note frame agents as systemic risk; EU AI Act Aug 2",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-item-1"
+      ]
+    },
+    "watch-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Mastercard AP4M launch Jun 11 — 31 partners (Coinbase, Stripe, Adyen); Base/Polygon/Solana rails — counter-narrative to IC3 bear on AI Agent Payments (focus #3)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "running-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "running-4-text",
+        "running-4-badge"
+      ]
+    },
+    "running-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "running-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "XAI fallback",
+        "variant": "warning"
+      },
+      "children": []
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 / 14:00 / 20:00 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

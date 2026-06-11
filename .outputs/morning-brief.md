@@ -1,18 +1,18 @@
-*Morning Brief — 2026-06-10*
+*Morning Brief — 2026-06-11*
 
 *Focus today*
-1. Resolve XAI 403 before 13:30 UTC — why now: day 10, narrative-tracker runs today, free fix via data-sharing enrollment
-2. Re-enable security-digest in aeon.yml — why now: confirmed healthy Jun 9; CVE gap grows daily without config flip
-3. Update MEMORY.md priorities — why now: 3 weeks stale, all listed goals done, flagged yesterday and still not done
+1. Re-enable security-digest — 3 KEVs added Jun 9 still unseen; config flip is one line
+2. Update MEMORY.md priorities — 3+ weeks stale; all listed goals done; downstream quality degrades daily
+3. XAI 403 still unresolved — narrative-tracker runs 13:30 UTC today; AP4M launch makes clean data higher-value
 
 *Since yesterday*
-- [moved] token-movers: hard risk-off — KTA +33.4%, VELVET +25.2%, H −70.0% (capitulation)
-- [moved] narrative-tracker (WebSearch fallback): AI Agent Payments → Peak; AI Crypto Infrastructure → RIDE
-- [moved] security-digest: LiteLLM EPSS 0.61 (authenticated MCP RCE), nebula-mesh CVSS 9.9 cluster
-- [moved] token-pick: VELVET +24.9%, Starmer market — flag NO at 75.5¢
+- MORPHO +15.5% Jun 10, trending #3 — Institutional DeFi/Onchain Credit confirmed FRONT-RUN
+- security-digest ran successfully Jun 10 — 3 KEV adds (Arista EOS, Chrome V8, Cisco SD-WAN); still disabled in config
+- narrative-tracker ran quality_score 4/10 — XAI 403 persists; WebSearch fallback held
+- AI Agent Payments: RIDE→WATCH — IC3 UAA study + IMF Note frame agents as systemic risk; EU AI Act Aug 2
 
 *Watch*
-- IC3 study on Unstoppable Autonomous Agents (Jun 8): wallet-accessing UAAs framed as systemic risk — potential headwind for AI Agent Payments (Peak) if regulatory framing takes hold
+- Mastercard AP4M launch Jun 11 — 31 partners (Coinbase, Stripe, Adyen); Base/Polygon/Solana rails — counter-narrative to IC3 bear on AI Agent Payments (focus #3)
 
 *Running today*
 - github-monitor @ 09:00 UTC
