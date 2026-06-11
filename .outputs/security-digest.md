@@ -1,36 +1,28 @@
-*Security Digest — 2026-06-10*
-Verdict: 3 actively exploited, 5 to schedule. _Sources: KEV, GH Advisory, EPSS_
-
-*PATCH TODAY*
-- [CVE-2026-7473](https://nvd.nist.gov/vuln/detail/CVE-2026-7473) — Arista EOS · KEV 2026-06-09 · EPSS 0.22 · CVSS n/a
-  Tunnel decap incomplete comparison; actively exploited in the wild.
-  → apply Arista EOS vendor patch today.
-
-- [CVE-2026-11645](https://nvd.nist.gov/vuln/detail/CVE-2026-11645) — Google Chromium V8 · KEV 2026-06-09 · EPSS 0.05 · CVSS n/a
-  Out-of-bounds RCE via crafted HTML; all Chromium-based browsers affected.
-  → update Chrome/Edge/Brave to latest release today.
-
-- [CVE-2026-20245](https://nvd.nist.gov/vuln/detail/CVE-2026-20245) — Cisco Catalyst SD-WAN Manager · KEV 2026-06-09 · EPSS 0.003 · CVSS n/a
-  Authenticated local command injection escalates to root.
-  → apply Cisco SD-WAN Manager patch today.
+*Security Digest — 2026-06-11*
+Verdict: nothing urgent today. 3 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH THIS WEEK*
-- [GHSA-wm5r-5qp3-5vxf](https://github.com/advisories/GHSA-wm5r-5qp3-5vxf) — dbgate-api (npm) · CVSS 9.4 · EPSS n/a · no public PoC
-  Authenticated RCE via loadReader functionName code injection.
-  → upgrade dbgate-api to ≥7.1.9.
+- CVE-2026-48039 (GHSA-9gw6-46qc-99vr) — meta-ads-mcp (pip) · CVSS 9.1 · EPSS 0 · public PoC
+  Unauth POST to /mcp leaks operator Meta Access Token; full Meta Ads API takeover possible.
+  -> upgrade meta-ads-mcp to >=1.0.109.
 
-- [GHSA-mqq6-462x-jxmm](https://github.com/advisories/GHSA-mqq6-462x-jxmm) — go-base (Go) · CVSS 9.1 · EPSS n/a
-  Hardcoded JWT secret allows token forgery by any user.
-  → upgrade github.com/dhax/go-base to ≥0.0.0-20260517152733.
+- CVE-2026-48054 (GHSA-4x76-22x2-rx8v) — @openzeppelin/wizard (npm) · CVSS 8.8 · EPSS 0 · no public PoC
+  Code injection in generated Hardhat/Foundry tests via unsanitized opts.name/opts.uri; arbitrary code on npm test.
+  -> upgrade @openzeppelin/wizard to >=0.10.9.
 
-- [GHSA-7qjx-gp9h-65qj](https://github.com/advisories/GHSA-7qjx-gp9h-65qj) — dex (Go) · CVSS 8.7 · EPSS n/a · no public PoC
-  Token-exchange endpoint skips AllowedConnectors enforcement; auth bypass.
-  → upgrade github.com/dexidp/dex to ≥0.0.0-20260303131938.
+- CVE-2026-48060 (GHSA-542p-wvx7-72m4) — litestar (pip) · CVSS 8.1 · EPSS 0 · public PoC
+  HTML injection via poisoned CSRF cookie escalates to XSS; credential theft and phishing possible.
+  -> upgrade litestar to >=2.22.0.
 
-- [GHSA-9vc9-4jv3-rf86](https://github.com/advisories/GHSA-9vc9-4jv3-rf86) — @hulumi/policies (npm) · CVSS 8.5 · EPSS n/a
-  HULUMI-H5 policy bypassed via decoy sibling resource targeting different bucket.
-  → upgrade @hulumi/policies to ≥1.4.0.
+*MONITOR*
+- CVE-2026-48020 (GHSA-xf64-8mw2-4gr2) — traefik v2+v3 (Go) · high · no CVSS · EPSS 0
+  StripPrefix auth bypass via path normalization skips middleware on protected routes; no patch yet.
+  -> track GHSA-xf64-8mw2-4gr2; avoid StripPrefix on auth-critical routes until patched.
 
-- [GHSA-rhgj-6g2c-frmm](https://github.com/advisories/GHSA-rhgj-6g2c-frmm) — @hulumi/policies (npm) · CVSS 8.4 · EPSS n/a
-  Policy bypass via forged Pulumi-URN logical name.
-  → upgrade @hulumi/policies to ≥1.4.0.
+- CVE-2026-48068/48069 (GHSA-5375-pq7m-f5r2 + GHSA-99f4-grh7-6pcq) — @grpc/grpc-js (npm) · CVSS 7.5 · EPSS 0
+  Two crash-on-receipt bugs: malformed request kills servers; compressed message kills clients. No patch yet.
+  -> track both GHSAs.
+
+- CVE-2026-47781 (GHSA-qq6c-99pv-prvf) — pdm (pip) · high · no CVSS · EPSS 0
+  Project-controlled .pdm-plugins executes before CLI arg parsing; malicious repo clones run code on install.
+  -> track GHSA-qq6c-99pv-prvf; audit untrusted pdm projects; no patch yet.

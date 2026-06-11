@@ -1,0 +1,546 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-06-11"
+      },
+      "children": [
+        "header_stack",
+        "sep1",
+        "patch_section",
+        "sep2",
+        "monitor_section"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "verdict_text",
+        "sources_text"
+      ]
+    },
+    "verdict_text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: nothing urgent today. 3 to schedule, 3 to monitor.",
+        "variant": "lead"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV, GH Advisory, EPSS",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch_heading",
+        "cve_48039",
+        "cve_48054",
+        "cve_48060"
+      ]
+    },
+    "patch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "cve_48039": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_48039_heading",
+        "cve_48039_meta",
+        "cve_48039_desc",
+        "cve_48039_action"
+      ]
+    },
+    "cve_48039_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-48039 (GHSA-9gw6-46qc-99vr)",
+        "level": "h3"
+      }
+    },
+    "cve_48039_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_48039_pkg",
+        "cve_48039_cvss",
+        "cve_48039_epss",
+        "cve_48039_poc"
+      ]
+    },
+    "cve_48039_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "meta-ads-mcp (pip)",
+        "variant": "secondary"
+      }
+    },
+    "cve_48039_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.1",
+        "variant": "destructive"
+      }
+    },
+    "cve_48039_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0",
+        "variant": "default"
+      }
+    },
+    "cve_48039_poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "outline"
+      }
+    },
+    "cve_48039_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth POST to /mcp leaks operator Meta Access Token; full Meta Ads API takeover possible.",
+        "variant": "body"
+      }
+    },
+    "cve_48039_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: upgrade meta-ads-mcp to >=1.0.109",
+        "variant": "caption"
+      }
+    },
+    "cve_48054": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_48054_heading",
+        "cve_48054_meta",
+        "cve_48054_desc",
+        "cve_48054_action"
+      ]
+    },
+    "cve_48054_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-48054 (GHSA-4x76-22x2-rx8v)",
+        "level": "h3"
+      }
+    },
+    "cve_48054_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_48054_pkg",
+        "cve_48054_cvss",
+        "cve_48054_epss",
+        "cve_48054_poc"
+      ]
+    },
+    "cve_48054_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "@openzeppelin/wizard (npm)",
+        "variant": "secondary"
+      }
+    },
+    "cve_48054_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8",
+        "variant": "destructive"
+      }
+    },
+    "cve_48054_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0",
+        "variant": "default"
+      }
+    },
+    "cve_48054_poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no public PoC",
+        "variant": "outline"
+      }
+    },
+    "cve_48054_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Code injection in generated Hardhat/Foundry tests via unsanitized opts.name/opts.uri; arbitrary code on npm test.",
+        "variant": "body"
+      }
+    },
+    "cve_48054_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: upgrade @openzeppelin/wizard to >=0.10.9",
+        "variant": "caption"
+      }
+    },
+    "cve_48060": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_48060_heading",
+        "cve_48060_meta",
+        "cve_48060_desc",
+        "cve_48060_action"
+      ]
+    },
+    "cve_48060_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-48060 (GHSA-542p-wvx7-72m4)",
+        "level": "h3"
+      }
+    },
+    "cve_48060_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_48060_pkg",
+        "cve_48060_cvss",
+        "cve_48060_epss",
+        "cve_48060_poc"
+      ]
+    },
+    "cve_48060_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "litestar (pip)",
+        "variant": "secondary"
+      }
+    },
+    "cve_48060_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "destructive"
+      }
+    },
+    "cve_48060_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0",
+        "variant": "default"
+      }
+    },
+    "cve_48060_poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "outline"
+      }
+    },
+    "cve_48060_desc": {
+      "type": "Text",
+      "props": {
+        "text": "HTML injection via poisoned CSRF cookie escalates to XSS; credential theft and phishing possible.",
+        "variant": "body"
+      }
+    },
+    "cve_48060_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: upgrade litestar to >=2.22.0",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "monitor_heading",
+        "cve_48020",
+        "cve_48068_69",
+        "cve_47781"
+      ]
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "cve_48020": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_48020_heading",
+        "cve_48020_meta",
+        "cve_48020_desc",
+        "cve_48020_action"
+      ]
+    },
+    "cve_48020_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-48020 (GHSA-xf64-8mw2-4gr2)",
+        "level": "h3"
+      }
+    },
+    "cve_48020_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_48020_pkg",
+        "cve_48020_sev",
+        "cve_48020_epss",
+        "cve_48020_patch"
+      ]
+    },
+    "cve_48020_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "traefik v2+v3 (Go)",
+        "variant": "secondary"
+      }
+    },
+    "cve_48020_sev": {
+      "type": "Badge",
+      "props": {
+        "text": "high",
+        "variant": "destructive"
+      }
+    },
+    "cve_48020_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0",
+        "variant": "default"
+      }
+    },
+    "cve_48020_patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch yet",
+        "variant": "outline"
+      }
+    },
+    "cve_48020_desc": {
+      "type": "Text",
+      "props": {
+        "text": "StripPrefix auth bypass via path normalization skips middleware on protected routes.",
+        "variant": "body"
+      }
+    },
+    "cve_48020_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: track GHSA-xf64-8mw2-4gr2; avoid StripPrefix on auth-critical routes until patched.",
+        "variant": "caption"
+      }
+    },
+    "cve_48068_69": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_48068_69_heading",
+        "cve_48068_69_meta",
+        "cve_48068_69_desc",
+        "cve_48068_69_action"
+      ]
+    },
+    "cve_48068_69_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-48068/48069 (GHSA-5375-pq7m-f5r2 + GHSA-99f4-grh7-6pcq)",
+        "level": "h3"
+      }
+    },
+    "cve_48068_69_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_48068_69_pkg",
+        "cve_48068_69_cvss",
+        "cve_48068_69_epss",
+        "cve_48068_69_patch"
+      ]
+    },
+    "cve_48068_69_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "@grpc/grpc-js (npm)",
+        "variant": "secondary"
+      }
+    },
+    "cve_48068_69_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "destructive"
+      }
+    },
+    "cve_48068_69_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0",
+        "variant": "default"
+      }
+    },
+    "cve_48068_69_patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch yet",
+        "variant": "outline"
+      }
+    },
+    "cve_48068_69_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Two crash-on-receipt bugs: malformed request kills servers; compressed message kills clients.",
+        "variant": "body"
+      }
+    },
+    "cve_48068_69_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: track both GHSAs.",
+        "variant": "caption"
+      }
+    },
+    "cve_47781": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_47781_heading",
+        "cve_47781_meta",
+        "cve_47781_desc",
+        "cve_47781_action"
+      ]
+    },
+    "cve_47781_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-47781 (GHSA-qq6c-99pv-prvf)",
+        "level": "h3"
+      }
+    },
+    "cve_47781_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_47781_pkg",
+        "cve_47781_sev",
+        "cve_47781_epss",
+        "cve_47781_patch"
+      ]
+    },
+    "cve_47781_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "pdm (pip)",
+        "variant": "secondary"
+      }
+    },
+    "cve_47781_sev": {
+      "type": "Badge",
+      "props": {
+        "text": "high",
+        "variant": "destructive"
+      }
+    },
+    "cve_47781_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0",
+        "variant": "default"
+      }
+    },
+    "cve_47781_patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch yet",
+        "variant": "outline"
+      }
+    },
+    "cve_47781_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Project-controlled .pdm-plugins executes before CLI arg parsing; malicious repo clones run code on install.",
+        "variant": "body"
+      }
+    },
+    "cve_47781_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: track GHSA-qq6c-99pv-prvf; audit untrusted pdm projects; no patch yet.",
+        "variant": "caption"
+      }
+    }
+  }
+}
