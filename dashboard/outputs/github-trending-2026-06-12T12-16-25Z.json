@@ -1,0 +1,352 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending"
+      },
+      "children": [
+        "date-text",
+        "sep1",
+        "top-pick-section",
+        "sep2",
+        "ai-ml-section",
+        "sep3",
+        "devtools-section",
+        "sep4",
+        "infra-section",
+        "sep5",
+        "web-apps-section",
+        "sep6",
+        "status-text"
+      ]
+    },
+    "date-text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-12",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-label",
+        "top-pick-item"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h3"
+      }
+    },
+    "top-pick-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "obra-superpowers-link",
+        "top-pick-desc"
+      ]
+    },
+    "obra-superpowers-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "obra/superpowers",
+        "href": "https://github.com/obra/superpowers",
+        "score": "225k stars in 8 months"
+      }
+    },
+    "top-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "The agentic dev methodology that's become the default starting point for multi-agent coding workflows."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai-ml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-heading",
+        "openmed-item"
+      ]
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "openmed-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "openmed-link",
+        "openmed-meta",
+        "openmed-badge",
+        "openmed-desc"
+      ]
+    },
+    "openmed-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "maziyarpanahi/openmed",
+        "href": "https://github.com/maziyarpanahi/openmed"
+      }
+    },
+    "openmed-meta": {
+      "type": "Text",
+      "props": {
+        "text": "★ 517 today (3k total) · Python",
+        "variant": "caption"
+      }
+    },
+    "openmed-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "openmed-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Local-first clinical NLP — 1,000+ biomedical models, HIPAA de-id across 12 languages, zero patient data egress."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-superpowers-item"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-superpowers-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-superpowers-link",
+        "devtools-superpowers-meta",
+        "devtools-superpowers-badge",
+        "devtools-superpowers-desc"
+      ]
+    },
+    "devtools-superpowers-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "obra/superpowers",
+        "href": "https://github.com/obra/superpowers"
+      }
+    },
+    "devtools-superpowers-meta": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1,276 today (226k total) · Shell",
+        "variant": "caption"
+      }
+    },
+    "devtools-superpowers-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "devtools-superpowers-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Turns any AI coding agent into a structured dev teammate — spec-validate-plan-TDD loop, works across Claude Code, Codex, Cursor."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "infra-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra-heading",
+        "restic-item"
+      ]
+    },
+    "infra-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "restic-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "restic-link",
+        "restic-meta",
+        "restic-badge",
+        "restic-desc"
+      ]
+    },
+    "restic-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "restic/restic",
+        "href": "https://github.com/restic/restic"
+      }
+    },
+    "restic-meta": {
+      "type": "Text",
+      "props": {
+        "text": "★ 307 today (34k total) · Go",
+        "variant": "caption"
+      }
+    },
+    "restic-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "restic-desc": {
+      "type": "Text",
+      "props": {
+        "text": "v0.19.0 patches SFTP repo directory permissions to 0700 — a silent security gap on shared backup hosts."
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "web-apps-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web-apps-heading",
+        "chatwoot-item"
+      ]
+    },
+    "web-apps-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "chatwoot-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "chatwoot-link",
+        "chatwoot-meta",
+        "chatwoot-badge",
+        "chatwoot-desc"
+      ]
+    },
+    "chatwoot-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chatwoot/chatwoot",
+        "href": "https://github.com/chatwoot/chatwoot"
+      }
+    },
+    "chatwoot-meta": {
+      "type": "Text",
+      "props": {
+        "text": "★ 437 today (31k total) · Ruby",
+        "variant": "caption"
+      }
+    },
+    "chatwoot-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "chatwoot-desc": {
+      "type": "Text",
+      "props": {
+        "text": "v4.14.2 adds WhatsApp voice message playback and Twilio call controls — closes gaps vs. paid support tools."
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/19",
+        "variant": "muted"
+      }
+    }
+  }
+}

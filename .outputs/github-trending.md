@@ -1,24 +1,23 @@
-*GitHub Trending — 2026-06-11*
+*GitHub Trending — 2026-06-12*
 
-*Top pick* — [kenn-io/agentsview](https://github.com/kenn-io/agentsview)
-The most immediately actionable pick today: a local-first Claude Code analytics dashboard pushed this morning, billed as a 100x faster drop-in replacement for ccusage — supports 20+ coding agents.
+*Top pick* — [obra/superpowers](https://github.com/obra/superpowers)
+225k stars in 8 months and still accelerating — the agentic dev methodology that's become the default starting point for multi-agent coding workflows.
 
 *AI/ML*
-• [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) — ★ 1,434 today (111k total) · Shell · [ACCELERATING]
-111k-star library of role-specific agent workflows — each persona ships process docs and deliverable templates, not just a system prompt.
-
-• [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) — ★ 308 today (2.3k total) · Python · [ACCELERATING]
-NVIDIA's open security scanner for agent skill files — catches prompt injection, tool misuse, and malicious patterns before deployment.
-
-• [hexo-ai/sia](https://github.com/hexo-ai/sia) — ★ 177 today (1k total) · Python · [ACCELERATING]
-Closed-loop benchmark optimizer: SIA runs eval, proposes code patches, validates against benchmark — fully unattended improvement loop.
+• [maziyarpanahi/openmed](https://github.com/maziyarpanahi/openmed) — ★ 517 today (3k total) · Python · [RETURNING]
+Local-first clinical NLP — 1,000+ biomedical models, HIPAA de-id across 12 languages, zero patient data egress.
 
 *Devtools*
-• [kenn-io/agentsview](https://github.com/kenn-io/agentsview) — ★ 98 today (1.4k total) · Go · [RETURNING]
-Drop-in ccusage replacement — tracks token spend, cost, and session patterns across Claude Code, Codex, and 20+ coding agents; local-first, pushed today.
+• [obra/superpowers](https://github.com/obra/superpowers) — ★ 1,276 today (226k total) · Shell · [ACCELERATING]
+Turns any AI coding agent into a structured dev teammate — spec-validate-plan-TDD loop, works across Claude Code, Codex, Cursor.
 
-• [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) — ★ 604 today (15k total) · TypeScript · [ACCELERATING]
-Native macOS markdown vault desktop app — offline-first, git-friendly; fresh release pushed today (15k stars in 4 months).
+*Infra*
+• [restic/restic](https://github.com/restic/restic) — ★ 307 today (34k total) · Go · [RETURNING]
+v0.19.0 patches SFTP repo directory permissions to 0700 — a silent security gap on shared backup hosts.
+
+*Web/Apps*
+• [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) — ★ 437 today (31k total) · Ruby · [RETURNING]
+v4.14.2 adds WhatsApp voice message playback and Twilio call controls — closes gaps vs. paid support tools.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/19
+sources: trending=ok · gh_api=ok · kept 4/19
