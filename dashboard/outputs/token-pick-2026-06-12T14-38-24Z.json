@@ -1,0 +1,316 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-12"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_row",
+        "sep_1",
+        "price_section",
+        "market_section",
+        "sep_2",
+        "score_section",
+        "sep_3",
+        "catalyst_section",
+        "sep_4",
+        "risk_alert",
+        "sep_5",
+        "sources_section"
+      ]
+    },
+    "header_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token_heading",
+        "badge_high",
+        "signal_stat"
+      ]
+    },
+    "token_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "DOGE",
+        "level": "h2"
+      }
+    },
+    "badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "signal_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "8/10"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "price_title",
+        "price_main",
+        "price_changes_row"
+      ]
+    },
+    "price_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Price",
+        "level": "h3"
+      }
+    },
+    "price_main": {
+      "type": "Stat",
+      "props": {
+        "value": "$0.0898"
+      }
+    },
+    "price_changes_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "change_24h",
+        "change_7d"
+      ]
+    },
+    "change_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+5.7%",
+        "trend": "up"
+      }
+    },
+    "change_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+8.2%",
+        "trend": "up"
+      }
+    },
+    "market_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_title",
+        "market_grid"
+      ]
+    },
+    "market_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Data",
+        "level": "h3"
+      }
+    },
+    "market_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "mcap_stat",
+        "vol_stat",
+        "vol_mcap_stat"
+      ]
+    },
+    "mcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$13.9B"
+      }
+    },
+    "vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$913M"
+      }
+    },
+    "vol_mcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/MCap Ratio",
+        "value": "0.066"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "score_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score_title",
+        "score_text"
+      ]
+    },
+    "score_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      }
+    },
+    "score_text": {
+      "type": "Text",
+      "props": {
+        "text": "CG trending +2 | Both >5% +2 | RS vs BTC/ETH +2 | 24h >0 +1 | 7d >0 +1 = 8/10",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalyst_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst_title",
+        "catalyst_1",
+        "catalyst_2",
+        "catalyst_3"
+      ]
+    },
+    "catalyst_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "catalyst_1": {
+      "type": "Text",
+      "props": {
+        "text": "SpaceX IPO pricing today (Jun 12) — Elon sentiment engine firing",
+        "variant": "body"
+      }
+    },
+    "catalyst_2": {
+      "type": "Text",
+      "props": {
+        "text": "200M DOGE whale accumulation past week ($17.2M at support)",
+        "variant": "body"
+      }
+    },
+    "catalyst_3": {
+      "type": "Text",
+      "props": {
+        "text": "DOGE spot ETF net inflows +29% cumulative since May 1",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "risk_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk Factors",
+        "message": "Musk-catalyst pops historically fade < 48h; DOGE bouncing off multi-year low with structural resistance at $0.10; vol/mcap 0.066 is lower than prior HIGH picks",
+        "type": "warning"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_title",
+        "sources_list",
+        "sep_6",
+        "disclaimer"
+      ]
+    },
+    "sources_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Data Sources",
+        "level": "h3"
+      }
+    },
+    "sources_list": {
+      "type": "Text",
+      "props": {
+        "text": "CoinGecko: OK | Dex Screener: FAIL | Polygon: OK (no qualifying market — best non-deduped 24h vol $2.3k)",
+        "variant": "body"
+      }
+    },
+    "sep_6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "caption"
+      }
+    }
+  }
+}
