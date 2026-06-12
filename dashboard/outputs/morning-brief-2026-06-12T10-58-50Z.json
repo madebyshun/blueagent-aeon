@@ -1,0 +1,243 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-12"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "yesterday_section",
+        "sep2",
+        "watch_section",
+        "sep3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_heading",
+        "focus_item1",
+        "focus_item2",
+        "focus_item3"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      }
+    },
+    "focus_item1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Fix or escalate XAI 403 — day 12; EU AI Act Aug 2 in 51 days = peak narrative signal window",
+        "variant": "body"
+      }
+    },
+    "focus_item2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Rewrite MEMORY.md Next Priorities — listed goals are done; stale context corrupts every skill run",
+        "variant": "body"
+      }
+    },
+    "focus_item3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Confirm security-digest auto-schedule — aeon.yml shows disabled; KEVs accumulate silently",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_heading",
+        "beat_stat",
+        "velvet_stat",
+        "morpho_stat",
+        "kite_item",
+        "narrative_item",
+        "security_item"
+      ]
+    },
+    "yesterday_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h3"
+      }
+    },
+    "beat_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BEAT",
+        "value": "+57.6%",
+        "delta": "+553% (7d)",
+        "trend": "up"
+      }
+    },
+    "velvet_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "VELVET",
+        "value": "+88.9%",
+        "delta": "spike",
+        "trend": "up"
+      }
+    },
+    "morpho_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "MORPHO",
+        "value": "−7.4%",
+        "delta": "from +15.5%",
+        "trend": "down"
+      }
+    },
+    "kite_item": {
+      "type": "Text",
+      "props": {
+        "text": "KITE picked score 8/10: Agent Passport at Consensus 2026, $33M raise, overhang cleared",
+        "variant": "body"
+      }
+    },
+    "narrative_item": {
+      "type": "Text",
+      "props": {
+        "text": "Narrative-tracker: AI Agent Payments → RIDE (AP4M live); Privacy/ZK → Fading (ZEC vuln)",
+        "variant": "body"
+      }
+    },
+    "security_item": {
+      "type": "Text",
+      "props": {
+        "text": "Security: 0 PATCH TODAY; traefik StripPrefix auth bypass highest-impact unpatched MONITOR item",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_heading",
+        "watch_item"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h3"
+      }
+    },
+    "watch_item": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase for Agents launched Jun 11: Claude/ChatGPT can now trade crypto via x402 (173M tx on Base) — AI Agent Payments moving from infrastructure to consumer layer faster than AP4M timeline implies",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running_heading",
+        "running_item1",
+        "running_item2",
+        "running_item3",
+        "running_item4",
+        "running_item5"
+      ]
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h3"
+      }
+    },
+    "running_item1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}

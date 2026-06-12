@@ -1,22 +1,22 @@
-*Morning Brief — 2026-06-11*
+*Morning Brief — 2026-06-12*
 
 *Focus today*
-1. Re-enable security-digest — 3 KEVs added Jun 9 still unseen; config flip is one line
-2. Update MEMORY.md priorities — 3+ weeks stale; all listed goals done; downstream quality degrades daily
-3. XAI 403 still unresolved — narrative-tracker runs 13:30 UTC today; AP4M launch makes clean data higher-value
+1. Fix or escalate XAI 403 — day 12; EU AI Act Aug 2 in 51 days = peak narrative signal window
+2. Rewrite MEMORY.md Next Priorities — listed goals are done; stale context corrupts every skill run
+3. Confirm security-digest auto-schedule — aeon.yml shows disabled; KEVs accumulate silently
 
 *Since yesterday*
-- MORPHO +15.5% Jun 10, trending #3 — Institutional DeFi/Onchain Credit confirmed FRONT-RUN
-- security-digest ran successfully Jun 10 — 3 KEV adds (Arista EOS, Chrome V8, Cisco SD-WAN); still disabled in config
-- narrative-tracker ran quality_score 4/10 — XAI 403 persists; WebSearch fallback held
-- AI Agent Payments: RIDE→WATCH — IC3 UAA study + IMF Note frame agents as systemic risk; EU AI Act Aug 2
+- BEAT +57.6% (7d +553%) breakout; VELVET +88.9% spike; MORPHO reversal −7.4% from +15.5%
+- KITE picked score 8/10: Agent Passport at Consensus 2026, $33M raise, overhang cleared
+- Narrative-tracker: AI Agent Payments → RIDE (AP4M live); Privacy/ZK → Fading (ZEC vuln)
+- Security: 0 PATCH TODAY; traefik StripPrefix auth bypass highest-impact unpatched MONITOR item
 
 *Watch*
-- Mastercard AP4M launch Jun 11 — 31 partners (Coinbase, Stripe, Adyen); Base/Polygon/Solana rails — counter-narrative to IC3 bear on AI Agent Payments (focus #3)
+- Coinbase for Agents launched Jun 11: Claude/ChatGPT can now trade crypto via x402 (173M tx on Base) — AI Agent Payments moving from infrastructure to consumer layer faster than AP4M timeline implies
 
 *Running today*
+- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
-- narrative-tracker @ 13:30 UTC ⚠️ XAI fallback
-- heartbeat @ 08:00 / 14:00 / 20:00 UTC
+- narrative-tracker @ 13:30 UTC
