@@ -1,0 +1,288 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-13"
+      },
+      "children": [
+        "stack_header",
+        "sep_1",
+        "grid_price",
+        "sep_2",
+        "stack_score",
+        "sep_3",
+        "stack_catalyst",
+        "sep_4",
+        "stack_risk",
+        "sep_5",
+        "stack_notes"
+      ]
+    },
+    "stack_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading_token",
+        "badge_signal",
+        "badge_score"
+      ]
+    },
+    "heading_token": {
+      "type": "Heading",
+      "props": {
+        "text": "TAO",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_score": {
+      "type": "Badge",
+      "props": {
+        "text": "10/10",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "grid_price": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_price",
+        "stat_24h",
+        "stat_7d",
+        "stat_mcap",
+        "stat_vol",
+        "stat_volmcap"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$248"
+      },
+      "children": []
+    },
+    "stat_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+17.6%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+29.0%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$2.4B"
+      },
+      "children": []
+    },
+    "stat_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$265M"
+      },
+      "children": []
+    },
+    "stat_volmcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap Ratio",
+        "value": "0.11"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_score",
+        "text_score"
+      ]
+    },
+    "heading_score": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_score": {
+      "type": "Text",
+      "props": {
+        "text": "trending +2, 24h>0 +1, 7d>0 +1, both>5% +2, vol/mcap +2, RS BTC/ETH +2 = 10/10",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_catalyst",
+        "text_catalyst_1",
+        "text_catalyst_2",
+        "text_catalyst_3"
+      ]
+    },
+    "heading_catalyst": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_catalyst_1": {
+      "type": "Text",
+      "props": {
+        "text": "NYSE Arca approved Grayscale Bittensor Trust for in-kind creation/redemption (Apr 8-K); S-1/A amendment active — ETF conversion from OTC trust to listed product in final SEC review stage",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_catalyst_2": {
+      "type": "Text",
+      "props": {
+        "text": "34% MoM validator growth",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_catalyst_3": {
+      "type": "Text",
+      "props": {
+        "text": "128 active subnets",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "alert_risk"
+      ]
+    },
+    "alert_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "ETF registration not yet effective (S-1/A subject to completion); +29% 7d suggests partial pricing-in; 128-subnet complexity is execution risk",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_notes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_vs_recent",
+        "text_sources",
+        "text_disclaimer"
+      ]
+    },
+    "text_vs_recent": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
