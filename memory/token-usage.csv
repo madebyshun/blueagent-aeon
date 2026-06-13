@@ -61,3 +61,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-12,token-movers,claude-sonnet-4-6,49,26614,2755837,66036
 2026-06-13,morning-brief,claude-sonnet-4-6,12,5946,324242,28757
 2026-06-13,github-trending,claude-sonnet-4-6,14,20389,435465,44558
+2026-06-13,defi-monitor,claude-sonnet-4-6,6,1170,132119,12128
