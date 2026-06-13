@@ -1,0 +1,755 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-06-13"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-verdict",
+        "text-sources",
+        "sep-1",
+        "heading-patch-today",
+        "stack-patch-today",
+        "sep-2",
+        "heading-patch-week",
+        "stack-patch-week",
+        "sep-3",
+        "heading-monitor",
+        "stack-monitor"
+      ]
+    },
+    "text-verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 3 actively exploited, 5 to schedule, 3 to monitor.",
+        "variant": "lead"
+      }
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: CISA KEV · GH Advisory · EPSS",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-patch-today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "stack-patch-today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "vuln-1",
+        "vuln-2",
+        "vuln-3",
+        "text-kev-also"
+      ]
+    },
+    "vuln-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title-1",
+        "meta-1",
+        "desc-1",
+        "remediation-1"
+      ]
+    },
+    "title-1": {
+      "type": "Text",
+      "props": {
+        "text": "CVE-2026-42271 — BerriAI LiteLLM (pip)",
+        "variant": "lead"
+      }
+    },
+    "meta-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-1",
+        "badge-epss-1",
+        "badge-due-1"
+      ]
+    },
+    "badge-kev-1": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-06-08",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-1": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.61",
+        "variant": "secondary"
+      }
+    },
+    "badge-due-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Due 2026-06-22",
+        "variant": "outline"
+      }
+    },
+    "desc-1": {
+      "type": "Text",
+      "props": {
+        "text": "Command injection: low-priv API keys execute arbitrary host commands. Confirmed exploited per CISA."
+      }
+    },
+    "remediation-1": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade litellm today; verify no staging exposure."
+      }
+    },
+    "vuln-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title-2",
+        "meta-2",
+        "desc-2",
+        "remediation-2"
+      ]
+    },
+    "title-2": {
+      "type": "Text",
+      "props": {
+        "text": "CVE-2026-10520 — Ivanti Sentry",
+        "variant": "lead"
+      }
+    },
+    "meta-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-2",
+        "badge-due-2"
+      ]
+    },
+    "badge-kev-2": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-06-11",
+        "variant": "destructive"
+      }
+    },
+    "badge-due-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Due TOMORROW 2026-06-14",
+        "variant": "destructive"
+      }
+    },
+    "desc-2": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated OS command injection → root RCE on unmanaged appliances."
+      }
+    },
+    "remediation-2": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Ivanti Sentry patch before Jun 14 BOD deadline."
+      }
+    },
+    "vuln-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title-3",
+        "meta-3",
+        "desc-3",
+        "remediation-3"
+      ]
+    },
+    "title-3": {
+      "type": "Text",
+      "props": {
+        "text": "CVE-2026-35273 — Oracle PeopleSoft PeopleTools",
+        "variant": "lead"
+      }
+    },
+    "meta-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-3",
+        "badge-due-3"
+      ]
+    },
+    "badge-kev-3": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-06-12",
+        "variant": "destructive"
+      }
+    },
+    "badge-due-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Due 2026-06-15",
+        "variant": "destructive"
+      }
+    },
+    "desc-3": {
+      "type": "Text",
+      "props": {
+        "text": "Missing auth → unauthenticated full system takeover."
+      }
+    },
+    "remediation-3": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Oracle patch by 2026-06-15 or disconnect from internet."
+      }
+    },
+    "text-kev-also": {
+      "type": "Text",
+      "props": {
+        "text": "Also in KEV this week: Chromium V8 RCE (CVE-2026-11645 · due Jun 23), Arista EOS (CVE-2026-7473), Cisco SD-WAN (CVE-2026-20245). Update browsers and network gear.",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-patch-week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "stack-patch-week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "ghsa-1",
+        "ghsa-2",
+        "ghsa-3",
+        "ghsa-4",
+        "ghsa-5"
+      ]
+    },
+    "ghsa-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-1",
+        "meta-ghsa-1",
+        "desc-ghsa-1",
+        "remediation-ghsa-1"
+      ]
+    },
+    "story-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-9gw6-46qc-99vr — meta-ads-mcp (pip)",
+        "href": "https://github.com/advisories/GHSA-9gw6-46qc-99vr"
+      }
+    },
+    "meta-ghsa-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-1",
+        "badge-status-1"
+      ]
+    },
+    "badge-cvss-1": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.1",
+        "variant": "destructive"
+      }
+    },
+    "badge-status-1": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix yet",
+        "variant": "outline"
+      }
+    },
+    "desc-ghsa-1": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated HTTP call leaks operator's Meta access token."
+      }
+    },
+    "remediation-ghsa-1": {
+      "type": "Text",
+      "props": {
+        "text": "→ restrict MCP server to authenticated callers; watch for patch."
+      }
+    },
+    "ghsa-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-2",
+        "meta-ghsa-2",
+        "desc-ghsa-2",
+        "remediation-ghsa-2"
+      ]
+    },
+    "story-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-6xp4-cf37-ppjh — @budibase/server (npm)",
+        "href": "https://github.com/advisories/GHSA-6xp4-cf37-ppjh"
+      }
+    },
+    "meta-ghsa-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-2",
+        "badge-status-2"
+      ]
+    },
+    "badge-cvss-2": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.0",
+        "variant": "destructive"
+      }
+    },
+    "badge-status-2": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix yet",
+        "variant": "outline"
+      }
+    },
+    "desc-ghsa-2": {
+      "type": "Text",
+      "props": {
+        "text": "Workspace builder → global admin privilege escalation via roles API."
+      }
+    },
+    "remediation-ghsa-2": {
+      "type": "Text",
+      "props": {
+        "text": "→ restrict builder access; upgrade when patch lands."
+      }
+    },
+    "ghsa-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-3",
+        "meta-ghsa-3",
+        "desc-ghsa-3",
+        "remediation-ghsa-3"
+      ]
+    },
+    "story-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-gv7w-rqvm-qjhr — esbuild (npm)",
+        "href": "https://github.com/advisories/GHSA-gv7w-rqvm-qjhr"
+      }
+    },
+    "meta-ghsa-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-3",
+        "badge-status-3"
+      ]
+    },
+    "badge-cvss-3": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "destructive"
+      }
+    },
+    "badge-status-3": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix yet",
+        "variant": "outline"
+      }
+    },
+    "desc-ghsa-3": {
+      "type": "Text",
+      "props": {
+        "text": "Deno module skips binary integrity check → RCE via poisoned NPM_CONFIG_REGISTRY."
+      }
+    },
+    "remediation-ghsa-3": {
+      "type": "Text",
+      "props": {
+        "text": "→ pin esbuild binary checksums; audit CI registry config."
+      }
+    },
+    "ghsa-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-4",
+        "meta-ghsa-4",
+        "desc-ghsa-4",
+        "remediation-ghsa-4"
+      ]
+    },
+    "story-4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-3gp5-q4jw-3v94 — @budibase/server (npm)",
+        "href": "https://github.com/advisories/GHSA-3gp5-q4jw-3v94"
+      }
+    },
+    "meta-ghsa-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-4",
+        "badge-status-4"
+      ]
+    },
+    "badge-cvss-4": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "destructive"
+      }
+    },
+    "badge-status-4": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix yet",
+        "variant": "outline"
+      }
+    },
+    "desc-ghsa-4": {
+      "type": "Text",
+      "props": {
+        "text": "App users rewrite datasource URL to exfiltrate stored REST credentials."
+      }
+    },
+    "remediation-ghsa-4": {
+      "type": "Text",
+      "props": {
+        "text": "→ restrict datasource config access; upgrade when patched."
+      }
+    },
+    "ghsa-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-5",
+        "meta-ghsa-5",
+        "desc-ghsa-5",
+        "remediation-ghsa-5"
+      ]
+    },
+    "story-5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-r236-5pc3-3qcp — aws-advanced-go-wrapper (go)",
+        "href": "https://github.com/advisories/GHSA-r236-5pc3-3qcp"
+      }
+    },
+    "meta-ghsa-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-5"
+      ]
+    },
+    "badge-cvss-5": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.0",
+        "variant": "destructive"
+      }
+    },
+    "desc-ghsa-5": {
+      "type": "Text",
+      "props": {
+        "text": "Privilege escalation in Aurora PostgreSQL via wrapper SDK."
+      }
+    },
+    "remediation-ghsa-5": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade; review IAM roles used by wrapper."
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "stack-monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "mon-1",
+        "mon-2",
+        "mon-3"
+      ]
+    },
+    "mon-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-mon-1",
+        "meta-mon-1",
+        "desc-mon-1",
+        "remediation-mon-1"
+      ]
+    },
+    "story-mon-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-8c9q-7855-wfxq — filebrowser/v2 (go)",
+        "href": "https://github.com/advisories/GHSA-8c9q-7855-wfxq"
+      }
+    },
+    "meta-mon-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-sev-1",
+        "badge-status-mon-1"
+      ]
+    },
+    "badge-sev-1": {
+      "type": "Badge",
+      "props": {
+        "text": "high",
+        "variant": "destructive"
+      }
+    },
+    "badge-status-mon-1": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "outline"
+      }
+    },
+    "desc-mon-1": {
+      "type": "Text",
+      "props": {
+        "text": "Shell metacharacter injection bypasses command allowlist → arbitrary execution."
+      }
+    },
+    "remediation-mon-1": {
+      "type": "Text",
+      "props": {
+        "text": "→ disable shell execution; track for patch."
+      }
+    },
+    "mon-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-mon-2",
+        "meta-mon-2",
+        "desc-mon-2",
+        "remediation-mon-2"
+      ]
+    },
+    "story-mon-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-24fp-5v3p-rvpw — chisel (go)",
+        "href": "https://github.com/advisories/GHSA-24fp-5v3p-rvpw"
+      }
+    },
+    "meta-mon-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-sev-2",
+        "badge-status-mon-2"
+      ]
+    },
+    "badge-sev-2": {
+      "type": "Badge",
+      "props": {
+        "text": "high",
+        "variant": "destructive"
+      }
+    },
+    "badge-status-mon-2": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "outline"
+      }
+    },
+    "desc-mon-2": {
+      "type": "Text",
+      "props": {
+        "text": "ACL bypass via SSH ExtraData injection post-handshake."
+      }
+    },
+    "remediation-mon-2": {
+      "type": "Text",
+      "props": {
+        "text": "→ restrict chisel to trusted networks; track for patch."
+      }
+    },
+    "mon-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-mon-3",
+        "meta-mon-3",
+        "desc-mon-3",
+        "remediation-mon-3"
+      ]
+    },
+    "story-mon-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-fp5j-4fj2-4jvq — radius-project/radius (go)",
+        "href": "https://github.com/advisories/GHSA-fp5j-4fj2-4jvq"
+      }
+    },
+    "meta-mon-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-mon-3",
+        "badge-status-mon-3"
+      ]
+    },
+    "badge-cvss-mon-3": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.7",
+        "variant": "secondary"
+      }
+    },
+    "badge-status-mon-3": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "outline"
+      }
+    },
+    "desc-mon-3": {
+      "type": "Text",
+      "props": {
+        "text": "Annotation injection can delete container resources in multi-tenant installs."
+      }
+    },
+    "remediation-mon-3": {
+      "type": "Text",
+      "props": {
+        "text": "→ avoid untrusted annotation input; watch GHSA-fp5j."
+      }
+    }
+  }
+}
