@@ -1,0 +1,208 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-06-13"
+      },
+      "children": [
+        "alert_cache",
+        "sep_1",
+        "transitions_section",
+        "sep_2",
+        "reflexivity_section"
+      ]
+    },
+    "alert_cache": {
+      "type": "Alert",
+      "props": {
+        "title": "NARRATIVE_CACHE_MISS",
+        "message": "XAI 403 (day 13). WebSearch fallback.",
+        "type": "warning"
+      }
+    },
+    "sep_1": {
+      "type": "Separator"
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "promoted_item",
+        "demoted_item",
+        "dead_item"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "promoted_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted",
+        "promoted_title",
+        "promoted_tao",
+        "promoted_grayscale",
+        "promoted_tokens",
+        "promoted_cap"
+      ]
+    },
+    "badge_promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "default"
+      }
+    },
+    "promoted_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Crypto Infrastructure Rising→Peak",
+        "variant": "lead"
+      }
+    },
+    "promoted_tao": {
+      "type": "Text",
+      "props": {
+        "text": "TAO +17.8% BREAKOUT ($248, +29% 7d)"
+      }
+    },
+    "promoted_grayscale": {
+      "type": "Text",
+      "props": {
+        "text": "Grayscale S-1/A in final SEC review for NYSE Arca ETF listing"
+      }
+    },
+    "promoted_tokens": {
+      "type": "Text",
+      "props": {
+        "text": "RENDER +7.3%, ICP +8.9%, WLD +6.2% all green — coordinated AI infra sector rotation"
+      }
+    },
+    "promoted_cap": {
+      "type": "Text",
+      "props": {
+        "text": "AI crypto market cap ~$25B"
+      }
+    },
+    "demoted_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted",
+        "demoted_title",
+        "demoted_eu_act",
+        "demoted_regulation",
+        "demoted_driver"
+      ]
+    },
+    "badge_demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED (velocity)",
+        "variant": "secondary"
+      }
+    },
+    "demoted_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments ↑↑→→",
+        "variant": "lead"
+      }
+    },
+    "demoted_eu_act": {
+      "type": "Text",
+      "props": {
+        "text": "EU AI Act Aug 2 = 50 days"
+      }
+    },
+    "demoted_regulation": {
+      "type": "Text",
+      "props": {
+        "text": "IC3/IMF regulatory framing hardening"
+      }
+    },
+    "demoted_driver": {
+      "type": "Text",
+      "props": {
+        "text": "no new driver today"
+      }
+    },
+    "dead_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dead",
+        "dead_title",
+        "dead_details"
+      ]
+    },
+    "badge_dead": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "dead_title": {
+      "type": "Text",
+      "props": {
+        "text": "TradFi AI Capital Rotation",
+        "variant": "lead"
+      }
+    },
+    "dead_details": {
+      "type": "Text",
+      "props": {
+        "text": "no named drivers materialised; risk-on breadth (79% green) removes original thesis. Dropped."
+      }
+    },
+    "sep_2": {
+      "type": "Separator"
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_reflexivity",
+        "reflexivity_item"
+      ]
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity_item": {
+      "type": "Text",
+      "props": {
+        "text": "TAO pre-ETF loop: Grayscale S-1/A → ETF"
+      }
+    }
+  }
+}
