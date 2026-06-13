@@ -1,0 +1,243 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-13"
+      },
+      "children": [
+        "focus_heading",
+        "focus_stack",
+        "sep1",
+        "since_heading",
+        "since_stack",
+        "sep2",
+        "running_heading",
+        "running_stack"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "priority_1",
+        "priority_2",
+        "priority_3"
+      ]
+    },
+    "priority_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p1_title",
+        "p1_reason"
+      ]
+    },
+    "p1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. Rewrite MEMORY.md Next Priorities",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p1_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: completed goals corrupt every skill run's context today",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "priority_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p2_title",
+        "p2_reason"
+      ]
+    },
+    "p2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. security-digest failed yesterday, still disabled in aeon.yml",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p2_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: second failure imminent; KEVs accumulate silently",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "priority_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p3_title",
+        "p3_reason"
+      ]
+    },
+    "p3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. XAI 403 unresolved, day 13",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p3_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: EU AI Act Aug 2 = 50 days; narrative window closing",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "since_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "since_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_1",
+        "since_2",
+        "since_3",
+        "since_4"
+      ]
+    },
+    "since_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick: DOGE picked (+5.7% 24h), SpaceX IPO sentiment thesis held",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers: broad recovery, 83/100 coins green; VELVET +86% (7d +1317%, BREAKOUT)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_3": {
+      "type": "Text",
+      "props": {
+        "text": "github-trending: obra/superpowers top pick — 917★/day, AI agent coding spec",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_4": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest: failed 16:38 UTC (Jun 12), consecutive_failures now 1",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "run_1",
+        "run_2",
+        "run_3",
+        "run_4"
+      ]
+    },
+    "run_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 / 14:00 / 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "run_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "run_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers, token-pick @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "run_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
