@@ -1,0 +1,515 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-13"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_toppick",
+        "repo_toppick",
+        "sep1",
+        "heading_infra",
+        "stack_infra",
+        "sep2",
+        "heading_aiml",
+        "stack_aiml",
+        "sep3",
+        "heading_devtools",
+        "stack_devtools",
+        "sep4",
+        "heading_webapp",
+        "stack_webapp",
+        "sep5",
+        "sources_footer"
+      ]
+    },
+    "heading_toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "repo_toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_toppick",
+        "text_toppick_desc"
+      ]
+    },
+    "link_toppick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "apple/container",
+        "href": "https://github.com/apple/container"
+      }
+    },
+    "text_toppick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "v1.0.0 ships on its first birthday — Mac's native container runtime is stable; `container machine` adds persistent Linux VM management alongside OCI containers."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h2"
+      }
+    },
+    "stack_infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo_infra_1"
+      ]
+    },
+    "repo_infra_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_infra_1",
+        "stats_infra_1",
+        "text_infra_1_desc"
+      ]
+    },
+    "header_infra_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_infra_1",
+        "badge_infra_1"
+      ]
+    },
+    "link_infra_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "apple/container",
+        "href": "https://github.com/apple/container"
+      }
+    },
+    "badge_infra_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      }
+    },
+    "stats_infra_1": {
+      "type": "Text",
+      "props": {
+        "text": "★ 3,504 today (35.7k total) · Swift"
+      }
+    },
+    "text_infra_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "First stable release; `container machine` manages persistent VMs alongside containers — no Docker Desktop needed on Apple Silicon."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "stack_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo_aiml_1",
+        "repo_aiml_2"
+      ]
+    },
+    "repo_aiml_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_aiml_1",
+        "stats_aiml_1",
+        "text_aiml_1_desc"
+      ]
+    },
+    "header_aiml_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_aiml_1",
+        "badge_aiml_1"
+      ]
+    },
+    "link_aiml_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "apple/coreai-models",
+        "href": "https://github.com/apple/coreai-models"
+      }
+    },
+    "badge_aiml_1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT"
+      }
+    },
+    "stats_aiml_1": {
+      "type": "Text",
+      "props": {
+        "text": "★ 849 total (~170/day) · Swift"
+      }
+    },
+    "text_aiml_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Apple's first open-source on-device AI runtime — model export + Swift inference utilities for Apple Silicon, outside Core ML."
+      }
+    },
+    "repo_aiml_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_aiml_2",
+        "stats_aiml_2",
+        "text_aiml_2_desc"
+      ]
+    },
+    "header_aiml_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_aiml_2",
+        "badge_aiml_2"
+      ]
+    },
+    "link_aiml_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "diffusionstudio/lottie",
+        "href": "https://github.com/diffusionstudio/lottie"
+      }
+    },
+    "badge_aiml_2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT"
+      }
+    },
+    "stats_aiml_2": {
+      "type": "Text",
+      "props": {
+        "text": "★ 2.4k total (~272/day) · TypeScript"
+      }
+    },
+    "text_aiml_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Prompt Claude Code or Codex to generate production-ready Lottie animation JSON — no After Effects required."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "stack_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo_devtools_1",
+        "repo_devtools_2"
+      ]
+    },
+    "repo_devtools_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_devtools_1",
+        "stats_devtools_1",
+        "text_devtools_1_desc"
+      ]
+    },
+    "header_devtools_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_devtools_1",
+        "badge_devtools_1"
+      ]
+    },
+    "link_devtools_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "shadcn/improve",
+        "href": "https://github.com/shadcn/improve"
+      }
+    },
+    "badge_devtools_1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT"
+      }
+    },
+    "stats_devtools_1": {
+      "type": "Text",
+      "props": {
+        "text": "★ 2.5k total (~853/day)"
+      }
+    },
+    "text_devtools_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "shadcn/ui creator's new CLI: frontier model plans, cheaper model executes — two-tier AI cost routing for coding workflows."
+      }
+    },
+    "repo_devtools_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_devtools_2",
+        "stats_devtools_2",
+        "text_devtools_2_desc"
+      ]
+    },
+    "header_devtools_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_devtools_2",
+        "badge_devtools_2"
+      ]
+    },
+    "link_devtools_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "microsoft/PowerToys",
+        "href": "https://github.com/microsoft/PowerToys"
+      }
+    },
+    "badge_devtools_2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      }
+    },
+    "stats_devtools_2": {
+      "type": "Text",
+      "props": {
+        "text": "★ 103 today (134k total) · C"
+      }
+    },
+    "text_devtools_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "v0.100.0 — the 100th PowerToys release since 2019; milestone for Windows' most-used open-source power-user toolkit."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_webapp": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h2"
+      }
+    },
+    "stack_webapp": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo_webapp_1",
+        "repo_webapp_2"
+      ]
+    },
+    "repo_webapp_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_webapp_1",
+        "stats_webapp_1",
+        "text_webapp_1_desc"
+      ]
+    },
+    "header_webapp_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_webapp_1",
+        "badge_webapp_1"
+      ]
+    },
+    "link_webapp_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cpaczek/skylight",
+        "href": "https://github.com/cpaczek/skylight"
+      }
+    },
+    "badge_webapp_1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT"
+      }
+    },
+    "stats_webapp_1": {
+      "type": "Text",
+      "props": {
+        "text": "★ 2.6k total (~239/day) · TypeScript"
+      }
+    },
+    "text_webapp_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "RTL-SDR feeds a ceiling projector showing live aircraft, ISS, and stars as an ambient ADS-B display."
+      }
+    },
+    "repo_webapp_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_webapp_2",
+        "stats_webapp_2",
+        "text_webapp_2_desc"
+      ]
+    },
+    "header_webapp_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_webapp_2",
+        "badge_webapp_2"
+      ]
+    },
+    "link_webapp_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "NoopApp/noop",
+        "href": "https://github.com/NoopApp/noop"
+      }
+    },
+    "badge_webapp_2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT"
+      }
+    },
+    "stats_webapp_2": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1.5k total (~260/day) · Swift"
+      }
+    },
+    "text_webapp_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Open WHOOP companion for iOS/macOS over Bluetooth — all health data stays local, no $240/yr subscription."
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok (14/25) · gh_api=ok · search supplement · kept 7",
+        "variant": "caption"
+      }
+    }
+  }
+}
