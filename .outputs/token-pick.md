@@ -1,11 +1,11 @@
-*Daily Pick — 2026-06-13*
+*Daily Pick — 2026-06-14*
 
-*Token: TAO*  [HIGH]  signal 10/10
-Price: $248 (+17.6% 24h / +29.0% 7d) | mcap $2.4B | vol $265M (vol/mcap 0.11)
-Score breakdown: [trending+2, 24h>0+1, 7d>0+1, both>5%+2, vol/mcap+2, RS BTC/ETH+2] = 10/10
-Catalyst: NYSE Arca approved Grayscale Bittensor Trust for in-kind creation/redemption (Apr 8-K); S-1/A amendment active — ETF conversion from OTC trust to listed product in final SEC review stage; 34% MoM validator growth and 128 active subnets
-Risk: ETF registration not yet effective (S-1/A subject to completion); +29% 7d suggests partial pricing-in; 128-subnet complexity is execution risk
-Vs recent picks: first time
+*Token: BP*  [HIGH]  signal 8/10
+Price: $0.386 (+14.9% 24h / +49.8% 7d) | mcap $96M | vol $4.9M (vol/mcap 0.051)
+Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, CG trending #2+2, RS vs BTC/ETH 7d+2] = 8/10
+Catalyst: Backpack Securities launch (Jun 3) — US stock brokerage + tokenized equities on crypto rails; 87% initial spike, still sustaining +49.8% 7d as TradFi integration narrative holds; Base MCP context reinforces tokenized asset rails theme
+Risk: $96M mcap in a thin market (vol/mcap 0.051); if active user acquisition for Backpack Securities disappoints in first-30-day rollout, the TradFi integration narrative unwinds fast
+Vs recent picks: first time in 7-day window
 
 sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only
