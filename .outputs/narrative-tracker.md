@@ -1,11 +1,18 @@
-*Narrative Tracker — 2026-06-13*
+Done. Here's a summary of what the skill produced:
 
-NARRATIVE_CACHE_MISS — XAI 403 (day 13). WebSearch fallback.
+## Summary
 
-TRANSITIONS
-• PROMOTED: AI Crypto Infrastructure Rising→Peak — TAO +17.8% BREAKOUT ($248, +29% 7d); Grayscale S-1/A in final SEC review for NYSE Arca ETF listing; RENDER +7.3%, ICP +8.9%, WLD +6.2% all green — coordinated AI infra sector rotation; AI crypto market cap ~$25B
-• DEMOTED (velocity): AI Agent Payments ↑↑→→ — EU AI Act Aug 2 = 50 days; IC3/IMF regulatory framing hardening; no new driver today
-• DEAD: TradFi AI Capital Rotation — no named drivers materialised; risk-on breadth (79% green) removes original thesis. Dropped.
+**NARRATIVE_CACHE_MISS** — XAI 403, day 15 consecutive. Fell back to WebSearch triangulation (3 queries + 2 targeted follow-ups).
 
-REFLEXIVITY ALERT
-• TAO pre-ETF loop: Grayscale S-1/A → ETF
+**4 transitions detected today:**
+
+| Transition | Narrative | Signal |
+|---|---|---|
+| PROMOTED (velocity) | **Stablecoins as Infrastructure** | GENIUS Act Senate vote June 17 (3 days). 68-30 bipartisan, confirmed by Fenwick/Davis Polk. FRONT-RUN window open NOW — exit June 17. |
+| DEMOTED (velocity) | **AI Crypto Infrastructure** | TAO +5.5% today (was +17.8% Jun 13). Market risk-off. ETF reflexive premium compressing. Still RIDE but approaching Peak ceiling. |
+| DEMOTED → FADE | **Hyperliquid/Perp DEXs** | BP (Backpack tokenized equities) eating exchange mindshare. ↓ → ↓↓. WATCH → FADE. |
+| DEMOTED (velocity) | **Memecoin Launchpads** | BEAT −35.2% (pump collapsed), H −10.3% capitulation. → → ↓. Keep WATCH pending recovery signal. |
+
+**Key reflexivity**: GENIUS Act pre-vote loop is live (same mechanics as BTC ETF Jan 2024). AI Crypto Infrastructure reflexive TAO premium reverting to mean.
+
+Notification queued to `.pending-notify/narrative-tracker-20260614.md`. Full structured log appended to `memory/logs/2026-06-14.md`.
