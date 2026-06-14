@@ -1,32 +1,31 @@
-*GitHub Trending — 2026-06-13*
+*GitHub Trending — 2026-06-14*
 
-*Top pick* — [apple/container](https://github.com/apple/container)
-v1.0.0 ships on its first birthday — Mac's native container runtime is stable; `container machine` adds persistent Linux VM management alongside OCI containers.
-
-*Infra*
-• [apple/container](https://github.com/apple/container) — ★ 3,504 today (35.7k total) · Swift · [RETURNING]
-First stable release; `container machine` manages persistent VMs alongside containers — no Docker Desktop needed on Apple Silicon.
+*Top pick* — [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code)
+Xiaomi enters the AI coding agent race: a Claude Code / Codex competitor with a free built-in LLM channel, SQLite-backed cross-session memory, and a one-liner npm install — shipped by the world's third-largest phone maker.
 
 *AI/ML*
-• [apple/coreai-models](https://github.com/apple/coreai-models) — ★ 849 total (~170/day) · Swift · [DEBUT]
-Apple's first open-source on-device AI runtime — model export + Swift inference utilities for Apple Silicon, outside Core ML.
+• [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) — ★238 today (29.7k total) · Python · [ACCELERATING]
+Foundation model for financial time-series: zero-shot forecasting across stocks, futures, and forex without per-asset fine-tuning.
 
-• [diffusionstudio/lottie](https://github.com/diffusionstudio/lottie) — ★ 2.4k total (~272/day) · TypeScript · [DEBUT]
-Prompt Claude Code or Codex to generate production-ready Lottie animation JSON — no After Effects required.
+• [jd-opensource/JoyAI-Echo](https://github.com/jd-opensource/JoyAI-Echo) — ~128★/day (1.5k total) · Python · [DEBUT]
+JD.com's synchronized long-form audio-visual model — coherent A/V output past the ~30s clip boundary that fragments most generative video.
 
 *Devtools*
-• [shadcn/improve](https://github.com/shadcn/improve) — ★ 2.5k total (~853/day) · [DEBUT]
-shadcn/ui creator's new CLI: frontier model plans, cheaper model executes — two-tier AI cost routing for coding workflows.
+• [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code) — ~2030★/day (8.1k total) · TypeScript · [DEBUT]
+Xiaomi's Claude Code rival: built-in free LLM channel, cross-session SQLite FTS5 project memory, multi-agent build/plan/compose modes.
 
-• [microsoft/PowerToys](https://github.com/microsoft/PowerToys) — ★ 103 today (134k total) · C · [RETURNING]
-v0.100.0 — the 100th PowerToys release since 2019; milestone for Windows' most-used open-source power-user toolkit.
+• [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) — ~1630★/day (3.3k total) · JavaScript · [DEBUT]
+Benchmarked at 80-94% less code and 47-77% cheaper: YAGNI-first agent skill that enforces stdlib-before-new-code across Claude Code, Codex, and Cursor.
 
-*Web/Apps*
-• [cpaczek/skylight](https://github.com/cpaczek/skylight) — ★ 2.6k total (~239/day) · TypeScript · [DEBUT]
-RTL-SDR feeds a ceiling projector showing live aircraft, ISS, and stars as an ambient ADS-B display.
+• [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) — ~265★/day (795 total) · Python · [DEBUT]
+Meta-harness to swap Claude Code, Codex, and custom agents without rewriting — shared live session across devices with sandboxing and policies.
 
-• [NoopApp/noop](https://github.com/NoopApp/noop) — ★ 1.5k total (~260/day) · Swift · [DEBUT]
-Open WHOOP companion for iOS/macOS over Bluetooth — all health data stays local, no $240/yr subscription.
+*Infra*
+• [lenucksi/aur-malware-check](https://github.com/lenucksi/aur-malware-check) — ~348★/day (697 total) · Shell · [DEBUT]
+Community scanners for 1,600+ AUR packages backdoored this week — atomic-lockfile attack drops an eBPF rootkit and infostealer targeting dev credentials and CI/CD secrets.
+
+• [superloglabs/superlog](https://github.com/superloglabs/superlog) — ~67★/day (811 total) · TypeScript · [DEBUT]
+Observability daemon where AI agents diagnose alerts, write fixes, and redeploy — no pager, no human on-call.
 
 ---
-sources: trending=ok (14/25) · gh_api=ok · search supplement · kept 7
+sources: trending=ok (thin, 15/~25) · gh_api=ok · search_supplement=ok · kept 7/40
