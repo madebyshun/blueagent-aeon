@@ -1,0 +1,341 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-14",
+        "description": "Daily priorities, activity summary, alerts, and scheduled tasks"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_items",
+        "sep1",
+        "since_heading",
+        "since_items",
+        "sep2",
+        "watch_heading",
+        "watch_items",
+        "sep3",
+        "running_heading",
+        "running_schedule"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_why"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. Patch Ivanti Sentry (CVE-2026-10520)",
+        "variant": "lead"
+      }
+    },
+    "focus_1_why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: CISA deadline today; gateways already backdoored post-patch",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_why"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. Resolve XAI 403 (day 14)",
+        "variant": "lead"
+      }
+    },
+    "focus_2_why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: EU AI Act Aug 2 = 49 days; narrative fidelity window closing",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_why"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. Rewrite MEMORY.md Next Priorities",
+        "variant": "lead"
+      }
+    },
+    "focus_3_why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: stale goals misdirect every skill run today",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_1",
+        "since_2",
+        "since_3"
+      ]
+    },
+    "since_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_1_label",
+        "since_1_text"
+      ]
+    },
+    "since_1_label": {
+      "type": "Badge",
+      "props": {
+        "text": "security-digest",
+        "variant": "default"
+      }
+    },
+    "since_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "ran clean; 6 KEVs this week, 3 Budibase npm advisories (no fix), esbuild supply-chain RCE (no fix)",
+        "variant": "body"
+      }
+    },
+    "since_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_2_label",
+        "since_2_stat",
+        "since_2_narrative"
+      ]
+    },
+    "since_2_label": {
+      "type": "Badge",
+      "props": {
+        "text": "token-pick: TAO",
+        "variant": "default"
+      }
+    },
+    "since_2_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price (Score 10/10)",
+        "value": "$248",
+        "delta": "+17.6%",
+        "trend": "up"
+      }
+    },
+    "since_2_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "AI infra narrative promoted to Rising/Peak",
+        "variant": "body"
+      }
+    },
+    "since_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_3_label",
+        "since_3_text"
+      ]
+    },
+    "since_3_label": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "default"
+      }
+    },
+    "since_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "XAI fallback active (WebSearch); VELVET −77.6% completed memecoin pump-dump cycle",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "watch_1": {
+      "type": "Alert",
+      "props": {
+        "title": "Ivanti Sentry Backdoor",
+        "message": "Gateways backdoored in-the-wild post-patch (SecurityAffairs Jun 12) — confirms Focus #1 is live exploit, not theoretical",
+        "type": "warning"
+      }
+    },
+    "watch_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_2_title",
+        "watch_2_text"
+      ]
+    },
+    "watch_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "Base MCP launched",
+        "variant": "lead"
+      }
+    },
+    "watch_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "AI agents can now transfer funds/swap on Base (Morpho, Aerodrome, Uniswap) — Base Ecosystem narrative re-rating possible at narrative-tracker 13:30",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_schedule": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Schedule (UTC)"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "08:00 / 14:00 / 20:00"
+          ],
+          [
+            "github-monitor",
+            "09:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "token-pick",
+            "12:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ]
+        ]
+      }
+    }
+  }
+}
