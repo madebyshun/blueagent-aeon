@@ -1,0 +1,22 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers 2026-06-14"
+      },
+      "children": [
+        "link_report"
+      ]
+    },
+    "link_report": {
+      "type": "Link",
+      "props": {
+        "label": "View full report in memory/logs/2026-06-14.md",
+        "href": "memory/logs/2026-06-14.md"
+      }
+    }
+  }
+}
