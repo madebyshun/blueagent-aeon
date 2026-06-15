@@ -1,0 +1,373 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-06-15"
+      },
+      "children": [
+        "top_pick_section",
+        "sep1",
+        "ai_ml_section",
+        "sep2",
+        "devtools_section",
+        "sep3",
+        "web_apps_section",
+        "sep4",
+        "sources"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_heading",
+        "agent_reach_top"
+      ]
+    },
+    "top_pick_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h2"
+      }
+    },
+    "agent_reach_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ar_link",
+        "ar_meta",
+        "ar_status",
+        "ar_desc"
+      ]
+    },
+    "ar_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Panniantong/Agent-Reach",
+        "href": "https://github.com/Panniantong/Agent-Reach",
+        "score": "★ 1,045 today (29.6k total)"
+      }
+    },
+    "ar_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Python",
+        "variant": "caption"
+      }
+    },
+    "ar_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "ar_desc": {
+      "type": "Text",
+      "props": {
+        "text": "A RETURNING repo surging back with 1,045 stars today — AI agents get zero-cost access to Twitter, Reddit, YouTube, and GitHub through a single CLI with no API key juggling.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "ai_ml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_heading",
+        "aiml_r1",
+        "aiml_r2"
+      ]
+    },
+    "aiml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "aiml_r1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_r1_link",
+        "aiml_r1_meta",
+        "aiml_r1_status",
+        "aiml_r1_desc"
+      ]
+    },
+    "aiml_r1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Panniantong/Agent-Reach",
+        "href": "https://github.com/Panniantong/Agent-Reach",
+        "score": "★ 1,045 today (29.6k total)"
+      }
+    },
+    "aiml_r1_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Python",
+        "variant": "caption"
+      }
+    },
+    "aiml_r1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "aiml_r1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-platform social scraping for AI agents — Twitter, Reddit, YouTube, GitHub — zero API keys, one CLI.",
+        "variant": "body"
+      }
+    },
+    "aiml_r2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_r2_link",
+        "aiml_r2_meta",
+        "aiml_r2_status",
+        "aiml_r2_desc"
+      ]
+    },
+    "aiml_r2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "trycua/cua",
+        "href": "https://github.com/trycua/cua",
+        "score": "★ 57 today (18.1k total)"
+      }
+    },
+    "aiml_r2_meta": {
+      "type": "Text",
+      "props": {
+        "text": "HTML",
+        "variant": "caption"
+      }
+    },
+    "aiml_r2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "aiml_r2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Standardized sandboxed desktops (macOS, Linux, Windows) for training and benchmarking computer-use agents; pushed today.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "dt_heading",
+        "dt_r1",
+        "dt_r2"
+      ]
+    },
+    "dt_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "dt_r1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dt_r1_link",
+        "dt_r1_meta",
+        "dt_r1_status",
+        "dt_r1_desc"
+      ]
+    },
+    "dt_r1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "tamnd/kage",
+        "href": "https://github.com/tamnd/kage",
+        "score": "★ ~1.3k total"
+      }
+    },
+    "dt_r1_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Go",
+        "variant": "caption"
+      }
+    },
+    "dt_r1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "default"
+      }
+    },
+    "dt_r1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Snapshots any site to clean, JS-stripped offline HTML — 1,300+ stars in under 24 hours on debut.",
+        "variant": "body"
+      }
+    },
+    "dt_r2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dt_r2_link",
+        "dt_r2_meta",
+        "dt_r2_status",
+        "dt_r2_desc"
+      ]
+    },
+    "dt_r2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "JimLiu/baoyu-design",
+        "href": "https://github.com/JimLiu/baoyu-design",
+        "score": "★ ~1.1k total"
+      }
+    },
+    "dt_r2_meta": {
+      "type": "Text",
+      "props": {
+        "text": "JavaScript",
+        "variant": "caption"
+      }
+    },
+    "dt_r2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "default"
+      }
+    },
+    "dt_r2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Runs Claude Design as a local Cursor/Claude Code skill — Opus 4.8 generates polished HTML mockups without the web UI.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "web_apps_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "wa_heading",
+        "wa_r1"
+      ]
+    },
+    "wa_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h2"
+      }
+    },
+    "wa_r1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "wa_r1_link",
+        "wa_r1_meta",
+        "wa_r1_status",
+        "wa_r1_desc"
+      ]
+    },
+    "wa_r1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Danilaa1/slot-text",
+        "href": "https://github.com/Danilaa1/slot-text",
+        "score": "★ ~0.7k total"
+      }
+    },
+    "wa_r1_meta": {
+      "type": "Text",
+      "props": {
+        "text": "TypeScript",
+        "variant": "caption"
+      }
+    },
+    "wa_r1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "default"
+      }
+    },
+    "wa_r1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Zero-dependency slot-machine text animation, drop-in across React, Vue, and vanilla JS.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · search_supplement=ok · kept 5/43",
+        "variant": "muted"
+      }
+    }
+  }
+}
