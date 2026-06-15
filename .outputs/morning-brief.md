@@ -1,18 +1,18 @@
-*Morning Brief — 2026-06-14*
+*Morning Brief — 2026-06-15*
 
 *Focus today*
-1. Patch Ivanti Sentry (CVE-2026-10520) — why now: CISA deadline today; gateways already backdoored post-patch
-2. Resolve XAI 403 (day 14) — why now: EU AI Act Aug 2 = 49 days; narrative fidelity window closing
-3. Rewrite MEMORY.md Next Priorities — why now: stale goals misdirect every skill run today
+1. GENIUS Act Senate vote June 17 — 2-day front-run window closes Wednesday
+2. Resolve XAI 403 (day 16) — narrative-tracker runs 13:30 UTC degraded again
+3. Rewrite MEMORY.md Next Priorities — stale goals misdirect every skill run
 
 *Since yesterday*
-- security-digest: ran clean; 6 KEVs this week, 3 Budibase npm advisories (no fix), esbuild supply-chain RCE (no fix)
-- token-pick: TAO again (score 10/10, $248 +17.6% 24h) — AI infra narrative promoted to Rising/Peak
-- narrative-tracker: XAI fallback active (WebSearch); VELVET −77.6% completed memecoin pump-dump cycle
+- BP pick held: Backpack Securities tokenized equities thesis intact (entry +14.9%)
+- XAI 403: day 16 consecutive; narrative-tracker fell back to WebSearch (quality 4)
+- BEAT/H capitulation completed; PUMP launchpad infra holding WATCH
+- Check Point CVE-2026-50751 flagged (CVSS 9.3, Qilin ransomware, CISA KEV)
 
 *Watch*
-- Ivanti Sentry gateways backdoored in-the-wild post-patch (SecurityAffairs Jun 12) — confirms Focus #1 is live exploit, not theoretical
-- Base MCP launched: AI agents can now transfer funds/swap on Base (Morpho, Aerodrome, Uniswap) — Base Ecosystem narrative re-rating possible at narrative-tracker 13:30
+- GENIUS Act Senate passage 68-30 confirmed by Fenwick/Davis Polk/Paul Hastings — stablecoin FRONT-RUN exits June 17; hold for House vote July 17 only if amendments favorable
 
 *Running today*
 - heartbeat @ 08:00 / 14:00 / 20:00 UTC

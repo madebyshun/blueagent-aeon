@@ -1,0 +1,320 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-06-15"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "stack-focus",
+        "sep-1",
+        "heading-since",
+        "stack-since",
+        "sep-2",
+        "heading-watch",
+        "stack-watch",
+        "sep-3",
+        "heading-running",
+        "stack-running"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. GENIUS Act Senate vote June 17 — 2-day front-run window closes Wednesday",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Resolve XAI 403 (day 16) — narrative-tracker runs 13:30 UTC degraded again",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Rewrite MEMORY.md Next Priorities — stale goals misdirect every skill run",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-alert-cve"
+      ]
+    },
+    "since-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-1-text",
+        "since-1-stat"
+      ]
+    },
+    "since-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "BP pick held: Backpack Securities tokenized equities thesis intact",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-1-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Entry",
+        "value": "+14.9%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "since-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-2-text",
+        "since-2-badge"
+      ]
+    },
+    "since-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "XAI 403: day 16 consecutive; narrative-tracker fell back to WebSearch",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "quality 4",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "since-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since-3-text",
+        "since-3-badge"
+      ]
+    },
+    "since-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "BEAT/H capitulation completed; PUMP launchpad infra holding",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "since-alert-cve": {
+      "type": "Alert",
+      "props": {
+        "title": "Check Point CVE-2026-50751",
+        "message": "CVSS 9.3 · Qilin ransomware · CISA KEV",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-main-item"
+      ]
+    },
+    "watch-main-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-headline",
+        "watch-details"
+      ]
+    },
+    "watch-headline": {
+      "type": "Text",
+      "props": {
+        "text": "GENIUS Act Senate passage 68-30 confirmed by Fenwick/Davis Polk/Paul Hastings",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "watch-details": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin FRONT-RUN exits June 17; hold for House vote July 17 only if amendments favorable",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 / 14:00 / 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
