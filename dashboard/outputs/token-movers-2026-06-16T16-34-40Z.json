@@ -1,0 +1,502 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — Jun 16, 2026"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-summary",
+        "sep0",
+        "section-winners",
+        "sep1",
+        "section-losers",
+        "sep2",
+        "section-trending",
+        "sep3",
+        "section-notable"
+      ]
+    },
+    "section-summary": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-summary",
+        "grid-market-stats"
+      ]
+    },
+    "text-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Risk-off tape",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "grid-market-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "stat-red-coins",
+        "stat-median-top50",
+        "stat-btc",
+        "stat-up-top250"
+      ]
+    },
+    "stat-red-coins": {
+      "type": "Stat",
+      "props": {
+        "label": "Red (top-100)",
+        "value": "72%"
+      },
+      "children": []
+    },
+    "stat-median-top50": {
+      "type": "Stat",
+      "props": {
+        "label": "Median (top-50)",
+        "value": "−1.8%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "−2.1%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat-up-top250": {
+      "type": "Stat",
+      "props": {
+        "label": "Up >5% (top-250)",
+        "value": "6"
+      },
+      "children": []
+    },
+    "sep0": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-winners": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-winners",
+        "table-winners"
+      ]
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "table-winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "LAB",
+            "$13.11",
+            "+30.9%",
+            "+27.0%",
+            "−0.3%",
+            "$49.5M",
+            "#27",
+            "BREAKOUT"
+          ],
+          [
+            "UNI (Uniswap)",
+            "$3.110",
+            "+13.9%",
+            "+25.7%",
+            "+2.9%",
+            "$502M",
+            "#45",
+            "TRENDING+UP"
+          ],
+          [
+            "AERO (Aerodrome)",
+            "$0.4805",
+            "+12.7%",
+            "+44.7%",
+            "−2.5%",
+            "$76.0M",
+            "#111",
+            "TRENDING+UP"
+          ],
+          [
+            "WLD (Worldcoin)",
+            "$0.6360",
+            "+12.0%",
+            "+21.2%",
+            "−1.1%",
+            "$1.4B",
+            "#42",
+            "TRENDING+UP"
+          ],
+          [
+            "M (MemeCore)",
+            "$3.210",
+            "+9.0%",
+            "+9.9%",
+            "+1.6%",
+            "$9.3M",
+            "#26",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "$73.98",
+            "+8.7%",
+            "+24.1%",
+            "+0.6%",
+            "$2.5B",
+            "#10",
+            "TRENDING+UP, MAJOR"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-losers",
+        "table-losers"
+      ]
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "table-losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "SIREN",
+            "$0.04477",
+            "−16.4%",
+            "−96.1%",
+            "−4.9%",
+            "$11.4M",
+            "#616",
+            "TRENDING+DOWN, CAPITULATION"
+          ],
+          [
+            "MEGA (MegaETH)",
+            "$0.05679",
+            "−11.1%",
+            "+21.0%",
+            "−0.1%",
+            "$35.2M",
+            "#383",
+            "TRENDING+DOWN, CAPITULATION"
+          ],
+          [
+            "NOCK (Nockchain)",
+            "$0.03757",
+            "−10.8%",
+            "+2.0%",
+            "−1.0%",
+            "$1.1M",
+            "#309",
+            "TRENDING+DOWN"
+          ],
+          [
+            "GRAM",
+            "$1.670",
+            "−7.8%",
+            "−2.3%",
+            "0.0%",
+            "$10.1M",
+            "#24",
+            ""
+          ],
+          [
+            "ADA (Cardano)",
+            "$0.1745",
+            "−7.1%",
+            "+5.9%",
+            "+0.3%",
+            "$476M",
+            "#17",
+            "MAJOR"
+          ],
+          [
+            "ICP (Internet Computer)",
+            "$2.360",
+            "−6.6%",
+            "+4.1%",
+            "−0.5%",
+            "$85.8M",
+            "#59",
+            ""
+          ],
+          [
+            "ZEC (Zcash)",
+            "$499.6",
+            "−6.5%",
+            "+7.9%",
+            "+0.4%",
+            "$799M",
+            "#15",
+            "TRENDING+DOWN, MAJOR"
+          ],
+          [
+            "RENDER",
+            "$1.720",
+            "−6.5%",
+            "+8.2%",
+            "−0.3%",
+            "$59.6M",
+            "#74",
+            ""
+          ],
+          [
+            "BP (Backpack)",
+            "$0.4036",
+            "−6.5%",
+            "+46.2%",
+            "+0.9%",
+            "$4.4M",
+            "#272",
+            "TRENDING+DOWN"
+          ],
+          [
+            "TAO (Bittensor)",
+            "$254.2",
+            "−6.4%",
+            "+21.3%",
+            "−0.2%",
+            "$271M",
+            "#40",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-trending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-trending",
+        "table-trending"
+      ]
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "table-trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "Zano (ZANO)",
+            "#207",
+            "$10.05",
+            "+5.0%",
+            ""
+          ],
+          [
+            "Hyperliquid (HYPE)",
+            "#10",
+            "$73.99",
+            "+8.7%",
+            "TRENDING+UP"
+          ],
+          [
+            "SpaceX xStock (SPCXX)",
+            "#597",
+            "$213.8",
+            "+20.9%",
+            "MICROCAP"
+          ],
+          [
+            "Aerodrome (AERO)",
+            "#111",
+            "$0.4805",
+            "+12.7%",
+            "TRENDING+UP"
+          ],
+          [
+            "Uniswap (UNI)",
+            "#46",
+            "$3.111",
+            "+13.9%",
+            "TRENDING+UP"
+          ],
+          [
+            "Pudgy Penguins (PENGU)",
+            "#115",
+            "$0.007065",
+            "−2.5%",
+            ""
+          ],
+          [
+            "Bitcoin (BTC)",
+            "#1",
+            "$65,739",
+            "−2.1%",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-notable",
+        "notable-item-1",
+        "notable-item-2",
+        "notable-item-3",
+        "notable-item-4"
+      ]
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "notable-item-1": {
+      "type": "Alert",
+      "props": {
+        "title": "SIREN [TRENDING+DOWN][CAPITULATION]",
+        "message": "−16.4%/24h, −96.1%/7d — post-pump collapse; vol/mcap 35%, trending audience buying the fall",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "notable-item-2": {
+      "type": "Alert",
+      "props": {
+        "title": "MEGA [TRENDING+DOWN][CAPITULATION]",
+        "message": "MegaETH token −11.1% on vol/mcap 55% while trending — forced selling confirmed",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "notable-item-3": {
+      "type": "Alert",
+      "props": {
+        "title": "LAB [BREAKOUT]",
+        "message": "+30.9%/24h, +27.0%/7d — rank 27 mid-cap, multi-timeframe confirmation, not a flash pump",
+        "type": "success"
+      },
+      "children": []
+    },
+    "notable-item-4": {
+      "type": "Alert",
+      "props": {
+        "title": "HYPE [TRENDING+UP][MAJOR]",
+        "message": "rank 10 up +8.7% on $2.5B vol, trending #2 — strongest large-cap signal on a broad red day",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
