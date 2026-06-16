@@ -1,0 +1,492 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-16"
+      },
+      "children": [
+        "section_top_pick",
+        "sep_1",
+        "section_aiml",
+        "sep_2",
+        "section_infra",
+        "sep_3",
+        "section_devtools",
+        "sep_4",
+        "footer"
+      ]
+    },
+    "section_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_top_pick",
+        "repo_shadcn_improve_top"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "repo_shadcn_improve_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_shadcn_improve_top",
+        "text_shadcn_improve_desc_top"
+      ]
+    },
+    "link_shadcn_improve_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "shadcn/improve",
+        "href": "https://github.com/shadcn/improve"
+      }
+    },
+    "text_shadcn_improve_desc_top": {
+      "type": "Text",
+      "props": {
+        "text": "From the creator of shadcn/ui: 5k stars in 6 days for a model-routing pattern that plans with your strongest model and executes with cheaper ones — the clearest framework answer yet to LLM cost management in agentic workflows.",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aiml",
+        "repo_voxcpm",
+        "repo_coreai"
+      ]
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "repo_voxcpm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_voxcpm",
+        "text_voxcpm_desc",
+        "meta_voxcpm"
+      ]
+    },
+    "link_voxcpm": {
+      "type": "StoryLink",
+      "props": {
+        "title": "OpenBMB/VoxCPM",
+        "href": "https://github.com/OpenBMB/VoxCPM"
+      }
+    },
+    "text_voxcpm_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Removes tokenization entirely — voice-clones from untranscribed audio in 30+ languages with no transcript required.",
+        "variant": "body"
+      }
+    },
+    "meta_voxcpm": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_voxcpm_stars",
+        "badge_voxcpm_lang",
+        "badge_voxcpm_status"
+      ]
+    },
+    "badge_voxcpm_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 413 today (29.9k total)",
+        "variant": "secondary"
+      }
+    },
+    "badge_voxcpm_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "badge_voxcpm_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo_coreai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_coreai",
+        "text_coreai_desc",
+        "meta_coreai"
+      ]
+    },
+    "link_coreai": {
+      "type": "StoryLink",
+      "props": {
+        "title": "apple/coreai-models",
+        "href": "https://github.com/apple/coreai-models"
+      }
+    },
+    "text_coreai_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Apple's official CoreML export toolkit — standardized Python/Swift recipes for on-device model deployment, no third-party wrappers.",
+        "variant": "body"
+      }
+    },
+    "meta_coreai": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_coreai_stars",
+        "badge_coreai_lang",
+        "badge_coreai_status"
+      ]
+    },
+    "badge_coreai_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 960 total",
+        "variant": "secondary"
+      }
+    },
+    "badge_coreai_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Swift",
+        "variant": "outline"
+      }
+    },
+    "badge_coreai_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_infra",
+        "repo_zvec",
+        "repo_iroh"
+      ]
+    },
+    "heading_infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h2"
+      }
+    },
+    "repo_zvec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_zvec",
+        "text_zvec_desc",
+        "meta_zvec"
+      ]
+    },
+    "link_zvec": {
+      "type": "StoryLink",
+      "props": {
+        "title": "alibaba/zvec",
+        "href": "https://github.com/alibaba/zvec"
+      }
+    },
+    "text_zvec_desc": {
+      "type": "Text",
+      "props": {
+        "text": "In-process vector DB embedded inside your service binary — no sidecar, no network hop, pushed to prod today.",
+        "variant": "body"
+      }
+    },
+    "meta_zvec": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_zvec_stars",
+        "badge_zvec_lang",
+        "badge_zvec_status"
+      ]
+    },
+    "badge_zvec_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 251 today (10.3k total)",
+        "variant": "secondary"
+      }
+    },
+    "badge_zvec_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C++",
+        "variant": "outline"
+      }
+    },
+    "badge_zvec_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo_iroh": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_iroh",
+        "text_iroh_desc",
+        "meta_iroh"
+      ]
+    },
+    "link_iroh": {
+      "type": "StoryLink",
+      "props": {
+        "title": "n0-computer/iroh",
+        "href": "https://github.com/n0-computer/iroh"
+      }
+    },
+    "text_iroh_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Dial peers by Ed25519 key instead of IP — QUIC + NAT traversal built in, p2p without coordination servers or static IPs.",
+        "variant": "body"
+      }
+    },
+    "meta_iroh": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_iroh_stars",
+        "badge_iroh_lang",
+        "badge_iroh_status"
+      ]
+    },
+    "badge_iroh_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 326 today (9.1k total)",
+        "variant": "secondary"
+      }
+    },
+    "badge_iroh_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "outline"
+      }
+    },
+    "badge_iroh_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "repo_improve",
+        "repo_sandboxd"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "repo_improve": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_improve",
+        "text_improve_desc",
+        "meta_improve"
+      ]
+    },
+    "link_improve": {
+      "type": "StoryLink",
+      "props": {
+        "title": "shadcn/improve",
+        "href": "https://github.com/shadcn/improve"
+      }
+    },
+    "text_improve_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Audits your codebase with a capable model, writes execution plans for cheaper models — cuts inference costs without changing your stack.",
+        "variant": "body"
+      }
+    },
+    "meta_improve": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_improve_stars",
+        "badge_improve_status"
+      ]
+    },
+    "badge_improve_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 4.95k total",
+        "variant": "secondary"
+      }
+    },
+    "badge_improve_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "repo_sandboxd": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_sandboxd",
+        "text_sandboxd_desc",
+        "meta_sandboxd"
+      ]
+    },
+    "link_sandboxd": {
+      "type": "StoryLink",
+      "props": {
+        "title": "tastyeffectco/sandboxd",
+        "href": "https://github.com/tastyeffectco/sandboxd"
+      }
+    },
+    "text_sandboxd_desc": {
+      "type": "Text",
+      "props": {
+        "text": "One-command self-hosted sandbox with live preview URLs — no Kubernetes, built explicitly for agentic coding loops and SaaS factories.",
+        "variant": "body"
+      }
+    },
+    "meta_sandboxd": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_sandboxd_stars",
+        "badge_sandboxd_lang",
+        "badge_sandboxd_status"
+      ]
+    },
+    "badge_sandboxd_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 648 total",
+        "variant": "secondary"
+      }
+    },
+    "badge_sandboxd_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "outline"
+      }
+    },
+    "badge_sandboxd_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/~25+supplement",
+        "variant": "caption"
+      }
+    }
+  }
+}
