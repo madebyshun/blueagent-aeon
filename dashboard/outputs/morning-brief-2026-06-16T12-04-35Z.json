@@ -1,0 +1,344 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-16"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_yesterday",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_items"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "focus_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "focus_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_badge",
+        "focus_1_text"
+      ]
+    },
+    "focus_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "1"
+      },
+      "children": []
+    },
+    "focus_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "GENIUS Act market window — why now: Senate passed 68-30; positioning closes tomorrow Jun 17",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_badge",
+        "focus_2_text"
+      ]
+    },
+    "focus_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "2"
+      },
+      "children": []
+    },
+    "focus_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers + token-pick failures — why now: both retry 12:00 UTC; two misses = blind day",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_badge",
+        "focus_3_text"
+      ]
+    },
+    "focus_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "3"
+      },
+      "children": []
+    },
+    "focus_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "Rewrite MEMORY.md Next Priorities — why now: stale goals bias narrative-tracker run at 13:30",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_yesterday",
+        "alert_failed",
+        "text_ok"
+      ]
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "alert_failed": {
+      "type": "Alert",
+      "props": {
+        "title": "Failed",
+        "message": "token-movers, token-pick, security-digest, deal-flow all failed Jun 15 (1 consecutive each)",
+        "type": "error"
+      },
+      "children": []
+    },
+    "text_ok": {
+      "type": "Text",
+      "props": {
+        "text": "OK: github-trending (5 picks); defi-monitor (no positions configured)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "text_watch"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_watch": {
+      "type": "Text",
+      "props": {
+        "text": "Mastercard enables AI-agent-speed payments on Base via stablecoins — validates agent economy + GENIUS Act thesis (Focus #1 + #3)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_tasks"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "running_tasks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "task_heartbeat_0800",
+        "task_heartbeat_1400",
+        "task_heartbeat_2000",
+        "task_github_0900",
+        "task_token_movers",
+        "task_token_pick",
+        "task_narrative_tracker"
+      ]
+    },
+    "task_heartbeat_0800": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task_heartbeat_1400": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 14:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task_heartbeat_2000": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task_github_0900": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task_token_movers": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "task_token_movers_text",
+        "task_token_movers_badge"
+      ]
+    },
+    "task_token_movers_text": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task_token_movers_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠ failure streak: 1",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "task_token_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "task_token_pick_text",
+        "task_token_pick_badge"
+      ]
+    },
+    "task_token_pick_text": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task_token_pick_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠ failure streak: 1",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "task_narrative_tracker": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

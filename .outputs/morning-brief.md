@@ -1,22 +1,20 @@
-*Morning Brief — 2026-06-15*
+*Morning Brief — 2026-06-16*
 
 *Focus today*
-1. GENIUS Act Senate vote June 17 — 2-day front-run window closes Wednesday
-2. Resolve XAI 403 (day 16) — narrative-tracker runs 13:30 UTC degraded again
-3. Rewrite MEMORY.md Next Priorities — stale goals misdirect every skill run
+1. GENIUS Act market window — why now: Senate passed 68-30; positioning closes tomorrow Jun 17
+2. token-movers + token-pick failures — why now: both retry 12:00 UTC; two misses = blind day
+3. Rewrite MEMORY.md Next Priorities — why now: stale goals bias narrative-tracker run at 13:30
 
 *Since yesterday*
-- BP pick held: Backpack Securities tokenized equities thesis intact (entry +14.9%)
-- XAI 403: day 16 consecutive; narrative-tracker fell back to WebSearch (quality 4)
-- BEAT/H capitulation completed; PUMP launchpad infra holding WATCH
-- Check Point CVE-2026-50751 flagged (CVSS 9.3, Qilin ransomware, CISA KEV)
+- Failed: token-movers, token-pick, security-digest, deal-flow all failed Jun 15 (1 consecutive each)
+- OK: github-trending (5 picks); defi-monitor (no positions configured)
 
 *Watch*
-- GENIUS Act Senate passage 68-30 confirmed by Fenwick/Davis Polk/Paul Hastings — stablecoin FRONT-RUN exits June 17; hold for House vote July 17 only if amendments favorable
+- Mastercard enables AI-agent-speed payments on Base via stablecoins — validates agent economy + GENIUS Act thesis (Focus #1 + #3)
 
 *Running today*
-- heartbeat @ 08:00 / 14:00 / 20:00 UTC
+- heartbeat @ 08:00/14:00/20:00 UTC
 - github-monitor @ 09:00 UTC
-- token-movers @ 12:00 UTC
-- token-pick @ 12:00 UTC
+- token-movers @ 12:00 UTC ⚠ failure streak: 1
+- token-pick @ 12:00 UTC ⚠ failure streak: 1
 - narrative-tracker @ 13:30 UTC
