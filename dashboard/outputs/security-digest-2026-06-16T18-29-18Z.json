@@ -1,0 +1,726 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-06-16"
+      },
+      "children": [
+        "alert_verdict",
+        "sep1",
+        "heading_patch_today",
+        "stack_patch_today",
+        "sep2",
+        "heading_patch_week",
+        "stack_patch_week"
+      ]
+    },
+    "alert_verdict": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Verdict: 2 actively exploited (CISA KEV), 1 public exploit (CVSS 9.8), 5 to schedule. Sources: CISA KEV, GH Advisory, EPSS"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_patch_today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "stack_patch_today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "cve_2026_11645",
+        "cve_2026_10520",
+        "cve_2026_53633"
+      ]
+    },
+    "cve_2026_11645": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_11645_header",
+        "cve_11645_meta",
+        "cve_11645_desc",
+        "cve_11645_remediation"
+      ]
+    },
+    "cve_11645_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_11645",
+        "badge_chromium"
+      ]
+    },
+    "link_11645": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-11645",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      }
+    },
+    "badge_chromium": {
+      "type": "Badge",
+      "props": {
+        "text": "Google Chromium V8",
+        "variant": "secondary"
+      }
+    },
+    "cve_11645_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_11645_kev",
+        "badge_11645_due"
+      ]
+    },
+    "badge_11645_kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-06-09",
+        "variant": "destructive"
+      }
+    },
+    "badge_11645_due": {
+      "type": "Badge",
+      "props": {
+        "text": "due 2026-06-23",
+        "variant": "outline"
+      }
+    },
+    "cve_11645_desc": {
+      "type": "Text",
+      "props": {
+        "text": "OOB memory r/w enabling sandbox escape via crafted HTML. Affects Chrome, Edge, Opera. Exploited per CISA.",
+        "variant": "body"
+      }
+    },
+    "cve_11645_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ update all browsers to latest stable build today.",
+        "variant": "lead"
+      }
+    },
+    "cve_2026_10520": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_10520_header",
+        "cve_10520_meta",
+        "cve_10520_desc",
+        "cve_10520_remediation"
+      ]
+    },
+    "cve_10520_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_10520",
+        "badge_ivanti"
+      ]
+    },
+    "link_10520": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-10520",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      }
+    },
+    "badge_ivanti": {
+      "type": "Badge",
+      "props": {
+        "text": "Ivanti Sentry",
+        "variant": "secondary"
+      }
+    },
+    "cve_10520_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_10520_kev",
+        "badge_10520_overdue"
+      ]
+    },
+    "badge_10520_kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-06-11",
+        "variant": "destructive"
+      }
+    },
+    "badge_10520_overdue": {
+      "type": "Badge",
+      "props": {
+        "text": "OVERDUE (due 2026-06-14)",
+        "variant": "destructive"
+      }
+    },
+    "cve_10520_desc": {
+      "type": "Text",
+      "props": {
+        "text": "OS command injection → unauthenticated remote root execution on unmanaged appliances. Exploited per CISA.",
+        "variant": "body"
+      }
+    },
+    "cve_10520_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Ivanti Sentry patch immediately; isolate appliance from internet if patch unavailable.",
+        "variant": "lead"
+      }
+    },
+    "cve_2026_53633": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_53633_header",
+        "cve_53633_meta",
+        "cve_53633_desc",
+        "cve_53633_remediation"
+      ]
+    },
+    "cve_53633_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_53633",
+        "badge_vitest"
+      ]
+    },
+    "link_53633": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-53633",
+        "href": "https://github.com/advisories/GHSA-g8mr-85jm-7xhm",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badge_vitest": {
+      "type": "Badge",
+      "props": {
+        "text": "@vitest/browser (npm)",
+        "variant": "secondary"
+      }
+    },
+    "cve_53633_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_53633_cvss",
+        "badge_53633_epss",
+        "badge_53633_poc"
+      ]
+    },
+    "badge_53633_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8",
+        "variant": "destructive"
+      }
+    },
+    "badge_53633_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.09%",
+        "variant": "outline"
+      }
+    },
+    "badge_53633_poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "outline"
+      }
+    },
+    "cve_53633_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Exposed CDP bridge in Vitest Browser Mode allows remote config overwrite → RCE. Triggered when api.host=0.0.0.0.",
+        "variant": "body"
+      }
+    },
+    "cve_53633_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade @vitest/browser to ≥3.2.5 / ≥4.1.8 / ≥5.0.0-beta.4 and redeploy.",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_patch_week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "stack_patch_week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "cve_2026_48519",
+        "cve_2026_54257",
+        "cve_2026_48039",
+        "cve_2026_48746",
+        "cve_2026_48150"
+      ]
+    },
+    "cve_2026_48519": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_48519_header",
+        "cve_48519_meta",
+        "cve_48519_desc",
+        "cve_48519_remediation"
+      ]
+    },
+    "cve_48519_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_48519",
+        "badge_langflow"
+      ]
+    },
+    "link_48519": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48519",
+        "href": "https://github.com/advisories/GHSA-v5ff-9q35-q26f",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badge_langflow": {
+      "type": "Badge",
+      "props": {
+        "text": "langflow (pip)",
+        "variant": "secondary"
+      }
+    },
+    "cve_48519_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_48519_cvss",
+        "badge_48519_epss",
+        "badge_48519_poc"
+      ]
+    },
+    "badge_48519_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.6",
+        "variant": "destructive"
+      }
+    },
+    "badge_48519_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.09%",
+        "variant": "outline"
+      }
+    },
+    "badge_48519_poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "outline"
+      }
+    },
+    "cve_48519_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated RCE via shareable playground — attacker injects arbitrary Python via public flow payload.",
+        "variant": "body"
+      }
+    },
+    "cve_48519_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade langflow to ≥1.9.2.",
+        "variant": "lead"
+      }
+    },
+    "cve_2026_54257": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_54257_header",
+        "cve_54257_meta",
+        "cve_54257_desc",
+        "cve_54257_remediation"
+      ]
+    },
+    "cve_54257_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_54257",
+        "badge_electron"
+      ]
+    },
+    "link_54257": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54257",
+        "href": "https://github.com/advisories/GHSA-q6m5-f73j-m9mc",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badge_electron": {
+      "type": "Badge",
+      "props": {
+        "text": "electron (npm)",
+        "variant": "secondary"
+      }
+    },
+    "cve_54257_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_54257_cvss",
+        "badge_54257_epss"
+      ]
+    },
+    "badge_54257_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.3",
+        "variant": "destructive"
+      }
+    },
+    "badge_54257_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.02%",
+        "variant": "outline"
+      }
+    },
+    "cve_54257_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Incorrect Buffer byte-length calculations → heap buffer overflow, crashes or attacker code execution.",
+        "variant": "body"
+      }
+    },
+    "cve_54257_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade electron to ≥42.3.3.",
+        "variant": "lead"
+      }
+    },
+    "cve_2026_48039": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_48039_header",
+        "cve_48039_meta",
+        "cve_48039_desc",
+        "cve_48039_remediation"
+      ]
+    },
+    "cve_48039_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_48039",
+        "badge_meta_ads"
+      ]
+    },
+    "link_48039": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48039",
+        "href": "https://github.com/advisories/GHSA-9gw6-46qc-99vr",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badge_meta_ads": {
+      "type": "Badge",
+      "props": {
+        "text": "meta-ads-mcp (pip)",
+        "variant": "secondary"
+      }
+    },
+    "cve_48039_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_48039_cvss",
+        "badge_48039_epss"
+      ]
+    },
+    "badge_48039_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.1",
+        "variant": "destructive"
+      }
+    },
+    "badge_48039_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.13%",
+        "variant": "outline"
+      }
+    },
+    "cve_48039_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated MCP tool execution; Meta API access token leaked verbatim in error response body.",
+        "variant": "body"
+      }
+    },
+    "cve_48039_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade meta-ads-mcp to ≥1.0.109.",
+        "variant": "lead"
+      }
+    },
+    "cve_2026_48746": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_48746_header",
+        "cve_48746_meta",
+        "cve_48746_desc",
+        "cve_48746_remediation"
+      ]
+    },
+    "cve_48746_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_48746",
+        "badge_vllm"
+      ]
+    },
+    "link_48746": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48746",
+        "href": "https://github.com/advisories/GHSA-94f4-hr76-p5j6",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badge_vllm": {
+      "type": "Badge",
+      "props": {
+        "text": "vllm (pip)",
+        "variant": "secondary"
+      }
+    },
+    "cve_48746_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_48746_cvss",
+        "badge_48746_epss"
+      ]
+    },
+    "badge_48746_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.1",
+        "variant": "destructive"
+      }
+    },
+    "badge_48746_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.08%",
+        "variant": "outline"
+      }
+    },
+    "cve_48746_desc": {
+      "type": "Text",
+      "props": {
+        "text": "OpenAI API auth bypass via Host-header smuggling on ASGI. Instances behind nginx are not affected.",
+        "variant": "body"
+      }
+    },
+    "cve_48746_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade vllm to ≥0.22.0 or place behind nginx.",
+        "variant": "lead"
+      }
+    },
+    "cve_2026_48150": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_48150_header",
+        "cve_48150_meta",
+        "cve_48150_desc",
+        "cve_48150_remediation"
+      ]
+    },
+    "cve_48150_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_48150",
+        "badge_budibase"
+      ]
+    },
+    "link_48150": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48150",
+        "href": "https://github.com/advisories/GHSA-6xp4-cf37-ppjh",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badge_budibase": {
+      "type": "Badge",
+      "props": {
+        "text": "@budibase/server (npm)",
+        "variant": "secondary"
+      }
+    },
+    "cve_48150_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_48150_cvss",
+        "badge_48150_epss",
+        "badge_48150_scope"
+      ]
+    },
+    "badge_48150_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.0",
+        "variant": "destructive"
+      }
+    },
+    "badge_48150_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.06%",
+        "variant": "outline"
+      }
+    },
+    "badge_48150_scope": {
+      "type": "Badge",
+      "props": {
+        "text": "Enterprise tenants only",
+        "variant": "outline"
+      }
+    },
+    "cve_48150_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Workspace-scoped builder mass-assigns global admin via /api/public/v1/roles/assign.",
+        "variant": "body"
+      }
+    },
+    "cve_48150_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade budibase to ≥3.39.0.",
+        "variant": "lead"
+      }
+    }
+  }
+}
