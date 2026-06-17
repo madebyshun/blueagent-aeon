@@ -1,0 +1,124 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-06-17"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "stack_transition_item"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h3"
+      }
+    },
+    "stack_transition_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_row",
+        "text_event",
+        "stack_volumes",
+        "text_velocity"
+      ]
+    },
+    "header_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted",
+        "heading_market",
+        "badge_direction"
+      ]
+    },
+    "badge_promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "default"
+      }
+    },
+    "heading_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Prediction Markets",
+        "level": "h4"
+      }
+    },
+    "badge_direction": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading → Rising",
+        "variant": "secondary"
+      }
+    },
+    "text_event": {
+      "type": "Text",
+      "props": {
+        "text": "World Cup 2026 event"
+      }
+    },
+    "stack_volumes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_polymarket",
+        "stat_kalshi",
+        "text_tournament"
+      ]
+    },
+    "stat_polymarket": {
+      "type": "Stat",
+      "props": {
+        "label": "Polymarket",
+        "value": "$2.8B/week"
+      }
+    },
+    "stat_kalshi": {
+      "type": "Stat",
+      "props": {
+        "label": "Kalshi",
+        "value": "$4.5B/week"
+      }
+    },
+    "text_tournament": {
+      "type": "Text",
+      "props": {
+        "text": "$2B+ on tournament alone"
+      }
+    },
+    "text_velocity": {
+      "type": "Text",
+      "props": {
+        "text": "Full velocity reversal from low",
+        "variant": "muted"
+      }
+    }
+  }
+}
