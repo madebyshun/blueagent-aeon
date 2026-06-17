@@ -1,0 +1,358 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-17"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section1",
+        "sep1",
+        "section2",
+        "sep2",
+        "footer"
+      ]
+    },
+    "section1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "uni_heading",
+        "uni_badges",
+        "uni_price_stack",
+        "uni_market_data",
+        "uni_score_details",
+        "uni_catalyst_heading",
+        "uni_catalyst_text",
+        "uni_risk_heading",
+        "uni_risk_text",
+        "uni_recent"
+      ]
+    },
+    "uni_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: UNI",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "uni_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_high",
+        "badge_signal"
+      ]
+    },
+    "badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 10/10",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "uni_price_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_price_24h",
+        "stat_price_7d"
+      ]
+    },
+    "stat_price_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "Price (24h)",
+        "value": "$3.20",
+        "delta": "+8.6%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_price_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "Price (7d)",
+        "value": "$3.20",
+        "delta": "+29%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "uni_market_data": {
+      "type": "Text",
+      "props": {
+        "text": "Market cap: $2.0B | Volume: $982.7M | Volume/MCap: 0.49",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "uni_score_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score_heading",
+        "score_formula"
+      ]
+    },
+    "score_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "score_formula": {
+      "type": "Text",
+      "props": {
+        "text": "24h>0 (+1) | 7d>0 (+1) | both>5% (+2) | CG trending (+2) | vol/mcap≥0.20 (+3) | RS vs BTC/ETH (+2) = 11→10/10",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "uni_catalyst_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "uni_catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "Bitwise filed a spot UNI ETF (S-1 Feb 2026) + fee-switch now burning ~134k UNI/day permanently removes supply; tokenized RWA volumes on Uniswap rising via BlackRock BUIDL and tokenized securities launch",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "uni_risk_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "uni_risk_text": {
+      "type": "Text",
+      "props": {
+        "text": "Morning-brief flagged GENIUS Act sell-the-news window for UNI — if macro turns or ETF approval stalls, structural narrative fades fast; no floor visible below $2.48 (7d low)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "uni_recent": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_heading",
+        "market_badges",
+        "market_odds_stack",
+        "market_volume",
+        "market_fair_yes",
+        "market_thesis_heading",
+        "market_thesis_text",
+        "market_risk_heading",
+        "market_risk_text"
+      ]
+    },
+    "market_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: \"Starmer out by June 30, 2026?\"",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "market_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_market_high",
+        "badge_market_edge"
+      ]
+    },
+    "badge_market_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge_market_edge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 17pp (bet NO)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "market_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_yes_odds",
+        "stat_no_odds"
+      ]
+    },
+    "stat_yes_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "39.5¢"
+      },
+      "children": []
+    },
+    "stat_no_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "60.5¢"
+      },
+      "children": []
+    },
+    "market_volume": {
+      "type": "Text",
+      "props": {
+        "text": "24h volume: $175k | Resolves: 2026-06-30",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "market_fair_yes": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~22% (inputs: PM vowed to fight, Bloomberg Jan 2026; leadership challenge averted, PBS May 2026; 110+ backbenchers blocking formal vote as of mid-May)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "market_thesis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "market_thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Market prices 40% exit probability in 13 days — but Starmer survived the May crisis with majority backbench support; UK Labour leadership votes take months; NO is underpriced by ~17pp",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "market_risk_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "market_risk_text": {
+      "type": "Text",
+      "props": {
+        "text": "An unforeseen resignation announcement gaps YES to 100 instantly — pure binary tail risk",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_text",
+        "disclaimer"
+      ]
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: CoinGecko ✓ | DEX ✗ | Polymarket ✓",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "disclaimer": {
+      "type": "Alert",
+      "props": {
+        "message": "Not financial advice — pattern-matching only",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
