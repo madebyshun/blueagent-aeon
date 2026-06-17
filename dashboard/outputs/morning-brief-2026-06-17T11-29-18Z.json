@@ -1,0 +1,447 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-17"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "yesterday_section",
+        "sep2",
+        "watch_section",
+        "sep3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus1",
+        "focus2",
+        "focus3"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "focus1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus1_title",
+        "focus1_reason"
+      ]
+    },
+    "focus1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. Stablecoin exit",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus1_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Senate confirmed GENIUS Act; sell-the-news window closing fast",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "focus2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus2_title",
+        "focus2_reason"
+      ]
+    },
+    "focus2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. HYPE above ATH",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus2_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: $76.90 breaks $75.51 resistance; media cycle just triggered",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "focus3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus3_title",
+        "focus3_reason"
+      ]
+    },
+    "focus3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. Update MEMORY.md priorities",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus3_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: stale May 17 goals bias 13:30 narrative-tracker run",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "yesterday_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_heading",
+        "yesterday1",
+        "yesterday2",
+        "yesterday3"
+      ]
+    },
+    "yesterday_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "yesterday1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday1_badge",
+        "yesterday1_text"
+      ]
+    },
+    "yesterday1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "yesterday1_text": {
+      "type": "Text",
+      "props": {
+        "text": "Narrative-tracker: Stablecoins flipped EXIT signal, HYPE FADE reversed RISING; 14 narratives scored",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday2_header",
+        "yesterday2_data",
+        "yesterday2_reasons"
+      ]
+    },
+    "yesterday2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday2_badge",
+        "yesterday2_title"
+      ]
+    },
+    "yesterday2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "yesterday2_title": {
+      "type": "Text",
+      "props": {
+        "text": "Token-pick: AERO",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "yesterday2_data": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "aero_price",
+        "aero_change_1d",
+        "aero_change_7d",
+        "aero_tier",
+        "aero_score"
+      ]
+    },
+    "aero_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.48"
+      },
+      "children": []
+    },
+    "aero_change_1d": {
+      "type": "Stat",
+      "props": {
+        "label": "1d",
+        "value": "+12.8%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "aero_change_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+44.7%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "aero_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "tier HIGH",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "aero_score": {
+      "type": "Badge",
+      "props": {
+        "text": "score 10/10",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "yesterday2_reasons": {
+      "type": "Text",
+      "props": {
+        "text": "Velodrome merge + GENIUS Act + Robinhood Legend",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "yesterday3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday3_badge",
+        "yesterday3_text"
+      ]
+    },
+    "yesterday3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "yesterday3_text": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow: consecutive failure 1 since Jun 15 — last success Jun 8, no fix assigned",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_heading",
+        "watch1",
+        "watch2"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "watch1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch1_main",
+        "watch1_context"
+      ]
+    },
+    "watch1_main": {
+      "type": "Text",
+      "props": {
+        "text": "GENIUS Act clears Senate 68-30",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "watch1_context": {
+      "type": "Text",
+      "props": {
+        "text": "sell-the-news trigger fires for AERO/M/UNI; House vote is re-entry window (Focus #1)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "watch2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch2_main",
+        "watch2_context"
+      ]
+    },
+    "watch2_main": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE $76.90 ATH",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "watch2_context": {
+      "type": "Text",
+      "props": {
+        "text": "$80 analyst target in range; overextension risk alongside amplification (Focus #2)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_heading",
+        "running_table"
+      ]
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "running_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Time"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "08:00 / 14:00 / 20:00 UTC"
+          ],
+          [
+            "github-monitor",
+            "09:00 UTC"
+          ],
+          [
+            "token-movers",
+            "12:00 UTC"
+          ],
+          [
+            "token-pick",
+            "12:00 UTC"
+          ],
+          [
+            "narrative-tracker",
+            "13:30 UTC"
+          ]
+        ]
+      },
+      "children": []
+    }
+  }
+}
