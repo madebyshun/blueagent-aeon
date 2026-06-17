@@ -1,0 +1,808 @@
+{
+  "root": "main",
+  "state": {},
+  "elements": {
+    "main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-06-17"
+      },
+      "children": [
+        "verdict",
+        "sep1",
+        "section-today",
+        "sep2",
+        "section-week",
+        "sep3",
+        "section-monitor"
+      ]
+    },
+    "verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 3 KEV confirmed exploited (infra), 5 to schedule, 3 no fix yet. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "section-today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "h-today",
+        "alert-today",
+        "entry-48907",
+        "entry-20262",
+        "entry-35273"
+      ]
+    },
+    "h-today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "alert-today": {
+      "type": "Alert",
+      "props": {
+        "message": "Actively exploited per CISA",
+        "type": "error"
+      }
+    },
+    "entry-48907": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sl-48907",
+        "desc-48907",
+        "badges-48907",
+        "due-48907",
+        "action-48907"
+      ]
+    },
+    "sl-48907": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48907",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "KEV 2026-06-16",
+        "score": "EPSS 0.047"
+      }
+    },
+    "desc-48907": {
+      "type": "Text",
+      "props": {
+        "text": "Widget Factory Joomla Content Editor — Unauth PHP file upload via editor profile creation.",
+        "variant": "body"
+      }
+    },
+    "badges-48907": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-epss-48907",
+        "badge-cvss-48907"
+      ]
+    },
+    "badge-epss-48907": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.047",
+        "variant": "default"
+      }
+    },
+    "badge-cvss-48907": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "secondary"
+      }
+    },
+    "due-48907": {
+      "type": "Text",
+      "props": {
+        "text": "Due 2026-06-19",
+        "variant": "caption"
+      }
+    },
+    "action-48907": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply vendor mitigation; discontinue use if unavailable.",
+        "variant": "body"
+      }
+    },
+    "entry-20262": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sl-20262",
+        "desc-20262",
+        "badges-20262",
+        "due-20262",
+        "action-20262"
+      ]
+    },
+    "sl-20262": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-20262",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "KEV 2026-06-15",
+        "score": "EPSS 0.011"
+      }
+    },
+    "desc-20262": {
+      "type": "Text",
+      "props": {
+        "text": "Cisco Catalyst SD-WAN Manager — Authenticated path traversal → create/overwrite filesystem files.",
+        "variant": "body"
+      }
+    },
+    "badges-20262": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-epss-20262",
+        "badge-cvss-20262"
+      ]
+    },
+    "badge-epss-20262": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.011",
+        "variant": "default"
+      }
+    },
+    "badge-cvss-20262": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "secondary"
+      }
+    },
+    "due-20262": {
+      "type": "Text",
+      "props": {
+        "text": "Due 2026-06-29",
+        "variant": "caption"
+      }
+    },
+    "action-20262": {
+      "type": "Text",
+      "props": {
+        "text": "→ patch to vendor-fixed release.",
+        "variant": "body"
+      }
+    },
+    "entry-35273": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sl-35273",
+        "desc-35273",
+        "badges-35273",
+        "due-35273",
+        "action-35273"
+      ]
+    },
+    "sl-35273": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-35273",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "KEV 2026-06-12",
+        "score": "EPSS 0.007"
+      }
+    },
+    "desc-35273": {
+      "type": "Text",
+      "props": {
+        "text": "Oracle PeopleSoft PeopleTools — Missing auth → full system takeover.",
+        "variant": "body"
+      }
+    },
+    "badges-35273": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-epss-35273",
+        "badge-cvss-35273"
+      ]
+    },
+    "badge-epss-35273": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.007",
+        "variant": "default"
+      }
+    },
+    "badge-cvss-35273": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "secondary"
+      }
+    },
+    "due-35273": {
+      "type": "Text",
+      "props": {
+        "text": "Due 2026-06-15 (PAST)",
+        "variant": "caption"
+      }
+    },
+    "action-35273": {
+      "type": "Text",
+      "props": {
+        "text": "→ patch immediately; due date passed.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "section-week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "h-week",
+        "alert-week",
+        "entry-54309",
+        "entry-54305",
+        "entry-54307",
+        "entry-33760",
+        "entry-52845"
+      ]
+    },
+    "h-week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "alert-week": {
+      "type": "Alert",
+      "props": {
+        "type": "warning"
+      }
+    },
+    "entry-54309": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sl-54309",
+        "desc-54309",
+        "badges-54309",
+        "action-54309"
+      ]
+    },
+    "sl-54309": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54309",
+        "href": "https://github.com/advisories/GHSA-qrx8-25qr-5r7v",
+        "source": "GitHub Advisory",
+        "score": "CVSS 10.0"
+      }
+    },
+    "desc-54309": {
+      "type": "Text",
+      "props": {
+        "text": "n8n (npm) — MCP Browser HTTP transport exposes unauthenticated browser-control sessions. No PoC.",
+        "variant": "body"
+      }
+    },
+    "badges-54309": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-54309",
+        "badge-poc-54309"
+      ]
+    },
+    "badge-cvss-54309": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 10.0",
+        "variant": "destructive"
+      }
+    },
+    "badge-poc-54309": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "outline"
+      }
+    },
+    "action-54309": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade n8n to ≥ 2.26.2 (or ≥ 1.123.55 on v1).",
+        "variant": "body"
+      }
+    },
+    "entry-54305": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sl-54305",
+        "desc-54305",
+        "badges-54305",
+        "action-54305"
+      ]
+    },
+    "sl-54305": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54305",
+        "href": "https://github.com/advisories/GHSA-2j5h-858j-5mpf",
+        "source": "GitHub Advisory",
+        "score": "CVSS 9.9"
+      }
+    },
+    "desc-54305": {
+      "type": "Text",
+      "props": {
+        "text": "n8n (npm) — Cross-tenant credential takeover via Dynamic Credentials EE endpoints. No PoC.",
+        "variant": "body"
+      }
+    },
+    "badges-54305": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-54305",
+        "badge-poc-54305"
+      ]
+    },
+    "badge-cvss-54305": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.9",
+        "variant": "destructive"
+      }
+    },
+    "badge-poc-54305": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "outline"
+      }
+    },
+    "action-54305": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade n8n to ≥ 2.26.2 (or ≥ 1.123.55 on v1).",
+        "variant": "body"
+      }
+    },
+    "entry-54307": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sl-54307",
+        "desc-54307",
+        "badges-54307",
+        "action-54307"
+      ]
+    },
+    "sl-54307": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54307",
+        "href": "https://github.com/advisories/GHSA-pmqw-72cg-wx85",
+        "source": "GitHub Advisory",
+        "score": "CVSS 9.6"
+      }
+    },
+    "desc-54307": {
+      "type": "Text",
+      "props": {
+        "text": "n8n (npm) — Credential exfiltration via permission bypass on workflow credentials. No PoC.",
+        "variant": "body"
+      }
+    },
+    "badges-54307": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-54307",
+        "badge-poc-54307"
+      ]
+    },
+    "badge-cvss-54307": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.6",
+        "variant": "destructive"
+      }
+    },
+    "badge-poc-54307": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "outline"
+      }
+    },
+    "action-54307": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade n8n to ≥ 2.26.2.",
+        "variant": "body"
+      }
+    },
+    "entry-33760": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sl-33760",
+        "desc-33760",
+        "badges-33760",
+        "action-33760"
+      ]
+    },
+    "sl-33760": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-33760",
+        "href": "https://github.com/advisories/GHSA-9c59-2mvc-vfr8",
+        "source": "GitHub Advisory",
+        "score": "CVSS 8.8"
+      }
+    },
+    "desc-33760": {
+      "type": "Text",
+      "props": {
+        "text": "langflow (pip) — IDOR/BOLA on 7 Monitor API endpoints — missing ownership enforcement. No PoC.",
+        "variant": "body"
+      }
+    },
+    "badges-33760": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-33760",
+        "badge-poc-33760"
+      ]
+    },
+    "badge-cvss-33760": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8",
+        "variant": "destructive"
+      }
+    },
+    "badge-poc-33760": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "outline"
+      }
+    },
+    "action-33760": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade langflow to ≥ 1.9.0.",
+        "variant": "body"
+      }
+    },
+    "entry-52845": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sl-52845",
+        "desc-52845",
+        "badges-52845",
+        "action-52845"
+      ]
+    },
+    "sl-52845": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-52845",
+        "href": "https://github.com/advisories/GHSA-f59h-q822-g45g",
+        "source": "GitHub Advisory",
+        "score": "CVSS 8.1"
+      }
+    },
+    "desc-52845": {
+      "type": "Text",
+      "props": {
+        "text": "caddy (go) — FastCGI header normalization bypass in forward_auth copy_headers. No PoC.",
+        "variant": "body"
+      }
+    },
+    "badges-52845": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-52845",
+        "badge-poc-52845"
+      ]
+    },
+    "badge-cvss-52845": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "destructive"
+      }
+    },
+    "badge-poc-52845": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "outline"
+      }
+    },
+    "action-52845": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade caddy to ≥ 2.11.4.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "section-monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "h-monitor",
+        "alert-monitor",
+        "entry-49980",
+        "entry-49468",
+        "entry-crawl"
+      ]
+    },
+    "h-monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "alert-monitor": {
+      "type": "Alert",
+      "props": {
+        "message": "No fix available yet",
+        "type": "info"
+      }
+    },
+    "entry-49980": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sl-49980",
+        "desc-49980",
+        "badges-49980",
+        "action-49980"
+      ]
+    },
+    "sl-49980": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-49980",
+        "href": "https://github.com/advisories/GHSA-qw24-gh76-8rvv",
+        "source": "GitHub Advisory",
+        "score": "CVSS 9.8"
+      }
+    },
+    "desc-49980": {
+      "type": "Text",
+      "props": {
+        "text": "rclone (go) — Unauth RCE via rcd --rc-serve inline remote instantiation (bypasses CVE-2026-41179 fix). ≥ 1.55.0. No fix.",
+        "variant": "body"
+      }
+    },
+    "badges-49980": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-49980",
+        "badge-nofix-49980"
+      ]
+    },
+    "badge-cvss-49980": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8",
+        "variant": "destructive"
+      }
+    },
+    "badge-nofix-49980": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "destructive"
+      }
+    },
+    "action-49980": {
+      "type": "Text",
+      "props": {
+        "text": "→ avoid exposing rclone rc port; watch for patch.",
+        "variant": "body"
+      }
+    },
+    "entry-49468": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sl-49468",
+        "desc-49468",
+        "badges-49468",
+        "action-49468"
+      ]
+    },
+    "sl-49468": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-49468",
+        "href": "https://github.com/advisories/GHSA-4xpc-pv4p-pm3w",
+        "source": "GitHub Advisory"
+      }
+    },
+    "desc-49468": {
+      "type": "Text",
+      "props": {
+        "text": "litellm (pip) — Auth bypass via host header injection. < 1.84.0. No fix.",
+        "variant": "body"
+      }
+    },
+    "badges-49468": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-nofix-49468"
+      ]
+    },
+    "badge-nofix-49468": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "destructive"
+      }
+    },
+    "action-49468": {
+      "type": "Text",
+      "props": {
+        "text": "→ enforce strict host validation upstream; watch GHSA-4xpc-pv4p-pm3w.",
+        "variant": "body"
+      }
+    },
+    "entry-crawl": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sl-crawl",
+        "desc-crawl",
+        "badges-crawl",
+        "action-crawl"
+      ]
+    },
+    "sl-crawl": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-365w-hqf6-vxfg",
+        "href": "https://github.com/advisories/GHSA-365w-hqf6-vxfg",
+        "source": "GitHub Advisory",
+        "score": "CVSS 9.8"
+      }
+    },
+    "desc-crawl": {
+      "type": "Text",
+      "props": {
+        "text": "crawl4ai (pip) — 5+ pre-auth vulns in Docker server: RCE, auth bypass, SSRF, file write. ≤ 0.8.8. No fix.",
+        "variant": "body"
+      }
+    },
+    "badges-crawl": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-crawl",
+        "badge-nofix-crawl"
+      ]
+    },
+    "badge-cvss-crawl": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8",
+        "variant": "destructive"
+      }
+    },
+    "badge-nofix-crawl": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "destructive"
+      }
+    },
+    "action-crawl": {
+      "type": "Text",
+      "props": {
+        "text": "→ do not expose crawl4ai Docker API publicly; watch for patched release.",
+        "variant": "body"
+      }
+    }
+  }
+}
