@@ -1,0 +1,352 @@
+{
+  "root": "root-card",
+  "state": {},
+  "elements": {
+    "root-card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-17"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "top-pick-heading",
+        "mattpocock-skills-top",
+        "sep-1",
+        "devtools-heading",
+        "devtools-stack",
+        "sep-2",
+        "ai-ml-heading",
+        "ai-ml-stack",
+        "sep-3",
+        "infra-heading",
+        "infra-stack",
+        "sep-4",
+        "sources-text"
+      ]
+    },
+    "top-pick-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "mattpocock-skills-top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mattpocock-skills-top-link",
+        "mattpocock-skills-top-desc"
+      ]
+    },
+    "mattpocock-skills-top-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mattpocock/skills",
+        "href": "https://github.com/mattpocock/skills"
+      }
+    },
+    "mattpocock-skills-top-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Real Claude Code skills from a proven TypeScript educator — production workflows ready to copy, not synthetic tutorials.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mattpocock-skills-dev",
+        "obra-superpowers",
+        "universal-debloater"
+      ]
+    },
+    "mattpocock-skills-dev": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mattpocock-skills-dev-link",
+        "mattpocock-skills-dev-stats",
+        "mattpocock-skills-dev-desc"
+      ]
+    },
+    "mattpocock-skills-dev-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mattpocock/skills",
+        "href": "https://github.com/mattpocock/skills"
+      }
+    },
+    "mattpocock-skills-dev-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1,849 today (132k total) · Shell · [ACCELERATING]",
+        "variant": "caption"
+      }
+    },
+    "mattpocock-skills-dev-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Straight from Matt Pocock's .claude directory — real skills for real engineers, plug in and stop rebuilding from scratch.",
+        "variant": "body"
+      }
+    },
+    "obra-superpowers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "obra-superpowers-link",
+        "obra-superpowers-stats",
+        "obra-superpowers-desc"
+      ]
+    },
+    "obra-superpowers-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "obra/superpowers",
+        "href": "https://github.com/obra/superpowers"
+      }
+    },
+    "obra-superpowers-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1,109 today (230k total) · Shell · [ACCELERATING]",
+        "variant": "caption"
+      }
+    },
+    "obra-superpowers-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic coding methodology with 230k adopters; pushed today — the emerging playbook for human-AI pair programming.",
+        "variant": "body"
+      }
+    },
+    "universal-debloater": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "universal-debloater-link",
+        "universal-debloater-stats",
+        "universal-debloater-desc"
+      ]
+    },
+    "universal-debloater-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+        "href": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation"
+      }
+    },
+    "universal-debloater-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 465 today (7.5k total) · Rust · [RETURNING]",
+        "variant": "caption"
+      }
+    },
+    "universal-debloater-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rust+ADB GUI to surgically remove OEM bloatware from non-rooted Android — 465 stars today signals a fresh vendor bundling moment.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "ai-ml-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deus-memory",
+        "timesfm"
+      ]
+    },
+    "deus-memory": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deus-memory-link",
+        "deus-memory-stats",
+        "deus-memory-desc"
+      ]
+    },
+    "deus-memory-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DeusData/codebase-memory-mcp",
+        "href": "https://github.com/DeusData/codebase-memory-mcp"
+      }
+    },
+    "deus-memory-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 367 today (4.2k total) · C · [RETURNING]",
+        "variant": "caption"
+      }
+    },
+    "deus-memory-desc": {
+      "type": "Text",
+      "props": {
+        "text": "MCP server that indexes your codebase into a persistent knowledge graph — instant symbol-level context without embedding overhead.",
+        "variant": "body"
+      }
+    },
+    "timesfm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "timesfm-link",
+        "timesfm-stats",
+        "timesfm-desc"
+      ]
+    },
+    "timesfm-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google-research/timesfm",
+        "href": "https://github.com/google-research/timesfm"
+      }
+    },
+    "timesfm-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 84 today (21.5k total) · Python · [RETURNING]",
+        "variant": "caption"
+      }
+    },
+    "timesfm-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Google's pretrained zero-shot time-series model — forecast any numeric sequence without fine-tuning or labeled training data.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "infra-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infra-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "nautilus-trader"
+      ]
+    },
+    "nautilus-trader": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "nautilus-trader-link",
+        "nautilus-trader-stats",
+        "nautilus-trader-desc"
+      ]
+    },
+    "nautilus-trader-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "nautechsystems/nautilus_trader",
+        "href": "https://github.com/nautechsystems/nautilus_trader"
+      }
+    },
+    "nautilus-trader-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 86 today (23.6k total) · Rust · [RETURNING]",
+        "variant": "caption"
+      }
+    },
+    "nautilus-trader-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rust-core trading engine with Python API bindings — deterministic backtesting plus live trading in one unified stack; pushed today.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/20",
+        "variant": "muted"
+      }
+    }
+  }
+}
