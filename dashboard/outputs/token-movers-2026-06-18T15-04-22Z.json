@@ -1,0 +1,420 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-06-18",
+        "description": "Risk-off tape — 77% of top-50 non-stable coins are red, median ~−1.8%; broad L1/DeFi declines with XLM (+10%) and LAB (+22%) as isolated breakouts."
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_winners",
+        "table_winners",
+        "sep1",
+        "heading_losers",
+        "table_losers",
+        "sep2",
+        "heading_trending",
+        "table_trending",
+        "sep3",
+        "heading_notable",
+        "stack_notable"
+      ]
+    },
+    "heading_winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table_winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "MCap",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "BP (Backpack)",
+            "$0.6377",
+            "+22.1%",
+            "+168%",
+            "+2.7%",
+            "$9.3M",
+            "#199",
+            "TRENDING+UP BREAKOUT"
+          ],
+          [
+            "LAB (LAB)",
+            "$16.05",
+            "+21.7%",
+            "+87%",
+            "+2.4%",
+            "$43.5M",
+            "#22",
+            "TRENDING+UP BREAKOUT"
+          ],
+          [
+            "HUMANITY (Humanity)",
+            "$0.2477",
+            "+15.0%",
+            "+42%",
+            "−1.2%",
+            "$56.1M",
+            "#109",
+            "BREAKOUT"
+          ],
+          [
+            "XLM (Stellar)",
+            "$0.2481",
+            "+10.2%",
+            "+32%",
+            "+2.3%",
+            "$824M",
+            "#15",
+            "MAJOR"
+          ],
+          [
+            "VELVET (Velvet)",
+            "$0.4181",
+            "+9.9%",
+            "−48%",
+            "−0.9%",
+            "$15.5M",
+            "#187",
+            ""
+          ],
+          [
+            "BinanceLife",
+            "$0.7277",
+            "+7.8%",
+            "+5.1%",
+            "+0.4%",
+            "$21.3M",
+            "#81",
+            ""
+          ],
+          [
+            "HOME (HOME)",
+            "$0.02788",
+            "+6.4%",
+            "−20%",
+            "−4.0%",
+            "$79.2M",
+            "#245",
+            ""
+          ],
+          [
+            "ALGO (Algorand)",
+            "$0.1010",
+            "+4.8%",
+            "+14%",
+            "+0.6%",
+            "$54.6M",
+            "#73",
+            ""
+          ],
+          [
+            "RAIN (Rain)",
+            "$0.01456",
+            "+3.8%",
+            "+11%",
+            "+0.2%",
+            "$39.6M",
+            "#13",
+            "MAJOR"
+          ],
+          [
+            "EFIBET (Ether.fi)",
+            "$0.3631",
+            "+3.0%",
+            "+20%",
+            "+1.6%",
+            "$79.6M",
+            "#132",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table_losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "MCap",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "GRASS (Grass)",
+            "$0.4128",
+            "−14.9%",
+            "+17%",
+            "−0.2%",
+            "$35.2M",
+            "#150",
+            ""
+          ],
+          [
+            "ASTER (Aster)",
+            "$0.6677",
+            "−12.3%",
+            "+6%",
+            "+0.4%",
+            "$397M",
+            "#48",
+            ""
+          ],
+          [
+            "THE9BIT (The9bit)",
+            "$0.03662",
+            "−11.8%",
+            "−19%",
+            "+0.3%",
+            "$8.6M",
+            "#135",
+            ""
+          ],
+          [
+            "AKT (Akash)",
+            "$0.7310",
+            "−11.5%",
+            "+22%",
+            "+0.5%",
+            "$15.4M",
+            "#171",
+            ""
+          ],
+          [
+            "LIGHTER (Lighter)",
+            "$1.620",
+            "−10.3%",
+            "+9%",
+            "+2.2%",
+            "$67.1M",
+            "#118",
+            ""
+          ],
+          [
+            "XPL (Plasma)",
+            "$0.1023",
+            "−10.0%",
+            "+59%",
+            "+2.1%",
+            "$269M",
+            "#143",
+            "TRENDING+DOWN CAPITULATION"
+          ],
+          [
+            "AUDIERA (Audiera)",
+            "$1.630",
+            "−9.8%",
+            "−82%",
+            "−0.2%",
+            "$56.1M",
+            "#107",
+            ""
+          ],
+          [
+            "ETHGAS (ETHGas)",
+            "$0.1092",
+            "−8.6%",
+            "−35%",
+            "+1.6%",
+            "$5.4M",
+            "#161",
+            ""
+          ],
+          [
+            "SPX6900 (SPX6900)",
+            "$0.3999",
+            "−8.0%",
+            "+25%",
+            "+2.0%",
+            "$22.4M",
+            "#123",
+            ""
+          ],
+          [
+            "ATOM (Cosmos Hub)",
+            "$1.830",
+            "−7.8%",
+            "−5%",
+            "+0.4%",
+            "$47.2M",
+            "#70",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table_trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h",
+          "Status"
+        ],
+        "rows": [
+          [
+            "ANT (Autonomi)",
+            "#736",
+            "$0.073",
+            "+8.9%",
+            ""
+          ],
+          [
+            "BP (Backpack)",
+            "#199",
+            "$0.638",
+            "+22.1%",
+            "TRENDING+UP"
+          ],
+          [
+            "SYN (Synapse)",
+            "#754",
+            "$0.109",
+            "+94.6%",
+            ""
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#117",
+            "$0.00676",
+            "−5.0%",
+            ""
+          ],
+          [
+            "LAB (LAB)",
+            "#22",
+            "$16.05",
+            "+21.7%",
+            "TRENDING+UP"
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "#10",
+            "$69.4",
+            "−3.2%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "AERO (Aerodrome)",
+            "#112",
+            "$0.458",
+            "−6.1%",
+            "TRENDING+DOWN"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "stack_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "note1",
+        "note2",
+        "note3",
+        "note4"
+      ]
+    },
+    "note1": {
+      "type": "Text",
+      "props": {
+        "text": "BP [TRENDING+UP][BREAKOUT]: 2nd consecutive winner day, now in trending — 7d +168% sustained; vol thin at $9.3M, watch for spread",
+        "variant": "body"
+      }
+    },
+    "note2": {
+      "type": "Text",
+      "props": {
+        "text": "LAB [TRENDING+UP][BREAKOUT]: rank 22 on +21.7% with 7d +87% — mid-cap with search momentum",
+        "variant": "body"
+      }
+    },
+    "note3": {
+      "type": "Text",
+      "props": {
+        "text": "XPL [TRENDING+DOWN][CAPITULATION]: Jun 17 winner +23%; today −10% with vol/mcap > 1× — exhaustion reversal",
+        "variant": "body"
+      }
+    },
+    "note4": {
+      "type": "Text",
+      "props": {
+        "text": "SYN (Synapse, rank 754): +94.6% 24h outside top 250 — low-cap spike, PUMP-RISK tier; AERO + HYPE still trending red (sell-the-news / ATH distribution ongoing from Jun 17)",
+        "variant": "body"
+      }
+    }
+  }
+}
