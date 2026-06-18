@@ -1,17 +1,16 @@
-*Daily Pick — 2026-06-17*
+*Daily Pick — 2026-06-18*
 
-*Token: UNI*  [HIGH]  signal 10/10
-Price: $3.20 (+8.6% 24h / +29% 7d) | mcap $2.0B | vol $982.7M (vol/mcap 0.49)
-Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, CG trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2] = 11→10/10
-Catalyst: Bitwise filed a spot UNI ETF (S-1 Feb 2026) + fee-switch now burning ~134k UNI/day permanently removes supply; tokenized RWA volumes on Uniswap rising via BlackRock BUIDL and tokenized securities launch
-Risk: Morning-brief flagged GENIUS Act sell-the-news window for UNI — if macro turns or ETF approval stalls, structural narrative fades fast; no floor visible below $2.48 (7d low)
-Vs recent picks: first time
+*Token: LAB*  [HIGH]  signal 8/10
+Price: $16.05 (+21.8% 24h / +87.0% 7d) | mcap $5.0B | vol $43.5M (vol/mcap 0.009)
+Score breakdown: [24h>0 +1, 7d>0 +1, both>5% +2, CG trending #5 +2, RS vs BTC/ETH +2] = 8/10
+Catalyst: $3.4M protocol buyback purchasing 22.6M LAB from open market + $17M short liquidation cascade; ATH proximity amplifying retail FOMO via CG trending #5
+Risk: Aug 14, 2026 unlock of 282M tokens (~$4.5B notional at ATH); insiders reportedly control ~95% of circulating float — unlock-scale supply will overwhelm the buyback
 
-*Market: "Starmer out by June 30, 2026?"*  [HIGH]  edge 17pp (bet NO)
-Current: YES 39.5¢ / NO 60.5¢ | 24h vol $175k | resolves: 2026-06-30
-Fair YES: ~22% (inputs: PM vowed to fight, Bloomberg Jan 2026; leadership challenge averted, PBS May 2026; 110+ backbenchers blocking formal vote as of mid-May)
-Thesis: Market prices 40% exit probability in 13 days — but Starmer survived the May crisis with majority backbench support; UK Labour leadership votes take months; NO is underpriced by ~17pp
-Risk: An unforeseen resignation announcement gaps YES to 100 instantly — pure binary tail risk
+*Market: "Will Spain win the 2026 FIFA World Cup?"*  [MEDIUM]  edge ~6pp (bet YES)
+Current: YES 13.8c / NO 86.2c | 24h vol $66M+ (WC Winner event) | resolves: Jul 19, 2026
+Fair YES: ~20% (inputs: [1] pre-tournament Polymarket consensus 17% top seed, [2] Euro 2024 champions — squad quality unchanged, [3] historical base rate: eventual WC winners have dropped group stage points — Germany 2010, Italy 2006)
+Thesis: Market over-penalizes Spain's 0-0 Cape Verde draw; Pedri/Yamal/Williams squad still elite; 13.8% is below pre-tournament pricing and defensible fair value
+Risk: Group stage exit or key injury (Yamal/Pedri) would validate market's discount and close the position near zero
 
 sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only

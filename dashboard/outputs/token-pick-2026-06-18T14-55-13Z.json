@@ -1,0 +1,503 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-18"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-token",
+        "sep-1",
+        "section-market",
+        "sep-2",
+        "section-footer"
+      ]
+    },
+    "section-token": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-header",
+        "token-price",
+        "token-mcap-vol",
+        "token-score-breakdown",
+        "sep-token",
+        "token-catalyst",
+        "sep-token2",
+        "token-risk"
+      ]
+    },
+    "token-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading-token",
+        "badge-token-high",
+        "stat-token-signal"
+      ]
+    },
+    "heading-token": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: LAB",
+        "level": "h2"
+      }
+    },
+    "badge-token-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "stat-token-signal": {
+      "type": "Stat",
+      "props": {
+        "label": "signal",
+        "value": "8/10"
+      }
+    },
+    "token-price": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "price-label",
+        "price-changes"
+      ]
+    },
+    "price-label": {
+      "type": "Text",
+      "props": {
+        "text": "Price: $16.05"
+      }
+    },
+    "price-changes": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "price-24h",
+        "price-7d"
+      ]
+    },
+    "price-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+21.8%",
+        "trend": "up"
+      }
+    },
+    "price-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+87.0%",
+        "trend": "up"
+      }
+    },
+    "token-mcap-vol": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "mcap-stat",
+        "vol-stat",
+        "vol-mcap-ratio"
+      ]
+    },
+    "mcap-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "mcap",
+        "value": "$5.0B"
+      }
+    },
+    "vol-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "vol",
+        "value": "$43.5M"
+      }
+    },
+    "vol-mcap-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "vol/mcap",
+        "value": "0.009"
+      }
+    },
+    "token-score-breakdown": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-heading",
+        "score-badges"
+      ]
+    },
+    "score-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown:",
+        "variant": "lead"
+      }
+    },
+    "score-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-24h",
+        "score-7d",
+        "score-vol",
+        "score-cg",
+        "score-rs"
+      ]
+    },
+    "score-24h": {
+      "type": "Badge",
+      "props": {
+        "text": "24h>0 +1"
+      }
+    },
+    "score-7d": {
+      "type": "Badge",
+      "props": {
+        "text": "7d>0 +1"
+      }
+    },
+    "score-vol": {
+      "type": "Badge",
+      "props": {
+        "text": "both>5% +2"
+      }
+    },
+    "score-cg": {
+      "type": "Badge",
+      "props": {
+        "text": "CG trending #5 +2"
+      }
+    },
+    "score-rs": {
+      "type": "Badge",
+      "props": {
+        "text": "RS vs BTC/ETH +2"
+      }
+    },
+    "sep-token": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "token-catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-heading",
+        "catalyst-text"
+      ]
+    },
+    "catalyst-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst:",
+        "variant": "lead"
+      }
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "$3.4M protocol buyback purchasing 22.6M LAB from open market + $17M short liquidation cascade; ATH proximity amplifying retail FOMO via CG trending #5"
+      }
+    },
+    "sep-token2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "token-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Aug 14, 2026 unlock of 282M tokens (~$4.5B notional at ATH); insiders reportedly control ~95% of circulating float — unlock-scale supply will overwhelm the buyback",
+        "type": "warning"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-header",
+        "market-edge",
+        "market-current",
+        "market-vol-resolve",
+        "market-fair",
+        "market-thesis",
+        "sep-market",
+        "market-risk"
+      ]
+    },
+    "market-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading-market",
+        "badge-market-medium"
+      ]
+    },
+    "heading-market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will Spain win the 2026 FIFA World Cup?",
+        "level": "h2"
+      }
+    },
+    "badge-market-medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      }
+    },
+    "market-edge": {
+      "type": "Stat",
+      "props": {
+        "label": "Edge",
+        "value": "~6pp",
+        "delta": "bet YES"
+      }
+    },
+    "market-current": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "odds-label",
+        "odds-grid"
+      ]
+    },
+    "odds-label": {
+      "type": "Text",
+      "props": {
+        "text": "Current odds:",
+        "variant": "muted"
+      }
+    },
+    "odds-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "odds-yes",
+        "odds-no"
+      ]
+    },
+    "odds-yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "13.8c"
+      }
+    },
+    "odds-no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "86.2c"
+      }
+    },
+    "market-vol-resolve": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "vol-24h",
+        "resolve-date"
+      ]
+    },
+    "vol-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h vol",
+        "value": "$66M+"
+      }
+    },
+    "resolve-date": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "Jul 19, 2026"
+      }
+    },
+    "market-fair": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair-heading",
+        "fair-inputs"
+      ]
+    },
+    "fair-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~20%",
+        "variant": "lead"
+      }
+    },
+    "fair-inputs": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "input-1",
+        "input-2",
+        "input-3"
+      ]
+    },
+    "input-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Pre-tournament Polymarket consensus 17% top seed"
+      }
+    },
+    "input-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Euro 2024 champions — squad quality unchanged"
+      }
+    },
+    "input-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Historical base rate: eventual WC winners have dropped group stage points — Germany 2010, Italy 2006"
+      }
+    },
+    "market-thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-heading",
+        "thesis-text"
+      ]
+    },
+    "thesis-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis:",
+        "variant": "lead"
+      }
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market over-penalizes Spain's 0-0 Cape Verde draw; Pedri/Yamal/Williams squad still elite; 13.8% is below pre-tournament pricing and defensible fair value"
+      }
+    },
+    "sep-market": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Group stage exit or key injury (Yamal/Pedri) would validate market's discount and close the position near zero",
+        "type": "warning"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer-sources",
+        "footer-disclaimer"
+      ]
+    },
+    "footer-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "footer-disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "caption"
+      }
+    }
+  }
+}
