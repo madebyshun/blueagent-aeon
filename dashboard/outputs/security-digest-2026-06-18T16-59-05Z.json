@@ -1,0 +1,459 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-06-18"
+      },
+      "children": [
+        "verdict-heading",
+        "verdict-text",
+        "sep1",
+        "patch-today-heading",
+        "patch-today-stack",
+        "sep2",
+        "patch-week-heading",
+        "patch-week-stack",
+        "sep3",
+        "monitor-heading",
+        "monitor-stack"
+      ]
+    },
+    "verdict-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Verdict",
+        "level": "h2"
+      }
+    },
+    "verdict-text": {
+      "type": "Text",
+      "props": {
+        "text": "2 actively exploited (KEV), 5 to patch this week, 3 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "patch-today-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-today-item-1",
+        "patch-today-item-2"
+      ]
+    },
+    "patch-today-item-1": {
+      "type": "Alert",
+      "props": {
+        "title": "CVE-2026-10520 — Ivanti Sentry",
+        "message": "KEV added 2026-06-11 · EPSS 0.595 (99th pct) · CVSS n/a (KEV)\n\nOS command injection → unauth root RCE when admin endpoints exposed. Missed yesterday (added Jun 11, below yesterday's cap).\n\nPatch Ivanti Sentry to vendor-advised version and restrict admin endpoint access now.",
+        "type": "error"
+      }
+    },
+    "patch-today-item-2": {
+      "type": "Alert",
+      "props": {
+        "title": "CVE-2026-20253 — Splunk Enterprise",
+        "message": "KEV added 2026-06-18 · EPSS 0.017 · CVSS n/a (KEV)\n\nMissing auth in PostgreSQL sidecar → unauth file create/truncate on the host. Fresh KEV add today.\n\nApply Splunk mitigations per vendor advisory and restrict PostgreSQL sidecar endpoints today.",
+        "type": "error"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch-week-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-week-item-1",
+        "patch-week-item-2",
+        "patch-week-item-3",
+        "patch-week-item-4",
+        "patch-week-item-5"
+      ]
+    },
+    "patch-week-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pw1-title",
+        "pw1-meta",
+        "pw1-desc",
+        "pw1-remediate"
+      ]
+    },
+    "pw1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "GHSA-v4jc-pm6r-3vj8 / CVE-2026-47103 — python-statemachine (pip)",
+        "level": "h3"
+      }
+    },
+    "pw1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.8 · EPSS 0.008",
+        "variant": "caption"
+      }
+    },
+    "pw1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "SCXML <data expr> eval injection → RCE on crafted state machine input.",
+        "variant": "body"
+      }
+    },
+    "pw1-remediate": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade python-statemachine to ≥3.2.0.",
+        "variant": "body"
+      }
+    },
+    "patch-week-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pw2-title",
+        "pw2-meta",
+        "pw2-desc",
+        "pw2-remediate"
+      ]
+    },
+    "pw2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "GHSA-fcw5-x6j4-ccmp / CVE-2026-44727 — jupyter-server (pip)",
+        "level": "h3"
+      }
+    },
+    "pw2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.3 · EPSS n/a",
+        "variant": "caption"
+      }
+    },
+    "pw2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Stored XSS in NbconvertFileHandler/PostHandler via missing sandbox CSP.",
+        "variant": "body"
+      }
+    },
+    "pw2-remediate": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade jupyter-server to ≥2.20.0.",
+        "variant": "body"
+      }
+    },
+    "patch-week-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pw3-title",
+        "pw3-meta",
+        "pw3-desc",
+        "pw3-remediate"
+      ]
+    },
+    "pw3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "GHSA-p69m-4f92-2v84 +3 — praisonai (npm ≤1.7.1)",
+        "level": "h3"
+      }
+    },
+    "pw3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.8 · EPSS n/a",
+        "variant": "caption"
+      }
+    },
+    "pw3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "4 advisories: unauthenticated agent listing, unauthenticated MCP tool calls, RCE via codeMode sandbox escape (Function constructor).",
+        "variant": "body"
+      }
+    },
+    "pw3-remediate": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade praisonai (npm) to ≥1.7.2.",
+        "variant": "body"
+      }
+    },
+    "patch-week-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pw4-title",
+        "pw4-meta",
+        "pw4-desc",
+        "pw4-remediate"
+      ]
+    },
+    "pw4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "GHSA-cwj8-7gp2-ggcw — praisonai-platform (pip ≤0.1.4)",
+        "level": "h3"
+      }
+    },
+    "pw4-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.8 · EPSS n/a",
+        "variant": "caption"
+      }
+    },
+    "pw4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Hardcoded JWT secret 'dev-secret-change-me' in default deployment → trivial token forgery.",
+        "variant": "body"
+      }
+    },
+    "pw4-remediate": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade praisonai-platform to ≥0.1.6.",
+        "variant": "body"
+      }
+    },
+    "patch-week-item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pw5-title",
+        "pw5-meta",
+        "pw5-desc",
+        "pw5-remediate"
+      ]
+    },
+    "pw5-title": {
+      "type": "Heading",
+      "props": {
+        "text": "GHSA-29w3-p9w9-wc47 +2 — praisonai (pip <4.6.61)",
+        "level": "h3"
+      }
+    },
+    "pw5-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.1 · EPSS n/a",
+        "variant": "caption"
+      }
+    },
+    "pw5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Arbitrary file R/W via multiedit + sandbox escape via Landlock fallback + auth bypass via env var.",
+        "variant": "body"
+      }
+    },
+    "pw5-remediate": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade praisonai (pip) to ≥4.6.61.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "monitor-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor-item-1",
+        "monitor-item-2",
+        "monitor-item-3"
+      ]
+    },
+    "monitor-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m1-title",
+        "m1-meta",
+        "m1-desc",
+        "m1-remediate"
+      ]
+    },
+    "m1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "GHSA-vmh5-mc38-953g / CVE-2026-9697 — undici (npm)",
+        "level": "h3"
+      }
+    },
+    "m1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 7.4 · EPSS 0.002",
+        "variant": "caption"
+      }
+    },
+    "m1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "SOCKS5 proxy silently drops requestTls → TLS cert validation bypass. Patch: 7.28.0 / 8.5.0.",
+        "variant": "body"
+      }
+    },
+    "m1-remediate": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade undici when convenient; audit services using SOCKS5 proxies.",
+        "variant": "body"
+      }
+    },
+    "monitor-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m2-title",
+        "m2-meta",
+        "m2-desc",
+        "m2-remediate"
+      ]
+    },
+    "m2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "GHSA-38rv-x7px-6hhq / CVE-2026-9675 — undici (npm)",
+        "level": "h3"
+      }
+    },
+    "m2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 7.5 · EPSS 0.003",
+        "variant": "caption"
+      }
+    },
+    "m2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Fragmented WebSocket messages bypass cumulative payload limits → OOM DoS. Patch: 8.5.0.",
+        "variant": "body"
+      }
+    },
+    "m2-remediate": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade undici to ≥8.5.0 when convenient.",
+        "variant": "body"
+      }
+    },
+    "monitor-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m3-title",
+        "m3-meta",
+        "m3-desc",
+        "m3-remediate"
+      ]
+    },
+    "m3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "GHSA-p6gq-j5cr-w38f — nodemailer (npm ≤9.0.0)",
+        "level": "h3"
+      }
+    },
+    "m3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 7.1 · EPSS n/a",
+        "variant": "caption"
+      }
+    },
+    "m3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "message.raw bypasses disableFileAccess/disableUrlAccess → SSRF + arbitrary local file read.",
+        "variant": "body"
+      }
+    },
+    "m3-remediate": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade nodemailer to ≥9.0.1 when convenient.",
+        "variant": "body"
+      }
+    }
+  }
+}
