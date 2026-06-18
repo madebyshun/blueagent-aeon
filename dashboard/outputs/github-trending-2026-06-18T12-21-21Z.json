@@ -1,0 +1,490 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-18"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_toppick",
+        "repo_kilocode_toppick",
+        "sep1",
+        "heading_ai",
+        "repo_glm5",
+        "repo_libretranslate",
+        "sep2",
+        "heading_devtools",
+        "repo_kilocode_devtools",
+        "repo_flue",
+        "sep3",
+        "heading_infra",
+        "repo_zvec",
+        "sep4",
+        "text_sources"
+      ]
+    },
+    "heading_toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "repo_kilocode_toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_kilocode_toppick",
+        "text_kilocode_toppick_desc",
+        "stack_kilocode_toppick_meta"
+      ]
+    },
+    "storylink_kilocode_toppick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Kilo-Org/kilocode",
+        "href": "https://github.com/Kilo-Org/kilocode",
+        "source": "GitHub"
+      }
+    },
+    "text_kilocode_toppick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "1,300+ stars today on the open-source Cursor alternative — multi-agent orchestration built in, not bolted on.",
+        "variant": "body"
+      }
+    },
+    "stack_kilocode_toppick_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_kilocode_toppick",
+        "badge_kilocode_toppick_total",
+        "badge_kilocode_toppick_status"
+      ]
+    },
+    "stat_kilocode_toppick": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "1,300+"
+      }
+    },
+    "badge_kilocode_toppick_total": {
+      "type": "Badge",
+      "props": {
+        "text": "21.4k total",
+        "variant": "outline"
+      }
+    },
+    "badge_kilocode_toppick_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_ai": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "repo_glm5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_glm5",
+        "text_glm5_desc",
+        "stack_glm5_meta"
+      ]
+    },
+    "storylink_glm5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "zai-org/GLM-5",
+        "href": "https://github.com/zai-org/GLM-5",
+        "source": "GitHub"
+      }
+    },
+    "text_glm5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "GLM-5 repositions as agentic engineering, not vibe coding — Zhipu AI's sharpest public differentiation from base completion yet.",
+        "variant": "body"
+      }
+    },
+    "stack_glm5_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_glm5",
+        "badge_glm5_total",
+        "badge_glm5_status"
+      ]
+    },
+    "stat_glm5": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "286"
+      }
+    },
+    "badge_glm5_total": {
+      "type": "Badge",
+      "props": {
+        "text": "3.9k total",
+        "variant": "outline"
+      }
+    },
+    "badge_glm5_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo_libretranslate": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_libretranslate",
+        "text_libretranslate_desc",
+        "stack_libretranslate_meta"
+      ]
+    },
+    "storylink_libretranslate": {
+      "type": "StoryLink",
+      "props": {
+        "title": "LibreTranslate/LibreTranslate",
+        "href": "https://github.com/LibreTranslate/LibreTranslate",
+        "source": "GitHub"
+      }
+    },
+    "text_libretranslate_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted MT API updated yesterday — the only GDPR-safe, fully offline Translate replacement running on your own hardware.",
+        "variant": "body"
+      }
+    },
+    "stack_libretranslate_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_libretranslate",
+        "badge_libretranslate_total",
+        "badge_libretranslate_lang",
+        "badge_libretranslate_status"
+      ]
+    },
+    "stat_libretranslate": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "179"
+      }
+    },
+    "badge_libretranslate_total": {
+      "type": "Badge",
+      "props": {
+        "text": "14.8k total",
+        "variant": "outline"
+      }
+    },
+    "badge_libretranslate_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "badge_libretranslate_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "repo_kilocode_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_kilocode_devtools",
+        "text_kilocode_devtools_desc",
+        "stack_kilocode_devtools_meta"
+      ]
+    },
+    "storylink_kilocode_devtools": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Kilo-Org/kilocode",
+        "href": "https://github.com/Kilo-Org/kilocode",
+        "source": "GitHub"
+      }
+    },
+    "text_kilocode_devtools_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Open-source Cursor alternative with multi-agent orchestration baked in — 1.3k stars today confirms the momentum.",
+        "variant": "body"
+      }
+    },
+    "stack_kilocode_devtools_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_kilocode_devtools",
+        "badge_kilocode_devtools_total",
+        "badge_kilocode_devtools_lang",
+        "badge_kilocode_devtools_status"
+      ]
+    },
+    "stat_kilocode_devtools": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "1,339"
+      }
+    },
+    "badge_kilocode_devtools_total": {
+      "type": "Badge",
+      "props": {
+        "text": "21.4k total",
+        "variant": "outline"
+      }
+    },
+    "badge_kilocode_devtools_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "badge_kilocode_devtools_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo_flue": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_flue",
+        "text_flue_desc",
+        "stack_flue_meta"
+      ]
+    },
+    "storylink_flue": {
+      "type": "StoryLink",
+      "props": {
+        "title": "withastro/flue",
+        "href": "https://github.com/withastro/flue",
+        "source": "GitHub"
+      }
+    },
+    "text_flue_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Astro's team now building agent infrastructure — flue sandboxes LLM task execution for safe multi-tenant deployments.",
+        "variant": "body"
+      }
+    },
+    "stack_flue_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_flue",
+        "badge_flue_total",
+        "badge_flue_lang",
+        "badge_flue_status"
+      ]
+    },
+    "stat_flue": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "164"
+      }
+    },
+    "badge_flue_total": {
+      "type": "Badge",
+      "props": {
+        "text": "5.3k total",
+        "variant": "outline"
+      }
+    },
+    "badge_flue_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "badge_flue_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h2"
+      }
+    },
+    "repo_zvec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_zvec",
+        "text_zvec_desc",
+        "stack_zvec_meta"
+      ]
+    },
+    "storylink_zvec": {
+      "type": "StoryLink",
+      "props": {
+        "title": "alibaba/zvec",
+        "href": "https://github.com/alibaba/zvec",
+        "source": "GitHub"
+      }
+    },
+    "text_zvec_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Alibaba's in-process vector DB with no server overhead — zero-latency nearest-neighbor search, SQLite-style embedding lookups.",
+        "variant": "body"
+      }
+    },
+    "stack_zvec_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_zvec",
+        "badge_zvec_total",
+        "badge_zvec_lang",
+        "badge_zvec_status"
+      ]
+    },
+    "stat_zvec": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "435"
+      }
+    },
+    "badge_zvec_total": {
+      "type": "Badge",
+      "props": {
+        "text": "11k total",
+        "variant": "outline"
+      }
+    },
+    "badge_zvec_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C++",
+        "variant": "outline"
+      }
+    },
+    "badge_zvec_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/16",
+        "variant": "caption"
+      }
+    }
+  }
+}

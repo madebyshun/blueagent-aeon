@@ -1,28 +1,25 @@
-*GitHub Trending — 2026-06-17*
+*GitHub Trending — 2026-06-18*
 
-*Top pick* — [mattpocock/skills](https://github.com/mattpocock/skills)
-Real Claude Code skills from a proven TypeScript educator — production workflows ready to copy, not synthetic tutorials.
-
-*Devtools*
-• [mattpocock/skills](https://github.com/mattpocock/skills) — ★ 1,849 today (132k total) · Shell · [ACCELERATING]
-Straight from Matt Pocock's .claude directory — real skills for real engineers, plug in and stop rebuilding from scratch.
-
-• [obra/superpowers](https://github.com/obra/superpowers) — ★ 1,109 today (230k total) · Shell · [ACCELERATING]
-Agentic coding methodology with 230k adopters; pushed today — the emerging playbook for human-AI pair programming.
-
-• [Universal-Debloater-Alliance/universal-android-debloater-next-generation](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation) — ★ 465 today (7.5k total) · Rust · [RETURNING]
-Rust+ADB GUI to surgically remove OEM bloatware from non-rooted Android — 465 stars today signals a fresh vendor bundling moment.
+*Top pick* — [Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode)
+1,300+ stars today on the open-source Cursor alternative — multi-agent orchestration built in, not bolted on.
 
 *AI/ML*
-• [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) — ★ 367 today (4.2k total) · C · [RETURNING]
-MCP server that indexes your codebase into a persistent knowledge graph — instant symbol-level context without embedding overhead.
+• [zai-org/GLM-5](https://github.com/zai-org/GLM-5) — ★ 286 today (3.9k total) · [RETURNING]
+GLM-5 repositions as agentic engineering, not vibe coding — Zhipu AI's sharpest public differentiation from base completion yet.
 
-• [google-research/timesfm](https://github.com/google-research/timesfm) — ★ 84 today (21.5k total) · Python · [RETURNING]
-Google's pretrained zero-shot time-series model — forecast any numeric sequence without fine-tuning or labeled training data.
+• [LibreTranslate/LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) — ★ 179 today (14.8k total) · Python · [RETURNING]
+Self-hosted MT API updated yesterday — the only GDPR-safe, fully offline Translate replacement running on your own hardware.
+
+*Devtools*
+• [Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode) — ★ 1,339 today (21.4k total) · TypeScript · [RETURNING]
+Open-source Cursor alternative with multi-agent orchestration baked in — 1.3k stars today confirms the momentum.
+
+• [withastro/flue](https://github.com/withastro/flue) — ★ 164 today (5.3k total) · TypeScript · [RETURNING]
+Astro's team now building agent infrastructure — flue sandboxes LLM task execution for safe multi-tenant deployments.
 
 *Infra*
-• [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) — ★ 86 today (23.6k total) · Rust · [RETURNING]
-Rust-core trading engine with Python API bindings — deterministic backtesting plus live trading in one unified stack; pushed today.
+• [alibaba/zvec](https://github.com/alibaba/zvec) — ★ 435 today (11k total) · C++ · [ACCELERATING]
+Alibaba's in-process vector DB with no server overhead — zero-latency nearest-neighbor search, SQLite-style embedding lookups.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/20
+sources: trending=ok · gh_api=ok · kept 5/16
