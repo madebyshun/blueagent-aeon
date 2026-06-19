@@ -1,0 +1,368 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-19"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "token_section",
+        "sep1",
+        "market_section",
+        "sep2",
+        "footer_section"
+      ]
+    },
+    "token_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token_header",
+        "token_price_stats",
+        "token_score",
+        "token_catalyst",
+        "token_risk",
+        "token_vs"
+      ]
+    },
+    "token_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token_heading",
+        "token_badge"
+      ]
+    },
+    "token_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: JTO",
+        "level": "h2"
+      }
+    },
+    "token_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH — signal 9/10",
+        "variant": "default"
+      }
+    },
+    "token_price_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_price",
+        "stat_mcap",
+        "stat_vol",
+        "stat_vol_ratio"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.75",
+        "delta": "+4.3% 24h / +38.9% 7d",
+        "trend": "up"
+      }
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$363M"
+      }
+    },
+    "stat_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$89M"
+      }
+    },
+    "stat_vol_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "vol/mcap ratio",
+        "value": "0.25"
+      }
+    },
+    "token_score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: CG trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH 7d+2, 24h>0+1, 7d>0+1 = 9/10",
+        "variant": "body"
+      }
+    },
+    "token_catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst_label",
+        "catalyst_content"
+      ]
+    },
+    "catalyst_label": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst:",
+        "variant": "lead"
+      }
+    },
+    "catalyst_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"Jito Economy\" tokenomics overhaul announced June 1 — protocol buybacks funded by JTX+JitoSOL+BAM revenues replacing inflationary emissions; +18% intraday on announcement, rally sustained +39% over 7 days",
+        "variant": "body"
+      }
+    },
+    "token_risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "token_risk_label",
+        "token_risk_content"
+      ]
+    },
+    "token_risk_label": {
+      "type": "Text",
+      "props": {
+        "text": "Risk:",
+        "variant": "lead"
+      }
+    },
+    "token_risk_content": {
+      "type": "Text",
+      "props": {
+        "text": "18-day-old catalyst mostly priced in at $0.75 vs $0.23 Feb low; Solana tape soft today (SOL −2.6%); $1.00 resistance overhead",
+        "variant": "body"
+      }
+    },
+    "token_vs": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_header",
+        "market_current",
+        "market_fair",
+        "market_thesis",
+        "market_risk"
+      ]
+    },
+    "market_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_heading",
+        "market_badge"
+      ]
+    },
+    "market_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Iran agrees to end enrichment of uranium by June 30?",
+        "level": "h2"
+      }
+    },
+    "market_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH — edge ~18pp",
+        "variant": "default"
+      }
+    },
+    "market_current": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_yes",
+        "stat_no",
+        "stat_market_vol",
+        "stat_resolve_date"
+      ]
+    },
+    "stat_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES odds",
+        "value": "43.5¢"
+      }
+    },
+    "stat_no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO odds",
+        "value": "56.5¢"
+      }
+    },
+    "stat_market_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$2.0M"
+      }
+    },
+    "stat_resolve_date": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-06-30",
+        "variant": "caption"
+      }
+    },
+    "market_fair": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair_label",
+        "fair_inputs"
+      ]
+    },
+    "fair_label": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES probability",
+        "value": "~62%"
+      }
+    },
+    "fair_inputs": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: [1] MOU signed June 18 — Trump + Pezeshkian both signed; [2] VP Vance confirmed deal will \"end Tehran's nuclear weapons program and remove enriched uranium\"; [3] implementation began June 18, IAEA supervision of enriched uranium stocks starting)",
+        "variant": "body"
+      }
+    },
+    "market_thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis_label",
+        "thesis_content"
+      ]
+    },
+    "thesis_label": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis:",
+        "variant": "lead"
+      }
+    },
+    "thesis_content": {
+      "type": "Text",
+      "props": {
+        "text": "\"agrees to end\" is satisfied by the signed MOU — Iran formally committed; market at 43.5¢ under-prices the signed agreement; bet YES",
+        "variant": "body"
+      }
+    },
+    "market_risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_risk_label",
+        "market_risk_content"
+      ]
+    },
+    "market_risk_label": {
+      "type": "Text",
+      "props": {
+        "text": "Risk:",
+        "variant": "lead"
+      }
+    },
+    "market_risk_content": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket may require formal treaty ratification beyond MOU; full MOU text releases Fri June 20 — could reveal enrichment carve-outs; Iran domestic resistance",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_text",
+        "disclaimer_alert"
+      ]
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "disclaimer_alert": {
+      "type": "Alert",
+      "props": {
+        "message": "not financial advice — pattern-matching only",
+        "type": "info"
+      }
+    }
+  }
+}

@@ -1,16 +1,17 @@
-*Daily Pick — 2026-06-18*
+*Daily Pick — 2026-06-19*
 
-*Token: LAB*  [HIGH]  signal 8/10
-Price: $16.05 (+21.8% 24h / +87.0% 7d) | mcap $5.0B | vol $43.5M (vol/mcap 0.009)
-Score breakdown: [24h>0 +1, 7d>0 +1, both>5% +2, CG trending #5 +2, RS vs BTC/ETH +2] = 8/10
-Catalyst: $3.4M protocol buyback purchasing 22.6M LAB from open market + $17M short liquidation cascade; ATH proximity amplifying retail FOMO via CG trending #5
-Risk: Aug 14, 2026 unlock of 282M tokens (~$4.5B notional at ATH); insiders reportedly control ~95% of circulating float — unlock-scale supply will overwhelm the buyback
+*Token: JTO*  [HIGH]  signal 9/10
+Price: $0.75 (+4.3% 24h / +38.9% 7d) | mcap $363M | vol $89M (vol/mcap 0.25)
+Score breakdown: [CG trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH 7d+2, 24h>0+1, 7d>0+1] = 9/10
+Catalyst: "Jito Economy" tokenomics overhaul announced June 1 — protocol buybacks funded by JTX+JitoSOL+BAM revenues replacing inflationary emissions; +18% intraday on announcement, rally sustained +39% over 7 days
+Risk: 18-day-old catalyst mostly priced in at $0.75 vs $0.23 Feb low; Solana tape soft today (SOL −2.6%); $1.00 resistance overhead
+Vs recent picks: first time
 
-*Market: "Will Spain win the 2026 FIFA World Cup?"*  [MEDIUM]  edge ~6pp (bet YES)
-Current: YES 13.8c / NO 86.2c | 24h vol $66M+ (WC Winner event) | resolves: Jul 19, 2026
-Fair YES: ~20% (inputs: [1] pre-tournament Polymarket consensus 17% top seed, [2] Euro 2024 champions — squad quality unchanged, [3] historical base rate: eventual WC winners have dropped group stage points — Germany 2010, Italy 2006)
-Thesis: Market over-penalizes Spain's 0-0 Cape Verde draw; Pedri/Yamal/Williams squad still elite; 13.8% is below pre-tournament pricing and defensible fair value
-Risk: Group stage exit or key injury (Yamal/Pedri) would validate market's discount and close the position near zero
+*Market: "Iran agrees to end enrichment of uranium by June 30?"*  [HIGH]  edge ~18pp
+Current: YES 43.5¢ / NO 56.5¢ | 24h vol $2.0M | resolves: 2026-06-30
+Fair YES: ~62% (inputs: [1] MOU signed June 18 — Trump + Pezeshkian both signed; [2] VP Vance confirmed deal will "end Tehran's nuclear weapons program and remove enriched uranium"; [3] implementation began June 18, IAEA supervision of enriched uranium stocks starting)
+Thesis: "agrees to end" is satisfied by the signed MOU — Iran formally committed; market at 43.5¢ under-prices the signed agreement; bet YES
+Risk: Polymarket may require formal treaty ratification beyond MOU; full MOU text releases Fri June 20 — could reveal enrichment carve-outs; Iran domestic resistance
 
 sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only
