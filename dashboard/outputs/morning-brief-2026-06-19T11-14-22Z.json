@@ -1,0 +1,307 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-19"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus",
+        "sep1",
+        "heading_yesterday",
+        "stack_yesterday",
+        "sep2",
+        "heading_watch",
+        "stack_watch",
+        "sep3",
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. HYPE $73 support broken — why now: FADE trigger live; $67 today, exit window now",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. US-Iran deal signing today (Burgenstock, CH) — why now: risk-on binary resolves; BTC $67K catalyst imminent",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. MEMORY.md update stale since May 17 — why now: day 2 carry-forward; narrative-tracker reads it daily",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_1",
+        "yesterday_2",
+        "yesterday_3",
+        "yesterday_4"
+      ]
+    },
+    "yesterday_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_1",
+        "text_yesterday_1"
+      ]
+    },
+    "badge_moved_1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_yesterday_1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE breached $73 — FADE confirmed; -6.7% today, day 3 post-ATH distribution accelerated",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_2",
+        "text_yesterday_2"
+      ]
+    },
+    "badge_moved_2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_yesterday_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick ran — LAB +21.8% (executed), Spain WC YES 13.8¢ (executed)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_3",
+        "text_yesterday_3"
+      ]
+    },
+    "badge_moved_3": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_yesterday_3": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker — AI Infra RIDE raised, Base Ecosystem stalling, Macro Risk-On pending → resolves today",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stuck",
+        "text_yesterday_4"
+      ]
+    },
+    "badge_stuck": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text_yesterday_4": {
+      "type": "Text",
+      "props": {
+        "text": "MEMORY.md priorities stale since May 17 (no update yesterday)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_watch"
+      ]
+    },
+    "text_watch": {
+      "type": "Text",
+      "props": {
+        "text": "US-Iran peace deal signing confirmed at Burgenstock today; Strait of Hormuz reopens on signing → if completed, macro flips risk-on, BTC $67K test live (Focus #2)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 / 14:00 / 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
