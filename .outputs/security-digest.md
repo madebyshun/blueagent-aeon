@@ -1,45 +1,21 @@
-*Security Digest — 2026-06-18*
-Verdict: 2 actively exploited (KEV), 5 to patch this week, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
+The sandbox blocks `rm` — leaving the temp files as they won't be committed (they're not in the git index). The digest is complete.
 
-*PATCH TODAY*
-- CVE-2026-10520 — Ivanti Sentry · KEV added 2026-06-11 · EPSS 0.595 (99th pct) · CVSS n/a (KEV)
-  OS command injection → unauth root RCE when admin endpoints exposed. Missed yesterday (added Jun 11, below yesterday's cap).
-  → patch Ivanti Sentry to vendor-advised version and restrict admin endpoint access now.
+## Summary
 
-- CVE-2026-20253 — Splunk Enterprise · KEV added 2026-06-18 · EPSS 0.017 · CVSS n/a (KEV)
-  Missing auth in PostgreSQL sidecar → unauth file create/truncate on the host. Fresh KEV add today.
-  → apply Splunk mitigations per vendor advisory and restrict PostgreSQL sidecar endpoints today.
+**What was done:**
 
-*PATCH THIS WEEK*
-- GHSA-v4jc-pm6r-3vj8 / CVE-2026-47103 — python-statemachine (pip) · CVSS 9.8 · EPSS 0.008
-  SCXML <data expr> eval injection → RCE on crafted state machine input.
-  → upgrade python-statemachine to ≥3.2.0.
+- **Loaded CISA KEV**: 5 entries in the last 7 days, all previously reported (0 new today)
+- **Fetched GH Advisories**: 40 critical + 70+ high severity from the last 48h; filtered to tracked stack (npm, pip, Go)
+- **Fetched EPSS**: Scored 8 of 11 queried CVEs; newest CVEs not yet in EPSS database
+- **Deduped**: ~16 IDs from Jun 17-18 logs dropped
+- **Verified PoCs**: WebFetched top 3 advisory pages — crawl4ai (CVSS 10.0) and network-ai (CVSS 9.9) both have confirmed PoCs in their advisories; gemini-mcp-tool has ZDI reference
 
-- GHSA-fcw5-x6j4-ccmp / CVE-2026-44727 — jupyter-server (pip) · CVSS 9.3 · EPSS n/a
-  Stored XSS in NbconvertFileHandler/PostHandler via missing sandbox CSP.
-  → upgrade jupyter-server to ≥2.20.0.
+**Digest sent** (saved to `.pending-notify/` for post-run delivery):
 
-- GHSA-p69m-4f92-2v84 +3 — praisonai (npm ≤1.7.1) · CVSS 9.8 · EPSS n/a
-  4 advisories: unauthenticated agent listing, unauthenticated MCP tool calls, RCE via codeMode sandbox escape (Function constructor).
-  → upgrade praisonai (npm) to ≥1.7.2.
+| Tier | Count | Highlights |
+|------|-------|------------|
+| PATCH TODAY | 3 | crawl4ai CVSS 10.0 unauth RCE (PoC confirmed); network-ai CVSS 9.9 sandbox bypass (full PoC); gemini-mcp-tool CVSS 9.8 cmd injection (ZDI) |
+| PATCH THIS WEEK | 5 | Tilt HUD missing auth (Go, 3 CVEs, ≥0.37.4); praisonai cluster 25+ new; agentic-flow MCP cmd injection; docker/mcp-gateway arg injection; AgenticMail bypassPermissions via unauth mail |
+| MONITOR | 2 | pdfkit path traversal (no fix); picklescan blocklist bypass cluster (partial fixes) |
 
-- GHSA-cwj8-7gp2-ggcw — praisonai-platform (pip ≤0.1.4) · CVSS 9.8 · EPSS n/a
-  Hardcoded JWT secret 'dev-secret-change-me' in default deployment → trivial token forgery.
-  → upgrade praisonai-platform to ≥0.1.6.
-
-- GHSA-29w3-p9w9-wc47 +2 — praisonai (pip <4.6.61) · CVSS 9.1 · EPSS n/a
-  Arbitrary file R/W via multiedit + sandbox escape via Landlock fallback + auth bypass via env var.
-  → upgrade praisonai (pip) to ≥4.6.61.
-
-*MONITOR*
-- GHSA-vmh5-mc38-953g / CVE-2026-9697 — undici (npm) · CVSS 7.4 · EPSS 0.002
-  SOCKS5 proxy silently drops requestTls → TLS cert validation bypass. Patch: 7.28.0 / 8.5.0.
-  → upgrade undici when convenient; audit services using SOCKS5 proxies.
-
-- GHSA-38rv-x7px-6hhq / CVE-2026-9675 — undici (npm) · CVSS 7.5 · EPSS 0.003
-  Fragmented WebSocket messages bypass cumulative payload limits → OOM DoS. Patch: 8.5.0.
-  → upgrade undici to ≥8.5.0 when convenient.
-
-- GHSA-p6gq-j5cr-w38f — nodemailer (npm ≤9.0.0) · CVSS 7.1 · EPSS n/a
-  message.raw bypasses disableFileAccess/disableUrlAccess → SSRF + arbitrary local file read.
-  → upgrade nodemailer to ≥9.0.1 when convenient.
+**Log**: appended to `memory/logs/2026-06-19.md`
