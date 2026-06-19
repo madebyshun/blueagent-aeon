@@ -1,25 +1,25 @@
-*GitHub Trending — 2026-06-18*
+*GitHub Trending — 2026-06-19*
 
-*Top pick* — [Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode)
-1,300+ stars today on the open-source Cursor alternative — multi-agent orchestration built in, not bolted on.
+*Top pick* — [chopratejas/headroom](https://github.com/chopratejas/headroom)
+Biggest star spike on the board today by a wide margin — a practical drop-in tool attacking the single highest-cost problem in production LLM stacks.
 
 *AI/ML*
-• [zai-org/GLM-5](https://github.com/zai-org/GLM-5) — ★ 286 today (3.9k total) · [RETURNING]
-GLM-5 repositions as agentic engineering, not vibe coding — Zhipu AI's sharpest public differentiation from base completion yet.
+• [chopratejas/headroom](https://github.com/chopratejas/headroom) — ★ 3938 today (36.7K total) · Python · [ACCELERATING]
+Compresses tool outputs, logs, and RAG chunks 60-95% before the LLM sees them — cuts cost and latency without touching context logic.
 
-• [LibreTranslate/LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) — ★ 179 today (14.8k total) · Python · [RETURNING]
-Self-hosted MT API updated yesterday — the only GDPR-safe, fully offline Translate replacement running on your own hardware.
+• [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2) — ★ 196 today (7.6K total) · Python · [RETURNING]
+Single model generates video and synchronized audio together — no separate audio pipeline bolted on after.
 
 *Devtools*
-• [Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode) — ★ 1,339 today (21.4k total) · TypeScript · [RETURNING]
-Open-source Cursor alternative with multi-agent orchestration baked in — 1.3k stars today confirms the momentum.
+• [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native) — ★ 172 today (0.8K total) · TypeScript · [RETURNING]
+Exposes UI components as typed tool schemas so agents can operate apps directly instead of DOM scraping.
 
-• [withastro/flue](https://github.com/withastro/flue) — ★ 164 today (5.3k total) · TypeScript · [RETURNING]
-Astro's team now building agent infrastructure — flue sandboxes LLM task execution for safe multi-tenant deployments.
+*Web/Apps*
+• [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro) — ★ 749 today (1.4K total) · Swift · [ACCELERATING]
+Native macOS video editor built for AI workflows — runs local models, no cloud round-trip, Swift-native performance.
 
-*Infra*
-• [alibaba/zvec](https://github.com/alibaba/zvec) — ★ 435 today (11k total) · C++ · [ACCELERATING]
-Alibaba's in-process vector DB with no server overhead — zero-latency nearest-neighbor search, SQLite-style embedding lookups.
+• [penpot/penpot](https://github.com/penpot/penpot) — ★ 318 today (50.4K total) · Clojure · [RETURNING]
+v2.16.0 lands WebGL rendering (beta) and MCP server horizontal scaling — major perf lift for self-hosted Figma alternative.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/16
+sources: trending=ok · gh_api=ok · kept 5/15

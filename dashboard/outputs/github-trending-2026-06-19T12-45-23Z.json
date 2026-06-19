@@ -1,0 +1,468 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-19"
+      },
+      "children": [
+        "section-toppick",
+        "sep1",
+        "section-aiml",
+        "sep2",
+        "section-devtools",
+        "sep3",
+        "section-webapps",
+        "sep4",
+        "footer"
+      ]
+    },
+    "section-toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-toppick",
+        "repo-headroom-main"
+      ]
+    },
+    "heading-toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "repo-headroom-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-headroom-top",
+        "stat-headroom-top",
+        "desc-headroom-top"
+      ]
+    },
+    "link-headroom-top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chopratejas/headroom",
+        "href": "https://github.com/chopratejas/headroom",
+        "source": "GitHub"
+      }
+    },
+    "stat-headroom-top": {
+      "type": "Stat",
+      "props": {
+        "value": "36.7K",
+        "delta": "+3938 today",
+        "trend": "up"
+      }
+    },
+    "desc-headroom-top": {
+      "type": "Text",
+      "props": {
+        "text": "Biggest star spike on the board today by a wide margin — a practical drop-in tool attacking the single highest-cost problem in production LLM stacks.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-aiml",
+        "repo-headroom",
+        "repo-ltx2"
+      ]
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "repo-headroom": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-headroom",
+        "badges-headroom",
+        "stat-headroom",
+        "desc-headroom"
+      ]
+    },
+    "link-headroom": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chopratejas/headroom",
+        "href": "https://github.com/chopratejas/headroom",
+        "source": "GitHub"
+      }
+    },
+    "badges-headroom": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-python1",
+        "badge-accel1"
+      ]
+    },
+    "badge-python1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "badge-accel1": {
+      "type": "Badge",
+      "props": {
+        "text": "[ACCELERATING]",
+        "variant": "default"
+      }
+    },
+    "stat-headroom": {
+      "type": "Stat",
+      "props": {
+        "value": "36.7K",
+        "delta": "+3938",
+        "trend": "up"
+      }
+    },
+    "desc-headroom": {
+      "type": "Text",
+      "props": {
+        "text": "Compresses tool outputs, logs, and RAG chunks 60-95% before the LLM sees them — cuts cost and latency without touching context logic.",
+        "variant": "body"
+      }
+    },
+    "repo-ltx2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ltx2",
+        "badges-ltx2",
+        "stat-ltx2",
+        "desc-ltx2"
+      ]
+    },
+    "link-ltx2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Lightricks/LTX-2",
+        "href": "https://github.com/Lightricks/LTX-2",
+        "source": "GitHub"
+      }
+    },
+    "badges-ltx2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-python2",
+        "badge-return1"
+      ]
+    },
+    "badge-python2": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "badge-return1": {
+      "type": "Badge",
+      "props": {
+        "text": "[RETURNING]",
+        "variant": "default"
+      }
+    },
+    "stat-ltx2": {
+      "type": "Stat",
+      "props": {
+        "value": "7.6K",
+        "delta": "+196",
+        "trend": "up"
+      }
+    },
+    "desc-ltx2": {
+      "type": "Text",
+      "props": {
+        "text": "Single model generates video and synchronized audio together — no separate audio pipeline bolted on after.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-devtools",
+        "repo-agent-native"
+      ]
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "repo-agent-native": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-agent-native",
+        "badges-agent-native",
+        "stat-agent-native",
+        "desc-agent-native"
+      ]
+    },
+    "link-agent-native": {
+      "type": "StoryLink",
+      "props": {
+        "title": "BuilderIO/agent-native",
+        "href": "https://github.com/BuilderIO/agent-native",
+        "source": "GitHub"
+      }
+    },
+    "badges-agent-native": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-typescript",
+        "badge-return2"
+      ]
+    },
+    "badge-typescript": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge-return2": {
+      "type": "Badge",
+      "props": {
+        "text": "[RETURNING]",
+        "variant": "default"
+      }
+    },
+    "stat-agent-native": {
+      "type": "Stat",
+      "props": {
+        "value": "0.8K",
+        "delta": "+172",
+        "trend": "up"
+      }
+    },
+    "desc-agent-native": {
+      "type": "Text",
+      "props": {
+        "text": "Exposes UI components as typed tool schemas so agents can operate apps directly instead of DOM scraping.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-webapps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-webapps",
+        "repo-palmier",
+        "repo-penpot"
+      ]
+    },
+    "heading-webapps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "repo-palmier": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-palmier",
+        "badges-palmier",
+        "stat-palmier",
+        "desc-palmier"
+      ]
+    },
+    "link-palmier": {
+      "type": "StoryLink",
+      "props": {
+        "title": "palmier-io/palmier-pro",
+        "href": "https://github.com/palmier-io/palmier-pro",
+        "source": "GitHub"
+      }
+    },
+    "badges-palmier": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-swift",
+        "badge-accel2"
+      ]
+    },
+    "badge-swift": {
+      "type": "Badge",
+      "props": {
+        "text": "Swift",
+        "variant": "secondary"
+      }
+    },
+    "badge-accel2": {
+      "type": "Badge",
+      "props": {
+        "text": "[ACCELERATING]",
+        "variant": "default"
+      }
+    },
+    "stat-palmier": {
+      "type": "Stat",
+      "props": {
+        "value": "1.4K",
+        "delta": "+749",
+        "trend": "up"
+      }
+    },
+    "desc-palmier": {
+      "type": "Text",
+      "props": {
+        "text": "Native macOS video editor built for AI workflows — runs local models, no cloud round-trip, Swift-native performance.",
+        "variant": "body"
+      }
+    },
+    "repo-penpot": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-penpot",
+        "badges-penpot",
+        "stat-penpot",
+        "desc-penpot"
+      ]
+    },
+    "link-penpot": {
+      "type": "StoryLink",
+      "props": {
+        "title": "penpot/penpot",
+        "href": "https://github.com/penpot/penpot",
+        "source": "GitHub"
+      }
+    },
+    "badges-penpot": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-clojure",
+        "badge-return3"
+      ]
+    },
+    "badge-clojure": {
+      "type": "Badge",
+      "props": {
+        "text": "Clojure",
+        "variant": "secondary"
+      }
+    },
+    "badge-return3": {
+      "type": "Badge",
+      "props": {
+        "text": "[RETURNING]",
+        "variant": "default"
+      }
+    },
+    "stat-penpot": {
+      "type": "Stat",
+      "props": {
+        "value": "50.4K",
+        "delta": "+318",
+        "trend": "up"
+      }
+    },
+    "desc-penpot": {
+      "type": "Text",
+      "props": {
+        "text": "v2.16.0 lands WebGL rendering (beta) and MCP server horizontal scaling — major perf lift for self-hosted Figma alternative.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/15",
+        "variant": "caption"
+      }
+    }
+  }
+}
