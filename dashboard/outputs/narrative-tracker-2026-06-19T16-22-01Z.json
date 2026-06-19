@@ -1,0 +1,663 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-06-19"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "transitions-section",
+        "sep-1",
+        "reflexivity-section",
+        "sep-2",
+        "positions-section",
+        "sep-3",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-transitions",
+        "trans-1",
+        "trans-2",
+        "trans-3",
+        "trans-4"
+      ]
+    },
+    "h-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h3"
+      }
+    },
+    "trans-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade-triggered",
+        "text-trans-1"
+      ]
+    },
+    "badge-fade-triggered": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE TRIGGERED",
+        "variant": "destructive"
+      }
+    },
+    "text-trans-1": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid/Perp DEXs — $73 broken, HYPE ~$67 (−6.7% today). Jun 18 FADE trigger activated. Exit window live.",
+        "variant": "body"
+      }
+    },
+    "trans-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-dead",
+        "text-trans-2"
+      ]
+    },
+    "badge-dead": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "text-trans-2": {
+      "type": "Text",
+      "props": {
+        "text": "Macro Risk-On (US-Iran) — deal signed Jun 18-19 (VP Vance confirmed), crypto non-response: 85% red, median −2%, BTC ~$65K. Binary resolved without lift. Narrative dead.",
+        "variant": "body"
+      }
+    },
+    "trans-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-strengthened",
+        "text-trans-3"
+      ]
+    },
+    "badge-strengthened": {
+      "type": "Badge",
+      "props": {
+        "text": "STRENGTHENED",
+        "variant": "secondary"
+      }
+    },
+    "text-trans-3": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments — x402 crosses 480K active agents, 165M cumulative txns, 265% weekly txn growth since March. First hard on-chain volume metric.",
+        "variant": "body"
+      }
+    },
+    "trans-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-stabilizing",
+        "text-trans-4"
+      ]
+    },
+    "badge-stabilizing": {
+      "type": "Badge",
+      "props": {
+        "text": "STABILIZING",
+        "variant": "outline"
+      }
+    },
+    "text-trans-4": {
+      "type": "Text",
+      "props": {
+        "text": "Attention Markets/InfoFi — KAITO +4.8% Jun 19 reverses 3-day decline. Algorithm backlash headwind (BeInCrypto). WATCH not RIDE.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-reflexivity",
+        "refl-1",
+        "refl-2"
+      ]
+    },
+    "h-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h3"
+      }
+    },
+    "refl-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-confirmed",
+        "text-refl-1"
+      ]
+    },
+    "badge-confirmed": {
+      "type": "Badge",
+      "props": {
+        "text": "CONFIRMED",
+        "variant": "secondary"
+      }
+    },
+    "text-refl-1": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid unwind CONFIRMED: ATH Jun 16 → media cycle → distribution Jun 17–19. $73 break executes the reflexive unwind telegraphed Jun 17. No bounce signal.",
+        "variant": "body"
+      }
+    },
+    "refl-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ongoing",
+        "text-refl-2"
+      ]
+    },
+    "badge-ongoing": {
+      "type": "Badge",
+      "props": {
+        "text": "ONGOING",
+        "variant": "outline"
+      }
+    },
+    "text-refl-2": {
+      "type": "Text",
+      "props": {
+        "text": "FIFA/Prediction Markets (ongoing): Hard event-cliff Jul 19. Volume growth intact.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-positions",
+        "pos-1",
+        "pos-2",
+        "pos-3",
+        "pos-4",
+        "pos-5",
+        "pos-6",
+        "pos-7",
+        "pos-8",
+        "pos-9",
+        "pos-10"
+      ]
+    },
+    "h-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h3"
+      }
+    },
+    "pos-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride-1",
+        "text-pos-1"
+      ]
+    },
+    "badge-ride-1": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE (5 ↑, Bull)",
+        "variant": "secondary"
+      }
+    },
+    "text-pos-1": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments — x402 protocol, Mastercard Agent Pay (30+ partners), Virtuals Protocol — EU AI Act Aug 2 risk",
+        "variant": "body"
+      }
+    },
+    "pos-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride-2",
+        "text-pos-2"
+      ]
+    },
+    "badge-ride-2": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE (5 →, Bull)",
+        "variant": "secondary"
+      }
+    },
+    "text-pos-2": {
+      "type": "Text",
+      "props": {
+        "text": "AI Crypto Infrastructure — TAO, io.net GPU burns live Jun 11, RENDER — internal rot watch (AKT/GRASS)",
+        "variant": "body"
+      }
+    },
+    "pos-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride-3",
+        "text-pos-3"
+      ]
+    },
+    "badge-ride-3": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE (4 ↑, Bull)",
+        "variant": "secondary"
+      }
+    },
+    "text-pos-3": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets — @Polymarket, @Kalshi, FIFA WC $2B+ — exit Jul 19",
+        "variant": "body"
+      }
+    },
+    "pos-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade",
+        "text-pos-4"
+      ]
+    },
+    "badge-fade": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE (4 ↓↓, Bear)",
+        "variant": "destructive"
+      }
+    },
+    "text-pos-4": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid/Perp DEXs — $73 broken, HYPE ~$67, trigger live",
+        "variant": "body"
+      }
+    },
+    "pos-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade-cope",
+        "text-pos-5"
+      ]
+    },
+    "badge-fade-cope": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE (1 ↓↓, Cope)",
+        "variant": "destructive"
+      }
+    },
+    "text-pos-5": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoin Launchpads — SIREN +148.3% cope flare; no structural recovery",
+        "variant": "body"
+      }
+    },
+    "pos-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-1",
+        "text-pos-6"
+      ]
+    },
+    "badge-watch-1": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH (5 →)",
+        "variant": "outline"
+      }
+    },
+    "text-pos-6": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization",
+        "variant": "body"
+      }
+    },
+    "pos-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-2",
+        "text-pos-7"
+      ]
+    },
+    "badge-watch-2": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH (4 ↓)",
+        "variant": "outline"
+      }
+    },
+    "text-pos-7": {
+      "type": "Text",
+      "props": {
+        "text": "Base Ecosystem",
+        "variant": "body"
+      }
+    },
+    "pos-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-3",
+        "text-pos-8"
+      ]
+    },
+    "badge-watch-3": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH (4 →)",
+        "variant": "outline"
+      }
+    },
+    "text-pos-8": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins — reload ~Jul 17",
+        "variant": "body"
+      }
+    },
+    "pos-9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-4",
+        "text-pos-9"
+      ]
+    },
+    "badge-watch-4": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH (3 →)",
+        "variant": "outline"
+      }
+    },
+    "text-pos-9": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi/KAITO — stabilizing",
+        "variant": "body"
+      }
+    },
+    "pos-10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-5",
+        "text-pos-10"
+      ]
+    },
+    "badge-watch-5": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH (3 ↓)",
+        "variant": "outline"
+      }
+    },
+    "text-pos-10": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional DeFi/UNI",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-map",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading",
+        "map-dead"
+      ]
+    },
+    "h-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h3"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label-emerging",
+        "text-emerging"
+      ]
+    },
+    "label-emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "outline"
+      }
+    },
+    "text-emerging": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Security",
+        "variant": "body"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label-rising",
+        "text-rising"
+      ]
+    },
+    "label-rising": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "text-rising": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "body"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label-peak",
+        "text-peak"
+      ]
+    },
+    "label-peak": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "default"
+      }
+    },
+    "text-peak": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments, AI Crypto Infrastructure, RWA Tokenization",
+        "variant": "body"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label-fading",
+        "text-fading"
+      ]
+    },
+    "label-fading": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      }
+    },
+    "text-fading": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid, Base Ecosystem, Stablecoins, Institutional DeFi/UNI",
+        "variant": "body"
+      }
+    },
+    "map-dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label-dead",
+        "text-dead"
+      ]
+    },
+    "label-dead": {
+      "type": "Badge",
+      "props": {
+        "text": "Dead",
+        "variant": "destructive"
+      }
+    },
+    "text-dead": {
+      "type": "Text",
+      "props": {
+        "text": "Macro Risk-On (US-Iran)",
+        "variant": "body"
+      }
+    }
+  }
+}

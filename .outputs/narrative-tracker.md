@@ -1,20 +1,26 @@
-Log looks correct. Run is complete.
+*Narrative Tracker — 2026-06-19*
 
-## Summary
+TRANSITIONS
+• FADE TRIGGERED: Hyperliquid/Perp DEXs — $73 broken, HYPE ~$67 (−6.7% today). Jun 18 FADE trigger activated. Exit window live.
+• DEAD: Macro Risk-On (US-Iran) — deal signed Jun 18-19 (VP Vance confirmed), crypto non-response: 85% red, median −2%, BTC ~$65K. Binary resolved without lift. Narrative dead.
+• STRENGTHENED: AI Agent Payments — x402 crosses 480K active agents, 165M cumulative txns, 265% weekly txn growth since March. First hard on-chain volume metric.
+• STABILIZING: Attention Markets/InfoFi — KAITO +4.8% Jun 19 reverses 3-day decline. Algorithm backlash headwind (BeInCrypto). WATCH not RIDE.
 
-**What ran:** narrative-tracker for 2026-06-18.
+REFLEXIVITY ALERT
+• Hyperliquid unwind CONFIRMED: ATH Jun 16 → media cycle → distribution Jun 17–19. $73 break executes the reflexive unwind telegraphed Jun 17. No bounce signal.
+• FIFA/Prediction Markets (ongoing): Hard event-cliff Jul 19. Volume growth intact.
 
-**Signals ingested:**
-- XAI cache: MISS (day 19 consecutive 403, no credits) — fell back to WebSearch
-- Internal signals from today's logs: TAO +15%, Bittensor 6x workers, HYPE HIP-4 binary options live, AKT/GRASS −10–15%, XLM +10.2%, 77% red tape
-- WebSearch: FIFA WC crypto integration ($2B+ prediction volume, Kraken sponsorship), PHALA +102.9%/wk, Virtuals Protocol $480M agent GDP, BTC dominance 58%
+POSITIONS
+• RIDE: AI Agent Payments (5 ↑, Bull) — x402 protocol, Mastercard Agent Pay (30+ partners), Virtuals Protocol — EU AI Act Aug 2 risk
+• RIDE: AI Crypto Infrastructure (5 →, Bull) — TAO, io.net GPU burns live Jun 11, RENDER — internal rot watch (AKT/GRASS)
+• RIDE: Prediction Markets (4 ↑, Bull) — @Polymarket, @Kalshi, FIFA WC $2B+ — exit Jul 19
+• FADE: Hyperliquid/Perp DEXs (4 ↓↓, Bear) — $73 broken, HYPE ~$67, trigger live
+• FADE: Memecoin Launchpads (1 ↓↓, Cope) — SIREN +148.3% cope flare; no structural recovery
+• WATCH: RWA Tokenization (5 →), Base Ecosystem (4 ↓), Stablecoins (4 →, reload ~Jul 17), InfoFi/KAITO (3 → stabilizing), Institutional DeFi/UNI (3 ↓)
 
-**Key transitions detected:**
-- **STRENGTHENED** — AI Crypto Infrastructure: TAO +15% + PHALA spike + Bittensor workers; internal rotation from speculative DePIN → utility infra. RIDE conviction raised.
-- **NEW catalyst** — HIP-4 Binary Options live: bridges Perp DEXs and Prediction Markets simultaneously.
-- **WATCH TRIGGER** — Hyperliquid: day 2 post-ATH distribution, $73 support is the FADE line.
-- **STALLING** — Base Ecosystem and Institutional DeFi/UNI both losing momentum.
-
-**Reflexivity flags:** TAO/Bittensor reflexive loop active; FIFA WC × prediction markets compounding.
-
-**Notification:** queued in `.pending-notify/1750264800.md` for post-run delivery (sandbox curl limitation). Log entry written to `memory/logs/2026-06-18.md`.
+MAP
+Emerging: AI Agent Security
+Rising: Prediction Markets
+Peak: AI Agent Payments, AI Crypto Infrastructure, RWA Tokenization
+Fading: Hyperliquid, Base Ecosystem, Stablecoins, Institutional DeFi/UNI
+Dead: Macro Risk-On (US-Iran)
