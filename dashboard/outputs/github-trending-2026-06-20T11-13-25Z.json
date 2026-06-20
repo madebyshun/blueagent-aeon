@@ -1,0 +1,427 @@
+{
+  "root": "root_card",
+  "state": {},
+  "elements": {
+    "root_card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-20"
+      },
+      "children": [
+        "toppick_section",
+        "sep1",
+        "aiml_section",
+        "sep2",
+        "devtools_section",
+        "sep3",
+        "infra_section"
+      ]
+    },
+    "toppick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "toppick_heading",
+        "toppick_repo",
+        "toppick_desc"
+      ]
+    },
+    "toppick_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h2"
+      }
+    },
+    "toppick_repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google-research/timesfm",
+        "href": "https://github.com/google-research/timesfm"
+      }
+    },
+    "toppick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "1,510 stars today — Google's time-series foundation model is the clearest signal that teams are benchmarking foundation-model forecasting against traditional stacks."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_heading",
+        "aiml_repo1"
+      ]
+    },
+    "aiml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "aiml_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_r1_header",
+        "aiml_r1_stats",
+        "aiml_r1_desc"
+      ]
+    },
+    "aiml_r1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_r1_link",
+        "aiml_r1_status",
+        "aiml_r1_lang"
+      ]
+    },
+    "aiml_r1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google-research/timesfm",
+        "href": "https://github.com/google-research/timesfm"
+      }
+    },
+    "aiml_r1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "aiml_r1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "aiml_r1_stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1.5k today (24.2k total)",
+        "variant": "muted"
+      }
+    },
+    "aiml_r1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Adds TimesFM-2.5 support — zero-shot time-series forecasting without per-dataset training."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "devtools_repos"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "devtools_repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "devtools_repo1",
+        "devtools_repo2",
+        "devtools_repo3"
+      ]
+    },
+    "devtools_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_r1_header",
+        "devtools_r1_stats",
+        "devtools_r1_desc"
+      ]
+    },
+    "devtools_r1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_r1_link",
+        "devtools_r1_status",
+        "devtools_r1_lang"
+      ]
+    },
+    "devtools_r1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DeusData/codebase-memory-mcp",
+        "href": "https://github.com/DeusData/codebase-memory-mcp"
+      }
+    },
+    "devtools_r1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools_r1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C",
+        "variant": "outline"
+      }
+    },
+    "devtools_r1_stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1.1k today (8.7k total)",
+        "variant": "muted"
+      }
+    },
+    "devtools_r1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Single C binary indexes 158 languages at sub-ms latency — replaces embedding pipelines at 99% fewer tokens."
+      }
+    },
+    "devtools_repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_r2_header",
+        "devtools_r2_stats",
+        "devtools_r2_desc"
+      ]
+    },
+    "devtools_r2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_r2_link",
+        "devtools_r2_status",
+        "devtools_r2_lang"
+      ]
+    },
+    "devtools_r2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "obra/superpowers",
+        "href": "https://github.com/obra/superpowers"
+      }
+    },
+    "devtools_r2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools_r2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell",
+        "variant": "outline"
+      }
+    },
+    "devtools_r2_stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1.1k today (233k total)",
+        "variant": "muted"
+      }
+    },
+    "devtools_r2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "v6.0 rewrites subagent code review to be cheaper and harder to game; 233k stars in 9 months."
+      }
+    },
+    "devtools_repo3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_r3_header",
+        "devtools_r3_stats",
+        "devtools_r3_desc"
+      ]
+    },
+    "devtools_r3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_r3_link",
+        "devtools_r3_status",
+        "devtools_r3_lang"
+      ]
+    },
+    "devtools_r3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Kong/insomnia",
+        "href": "https://github.com/Kong/insomnia"
+      }
+    },
+    "devtools_r3_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "devtools_r3_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "devtools_r3_stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 292 today (39.1k total)",
+        "variant": "muted"
+      }
+    },
+    "devtools_r3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "v13.0 ships — REST/GraphQL/WebSockets/SSE/gRPC workspace with cloud, local, and git storage modes."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "infra_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra_heading",
+        "infra_repo1"
+      ]
+    },
+    "infra_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h2"
+      }
+    },
+    "infra_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_r1_header",
+        "infra_r1_stats",
+        "infra_r1_desc"
+      ]
+    },
+    "infra_r1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "infra_r1_link",
+        "infra_r1_status",
+        "infra_r1_lang"
+      ]
+    },
+    "infra_r1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "n0-computer/iroh",
+        "href": "https://github.com/n0-computer/iroh"
+      }
+    },
+    "infra_r1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "infra_r1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "outline"
+      }
+    },
+    "infra_r1_stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 302 today (10.3k total)",
+        "variant": "muted"
+      }
+    },
+    "infra_r1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "v1.0.0 Dial"
+      }
+    }
+  }
+}
