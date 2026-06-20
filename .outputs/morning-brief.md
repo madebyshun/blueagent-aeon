@@ -1,21 +1,19 @@
-*Morning Brief — 2026-06-19*
+*Morning Brief — 2026-06-20*
 
 *Focus today*
-1. HYPE $73 support broken — why now: FADE trigger live; $67 today, exit window now
-2. US-Iran deal signing today (Burgenstock, CH) — why now: risk-on binary resolves; BTC $67K catalyst imminent
-3. MEMORY.md update stale since May 17 — why now: day 2 carry-forward; narrative-tracker reads it daily
+1. MEMORY.md overhaul — why now: Day 4 stale; all listed priorities already running
+2. deal-flow Monday fix window — why now: consecutive failure; next run in 2 days
+3. token-movers degradation — background: success_rate 0.58; WebFetch fallback audit needed
 
 *Since yesterday*
-- [moved]: HYPE breached $73 — FADE confirmed; -6.7% today, day 3 post-ATH distribution accelerated
-- [moved]: token-pick ran — LAB +21.8% (executed), Spain WC YES 13.8¢ (executed)
-- [moved]: narrative-tracker — AI Infra RIDE raised, Base Ecosystem stalling, Macro Risk-On pending → resolves today
-- [stuck]: MEMORY.md priorities stale since May 17 (no update yesterday)
-
-*Watch*
-- US-Iran peace deal signing confirmed at Burgenstock today; Strait of Hormuz reopens on signing → if completed, macro flips risk-on, BTC $67K test live (Focus #2)
+- [moved] HYPE FADE confirmed: $73 broken → ~$67; distribution cycle complete; dead-cat watch window open
+- [moved] US-Iran narrative DEAD: deal signed, BTC non-response (~$65K); removed from active tracking
+- [moved] AI Agent Payments RIDE conviction raised: x402 crosses 480K agents, 165M txns, 265%/wk growth
+- [stuck] MEMORY.md: 34+ days stale (Day 4 carry-forward) — listed priorities already running
+- [stuck] deal-flow: consecutive_failures=1 (last failed Jun 15); no root cause yet
 
 *Running today*
-- heartbeat @ 08:00 / 14:00 / 20:00 UTC
+- heartbeat @ 08:00/14:00/20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
