@@ -1,0 +1,2142 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-06-20"
+      },
+      "children": [
+        "headline",
+        "sep1",
+        "winners_h",
+        "winners",
+        "sep2",
+        "losers_h",
+        "losers",
+        "sep3",
+        "trending_h",
+        "trending",
+        "sep4",
+        "notable_h",
+        "notable"
+      ]
+    },
+    "headline": {
+      "type": "Text",
+      "props": {
+        "text": "Large-caps green while mid-caps diverge — BTC +1%, SOL +4%, HYPE +3.7% reversing yesterday's FADE; ~45/100 top-cap coins positive, median 24h ≈ +0.8%.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "winners_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "w1",
+        "w2",
+        "w3",
+        "w4",
+        "w5",
+        "w6",
+        "w7",
+        "w8",
+        "w9",
+        "w10"
+      ]
+    },
+    "w1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w1_h",
+        "w1_p",
+        "w1_c",
+        "w1_m",
+        "w1_t"
+      ]
+    },
+    "w1_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w1_s",
+        "w1_n"
+      ]
+    },
+    "w1_s": {
+      "type": "Badge",
+      "props": {
+        "text": "BTW",
+        "variant": "outline"
+      }
+    },
+    "w1_n": {
+      "type": "Text",
+      "props": {
+        "text": "Bitway",
+        "variant": "body"
+      }
+    },
+    "w1_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.1442",
+        "delta": "+106.5%",
+        "trend": "up"
+      }
+    },
+    "w1_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "w1_7d",
+        "w1_1h"
+      ]
+    },
+    "w1_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d +95.4%",
+        "variant": "caption"
+      }
+    },
+    "w1_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h +1.6%",
+        "variant": "caption"
+      }
+    },
+    "w1_m": {
+      "type": "Text",
+      "props": {
+        "text": "$69.6M • Rank #132",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "w1_t": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w1_t1",
+        "w1_t2"
+      ]
+    },
+    "w1_t1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "w1_t2": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "secondary"
+      }
+    },
+    "w2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w2_h",
+        "w2_p",
+        "w2_c",
+        "w2_m",
+        "w2_t"
+      ]
+    },
+    "w2_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w2_s"
+      ]
+    },
+    "w2_s": {
+      "type": "Badge",
+      "props": {
+        "text": "RE",
+        "variant": "outline"
+      }
+    },
+    "w2_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.97",
+        "delta": "+22.8%",
+        "trend": "up"
+      }
+    },
+    "w2_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "w2_7d",
+        "w2_1h"
+      ]
+    },
+    "w2_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d N/A",
+        "variant": "caption"
+      }
+    },
+    "w2_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h −3.6%",
+        "variant": "caption"
+      }
+    },
+    "w2_m": {
+      "type": "Text",
+      "props": {
+        "text": "$643.6M • Rank #206",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "w2_t": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w2_t1"
+      ]
+    },
+    "w2_t1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "w3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w3_h",
+        "w3_p",
+        "w3_c",
+        "w3_m",
+        "w3_t"
+      ]
+    },
+    "w3_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w3_s",
+        "w3_n"
+      ]
+    },
+    "w3_s": {
+      "type": "Badge",
+      "props": {
+        "text": "EDGE",
+        "variant": "outline"
+      }
+    },
+    "w3_n": {
+      "type": "Text",
+      "props": {
+        "text": "edgeX",
+        "variant": "body"
+      }
+    },
+    "w3_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.42",
+        "delta": "+22.4%",
+        "trend": "up"
+      }
+    },
+    "w3_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "w3_7d",
+        "w3_1h"
+      ]
+    },
+    "w3_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d −0.8%",
+        "variant": "caption"
+      }
+    },
+    "w3_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h +3.2%",
+        "variant": "caption"
+      }
+    },
+    "w3_m": {
+      "type": "Text",
+      "props": {
+        "text": "$11.1M • Rank #211",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "w3_t": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w3_t1"
+      ]
+    },
+    "w3_t1": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "secondary"
+      }
+    },
+    "w4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w4_h",
+        "w4_p",
+        "w4_c",
+        "w4_m"
+      ]
+    },
+    "w4_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w4_s",
+        "w4_n"
+      ]
+    },
+    "w4_s": {
+      "type": "Badge",
+      "props": {
+        "text": "AXS",
+        "variant": "outline"
+      }
+    },
+    "w4_n": {
+      "type": "Text",
+      "props": {
+        "text": "Axie Infinity",
+        "variant": "body"
+      }
+    },
+    "w4_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$1.13",
+        "delta": "+20.5%",
+        "trend": "up"
+      }
+    },
+    "w4_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "w4_7d",
+        "w4_1h"
+      ]
+    },
+    "w4_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d +17.0%",
+        "variant": "caption"
+      }
+    },
+    "w4_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h −0.2%",
+        "variant": "caption"
+      }
+    },
+    "w4_m": {
+      "type": "Text",
+      "props": {
+        "text": "$189.2M • Rank #178",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "w5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w5_h",
+        "w5_p",
+        "w5_c",
+        "w5_m",
+        "w5_t"
+      ]
+    },
+    "w5_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w5_s",
+        "w5_n"
+      ]
+    },
+    "w5_s": {
+      "type": "Badge",
+      "props": {
+        "text": "EIGEN",
+        "variant": "outline"
+      }
+    },
+    "w5_n": {
+      "type": "Text",
+      "props": {
+        "text": "EigenCloud",
+        "variant": "body"
+      }
+    },
+    "w5_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.2552",
+        "delta": "+15.8%",
+        "trend": "up"
+      }
+    },
+    "w5_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "w5_7d",
+        "w5_1h"
+      ]
+    },
+    "w5_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d +38.4%",
+        "variant": "caption"
+      }
+    },
+    "w5_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h −4.0%",
+        "variant": "caption"
+      }
+    },
+    "w5_m": {
+      "type": "Text",
+      "props": {
+        "text": "$118.7M • Rank #183",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "w5_t": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w5_t1"
+      ]
+    },
+    "w5_t1": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "secondary"
+      }
+    },
+    "w6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w6_h",
+        "w6_p",
+        "w6_c",
+        "w6_m"
+      ]
+    },
+    "w6_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w6_s",
+        "w6_n"
+      ]
+    },
+    "w6_s": {
+      "type": "Badge",
+      "props": {
+        "text": "SAND",
+        "variant": "outline"
+      }
+    },
+    "w6_n": {
+      "type": "Text",
+      "props": {
+        "text": "The Sandbox",
+        "variant": "body"
+      }
+    },
+    "w6_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.059",
+        "delta": "+15.6%",
+        "trend": "up"
+      }
+    },
+    "w6_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "w6_7d",
+        "w6_1h"
+      ]
+    },
+    "w6_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d +12.9%",
+        "variant": "caption"
+      }
+    },
+    "w6_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h +2.9%",
+        "variant": "caption"
+      }
+    },
+    "w6_m": {
+      "type": "Text",
+      "props": {
+        "text": "$80.4M • Rank #205",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "w7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w7_h",
+        "w7_p",
+        "w7_c",
+        "w7_m",
+        "w7_t"
+      ]
+    },
+    "w7_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w7_s",
+        "w7_n"
+      ]
+    },
+    "w7_s": {
+      "type": "Badge",
+      "props": {
+        "text": "BP",
+        "variant": "outline"
+      }
+    },
+    "w7_n": {
+      "type": "Text",
+      "props": {
+        "text": "Backpack",
+        "variant": "body"
+      }
+    },
+    "w7_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.6664",
+        "delta": "+13.8%",
+        "trend": "up"
+      }
+    },
+    "w7_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "w7_7d",
+        "w7_1h"
+      ]
+    },
+    "w7_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d +102.5%",
+        "variant": "caption"
+      }
+    },
+    "w7_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h +5.8%",
+        "variant": "caption"
+      }
+    },
+    "w7_m": {
+      "type": "Text",
+      "props": {
+        "text": "$3.6M • Rank #193",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "w7_t": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w7_t1"
+      ]
+    },
+    "w7_t1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "w8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w8_h",
+        "w8_p",
+        "w8_c",
+        "w8_m"
+      ]
+    },
+    "w8_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w8_s",
+        "w8_n"
+      ]
+    },
+    "w8_s": {
+      "type": "Badge",
+      "props": {
+        "text": "MANA",
+        "variant": "outline"
+      }
+    },
+    "w8_n": {
+      "type": "Text",
+      "props": {
+        "text": "Decentraland",
+        "variant": "body"
+      }
+    },
+    "w8_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.074",
+        "delta": "+12.2%",
+        "trend": "up"
+      }
+    },
+    "w8_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "w8_7d",
+        "w8_1h"
+      ]
+    },
+    "w8_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d +11.0%",
+        "variant": "caption"
+      }
+    },
+    "w8_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h +1.1%",
+        "variant": "caption"
+      }
+    },
+    "w8_m": {
+      "type": "Text",
+      "props": {
+        "text": "$22.4M • Rank #213",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "w9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w9_h",
+        "w9_p",
+        "w9_c",
+        "w9_m",
+        "w9_t"
+      ]
+    },
+    "w9_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w9_s",
+        "w9_n"
+      ]
+    },
+    "w9_s": {
+      "type": "Badge",
+      "props": {
+        "text": "O",
+        "variant": "outline"
+      }
+    },
+    "w9_n": {
+      "type": "Text",
+      "props": {
+        "text": "o1.exchange",
+        "variant": "body"
+      }
+    },
+    "w9_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.849",
+        "delta": "+9.6%",
+        "trend": "up"
+      }
+    },
+    "w9_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "w9_7d",
+        "w9_1h"
+      ]
+    },
+    "w9_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d N/A",
+        "variant": "caption"
+      }
+    },
+    "w9_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h −3.8%",
+        "variant": "caption"
+      }
+    },
+    "w9_m": {
+      "type": "Text",
+      "props": {
+        "text": "$54.6M • Rank #216",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "w9_t": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w9_t1"
+      ]
+    },
+    "w9_t1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "w10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w10_h",
+        "w10_p",
+        "w10_c",
+        "w10_m",
+        "w10_t"
+      ]
+    },
+    "w10_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w10_s",
+        "w10_n"
+      ]
+    },
+    "w10_s": {
+      "type": "Badge",
+      "props": {
+        "text": "AERO",
+        "variant": "outline"
+      }
+    },
+    "w10_n": {
+      "type": "Text",
+      "props": {
+        "text": "Aerodrome",
+        "variant": "body"
+      }
+    },
+    "w10_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.486",
+        "delta": "+9.0%",
+        "trend": "up"
+      }
+    },
+    "w10_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "w10_7d",
+        "w10_1h"
+      ]
+    },
+    "w10_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d +33.2%",
+        "variant": "caption"
+      }
+    },
+    "w10_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h −1.0%",
+        "variant": "caption"
+      }
+    },
+    "w10_m": {
+      "type": "Text",
+      "props": {
+        "text": "$46.2M • Rank #108",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "w10_t": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w10_t1"
+      ]
+    },
+    "w10_t1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "losers_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "l1",
+        "l2",
+        "l3",
+        "l4",
+        "l5",
+        "l6",
+        "l7",
+        "l8",
+        "l9",
+        "l10"
+      ]
+    },
+    "l1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l1_h",
+        "l1_p",
+        "l1_c",
+        "l1_m"
+      ]
+    },
+    "l1_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l1_s",
+        "l1_n"
+      ]
+    },
+    "l1_s": {
+      "type": "Badge",
+      "props": {
+        "text": "UB",
+        "variant": "outline"
+      }
+    },
+    "l1_n": {
+      "type": "Text",
+      "props": {
+        "text": "Unibase",
+        "variant": "body"
+      }
+    },
+    "l1_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.0767",
+        "delta": "−33.6%",
+        "trend": "down"
+      }
+    },
+    "l1_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "l1_7d",
+        "l1_1h"
+      ]
+    },
+    "l1_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d −41.6%",
+        "variant": "caption"
+      }
+    },
+    "l1_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h +1.1%",
+        "variant": "caption"
+      }
+    },
+    "l1_m": {
+      "type": "Text",
+      "props": {
+        "text": "$21.8M • Rank #182",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "l2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l2_h",
+        "l2_p",
+        "l2_c",
+        "l2_m"
+      ]
+    },
+    "l2_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l2_s"
+      ]
+    },
+    "l2_s": {
+      "type": "Badge",
+      "props": {
+        "text": "LAB",
+        "variant": "outline"
+      }
+    },
+    "l2_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$12.07",
+        "delta": "−21.9%",
+        "trend": "down"
+      }
+    },
+    "l2_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "l2_7d",
+        "l2_1h"
+      ]
+    },
+    "l2_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d +23.1%",
+        "variant": "caption"
+      }
+    },
+    "l2_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h −0.3%",
+        "variant": "caption"
+      }
+    },
+    "l2_m": {
+      "type": "Text",
+      "props": {
+        "text": "$41.0M • Rank #27",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "l3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l3_h",
+        "l3_p",
+        "l3_c",
+        "l3_m"
+      ]
+    },
+    "l3_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l3_s",
+        "l3_n"
+      ]
+    },
+    "l3_s": {
+      "type": "Badge",
+      "props": {
+        "text": "BEAT",
+        "variant": "outline"
+      }
+    },
+    "l3_n": {
+      "type": "Text",
+      "props": {
+        "text": "Audiera",
+        "variant": "body"
+      }
+    },
+    "l3_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$1.72",
+        "delta": "−15.4%",
+        "trend": "down"
+      }
+    },
+    "l3_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "l3_7d",
+        "l3_1h"
+      ]
+    },
+    "l3_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d −79.7%",
+        "variant": "caption"
+      }
+    },
+    "l3_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h −3.9%",
+        "variant": "caption"
+      }
+    },
+    "l3_m": {
+      "type": "Text",
+      "props": {
+        "text": "$33.5M • Rank #104",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "l4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l4_h",
+        "l4_p",
+        "l4_c",
+        "l4_m",
+        "l4_t"
+      ]
+    },
+    "l4_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l4_s"
+      ]
+    },
+    "l4_s": {
+      "type": "Badge",
+      "props": {
+        "text": "HOME",
+        "variant": "outline"
+      }
+    },
+    "l4_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.023",
+        "delta": "−12.3%",
+        "trend": "down"
+      }
+    },
+    "l4_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "l4_7d",
+        "l4_1h"
+      ]
+    },
+    "l4_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d −27.9%",
+        "variant": "caption"
+      }
+    },
+    "l4_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h −1.3%",
+        "variant": "caption"
+      }
+    },
+    "l4_m": {
+      "type": "Text",
+      "props": {
+        "text": "$26.8M • Rank #278",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "l4_t": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "l4_t1"
+      ]
+    },
+    "l4_t1": {
+      "type": "Badge",
+      "props": {
+        "text": "CAPITULATION",
+        "variant": "destructive"
+      }
+    },
+    "l5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l5_h",
+        "l5_p",
+        "l5_c",
+        "l5_m",
+        "l5_t"
+      ]
+    },
+    "l5_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l5_s",
+        "l5_n"
+      ]
+    },
+    "l5_s": {
+      "type": "Badge",
+      "props": {
+        "text": "S",
+        "variant": "outline"
+      }
+    },
+    "l5_n": {
+      "type": "Text",
+      "props": {
+        "text": "Sonic",
+        "variant": "body"
+      }
+    },
+    "l5_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.028",
+        "delta": "−11.3%",
+        "trend": "down"
+      }
+    },
+    "l5_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "l5_7d",
+        "l5_1h"
+      ]
+    },
+    "l5_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d −9.9%",
+        "variant": "caption"
+      }
+    },
+    "l5_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h 0.0%",
+        "variant": "caption"
+      }
+    },
+    "l5_m": {
+      "type": "Text",
+      "props": {
+        "text": "$27.8M • Rank #260",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "l5_t": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "l5_t1"
+      ]
+    },
+    "l5_t1": {
+      "type": "Badge",
+      "props": {
+        "text": "CAPITULATION",
+        "variant": "destructive"
+      }
+    },
+    "l6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l6_h",
+        "l6_p",
+        "l6_c",
+        "l6_m"
+      ]
+    },
+    "l6_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l6_s"
+      ]
+    },
+    "l6_s": {
+      "type": "Badge",
+      "props": {
+        "text": "BANANAS31",
+        "variant": "outline"
+      }
+    },
+    "l6_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.0093",
+        "delta": "−10.4%",
+        "trend": "down"
+      }
+    },
+    "l6_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "l6_7d",
+        "l6_1h"
+      ]
+    },
+    "l6_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d +18.9%",
+        "variant": "caption"
+      }
+    },
+    "l6_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h +0.6%",
+        "variant": "caption"
+      }
+    },
+    "l6_m": {
+      "type": "Text",
+      "props": {
+        "text": "$7.7M • Rank #282",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "l7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l7_h",
+        "l7_p",
+        "l7_c",
+        "l7_m"
+      ]
+    },
+    "l7_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l7_s",
+        "l7_n"
+      ]
+    },
+    "l7_s": {
+      "type": "Badge",
+      "props": {
+        "text": "TAG",
+        "variant": "outline"
+      }
+    },
+    "l7_n": {
+      "type": "Text",
+      "props": {
+        "text": "Tagger",
+        "variant": "body"
+      }
+    },
+    "l7_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.0010",
+        "delta": "−8.8%",
+        "trend": "down"
+      }
+    },
+    "l7_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "l7_7d",
+        "l7_1h"
+      ]
+    },
+    "l7_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d −3.8%",
+        "variant": "caption"
+      }
+    },
+    "l7_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h −1.1%",
+        "variant": "caption"
+      }
+    },
+    "l7_m": {
+      "type": "Text",
+      "props": {
+        "text": "$4.5M • Rank #263",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "l8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l8_h",
+        "l8_p",
+        "l8_c",
+        "l8_m"
+      ]
+    },
+    "l8_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l8_s",
+        "l8_n"
+      ]
+    },
+    "l8_s": {
+      "type": "Badge",
+      "props": {
+        "text": "SENT",
+        "variant": "outline"
+      }
+    },
+    "l8_n": {
+      "type": "Text",
+      "props": {
+        "text": "Sentient",
+        "variant": "body"
+      }
+    },
+    "l8_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.015",
+        "delta": "−8.1%",
+        "trend": "down"
+      }
+    },
+    "l8_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "l8_7d",
+        "l8_1h"
+      ]
+    },
+    "l8_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d −8.1%",
+        "variant": "caption"
+      }
+    },
+    "l8_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h −1.1%",
+        "variant": "caption"
+      }
+    },
+    "l8_m": {
+      "type": "Text",
+      "props": {
+        "text": "$11.2M • Rank #250",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "l9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l9_h",
+        "l9_p",
+        "l9_c",
+        "l9_m"
+      ]
+    },
+    "l9_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l9_s"
+      ]
+    },
+    "l9_s": {
+      "type": "Badge",
+      "props": {
+        "text": "KITE",
+        "variant": "outline"
+      }
+    },
+    "l9_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.1657",
+        "delta": "−7.8%",
+        "trend": "down"
+      }
+    },
+    "l9_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "l9_7d",
+        "l9_1h"
+      ]
+    },
+    "l9_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d −15.9%",
+        "variant": "caption"
+      }
+    },
+    "l9_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h +0.6%",
+        "variant": "caption"
+      }
+    },
+    "l9_m": {
+      "type": "Text",
+      "props": {
+        "text": "$32.5M • Rank #119",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "l10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l10_h",
+        "l10_p",
+        "l10_c",
+        "l10_m"
+      ]
+    },
+    "l10_h": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l10_s"
+      ]
+    },
+    "l10_s": {
+      "type": "Badge",
+      "props": {
+        "text": "DEXE",
+        "variant": "outline"
+      }
+    },
+    "l10_p": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$15.27",
+        "delta": "−7.3%",
+        "trend": "down"
+      }
+    },
+    "l10_c": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "l10_7d",
+        "l10_1h"
+      ]
+    },
+    "l10_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d −13.1%",
+        "variant": "caption"
+      }
+    },
+    "l10_1h": {
+      "type": "Text",
+      "props": {
+        "text": "1h −0.4%",
+        "variant": "caption"
+      }
+    },
+    "l10_m": {
+      "type": "Text",
+      "props": {
+        "text": "$10.4M • Rank #82",
+        "variant": "caption",
+        "muted": true
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trending_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    "t1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t1_s",
+        "t1_p",
+        "t1_b"
+      ]
+    },
+    "t1_s": {
+      "type": "Badge",
+      "props": {
+        "text": "RE",
+        "variant": "outline"
+      }
+    },
+    "t1_p": {
+      "type": "Text",
+      "props": {
+        "text": "#206 • $0.97 • +22.8%",
+        "variant": "body"
+      }
+    },
+    "t1_b": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "t2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t2_s",
+        "t2_p"
+      ]
+    },
+    "t2_s": {
+      "type": "Badge",
+      "props": {
+        "text": "PENGU",
+        "variant": "outline"
+      }
+    },
+    "t2_p": {
+      "type": "Text",
+      "props": {
+        "text": "Pudgy Penguins • #114 • +3.7%",
+        "variant": "body"
+      }
+    },
+    "t3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t3_s",
+        "t3_p",
+        "t3_b"
+      ]
+    },
+    "t3_s": {
+      "type": "Badge",
+      "props": {
+        "text": "BTW",
+        "variant": "outline"
+      }
+    },
+    "t3_p": {
+      "type": "Text",
+      "props": {
+        "text": "Bitway • #132 • $0.1442 • +106.5%",
+        "variant": "body"
+      }
+    },
+    "t3_b": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t3_b1",
+        "t3_b2"
+      ]
+    },
+    "t3_b1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "t3_b2": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "secondary"
+      }
+    },
+    "t4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t4_s",
+        "t4_p",
+        "t4_b"
+      ]
+    },
+    "t4_s": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE",
+        "variant": "outline"
+      }
+    },
+    "t4_p": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid • #10 • $70.08 • +3.7%",
+        "variant": "body"
+      }
+    },
+    "t4_b": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "t5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t5_s",
+        "t5_p"
+      ]
+    },
+    "t5_s": {
+      "type": "Badge",
+      "props": {
+        "text": "SIREN",
+        "variant": "outline"
+      }
+    },
+    "t5_p": {
+      "type": "Text",
+      "props": {
+        "text": "#292 • $0.120 • +5.7%",
+        "variant": "body"
+      }
+    },
+    "t6": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t6_s",
+        "t6_p"
+      ]
+    },
+    "t6_s": {
+      "type": "Badge",
+      "props": {
+        "text": "TAO",
+        "variant": "outline"
+      }
+    },
+    "t6_p": {
+      "type": "Text",
+      "props": {
+        "text": "Bittensor • #41 • +2.0%",
+        "variant": "body"
+      }
+    },
+    "t7": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t7_s",
+        "t7_p",
+        "t7_b"
+      ]
+    },
+    "t7_s": {
+      "type": "Badge",
+      "props": {
+        "text": "O",
+        "variant": "outline"
+      }
+    },
+    "t7_p": {
+      "type": "Text",
+      "props": {
+        "text": "o1.exchange • #216 • $0.849 • +9.6%",
+        "variant": "body"
+      }
+    },
+    "t7_b": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "notable_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "n1",
+        "n2",
+        "n3",
+        "n4",
+        "n5",
+        "n6"
+      ]
+    },
+    "n1": {
+      "type": "Alert",
+      "props": {
+        "title": "BTW: sustained breakout",
+        "message": "Trending + 107% 24h on 95% weekly gain — clean BREAKOUT, not a flash pump; volume confirms sustained move",
+        "type": "info"
+      }
+    },
+    "n2": {
+      "type": "Alert",
+      "props": {
+        "title": "EIGEN: sustained breakout",
+        "message": "+15.8% today, +38.4% week — sustained BREAKOUT; EigenLayer-related move",
+        "type": "info"
+      }
+    },
+    "n3": {
+      "type": "Alert",
+      "props": {
+        "title": "RE: extreme volatility",
+        "message": "New listing, $643M volume on $156M mcap (4× daily turnover) — extreme speculative interest, handle with care",
+        "type": "warning"
+      }
+    },
+    "n4": {
+      "type": "Alert",
+      "props": {
+        "title": "HOME + S (Sonic): capitulation signal",
+        "message": "Both −11%+ on above-threshold volume; watch for bounce or continued flush",
+        "type": "warning"
+      }
+    },
+    "n5": {
+      "type": "Alert",
+      "props": {
+        "title": "HYPE dead-cat alert",
+        "message": "FADE triggered Jun 19 ($73 broken), now trending +3.7% — no structural reversal yet; distribution cycle ongoing",
+        "type": "warning"
+      }
+    },
+    "n6": {
+      "type": "Alert",
+      "props": {
+        "title": "BEAT: reversal confirmed",
+        "message": "Was top winner Jun 19 (+19.4%), now −15.4% / 7d −79.7% — Jun 19 move confirmed as relief bounce",
+        "type": "info"
+      }
+    }
+  }
+}
