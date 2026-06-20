@@ -1,0 +1,414 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-20"
+      },
+      "children": [
+        "token_section",
+        "market_separator",
+        "market_section",
+        "footer_separator",
+        "footer_section"
+      ]
+    },
+    "token_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token_header_stack",
+        "token_price_grid",
+        "token_score_text",
+        "token_catalyst_stack",
+        "token_risk_stack",
+        "token_previous_text"
+      ]
+    },
+    "token_header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token_heading",
+        "token_level_badge",
+        "token_signal_stat"
+      ]
+    },
+    "token_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: HYPE",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "token_level_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "token_signal_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "6/10"
+      },
+      "children": []
+    },
+    "token_price_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "token_price_stat",
+        "token_mcap_stat",
+        "token_vol_stat",
+        "token_vol_ratio_stat"
+      ]
+    },
+    "token_price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$70.63",
+        "delta": "+3.9% 24h / +18.1% 7d",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "token_mcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$15.6B"
+      },
+      "children": []
+    },
+    "token_vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$708M"
+      },
+      "children": []
+    },
+    "token_vol_ratio_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap",
+        "value": "0.05"
+      },
+      "children": []
+    },
+    "token_score_text": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [CG trending+2, 24h>0+1, 7d>0+1, RS vs BTC/ETH+2] = 6/10",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "token_catalyst_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst_label",
+        "catalyst_content"
+      ]
+    },
+    "catalyst_label": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "catalyst_content": {
+      "type": "Text",
+      "props": {
+        "text": "Bitwise HYPE ETF (launched May 14) providing structural institutional demand floor — ETF-driven buy pressure supporting recovery from $67 FADE low on Jun 19; HIP-4 binary options live (launched Jun 18) expanding Hyperliquid's total addressable product surface",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "token_risk_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "token_risk_label",
+        "token_risk_content"
+      ]
+    },
+    "token_risk_label": {
+      "type": "Text",
+      "props": {
+        "text": "Risk:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "token_risk_content": {
+      "type": "Text",
+      "props": {
+        "text": "Still below $73 prior support (narrative FADE technically active); Jun 6 token unlock ($565M) partially absorbed but supply still circulating",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "token_previous_text": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: First time picked",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "market_separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "market_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_header_stack",
+        "market_odds_grid",
+        "market_fair_stack",
+        "market_thesis_stack",
+        "market_risk_stack"
+      ]
+    },
+    "market_header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market_heading",
+        "market_level_badge",
+        "market_edge_stat"
+      ]
+    },
+    "market_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will Brazil win the 2026 FIFA World Cup?",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "market_level_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "market_edge_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Edge",
+        "value": "~5pp"
+      },
+      "children": []
+    },
+    "market_odds_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "market_yes_stat",
+        "market_no_stat",
+        "market_vol_stat",
+        "market_resolve_stat"
+      ]
+    },
+    "market_yes_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current YES",
+        "value": "5.95¢"
+      },
+      "children": []
+    },
+    "market_no_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current NO",
+        "value": "94.05¢"
+      },
+      "children": []
+    },
+    "market_vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$2.44M"
+      },
+      "children": []
+    },
+    "market_resolve_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "2026-07-20"
+      },
+      "children": []
+    },
+    "market_fair_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_fair_label",
+        "market_fair_value",
+        "market_fair_inputs"
+      ]
+    },
+    "market_fair_label": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~11%",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "market_fair_value": {
+      "type": "Progress",
+      "props": {
+        "value": 11,
+        "max": 100,
+        "label": "Fair probability"
+      },
+      "children": []
+    },
+    "market_fair_inputs": {
+      "type": "Text",
+      "props": {
+        "text": "inputs: [Brazil 5× WC champion, ~11% base rate in 48-team field], [4 pts/2 games — advancing from Group C], [1-1 draw with Morocco manageable; Scotland remaining]",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "market_thesis_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis_label",
+        "thesis_content"
+      ]
+    },
+    "thesis_label": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "thesis_content": {
+      "type": "Text",
+      "props": {
+        "text": "Market prices Brazil at ~6% — below historical base rate for a 5× champion; 48-team bracket with weaker early-round field; on track to advance with final group game vs Scotland on Jun 24",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "market_risk_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_risk_label",
+        "market_risk_content"
+      ]
+    },
+    "market_risk_label": {
+      "type": "Text",
+      "props": {
+        "text": "Risk:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "market_risk_content": {
+      "type": "Text",
+      "props": {
+        "text": "1-1 draw with Morocco shows vulnerability; Brazil hasn't won since 2002; knockout bracket uncertainty",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "footer_separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_text",
+        "disclaimer_alert"
+      ]
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "disclaimer_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "not financial advice — pattern-matching only"
+      },
+      "children": []
+    }
+  }
+}
