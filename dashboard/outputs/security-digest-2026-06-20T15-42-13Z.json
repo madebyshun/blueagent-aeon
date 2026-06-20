@@ -1,0 +1,560 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-06-20"
+      },
+      "children": [
+        "text_verdict",
+        "alert_verdict",
+        "sep1",
+        "heading_patch_today",
+        "patch_today_stack",
+        "sep2",
+        "heading_patch_week",
+        "patch_week_stack",
+        "sep3",
+        "heading_monitor",
+        "monitor_stack"
+      ]
+    },
+    "text_verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 0 new KEV today, 3 PoC-confirmed, 5 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "alert_verdict": {
+      "type": "Alert",
+      "props": {
+        "type": "info"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_patch_today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "patch_today_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "vuln_1",
+        "vuln_2",
+        "vuln_3"
+      ]
+    },
+    "vuln_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vuln1_link",
+        "vuln1_meta",
+        "vuln1_desc",
+        "vuln1_action"
+      ]
+    },
+    "vuln1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-55255",
+        "href": "https://github.com/advisories/GHSA-qrpv-q767-xqq2",
+        "source": "langflow (pip)"
+      }
+    },
+    "vuln1_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.9 · EPSS —",
+        "variant": "caption"
+      }
+    },
+    "vuln1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "IDOR in /api/v1/responses — authenticated users read any workspace's AI flow outputs."
+      }
+    },
+    "vuln1_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade langflow to ≥1.9.1",
+        "variant": "muted"
+      }
+    },
+    "vuln_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vuln2_link",
+        "vuln2_meta",
+        "vuln2_desc",
+        "vuln2_action"
+      ]
+    },
+    "vuln2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-47103",
+        "href": "https://github.com/advisories/GHSA-v4jc-pm6r-3vj8",
+        "source": "python-statemachine (pip)"
+      }
+    },
+    "vuln2_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.8 · EPSS 0.008",
+        "variant": "caption"
+      }
+    },
+    "vuln2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "SCXML data-expr eval injection — arbitrary code executes on state machine load."
+      }
+    },
+    "vuln2_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade python-statemachine to ≥3.2.0",
+        "variant": "muted"
+      }
+    },
+    "vuln_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vuln3_link",
+        "vuln3_meta",
+        "vuln3_desc",
+        "vuln3_action"
+      ]
+    },
+    "vuln3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-55447",
+        "href": "https://github.com/advisories/GHSA-ccv6-r384-xp75",
+        "source": "langflow (pip)"
+      }
+    },
+    "vuln3_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.6 · EPSS —",
+        "variant": "caption"
+      }
+    },
+    "vuln3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "BaseFileComponent arbitrary file read to in-container RCE; PoC confirmed in advisory."
+      }
+    },
+    "vuln3_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade langflow to ≥1.9.2 (covers both Langflow issues above)",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_patch_week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch_week_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "vuln_4",
+        "vuln_5",
+        "vuln_6",
+        "vuln_7",
+        "vuln_8"
+      ]
+    },
+    "vuln_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vuln4_link",
+        "vuln4_meta",
+        "vuln4_desc",
+        "vuln4_action"
+      ]
+    },
+    "vuln4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-2jq4-q6vv-4cp3",
+        "href": "https://github.com/advisories/GHSA-2jq4-q6vv-4cp3",
+        "source": "crawl4ai (pip)"
+      }
+    },
+    "vuln4_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.6 · EPSS —",
+        "variant": "caption"
+      }
+    },
+    "vuln4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal in downloads dir to arbitrary file write to RCE."
+      }
+    },
+    "vuln4_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade crawl4ai to ≥0.9.0",
+        "variant": "muted"
+      }
+    },
+    "vuln_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vuln5_link",
+        "vuln5_meta",
+        "vuln5_desc",
+        "vuln5_action"
+      ]
+    },
+    "vuln5_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48814",
+        "href": "https://github.com/advisories/GHSA-r78r-rwrf-rjwp",
+        "source": "network-ai (npm)"
+      }
+    },
+    "vuln5_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.1 · EPSS 0.003",
+        "variant": "caption"
+      }
+    },
+    "vuln5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Incomplete CVE-2026-46701 fix — empty default secret still authorizes all requests."
+      }
+    },
+    "vuln5_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade network-ai to ≥5.7.2",
+        "variant": "muted"
+      }
+    },
+    "vuln_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vuln6_link",
+        "vuln6_meta",
+        "vuln6_desc",
+        "vuln6_action"
+      ]
+    },
+    "vuln6_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-wcpr-6g7x-p44r",
+        "href": "https://github.com/advisories/GHSA-wcpr-6g7x-p44r",
+        "source": "googleapis/mcp-toolbox (Go)"
+      }
+    },
+    "vuln6_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS — · EPSS 0.002",
+        "variant": "caption"
+      }
+    },
+    "vuln6_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass in opaque token validation path (two CVEs, same fix)."
+      }
+    },
+    "vuln6_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade mcp-toolbox to ≥1.4.0",
+        "variant": "muted"
+      }
+    },
+    "vuln_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vuln7_link",
+        "vuln7_meta",
+        "vuln7_desc",
+        "vuln7_action"
+      ]
+    },
+    "vuln7_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-x845-2f78-7v36",
+        "href": "https://github.com/advisories/GHSA-x845-2f78-7v36",
+        "source": "blocky (Go)"
+      }
+    },
+    "vuln7_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 8.6 · EPSS —",
+        "variant": "caption"
+      }
+    },
+    "vuln7_desc": {
+      "type": "Text",
+      "props": {
+        "text": "DNSSEC validation bypass + cache scope pollution — DNS spoofing risk."
+      }
+    },
+    "vuln7_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade blocky to ≥0.32.0",
+        "variant": "muted"
+      }
+    },
+    "vuln_8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vuln8_link",
+        "vuln8_meta",
+        "vuln8_desc",
+        "vuln8_action"
+      ]
+    },
+    "vuln8_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-hxpf-9xvq-wph8",
+        "href": "https://github.com/advisories/GHSA-hxpf-9xvq-wph8",
+        "source": "netlicensing-mcp (pip)"
+      }
+    },
+    "vuln8_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.6 · EPSS —",
+        "variant": "caption"
+      }
+    },
+    "vuln8_desc": {
+      "type": "Text",
+      "props": {
+        "text": "REST path traversal bypasses token redaction — internal tokens exposed."
+      }
+    },
+    "vuln8_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade netlicensing-mcp to ≥0.1.8",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "monitor_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "vuln_9",
+        "vuln_10",
+        "vuln_11"
+      ]
+    },
+    "vuln_9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vuln9_link",
+        "vuln9_meta",
+        "vuln9_desc",
+        "vuln9_action"
+      ]
+    },
+    "vuln9_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-wfqx-gjrf-g28r",
+        "href": "https://github.com/advisories/GHSA-wfqx-gjrf-g28r",
+        "source": "crossplane (Go)"
+      }
+    },
+    "vuln9_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.0 · EPSS —",
+        "variant": "caption"
+      }
+    },
+    "vuln9_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Signature verification TOCTOU via mutable tags; v1 branch has no patch yet."
+      }
+    },
+    "vuln9_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ v2 users upgrade to ≥2.3.3; v1 users pin immutable digest refs",
+        "variant": "muted"
+      }
+    },
+    "vuln_10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vuln10_link",
+        "vuln10_meta",
+        "vuln10_desc",
+        "vuln10_action"
+      ]
+    },
+    "vuln10_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-44727",
+        "href": "https://github.com/advisories/GHSA-fcw5-x6j4-ccmp",
+        "source": "jupyter-server (pip)"
+      }
+    },
+    "vuln10_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS unscored · EPSS —",
+        "variant": "caption"
+      }
+    },
+    "vuln10_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Stored XSS in NbconvertFileHandler/PostHandler."
+      }
+    },
+    "vuln10_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade jupyter-server to ≥2.20.0",
+        "variant": "muted"
+      }
+    },
+    "vuln_11": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vuln11_link",
+        "vuln11_meta",
+        "vuln11_desc",
+        "vuln11_action"
+      ]
+    },
+    "vuln11_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-rpj2-4hq8-938g",
+        "href": "https://github.com/advisories/GHSA-rpj2-4hq8-938g",
+        "source": "vcrpy (pip)"
+      }
+    },
+    "vuln11_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 7.8 · EPSS —",
+        "variant": "caption"
+      }
+    },
+    "vuln11_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unsafe YAML deserialization of cassette files to RCE in test environments."
+      }
+    },
+    "vuln11_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade vcrpy to ≥8.2.1",
+        "variant": "muted"
+      }
+    }
+  }
+}

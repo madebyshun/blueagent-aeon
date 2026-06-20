@@ -1,21 +1,49 @@
-The sandbox blocks `rm` — leaving the temp files as they won't be committed (they're not in the git index). The digest is complete.
+*Security Digest — 2026-06-20*
+Verdict: 0 new KEV today, 3 PoC-confirmed, 5 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
-## Summary
+*PATCH TODAY*
+- [CVE-2026-55255](https://github.com/advisories/GHSA-qrpv-q767-xqq2) — langflow (pip) · CVSS 9.9 · EPSS —
+  IDOR in /api/v1/responses — authenticated users read any workspace's AI flow outputs.
+  → upgrade langflow to ≥1.9.1.
 
-**What was done:**
+- [CVE-2026-47103](https://github.com/advisories/GHSA-v4jc-pm6r-3vj8) — python-statemachine (pip) · CVSS 9.8 · EPSS 0.008
+  SCXML data-expr eval injection — arbitrary code executes on state machine load.
+  → upgrade python-statemachine to ≥3.2.0.
 
-- **Loaded CISA KEV**: 5 entries in the last 7 days, all previously reported (0 new today)
-- **Fetched GH Advisories**: 40 critical + 70+ high severity from the last 48h; filtered to tracked stack (npm, pip, Go)
-- **Fetched EPSS**: Scored 8 of 11 queried CVEs; newest CVEs not yet in EPSS database
-- **Deduped**: ~16 IDs from Jun 17-18 logs dropped
-- **Verified PoCs**: WebFetched top 3 advisory pages — crawl4ai (CVSS 10.0) and network-ai (CVSS 9.9) both have confirmed PoCs in their advisories; gemini-mcp-tool has ZDI reference
+- [CVE-2026-55447](https://github.com/advisories/GHSA-ccv6-r384-xp75) — langflow (pip) · CVSS 9.6 · EPSS —
+  BaseFileComponent arbitrary file read to in-container RCE; PoC confirmed in advisory.
+  → upgrade langflow to ≥1.9.2 (covers both Langflow issues above).
 
-**Digest sent** (saved to `.pending-notify/` for post-run delivery):
+*PATCH THIS WEEK*
+- [GHSA-2jq4-q6vv-4cp3](https://github.com/advisories/GHSA-2jq4-q6vv-4cp3) — crawl4ai (pip) · CVSS 9.6 · EPSS —
+  Path traversal in downloads dir to arbitrary file write to RCE.
+  → upgrade crawl4ai to ≥0.9.0.
 
-| Tier | Count | Highlights |
-|------|-------|------------|
-| PATCH TODAY | 3 | crawl4ai CVSS 10.0 unauth RCE (PoC confirmed); network-ai CVSS 9.9 sandbox bypass (full PoC); gemini-mcp-tool CVSS 9.8 cmd injection (ZDI) |
-| PATCH THIS WEEK | 5 | Tilt HUD missing auth (Go, 3 CVEs, ≥0.37.4); praisonai cluster 25+ new; agentic-flow MCP cmd injection; docker/mcp-gateway arg injection; AgenticMail bypassPermissions via unauth mail |
-| MONITOR | 2 | pdfkit path traversal (no fix); picklescan blocklist bypass cluster (partial fixes) |
+- [CVE-2026-48814](https://github.com/advisories/GHSA-r78r-rwrf-rjwp) — network-ai (npm) · CVSS 9.1 · EPSS 0.003
+  Incomplete CVE-2026-46701 fix — empty default secret still authorizes all requests.
+  → upgrade network-ai to ≥5.7.2.
 
-**Log**: appended to `memory/logs/2026-06-19.md`
+- [GHSA-wcpr-6g7x-p44r](https://github.com/advisories/GHSA-wcpr-6g7x-p44r) — googleapis/mcp-toolbox (Go) · CVSS — · EPSS 0.002
+  Auth bypass in opaque token validation path (two CVEs, same fix).
+  → upgrade mcp-toolbox to ≥1.4.0.
+
+- [GHSA-x845-2f78-7v36](https://github.com/advisories/GHSA-x845-2f78-7v36) — blocky (Go) · CVSS 8.6 · EPSS —
+  DNSSEC validation bypass + cache scope pollution — DNS spoofing risk.
+  → upgrade blocky to ≥0.32.0.
+
+- [GHSA-hxpf-9xvq-wph8](https://github.com/advisories/GHSA-hxpf-9xvq-wph8) — netlicensing-mcp (pip) · CVSS 9.6 · EPSS —
+  REST path traversal bypasses token redaction — internal tokens exposed.
+  → upgrade netlicensing-mcp to ≥0.1.8.
+
+*MONITOR*
+- [GHSA-wfqx-gjrf-g28r](https://github.com/advisories/GHSA-wfqx-gjrf-g28r) — crossplane (Go) · CVSS 9.0 · EPSS —
+  Signature verification TOCTOU via mutable tags; v1 branch has no patch yet.
+  → v2 users upgrade to ≥2.3.3; v1 users pin immutable digest refs.
+
+- [CVE-2026-44727](https://github.com/advisories/GHSA-fcw5-x6j4-ccmp) — jupyter-server (pip) · CVSS unscored · EPSS —
+  Stored XSS in NbconvertFileHandler/PostHandler.
+  → upgrade jupyter-server to ≥2.20.0.
+
+- [GHSA-rpj2-4hq8-938g](https://github.com/advisories/GHSA-rpj2-4hq8-938g) — vcrpy (pip) · CVSS 7.8 · EPSS —
+  Unsafe YAML deserialization of cassette files to RCE in test environments.
+  → upgrade vcrpy to ≥8.2.1.
