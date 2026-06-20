@@ -1,0 +1,1239 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-06-20"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "transitions_stack",
+        "sep_1",
+        "heading_reflexivity",
+        "reflexivity_stack",
+        "sep_2",
+        "heading_positions",
+        "positions_stack",
+        "sep_3",
+        "heading_map",
+        "map_stack",
+        "sep_4",
+        "heading_macro",
+        "macro_stack"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transitions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans_1",
+        "trans_2",
+        "trans_3",
+        "trans_4"
+      ]
+    },
+    "trans_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_1_header",
+        "trans_1_text"
+      ]
+    },
+    "trans_1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted",
+        "trans_1_title"
+      ]
+    },
+    "badge_promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "trans_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "Base Ecosystem — AERO +9.0% today reverses 3-day decline. JPM Coin launched on Base (institutional anchor). Polymarket 69% for Base native token by Dec 31. Fading → WATCH (improving).",
+        "variant": "body"
+      }
+    },
+    "trans_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "Status: recovering",
+        "variant": "caption"
+      }
+    },
+    "trans_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_2_header",
+        "trans_2_text"
+      ]
+    },
+    "trans_2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_strengthened",
+        "trans_2_title"
+      ]
+    },
+    "badge_strengthened": {
+      "type": "Badge",
+      "props": {
+        "text": "STRENGTHENED",
+        "variant": "secondary"
+      }
+    },
+    "trans_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets — Kalshi $100B lifetime notional + first-ever back-to-back billion-dollar trading days (Sat/Sun). Industry OI $1.3B; 58%/28% Kalshi/Polymarket split. \"InfoFi Goes Mainstream\" confirmed. RIDE conviction raised.",
+        "variant": "body"
+      }
+    },
+    "trans_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "Impact: Conviction increased",
+        "variant": "caption"
+      }
+    },
+    "trans_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_3_header",
+        "trans_3_text"
+      ]
+    },
+    "trans_3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new",
+        "trans_3_title"
+      ]
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "trans_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "Restaking/EigenLayer — EIGEN +15.8%/24h, +38.4%/7d. Not in prior logs. Restaking listed as top 2026 infra narrative across multiple sources. Mindshare 2 ↑↑. FRONT-RUN candidate.",
+        "variant": "body"
+      }
+    },
+    "trans_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "Status: Front-run opportunity detected",
+        "variant": "caption"
+      }
+    },
+    "trans_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_4_header",
+        "trans_4_text"
+      ]
+    },
+    "trans_4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_deadcat",
+        "trans_4_title"
+      ]
+    },
+    "badge_deadcat": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD-CAT",
+        "variant": "destructive"
+      }
+    },
+    "trans_4_title": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid/Perp DEXs — HYPE +3.7% today stays below $73. FADE active.",
+        "variant": "body"
+      }
+    },
+    "trans_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "Status: Fading",
+        "variant": "caption"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_1",
+        "alert_2"
+      ]
+    },
+    "alert_1": {
+      "type": "Alert",
+      "props": {
+        "title": "Prediction Markets — Active Feedback Loop",
+        "message": "Kalshi $100B milestone → mainstream media cycle → retail onboarding → OI → more media. Consecutive billion-dollar days = loop active, not theoretical.",
+        "type": "warning"
+      }
+    },
+    "alert_2": {
+      "type": "Alert",
+      "props": {
+        "title": "Base Token — Self-Reinforcing Cycle",
+        "message": "Polymarket 69% odds → builders anticipating governance token → more TVL → higher odds. JPM Coin as institutional anchor.",
+        "type": "warning"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_1",
+        "pos_2",
+        "pos_3",
+        "pos_4",
+        "pos_5",
+        "pos_6",
+        "pos_7",
+        "pos_8",
+        "pos_9",
+        "pos_10"
+      ]
+    },
+    "pos_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_1_header",
+        "pos_1_detail"
+      ]
+    },
+    "pos_1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_frontrun",
+        "pos_1_title"
+      ]
+    },
+    "badge_frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "secondary"
+      }
+    },
+    "pos_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "Restaking/EigenLayer",
+        "variant": "lead"
+      }
+    },
+    "pos_1_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_1_conviction",
+        "pos_1_sentiment",
+        "pos_1_note"
+      ]
+    },
+    "pos_1_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction: 2 ↑↑",
+        "variant": "caption"
+      }
+    },
+    "pos_1_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos_1_note": {
+      "type": "Text",
+      "props": {
+        "text": "EIGEN breakout; structural EigenLayer TVL — no discrete catalyst confirmed yet (watch for follow-through)",
+        "variant": "caption"
+      }
+    },
+    "pos_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_2_header",
+        "pos_2_detail"
+      ]
+    },
+    "pos_2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride",
+        "pos_2_title"
+      ]
+    },
+    "badge_ride": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "pos_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "lead"
+      }
+    },
+    "pos_2_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_2_meta",
+        "pos_2_note"
+      ]
+    },
+    "pos_2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_2_conviction",
+        "pos_2_sentiment",
+        "pos_2_exit"
+      ]
+    },
+    "pos_2_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction: 5 ↑↑",
+        "variant": "caption"
+      }
+    },
+    "pos_2_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos_2_exit": {
+      "type": "Badge",
+      "props": {
+        "text": "Exit Jul 19",
+        "variant": "outline"
+      }
+    },
+    "pos_2_note": {
+      "type": "Text",
+      "props": {
+        "text": "Kalshi $100B+, FIFA $2B+",
+        "variant": "caption"
+      }
+    },
+    "pos_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_3_header",
+        "pos_3_detail"
+      ]
+    },
+    "pos_3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride",
+        "pos_3_title"
+      ]
+    },
+    "pos_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments",
+        "variant": "lead"
+      }
+    },
+    "pos_3_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_3_meta",
+        "pos_3_note"
+      ]
+    },
+    "pos_3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_3_conviction",
+        "pos_3_sentiment",
+        "pos_3_catalyst"
+      ]
+    },
+    "pos_3_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction: 5 ↑",
+        "variant": "caption"
+      }
+    },
+    "pos_3_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos_3_catalyst": {
+      "type": "Badge",
+      "props": {
+        "text": "EU AI Act Aug 2",
+        "variant": "outline"
+      }
+    },
+    "pos_3_note": {
+      "type": "Text",
+      "props": {
+        "text": "x402 480K agents/265% txn growth",
+        "variant": "caption"
+      }
+    },
+    "pos_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_4_header",
+        "pos_4_detail"
+      ]
+    },
+    "pos_4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride",
+        "pos_4_title"
+      ]
+    },
+    "pos_4_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Crypto Infrastructure",
+        "variant": "lead"
+      }
+    },
+    "pos_4_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_4_meta",
+        "pos_4_note"
+      ]
+    },
+    "pos_4_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_4_conviction",
+        "pos_4_sentiment"
+      ]
+    },
+    "pos_4_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction: 5 →",
+        "variant": "caption"
+      }
+    },
+    "pos_4_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos_4_note": {
+      "type": "Text",
+      "props": {
+        "text": "TAO trending; utility beats speculative DePIN",
+        "variant": "caption"
+      }
+    },
+    "pos_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_5_header",
+        "pos_5_detail"
+      ]
+    },
+    "pos_5_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade",
+        "pos_5_title"
+      ]
+    },
+    "badge_fade": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "pos_5_title": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid/Perp DEXs",
+        "variant": "lead"
+      }
+    },
+    "pos_5_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_5_meta",
+        "pos_5_note"
+      ]
+    },
+    "pos_5_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_5_conviction",
+        "pos_5_sentiment"
+      ]
+    },
+    "pos_5_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction: 4 ↓",
+        "variant": "caption"
+      }
+    },
+    "pos_5_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear",
+        "variant": "destructive"
+      }
+    },
+    "pos_5_note": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE dead-cat; $73 not recovered",
+        "variant": "caption"
+      }
+    },
+    "pos_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_6_header",
+        "pos_6_detail"
+      ]
+    },
+    "pos_6_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade",
+        "pos_6_title"
+      ]
+    },
+    "pos_6_title": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoin Launchpads",
+        "variant": "lead"
+      }
+    },
+    "pos_6_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_6_conviction",
+        "pos_6_sentiment"
+      ]
+    },
+    "pos_6_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction: 1 ↓↓",
+        "variant": "caption"
+      }
+    },
+    "pos_6_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Cope",
+        "variant": "outline"
+      }
+    },
+    "pos_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_7_header",
+        "pos_7_detail"
+      ]
+    },
+    "pos_7_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch",
+        "pos_7_title"
+      ]
+    },
+    "badge_watch": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos_7_title": {
+      "type": "Text",
+      "props": {
+        "text": "Base Ecosystem",
+        "variant": "lead"
+      }
+    },
+    "pos_7_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_7_meta",
+        "pos_7_note"
+      ]
+    },
+    "pos_7_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_7_conviction",
+        "pos_7_sentiment"
+      ]
+    },
+    "pos_7_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction: 4 ↑↑",
+        "variant": "caption"
+      }
+    },
+    "pos_7_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos_7_note": {
+      "type": "Text",
+      "props": {
+        "text": "AERO reversal + JPM Coin + token speculation; needs confirmation",
+        "variant": "caption"
+      }
+    },
+    "pos_8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_8_header",
+        "pos_8_detail"
+      ]
+    },
+    "pos_8_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch",
+        "pos_8_title"
+      ]
+    },
+    "pos_8_title": {
+      "type": "Text",
+      "props": {
+        "text": "Attention Markets/InfoFi",
+        "variant": "lead"
+      }
+    },
+    "pos_8_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_8_meta",
+        "pos_8_note"
+      ]
+    },
+    "pos_8_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_8_conviction",
+        "pos_8_sentiment"
+      ]
+    },
+    "pos_8_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction: 3 ↑",
+        "variant": "caption"
+      }
+    },
+    "pos_8_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos_8_note": {
+      "type": "Text",
+      "props": {
+        "text": "Polygon x Kaito Leaderboard live; KAITO stabilizing",
+        "variant": "caption"
+      }
+    },
+    "pos_9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_9_header",
+        "pos_9_detail"
+      ]
+    },
+    "pos_9_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch",
+        "pos_9_title"
+      ]
+    },
+    "pos_9_title": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins",
+        "variant": "lead"
+      }
+    },
+    "pos_9_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_9_meta",
+        "pos_9_note"
+      ]
+    },
+    "pos_9_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_9_conviction",
+        "pos_9_sentiment"
+      ]
+    },
+    "pos_9_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction: 4 →",
+        "variant": "caption"
+      }
+    },
+    "pos_9_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos_9_note": {
+      "type": "Text",
+      "props": {
+        "text": "reload before House vote ~Jul 17",
+        "variant": "caption"
+      }
+    },
+    "pos_10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_10_header",
+        "pos_10_detail"
+      ]
+    },
+    "pos_10_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch",
+        "pos_10_title"
+      ]
+    },
+    "pos_10_title": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization",
+        "variant": "lead"
+      }
+    },
+    "pos_10_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_10_meta",
+        "pos_10_note"
+      ]
+    },
+    "pos_10_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_10_conviction",
+        "pos_10_sentiment"
+      ]
+    },
+    "pos_10_conviction": {
+      "type": "Text",
+      "props": {
+        "text": "Conviction: 5 →",
+        "variant": "caption"
+      }
+    },
+    "pos_10_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos_10_note": {
+      "type": "Text",
+      "props": {
+        "text": "no re-rating catalyst",
+        "variant": "caption"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading",
+        "map_dead"
+      ]
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerging_label",
+        "map_emerging_text"
+      ]
+    },
+    "map_emerging_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      }
+    },
+    "map_emerging_text": {
+      "type": "Text",
+      "props": {
+        "text": "Restaking/EigenLayer, AI Agent Security",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_label",
+        "map_rising_text"
+      ]
+    },
+    "map_rising_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      }
+    },
+    "map_rising_text": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets, Attention Markets/InfoFi",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_label",
+        "map_peak_text"
+      ]
+    },
+    "map_peak_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      }
+    },
+    "map_peak_text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Crypto Infrastructure, AI Agent Payments, RWA Tokenization",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_label",
+        "map_fading_text"
+      ]
+    },
+    "map_fading_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      }
+    },
+    "map_fading_text": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins, Base Ecosystem (recovering), UNI, Hyperliquid, Memecoins, Privacy/ZK",
+        "variant": "body"
+      }
+    },
+    "map_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_dead_label",
+        "map_dead_text"
+      ]
+    },
+    "map_dead_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Dead",
+        "level": "h3"
+      }
+    },
+    "map_dead_text": {
+      "type": "Text",
+      "props": {
+        "text": "Macro Risk-On (US-Iran)",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_macro": {
+      "type": "Heading",
+      "props": {
+        "text": "MACRO",
+        "level": "h2"
+      }
+    },
+    "macro_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_top50",
+        "text_macro"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63.7K",
+        "delta": "+1%",
+        "trend": "up"
+      }
+    },
+    "stat_top50": {
+      "type": "Stat",
+      "props": {
+        "label": "Median Top-50",
+        "value": "+0.8%",
+        "trend": "up"
+      }
+    },
+    "text_macro": {
+      "type": "Text",
+      "props": {
+        "text": "Large-caps green; mid-caps diverged. Risk-off softening, not reversed.",
+        "variant": "body"
+      }
+    }
+  }
+}

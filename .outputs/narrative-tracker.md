@@ -1,26 +1,32 @@
-*Narrative Tracker — 2026-06-19*
+*Narrative Tracker — 2026-06-20*
 
 TRANSITIONS
-• FADE TRIGGERED: Hyperliquid/Perp DEXs — $73 broken, HYPE ~$67 (−6.7% today). Jun 18 FADE trigger activated. Exit window live.
-• DEAD: Macro Risk-On (US-Iran) — deal signed Jun 18-19 (VP Vance confirmed), crypto non-response: 85% red, median −2%, BTC ~$65K. Binary resolved without lift. Narrative dead.
-• STRENGTHENED: AI Agent Payments — x402 crosses 480K active agents, 165M cumulative txns, 265% weekly txn growth since March. First hard on-chain volume metric.
-• STABILIZING: Attention Markets/InfoFi — KAITO +4.8% Jun 19 reverses 3-day decline. Algorithm backlash headwind (BeInCrypto). WATCH not RIDE.
+• PROMOTED (recovering): Base Ecosystem — AERO +9.0% today reverses 3-day decline. JPM Coin launched on Base (institutional anchor). Polymarket 69% for Base native token by Dec 31. Fading → WATCH (improving).
+• STRENGTHENED: Prediction Markets — Kalshi $100B lifetime notional + first-ever back-to-back billion-dollar trading days (Sat/Sun). Industry OI $1.3B; 58%/28% Kalshi/Polymarket split. "InfoFi Goes Mainstream" confirmed. RIDE conviction raised.
+• NEW: Restaking/EigenLayer — EIGEN +15.8%/24h, +38.4%/7d. Not in prior logs. Restaking listed as top 2026 infra narrative across multiple sources. Mindshare 2 ↑↑. FRONT-RUN candidate.
+• DEAD-CAT: Hyperliquid/Perp DEXs — HYPE +3.7% today stays below $73. FADE active.
 
 REFLEXIVITY ALERT
-• Hyperliquid unwind CONFIRMED: ATH Jun 16 → media cycle → distribution Jun 17–19. $73 break executes the reflexive unwind telegraphed Jun 17. No bounce signal.
-• FIFA/Prediction Markets (ongoing): Hard event-cliff Jul 19. Volume growth intact.
+• Prediction Markets — Kalshi $100B milestone → mainstream media cycle → retail onboarding → OI → more media. Consecutive billion-dollar days = loop active, not theoretical.
+• Base Token — Polymarket 69% odds → builders anticipating governance token → more TVL → higher odds. JPM Coin as institutional anchor.
 
 POSITIONS
-• RIDE: AI Agent Payments (5 ↑, Bull) — x402 protocol, Mastercard Agent Pay (30+ partners), Virtuals Protocol — EU AI Act Aug 2 risk
-• RIDE: AI Crypto Infrastructure (5 →, Bull) — TAO, io.net GPU burns live Jun 11, RENDER — internal rot watch (AKT/GRASS)
-• RIDE: Prediction Markets (4 ↑, Bull) — @Polymarket, @Kalshi, FIFA WC $2B+ — exit Jul 19
-• FADE: Hyperliquid/Perp DEXs (4 ↓↓, Bear) — $73 broken, HYPE ~$67, trigger live
-• FADE: Memecoin Launchpads (1 ↓↓, Cope) — SIREN +148.3% cope flare; no structural recovery
-• WATCH: RWA Tokenization (5 →), Base Ecosystem (4 ↓), Stablecoins (4 →, reload ~Jul 17), InfoFi/KAITO (3 → stabilizing), Institutional DeFi/UNI (3 ↓)
+• FRONT-RUN: Restaking/EigenLayer (2 ↑↑, Bull) — EIGEN breakout; structural EigenLayer TVL — no discrete catalyst confirmed yet (watch for follow-through)
+• RIDE: Prediction Markets (5 ↑↑, Bull) — Kalshi $100B+, FIFA $2B+ — exit Jul 19
+• RIDE: AI Agent Payments (5 ↑, Bull) — x402 480K agents/265% txn growth — EU AI Act Aug 2
+• RIDE: AI Crypto Infrastructure (5 →, Bull) — TAO trending; utility beats speculative DePIN
+• FADE: Hyperliquid/Perp DEXs (4 ↓, Bear) — HYPE dead-cat; $73 not recovered
+• FADE: Memecoin Launchpads (1 ↓↓, Cope)
+• WATCH: Base Ecosystem (4 ↑↑, Mixed) — AERO reversal + JPM Coin + token speculation; needs confirmation
+• WATCH: Attention Markets/InfoFi (3 ↑, Mixed) — Polygon x Kaito Leaderboard live; KAITO stabilizing
+• WATCH: Stablecoins (4 →, Mixed) — reload before House vote ~Jul 17
+• WATCH: RWA Tokenization (5 →, Mixed) — no re-rating catalyst
 
 MAP
-Emerging: AI Agent Security
-Rising: Prediction Markets
-Peak: AI Agent Payments, AI Crypto Infrastructure, RWA Tokenization
-Fading: Hyperliquid, Base Ecosystem, Stablecoins, Institutional DeFi/UNI
+Emerging: Restaking/EigenLayer, AI Agent Security
+Rising: Prediction Markets, Attention Markets/InfoFi
+Peak: AI Crypto Infrastructure, AI Agent Payments, RWA Tokenization
+Fading: Stablecoins, Base Ecosystem (recovering), UNI, Hyperliquid, Memecoins, Privacy/ZK
 Dead: Macro Risk-On (US-Iran)
+
+Macro: BTC $63.7K +1% (mild recovery). Median top-50 +0.8%. Large-caps green; mid-caps diverged. Risk-off softening, not reversed.
