@@ -1,0 +1,628 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-06-21"
+      },
+      "children": [
+        "verdict",
+        "sep1",
+        "patch_title",
+        "patch_vulns",
+        "sep2",
+        "monitor_title",
+        "monitor_vulns"
+      ]
+    },
+    "verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: nothing urgent today. 5 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch_title": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch_vulns": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "vuln1",
+        "vuln2",
+        "vuln3",
+        "vuln4",
+        "vuln5"
+      ]
+    },
+    "vuln1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v1_header",
+        "v1_meta",
+        "v1_desc",
+        "v1_action"
+      ]
+    },
+    "v1_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54527 / GHSA-f962-v9hr-pfg5",
+        "href": "https://github.com/advisories/GHSA-f962-v9hr-pfg5",
+        "source": "GitHub Advisory"
+      }
+    },
+    "v1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "v1_pkg",
+        "v1_cvss",
+        "v1_epss",
+        "v1_poc"
+      ]
+    },
+    "v1_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "jupyterlab-git (pip/npm)"
+      }
+    },
+    "v1_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.6",
+        "variant": "secondary"
+      }
+    },
+    "v1_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS N/A",
+        "variant": "secondary"
+      }
+    },
+    "v1_poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "destructive"
+      }
+    },
+    "v1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Stored XSS via unsanitized Git filenames in diff viewer → RCE (terminal access). Both server and browser extension affected."
+      }
+    },
+    "v1_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade jupyterlab-git / @jupyterlab/git to ≥0.54.0."
+      }
+    },
+    "vuln2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v2_header",
+        "v2_meta",
+        "v2_desc",
+        "v2_action"
+      ]
+    },
+    "v2_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-x975-rgx4-5fh4",
+        "href": "https://github.com/advisories/GHSA-x975-rgx4-5fh4",
+        "source": "GitHub Advisory"
+      }
+    },
+    "v2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "v2_pkg",
+        "v2_cvss",
+        "v2_epss"
+      ]
+    },
+    "v2_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "appium-mcp (npm)"
+      }
+    },
+    "v2_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.2",
+        "variant": "secondary"
+      }
+    },
+    "v2_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS N/A",
+        "variant": "secondary"
+      }
+    },
+    "v2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "XSS in MCP-UI resource createLocatorGeneratorUI via unescaped locator data."
+      }
+    },
+    "v2_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade appium-mcp to ≥1.85.10."
+      }
+    },
+    "vuln3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v3_header",
+        "v3_meta",
+        "v3_desc",
+        "v3_action"
+      ]
+    },
+    "v3_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-c795-2g9c-j48m",
+        "href": "https://github.com/advisories/GHSA-c795-2g9c-j48m",
+        "source": "GitHub Advisory"
+      }
+    },
+    "v3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "v3_pkg",
+        "v3_cvss",
+        "v3_epss"
+      ]
+    },
+    "v3_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "everos (pip)"
+      }
+    },
+    "v3_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.2",
+        "variant": "secondary"
+      }
+    },
+    "v3_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS N/A",
+        "variant": "secondary"
+      }
+    },
+    "v3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal in /api/v1/memory/add via unvalidated sender_id field."
+      }
+    },
+    "v3_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade everos to ≥1.0.1."
+      }
+    },
+    "vuln4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v4_header",
+        "v4_meta",
+        "v4_desc",
+        "v4_action"
+      ]
+    },
+    "v4_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54074 / GHSA-4936-9hrh-qqpw",
+        "href": "https://github.com/advisories/GHSA-4936-9hrh-qqpw",
+        "source": "GitHub Advisory"
+      }
+    },
+    "v4_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "v4_pkg",
+        "v4_cvss",
+        "v4_epss"
+      ]
+    },
+    "v4_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "@tinacms/cli (npm)"
+      }
+    },
+    "v4_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.8",
+        "variant": "secondary"
+      }
+    },
+    "v4_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS N/A",
+        "variant": "secondary"
+      }
+    },
+    "v4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "RCE via unsanitized __TINA_INTERNAL__ marker in user-controlled YAML labels during Forestry migration."
+      }
+    },
+    "v4_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade @tinacms/cli to ≥2.4.3."
+      }
+    },
+    "vuln5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v5_header",
+        "v5_meta",
+        "v5_desc",
+        "v5_action"
+      ]
+    },
+    "v5_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-c3xh-98xp-6qhf",
+        "href": "https://github.com/advisories/GHSA-c3xh-98xp-6qhf",
+        "source": "GitHub Advisory"
+      }
+    },
+    "v5_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "v5_pkg",
+        "v5_cvss",
+        "v5_epss",
+        "v5_poc"
+      ]
+    },
+    "v5_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "gouef/githubtoplanguages (GitHub Actions)"
+      }
+    },
+    "v5_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.1",
+        "variant": "secondary"
+      }
+    },
+    "v5_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS N/A",
+        "variant": "secondary"
+      }
+    },
+    "v5_poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "destructive"
+      }
+    },
+    "v5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Command injection via issue title in CI workflow. Any issue opener can exec on runner and access workflow secrets."
+      }
+    },
+    "v5_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ pin action to ≥1.1.4."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "monitor_title": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "monitor_vulns": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mon1",
+        "mon2",
+        "mon3"
+      ]
+    },
+    "mon1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m1_header",
+        "m1_meta",
+        "m1_desc",
+        "m1_action"
+      ]
+    },
+    "m1_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-f4xh-w4cj-qxq8",
+        "href": "https://github.com/advisories/GHSA-f4xh-w4cj-qxq8",
+        "source": "GitHub Advisory"
+      }
+    },
+    "m1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "m1_pkg",
+        "m1_cvss",
+        "m1_epss",
+        "m1_fix"
+      ]
+    },
+    "m1_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "langsmith (pip)"
+      }
+    },
+    "m1_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.7",
+        "variant": "secondary"
+      }
+    },
+    "m1_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS N/A",
+        "variant": "secondary"
+      }
+    },
+    "m1_fix": {
+      "type": "Badge",
+      "props": {
+        "text": "fix: ≥0.8.18",
+        "variant": "outline"
+      }
+    },
+    "m1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Arbitrary server-side file read via TracingMiddleware."
+      }
+    },
+    "m1_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade langsmith to ≥0.8.18."
+      }
+    },
+    "mon2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m2_header",
+        "m2_meta",
+        "m2_desc",
+        "m2_action"
+      ]
+    },
+    "m2_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-6v7p-g79w-8964",
+        "href": "https://github.com/advisories/GHSA-6v7p-g79w-8964",
+        "source": "GitHub Advisory"
+      }
+    },
+    "m2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "m2_pkg",
+        "m2_cvss",
+        "m2_epss",
+        "m2_fix"
+      ]
+    },
+    "m2_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "msgpack (pip)"
+      }
+    },
+    "m2_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "secondary"
+      }
+    },
+    "m2_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS N/A",
+        "variant": "secondary"
+      }
+    },
+    "m2_fix": {
+      "type": "Badge",
+      "props": {
+        "text": "fix: ≥1.2.1",
+        "variant": "outline"
+      }
+    },
+    "m2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "OOB read/crash on Unpacker reuse after caught error."
+      }
+    },
+    "m2_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade msgpack to ≥1.2.1."
+      }
+    },
+    "mon3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "m3_header",
+        "m3_meta",
+        "m3_desc",
+        "m3_action"
+      ]
+    },
+    "m3_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-6gqw-jqv7-v88m +2",
+        "href": "https://github.com/advisories/GHSA-6gqw-jqv7-v88m",
+        "source": "GitHub Advisory"
+      }
+    },
+    "m3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "m3_pkg",
+        "m3_issue",
+        "m3_fix"
+      ]
+    },
+    "m3_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "stigmem-node (pip)"
+      }
+    },
+    "m3_issue": {
+      "type": "Badge",
+      "props": {
+        "text": "3× cross-tenant BOLA",
+        "variant": "secondary"
+      }
+    },
+    "m3_fix": {
+      "type": "Badge",
+      "props": {
+        "text": "fix: ≥0.9.0a12",
+        "variant": "outline"
+      }
+    },
+    "m3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Decay sweep, quarantine review, and RTBF tombstones all cross tenant boundaries."
+      }
+    },
+    "m3_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade stigmem-node to ≥0.9.0a12."
+      }
+    }
+  }
+}
