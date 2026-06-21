@@ -12,12 +12,12 @@
   },
   "token-pick": {
     "last_status": "success",
-    "last_success": "2026-06-20T13:35:57Z",
-    "total_runs": 27,
-    "total_successes": 20,
+    "last_success": "2026-06-21T14:03:36Z",
+    "total_runs": 28,
+    "total_successes": 21,
     "total_failures": 7,
     "consecutive_failures": 0,
-    "success_rate": 0.74,
+    "success_rate": 0.75,
     "last_failed": "2026-06-15T17:03:01Z",
     "last_error": "'question','')\\n    vol24 = m.get('volume24hr', 0) or 0\\n    vol = m.get('volume', 0) or 0\\n    end = m.get('endDate','')\\n    prices = m.get('outcomePrices', [])\\n    liq = m.get('liquidity', 0) or 0"
   },
