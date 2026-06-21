@@ -1,0 +1,591 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker",
+        "description": "2026-06-21"
+      },
+      "children": [
+        "heading_main",
+        "sep1",
+        "section_transitions",
+        "sep2",
+        "section_reflexivity",
+        "sep3",
+        "section_positions",
+        "sep4",
+        "section_map"
+      ]
+    },
+    "heading_main": {
+      "type": "Heading",
+      "props": {
+        "text": "Narrative Tracker — 2026-06-21",
+        "level": "h1"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_transitions",
+        "trans_eigen",
+        "trans_base"
+      ]
+    },
+    "h_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans_eigen": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted_eigen",
+        "text_eigen_title",
+        "text_eigen_details"
+      ]
+    },
+    "badge_promoted_eigen": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_eigen_title": {
+      "type": "Text",
+      "props": {
+        "text": "EigenCloud — Emerging → Rising",
+        "variant": "lead"
+      }
+    },
+    "text_eigen_details": {
+      "type": "Text",
+      "props": {
+        "text": "Delphi Digital report + Bankless podcast (Sreeram Kannan) = institutional mindshare unlocked. EIGEN +7.8% Day 2 post-rebrand (+25% composite 2 days). EigenDA+EigenVerify+EigenCompute vs AWS framing getting traction. Mindshare 2→3, velocity ↑↑.",
+        "variant": "body"
+      }
+    },
+    "trans_base": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted_base",
+        "text_base_title",
+        "text_base_details"
+      ]
+    },
+    "badge_promoted_base": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_base_title": {
+      "type": "Text",
+      "props": {
+        "text": "Base Ecosystem — WATCH → Rising",
+        "variant": "lead"
+      }
+    },
+    "text_base_details": {
+      "type": "Text",
+      "props": {
+        "text": "Aerodrome+Velodrome merging into Aero Jul 2026 (Predictive Allocation: 80% efficiency gains, AI agent liquidity routing, MEV-resistant pools) per The Block. AERO +12.4% Jun 21 = Day 3 consecutive green post-Fading. Position: RIDE.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_reflexivity",
+        "alert_eigen_loop",
+        "alert_base_loop"
+      ]
+    },
+    "h_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert_eigen_loop": {
+      "type": "Alert",
+      "props": {
+        "title": "EigenCloud — Narrative Loop",
+        "message": "Rebrand Jun 17 (AI infra pivot) → Delphi Digital + Bankless coverage → CoinGecko trending → token-pick 10/10 → EIGEN price bid. Narrative moving price before Darkbloom (private inference) ships. Pre-product loop; watch for exhaustion when delay surfaces.",
+        "type": "warning"
+      }
+    },
+    "alert_base_loop": {
+      "type": "Alert",
+      "props": {
+        "title": "Base Ecosystem — Multi-Vector Loop",
+        "message": "Aero July merger announcement → AERO bid → TVL inflows → Polymarket 69% Base native token Dec 31 → developer incentive to ship → more TVL. Multi-vector loop confirmed active.",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_positions",
+        "pos1",
+        "pos2",
+        "pos3",
+        "pos4",
+        "pos5",
+        "pos6",
+        "pos7",
+        "pos8"
+      ]
+    },
+    "h_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_frontrun",
+        "text_pos1_title",
+        "text_pos1_thesis",
+        "text_pos1_bear"
+      ]
+    },
+    "badge_frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "destructive"
+      }
+    },
+    "text_pos1_title": {
+      "type": "Text",
+      "props": {
+        "text": "EigenCloud/EIGEN — Conviction 3 ↑↑, Bull",
+        "variant": "lead"
+      }
+    },
+    "text_pos1_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Sreeram Kannan + Delphi Digital + Bankless",
+        "variant": "body"
+      }
+    },
+    "text_pos1_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: TVL $5B vs $20B peak; Darkbloom pre-product",
+        "variant": "caption"
+      }
+    },
+    "pos2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride2",
+        "text_pos2_title",
+        "text_pos2_thesis",
+        "text_pos2_bear"
+      ]
+    },
+    "badge_ride2": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_pos2_title": {
+      "type": "Text",
+      "props": {
+        "text": "Base Ecosystem/AERO — Conviction 4 ↑, Mixed",
+        "variant": "lead"
+      }
+    },
+    "text_pos2_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Aero July merger + AI agent routing",
+        "variant": "body"
+      }
+    },
+    "text_pos2_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: Base native token unconfirmed; HYPE drag waning",
+        "variant": "caption"
+      }
+    },
+    "pos3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride3",
+        "text_pos3_title",
+        "text_pos3_thesis",
+        "text_pos3_bear"
+      ]
+    },
+    "badge_ride3": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_pos3_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Crypto Infrastructure — Conviction 5 →, Bull",
+        "variant": "lead"
+      }
+    },
+    "text_pos3_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "TAO leads Kaito mindshare, io.net burns, Virtuals 40K+ agents",
+        "variant": "body"
+      }
+    },
+    "text_pos3_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: $25B cap ceiling",
+        "variant": "caption"
+      }
+    },
+    "pos4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride4",
+        "text_pos4_title",
+        "text_pos4_thesis",
+        "text_pos4_bear"
+      ]
+    },
+    "badge_ride4": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_pos4_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments — Conviction 5 →, Bull",
+        "variant": "lead"
+      }
+    },
+    "text_pos4_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "x402 480K agents/165M txns, Mastercard Agent Pay",
+        "variant": "body"
+      }
+    },
+    "text_pos4_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: EU AI Act Aug 2",
+        "variant": "caption"
+      }
+    },
+    "pos5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride5",
+        "text_pos5_title",
+        "text_pos5_thesis",
+        "text_pos5_bear"
+      ]
+    },
+    "badge_ride5": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_pos5_title": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets — Conviction 5 ↑, Bull",
+        "variant": "lead"
+      }
+    },
+    "text_pos5_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Kalshi $100B notional, Polymarket WC $2B+",
+        "variant": "body"
+      }
+    },
+    "text_pos5_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: CFTC new rules (Jun 21) + Spain/4 others blocking; exit Jul 19",
+        "variant": "caption"
+      }
+    },
+    "pos6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch6",
+        "text_pos6_title",
+        "text_pos6_thesis"
+      ]
+    },
+    "badge_watch6": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "text_pos6_title": {
+      "type": "Text",
+      "props": {
+        "text": "Attention Markets/InfoFi — Conviction 3 →",
+        "variant": "lead"
+      }
+    },
+    "text_pos6_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito algo quality update + Polygon leaderboard",
+        "variant": "body"
+      }
+    },
+    "pos7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch7",
+        "text_pos7_title",
+        "text_pos7_thesis"
+      ]
+    },
+    "badge_watch7": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "text_pos7_title": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins — Conviction 4 →",
+        "variant": "lead"
+      }
+    },
+    "text_pos7_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "House vote ~Jul 17 reload window",
+        "variant": "body"
+      }
+    },
+    "pos8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade8",
+        "text_pos8_title",
+        "text_pos8_thesis"
+      ]
+    },
+    "badge_fade8": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "secondary"
+      }
+    },
+    "text_pos8_title": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid/Perp DEXs — Conviction 3 ↓↓",
+        "variant": "lead"
+      }
+    },
+    "text_pos8_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Day 3 post-trigger; HYPE −2.5% Jun 21; no $73 recapture",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_map",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "h_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_map_rising_label",
+        "text_map_rising_items"
+      ]
+    },
+    "text_map_rising_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      }
+    },
+    "text_map_rising_items": {
+      "type": "Text",
+      "props": {
+        "text": "EigenCloud, Base Ecosystem, Prediction Markets",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_map_peak_label",
+        "text_map_peak_items"
+      ]
+    },
+    "text_map_peak_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      }
+    },
+    "text_map_peak_items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Crypto Infrastructure, AI Agent Payments, RWA Tokenization",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_map_fading_label",
+        "text_map_fading_items"
+      ]
+    },
+    "text_map_fading_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      }
+    },
+    "text_map_fading_items": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins (pre-House), Institutional DeFi/UNI, Hyperliquid/Perp DEXs",
+        "variant": "body"
+      }
+    }
+  }
+}
