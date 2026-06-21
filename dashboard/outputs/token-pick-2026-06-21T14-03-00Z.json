@@ -1,0 +1,315 @@
+{
+  "root": "card-daily-pick",
+  "state": {},
+  "elements": {
+    "card-daily-pick": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-21"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header-token",
+        "sep-1",
+        "price-section",
+        "sep-2",
+        "score-section",
+        "sep-3",
+        "catalyst-section",
+        "sep-4",
+        "risk-section",
+        "sep-5",
+        "recent-picks-section",
+        "sep-6",
+        "sources-section",
+        "sep-7",
+        "disclaimer-alert"
+      ]
+    },
+    "header-token": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading-eigen",
+        "badge-high"
+      ]
+    },
+    "heading-eigen": {
+      "type": "Heading",
+      "props": {
+        "text": "EIGEN",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "price-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-price",
+        "stat-24h",
+        "stat-7d",
+        "stat-mcap",
+        "stat-vol",
+        "stat-vol-mcap"
+      ]
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.278"
+      },
+      "children": []
+    },
+    "stat-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+8.0%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+28%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$205M"
+      },
+      "children": []
+    },
+    "stat-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$77.6M"
+      },
+      "children": []
+    },
+    "stat-vol-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap Ratio",
+        "value": "0.38"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "score-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-score",
+        "progress-score",
+        "text-breakdown"
+      ]
+    },
+    "heading-score": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "progress-score": {
+      "type": "Progress",
+      "props": {
+        "value": 10,
+        "max": 10,
+        "label": "10/10"
+      },
+      "children": []
+    },
+    "text-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "CG trending +2 | vol/mcap≥0.20 +3 | both 24h/7d>5% +4 | RS vs BTC/ETH +2",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "catalyst-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-catalyst",
+        "text-catalyst"
+      ]
+    },
+    "heading-catalyst": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "EigenLayer rebranded to EigenCloud (Jun 17) — pivoting from restaking to verifiable cloud platform (EigenDA + EigenVerify + EigenCompute), repositioning squarely into the AI×crypto infrastructure RIDE narrative at its exact peak",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "risk-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk Factors",
+        "message": "$8M token unlock July 1 (10 days out); TVL declined from $20B to ~$5B; +28% 7d = late-entry momentum risk",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "recent-picks-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-recent",
+        "text-recent"
+      ]
+    },
+    "heading-recent": {
+      "type": "Heading",
+      "props": {
+        "text": "Vs Recent Picks",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-recent": {
+      "type": "Text",
+      "props": {
+        "text": "First time — EIGEN appeared in token-movers as BREAKOUT tag Jun 19/20 but never token pick",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-sources",
+        "text-sources"
+      ]
+    },
+    "heading-sources": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=fail, poly=ok (no market pick — WC markets deduped or edge <5pp; no qualifying candidate)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "disclaimer-alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Not financial advice — pattern-matching only",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
