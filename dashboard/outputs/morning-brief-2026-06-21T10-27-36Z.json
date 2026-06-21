@@ -1,0 +1,382 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-21"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_since",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_item1",
+        "focus_item2",
+        "focus_item3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus1_title",
+        "focus1_desc"
+      ]
+    },
+    "focus1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. MEMORY.md overhaul",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Day 5 stale; listed priorities are already live",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus2_title",
+        "focus2_desc"
+      ]
+    },
+    "focus2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. deal-flow repair",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Monday window is tomorrow 14:00 UTC; miss it, wait a week",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus3_title",
+        "focus3_desc"
+      ]
+    },
+    "focus3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. Prediction markets exit timing",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Hyperliquid entry + CFTC rules compress Jul 19 window",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "since_item1",
+        "since_item2",
+        "since_item3",
+        "since_item4",
+        "since_item5"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "since_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since1_text",
+        "since1_stats"
+      ]
+    },
+    "since1_text": {
+      "type": "Text",
+      "props": {
+        "text": "EIGEN breakout confirmed — restaking FRONT-RUN call active",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since1_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "since1_stat_24h",
+        "since1_stat_7d"
+      ]
+    },
+    "since1_stat_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+15.8%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "since1_stat_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+38.4%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "since_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since2_text",
+        "since2_badge"
+      ]
+    },
+    "since2_text": {
+      "type": "Text",
+      "props": {
+        "text": "Base upgraded WATCH (improving): AERO reversal + JPM Coin; needs 1-2 more green AERO days",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "since_item3": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction markets: Kalshi $100B milestone, back-to-back $1B days; RIDE conviction raised",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since4_text",
+        "since4_badge"
+      ]
+    },
+    "since4_text": {
+      "type": "Text",
+      "props": {
+        "text": "XAI 403 — narrative-tracker on WebSearch fallback; unresolved",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Day 22 consecutive",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "since_item5": {
+      "type": "Text",
+      "props": {
+        "text": "MEMORY.md Day 5 stale — listed priorities refer to skills already live",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_item1",
+        "watch_item2"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch_item1": {
+      "type": "Alert",
+      "props": {
+        "message": "Hyperliquid launches prediction markets vs Kalshi/Polymarket — competitor entry at WC peak; consider pulling exit before Jul 19",
+        "type": "info"
+      },
+      "children": []
+    },
+    "watch_item2": {
+      "type": "Alert",
+      "props": {
+        "message": "CFTC proposes new prediction market rules; Spain + 4 others have blocked platforms — regulatory acceleration tightens exit window",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_table"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Time (UTC)"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "08:00 / 14:00 / 20:00"
+          ],
+          [
+            "github-monitor",
+            "09:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "token-pick",
+            "12:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ]
+        ]
+      },
+      "children": []
+    }
+  }
+}

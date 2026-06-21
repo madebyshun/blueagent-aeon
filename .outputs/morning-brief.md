@@ -1,19 +1,23 @@
-*Morning Brief — 2026-06-20*
+*Morning Brief — 2026-06-21*
 
 *Focus today*
-1. MEMORY.md overhaul — why now: Day 4 stale; all listed priorities already running
-2. deal-flow Monday fix window — why now: consecutive failure; next run in 2 days
-3. token-movers degradation — background: success_rate 0.58; WebFetch fallback audit needed
+1. MEMORY.md overhaul — why now: Day 5 stale; listed priorities are already live
+2. deal-flow repair — why now: Monday window is tomorrow 14:00 UTC; miss it, wait a week
+3. Prediction markets exit timing — why now: Hyperliquid entry + CFTC rules compress Jul 19 window
 
 *Since yesterday*
-- [moved] HYPE FADE confirmed: $73 broken → ~$67; distribution cycle complete; dead-cat watch window open
-- [moved] US-Iran narrative DEAD: deal signed, BTC non-response (~$65K); removed from active tracking
-- [moved] AI Agent Payments RIDE conviction raised: x402 crosses 480K agents, 165M txns, 265%/wk growth
-- [stuck] MEMORY.md: 34+ days stale (Day 4 carry-forward) — listed priorities already running
-- [stuck] deal-flow: consecutive_failures=1 (last failed Jun 15); no root cause yet
+- EIGEN breakout confirmed (+15.8%/24h, +38.4%/7d) — restaking FRONT-RUN call active
+- Base upgraded WATCH (improving): AERO reversal + JPM Coin; needs 1-2 more green AERO days
+- Prediction markets: Kalshi $100B milestone, back-to-back $1B days; RIDE conviction raised
+- XAI 403 (Day 22 consecutive) — narrative-tracker on WebSearch fallback; unresolved
+- MEMORY.md Day 5 stale — listed priorities refer to skills already live
+
+*Watch*
+- Hyperliquid launches prediction markets vs Kalshi/Polymarket — competitor entry at WC peak; consider pulling exit before Jul 19
+- CFTC proposes new prediction market rules; Spain + 4 others have blocked platforms — regulatory acceleration tightens exit window
 
 *Running today*
-- heartbeat @ 08:00/14:00/20:00 UTC
+- heartbeat @ 08:00 / 14:00 / 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
