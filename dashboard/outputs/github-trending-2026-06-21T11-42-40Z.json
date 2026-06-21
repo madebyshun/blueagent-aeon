@@ -1,0 +1,320 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-21"
+      },
+      "children": [
+        "heading-toppick",
+        "toppick-link",
+        "sep1",
+        "heading-aiml",
+        "aiml-stack",
+        "sep2",
+        "heading-infra",
+        "infra-stack",
+        "sep3",
+        "heading-data",
+        "data-stack",
+        "sep4",
+        "footer-text"
+      ]
+    },
+    "heading-toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "toppick-link": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-toppick",
+        "desc-toppick"
+      ]
+    },
+    "link-toppick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "asgeirtj/system_prompts_leaks",
+        "href": "https://github.com/asgeirtj/system_prompts_leaks",
+        "source": "JavaScript",
+        "score": "★352 today (44k total)"
+      }
+    },
+    "desc-toppick": {
+      "type": "Text",
+      "props": {
+        "text": "Updated today with Claude Fable 5, ChatGPT 5.5, and Gemini 3.5 prompts — the fastest window into how frontier models are actually instructed.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "aiml-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml-repo1",
+        "aiml-repo2",
+        "aiml-repo3"
+      ]
+    },
+    "aiml-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-aiml1",
+        "badge-aiml1",
+        "desc-aiml1"
+      ]
+    },
+    "link-aiml1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "asgeirtj/system_prompts_leaks",
+        "href": "https://github.com/asgeirtj/system_prompts_leaks",
+        "source": "JavaScript",
+        "score": "★352 today (44k total)"
+      }
+    },
+    "badge-aiml1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "desc-aiml1": {
+      "type": "Text",
+      "props": {
+        "text": "Refreshed today with prompts from every major frontier model — direct operational signal for devs building on top of these APIs.",
+        "variant": "body"
+      }
+    },
+    "aiml-repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-aiml2",
+        "badge-aiml2",
+        "desc-aiml2"
+      ]
+    },
+    "link-aiml2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bytedance/deer-flow",
+        "href": "https://github.com/bytedance/deer-flow",
+        "source": "Python",
+        "score": "★415 today (72.2k total)"
+      }
+    },
+    "badge-aiml2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "desc-aiml2": {
+      "type": "Text",
+      "props": {
+        "text": "ByteDance's long-horizon agent harness: sandboxed tasks, persistent memory, subagents, and message gateway — designed for jobs taking minutes to hours, not single-turn chains.",
+        "variant": "body"
+      }
+    },
+    "aiml-repo3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-aiml3",
+        "badge-aiml3",
+        "desc-aiml3"
+      ]
+    },
+    "link-aiml3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "topoteretes/cognee",
+        "href": "https://github.com/topoteretes/cognee",
+        "source": "Python",
+        "score": "★361 today (18.4k total)"
+      }
+    },
+    "badge-aiml3": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "desc-aiml3": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted knowledge graph for agent memory — persistent cross-session context without routing data through a third-party vector store.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h2"
+      }
+    },
+    "infra-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra-repo1"
+      ]
+    },
+    "infra-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-infra1",
+        "badge-infra1",
+        "desc-infra1"
+      ]
+    },
+    "link-infra1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "tursodatabase/turso",
+        "href": "https://github.com/tursodatabase/turso",
+        "source": "Rust",
+        "score": "★801 today (20.5k total)"
+      }
+    },
+    "badge-infra1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "desc-infra1": {
+      "type": "Text",
+      "props": {
+        "text": "Rust-native SQLite-compatible in-process DB — production-ready drop-in for embedded or edge workloads, zero C dependency.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-data": {
+      "type": "Heading",
+      "props": {
+        "text": "Data",
+        "level": "h2"
+      }
+    },
+    "data-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "data-repo1"
+      ]
+    },
+    "data-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-data1",
+        "badge-data1",
+        "desc-data1"
+      ]
+    },
+    "link-data1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ZhuLinsen/daily_stock_analysis",
+        "href": "https://github.com/ZhuLinsen/daily_stock_analysis",
+        "source": "Python",
+        "score": "★519 today (43.9k total)"
+      }
+    },
+    "badge-data1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "desc-data1": {
+      "type": "Text",
+      "props": {
+        "text": "Zero-cost scheduled LLM market intelligence: multi-source data, real-time news, and decision dashboard in one self-hosted pipeline.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/16",
+        "variant": "muted"
+      }
+    }
+  }
+}

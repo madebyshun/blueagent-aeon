@@ -1,22 +1,25 @@
-*GitHub Trending — 2026-06-20*
+*GitHub Trending — 2026-06-21*
 
-*Top pick* — [google-research/timesfm](https://github.com/google-research/timesfm)
-1,510 stars today — Google's time-series foundation model is the clearest signal that teams are benchmarking foundation-model forecasting against traditional stacks.
+*Top pick* — [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)
+Updated today with Claude Fable 5, ChatGPT 5.5, and Gemini 3.5 prompts — the fastest window into how frontier models are actually instructed.
 
 *AI/ML*
-• [google-research/timesfm](https://github.com/google-research/timesfm) — ★ 1.5k today (24.2k total) · Python · [RETURNING]
-Adds TimesFM-2.5 support — zero-shot time-series forecasting without per-dataset training.
+• [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) — ★ 352 today (44k total) · JavaScript · [ACCELERATING]
+Refreshed today with prompts from every major frontier model — direct operational signal for devs building on top of these APIs.
 
-*Devtools*
-• [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) — ★ 1.1k today (8.7k total) · C · [ACCELERATING]
-Single C binary indexes 158 languages at sub-ms latency — replaces embedding pipelines at 99% fewer tokens.
+• [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — ★ 415 today (72.2k total) · Python · [ACCELERATING]
+ByteDance's long-horizon agent harness: sandboxed tasks, persistent memory, subagents, and message gateway — designed for jobs taking minutes to hours, not single-turn chains.
 
-• [obra/superpowers](https://github.com/obra/superpowers) — ★ 1.1k today (233k total) · Shell · [ACCELERATING]
-v6.0 rewrites subagent code review to be cheaper and harder to game; 233k stars in 9 months.
-
-• [Kong/insomnia](https://github.com/Kong/insomnia) — ★ 292 today (39.1k total) · TypeScript · [RETURNING]
-v13.0 ships — REST/GraphQL/WebSockets/SSE/gRPC workspace with cloud, local, and git storage modes.
+• [topoteretes/cognee](https://github.com/topoteretes/cognee) — ★ 361 today (18.4k total) · Python · [RETURNING]
+Self-hosted knowledge graph for agent memory — persistent cross-session context without routing data through a third-party vector store.
 
 *Infra*
-• [n0-computer/iroh](https://github.com/n0-computer/iroh) — ★ 302 today (10.3k total) · Rust · [RETURNING]
-v1.0.0 Dial
+• [tursodatabase/turso](https://github.com/tursodatabase/turso) — ★ 801 today (20.5k total) · Rust · [RETURNING]
+Rust-native SQLite-compatible in-process DB — production-ready drop-in for embedded or edge workloads, zero C dependency.
+
+*Data*
+• [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) — ★ 519 today (43.9k total) · Python · [ACCELERATING]
+Zero-cost scheduled LLM market intelligence: multi-source data, real-time news, and decision dashboard in one self-hosted pipeline.
+
+---
+sources: trending=ok · gh_api=ok · kept 5/16
