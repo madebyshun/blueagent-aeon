@@ -1,0 +1,196 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-22",
+        "description": "Token Analysis & Scoring"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token_info_stack",
+        "price_stat",
+        "market_stats_grid",
+        "sep_1",
+        "score_heading",
+        "score_text",
+        "sep_2",
+        "catalyst_heading",
+        "catalyst_text",
+        "sep_3",
+        "risk_alert",
+        "sep_4",
+        "sources_heading",
+        "sources_text",
+        "disclaimer_text"
+      ]
+    },
+    "token_info_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token_badge",
+        "signal_high_badge",
+        "signal_stat"
+      ]
+    },
+    "token_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ENA",
+        "variant": "default"
+      }
+    },
+    "signal_high_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "secondary"
+      }
+    },
+    "signal_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "7/10"
+      }
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.095",
+        "delta": "+4.1% (24h) / +5.5% (7d)",
+        "trend": "up"
+      }
+    },
+    "market_stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "mcap_stat",
+        "vol_stat",
+        "vol_ratio_stat"
+      ]
+    },
+    "mcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$890M"
+      }
+    },
+    "vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$196M"
+      }
+    },
+    "vol_ratio_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/MCap",
+        "value": "0.22"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "score_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      }
+    },
+    "score_text": {
+      "type": "Text",
+      "props": {
+        "text": "[24h>0 +1, 7d>0 +1, vol/mcap≥0.20 +3, RS vs BTC/ETH 7d +2] = 7/10",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalyst_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "Janus Henderson investing in ENA + integrating USDe for treasury cash management (Jun 2026); $250M CLO fund allocation plan via Securitize; governance buyback/burn proposal reduces sell pressure — ENA +5.5% 7d vs BTC/ETH both negative",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "risk_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk Factors",
+        "message": "EU banned USDe; trades below 50d and 200d MAs; GENIUS Act may conflict with USDe yield-bearing structure",
+        "type": "warning"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Data Sources",
+        "level": "h3"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=fail, poly=ok (no qualifying market: Spain deduped at $2.4M 24h vol; all others <$50k 24h vol or resolved)",
+        "variant": "caption"
+      }
+    },
+    "disclaimer_text": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}

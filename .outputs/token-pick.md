@@ -1,11 +1,10 @@
-*Daily Pick — 2026-06-21*
+*Daily Pick — 2026-06-22*
 
-*Token: EIGEN*  [HIGH]  signal 10/10
-Price: $0.278 (+8.0% 24h / ~+28% 7d) | mcap $205M | vol $77.6M (vol/mcap 0.38)
-Score breakdown: [CG trending+2, vol/mcap≥0.20+3, both 24h/7d>5%+4, RS vs BTC/ETH+2] = 10/10
-Catalyst: EigenLayer rebranded to EigenCloud (Jun 17) — pivoting from restaking to verifiable cloud platform (EigenDA + EigenVerify + EigenCompute), repositioning squarely into the AI×crypto infrastructure RIDE narrative at its exact peak
-Risk: $8M token unlock July 1 (10 days out); TVL declined from $20B to ~$5B; +28% 7d = late-entry momentum risk
-Vs recent picks: first time — EIGEN appeared in token-movers as BREAKOUT tag Jun 19/20 but never token pick
+*Token: ENA*  [HIGH]  signal 7/10
+Price: $0.095 (+4.1% 24h / +5.5% 7d) | mcap $890M | vol $196M (vol/mcap 0.22)
+Score breakdown: [24h>0 +1, 7d>0 +1, vol/mcap≥0.20 +3, RS vs BTC/ETH 7d +2] = 7/10
+Catalyst: Janus Henderson investing in ENA + integrating USDe for treasury cash management (Jun 2026); $250M CLO fund allocation plan via Securitize; governance buyback/burn proposal reduces sell pressure — ENA +5.5% 7d vs BTC/ETH both negative
+Risk: EU banned USDe; trades below 50d and 200d MAs; GENIUS Act may conflict with USDe yield-bearing structure
 
-sources: cg=ok, dex=fail, poly=ok (no market pick — WC markets deduped or edge <5pp; no qualifying candidate)
+sources: cg=ok, dex=fail, poly=ok (no qualifying market: Spain deduped at $2.4M 24h vol; all others <$50k 24h vol or resolved)
 not financial advice — pattern-matching only
