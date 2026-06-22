@@ -1,0 +1,593 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-22"
+      },
+      "children": [
+        "top-pick-section",
+        "sep-1",
+        "ai-ml-section",
+        "sep-2",
+        "devtools-section",
+        "sep-3",
+        "web-apps-section",
+        "sep-4",
+        "footer-section"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-label",
+        "palmier-pro-top-card"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "palmier-pro-top-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "palmier-pro-top-link",
+        "palmier-pro-top-meta",
+        "palmier-pro-top-desc"
+      ]
+    },
+    "palmier-pro-top-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "palmier-io/palmier-pro",
+        "href": "https://github.com/palmier-io/palmier-pro",
+        "source": "GitHub"
+      }
+    },
+    "palmier-pro-top-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-swift-1",
+        "badge-accel-1"
+      ]
+    },
+    "badge-swift-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Swift",
+        "variant": "secondary"
+      }
+    },
+    "badge-accel-1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "palmier-pro-top-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pushed live today — the only native macOS AI video editor going open-source while actively shipping code.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai-ml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-heading",
+        "ai-ml-repos"
+      ]
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "ai-ml-repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "openmontage-card",
+        "hyperframes-card",
+        "airllm-card"
+      ]
+    },
+    "openmontage-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "openmontage-link",
+        "openmontage-meta",
+        "openmontage-desc"
+      ]
+    },
+    "openmontage-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "calesthio/OpenMontage",
+        "href": "https://github.com/calesthio/OpenMontage",
+        "source": "GitHub",
+        "score": "2935 today / 10.8k total"
+      }
+    },
+    "openmontage-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-python-1",
+        "badge-accel-2"
+      ]
+    },
+    "badge-python-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "badge-accel-2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "openmontage-desc": {
+      "type": "Text",
+      "props": {
+        "text": "12 pipelines and 500+ agent skills turn your AI coding assistant into a complete video production pipeline.",
+        "variant": "body"
+      }
+    },
+    "hyperframes-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hyperframes-link",
+        "hyperframes-meta",
+        "hyperframes-desc"
+      ]
+    },
+    "hyperframes-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "heygen-com/hyperframes",
+        "href": "https://github.com/heygen-com/hyperframes",
+        "source": "GitHub",
+        "score": "369 today / 29.7k total"
+      }
+    },
+    "hyperframes-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-typescript-1",
+        "badge-accel-3"
+      ]
+    },
+    "badge-typescript-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge-accel-3": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "hyperframes-desc": {
+      "type": "Text",
+      "props": {
+        "text": "HeyGen's HTML-to-video engine lets agents compose and export video scenes from markup — no editor required.",
+        "variant": "body"
+      }
+    },
+    "airllm-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "airllm-link",
+        "airllm-meta",
+        "airllm-desc"
+      ]
+    },
+    "airllm-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "lyogavin/airllm",
+        "href": "https://github.com/lyogavin/airllm",
+        "source": "GitHub",
+        "score": "453 today / 20.9k total"
+      }
+    },
+    "airllm-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-jupyter-1",
+        "badge-return-1"
+      ]
+    },
+    "badge-jupyter-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Jupyter Notebook",
+        "variant": "secondary"
+      }
+    },
+    "badge-return-1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "airllm-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Streams 70B model layers from disk to a 4GB GPU — no quantization, just layer-by-layer inference.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-repos"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "gstack-card"
+      ]
+    },
+    "gstack-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "gstack-link",
+        "gstack-meta",
+        "gstack-desc"
+      ]
+    },
+    "gstack-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "garrytan/gstack",
+        "href": "https://github.com/garrytan/gstack",
+        "source": "GitHub",
+        "score": "454 today / 112.8k total"
+      }
+    },
+    "gstack-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-typescript-2",
+        "badge-accel-4"
+      ]
+    },
+    "badge-typescript-2": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge-accel-4": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "gstack-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Opinionated Claude Code starter with 23 pre-built agents wired for multiple engineering roles out of the box.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "web-apps-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web-apps-heading",
+        "web-apps-repos"
+      ]
+    },
+    "web-apps-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "web-apps-repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "palmier-pro-web-card",
+        "penpot-card",
+        "stirling-pdf-card"
+      ]
+    },
+    "palmier-pro-web-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "palmier-pro-web-link",
+        "palmier-pro-web-meta",
+        "palmier-pro-web-desc"
+      ]
+    },
+    "palmier-pro-web-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "palmier-io/palmier-pro",
+        "href": "https://github.com/palmier-io/palmier-pro",
+        "source": "GitHub",
+        "score": "2462 today / 6.7k total"
+      }
+    },
+    "palmier-pro-web-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-swift-2",
+        "badge-accel-5"
+      ]
+    },
+    "badge-swift-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Swift",
+        "variant": "secondary"
+      }
+    },
+    "badge-accel-5": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "palmier-pro-web-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Native macOS video editor for AI workflows — uses your codebase as editing context, no cloud required.",
+        "variant": "body"
+      }
+    },
+    "penpot-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "penpot-link",
+        "penpot-meta",
+        "penpot-desc"
+      ]
+    },
+    "penpot-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "penpot/penpot",
+        "href": "https://github.com/penpot/penpot",
+        "source": "GitHub",
+        "score": "730 today / 52.7k total"
+      }
+    },
+    "penpot-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-clojure-1",
+        "badge-return-2"
+      ]
+    },
+    "badge-clojure-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Clojure",
+        "variant": "secondary"
+      }
+    },
+    "badge-return-2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "penpot-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted Figma alternative just pushed an update — free collaborative design tool you can run yourself.",
+        "variant": "body"
+      }
+    },
+    "stirling-pdf-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stirling-pdf-link",
+        "stirling-pdf-meta",
+        "stirling-pdf-desc"
+      ]
+    },
+    "stirling-pdf-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Stirling-Tools/Stirling-PDF",
+        "href": "https://github.com/Stirling-Tools/Stirling-PDF",
+        "source": "GitHub",
+        "score": "394 today / 82.5k total"
+      }
+    },
+    "stirling-pdf-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-typescript-3",
+        "badge-return-3"
+      ]
+    },
+    "badge-typescript-3": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge-return-3": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "stirling-pdf-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Most-starred self-hosted PDF toolkit pushed an update today — split, merge, sign without sending to the cloud.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer-text"
+      ]
+    },
+    "footer-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/16",
+        "variant": "caption"
+      }
+    }
+  }
+}

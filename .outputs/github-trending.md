@@ -1,25 +1,31 @@
-*GitHub Trending — 2026-06-21*
+*GitHub Trending — 2026-06-22*
 
-*Top pick* — [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)
-Updated today with Claude Fable 5, ChatGPT 5.5, and Gemini 3.5 prompts — the fastest window into how frontier models are actually instructed.
+*Top pick* — [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro)
+Pushed live today — the only native macOS AI video editor going open-source while actively shipping code.
 
 *AI/ML*
-• [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) — ★ 352 today (44k total) · JavaScript · [ACCELERATING]
-Refreshed today with prompts from every major frontier model — direct operational signal for devs building on top of these APIs.
+• [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) — ★ 2935 today (10.8k total) · Python · [ACCELERATING]
+12 pipelines and 500+ agent skills turn your AI coding assistant into a complete video production pipeline.
 
-• [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — ★ 415 today (72.2k total) · Python · [ACCELERATING]
-ByteDance's long-horizon agent harness: sandboxed tasks, persistent memory, subagents, and message gateway — designed for jobs taking minutes to hours, not single-turn chains.
+• [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) — ★ 369 today (29.7k total) · TypeScript · [ACCELERATING]
+HeyGen's HTML-to-video engine lets agents compose and export video scenes from markup — no editor required.
 
-• [topoteretes/cognee](https://github.com/topoteretes/cognee) — ★ 361 today (18.4k total) · Python · [RETURNING]
-Self-hosted knowledge graph for agent memory — persistent cross-session context without routing data through a third-party vector store.
+• [lyogavin/airllm](https://github.com/lyogavin/airllm) — ★ 453 today (20.9k total) · Jupyter Notebook · [RETURNING]
+Streams 70B model layers from disk to a 4GB GPU — no quantization, just layer-by-layer inference.
 
-*Infra*
-• [tursodatabase/turso](https://github.com/tursodatabase/turso) — ★ 801 today (20.5k total) · Rust · [RETURNING]
-Rust-native SQLite-compatible in-process DB — production-ready drop-in for embedded or edge workloads, zero C dependency.
+*Devtools*
+• [garrytan/gstack](https://github.com/garrytan/gstack) — ★ 454 today (112.8k total) · TypeScript · [ACCELERATING]
+Opinionated Claude Code starter with 23 pre-built agents wired for multiple engineering roles out of the box.
 
-*Data*
-• [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) — ★ 519 today (43.9k total) · Python · [ACCELERATING]
-Zero-cost scheduled LLM market intelligence: multi-source data, real-time news, and decision dashboard in one self-hosted pipeline.
+*Web/Apps*
+• [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro) — ★ 2462 today (6.7k total) · Swift · [ACCELERATING]
+Native macOS video editor for AI workflows — uses your codebase as editing context, no cloud required.
+
+• [penpot/penpot](https://github.com/penpot/penpot) — ★ 730 today (52.7k total) · Clojure · [RETURNING]
+Self-hosted Figma alternative just pushed an update — free collaborative design tool you can run yourself.
+
+• [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) — ★ 394 today (82.5k total) · TypeScript · [RETURNING]
+Most-starred self-hosted PDF toolkit pushed an update today — split, merge, sign without sending to the cloud.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/16
+sources: trending=ok · gh_api=ok · kept 7/16
