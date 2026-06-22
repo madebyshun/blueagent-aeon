@@ -1,0 +1,367 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-22"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "yesterday-section",
+        "sep2",
+        "watch-section",
+        "sep3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-h",
+        "focus-items"
+      ]
+    },
+    "focus-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "f1",
+        "f2",
+        "f3"
+      ]
+    },
+    "f1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "f1-t",
+        "f1-w"
+      ]
+    },
+    "f1-t": {
+      "type": "Text",
+      "props": {
+        "text": "1. deal-flow repair",
+        "variant": "lead"
+      }
+    },
+    "f1-w": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Monday 14:00 UTC window; skip = another week missed",
+        "variant": "caption"
+      }
+    },
+    "f2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "f2-t",
+        "f2-w"
+      ]
+    },
+    "f2-t": {
+      "type": "Text",
+      "props": {
+        "text": "2. MEMORY.md overhaul",
+        "variant": "lead"
+      }
+    },
+    "f2-w": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Day 6 stale; wrong priorities poison every skill run",
+        "variant": "caption"
+      }
+    },
+    "f3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "f3-t",
+        "f3-w"
+      ]
+    },
+    "f3-t": {
+      "type": "Text",
+      "props": {
+        "text": "3. background: token-movers",
+        "variant": "lead"
+      }
+    },
+    "f3-w": {
+      "type": "Text",
+      "props": {
+        "text": "62% success rate (threshold 80%); plan a repair pass this week",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-h",
+        "yesterday-items"
+      ]
+    },
+    "yesterday-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "y1",
+        "y2",
+        "y3",
+        "y4"
+      ]
+    },
+    "y1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "y1-badge",
+        "y1-content"
+      ]
+    },
+    "y1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "y1-content": {
+      "type": "Text",
+      "props": {
+        "text": "EIGEN: +40.2% 7d, +4.5% today at $0.2786; TVL +$291M → $4.67B — FRONT-RUN conviction holding",
+        "variant": "body"
+      }
+    },
+    "y2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "y2-badge",
+        "y2-content"
+      ]
+    },
+    "y2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "y2-content": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker: XAI 403 day 22 consecutive; WebSearch fallback running; quality 4/5",
+        "variant": "body"
+      }
+    },
+    "y3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "y3-badge",
+        "y3-content"
+      ]
+    },
+    "y3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "y3-content": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow: disabled in aeon.yml; 1 consecutive failure; repair window is now",
+        "variant": "body"
+      }
+    },
+    "y4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "y4-badge",
+        "y4-content"
+      ]
+    },
+    "y4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "y4-content": {
+      "type": "Text",
+      "props": {
+        "text": "MEMORY.md: Day 6 stale — Next Priorities still list May goals already live",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-h",
+        "watch-content"
+      ]
+    },
+    "watch-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-content": {
+      "type": "Text",
+      "props": {
+        "text": "EIGEN TVL recovering (+$291M to $4.67B, +40.2% 7d); van de Poppe names core holding — reflexive loop accelerating; monitor for exhaustion when Darkbloom ships",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-h",
+        "running-items"
+      ]
+    },
+    "running-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5"
+      ]
+    },
+    "r1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 / 14:00 / 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "r2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "r3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "r4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "r5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
