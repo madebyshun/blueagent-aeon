@@ -1,0 +1,428 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-06-22"
+      },
+      "children": [
+        "text_overview",
+        "sep1",
+        "heading_winners",
+        "table_winners",
+        "sep2",
+        "heading_losers",
+        "table_losers",
+        "sep3",
+        "heading_trending",
+        "table_trending",
+        "sep4",
+        "heading_notable",
+        "stack_notable"
+      ]
+    },
+    "text_overview": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet, mixed session — BTC flat at $64.6K (+0.7%), ETH at $1,739 (+0.7%); ~55% of filtered top-100 green, median 24h move under 1%; energy concentrated in select mid-caps while large-caps drift sideways.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h3"
+      }
+    },
+    "table_winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap / Rank",
+          "Note"
+        ],
+        "rows": [
+          [
+            "1",
+            "DEXE (DeXe)",
+            "$18.19",
+            "+28.9%",
+            "-2.4%",
+            "+1.6%",
+            "$43.2M / #78",
+            "FADE"
+          ],
+          [
+            "2",
+            "ALLO (Allora)",
+            "$0.4557",
+            "+14.7%",
+            "+19.4%",
+            "+2.8%",
+            "$53.0M / #259",
+            ""
+          ],
+          [
+            "3",
+            "LAB (LAB)",
+            "$15.01",
+            "+13.6%",
+            "+50.2%",
+            "+0.0%",
+            "$59.3M / #23",
+            ""
+          ],
+          [
+            "4",
+            "GWEI (ETHGas)",
+            "$0.1192",
+            "+13.6%",
+            "+19.7%",
+            "+2.1%",
+            "$6.8M / #143",
+            ""
+          ],
+          [
+            "5",
+            "BTW (Bitway)",
+            "$0.09055",
+            "+12.2%",
+            "-0.7%",
+            "-23.3%",
+            "$47.9M / #177",
+            "TRENDING+UP"
+          ],
+          [
+            "6",
+            "DYDX (dYdX)",
+            "$0.1375",
+            "+9.9%",
+            "+8.3%",
+            "+1.9%",
+            "$14.5M / #239",
+            ""
+          ],
+          [
+            "7",
+            "GRASS (Grass)",
+            "$0.4475",
+            "+7.8%",
+            "+7.5%",
+            "-0.5%",
+            "$32.5M / #136",
+            ""
+          ],
+          [
+            "8",
+            "TIA (Celestia)",
+            "$0.4017",
+            "+7.7%",
+            "-6.3%",
+            "-0.5%",
+            "$44.8M / #121",
+            ""
+          ],
+          [
+            "9",
+            "ZRO (LayerZero)",
+            "$0.984",
+            "+6.1%",
+            "+17.5%",
+            "-0.0%",
+            "$37.7M / #145",
+            ""
+          ],
+          [
+            "10",
+            "AWE (AWE Network)",
+            "$0.05932",
+            "+5.9%",
+            "+9.9%",
+            "+1.3%",
+            "$15.1M / #241",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h3"
+      }
+    },
+    "table_losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap / Rank",
+          "Note"
+        ],
+        "rows": [
+          [
+            "1",
+            "H (Humanity)",
+            "$0.1397",
+            "-22.6%",
+            "+52.1%",
+            "-0.7%",
+            "$27.7M / #140",
+            ""
+          ],
+          [
+            "2",
+            "RE (RE)",
+            "$0.8013",
+            "-12.7%",
+            "n/a",
+            "+0.8%",
+            "$157M / #225",
+            "TRENDING+DOWN, CAPITULATION"
+          ],
+          [
+            "3",
+            "2Z (DoubleZero)",
+            "$0.07181",
+            "-9.1%",
+            "+2.8%",
+            "-1.3%",
+            "$23.9M / #144",
+            ""
+          ],
+          [
+            "4",
+            "TRAC (OriginTrail)",
+            "$0.3119",
+            "-8.2%",
+            "-17.9%",
+            "-1.7%",
+            "$5.9M / #212",
+            ""
+          ],
+          [
+            "5",
+            "JUP (Jupiter)",
+            "$0.2054",
+            "-7.9%",
+            "+4.5%",
+            "-0.9%",
+            "$44.7M / #87",
+            ""
+          ],
+          [
+            "6",
+            "VELVET (Velvet)",
+            "$0.4626",
+            "-7.1%",
+            "-44.5%",
+            "+6.1%",
+            "$9.6M / #179",
+            ""
+          ],
+          [
+            "7",
+            "SKYAI (SkyAI)",
+            "$0.3469",
+            "-7.0%",
+            "+1.9%",
+            "-0.6%",
+            "$18.9M / #127",
+            ""
+          ],
+          [
+            "8",
+            "JTO (Jito)",
+            "$0.6419",
+            "-6.9%",
+            "+18.8%",
+            "+0.4%",
+            "$51.8M / #132",
+            ""
+          ],
+          [
+            "9",
+            "S (Sonic)",
+            "$0.02614",
+            "-6.3%",
+            "-22.3%",
+            "-2.2%",
+            "$15.3M / #271",
+            ""
+          ],
+          [
+            "10",
+            "MET (Meteora)",
+            "$0.1641",
+            "-5.1%",
+            "+35.0%",
+            "+2.4%",
+            "$29.5M / #290",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h3"
+      }
+    },
+    "table_trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Token",
+          "Rank #",
+          "Price",
+          "24h %",
+          "Note"
+        ],
+        "rows": [
+          [
+            "1",
+            "ARX (Arcium)",
+            "#407",
+            "$0.2796",
+            "-21.2%",
+            ""
+          ],
+          [
+            "2",
+            "HYPE (Hyperliquid)",
+            "#10",
+            "$67.24",
+            "-1.7%",
+            ""
+          ],
+          [
+            "3",
+            "RE (RE)",
+            "#225",
+            "$0.8013",
+            "-13.3%",
+            "TRENDING+DOWN, CAPITULATION"
+          ],
+          [
+            "4",
+            "BTC (Bitcoin)",
+            "#1",
+            "$64,698",
+            "+0.8%",
+            ""
+          ],
+          [
+            "5",
+            "BP (Backpack)",
+            "#187",
+            "$0.7146",
+            "-1.0%",
+            ""
+          ],
+          [
+            "6",
+            "LIT (Lighter)",
+            "#116",
+            "$1.636",
+            "+5.8%",
+            ""
+          ],
+          [
+            "7",
+            "GEOD (Geodnet)",
+            "#281",
+            "$0.2046",
+            "+3.6%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h3"
+      }
+    },
+    "stack_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_re",
+        "alert_syn",
+        "alert_dexe",
+        "alert_btw"
+      ]
+    },
+    "alert_re": {
+      "type": "Alert",
+      "props": {
+        "title": "RE [TRENDING+DOWN][CAPITULATION]",
+        "message": "Trending + −12.7% on $157M vol vs $127M mcap (ratio >1.0x) — abnormal distribution; watch for continued downside",
+        "type": "warning"
+      }
+    },
+    "alert_syn": {
+      "type": "Alert",
+      "props": {
+        "title": "SYN (Synapse, #437) [PUMP-RISK]",
+        "message": "+60.1% 24h while trending — outside top-250, rank 437, extreme low-cap spike",
+        "type": "warning"
+      }
+    },
+    "alert_dexe": {
+      "type": "Alert",
+      "props": {
+        "title": "DEXE [FADE]",
+        "message": "+28.9% 24h but 7d still −2.4% — late bounce in a downtrend, no structural confirmation",
+        "type": "info"
+      }
+    },
+    "alert_btw": {
+      "type": "Alert",
+      "props": {
+        "title": "BTW [TRENDING+UP]",
+        "message": "+12.2% but 1h already −23.3% — still churning from yesterday's −26.8% crash; pump fading intraday",
+        "type": "info"
+      }
+    }
+  }
+}
