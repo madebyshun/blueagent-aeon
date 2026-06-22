@@ -1,0 +1,1287 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-06-22"
+      },
+      "children": [
+        "transitions-section",
+        "sep1",
+        "reflexivity-section",
+        "sep2",
+        "positions-section",
+        "sep3",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans-heading",
+        "trans-ena",
+        "trans-ai-payments",
+        "trans-uni",
+        "trans-eigencloud"
+      ]
+    },
+    "trans-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "trans-ena": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ena-badge",
+        "ena-detail1",
+        "ena-detail2",
+        "ena-detail3",
+        "ena-price"
+      ]
+    },
+    "ena-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED: Stablecoins/ENA Rising → RIDE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "ena-detail1": {
+      "type": "Text",
+      "props": {
+        "text": "Prior WATCH/Fading was wrong premise (GENIUS Act signed Jul 2025, not a future catalyst)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ena-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "Fresh drivers: Janus Henderson ($480B AUM) strategic ENA investment + USDe CLO distribution (Jun 9), Coinbase Ventures open-market ENA buy",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ena-detail3": {
+      "type": "Text",
+      "props": {
+        "text": "$311B stablecoin market cap (+50% vs early 2025)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ena-price": {
+      "type": "Stat",
+      "props": {
+        "label": "ENA Today",
+        "value": "+4.1%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "trans-ai-payments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-pay-badge",
+        "ai-pay-detail1",
+        "ai-pay-detail2",
+        "ai-pay-detail3"
+      ]
+    },
+    "ai-pay-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "STRENGTHENED: AI Agent Payments",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "ai-pay-detail1": {
+      "type": "Text",
+      "props": {
+        "text": "x402 Foundation adds Google, Visa, AWS, Anthropic, Stripe, Cloudflare, Circle, Solana Foundation (Linux Foundation)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ai-pay-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperscaler validation = qualitative shift from crypto protocol → cross-sector infra standard",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ai-pay-detail3": {
+      "type": "Text",
+      "props": {
+        "text": "Still Peak/RIDE but conviction ceiling raised",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trans-uni": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "uni-badge",
+        "uni-detail"
+      ]
+    },
+    "uni-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED to IGNORE: Institutional DeFi/UNI",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "uni-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Day 6+ absent from movers/trending. Bitwise ETF S-1 alone insufficient. Cut.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trans-eigencloud": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eigen-badge",
+        "eigen-detail1",
+        "eigen-detail2",
+        "eigen-detail3"
+      ]
+    },
+    "eigen-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PLATEAUING: EigenCloud (EIGEN)",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "eigen-detail1": {
+      "type": "Stat",
+      "props": {
+        "label": "Price vs Jun 21",
+        "value": "$0.277",
+        "delta": "flat"
+      },
+      "children": []
+    },
+    "eigen-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN maintained but velocity → from ↑↑. No new catalyst since Delphi + Bankless Jun 21.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "eigen-detail3": {
+      "type": "Text",
+      "props": {
+        "text": "Next trigger: Darkbloom product news",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "refl-heading",
+        "refl-ena",
+        "refl-ai-payments"
+      ]
+    },
+    "refl-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "refl-ena": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl-ena-title",
+        "refl-ena-detail1",
+        "refl-ena-detail2"
+      ]
+    },
+    "refl-ena-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Stablecoins/ENA (NEW)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "refl-ena-detail1": {
+      "type": "Text",
+      "props": {
+        "text": "Janus Henderson entry → $250M CLO fund via Securitize → governance buyback + burn → ENA price bid → more TradFi allocators → more USDe demand",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "refl-ena-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "Dual entry (JH + Coinbase Ventures) confirms pattern, not coincidence",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "refl-ai-payments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl-ai-title",
+        "refl-ai-detail1",
+        "refl-ai-detail2"
+      ]
+    },
+    "refl-ai-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agent Payments",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "refl-ai-detail1": {
+      "type": "Text",
+      "props": {
+        "text": "Linux Foundation + Google/Visa/AWS = enterprise reflexive loop. More hyperscaler integrations → x402 becomes default agentic payments rail → more txn volume → more integrations",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "refl-ai-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "Watch for first non-crypto hyperscaler shipping native x402",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos-heading",
+        "pos-ai-payments",
+        "pos-ai-infra",
+        "pos-prediction",
+        "pos-stablecoins",
+        "pos-base",
+        "pos-eigencloud",
+        "pos-rwa",
+        "pos-attention",
+        "pos-ai-security",
+        "pos-hyperliquid",
+        "pos-memecoin"
+      ]
+    },
+    "pos-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "pos-ai-payments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-ai-pay-title",
+        "pos-ai-pay-conviction",
+        "pos-ai-pay-bull",
+        "pos-ai-pay-bear"
+      ]
+    },
+    "pos-ai-pay-title": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE • AI Agent Payments",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "pos-ai-pay-conviction": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-ai-pay-conv-stat",
+        "pos-ai-pay-outlook"
+      ]
+    },
+    "pos-ai-pay-conv-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Conviction",
+        "value": "5",
+        "delta": "→"
+      },
+      "children": []
+    },
+    "pos-ai-pay-outlook": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "pos-ai-pay-bull": {
+      "type": "Text",
+      "props": {
+        "text": "x402/Linux Foundation, Mastercard Agent Pay",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-ai-pay-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear",
+        "message": "EU AI Act Aug 2 compliance drag",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "pos-ai-infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-ai-infra-title",
+        "pos-ai-infra-conviction",
+        "pos-ai-infra-bull",
+        "pos-ai-infra-bear"
+      ]
+    },
+    "pos-ai-infra-title": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE • AI Crypto Infrastructure",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "pos-ai-infra-conviction": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-ai-infra-conv-stat",
+        "pos-ai-infra-outlook"
+      ]
+    },
+    "pos-ai-infra-conv-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Conviction",
+        "value": "5",
+        "delta": "→"
+      },
+      "children": []
+    },
+    "pos-ai-infra-outlook": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "pos-ai-infra-bull": {
+      "type": "Text",
+      "props": {
+        "text": "TAO, RENDER, io.net, a16z",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-ai-infra-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear",
+        "message": "$25B cap ceiling, AKT/GRASS rot",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "pos-prediction": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-pred-title",
+        "pos-pred-conviction",
+        "pos-pred-bull",
+        "pos-pred-bear"
+      ]
+    },
+    "pos-pred-title": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE • Prediction Markets",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "pos-pred-conviction": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-pred-conv-stat",
+        "pos-pred-outlook"
+      ]
+    },
+    "pos-pred-conv-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Conviction",
+        "value": "5",
+        "delta": "→"
+      },
+      "children": []
+    },
+    "pos-pred-outlook": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "pos-pred-bull": {
+      "type": "Text",
+      "props": {
+        "text": "Kalshi 58% flow, Polymarket $2B+ WC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-pred-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear",
+        "message": "Hard exit Jul 19 WC final",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "pos-stablecoins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-stable-title",
+        "pos-stable-conviction",
+        "pos-stable-bull",
+        "pos-stable-bear"
+      ]
+    },
+    "pos-stable-title": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE • Stablecoins/ENA",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "pos-stable-conviction": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-stable-conv-stat",
+        "pos-stable-outlook"
+      ]
+    },
+    "pos-stable-conv-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Conviction",
+        "value": "4",
+        "delta": "↑"
+      },
+      "children": []
+    },
+    "pos-stable-outlook": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed→Bull",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "pos-stable-bull": {
+      "type": "Text",
+      "props": {
+        "text": "Janus Henderson, Coinbase Ventures, fee switch Q3",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-stable-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear",
+        "message": "ENA $0.095 vs $1.52 ATH (94% drawdown)",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "pos-base": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-base-title",
+        "pos-base-conviction",
+        "pos-base-bull",
+        "pos-base-bear"
+      ]
+    },
+    "pos-base-title": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE • Base Ecosystem",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "pos-base-conviction": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-base-conv-stat",
+        "pos-base-outlook"
+      ]
+    },
+    "pos-base-conv-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Conviction",
+        "value": "4",
+        "delta": "→"
+      },
+      "children": []
+    },
+    "pos-base-outlook": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "pos-base-bull": {
+      "type": "Text",
+      "props": {
+        "text": "AERO +47.3%/7d, Jul Aero+Velodrome merger",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-base-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear",
+        "message": "Consolidation, no fresh Jun 22 catalyst",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "pos-eigencloud": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-eigen-title",
+        "pos-eigen-conviction",
+        "pos-eigen-bull",
+        "pos-eigen-bear"
+      ]
+    },
+    "pos-eigen-title": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN • EigenCloud/EIGEN",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos-eigen-conviction": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-eigen-conv-stat",
+        "pos-eigen-outlook"
+      ]
+    },
+    "pos-eigen-conv-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Conviction",
+        "value": "3",
+        "delta": "→"
+      },
+      "children": []
+    },
+    "pos-eigen-outlook": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "pos-eigen-bull": {
+      "type": "Text",
+      "props": {
+        "text": "van de Poppe, Delphi Verifiable Cloud, TVL $4.67B",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-eigen-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear",
+        "message": "Pre-product; exit trigger: plateau at $0.277 without Darkbloom",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "pos-rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-rwa-title",
+        "pos-rwa-conviction",
+        "pos-rwa-bull",
+        "pos-rwa-bear"
+      ]
+    },
+    "pos-rwa-title": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH • RWA Tokenization",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos-rwa-conviction": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-rwa-conv-stat",
+        "pos-rwa-outlook"
+      ]
+    },
+    "pos-rwa-conv-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Conviction",
+        "value": "5",
+        "delta": "→"
+      },
+      "children": []
+    },
+    "pos-rwa-outlook": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "pos-rwa-bull": {
+      "type": "Text",
+      "props": {
+        "text": "BlackRock, Ondo, $29.2B tokenized",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-rwa-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Note",
+        "message": "No re-rating catalyst",
+        "type": "info"
+      },
+      "children": []
+    },
+    "pos-attention": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-attention-title",
+        "pos-attention-conviction",
+        "pos-attention-bull",
+        "pos-attention-bear"
+      ]
+    },
+    "pos-attention-title": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH • Attention Markets/InfoFi",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos-attention-conviction": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-attention-conv-stat",
+        "pos-attention-outlook"
+      ]
+    },
+    "pos-attention-conv-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Conviction",
+        "value": "3",
+        "delta": "→"
+      },
+      "children": []
+    },
+    "pos-attention-outlook": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "pos-attention-bull": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito algo update + Polygon leaderboard live",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-attention-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear",
+        "message": "WallChain competition",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "pos-ai-security": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-sec-title",
+        "pos-sec-conviction",
+        "pos-sec-bull",
+        "pos-sec-note"
+      ]
+    },
+    "pos-sec-title": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH • AI Agent Security",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos-sec-conviction": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-sec-conv-stat",
+        "pos-sec-outlook"
+      ]
+    },
+    "pos-sec-conv-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Conviction",
+        "value": "2",
+        "delta": "→"
+      },
+      "children": []
+    },
+    "pos-sec-outlook": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "pos-sec-bull": {
+      "type": "Text",
+      "props": {
+        "text": "IC3, Blockaid, EU AI Act Aug 2",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-sec-note": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-hyperliquid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-hyper-title",
+        "pos-hyper-conviction",
+        "pos-hyper-bull",
+        "pos-hyper-bear"
+      ]
+    },
+    "pos-hyper-title": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE • Hyperliquid/Perp DEXs",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "pos-hyper-conviction": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-hyper-conv-stat",
+        "pos-hyper-outlook"
+      ]
+    },
+    "pos-hyper-conv-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Conviction",
+        "value": "3",
+        "delta": "↓↓"
+      },
+      "children": []
+    },
+    "pos-hyper-outlook": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "pos-hyper-bull": {
+      "type": "Text",
+      "props": {
+        "text": "$73 not recaptured, day 3 post-trigger",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-hyper-bear": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-memecoin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-meme-title",
+        "pos-meme-conviction",
+        "pos-meme-bull",
+        "pos-meme-bear"
+      ]
+    },
+    "pos-meme-title": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE • Memecoin Launchpads",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "pos-meme-conviction": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-meme-conv-stat",
+        "pos-meme-outlook"
+      ]
+    },
+    "pos-meme-conv-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Conviction",
+        "value": "2",
+        "delta": "→"
+      },
+      "children": []
+    },
+    "pos-meme-outlook": {
+      "type": "Badge",
+      "props": {
+        "text": "Cope",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "pos-meme-bull": {
+      "type": "Text",
+      "props": {
+        "text": "Isolated pumps (SYN +60.1% PUMP-RISK)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-meme-bear": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear",
+        "message": "No structural recovery",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-heading",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-label",
+        "map-emerging-items"
+      ]
+    },
+    "map-emerging-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-emerging-items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Security",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-label",
+        "map-rising-items"
+      ]
+    },
+    "map-rising-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-rising-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "map-rising-item1",
+        "map-rising-item2"
+      ]
+    },
+    "map-rising-item1": {
+      "type": "Text",
+      "props": {
+        "text": "EigenCloud",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-rising-item2": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins/ENA",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-label",
+        "map-peak-items"
+      ]
+    },
+    "map-peak-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-peak-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "map-peak-item1",
+        "map-peak-item2",
+        "map-peak-item3",
+        "map-peak-item4"
+      ]
+    },
+    "map-peak-item1": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-peak-item2": {
+      "type": "Text",
+      "props": {
+        "text": "AI Crypto Infrastructure",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-peak-item3": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-peak-item4": {
+      "type": "Text",
+      "props": {
+        "text": "RWA",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-label",
+        "map-fading-items"
+      ]
+    },
+    "map-fading-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-fading-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "map-fading-item1",
+        "map-fading-item2"
+      ]
+    },
+    "map-fading-item1": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid/Perp DEXs",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-fading-item2": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoin Launchpads",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
