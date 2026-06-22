@@ -1,0 +1,443 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Deal Flow — 2026-06-22"
+      },
+      "children": [
+        "summary-text",
+        "sep1",
+        "deals-stack",
+        "sep2",
+        "sources-text"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Smart money converged on the two ends of AI infrastructure — on-chain capital rails (Digital Asset, Morpho) and agentic compute/security (Hydra Host, Ent.AI); model and app-layer rounds drew large checks but weaker investor-conviction signals.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deals-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "deal1",
+        "deal2",
+        "deal3",
+        "deal4",
+        "deal5",
+        "deal6",
+        "deal7",
+        "deal8"
+      ]
+    },
+    "deal1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal1-heading",
+        "deal1-desc",
+        "deal1-funding",
+        "deal1-leads",
+        "deal1-why"
+      ]
+    },
+    "deal1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "1. Digital Asset / Canton",
+        "level": "h3"
+      }
+    },
+    "deal1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional blockchain for capital market settlement, tokenization, and payments"
+      }
+    },
+    "deal1-funding": {
+      "type": "Text",
+      "props": {
+        "text": "$355M growth @ n/d post (n/d vs prior)"
+      }
+    },
+    "deal1-leads": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: a16z crypto + HSBC, BNP Paribas, CME Ventures, Citadel Securities, Broadridge, S&P Global, Tradeweb"
+      }
+    },
+    "deal1-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: HSBC, BNP, CME, and Citadel co-signing with a16z — settlement-layer incumbents buying into on-chain rails they will eventually be forced to run on.",
+        "variant": "muted"
+      }
+    },
+    "deal2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal2-heading",
+        "deal2-desc",
+        "deal2-metrics",
+        "deal2-funding",
+        "deal2-leads",
+        "deal2-why"
+      ]
+    },
+    "deal2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "2. Morpho",
+        "level": "h3"
+      }
+    },
+    "deal2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Permissionless DeFi lending protocol"
+      }
+    },
+    "deal2-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "$11B deposits, $192M annualized fees (no token emissions)"
+      }
+    },
+    "deal2-funding": {
+      "type": "Text",
+      "props": {
+        "text": "$175M equity @ $2B post (n/d vs prior)"
+      }
+    },
+    "deal2-leads": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Paradigm, a16z crypto, Ribbit Capital"
+      }
+    },
+    "deal2-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Largest DeFi equity raise ever — Paradigm and a16z betting real-revenue on-chain credit displaces bank lending infrastructure, not supplements it.",
+        "variant": "muted"
+      }
+    },
+    "deal3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal3-heading",
+        "deal3-desc",
+        "deal3-funding",
+        "deal3-leads",
+        "deal3-why"
+      ]
+    },
+    "deal3-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "3. Hydra Host",
+        "level": "h3"
+      }
+    },
+    "deal3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Bare-metal GPU platform connecting customers to distributed AI computing infrastructure"
+      }
+    },
+    "deal3-funding": {
+      "type": "Text",
+      "props": {
+        "text": "$100M Series A @ n/d post (n/d vs prior)"
+      }
+    },
+    "deal3-leads": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Kindred Ventures"
+      }
+    },
+    "deal3-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: [Tier-3: agentic compute] Autonomous agents will consume commodity bare-metal compute outside hyperscaler lock-in; this is the infrastructure layer forming directly under the agent economy.",
+        "variant": "muted"
+      }
+    },
+    "deal4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal4-heading",
+        "deal4-desc",
+        "deal4-funding",
+        "deal4-leads",
+        "deal4-why"
+      ]
+    },
+    "deal4-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "4. Ent.AI",
+        "level": "h3"
+      }
+    },
+    "deal4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Real-time AI agent behavior monitoring and workspace security platform"
+      }
+    },
+    "deal4-funding": {
+      "type": "Text",
+      "props": {
+        "text": "$100M Seed @ n/d post (n/d vs prior)"
+      }
+    },
+    "deal4-leads": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Decibel Partners"
+      }
+    },
+    "deal4-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: [Tier-3: autonomous-agent infra] $100M seed before product-market fit signals the market treats agent behavioral governance as zero-day infrastructure, not an enterprise security feature.",
+        "variant": "muted"
+      }
+    },
+    "deal5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal5-heading",
+        "deal5-desc",
+        "deal5-funding",
+        "deal5-leads",
+        "deal5-why"
+      ]
+    },
+    "deal5-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "5. Cyera",
+        "level": "h3"
+      }
+    },
+    "deal5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI-native data security and governance platform"
+      }
+    },
+    "deal5-funding": {
+      "type": "Text",
+      "props": {
+        "text": "$600M Series G @ $12B post (UP from $9B, Jan 2026)"
+      }
+    },
+    "deal5-leads": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Evolution Equity Partners"
+      }
+    },
+    "deal5-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: EU AI Act enforcement lands Aug 2 — Cyera's 33% valuation step-up from January is the regulatory premium repricing ahead of that deadline.",
+        "variant": "muted"
+      }
+    },
+    "deal6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal6-heading",
+        "deal6-desc",
+        "deal6-funding",
+        "deal6-leads",
+        "deal6-why"
+      ]
+    },
+    "deal6-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "6. Odyssey",
+        "level": "h3"
+      }
+    },
+    "deal6-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI world models generating multimodal simulations of real-world environments"
+      }
+    },
+    "deal6-funding": {
+      "type": "Text",
+      "props": {
+        "text": "$310M Series B @ $1.45B post (n/d vs prior)"
+      }
+    },
+    "deal6-leads": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Natural Capital"
+      }
+    },
+    "deal6-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: World models for synthetic simulation attack the training-data ceiling directly — the category that determines which foundation labs can scale cheaply past 2026.",
+        "variant": "muted"
+      }
+    },
+    "deal7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal7-heading",
+        "deal7-desc",
+        "deal7-metrics",
+        "deal7-funding",
+        "deal7-leads",
+        "deal7-why"
+      ]
+    },
+    "deal7-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "7. Sarvam AI",
+        "level": "h3"
+      }
+    },
+    "deal7-desc": {
+      "type": "Text",
+      "props": {
+        "text": "India sovereign AI; frontier language models for 22+ languages"
+      }
+    },
+    "deal7-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "10M daily API calls"
+      }
+    },
+    "deal7-funding": {
+      "type": "Text",
+      "props": {
+        "text": "$234M Series B (first close of $300M) @ $1.5B post (n/d vs prior)"
+      }
+    },
+    "deal7-leads": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: HCLTech ($150M)"
+      }
+    },
+    "deal7-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: HCLTech leading at $150M — not a VC — signals India's IT services giants are buying sovereign AI before ChatGPT commoditizes their consulting stack.",
+        "variant": "muted"
+      }
+    },
+    "deal8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal8-heading",
+        "deal8-desc",
+        "deal8-funding",
+        "deal8-leads",
+        "deal8-why"
+      ]
+    },
+    "deal8-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "8. AppsFlyer",
+        "level": "h3"
+      }
+    },
+    "deal8-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Mobile attribution and omnichannel marketing measurement platform"
+      }
+    },
+    "deal8-funding": {
+      "type": "Text",
+      "props": {
+        "text": "$1B Series E @ $2.7B post (n/d vs prior)"
+      }
+    },
+    "deal8-leads": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Google, Meta, Unity, Moloco (consortium)"
+      }
+    },
+    "deal8-why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Four competing ad platforms co-investing in the same independent measurement layer — rivals aligning on a common referee before AI attribution dissolves their individual measurement moats.",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: crunchbase=ok, techcrunch=ok, cryptorank=partial (auth wall), aifundingtracker=fail (timeout), crypto-fundraising.info=fail (bot block) | candidates=18 → kept=8"
+      }
+    }
+  }
+}

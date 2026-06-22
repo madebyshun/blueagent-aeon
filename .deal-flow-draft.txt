@@ -35,4 +35,3 @@
    *Why it matters:* Four competing ad platforms co-investing in the same independent measurement layer — rivals aligning on a common referee before AI attribution dissolves their individual measurement moats.
 
 *Sources:* crunchbase=ok, techcrunch=ok, cryptorank=partial (auth wall), aifundingtracker=fail (timeout), crypto-fundraising.info=fail (bot block) | candidates=18 → kept=8
-
