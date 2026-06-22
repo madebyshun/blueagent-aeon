@@ -1,0 +1,143 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest"
+      },
+      "children": [
+        "stack-root"
+      ]
+    },
+    "stack-root": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-date",
+        "text-verdict",
+        "sep-1",
+        "heading-patch",
+        "cve-stack"
+      ]
+    },
+    "heading-date": {
+      "type": "Heading",
+      "props": {
+        "text": "Security Digest — 2026-06-22",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: nothing urgent today. 1 to schedule, 0 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-patch": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "cve-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve-link",
+        "cve-meta",
+        "cve-desc",
+        "cve-action"
+      ]
+    },
+    "cve-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-33646",
+        "href": "https://github.com/advisories/GHSA-fjj5-v948-whjj",
+        "source": "GitHub Advisory"
+      },
+      "children": []
+    },
+    "cve-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "meta-package",
+        "meta-cvss",
+        "meta-epss",
+        "meta-poc"
+      ]
+    },
+    "meta-package": {
+      "type": "Badge",
+      "props": {
+        "text": "mise (crates.io)",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "meta-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.6",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "meta-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a (new CVE)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "meta-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC ✓",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "cve-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Tera template exec() fires silently on cd into any repo with a malicious .tool-versions file — full RCE, no trust prompt, no warning. Supply chain attack vector; PoC validated on mise 2026.3.9.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade mise to ≥ 2026.3.10 and redeploy CI runners.",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
