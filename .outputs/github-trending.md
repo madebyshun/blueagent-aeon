@@ -1,31 +1,25 @@
-*GitHub Trending — 2026-06-22*
+*GitHub Trending — 2026-06-23*
 
-*Top pick* — [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro)
-Pushed live today — the only native macOS AI video editor going open-source while actively shipping code.
-
-*AI/ML*
-• [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) — ★ 2935 today (10.8k total) · Python · [ACCELERATING]
-12 pipelines and 500+ agent skills turn your AI coding assistant into a complete video production pipeline.
-
-• [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) — ★ 369 today (29.7k total) · TypeScript · [ACCELERATING]
-HeyGen's HTML-to-video engine lets agents compose and export video scenes from markup — no editor required.
-
-• [lyogavin/airllm](https://github.com/lyogavin/airllm) — ★ 453 today (20.9k total) · Jupyter Notebook · [RETURNING]
-Streams 70B model layers from disk to a 4GB GPU — no quantization, just layer-by-layer inference.
+*Top pick* — [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
+Zero-dep C binary that maps any codebase into a knowledge graph in milliseconds — the MCP indexer that doesn't eat your token budget.
 
 *Devtools*
-• [garrytan/gstack](https://github.com/garrytan/gstack) — ★ 454 today (112.8k total) · TypeScript · [ACCELERATING]
-Opinionated Claude Code starter with 23 pre-built agents wired for multiple engineering roles out of the box.
+• [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) — ★ 1.2k today (12.3k total) · C · [ACCELERATING]
+Single static binary, 158 languages, 99% fewer tokens than text-based indexers — persistent knowledge graph, not a file dump.
 
-*Web/Apps*
-• [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro) — ★ 2462 today (6.7k total) · Swift · [ACCELERATING]
-Native macOS video editor for AI workflows — uses your codebase as editing context, no cloud required.
+• [affaan-m/ECC](https://github.com/affaan-m/ECC) — ★ 582 today (220.2k total) · JS · [ACCELERATING]
+Cross-tool agent harness — layers skills, memory, and security over Claude Code, Codex, Cursor, and Opencode without tool lock-in.
 
-• [penpot/penpot](https://github.com/penpot/penpot) — ★ 730 today (52.7k total) · Clojure · [RETURNING]
-Self-hosted Figma alternative just pushed an update — free collaborative design tool you can run yourself.
+• [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) — ★ 329 today (59k total) · HTML · [ACCELERATING]
+Updated today — 59k-star community playbook for agentic engineering; the reference people link when explaining Claude Code workflows.
 
-• [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) — ★ 394 today (82.5k total) · TypeScript · [RETURNING]
-Most-starred self-hosted PDF toolkit pushed an update today — split, merge, sign without sending to the cloud.
+*AI/ML*
+• [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — ★ 933 today (200.4k total) · Python · [RETURNING]
+Pushed today — NousResearch's Hermes-powered agent framework (200k stars) trending again; same-day push signals a new release.
+
+*Infra*
+• [koala73/worldmonitor](https://github.com/koala73/worldmonitor) — ★ 279 today (58.8k total) · TS · [ACCELERATING]
+Pushed today — real-time geopolitical intelligence dashboard with AI news aggregation; fresh build likely explains the surge.
 
 ---
-sources: trending=ok · gh_api=ok · kept 7/16
+sources: trending=ok · gh_api=ok · kept 5/16

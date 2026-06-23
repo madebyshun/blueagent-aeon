@@ -1,0 +1,460 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-06-23"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_toppick",
+        "card_toppick",
+        "sep1",
+        "heading_devtools",
+        "stack_devtools",
+        "sep2",
+        "heading_aiml",
+        "stack_aiml",
+        "sep3",
+        "heading_infra",
+        "stack_infra",
+        "sep4",
+        "text_sources"
+      ]
+    },
+    "heading_toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "card_toppick": {
+      "type": "Card",
+      "children": [
+        "stack_toppick"
+      ]
+    },
+    "stack_toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_toppick",
+        "text_toppick_desc"
+      ]
+    },
+    "link_toppick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DeusData/codebase-memory-mcp",
+        "href": "https://github.com/DeusData/codebase-memory-mcp"
+      }
+    },
+    "text_toppick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Zero-dep C binary that maps any codebase into a knowledge graph in milliseconds — the MCP indexer that doesn't eat your token budget.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "stack_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_dt1",
+        "repo_dt2",
+        "repo_dt3"
+      ]
+    },
+    "repo_dt1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_dt1",
+        "stack_dt1_meta",
+        "text_dt1_desc"
+      ]
+    },
+    "link_dt1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DeusData/codebase-memory-mcp",
+        "href": "https://github.com/DeusData/codebase-memory-mcp"
+      }
+    },
+    "stack_dt1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_dt1",
+        "badge_dt1_lang",
+        "badge_dt1_status"
+      ]
+    },
+    "stat_dt1": {
+      "type": "Stat",
+      "props": {
+        "value": "12.3k",
+        "delta": "+1.2k today",
+        "trend": "up"
+      }
+    },
+    "badge_dt1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C",
+        "variant": "secondary"
+      }
+    },
+    "badge_dt1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "text_dt1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Single static binary, 158 languages, 99% fewer tokens than text-based indexers — persistent knowledge graph, not a file dump.",
+        "variant": "body"
+      }
+    },
+    "repo_dt2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_dt2",
+        "stack_dt2_meta",
+        "text_dt2_desc"
+      ]
+    },
+    "link_dt2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "affaan-m/ECC",
+        "href": "https://github.com/affaan-m/ECC"
+      }
+    },
+    "stack_dt2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_dt2",
+        "badge_dt2_lang",
+        "badge_dt2_status"
+      ]
+    },
+    "stat_dt2": {
+      "type": "Stat",
+      "props": {
+        "value": "220.2k",
+        "delta": "+582 today",
+        "trend": "up"
+      }
+    },
+    "badge_dt2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JS",
+        "variant": "secondary"
+      }
+    },
+    "badge_dt2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "text_dt2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-tool agent harness — layers skills, memory, and security over Claude Code, Codex, Cursor, and Opencode without tool lock-in.",
+        "variant": "body"
+      }
+    },
+    "repo_dt3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_dt3",
+        "stack_dt3_meta",
+        "text_dt3_desc"
+      ]
+    },
+    "link_dt3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "shanraisshan/claude-code-best-practice",
+        "href": "https://github.com/shanraisshan/claude-code-best-practice"
+      }
+    },
+    "stack_dt3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_dt3",
+        "badge_dt3_lang",
+        "badge_dt3_status"
+      ]
+    },
+    "stat_dt3": {
+      "type": "Stat",
+      "props": {
+        "value": "59k",
+        "delta": "+329 today",
+        "trend": "up"
+      }
+    },
+    "badge_dt3_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "HTML",
+        "variant": "secondary"
+      }
+    },
+    "badge_dt3_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "text_dt3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Updated today — 59k-star community playbook for agentic engineering; the reference people link when explaining Claude Code workflows.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "stack_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_aiml1"
+      ]
+    },
+    "repo_aiml1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_aiml1",
+        "stack_aiml1_meta",
+        "text_aiml1_desc"
+      ]
+    },
+    "link_aiml1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "NousResearch/hermes-agent",
+        "href": "https://github.com/NousResearch/hermes-agent"
+      }
+    },
+    "stack_aiml1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_aiml1",
+        "badge_aiml1_lang",
+        "badge_aiml1_status"
+      ]
+    },
+    "stat_aiml1": {
+      "type": "Stat",
+      "props": {
+        "value": "200.4k",
+        "delta": "+933 today",
+        "trend": "up"
+      }
+    },
+    "badge_aiml1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "badge_aiml1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "text_aiml1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pushed today — NousResearch's Hermes-powered agent framework (200k stars) trending again; same-day push signals a new release.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h2"
+      }
+    },
+    "stack_infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_infra1"
+      ]
+    },
+    "repo_infra1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_infra1",
+        "stack_infra1_meta",
+        "text_infra1_desc"
+      ]
+    },
+    "link_infra1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "koala73/worldmonitor",
+        "href": "https://github.com/koala73/worldmonitor"
+      }
+    },
+    "stack_infra1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_infra1",
+        "badge_infra1_lang",
+        "badge_infra1_status"
+      ]
+    },
+    "stat_infra1": {
+      "type": "Stat",
+      "props": {
+        "value": "58.8k",
+        "delta": "+279 today",
+        "trend": "up"
+      }
+    },
+    "badge_infra1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TS",
+        "variant": "secondary"
+      }
+    },
+    "badge_infra1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "text_infra1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pushed today — real-time geopolitical intelligence dashboard with AI news aggregation; fresh build likely explains the surge.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/16",
+        "variant": "caption"
+      }
+    }
+  }
+}
