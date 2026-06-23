@@ -1,0 +1,607 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker",
+        "description": "2026-06-23 — Market narratives, reflexivity loops, and position map"
+      },
+      "children": [
+        "transitions_stack",
+        "sep1",
+        "reflexivity_stack",
+        "sep2",
+        "positions_stack",
+        "sep3",
+        "map_stack"
+      ]
+    },
+    "transitions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_transitions",
+        "item_trans_1",
+        "item_trans_2",
+        "item_trans_3",
+        "item_trans_4",
+        "item_trans_5"
+      ]
+    },
+    "h_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h3"
+      }
+    },
+    "item_trans_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_1",
+        "text_trans_1"
+      ]
+    },
+    "badge_new_1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_1": {
+      "type": "Text",
+      "props": {
+        "text": "Macro Risk-Off — BTC −3.8%, ETH −5.5%, median top-100 −3.9%; only 9% of coins green. US-Iran conflict + delayed Fed rate cuts. Suppresses near-term entries — RIDE positions intact; watch for cascade below BTC $60K."
+      }
+    },
+    "item_trans_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_2",
+        "text_trans_2"
+      ]
+    },
+    "badge_new_2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_2": {
+      "type": "Text",
+      "props": {
+        "text": "x402 Builder Codes on Base — ERC-721 on-chain attribution layer for AI agent payments launched Jun 23. Bridges AI Agent Payments + Base Ecosystem; first product-level overlap. Ecosystem lock-in accelerating."
+      }
+    },
+    "item_trans_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_catalyst",
+        "text_trans_3"
+      ]
+    },
+    "badge_catalyst": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW CATALYST",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_3": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins/ENA — $250M revenue trigger crossed; ENA fee switch + Q3 buyback activation imminent. ENA −11.9% today = macro dump, not fundamental. Dip-in-a-RIDE."
+      }
+    },
+    "item_trans_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted",
+        "text_trans_4"
+      ]
+    },
+    "badge_promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_4": {
+      "type": "Text",
+      "props": {
+        "text": "EigenCloud — velocity restored to ↑. ELIP-12 buyback = fundamental value-accrual (previously narrative-only). EIGEN $0.2943 (+6.2% vs Jun 22) outperforming on red-market day. WARN: Jul 1 unlock — 36.82M EIGEN ($10.84M, 2% supply) in 8 days; trim into strength."
+      }
+    },
+    "item_trans_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_note",
+        "text_trans_5"
+      ]
+    },
+    "badge_note": {
+      "type": "Badge",
+      "props": {
+        "text": "NOTE",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_5": {
+      "type": "Text",
+      "props": {
+        "text": "Spain 0-0 Cape Verde — WC odds collapse 17%→13.1%. 436 live WC markets active. Reflexivity confirmed."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "reflexivity_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_reflexivity",
+        "alert_reflexivity",
+        "item_refl_1",
+        "item_refl_2",
+        "item_refl_3"
+      ]
+    },
+    "h_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h3"
+      }
+    },
+    "alert_reflexivity": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Feedback Loops Detected",
+        "message": "Multiple reflexive mechanisms identified across EigenCloud, x402/Base, and ENA."
+      }
+    },
+    "item_refl_1": {
+      "type": "Text",
+      "props": {
+        "text": "EigenCloud — ELIP-12 buyback loop: buyback thesis → TradFi allocation → price outperformance on red day → validates narrative → more coverage. Jul 1 unlock = potential loop interrupt at narrative peak."
+      }
+    },
+    "item_refl_2": {
+      "type": "Text",
+      "props": {
+        "text": "x402 × Base — Builder Codes: attribution layer anchors AI agents to Base → ecosystem lock-in → TVL → Polymarket Base token odds (69% stable). First product-level reflexive signal."
+      }
+    },
+    "item_refl_3": {
+      "type": "Text",
+      "props": {
+        "text": "ENA Fee Switch — $250M revenue → Q3 buyback → reduced supply → price bid → TradFi validation loop. Loop intact; −11.9% today = macro noise."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "positions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_positions",
+        "pos_frontrun",
+        "pos_ride_1",
+        "pos_ride_2",
+        "pos_ride_3",
+        "pos_ride_4",
+        "pos_ride_5",
+        "pos_watch_1",
+        "pos_watch_2",
+        "pos_fade_1",
+        "pos_fade_2"
+      ]
+    },
+    "h_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h3"
+      }
+    },
+    "pos_frontrun": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_frontrun",
+        "text_pos_frontrun"
+      ]
+    },
+    "badge_frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "destructive"
+      }
+    },
+    "text_pos_frontrun": {
+      "type": "Text",
+      "props": {
+        "text": "EigenCloud (3 ↑, Bull) — Sreeram Kannan, Delphi, ELIP-12 buyback — trim before Jul 1 unlock ($10.84M, 2%)"
+      }
+    },
+    "pos_ride_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_1",
+        "text_pos_ride_1"
+      ]
+    },
+    "badge_ride_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_pos_ride_1": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments (5 ↑, Bull) — x402 Builder Codes live + Linux Foundation — EU AI Act Aug 2"
+      }
+    },
+    "pos_ride_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_2",
+        "text_pos_ride_2"
+      ]
+    },
+    "badge_ride_2": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_pos_ride_2": {
+      "type": "Text",
+      "props": {
+        "text": "Base Ecosystem (4 ↑, Mixed→Bull) — x402 + Aerodrome vs Uniswap — flag AERO unlock Jun 25"
+      }
+    },
+    "pos_ride_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_3",
+        "text_pos_ride_3"
+      ]
+    },
+    "badge_ride_3": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_pos_ride_3": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins/ENA (4 ↑, Mixed→Bull) — fee switch imminent + Janus Henderson — ENA 94% below ATH limits size"
+      }
+    },
+    "pos_ride_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_4",
+        "text_pos_ride_4"
+      ]
+    },
+    "badge_ride_4": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_pos_ride_4": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets (5 ↑, Bull) — 436 live WC markets; Spain shock shows fragility — exit Jul 19"
+      }
+    },
+    "pos_ride_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_5",
+        "text_pos_ride_5"
+      ]
+    },
+    "badge_ride_5": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_pos_ride_5": {
+      "type": "Text",
+      "props": {
+        "text": "AI Crypto Infrastructure (5 →, Bull) — TAO/RENDER/io.net/a16z — $25B cap ceiling"
+      }
+    },
+    "pos_watch_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_1",
+        "text_pos_watch_1"
+      ]
+    },
+    "badge_watch_1": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "text_pos_watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization (5 →, Mixed) — BlackRock/Ondo — no re-rating catalyst"
+      }
+    },
+    "pos_watch_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_2",
+        "text_pos_watch_2"
+      ]
+    },
+    "badge_watch_2": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "text_pos_watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "Attention Markets/InfoFi (3 →, Mixed) — Kaito algorithm rebuild — WallChain diluting"
+      }
+    },
+    "pos_fade_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_1",
+        "text_pos_fade_1"
+      ]
+    },
+    "badge_fade_1": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "text_pos_fade_1": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid/Perp DEXs (3 ↓↓, Bear) — Day 4; absent from green on volatile day confirms weakness"
+      }
+    },
+    "pos_fade_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_2",
+        "text_pos_fade_2"
+      ]
+    },
+    "badge_fade_2": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "text_pos_fade_2": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoin Launchpads (2 ↓, Cope) — risk-off eliminates speculative flow"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "map_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_map",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "h_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP — Narrative Lifecycle",
+        "level": "h3"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_emerging",
+        "text_emerging"
+      ]
+    },
+    "badge_emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "secondary"
+      }
+    },
+    "text_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Security"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_rising",
+        "text_rising"
+      ]
+    },
+    "badge_rising": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "text_rising": {
+      "type": "Text",
+      "props": {
+        "text": "EigenCloud, Stablecoins/ENA, Base Ecosystem, Attention Markets/InfoFi"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_peak",
+        "text_peak"
+      ]
+    },
+    "badge_peak": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "default"
+      }
+    },
+    "text_peak": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments, AI Crypto Infrastructure, Prediction Markets, RWA Tokenization"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fading",
+        "text_fading"
+      ]
+    },
+    "badge_fading": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      }
+    },
+    "text_fading": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid/Perp DEXs, Memecoin Launchpads"
+      }
+    }
+  }
+}

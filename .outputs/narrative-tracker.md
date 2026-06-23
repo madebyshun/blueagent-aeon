@@ -1,30 +1,31 @@
-*Narrative Tracker — 2026-06-22*
+*Narrative Tracker — 2026-06-23*
 
 TRANSITIONS
-• PROMOTED: Stablecoins/ENA Rising → RIDE — prior WATCH/Fading was wrong premise (GENIUS Act signed Jul 2025, not a future catalyst); fresh drivers: Janus Henderson ($480B AUM) strategic ENA investment + USDe CLO distribution (Jun 9), Coinbase Ventures open-market ENA buy, $311B stablecoin market cap (+50% vs early 2025). ENA +4.1% today.
-• STRENGTHENED: AI Agent Payments — x402 Foundation adds Google, Visa, AWS, Anthropic, Stripe, Cloudflare, Circle, Solana Foundation (Linux Foundation). Hyperscaler validation = qualitative shift from crypto protocol → cross-sector infra standard. Still Peak/RIDE but conviction ceiling raised.
-• DEMOTED to IGNORE: Institutional DeFi/UNI — Day 6+ absent from movers/trending. Bitwise ETF S-1 alone insufficient. Cut.
-• PLATEAUING: EigenCloud (EIGEN) — FRONT-RUN maintained but velocity → from ↑↑. Price flat $0.277 vs $0.278 Jun 21. No new catalyst since Delphi + Bankless Jun 21. Next trigger: Darkbloom product news.
+• NEW: Macro Risk-Off — BTC −3.8%, ETH −5.5%, median top-100 −3.9%; only 9% of coins green. US-Iran conflict + delayed Fed rate cuts. Suppresses near-term entries — RIDE positions intact; watch for cascade below BTC $60K.
+• NEW: x402 Builder Codes on Base — ERC-721 on-chain attribution layer for AI agent payments launched Jun 23. Bridges AI Agent Payments + Base Ecosystem; first product-level overlap. Ecosystem lock-in accelerating.
+• NEW CATALYST: Stablecoins/ENA — $250M revenue trigger crossed; ENA fee switch + Q3 buyback activation imminent. ENA −11.9% today = macro dump, not fundamental. Dip-in-a-RIDE.
+• PROMOTED: EigenCloud — velocity restored to ↑. ELIP-12 buyback = fundamental value-accrual (previously narrative-only). EIGEN $0.2943 (+6.2% vs Jun 22) outperforming on red-market day. WARN: Jul 1 unlock — 36.82M EIGEN ($10.84M, 2% supply) in 8 days; trim into strength.
+• NOTE: Spain 0-0 Cape Verde — WC odds collapse 17%→13.1%. 436 live WC markets active. Reflexivity confirmed.
 
 REFLEXIVITY ALERT
-• Stablecoins/ENA (NEW): Janus Henderson entry → $250M CLO fund via Securitize → governance buyback + burn → ENA price bid → more TradFi allocators → more USDe demand. Dual entry (JH + Coinbase Ventures) confirms pattern, not coincidence.
-• AI Agent Payments: Linux Foundation + Google/Visa/AWS = enterprise reflexive loop. More hyperscaler integrations → x402 becomes default agentic payments rail → more txn volume → more integrations. Watch for first non-crypto hyperscaler shipping native x402.
+• EigenCloud — ELIP-12 buyback loop: buyback thesis → TradFi allocation → price outperformance on red day → validates narrative → more coverage. Jul 1 unlock = potential loop interrupt at narrative peak.
+• x402 × Base — Builder Codes: attribution layer anchors AI agents to Base → ecosystem lock-in → TVL → Polymarket Base token odds (69% stable). First product-level reflexive signal.
+• ENA Fee Switch — $250M revenue → Q3 buyback → reduced supply → price bid → TradFi validation loop. Loop intact; −11.9% today = macro noise.
 
 POSITIONS
-• RIDE: AI Agent Payments (5 →, Bull) — x402/Linux Foundation, Mastercard Agent Pay — bear: EU AI Act Aug 2 compliance drag
-• RIDE: AI Crypto Infrastructure (5 →, Bull) — TAO, RENDER, io.net, a16z — bear: $25B cap ceiling, AKT/GRASS rot
-• RIDE: Prediction Markets (5 →, Bull) — Kalshi 58% flow, Polymarket $2B+ WC — bear: hard exit Jul 19 WC final
-• RIDE: Stablecoins/ENA (4 ↑, Mixed→Bull) — Janus Henderson, Coinbase Ventures, fee switch Q3 — bear: ENA $0.095 vs $1.52 ATH (94% drawdown)
-• RIDE: Base Ecosystem (4 →, Mixed) — AERO +47.3%/7d, Jul Aero+Velodrome merger — bear: consolidation, no fresh Jun 22 catalyst
-• FRONT-RUN: EigenCloud/EIGEN (3 →, Bull) — van de Poppe, Delphi Verifiable Cloud, TVL $4.67B — bear: pre-product; exit trigger: plateau at $0.277 without Darkbloom
-• WATCH: RWA Tokenization (5 →, Mixed) — BlackRock, Ondo, $29.2B tokenized — no re-rating catalyst
-• WATCH: Attention Markets/InfoFi (3 →, Mixed) — Kaito algo update + Polygon leaderboard live — bear: WallChain competition
-• WATCH: AI Agent Security (2 →, Emerging) — IC3, Blockaid, EU AI Act Aug 2
-• FADE: Hyperliquid/Perp DEXs (3 ↓↓, Bear) — $73 not recaptured, day 3 post-trigger
-• FADE: Memecoin Launchpads (2 →, Cope) — isolated pumps (SYN +60.1% PUMP-RISK), no structural recovery
+• FRONT-RUN: EigenCloud (3 ↑, Bull) — Sreeram Kannan, Delphi, ELIP-12 buyback — trim before Jul 1 unlock ($10.84M, 2%)
+• RIDE: AI Agent Payments (5 ↑, Bull) — x402 Builder Codes live + Linux Foundation — EU AI Act Aug 2
+• RIDE: Base Ecosystem (4 ↑, Mixed→Bull) — x402 + Aerodrome vs Uniswap — flag AERO unlock Jun 25
+• RIDE: Stablecoins/ENA (4 ↑, Mixed→Bull) — fee switch imminent + Janus Henderson — ENA 94% below ATH limits size
+• RIDE: Prediction Markets (5 ↑, Bull) — 436 live WC markets; Spain shock shows fragility — exit Jul 19
+• RIDE: AI Crypto Infrastructure (5 →, Bull) — TAO/RENDER/io.net/a16z — $25B cap ceiling
+• WATCH: RWA Tokenization (5 →, Mixed) — BlackRock/Ondo — no re-rating catalyst
+• WATCH: Attention Markets/InfoFi (3 →, Mixed) — Kaito algorithm rebuild — WallChain diluting
+• FADE: Hyperliquid/Perp DEXs (3 ↓↓, Bear) — Day 4; absent from green on volatile day confirms weakness
+• FADE: Memecoin Launchpads (2 ↓, Cope) — risk-off eliminates speculative flow
 
 MAP
 Emerging: AI Agent Security
-Rising: EigenCloud, Stablecoins/ENA
-Peak: AI Agent Payments, AI Crypto Infrastructure, Prediction Markets, RWA
+Rising: EigenCloud, Stablecoins/ENA, Base Ecosystem, Attention Markets/InfoFi
+Peak: AI Agent Payments, AI Crypto Infrastructure, Prediction Markets, RWA Tokenization
 Fading: Hyperliquid/Perp DEXs, Memecoin Launchpads
