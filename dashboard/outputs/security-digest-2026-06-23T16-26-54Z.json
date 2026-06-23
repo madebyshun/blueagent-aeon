@@ -1,0 +1,434 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-06-23"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_verdict",
+        "text_sources",
+        "sep_1",
+        "heading_patch",
+        "stack_patch",
+        "sep_2",
+        "heading_monitor",
+        "stack_monitor"
+      ]
+    },
+    "text_verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: nothing urgent today. 5 to schedule, 1 to monitor.",
+        "variant": "lead"
+      }
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV, GH Advisory, EPSS",
+        "variant": "muted"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_patch": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "stack_patch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve_1",
+        "cve_2",
+        "cve_3",
+        "cve_4",
+        "cve_5"
+      ]
+    },
+    "cve_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve1_link",
+        "cve1_badges",
+        "cve1_desc",
+        "cve1_rec"
+      ]
+    },
+    "cve1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54352 — @budibase/server (npm)",
+        "href": "https://github.com/advisories/GHSA-w7mq-r738-x278",
+        "source": "CVSS 9.6 · EPSS n/a · public PoC"
+      }
+    },
+    "cve1_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_npm_1",
+        "stat_cvss1"
+      ]
+    },
+    "badge_npm_1": {
+      "type": "Badge",
+      "props": {
+        "text": "npm",
+        "variant": "secondary"
+      }
+    },
+    "stat_cvss1": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.6"
+      }
+    },
+    "cve1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Symlink upload reads any server file incl. env vars + credentials; default Docker image runs as root. Also covers 6 Budibase high-sev fixes in 3.39.x (SSRF, S3 pre-sign bypass, CSRF).",
+        "variant": "body"
+      }
+    },
+    "cve1_rec": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade @budibase/* to ≥3.39.9",
+        "variant": "muted"
+      }
+    },
+    "cve_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve2_link",
+        "cve2_badges",
+        "cve2_desc",
+        "cve2_rec"
+      ]
+    },
+    "cve2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-46488 — motioneye (pip)",
+        "href": "https://github.com/advisories/GHSA-r3cw-c95m-wfh9",
+        "source": "CVSS 9.1 · EPSS n/a"
+      }
+    },
+    "cve2_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pip",
+        "stat_cvss2"
+      ]
+    },
+    "badge_pip": {
+      "type": "Badge",
+      "props": {
+        "text": "pip",
+        "variant": "secondary"
+      }
+    },
+    "stat_cvss2": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.1"
+      }
+    },
+    "cve2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass via cookie manipulation and password hash exploitation.",
+        "variant": "body"
+      }
+    },
+    "cve2_rec": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade motioneye to ≥0.44.0",
+        "variant": "muted"
+      }
+    },
+    "cve_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve3_link",
+        "cve3_badges",
+        "cve3_desc",
+        "cve3_rec"
+      ]
+    },
+    "cve3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48170 — scim-patch (npm)",
+        "href": "https://github.com/advisories/GHSA-9m6g-wc8r-q59c",
+        "source": "CVSS 9.1 · EPSS n/a · public PoC"
+      }
+    },
+    "cve3_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_npm_3",
+        "stat_cvss3"
+      ]
+    },
+    "badge_npm_3": {
+      "type": "Badge",
+      "props": {
+        "text": "npm",
+        "variant": "secondary"
+      }
+    },
+    "stat_cvss3": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.1"
+      }
+    },
+    "cve3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Prototype pollution via SCIM PATCH keys — enables privilege escalation and logic bypass process-wide.",
+        "variant": "body"
+      }
+    },
+    "cve3_rec": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade scim-patch to ≥0.9.1",
+        "variant": "muted"
+      }
+    },
+    "cve_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve4_link",
+        "cve4_badges",
+        "cve4_desc",
+        "cve4_rec"
+      ]
+    },
+    "cve4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Gogs cluster — gogs (Go)",
+        "href": "https://github.com/advisories/GHSA-jq8v-rmf6-65jw",
+        "source": "CVSS 8.9 top · EPSS n/a · 4 CVEs"
+      }
+    },
+    "cve4_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_go",
+        "stat_cvss4"
+      ]
+    },
+    "badge_go": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "secondary"
+      }
+    },
+    "stat_cvss4": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "8.9"
+      }
+    },
+    "cve4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "• Stored XSS in .ipynb preview (CVSS 8.9)\n• CSRF → org owner takeover (CVSS 8.8)\n• Local repo import bypass (CVSS 8.1)\n• Unauth attachment download (CVSS 7.5)",
+        "variant": "body"
+      }
+    },
+    "cve4_rec": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade Gogs to ≥0.14.3",
+        "variant": "muted"
+      }
+    },
+    "cve_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve5_link",
+        "cve5_badges",
+        "cve5_desc",
+        "cve5_rec"
+      ]
+    },
+    "cve5_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-49229 — @actual-app/sync-server (npm)",
+        "href": "https://github.com/advisories/GHSA-cq9c-6w48-qmfg",
+        "source": "CVSS 8.3 · EPSS n/a"
+      }
+    },
+    "cve5_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_npm_5",
+        "stat_cvss5"
+      ]
+    },
+    "badge_npm_5": {
+      "type": "Badge",
+      "props": {
+        "text": "npm",
+        "variant": "secondary"
+      }
+    },
+    "stat_cvss5": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "8.3"
+      }
+    },
+    "cve5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Disabled OpenID users retain valid session tokens indefinitely.",
+        "variant": "body"
+      }
+    },
+    "cve5_rec": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade @actual-app/sync-server to ≥26.6.0",
+        "variant": "muted"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "stack_monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve_monitor"
+      ]
+    },
+    "cve_monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "monitor_link",
+        "monitor_badges",
+        "monitor_desc",
+        "monitor_rec"
+      ]
+    },
+    "monitor_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-74p7-6h78-gw8p — skillctl (crates.io)",
+        "href": "https://github.com/advisories/GHSA-74p7-6h78-gw8p",
+        "source": "no CVSS · no fix listed"
+      }
+    },
+    "monitor_badges": {
+      "type": "Badge",
+      "props": {
+        "text": "crates.io",
+        "variant": "secondary"
+      }
+    },
+    "monitor_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Arg injection in git, path traversal, FIFO DoS, hardlink exfiltration, commit-trailer forgery.",
+        "variant": "body"
+      }
+    },
+    "monitor_rec": {
+      "type": "Text",
+      "props": {
+        "text": "Track and watch for patched release",
+        "variant": "muted"
+      }
+    }
+  }
+}
