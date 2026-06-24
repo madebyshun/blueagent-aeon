@@ -1,0 +1,299 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-24"
+      },
+      "children": [
+        "pick-header",
+        "sep-1",
+        "price-group",
+        "sep-2",
+        "score-group",
+        "sep-3",
+        "catalyst-group",
+        "sep-4",
+        "risk-group",
+        "sep-5",
+        "market-group",
+        "sep-6",
+        "sources-group",
+        "sep-7",
+        "disclaimer-group"
+      ]
+    },
+    "pick-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token-heading",
+        "signal-badge",
+        "signal-stat"
+      ]
+    },
+    "token-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: AAVE",
+        "level": "h2"
+      }
+    },
+    "signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "signal-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "8/10"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "price-base",
+        "price-changes",
+        "price-metrics"
+      ]
+    },
+    "price-base": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$74.26"
+      }
+    },
+    "price-changes": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "price-24h",
+        "price-7d"
+      ]
+    },
+    "price-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+2.49%",
+        "trend": "up"
+      }
+    },
+    "price-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "−1.31%",
+        "trend": "down"
+      }
+    },
+    "price-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "mcap-stat",
+        "vol-stat",
+        "volmcap-stat"
+      ]
+    },
+    "mcap-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "mcap",
+        "value": "$1.13B"
+      }
+    },
+    "vol-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "vol (24h)",
+        "value": "$209M"
+      }
+    },
+    "volmcap-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "vol/mcap",
+        "value": "0.185"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "score-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-heading",
+        "score-detail"
+      ]
+    },
+    "score-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      }
+    },
+    "score-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Trending +2 | Vol/mcap ≥0.10 +2 | RS vs BTC/ETH on 7d +2 | Dex-confirmed +1 | 24h >0 +1",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalyst-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-heading",
+        "catalyst-text"
+      ]
+    },
+    "catalyst-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "Grayscale analyst report (Jun 20) sets $175 target citing regulatory clarity + tokenized assets on Aave V4; security audit published same day signals major upgrade imminent",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "risk-group": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "V4 not yet deployed (audit ≠ launch); US-Iran driven risk-off could suppress near-term price despite strong fundamentals",
+        "type": "warning"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market-heading",
+        "market-text"
+      ]
+    },
+    "market-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market",
+        "level": "h3"
+      }
+    },
+    "market-text": {
+      "type": "Text",
+      "props": {
+        "text": "No pick today — strongest edge was WC/Brazil at ~3pp (below 5pp MEDIUM floor) and Hormuz/Netanyahu both <2pp",
+        "variant": "body"
+      }
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-heading",
+        "sources-text"
+      ]
+    },
+    "sources-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h4"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=ok, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "sep-7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "disclaimer-group": {
+      "type": "Alert",
+      "props": {
+        "title": "Disclaimer",
+        "message": "Not financial advice — pattern-matching only",
+        "type": "info"
+      }
+    }
+  }
+}
