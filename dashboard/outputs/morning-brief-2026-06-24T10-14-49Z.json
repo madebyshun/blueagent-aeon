@@ -1,0 +1,328 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-24"
+      },
+      "children": [
+        "sep-top",
+        "focus-section",
+        "sep-1",
+        "since-yesterday-section",
+        "sep-2",
+        "watch-section",
+        "sep-3",
+        "running-today-section"
+      ]
+    },
+    "sep-top": {
+      "type": "Separator",
+      "props": {}
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-reason"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "1. EIGEN Jul 1 unlock",
+        "variant": "body"
+      }
+    },
+    "focus-1-reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 7 days to trim FRONT-RUN before $9.28M supply hits contributors + investors",
+        "variant": "caption"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-reason"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "2. token-pick repair",
+        "variant": "body"
+      }
+    },
+    "focus-2-reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: failed yesterday; runs again 12:00 UTC today — bad daily signal unresolved",
+        "variant": "caption"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-reason"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "3. ENA fee switch",
+        "variant": "body"
+      }
+    },
+    "focus-3-reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Q3 buyback activation imminent; yesterday's −11.9% is macro noise, not fundamental",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "since-yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-heading",
+        "since-item-1",
+        "since-item-2",
+        "since-item-3",
+        "since-item-4"
+      ]
+    },
+    "since-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-1-badge",
+        "since-1-text"
+      ]
+    },
+    "since-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "EigenCloud: EIGEN +6.2% on broad red day; ELIP-12 buyback active, outperformance confirms narrative strength",
+        "variant": "body"
+      }
+    },
+    "since-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-2-badge",
+        "since-2-text"
+      ]
+    },
+    "since-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Macro: BTC −3.8%, ETH −5.5%, median −3.9% — first significant risk-off since Jun 20",
+        "variant": "body"
+      }
+    },
+    "since-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-3-badge",
+        "since-3-text"
+      ]
+    },
+    "since-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "cleared",
+        "variant": "secondary"
+      }
+    },
+    "since-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "AERO Jun 25 \"unlock\": tokenomist confirms ~1 AERO ($0.51) rebase reward — not a supply event; Base headwind removed",
+        "variant": "body"
+      }
+    },
+    "since-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-4-badge",
+        "since-4-text"
+      ]
+    },
+    "since-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "since-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick: consecutive failure Jun 23; runs again today — fix or investigate before 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-item"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-item": {
+      "type": "Text",
+      "props": {
+        "text": "EIGEN Jul 1 unlock confirmed: 17.07M early contributors + 19.75M investors ($9.28M total) — trim into strength before Jul 1 close",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "running-today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-table"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Time"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00 UTC"
+          ],
+          [
+            "github-monitor",
+            "09:00 UTC"
+          ],
+          [
+            "token-movers",
+            "12:00 UTC"
+          ],
+          [
+            "token-pick",
+            "12:00 UTC"
+          ],
+          [
+            "narrative-tracker",
+            "13:30 UTC"
+          ]
+        ]
+      }
+    }
+  }
+}
