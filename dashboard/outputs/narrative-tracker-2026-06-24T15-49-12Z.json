@@ -1,0 +1,622 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-06-24"
+      },
+      "children": [
+        "transitions-section",
+        "sep1",
+        "reflexivity-section",
+        "sep2",
+        "positions-section",
+        "sep3",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "transitions-heading",
+        "transition-1",
+        "transition-2",
+        "transition-3",
+        "transition-4",
+        "transition-5"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transition-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-title",
+        "t1-desc",
+        "t1-stat"
+      ]
+    },
+    "t1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "NEW CATALYST: Base × Circle's Arc",
+        "level": "h3"
+      }
+    },
+    "t1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Aerodrome+Velodrome merger into Aero now includes Circle's Arc institutional DeFi network, expanding to Ethereum L2s. Adds TradFi bridge to Base narrative."
+      }
+    },
+    "t1-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "AERO",
+        "value": "$0.51"
+      }
+    },
+    "transition-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-title",
+        "t2-desc",
+        "t2-stats"
+      ]
+    },
+    "t2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "VOLUME ESCALATION: Prediction Markets",
+        "level": "h3"
+      }
+    },
+    "t2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Spain 0-0 Cape Verde → trader near-$1M loss → mainstream media → new user funnel. Volume loop intensifying ahead of Jul 19 event cliff."
+      }
+    },
+    "t2-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t2-stat1",
+        "t2-stat2"
+      ]
+    },
+    "t2-stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Polymarket WC winner",
+        "value": "$3B+"
+      }
+    },
+    "t2-stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "Kalshi total",
+        "value": "$6.7B"
+      }
+    },
+    "transition-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-title",
+        "t3-desc",
+        "t3-detail",
+        "t3-stats"
+      ]
+    },
+    "t3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "TRIM SIGNAL ACTIVE: EigenCloud (EIGEN)",
+        "level": "h3"
+      }
+    },
+    "t3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 1 unlock now 7 days away. Velocity ↑→→. FRONT-RUN maintained; trim into strength before Jun 30."
+      }
+    },
+    "t3-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 1 unlock details:",
+        "variant": "muted"
+      }
+    },
+    "t3-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t3-stat1",
+        "t3-stat2",
+        "t3-stat3",
+        "t3-stat4"
+      ]
+    },
+    "t3-stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Unlock amount",
+        "value": "36.82M EIGEN"
+      }
+    },
+    "t3-stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "Unlock value",
+        "value": "$9.28M"
+      }
+    },
+    "t3-stat3": {
+      "type": "Stat",
+      "props": {
+        "label": "Supply share",
+        "value": "2%"
+      }
+    },
+    "t3-stat4": {
+      "type": "Stat",
+      "props": {
+        "label": "EIGEN price",
+        "value": "$0.25",
+        "delta": "-14.8%",
+        "trend": "down"
+      }
+    },
+    "transition-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-title",
+        "t4-desc",
+        "t4-stats"
+      ]
+    },
+    "t4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "NEW SIGNAL: BTC Apathy",
+        "level": "h3"
+      }
+    },
+    "t4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Scaramucci \"no one cares about Bitcoin\" (declining Google searches, subdued retail). CoinDesk flags short-term risk as liquidity dries. Day 2 broad distribution."
+      }
+    },
+    "t4-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t4-stat1",
+        "t4-stat2"
+      ]
+    },
+    "t4-stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Short-term risk level",
+        "value": "$59K"
+      }
+    },
+    "t4-stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC decline",
+        "value": "-2.0%",
+        "trend": "down"
+      }
+    },
+    "transition-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t5-title",
+        "t5-desc"
+      ]
+    },
+    "t5-title": {
+      "type": "Heading",
+      "props": {
+        "text": "MAINTAINED FADE: Hyperliquid/HYPE",
+        "level": "h3"
+      }
+    },
+    "t5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "-4.2% [TRENDING+DOWN] Jun 24. Day 5 post-FADE trigger. No $73 recapture."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "reflexivity-heading",
+        "refl-alert-1",
+        "refl-alert-2",
+        "refl-alert-3"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "refl-alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "Prediction Markets (ESCALATING)",
+        "message": "Spain shock → near-$1M trader loss → CBS/iGaming/Front Office Sports coverage → new user influx → more volume. Single-match volatility = signal amplifier and fragility signal.",
+        "type": "warning"
+      }
+    },
+    "refl-alert-2": {
+      "type": "Alert",
+      "props": {
+        "title": "EigenCloud (LOOP INTERRUPT RISK)",
+        "message": "Jul 1 unlock (2% supply) is the first material interrupt to the narrative→price→coverage loop. Unlock hits at narrative peak, pre-Darkbloom. 15%+ post-unlock drawdown = exit signal.",
+        "type": "warning"
+      }
+    },
+    "refl-alert-3": {
+      "type": "Alert",
+      "props": {
+        "title": "ENA Fee Switch (ACTIVE)",
+        "message": "$250M revenue trigger crossed; Q3 buyback imminent. Janus Henderson + Coinbase Ventures + Grayscale = 3 institutional anchors on same loop. Macro -11.9% Jun 23 = noise.",
+        "type": "info"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "positions-heading",
+        "positions-table"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Position",
+          "Type",
+          "Signal/Bull Case",
+          "Bear Case"
+        ],
+        "rows": [
+          [
+            "EigenCloud (3 →)",
+            "FRONT-RUN Bull",
+            "Delphi/ELIP-12 buyback",
+            "Jul 1 unlock; TRIM before Jun 30"
+          ],
+          [
+            "AI Agent Payments (5 →)",
+            "RIDE Bull",
+            "x402 Builder Codes/Coinbase for Agents/Linux Foundation",
+            "EU AI Act Aug 2"
+          ],
+          [
+            "Prediction Markets (5 ↑)",
+            "RIDE Bull",
+            "Kalshi $6.7B / Polymarket $3B WC",
+            "EXIT Jul 19 firm"
+          ],
+          [
+            "AI Crypto Infrastructure (5 →)",
+            "RIDE Bull",
+            "TAO/RENDER/io.net",
+            "$25B ceiling"
+          ],
+          [
+            "Base Ecosystem (4 ↑)",
+            "RIDE Mixed→Bull",
+            "Aero+Circle's Arc/x402",
+            "Base token unconfirmed"
+          ],
+          [
+            "Stablecoins/ENA (4 ↑)",
+            "RIDE Mixed→Bull",
+            "3 institutional anchors + fee switch",
+            "94% ATH drawdown"
+          ],
+          [
+            "RWA Tokenization (5 →)",
+            "WATCH Mixed",
+            "Active monitoring",
+            "TBD"
+          ],
+          [
+            "Attention Markets/InfoFi (3 →)",
+            "WATCH Mixed",
+            "Active monitoring",
+            "TBD"
+          ],
+          [
+            "AI Agent Security (2 →)",
+            "WATCH Bear",
+            "Active monitoring",
+            "High risk"
+          ],
+          [
+            "Hyperliquid (3 ↓↓)",
+            "FADE",
+            "Trending down",
+            "No recovery"
+          ],
+          [
+            "Memecoins (2 ↓)",
+            "FADE",
+            "Trending down",
+            "No recovery"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "map-heading",
+        "map-grid"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NARRATIVE LIFECYCLE MAP",
+        "level": "h2"
+      }
+    },
+    "map-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-e-heading",
+        "map-e-item"
+      ]
+    },
+    "map-e-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      }
+    },
+    "map-e-item": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Security",
+        "variant": "secondary"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-r-heading",
+        "map-r-item1",
+        "map-r-item2",
+        "map-r-item3",
+        "map-r-item4"
+      ]
+    },
+    "map-r-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      }
+    },
+    "map-r-item1": {
+      "type": "Badge",
+      "props": {
+        "text": "EigenCloud",
+        "variant": "secondary"
+      }
+    },
+    "map-r-item2": {
+      "type": "Badge",
+      "props": {
+        "text": "Stablecoins/ENA",
+        "variant": "secondary"
+      }
+    },
+    "map-r-item3": {
+      "type": "Badge",
+      "props": {
+        "text": "Base Ecosystem",
+        "variant": "secondary"
+      }
+    },
+    "map-r-item4": {
+      "type": "Badge",
+      "props": {
+        "text": "Attention Markets/InfoFi",
+        "variant": "secondary"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-p-heading",
+        "map-p-item1",
+        "map-p-item2",
+        "map-p-item3",
+        "map-p-item4"
+      ]
+    },
+    "map-p-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      }
+    },
+    "map-p-item1": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Payments",
+        "variant": "default"
+      }
+    },
+    "map-p-item2": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Crypto Infrastructure",
+        "variant": "default"
+      }
+    },
+    "map-p-item3": {
+      "type": "Badge",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "default"
+      }
+    },
+    "map-p-item4": {
+      "type": "Badge",
+      "props": {
+        "text": "RWA Tokenization",
+        "variant": "default"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-f-heading",
+        "map-f-item1",
+        "map-f-item2"
+      ]
+    },
+    "map-f-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      }
+    },
+    "map-f-item1": {
+      "type": "Badge",
+      "props": {
+        "text": "Hyperliquid/Perp DEXs",
+        "variant": "outline"
+      }
+    },
+    "map-f-item2": {
+      "type": "Badge",
+      "props": {
+        "text": "Memecoin Launchpads",
+        "variant": "outline"
+      }
+    }
+  }
+}

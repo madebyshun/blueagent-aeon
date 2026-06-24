@@ -1,28 +1,26 @@
-*Narrative Tracker — 2026-06-23*
+*Narrative Tracker — 2026-06-24*
 
 TRANSITIONS
-• NEW: Macro Risk-Off — BTC −3.8%, ETH −5.5%, median top-100 −3.9%; only 9% of coins green. US-Iran conflict + delayed Fed rate cuts. Suppresses near-term entries — RIDE positions intact; watch for cascade below BTC $60K.
-• NEW: x402 Builder Codes on Base — ERC-721 on-chain attribution layer for AI agent payments launched Jun 23. Bridges AI Agent Payments + Base Ecosystem; first product-level overlap. Ecosystem lock-in accelerating.
-• NEW CATALYST: Stablecoins/ENA — $250M revenue trigger crossed; ENA fee switch + Q3 buyback activation imminent. ENA −11.9% today = macro dump, not fundamental. Dip-in-a-RIDE.
-• PROMOTED: EigenCloud — velocity restored to ↑. ELIP-12 buyback = fundamental value-accrual (previously narrative-only). EIGEN $0.2943 (+6.2% vs Jun 22) outperforming on red-market day. WARN: Jul 1 unlock — 36.82M EIGEN ($10.84M, 2% supply) in 8 days; trim into strength.
-• NOTE: Spain 0-0 Cape Verde — WC odds collapse 17%→13.1%. 436 live WC markets active. Reflexivity confirmed.
+• NEW CATALYST: Base × Circle's Arc — Aerodrome+Velodrome merger into Aero now includes Circle's Arc institutional DeFi network, expanding to Ethereum L2s. Adds TradFi bridge to Base narrative. AERO $0.51 holding through 3-day macro selloff.
+• VOLUME ESCALATION: Prediction Markets — $3B+ WC winner on Polymarket; $6.7B total on Kalshi. Spain 0-0 Cape Verde → trader near-$1M loss → mainstream media → new user funnel. Volume loop intensifying ahead of Jul 19 event cliff.
+• TRIM SIGNAL ACTIVE: EigenCloud (EIGEN) — Jul 1 unlock now 7 days away (36.82M EIGEN, $9.28M, 2% supply). EIGEN ~$0.25 today (-14.8% off Jun 23 peak on macro). Velocity ↑→→. FRONT-RUN maintained; trim into strength before Jun 30.
+• NEW SIGNAL: BTC Apathy — Scaramucci "no one cares about Bitcoin" (declining Google searches, subdued retail). CoinDesk flags $59K short-term risk as liquidity dries. Day 2 broad distribution (BTC -2.0%, median top-50 -1.7%).
+• MAINTAINED FADE: Hyperliquid/HYPE — -4.2% [TRENDING+DOWN] Jun 24. Day 5 post-FADE trigger. No $73 recapture.
 
 REFLEXIVITY ALERT
-• EigenCloud — ELIP-12 buyback loop: buyback thesis → TradFi allocation → price outperformance on red day → validates narrative → more coverage. Jul 1 unlock = potential loop interrupt at narrative peak.
-• x402 × Base — Builder Codes: attribution layer anchors AI agents to Base → ecosystem lock-in → TVL → Polymarket Base token odds (69% stable). First product-level reflexive signal.
-• ENA Fee Switch — $250M revenue → Q3 buyback → reduced supply → price bid → TradFi validation loop. Loop intact; −11.9% today = macro noise.
+• Prediction Markets (ESCALATING) — Spain shock → near-$1M trader loss → CBS/iGaming/Front Office Sports coverage → new user influx → more volume. Single-match volatility = signal amplifier and fragility signal.
+• EigenCloud (LOOP INTERRUPT RISK) — Jul 1 unlock (2% supply) is the first material interrupt to the narrative→price→coverage loop. Unlock hits at narrative peak, pre-Darkbloom. 15%+ post-unlock drawdown = exit signal.
+• ENA Fee Switch (ACTIVE) — $250M revenue trigger crossed; Q3 buyback imminent. Janus Henderson + Coinbase Ventures + Grayscale = 3 institutional anchors on same loop. Macro -11.9% Jun 23 = noise.
 
 POSITIONS
-• FRONT-RUN: EigenCloud (3 ↑, Bull) — Sreeram Kannan, Delphi, ELIP-12 buyback — trim before Jul 1 unlock ($10.84M, 2%)
-• RIDE: AI Agent Payments (5 ↑, Bull) — x402 Builder Codes live + Linux Foundation — EU AI Act Aug 2
-• RIDE: Base Ecosystem (4 ↑, Mixed→Bull) — x402 + Aerodrome vs Uniswap — flag AERO unlock Jun 25
-• RIDE: Stablecoins/ENA (4 ↑, Mixed→Bull) — fee switch imminent + Janus Henderson — ENA 94% below ATH limits size
-• RIDE: Prediction Markets (5 ↑, Bull) — 436 live WC markets; Spain shock shows fragility — exit Jul 19
-• RIDE: AI Crypto Infrastructure (5 →, Bull) — TAO/RENDER/io.net/a16z — $25B cap ceiling
-• WATCH: RWA Tokenization (5 →, Mixed) — BlackRock/Ondo — no re-rating catalyst
-• WATCH: Attention Markets/InfoFi (3 →, Mixed) — Kaito algorithm rebuild — WallChain diluting
-• FADE: Hyperliquid/Perp DEXs (3 ↓↓, Bear) — Day 4; absent from green on volatile day confirms weakness
-• FADE: Memecoin Launchpads (2 ↓, Cope) — risk-off eliminates speculative flow
+• FRONT-RUN: EigenCloud (3 →, Bull) — Delphi/ELIP-12 buyback; bear: Jul 1 unlock; TRIM before Jun 30
+• RIDE: AI Agent Payments (5 →, Bull) — x402 Builder Codes/Coinbase for Agents/Linux Foundation; bear: EU AI Act Aug 2
+• RIDE: Prediction Markets (5 ↑, Bull) — Kalshi $6.7B / Polymarket $3B WC; EXIT Jul 19 firm
+• RIDE: AI Crypto Infrastructure (5 →, Bull) — TAO/RENDER/io.net; bear: $25B ceiling
+• RIDE: Base Ecosystem (4 ↑, Mixed→Bull) — Aero+Circle's Arc/x402; bear: Base token unconfirmed
+• RIDE: Stablecoins/ENA (4 ↑, Mixed→Bull) — 3 institutional anchors + fee switch; bear: 94% ATH drawdown
+• WATCH: RWA Tokenization (5 →, Mixed) | Attention Markets/InfoFi (3 →, Mixed) | AI Agent Security (2 →, Bear)
+• FADE: Hyperliquid (3 ↓↓) | Memecoins (2 ↓)
 
 MAP
 Emerging: AI Agent Security
