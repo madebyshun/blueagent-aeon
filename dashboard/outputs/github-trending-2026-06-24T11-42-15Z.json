@@ -1,0 +1,286 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-06-24"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-top-pick",
+        "stack-top-pick",
+        "separator-1",
+        "heading-devtools",
+        "stack-devtools",
+        "separator-2",
+        "text-sources"
+      ]
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "stack-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-top-pick",
+        "text-top-pick-desc"
+      ]
+    },
+    "story-top-pick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "apple/container",
+        "href": "https://github.com/apple/container",
+        "source": "GitHub"
+      }
+    },
+    "text-top-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Fresh push yesterday and 1,746★ today suggest this isn't residual launch momentum — Mac devs are actively migrating container workflows to Apple's native runtime.",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "stack-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item-apple",
+        "item-google",
+        "item-stably"
+      ]
+    },
+    "item-apple": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-apple",
+        "meta-apple",
+        "desc-apple"
+      ]
+    },
+    "story-apple": {
+      "type": "StoryLink",
+      "props": {
+        "title": "apple/container",
+        "href": "https://github.com/apple/container",
+        "source": "Swift"
+      }
+    },
+    "meta-apple": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-apple",
+        "badge-swift",
+        "badge-returning"
+      ]
+    },
+    "stat-apple": {
+      "type": "Stat",
+      "props": {
+        "value": "1,746",
+        "label": "Stars today",
+        "delta": "41.4k total"
+      }
+    },
+    "badge-swift": {
+      "type": "Badge",
+      "props": {
+        "text": "Swift",
+        "variant": "secondary"
+      }
+    },
+    "badge-returning": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "desc-apple": {
+      "type": "Text",
+      "props": {
+        "text": "Apple's lightweight-VM container runtime for Mac — no Docker Desktop licensing, no emulation layer.",
+        "variant": "body"
+      }
+    },
+    "item-google": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-google",
+        "meta-google",
+        "desc-google"
+      ]
+    },
+    "story-google": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google-labs-code/design.md",
+        "href": "https://github.com/google-labs-code/design.md",
+        "source": "TypeScript"
+      }
+    },
+    "meta-google": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-google",
+        "badge-typescript-1",
+        "badge-accelerating-1"
+      ]
+    },
+    "stat-google": {
+      "type": "Stat",
+      "props": {
+        "value": "504",
+        "label": "Stars today",
+        "delta": "16.7k total"
+      }
+    },
+    "badge-typescript-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge-accelerating-1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "desc-google": {
+      "type": "Text",
+      "props": {
+        "text": "Google Labs spec encoding brand/design systems into Markdown so coding agents respect visual identity automatically.",
+        "variant": "body"
+      }
+    },
+    "item-stably": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-stably",
+        "meta-stably",
+        "desc-stably"
+      ]
+    },
+    "story-stably": {
+      "type": "StoryLink",
+      "props": {
+        "title": "stablyai/orca",
+        "href": "https://github.com/stablyai/orca",
+        "source": "TypeScript"
+      }
+    },
+    "meta-stably": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-stably",
+        "badge-typescript-2",
+        "badge-accelerating-2"
+      ]
+    },
+    "stat-stably": {
+      "type": "Stat",
+      "props": {
+        "value": "265",
+        "label": "Stars today",
+        "delta": "6.5k total"
+      }
+    },
+    "badge-typescript-2": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge-accelerating-2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "desc-stably": {
+      "type": "Text",
+      "props": {
+        "text": "Purpose-built ADE for orchestrating parallel coding agent fleets — fills the gap single-agent tools leave.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 3/13",
+        "variant": "caption"
+      }
+    }
+  }
+}
