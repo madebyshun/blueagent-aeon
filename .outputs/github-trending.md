@@ -1,17 +1,28 @@
-*GitHub Trending — 2026-06-24*
+*GitHub Trending — 2026-06-25*
 
-*Top pick* — [apple/container](https://github.com/apple/container)
-Fresh push yesterday and 1,746★ today suggest this isn't residual launch momentum — Mac devs are actively migrating container workflows to Apple's native runtime.
+*Top pick* — [garrytan/gstack](https://github.com/garrytan/gstack)
+Highest velocity of the day at 1,088★/day — the only project treating AI agents as a structured org with named roles rather than one catch-all assistant.
 
-*Devtools*
-• [apple/container](https://github.com/apple/container) — ★ 1,746 today (41.4k total) · Swift · [RETURNING]
-Apple's lightweight-VM container runtime for Mac — no Docker Desktop licensing, no emulation layer.
+*AI/ML*
+• [garrytan/gstack](https://github.com/garrytan/gstack) — ★ 922 today (115k total) · TypeScript · [ACCELERATING]
+Assigns 23 named roles — CEO, QA, Release Manager — so a solo dev ships with a full virtual engineering org.
 
-• [google-labs-code/design.md](https://github.com/google-labs-code/design.md) — ★ 504 today (16.7k total) · TypeScript · [ACCELERATING]
-Google Labs spec encoding brand/design systems into Markdown so coding agents respect visual identity automatically.
+• [alibaba/page-agent](https://github.com/alibaba/page-agent) — ★ 280 today (19.6k total) · TypeScript · [ACCELERATING]
+Controls any webpage via plain English — eliminates Playwright/Selenium selector maintenance for browser automation.
 
-• [stablyai/orca](https://github.com/stablyai/orca) — ★ 265 today (6.5k total) · TypeScript · [ACCELERATING]
-Purpose-built ADE for orchestrating parallel coding agent fleets — fills the gap single-agent tools leave.
+• [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) — ★ 3,719 today (21.2k total) · Python · [ACCELERATING]
+Orchestrates 12 agent pipelines with 500+ skills for end-to-end video production — removes the director role from short-form content.
+
+*Data*
+• [opendatalab/MinerU](https://github.com/opendatalab/MinerU) — ★ 524 today (69.1k total) · Python · [ACCELERATING]
+Parses PDFs, Office docs, and OCR'd images into clean markdown/JSON — the ETL layer most RAG pipelines still stub out manually.
+
+• [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) — ★ 347 today (52.5k total) · Python · [RETURNING]
+Unified scraper for TikTok, Xiaohongshu, Bilibili, and 4 other platforms — single client for Chinese social graph data pipelines.
+
+*Web/Apps*
+• [mauriceboe/TREK](https://github.com/mauriceboe/TREK) — ★ 112 today (6.1k total) · TypeScript · [ACCELERATING]
+Self-hosted trip planner with real-time collaboration and SSO — replaces Google Trips for teams wanting data ownership.
 
 ---
-sources: trending=ok · gh_api=ok · kept 3/13
+sources: trending=ok · gh_api=ok · kept 6/15

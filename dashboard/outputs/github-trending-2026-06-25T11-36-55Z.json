@@ -1,0 +1,515 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-25"
+      },
+      "children": [
+        "top-pick-section",
+        "separator-1",
+        "ai-ml-section",
+        "separator-2",
+        "data-section",
+        "separator-3",
+        "web-apps-section",
+        "separator-4",
+        "footer"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-label",
+        "gstack-link",
+        "gstack-desc"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "gstack-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "garrytan/gstack",
+        "href": "https://github.com/garrytan/gstack"
+      },
+      "children": []
+    },
+    "gstack-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Highest velocity of the day at 1,088★/day — the only project treating AI agents as a structured org with named roles rather than one catch-all assistant.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "ai-ml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-heading",
+        "ai-ml-grid"
+      ]
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "ai-ml-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-1",
+        "ai-ml-2",
+        "ai-ml-3"
+      ]
+    },
+    "ai-ml-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-1-title-row",
+        "ai-ml-1-desc"
+      ]
+    },
+    "ai-ml-1-title-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-1-link",
+        "ai-ml-1-stats",
+        "ai-ml-1-badge"
+      ]
+    },
+    "ai-ml-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "garrytan/gstack",
+        "href": "https://github.com/garrytan/gstack"
+      },
+      "children": []
+    },
+    "ai-ml-1-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 922 today (115k total) · TypeScript",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ai-ml-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "ai-ml-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Assigns 23 named roles — CEO, QA, Release Manager — so a solo dev ships with a full virtual engineering org.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ai-ml-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-2-title-row",
+        "ai-ml-2-desc"
+      ]
+    },
+    "ai-ml-2-title-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-2-link",
+        "ai-ml-2-stats",
+        "ai-ml-2-badge"
+      ]
+    },
+    "ai-ml-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "alibaba/page-agent",
+        "href": "https://github.com/alibaba/page-agent"
+      },
+      "children": []
+    },
+    "ai-ml-2-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 280 today (19.6k total) · TypeScript",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ai-ml-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "ai-ml-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Controls any webpage via plain English — eliminates Playwright/Selenium selector maintenance for browser automation.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ai-ml-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-3-title-row",
+        "ai-ml-3-desc"
+      ]
+    },
+    "ai-ml-3-title-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-3-link",
+        "ai-ml-3-stats",
+        "ai-ml-3-badge"
+      ]
+    },
+    "ai-ml-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "calesthio/OpenMontage",
+        "href": "https://github.com/calesthio/OpenMontage"
+      },
+      "children": []
+    },
+    "ai-ml-3-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 3,719 today (21.2k total) · Python",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ai-ml-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "ai-ml-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Orchestrates 12 agent pipelines with 500+ skills for end-to-end video production — removes the director role from short-form content.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "data-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "data-heading",
+        "data-grid"
+      ]
+    },
+    "data-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Data",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "data-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "data-1",
+        "data-2"
+      ]
+    },
+    "data-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "data-1-title-row",
+        "data-1-desc"
+      ]
+    },
+    "data-1-title-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "data-1-link",
+        "data-1-stats",
+        "data-1-badge"
+      ]
+    },
+    "data-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "opendatalab/MinerU",
+        "href": "https://github.com/opendatalab/MinerU"
+      },
+      "children": []
+    },
+    "data-1-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 524 today (69.1k total) · Python",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "data-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "data-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Parses PDFs, Office docs, and OCR'd images into clean markdown/JSON — the ETL layer most RAG pipelines still stub out manually.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "data-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "data-2-title-row",
+        "data-2-desc"
+      ]
+    },
+    "data-2-title-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "data-2-link",
+        "data-2-stats",
+        "data-2-badge"
+      ]
+    },
+    "data-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "NanmiCoder/MediaCrawler",
+        "href": "https://github.com/NanmiCoder/MediaCrawler"
+      },
+      "children": []
+    },
+    "data-2-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 347 today (52.5k total) · Python",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "data-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "data-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unified scraper for TikTok, Xiaohongshu, Bilibili, and 4 other platforms — single client for Chinese social graph data pipelines.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "web-apps-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web-apps-heading",
+        "web-apps-grid"
+      ]
+    },
+    "web-apps-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "web-apps-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web-apps-1"
+      ]
+    },
+    "web-apps-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "web-apps-1-title-row",
+        "web-apps-1-desc"
+      ]
+    },
+    "web-apps-1-title-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "web-apps-1-link",
+        "web-apps-1-stats",
+        "web-apps-1-badge"
+      ]
+    },
+    "web-apps-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mauriceboe/TREK",
+        "href": "https://github.com/mauriceboe/TREK"
+      },
+      "children": []
+    },
+    "web-apps-1-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 112 today (6.1k total) · TypeScript",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "web-apps-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "web-apps-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted trip planner with real-time collaboration and SSO — replaces Google Trips for teams wanting data ownership.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/15",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
