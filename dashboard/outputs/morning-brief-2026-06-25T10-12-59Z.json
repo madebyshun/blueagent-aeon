@@ -1,0 +1,459 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-25"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_yesterday",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_eigen",
+        "focus_ena",
+        "focus_movers"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_eigen": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_eigen_trim",
+        "text_eigen_why"
+      ]
+    },
+    "badge_eigen_trim": {
+      "type": "Badge",
+      "props": {
+        "text": "EIGEN trim",
+        "variant": "default"
+      }
+    },
+    "text_eigen_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: 6 days to Jul 1 unlock; $9.51M supply at open",
+        "variant": "body"
+      }
+    },
+    "focus_ena": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ena_restaking",
+        "text_ena_why"
+      ]
+    },
+    "badge_ena_restaking": {
+      "type": "Badge",
+      "props": {
+        "text": "ENA restaking pool",
+        "variant": "default"
+      }
+    },
+    "text_ena_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: Jun 26 launch tomorrow; pre-catalyst window closes today",
+        "variant": "body"
+      }
+    },
+    "focus_movers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_movers_degradation",
+        "text_movers_background"
+      ]
+    },
+    "badge_movers_degradation": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers degradation",
+        "variant": "secondary"
+      }
+    },
+    "text_movers_background": {
+      "type": "Text",
+      "props": {
+        "text": "Background: chronic 66% success rate; no active fix in queue",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_yesterday",
+        "yesterday_item1",
+        "yesterday_item2",
+        "yesterday_item3",
+        "yesterday_item4"
+      ]
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_token_pick",
+        "stack_aave_info"
+      ]
+    },
+    "badge_token_pick": {
+      "type": "Badge",
+      "props": {
+        "text": "token-pick recovered",
+        "variant": "default"
+      }
+    },
+    "stack_aave_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_aave_name",
+        "stat_aave_tier",
+        "stat_aave_24h",
+        "stat_btc_7d"
+      ]
+    },
+    "text_aave_name": {
+      "type": "Text",
+      "props": {
+        "text": "AAVE",
+        "variant": "lead"
+      }
+    },
+    "stat_aave_tier": {
+      "type": "Stat",
+      "props": {
+        "label": "Tier",
+        "value": "8/10 HIGH"
+      }
+    },
+    "stat_aave_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+2.49%",
+        "trend": "up"
+      }
+    },
+    "stat_btc_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC (7d)",
+        "value": "−6.11%",
+        "trend": "down"
+      }
+    },
+    "yesterday_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_narrative",
+        "text_narrative"
+      ]
+    },
+    "badge_narrative": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "default"
+      }
+    },
+    "text_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "XAI 403 day 25 (no credits) — WebSearch fallback holding",
+        "variant": "body"
+      }
+    },
+    "yesterday_item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_security",
+        "text_security_ubiquiti",
+        "text_security_budibase"
+      ]
+    },
+    "badge_security": {
+      "type": "Badge",
+      "props": {
+        "text": "security-digest",
+        "variant": "secondary"
+      }
+    },
+    "text_security_ubiquiti": {
+      "type": "Text",
+      "props": {
+        "text": "Ubiquiti KEV patch due Jun 26",
+        "variant": "body"
+      }
+    },
+    "text_security_budibase": {
+      "type": "Text",
+      "props": {
+        "text": "Budibase npm CVSS 10.0 (5 advisories)",
+        "variant": "body"
+      }
+    },
+    "yesterday_item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_aero",
+        "text_aero"
+      ]
+    },
+    "badge_aero": {
+      "type": "Badge",
+      "props": {
+        "text": "AERO Jun 25 unlock",
+        "variant": "default"
+      }
+    },
+    "text_aero": {
+      "type": "Text",
+      "props": {
+        "text": "confirmed trivial — ~1 AERO rebase, no supply event",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_eigen",
+        "watch_ena"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_eigen": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_eigen",
+        "stat_eigen_tokens",
+        "stat_eigen_supply",
+        "text_eigen_details"
+      ]
+    },
+    "badge_watch_eigen": {
+      "type": "Badge",
+      "props": {
+        "text": "EIGEN Jul 1 unlock",
+        "variant": "secondary"
+      }
+    },
+    "stat_eigen_tokens": {
+      "type": "Stat",
+      "props": {
+        "label": "Tokens",
+        "value": "36.82M"
+      }
+    },
+    "stat_eigen_supply": {
+      "type": "Stat",
+      "props": {
+        "label": "Supply value",
+        "value": "$9.51M (2%)"
+      }
+    },
+    "text_eigen_details": {
+      "type": "Text",
+      "props": {
+        "text": "confirmed, investors + early contributors — firms trim-before-Jun-30 (focus #1)",
+        "variant": "body"
+      }
+    },
+    "watch_ena": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_ena",
+        "text_ena_schedule",
+        "stat_ena_buyback",
+        "text_ena_anchors"
+      ]
+    },
+    "badge_watch_ena": {
+      "type": "Badge",
+      "props": {
+        "text": "ENA restaking pool Jun 26",
+        "variant": "secondary"
+      }
+    },
+    "text_ena_schedule": {
+      "type": "Text",
+      "props": {
+        "text": "fee switch Q3 approaching",
+        "variant": "body"
+      }
+    },
+    "stat_ena_buyback": {
+      "type": "Stat",
+      "props": {
+        "label": "Buyback potential",
+        "value": "$500M"
+      }
+    },
+    "text_ena_anchors": {
+      "type": "Text",
+      "props": {
+        "text": "3 TradFi anchors (focus #2)",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_table"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Schedule"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "08:00 / 14:00 / 20:00 UTC"
+          ],
+          [
+            "github-monitor",
+            "09:00 UTC"
+          ],
+          [
+            "token-movers",
+            "12:00 UTC"
+          ],
+          [
+            "token-pick",
+            "12:00 UTC"
+          ],
+          [
+            "narrative-tracker",
+            "13:30 UTC"
+          ]
+        ]
+      }
+    }
+  }
+}
