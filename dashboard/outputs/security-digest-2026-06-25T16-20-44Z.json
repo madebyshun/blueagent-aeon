@@ -1,0 +1,568 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-06-25"
+      },
+      "children": [
+        "verdict-text",
+        "sep1",
+        "patch-today-section",
+        "sep2",
+        "patch-week-section",
+        "sep3",
+        "monitor-section"
+      ]
+    },
+    "verdict-text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 2 with public PoC, 3 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "patch-today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-today-heading",
+        "cve-52813",
+        "cve-52806"
+      ]
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve-52813": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-52813-link",
+        "cve-52813-badges",
+        "cve-52813-desc",
+        "cve-52813-action"
+      ]
+    },
+    "cve-52813-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-52813 — Gogs (Go)",
+        "href": "https://github.com/advisories/GHSA-c39w-43gm-34h5",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-52813-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-52813-cvss",
+        "cve-52813-epss",
+        "cve-52813-poc"
+      ]
+    },
+    "cve-52813-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 10.0",
+        "variant": "destructive"
+      }
+    },
+    "cve-52813-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.011",
+        "variant": "secondary"
+      }
+    },
+    "cve-52813-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "destructive"
+      }
+    },
+    "cve-52813-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated RCE: org-name path traversal overwrites Git hooks. Exploit gist linked in advisory.",
+        "variant": "body"
+      }
+    },
+    "cve-52813-action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade gogs.io/gogs to ≥0.14.3 now.",
+        "type": "warning"
+      }
+    },
+    "cve-52806": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-52806-link",
+        "cve-52806-badges",
+        "cve-52806-desc",
+        "cve-52806-action"
+      ]
+    },
+    "cve-52806-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-52806 — Gogs (Go)",
+        "href": "https://github.com/advisories/GHSA-qf6p-p7ww-cwr9",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-52806-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-52806-cvss",
+        "cve-52806-epss",
+        "cve-52806-poc"
+      ]
+    },
+    "cve-52806-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.9",
+        "variant": "destructive"
+      }
+    },
+    "cve-52806-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.010",
+        "variant": "secondary"
+      }
+    },
+    "cve-52806-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC (Python exploit)",
+        "variant": "destructive"
+      }
+    },
+    "cve-52806-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Authenticated RCE via branch-name injection into git rebase --exec at PR merge. Any user with repo write.",
+        "variant": "body"
+      }
+    },
+    "cve-52806-action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade gogs.io/gogs to ≥0.14.3 now.",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "patch-week-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-week-heading",
+        "cve-55441",
+        "cve-48126",
+        "cve-52811"
+      ]
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "cve-55441": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55441-link",
+        "cve-55441-badges",
+        "cve-55441-desc",
+        "cve-55441-action"
+      ]
+    },
+    "cve-55441-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-55441 — mise (crates.io)",
+        "href": "https://github.com/advisories/GHSA-77g9-363w-rccq",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-55441-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55441-cvss",
+        "cve-55441-epss"
+      ]
+    },
+    "cve-55441-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.6",
+        "variant": "destructive"
+      }
+    },
+    "cve-55441-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS ~0",
+        "variant": "outline"
+      }
+    },
+    "cve-55441-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Arbitrary command execution via untrusted task-include files without trust checks.",
+        "variant": "body"
+      }
+    },
+    "cve-55441-action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade mise to ≥2026.6.4.",
+        "type": "warning"
+      }
+    },
+    "cve-48126": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-48126-link",
+        "cve-48126-badges",
+        "cve-48126-desc",
+        "cve-48126-action"
+      ]
+    },
+    "cve-48126-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48126 — algernon (Go)",
+        "href": "https://github.com/advisories/GHSA-jc3j-x6pg-4hmv",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-48126-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-48126-cvss",
+        "cve-48126-epss"
+      ]
+    },
+    "cve-48126-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.2",
+        "variant": "destructive"
+      }
+    },
+    "cve-48126-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003",
+        "variant": "secondary"
+      }
+    },
+    "cve-48126-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Host header path traversal enables arbitrary file read + Lua code execution in domain mode.",
+        "variant": "body"
+      }
+    },
+    "cve-48126-action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade algernon to ≥1.17.8.",
+        "type": "warning"
+      }
+    },
+    "cve-52811": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-52811-link",
+        "cve-52811-badges",
+        "cve-52811-desc",
+        "cve-52811-action"
+      ]
+    },
+    "cve-52811-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-52811 — Gogs (Go)",
+        "href": "https://github.com/advisories/GHSA-89mr-xqfv-758m",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-52811-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-52811-epss"
+      ]
+    },
+    "cve-52811-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.005",
+        "variant": "secondary"
+      }
+    },
+    "cve-52811-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Symlink escape in UploadRepoFiles writes arbitrary files outside repo working tree.",
+        "variant": "body"
+      }
+    },
+    "cve-52811-action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade gogs.io/gogs to ≥0.14.3 (same Gogs cluster as above).",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "monitor-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor-heading",
+        "cve-48708",
+        "cve-54134",
+        "cve-52812"
+      ]
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "cve-48708": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-48708-link",
+        "cve-48708-badges",
+        "cve-48708-desc",
+        "cve-48708-action"
+      ]
+    },
+    "cve-48708-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48708 — OliveTin (Go)",
+        "href": "https://github.com/advisories/GHSA-7fq5-7wr8-rjwj",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-48708-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-48708-cvss",
+        "cve-48708-epss"
+      ]
+    },
+    "cve-48708-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "default"
+      }
+    },
+    "cve-48708-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      }
+    },
+    "cve-48708-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Template parsing race condition causes cross-request command contamination.",
+        "variant": "body"
+      }
+    },
+    "cve-48708-action": {
+      "type": "Alert",
+      "props": {
+        "message": "track GHSA-7fq5-7wr8-rjwj; fix available (commit d74da93), pending stable release.",
+        "type": "info"
+      }
+    },
+    "cve-54134": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-54134-link",
+        "cve-54134-badges",
+        "cve-54134-desc",
+        "cve-54134-action"
+      ]
+    },
+    "cve-54134-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54134 — OctoPrint (pip)",
+        "href": "https://github.com/advisories/GHSA-j4h9-pm27-4rfw",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-54134-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-54134-epss"
+      ]
+    },
+    "cve-54134-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS ~0",
+        "variant": "outline"
+      }
+    },
+    "cve-54134-desc": {
+      "type": "Text",
+      "props": {
+        "text": "File exfiltration via query parameter injection in upload endpoints.",
+        "variant": "body"
+      }
+    },
+    "cve-54134-action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade OctoPrint to ≥1.11.8.",
+        "type": "info"
+      }
+    },
+    "cve-52812": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-52812-link",
+        "cve-52812-badges",
+        "cve-52812-desc",
+        "cve-52812-action"
+      ]
+    },
+    "cve-52812-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-52812 — Gogs (Go)",
+        "href": "https://github.com/advisories/GHSA-6p9m-q3jp-47h4",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-52812-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-52812-epss"
+      ]
+    },
+    "cve-52812-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.002",
+        "variant": "secondary"
+      }
+    },
+    "cve-52812-desc": {
+      "type": "Text",
+      "props": {
+        "text": "LFS OID binding leaks private repository content across tenants.",
+        "variant": "body"
+      }
+    },
+    "cve-52812-action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade gogs.io/gogs to ≥0.14.3 (Gogs cluster).",
+        "type": "info"
+      }
+    }
+  }
+}
