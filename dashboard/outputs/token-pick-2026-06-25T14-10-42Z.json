@@ -1,0 +1,250 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-25"
+      },
+      "children": [
+        "token-header",
+        "sep-1",
+        "price-stats",
+        "market-stats",
+        "score-breakdown-section",
+        "sep-2",
+        "catalyst-section",
+        "risk-alert",
+        "comparison-section",
+        "sources-section",
+        "disclaimer-alert"
+      ]
+    },
+    "token-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token-name",
+        "signal-badge",
+        "score-badge"
+      ]
+    },
+    "token-name": {
+      "type": "Heading",
+      "props": {
+        "text": "SYN",
+        "level": "h2"
+      }
+    },
+    "signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "score-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "10/10",
+        "variant": "default"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "price-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-price",
+        "stat-24h",
+        "stat-7d"
+      ]
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.43"
+      }
+    },
+    "stat-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+30.2%",
+        "trend": "up"
+      }
+    },
+    "stat-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+276.4%",
+        "trend": "up"
+      }
+    },
+    "market-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-mcap",
+        "stat-vol",
+        "stat-vol-mcap"
+      ]
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$95M"
+      }
+    },
+    "stat-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$172M"
+      }
+    },
+    "stat-vol-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap Ratio",
+        "value": "1.80"
+      }
+    },
+    "score-breakdown-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "score-label",
+        "score-components"
+      ]
+    },
+    "score-label": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown:",
+        "variant": "lead"
+      }
+    },
+    "score-components": {
+      "type": "Text",
+      "props": {
+        "text": "trending +2, vol/mcap +3, RS vs BTC/ETH +2, 24h>0 +1, 7d>0 +1, both>5% +2 = 10/10",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "catalyst-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-heading",
+        "catalyst-text"
+      ]
+    },
+    "catalyst-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "Low-float cross-chain bridge token caught in broad DeFi risk-on bid + short squeeze; no confirmed fundamental catalyst; 918% from ATL in 12 days; CG trending #1 confirmed on Ethereum SushiSwap/Uniswap V3",
+        "variant": "body"
+      }
+    },
+    "risk-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Bitget delisting overhang still unresolved; zero holder revenue / stagnant protocol fundamentals; vol/mcap 1.80 = exhaustion risk once short covering ends — tail risk is violent reversal",
+        "type": "warning"
+      }
+    },
+    "comparison-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "comparison-label",
+        "comparison-text"
+      ]
+    },
+    "comparison-label": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks:",
+        "variant": "lead"
+      }
+    },
+    "comparison-text": {
+      "type": "Text",
+      "props": {
+        "text": "first time (SYN not in 7-day dedup)",
+        "variant": "body"
+      }
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-label",
+        "sources-text"
+      ]
+    },
+    "sources-label": {
+      "type": "Text",
+      "props": {
+        "text": "Sources:",
+        "variant": "lead"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=ok, poly=ok",
+        "variant": "body"
+      }
+    },
+    "disclaimer-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Disclaimer",
+        "message": "not financial advice — pattern-matching only",
+        "type": "info"
+      }
+    }
+  }
+}
