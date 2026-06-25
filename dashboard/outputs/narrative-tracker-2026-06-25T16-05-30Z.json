@@ -1,0 +1,880 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-06-25"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions-heading",
+        "transitions-stack",
+        "sep1",
+        "reflexivity-heading",
+        "reflexivity-stack",
+        "sep2",
+        "positions-heading",
+        "positions-grid",
+        "sep3",
+        "map-heading",
+        "map-stack"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transitions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transition-eigen",
+        "transition-ena",
+        "transition-defi"
+      ]
+    },
+    "transition-eigen": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t-eigen-badge",
+        "t-eigen-text"
+      ]
+    },
+    "t-eigen-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED: Rising → Fading",
+        "variant": "destructive"
+      }
+    },
+    "t-eigen-text": {
+      "type": "Text",
+      "props": {
+        "text": "EigenCloud (EIGEN) −9.5% today (day 3 consecutive), Jul 1 unlock 6 days away ($8.48M, 2% supply). Trim window closed; strength never materialized. FRONT-RUN → FADE"
+      }
+    },
+    "transition-ena": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t-ena-badge",
+        "t-ena-text"
+      ]
+    },
+    "t-ena-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED: RIDE → FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "t-ena-text": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins/ENA — ENA Symbiotic restaking launches Jun 26 (tomorrow); pre-catalyst window closes today. Fee switch Q3 + 3 TradFi anchors (JH + Coinbase Ventures + Grayscale)"
+      }
+    },
+    "transition-defi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t-defi-badge",
+        "t-defi-text"
+      ]
+    },
+    "t-defi-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW: Emerging",
+        "variant": "secondary"
+      }
+    },
+    "t-defi-text": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Sector Rotation — AAVE +6.1% on −4.0% median day; MORPHO +2.1%; COMP −9.1%. Grayscale $175 AAVE target + V4 audit. Within-sector rotation: lending/yield > governance tokens"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-eigen",
+        "alert-ena",
+        "alert-pred"
+      ]
+    },
+    "alert-eigen": {
+      "type": "Alert",
+      "props": {
+        "title": "EigenCloud",
+        "message": "LOOP INTERRUPT: Jul 1 unlock + day-3 decline = narrative→price loop broken. Pre-product + supply overhang = position reversed",
+        "type": "warning"
+      }
+    },
+    "alert-ena": {
+      "type": "Alert",
+      "props": {
+        "title": "ENA Restaking (NEW)",
+        "message": "Jun 26 launch → ENA yield sink → demand → TradFi loop. Pre-catalyst closes today",
+        "type": "info"
+      }
+    },
+    "alert-pred": {
+      "type": "Alert",
+      "props": {
+        "title": "Prediction Markets (ONGOING)",
+        "message": "436→398 WC markets in 2 days. Volume concentrating. Event cliff 25 days (Jul 19 final)",
+        "type": "info"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos-1-ena",
+        "pos-2-aiagent",
+        "pos-3-aiinfra",
+        "pos-4-predmarkets",
+        "pos-5-base",
+        "pos-6-eigen",
+        "pos-7-hyperliquid",
+        "pos-8-memecoin",
+        "pos-9-defi-watch",
+        "pos-10-rwa-watch",
+        "pos-11-attention-watch"
+      ]
+    },
+    "pos-1-ena": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p1-header",
+        "p1-detail"
+      ]
+    },
+    "p1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p1-badge",
+        "p1-rating",
+        "p1-sentiment"
+      ]
+    },
+    "p1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN: Stablecoins/ENA",
+        "variant": "default"
+      }
+    },
+    "p1-rating": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑↑",
+        "variant": "secondary"
+      }
+    },
+    "p1-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "p1-detail": {
+      "type": "Text",
+      "props": {
+        "text": "@EthenaLabs + @SymbioticFi + Grayscale — bear: 95% drawdown limits size — restaking tomorrow"
+      }
+    },
+    "pos-2-aiagent": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p2-header",
+        "p2-detail"
+      ]
+    },
+    "p2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p2-badge",
+        "p2-rating",
+        "p2-sentiment"
+      ]
+    },
+    "p2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: AI Agent Payments",
+        "variant": "secondary"
+      }
+    },
+    "p2-rating": {
+      "type": "Badge",
+      "props": {
+        "text": "5 →",
+        "variant": "secondary"
+      }
+    },
+    "p2-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "p2-detail": {
+      "type": "Text",
+      "props": {
+        "text": "x402 480K agents, weekly vol 548K→2M txns — EU AI Act Aug 2"
+      }
+    },
+    "pos-3-aiinfra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p3-header",
+        "p3-detail"
+      ]
+    },
+    "p3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p3-badge",
+        "p3-rating",
+        "p3-sentiment"
+      ]
+    },
+    "p3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: AI Crypto Infrastructure",
+        "variant": "secondary"
+      }
+    },
+    "p3-rating": {
+      "type": "Badge",
+      "props": {
+        "text": "5 →",
+        "variant": "secondary"
+      }
+    },
+    "p3-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "p3-detail": {
+      "type": "Text",
+      "props": {
+        "text": "TAO/RENDER/FET + a16z — $25B cap ceiling"
+      }
+    },
+    "pos-4-predmarkets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p4-header",
+        "p4-detail"
+      ]
+    },
+    "p4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p4-badge",
+        "p4-rating",
+        "p4-sentiment"
+      ]
+    },
+    "p4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: Prediction Markets",
+        "variant": "secondary"
+      }
+    },
+    "p4-rating": {
+      "type": "Badge",
+      "props": {
+        "text": "5 →",
+        "variant": "secondary"
+      }
+    },
+    "p4-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "p4-detail": {
+      "type": "Text",
+      "props": {
+        "text": "@Kalshi/$6.7B + @Polymarket/398 WC markets — exit Jul 19 firm"
+      }
+    },
+    "pos-5-base": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p5-header",
+        "p5-detail"
+      ]
+    },
+    "p5-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p5-badge",
+        "p5-rating",
+        "p5-sentiment"
+      ]
+    },
+    "p5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: Base Ecosystem",
+        "variant": "secondary"
+      }
+    },
+    "p5-rating": {
+      "type": "Badge",
+      "props": {
+        "text": "4 →",
+        "variant": "secondary"
+      }
+    },
+    "p5-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "p5-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Circle Arc + x402 + Aerodrome — native token unconfirmed"
+      }
+    },
+    "pos-6-eigen": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p6-header",
+        "p6-detail"
+      ]
+    },
+    "p6-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p6-badge",
+        "p6-rating",
+        "p6-sentiment"
+      ]
+    },
+    "p6-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE: EigenCloud/EIGEN",
+        "variant": "destructive"
+      }
+    },
+    "p6-rating": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↓",
+        "variant": "secondary"
+      }
+    },
+    "p6-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed→Bear",
+        "variant": "destructive"
+      }
+    },
+    "p6-detail": {
+      "type": "Text",
+      "props": {
+        "text": "−9.5% day 3; unlock 6 days — trim/exit before Jun 30"
+      }
+    },
+    "pos-7-hyperliquid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p7-header",
+        "p7-detail"
+      ]
+    },
+    "p7-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p7-badge",
+        "p7-rating",
+        "p7-sentiment"
+      ]
+    },
+    "p7-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE: Hyperliquid/Perp DEXs",
+        "variant": "destructive"
+      }
+    },
+    "p7-rating": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↓↓",
+        "variant": "secondary"
+      }
+    },
+    "p7-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear",
+        "variant": "destructive"
+      }
+    },
+    "p7-detail": {
+      "type": "Text",
+      "props": {
+        "text": "day 6 post-trigger; absent from winners on volatile day"
+      }
+    },
+    "pos-8-memecoin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p8-header",
+        "p8-detail"
+      ]
+    },
+    "p8-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p8-badge",
+        "p8-rating",
+        "p8-sentiment"
+      ]
+    },
+    "p8-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE: Memecoin Launchpads",
+        "variant": "destructive"
+      }
+    },
+    "p8-rating": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↓↓",
+        "variant": "secondary"
+      }
+    },
+    "p8-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Cope",
+        "variant": "outline"
+      }
+    },
+    "p8-detail": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP −12.3% today, accelerating"
+      }
+    },
+    "pos-9-defi-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p9-header",
+        "p9-detail"
+      ]
+    },
+    "p9-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p9-badge",
+        "p9-rating",
+        "p9-sentiment"
+      ]
+    },
+    "p9-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH: DeFi Sector Rotation",
+        "variant": "outline"
+      }
+    },
+    "p9-rating": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑",
+        "variant": "secondary"
+      }
+    },
+    "p9-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "secondary"
+      }
+    },
+    "p9-detail": {
+      "type": "Text",
+      "props": {
+        "text": "AAVE/MORPHO vs COMP; needs 2nd day confirmation"
+      }
+    },
+    "pos-10-rwa-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p10-header",
+        "p10-detail"
+      ]
+    },
+    "p10-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p10-badge",
+        "p10-rating",
+        "p10-sentiment"
+      ]
+    },
+    "p10-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH: RWA Tokenization",
+        "variant": "outline"
+      }
+    },
+    "p10-rating": {
+      "type": "Badge",
+      "props": {
+        "text": "5 →",
+        "variant": "secondary"
+      }
+    },
+    "p10-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "p10-detail": {
+      "type": "Text",
+      "props": {
+        "text": "no new catalyst"
+      }
+    },
+    "pos-11-attention-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p11-header",
+        "p11-detail"
+      ]
+    },
+    "p11-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "p11-badge",
+        "p11-rating",
+        "p11-sentiment"
+      ]
+    },
+    "p11-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH: Attention Markets/InfoFi",
+        "variant": "outline"
+      }
+    },
+    "p11-rating": {
+      "type": "Badge",
+      "props": {
+        "text": "3 →",
+        "variant": "secondary"
+      }
+    },
+    "p11-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "p11-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito evolving; no new signal"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-h",
+        "map-emerging-text"
+      ]
+    },
+    "map-emerging-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h4"
+      }
+    },
+    "map-emerging-text": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Sector Rotation, AI Agent Security"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-h",
+        "map-rising-text"
+      ]
+    },
+    "map-rising-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h4"
+      }
+    },
+    "map-rising-text": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins/ENA, Base Ecosystem, Attention Markets/InfoFi"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-h",
+        "map-peak-text"
+      ]
+    },
+    "map-peak-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h4"
+      }
+    },
+    "map-peak-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments, AI Crypto Infrastructure, Prediction Markets, RWA Tokenization"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-h",
+        "map-fading-text"
+      ]
+    },
+    "map-fading-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h4"
+      }
+    },
+    "map-fading-text": {
+      "type": "Text",
+      "props": {
+        "text": "EigenCloud, Hyperliquid, Memecoin Launchpads, Privacy/ZK"
+      }
+    }
+  }
+}
