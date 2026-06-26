@@ -1,22 +1,22 @@
-*Morning Brief — 2026-06-25*
+*Morning Brief — 2026-06-26*
 
 *Focus today*
-1. EIGEN trim — why now: 6 days to Jul 1 unlock; $9.51M supply at open
-2. ENA restaking pool — why now: Jun 26 launch tomorrow; pre-catalyst window closes today
-3. token-movers degradation — background: chronic 66% success rate; no active fix in queue
+1. ENA restaking live on Symbiotic — pools open now; fee switch Q3 catalyst still ahead
+2. EIGEN FADE — 5 days to Jul 1 unlock ($8.48M, 2% supply); exit window closing
+3. DeFi rotation confirmation — today's AAVE/MORPHO price action upgrades WATCH to signal or kills it
 
 *Since yesterday*
-- token-pick recovered: AAVE 8/10 tier HIGH (+2.49% 24h vs BTC −6.11% 7d)
-- narrative-tracker: XAI 403 day 25 (no credits) — WebSearch fallback holding
-- security-digest: Ubiquiti KEV patch due Jun 26; Budibase npm CVSS 10.0 (5 advisories)
-- AERO Jun 25 unlock confirmed trivial — ~1 AERO rebase, no supply event
+- [moved] ENA/Symbiotic pools opened as predicted (Jun 26); 30× ENA staking points + Symbiotic/Mellow/LayerZero RFP rewards live
+- [moved] EIGEN ~$0.25 (day 4 consecutive decline); Jul 1 unlock 5 days out; FADE confirmed
+- [moved] token-pick: SYN HIGH 10/10 (+30.2% 24h); no market pick (no edge ≥5pp)
+- [stuck] token-movers 0.67 / security-digest 0.72 / token-pick 0.75 — all below 0.8; no fix queued
 
 *Watch*
-- EIGEN Jul 1 unlock: 36.82M tokens ($9.51M, 2% supply) confirmed, investors + early contributors — firms trim-before-Jun-30 (focus #1)
-- ENA restaking pool Jun 26 + fee switch Q3 approaching — $500M buyback potential, 3 TradFi anchors (focus #2)
+- ENA Symbiotic restaking live with point multipliers — monitor ENA spot for front-run price reaction → focus #1
+- EIGEN at $0.25, well below Jun 23 high of $0.2943 — failure to reclaim = accelerated FADE into unlock → focus #2
 
 *Running today*
-- heartbeat @ 08:00/14:00/20:00 UTC
+- heartbeat @ 08:00 / 14:00 / 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
