@@ -23,9 +23,9 @@
   },
   "morning-brief": {
     "last_status": "success",
-    "last_success": "2026-06-25T10:14:20Z",
-    "total_runs": 29,
-    "total_successes": 28,
+    "last_success": "2026-06-26T10:16:08Z",
+    "total_runs": 30,
+    "total_successes": 29,
     "total_failures": 1,
     "consecutive_failures": 0,
     "success_rate": 0.97,
