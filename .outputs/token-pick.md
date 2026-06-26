@@ -1,11 +1,11 @@
-*Daily Pick — 2026-06-25*
+*Daily Pick — 2026-06-26*
 
-*Token: SYN*  [HIGH]  signal 10/10
-Price: $0.43 (+30.2% 24h / +276.4% 7d) | mcap $95M | vol $172M (vol/mcap 1.80)
-Score breakdown: [trending+2, vol/mcap+3, RS vs BTC/ETH+2, 24h>0+1, 7d>0+1, both>5%+2] = 10/10
-Catalyst: Low-float cross-chain bridge token caught in broad DeFi risk-on bid + short squeeze; no confirmed fundamental catalyst; 918% from ATL in 12 days; CG trending #1 confirmed on Ethereum SushiSwap/Uniswap V3
-Risk: Bitget delisting overhang still unresolved; zero holder revenue / stagnant protocol fundamentals; vol/mcap 1.80 = exhaustion risk once short covering ends — tail risk is violent reversal
-Vs recent picks: first time (SYN not in 7-day dedup)
+*Token: LIT*  [HIGH]  signal 10/10
+Price: $1.74 (+9.2% 24h / +12.2% 7d) | mcap $435M | vol $46M (vol/mcap 0.11)
+Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, cg-trending+2, vol/mcap+2, RS vs BTC/ETH+2] = 10/10
+Catalyst: Circle $920M USDC revenue-share deal (May 2026) — first time the Coinbase-on-USDC yield model applied to a perp DEX — giving Lighter structural income; DeFi rotation confirmed today (AAVE +10.6%), LIT running second.
+Risk: Circle deal is ~1 month old, may be priced in; perp DEX sector has HYPE-FADE narrative drag (LIT ≠ HYPE but sector headwind real); 30d volume down from $292B peak to $8.7B/7d (market share compression).
+Vs recent picks: First time picked.
 
 sources: cg=ok, dex=ok, poly=ok
 not financial advice — pattern-matching only

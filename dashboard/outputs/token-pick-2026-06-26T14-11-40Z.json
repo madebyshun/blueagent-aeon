@@ -1,0 +1,254 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-26"
+      },
+      "children": [
+        "token_header",
+        "price_section",
+        "score_section",
+        "catalyst_section",
+        "risk_section",
+        "vs_section",
+        "sources_section",
+        "disclaimer"
+      ]
+    },
+    "token_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token_name",
+        "signal_badge",
+        "score_badge"
+      ]
+    },
+    "token_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: LIT",
+        "level": "h2"
+      }
+    },
+    "signal_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "score_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Signal 10/10",
+        "variant": "default"
+      }
+    },
+    "price_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price_stat",
+        "change_24h",
+        "change_7d",
+        "mcap_stat",
+        "vol_stat",
+        "vol_mcap_stat"
+      ]
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$1.74"
+      }
+    },
+    "change_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+9.2%",
+        "trend": "up"
+      }
+    },
+    "change_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+12.2%",
+        "trend": "up"
+      }
+    },
+    "mcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$435M"
+      }
+    },
+    "vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$46M"
+      }
+    },
+    "vol_mcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/MCap Ratio",
+        "value": "0.11"
+      }
+    },
+    "score_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score_heading",
+        "score_breakdown_text"
+      ]
+    },
+    "score_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      }
+    },
+    "score_breakdown_text": {
+      "type": "Text",
+      "props": {
+        "text": "24h>0 (+1) | 7d>0 (+1) | both>5% (+2) | cg-trending (+2) | vol/mcap (+2) | RS vs BTC/ETH (+2) = 10/10",
+        "variant": "caption"
+      }
+    },
+    "catalyst_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst_heading",
+        "catalyst_text"
+      ]
+    },
+    "catalyst_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "Circle $920M USDC revenue-share deal (May 2026) — first time the Coinbase-on-USDC yield model applied to a perp DEX — giving Lighter structural income; DeFi rotation confirmed today (AAVE +10.6%), LIT running second.",
+        "variant": "body"
+      }
+    },
+    "risk_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "risk_heading",
+        "risk_item_1",
+        "risk_item_2"
+      ]
+    },
+    "risk_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      }
+    },
+    "risk_item_1": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Circle deal is ~1 month old, may be priced in"
+      }
+    },
+    "risk_item_2": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Perp DEX sector has HYPE-FADE narrative drag (LIT ≠ HYPE but sector headwind real); 30d volume down from $292B peak to $8.7B/7d (market share compression)"
+      }
+    },
+    "vs_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vs_heading",
+        "vs_text"
+      ]
+    },
+    "vs_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Vs Recent Picks",
+        "level": "h3"
+      }
+    },
+    "vs_text": {
+      "type": "Text",
+      "props": {
+        "text": "First time picked.",
+        "variant": "body"
+      }
+    },
+    "sources_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_heading",
+        "sources_text"
+      ]
+    },
+    "sources_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h3"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=ok, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "disclaimer": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Not financial advice — pattern-matching only"
+      }
+    }
+  }
+}
