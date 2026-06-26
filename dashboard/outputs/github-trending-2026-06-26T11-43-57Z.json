@@ -1,0 +1,385 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-06-26"
+      },
+      "children": [
+        "top-pick-section",
+        "sep1",
+        "ai-section",
+        "sep2",
+        "devtools-section",
+        "sep3",
+        "infra-section",
+        "sep4",
+        "footer"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-label",
+        "top-pick-item"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "top-pick-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top-pick-link",
+        "top-pick-desc"
+      ]
+    },
+    "top-pick-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Panniantong/Agent-Reach",
+        "href": "https://github.com/Panniantong/Agent-Reach"
+      }
+    },
+    "top-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Solves the biggest AI agent friction point: free internet read/search across Twitter, Reddit, YouTube, and GitHub with zero API credentials or rate-limit exposure.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "ai-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-heading",
+        "ai-repo1",
+        "ai-repo2"
+      ]
+    },
+    "ai-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "ai-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai1-link",
+        "ai1-desc",
+        "ai1-meta"
+      ]
+    },
+    "ai1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Panniantong/Agent-Reach",
+        "href": "https://github.com/Panniantong/Agent-Reach"
+      }
+    },
+    "ai1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Single CLI gives any AI agent access to Twitter, Reddit, YouTube, GitHub — no API keys, no auth setup, no rate-limit fees.",
+        "variant": "body"
+      }
+    },
+    "ai1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai1-stat",
+        "ai1-lang",
+        "ai1-status"
+      ]
+    },
+    "ai1-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "★ today",
+        "value": "1,547",
+        "delta": "41.8k total"
+      }
+    },
+    "ai1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "ai1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "ai-repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai2-link",
+        "ai2-desc",
+        "ai2-meta"
+      ]
+    },
+    "ai2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "xbtlin/ai-berkshire",
+        "href": "https://github.com/xbtlin/ai-berkshire"
+      }
+    },
+    "ai2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Claude Code skills collection encoding Buffett/Munger/Duan methodology — live 2024 +69% track record makes this more than a toy.",
+        "variant": "body"
+      }
+    },
+    "ai2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai2-stat",
+        "ai2-lang",
+        "ai2-status"
+      ]
+    },
+    "ai2-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "★ today",
+        "value": "309",
+        "delta": "2.8k total"
+      }
+    },
+    "ai2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "ai2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-repo1"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools1-link",
+        "devtools1-desc",
+        "devtools1-meta"
+      ]
+    },
+    "devtools1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "kunchenguid/no-mistakes",
+        "href": "https://github.com/kunchenguid/no-mistakes"
+      }
+    },
+    "devtools1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Routes git push through a disposable worktree where AI reviews, tests, and auto-fixes your code — nothing reaches origin until every check passes.",
+        "variant": "body"
+      }
+    },
+    "devtools1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools1-stat",
+        "devtools1-lang",
+        "devtools1-status"
+      ]
+    },
+    "devtools1-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "★ today",
+        "value": "996",
+        "delta": "3.1k total"
+      }
+    },
+    "devtools1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "secondary"
+      }
+    },
+    "devtools1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "infra-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra-heading",
+        "infra-repo1"
+      ]
+    },
+    "infra-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infra-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra1-link",
+        "infra1-desc",
+        "infra1-meta"
+      ]
+    },
+    "infra1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "simplex-chat/simplex-chat",
+        "href": "https://github.com/simplex-chat/simplex-chat"
+      }
+    },
+    "infra1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "v7.0.0-beta.2 dropped today — messaging network with zero user identifiers; no phone numbers, emails, or UIDs by architectural design.",
+        "variant": "body"
+      }
+    },
+    "infra1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra1-stat",
+        "infra1-lang",
+        "infra1-status"
+      ]
+    },
+    "infra1-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "★ today",
+        "value": "191",
+        "delta": "11.7k total"
+      }
+    },
+    "infra1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Haskell",
+        "variant": "secondary"
+      }
+    },
+    "infra1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/17",
+        "variant": "caption"
+      }
+    }
+  }
+}
