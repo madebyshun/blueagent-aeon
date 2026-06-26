@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-./notify "$(cat .token_movers_msg.txt)"
+set -euo pipefail
+MSG=$(cat .sec_digest_msg.txt)
+./notify "$MSG"
