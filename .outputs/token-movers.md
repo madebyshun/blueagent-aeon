@@ -1,27 +1,28 @@
-Done. Here's what was executed:
-
 ## Summary
 
-**Data fetched:** CoinGecko top-200 coins by market cap (pages 1–2) + trending endpoint. Both returned live data via curl.
+**token-movers skill executed for 2026-06-26**
 
-**Filters applied:** Stablecoins, gold/silver pegs, money market funds, wrapped tokens, and coins with <$1M 24h volume excluded.
+**Data sources:** CoinGecko markets (top 100 by market cap, curl success) + trending (15 coins via WebFetch)
 
-**Key findings:**
+**Market pulse:** Sharp risk-on reversal — 38/50 filtered top-cap coins green, median +2.6%; contrast from yesterday's −4.0% median
 
-- **Market pulse:** Broad risk-off — only ~10/70 filtered top-cap coins green, median top-50 −4.0%. BTC −4.0% marking day 3 of drawdown.
+**Top 10 Winners:**
+1. MAGMA +61.8% [PUMP-RISK] — rank #214, trending pos 12
+2. BEAT +28.9% [BREAKOUT] — 7d +25.2%, sustained
+3. VVV +12.7%
+4. AAVE +10.5% [TRENDING+UP] — DeFi rotation 2nd day
+5. SOL +8.7% [TRENDING+UP]
+6. M +8.7% — dead-cat bounce from −72% yesterday
+7. LIT +7.8% [TRENDING+UP]
+8. LAB +7.0%
+9. HYPE +6.8% [TRENDING+UP] — reversal from its FADE narrative
+10. POL +6.2%
 
-- **Top winner:** STABLE (+8.4%), SEI (+7.7%), AAVE (+6.1%) [TRENDING+UP]
+**Top 8 Losers** (thin day — most coins positive):
+CARDS −20.1% [TRENDING+DOWN], ALGO −2.7%, BDX −2.6%, NEAR −2.3% [TRENDING+DOWN], ENA −1.6%, HTX −1.2%, TRX −1.1%, SKY −1.1%
 
-- **Top loser:** M (MemeCore) −72.0% [TRENDING+DOWN] — top trending coin in freefall, $33M volume confirms real selling (not a ghost market)
+**Deduped out:** MNT (day 2 same direction), WLD (3rd+ day same direction)
 
-- **Notable signals:**
-  - **CHZ** [CAPITULATION]: vol/mcap ratio 0.26 crossed the 0.25 threshold
-  - **SYN** [PUMP-RISK]: rank #253, +40.8%, day 2 in trending — low-cap pump escalating
-  - **EIGEN**: −9.5% with Jul 1 unlock now 6 days away — supply overhang arriving early
-  - **XPL** [FADE]: anomalous $1.03B volume on $237M market cap (4.3× ratio)
-
-**Files written:**
-- `.pending-notify/token-movers.md` — queued for post-run delivery
-- `memory/logs/2026-06-25.md` — token-movers entry appended
-
-**Deduped:** BEAT, ADI, JUP, VELVET, DEXE (winners); WLD, PEPE, HYPE, QNT, ZEC (losers) — same direction as prior 2 days, no new tags.
+**Files:**
+- Notification queued: `.pending-notify/1782483141.md`
+- Log appended: `memory/logs/2026-06-26.md`
