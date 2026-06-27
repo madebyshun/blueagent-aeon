@@ -1,0 +1,408 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-06-27"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-focus",
+        "sep1",
+        "section-since",
+        "sep2",
+        "section-watch",
+        "sep3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-focus",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-badge-1",
+        "focus-text-1"
+      ]
+    },
+    "focus-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "EIGEN FADE"
+      }
+    },
+    "focus-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "4 days to $8.48M unlock; TVL surge doesn't buffer contributor sell"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-badge-2",
+        "focus-text-2"
+      ]
+    },
+    "focus-badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV Patch Deadline"
+      }
+    },
+    "focus-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "CVE-2026-12569 + CVE-2026-20230 due Jun 28; last day to remediate"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-badge-3",
+        "focus-text-3"
+      ]
+    },
+    "focus-badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "DeFi Rotation Day 3"
+      }
+    },
+    "focus-text-3": {
+      "type": "Text",
+      "props": {
+        "text": "AAVE +8.9% confirms sustained capital flow; LIT/MORPHO in slipstream"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-since",
+        "since-item-1",
+        "since-item-2",
+        "since-item-3",
+        "since-item-4"
+      ]
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-text-1",
+        "since-badge-1"
+      ]
+    },
+    "since-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "ENA Symbiotic pools live Jun 26; ENA −1.6% on +2.6% median — buy-the-rumor-sell-the-news confirmed"
+      }
+    },
+    "since-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN → WATCH",
+        "variant": "destructive"
+      }
+    },
+    "since-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "LIT Circle $920M deal absorbed as new DeFi rotation driver; token-pick Jun 26 score 10/10"
+      }
+    },
+    "since-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "XAI credits: day 27 consecutive 403 — narrative-tracker running on WebSearch fallback, no degradation"
+      }
+    },
+    "since-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "No open PRs or assigned issues"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-watch",
+        "watch-item-1",
+        "watch-item-2"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-badge-1",
+        "watch-text-1"
+      ]
+    },
+    "watch-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "EIGEN TVL"
+      }
+    },
+    "watch-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "+$291M to $4.67B this week despite unlock — TVL strength ≠ price buffer; early contributors (17M EIGEN, $3.93M) + investors (19.75M EIGEN) unlock Jul 1; analyst forecast $0.211 Jul → sharpens FADE"
+      }
+    },
+    "watch-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-badge-2",
+        "watch-text-2"
+      ]
+    },
+    "watch-badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "AAVE Outperformance"
+      }
+    },
+    "watch-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "+8.9% today leading CoinDesk 20 — day 3 outperformance; rotation structurally confirmed, not bounce"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-running",
+        "running-item-1",
+        "running-item-2",
+        "running-item-3",
+        "running-item-4",
+        "running-item-5"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-text-1",
+        "running-time-1"
+      ]
+    },
+    "running-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat"
+      }
+    },
+    "running-time-1": {
+      "type": "Badge",
+      "props": {
+        "text": "08:00/14:00/20:00 UTC",
+        "variant": "secondary"
+      }
+    },
+    "running-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-text-2",
+        "running-time-2"
+      ]
+    },
+    "running-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor"
+      }
+    },
+    "running-time-2": {
+      "type": "Badge",
+      "props": {
+        "text": "09:00 UTC",
+        "variant": "secondary"
+      }
+    },
+    "running-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-text-3",
+        "running-time-3"
+      ]
+    },
+    "running-text-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers"
+      }
+    },
+    "running-time-3": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "secondary"
+      }
+    },
+    "running-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-text-4",
+        "running-time-4"
+      ]
+    },
+    "running-text-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick"
+      }
+    },
+    "running-time-4": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "secondary"
+      }
+    },
+    "running-item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-text-5",
+        "running-time-5"
+      ]
+    },
+    "running-text-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker"
+      }
+    },
+    "running-time-5": {
+      "type": "Badge",
+      "props": {
+        "text": "13:30 UTC",
+        "variant": "secondary"
+      }
+    }
+  }
+}
