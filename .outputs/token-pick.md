@@ -1,11 +1,13 @@
-*Daily Pick — 2026-06-26*
+*Daily Pick — 2026-06-27*
 
-*Token: LIT*  [HIGH]  signal 10/10
-Price: $1.74 (+9.2% 24h / +12.2% 7d) | mcap $435M | vol $46M (vol/mcap 0.11)
-Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, cg-trending+2, vol/mcap+2, RS vs BTC/ETH+2] = 10/10
-Catalyst: Circle $920M USDC revenue-share deal (May 2026) — first time the Coinbase-on-USDC yield model applied to a perp DEX — giving Lighter structural income; DeFi rotation confirmed today (AAVE +10.6%), LIT running second.
-Risk: Circle deal is ~1 month old, may be priced in; perp DEX sector has HYPE-FADE narrative drag (LIT ≠ HYPE but sector headwind real); 30d volume down from $292B peak to $8.7B/7d (market share compression).
-Vs recent picks: First time picked.
+*Token: GRASS*  HIGH  signal 10/10
+Price: $0.51 (+18.8% 24h / +22.0% 7d) | mcap $312M | vol $33M (vol/mcap 0.11)
+Score breakdown: [24h>0 +1, 7d>0 +1, both>5% +2, CG trending +2, vol/mcap≥0.10 +2, RS vs BTC(-5.2%)/ETH(-8.2%) 7d +2] = 10/10
+Catalyst: July 7 community call to unlock Season 2 airdrop mechanics for the confirmed 170M token pool (Polychain + Tribe Capital $10M round, 8.5M users) — plus Canadian PM Carney's warning on US AI centralization risks driving fresh demand into decentralized AI data networks
+Risk: July 7 eligibility reveal could disappoint (tighter criteria than expected → airdrop recipient dump before unlock completes)
+Vs recent picks: first time in 7+ days
 
-sources: cg=ok, dex=ok, poly=ok
+*Market: no pick today*
+Best candidate: Argentina WC winner NO (Polymarket 18.65%, bookmaker consensus ~14-16%) — edge ~3.5-4.7pp, below 5pp MEDIUM floor; no other market cleared the gate
+sources: cg=ok, dex=not checked, poly=ok
 not financial advice — pattern-matching only

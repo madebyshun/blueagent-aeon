@@ -1,0 +1,244 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-27"
+      },
+      "children": [
+        "section_grass"
+      ]
+    },
+    "section_grass": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_grass",
+        "stack_grass_header",
+        "text_score",
+        "text_catalyst",
+        "alert_risk",
+        "text_recent",
+        "separator_1",
+        "heading_market",
+        "text_no_pick",
+        "stack_market_details",
+        "text_sources",
+        "text_disclaimer"
+      ]
+    },
+    "heading_grass": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: GRASS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_grass_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_high",
+        "stat_signal",
+        "stat_price",
+        "stat_mcap",
+        "stat_vol",
+        "text_vol_ratio"
+      ]
+    },
+    "badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stat_signal": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "10/10"
+      },
+      "children": []
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.51",
+        "delta": "+18.8% (24h) / +22.0% (7d)",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$312M"
+      },
+      "children": []
+    },
+    "stat_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$33M"
+      },
+      "children": []
+    },
+    "text_vol_ratio": {
+      "type": "Text",
+      "props": {
+        "text": "Vol/Mcap ratio: 0.11",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [24h>0 +1, 7d>0 +1, both>5% +2, CG trending +2, vol/mcap≥0.10 +2, RS vs BTC(-5.2%)/ETH(-8.2%) 7d +2] = 10/10",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: July 7 community call to unlock Season 2 airdrop mechanics for the confirmed 170M token pool (Polychain + Tribe Capital $10M round, 8.5M users) — plus Canadian PM Carney's warning on US AI centralization risks driving fresh demand into decentralized AI data networks",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "July 7 eligibility reveal could disappoint (tighter criteria than expected → airdrop recipient dump before unlock completes)",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "text_recent": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time in 7+ days",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_no_pick": {
+      "type": "Text",
+      "props": {
+        "text": "No pick today",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack_market_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_best_candidate",
+        "stat_polymarket",
+        "text_bookmaker",
+        "text_edge",
+        "text_threshold",
+        "text_no_market"
+      ]
+    },
+    "text_best_candidate": {
+      "type": "Text",
+      "props": {
+        "text": "Best candidate: Argentina WC winner NO",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat_polymarket": {
+      "type": "Stat",
+      "props": {
+        "label": "Polymarket",
+        "value": "18.65%"
+      },
+      "children": []
+    },
+    "text_bookmaker": {
+      "type": "Text",
+      "props": {
+        "text": "Bookmaker consensus: ~14-16%",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_edge": {
+      "type": "Text",
+      "props": {
+        "text": "Edge: ~3.5-4.7pp",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_threshold": {
+      "type": "Text",
+      "props": {
+        "text": "Below 5pp MEDIUM floor — no other market cleared the gate",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text_no_market": {
+      "type": "Text",
+      "props": {
+        "text": " ",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=not checked, poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
