@@ -1,0 +1,282 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-27",
+        "description": "Lean day — 14/17 repos were dedup or noise. Two picks cleared the bar."
+      },
+      "children": [
+        "top_pick_section",
+        "sep1",
+        "devtools_section",
+        "sep2",
+        "ai_ml_section",
+        "sep3",
+        "sources"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_heading",
+        "top_pick_content"
+      ]
+    },
+    "top_pick_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "top_pick_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "design_md_link_top",
+        "top_pick_desc"
+      ]
+    },
+    "design_md_link_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google-labs-code/design.md",
+        "href": "https://github.com/google-labs-code/design.md",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "top_pick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Still pulling 2.4k★/day 12 days after launch — a machine-readable visual identity spec coding agents can consume directly, solving the \"AI rebuilt the UI and ignored the design system\" problem.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "devtools_repo"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "devtools_repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "design_md_link_dev",
+        "design_md_meta_dev",
+        "design_md_desc_dev"
+      ]
+    },
+    "design_md_link_dev": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google-labs-code/design.md",
+        "href": "https://github.com/google-labs-code/design.md",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "design_md_meta_dev": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "design_md_today",
+        "design_md_total",
+        "design_md_lang",
+        "design_md_status"
+      ]
+    },
+    "design_md_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "2,407★"
+      },
+      "children": []
+    },
+    "design_md_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "21.9k"
+      },
+      "children": []
+    },
+    "design_md_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      },
+      "children": []
+    },
+    "design_md_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "design_md_desc_dev": {
+      "type": "Text",
+      "props": {
+        "text": "Machine-readable brand spec (colors, fonts, spacing) any coding agent reads natively — closes the AI-generated-UI-breaks-your-design-system gap.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "ai_ml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai_ml_heading",
+        "aws_agent_repo"
+      ]
+    },
+    "ai_ml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "aws_agent_repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aws_agent_link",
+        "aws_agent_meta",
+        "aws_agent_desc"
+      ]
+    },
+    "aws_agent_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "aws/agent-toolkit-for-aws",
+        "href": "https://github.com/aws/agent-toolkit-for-aws",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "aws_agent_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aws_today",
+        "aws_total",
+        "aws_lang",
+        "aws_status"
+      ]
+    },
+    "aws_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "243★"
+      },
+      "children": []
+    },
+    "aws_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "1.4k"
+      },
+      "children": []
+    },
+    "aws_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      },
+      "children": []
+    },
+    "aws_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING†",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "aws_agent_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Official AWS MCP server aggregator — one package gives your agent authenticated access to Bedrock, S3, Lambda, and 10+ AWS services.\n\n†judgment: lifetime avg 22★/day (<50 threshold), but 243★ today = 11× spike on active push Jun 26",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 2/17",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

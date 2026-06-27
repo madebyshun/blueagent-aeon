@@ -1,22 +1,19 @@
-*GitHub Trending — 2026-06-26*
+*GitHub Trending — 2026-06-27*
 
-*Top pick* — [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)
-Solves the biggest AI agent friction point: free internet read/search across Twitter, Reddit, YouTube, and GitHub with zero API credentials or rate-limit exposure.
+Lean day — 14/17 repos were dedup or noise. Two picks cleared the bar.
 
-*AI/ML*
-• [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) — ★ 1,547 today (41.8k total) · Python · [ACCELERATING]
-Single CLI gives any AI agent access to Twitter, Reddit, YouTube, GitHub — no API keys, no auth setup, no rate-limit fees.
-
-• [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) — ★ 309 today (2.8k total) · Python · [ACCELERATING]
-Claude Code skills collection encoding Buffett/Munger/Duan methodology — live 2024 +69% track record makes this more than a toy.
+*Top pick* — [google-labs-code/design.md](https://github.com/google-labs-code/design.md)
+Still pulling 2.4k★/day 12 days after launch — a machine-readable visual identity spec coding agents can consume directly, solving the "AI rebuilt the UI and ignored the design system" problem.
 
 *Devtools*
-• [kunchenguid/no-mistakes](https://github.com/kunchenguid/no-mistakes) — ★ 996 today (3.1k total) · Go · [ACCELERATING]
-Routes git push through a disposable worktree where AI reviews, tests, and auto-fixes your code — nothing reaches origin until every check passes.
+• [google-labs-code/design.md](https://github.com/google-labs-code/design.md) — ★ 2,407 today (21.9k total) · TypeScript · [ACCELERATING]
+Machine-readable brand spec (colors, fonts, spacing) any coding agent reads natively — closes the AI-generated-UI-breaks-your-design-system gap.
 
-*Infra*
-• [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) — ★ 191 today (11.7k total) · Haskell · [RETURNING]
-v7.0.0-beta.2 dropped today — messaging network with zero user identifiers; no phone numbers, emails, or UIDs by architectural design.
+*AI/ML*
+• [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws) — ★ 243 today (1.4k total) · Python · [ACCELERATING†]
+Official AWS MCP server aggregator — one package gives your agent authenticated access to Bedrock, S3, Lambda, and 10+ AWS services.
+
+†judgment: lifetime avg 22★/day (<50 threshold), but 243★ today = 11× spike on active push Jun 26
 
 ---
-sources: trending=ok · gh_api=ok · kept 4/17
+sources: trending=ok · gh_api=ok · kept 2/17
