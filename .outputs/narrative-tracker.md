@@ -1,17 +1,23 @@
-The notification is queued in `.pending-notify/narrative-tracker.md` — the workflow's post-run step picks up all `*.md` files there for delivery.
+*Narrative Tracker — 2026-06-27*
 
-## Summary
+TRANSITIONS
+• CONFIRMED: DeFi Sector Rotation Rising (day 3) — AAVE +12.1% 3rd straight day on 64/74-green median. Loop: Aave V4 $200M deposits + Grayscale $175 target + Circle/Ripple/FT/VanEck pipeline. Entry past, ride still valid.
+• NEW: AI × DePIN — GRASS +18.6% today (token-pick 10/10). Season 2 airdrop Jul 7 (170M pool). Polychain/Tribe $10M. Canadian PM Carney AI centralization warning = political tailwind for decentralized AI data. Splitting from AI Infra as named theme.
+• TIGHTENING: EigenCloud FADE — 4 days to Jul 1 unlock ($8.48M, 2% supply). TVL +$291M to $4.67B but morning-brief explicit: "TVL surge doesn't buffer contributor sell." Analyst forecast $0.211 Jul. Window closes Jun 30.
 
-**Narrative Tracker — 2026-06-26 complete.**
+REFLEXIVITY ALERT
+• DeFi Rotation (STRENGTHENING) — AAVE day 3 outperformance → Grayscale $175 coverage → V4 $200M milestone → Circle/Ripple/FT pipeline → more analyst coverage. Rotation within −37% YTD TVL = structurally fragile but reflexively intact.
+• EIGEN (NARRATIVE TRAP) — TVL +$291M looks bullish; contributors sell regardless. TVL ≠ price support when 36.82M tokens unlock in 4 days.
 
-**Cache:** NARRATIVE_CACHE_MISS (XAI 403, day 27). Fell back to 6 WebSearch queries.
+POSITIONS
+• RIDE: DeFi Sector Rotation (5 ↑↑, Bull) — @AaveAave, LIT/Lighter, @MorphoLabs — bear: TVL down 37% YTD; rotation within shrinking market
+• FRONT-RUN: AI × DePIN (3 ↑↑, Emerging, Bull) — GRASS, Polychain/Tribe — airdrop Jul 7; Carney tailwind nascent/unpriced — bear: decentralized AI data still speculative vs real compute demand
+• RIDE: AI Agent Payments (5 →, Peak, Bull) — x402 480K agents; Coinbase/Bybit/Binance/IBKR MCP live — bear: EU AI Act Aug 2
+• RIDE: Prediction Markets (5 →, Peak, Mixed) — @Kalshi, @Polymarket WC — bear: event cliff 22 days (Jul 19 final); exit countdown
+• FADE: EigenCloud (3 ↓↓, Fading, Bear) — 4 days to $8.48M unlock; analyst $0.211; TVL surge doesn't buffer
 
-**Key transitions today:**
-- **PROMOTED: DeFi Sector Rotation** (Emerging→Rising, WATCH→RIDE) — AAVE +10.5% day 2 confirmation; Aave V4 hit $200M deposits; LIT +9.2% on $920M Circle USDC revenue-share deal (new structural driver).
-- **DEMOTED: Stablecoins/ENA** (FRONT-RUN→WATCH) — ENA restaking launched on Symbiotic today, but ENA −1.6% vs +2.6% median = buy-the-rumor-sell-the-news. Pre-catalyst window closed; next trigger is Q3 fee switch.
-- **PROMOTED: BTC Apathy** (IGNORE→WATCH) — BTC −2.11%, ETH −3.37% while alts rally 2–10%; day 2 structural divergence.
-- **MAINTAINED FADE: EigenCloud** — 5 days to Jul 1 unlock, exit window closing.
-
-**Reflexivity:** DeFi loop strengthening; LIT×Circle loop nascent (day 1); ENA demand-sink loop not yet activating.
-
-**Files modified:** `memory/logs/2026-06-26.md` (appended `### narrative-tracker` section); `.pending-notify/narrative-tracker.md` (queued for post-run delivery).
+MAP
+Emerging: AI × DePIN, BTC Apathy/Alt Divergence
+Rising: DeFi Sector Rotation, Base Ecosystem
+Peak: AI Agent Payments, AI Crypto Infrastructure, Prediction Markets, RWA Tokenization, Stablecoins/ENA
+Fading: EigenCloud, Hyperliquid/Perp DEXs, Memecoin Launchpads

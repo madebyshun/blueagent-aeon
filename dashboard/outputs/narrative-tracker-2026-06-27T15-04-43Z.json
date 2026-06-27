@@ -1,0 +1,259 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-06-27"
+      },
+      "children": [
+        "transitions_section",
+        "sep_1",
+        "reflexivity_section",
+        "sep_2",
+        "positions_section",
+        "sep_3",
+        "map_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions_heading",
+        "transition_stack"
+      ]
+    },
+    "transitions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transition_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transition_1",
+        "transition_2",
+        "transition_3"
+      ]
+    },
+    "transition_1": {
+      "type": "Text",
+      "props": {
+        "text": "CONFIRMED: DeFi Sector Rotation Rising (day 3) — AAVE +12.1% 3rd straight day on 64/74-green median. Loop: Aave V4 $200M deposits + Grayscale $175 target + Circle/Ripple/FT/VanEck pipeline. Entry past, ride still valid.",
+        "variant": "body"
+      }
+    },
+    "transition_2": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: AI × DePIN — GRASS +18.6% today (token-pick 10/10). Season 2 airdrop Jul 7 (170M pool). Polychain/Tribe $10M. Canadian PM Carney AI centralization warning = political tailwind for decentralized AI data. Splitting from AI Infra as named theme.",
+        "variant": "body"
+      }
+    },
+    "transition_3": {
+      "type": "Text",
+      "props": {
+        "text": "TIGHTENING: EigenCloud FADE — 4 days to Jul 1 unlock ($8.48M, 2% supply). TVL +$291M to $4.67B but morning-brief explicit: \"TVL surge doesn't buffer contributor sell.\" Analyst forecast $0.211 Jul. Window closes Jun 30.",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_heading",
+        "reflexivity_stack"
+      ]
+    },
+    "reflexivity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_1",
+        "reflexivity_2"
+      ]
+    },
+    "reflexivity_1": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Rotation (STRENGTHENING) — AAVE day 3 outperformance → Grayscale $175 coverage → V4 $200M milestone → Circle/Ripple/FT pipeline → more analyst coverage. Rotation within −37% YTD TVL = structurally fragile but reflexively intact.",
+        "variant": "body"
+      }
+    },
+    "reflexivity_2": {
+      "type": "Text",
+      "props": {
+        "text": "EIGEN (NARRATIVE TRAP) — TVL +$291M looks bullish; contributors sell regardless. TVL ≠ price support when 36.82M tokens unlock in 4 days.",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions_heading",
+        "positions_stack"
+      ]
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "position_1",
+        "position_2",
+        "position_3",
+        "position_4",
+        "position_5"
+      ]
+    },
+    "position_1": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: DeFi Sector Rotation (5 ↑↑, Bull) — @AaveAave, LIT/Lighter, @MorphoLabs — bear: TVL down 37% YTD; rotation within shrinking market",
+        "variant": "body"
+      }
+    },
+    "position_2": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN: AI × DePIN (3 ↑↑, Emerging, Bull) — GRASS, Polychain/Tribe — airdrop Jul 7; Carney tailwind nascent/unpriced — bear: decentralized AI data still speculative vs real compute demand",
+        "variant": "body"
+      }
+    },
+    "position_3": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: AI Agent Payments (5 →, Peak, Bull) — x402 480K agents; Coinbase/Bybit/Binance/IBKR MCP live — bear: EU AI Act Aug 2",
+        "variant": "body"
+      }
+    },
+    "position_4": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: Prediction Markets (5 →, Peak, Mixed) — @Kalshi, @Polymarket WC — bear: event cliff 22 days (Jul 19 final); exit countdown",
+        "variant": "body"
+      }
+    },
+    "position_5": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: EigenCloud (3 ↓↓, Fading, Bear) — 4 days to $8.48M unlock; analyst $0.211; TVL surge doesn't buffer",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_heading",
+        "map_stack"
+      ]
+    },
+    "map_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging: AI × DePIN, BTC Apathy/Alt Divergence",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Text",
+      "props": {
+        "text": "Rising: DeFi Sector Rotation, Base Ecosystem",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Text",
+      "props": {
+        "text": "Peak: AI Agent Payments, AI Crypto Infrastructure, Prediction Markets, RWA Tokenization, Stablecoins/ENA",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Text",
+      "props": {
+        "text": "Fading: EigenCloud, Hyperliquid/Perp DEXs, Memecoin Launchpads",
+        "variant": "body"
+      }
+    }
+  }
+}
