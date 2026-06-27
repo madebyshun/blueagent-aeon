@@ -1,28 +1,21 @@
+Temp file cleanup is blocked by sandbox policy — the files will remain but are dot-files that won't interfere. The skill is complete.
+
 ## Summary
 
-**token-movers skill executed for 2026-06-26**
+**Token Movers — Jun 27, 2026** executed successfully.
 
-**Data sources:** CoinGecko markets (top 100 by market cap, curl success) + trending (15 coins via WebFetch)
+**Data fetched:** 250 coins from CoinGecko markets (curl), 15 trending coins (WebFetch). 181 coins passed stablecoin/wrapped/volume filters.
 
-**Market pulse:** Sharp risk-on reversal — 38/50 filtered top-cap coins green, median +2.6%; contrast from yesterday's −4.0% median
+**Market pulse:** 64/74 filtered top-100 green, median +2.1% — broad risk-on day 3.
 
-**Top 10 Winners:**
-1. MAGMA +61.8% [PUMP-RISK] — rank #214, trending pos 12
-2. BEAT +28.9% [BREAKOUT] — 7d +25.2%, sustained
-3. VVV +12.7%
-4. AAVE +10.5% [TRENDING+UP] — DeFi rotation 2nd day
-5. SOL +8.7% [TRENDING+UP]
-6. M +8.7% — dead-cat bounce from −72% yesterday
-7. LIT +7.8% [TRENDING+UP]
-8. LAB +7.0%
-9. HYPE +6.8% [TRENDING+UP] — reversal from its FADE narrative
-10. POL +6.2%
+**Key signals found:**
+- **VELVET** [TRENDING+UP] [BREAKOUT]: #96, +121.5% / 7d +199%, trending #1 — sustained mid-cap move
+- **SYRUP** (Maple Finance) [TRENDING+UP] [PUMP-RISK]: #180, +32.4%, trending — verify catalyst
+- **LAB** [TRENDING+DOWN]: #22 ($4.7B cap), −21.7% while trending — largest-cap flush in today's tape
+- **SLX** [BREAKOUT]: #237, +27.7% / 7d +114% — elevated vol/mcap ratio noted
 
-**Top 8 Losers** (thin day — most coins positive):
-CARDS −20.1% [TRENDING+DOWN], ALGO −2.7%, BDX −2.6%, NEAR −2.3% [TRENDING+DOWN], ENA −1.6%, HTX −1.2%, TRX −1.1%, SKY −1.1%
+**Deduped:** AAVE (day 2 same direction +12.1%, same [TRENDING+UP] tag as Jun 26).
 
-**Deduped out:** MNT (day 2 same direction), WLD (3rd+ day same direction)
+**Notification:** Queued in `.pending-notify/1782566317.md` for post-run delivery.
 
-**Files:**
-- Notification queued: `.pending-notify/1782483141.md`
-- Log appended: `memory/logs/2026-06-26.md`
+**Log:** Appended to `memory/logs/2026-06-27.md`.
