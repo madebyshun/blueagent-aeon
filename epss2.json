@@ -1,0 +1,1 @@
+{"status":"OK","status-code":200,"version":"1.0","access":"public","total":2,"offset":0,"limit":100,"data":[{"cve":"CVE-2026-49454","epss":"0.001350000","percentile":"0.033050000","date":"2026-06-28"},{"cve":"CVE-2026-49357","epss":"0.003230000","percentile":"0.240000000","date":"2026-06-28"}]}

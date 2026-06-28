@@ -1,21 +1,17 @@
-The post-run workflow step will deliver the queued notification. The skill execution is complete.
+*Security Digest — 2026-06-28*
+Verdict: nothing urgent today. 0 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
-## Summary
+KEV note: CVE-2026-12569 (PTC Windchill) + CVE-2026-20230 (Cisco UCM) remediation deadline is today — both already in Jun 26 digest; apply patches if not done.
 
-**Security Digest — 2026-06-27**
+*MONITOR*
+- [CVE-2026-48749](https://github.com/advisories/GHSA-2q3f-q5pq-g8wv) — Incus (go) · CVSS 9.9 · EPSS not yet scored · no confirmed patch
+  Malicious container image with rootfs/ symlink achieves arbitrary file read+write on host at image-import time. Sibling cluster (CVE-2026-48750–48769) fixed ≥7.2.0 (Jun 27 digest); API null for this CVE but same release likely covers it.
+  → if not already on ≥7.2.0, upgrade now; reject untrusted image sources.
 
-**Sources consulted:** CISA KEV (curl, 1.5MB, 6 entries in 7-day window), GitHub Advisory API (WebFetch, critical + high last 48h), FIRST EPSS API.
+- [CVE-2026-48713](https://github.com/advisories/GHSA-2933-q333-qg83) — i18next-fs-backend (npm) · CVSS 9.1 · EPSS 0.004 · no fix yet
+  Prototype pollution via crafted missing-key string; server-side Node.js filesystem translation backend. Attacker-controlled locale keys can pollute Object.prototype.
+  → track GHSA-2933-q333-qg83; no patch yet; audit locale key input sources.
 
-**KEV status:** No new additions today. The 6 in-window entries (CVE-2026-12569, CVE-2026-20230 added Jun 25; 4 Ubiquiti/Lantronix added Jun 23) were all previously reported in the Jun 24–26 digests and deduplicated out.
-
-**Tier results:**
-
-| Tier | Count | Lead items |
-|------|-------|------------|
-| PATCH TODAY | 2 | semantic-router supply-chain malware (litellm 1.82.8, credential exfiltration confirmed) + mcp-pinot-server CVSS 10.0 zero-auth MCP access |
-| PATCH THIS WEEK | 5 | incus Go 6-CVE cluster (all CVSS 9.9 → ≥7.2.0), @deepstream/server npm CVSS 9.9, nezhahq/nezha Go CVSS 9.9+9.1, backpropagate pip/npm CVSS 9.3, pnpm npm 8-CVE cluster CVSS 8.8 lead |
-| MONITOR | 2 | pnpm GHSA-hwx4-2j3j-g496 (patch unconfirmed), gonic Go CVSS 8.1 (outside top-5 cap) |
-
-**Files written:**
-- `.pending-notify/security-digest.md` — queued for post-run delivery
-- `memory/logs/2026-06-27.md` — appended `### security-digest` log entry
+- [CVE-2026-48714](https://github.com/advisories/GHSA-f49m-vf83-692w) — i18next-http-middleware (npm) · CVSS 9.1 · EPSS 0.004 · no fix yet
+  MissingKeyHandler accepts keys with prototype-polluting segments (__proto__, constructor). Same class as CVE-2026-48713; Express/Koa middleware.
+  → track GHSA-f49m-vf83-692w; no patch yet; validate i18next keys server-side.

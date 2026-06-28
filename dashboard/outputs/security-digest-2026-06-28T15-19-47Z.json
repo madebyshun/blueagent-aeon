@@ -1,0 +1,283 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-06-28",
+        "description": "Verdict: nothing urgent today. 0 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "alert_kev",
+        "sep1",
+        "monitor_heading",
+        "cve_48749",
+        "sep2",
+        "cve_48713",
+        "sep3",
+        "cve_48714"
+      ]
+    },
+    "alert_kev": {
+      "type": "Alert",
+      "props": {
+        "title": "KEV Remediation Deadline: Today",
+        "message": "CVE-2026-12569 (PTC Windchill) and CVE-2026-20230 (Cisco UCM) remediation deadline is today — both already in Jun 26 digest; apply patches if not done.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "cve_48749": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve_48749_link",
+        "cve_48749_badges",
+        "cve_48749_desc",
+        "cve_48749_action"
+      ]
+    },
+    "cve_48749_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48749 — Incus (go)",
+        "href": "https://github.com/advisories/GHSA-2q3f-q5pq-g8wv",
+        "source": "GitHub Advisory"
+      },
+      "children": []
+    },
+    "cve_48749_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_48749_cvss",
+        "badge_48749_epss",
+        "badge_48749_patch"
+      ]
+    },
+    "badge_48749_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.9",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge_48749_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS not yet scored",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_48749_patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no confirmed patch",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "cve_48749_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Malicious container image with rootfs/ symlink achieves arbitrary file read+write on host at image-import time. Sibling cluster (CVE-2026-48750–48769) fixed ≥7.2.0 (Jun 27 digest); API null for this CVE but same release likely covers it.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve_48749_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ if not already on ≥7.2.0, upgrade now; reject untrusted image sources.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "cve_48713": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve_48713_link",
+        "cve_48713_badges",
+        "cve_48713_desc",
+        "cve_48713_action"
+      ]
+    },
+    "cve_48713_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48713 — i18next-fs-backend (npm)",
+        "href": "https://github.com/advisories/GHSA-2933-q333-qg83",
+        "source": "GitHub Advisory"
+      },
+      "children": []
+    },
+    "cve_48713_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_48713_cvss",
+        "badge_48713_epss",
+        "badge_48713_patch"
+      ]
+    },
+    "badge_48713_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.1",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge_48713_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_48713_patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix yet",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "cve_48713_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Prototype pollution via crafted missing-key string; server-side Node.js filesystem translation backend. Attacker-controlled locale keys can pollute Object.prototype.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve_48713_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ track GHSA-2933-q333-qg83; no patch yet; audit locale key input sources.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "cve_48714": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve_48714_link",
+        "cve_48714_badges",
+        "cve_48714_desc",
+        "cve_48714_action"
+      ]
+    },
+    "cve_48714_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48714 — i18next-http-middleware (npm)",
+        "href": "https://github.com/advisories/GHSA-f49m-vf83-692w",
+        "source": "GitHub Advisory"
+      },
+      "children": []
+    },
+    "cve_48714_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_48714_cvss",
+        "badge_48714_epss",
+        "badge_48714_patch"
+      ]
+    },
+    "badge_48714_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.1",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge_48714_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_48714_patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix yet",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "cve_48714_desc": {
+      "type": "Text",
+      "props": {
+        "text": "MissingKeyHandler accepts keys with prototype-polluting segments (__proto__, constructor). Same class as CVE-2026-48713; Express/Koa middleware.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve_48714_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ track GHSA-f49m-vf83-692w; no patch yet; validate i18next keys server-side.",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
