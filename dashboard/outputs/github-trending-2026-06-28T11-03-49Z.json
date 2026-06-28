@@ -1,0 +1,467 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-28"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-top-pick",
+        "sep-1",
+        "section-devtools",
+        "sep-2",
+        "section-ai-ml",
+        "sep-3",
+        "section-data",
+        "sep-4",
+        "sources-text"
+      ]
+    },
+    "section-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-top-pick",
+        "repo-top-pick-link",
+        "repo-top-pick-desc"
+      ]
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "repo-top-pick-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DeusData/codebase-memory-mcp",
+        "href": "https://github.com/DeusData/codebase-memory-mcp",
+        "source": "GitHub"
+      }
+    },
+    "repo-top-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "A C-native MCP server that solves the \"big repo, dumb context\" problem — indexes your entire codebase locally so AI assistants actually know your code.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-devtools",
+        "devtools-repo-1",
+        "devtools-repo-2"
+      ]
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-header",
+        "devtools-1-meta",
+        "devtools-1-desc"
+      ]
+    },
+    "devtools-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-link",
+        "devtools-1-badge"
+      ]
+    },
+    "devtools-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DeusData/codebase-memory-mcp",
+        "href": "https://github.com/DeusData/codebase-memory-mcp",
+        "source": "GitHub"
+      }
+    },
+    "devtools-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools-1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "★ 2,162 today (18.5k total) · C",
+        "variant": "caption"
+      }
+    },
+    "devtools-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "High-performance MCP code intelligence server indexing codebases at native speed — no source leaves your machine.",
+        "variant": "body"
+      }
+    },
+    "devtools-repo-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-2-header",
+        "devtools-2-meta",
+        "devtools-2-desc"
+      ]
+    },
+    "devtools-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-2-link",
+        "devtools-2-badge"
+      ]
+    },
+    "devtools-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "altic-dev/FluidVoice",
+        "href": "https://github.com/altic-dev/FluidVoice",
+        "source": "GitHub"
+      }
+    },
+    "devtools-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "devtools-2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "★ 264 today (3.2k total) · Swift",
+        "variant": "caption"
+      }
+    },
+    "devtools-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Offline macOS dictation via a system extension — voice-to-text fully on-device, zero audio leaving the machine, pushed today.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-ai-ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-ai-ml",
+        "aiml-repo-1",
+        "aiml-repo-2",
+        "aiml-repo-3"
+      ]
+    },
+    "heading-ai-ml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml-repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-1-header",
+        "aiml-1-meta",
+        "aiml-1-desc"
+      ]
+    },
+    "aiml-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-1-link",
+        "aiml-1-badge"
+      ]
+    },
+    "aiml-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Robbyant/lingbot-map",
+        "href": "https://github.com/Robbyant/lingbot-map",
+        "source": "GitHub"
+      }
+    },
+    "aiml-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "aiml-1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "★ 372 today (8.0k total) · Python",
+        "variant": "caption"
+      }
+    },
+    "aiml-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Feed-forward 3D foundation model that reconstructs scenes in one pass — no per-scene optimization loop, no NeRF iterations required.",
+        "variant": "body"
+      }
+    },
+    "aiml-repo-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-2-header",
+        "aiml-2-meta",
+        "aiml-2-desc"
+      ]
+    },
+    "aiml-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-2-link",
+        "aiml-2-badge"
+      ]
+    },
+    "aiml-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "opendatalab/MinerU",
+        "href": "https://github.com/opendatalab/MinerU",
+        "source": "GitHub"
+      }
+    },
+    "aiml-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "aiml-2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "★ 749 today (71.2k total) · Python",
+        "variant": "caption"
+      }
+    },
+    "aiml-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Converts PDFs, PPTs, and Office docs to Markdown/JSON with tables and formulas intact — de facto open-source document pipeline for LLM ingestion.",
+        "variant": "body"
+      }
+    },
+    "aiml-repo-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-3-header",
+        "aiml-3-meta",
+        "aiml-3-desc"
+      ]
+    },
+    "aiml-3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-3-link",
+        "aiml-3-badge"
+      ]
+    },
+    "aiml-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "browser-use/video-use",
+        "href": "https://github.com/browser-use/video-use",
+        "source": "GitHub"
+      }
+    },
+    "aiml-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "aiml-3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "★ 186 today (10.6k total) · Python",
+        "variant": "caption"
+      }
+    },
+    "aiml-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Describe a video edit in natural language, get a rendered clip — browser-use team extends their agent framework from web browsing to video.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-data": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-data",
+        "data-repo-1"
+      ]
+    },
+    "heading-data": {
+      "type": "Heading",
+      "props": {
+        "text": "Data",
+        "level": "h3"
+      }
+    },
+    "data-repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "data-1-header",
+        "data-1-meta",
+        "data-1-desc"
+      ]
+    },
+    "data-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "data-1-link",
+        "data-1-badge"
+      ]
+    },
+    "data-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cupy/cupy",
+        "href": "https://github.com/cupy/cupy",
+        "source": "GitHub"
+      }
+    },
+    "data-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "data-1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "★ 172 today (11.3k total) · Python",
+        "variant": "caption"
+      }
+    },
+    "data-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Drop-in GPU replacement for NumPy/SciPy — existing array code runs on CUDA with no rewrites; 53× star spike points to a new release today.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/13",
+        "variant": "muted"
+      }
+    }
+  }
+}
