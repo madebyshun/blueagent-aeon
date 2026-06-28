@@ -1,0 +1,364 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-06-28",
+        "description": "Risk-off lean — 53/100 top coins red, median −0.56%; only 3 coins above +10% after filters; AAVE reverses 3-day DeFi rotation to lead losers."
+      },
+      "children": [
+        "sep1",
+        "heading-winners",
+        "table-winners",
+        "sep2",
+        "heading-losers",
+        "table-losers",
+        "sep3",
+        "heading-trending",
+        "table-trending",
+        "sep4",
+        "heading-notable",
+        "stack-notable"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table-winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "VELVET (Velvet)",
+            "$1.760",
+            "+30.9%",
+            "+280.6%",
+            "+2.9%",
+            "$76.4M / #81",
+            "TRENDING+UP, BREAKOUT"
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.001477",
+            "+11.9%",
+            "−0.6%",
+            "−0.4%",
+            "$95.3M / #94",
+            "TRENDING+UP"
+          ],
+          [
+            "LAB (LAB)",
+            "$17.08",
+            "+11.6%",
+            "+7.0%",
+            "+2.4%",
+            "$33.0M / #21",
+            ""
+          ],
+          [
+            "SYN (Synapse)",
+            "$0.3993",
+            "+9.9%",
+            "N/A",
+            "N/A",
+            "N/A / #283",
+            ""
+          ],
+          [
+            "DEXE (DeXe)",
+            "$22.36",
+            "+2.2%",
+            "+57.2%",
+            "0.0%",
+            "$11.5M / #63",
+            ""
+          ],
+          [
+            "SKY (Sky)",
+            "$0.04966",
+            "+1.9%",
+            "−15.9%",
+            "−0.4%",
+            "$6.0M / #59",
+            ""
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "$1.850",
+            "+1.5%",
+            "−15.0%",
+            "−0.8%",
+            "$280M / #38",
+            ""
+          ],
+          [
+            "VVV (Venice Token)",
+            "$13.53",
+            "+1.1%",
+            "N/A",
+            "N/A",
+            "N/A / #91",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table-losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "AAVE (Aave)",
+            "$89.01",
+            "−7.6%",
+            "+20.2%",
+            "−0.7%",
+            "$299M / #56",
+            "TRENDING+DOWN"
+          ],
+          [
+            "ZEC (Zcash)",
+            "$383.7",
+            "−6.1%",
+            "−15.0%",
+            "−0.7%",
+            "$222M / #15",
+            "MAJOR"
+          ],
+          [
+            "FET (ASI Alliance)",
+            "$0.1712",
+            "−4.6%",
+            "N/A",
+            "N/A",
+            "N/A / #120",
+            "TRENDING+DOWN"
+          ],
+          [
+            "AVAX (Avalanche)",
+            "$6.290",
+            "−3.8%",
+            "+0.4%",
+            "−0.8%",
+            "$146M / #34",
+            ""
+          ],
+          [
+            "XLM (Stellar)",
+            "$0.1708",
+            "−3.0%",
+            "−19.0%",
+            "−0.6%",
+            "$117M / #18",
+            "MAJOR"
+          ],
+          [
+            "DOGE (Dogecoin)",
+            "$0.07339",
+            "−2.7%",
+            "−11.6%",
+            "−0.3%",
+            "$446M / #11",
+            "MAJOR"
+          ],
+          [
+            "BCH (Bitcoin Cash)",
+            "$192.3",
+            "−2.7%",
+            "−2.8%",
+            "−0.5%",
+            "$67.5M / #27",
+            ""
+          ],
+          [
+            "ETC (Ethereum Classic)",
+            "$7.040",
+            "−2.6%",
+            "−4.3%",
+            "−0.4%",
+            "$28.8M / #62",
+            ""
+          ],
+          [
+            "HBAR (Hedera)",
+            "$0.07111",
+            "−2.2%",
+            "−10.9%",
+            "−0.6%",
+            "$39.1M / #30",
+            ""
+          ],
+          [
+            "ADA (Cardano)",
+            "$0.1442",
+            "−2.0%",
+            "−10.5%",
+            "−0.6%",
+            "$214M / #22",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table-trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Rank",
+          "Price",
+          "Change",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "ANSEM (The Black Bull)",
+            "#579",
+            "$0.08478",
+            "+42165%",
+            "PUMP-RISK"
+          ],
+          [
+            "DEUS (XMAQUINA)",
+            "#921",
+            "$0.03054",
+            "+7.8%",
+            "PUMP-RISK"
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#117",
+            "$0.006209",
+            "−0.3%",
+            ""
+          ],
+          [
+            "ACT (Act I AI Prophecy)",
+            "#939",
+            "$0.01544",
+            "+95.7%",
+            "PUMP-RISK"
+          ],
+          [
+            "BTC (Bitcoin)",
+            "#1",
+            "$59,961",
+            "−0.6%",
+            ""
+          ],
+          [
+            "VELVET (Velvet)",
+            "#81",
+            "$1.774",
+            "+29.3%",
+            "TRENDING+UP"
+          ],
+          [
+            "SYN (Synapse)",
+            "#283",
+            "$0.3993",
+            "+9.9%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "stack-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3"
+      ]
+    },
+    "notable-1": {
+      "type": "Alert",
+      "props": {
+        "title": "VELVET day 2",
+        "message": "Rank #81 +30.9%/7d+280.6% still trending — TRENDING+UP & BREAKOUT holding after yesterday's +121.5% spike; magnitude down, move sustained",
+        "type": "info"
+      }
+    },
+    "notable-2": {
+      "type": "Alert",
+      "props": {
+        "title": "ANSEM & ACT trending top 4",
+        "message": "+42165% (#579) and +95.7% (#939) — extreme PUMP-RISK; micro-cap, outside filtered list; do not chase",
+        "type": "warning"
+      }
+    },
+    "notable-3": {
+      "type": "Alert",
+      "props": {
+        "title": "AAVE reversal",
+        "message": "TRENDING+DOWN: ends 3-day DeFi rotation streak (Jun 25–27); −7.6% today while still in trending; watch whether rotation resumes",
+        "type": "info"
+      }
+    }
+  }
+}
