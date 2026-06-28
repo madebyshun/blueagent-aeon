@@ -1,0 +1,1422 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-06-28"
+      },
+      "children": [
+        "sep-0",
+        "heading-transitions",
+        "transitions-stack",
+        "sep-1",
+        "heading-reflexivity",
+        "reflexivity-stack",
+        "sep-2",
+        "heading-positions",
+        "positions-stack",
+        "sep-3",
+        "heading-map",
+        "map-stack"
+      ]
+    },
+    "sep-0": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "transitions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans-defi",
+        "trans-grass",
+        "trans-stablecoins",
+        "trans-fed",
+        "trans-dead"
+      ]
+    },
+    "trans-defi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-defi-badges",
+        "trans-defi-stats",
+        "trans-defi-text"
+      ]
+    },
+    "trans-defi-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-transition",
+        "badge-defi-rising-watch"
+      ]
+    },
+    "badge-transition": {
+      "type": "Badge",
+      "props": {
+        "text": "TRANSITION",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-defi-rising-watch": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising→Watch",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "trans-defi-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-aave-decline",
+        "stat-red-days",
+        "stat-tvl-ytd"
+      ]
+    },
+    "stat-aave-decline": {
+      "type": "Stat",
+      "props": {
+        "label": "AAVE",
+        "value": "−7.6%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat-red-days": {
+      "type": "Stat",
+      "props": {
+        "label": "Red days (risk-off)",
+        "value": "53/100"
+      },
+      "children": []
+    },
+    "stat-tvl-ytd": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL YTD",
+        "value": "−37%"
+      },
+      "children": []
+    },
+    "trans-defi-text": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Sector Rotation: Leads losers, breaks 3-day streak on risk-off day (median −0.56%); loop test failed; TVL −37% YTD was always the ceiling",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trans-grass": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-grass-badges",
+        "trans-grass-stat",
+        "trans-grass-text"
+      ]
+    },
+    "trans-grass-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-promoted-1",
+        "badge-ai-depin-rising"
+      ]
+    },
+    "badge-promoted-1": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-ai-depin-rising": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising (was Emerging)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "trans-grass-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "GRASS airdrop",
+        "value": "9 days to Jul 7"
+      },
+      "children": []
+    },
+    "trans-grass-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI × DePIN: Countdown entering activation zone; Carney political tailwind building",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trans-stablecoins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-stablecoins-badges",
+        "trans-stablecoins-stats",
+        "trans-stablecoins-text"
+      ]
+    },
+    "trans-stablecoins-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-promoted-2",
+        "badge-stablecoins-ride"
+      ]
+    },
+    "badge-promoted-2": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-stablecoins-ride": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE (was Watch)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "trans-stablecoins-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-x402-foundation",
+        "stat-stablecoin-cap"
+      ]
+    },
+    "stat-x402-foundation": {
+      "type": "Text",
+      "props": {
+        "text": "x402 now under Linux Foundation (Google/Visa/AWS/Circle/Anthropic/Stripe/Cloudflare)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "stat-stablecoin-cap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market cap",
+        "value": "$323B"
+      },
+      "children": []
+    },
+    "trans-stablecoins-text": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins / Payment Rails: AI-agent money layer thesis formalizing",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trans-fed": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-fed-badges",
+        "trans-fed-stat",
+        "trans-fed-text"
+      ]
+    },
+    "trans-fed-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new",
+        "badge-fed-emerging"
+      ]
+    },
+    "badge-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-fed-emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "trans-fed-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "below $60K"
+      },
+      "children": []
+    },
+    "trans-fed-text": {
+      "type": "Text",
+      "props": {
+        "text": "Fed Macro Pivot: Capitulation + IBKR/BitcoinFoundation H2 pivot thesis surfacing; not actionable yet",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trans-dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-dead",
+        "trans-dead-text"
+      ]
+    },
+    "badge-dead": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trans-dead-text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Apathy / Alt Divergence: Retired; BTC in hard drawdown not stagnation; pattern invalid",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "reflexivity-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflex-defi",
+        "reflex-eigen",
+        "reflex-grass"
+      ]
+    },
+    "reflex-defi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-reflex-defi",
+        "text-reflex-defi"
+      ]
+    },
+    "badge-reflex-defi": {
+      "type": "Badge",
+      "props": {
+        "text": "DeFi Rotation loop shallow",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-reflex-defi": {
+      "type": "Text",
+      "props": {
+        "text": "AAVE −7.6% on first risk-off day; within-sector rotation on green days, not structural reallocation; TVL −37% YTD was the bear case",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "reflex-eigen": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-reflex-eigen",
+        "stat-reflex-eigen",
+        "text-reflex-eigen"
+      ]
+    },
+    "badge-reflex-eigen": {
+      "type": "Badge",
+      "props": {
+        "text": "EIGEN (CLIMACTIC)",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "stat-reflex-eigen": {
+      "type": "Stat",
+      "props": {
+        "label": "Exit window closes",
+        "value": "Jun 30"
+      },
+      "children": []
+    },
+    "text-reflex-eigen": {
+      "type": "Text",
+      "props": {
+        "text": "Countdown to Jul 1 is itself the driver; TVL optics vs 36.82M contributor supply ($8.48M)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "reflex-grass": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-reflex-grass",
+        "stat-reflex-grass",
+        "text-reflex-grass"
+      ]
+    },
+    "badge-reflex-grass": {
+      "type": "Badge",
+      "props": {
+        "text": "AI × DePIN (LIVE)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stat-reflex-grass": {
+      "type": "Stat",
+      "props": {
+        "label": "Activation window",
+        "value": "9 days"
+      },
+      "children": []
+    },
+    "text-reflex-grass": {
+      "type": "Text",
+      "props": {
+        "text": "Carney → decentralized AI thesis → GRASS Season 2 → demand loop open",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "positions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos-grass",
+        "pos-fed",
+        "pos-agents",
+        "pos-stable",
+        "pos-predict",
+        "pos-infra",
+        "pos-base",
+        "pos-defi-watch",
+        "pos-eigen-fade",
+        "pos-perps-fade",
+        "pos-meme-fade"
+      ]
+    },
+    "pos-grass": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-grass-badges",
+        "pos-grass-stats",
+        "pos-grass-text"
+      ]
+    },
+    "pos-grass-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-frontrun",
+        "badge-grass-score"
+      ]
+    },
+    "badge-frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-grass-score": {
+      "type": "Badge",
+      "props": {
+        "text": "↑↑ Rising (3)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "pos-grass-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-grass-users",
+        "stat-grass-airdrop",
+        "stat-grass-fund"
+      ]
+    },
+    "stat-grass-users": {
+      "type": "Stat",
+      "props": {
+        "label": "Users",
+        "value": "8.5M"
+      },
+      "children": []
+    },
+    "stat-grass-airdrop": {
+      "type": "Stat",
+      "props": {
+        "label": "Jul 7 airdrop",
+        "value": "9 days"
+      },
+      "children": []
+    },
+    "stat-grass-fund": {
+      "type": "Text",
+      "props": {
+        "text": "Polychain/Tribe $10M",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-grass-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI × DePIN / GRASS: Bear case — speculative vs real AI compute",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-fed": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-fed-badges",
+        "stat-fed-thesis",
+        "pos-fed-text"
+      ]
+    },
+    "pos-fed-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-frontrun-2",
+        "badge-fed-score"
+      ]
+    },
+    "badge-frontrun-2": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-fed-score": {
+      "type": "Badge",
+      "props": {
+        "text": "↑ Emerging (3)",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "stat-fed-thesis": {
+      "type": "Stat",
+      "props": {
+        "label": "Thesis",
+        "value": "IBKR H2 pivot"
+      },
+      "children": []
+    },
+    "pos-fed-text": {
+      "type": "Text",
+      "props": {
+        "text": "Fed Macro Pivot: BTC capitulation bottom signal; Bear case — BTC still declining, no Fed confirmation",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-agents": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-agents-badges",
+        "pos-agents-stats",
+        "pos-agents-text"
+      ]
+    },
+    "pos-agents-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride-1",
+        "badge-agents-score"
+      ]
+    },
+    "badge-ride-1": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-agents-score": {
+      "type": "Badge",
+      "props": {
+        "text": "→ Peak (5)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "pos-agents-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-agents-count",
+        "stat-agents-value",
+        "text-agents-backing"
+      ]
+    },
+    "stat-agents-count": {
+      "type": "Stat",
+      "props": {
+        "label": "Agents",
+        "value": "480K"
+      },
+      "children": []
+    },
+    "stat-agents-value": {
+      "type": "Stat",
+      "props": {
+        "label": "Value",
+        "value": "$50M"
+      },
+      "children": []
+    },
+    "text-agents-backing": {
+      "type": "Text",
+      "props": {
+        "text": "x402 Linux Foundation (Google/Visa/AWS/Anthropic/Circle/Stripe)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-agents-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments: Bear case — EU AI Act Aug 2",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-stable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-stable-badges",
+        "stat-stable-cap",
+        "pos-stable-text"
+      ]
+    },
+    "pos-stable-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride-2",
+        "badge-stable-score"
+      ]
+    },
+    "badge-ride-2": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-stable-score": {
+      "type": "Badge",
+      "props": {
+        "text": "↑ Rising (4)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stat-stable-cap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market cap",
+        "value": "$323B"
+      },
+      "children": []
+    },
+    "pos-stable-text": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins/Payment Rails: Circle/x402; AI money layer; Bear case — ENA loop dormant",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-predict": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-predict-badges",
+        "stat-predict-exit",
+        "text-predict-label"
+      ]
+    },
+    "pos-predict-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride-3",
+        "badge-predict-score"
+      ]
+    },
+    "badge-ride-3": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-predict-score": {
+      "type": "Badge",
+      "props": {
+        "text": "→ Peak (5)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stat-predict-exit": {
+      "type": "Stat",
+      "props": {
+        "label": "Exit",
+        "value": "Jul 19 (21 days)"
+      },
+      "children": []
+    },
+    "text-predict-label": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-infra-badges",
+        "stat-infra-cap",
+        "pos-infra-text"
+      ]
+    },
+    "pos-infra-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride-4",
+        "badge-infra-score"
+      ]
+    },
+    "badge-ride-4": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-infra-score": {
+      "type": "Badge",
+      "props": {
+        "text": "→ Peak (5)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stat-infra-cap": {
+      "type": "Stat",
+      "props": {
+        "label": "Cap ceiling",
+        "value": "$25B"
+      },
+      "children": []
+    },
+    "pos-infra-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Crypto Infrastructure: Capital rotating to real-utility infra; Bear case — cap ceiling",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-base": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-base-badges",
+        "pos-base-text"
+      ]
+    },
+    "pos-base-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride-5",
+        "badge-base-score"
+      ]
+    },
+    "badge-ride-5": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-base-score": {
+      "type": "Badge",
+      "props": {
+        "text": "→ Rising (4)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "pos-base-text": {
+      "type": "Text",
+      "props": {
+        "text": "Base Ecosystem: GRASS + x402 + JPM Coin converging on Base",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-defi-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-defi-watch-badges",
+        "pos-defi-watch-text"
+      ]
+    },
+    "pos-defi-watch-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch",
+        "badge-defi-watch-score"
+      ]
+    },
+    "badge-watch": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-defi-watch-score": {
+      "type": "Badge",
+      "props": {
+        "text": "↓ Stalling (4)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "pos-defi-watch-text": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Sector Rotation: Needs AAVE recovery signal before reinstating RIDE",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-eigen-fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-eigen-fade-badges",
+        "stat-eigen-exit",
+        "pos-eigen-fade-text"
+      ]
+    },
+    "pos-eigen-fade-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade-1",
+        "badge-eigen-score"
+      ]
+    },
+    "badge-fade-1": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-eigen-score": {
+      "type": "Badge",
+      "props": {
+        "text": "↓↓ Fading (2)",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "stat-eigen-exit": {
+      "type": "Stat",
+      "props": {
+        "label": "Exit window closes",
+        "value": "Jun 30"
+      },
+      "children": []
+    },
+    "pos-eigen-fade-text": {
+      "type": "Text",
+      "props": {
+        "text": "EIGEN: Jul 1 unlock $8.48M",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-perps-fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-perps-fade-badges",
+        "text-perps-label"
+      ]
+    },
+    "pos-perps-fade-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade-2",
+        "badge-perps-score"
+      ]
+    },
+    "badge-fade-2": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-perps-score": {
+      "type": "Badge",
+      "props": {
+        "text": "→ (2)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-perps-label": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid/Perps",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-meme-fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-meme-fade-badges",
+        "pos-meme-fade-text"
+      ]
+    },
+    "pos-meme-fade-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade-3"
+      ]
+    },
+    "badge-fade-3": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "pos-meme-fade-text": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoin Launchpads: ANSEM +42k% / ACT +96%; isolated pumps not structural",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "map-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-stalling",
+        "map-fading"
+      ]
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-map-emerging",
+        "map-emerging-items"
+      ]
+    },
+    "badge-map-emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "map-emerging-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-emerg-1",
+        "badge-emerg-2"
+      ]
+    },
+    "badge-emerg-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Fed Macro Pivot",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-emerg-2": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Security",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-map-rising",
+        "map-rising-items"
+      ]
+    },
+    "badge-map-rising": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "map-rising-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-rise-1",
+        "badge-rise-2",
+        "badge-rise-3"
+      ]
+    },
+    "badge-rise-1": {
+      "type": "Badge",
+      "props": {
+        "text": "AI × DePIN (GRASS)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-rise-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Stablecoins/Payment Rails",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-rise-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Base Ecosystem",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-map-peak",
+        "map-peak-items"
+      ]
+    },
+    "badge-map-peak": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "map-peak-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-peak-1",
+        "badge-peak-2",
+        "badge-peak-3",
+        "badge-peak-4"
+      ]
+    },
+    "badge-peak-1": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Payments",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-peak-2": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Crypto Infrastructure",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-peak-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-peak-4": {
+      "type": "Badge",
+      "props": {
+        "text": "RWA Tokenization",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "map-stalling": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-map-stalling",
+        "map-stalling-items"
+      ]
+    },
+    "badge-map-stalling": {
+      "type": "Badge",
+      "props": {
+        "text": "Stalling",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "map-stalling-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-stall-1"
+      ]
+    },
+    "badge-stall-1": {
+      "type": "Badge",
+      "props": {
+        "text": "DeFi Sector Rotation",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-map-fading",
+        "map-fading-items"
+      ]
+    },
+    "badge-map-fading": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "map-fading-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade-1-item",
+        "badge-fade-2-item",
+        "badge-fade-3-item",
+        "badge-fade-4-item"
+      ]
+    },
+    "badge-fade-1-item": {
+      "type": "Badge",
+      "props": {
+        "text": "EIGEN",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-fade-2-item": {
+      "type": "Badge",
+      "props": {
+        "text": "Hyperliquid",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-fade-3-item": {
+      "type": "Badge",
+      "props": {
+        "text": "Memecoin Launchpads",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-fade-4-item": {
+      "type": "Badge",
+      "props": {
+        "text": "Privacy/ZK",
+        "variant": "destructive"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,23 +1,32 @@
-*Narrative Tracker — 2026-06-27*
+*Narrative Tracker — 2026-06-28*
 
 TRANSITIONS
-• CONFIRMED: DeFi Sector Rotation Rising (day 3) — AAVE +12.1% 3rd straight day on 64/74-green median. Loop: Aave V4 $200M deposits + Grayscale $175 target + Circle/Ripple/FT/VanEck pipeline. Entry past, ride still valid.
-• NEW: AI × DePIN — GRASS +18.6% today (token-pick 10/10). Season 2 airdrop Jul 7 (170M pool). Polychain/Tribe $10M. Canadian PM Carney AI centralization warning = political tailwind for decentralized AI data. Splitting from AI Infra as named theme.
-• TIGHTENING: EigenCloud FADE — 4 days to Jul 1 unlock ($8.48M, 2% supply). TVL +$291M to $4.67B but morning-brief explicit: "TVL surge doesn't buffer contributor sell." Analyst forecast $0.211 Jul. Window closes Jun 30.
+• TRANSITION: DeFi Sector Rotation Rising→Watch — AAVE −7.6% leads losers, breaks 3-day streak on risk-off day (53/100 red, median −0.56%); loop test failed; TVL −37% YTD was always the ceiling
+• PROMOTED: AI × DePIN Rising (was Emerging) — GRASS 9 days to Jul 7 airdrop call; countdown entering activation zone; Carney political tailwind building
+• PROMOTED: Stablecoins / Payment Rails RIDE (was Watch) — x402 Foundation now under Linux Foundation (Google/Visa/AWS/Circle/Anthropic/Stripe/Cloudflare backing); $323B market cap; AI-agent money layer thesis formalizing
+• NEW: Fed Macro Pivot (Emerging) — BTC below $60K capitulation + IBKR/BitcoinFoundation H2 pivot thesis surfacing; not actionable yet
+• DEAD: BTC Apathy / Alt Divergence — retired; BTC in hard drawdown not stagnation; pattern invalid
 
 REFLEXIVITY ALERT
-• DeFi Rotation (STRENGTHENING) — AAVE day 3 outperformance → Grayscale $175 coverage → V4 $200M milestone → Circle/Ripple/FT pipeline → more analyst coverage. Rotation within −37% YTD TVL = structurally fragile but reflexively intact.
-• EIGEN (NARRATIVE TRAP) — TVL +$291M looks bullish; contributors sell regardless. TVL ≠ price support when 36.82M tokens unlock in 4 days.
+• DeFi Rotation loop shallow — AAVE −7.6% on first risk-off day; within-sector rotation on green days, not structural reallocation; TVL −37% YTD was the bear case
+• EIGEN (CLIMACTIC) — countdown to Jul 1 is itself the driver; TVL optics vs 36.82M contributor supply ($8.48M); EXIT WINDOW CLOSES JUN 30
+• AI × DePIN (LIVE) — Carney → decentralized AI thesis → GRASS Season 2 → demand loop; 9-day activation window open
 
 POSITIONS
-• RIDE: DeFi Sector Rotation (5 ↑↑, Bull) — @AaveAave, LIT/Lighter, @MorphoLabs — bear: TVL down 37% YTD; rotation within shrinking market
-• FRONT-RUN: AI × DePIN (3 ↑↑, Emerging, Bull) — GRASS, Polychain/Tribe — airdrop Jul 7; Carney tailwind nascent/unpriced — bear: decentralized AI data still speculative vs real compute demand
-• RIDE: AI Agent Payments (5 →, Peak, Bull) — x402 480K agents; Coinbase/Bybit/Binance/IBKR MCP live — bear: EU AI Act Aug 2
-• RIDE: Prediction Markets (5 →, Peak, Mixed) — @Kalshi, @Polymarket WC — bear: event cliff 22 days (Jul 19 final); exit countdown
-• FADE: EigenCloud (3 ↓↓, Fading, Bear) — 4 days to $8.48M unlock; analyst $0.211; TVL surge doesn't buffer
+• FRONT-RUN: AI × DePIN / GRASS (3 ↑↑, Rising) — Polychain/Tribe $10M; 8.5M users; Jul 7 airdrop (9 days) — bear: speculative vs real AI compute
+• FRONT-RUN: Fed Macro Pivot (3 ↑, Emerging) — IBKR H2 pivot thesis; BTC capitulation bottom signal — bear: BTC still declining, no Fed confirmation
+• RIDE: AI Agent Payments (5 →, Peak) — x402 Linux Foundation (Google/Visa/AWS/Anthropic/Circle/Stripe); 480K agents/$50M — bear: EU AI Act Aug 2
+• RIDE: Stablecoins/Payment Rails (4 ↑, Rising) — $323B market cap; Circle/x402; AI money layer — bear: ENA loop dormant
+• RIDE: Prediction Markets (5 →, Peak) — EXIT Jul 19 (21 days)
+• RIDE: AI Crypto Infrastructure (5 →, Peak) — capital rotating to real-utility infra — bear: $25B cap ceiling
+• RIDE: Base Ecosystem (4 →, Rising) — GRASS + x402 + JPM Coin converging on Base
+• WATCH: DeFi Sector Rotation (4 ↓, stalling) — needs AAVE recovery signal before reinstating RIDE
+• FADE: EIGEN (2 ↓↓, Fading) — EXIT WINDOW CLOSES JUN 30; Jul 1 unlock $8.48M
+• FADE: Hyperliquid/Perps (2 →), Memecoin Launchpads (ANSEM +42k%/ACT +96% isolated pumps not structural)
 
 MAP
-Emerging: AI × DePIN, BTC Apathy/Alt Divergence
-Rising: DeFi Sector Rotation, Base Ecosystem
-Peak: AI Agent Payments, AI Crypto Infrastructure, Prediction Markets, RWA Tokenization, Stablecoins/ENA
-Fading: EigenCloud, Hyperliquid/Perp DEXs, Memecoin Launchpads
+Emerging: Fed Macro Pivot, AI Agent Security
+Rising: AI × DePIN (GRASS), Stablecoins/Payment Rails, Base Ecosystem
+Peak: AI Agent Payments, AI Crypto Infrastructure, Prediction Markets, RWA Tokenization
+Stalling: DeFi Sector Rotation
+Fading: EIGEN, Hyperliquid, Memecoin Launchpads, Privacy/ZK
