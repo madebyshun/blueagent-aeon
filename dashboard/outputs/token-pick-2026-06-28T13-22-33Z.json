@@ -1,0 +1,398 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-28"
+      },
+      "children": [
+        "section_velvet",
+        "sep_1",
+        "section_market",
+        "sep_2",
+        "section_sources"
+      ]
+    },
+    "section_velvet": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_velvet",
+        "token_badge",
+        "price_info",
+        "score_info",
+        "catalyst_info",
+        "risk_velvet",
+        "recent_info"
+      ]
+    },
+    "h_velvet": {
+      "type": "Heading",
+      "props": {
+        "text": "Token Pick: VELVET",
+        "level": "h2"
+      }
+    },
+    "token_badge": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_velvet",
+        "badge_high"
+      ]
+    },
+    "text_velvet": {
+      "type": "Text",
+      "props": {
+        "text": "VELVET",
+        "variant": "lead"
+      }
+    },
+    "badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH - 10/10",
+        "variant": "default"
+      }
+    },
+    "price_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_price",
+        "text_mcap_vol"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$1.74",
+        "delta": "+29.7% (24h) / +277.2% (7d)",
+        "trend": "up"
+      }
+    },
+    "text_mcap_vol": {
+      "type": "Text",
+      "props": {
+        "text": "mcap $734M | vol $76M (vol/mcap 0.10)"
+      }
+    },
+    "score_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_score",
+        "text_score"
+      ]
+    },
+    "h_score": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h4"
+      }
+    },
+    "text_score": {
+      "type": "Text",
+      "props": {
+        "text": "24h>0 (+1) | 7d>0 (+1) | both>+5% (+2) | CG trending #6 (+2) | vol/mcap≥0.10 (+2) | RS vs BTC+ETH (+2) = 10/10"
+      }
+    },
+    "catalyst_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_catalyst",
+        "text_catalyst"
+      ]
+    },
+    "h_catalyst": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "text_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Velvet.Capital synthetic pre-IPO markets (SPCX, OpenAI, Anthropic exposure) recovering from -84% crash; Aerodrome Finance partnership routing Base trades through Velvet for deeper liquidity pools — DeFi pre-IPO access narrative"
+      }
+    },
+    "risk_velvet": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "RSI flagged overbought after yesterday's 145% surge (BanklessTimes Jun 27); synthetic pre-IPO hype is speculative (SpaceX still private); prior peak was $1.92 before 84% collapse — now back to $1.74, near prior high",
+        "type": "warning"
+      }
+    },
+    "recent_info": {
+      "type": "Text",
+      "props": {
+        "text": "vs recent picks: first appearance in token-pick (LIT Jun 26, GRASS Jun 27 were different tokens — no dedup)",
+        "variant": "muted"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_market",
+        "market_header",
+        "market_odds_info",
+        "fair_info",
+        "thesis_info",
+        "risk_market"
+      ]
+    },
+    "h_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Pick",
+        "level": "h2"
+      }
+    },
+    "market_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_question",
+        "badge_medium"
+      ]
+    },
+    "text_question": {
+      "type": "Text",
+      "props": {
+        "text": "Will Bitcoin reach a new all-time high by December 31, 2026?",
+        "variant": "lead"
+      }
+    },
+    "badge_medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM - 6pp",
+        "variant": "secondary"
+      }
+    },
+    "market_odds_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_poly",
+        "odds_container"
+      ]
+    },
+    "text_poly": {
+      "type": "Text",
+      "props": {
+        "text": "Current: YES 6¢ / NO 94¢ | Polymarket's most active market | resolves: 2026-12-31",
+        "variant": "caption"
+      }
+    },
+    "odds_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_yes",
+        "stat_no"
+      ]
+    },
+    "stat_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "6¢"
+      }
+    },
+    "stat_no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "94¢"
+      }
+    },
+    "fair_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_fair",
+        "text_inputs_intro",
+        "text_input_1",
+        "text_input_2",
+        "text_input_3"
+      ]
+    },
+    "h_fair": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair YES: ~12%",
+        "level": "h4"
+      }
+    },
+    "text_inputs_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs:",
+        "variant": "muted"
+      }
+    },
+    "text_input_1": {
+      "type": "Text",
+      "props": {
+        "text": "Post-Apr 2024 halving cycles peak 12-18 months out — we're at month 26, cycle may extend",
+        "variant": "body"
+      }
+    },
+    "text_input_2": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional ETF demand + AI agent economy on Base providing new BTC demand floors",
+        "variant": "body"
+      }
+    },
+    "text_input_3": {
+      "type": "Text",
+      "props": {
+        "text": "BTC at $60K with -6.45% 7d declining trend and delayed-Fed-cut macro headwinds",
+        "variant": "body"
+      }
+    },
+    "thesis_info": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_thesis",
+        "text_thesis"
+      ]
+    },
+    "h_thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      }
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Market prices 6% but halving cycle extension + structural institutional inflows make ~12% more defensible; YES at 6¢ offers 2x payoff if H2 2026 sees BTC recovery"
+      }
+    },
+    "risk_market": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "If 2024-2025 cycle already peaked and BTC is in extended bear phase, ATH by Dec 31 becomes sub-5%; current declining trend (-6.45% 7d) is a headwind",
+        "type": "warning"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_sources",
+        "sources_badges",
+        "text_disclaimer"
+      ]
+    },
+    "h_sources": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h3"
+      }
+    },
+    "sources_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cg",
+        "badge_dex",
+        "badge_poly"
+      ]
+    },
+    "badge_cg": {
+      "type": "Badge",
+      "props": {
+        "text": "cg=ok",
+        "variant": "default"
+      }
+    },
+    "badge_dex": {
+      "type": "Badge",
+      "props": {
+        "text": "dex=fail",
+        "variant": "destructive"
+      }
+    },
+    "badge_poly": {
+      "type": "Badge",
+      "props": {
+        "text": "poly=ok",
+        "variant": "default"
+      }
+    },
+    "text_disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
