@@ -1,0 +1,449 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief"
+      },
+      "children": [
+        "heading-date",
+        "sep1",
+        "heading-focus",
+        "stack-focus",
+        "sep2",
+        "heading-yesterday",
+        "stack-yesterday",
+        "sep3",
+        "heading-watch",
+        "stack-watch",
+        "sep4",
+        "heading-running",
+        "stack-running"
+      ]
+    },
+    "heading-date": {
+      "type": "Heading",
+      "props": {
+        "text": "2026-06-29",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus Today",
+        "level": "h2"
+      }
+    },
+    "stack-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-eigen",
+        "focus-btc",
+        "focus-grass"
+      ]
+    },
+    "focus-eigen": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-focus-eigen-title",
+        "text-focus-eigen-detail"
+      ]
+    },
+    "text-focus-eigen-title": {
+      "type": "Text",
+      "props": {
+        "text": "EIGEN EXIT",
+        "variant": "lead"
+      }
+    },
+    "text-focus-eigen-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 1 unlock $8.46M; Jun 30 = final exit window"
+      }
+    },
+    "focus-btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-focus-btc-title",
+        "text-focus-btc-detail"
+      ]
+    },
+    "text-focus-btc-title": {
+      "type": "Text",
+      "props": {
+        "text": "BTC sub-$60K",
+        "variant": "lead"
+      }
+    },
+    "text-focus-btc-detail": {
+      "type": "Text",
+      "props": {
+        "text": "$58,983 confirmed; macro pivot accumulation window opening"
+      }
+    },
+    "focus-grass": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-focus-grass-title",
+        "text-focus-grass-detail"
+      ]
+    },
+    "text-focus-grass-title": {
+      "type": "Text",
+      "props": {
+        "text": "GRASS FRONT-RUN",
+        "variant": "lead"
+      }
+    },
+    "text-focus-grass-detail": {
+      "type": "Text",
+      "props": {
+        "text": "8 days to Jul 7 airdrop call; narrative just promoted Rising"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since Yesterday",
+        "level": "h2"
+      }
+    },
+    "stack-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yest-1",
+        "yest-2",
+        "yest-3",
+        "yest-4",
+        "yest-5"
+      ]
+    },
+    "yest-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-moved-1",
+        "text-yest-1",
+        "stat-aave"
+      ]
+    },
+    "badge-moved-1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text-yest-1": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Rotation: demoted RIDE → WATCH; broke 3-day streak"
+      }
+    },
+    "stat-aave": {
+      "type": "Stat",
+      "props": {
+        "label": "AAVE",
+        "value": "-7.6%",
+        "trend": "down"
+      }
+    },
+    "yest-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-moved-2",
+        "text-yest-2"
+      ]
+    },
+    "badge-moved-2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text-yest-2": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins/Payment Rails: promoted WATCH → RIDE; x402 Foundation joins Linux Foundation"
+      }
+    },
+    "yest-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-moved-3",
+        "badge-new",
+        "text-yest-3"
+      ]
+    },
+    "badge-moved-3": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "badge-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "destructive"
+      }
+    },
+    "text-yest-3": {
+      "type": "Text",
+      "props": {
+        "text": "Fed Macro Pivot narrative: BTC capitulation framing (IBKR, Benzinga, BitcoinFoundation.org)"
+      }
+    },
+    "yest-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-moved-4",
+        "text-yest-4",
+        "stat-velvet",
+        "badge-high"
+      ]
+    },
+    "badge-moved-4": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text-yest-4": {
+      "type": "Text",
+      "props": {
+        "text": "VELVET: day 2 confirmed; token-pick Jun 28"
+      }
+    },
+    "stat-velvet": {
+      "type": "Stat",
+      "props": {
+        "label": "VELVET",
+        "value": "+30.9%",
+        "trend": "up"
+      }
+    },
+    "badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH tier",
+        "variant": "default"
+      }
+    },
+    "yest-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-stuck",
+        "text-yest-5"
+      ]
+    },
+    "badge-stuck": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "outline"
+      }
+    },
+    "text-yest-5": {
+      "type": "Text",
+      "props": {
+        "text": "XAI credits: 29 consecutive days 403; narrative-tracker on WebSearch fallback"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-eigen",
+        "watch-btc"
+      ]
+    },
+    "watch-eigen": {
+      "type": "StoryLink",
+      "props": {
+        "title": "EIGEN Jul 1 cliff unlock confirmed",
+        "href": "https://ainvest.com",
+        "source": "ainvest.com"
+      }
+    },
+    "watch-eigen-detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-eigen-unlock",
+        "text-watch-eigen-context"
+      ]
+    },
+    "stat-eigen-unlock": {
+      "type": "Stat",
+      "props": {
+        "label": "Unlock",
+        "value": "$8.46M"
+      }
+    },
+    "text-watch-eigen-context": {
+      "type": "Text",
+      "props": {
+        "text": "Sharpens focus; Jun 30 = final exit day"
+      }
+    },
+    "watch-btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-btc-price",
+        "text-watch-btc-context"
+      ]
+    },
+    "stat-btc-price": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$58,983"
+      }
+    },
+    "text-watch-btc-context": {
+      "type": "Text",
+      "props": {
+        "text": "Yahoo Finance — sub-$60K confirmed; macro pivot accumulation thesis entering window"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running Today",
+        "level": "h2"
+      }
+    },
+    "stack-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-heartbeat",
+        "running-monitor",
+        "running-movers",
+        "running-pick",
+        "running-tracker"
+      ]
+    },
+    "running-heartbeat": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC"
+      }
+    },
+    "running-monitor": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      }
+    },
+    "running-movers": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      }
+    },
+    "running-pick": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      }
+    },
+    "running-tracker": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    }
+  }
+}

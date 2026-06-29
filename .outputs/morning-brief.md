@@ -1,21 +1,23 @@
-*Morning Brief — 2026-06-28*
+*Morning Brief — 2026-06-29*
 
 *Focus today*
-1. EIGEN FADE — why now: 3 days to $8.48M contributor cliff; EIGEN $0.23
-2. KEV deadline today — why now: CVE-2026-12569 + CVE-2026-20230 expire tonight
-3. GRASS FRONT-RUN — why now: 9 days to Jul 7 airdrop call; still below radar
+1. EIGEN EXIT — why now: Jul 1 unlock $8.46M; Jun 30 = final exit window
+2. BTC sub-$60K — why now: $58,983 confirmed; macro pivot accumulation window opening
+3. GRASS FRONT-RUN — why now: 8 days to Jul 7 airdrop call; narrative just promoted Rising
 
 *Since yesterday*
-- [moved] GRASS 10/10 token-pick; AI×DePIN split from AI Crypto Infra as FRONT-RUN sub-theme
-- [moved] DeFi rotation day 3 confirmed — AAVE +12.1%; VELVET +121.5% isolated pump
-- [moved] semantic-router supply-chain (litellm 1.82.8 malicious wheel exfiltrated creds; patch now)
-- [stuck] XAI 403 day 28 consecutive — narrative-tracker on WebSearch fallback only
+- [moved] DeFi Rotation: demoted RIDE → WATCH; AAVE −7.6% broke 3-day streak
+- [moved] Stablecoins/Payment Rails: promoted WATCH → RIDE; x402 Foundation joins Linux Foundation
+- [moved] Fed Macro Pivot: NEW narrative; BTC capitulation framing (IBKR, Benzinga, BitcoinFoundation.org)
+- [moved] VELVET: day 2 +30.9% confirmed; token-pick Jun 28 HIGH tier
+- [stuck] XAI credits: 29 consecutive days 403; narrative-tracker on WebSearch fallback
 
 *Watch*
-- EIGEN unlock confirmed ~$9.51M on Jul 1 (cliff vesting) — exit window closes Jun 30 (Focus #1)
+- EIGEN Jul 1 cliff unlock confirmed $8.46M (ainvest.com) — sharpens focus #1; Jun 30 = final exit day
+- BTC $58,983 (Yahoo Finance) — sub-$60K confirmed; macro pivot accumulation thesis entering window
 
 *Running today*
-- heartbeat @ 08:00 / 14:00 / 20:00 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
