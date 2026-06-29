@@ -1,32 +1,31 @@
-*Narrative Tracker — 2026-06-28*
+*Narrative Tracker — 2026-06-29*
 
 TRANSITIONS
-• TRANSITION: DeFi Sector Rotation Rising→Watch — AAVE −7.6% leads losers, breaks 3-day streak on risk-off day (53/100 red, median −0.56%); loop test failed; TVL −37% YTD was always the ceiling
-• PROMOTED: AI × DePIN Rising (was Emerging) — GRASS 9 days to Jul 7 airdrop call; countdown entering activation zone; Carney political tailwind building
-• PROMOTED: Stablecoins / Payment Rails RIDE (was Watch) — x402 Foundation now under Linux Foundation (Google/Visa/AWS/Circle/Anthropic/Stripe/Cloudflare backing); $323B market cap; AI-agent money layer thesis formalizing
-• NEW: Fed Macro Pivot (Emerging) — BTC below $60K capitulation + IBKR/BitcoinFoundation H2 pivot thesis surfacing; not actionable yet
-• DEAD: BTC Apathy / Alt Divergence — retired; BTC in hard drawdown not stagnation; pattern invalid
+• DEMOTED: DeFi Sector Rotation — WATCH → Fading/FADE. AAVE absent from Jun 29 winners (2nd consecutive risk-off day). TVL -37% YTD confirmed ceiling. Loop interrupted — calling it now.
+• NEW: BTC Institutional Distribution — $8B ETF outflows in June; BlackRock IBIT led $4.06B June exodus; Strategy files to sell up to $1.25B BTC (Yahoo Finance Jun 29). BTC $58,983. Replaces Fed Macro Pivot framing. Rising/FADE.
+• NEW: Options DEX/Hypercall — Arthur Hayes bought $2.2M SYN via FlowDesk Jun 29; backing Hypercall (options DEX on Hyperliquid) as Deribit rival. SYN +26%. FDV $81M, no VC overhang, 88% circulating. Emerging/FRONT-RUN.
+• TIGHTENING: EigenCloud — EIGEN -3.4% today. Exit window CLOSES TOMORROW (Jun 30). 2 days to Jul 1 unlock ($8.46M).
+• NEW DRIVER: Stablecoins/Payment Rails — TAC +164.2%; Telegram Wallet Yield Vaults launched; $800M+ TVL vs $265M mcap. Telegram 900M users now in AI-agent payment rails story.
 
 REFLEXIVITY ALERT
-• DeFi Rotation loop shallow — AAVE −7.6% on first risk-off day; within-sector rotation on green days, not structural reallocation; TVL −37% YTD was the bear case
-• EIGEN (CLIMACTIC) — countdown to Jul 1 is itself the driver; TVL optics vs 36.82M contributor supply ($8.48M); EXIT WINDOW CLOSES JUN 30
-• AI × DePIN (LIVE) — Carney → decentralized AI thesis → GRASS Season 2 → demand loop; 9-day activation window open
+• BTC Distribution: Strategy $1.25B sale filing + $8B June ETF outflows → fund redemptions → lower BTC → more redemptions. Loop active. BTC $58,983.
+• EIGEN (CLIMACTIC): -3.4% while TAC +164% — distribution accelerating into final exit window. Jun 30 = tomorrow. Supply overhang endgame.
+• SYN/Hypercall (DAY 1): Hayes $2.2M buy → SYN +26% → media pickup → retail FOMO. Options DEX attention category may reset.
+• AI×DePIN/GRASS (ACTIVE): 8 days to Jul 7 airdrop call. Carney + Polychain + countdown. Entering decisive window.
 
 POSITIONS
-• FRONT-RUN: AI × DePIN / GRASS (3 ↑↑, Rising) — Polychain/Tribe $10M; 8.5M users; Jul 7 airdrop (9 days) — bear: speculative vs real AI compute
-• FRONT-RUN: Fed Macro Pivot (3 ↑, Emerging) — IBKR H2 pivot thesis; BTC capitulation bottom signal — bear: BTC still declining, no Fed confirmation
-• RIDE: AI Agent Payments (5 →, Peak) — x402 Linux Foundation (Google/Visa/AWS/Anthropic/Circle/Stripe); 480K agents/$50M — bear: EU AI Act Aug 2
-• RIDE: Stablecoins/Payment Rails (4 ↑, Rising) — $323B market cap; Circle/x402; AI money layer — bear: ENA loop dormant
-• RIDE: Prediction Markets (5 →, Peak) — EXIT Jul 19 (21 days)
-• RIDE: AI Crypto Infrastructure (5 →, Peak) — capital rotating to real-utility infra — bear: $25B cap ceiling
-• RIDE: Base Ecosystem (4 →, Rising) — GRASS + x402 + JPM Coin converging on Base
-• WATCH: DeFi Sector Rotation (4 ↓, stalling) — needs AAVE recovery signal before reinstating RIDE
-• FADE: EIGEN (2 ↓↓, Fading) — EXIT WINDOW CLOSES JUN 30; Jul 1 unlock $8.48M
-• FADE: Hyperliquid/Perps (2 →), Memecoin Launchpads (ANSEM +42k%/ACT +96% isolated pumps not structural)
+• FRONT-RUN: AI×DePIN/GRASS (3 ↑↑, Bull) — Polychain/Tribe $10M; Jul 7 airdrop 8 days; Carney decentralized AI tailwind — bear: speculative vs real compute demand
+• FRONT-RUN: Options DEX/Hypercall (2 ↑↑, Bull) — @RealArthurHayes $2.2M SYN/FlowDesk; FDV $81M no VC unlock — bear: options DEX graveyard; KOL-driven reverses fast
+• RIDE: AI Agent Payments (5 →, Bull) — x402 Foundation (Google/Visa/AWS/Circle/Anthropic/Stripe); TAC Telegram Wallet; MetaMask AI — EU AI Act Aug 2
+• RIDE: Stablecoins/Payment Rails (4 ↑, Bull) — TAC $800M+ TVL; $323B market cap; x402/Linux Foundation — ENA loop dormant
+• RIDE: Prediction Markets (5 →, Mixed) — Polymarket WC knockout stage; Kalshi $6.7B — exit Jul 19 (20 days firm)
+• WATCH: Base Ecosystem (4 →) — x402 Builder Codes; GRASS; JPM Coin — macro drag mounting
+• FADE: DeFi Sector Rotation (3 ↓↓) — 2nd consecutive absent from winners; TVL -37% YTD; BTC distribution macro drag
+• FADE: BTC Distribution (4 ↑↑, Bear) — IBIT $4.06B June exodus; Strategy $1.25B filing; BTC $58,983
+• FADE: EigenCloud/EIGEN (2 ↓↓) — -3.4% today; EXIT JUN 30; analyst $0.211 target
 
 MAP
-Emerging: Fed Macro Pivot, AI Agent Security
-Rising: AI × DePIN (GRASS), Stablecoins/Payment Rails, Base Ecosystem
+Emerging: Options DEX/Hypercall, AI Agent Security
+Rising: AI×DePIN, Stablecoins/Payment Rails, BTC Distribution, Base Ecosystem, Attention Markets/InfoFi
 Peak: AI Agent Payments, AI Crypto Infrastructure, Prediction Markets, RWA Tokenization
-Stalling: DeFi Sector Rotation
-Fading: EIGEN, Hyperliquid, Memecoin Launchpads, Privacy/ZK
+Fading: DeFi Rotation, EigenCloud, Hyperliquid/Perp DEXs, Memecoin Launchpads, Privacy/ZK

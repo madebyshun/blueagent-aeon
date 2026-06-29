@@ -1,0 +1,1107 @@
+{
+  "root": "card_narrative",
+  "state": {},
+  "elements": {
+    "card_narrative": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-06-29"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_transitions",
+        "sep1",
+        "section_reflexivity",
+        "sep2",
+        "section_positions",
+        "sep3",
+        "section_map"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "trans_defi",
+        "trans_btc_dist",
+        "trans_options_dex",
+        "trans_eigencloud",
+        "trans_stablecoins"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans_defi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_defi_status",
+        "trans_defi_desc"
+      ]
+    },
+    "trans_defi_status": {
+      "type": "Text",
+      "props": {
+        "text": "DEMOTED: DeFi Sector Rotation",
+        "variant": "body"
+      }
+    },
+    "trans_defi_desc": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH → Fading/FADE. AAVE absent from Jun 29 winners (2nd consecutive risk-off day). TVL -37% YTD confirmed ceiling. Loop interrupted — calling it now.",
+        "variant": "caption"
+      }
+    },
+    "trans_btc_dist": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_btc_status",
+        "trans_btc_desc",
+        "trans_btc_details"
+      ]
+    },
+    "trans_btc_status": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: BTC Institutional Distribution",
+        "variant": "body"
+      }
+    },
+    "trans_btc_desc": {
+      "type": "Text",
+      "props": {
+        "text": "$8B ETF outflows in June; BlackRock IBIT led $4.06B June exodus; Strategy files to sell up to $1.25B BTC. Replaces Fed Macro Pivot framing. Rising/FADE.",
+        "variant": "caption"
+      }
+    },
+    "trans_btc_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_btc_source"
+      ]
+    },
+    "badge_btc_source": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC $58,983 (Yahoo Finance Jun 29)",
+        "variant": "outline"
+      }
+    },
+    "trans_options_dex": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_options_status",
+        "trans_options_desc",
+        "trans_options_details"
+      ]
+    },
+    "trans_options_status": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: Options DEX/Hypercall",
+        "variant": "body"
+      }
+    },
+    "trans_options_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Arthur Hayes bought $2.2M SYN via FlowDesk Jun 29; backing Hypercall (options DEX on Hyperliquid) as Deribit rival. Emerging/FRONT-RUN.",
+        "variant": "caption"
+      }
+    },
+    "trans_options_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_syn_price",
+        "stat_syn_fdv"
+      ]
+    },
+    "stat_syn_price": {
+      "type": "Stat",
+      "props": {
+        "label": "SYN",
+        "value": "+26%",
+        "trend": "up"
+      }
+    },
+    "stat_syn_fdv": {
+      "type": "Stat",
+      "props": {
+        "label": "FDV",
+        "value": "$81M",
+        "delta": "no VC overhang, 88% circulating"
+      }
+    },
+    "trans_eigencloud": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_eigen_status",
+        "trans_eigen_alert"
+      ]
+    },
+    "trans_eigen_status": {
+      "type": "Text",
+      "props": {
+        "text": "TIGHTENING: EigenCloud",
+        "variant": "body"
+      }
+    },
+    "trans_eigen_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Exit window CLOSES TOMORROW (Jun 30)",
+        "message": "EIGEN -3.4% today. 2 days to Jul 1 unlock ($8.46M).",
+        "type": "error"
+      }
+    },
+    "trans_stablecoins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_stablecoin_status",
+        "trans_stablecoin_desc",
+        "trans_stablecoin_stats"
+      ]
+    },
+    "trans_stablecoin_status": {
+      "type": "Text",
+      "props": {
+        "text": "NEW DRIVER: Stablecoins/Payment Rails",
+        "variant": "body"
+      }
+    },
+    "trans_stablecoin_desc": {
+      "type": "Text",
+      "props": {
+        "text": "TAC +164.2%; Telegram Wallet Yield Vaults launched; Telegram 900M users now in AI-agent payment rails story.",
+        "variant": "caption"
+      }
+    },
+    "trans_stablecoin_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_tac_gain",
+        "stat_tvl_size",
+        "stat_mcap_size"
+      ]
+    },
+    "stat_tac_gain": {
+      "type": "Stat",
+      "props": {
+        "label": "TAC",
+        "value": "+164.2%",
+        "trend": "up"
+      }
+    },
+    "stat_tvl_size": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL",
+        "value": "$800M+"
+      }
+    },
+    "stat_mcap_size": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$265M"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_reflexivity",
+        "refl_btc",
+        "refl_eigen",
+        "refl_syn",
+        "refl_grass"
+      ]
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "refl_btc": {
+      "type": "Alert",
+      "props": {
+        "title": "BTC Distribution",
+        "message": "Strategy $1.25B sale filing + $8B June ETF outflows → fund redemptions → lower BTC → more redemptions. Loop active. BTC $58,983.",
+        "type": "warning"
+      }
+    },
+    "refl_eigen": {
+      "type": "Alert",
+      "props": {
+        "title": "EIGEN (CLIMACTIC)",
+        "message": "-3.4% while TAC +164% — distribution accelerating into final exit window. Jun 30 = tomorrow. Supply overhang endgame.",
+        "type": "error"
+      }
+    },
+    "refl_syn": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl_syn_title",
+        "refl_syn_desc"
+      ]
+    },
+    "refl_syn_title": {
+      "type": "Text",
+      "props": {
+        "text": "SYN/Hypercall (DAY 1)",
+        "variant": "body"
+      }
+    },
+    "refl_syn_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Hayes $2.2M buy → SYN +26% → media pickup → retail FOMO. Options DEX attention category may reset.",
+        "variant": "caption"
+      }
+    },
+    "refl_grass": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl_grass_title",
+        "refl_grass_desc"
+      ]
+    },
+    "refl_grass_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI×DePIN/GRASS (ACTIVE)",
+        "variant": "body"
+      }
+    },
+    "refl_grass_desc": {
+      "type": "Text",
+      "props": {
+        "text": "8 days to Jul 7 airdrop call. Carney + Polychain + countdown. Entering decisive window.",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_positions",
+        "pos_grass",
+        "pos_hypercall",
+        "pos_ai_payments",
+        "pos_stable_rails",
+        "pos_prediction",
+        "pos_base",
+        "pos_defi_rot",
+        "pos_btc_fade",
+        "pos_eigen_fade"
+      ]
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos_grass": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_grass_header",
+        "pos_grass_tags",
+        "pos_grass_desc",
+        "pos_grass_bear"
+      ]
+    },
+    "pos_grass_header": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN: AI×DePIN/GRASS",
+        "variant": "body"
+      }
+    },
+    "pos_grass_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_grass_tier",
+        "badge_grass_bull",
+        "badge_grass_meta"
+      ]
+    },
+    "badge_grass_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑↑",
+        "variant": "secondary"
+      }
+    },
+    "badge_grass_bull": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "badge_grass_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "Polychain/Tribe $10M; Jul 7 airdrop 8 days; Carney decentralized AI tailwind",
+        "variant": "outline"
+      }
+    },
+    "pos_grass_desc": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "caption"
+      }
+    },
+    "pos_grass_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: speculative vs real compute demand",
+        "variant": "muted"
+      }
+    },
+    "pos_hypercall": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_hyp_header",
+        "pos_hyp_tags",
+        "pos_hyp_bear"
+      ]
+    },
+    "pos_hyp_header": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN: Options DEX/Hypercall",
+        "variant": "body"
+      }
+    },
+    "pos_hyp_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_hyp_tier",
+        "badge_hyp_bull",
+        "badge_hyp_meta"
+      ]
+    },
+    "badge_hyp_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↑↑",
+        "variant": "secondary"
+      }
+    },
+    "badge_hyp_bull": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "badge_hyp_meta": {
+      "type": "Badge",
+      "props": {
+        "text": "@RealArthurHayes $2.2M SYN/FlowDesk; FDV $81M no VC unlock",
+        "variant": "outline"
+      }
+    },
+    "pos_hyp_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: options DEX graveyard; KOL-driven reverses fast",
+        "variant": "muted"
+      }
+    },
+    "pos_ai_payments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_aip_header",
+        "pos_aip_tags",
+        "pos_aip_meta"
+      ]
+    },
+    "pos_aip_header": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: AI Agent Payments",
+        "variant": "body"
+      }
+    },
+    "pos_aip_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_aip_tier",
+        "badge_aip_bull"
+      ]
+    },
+    "badge_aip_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "5 →",
+        "variant": "secondary"
+      }
+    },
+    "badge_aip_bull": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos_aip_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_aip_detail",
+        "stat_aip_date"
+      ]
+    },
+    "pos_aip_detail": {
+      "type": "Text",
+      "props": {
+        "text": "x402 Foundation (Google/Visa/AWS/Circle/Anthropic/Stripe); TAC Telegram Wallet; MetaMask AI",
+        "variant": "caption"
+      }
+    },
+    "stat_aip_date": {
+      "type": "Stat",
+      "props": {
+        "label": "Key Date",
+        "value": "EU AI Act Aug 2"
+      }
+    },
+    "pos_stable_rails": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_str_header",
+        "pos_str_tags",
+        "pos_str_meta"
+      ]
+    },
+    "pos_str_header": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: Stablecoins/Payment Rails",
+        "variant": "body"
+      }
+    },
+    "pos_str_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_str_tier",
+        "badge_str_bull"
+      ]
+    },
+    "badge_str_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑",
+        "variant": "secondary"
+      }
+    },
+    "badge_str_bull": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos_str_meta": {
+      "type": "Text",
+      "props": {
+        "text": "TAC $800M+ TVL; $323B market cap; x402/Linux Foundation — ENA loop dormant",
+        "variant": "caption"
+      }
+    },
+    "pos_prediction": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_pred_header",
+        "pos_pred_tags",
+        "pos_pred_meta"
+      ]
+    },
+    "pos_pred_header": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: Prediction Markets",
+        "variant": "body"
+      }
+    },
+    "pos_pred_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pred_tier",
+        "badge_pred_mixed"
+      ]
+    },
+    "badge_pred_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "5 →",
+        "variant": "secondary"
+      }
+    },
+    "badge_pred_mixed": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos_pred_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_pred_detail",
+        "stat_pred_exit"
+      ]
+    },
+    "pos_pred_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket WC knockout stage; Kalshi $6.7B",
+        "variant": "caption"
+      }
+    },
+    "stat_pred_exit": {
+      "type": "Stat",
+      "props": {
+        "label": "Exit Date",
+        "value": "Jul 19",
+        "delta": "20 days firm"
+      }
+    },
+    "pos_base": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_base_header",
+        "pos_base_tier",
+        "pos_base_meta"
+      ]
+    },
+    "pos_base_header": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: Base Ecosystem",
+        "variant": "body"
+      }
+    },
+    "pos_base_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "4 →",
+        "variant": "secondary"
+      }
+    },
+    "pos_base_meta": {
+      "type": "Text",
+      "props": {
+        "text": "x402 Builder Codes; GRASS; JPM Coin — macro drag mounting",
+        "variant": "caption"
+      }
+    },
+    "pos_defi_rot": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_defi_header",
+        "pos_defi_tier",
+        "pos_defi_meta"
+      ]
+    },
+    "pos_defi_header": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: DeFi Sector Rotation",
+        "variant": "body"
+      }
+    },
+    "pos_defi_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↓↓",
+        "variant": "destructive"
+      }
+    },
+    "pos_defi_meta": {
+      "type": "Text",
+      "props": {
+        "text": "2nd consecutive absent from winners; TVL -37% YTD; BTC distribution macro drag",
+        "variant": "caption"
+      }
+    },
+    "pos_btc_fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_btcf_header",
+        "pos_btcf_tags",
+        "pos_btcf_meta"
+      ]
+    },
+    "pos_btcf_header": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: BTC Distribution",
+        "variant": "body"
+      }
+    },
+    "pos_btcf_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_btcf_tier",
+        "badge_btcf_bear"
+      ]
+    },
+    "badge_btcf_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑↑",
+        "variant": "destructive"
+      }
+    },
+    "badge_btcf_bear": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear",
+        "variant": "destructive"
+      }
+    },
+    "pos_btcf_meta": {
+      "type": "Text",
+      "props": {
+        "text": "IBIT $4.06B June exodus; Strategy $1.25B filing; BTC $58,983",
+        "variant": "caption"
+      }
+    },
+    "pos_eigen_fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_eigenf_header",
+        "pos_eigenf_alert"
+      ]
+    },
+    "pos_eigenf_header": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: EigenCloud/EIGEN",
+        "variant": "body"
+      }
+    },
+    "pos_eigenf_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "-3.4% today; EXIT JUN 30",
+        "message": "2 ↓↓ | analyst $0.211 target",
+        "type": "error"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_map",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_emerging",
+        "badges_emerging"
+      ]
+    },
+    "label_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging",
+        "variant": "lead"
+      }
+    },
+    "badges_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_em1",
+        "badge_em2"
+      ]
+    },
+    "badge_em1": {
+      "type": "Badge",
+      "props": {
+        "text": "Options DEX/Hypercall",
+        "variant": "default"
+      }
+    },
+    "badge_em2": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Security",
+        "variant": "default"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_rising",
+        "badges_rising"
+      ]
+    },
+    "label_rising": {
+      "type": "Text",
+      "props": {
+        "text": "Rising",
+        "variant": "lead"
+      }
+    },
+    "badges_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_rs1",
+        "badge_rs2",
+        "badge_rs3",
+        "badge_rs4",
+        "badge_rs5"
+      ]
+    },
+    "badge_rs1": {
+      "type": "Badge",
+      "props": {
+        "text": "AI×DePIN",
+        "variant": "secondary"
+      }
+    },
+    "badge_rs2": {
+      "type": "Badge",
+      "props": {
+        "text": "Stablecoins/Payment Rails",
+        "variant": "secondary"
+      }
+    },
+    "badge_rs3": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC Distribution",
+        "variant": "secondary"
+      }
+    },
+    "badge_rs4": {
+      "type": "Badge",
+      "props": {
+        "text": "Base Ecosystem",
+        "variant": "secondary"
+      }
+    },
+    "badge_rs5": {
+      "type": "Badge",
+      "props": {
+        "text": "Attention Markets/InfoFi",
+        "variant": "secondary"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_peak",
+        "badges_peak"
+      ]
+    },
+    "label_peak": {
+      "type": "Text",
+      "props": {
+        "text": "Peak",
+        "variant": "lead"
+      }
+    },
+    "badges_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pk1",
+        "badge_pk2",
+        "badge_pk3",
+        "badge_pk4"
+      ]
+    },
+    "badge_pk1": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Payments",
+        "variant": "outline"
+      }
+    },
+    "badge_pk2": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Crypto Infrastructure",
+        "variant": "outline"
+      }
+    },
+    "badge_pk3": {
+      "type": "Badge",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "outline"
+      }
+    },
+    "badge_pk4": {
+      "type": "Badge",
+      "props": {
+        "text": "RWA Tokenization",
+        "variant": "outline"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_fading",
+        "badges_fading"
+      ]
+    },
+    "label_fading": {
+      "type": "Text",
+      "props": {
+        "text": "Fading",
+        "variant": "lead"
+      }
+    },
+    "badges_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fd1",
+        "badge_fd2",
+        "badge_fd3",
+        "badge_fd4",
+        "badge_fd5"
+      ]
+    },
+    "badge_fd1": {
+      "type": "Badge",
+      "props": {
+        "text": "DeFi Rotation",
+        "variant": "destructive"
+      }
+    },
+    "badge_fd2": {
+      "type": "Badge",
+      "props": {
+        "text": "EigenCloud",
+        "variant": "destructive"
+      }
+    },
+    "badge_fd3": {
+      "type": "Badge",
+      "props": {
+        "text": "Hyperliquid/Perp DEXs",
+        "variant": "destructive"
+      }
+    },
+    "badge_fd4": {
+      "type": "Badge",
+      "props": {
+        "text": "Memecoin Launchpads",
+        "variant": "destructive"
+      }
+    },
+    "badge_fd5": {
+      "type": "Badge",
+      "props": {
+        "text": "Privacy/ZK",
+        "variant": "destructive"
+      }
+    }
+  }
+}
