@@ -1,38 +1,37 @@
-*Deal Flow — 2026-06-22*
+*Deal Flow — 2026-06-29*
 
-**Read:** Smart money converged on the two ends of AI infrastructure — on-chain capital rails (Digital Asset, Morpho) and agentic compute/security (Hydra Host, Ent.AI); model and app-layer rounds drew large checks but weaker investor-conviction signals.
+**Read:** Two-pole capital formation week — $2.15B to AI inference (Baseten/Groq) plus the largest seed in AI history ($200M, Mirendil). The same top-tier VCs are on both ends simultaneously: the AI infrastructure race is being fought at "who can scale fastest" and "who can lock up foundational models first" at the same time.
 
-1. **Digital Asset / Canton** — institutional blockchain for capital market settlement, tokenization, and payments
-   $355M growth @ n/d post (n/d vs prior) | Lead: a16z crypto + HSBC, BNP Paribas, CME Ventures, Citadel Securities, Broadridge, S&P Global, Tradeweb
-   *Why it matters:* HSBC, BNP, CME, and Citadel co-signing with a16z — settlement-layer incumbents buying into on-chain rails they will eventually be forced to run on.
+1. **Baseten** — AI inference platform; 1B+ calls/day across 87 clusters on 18 clouds
+   $1.5B Series F @ $13B post (UP >2× vs $5B Jan 2026) | Lead: Altimeter Capital, Conviction, Spark Capital
+   *Why it matters:* Altimeter and Spark confirm inference is AI's durable moat; 20× revenue growth at $13B proves it.
 
-2. **Morpho** — permissionless DeFi lending protocol; $11B deposits, $192M annualized fees (no token emissions)
-   $175M equity @ $2B post (n/d vs prior) | Lead: Paradigm, a16z crypto, Ribbit Capital
-   *Why it matters:* Largest DeFi equity raise ever — Paradigm and a16z betting real-revenue on-chain credit displaces bank lending infrastructure, not supplements it.
+2. **Mirendil** — Foundational AI R&D systems; pre-product
+   $200M Seed @ n/d | Lead: a16z, Kleiner Perkins (Nvidia co-invested)
+   *Why it matters:* Largest seed in AI history — a16z + Kleiner + Nvidia pre-buying foundational model optionality before product ships.
 
-3. **Hydra Host** — bare-metal GPU platform connecting customers to distributed AI computing infrastructure
-   $100M Series A @ n/d post (n/d vs prior) | Lead: Kindred Ventures
-   *Why it matters:* [Tier-3: agentic compute] Autonomous agents will consume commodity bare-metal compute outside hyperscaler lock-in; this is the infrastructure layer forming directly under the agent economy.
+3. **Catena Labs** — Regulated financial infrastructure for AI agents; filed for US bank charter
+   $30M Series A @ n/d | Lead: a16z crypto, Acrew Capital
+   *Why it matters:* First US bank charter filing for AI agent rails — agentic payments crossing from x402 sandbox into regulated banking.
 
-4. **Ent.AI** — real-time AI agent behavior monitoring and workspace security platform
-   $100M Seed @ n/d post (n/d vs prior) | Lead: Decibel Partners
-   *Why it matters:* [Tier-3: autonomous-agent infra] $100M seed before product-market fit signals the market treats agent behavioral governance as zero-day infrastructure, not an enterprise security feature.
+4. **Groq** — AI inference cloud; LPX hardware; rebuilt after Nvidia's $20B IP licensing deal
+   $650M Growth @ n/d | Lead: Disruptive, Infinitum
+   *Why it matters:* Nvidia paid $20B for Groq's chip IP; Groq immediately raised $650M independently — first acqui-hire-that-wasn't producing a funded competitor.
 
-5. **Cyera** — AI-native data security and governance platform
-   $600M Series G @ $12B post (UP from $9B, Jan 2026) | Lead: Evolution Equity Partners
-   *Why it matters:* EU AI Act enforcement lands Aug 2 — Cyera's 33% valuation step-up from January is the regulatory premium repricing ahead of that deadline.
+5. **Stark** — AI-native defense and surveillance systems; Berlin
+   $569M @ n/d | Lead: Founders Fund, Sequoia Capital
+   *Why it matters:* Founders Fund + Sequoia co-leading European defense tech is top-tier VC's clearest bet on EU rearmament as structural.
 
-6. **Odyssey** — AI world models generating multimodal simulations of real-world environments
-   $310M Series B @ $1.45B post (n/d vs prior) | Lead: Natural Capital
-   *Why it matters:* World models for synthetic simulation attack the training-data ceiling directly — the category that determines which foundation labs can scale cheaply past 2026.
+6. **Upscale AI** — AI infrastructure; compute stack for enterprise models
+   $190M Series A ext @ $2B post (n/d vs prior) | Lead: Premji Invest
+   *Why it matters:* Premji Invest at Series A reveals AI infra globalizing — India's largest tech institution co-owning compute infra alongside Silicon Valley VCs.
 
-7. **Sarvam AI** — India sovereign AI; frontier language models for 22+ languages, 10M daily API calls
-   $234M Series B (first close of $300M) @ $1.5B post (n/d vs prior) | Lead: HCLTech ($150M)
-   *Why it matters:* HCLTech leading at $150M — not a VC — signals India's IT services giants are buying sovereign AI before ChatGPT commoditizes their consulting stack.
+7. **General Intuition** — AI agents trained on action-labeled gameplay for real-world device control
+   $320M Growth @ $2.3B post (UP from $134M seed Oct 2025) | Lead: Khosla Ventures
+   *Why it matters:* Action-labeled gameplay — actual button presses, not video inference — first methodology producing controllable real-world AI agents.
 
-8. **AppsFlyer** — mobile attribution and omnichannel marketing measurement platform
-   $1B Series E @ $2.7B post (n/d vs prior) | Lead: Google, Meta, Unity, Moloco (consortium)
-   *Why it matters:* Four competing ad platforms co-investing in the same independent measurement layer — rivals aligning on a common referee before AI attribution dissolves their individual measurement moats.
+8. **Runlayer** — Agent governance and control layer; enterprise compliance audit trail
+   $30M Series A @ n/d | Lead: Felicis
+   *Why it matters:* Felicis backing enterprise agent governance as compliance infra: auditable control is the layer enterprises need before autonomous agents deploy at scale.
 
-*Sources:* crunchbase=ok, techcrunch=ok, cryptorank=partial (auth wall), aifundingtracker=fail (timeout), crypto-fundraising.info=fail (bot block) | candidates=18 → kept=8
-
+*Sources:* crunchbase=ok, techcrunch=ok, cryptorank=fail (auth wall), aift=fail (May data only) | candidates=20 → kept=8

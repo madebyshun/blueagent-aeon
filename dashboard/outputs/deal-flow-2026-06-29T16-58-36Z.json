@@ -1,0 +1,402 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Deal Flow — 2026-06-29"
+      },
+      "children": [
+        "text_intro",
+        "sep1",
+        "deal1",
+        "sep2",
+        "deal2",
+        "sep3",
+        "deal3",
+        "sep4",
+        "deal4",
+        "sep5",
+        "deal5",
+        "sep6",
+        "deal6",
+        "sep7",
+        "deal7",
+        "sep8",
+        "deal8",
+        "sep9",
+        "text_sources"
+      ]
+    },
+    "text_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Read: Two-pole capital formation week — $2.15B to AI inference (Baseten/Groq) plus the largest seed in AI history ($200M, Mirendil). The same top-tier VCs are on both ends simultaneously: the AI infrastructure race is being fought at \"who can scale fastest\" and \"who can lock up foundational models first\" at the same time."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "deal1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal1_heading",
+        "deal1_desc",
+        "deal1_funding",
+        "deal1_why"
+      ]
+    },
+    "deal1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Baseten",
+        "level": "h3"
+      }
+    },
+    "deal1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI inference platform; 1B+ calls/day across 87 clusters on 18 clouds"
+      }
+    },
+    "deal1_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$1.5B Series F @ $13B post (UP >2× vs $5B Jan 2026) | Lead: Altimeter Capital, Conviction, Spark Capital",
+        "variant": "caption"
+      }
+    },
+    "deal1_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Altimeter and Spark confirm inference is AI's durable moat; 20× revenue growth at $13B proves it.",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "deal2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal2_heading",
+        "deal2_desc",
+        "deal2_funding",
+        "deal2_why"
+      ]
+    },
+    "deal2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Mirendil",
+        "level": "h3"
+      }
+    },
+    "deal2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Foundational AI R&D systems; pre-product"
+      }
+    },
+    "deal2_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$200M Seed @ n/d | Lead: a16z, Kleiner Perkins (Nvidia co-invested)",
+        "variant": "caption"
+      }
+    },
+    "deal2_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Largest seed in AI history — a16z + Kleiner + Nvidia pre-buying foundational model optionality before product ships.",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "deal3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal3_heading",
+        "deal3_desc",
+        "deal3_funding",
+        "deal3_why"
+      ]
+    },
+    "deal3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catena Labs",
+        "level": "h3"
+      }
+    },
+    "deal3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Regulated financial infrastructure for AI agents; filed for US bank charter"
+      }
+    },
+    "deal3_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$30M Series A @ n/d | Lead: a16z crypto, Acrew Capital",
+        "variant": "caption"
+      }
+    },
+    "deal3_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: First US bank charter filing for AI agent rails — agentic payments crossing from x402 sandbox into regulated banking.",
+        "variant": "muted"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "deal4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal4_heading",
+        "deal4_desc",
+        "deal4_funding",
+        "deal4_why"
+      ]
+    },
+    "deal4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Groq",
+        "level": "h3"
+      }
+    },
+    "deal4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI inference cloud; LPX hardware; rebuilt after Nvidia's $20B IP licensing deal"
+      }
+    },
+    "deal4_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$650M Growth @ n/d | Lead: Disruptive, Infinitum",
+        "variant": "caption"
+      }
+    },
+    "deal4_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Nvidia paid $20B for Groq's chip IP; Groq immediately raised $650M independently — first acqui-hire-that-wasn't producing a funded competitor.",
+        "variant": "muted"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "deal5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal5_heading",
+        "deal5_desc",
+        "deal5_funding",
+        "deal5_why"
+      ]
+    },
+    "deal5_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Stark",
+        "level": "h3"
+      }
+    },
+    "deal5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI-native defense and surveillance systems; Berlin"
+      }
+    },
+    "deal5_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$569M @ n/d | Lead: Founders Fund, Sequoia Capital",
+        "variant": "caption"
+      }
+    },
+    "deal5_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Founders Fund + Sequoia co-leading European defense tech is top-tier VC's clearest bet on EU rearmament as structural.",
+        "variant": "muted"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "deal6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal6_heading",
+        "deal6_desc",
+        "deal6_funding",
+        "deal6_why"
+      ]
+    },
+    "deal6_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Upscale AI",
+        "level": "h3"
+      }
+    },
+    "deal6_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI infrastructure; compute stack for enterprise models"
+      }
+    },
+    "deal6_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$190M Series A ext @ $2B post (n/d vs prior) | Lead: Premji Invest",
+        "variant": "caption"
+      }
+    },
+    "deal6_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Premji Invest at Series A reveals AI infra globalizing — India's largest tech institution co-owning compute infra alongside Silicon Valley VCs.",
+        "variant": "muted"
+      }
+    },
+    "sep7": {
+      "type": "Separator",
+      "props": {}
+    },
+    "deal7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal7_heading",
+        "deal7_desc",
+        "deal7_funding",
+        "deal7_why"
+      ]
+    },
+    "deal7_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "General Intuition",
+        "level": "h3"
+      }
+    },
+    "deal7_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI agents trained on action-labeled gameplay for real-world device control"
+      }
+    },
+    "deal7_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$320M Growth @ $2.3B post (UP from $134M seed Oct 2025) | Lead: Khosla Ventures",
+        "variant": "caption"
+      }
+    },
+    "deal7_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Action-labeled gameplay — actual button presses, not video inference — first methodology producing controllable real-world AI agents.",
+        "variant": "muted"
+      }
+    },
+    "sep8": {
+      "type": "Separator",
+      "props": {}
+    },
+    "deal8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal8_heading",
+        "deal8_desc",
+        "deal8_funding",
+        "deal8_why"
+      ]
+    },
+    "deal8_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Runlayer",
+        "level": "h3"
+      }
+    },
+    "deal8_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Agent governance and control layer; enterprise compliance audit trail"
+      }
+    },
+    "deal8_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$30M Series A @ n/d | Lead: Felicis",
+        "variant": "caption"
+      }
+    },
+    "deal8_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Felicis backing enterprise agent governance as compliance infra: auditable control is the layer enterprises need before autonomous agents deploy at scale.",
+        "variant": "muted"
+      }
+    },
+    "sep9": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: crunchbase=ok, techcrunch=ok, cryptorank=fail (auth wall), aift=fail (May data only) | candidates=20 → kept=8",
+        "variant": "caption"
+      }
+    }
+  }
+}
