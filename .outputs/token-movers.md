@@ -1,39 +1,43 @@
-*Token Movers — 2026-06-28*
+*Token Movers — Jun 29, 2026*
 
-_Risk-off lean — 53/100 top coins red, median −0.56%; only 3 coins above +10% after filters; AAVE reverses 3-day DeFi rotation to lead losers._
+_Risk-off tape with isolated breakouts — ~64% of top-100 red, BTC at $59.2K; a handful of low/mid-cap moves defy the selling while majors continue to bleed._
 
 *Top Winners (24h)*
-1. VELVET (Velvet) — $1.760  +30.9% / 7d +280.6% / 1h +2.9%  •  $76.4M / #81  [TRENDING+UP] [BREAKOUT]
-2. PUMP (Pump.fun) — $0.001477  +11.9% / 7d −0.6% / 1h −0.4%  •  $95.3M / #94  [TRENDING+UP]
-3. LAB (LAB) — $17.08  +11.6% / 7d +7.0% / 1h +2.4%  •  $33.0M / #21
-4. SYN (Synapse) — $0.3993  +9.9% / 7d N/A / 1h N/A  •  N/A / #283
-5. DEXE (DeXe) — $22.36  +2.2% / 7d +57.2% / 1h 0.0%  •  $11.5M / #63
-6. SKY (Sky) — $0.04966  +1.9% / 7d −15.9% / 1h −0.4%  •  $6.0M / #59
-7. NEAR (NEAR Protocol) — $1.850  +1.5% / 7d −15.0% / 1h −0.8%  •  $280M / #38
-8. VVV (Venice Token) — $13.53  +1.1% / 7d N/A / 1h N/A  •  N/A / #91
+1. TAC (TAC) — $0.0569  +164.2% / 1h n/a  •  $21.3M / #139  [TRENDING+UP]
+2. RE (RE) — $0.777  +24.5% / 7d −4.0% / 1h +3.4%  •  $3.21B / #220  [FADE]
+3. ADI (ADI) — $5.85  +18.1% / 7d +37.1% / 1h +14.7%  •  $11.3M / #88  [BREAKOUT]
+4. BAS (BNB Attestation) — $0.0505  +16.8% / 7d +69.0% / 1h +0.4%  •  $12.5M / #216  [BREAKOUT]
+5. CX (Cortex) — $0.0780  +15.3% / 7d +86.6% / 1h +2.6%  •  $1.5M / #236  [BREAKOUT]
+6. BEAT (Audiera) — $2.80  +11.9% / 7d +62.9% / 1h +2.3%  •  $22.4M / #74  [BREAKOUT]
+7. TAG (TAGGER) — $0.0010  +11.7% / 7d +4.1% / 1h −0.6%  •  $4.8M / #248
+8. FARTCOIN — $0.1417  +9.2% / 7d +6.5% / 1h −0.2%  •  $27.3M / #200
+9. H (Humanity) — $0.0622  +8.2% / 7d −57.0% / 1h +0.2%  •  $10.0M / #239
+10. AR (Arweave) — $1.98  +7.6% / 7d −1.9% / 1h −0.2%  •  $17.9M / #212
 
 *Top Losers (24h)*
-1. AAVE (Aave) — $89.01  −7.6% / 7d +20.2% / 1h −0.7%  •  $299M / #56  [TRENDING+DOWN]
-2. ZEC (Zcash) — $383.7  −6.1% / 7d −15.0% / 1h −0.7%  •  $222M / #15  [MAJOR]
-3. FET (ASI Alliance) — $0.1712  −4.6% / 7d N/A / 1h N/A  •  N/A / #120  [TRENDING+DOWN]
-4. AVAX (Avalanche) — $6.290  −3.8% / 7d +0.4% / 1h −0.8%  •  $146M / #34
-5. XLM (Stellar) — $0.1708  −3.0% / 7d −19.0% / 1h −0.6%  •  $117M / #18  [MAJOR]
-6. DOGE (Dogecoin) — $0.07339  −2.7% / 7d −11.6% / 1h −0.3%  •  $446M / #11  [MAJOR]
-7. BCH (Bitcoin Cash) — $192.3  −2.7% / 7d −2.8% / 1h −0.5%  •  $67.5M / #27
-8. ETC (Ethereum Classic) — $7.040  −2.6% / 7d −4.3% / 1h −0.4%  •  $28.8M / #62
-9. HBAR (Hedera) — $0.07111  −2.2% / 7d −10.9% / 1h −0.6%  •  $39.1M / #30
-10. ADA (Cardano) — $0.1442  −2.0% / 7d −10.5% / 1h −0.6%  •  $214M / #22
+1. BTW (Bitway) — $0.0490  −21.5% / 7d −59.8% / 1h −2.3%  •  $18.4M / #250
+2. SKYAI (SkyAI) — $0.1257  −20.6% / 7d −64.0% / 1h −1.8%  •  $56.4M / #221  [CAPITULATION]
+3. M (MemeCore) — $0.561  −20.2% / 7d −81.3% / 1h +0.1%  •  $18.5M / #82
+4. LAB (LAB) — $15.43  −11.8% / 7d +2.8% / 1h −0.7%  •  $32.0M / #22
+5. PI (Pi Network) — $0.116  −8.3% / 7d −14.3% / 1h −0.5%  •  $14.2M / #57
+6. VVV (Venice Token) — $12.67  −7.2% / 7d −19.3% / 1h −2.4%  •  $24.0M / #94
+7. VELVET (Velvet) — $1.68  −5.8% / 7d +275.1% / 1h −0.3%  •  $75.7M / #85
+8. IOTA (IOTA) — $0.0352  −5.1% / 7d −22.3% / 1h +0.0%  •  $7.8M / #192
+9. WLD (Worldcoin) — $0.421  −4.8% / 7d −33.9% / 1h −0.7%  •  $175.6M / #50
+10. EIGEN (EigenCloud) — $0.2238  −3.4% / 7d −27.3% / 1h −0.6%  •  $21.0M / #186
 
 *Trending*
-1. ANSEM (The Black Bull) — #579, $0.08478, +42165%  [PUMP-RISK]
-2. DEUS (XMAQUINA) — #921, $0.03054, +7.8%  [PUMP-RISK]
-3. PENGU (Pudgy Penguins) — #117, $0.006209, −0.3%
-4. ACT (Act I AI Prophecy) — #939, $0.01544, +95.7%  [PUMP-RISK]
-5. BTC (Bitcoin) — #1, $59,961, −0.6%
-6. VELVET (Velvet) — #81, $1.774, +29.3%  [TRENDING+UP]
-7. SYN (Synapse) — #283, $0.3993, +9.9%
+1. ANSEM (The Black Bull) — #540, $0.0893, +13.0%
+2. TAC (TAC) — #139, $0.0569, +164.2%  [TRENDING+UP]
+3. SYN (Synapse) — #280, $0.432, +16.5%
+4. ENA (Ethena) — #80, $0.0800, +5.0%
+5. PENGU (Pudgy Penguins) — #119, $0.00612, −1.5%
+6. BTC (Bitcoin) — #1, $59,121, −1.4%
+7. SLX (Solstice) — #217, $0.524, −2.8%
 
 *Notable*
-• VELVET day 2: rank #81 +30.9%/7d+280.6% still trending — [TRENDING+UP][BREAKOUT] holding after yesterday's +121.5% spike; magnitude down, move sustained
-• ANSEM & ACT trending top 4: +42165% (#579) and +95.7% (#939) — extreme [PUMP-RISK]; micro-cap, outside filtered list; do not chase
-• AAVE reversal [TRENDING+DOWN]: ends 3-day DeFi rotation streak (Jun 25–27); −7.6% today while still in trending; watch whether rotation resumes
+• TAC: trending #2 + +164% on $21M vol — TON+EVM L1, catalyst unknown  [TRENDING+UP]
+• RE: +24.5% on $3.21B vol at #220 — volume ~27× market cap, wash-trade suspect  [FADE]
+• SKYAI: −20.6% / $56M vol, 64% 7d drawdown  [CAPITULATION]
+• EIGEN: −3.4%, 2 days to Jul 1 cliff unlock ($8.46M); exit window closes Jun 30
+• LAB: yesterday +11.6% winner → today −11.8% loser — sharp one-day reversal
