@@ -1,28 +1,25 @@
-*GitHub Trending — 2026-06-28*
+*GitHub Trending — 2026-06-29*
 
-*Top pick* — [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
-A C-native MCP server that solves the "big repo, dumb context" problem — indexes your entire codebase locally so AI assistants actually know your code.
-
-*Devtools*
-• [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) — ★ 2,162 today (18.5k total) · C · [ACCELERATING]
-High-performance MCP code intelligence server indexing codebases at native speed — no source leaves your machine.
-
-• [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice) — ★ 264 today (3.2k total) · Swift · [RETURNING]
-Offline macOS dictation via a system extension — voice-to-text fully on-device, zero audio leaving the machine, pushed today.
+*Top pick* — [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
+Multi-agent coordination in plain shell — 118k stars says the "no SDK, no infra" approach to AI agents is exactly what devs want right now.
 
 *AI/ML*
-• [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) — ★ 372 today (8.0k total) · Python · [ACCELERATING]
-Feed-forward 3D foundation model that reconstructs scenes in one pass — no per-scene optimization loop, no NeRF iterations required.
+• [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) — ★ 1,221 today (118.3k total) · Shell · [ACCELERATING]
+12 specialist Claude roles (researcher, coder, debugger, writer) wired in a single shell script — zero framework overhead.
 
-• [opendatalab/MinerU](https://github.com/opendatalab/MinerU) — ★ 749 today (71.2k total) · Python · [ACCELERATING]
-Converts PDFs, PPTs, and Office docs to Markdown/JSON with tables and formulas intact — de facto open-source document pipeline for LLM ingestion.
+• [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) — ★ 1,397 today (6.3k total) · Python · [ACCELERATING]
+Claude Code subagent pipeline for value investing — automates SEC filing analysis, ratio screening, and thesis generation end-to-end.
 
-• [browser-use/video-use](https://github.com/browser-use/video-use) — ★ 186 today (10.6k total) · Python · [ACCELERATING]
-Describe a video edit in natural language, get a rendered clip — browser-use team extends their agent framework from web browsing to video.
+*Devtools*
+• [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) — ★ 249 today (17.3k total) · TypeScript · [ACCELERATING]
+Open-source local-first markdown KB with graph view — no account, no sync lock-in, ships as a desktop app.
 
-*Data*
-• [cupy/cupy](https://github.com/cupy/cupy) — ★ 172 today (11.3k total) · Python · [RETURNING]
-Drop-in GPU replacement for NumPy/SciPy — existing array code runs on CUDA with no rewrites; 53× star spike points to a new release today.
+• [soxoj/maigret](https://github.com/soxoj/maigret) — ★ 191 today (34.1k total) · Python · [RETURNING]
+De facto OSINT CLI: maps a username across 3,000+ platforms to an identity profile in one command.
+
+*Web/Apps*
+• [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) — ★ 1,611 today (16.0k total) · Haskell · [RETURNING]
+Zero user IDs in the protocol — server nodes can't identify or link messages to anyone, even under legal compulsion.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/13
+sources: trending=ok · gh_api=ok · kept 5/14

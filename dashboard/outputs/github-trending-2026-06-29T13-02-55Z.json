@@ -1,0 +1,469 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-29"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_top_pick",
+        "separator_1",
+        "section_ai_ml",
+        "separator_2",
+        "section_devtools",
+        "separator_3",
+        "section_web_apps",
+        "separator_4",
+        "footer_info"
+      ]
+    },
+    "section_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_top_pick",
+        "repo_top_pick_1"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "repo_top_pick_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_top_pick_1",
+        "text_desc_top_pick_1"
+      ]
+    },
+    "link_top_pick_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "msitarzewski/agency-agents",
+        "href": "https://github.com/msitarzewski/agency-agents",
+        "source": "GitHub"
+      }
+    },
+    "text_desc_top_pick_1": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-agent coordination in plain shell — 118k stars says the \"no SDK, no infra\" approach to AI agents is exactly what devs want right now.",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_ai_ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_ai_ml",
+        "repo_ai_ml_1",
+        "repo_ai_ml_2"
+      ]
+    },
+    "heading_ai_ml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "repo_ai_ml_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ai_ml_1",
+        "text_desc_ai_ml_1",
+        "stack_meta_ai_ml_1"
+      ]
+    },
+    "link_ai_ml_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "msitarzewski/agency-agents",
+        "href": "https://github.com/msitarzewski/agency-agents",
+        "source": "GitHub"
+      }
+    },
+    "text_desc_ai_ml_1": {
+      "type": "Text",
+      "props": {
+        "text": "12 specialist Claude roles (researcher, coder, debugger, writer) wired in a single shell script — zero framework overhead.",
+        "variant": "body"
+      }
+    },
+    "stack_meta_ai_ml_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_stars_ai_ml_1",
+        "badge_lang_ai_ml_1",
+        "badge_status_ai_ml_1"
+      ]
+    },
+    "stat_stars_ai_ml_1": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "1,221",
+        "delta": "118.3k total"
+      }
+    },
+    "badge_lang_ai_ml_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell",
+        "variant": "secondary"
+      }
+    },
+    "badge_status_ai_ml_1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "repo_ai_ml_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ai_ml_2",
+        "text_desc_ai_ml_2",
+        "stack_meta_ai_ml_2"
+      ]
+    },
+    "link_ai_ml_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "xbtlin/ai-berkshire",
+        "href": "https://github.com/xbtlin/ai-berkshire",
+        "source": "GitHub"
+      }
+    },
+    "text_desc_ai_ml_2": {
+      "type": "Text",
+      "props": {
+        "text": "Claude Code subagent pipeline for value investing — automates SEC filing analysis, ratio screening, and thesis generation end-to-end.",
+        "variant": "body"
+      }
+    },
+    "stack_meta_ai_ml_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_stars_ai_ml_2",
+        "badge_lang_ai_ml_2",
+        "badge_status_ai_ml_2"
+      ]
+    },
+    "stat_stars_ai_ml_2": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "1,397",
+        "delta": "6.3k total"
+      }
+    },
+    "badge_lang_ai_ml_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "badge_status_ai_ml_2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "repo_devtools_1",
+        "repo_devtools_2"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "repo_devtools_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_devtools_1",
+        "text_desc_devtools_1",
+        "stack_meta_devtools_1"
+      ]
+    },
+    "link_devtools_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "refactoringhq/tolaria",
+        "href": "https://github.com/refactoringhq/tolaria",
+        "source": "GitHub"
+      }
+    },
+    "text_desc_devtools_1": {
+      "type": "Text",
+      "props": {
+        "text": "Open-source local-first markdown KB with graph view — no account, no sync lock-in, ships as a desktop app.",
+        "variant": "body"
+      }
+    },
+    "stack_meta_devtools_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_stars_devtools_1",
+        "badge_lang_devtools_1",
+        "badge_status_devtools_1"
+      ]
+    },
+    "stat_stars_devtools_1": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "249",
+        "delta": "17.3k total"
+      }
+    },
+    "badge_lang_devtools_1": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_status_devtools_1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "repo_devtools_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_devtools_2",
+        "text_desc_devtools_2",
+        "stack_meta_devtools_2"
+      ]
+    },
+    "link_devtools_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "soxoj/maigret",
+        "href": "https://github.com/soxoj/maigret",
+        "source": "GitHub"
+      }
+    },
+    "text_desc_devtools_2": {
+      "type": "Text",
+      "props": {
+        "text": "De facto OSINT CLI: maps a username across 3,000+ platforms to an identity profile in one command.",
+        "variant": "body"
+      }
+    },
+    "stack_meta_devtools_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_stars_devtools_2",
+        "badge_lang_devtools_2",
+        "badge_status_devtools_2"
+      ]
+    },
+    "stat_stars_devtools_2": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "191",
+        "delta": "34.1k total"
+      }
+    },
+    "badge_lang_devtools_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "badge_status_devtools_2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_web_apps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_web_apps",
+        "repo_web_apps_1"
+      ]
+    },
+    "heading_web_apps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "repo_web_apps_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_web_apps_1",
+        "text_desc_web_apps_1",
+        "stack_meta_web_apps_1"
+      ]
+    },
+    "link_web_apps_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "simplex-chat/simplex-chat",
+        "href": "https://github.com/simplex-chat/simplex-chat",
+        "source": "GitHub"
+      }
+    },
+    "text_desc_web_apps_1": {
+      "type": "Text",
+      "props": {
+        "text": "Zero user IDs in the protocol — server nodes can't identify or link messages to anyone, even under legal compulsion.",
+        "variant": "body"
+      }
+    },
+    "stack_meta_web_apps_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_stars_web_apps_1",
+        "badge_lang_web_apps_1",
+        "badge_status_web_apps_1"
+      ]
+    },
+    "stat_stars_web_apps_1": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "1,611",
+        "delta": "16.0k total"
+      }
+    },
+    "badge_lang_web_apps_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Haskell",
+        "variant": "secondary"
+      }
+    },
+    "badge_status_web_apps_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_info": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/14",
+        "variant": "caption"
+      }
+    }
+  }
+}
