@@ -1,0 +1,215 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-06-30",
+        "description": "Verdict: 1 actively exploited, 0 likely soon, 1 to monitor. Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "sep_top",
+        "heading_patch",
+        "vuln1_stack",
+        "sep_mid",
+        "heading_monitor",
+        "vuln2_stack"
+      ]
+    },
+    "sep_top": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_patch": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "vuln1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "vuln1_link",
+        "vuln1_badges",
+        "vuln1_desc",
+        "vuln1_alert",
+        "vuln1_action"
+      ]
+    },
+    "vuln1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48558 — SimpleHelp",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "CISA KEV"
+      },
+      "children": []
+    },
+    "vuln1_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_date",
+        "badge_epss_0012",
+        "badge_cvss_unscored"
+      ]
+    },
+    "badge_kev_date": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-06-29",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_epss_0012": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.012",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge_cvss_unscored": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS unscored",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "vuln1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "OIDC auth bypass: forged identity tokens accepted without signature verification → unauthenticated admin session takeover, may also bypass MFA."
+      },
+      "children": []
+    },
+    "vuln1_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Confirmed Exploitation in Wild",
+        "type": "error"
+      },
+      "children": []
+    },
+    "vuln1_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply SimpleHelp vendor update per CISA BOD 26-04 guidance today.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep_mid": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "vuln2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "vuln2_link",
+        "vuln2_badges",
+        "vuln2_desc",
+        "vuln2_action"
+      ]
+    },
+    "vuln2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-q2m9-6jp9-c6mc — dgraph/v25 (Go)",
+        "href": "https://github.com/advisories/GHSA-q2m9-6jp9-c6mc",
+        "source": "GitHub Advisory"
+      },
+      "children": []
+    },
+    "vuln2_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_75",
+        "badge_epss_unscored",
+        "badge_affects",
+        "badge_no_patch"
+      ]
+    },
+    "badge_cvss_75": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_epss_unscored": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS unscored",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_affects": {
+      "type": "Badge",
+      "props": {
+        "text": "affects ≤ 25.3.3",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_no_patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "vuln2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "DQL injection via checkUserPassword GraphQL query — password interpolated via fmt.Sprintf without escaping; double-quote breaks string literal, allows arbitrary DQL injection."
+      },
+      "children": []
+    },
+    "vuln2_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ track GHSA-q2m9-6jp9-c6mc; avoid exposing Dgraph GraphQL auth endpoints publicly until patch lands.",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
