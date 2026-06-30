@@ -1,0 +1,474 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-30"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_toppick",
+        "repo_toppick",
+        "sep1",
+        "heading_aiml",
+        "stack_aiml",
+        "sep2",
+        "heading_devtools",
+        "stack_devtools",
+        "sep3",
+        "text_sources"
+      ]
+    },
+    "heading_toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "repo_toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_strix_toppick",
+        "text_strix_toppick_desc"
+      ]
+    },
+    "link_strix_toppick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "usestrix/strix",
+        "href": "https://github.com/usestrix/strix"
+      }
+    },
+    "text_strix_toppick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "First open-source AI that closes the red-team loop: finds app vulnerabilities and writes the fix, turning pentesting from a periodic audit into a continuous CI check."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "stack_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "aiml_repo1",
+        "aiml_repo2",
+        "aiml_repo3"
+      ]
+    },
+    "aiml_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml1_header",
+        "aiml1_desc"
+      ]
+    },
+    "aiml1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml1_link",
+        "aiml1_stat",
+        "aiml1_lang",
+        "aiml1_status"
+      ]
+    },
+    "aiml1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "usestrix/strix",
+        "href": "https://github.com/usestrix/strix"
+      }
+    },
+    "aiml1_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "27.5k",
+        "delta": "+395",
+        "trend": "up"
+      }
+    },
+    "aiml1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "aiml1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "aiml1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Autonomous AI that both finds app vulnerabilities and generates patch code in one shot."
+      }
+    },
+    "aiml_repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml2_header",
+        "aiml2_desc"
+      ]
+    },
+    "aiml2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml2_link",
+        "aiml2_stat",
+        "aiml2_lang"
+      ]
+    },
+    "aiml2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google/agents-cli",
+        "href": "https://github.com/google/agents-cli"
+      }
+    },
+    "aiml2_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "3.8k",
+        "delta": "+433",
+        "trend": "up"
+      }
+    },
+    "aiml2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "aiml2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Google's first-party CLI to scaffold and deploy AI agents directly to Cloud Agent Builder."
+      }
+    },
+    "aiml_repo3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml3_header",
+        "aiml3_desc"
+      ]
+    },
+    "aiml3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml3_link",
+        "aiml3_stat",
+        "aiml3_lang",
+        "aiml3_status"
+      ]
+    },
+    "aiml3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Robbyant/lingbot-map",
+        "href": "https://github.com/Robbyant/lingbot-map"
+      }
+    },
+    "aiml3_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "8.6k",
+        "delta": "+465",
+        "trend": "up"
+      }
+    },
+    "aiml3_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "aiml3_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "aiml3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Feed-forward 3D scene model skips NeRF training — generates navigable maps from video in real time."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "stack_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "devtools_repo1",
+        "devtools_repo2",
+        "devtools_repo3"
+      ]
+    },
+    "devtools_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools1_header",
+        "devtools1_desc"
+      ]
+    },
+    "devtools1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools1_link",
+        "devtools1_stat",
+        "devtools1_lang",
+        "devtools1_status"
+      ]
+    },
+    "devtools1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "diegosouzapw/OmniRoute",
+        "href": "https://github.com/diegosouzapw/OmniRoute"
+      }
+    },
+    "devtools1_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "8.1k",
+        "delta": "+617",
+        "trend": "up"
+      }
+    },
+    "devtools1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "devtools1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Free LLM gateway with per-request context compression — cuts token bills without changing API calls."
+      }
+    },
+    "devtools_repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools2_header",
+        "devtools2_desc"
+      ]
+    },
+    "devtools2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools2_link",
+        "devtools2_stat",
+        "devtools2_lang",
+        "devtools2_status"
+      ]
+    },
+    "devtools2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ogulcancelik/herdr",
+        "href": "https://github.com/ogulcancelik/herdr"
+      }
+    },
+    "devtools2_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "8.7k",
+        "delta": "+467",
+        "trend": "up"
+      }
+    },
+    "devtools2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "outline"
+      }
+    },
+    "devtools2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rust multiplexer that brokers multiple agent processes through one terminal session with message routing."
+      }
+    },
+    "devtools_repo3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools3_header",
+        "devtools3_desc"
+      ]
+    },
+    "devtools3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools3_link",
+        "devtools3_stat",
+        "devtools3_lang",
+        "devtools3_status"
+      ]
+    },
+    "devtools3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "facebook/astryx",
+        "href": "https://github.com/facebook/astryx"
+      }
+    },
+    "devtools3_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "1.4k",
+        "delta": "+426",
+        "trend": "up"
+      }
+    },
+    "devtools3_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "devtools3_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "devtools3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Meta's design system exposes React components as AI tool-call schemas — first agent-ready UI kit."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/17",
+        "variant": "caption"
+      }
+    }
+  }
+}

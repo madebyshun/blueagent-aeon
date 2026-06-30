@@ -1,25 +1,27 @@
-*GitHub Trending — 2026-06-29*
+*GitHub Trending — 2026-06-30*
 
-*Top pick* — [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
-Multi-agent coordination in plain shell — 118k stars says the "no SDK, no infra" approach to AI agents is exactly what devs want right now.
+*Top pick* — [usestrix/strix](https://github.com/usestrix/strix)
+First open-source AI that closes the red-team loop: finds app vulnerabilities and writes the fix, turning pentesting from a periodic audit into a continuous CI check.
 
 *AI/ML*
-• [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) — ★ 1,221 today (118.3k total) · Shell · [ACCELERATING]
-12 specialist Claude roles (researcher, coder, debugger, writer) wired in a single shell script — zero framework overhead.
+• [usestrix/strix](https://github.com/usestrix/strix) — ★ 395 today (27.5k total) · Python · [ACCELERATING]
+Autonomous AI that both finds app vulnerabilities and generates patch code in one shot.
 
-• [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) — ★ 1,397 today (6.3k total) · Python · [ACCELERATING]
-Claude Code subagent pipeline for value investing — automates SEC filing analysis, ratio screening, and thesis generation end-to-end.
+• [google/agents-cli](https://github.com/google/agents-cli) — ★ 433 today (3.8k total) · Python
+Google's first-party CLI to scaffold and deploy AI agents directly to Cloud Agent Builder.
+
+• [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) — ★ 465 today (8.6k total) · Python · [ACCELERATING]
+Feed-forward 3D scene model skips NeRF training — generates navigable maps from video in real time.
 
 *Devtools*
-• [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) — ★ 249 today (17.3k total) · TypeScript · [ACCELERATING]
-Open-source local-first markdown KB with graph view — no account, no sync lock-in, ships as a desktop app.
+• [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) — ★ 617 today (8.1k total) · TypeScript · [ACCELERATING]
+Free LLM gateway with per-request context compression — cuts token bills without changing API calls.
 
-• [soxoj/maigret](https://github.com/soxoj/maigret) — ★ 191 today (34.1k total) · Python · [RETURNING]
-De facto OSINT CLI: maps a username across 3,000+ platforms to an identity profile in one command.
+• [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) — ★ 467 today (8.7k total) · Rust · [ACCELERATING]
+Rust multiplexer that brokers multiple agent processes through one terminal session with message routing.
 
-*Web/Apps*
-• [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) — ★ 1,611 today (16.0k total) · Haskell · [RETURNING]
-Zero user IDs in the protocol — server nodes can't identify or link messages to anyone, even under legal compulsion.
+• [facebook/astryx](https://github.com/facebook/astryx) — ★ 426 today (1.4k total) · TypeScript · [RETURNING]
+Meta's design system exposes React components as AI tool-call schemas — first agent-ready UI kit.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/14
+sources: trending=ok · gh_api=ok · kept 6/17
