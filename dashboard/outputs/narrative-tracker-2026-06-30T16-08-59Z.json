@@ -1,0 +1,154 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-06-30"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "item_1"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_1_header",
+        "item_1_transition",
+        "item_1_metrics",
+        "item_1_context",
+        "item_1_source"
+      ]
+    },
+    "item_1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted",
+        "text_project"
+      ]
+    },
+    "badge_promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_project": {
+      "type": "Text",
+      "props": {
+        "text": "Options DEX/Hypercall",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "item_1_transition": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text_status_change",
+        "badge_token",
+        "badge_breakout"
+      ]
+    },
+    "text_status_change": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging → Rising"
+      },
+      "children": []
+    },
+    "badge_token": {
+      "type": "Badge",
+      "props": {
+        "text": "SYN",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge_breakout": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "item_1_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_day2",
+        "stat_volume"
+      ]
+    },
+    "stat_day2": {
+      "type": "Stat",
+      "props": {
+        "label": "Day 2",
+        "value": "+54.5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$219M"
+      },
+      "children": []
+    },
+    "item_1_context": {
+      "type": "Text",
+      "props": {
+        "text": "past day-1 KOL pump phase",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "item_1_source": {
+      "type": "Text",
+      "props": {
+        "text": "Deribit",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
