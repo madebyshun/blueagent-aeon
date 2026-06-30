@@ -1,43 +1,42 @@
-*Token Movers — Jun 29, 2026*
+*Token Movers — 2026-06-30*
 
-_Risk-off tape with isolated breakouts — ~64% of top-100 red, BTC at $59.2K; a handful of low/mid-cap moves defy the selling while majors continue to bleed._
+_Risk-off extending — 74% of top-100 alts red, median −1.1%; BTC $58.6K continuing June distribution flush. SYN and CX the only volume-backed breakouts._
 
 *Top Winners (24h)*
-1. TAC (TAC) — $0.0569  +164.2% / 1h n/a  •  $21.3M / #139  [TRENDING+UP]
-2. RE (RE) — $0.777  +24.5% / 7d −4.0% / 1h +3.4%  •  $3.21B / #220  [FADE]
-3. ADI (ADI) — $5.85  +18.1% / 7d +37.1% / 1h +14.7%  •  $11.3M / #88  [BREAKOUT]
-4. BAS (BNB Attestation) — $0.0505  +16.8% / 7d +69.0% / 1h +0.4%  •  $12.5M / #216  [BREAKOUT]
-5. CX (Cortex) — $0.0780  +15.3% / 7d +86.6% / 1h +2.6%  •  $1.5M / #236  [BREAKOUT]
-6. BEAT (Audiera) — $2.80  +11.9% / 7d +62.9% / 1h +2.3%  •  $22.4M / #74  [BREAKOUT]
-7. TAG (TAGGER) — $0.0010  +11.7% / 7d +4.1% / 1h −0.6%  •  $4.8M / #248
-8. FARTCOIN — $0.1417  +9.2% / 7d +6.5% / 1h −0.2%  •  $27.3M / #200
-9. H (Humanity) — $0.0622  +8.2% / 7d −57.0% / 1h +0.2%  •  $10.0M / #239
-10. AR (Arweave) — $1.98  +7.6% / 7d −1.9% / 1h −0.2%  •  $17.9M / #212
+1. SYN (Synapse) — $0.6483  +54.5% / 7d +152% / 1h −4.6%  •  $219M / #201  [BREAKOUT][TRENDING+UP]
+2. CX (Cortex) — $0.1172  +53.7% / 7d +151% / 1h −6.7%  •  $1.47M / #178  [BREAKOUT][PUMP-RISK]
+3. H (Humanity) — $0.07952  +28.0% / 7d −36.2% / 1h +3.9%  •  $33.2M / #202  [FADE]
+4. TAC — $0.06404  +23.5% / 7d +225% / 1h +3.1%  •  $28.0M / #133  [BREAKOUT]
+5. M (MemeCore) — $0.6921  +22.3% / 7d −76.1% / 1h +6.8%  •  $15.4M / #71  [FADE]
+6. BTW (Bitway) — $0.06071  +21.3% / 7d −40.5% / 1h −3.2%  •  $22.1M / #212  [FADE]
+7. UB (Unibase) — $0.1186  +15.0% / 7d +48.1% / 1h +2.2%  •  $49.8M / #134  [BREAKOUT]
+8. LIT (Lighter) — $1.930  +12.5% / 7d +24.1% / 1h +3.1%  •  $49.4M / #105
+9. KAS (Kaspa) — $0.03121  +10.9% / 7d +7.0% / 1h +0.3%  •  $25.4M / #75
+10. GLM (Golem) — $0.1074  +10.8% / 7d +5.5% / 1h +8.0%  •  $11.3M / #250
 
 *Top Losers (24h)*
-1. BTW (Bitway) — $0.0490  −21.5% / 7d −59.8% / 1h −2.3%  •  $18.4M / #250
-2. SKYAI (SkyAI) — $0.1257  −20.6% / 7d −64.0% / 1h −1.8%  •  $56.4M / #221  [CAPITULATION]
-3. M (MemeCore) — $0.561  −20.2% / 7d −81.3% / 1h +0.1%  •  $18.5M / #82
-4. LAB (LAB) — $15.43  −11.8% / 7d +2.8% / 1h −0.7%  •  $32.0M / #22
-5. PI (Pi Network) — $0.116  −8.3% / 7d −14.3% / 1h −0.5%  •  $14.2M / #57
-6. VVV (Venice Token) — $12.67  −7.2% / 7d −19.3% / 1h −2.4%  •  $24.0M / #94
-7. VELVET (Velvet) — $1.68  −5.8% / 7d +275.1% / 1h −0.3%  •  $75.7M / #85
-8. IOTA (IOTA) — $0.0352  −5.1% / 7d −22.3% / 1h +0.0%  •  $7.8M / #192
-9. WLD (Worldcoin) — $0.421  −4.8% / 7d −33.9% / 1h −0.7%  •  $175.6M / #50
-10. EIGEN (EigenCloud) — $0.2238  −3.4% / 7d −27.3% / 1h −0.6%  •  $21.0M / #186
+1. GWEI (ETHGas) — $0.1341  −40.8% / 7d +11.5% / 1h −0.7%  •  $34.0M / #136
+2. ENA (Ethena) — $0.07171  −10.6% / 7d −16.4% / 1h −0.2%  •  $192M / #91  [TRENDING+DOWN]
+3. TIA (Celestia) — $0.3625  −8.7% / 7d −2.7% / 1h +0.8%  •  $43.7M / #124
+4. AKT (Akash) — $0.6020  −8.3% / 7d −17.4% / 1h +1.1%  •  $6.63M / #179
+5. BAS — $0.04553  −8.3% / 7d +44.6% / 1h −13.4%  •  $45.4M / #239
+6. JTO (Jito) — $0.7442  −7.9% / 7d +18.9% / 1h +1.2%  •  $60.7M / #120
+7. EIGEN (EigenCloud) — $0.2103  −7.1% / 7d −16.6% / 1h +1.3%  •  $20.9M / #195
+8. GRASS — $0.4549  −6.7% / 7d +5.2% / 1h +0.1%  •  $33.9M / #138
+9. KITE — $0.1108  −6.2% / 7d −29.1% / 1h −0.4%  •  $29.0M / #140
+10. AAVE — $86.00  −5.7% / 7d +19.4% / 1h −0.7%  •  $231M / #56  [TRENDING+DOWN]
 
 *Trending*
-1. ANSEM (The Black Bull) — #540, $0.0893, +13.0%
-2. TAC (TAC) — #139, $0.0569, +164.2%  [TRENDING+UP]
-3. SYN (Synapse) — #280, $0.432, +16.5%
-4. ENA (Ethena) — #80, $0.0800, +5.0%
-5. PENGU (Pudgy Penguins) — #119, $0.00612, −1.5%
-6. BTC (Bitcoin) — #1, $59,121, −1.4%
-7. SLX (Solstice) — #217, $0.524, −2.8%
+1. ANSEM (The Black Bull) — #372, $0.1563, +74.8%  [PUMP-RISK]
+2. SYN (Synapse) — #201, $0.6483, +54.5%  [BREAKOUT]
+3. BTC (Bitcoin) — #1, $58,621, −1.3%
+4. PYTH (Pyth Network) — #129, $0.03903, +5.8%
+5. ENA (Ethena) — #91, $0.07171, −10.6%  [TRENDING+DOWN]
+6. PENGU (Pudgy Penguins) — #118, $0.006017, −2.1%
+7. HYPE (Hyperliquid) — #10, $65.10, +2.6%
 
 *Notable*
-• TAC: trending #2 + +164% on $21M vol — TON+EVM L1, catalyst unknown  [TRENDING+UP]
-• RE: +24.5% on $3.21B vol at #220 — volume ~27× market cap, wash-trade suspect  [FADE]
-• SKYAI: −20.6% / $56M vol, 64% 7d drawdown  [CAPITULATION]
-• EIGEN: −3.4%, 2 days to Jul 1 cliff unlock ($8.46M); exit window closes Jun 30
-• LAB: yesterday +11.6% winner → today −11.8% loser — sharp one-day reversal
+• SYN: trending #2 + BREAKOUT (7d +152%) — Arthur Hayes $2.2M Hypercall buy (Jun 29), vol $219M is real signal; day 2 KOL catalyst
+• EIGEN: −7.1% as Jul 1 unlock fires tomorrow (36.8M tokens, $8.46M) — exit window closes tonight
+• ENA: TRENDING+DOWN −10.6% at trending #5 — capitulation signal; 7d −16.4%, ENA loop narrative failing
+• CX +53.7% at #178 — PUMP-RISK; vol only $1.47M, price action unreliable
