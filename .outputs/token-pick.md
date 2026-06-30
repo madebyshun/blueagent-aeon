@@ -1,9 +1,11 @@
-*Daily Pick — 2026-06-29*
+*Daily Pick — 2026-06-30*
 
-*Token: TAC*  [HIGH]  signal 10/10
-Price: $0.057 (+164.2% 24h / est. +180%+ 7d) | mcap $265M | vol/mcap est. ≥0.10 (unconfirmed from data truncation)
-Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, CG trending+2, vol/mcap≥0.10+2(est.), RS vs BTC/ETH+2] = 10/10
-Catalyst: Telegram Wallet Yield Vaults integration (Feb 2026 mainnet launch; $800M+ TVL at launch vs $265M mcap — TVL/mcap >3× signals structural undervaluation); delayed market pricing catching up to ecosystem traction
-Risk: No confirmed fresh Jun 29 catalyst — +164% single-day pump on stale narrative; 80% supply in team/investor wallets with vesting overhang; ATH reversal risk is high; use tight stops
+*Token: KAS*  [HIGH]  signal 8/10
+Price: $0.031 (+10.93% 24h / +7.01% 7d) | mcap $858M | vol $25.4M (vol/mcap 0.030)
+Score breakdown: [trending+2, 24h&7d>0+2, both>+5%+2, RS vs BTC/ETH+2] = 8/10
+Catalyst: Toccata hard fork activates today at ~16:15 UTC (DAA score 474,165,565) — adds native KRC-20 tokens, covenant programmability via SilverScript, and ZK proof verification opcodes; transforms Kaspa from fast-payment chain into programmable L1 ecosystem
+Risk: Buy-the-event/sell-the-news pattern on hard forks; KRC-20 ecosystem adoption timeline uncertain; vol/mcap 0.030 signals low relative trading activity vs mcap
+Vs recent picks: first KAS pick; prior week filled: TAC/VELVET/GRASS/LIT/SYN/AAVE
 
-*Market: Will
+sources: cg=ok, dex=ok, poly=ok
+not financial advice — pattern-matching only

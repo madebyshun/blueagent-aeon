@@ -1,0 +1,239 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-06-30"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_token",
+        "badge_signal",
+        "progress_signal",
+        "sep_1",
+        "heading_price",
+        "grid_metrics",
+        "text_vol_ratio",
+        "sep_2",
+        "heading_score",
+        "text_score",
+        "sep_3",
+        "heading_catalyst",
+        "text_catalyst",
+        "sep_4",
+        "heading_risk",
+        "text_risk",
+        "sep_5",
+        "heading_recent",
+        "text_recent",
+        "sep_6",
+        "text_sources",
+        "text_disclaimer"
+      ]
+    },
+    "heading_token": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: KAS",
+        "level": "h2"
+      }
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "progress_signal": {
+      "type": "Progress",
+      "props": {
+        "value": 8,
+        "max": 10,
+        "label": "Signal Score"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_price": {
+      "type": "Heading",
+      "props": {
+        "text": "Price & Market Metrics",
+        "level": "h3"
+      }
+    },
+    "grid_metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_price",
+        "stat_24h",
+        "stat_7d",
+        "stat_mcap",
+        "stat_volume"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.031"
+      }
+    },
+    "stat_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+10.93%",
+        "trend": "up"
+      }
+    },
+    "stat_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+7.01%",
+        "trend": "up"
+      }
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$858M"
+      }
+    },
+    "stat_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$25.4M"
+      }
+    },
+    "text_vol_ratio": {
+      "type": "Text",
+      "props": {
+        "text": "Vol/Mcap ratio: 0.030",
+        "variant": "caption"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_score": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      }
+    },
+    "text_score": {
+      "type": "Text",
+      "props": {
+        "text": "trending +2 | 24h & 7d > 0 +2 | both > +5% +2 | RS vs BTC/ETH +2 = 8/10",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_catalyst": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "text_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Toccata hard fork activates today at ~16:15 UTC (DAA score 474,165,565) — adds native KRC-20 tokens, covenant programmability via SilverScript, and ZK proof verification opcodes; transforms Kaspa from fast-payment chain into programmable L1 ecosystem",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_risk": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      }
+    },
+    "text_risk": {
+      "type": "Text",
+      "props": {
+        "text": "Buy-the-event/sell-the-news pattern on hard forks; KRC-20 ecosystem adoption timeline uncertain; vol/mcap 0.030 signals low relative trading activity vs mcap",
+        "variant": "body"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_recent": {
+      "type": "Heading",
+      "props": {
+        "text": "Vs Recent Picks",
+        "level": "h3"
+      }
+    },
+    "text_recent": {
+      "type": "Text",
+      "props": {
+        "text": "First KAS pick; prior week filled: TAC / VELVET / GRASS / LIT / SYN / AAVE",
+        "variant": "body"
+      }
+    },
+    "sep_6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=ok, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "text_disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
