@@ -1,0 +1,308 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-06-30"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "since_section",
+        "sep2",
+        "watch_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_h",
+        "focus_1_t"
+      ]
+    },
+    "focus_1_h": {
+      "type": "Heading",
+      "props": {
+        "text": "EIGEN EXIT",
+        "level": "h3"
+      }
+    },
+    "focus_1_t": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Jul 1 unlock fires tomorrow; today is last liquid exit",
+        "variant": "caption"
+      }
+    },
+    "focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_h",
+        "focus_2_t"
+      ]
+    },
+    "focus_2_h": {
+      "type": "Heading",
+      "props": {
+        "text": "SYN/Hypercall Day 2",
+        "level": "h3"
+      }
+    },
+    "focus_2_t": {
+      "type": "Text",
+      "props": {
+        "text": "why now: AMBCrypto caution + falling OI flag day-2 reversal risk",
+        "variant": "caption"
+      }
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_h",
+        "focus_3_t"
+      ]
+    },
+    "focus_3_h": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC $58K Macro",
+        "level": "h3"
+      }
+    },
+    "focus_3_t": {
+      "type": "Text",
+      "props": {
+        "text": "why now: $8B June ETF outflows confirmed; largest since Jan 2024 launch",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_heading",
+        "moved_1",
+        "moved_2",
+        "moved_3",
+        "moved_4"
+      ]
+    },
+    "since_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "moved_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_1",
+        "stat_1",
+        "text_1"
+      ]
+    },
+    "badge_1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "stat_1": {
+      "type": "Stat",
+      "props": {
+        "label": "TAC",
+        "value": "+164.2%",
+        "trend": "up"
+      }
+    },
+    "text_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick 10/10 — Telegram Wallet Yield Vaults $800M TVL confirmed driver",
+        "variant": "caption"
+      }
+    },
+    "moved_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_2",
+        "stat_2",
+        "text_2"
+      ]
+    },
+    "badge_2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "stat_2": {
+      "type": "Stat",
+      "props": {
+        "label": "SYN",
+        "value": "+26%",
+        "trend": "up"
+      }
+    },
+    "text_2": {
+      "type": "Text",
+      "props": {
+        "text": "Hayes buy day 1 confirmed; AMBCrypto now flagging fundamental caution",
+        "variant": "caption"
+      }
+    },
+    "moved_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_3",
+        "stat_3",
+        "text_3"
+      ]
+    },
+    "badge_3": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "stat_3": {
+      "type": "Stat",
+      "props": {
+        "label": "EIGEN",
+        "value": "-3.4%",
+        "trend": "down"
+      }
+    },
+    "text_3": {
+      "type": "Text",
+      "props": {
+        "text": "as distribution accelerated; today = final exit window",
+        "variant": "caption"
+      }
+    },
+    "moved_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_4",
+        "head_4",
+        "text_4"
+      ]
+    },
+    "badge_4": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "head_4": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC narrative flipped",
+        "level": "h4"
+      }
+    },
+    "text_4": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional Distribution (bear) replaced Fed Macro Pivot (bull)",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_heading",
+        "watch_1"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "AMBCrypto: SYN fundamentals",
+        "variant": "body"
+      }
+    }
+  }
+}
