@@ -1,0 +1,526 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-01"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_section",
+        "sep1",
+        "ai_ml_section",
+        "sep2",
+        "infra_section",
+        "sep3",
+        "web_apps_section",
+        "sep4",
+        "sources_text"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_label",
+        "top_pick_repo_1"
+      ]
+    },
+    "top_pick_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "top_pick_repo_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top_pick_1_title",
+        "top_pick_1_desc",
+        "top_pick_1_metrics"
+      ]
+    },
+    "top_pick_1_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "top_pick_1_link",
+        "top_pick_1_status"
+      ]
+    },
+    "top_pick_1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "browser-use/video-use",
+        "href": "https://github.com/browser-use/video-use"
+      }
+    },
+    "top_pick_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "top_pick_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "The team behind LLM-driven browser automation now tackles video — describe an edit, the agent executes it on the timeline.",
+        "variant": "body"
+      }
+    },
+    "top_pick_1_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "★ 721 today (13k total) · Python",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai_ml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai_ml_label",
+        "ai_ml_stack"
+      ]
+    },
+    "ai_ml_label": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "ai_ml_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai_ml_1",
+        "ai_ml_2",
+        "ai_ml_3"
+      ]
+    },
+    "ai_ml_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_1_title",
+        "ai_ml_1_desc",
+        "ai_ml_1_metrics"
+      ]
+    },
+    "ai_ml_1_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_1_link",
+        "ai_ml_1_status"
+      ]
+    },
+    "ai_ml_1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "browser-use/video-use",
+        "href": "https://github.com/browser-use/video-use"
+      }
+    },
+    "ai_ml_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "ai_ml_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Describe an edit in plain language; a coding agent handles trim, splice, caption, speed-ramp — no timeline required.",
+        "variant": "body"
+      }
+    },
+    "ai_ml_1_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "★ 721 today (13k total) · Python",
+        "variant": "caption"
+      }
+    },
+    "ai_ml_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_2_title",
+        "ai_ml_2_desc",
+        "ai_ml_2_metrics"
+      ]
+    },
+    "ai_ml_2_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_2_link",
+        "ai_ml_2_status"
+      ]
+    },
+    "ai_ml_2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "allenai/olmocr",
+        "href": "https://github.com/allenai/olmocr"
+      }
+    },
+    "ai_ml_2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "ai_ml_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Converts messy multi-column PDFs into clean structured text LLMs can parse — tables, equations, and figures included.",
+        "variant": "body"
+      }
+    },
+    "ai_ml_2_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "★ 295 today (18.1k total) · Python",
+        "variant": "caption"
+      }
+    },
+    "ai_ml_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_3_title",
+        "ai_ml_3_desc",
+        "ai_ml_3_metrics"
+      ]
+    },
+    "ai_ml_3_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_3_link",
+        "ai_ml_3_status"
+      ]
+    },
+    "ai_ml_3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "0xNyk/council-of-high-intelligence",
+        "href": "https://github.com/0xNyk/council-of-high-intelligence"
+      }
+    },
+    "ai_ml_3_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "ai_ml_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Runs GPT-4, Claude, Gemini in parallel deliberation — each model advocates, cross-examines, then synthesizes a consensus answer.",
+        "variant": "body"
+      }
+    },
+    "ai_ml_3_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "★ 473 today (2.4k total) · Shell",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "infra_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra_label",
+        "infra_stack"
+      ]
+    },
+    "infra_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infra_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra_1",
+        "infra_2"
+      ]
+    },
+    "infra_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_1_title",
+        "infra_1_desc",
+        "infra_1_metrics"
+      ]
+    },
+    "infra_1_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_1_link",
+        "infra_1_status"
+      ]
+    },
+    "infra_1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "logto-io/logto",
+        "href": "https://github.com/logto-io/logto"
+      }
+    },
+    "infra_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "infra_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Full OIDC 2.1 + multi-tenant auth backend self-hosted in one command — 79× star spike today signals a major new release.",
+        "variant": "body"
+      }
+    },
+    "infra_1_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "★ 561 today (13.1k total) · TypeScript",
+        "variant": "caption"
+      }
+    },
+    "infra_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_2_title",
+        "infra_2_desc",
+        "infra_2_metrics",
+        "infra_2_note"
+      ]
+    },
+    "infra_2_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_2_link",
+        "infra_2_status"
+      ]
+    },
+    "infra_2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "TencentCloud/CubeSandbox",
+        "href": "https://github.com/TencentCloud/CubeSandbox"
+      }
+    },
+    "infra_2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "infra_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Instant-spawn concurrent sandbox for AI agent isolation — production-grade Rust tooling from Tencent, purpose-built for agent workloads.",
+        "variant": "body"
+      }
+    },
+    "infra_2_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "★ 46 today (6.7k total) · Rust",
+        "variant": "caption"
+      }
+    },
+    "infra_2_note": {
+      "type": "Text",
+      "props": {
+        "text": "[judgment keep: 4★ short of 50 threshold]",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "web_apps_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web_apps_label",
+        "web_apps_stack"
+      ]
+    },
+    "web_apps_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "web_apps_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web_apps_1"
+      ]
+    },
+    "web_apps_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "web_apps_1_title",
+        "web_apps_1_desc",
+        "web_apps_1_metrics"
+      ]
+    },
+    "web_apps_1_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "web_apps_1_link"
+      ]
+    },
+    "web_apps_1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CoreBunch/Instatic",
+        "href": "https://github.com/CoreBunch/Instatic"
+      }
+    },
+    "web_apps_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Open-source self-hosted CMS with a visual editor — targets the Contentful/Webflow gap without per-seat pricing.",
+        "variant": "body"
+      }
+    },
+    "web_apps_1_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "★ 351 today (1.8k total) · TypeScript",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/20",
+        "variant": "muted"
+      }
+    }
+  }
+}

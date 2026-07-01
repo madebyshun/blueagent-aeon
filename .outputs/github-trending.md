@@ -1,27 +1,28 @@
-*GitHub Trending — 2026-06-30*
+*GitHub Trending — 2026-07-01*
 
-*Top pick* — [usestrix/strix](https://github.com/usestrix/strix)
-First open-source AI that closes the red-team loop: finds app vulnerabilities and writes the fix, turning pentesting from a periodic audit into a continuous CI check.
+*Top pick* — [browser-use/video-use](https://github.com/browser-use/video-use)
+The team behind LLM-driven browser automation now tackles video — describe an edit, the agent executes it on the timeline.
 
 *AI/ML*
-• [usestrix/strix](https://github.com/usestrix/strix) — ★ 395 today (27.5k total) · Python · [ACCELERATING]
-Autonomous AI that both finds app vulnerabilities and generates patch code in one shot.
+• [browser-use/video-use](https://github.com/browser-use/video-use) — ★ 721 today (13k total) · Python · [ACCELERATING]
+Describe an edit in plain language; a coding agent handles trim, splice, caption, speed-ramp — no timeline required.
 
-• [google/agents-cli](https://github.com/google/agents-cli) — ★ 433 today (3.8k total) · Python
-Google's first-party CLI to scaffold and deploy AI agents directly to Cloud Agent Builder.
+• [allenai/olmocr](https://github.com/allenai/olmocr) — ★ 295 today (18.1k total) · Python · [RETURNING]
+Converts messy multi-column PDFs into clean structured text LLMs can parse — tables, equations, and figures included.
 
-• [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) — ★ 465 today (8.6k total) · Python · [ACCELERATING]
-Feed-forward 3D scene model skips NeRF training — generates navigable maps from video in real time.
+• [0xNyk/council-of-high-intelligence](https://github.com/0xNyk/council-of-high-intelligence) — ★ 473 today (2.4k total) · Shell · [RETURNING]
+Runs GPT-4, Claude, Gemini in parallel deliberation — each model advocates, cross-examines, then synthesizes a consensus answer.
 
-*Devtools*
-• [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) — ★ 617 today (8.1k total) · TypeScript · [ACCELERATING]
-Free LLM gateway with per-request context compression — cuts token bills without changing API calls.
+*Infra*
+• [logto-io/logto](https://github.com/logto-io/logto) — ★ 561 today (13.1k total) · TypeScript · [RETURNING]
+Full OIDC 2.1 + multi-tenant auth backend self-hosted in one command — 79× star spike today signals a major new release.
 
-• [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) — ★ 467 today (8.7k total) · Rust · [ACCELERATING]
-Rust multiplexer that brokers multiple agent processes through one terminal session with message routing.
+• [TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox) — ★ 46 today (6.7k total) · Rust · [ACCELERATING]
+Instant-spawn concurrent sandbox for AI agent isolation — production-grade Rust tooling from Tencent, purpose-built for agent workloads. [judgment keep: 4★ short of 50 threshold]
 
-• [facebook/astryx](https://github.com/facebook/astryx) — ★ 426 today (1.4k total) · TypeScript · [RETURNING]
-Meta's design system exposes React components as AI tool-call schemas — first agent-ready UI kit.
+*Web/Apps*
+• [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) — ★ 351 today (1.8k total) · TypeScript
+Open-source self-hosted CMS with a visual editor — targets the Contentful/Webflow gap without per-seat pricing.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/17
+sources: trending=ok · gh_api=ok · kept 6/20
