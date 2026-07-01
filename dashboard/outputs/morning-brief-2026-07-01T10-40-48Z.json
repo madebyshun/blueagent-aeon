@@ -1,0 +1,172 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-01"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-section",
+        "separator-1",
+        "since-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-heading",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. SYN/Hypercall Day 3 — why now: Day 3 open; media peak + falling OI = distribution tell"
+      },
+      "children": []
+    },
+    "focus-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. BTC $58,543 — why now: failed $60K retest; June worst month since ETF launch (−20.48%)"
+      },
+      "children": []
+    },
+    "focus-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. GRASS 6 days to Jul 7 — why now: clarity call coming; token bled during Rising phase yesterday"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "since-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-heading",
+        "since-item-1",
+        "since-item-2",
+        "since-item-3"
+      ]
+    },
+    "since-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "since-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since-badge-1",
+        "since-text-1"
+      ]
+    },
+    "since-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "fired"
+      },
+      "children": []
+    },
+    "since-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "EIGEN unlock: 36.82M tokens ($8.7M) hit market today — exit window closed as called"
+      },
+      "children": []
+    },
+    "since-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since-badge-2",
+        "since-text-2"
+      ]
+    },
+    "since-badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "failed"
+      },
+      "children": []
+    },
+    "since-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $60K recovery → back to $58,543; June down −20.48%, $4.5B ETF outflows confirmed"
+      },
+      "children": []
+    },
+    "since-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since-badge-3",
+        "since-text-3"
+      ]
+    },
+    "since-badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "live"
+      },
+      "children": []
+    },
+    "since-text-3": {
+      "type": "Text",
+      "props": {
+        "text": "SYN Day 3: eyes"
+      },
+      "children": []
+    }
+  }
+}
