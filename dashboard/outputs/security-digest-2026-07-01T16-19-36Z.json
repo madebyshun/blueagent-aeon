@@ -1,0 +1,294 @@
+{
+  "root": "root-card",
+  "state": {},
+  "elements": {
+    "root-card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-07-01",
+        "description": "Verdict: nothing urgent today. 0 to patch, 3 to monitor. Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "verdict-stats",
+        "separator1",
+        "monitor-heading",
+        "advisories-stack"
+      ]
+    },
+    "verdict-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-patch",
+        "stat-monitor"
+      ]
+    },
+    "stat-patch": {
+      "type": "Stat",
+      "props": {
+        "label": "To Patch",
+        "value": "0"
+      }
+    },
+    "stat-monitor": {
+      "type": "Stat",
+      "props": {
+        "label": "To Monitor",
+        "value": "3"
+      }
+    },
+    "separator1": {
+      "type": "Separator"
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "advisories-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "advisory1",
+        "advisory2",
+        "advisory3"
+      ]
+    },
+    "advisory1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link1",
+        "package1",
+        "scores1",
+        "description1",
+        "versions1",
+        "mitigation1"
+      ]
+    },
+    "link1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-wmgg-3p4h-48x7",
+        "href": "https://github.com/advisories/GHSA-wmgg-3p4h-48x7",
+        "source": "fission (Go) — +8 related advisories"
+      }
+    },
+    "package1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss1",
+        "badge-epss1",
+        "badge-patch1"
+      ]
+    },
+    "badge-cvss1": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.9",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss1": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003"
+      }
+    },
+    "badge-patch1": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch",
+        "variant": "destructive"
+      }
+    },
+    "description1": {
+      "type": "Text",
+      "props": {
+        "text": "PodSpec/EnvironmentRef injection → node escape, cluster takeover, cross-namespace reads. All fission ≤ 1.23.0. 9 advisories published Jun 30."
+      }
+    },
+    "versions1": {
+      "type": "Text",
+      "props": {
+        "text": "Affected: fission ≤ 1.23.0",
+        "variant": "caption"
+      }
+    },
+    "mitigation1": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Mitigation",
+        "message": "Track cluster; no patch yet — disable multi-tenant Fission or restrict untrusted pod/env inputs."
+      }
+    },
+    "advisory2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link2",
+        "package2",
+        "scores2",
+        "description2",
+        "versions2",
+        "mitigation2"
+      ]
+    },
+    "link2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-g4w6-vmgf-xqvx",
+        "href": "https://github.com/advisories/GHSA-g4w6-vmgf-xqvx",
+        "source": "@cedar-policy/authorization-for-expressjs (npm)"
+      }
+    },
+    "package2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss2",
+        "badge-epss2",
+        "badge-patch2"
+      ]
+    },
+    "badge-cvss2": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss2": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.0"
+      }
+    },
+    "badge-patch2": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch",
+        "variant": "destructive"
+      }
+    },
+    "description2": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass via query string manipulation; Cedar policy checks can be circumvented on Express.js routes."
+      }
+    },
+    "versions2": {
+      "type": "Text",
+      "props": {
+        "text": "Affected: ≤ 0.2.0",
+        "variant": "caption"
+      }
+    },
+    "mitigation2": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Mitigation",
+        "message": "Track GHSA-g4w6-vmgf-xqvx; no patch yet — use the Cedar SDK directly rather than this wrapper."
+      }
+    },
+    "advisory3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link3",
+        "package3",
+        "scores3",
+        "description3",
+        "versions3",
+        "mitigation3"
+      ]
+    },
+    "link3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-f5mr-q85p-6hh6",
+        "href": "https://github.com/advisories/GHSA-f5mr-q85p-6hh6",
+        "source": "sigstore/fulcio (Go)"
+      }
+    },
+    "package3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss3",
+        "badge-epss3",
+        "badge-patch3"
+      ]
+    },
+    "badge-cvss3": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.7",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss3": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.0"
+      }
+    },
+    "badge-patch3": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch",
+        "variant": "destructive"
+      }
+    },
+    "description3": {
+      "type": "Text",
+      "props": {
+        "text": "OIDC discovery redirect → SSRF + JWKS substitution + Kubernetes service account token leakage."
+      }
+    },
+    "versions3": {
+      "type": "Text",
+      "props": {
+        "text": "Affected: ≤ 1.8.5",
+        "variant": "caption"
+      }
+    },
+    "mitigation3": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Mitigation",
+        "message": "Track GHSA-f5mr-q85p-6hh6; no patch yet — restrict Fulcio exposure to trusted internal networks."
+      }
+    }
+  }
+}
