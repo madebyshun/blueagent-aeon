@@ -1,0 +1,520 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-01"
+      },
+      "children": [
+        "section_transitions",
+        "sep_1",
+        "section_reflexivity",
+        "sep_2",
+        "section_positions",
+        "sep_3",
+        "section_map"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_transitions",
+        "trans_dead",
+        "trans_demoted",
+        "trans_new1",
+        "trans_new2"
+      ]
+    },
+    "h_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dead",
+        "text_trans_dead"
+      ]
+    },
+    "badge_dead": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "text_trans_dead": {
+      "type": "Text",
+      "props": {
+        "text": "EigenCloud/EIGEN — Jul 1 unlock fired today (36.82M tokens/$8.46M); distribution terminal; narrative closed",
+        "variant": "body"
+      }
+    },
+    "trans_demoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted",
+        "text_trans_demoted"
+      ]
+    },
+    "badge_demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_demoted": {
+      "type": "Text",
+      "props": {
+        "text": "Options DEX/Hypercall Rising → Fading — SYN −26% Day 3 confirmed distribution; \"Synapse Eyes $1\" media peak = retail buying into exits; falling OI signal was correct",
+        "variant": "body"
+      }
+    },
+    "trans_new1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new",
+        "text_trans_new1"
+      ]
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "text_trans_new1": {
+      "type": "Text",
+      "props": {
+        "text": "MiCA Enforcement — EU transitional period ends today; >80% of 1,200+ firms unlicensed; Circle USDC/EURC = only compliant top stablecoins; forced exits beginning",
+        "variant": "body"
+      }
+    },
+    "trans_new2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_2",
+        "text_trans_new2"
+      ]
+    },
+    "badge_new_2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "text_trans_new2": {
+      "type": "Text",
+      "props": {
+        "text": "MORPHO/DeFi Institutional — $175M raise (Paradigm + a16z + Ribbit + Apollo); Apollo buying 90M tokens (9% supply) over 48mo; +14.3% today trending; $11B deposits; structural institutional bet — not sector rotation",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_reflexivity",
+        "alert_reflexivity_1",
+        "alert_reflexivity_2",
+        "alert_reflexivity_3"
+      ]
+    },
+    "h_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert_reflexivity_1": {
+      "type": "Alert",
+      "props": {
+        "title": "MiCA (DAY 1 LIVE)",
+        "message": "Enforcement begins today → forced EU exits → liquidity concentrates at compliant venues → Circle USDC/EURC becomes regulatory winner → MiCA compliance = competitive moat → EU institutional flow",
+        "type": "info"
+      }
+    },
+    "alert_reflexivity_2": {
+      "type": "Alert",
+      "props": {
+        "title": "SYN/Hypercall (DISTRIBUTION CONFIRMED)",
+        "message": "\"Synapse Eyes $1\" headline today on day SYN −26% = textbook distribution into retail FOMO; narrative-vs-price divergence proven",
+        "type": "warning"
+      }
+    },
+    "alert_reflexivity_3": {
+      "type": "Alert",
+      "props": {
+        "title": "MORPHO (NEW LOOP)",
+        "message": "Apollo systematic buy (90M tokens/48mo) → reduced float → derisked fundamentals → more institutional adoption → loop day 1",
+        "type": "info"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_positions",
+        "pos_group_front_run",
+        "pos_group_watch",
+        "pos_group_ride",
+        "pos_group_fade"
+      ]
+    },
+    "h_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos_group_front_run": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_frontrun",
+        "pos_frontrun_1",
+        "pos_frontrun_2",
+        "pos_frontrun_3"
+      ]
+    },
+    "h_frontrun": {
+      "type": "Heading",
+      "props": {
+        "text": "FRONT-RUN",
+        "level": "h3"
+      }
+    },
+    "pos_frontrun_1": {
+      "type": "Text",
+      "props": {
+        "text": "MiCA Enforcement (mindshare 3 ↑↑, Mixed) — Circle (sole compliant top stablecoin) + licensed venues — >80% unlicensed chaos = compliance moat",
+        "variant": "body"
+      }
+    },
+    "pos_frontrun_2": {
+      "type": "Text",
+      "props": {
+        "text": "MORPHO/DeFi Institutional (2 ↑↑, Bull) — Paradigm + a16z + Apollo — DeFi broad sector fading, MORPHO is the exception",
+        "variant": "body"
+      }
+    },
+    "pos_frontrun_3": {
+      "type": "Text",
+      "props": {
+        "text": "KAS/L1 Programmability (2 ↑, Emerging, Day 2) — Kaspa dev + @hashdag — no dApp ecosystem yet",
+        "variant": "body"
+      }
+    },
+    "pos_group_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_watch",
+        "pos_watch_1",
+        "pos_watch_2"
+      ]
+    },
+    "h_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH",
+        "level": "h3"
+      }
+    },
+    "pos_watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "AI×DePIN/GRASS (3 ↑, Rising) — token price bleeding during Rising (6 days to Jul 7); sell-the-news risk elevated; was FRONT-RUN",
+        "variant": "body"
+      }
+    },
+    "pos_watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Institutional Distribution (4 ↓, easing) — $60K test ongoing; June −20.48% worst month since ETF launch; mild recovery; not calling reversal",
+        "variant": "body"
+      }
+    },
+    "pos_group_ride": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_ride",
+        "pos_ride_1",
+        "pos_ride_2",
+        "pos_ride_3"
+      ]
+    },
+    "h_ride": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE",
+        "level": "h3"
+      }
+    },
+    "pos_ride_1": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments (5 →, Peak) — Coinbase Agent Accounts + x402 + MoonPay",
+        "variant": "body"
+      }
+    },
+    "pos_ride_2": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins/Payment Rails (4 ↑, Rising) — Circle MiCA win + x402 + TAC",
+        "variant": "body"
+      }
+    },
+    "pos_ride_3": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets (5 →, Peak) — Polymarket WC knockout + Kalshi $6.7B — EXIT Jul 19 (18 days)",
+        "variant": "body"
+      }
+    },
+    "pos_group_fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_fade",
+        "pos_fade_1",
+        "pos_fade_2"
+      ]
+    },
+    "h_fade": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE",
+        "level": "h3"
+      }
+    },
+    "pos_fade_1": {
+      "type": "Text",
+      "props": {
+        "text": "Options DEX/Hypercall (2 ↓↓) — SYN −26% Day 3; media peak = distribution ceiling confirmed",
+        "variant": "body"
+      }
+    },
+    "pos_fade_2": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Sector Rotation (3 ↓↓) — AAVE 3rd consecutive down; TVL −37% YTD",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_map",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading",
+        "map_dead"
+      ]
+    },
+    "h_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_h_emerging",
+        "map_text_emerging"
+      ]
+    },
+    "map_h_emerging": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      }
+    },
+    "map_text_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "MiCA Enforcement, MORPHO/DeFi Institutional, KAS/L1 Programmability, AI Agent Security",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_h_rising",
+        "map_text_rising"
+      ]
+    },
+    "map_h_rising": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      }
+    },
+    "map_text_rising": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins/Payment Rails, Base Ecosystem, AI×DePIN/GRASS [watch], BTC Institutional Distribution [easing]",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_h_peak",
+        "map_text_peak"
+      ]
+    },
+    "map_h_peak": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      }
+    },
+    "map_text_peak": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments, AI Crypto Infrastructure, Prediction Markets, RWA Tokenization",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_h_fading",
+        "map_text_fading"
+      ]
+    },
+    "map_h_fading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      }
+    },
+    "map_text_fading": {
+      "type": "Text",
+      "props": {
+        "text": "Options DEX/Hypercall, DeFi Sector Rotation, Hyperliquid/Perp DEXs, Memecoin Launchpads, Privacy/ZK",
+        "variant": "body"
+      }
+    },
+    "map_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_h_dead",
+        "map_text_dead"
+      ]
+    },
+    "map_h_dead": {
+      "type": "Heading",
+      "props": {
+        "text": "Dead",
+        "level": "h3"
+      }
+    },
+    "map_text_dead": {
+      "type": "Text",
+      "props": {
+        "text": "EigenCloud",
+        "variant": "body"
+      }
+    }
+  }
+}
