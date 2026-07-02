@@ -1,0 +1,417 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-02"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_since",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_reason"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. GRASS countdown (5 days)",
+        "variant": "lead"
+      }
+    },
+    "focus_1_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Jul 7 is clarity call, not claim; mid-July wallet reshapes exit timing",
+        "variant": "body"
+      }
+    },
+    "focus_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_reason"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. MORPHO FRONT-RUN",
+        "variant": "lead"
+      }
+    },
+    "focus_2_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Day 2 +13% compresses FRONT-RUN entry window fast",
+        "variant": "body"
+      }
+    },
+    "focus_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_reason"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. BTC $60K",
+        "variant": "lead"
+      }
+    },
+    "focus_3_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 200-week MA held $58K; $60K is macro anchor for all positions",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "since_item_1",
+        "since_item_2",
+        "since_item_3",
+        "since_item_4",
+        "since_item_5"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_closed",
+        "since_1_text"
+      ]
+    },
+    "badge_closed": {
+      "type": "Badge",
+      "props": {
+        "text": "closed",
+        "variant": "default"
+      }
+    },
+    "since_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "SYN −26% Day 3 — distribution confirmed; narrative DEAD, focus closed",
+        "variant": "body"
+      }
+    },
+    "since_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new",
+        "since_2_text"
+      ]
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "new",
+        "variant": "secondary"
+      }
+    },
+    "since_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "MiCA enforcement live: Circle USDC/EURC sole compliant top stablecoins; compliance moat forming",
+        "variant": "body"
+      }
+    },
+    "since_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_held",
+        "since_3_text"
+      ]
+    },
+    "badge_held": {
+      "type": "Badge",
+      "props": {
+        "text": "held",
+        "variant": "outline"
+      }
+    },
+    "since_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $59.5K +1% — 200-week MA tested, no clear $60K hold",
+        "variant": "body"
+      }
+    },
+    "since_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moving",
+        "since_4_text"
+      ]
+    },
+    "badge_moving": {
+      "type": "Badge",
+      "props": {
+        "text": "moving",
+        "variant": "secondary"
+      }
+    },
+    "since_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "MORPHO +14.3% (Jul 1) + Apollo 90M token bid — Day 2 momentum +13% today",
+        "variant": "body"
+      }
+    },
+    "since_item_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch",
+        "since_5_text"
+      ]
+    },
+    "badge_watch": {
+      "type": "Badge",
+      "props": {
+        "text": "watch",
+        "variant": "outline"
+      }
+    },
+    "since_5_text": {
+      "type": "Text",
+      "props": {
+        "text": "KAS Toccata Day 3 — programmability live, zero dApp activity",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_item_1",
+        "watch_item_2"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_1_title",
+        "watch_1_detail"
+      ]
+    },
+    "watch_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "GRASS Jul 7 = clarity call, not claim date",
+        "variant": "lead"
+      }
+    },
+    "watch_1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Season 2 actual claim requires mid-July wallet launch; sell-the-news cliff shifts to information event → focus #1",
+        "variant": "body"
+      }
+    },
+    "watch_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_2_title",
+        "watch_2_detail"
+      ]
+    },
+    "watch_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "MORPHO Day 2 +13.44%",
+        "variant": "lead"
+      }
+    },
+    "watch_2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "two-day discovery run compresses FRONT-RUN window → focus #2",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_item_1",
+        "running_item_2",
+        "running_item_3",
+        "running_item_4",
+        "running_item_5"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
