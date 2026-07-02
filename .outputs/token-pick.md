@@ -1,17 +1,16 @@
-*Daily Pick — 2026-07-01*
+*Daily Pick — 2026-07-02*
 
-*Token: MORPHO*  [HIGH]  signal 8/10
-Price: $2.15 (+14.47% 24h / +27.85% 7d) | mcap $1.4B | vol $29.7M (vol/mcap 0.021)
-Score breakdown: [trending+2, both 24h+7d >5%+2, RS vs BTC/ETH+2, 24h>0+1, 7d>0+1] = 8/10
-Catalyst: $175M institutional raise (Paradigm + a16z + Ribbit Capital) + Apollo Global agreement to acquire 90M MORPHO tokens (9% supply) over 48 months — structural institutional buyer established
-Risk: Token -54% from ATH ($4.17); DeFi TVL -37% YTD structural ceiling; institutional catalyst partially priced after June's initial +10% pop
-Vs recent picks: first time in 7 days
+*Token: SOL*  [HIGH]  signal 8/10
+Price: $81.12 (+8.04% 24h / +18.71% 7d) | mcap $47.2B | vol $4.41B (vol/mcap 0.093)
+Score breakdown: [trending+2, 24h>0+1, 7d>0+1, both>5%+2, RS vs BTC/ETH 7d+2] = 8/10
+Catalyst: Alpenglow consensus upgrade (biggest in Solana history; mainnet Q3/Q4 2026; finality 12.8s → 150ms) + Morgan Stanley SOL ETF amendment (record-low 0.14% fee) + MoneyGram joins as validator; active addresses near 7M yearly high, TPS trending toward all-time high
+Risk: 7d +18.71% already an extended move; Alpenglow is Q3/Q4 not imminent; ETF not yet approved; macro reversal resets extended moves fast
 
-*Market: "Will France win the 2026 FIFA World Cup?"*  [MEDIUM]  edge 7.65pp
-Current: YES 32.65¢ / NO 67.35¢ | 24h vol $2.9M | resolves: 2026-07-20
-Fair YES: ~25% (inputs: bookmaker +244 → ~26% vig-stripped; Elo R16 baseline 22-26%; R16-to-final × final-win probability ~25.5%)
-Thesis: Polymarket prices France 7pp above bookmaker-implied fair value — Mbappe brace vs Sweden inflated market beyond model; NO at 67.35¢ vs ~75% fair is the edge
-Risk: Argentina eliminated early (plays Cape Verde July 3), no remaining top-tier opposition → France correctly priced at 35%+
+*Market: "Which continent will win the 2026 FIFA World Cup?" — CONMEBOL YES*  [MEDIUM]  edge 7.5pp
+Current: YES 27.5¢ / NO 72.5¢ | 24h vol $170k | resolves: Jul 19
+Fair YES: ~35% (inputs: Brazil confirmed R16 at 1.0; Argentina ~91.5% to advance Jul 3 per Cape Verde R16 market 8.55%; Argentina/Brazil combined WC winner calibration ~14-16% each from bookmakers)
+Thesis: Market overprices Europe (63.5¢ vs fair ~57%); SA underpriced with both Brazil and Argentina healthy in R16; defending 2022 champion + 5-time WC winner at combined 27.5¢ is a structural mismatch
+Risk: Both Argentina and Brazil exiting early knocks SA probability to near zero; France dominance at ~32-35% winner odds anchors Europe's total high
 
 sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only

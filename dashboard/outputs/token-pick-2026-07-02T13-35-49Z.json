@@ -1,0 +1,348 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-02"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-sol",
+        "sep-1",
+        "section-market",
+        "sep-2",
+        "section-sources",
+        "alert-disclaimer"
+      ]
+    },
+    "section-sol": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-sol",
+        "stack-sol-signal",
+        "stat-price",
+        "stat-24h",
+        "stat-7d",
+        "stat-mcap",
+        "stat-vol",
+        "text-score-label",
+        "text-score-breakdown",
+        "heading-catalyst",
+        "text-catalyst",
+        "alert-sol-risk"
+      ]
+    },
+    "heading-sol": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: SOL",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-sol-signal": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-high",
+        "text-signal"
+      ]
+    },
+    "badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text-signal": {
+      "type": "Text",
+      "props": {
+        "text": "signal 8/10",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$81.12"
+      },
+      "children": []
+    },
+    "stat-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+8.04%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+18.71%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$47.2B"
+      },
+      "children": []
+    },
+    "stat-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$4.41B",
+        "delta": "vol/mcap 0.093"
+      },
+      "children": []
+    },
+    "text-score-label": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown:",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-score-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "trending+2, 24h>0+1, 7d>0+1, both>5%+2, RS vs BTC/ETH 7d+2",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading-catalyst": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Alpenglow consensus upgrade (biggest in Solana history; mainnet Q3/Q4 2026; finality 12.8s → 150ms) + Morgan Stanley SOL ETF amendment (record-low 0.14% fee) + MoneyGram joins as validator; active addresses near 7M yearly high, TPS trending toward all-time high",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert-sol-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "7d +18.71% already an extended move; Alpenglow is Q3/Q4 not imminent; ETF not yet approved; macro reversal resets extended moves fast",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-market",
+        "stack-market-signal",
+        "stat-yes-price",
+        "stat-no-price",
+        "stat-market-vol",
+        "stat-resolution",
+        "stat-fair-yes",
+        "text-fair-inputs",
+        "heading-thesis",
+        "text-thesis",
+        "alert-market-risk"
+      ]
+    },
+    "heading-market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Which continent will win the 2026 FIFA World Cup? — CONMEBOL YES",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-market-signal": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-medium",
+        "text-edge"
+      ]
+    },
+    "badge-medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-edge": {
+      "type": "Text",
+      "props": {
+        "text": "edge 7.5pp",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat-yes-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current YES",
+        "value": "27.5¢"
+      },
+      "children": []
+    },
+    "stat-no-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Current NO",
+        "value": "72.5¢"
+      },
+      "children": []
+    },
+    "stat-market-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$170k"
+      },
+      "children": []
+    },
+    "stat-resolution": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "Jul 19"
+      },
+      "children": []
+    },
+    "stat-fair-yes": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES",
+        "value": "~35%"
+      },
+      "children": []
+    },
+    "text-fair-inputs": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: Brazil confirmed R16 at 1.0; Argentina ~91.5% to advance Jul 3 per Cape Verde R16 market 8.55%; Argentina/Brazil combined WC winner calibration ~14-16% each from bookmakers",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "heading-thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Market overprices Europe (63.5¢ vs fair ~57%); SA underpriced with both Brazil and Argentina healthy in R16; defending 2022 champion + 5-time WC winner at combined 27.5¢ is a structural mismatch",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert-market-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Both Argentina and Brazil exiting early knocks SA probability to near zero; France dominance at ~32-35% winner odds anchors Europe's total high",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-sources",
+        "text-sources"
+      ]
+    },
+    "heading-sources": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=fail, poly=ok",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert-disclaimer": {
+      "type": "Alert",
+      "props": {
+        "title": "Disclaimer",
+        "message": "not financial advice — pattern-matching only",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
