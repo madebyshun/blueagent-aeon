@@ -1,0 +1,256 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-03"
+      },
+      "children": [
+        "token-section",
+        "price-section",
+        "score-section",
+        "sep1",
+        "catalyst-section",
+        "sep2",
+        "risk-section",
+        "sep3",
+        "comparison-section",
+        "sep4",
+        "sources-section"
+      ]
+    },
+    "token-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token-heading",
+        "signal-badge"
+      ]
+    },
+    "token-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "HYPE",
+        "level": "h2"
+      }
+    },
+    "signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM – 6/10",
+        "variant": "default"
+      }
+    },
+    "price-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price-stat",
+        "price-details"
+      ]
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$69.35",
+        "label": "Price"
+      }
+    },
+    "price-details": {
+      "type": "Text",
+      "props": {
+        "text": "24h: ±5.26% | 7d: ±11.59% | mcap $15.4B | vol est. ~$700M (vol/mcap ~0.045)",
+        "variant": "body"
+      }
+    },
+    "score-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-heading",
+        "score-text"
+      ]
+    },
+    "score-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      }
+    },
+    "score-text": {
+      "type": "Text",
+      "props": {
+        "text": "[CG trending #4+2, 24h>0+1, 7d>0+1, both>5%+2] = 6/10",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalyst-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-heading",
+        "catalyst-p1",
+        "catalyst-p2",
+        "catalyst-p3",
+        "catalyst-p4"
+      ]
+    },
+    "catalyst-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "catalyst-p1": {
+      "type": "Text",
+      "props": {
+        "text": "• Three US spot HYPE ETFs (BHYP/THYP + one more) with $300M+ combined inflows",
+        "variant": "body"
+      }
+    },
+    "catalyst-p2": {
+      "type": "Text",
+      "props": {
+        "text": "• $111M inflows on June 30 alone during broader market weakness",
+        "variant": "body"
+      }
+    },
+    "catalyst-p3": {
+      "type": "Text",
+      "props": {
+        "text": "• SpaceX perpetuals ($1.3B launch-day volume) cemented Hyperliquid as the 24/7 price discovery venue for non-exchange assets",
+        "variant": "body"
+      }
+    },
+    "catalyst-p4": {
+      "type": "Text",
+      "props": {
+        "text": "• Arthur Hayes $150 target circulating; ATH $76.85 hit June 16",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "risk-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "risk-heading",
+        "risk-text"
+      ]
+    },
+    "risk-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      }
+    },
+    "risk-text": {
+      "type": "Text",
+      "props": {
+        "text": "July 6 unlock — 9.92M HYPE (~$688M at current price) to Core Contributors in 3 days; below recent ATH by ~10%; ETF absorption rate is the key uncertainty",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "comparison-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "comparison-heading",
+        "comparison-text"
+      ]
+    },
+    "comparison-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Vs Recent Picks",
+        "level": "h3"
+      }
+    },
+    "comparison-text": {
+      "type": "Text",
+      "props": {
+        "text": "First time picked",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-heading",
+        "sources-text",
+        "disclaimer-text"
+      ]
+    },
+    "sources-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h3"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "disclaimer-text": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
