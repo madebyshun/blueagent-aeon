@@ -1,0 +1,570 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-07-03",
+        "description": "Verdict: 2 actively exploited (CISA KEV) + 1 critical npm PoC · 5 to patch this week · 3 to monitor"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "badge-sources",
+        "sep-1",
+        "section-patch-today",
+        "sep-2",
+        "section-patch-week",
+        "sep-3",
+        "section-monitor"
+      ]
+    },
+    "badge-sources": {
+      "type": "Badge",
+      "props": {
+        "text": "Sources: KEV, GH Advisory, EPSS",
+        "variant": "outline"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-patch-today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-patch-today",
+        "cve-45659-card",
+        "cve-48558-card",
+        "cve-49352-card"
+      ]
+    },
+    "h-patch-today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve-45659-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-45659-link",
+        "cve-45659-meta",
+        "cve-45659-desc",
+        "cve-45659-action"
+      ]
+    },
+    "cve-45659-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-45659 · Microsoft SharePoint Server",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "CISA KEV"
+      }
+    },
+    "cve-45659-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-07-01 · EPSS 0.032 · CVSS N/A · Due: 2026-07-04",
+        "variant": "caption"
+      }
+    },
+    "cve-45659-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Deserialization RCE via authenticated network request."
+      }
+    },
+    "cve-45659-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Apply Microsoft SharePoint patch immediately.",
+        "variant": "lead"
+      }
+    },
+    "cve-48558-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-48558-link",
+        "cve-48558-meta",
+        "cve-48558-desc",
+        "cve-48558-action"
+      ]
+    },
+    "cve-48558-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48558 · SimpleHelp",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "CISA KEV"
+      }
+    },
+    "cve-48558-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-06-29 · EPSS 0.012 · CVSS N/A · Due: 2026-07-02 (overdue)",
+        "variant": "caption"
+      }
+    },
+    "cve-48558-desc": {
+      "type": "Text",
+      "props": {
+        "text": "OIDC auth bypass — unauthenticated attackers forge tokens for full sessions."
+      }
+    },
+    "cve-48558-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Upgrade SimpleHelp per vendor advisory.",
+        "variant": "lead"
+      }
+    },
+    "cve-49352-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-49352-link",
+        "cve-49352-meta",
+        "cve-49352-desc",
+        "cve-49352-action"
+      ]
+    },
+    "cve-49352-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-49352 · npm/9router",
+        "href": "https://github.com/advisories/GHSA-jphh-m39h-6gwx",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-49352-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.8 · EPSS 0 · public PoC in advisory",
+        "variant": "caption"
+      }
+    },
+    "cve-49352-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Hardcoded fallback JWT secret (\"9router-default-secret-change-me\") — forge auth tokens if JWT_SECRET unset."
+      }
+    },
+    "cve-49352-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade 9router to ≥0.4.45 and set JWT_SECRET env var.",
+        "variant": "lead"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-patch-week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-patch-week",
+        "cve-50027-card",
+        "cve-52830-card",
+        "cve-49255-card",
+        "ghsa-g6g7-card",
+        "cve-49360-card"
+      ]
+    },
+    "h-patch-week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "cve-50027-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-50027-link",
+        "cve-50027-meta",
+        "cve-50027-desc",
+        "cve-50027-action"
+      ]
+    },
+    "cve-50027-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-50027 · pip/mcp-memory-service",
+        "href": "https://github.com/advisories/GHSA-84hp-mqvj-3p8h",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-50027-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.8 · EPSS 0",
+        "variant": "caption"
+      }
+    },
+    "cve-50027-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated read/write/delete on all document API endpoints."
+      }
+    },
+    "cve-50027-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade mcp-memory-service to ≥10.67.1.",
+        "variant": "lead"
+      }
+    },
+    "cve-52830-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-52830-link",
+        "cve-52830-meta",
+        "cve-52830-desc",
+        "cve-52830-action"
+      ]
+    },
+    "cve-52830-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-52830 · pip/fast-mcp-telegram",
+        "href": "https://github.com/advisories/GHSA-rxw2-pc8j-vxwm",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-52830-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.4 · EPSS 0.004",
+        "variant": "caption"
+      }
+    },
+    "cve-52830-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Bearer token path traversal bypasses Telegram session file protection."
+      }
+    },
+    "cve-52830-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade fast-mcp-telegram to ≥0.19.1.",
+        "variant": "lead"
+      }
+    },
+    "cve-49255-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-49255-link",
+        "cve-49255-meta",
+        "cve-49255-desc",
+        "cve-49255-action"
+      ]
+    },
+    "cve-49255-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-49255 · npm/electerm",
+        "href": "https://github.com/advisories/GHSA-v5ff-xmfp-p245",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-49255-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 8.8 · EPSS 0",
+        "variant": "caption"
+      }
+    },
+    "cve-49255-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Command injection in rmrf/mv/cp file system ops."
+      }
+    },
+    "cve-49255-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade electerm to ≥3.11.11.",
+        "variant": "lead"
+      }
+    },
+    "ghsa-g6g7-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-g6g7-link",
+        "ghsa-g6g7-meta",
+        "ghsa-g6g7-desc",
+        "ghsa-g6g7-action"
+      ]
+    },
+    "ghsa-g6g7-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-g6g7-pvmx-m74p · npm/9router",
+        "href": "https://github.com/advisories/GHSA-g6g7-pvmx-m74p",
+        "source": "GitHub Advisory"
+      }
+    },
+    "ghsa-g6g7-meta": {
+      "type": "Text",
+      "props": {
+        "text": "critical · CVSS N/A · EPSS 0",
+        "variant": "caption"
+      }
+    },
+    "ghsa-g6g7-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Missing auth + OS command injection (companion to CVE-2026-49352)."
+      }
+    },
+    "ghsa-g6g7-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade 9router to ≥0.4.45.",
+        "variant": "lead"
+      }
+    },
+    "cve-49360-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-49360-link",
+        "cve-49360-meta",
+        "cve-49360-desc",
+        "cve-49360-action"
+      ]
+    },
+    "cve-49360-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-49360 · pip/recce",
+        "href": "https://github.com/advisories/GHSA-rh62-j648-g5qc",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-49360-meta": {
+      "type": "Text",
+      "props": {
+        "text": "high · CVSS N/A · EPSS 0",
+        "variant": "caption"
+      }
+    },
+    "cve-49360-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated SQL exec via query API → DuckDB file read/write."
+      }
+    },
+    "cve-49360-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade recce to ≥1.50.0 or restrict to trusted networks.",
+        "variant": "lead"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-monitor",
+        "cve-49353-card",
+        "ghsa-vv65-card",
+        "ghsa-f9ff-card"
+      ]
+    },
+    "h-monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "cve-49353-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-49353-link",
+        "cve-49353-meta",
+        "cve-49353-desc",
+        "cve-49353-action"
+      ]
+    },
+    "cve-49353-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-49353 · npm/9router",
+        "href": "https://github.com/advisories/GHSA-6g2f-w7g3-77vf",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-49353-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 7.5 · EPSS 0 · no patch",
+        "variant": "caption"
+      }
+    },
+    "cve-49353-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Incomplete fix — Host header spoofing bypasses local-only access gate."
+      }
+    },
+    "cve-49353-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ watch for patch; enforce strict Host validation at reverse proxy.",
+        "variant": "lead"
+      }
+    },
+    "ghsa-vv65-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-vv65-link",
+        "ghsa-vv65-meta",
+        "ghsa-vv65-desc",
+        "ghsa-vv65-action"
+      ]
+    },
+    "ghsa-vv65-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-vv65-f55v-xm6g · npm/@grackle-ai",
+        "href": "https://github.com/advisories/GHSA-vv65-f55v-xm6g",
+        "source": "GitHub Advisory"
+      }
+    },
+    "ghsa-vv65-meta": {
+      "type": "Text",
+      "props": {
+        "text": "high · CVSS N/A · no patch",
+        "variant": "caption"
+      }
+    },
+    "ghsa-vv65-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Git worktree arg injection → RCE via unsanitized input on provisioned hosts."
+      }
+    },
+    "ghsa-vv65-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ avoid exposing worktree API to untrusted input; watch for fix.",
+        "variant": "lead"
+      }
+    },
+    "ghsa-f9ff-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-f9ff-link",
+        "ghsa-f9ff-meta",
+        "ghsa-f9ff-desc",
+        "ghsa-f9ff-action"
+      ]
+    },
+    "ghsa-f9ff-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-f9ff-5x35-7gfw · npm/@grackle-ai/mcp",
+        "href": "https://github.com/advisories/GHSA-f9ff-5x35-7gfw",
+        "source": "GitHub Advisory"
+      }
+    },
+    "ghsa-f9ff-meta": {
+      "type": "Text",
+      "props": {
+        "text": "high · CVSS N/A · no patch",
+        "variant": "caption"
+      }
+    },
+    "ghsa-f9ff-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Fail-open auth — scoped agents bypass task/session boundaries in MCP tool layer."
+      }
+    },
+    "ghsa-f9ff-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ restrict to trusted environments; watch for patch.",
+        "variant": "lead"
+      }
+    }
+  }
+}
