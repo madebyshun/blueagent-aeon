@@ -1,0 +1,465 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-07-03"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "top_pick_section",
+        "sep1",
+        "aiml_section",
+        "sep2",
+        "devtools_section",
+        "sep3",
+        "webapp_section",
+        "sep4",
+        "sources"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_label",
+        "astryx_top_stack"
+      ]
+    },
+    "top_pick_label": {
+      "type": "Text",
+      "props": {
+        "text": "Top Pick",
+        "variant": "lead"
+      }
+    },
+    "astryx_top_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "astryx_top_link",
+        "astryx_top_desc"
+      ]
+    },
+    "astryx_top_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "facebook/astryx",
+        "href": "https://github.com/facebook/astryx",
+        "source": "GitHub"
+      }
+    },
+    "astryx_top_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Meta's agent-ready design system hit a 48× daily spike on a Jul 3 push — signals UI frameworks are being redesigned from the ground up for AI agent consumption.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_heading",
+        "graphify_repo"
+      ]
+    },
+    "aiml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "graphify_repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "graphify_link",
+        "graphify_meta",
+        "graphify_desc"
+      ]
+    },
+    "graphify_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "safishamsi/graphify",
+        "href": "https://github.com/safishamsi/graphify",
+        "source": "GitHub"
+      }
+    },
+    "graphify_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "graphify_stars",
+        "graphify_lang",
+        "graphify_status"
+      ]
+    },
+    "graphify_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 937 today (76.6k total)",
+        "variant": "secondary"
+      }
+    },
+    "graphify_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "graphify_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "graphify_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Turns your codebase, schemas, and docs into a queryable knowledge graph — lets agents explore large repos without brute-force context dumps.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "strix_repo",
+        "herdr_repo"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "strix_repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "strix_link",
+        "strix_meta",
+        "strix_desc"
+      ]
+    },
+    "strix_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "usestrix/strix",
+        "href": "https://github.com/usestrix/strix",
+        "source": "GitHub"
+      }
+    },
+    "strix_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "strix_stars",
+        "strix_lang",
+        "strix_status"
+      ]
+    },
+    "strix_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 2,137 today (33.5k total)",
+        "variant": "secondary"
+      }
+    },
+    "strix_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "strix_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "strix_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Autonomous vuln pipeline: discover, triage, and patch in one run — no manual CVE lookup; 21× spike on Jul 3 push.",
+        "variant": "body"
+      }
+    },
+    "herdr_repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "herdr_link",
+        "herdr_meta",
+        "herdr_desc"
+      ]
+    },
+    "herdr_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ogulcancelik/herdr",
+        "href": "https://github.com/ogulcancelik/herdr",
+        "source": "GitHub"
+      }
+    },
+    "herdr_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "herdr_stars",
+        "herdr_lang",
+        "herdr_status"
+      ]
+    },
+    "herdr_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 571 today (10.4k total)",
+        "variant": "secondary"
+      }
+    },
+    "herdr_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "outline"
+      }
+    },
+    "herdr_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "herdr_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Runs multiple AI agents as one terminal stream — tmux-style multiplexer for agents; 5× spike on Jul 3 push.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "webapp_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "webapp_heading",
+        "astryx_webapp_repo",
+        "romm_repo"
+      ]
+    },
+    "webapp_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "astryx_webapp_repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "astryx_webapp_link",
+        "astryx_webapp_meta",
+        "astryx_webapp_desc"
+      ]
+    },
+    "astryx_webapp_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "facebook/astryx",
+        "href": "https://github.com/facebook/astryx",
+        "source": "GitHub"
+      }
+    },
+    "astryx_webapp_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "astryx_webapp_stars",
+        "astryx_webapp_lang",
+        "astryx_webapp_status"
+      ]
+    },
+    "astryx_webapp_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 1,108 today (4k total)",
+        "variant": "secondary"
+      }
+    },
+    "astryx_webapp_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "astryx_webapp_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "astryx_webapp_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Exposes component intent as structured data — Meta's design system built for AI agents to consume UI specs natively.",
+        "variant": "body"
+      }
+    },
+    "romm_repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "romm_link",
+        "romm_meta",
+        "romm_desc"
+      ]
+    },
+    "romm_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "rommapp/romm",
+        "href": "https://github.com/rommapp/romm",
+        "source": "GitHub"
+      }
+    },
+    "romm_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "romm_stars",
+        "romm_lang",
+        "romm_status"
+      ]
+    },
+    "romm_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 236 today (9.6k total)",
+        "variant": "secondary"
+      }
+    },
+    "romm_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "romm_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "romm_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Adds in-browser ROM playback on its Jul 3 release — 30× spike signals demand for homelab-native gaming without cloud.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/20",
+        "variant": "caption"
+      }
+    }
+  }
+}

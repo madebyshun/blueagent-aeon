@@ -1,27 +1,25 @@
-*GitHub Trending — 2026-07-02*
+*GitHub Trending — 2026-07-03*
 
-*Top pick* — [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)
-A Claude Code skill that costs nothing to deploy and cuts token spend 65% — caveman grammar as prompt compression.
-
-*Devtools*
-• [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) — ★ 866 today (79k total) · JS · [ACCELERATING]
-Rewrites Claude Code prompts in stripped caveman English to compress them 65% — immediate cost reduction with no codebase changes.
-
-• [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) — ★ 92 today (44k total) · TS · [RETURNING]
-Chrome's official MCP server — coding agents inspect live DOM, capture console logs, and screenshot pages without any browser automation lib.
-
-• [santifer/career-ops](https://github.com/santifer/career-ops) — ★ 322 today (57k total) · JS · [ACCELERATING]
-14-mode job search engine on Claude Code — applications, interview prep, resume tailoring, live Go dashboard, PDF output.
+*Top pick* — [facebook/astryx](https://github.com/facebook/astryx)
+Meta's agent-ready design system hit a 48× daily spike on a Jul 3 push — signals UI frameworks are being redesigned from the ground up for AI agent consumption.
 
 *AI/ML*
-• [affaan-m/ECC](https://github.com/affaan-m/ECC) — ★ 721 today (224k total) · JS · [ACCELERATING]
-Unified agent optimization harness for Claude Code, Codex, and Cursor — skills/memory/instincts in one config layer instead of separate per-tool setups.
+• [safishamsi/graphify](https://github.com/safishamsi/graphify) — ★ 937 today (76.6k total) · Python · [ACCELERATING]
+Turns your codebase, schemas, and docs into a queryable knowledge graph — lets agents explore large repos without brute-force context dumps.
 
-• [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) — ★ 2,114 today (124k total) · Shell · [RETURNING]
-Named specialist agents with defined deliverables (frontend wizard, reality checker, whimsy injector) — July 1 push triggered a 5× daily star spike on a 9-month framework.
+*Devtools*
+• [usestrix/strix](https://github.com/usestrix/strix) — ★ 2,137 today (33.5k total) · Python · [RETURNING]
+Autonomous vuln pipeline: discover, triage, and patch in one run — no manual CVE lookup; 21× spike on Jul 3 push.
 
-• [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) — ★ 694 today (17k total) · Python · [ACCELERATING]
-Autonomous trading agent wiring live market signals to order execution — today's July 2 push came with a 3.7× star spike from its daily average.
+• [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) — ★ 571 today (10.4k total) · Rust · [RETURNING]
+Runs multiple AI agents as one terminal stream — tmux-style multiplexer for agents; 5× spike on Jul 3 push.
+
+*Web/Apps*
+• [facebook/astryx](https://github.com/facebook/astryx) — ★ 1,108 today (4k total) · TypeScript · [RETURNING]
+Exposes component intent as structured data — Meta's design system built for AI agents to consume UI specs natively.
+
+• [rommapp/romm](https://github.com/rommapp/romm) — ★ 236 today (9.6k total) · Python · [RETURNING]
+Adds in-browser ROM playback on its Jul 3 release — 30× spike signals demand for homelab-native gaming without cloud.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/18
+sources: trending=ok · gh_api=ok · kept 5/20
