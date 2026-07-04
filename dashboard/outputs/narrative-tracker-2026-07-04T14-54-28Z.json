@@ -1,0 +1,936 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-04"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-transitions",
+        "sep1",
+        "section-reflexivity",
+        "sep2",
+        "section-positions",
+        "sep3",
+        "section-map"
+      ]
+    },
+    "section-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-transitions",
+        "trans-clarity",
+        "trans-altcoin",
+        "trans-hype",
+        "trans-ai"
+      ]
+    },
+    "h-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "trans-clarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-clarity",
+        "text-clarity",
+        "link-clarity"
+      ]
+    },
+    "badge-new-clarity": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-clarity": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act — Senate floor this week; White House Jul 4 signing target (America 250); Galaxy/Polymarket ~50-50. Largest potential regulatory catalyst of the cycle. Missing from all prior logs."
+      },
+      "children": []
+    },
+    "link-clarity": {
+      "type": "Link",
+      "props": {
+        "label": "Senate CLARITY Act article",
+        "href": "https://finance.yahoo.com/markets/crypto/articles/senates-last-ditch-clarity-act-145216524.html"
+      },
+      "children": []
+    },
+    "trans-altcoin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-altcoin",
+        "text-altcoin"
+      ]
+    },
+    "badge-new-altcoin": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-altcoin": {
+      "type": "Text",
+      "props": {
+        "text": "Altcoin ETF Pipeline — PEPE ETF S-1 in SEC review (Canary Capital); LILPEPE TGE Jul 5–18; token-pick Jul 4 scored 9/10. Expanding beyond SOL/XRP/LTC/HBAR precedents."
+      },
+      "children": []
+    },
+    "trans-hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-demoted-hype",
+        "text-hype",
+        "link-hype"
+      ]
+    },
+    "badge-demoted-hype": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text-hype": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE/Perp DEXs FRONT-RUN → WATCH — $630M unlock Jul 6 (9.92M tokens, 3.92% supply). Pre-unlock window closes today. 48h supply binary; ETF narrative intact but de-risk. Reassess Jul 7."
+      },
+      "children": []
+    },
+    "link-hype": {
+      "type": "Link",
+      "props": {
+        "label": "Hyperliquid token unlock forecast",
+        "href": "https://www.fxempire.com/forecasts/article/hyperliquid-price-eyes-20-rise-amid-9-92m-hype-token-unlock-1607913"
+      },
+      "children": []
+    },
+    "trans-ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-compound-ai",
+        "text-ai"
+      ]
+    },
+    "badge-compound-ai": {
+      "type": "Badge",
+      "props": {
+        "text": "COMPOUNDING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-ai": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments — Base MCP launched today: AI agents can transfer funds/swap on Base. New infrastructure layer deepens Coinbase for Agents + x402 loop. EU AI Act Aug 2 = 29 days."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-reflexivity",
+        "refl-clarity",
+        "refl-hype",
+        "refl-ai"
+      ]
+    },
+    "h-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "refl-clarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl-clarity-title",
+        "refl-clarity-body"
+      ]
+    },
+    "refl-clarity-title": {
+      "type": "Heading",
+      "props": {
+        "text": "CLARITY Act (LIVE)",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "refl-clarity-body": {
+      "type": "Text",
+      "props": {
+        "text": "48% Polymarket = live price discovery on binary. Passes: institutional capital unlocks, sector re-rating. Fails: uncertainty extends 2+ years to next Congress. Capital positioning moving now."
+      },
+      "children": []
+    },
+    "refl-hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl-hype-title",
+        "refl-hype-body"
+      ]
+    },
+    "refl-hype-title": {
+      "type": "Heading",
+      "props": {
+        "text": "HYPE Unlock (STRESS TEST)",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "refl-hype-body": {
+      "type": "Text",
+      "props": {
+        "text": "$630M unlock vs. $300M+ ETF inflows narrative. If HYPE absorbs = institutional thesis confirmed durable. If dumps = 3-month reflexivity loop takes first structural test."
+      },
+      "children": []
+    },
+    "refl-ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl-ai-title",
+        "refl-ai-body"
+      ]
+    },
+    "refl-ai-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agent Payments (COMPOUNDING)",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "refl-ai-body": {
+      "type": "Text",
+      "props": {
+        "text": "Base MCP adds onchain execution layer → more verticals → x402 100M+ txns loop deepens."
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-positions",
+        "pos-clarity",
+        "pos-ai-agents",
+        "pos-base-eco",
+        "pos-morpho",
+        "pos-stablecoins",
+        "pos-pred-markets",
+        "pos-hype",
+        "pos-grass",
+        "pos-memecoin",
+        "pos-defi"
+      ]
+    },
+    "h-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "pos-clarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-clarity-header",
+        "pos-clarity-detail"
+      ]
+    },
+    "pos-clarity-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-frontrun",
+        "text-clarity-name"
+      ]
+    },
+    "badge-frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-clarity-name": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-clarity-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Score: 3 ↑↑ | Emerging | Bull | @SenLummis + White House | Bear: 60-vote cloture short, August recess deadline"
+      },
+      "children": []
+    },
+    "pos-ai-agents": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-ai-header",
+        "pos-ai-detail"
+      ]
+    },
+    "pos-ai-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride-ai",
+        "text-ai-name"
+      ]
+    },
+    "badge-ride-ai": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-ai-name": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-ai-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Score: 5 ↑ | Peak | Bull | Base MCP + Coinbase for Agents + x402 | Bear: EU AI Act Aug 2"
+      },
+      "children": []
+    },
+    "pos-base-eco": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-base-header",
+        "pos-base-detail"
+      ]
+    },
+    "pos-base-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride-base",
+        "text-base-name"
+      ]
+    },
+    "badge-ride-base": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-base-name": {
+      "type": "Text",
+      "props": {
+        "text": "Base Ecosystem",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-base-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Score: 4 ↑ | Rising | Bull | Base MCP + Coinbase for Agents + x402"
+      },
+      "children": []
+    },
+    "pos-morpho": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-morpho-header",
+        "pos-morpho-detail"
+      ]
+    },
+    "pos-morpho-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride-morpho",
+        "text-morpho-name"
+      ]
+    },
+    "badge-ride-morpho": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-morpho-name": {
+      "type": "Text",
+      "props": {
+        "text": "MORPHO/DeFi Institutional",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-morpho-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Score: 3 → | Rising | Bull | Apollo 90M bid + Standard Chartered $60 target | Bear: consolidating after Day 3 reversal"
+      },
+      "children": []
+    },
+    "pos-stablecoins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-stablecoin-header",
+        "pos-stablecoin-detail"
+      ]
+    },
+    "pos-stablecoin-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride-stable",
+        "text-stable-name"
+      ]
+    },
+    "badge-ride-stable": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-stable-name": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins/Payment Rails",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-stablecoin-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Score: 4 → | Rising | Bull | Circle USDC/EURC MiCA moat"
+      },
+      "children": []
+    },
+    "pos-pred-markets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-pred-header",
+        "pos-pred-detail"
+      ]
+    },
+    "pos-pred-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride-pred",
+        "text-pred-name"
+      ]
+    },
+    "badge-ride-pred": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-pred-name": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-pred-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Score: 5 ↓ | Peak→Fading | Mixed | EXIT Jul 19 firm (15 days)"
+      },
+      "children": []
+    },
+    "pos-hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-hype-header",
+        "pos-hype-detail"
+      ]
+    },
+    "pos-hype-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-hype",
+        "text-hype-name"
+      ]
+    },
+    "badge-watch-hype": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-hype-name": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE/Perp DEXs",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-hype-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Score: 3 → | 48h unlock binary Jul 6; reassess Jul 7"
+      },
+      "children": []
+    },
+    "pos-grass": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-grass-header",
+        "pos-grass-detail"
+      ]
+    },
+    "pos-grass-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-grass",
+        "text-grass-name"
+      ]
+    },
+    "badge-watch-grass": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-grass-name": {
+      "type": "Text",
+      "props": {
+        "text": "GRASS",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-grass-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Score: 3 ↑ | Jul 7 clarity call in 3 days; sell-the-news risk"
+      },
+      "children": []
+    },
+    "pos-memecoin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-memecoin-header",
+        "pos-memecoin-detail"
+      ]
+    },
+    "pos-memecoin-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade-memecoin",
+        "text-memecoin-name"
+      ]
+    },
+    "badge-fade-memecoin": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text-memecoin-name": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoin Launchpads",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-memecoin-detail": {
+      "type": "Text",
+      "props": {
+        "text": "ANSEM +106% today is pump-risk signal, not revival"
+      },
+      "children": []
+    },
+    "pos-defi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-defi-header",
+        "pos-defi-detail"
+      ]
+    },
+    "pos-defi-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade-defi",
+        "text-defi-name"
+      ]
+    },
+    "badge-fade-defi": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text-defi-name": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Sector Rotation",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-defi-detail": {
+      "type": "Text",
+      "props": {
+        "text": "TVL -37% YTD; MORPHO is exception not rule"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-map",
+        "map-stack"
+      ]
+    },
+    "h-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "map-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading",
+        "map-dead"
+      ]
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-h",
+        "map-emerging-text"
+      ]
+    },
+    "map-emerging-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "map-emerging-text": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act, Altcoin ETF Pipeline, KAS/L1, AI Agent Security"
+      },
+      "children": []
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-h",
+        "map-rising-text"
+      ]
+    },
+    "map-rising-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "map-rising-text": {
+      "type": "Text",
+      "props": {
+        "text": "GRASS, MiCA Enforcement, MORPHO, Stablecoins, Base Ecosystem, HYPE (watch)"
+      },
+      "children": []
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-h",
+        "map-peak-text"
+      ]
+    },
+    "map-peak-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "map-peak-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments, AI Crypto Infra, RWA, Prediction Markets"
+      },
+      "children": []
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-h",
+        "map-fading-text"
+      ]
+    },
+    "map-fading-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "map-fading-text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Distribution, DeFi Sector, Memecoins"
+      },
+      "children": []
+    },
+    "map-dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-dead-h",
+        "map-dead-text"
+      ]
+    },
+    "map-dead-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Dead",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "map-dead-text": {
+      "type": "Text",
+      "props": {
+        "text": "Options DEX/Hypercall (SYN -18.7% capitulation today)"
+      },
+      "children": []
+    }
+  }
+}
