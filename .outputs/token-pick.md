@@ -1,11 +1,10 @@
-*Daily Pick — 2026-07-03*
+*Daily Pick — 2026-07-04*
 
-*Token: HYPE* [MEDIUM] signal 6/10
-Price: $69.35 (±5.26% 24h / ±11.59% 7d) | mcap $15.4B | vol est. ~$700M (vol/mcap ~0.045)
-Score breakdown: [CG trending #4+2, 24h>0+1, 7d>0+1, both>5%+2] = 6/10
-Catalyst: Three US spot HYPE ETFs (BHYP/THYP + one more) with $300M+ combined inflows; $111M inflows on June 30 alone during broader market weakness; SpaceX perpetuals ($1.3B launch-day volume) cemented Hyperliquid as the 24/7 price discovery venue for non-exchange assets; Arthur Hayes $150 target circulating; ATH $76.85 hit June 16
-Risk: July 6 unlock — 9.92M HYPE (~$688M at current price) to Core Contributors in 3 days; below recent ATH by ~10%; ETF absorption rate is the key uncertainty
-Vs recent picks: first time picked
+*Token: PEPE*  [HIGH]  signal 9/10
+Price: $0.00000272 (+7.2% 24h / +12.9% 7d) | mcap $1.1B | vol $257M (vol/mcap 0.225)
+Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2] = 9/10
+Catalyst: Canary Capital spot PEPE ETF S-1 in SEC review (filed Apr 2026) + LILPEPE TGE from PEPE's original cofounder expected Jul 5–18 — stacks institutional visibility with direct ecosystem event
+Risk: ETF approval 12+ months out; LILPEPE TGE completion could trigger sell-the-news on PEPE; hot CPI on Jul 14 would hit memecoins first
 
-sources: cg=ok, dex=fail, poly=ok
+sources: cg=ok, dex=fail, poly=ok (no qualifying market — best edge <5pp)
 not financial advice — pattern-matching only
