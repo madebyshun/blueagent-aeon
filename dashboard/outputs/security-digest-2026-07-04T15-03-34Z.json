@@ -1,0 +1,341 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest",
+        "description": "2026-07-04"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-verdict",
+        "sep-1",
+        "heading-patch",
+        "sep-2",
+        "stack-cves"
+      ]
+    },
+    "text-verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: nothing urgent today. 4 to schedule. Sources: KEV, GH Advisory, EPSS",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-patch": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h3"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-cves": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "cve-1",
+        "cve-2",
+        "cve-3",
+        "cve-4"
+      ]
+    },
+    "cve-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-1-link",
+        "cve-1-meta",
+        "cve-1-desc",
+        "cve-1-remediate"
+      ]
+    },
+    "cve-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-52735",
+        "href": "https://github.com/advisories/GHSA-gf9r-m956-97qx",
+        "source": "zebrad/zebra-script (crates.io)"
+      }
+    },
+    "cve-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-1-cvss",
+        "cve-1-epss",
+        "cve-1-poc"
+      ]
+    },
+    "cve-1-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.3",
+        "variant": "destructive"
+      }
+    },
+    "cve-1-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.00",
+        "variant": "default"
+      }
+    },
+    "cve-1-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no public PoC",
+        "variant": "outline"
+      }
+    },
+    "cve-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Consensus divergence via P2SH sigop undercount in Rust opcode parser — malicious tx can fork a zebrad node off consensus. Three companion Zebra issues (mempool misbehavior, block suppression, address-book abort) fixed in same 4.5.0/7.0.0 release.",
+        "variant": "body"
+      }
+    },
+    "cve-1-remediate": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade zebra-script to ≥7.0.0 and zebrad to ≥4.5.0.",
+        "variant": "caption"
+      }
+    },
+    "cve-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-2-link",
+        "cve-2-meta",
+        "cve-2-desc",
+        "cve-2-remediate"
+      ]
+    },
+    "cve-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-w4v6-g3wm-w36c",
+        "href": "https://github.com/advisories/GHSA-w4v6-g3wm-w36c",
+        "source": "openclaw (npm)"
+      }
+    },
+    "cve-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-2-cvss",
+        "cve-2-epss",
+        "cve-2-poc"
+      ]
+    },
+    "cve-2-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.3",
+        "variant": "destructive"
+      }
+    },
+    "cve-2-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS N/A",
+        "variant": "default"
+      }
+    },
+    "cve-2-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no public PoC",
+        "variant": "outline"
+      }
+    },
+    "cve-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "QQBot admin commands bypass DM-only restriction and allowFrom allowlist — any server member can execute admin-level commands.",
+        "variant": "body"
+      }
+    },
+    "cve-2-remediate": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade openclaw to ≥2026.4.29.",
+        "variant": "caption"
+      }
+    },
+    "cve-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-3-link",
+        "cve-3-meta",
+        "cve-3-desc",
+        "cve-3-remediate"
+      ]
+    },
+    "cve-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-52792",
+        "href": "https://github.com/advisories/GHSA-mm6c-5j6x-hq8m",
+        "source": "algernon (go)"
+      }
+    },
+    "cve-3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-3-cvss",
+        "cve-3-epss",
+        "cve-3-poc"
+      ]
+    },
+    "cve-3-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.7",
+        "variant": "destructive"
+      }
+    },
+    "cve-3-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.00",
+        "variant": "default"
+      }
+    },
+    "cve-3-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no public PoC",
+        "variant": "outline"
+      }
+    },
+    "cve-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "NTFS filename tricks on Windows expose Lua/Tengo server-side script source without auth.",
+        "variant": "body"
+      }
+    },
+    "cve-3-remediate": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade github.com/xyproto/algernon to ≥1.17.9.",
+        "variant": "caption"
+      }
+    },
+    "cve-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-4-link",
+        "cve-4-meta",
+        "cve-4-desc",
+        "cve-4-remediate"
+      ]
+    },
+    "cve-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-322x-v876-g883",
+        "href": "https://github.com/advisories/GHSA-322x-v876-g883",
+        "source": "@asymmetric-effort/nogginlessdom (npm)"
+      }
+    },
+    "cve-4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-4-cvss",
+        "cve-4-epss",
+        "cve-4-poc"
+      ]
+    },
+    "cve-4-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.7",
+        "variant": "destructive"
+      }
+    },
+    "cve-4-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS N/A",
+        "variant": "default"
+      }
+    },
+    "cve-4-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no public PoC",
+        "variant": "outline"
+      }
+    },
+    "cve-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal in matchFileSnapshot allows arbitrary file write outside test working dir.",
+        "variant": "body"
+      }
+    },
+    "cve-4-remediate": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade @asymmetric-effort/nogginlessdom to ≥0.0.22.",
+        "variant": "caption"
+      }
+    }
+  }
+}

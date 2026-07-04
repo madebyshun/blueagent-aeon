@@ -1,49 +1,19 @@
-*Security Digest — 2026-07-03*
-Verdict: 2 actively exploited (CISA KEV) + 1 critical npm PoC · 5 to patch this week · 3 to monitor _Sources: KEV, GH Advisory, EPSS_
-
-*PATCH TODAY*
-- [CVE-2026-45659](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Microsoft SharePoint Server · KEV 2026-07-01 · EPSS 0.032 · CVSS N/A
-  Deserialization RCE via authenticated network request. Due date: 2026-07-04.
-  → Apply Microsoft SharePoint patch immediately.
-
-- [CVE-2026-48558](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — SimpleHelp · KEV 2026-06-29 · EPSS 0.012 · CVSS N/A
-  OIDC auth bypass — unauthenticated attackers forge tokens for full sessions. Due: 2026-07-02 (overdue).
-  → Upgrade SimpleHelp per vendor advisory.
-
-- [CVE-2026-49352](https://github.com/advisories/GHSA-jphh-m39h-6gwx) — npm/9router · CVSS 9.8 · EPSS 0 · public PoC in advisory
-  Hardcoded fallback JWT secret ("9router-default-secret-change-me") — forge auth tokens if JWT_SECRET unset.
-  → upgrade 9router to ≥0.4.45 and set JWT_SECRET env var.
+*Security Digest — 2026-07-04*
+Verdict: nothing urgent today. 4 to schedule. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH THIS WEEK*
-- [CVE-2026-50027](https://github.com/advisories/GHSA-84hp-mqvj-3p8h) — pip/mcp-memory-service · CVSS 9.8 · EPSS 0
-  Unauthenticated read/write/delete on all document API endpoints.
-  → upgrade mcp-memory-service to ≥10.67.1.
+- [CVE-2026-52735](https://github.com/advisories/GHSA-gf9r-m956-97qx) — zebrad/zebra-script (crates.io) · CVSS 9.3 · EPSS 0.00 · no public PoC
+  Consensus divergence via P2SH sigop undercount in Rust opcode parser — malicious tx can fork a zebrad node off consensus. Three companion Zebra issues (mempool misbehavior, block suppression, address-book abort) fixed in same 4.5.0/7.0.0 release.
+  → upgrade zebra-script to ≥7.0.0 and zebrad to ≥4.5.0.
 
-- [CVE-2026-52830](https://github.com/advisories/GHSA-rxw2-pc8j-vxwm) — pip/fast-mcp-telegram · CVSS 9.4 · EPSS 0.004
-  Bearer token path traversal bypasses Telegram session file protection.
-  → upgrade fast-mcp-telegram to ≥0.19.1.
+- [GHSA-w4v6-g3wm-w36c](https://github.com/advisories/GHSA-w4v6-g3wm-w36c) — openclaw (npm) · CVSS 9.3 · EPSS N/A · no public PoC
+  QQBot admin commands bypass DM-only restriction and allowFrom allowlist — any server member can execute admin-level commands.
+  → upgrade openclaw to ≥2026.4.29.
 
-- [CVE-2026-49255](https://github.com/advisories/GHSA-v5ff-xmfp-p245) — npm/electerm · CVSS 8.8 · EPSS 0
-  Command injection in rmrf/mv/cp file system ops.
-  → upgrade electerm to ≥3.11.11.
+- [CVE-2026-52792](https://github.com/advisories/GHSA-mm6c-5j6x-hq8m) — algernon (go) · CVSS 8.7 · EPSS 0.00 · no public PoC
+  NTFS filename tricks on Windows expose Lua/Tengo server-side script source without auth.
+  → upgrade github.com/xyproto/algernon to ≥1.17.9.
 
-- [GHSA-g6g7-pvmx-m74p](https://github.com/advisories/GHSA-g6g7-pvmx-m74p) — npm/9router · critical · CVSS N/A · EPSS 0
-  Missing auth + OS command injection (companion to CVE-2026-49352).
-  → upgrade 9router to ≥0.4.45.
-
-- [CVE-2026-49360](https://github.com/advisories/GHSA-rh62-j648-g5qc) — pip/recce · high · CVSS N/A · EPSS 0
-  Unauthenticated SQL exec via query API → DuckDB file read/write.
-  → upgrade recce to ≥1.50.0 or restrict to trusted networks.
-
-*MONITOR*
-- [CVE-2026-49353](https://github.com/advisories/GHSA-6g2f-w7g3-77vf) — npm/9router · CVSS 7.5 · EPSS 0 · no patch
-  Incomplete fix — Host header spoofing bypasses local-only access gate.
-  → watch for patch; enforce strict Host validation at reverse proxy.
-
-- [GHSA-vv65-f55v-xm6g](https://github.com/advisories/GHSA-vv65-f55v-xm6g) — npm/@grackle-ai · high · CVSS N/A · no patch
-  Git worktree arg injection → RCE via unsanitized input on provisioned hosts.
-  → avoid exposing worktree API to untrusted input; watch for fix.
-
-- [GHSA-f9ff-5x35-7gfw](https://github.com/advisories/GHSA-f9ff-5x35-7gfw) — npm/@grackle-ai/mcp · high · CVSS N/A · no patch
-  Fail-open auth — scoped agents bypass task/session boundaries in MCP tool layer.
-  → restrict to trusted environments; watch for patch.
+- [GHSA-322x-v876-g883](https://github.com/advisories/GHSA-322x-v876-g883) — @asymmetric-effort/nogginlessdom (npm) · CVSS 8.7 · EPSS N/A · no public PoC
+  Path traversal in matchFileSnapshot allows arbitrary file write outside test working dir.
+  → upgrade @asymmetric-effort/nogginlessdom to ≥0.0.22.
