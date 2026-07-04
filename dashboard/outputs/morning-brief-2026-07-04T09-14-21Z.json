@@ -1,0 +1,291 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — Jul 4, 2026"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus",
+        "sep_1",
+        "heading_since",
+        "stack_since",
+        "sep_2",
+        "heading_watch",
+        "stack_watch",
+        "sep_3",
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE — $630M unlock tomorrow Jul 6; pre-unlock window closes today",
+        "variant": "lead"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "GRASS — Jul 7 clarity call 3 days out; entry/exit window compressing daily",
+        "variant": "lead"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act — Senate floor vote expected this week; 60-vote cloture math uncertain",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_1",
+        "since_2",
+        "since_3",
+        "since_4"
+      ]
+    },
+    "since_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_1",
+        "text_since_1"
+      ]
+    },
+    "badge_moved_1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_since_1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE: 9.92M token unlock confirmed Jul 6 (~$630M); avg +4.17% post-unlock across 6 prior 2026 events; at ~$65, 15% below ATH $76.85",
+        "variant": "body"
+      }
+    },
+    "since_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_2",
+        "text_since_2"
+      ]
+    },
+    "badge_moved_2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_since_2": {
+      "type": "Text",
+      "props": {
+        "text": "GRASS: Jul 7 confirmed as buy-rumor/sell-news setup — 20-40% rally on favorable timeline, sharp sell-off on delay; 170M tokens (17% supply) at stake",
+        "variant": "body"
+      }
+    },
+    "since_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stuck",
+        "text_since_3"
+      ]
+    },
+    "badge_stuck": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "text_since_3": {
+      "type": "Text",
+      "props": {
+        "text": "MORPHO: -6.0% Jul 3 reversal unresolved; exit assessment still pending",
+        "variant": "body"
+      }
+    },
+    "since_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_3",
+        "text_since_4"
+      ]
+    },
+    "badge_moved_3": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_since_4": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest: recovered after Jul 2 failure; back to healthy",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act: Lummis committed Senate floor this week; White House set July 4 signing target but 60-vote cloture still short — pass = structural crypto bull catalyst",
+        "variant": "body"
+      }
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "Base MCP launched: AI agents (Claude/ChatGPT) can transfer funds + swap tokens on Base — AI Agent Payments narrative compounds, direct $BLUEAGENT tailwind",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "run_1",
+        "run_2",
+        "run_3",
+        "run_4",
+        "run_5"
+      ]
+    },
+    "run_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 / 14:00 / 20:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "run_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "run_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "run_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "run_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "caption"
+      }
+    }
+  }
+}
