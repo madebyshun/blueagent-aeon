@@ -1,0 +1,377 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-07-04"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_top_pick",
+        "storylink_pageagent_top",
+        "stack_pageagent_top_meta",
+        "text_pageagent_top_desc",
+        "separator_1",
+        "heading_aiml",
+        "item_pageagent_aiml",
+        "separator_2",
+        "heading_devtools",
+        "item_skills",
+        "item_codex",
+        "separator_3",
+        "heading_web",
+        "item_immich",
+        "item_meetily",
+        "separator_4",
+        "text_footer"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h2"
+      }
+    },
+    "storylink_pageagent_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "alibaba/page-agent",
+        "href": "https://github.com/alibaba/page-agent",
+        "score": "★ 1,110 today (22.7k total)"
+      }
+    },
+    "stack_pageagent_top_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ts_top",
+        "badge_accel_top"
+      ]
+    },
+    "badge_ts_top": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "badge_accel_top": {
+      "type": "Badge",
+      "props": {
+        "text": "[ACCELERATING]",
+        "variant": "secondary"
+      }
+    },
+    "text_pageagent_top_desc": {
+      "type": "Text",
+      "props": {
+        "text": "In-browser AI agent that hit MCP support in v1.11.0 — highest stars today and the clearest step-change in browser automation."
+      }
+    },
+    "separator_1": {
+      "type": "Separator"
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "item_pageagent_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_pageagent_aiml",
+        "stack_pageagent_aiml_meta",
+        "text_pageagent_aiml_desc"
+      ]
+    },
+    "storylink_pageagent_aiml": {
+      "type": "StoryLink",
+      "props": {
+        "title": "alibaba/page-agent",
+        "href": "https://github.com/alibaba/page-agent",
+        "score": "★ 1,110 today (22.7k total)"
+      }
+    },
+    "stack_pageagent_aiml_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ts_aiml",
+        "badge_accel_aiml"
+      ]
+    },
+    "badge_ts_aiml": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "badge_accel_aiml": {
+      "type": "Badge",
+      "props": {
+        "text": "[ACCELERATING]",
+        "variant": "secondary"
+      }
+    },
+    "text_pageagent_aiml_desc": {
+      "type": "Text",
+      "props": {
+        "text": "v1.11.0 ships MCP support: point an AI agent at any web page without Playwright."
+      }
+    },
+    "separator_2": {
+      "type": "Separator"
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "item_skills": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_skills",
+        "stack_skills_meta",
+        "text_skills_desc"
+      ]
+    },
+    "storylink_skills": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mattpocock/skills",
+        "href": "https://github.com/mattpocock/skills",
+        "score": "★ 1,289 today (156k total)"
+      }
+    },
+    "stack_skills_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_shell",
+        "badge_accel_skills"
+      ]
+    },
+    "badge_shell": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell"
+      }
+    },
+    "badge_accel_skills": {
+      "type": "Badge",
+      "props": {
+        "text": "[ACCELERATING]",
+        "variant": "secondary"
+      }
+    },
+    "text_skills_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Matt Pocock's real .claude skill directory — treats skills as engineering artifacts, not prompt snippets."
+      }
+    },
+    "item_codex": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_codex",
+        "stack_codex_meta",
+        "text_codex_desc"
+      ]
+    },
+    "storylink_codex": {
+      "type": "StoryLink",
+      "props": {
+        "title": "openai/codex-plugin-cc",
+        "href": "https://github.com/openai/codex-plugin-cc",
+        "score": "★ 634 today (23.5k total)"
+      }
+    },
+    "stack_codex_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_js",
+        "badge_accel_codex"
+      ]
+    },
+    "badge_js": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript"
+      }
+    },
+    "badge_accel_codex": {
+      "type": "Badge",
+      "props": {
+        "text": "[ACCELERATING]",
+        "variant": "secondary"
+      }
+    },
+    "text_codex_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Routes Claude Code tasks to OpenAI Codex mid-session — cross-vendor AI delegation in one command."
+      }
+    },
+    "separator_3": {
+      "type": "Separator"
+    },
+    "heading_web": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "item_immich": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_immich",
+        "stack_immich_meta",
+        "text_immich_desc"
+      ]
+    },
+    "storylink_immich": {
+      "type": "StoryLink",
+      "props": {
+        "title": "immich-app/immich",
+        "href": "https://github.com/immich-app/immich",
+        "score": "★ 308 today (105.4k total)"
+      }
+    },
+    "stack_immich_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ts_immich",
+        "badge_return_immich"
+      ]
+    },
+    "badge_ts_immich": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "badge_return_immich": {
+      "type": "Badge",
+      "props": {
+        "text": "[RETURNING]",
+        "variant": "outline"
+      }
+    },
+    "text_immich_desc": {
+      "type": "Text",
+      "props": {
+        "text": "v3.0.0 landed Jul 2 — first major version of the 105k-star self-hosted Google Photos replacement."
+      }
+    },
+    "item_meetily": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_meetily",
+        "stack_meetily_meta",
+        "text_meetily_desc"
+      ]
+    },
+    "storylink_meetily": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Zackriya-Solutions/meetily",
+        "href": "https://github.com/Zackriya-Solutions/meetily",
+        "score": "★ 607 today (14.4k total)"
+      }
+    },
+    "stack_meetily_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_rust",
+        "badge_return_meetily"
+      ]
+    },
+    "badge_rust": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "badge_return_meetily": {
+      "type": "Badge",
+      "props": {
+        "text": "[RETURNING]",
+        "variant": "outline"
+      }
+    },
+    "text_meetily_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Fully on-device meeting transcription in Rust — nothing leaves the machine."
+      }
+    },
+    "separator_4": {
+      "type": "Separator"
+    },
+    "text_footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/18",
+        "variant": "caption"
+      }
+    }
+  }
+}

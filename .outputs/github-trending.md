@@ -1,25 +1,25 @@
-*GitHub Trending — 2026-07-03*
+*GitHub Trending — 2026-07-04*
 
-*Top pick* — [facebook/astryx](https://github.com/facebook/astryx)
-Meta's agent-ready design system hit a 48× daily spike on a Jul 3 push — signals UI frameworks are being redesigned from the ground up for AI agent consumption.
+*Top pick* — [alibaba/page-agent](https://github.com/alibaba/page-agent)
+In-browser AI agent that hit MCP support in v1.11.0 — highest stars today and the clearest step-change in browser automation.
 
 *AI/ML*
-• [safishamsi/graphify](https://github.com/safishamsi/graphify) — ★ 937 today (76.6k total) · Python · [ACCELERATING]
-Turns your codebase, schemas, and docs into a queryable knowledge graph — lets agents explore large repos without brute-force context dumps.
+• [alibaba/page-agent](https://github.com/alibaba/page-agent) — ★ 1,110 today (22.7k total) · TypeScript · [ACCELERATING]
+v1.11.0 ships MCP support: point an AI agent at any web page without Playwright.
 
 *Devtools*
-• [usestrix/strix](https://github.com/usestrix/strix) — ★ 2,137 today (33.5k total) · Python · [RETURNING]
-Autonomous vuln pipeline: discover, triage, and patch in one run — no manual CVE lookup; 21× spike on Jul 3 push.
+• [mattpocock/skills](https://github.com/mattpocock/skills) — ★ 1,289 today (156k total) · Shell · [ACCELERATING]
+Matt Pocock's real .claude skill directory — treats skills as engineering artifacts, not prompt snippets.
 
-• [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) — ★ 571 today (10.4k total) · Rust · [RETURNING]
-Runs multiple AI agents as one terminal stream — tmux-style multiplexer for agents; 5× spike on Jul 3 push.
+• [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) — ★ 634 today (23.5k total) · JavaScript · [ACCELERATING]
+Routes Claude Code tasks to OpenAI Codex mid-session — cross-vendor AI delegation in one command.
 
 *Web/Apps*
-• [facebook/astryx](https://github.com/facebook/astryx) — ★ 1,108 today (4k total) · TypeScript · [RETURNING]
-Exposes component intent as structured data — Meta's design system built for AI agents to consume UI specs natively.
+• [immich-app/immich](https://github.com/immich-app/immich) — ★ 308 today (105.4k total) · TypeScript · [RETURNING]
+v3.0.0 landed Jul 2 — first major version of the 105k-star self-hosted Google Photos replacement.
 
-• [rommapp/romm](https://github.com/rommapp/romm) — ★ 236 today (9.6k total) · Python · [RETURNING]
-Adds in-browser ROM playback on its Jul 3 release — 30× spike signals demand for homelab-native gaming without cloud.
+• [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) — ★ 607 today (14.4k total) · Rust · [RETURNING]
+Fully on-device meeting transcription in Rust — nothing leaves the machine.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/20
+sources: trending=ok · gh_api=ok · kept 5/18
