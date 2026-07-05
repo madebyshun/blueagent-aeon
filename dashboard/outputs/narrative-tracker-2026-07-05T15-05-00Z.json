@@ -1,0 +1,610 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-05"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-transitions",
+        "sep1",
+        "section-reflexivity",
+        "sep2",
+        "section-positions",
+        "sep3",
+        "section-map"
+      ]
+    },
+    "section-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-transitions",
+        "item-glamsterdam",
+        "item-clarity-demoted",
+        "item-memecoin"
+      ]
+    },
+    "h-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "item-glamsterdam": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-glamsterdam",
+        "text-glamsterdam",
+        "link-glamsterdam"
+      ]
+    },
+    "badge-new-glamsterdam": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-glamsterdam": {
+      "type": "Text",
+      "props": {
+        "text": "Ethereum Glamsterdam — final devnet live, public testnets (Holesky/Hoodi) imminent; ePBS + BALs expand blob throughput; mainnet Sep-Dec window. ETH $1,600 = pre-upgrade undervaluation. EIGEN +9.3% today corroborates."
+      },
+      "children": []
+    },
+    "link-glamsterdam": {
+      "type": "Link",
+      "props": {
+        "label": "thedefiant.io: Ethereum Glamsterdam",
+        "href": "https://thedefiant.io/news/blockchains/ethereum-glamsterdam-final-devnet-200m-gas-limit-target"
+      },
+      "children": []
+    },
+    "item-clarity-demoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-demoted",
+        "text-clarity-demoted",
+        "link-clarity-demoted"
+      ]
+    },
+    "badge-demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-clarity-demoted": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act Emerging/FRONT-RUN → WATCH — Jul 4 White House target passed without Senate floor vote (Senate in holiday recess). Bipartisan talks on ethics rules + law enforcement COLLAPSED. Aug recess = hard stop. Binary still live (~48% Polymarket) but urgency spent."
+      },
+      "children": []
+    },
+    "link-clarity-demoted": {
+      "type": "Link",
+      "props": {
+        "label": "Yahoo Finance: CLARITY Act",
+        "href": "https://finance.yahoo.com/markets/crypto/articles/clarity-act-fast-track-hinges-092548005.html"
+      },
+      "children": []
+    },
+    "item-memecoin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-dead",
+        "text-memecoin"
+      ]
+    },
+    "badge-dead": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text-memecoin": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoin Launchpads — ANSEM −17.1% [CAPITULATION] after +106% yesterday. Third consecutive trending entry = pump fatigue; KOL cycle exhausted."
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-reflexivity",
+        "alert-hype-perps",
+        "alert-clarity-fading"
+      ]
+    },
+    "h-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert-hype-perps": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "HYPE/Perp DEXs",
+        "message": "3.92% supply expansion vs $300M+ ETF inflow structural thesis. $630M unlock in ~24h. Team historically restakes vs dumps. Watch OI + buy/sell ratio today — this is the stress test for the entire perp DEX institutional narrative."
+      },
+      "children": []
+    },
+    "alert-clarity-fading": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "CLARITY Act (FADING BINARY)",
+        "message": "Jul 4 missed. If Polymarket slips below 40%, expect rotation away from regulatory-clarity plays. Governance tokens + CEX tokens most exposed."
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-positions",
+        "pos-glamsterdam",
+        "pos-ai-payments",
+        "pos-base",
+        "pos-stablecoins",
+        "pos-hype",
+        "pos-grass",
+        "pos-clarity-watch",
+        "pos-defi"
+      ]
+    },
+    "h-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "pos-glamsterdam": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-glamsterdam",
+        "text-glam-detail"
+      ]
+    },
+    "stat-glamsterdam": {
+      "type": "Stat",
+      "props": {
+        "label": "FRONT-RUN: Ethereum Glamsterdam",
+        "value": "2",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-glam-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Bull — final devnet → public testnets → H2 mainnet; ETH $1,600 pre-cycle; EIGEN +9.3% = leading signal; bear: months to mainnet, no near-term on-chain impact",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-ai-payments": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-ai-payments",
+        "text-ai-detail"
+      ]
+    },
+    "stat-ai-payments": {
+      "type": "Stat",
+      "props": {
+        "label": "RIDE: AI Agent Payments",
+        "value": "5",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-ai-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Bull — Base MCP + WEEX Agent Skills standard; a16z confirms infra-over-speculation as 2026 consensus; EU AI Act Aug 2 = 28d counterpressure",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-base": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-base",
+        "text-base-detail"
+      ]
+    },
+    "stat-base": {
+      "type": "Stat",
+      "props": {
+        "label": "RIDE: Base Ecosystem",
+        "value": "4",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-base-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Bull — Base MCP compounding; $BLUEAGENT direct beneficiary",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-stablecoins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-stablecoins",
+        "text-stables-detail"
+      ]
+    },
+    "stat-stablecoins": {
+      "type": "Stat",
+      "props": {
+        "label": "RIDE: Stablecoins/Payment Rails",
+        "value": "4",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "text-stables-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Bull — $311B market; Circle MiCA moat hardening",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-hype",
+        "text-hype-detail"
+      ]
+    },
+    "stat-hype": {
+      "type": "Stat",
+      "props": {
+        "label": "WATCH: HYPE/Perp DEXs",
+        "value": "3",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "text-hype-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Mixed — unlock in ~24h; reassess Jul 7 post-unlock",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-grass": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-grass",
+        "text-grass-detail"
+      ]
+    },
+    "stat-grass": {
+      "type": "Stat",
+      "props": {
+        "label": "WATCH: GRASS/AI×DePIN",
+        "value": "2",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "text-grass-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Mixed — Jul 7 clarity call in 2 days; positioning window compressing",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-clarity-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-clarity-w",
+        "text-clarity-w-detail"
+      ]
+    },
+    "stat-clarity-w": {
+      "type": "Stat",
+      "props": {
+        "label": "WATCH: CLARITY Act",
+        "value": "3",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-clarity-w-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Mixed — binary alive ~48% Polymarket; monitor Senate return",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-defi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-defi",
+        "text-defi-detail"
+      ]
+    },
+    "stat-defi": {
+      "type": "Stat",
+      "props": {
+        "label": "FADE: DeFi Sector Rotation",
+        "value": "2",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-defi-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Bear — TVL −37% YTD; MORPHO exception not trend revival",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-map",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading",
+        "map-dead"
+      ]
+    },
+    "h-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-emerging",
+        "text-emerging"
+      ]
+    },
+    "h-emerging": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-emerging": {
+      "type": "Text",
+      "props": {
+        "text": "Ethereum Glamsterdam (NEW), KAS/L1 Programmability, AI Agent Security"
+      },
+      "children": []
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-rising",
+        "text-rising"
+      ]
+    },
+    "h-rising": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-rising": {
+      "type": "Text",
+      "props": {
+        "text": "Base Ecosystem, MiCA Enforcement, MORPHO/DeFi Institutional, HYPE/Perp DEXs, GRASS/DePIN, Stablecoins, Attention Markets/InfoFi, CLARITY Act (stalling)"
+      },
+      "children": []
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-peak",
+        "text-peak"
+      ]
+    },
+    "h-peak": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-peak": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments, AI Crypto Infrastructure, Prediction Markets (exit Jul 19 firm), RWA Tokenization"
+      },
+      "children": []
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-fading",
+        "text-fading"
+      ]
+    },
+    "h-fading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-fading": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Institutional Distribution, DeFi Sector Rotation, Privacy/ZK"
+      },
+      "children": []
+    },
+    "map-dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-dead",
+        "text-dead"
+      ]
+    },
+    "h-dead": {
+      "type": "Heading",
+      "props": {
+        "text": "Dead",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-dead": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoin Launchpads (NEW), Options DEX/Hypercall"
+      },
+      "children": []
+    }
+  }
+}
