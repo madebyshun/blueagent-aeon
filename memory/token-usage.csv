@@ -158,3 +158,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-04,token-pick,claude-sonnet-4-6,7009,41691,2391963,134151
 2026-07-04,narrative-tracker,claude-sonnet-4-6,1933,14135,570423,48683
 2026-07-04,security-digest,claude-sonnet-4-6,196,17580,637017,51220
+2026-07-05,defi-monitor,claude-sonnet-4-6,7,1362,176823,14085
