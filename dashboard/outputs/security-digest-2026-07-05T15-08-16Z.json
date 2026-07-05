@@ -1,0 +1,117 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-07-05"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "verdict",
+        "separator",
+        "monitor_heading",
+        "cve_container"
+      ]
+    },
+    "verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: nothing urgent today. 0 to schedule, 1 to monitor. Sources: KEV, GH Advisory, EPSS"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "cve_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_link",
+        "cve_metadata",
+        "cve_description",
+        "cve_fix"
+      ]
+    },
+    "cve_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-46599",
+        "href": "https://github.com/advisories/GHSA-q675-qj96-32m9"
+      }
+    },
+    "cve_metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "package_badge",
+        "cvss_badge",
+        "epss_badge",
+        "fix_badge"
+      ]
+    },
+    "package_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "golang.org/x/image (Go)"
+      }
+    },
+    "cvss_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "destructive"
+      }
+    },
+    "epss_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.35%"
+      }
+    },
+    "fix_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "fix: 0.41.0"
+      }
+    },
+    "cve_description": {
+      "type": "Text",
+      "props": {
+        "text": "Excessive resource consumption via PackBits decompression in tiff package — DoS if parsing untrusted TIFF files."
+      }
+    },
+    "cve_fix": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade golang.org/x/image to ≥0.41.0; go get golang.org/x/image@v0.41.0."
+      }
+    }
+  }
+}
