@@ -1,0 +1,404 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-07-06"
+      },
+      "children": [
+        "verdict_text",
+        "sep_1",
+        "heading_patch_today",
+        "cve_48558_stack",
+        "sep_2",
+        "heading_patch_week",
+        "cve_52830_stack",
+        "cve_41052_stack",
+        "cve_53943_stack",
+        "cve_49352_stack",
+        "cve_50027_stack",
+        "sep_3",
+        "heading_monitor",
+        "cve_44935_stack",
+        "cve_46292_stack"
+      ]
+    },
+    "verdict_text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 1 actively exploited, 5 to schedule, 2 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_patch_today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve_48558_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_48558",
+        "badge_48558",
+        "text_48558_severity",
+        "text_48558_desc",
+        "text_48558_action"
+      ]
+    },
+    "link_48558": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48558 — SimpleHelp",
+        "href": "https://www.civa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "KEV added 2026-06-29"
+      }
+    },
+    "badge_48558": {
+      "type": "Badge",
+      "props": {
+        "text": "Actively Exploited · Due Date Passed",
+        "variant": "destructive"
+      }
+    },
+    "text_48558_severity": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS 1.16% · CVSS N/A"
+      }
+    },
+    "text_48558_desc": {
+      "type": "Text",
+      "props": {
+        "text": "OIDC tokens accepted without signature check → unauthenticated technician session hijack. Actively exploited per CISA. Due date 2026-07-02 already passed."
+      }
+    },
+    "text_48558_action": {
+      "type": "Text",
+      "props": {
+        "text": "Apply vendor patch and rotate all technician credentials today.",
+        "variant": "lead"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_patch_week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "cve_52830_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_52830",
+        "text_52830_severity",
+        "text_52830_desc",
+        "text_52830_action"
+      ]
+    },
+    "link_52830": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-52830 — fast-mcp-telegram (pip)",
+        "href": "https://github.com/advisories/GHSA-rxw2-pc8j-vxwm"
+      }
+    },
+    "text_52830_severity": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.4 · EPSS 0.42%"
+      }
+    },
+    "text_52830_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Bearer token path traversal bypasses session protection in MCP Telegram transport."
+      }
+    },
+    "text_52830_action": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade fast-mcp-telegram to ≥0.19.1.",
+        "variant": "lead"
+      }
+    },
+    "cve_41052_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_41052",
+        "text_41052_severity",
+        "text_41052_desc",
+        "text_41052_action"
+      ]
+    },
+    "link_41052": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-41052 — rancher/rancher (Go)",
+        "href": "https://github.com/advisories/GHSA-vx8h-4prv-g744"
+      }
+    },
+    "text_41052_severity": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.4 · EPSS 0.32%"
+      }
+    },
+    "text_41052_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Project owner escalates to cluster host via PSA label modification."
+      }
+    },
+    "text_41052_action": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade rancher to ≥2.14.2.",
+        "variant": "lead"
+      }
+    },
+    "cve_53943_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_53943",
+        "text_53943_severity",
+        "text_53943_desc",
+        "text_53943_action"
+      ]
+    },
+    "link_53943": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-53943 — ghost (npm)",
+        "href": "https://github.com/advisories/GHSA-62q6-4hv4-vjrw"
+      }
+    },
+    "text_53943_severity": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.6 · EPSS 0.24%"
+      }
+    },
+    "text_53943_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cache-poisoning XSS via x-ghost-preview header in frontend renderer."
+      }
+    },
+    "text_53943_action": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade ghost to ≥6.37.0.",
+        "variant": "lead"
+      }
+    },
+    "cve_49352_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_49352",
+        "text_49352_severity",
+        "text_49352_desc",
+        "text_49352_action"
+      ]
+    },
+    "link_49352": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-49352 — 9router (npm)",
+        "href": "https://github.com/advisories/GHSA-jphh-m39h-6gwx"
+      }
+    },
+    "text_49352_severity": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.8 · EPSS N/A"
+      }
+    },
+    "text_49352_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Hardcoded JWT secret (auth bypass) + OS command injection via unprotected endpoint (GHSA-g6g7-pvmx-m74p, CVSS 9.2); both fixed in same release."
+      }
+    },
+    "text_49352_action": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade 9router to ≥0.4.45.",
+        "variant": "lead"
+      }
+    },
+    "cve_50027_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_50027",
+        "text_50027_severity",
+        "text_50027_desc",
+        "text_50027_action"
+      ]
+    },
+    "link_50027": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-50027 — mcp-memory-service (pip)",
+        "href": "https://github.com/advisories/GHSA-84hp-mqvj-3p8h"
+      }
+    },
+    "text_50027_severity": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.8 · EPSS N/A"
+      }
+    },
+    "text_50027_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Missing auth on document API endpoints — unauthenticated read/write of memory store."
+      }
+    },
+    "text_50027_action": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade mcp-memory-service to ≥10.67.1.",
+        "variant": "lead"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "cve_44935_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_44935",
+        "badge_44935",
+        "text_44935_severity",
+        "text_44935_desc",
+        "text_44935_action"
+      ]
+    },
+    "link_44935": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-44935 — rancher/fleet (Go)",
+        "href": "https://github.com/advisories/GHSA-xr65-5cpm-g36x"
+      }
+    },
+    "badge_44935": {
+      "type": "Badge",
+      "props": {
+        "text": "Critical",
+        "variant": "destructive"
+      }
+    },
+    "text_44935_severity": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS 0.57% · Fix: 0.15.2"
+      }
+    },
+    "text_44935_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-namespace secret disclosure via unvalidated valuesFrom references."
+      }
+    },
+    "text_44935_action": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade fleet to ≥0.15.2; schedule this sprint.",
+        "variant": "lead"
+      }
+    },
+    "cve_46292_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_46292",
+        "text_46292_severity",
+        "text_46292_desc",
+        "text_46292_action"
+      ]
+    },
+    "link_46292": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2022-46292 — openbabel (pip)",
+        "href": "https://github.com/advisories/GHSA-55f6-pf8r-c2f4"
+      }
+    },
+    "text_46292_severity": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 7.8 · EPSS 0.82% · Fix: 3.2.0"
+      }
+    },
+    "text_46292_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Out-of-bounds write in MOPAC translation vectors (4yr-old CVE, advisory published today)."
+      }
+    },
+    "text_46292_action": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade openbabel to ≥3.2.0 if in use.",
+        "variant": "lead"
+      }
+    }
+  }
+}
