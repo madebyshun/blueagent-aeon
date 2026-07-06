@@ -1,0 +1,315 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-06"
+      },
+      "children": [
+        "header-section",
+        "sep1",
+        "price-section",
+        "sep2",
+        "score-section",
+        "sep3",
+        "catalyst-section",
+        "sep4",
+        "risk-section",
+        "sep5",
+        "comparison-section",
+        "sep6",
+        "sources-section"
+      ]
+    },
+    "header-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token-heading",
+        "high-badge",
+        "signal-badge"
+      ]
+    },
+    "token-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "LIT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "high-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 10/10",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "price-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price-heading",
+        "price-grid"
+      ]
+    },
+    "price-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Price",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "price-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "price-stat",
+        "change-24h-stat",
+        "change-7d-stat",
+        "mcap-stat",
+        "volume-stat",
+        "ratio-stat"
+      ]
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$2.55"
+      },
+      "children": []
+    },
+    "change-24h-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+8.10%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "change-7d-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+48.32%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "mcap-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$637M"
+      },
+      "children": []
+    },
+    "volume-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$151M"
+      },
+      "children": []
+    },
+    "ratio-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/MCap Ratio",
+        "value": "0.238"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "score-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "score-heading",
+        "score-breakdown-text"
+      ]
+    },
+    "score-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "score-breakdown-text": {
+      "type": "Text",
+      "props": {
+        "text": "trending +2, vol/mcap ≥0.20 +3, both >5% +2, RS vs BTC/ETH +2, 24h >0 +1 = 10/10",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "catalyst-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "catalyst-heading",
+        "catalyst-text"
+      ]
+    },
+    "catalyst-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain went live with Lighter as its default perp futures engine (Jul 2) — millions of Robinhood Wallet users, gas-free for 90 days. 15.5M LIT burned (~6.3% of circulating supply) via new 70%-revenue buyback mandate.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "risk-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Only 25% of supply in circulation; 75% (team + investor tokens) begins unlocking Dec 2026 — FDV ~4× mcap is a structural overhang.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "comparison-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "comparison-heading",
+        "comparison-text"
+      ]
+    },
+    "comparison-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "vs Recent Picks",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "comparison-text": {
+      "type": "Text",
+      "props": {
+        "text": "first LIT pick (not in last 7 days)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sources-heading",
+        "sources-text",
+        "disclaimer-text"
+      ]
+    },
+    "sources-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources & Disclaimer",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "disclaimer-text": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
