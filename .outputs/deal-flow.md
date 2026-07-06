@@ -1,37 +1,37 @@
-*Deal Flow — 2026-06-29*
+*Deal Flow — 2026-07-06*
 
-**Read:** Two-pole capital formation week — $2.15B to AI inference (Baseten/Groq) plus the largest seed in AI history ($200M, Mirendil). The same top-tier VCs are on both ends simultaneously: the AI infrastructure race is being fought at "who can scale fastest" and "who can lock up foundational models first" at the same time.
+**Read:** Capital this week ran the full AI infrastructure stack from power to chips to agents, while crypto VC made its first direct bet on a profitable AI unicorn with no token — bridging AI and crypto at the VC layer before the founders.
 
-1. **Baseten** — AI inference platform; 1B+ calls/day across 87 clusters on 18 clouds
-   $1.5B Series F @ $13B post (UP >2× vs $5B Jan 2026) | Lead: Altimeter Capital, Conviction, Spark Capital
-   *Why it matters:* Altimeter and Spark confirm inference is AI's durable moat; 20× revenue growth at $13B proves it.
+1. **8090** — AI agent-coordinated enterprise software factory
+   $135M Series A @ n/d | Lead: Salesforce (+ Craft Ventures, WNDR)
+   *Why it matters:* Salesforce backing Chamath's agent software factory = incumbent hedging against its own disruption; enterprise dev goes agentic.
 
-2. **Mirendil** — Foundational AI R&D systems; pre-product
-   $200M Seed @ n/d | Lead: a16z, Kleiner Perkins (Nvidia co-invested)
-   *Why it matters:* Largest seed in AI history — a16z + Kleiner + Nvidia pre-buying foundational model optionality before product ships.
+2. **Venice AI** — private, surveillance-free AI model access (200+ models)
+   $65M Series A @ $1B post (n/d vs prior — first external raise) | Lead: Dragonfly (+ Coinbase Ventures)
+   *Why it matters:* First crypto-VC-led AI unicorn with no token — Dragonfly extends uncensorability into AI model access; Coinbase co-invest maps to Base.
 
-3. **Catena Labs** — Regulated financial infrastructure for AI agents; filed for US bank charter
-   $30M Series A @ n/d | Lead: a16z crypto, Acrew Capital
-   *Why it matters:* First US bank charter filing for AI agent rails — agentic payments crossing from x402 sandbox into regulated banking.
+3. **Together AI** — open-source AI model cloud (inference + training)
+   $800M Series C @ $8.3B post (n/d vs prior) | Lead: Aramco Ventures (+ NVIDIA, Vista Equity, General Catalyst)
+   *Why it matters:* Aramco's lead names AI sovereignty, not cost savings, as the enterprise driver — $1.15B ARR confirms it's live.
 
-4. **Groq** — AI inference cloud; LPX hardware; rebuilt after Nvidia's $20B IP licensing deal
-   $650M Growth @ n/d | Lead: Disruptive, Infinitum
-   *Why it matters:* Nvidia paid $20B for Groq's chip IP; Groq immediately raised $650M independently — first acqui-hire-that-wasn't producing a funded competitor.
+4. **Joulent** — contracted power infrastructure dedicated to AI data centers
+   $1.75B Strategic @ n/d | Lead: National Grid Ventures (35% equity, Jul 1)
+   *Why it matters:* National Grid's $1.75B names power generation, not GPUs, as the durable AI infrastructure scarcity — 20-year Microsoft anchor.
 
-5. **Stark** — AI-native defense and surveillance systems; Berlin
-   $569M @ n/d | Lead: Founders Fund, Sequoia Capital
-   *Why it matters:* Founders Fund + Sequoia co-leading European defense tech is top-tier VC's clearest bet on EU rearmament as structural.
+5. **Quantum Systems** — autonomous multi-domain drones + battlefield software (Germany)
+   $1.2B Series D @ $8B post (UP 2.3× vs $3.5B prior) | Lead: Blackstone + Airbus + Advent
+   *Why it matters:* Largest private European defense-tech raise ever; Blackstone co-leading confirms private equity formally pricing AI-autonomous defense.
 
-6. **Upscale AI** — AI infrastructure; compute stack for enterprise models
-   $190M Series A ext @ $2B post (n/d vs prior) | Lead: Premji Invest
-   *Why it matters:* Premji Invest at Series A reveals AI infra globalizing — India's largest tech institution co-owning compute infra alongside Silicon Valley VCs.
+6. **TwelveLabs** — enterprise video cognition AI (indexing, search, analysis)
+   $100M Series B @ n/d | Lead: NEA + Naver Ventures
+   *Why it matters:* NEA pricing video AI as infrastructure before the enterprise interface standard consolidates; Naver adds non-English scale vector.
 
-7. **General Intuition** — AI agents trained on action-labeled gameplay for real-world device control
-   $320M Growth @ $2.3B post (UP from $134M seed Oct 2025) | Lead: Khosla Ventures
-   *Why it matters:* Action-labeled gameplay — actual button presses, not video inference — first methodology producing controllable real-world AI agents.
+7. **AI2 Robotics** — wheeled humanoid robots with vision-language-action models (China)
+   $735M @ $2.8B post (UP ~2× vs $1.45B prior) | Lead: n/d (undisclosed)
+   *Why it matters:* First Chinese robotics round at US-peer stage valuation — embodied AI arms race no longer US-exclusive.
 
-8. **Runlayer** — Agent governance and control layer; enterprise compliance audit trail
-   $30M Series A @ n/d | Lead: Felicis
-   *Why it matters:* Felicis backing enterprise agent governance as compliance infra: auditable control is the layer enterprises need before autonomous agents deploy at scale.
+8. **Stathera** — silicon timing chips for AI data-center processor synchronization
+   $55M Series B @ n/d | Lead: Maverick Silicon (oversubscribed, Jun 30)
+   *Why it matters:* Maverick Silicon's oversubscribed round names synchronization latency, not raw compute, as the next data-center bottleneck.
 
-*Sources:* crunchbase=ok, techcrunch=ok, cryptorank=fail (auth wall), aift=fail (May data only) | candidates=20 → kept=8
+*Sources:* crunchbase=ok, techcrunch=ok, cryptorank=partial (auth wall), aift=fail (redirect/timeout), crypto-fundraising.info=fail (bot block) | candidates=26 → kept=8

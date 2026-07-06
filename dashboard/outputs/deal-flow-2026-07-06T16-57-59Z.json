@@ -1,0 +1,314 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Deal Flow — 2026-07-06"
+      },
+      "children": [
+        "intro",
+        "sep1",
+        "deals",
+        "sep2",
+        "sources"
+      ]
+    },
+    "intro": {
+      "type": "Text",
+      "props": {
+        "text": "Capital this week ran the full AI infrastructure stack from power to chips to agents, while crypto VC made its first direct bet on a profitable AI unicorn with no token — bridging AI and crypto at the VC layer before the founders.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "deals": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "deal_1",
+        "deal_2",
+        "deal_3",
+        "deal_4",
+        "deal_5",
+        "deal_6",
+        "deal_7",
+        "deal_8"
+      ]
+    },
+    "deal_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d1_heading",
+        "d1_funding",
+        "d1_why"
+      ]
+    },
+    "d1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "8090 — AI agent-coordinated enterprise software factory",
+        "level": "h3"
+      }
+    },
+    "d1_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$135M Series A @ n/d | Lead: Salesforce (+ Craft Ventures, WNDR)",
+        "variant": "caption"
+      }
+    },
+    "d1_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Salesforce backing Chamath's agent software factory = incumbent hedging against its own disruption; enterprise dev goes agentic."
+      }
+    },
+    "deal_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d2_heading",
+        "d2_funding",
+        "d2_why"
+      ]
+    },
+    "d2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Venice AI — private, surveillance-free AI model access (200+ models)",
+        "level": "h3"
+      }
+    },
+    "d2_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$65M Series A @ $1B post (n/d vs prior — first external raise) | Lead: Dragonfly (+ Coinbase Ventures)",
+        "variant": "caption"
+      }
+    },
+    "d2_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: First crypto-VC-led AI unicorn with no token — Dragonfly extends uncensorability into AI model access; Coinbase co-invest maps to Base."
+      }
+    },
+    "deal_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d3_heading",
+        "d3_funding",
+        "d3_why"
+      ]
+    },
+    "d3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Together AI — open-source AI model cloud (inference + training)",
+        "level": "h3"
+      }
+    },
+    "d3_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$800M Series C @ $8.3B post (n/d vs prior) | Lead: Aramco Ventures (+ NVIDIA, Vista Equity, General Catalyst)",
+        "variant": "caption"
+      }
+    },
+    "d3_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Aramco's lead names AI sovereignty, not cost savings, as the enterprise driver — $1.15B ARR confirms it's live."
+      }
+    },
+    "deal_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d4_heading",
+        "d4_funding",
+        "d4_why"
+      ]
+    },
+    "d4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Joulent — contracted power infrastructure dedicated to AI data centers",
+        "level": "h3"
+      }
+    },
+    "d4_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$1.75B Strategic @ n/d | Lead: National Grid Ventures (35% equity, Jul 1)",
+        "variant": "caption"
+      }
+    },
+    "d4_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: National Grid's $1.75B names power generation, not GPUs, as the durable AI infrastructure scarcity — 20-year Microsoft anchor."
+      }
+    },
+    "deal_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d5_heading",
+        "d5_funding",
+        "d5_why"
+      ]
+    },
+    "d5_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Quantum Systems — autonomous multi-domain drones + battlefield software (Germany)",
+        "level": "h3"
+      }
+    },
+    "d5_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$1.2B Series D @ $8B post (UP 2.3× vs $3.5B prior) | Lead: Blackstone + Airbus + Advent",
+        "variant": "caption"
+      }
+    },
+    "d5_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Largest private European defense-tech raise ever; Blackstone co-leading confirms private equity formally pricing AI-autonomous defense."
+      }
+    },
+    "deal_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d6_heading",
+        "d6_funding",
+        "d6_why"
+      ]
+    },
+    "d6_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TwelveLabs — enterprise video cognition AI (indexing, search, analysis)",
+        "level": "h3"
+      }
+    },
+    "d6_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$100M Series B @ n/d | Lead: NEA + Naver Ventures",
+        "variant": "caption"
+      }
+    },
+    "d6_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: NEA pricing video AI as infrastructure before the enterprise interface standard consolidates; Naver adds non-English scale vector."
+      }
+    },
+    "deal_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d7_heading",
+        "d7_funding",
+        "d7_why"
+      ]
+    },
+    "d7_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI2 Robotics — wheeled humanoid robots with vision-language-action models (China)",
+        "level": "h3"
+      }
+    },
+    "d7_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$735M @ $2.8B post (UP ~2× vs $1.45B prior) | Lead: n/d (undisclosed)",
+        "variant": "caption"
+      }
+    },
+    "d7_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: First Chinese robotics round at US-peer stage valuation — embodied AI arms race no longer US-exclusive."
+      }
+    },
+    "deal_8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "d8_heading",
+        "d8_funding",
+        "d8_why"
+      ]
+    },
+    "d8_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Stathera — silicon timing chips for AI data-center processor synchronization",
+        "level": "h3"
+      }
+    },
+    "d8_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$55M Series B @ n/d | Lead: Maverick Silicon (oversubscribed, Jun 30)",
+        "variant": "caption"
+      }
+    },
+    "d8_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Maverick Silicon's oversubscribed round names synchronization latency, not raw compute, as the next data-center bottleneck."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: crunchbase=ok, techcrunch=ok, cryptorank=partial (auth wall), aift=fail (redirect/timeout), crypto-fundraising.info=fail (bot block) | candidates=26 → kept=8",
+        "variant": "caption"
+      }
+    }
+  }
+}
