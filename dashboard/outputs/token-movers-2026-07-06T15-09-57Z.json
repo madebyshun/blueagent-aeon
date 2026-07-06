@@ -1,0 +1,420 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-07-06"
+      },
+      "children": [
+        "alert-risk",
+        "sep1",
+        "heading-winners",
+        "table-winners",
+        "sep2",
+        "heading-losers",
+        "table-losers",
+        "sep3",
+        "heading-trending",
+        "table-trending",
+        "sep4",
+        "heading-notable",
+        "stack-notable"
+      ]
+    },
+    "alert-risk": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Risk-off: ~80% of filtered top-100 alts red, BTC and ETH both −1.2%, median top-50 move ~−1.5%; only isolated pockets of strength in high-conviction alts."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table-winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "DEXE (DeXe)",
+            "$28.42",
+            "+15.9%",
+            "+30.4%",
+            "+1.7%",
+            "$35M",
+            "#57",
+            "BREAKOUT"
+          ],
+          [
+            "MON (Monad)",
+            "$0.02301",
+            "+12.2%",
+            "—",
+            "—",
+            "—",
+            "#140",
+            "—"
+          ],
+          [
+            "ANSEM (Black Bull)",
+            "$0.3498",
+            "+7.3%",
+            "—",
+            "—",
+            "—",
+            "#205",
+            "TRENDING+UP"
+          ],
+          [
+            "LAB",
+            "$17.17",
+            "+6.9%",
+            "+8.7%",
+            "+0.6%",
+            "$67M",
+            "#22",
+            "TRENDING+UP"
+          ],
+          [
+            "AAVE",
+            "$92.98",
+            "+4.5%",
+            "+0.7%",
+            "−0.8%",
+            "$209M",
+            "#56",
+            "TRENDING+UP"
+          ],
+          [
+            "BDX (Beldex)",
+            "$0.0920",
+            "+3.0%",
+            "+4.5%",
+            "—",
+            "$17M",
+            "#87",
+            "—"
+          ],
+          [
+            "NEAR",
+            "$2.00",
+            "+1.5%",
+            "+8.9%",
+            "+0.2%",
+            "$217M",
+            "#12",
+            "MAJOR"
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.001598",
+            "+1.1%",
+            "+15.0%",
+            "—",
+            "$82M",
+            "#81",
+            "—"
+          ],
+          [
+            "ATOM (Cosmos)",
+            "$1.57",
+            "+1.1%",
+            "+0.9%",
+            "—",
+            "$27M",
+            "#72",
+            "—"
+          ],
+          [
+            "ADI",
+            "$5.84",
+            "+0.8%",
+            "+14.9%",
+            "—",
+            "$5M",
+            "#84",
+            "—"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table-losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "M (MemeCore)",
+            "$1.13",
+            "−19.8%",
+            "+97.1%",
+            "−0.1%",
+            "$16M",
+            "#50",
+            "—"
+          ],
+          [
+            "BEAT (Audiera)",
+            "$2.46",
+            "−15.2%",
+            "−9.8%",
+            "−1.0%",
+            "$13M",
+            "#82",
+            "—"
+          ],
+          [
+            "GRASS",
+            "$0.4936",
+            "−7.7%",
+            "—",
+            "—",
+            "—",
+            "#133",
+            "TRENDING+DOWN"
+          ],
+          [
+            "BGB (Bitget)",
+            "$1.64",
+            "−4.4%",
+            "+1.1%",
+            "—",
+            "$10M",
+            "#44",
+            "—"
+          ],
+          [
+            "ADA (Cardano)",
+            "$0.1814",
+            "−4.1%",
+            "+25.9%",
+            "+0.6%",
+            "$459M",
+            "#16",
+            "MAJOR"
+          ],
+          [
+            "WLFI",
+            "$0.05774",
+            "−3.6%",
+            "−0.03%",
+            "—",
+            "$25M",
+            "#45",
+            "—"
+          ],
+          [
+            "ZEC (Zcash)",
+            "$446.47",
+            "−3.4%",
+            "+17.0%",
+            "—",
+            "$303M",
+            "#37",
+            "—"
+          ],
+          [
+            "NEXO",
+            "$0.7379",
+            "−3.3%",
+            "+2.5%",
+            "—",
+            "$3.4M",
+            "#83",
+            "—"
+          ],
+          [
+            "KAS (Kaspa)",
+            "$0.03007",
+            "−3.2%",
+            "+6.9%",
+            "—",
+            "$12M",
+            "#74",
+            "—"
+          ],
+          [
+            "ALGO",
+            "$0.0871",
+            "−3.2%",
+            "+0.6%",
+            "—",
+            "$21M",
+            "#85",
+            "—"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table-trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h Change",
+          "Status"
+        ],
+        "rows": [
+          [
+            "VANRY (Vanar Chain)",
+            "#828",
+            "$0.009355",
+            "+74.6%",
+            "PUMP-RISK"
+          ],
+          [
+            "MON (Monad)",
+            "#140",
+            "$0.02301",
+            "+12.2%",
+            "—"
+          ],
+          [
+            "ANSEM (Black Bull)",
+            "#205",
+            "$0.3498",
+            "+7.3%",
+            "TRENDING+UP"
+          ],
+          [
+            "LIT (Lighter)",
+            "#93",
+            "$2.55",
+            "+7.9%",
+            "TRENDING+UP"
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#113",
+            "$0.006621",
+            "−0.8%",
+            "—"
+          ],
+          [
+            "AAVE",
+            "#56",
+            "$93.14",
+            "+4.8%",
+            "TRENDING+UP"
+          ],
+          [
+            "HYPE",
+            "#10",
+            "$69.67",
+            "+0.7%",
+            "—"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "stack-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-vanry",
+        "alert-dexe",
+        "alert-ansem",
+        "alert-grass"
+      ]
+    },
+    "alert-vanry": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "VANRY [PUMP-RISK]",
+        "message": "rank #828 up 74.6% — outside top-250, extreme manipulation risk"
+      }
+    },
+    "alert-dexe": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "DEXE [BREAKOUT]",
+        "message": "+15.9% / 7d +30.4% on $35M vol — sustained across both timeframes, not a flash pump"
+      }
+    },
+    "alert-ansem": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "ANSEM [TRENDING+UP]",
+        "message": "reversal from yesterday −17.1% [CAPITULATION]; watch: dead-cat or genuine recovery"
+      }
+    },
+    "alert-grass": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "GRASS [TRENDING+DOWN]",
+        "message": "−7.7% and trending; Jul 7 clarity call <24h away — pre-event selling pressure"
+      }
+    }
+  }
+}
