@@ -1,0 +1,417 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief"
+      },
+      "children": [
+        "heading-date",
+        "focus-section",
+        "sep1",
+        "yesterday-section",
+        "sep2",
+        "watch-section",
+        "sep3",
+        "running-section"
+      ]
+    },
+    "heading-date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-07-06",
+        "variant": "caption"
+      }
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      }
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-desc"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "1. HYPE $630M unlock",
+        "variant": "lead"
+      }
+    },
+    "focus-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: live reflexivity test of ETF thesis, verdict today",
+        "variant": "body"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-desc"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "2. ADA RealFi Phase 1 testnet",
+        "variant": "lead"
+      }
+    },
+    "focus-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: yesterday's 8/10 pick catalyst fires, hold/exit decision",
+        "variant": "body"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-desc"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "3. GRASS Jul 7 clarity call",
+        "variant": "lead"
+      }
+    },
+    "focus-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 24h to position before information shift",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-heading",
+        "yesterday-item-1",
+        "yesterday-item-2",
+        "yesterday-item-3",
+        "yesterday-item-4"
+      ]
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h3"
+      }
+    },
+    "yesterday-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE: buyback fund holds 4.6× unlock size (45.65M HYPE vs 9.92M release) — structural support stronger than feared",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "ADA: +7.6% 24h ahead of testnet; RealFi thesis firing on schedule",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoin Launchpads: ANSEM −17.1% capitulation confirmed cycle DEAD",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-4": {
+      "type": "Alert",
+      "props": {
+        "message": "morning-brief: failed Jul 5, recovering today",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-item-1",
+        "watch-item-2"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h3"
+      }
+    },
+    "watch-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-1-title",
+        "watch-1-desc"
+      ]
+    },
+    "watch-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE buyback fund = 4.6× unlock",
+        "variant": "lead"
+      }
+    },
+    "watch-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "if team restakes + fund absorbs, supply shock inverted (focus #1)",
+        "variant": "body"
+      }
+    },
+    "watch-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-2-title",
+        "watch-2-desc"
+      ]
+    },
+    "watch-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "ADA already +17% week pre-testnet",
+        "variant": "lead"
+      }
+    },
+    "watch-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "clean launch = hold/add signal; miss = profit-take setup (focus #2)",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-tasks"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h3"
+      }
+    },
+    "running-tasks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "running-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-1-name",
+        "running-1-time"
+      ]
+    },
+    "running-1-name": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor",
+        "variant": "body"
+      }
+    },
+    "running-1-time": {
+      "type": "Badge",
+      "props": {
+        "text": "09:00 UTC",
+        "variant": "secondary"
+      }
+    },
+    "running-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-2-name",
+        "running-2-time"
+      ]
+    },
+    "running-2-name": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers",
+        "variant": "body"
+      }
+    },
+    "running-2-time": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "secondary"
+      }
+    },
+    "running-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-3-name",
+        "running-3-time"
+      ]
+    },
+    "running-3-name": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick",
+        "variant": "body"
+      }
+    },
+    "running-3-time": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "secondary"
+      }
+    },
+    "running-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-4-name",
+        "running-4-time"
+      ]
+    },
+    "running-4-name": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "body"
+      }
+    },
+    "running-4-time": {
+      "type": "Badge",
+      "props": {
+        "text": "13:30 UTC",
+        "variant": "secondary"
+      }
+    },
+    "running-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-5-name",
+        "running-5-time"
+      ]
+    },
+    "running-5-name": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat",
+        "variant": "body"
+      }
+    },
+    "running-5-time": {
+      "type": "Badge",
+      "props": {
+        "text": "08:00, 14:00, 20:00 UTC",
+        "variant": "secondary"
+      }
+    }
+  }
+}
