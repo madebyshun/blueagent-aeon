@@ -1,25 +1,31 @@
-*GitHub Trending — 2026-07-04*
+*GitHub Trending — 2026-07-06*
 
-*Top pick* — [alibaba/page-agent](https://github.com/alibaba/page-agent)
-In-browser AI agent that hit MCP support in v1.11.0 — highest stars today and the clearest step-change in browser automation.
+*Top pick* — [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
+Quality enforcement for AI agents is trending hard — because every developer is drowning in generic output and this one actually gates it before it ships.
 
 *AI/ML*
-• [alibaba/page-agent](https://github.com/alibaba/page-agent) — ★ 1,110 today (22.7k total) · TypeScript · [ACCELERATING]
-v1.11.0 ships MCP support: point an AI agent at any web page without Playwright.
+• [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — ★ 1,453 today (58.3k total) · JS · [ACCELERATING]
+Enforces concrete stylistic quality gates on AI agent outputs — kills generic boilerplate before it ships.
+
+• [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — ★ 1,114 today (70.3k total) · Shell · [ACCELERATING]
+Structured skill library by Addy Osmani — production patterns for Claude Code agents, not another prompt dump.
+
+• [ruvnet/RuView](https://github.com/ruvnet/RuView) — ★ 471 today (77k total) · Rust · [ACCELERATING]
+Converts ambient WiFi signals into room-level presence maps — spatial awareness with no cameras or specialized sensors.
 
 *Devtools*
-• [mattpocock/skills](https://github.com/mattpocock/skills) — ★ 1,289 today (156k total) · Shell · [ACCELERATING]
-Matt Pocock's real .claude skill directory — treats skills as engineering artifacts, not prompt snippets.
+• [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) — ★ 783 today (12.5k total) · Rust · [ACCELERATING]
+Rust terminal multiplexer built for AI agents — routes multiple agent sessions through one clean interface.
 
-• [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) — ★ 634 today (23.5k total) · JavaScript · [ACCELERATING]
-Routes Claude Code tasks to OpenAI Codex mid-session — cross-vendor AI delegation in one command.
+• [steipete/CodexBar](https://github.com/steipete/CodexBar) — ★ 598 today (16.6k total) · Swift · [ACCELERATING]
+Native macOS menu bar monitor for Claude Code and Codex — shows live token spend and session cost at a glance.
 
-*Web/Apps*
-• [immich-app/immich](https://github.com/immich-app/immich) — ★ 308 today (105.4k total) · TypeScript · [RETURNING]
-v3.0.0 landed Jul 2 — first major version of the 105k-star self-hosted Google Photos replacement.
+*Infra*
+• [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) — ★ 834 today (145.6k total) · TypeScript · [RETURNING]
+Pushed fresh today — the most-deployed web-scraping API still pulling new stars after two years at scale.
 
-• [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) — ★ 607 today (14.4k total) · Rust · [RETURNING]
-Fully on-device meeting transcription in Rust — nothing leaves the machine.
+• [alibaba/zvec](https://github.com/alibaba/zvec) — ★ 355 today (13.2k total) · C++ · [ACCELERATING]
+Alibaba's in-process vector store — embed it directly in your app, no sidecar, sub-millisecond lookups.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/18
+sources: trending=ok · gh_api=ok · kept 7/16

@@ -1,0 +1,564 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-06"
+      },
+      "children": [
+        "top-pick-section",
+        "sep1",
+        "ai-ml-section",
+        "sep2",
+        "devtools-section",
+        "sep3",
+        "infra-section",
+        "sep4",
+        "footer"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-label",
+        "top-pick-repo",
+        "top-pick-desc"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "top-pick-repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Leonxlnx/taste-skill",
+        "href": "https://github.com/Leonxlnx/taste-skill"
+      }
+    },
+    "top-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Quality enforcement for AI agents is trending hard — because every developer is drowning in generic output and this one actually gates it before it ships.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai-ml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-heading",
+        "ai-ml-item-1",
+        "ai-ml-item-2",
+        "ai-ml-item-3"
+      ]
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "ai-ml-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-1-link",
+        "ai-ml-1-meta",
+        "ai-ml-1-desc"
+      ]
+    },
+    "ai-ml-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Leonxlnx/taste-skill",
+        "href": "https://github.com/Leonxlnx/taste-skill"
+      }
+    },
+    "ai-ml-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-1-stars",
+        "ai-ml-1-lang",
+        "ai-ml-1-badge"
+      ]
+    },
+    "ai-ml-1-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "1,453",
+        "delta": "58.3k total",
+        "trend": "up"
+      }
+    },
+    "ai-ml-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JS",
+        "variant": "secondary"
+      }
+    },
+    "ai-ml-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "ai-ml-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Enforces concrete stylistic quality gates on AI agent outputs — kills generic boilerplate before it ships.",
+        "variant": "body"
+      }
+    },
+    "ai-ml-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-2-link",
+        "ai-ml-2-meta",
+        "ai-ml-2-desc"
+      ]
+    },
+    "ai-ml-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "addyosmani/agent-skills",
+        "href": "https://github.com/addyosmani/agent-skills"
+      }
+    },
+    "ai-ml-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-2-stars",
+        "ai-ml-2-lang",
+        "ai-ml-2-badge"
+      ]
+    },
+    "ai-ml-2-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "1,114",
+        "delta": "70.3k total",
+        "trend": "up"
+      }
+    },
+    "ai-ml-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell",
+        "variant": "secondary"
+      }
+    },
+    "ai-ml-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "ai-ml-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Structured skill library by Addy Osmani — production patterns for Claude Code agents, not another prompt dump.",
+        "variant": "body"
+      }
+    },
+    "ai-ml-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-3-link",
+        "ai-ml-3-meta",
+        "ai-ml-3-desc"
+      ]
+    },
+    "ai-ml-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ruvnet/RuView",
+        "href": "https://github.com/ruvnet/RuView"
+      }
+    },
+    "ai-ml-3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-3-stars",
+        "ai-ml-3-lang",
+        "ai-ml-3-badge"
+      ]
+    },
+    "ai-ml-3-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "471",
+        "delta": "77k total",
+        "trend": "up"
+      }
+    },
+    "ai-ml-3-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      }
+    },
+    "ai-ml-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "ai-ml-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Converts ambient WiFi signals into room-level presence maps — spatial awareness with no cameras or specialized sensors.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-item-1",
+        "devtools-item-2"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-link",
+        "devtools-1-meta",
+        "devtools-1-desc"
+      ]
+    },
+    "devtools-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ogulcancelik/herdr",
+        "href": "https://github.com/ogulcancelik/herdr"
+      }
+    },
+    "devtools-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-stars",
+        "devtools-1-lang",
+        "devtools-1-badge"
+      ]
+    },
+    "devtools-1-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "783",
+        "delta": "12.5k total",
+        "trend": "up"
+      }
+    },
+    "devtools-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      }
+    },
+    "devtools-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "devtools-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rust terminal multiplexer built for AI agents — routes multiple agent sessions through one clean interface.",
+        "variant": "body"
+      }
+    },
+    "devtools-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-2-link",
+        "devtools-2-meta",
+        "devtools-2-desc"
+      ]
+    },
+    "devtools-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "steipete/CodexBar",
+        "href": "https://github.com/steipete/CodexBar"
+      }
+    },
+    "devtools-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-2-stars",
+        "devtools-2-lang",
+        "devtools-2-badge"
+      ]
+    },
+    "devtools-2-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "598",
+        "delta": "16.6k total",
+        "trend": "up"
+      }
+    },
+    "devtools-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Swift",
+        "variant": "secondary"
+      }
+    },
+    "devtools-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "devtools-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Native macOS menu bar monitor for Claude Code and Codex — shows live token spend and session cost at a glance.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "infra-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra-heading",
+        "infra-item-1",
+        "infra-item-2"
+      ]
+    },
+    "infra-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infra-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra-1-link",
+        "infra-1-meta",
+        "infra-1-desc"
+      ]
+    },
+    "infra-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "firecrawl/firecrawl",
+        "href": "https://github.com/firecrawl/firecrawl"
+      }
+    },
+    "infra-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra-1-stars",
+        "infra-1-lang",
+        "infra-1-badge"
+      ]
+    },
+    "infra-1-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "834",
+        "delta": "145.6k total"
+      }
+    },
+    "infra-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "infra-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "infra-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pushed fresh today — the most-deployed web-scraping API still pulling new stars after two years at scale.",
+        "variant": "body"
+      }
+    },
+    "infra-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra-2-link",
+        "infra-2-meta",
+        "infra-2-desc"
+      ]
+    },
+    "infra-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "alibaba/zvec",
+        "href": "https://github.com/alibaba/zvec"
+      }
+    },
+    "infra-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra-2-stars",
+        "infra-2-lang",
+        "infra-2-badge"
+      ]
+    },
+    "infra-2-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "355",
+        "delta": "13.2k total",
+        "trend": "up"
+      }
+    },
+    "infra-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C++",
+        "variant": "secondary"
+      }
+    },
+    "infra-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "infra-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Alibaba's in-process vector store — embed it directly in your app, no sidecar, sub-millisecond lookups.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/16",
+        "variant": "caption"
+      }
+    }
+  }
+}
