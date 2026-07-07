@@ -1,42 +1,40 @@
-*Token Movers — 2026-07-06*
+*Token Movers — 2026-07-07*
 
-_Risk-off: ~80% of filtered top-100 alts red, BTC and ETH both −1.2%, median top-50 move ~−1.5%; only isolated pockets of strength in high-conviction alts._
+_Recovery — BTC +2.0%, ETH +1.6% lead an alt bounce; ~60% of top-100 alts reversing yesterday's 80%-red session; LAB's 34% collapse is the dominant move._
 
 *Top Winners (24h)*
-1. DEXE (DeXe) — $28.42  +15.9% / 7d +30.4% / 1h +1.7%  •  $35M / #57  [BREAKOUT]
-2. MON (Monad) — $0.02301  +12.2%  •  #140
-3. ANSEM (Black Bull) — $0.3498  +7.3%  •  #205  [TRENDING+UP]
-4. LAB — $17.17  +6.9% / 7d +8.7% / 1h +0.6%  •  $67M / #22  [TRENDING+UP]
-5. AAVE — $92.98  +4.5% / 7d +0.7% / 1h −0.8%  •  $209M / #56  [TRENDING+UP]
-6. BDX (Beldex) — $0.0920  +3.0% / 7d +4.5%  •  $17M / #87
-7. NEAR — $2.00  +1.5% / 7d +8.9% / 1h +0.2%  •  $217M / #12  [MAJOR]
-8. PUMP (Pump.fun) — $0.001598  +1.1% / 7d +15.0%  •  $82M / #81
-9. ATOM (Cosmos) — $1.57  +1.1% / 7d +0.9%  •  $27M / #72
-10. ADI — $5.84  +0.8% / 7d +14.9%  •  $5M / #84
+1. M (MemeCore) — $1.45  +28.9% / 7d +124% / 1h +0.3%  •  $16.8M / #43  [BREAKOUT]
+2. AERO (Aerodrome) — $0.5980  +9.1% / 7d +31.5% / 1h −0.9%  •  $36.6M / #97
+3. LIT (Lighter) — $2.660  +7.9% / 7d +41.7% / 1h +2.6%  •  $111M / #92  [TRENDING+UP]
+4. WLFI (World Liberty) — $0.0600  +4.0% / 7d +3.4% / 1h −1.2%  •  $42.1M / #44
+5. MORPHO — $1.990  +3.8% / 7d +8.3% / 1h −0.6%  •  $17.7M / #59
+6. APT (Aptos) — $0.6350  +3.8% / 7d +12.4% / 1h −0.5%  •  $47.9M / #102
+7. BEAT (Audiera) — $2.560  +3.7% / 7d −8.9% / 1h +4.8%  •  $15.0M / #81
+8. TAO (Bittensor) — $212.4  +1.9% / 7d +4.6% / 1h −0.8%  •  $95.5M / #41
 
 *Top Losers (24h)*
-1. M (MemeCore) — $1.13  −19.8% / 7d +97.1% / 1h −0.1%  •  $16M / #50
-2. BEAT (Audiera) — $2.46  −15.2% / 7d −9.8% / 1h −1.0%  •  $13M / #82
-3. GRASS — $0.4936  −7.7%  •  #133  [TRENDING+DOWN]
-4. BGB (Bitget) — $1.64  −4.4% / 7d +1.1%  •  $10M / #44
-5. ADA (Cardano) — $0.1814  −4.1% / 7d +25.9% / 1h +0.6%  •  $459M / #16  [MAJOR]
-6. WLFI — $0.05774  −3.6% / 7d −0.03%  •  $25M / #45
-7. ZEC (Zcash) — $446.47  −3.4% / 7d +17.0%  •  $303M / #37
-8. NEXO — $0.7379  −3.3% / 7d +2.5%  •  $3.4M / #83
-9. KAS (Kaspa) — $0.03007  −3.2% / 7d +6.9%  •  $12M / #74
-10. ALGO — $0.0871  −3.2% / 7d +0.6%  •  $21M / #85
+1. LAB — $11.30  −33.9% / 7d −13.6% / 1h +18.2%  •  $60.9M / #27  [TRENDING+DOWN]
+2. BONK — $0.0000040  −8.2%  •  N/A / #120  [TRENDING+DOWN]
+3. VVV (Venice) — $10.83  −7.3%  •  N/A / #103  [TRENDING+DOWN]
+4. WLD (Worldcoin) — $0.3850  −5.2% / 7d −5.6% / 1h −1.3%  •  $133M / #56
+5. CC (Canton) — $0.1340  −3.8% / 7d −2.1% / 1h −0.4%  •  $10.4M / #21
+6. XLM (Stellar) — $0.1920  −3.2% / 7d +9.2% / 1h −0.5%  •  $228M / #18
+7. HBAR (Hedera) — $0.0710  −2.9% / 7d +2.0% / 1h −0.6%  •  $66.9M / #30
+8. KAS (Kaspa) — $0.02950  −2.4% / 7d −6.3% / 1h −1.0%  •  $8.0M / #77
+9. DOGE — $0.07430  −1.3% / 7d +6.6% / 1h −0.4%  •  $729M / #11  [MAJOR]
+10. ADA (Cardano) — $0.1780  −1.2% / 7d +23.6% / 1h −0.5%  •  $406M / #16
 
 *Trending*
-1. VANRY (Vanar Chain) — #828, $0.009355, +74.6%  [PUMP-RISK]
-2. MON (Monad) — #140, $0.02301, +12.2%
-3. ANSEM (Black Bull) — #205, $0.3498, +7.3%  [TRENDING+UP]
-4. LIT (Lighter) — #93, $2.55, +7.9%  [TRENDING+UP]
-5. PENGU (Pudgy Penguins) — #113, $0.006621, −0.8%
-6. AAVE — #56, $93.14, +4.8%  [TRENDING+UP]
-7. HYPE — #10, $69.67, +0.7%
+1. LAB — #27, $11.30, −33.9%  [TRENDING+DOWN]
+2. LIT (Lighter) — #92, $2.66, +7.9%  [TRENDING+UP]
+3. BONK — #120, $0.0000040, −8.2%  [TRENDING+DOWN]
+4. BTC — #1, $62,997, +2.0%  [MAJOR]
+5. GROVE — #971, $0.028, +9.9%  [MICROCAP]
+6. PENGU (Pudgy Penguins) — #113, $0.0066, +0.2%
+7. HYPE — #10, $71.41, +2.6%  [MAJOR]
 
 *Notable*
-• VANRY [PUMP-RISK]: rank #828 up 74.6% — outside top-250, extreme manipulation risk
-• DEXE [BREAKOUT]: +15.9% / 7d +30.4% on $35M vol — sustained across both timeframes, not a flash pump
-• ANSEM [TRENDING+UP]: reversal from yesterday −17.1% [CAPITULATION]; watch: dead-cat or genuine recovery
-• GRASS [TRENDING+DOWN]: −7.7% and trending; Jul 7 clarity call <24h away — pre-event selling pressure
+• LAB [TRENDING+DOWN]: trending 3 days, direction flipped — +25% (Jul 5), +7% (Jul 6), now −34%; 1h +18% hints at dip bounce; trend broken
+• M [BREAKOUT]: top loser yesterday (−19.8%); 7d +124% confirms structural — not a relief bounce
+• LIT [TRENDING+UP]: third consecutive trending day, $111M volume — Robinhood perp-engine bid intact
+• BONK + VVV: two trending tokens flashing [TRENDING+DOWN] — sector caution amid broader recovery

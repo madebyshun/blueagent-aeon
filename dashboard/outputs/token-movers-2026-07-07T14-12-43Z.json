@@ -1,0 +1,384 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-07-07",
+        "description": "Recovery — BTC +2.0%, ETH +1.6% lead an alt bounce; ~60% of top-100 alts reversing yesterday's 80%-red session; LAB's 34% collapse is the dominant move."
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "winners-heading",
+        "winners-table",
+        "sep1",
+        "losers-heading",
+        "losers-table",
+        "sep2",
+        "trending-heading",
+        "trending-table",
+        "sep3",
+        "notable-heading",
+        "notable-stack"
+      ]
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume/Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "M (MemeCore)",
+            "$1.45",
+            "+28.9%",
+            "+124%",
+            "+0.3%",
+            "$16.8M / #43",
+            "BREAKOUT"
+          ],
+          [
+            "AERO (Aerodrome)",
+            "$0.5980",
+            "+9.1%",
+            "+31.5%",
+            "−0.9%",
+            "$36.6M / #97",
+            ""
+          ],
+          [
+            "LIT (Lighter)",
+            "$2.660",
+            "+7.9%",
+            "+41.7%",
+            "+2.6%",
+            "$111M / #92",
+            "TRENDING+UP"
+          ],
+          [
+            "WLFI (World Liberty)",
+            "$0.0600",
+            "+4.0%",
+            "+3.4%",
+            "−1.2%",
+            "$42.1M / #44",
+            ""
+          ],
+          [
+            "MORPHO",
+            "$1.990",
+            "+3.8%",
+            "+8.3%",
+            "−0.6%",
+            "$17.7M / #59",
+            ""
+          ],
+          [
+            "APT (Aptos)",
+            "$0.6350",
+            "+3.8%",
+            "+12.4%",
+            "−0.5%",
+            "$47.9M / #102",
+            ""
+          ],
+          [
+            "BEAT (Audiera)",
+            "$2.560",
+            "+3.7%",
+            "−8.9%",
+            "+4.8%",
+            "$15.0M / #81",
+            ""
+          ],
+          [
+            "TAO (Bittensor)",
+            "$212.4",
+            "+1.9%",
+            "+4.6%",
+            "−0.8%",
+            "$95.5M / #41",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume/Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "LAB",
+            "$11.30",
+            "−33.9%",
+            "−13.6%",
+            "+18.2%",
+            "$60.9M / #27",
+            "TRENDING+DOWN"
+          ],
+          [
+            "BONK",
+            "$0.0000040",
+            "−8.2%",
+            "",
+            "",
+            "N/A / #120",
+            "TRENDING+DOWN"
+          ],
+          [
+            "VVV (Venice)",
+            "$10.83",
+            "−7.3%",
+            "",
+            "",
+            "N/A / #103",
+            "TRENDING+DOWN"
+          ],
+          [
+            "WLD (Worldcoin)",
+            "$0.3850",
+            "−5.2%",
+            "−5.6%",
+            "−1.3%",
+            "$133M / #56",
+            ""
+          ],
+          [
+            "CC (Canton)",
+            "$0.1340",
+            "−3.8%",
+            "−2.1%",
+            "−0.4%",
+            "$10.4M / #21",
+            ""
+          ],
+          [
+            "XLM (Stellar)",
+            "$0.1920",
+            "−3.2%",
+            "+9.2%",
+            "−0.5%",
+            "$228M / #18",
+            ""
+          ],
+          [
+            "HBAR (Hedera)",
+            "$0.0710",
+            "−2.9%",
+            "+2.0%",
+            "−0.6%",
+            "$66.9M / #30",
+            ""
+          ],
+          [
+            "KAS (Kaspa)",
+            "$0.02950",
+            "−2.4%",
+            "−6.3%",
+            "−1.0%",
+            "$8.0M / #77",
+            ""
+          ],
+          [
+            "DOGE",
+            "$0.07430",
+            "−1.3%",
+            "+6.6%",
+            "−0.4%",
+            "$729M / #11",
+            "MAJOR"
+          ],
+          [
+            "ADA (Cardano)",
+            "$0.1780",
+            "−1.2%",
+            "+23.6%",
+            "−0.5%",
+            "$406M / #16",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "Change",
+          "Status"
+        ],
+        "rows": [
+          [
+            "LAB",
+            "#27",
+            "$11.30",
+            "−33.9%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "LIT (Lighter)",
+            "#92",
+            "$2.66",
+            "+7.9%",
+            "TRENDING+UP"
+          ],
+          [
+            "BONK",
+            "#120",
+            "$0.0000040",
+            "−8.2%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "BTC",
+            "#1",
+            "$62,997",
+            "+2.0%",
+            "MAJOR"
+          ],
+          [
+            "GROVE",
+            "#971",
+            "$0.028",
+            "+9.9%",
+            "MICROCAP"
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#113",
+            "$0.0066",
+            "+0.2%",
+            ""
+          ],
+          [
+            "HYPE",
+            "#10",
+            "$71.41",
+            "+2.6%",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "notable-1": {
+      "type": "Alert",
+      "props": {
+        "title": "LAB [TRENDING+DOWN]",
+        "message": "trending 3 days, direction flipped — +25% (Jul 5), +7% (Jul 6), now −34%; 1h +18% hints at dip bounce; trend broken",
+        "type": "warning"
+      }
+    },
+    "notable-2": {
+      "type": "Alert",
+      "props": {
+        "title": "M [BREAKOUT]",
+        "message": "top loser yesterday (−19.8%); 7d +124% confirms structural — not a relief bounce",
+        "type": "info"
+      }
+    },
+    "notable-3": {
+      "type": "Alert",
+      "props": {
+        "title": "LIT [TRENDING+UP]",
+        "message": "third consecutive trending day, $111M volume — Robinhood perp-engine bid intact",
+        "type": "success"
+      }
+    },
+    "notable-4": {
+      "type": "Alert",
+      "props": {
+        "title": "BONK + VVV",
+        "message": "two trending tokens flashing [TRENDING+DOWN] — sector caution amid broader recovery",
+        "type": "warning"
+      }
+    }
+  }
+}
