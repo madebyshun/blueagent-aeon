@@ -1,0 +1,498 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-07"
+      },
+      "children": [
+        "top-pick-section",
+        "sep-1",
+        "aiml-section",
+        "sep-2",
+        "devtools-section",
+        "sep-3",
+        "infra-section",
+        "sep-4",
+        "footer"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-label",
+        "top-pick-story",
+        "top-pick-desc"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h3"
+      }
+    },
+    "top-pick-story": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Zackriya-Solutions/meetily",
+        "href": "https://github.com/Zackriya-Solutions/meetily"
+      }
+    },
+    "top-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Day four of the surge and still 2,494 stars today — fully-local Parakeet/Whisper meeting AI with no cloud dependency is the standout pick this week.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml-heading",
+        "aiml-1",
+        "aiml-2"
+      ]
+    },
+    "aiml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-1-link",
+        "aiml-1-meta",
+        "aiml-1-desc"
+      ]
+    },
+    "aiml-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Zackriya-Solutions/meetily",
+        "href": "https://github.com/Zackriya-Solutions/meetily"
+      }
+    },
+    "aiml-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-1-stars",
+        "aiml-1-lang",
+        "aiml-1-status"
+      ]
+    },
+    "aiml-1-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "2,494",
+        "delta": "+20k total"
+      }
+    },
+    "aiml-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      }
+    },
+    "aiml-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "aiml-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Local-first meeting AI: Parakeet/Whisper on CPU, no cloud required, full live transcript.",
+        "variant": "body"
+      }
+    },
+    "aiml-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-2-link",
+        "aiml-2-meta",
+        "aiml-2-desc"
+      ]
+    },
+    "aiml-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "kyutai-labs/pocket-tts",
+        "href": "https://github.com/kyutai-labs/pocket-tts"
+      }
+    },
+    "aiml-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-2-stars",
+        "aiml-2-lang",
+        "aiml-2-status"
+      ]
+    },
+    "aiml-2-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "510",
+        "delta": "+5.7k total"
+      }
+    },
+    "aiml-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "aiml-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "aiml-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Kyutai's neural TTS runs entirely on CPU — zero GPU, production-quality voice synthesis offline.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-1",
+        "devtools-2",
+        "devtools-3"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-link",
+        "devtools-1-meta",
+        "devtools-1-desc"
+      ]
+    },
+    "devtools-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "iOfficeAI/OfficeCLI",
+        "href": "https://github.com/iOfficeAI/OfficeCLI"
+      }
+    },
+    "devtools-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-stars",
+        "devtools-1-lang",
+        "devtools-1-status"
+      ]
+    },
+    "devtools-1-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "802",
+        "delta": "+9.2k total"
+      }
+    },
+    "devtools-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C#",
+        "variant": "secondary"
+      }
+    },
+    "devtools-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "devtools-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI agents get native Office control via OOXML — not screenscraping, actual read/write of Word, Excel, PPT.",
+        "variant": "body"
+      }
+    },
+    "devtools-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-2-link",
+        "devtools-2-meta",
+        "devtools-2-desc"
+      ]
+    },
+    "devtools-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bradautomates/claude-video",
+        "href": "https://github.com/bradautomates/claude-video"
+      }
+    },
+    "devtools-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-2-stars",
+        "devtools-2-lang",
+        "devtools-2-status"
+      ]
+    },
+    "devtools-2-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "427",
+        "delta": "+4.7k total"
+      }
+    },
+    "devtools-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "devtools-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "devtools-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Lets Claude reason over any video via frame extraction + transcript — visual QA without a multimodal API.",
+        "variant": "body"
+      }
+    },
+    "devtools-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-3-link",
+        "devtools-3-meta",
+        "devtools-3-desc"
+      ]
+    },
+    "devtools-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "dotnet/skills",
+        "href": "https://github.com/dotnet/skills"
+      }
+    },
+    "devtools-3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-3-stars",
+        "devtools-3-lang",
+        "devtools-3-status"
+      ]
+    },
+    "devtools-3-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "200",
+        "delta": "+4.2k total"
+      }
+    },
+    "devtools-3-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C#",
+        "variant": "secondary"
+      }
+    },
+    "devtools-3-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "devtools-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Microsoft's official .NET agent skills library — pushed today, C# counterpart to the TypeScript skill ecosystem.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "infra-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra-heading",
+        "infra-1"
+      ]
+    },
+    "infra-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infra-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra-1-link",
+        "infra-1-meta",
+        "infra-1-desc"
+      ]
+    },
+    "infra-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "TencentCloud/CubeSandbox",
+        "href": "https://github.com/TencentCloud/CubeSandbox"
+      }
+    },
+    "infra-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra-1-stars",
+        "infra-1-lang",
+        "infra-1-status"
+      ]
+    },
+    "infra-1-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "665",
+        "delta": "+8.1k total"
+      }
+    },
+    "infra-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      }
+    },
+    "infra-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "infra-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Tencent's open-source agent sandbox: microsecond cold starts, concurrent isolation without VMs, active push today.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/12",
+        "variant": "caption"
+      }
+    }
+  }
+}
