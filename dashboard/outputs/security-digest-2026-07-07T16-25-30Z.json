@@ -1,0 +1,767 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest",
+        "description": "2026-07-07"
+      },
+      "children": [
+        "verdict-section",
+        "sep-1",
+        "patch-today-section",
+        "sep-2",
+        "patch-week-section",
+        "sep-3",
+        "monitor-section"
+      ]
+    },
+    "verdict-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "verdict-stat",
+        "sources-text"
+      ]
+    },
+    "verdict-stat": {
+      "type": "Text",
+      "props": {
+        "text": "0 new KEV • 3 patch now (CVSS 10.0/9.9, 2 public PoC) • 4 to schedule • 3 to monitor",
+        "variant": "lead"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV (0 new since Jul-01), GH Advisory, EPSS",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch-today-head",
+        "patch-today-cve-1",
+        "patch-today-cve-2",
+        "patch-today-cve-3"
+      ]
+    },
+    "patch-today-head": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "patch-today-cve-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pt-cve1-meta",
+        "pt-cve1-desc",
+        "pt-cve1-action"
+      ]
+    },
+    "pt-cve1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pt-cve1-link",
+        "pt-cve1-pkg",
+        "pt-cve1-cvss",
+        "pt-cve1-poc"
+      ]
+    },
+    "pt-cve1-link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-vjc7-jrh9-9j86",
+        "href": "https://github.com/advisories/GHSA-vjc7-jrh9-9j86"
+      }
+    },
+    "pt-cve1-pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "9router (npm)",
+        "variant": "secondary"
+      }
+    },
+    "pt-cve1-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 10.0",
+        "variant": "destructive"
+      }
+    },
+    "pt-cve1-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "PoC confirmed (curl)",
+        "variant": "outline"
+      }
+    },
+    "pt-cve1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated CRUD on /api/providers + full API key + conversation leak. No patch.",
+        "variant": "body"
+      }
+    },
+    "pt-cve1-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Remove or Block Immediately",
+        "message": "Remove 9router or block /api/providers & /api/usage/stats at network level immediately.",
+        "type": "error"
+      }
+    },
+    "patch-today-cve-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pt-cve2-meta",
+        "pt-cve2-desc",
+        "pt-cve2-action"
+      ]
+    },
+    "pt-cve2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pt-cve2-link",
+        "pt-cve2-pkg",
+        "pt-cve2-cvss",
+        "pt-cve2-poc"
+      ]
+    },
+    "pt-cve2-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-54769",
+        "href": "https://github.com/advisories/GHSA-q9p7-wqxg-mrhc"
+      }
+    },
+    "pt-cve2-pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "langroid (pip)",
+        "variant": "secondary"
+      }
+    },
+    "pt-cve2-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 10.0",
+        "variant": "destructive"
+      }
+    },
+    "pt-cve2-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "PoC confirmed",
+        "variant": "outline"
+      }
+    },
+    "pt-cve2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "TableChatAgent eval() sandbox escape → RCE via crafted prompt. Patched at 0.65.2.",
+        "variant": "body"
+      }
+    },
+    "pt-cve2-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Upgrade & Redeploy",
+        "message": "Upgrade langroid to ≥0.65.2 and redeploy.",
+        "type": "error"
+      }
+    },
+    "patch-today-cve-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pt-cve3-meta",
+        "pt-cve3-desc",
+        "pt-cve3-action"
+      ]
+    },
+    "pt-cve3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pt-cve3-link",
+        "pt-cve3-pkg",
+        "pt-cve3-cvss"
+      ]
+    },
+    "pt-cve3-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-55500",
+        "href": "https://github.com/advisories/GHSA-qvfm-67h2-2qfx"
+      }
+    },
+    "pt-cve3-pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "9router (npm)",
+        "variant": "secondary"
+      }
+    },
+    "pt-cve3-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.9",
+        "variant": "destructive"
+      }
+    },
+    "pt-cve3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Credential theft + unprotected DB export across all users. No patch.",
+        "variant": "body"
+      }
+    },
+    "pt-cve3-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Isolate or Remove Today",
+        "message": "Isolate or remove 9router deployments today.",
+        "type": "error"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-week-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch-week-head",
+        "pw-cve-1",
+        "pw-cve-2",
+        "pw-cve-3",
+        "pw-cve-4",
+        "pw-cve-5"
+      ]
+    },
+    "patch-week-head": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "pw-cve-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pw1-meta",
+        "pw1-desc",
+        "pw1-action"
+      ]
+    },
+    "pw1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pw1-link",
+        "pw1-pkg",
+        "pw1-cvss",
+        "pw1-note"
+      ]
+    },
+    "pw1-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-49445",
+        "href": "https://github.com/advisories/GHSA-3fcv-jvfp-m4q9"
+      }
+    },
+    "pw1-pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "cilium (go)",
+        "variant": "secondary"
+      }
+    },
+    "pw1-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.2",
+        "variant": "destructive"
+      }
+    },
+    "pw1-note": {
+      "type": "Badge",
+      "props": {
+        "text": "no workaround",
+        "variant": "outline"
+      }
+    },
+    "pw1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Envoy local admin socket world-readable → TLS secret leak + cluster disruption.",
+        "variant": "body"
+      }
+    },
+    "pw1-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Schedule Upgrade",
+        "message": "cilium → ≥1.19.2 / ≥1.18.8 / ≥1.17.14",
+        "type": "warning"
+      }
+    },
+    "pw-cve-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pw2-meta",
+        "pw2-desc",
+        "pw2-action"
+      ]
+    },
+    "pw2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pw2-link",
+        "pw2-pkg",
+        "pw2-cvss",
+        "pw2-note"
+      ]
+    },
+    "pw2-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-53486",
+        "href": "https://github.com/advisories/GHSA-mp2f-45pm-3cg9"
+      }
+    },
+    "pw2-pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "@xhmikosr/decompress (npm)",
+        "variant": "secondary"
+      }
+    },
+    "pw2-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.1",
+        "variant": "destructive"
+      }
+    },
+    "pw2-note": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "outline"
+      }
+    },
+    "pw2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Archive path traversal → write files outside target dir; setuid escalation possible. Upstream decompress unmaintained.",
+        "variant": "body"
+      }
+    },
+    "pw2-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Schedule Upgrade & Migration",
+        "message": "@xhmikosr/decompress → ≥10.2.1 / ≥11.1.3; migrate off decompress.",
+        "type": "warning"
+      }
+    },
+    "pw-cve-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pw3-meta",
+        "pw3-desc",
+        "pw3-action"
+      ]
+    },
+    "pw3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pw3-link",
+        "pw3-pkg",
+        "pw3-cvss"
+      ]
+    },
+    "pw3-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-55786",
+        "href": "https://github.com/advisories/GHSA-h9f9-h6gm-wc85"
+      }
+    },
+    "pw3-pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "flyto-core (pip)",
+        "variant": "secondary"
+      }
+    },
+    "pw3-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.4",
+        "variant": "destructive"
+      }
+    },
+    "pw3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated command execution via HTTP MCP execute_module endpoint.",
+        "variant": "body"
+      }
+    },
+    "pw3-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Schedule Upgrade",
+        "message": "flyto-core → ≥2.26.4",
+        "type": "warning"
+      }
+    },
+    "pw-cve-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pw4-meta",
+        "pw4-desc",
+        "pw4-action"
+      ]
+    },
+    "pw4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pw4-pkg",
+        "pw4-cvss"
+      ]
+    },
+    "pw4-pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "coder/v2 (go)",
+        "variant": "secondary"
+      }
+    },
+    "pw4-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS up to 8.7",
+        "variant": "destructive"
+      }
+    },
+    "pw4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "8 CVEs: cross-workspace rebinding, SSH config injection, OIDC account takeover, route hijacking, TLS skip",
+        "variant": "body"
+      }
+    },
+    "pw4-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Schedule Upgrade",
+        "message": "github.com/coder/coder/v2 → ≥2.34.2 / ≥2.33.10 / ≥2.32.9 / ≥2.29.19",
+        "type": "warning"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "monitor-head",
+        "mon-cve-1",
+        "mon-cve-2",
+        "mon-cve-3"
+      ]
+    },
+    "monitor-head": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "mon-cve-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mon1-meta",
+        "mon1-desc",
+        "mon1-action"
+      ]
+    },
+    "mon1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "mon1-link",
+        "mon1-pkg",
+        "mon1-cvss",
+        "mon1-status"
+      ]
+    },
+    "mon1-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-54496",
+        "href": "https://github.com/advisories/GHSA-ww9q-8r59-xv46"
+      }
+    },
+    "mon1-pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "halo2_gadgets/orchard (rust)",
+        "variant": "secondary"
+      }
+    },
+    "mon1-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.3",
+        "variant": "destructive"
+      }
+    },
+    "mon1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix yet",
+        "variant": "outline"
+      }
+    },
+    "mon1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Missing ZK copy constraint breaks Orchard Action circuit soundness. Affects zebrad ≤4.5.1.",
+        "variant": "body"
+      }
+    },
+    "mon1-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Track & Monitor",
+        "message": "Track GHSA-ww9q-8r59-xv46; avoid production Orchard deployments until patched.",
+        "type": "info"
+      }
+    },
+    "mon-cve-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mon2-meta",
+        "mon2-desc",
+        "mon2-action"
+      ]
+    },
+    "mon2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "mon2-link",
+        "mon2-pkg",
+        "mon2-cvss",
+        "mon2-status"
+      ]
+    },
+    "mon2-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-54771",
+        "href": "https://github.com/advisories/GHSA-gjgq-w2m6-wr5q"
+      }
+    },
+    "mon2-pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "langroid (pip)",
+        "variant": "secondary"
+      }
+    },
+    "mon2-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "destructive"
+      }
+    },
+    "mon2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix yet",
+        "variant": "outline"
+      }
+    },
+    "mon2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "handle_message() executes unverified user-supplied tool JSON — any LLM reply can trigger tools.",
+        "variant": "body"
+      }
+    },
+    "mon2-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Track & Monitor",
+        "message": "Track GHSA-gjgq-w2m6-wr5q; restrict untrusted agent message paths.",
+        "type": "info"
+      }
+    },
+    "mon-cve-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mon3-meta",
+        "mon3-desc",
+        "mon3-action"
+      ]
+    },
+    "mon3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "mon3-link",
+        "mon3-pkg",
+        "mon3-status"
+      ]
+    },
+    "mon3-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-55615",
+        "href": "https://github.com/advisories/GHSA-2pq5-3q89-j7cc"
+      }
+    },
+    "mon3-pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "langroid (pip)",
+        "variant": "secondary"
+      }
+    },
+    "mon3-status": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix yet",
+        "variant": "outline"
+      }
+    },
+    "mon3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Neo4jChatAgent executes LLM-generated Cypher without validation → prompt-to-Cypher injection RCE.",
+        "variant": "body"
+      }
+    },
+    "mon3-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Track & Monitor",
+        "message": "Track GHSA-2pq5-3q89-j7cc; disable Neo4jChatAgent in production.",
+        "type": "info"
+      }
+    }
+  }
+}
