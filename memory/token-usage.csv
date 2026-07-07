@@ -167,3 +167,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-06,deal-flow,claude-sonnet-4-6,359,22318,1409984,96969
 2026-07-07,morning-brief,claude-sonnet-4-6,15,9153,624334,37856
 2026-07-07,github-trending,claude-sonnet-4-6,13,11623,364251,32816
+2026-07-07,defi-monitor,claude-sonnet-4-6,7,1047,163387,8343
