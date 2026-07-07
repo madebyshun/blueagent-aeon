@@ -1,0 +1,224 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-07"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-aero",
+        "sep-1",
+        "section-market",
+        "sep-2",
+        "footer"
+      ]
+    },
+    "section-aero": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-aero",
+        "badges-aero",
+        "stat-price",
+        "text-mcap-vol",
+        "text-score",
+        "alert-catalyst",
+        "alert-risk-aero",
+        "text-dedup"
+      ]
+    },
+    "heading-aero": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: AERO",
+        "level": "h2"
+      }
+    },
+    "badges-aero": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-high",
+        "badge-signal"
+      ]
+    },
+    "badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "badge-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 8/10",
+        "variant": "default"
+      }
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.5994",
+        "delta": "+9.27% (24h) / +31.69% (7d)",
+        "trend": "up"
+      }
+    },
+    "text-mcap-vol": {
+      "type": "Text",
+      "props": {
+        "text": "Market cap: $577M | Volume: $37.1M | Vol/Mcap ratio: 0.064"
+      }
+    },
+    "text-score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: 24h>0 (+1), 7d>0 (+1), both>5% (+2), cg-trending (+2), outperforms BTC+ETH 7d (+2) = 8/10"
+      }
+    },
+    "alert-catalyst": {
+      "type": "Alert",
+      "props": {
+        "title": "Catalyst",
+        "message": "Predictive Allocation model launching July 2026 — replaces weekly gauge voting with AI-agent-incentivized liquidity forecasting; cross-chain \"Aero\" expansion merging Aerodrome + Velodrome to ETH mainnet and Circle's Arc; 190M AERO buyback; $17B monthly DEX volume (~50% of Base DEX activity)",
+        "type": "info"
+      }
+    },
+    "alert-risk-aero": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "32% 7d rally already baked in; vol/mcap 0.064 shows limited retail momentum; -13.63% YTD signals structural ceiling above catalyst noise",
+        "type": "warning"
+      }
+    },
+    "text-dedup": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time — not in 7-day dedup",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-market",
+        "badges-market",
+        "text-odds",
+        "text-fair",
+        "alert-thesis",
+        "alert-risk-market",
+        "text-sources"
+      ]
+    },
+    "heading-market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will Belgium win the 2026 FIFA World Cup?",
+        "level": "h2"
+      }
+    },
+    "badges-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-medium",
+        "badge-edge"
+      ]
+    },
+    "badge-medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      }
+    },
+    "badge-edge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 6.75pp",
+        "variant": "default"
+      }
+    },
+    "text-odds": {
+      "type": "Text",
+      "props": {
+        "text": "Current: YES 2.25¢ / NO 97.75¢ | 24h volume: $9.05M | Resolves: 2026-07-20"
+      }
+    },
+    "text-fair": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES value: ~9% (inputs: Spain -155 implied → Belgium 40% QF win; WC SF historical 47% avg; 50% final base — path: 40%×47%×50% = 9.4%)"
+      }
+    },
+    "alert-thesis": {
+      "type": "Alert",
+      "props": {
+        "title": "Thesis",
+        "message": "Market anchored to group-stage perception; Belgium beat Senegal 3-2 in R16 and has a live 38-40% shot vs Spain in QF — path-adjusted fair value is 4× current price",
+        "type": "info"
+      }
+    },
+    "alert-risk-market": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Spain is legit tournament favorite (3-0 vs Austria); one loss zeroes the position; De Bruyne-era Belgium aging",
+        "type": "warning"
+      }
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Alert",
+      "props": {
+        "message": "Not financial advice — pattern-matching only",
+        "type": "info"
+      }
+    }
+  }
+}
