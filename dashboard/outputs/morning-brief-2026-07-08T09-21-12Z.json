@@ -1,0 +1,245 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-08"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_focus",
+        "separator_1",
+        "section_yesterday",
+        "separator_2",
+        "section_watch",
+        "separator_3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "ETH +5% as Fed rate cut expectations firm — Glamsterdam testnet window still July; widen positioning now",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "BTC holds $63K but open interest declining — HODLer accumulation thesis sustainability check",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "GRASS S2 call outcome (yesterday 1PM EST) — sell-the-news or reentry? Resolve before window closes",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_yesterday",
+        "stat_eth",
+        "stat_btc",
+        "stat_aero",
+        "stat_token_movers"
+      ]
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH breakout",
+        "value": "+5%",
+        "trend": "up",
+        "delta": "on Fed rate cut catalyst; continuing Glamsterdam STARK-adjacent thesis"
+      },
+      "children": []
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC around $63K",
+        "value": "-0.13%",
+        "trend": "down",
+        "delta": "OI declining — spot-driven vs leverage signal diverging"
+      },
+      "children": []
+    },
+    "stat_aero": {
+      "type": "Stat",
+      "props": {
+        "label": "AERO (Jul 7)",
+        "value": "+9.3%",
+        "trend": "up",
+        "delta": "HIGH tier (8/10); Predictive Allocation model launch catalyst still intact"
+      },
+      "children": []
+    },
+    "stat_token_movers": {
+      "type": "Stat",
+      "props": {
+        "label": "token-movers success_rate",
+        "value": "0.76",
+        "delta": "below 0.8 threshold but 0 consecutive failures; watch"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_item_1",
+        "watch_item_2"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "ETH +5% on Fed rate cut signal — Glamsterdam July testnet window widening (focus #1)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "watch_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "BTC OI declining vs $63K — spot-driven signal is stronger, but lower OI limits extension (focus #2)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "table_running"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table_running": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Task",
+          "Time (UTC)"
+        ],
+        "rows": [
+          [
+            "github-monitor",
+            "09:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "token-pick",
+            "12:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ],
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00"
+          ]
+        ]
+      },
+      "children": []
+    }
+  }
+}
