@@ -170,3 +170,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-07,token-movers,claude-sonnet-4-6,472,23726,511453,51952
 2026-07-07,security-digest,claude-sonnet-4-6,274,29336,1788786,67179
 2026-07-08,morning-brief,claude-sonnet-4-6,10,4090,243582,28165
+2026-07-08,defi-monitor,claude-sonnet-4-6,7,1036,163859,7756
