@@ -1,0 +1,385 @@
+{
+  "root": "card-morning-brief",
+  "state": {},
+  "elements": {
+    "card-morning-brief": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-09"
+      },
+      "children": [
+        "section-focus",
+        "separator-1",
+        "section-since",
+        "separator-2",
+        "section-watch",
+        "separator-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-why"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "1. token-movers + token-pick both failed yesterday",
+        "variant": "lead"
+      }
+    },
+    "focus-1-why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: re-run at 12:00 UTC; 5h window to investigate",
+        "variant": "muted"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-why"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "2. BTC at $62,374 (-1.7%) on US-Iran strikes",
+        "variant": "lead"
+      }
+    },
+    "focus-2-why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: yesterday's $63K hold thesis now under test",
+        "variant": "muted"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-why"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "3. Base x402 in production + AI agent roadmap",
+        "variant": "lead"
+      }
+    },
+    "focus-3-why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: $BLUEAGENT narrative lane just got infrastructure backing",
+        "variant": "muted"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-since",
+        "since-item-1",
+        "since-item-2",
+        "since-item-3"
+      ]
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-reversed",
+        "since-1-text"
+      ]
+    },
+    "badge-reversed": {
+      "type": "Badge",
+      "props": {
+        "text": "reversed",
+        "variant": "secondary"
+      }
+    },
+    "since-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "ETH +5% rally gave back gains — both ETH + BTC -1.6% on US-Iran strike fallout"
+      }
+    },
+    "since-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-stuck",
+        "since-2-text"
+      ]
+    },
+    "badge-stuck": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "outline"
+      }
+    },
+    "since-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "GRASS S2 reentry decision unresolved — no outcome logged, window may be closing"
+      }
+    },
+    "since-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-degraded",
+        "since-3-text"
+      ]
+    },
+    "badge-degraded": {
+      "type": "Badge",
+      "props": {
+        "text": "degraded",
+        "variant": "destructive"
+      }
+    },
+    "since-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers (SR 0.74), token-pick (consecutive fail), security-digest (SR 0.79)"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "alert-watch"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "alert-watch": {
+      "type": "Alert",
+      "props": {
+        "title": "US-Iran strikes drove 2.1% crypto selloff overnight",
+        "message": "watch BTC $61.5K; break accelerates risk-off",
+        "type": "warning"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "running-item-1",
+        "running-item-2",
+        "running-item-3",
+        "running-item-4"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-1-name",
+        "running-1-time"
+      ]
+    },
+    "running-1-name": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor"
+      }
+    },
+    "running-1-time": {
+      "type": "Badge",
+      "props": {
+        "text": "09:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "running-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-2-name",
+        "running-2-time",
+        "running-2-status"
+      ]
+    },
+    "running-2-name": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers"
+      }
+    },
+    "running-2-time": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "running-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠ degraded",
+        "variant": "destructive"
+      }
+    },
+    "running-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-3-name",
+        "running-3-time",
+        "running-3-status"
+      ]
+    },
+    "running-3-name": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick"
+      }
+    },
+    "running-3-time": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "running-3-status": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠ failed yesterday",
+        "variant": "destructive"
+      }
+    },
+    "running-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-4-name",
+        "running-4-time"
+      ]
+    },
+    "running-4-name": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker"
+      }
+    },
+    "running-4-time": {
+      "type": "Badge",
+      "props": {
+        "text": "13:30 UTC",
+        "variant": "outline"
+      }
+    }
+  }
+}
