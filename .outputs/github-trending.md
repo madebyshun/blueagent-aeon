@@ -1,28 +1,22 @@
-*GitHub Trending — 2026-07-07*
+*GitHub Trending — 2026-07-09*
 
-*Top pick* — [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily)
-Day four of the surge and still 2,494 stars today — fully-local Parakeet/Whisper meeting AI with no cloud dependency is the standout pick this week.
+*Top pick* — [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)
+An end-to-end Claude Code agent for the full job search cycle — 5,079 stars in one day signals this hit a real nerve with the dev-as-job-seeker crowd.
 
 *AI/ML*
-• [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) — ★ 2,494 today (20k total) · Rust · [RETURNING]
-Local-first meeting AI: Parakeet/Whisper on CPU, no cloud required, full live transcript.
-
-• [kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts) — ★ 510 today (5.7k total) · Python · [RETURNING]
-Kyutai's neural TTS runs entirely on CPU — zero GPU, production-quality voice synthesis offline.
+• [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) — ★ 454 today (19k total) · Go · [RETURNING]
+Fully autonomous pentest agent chains recon → exploit → report with zero human in the loop — one of the most complete open-source offensive AI pipelines available.
 
 *Devtools*
-• [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) — ★ 802 today (9.2k total) · C# · [ACCELERATING]
-AI agents get native Office control via OOXML — not screenscraping, actual read/write of Word, Excel, PPT.
+• [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — ★ 1,297 today (75.4k total) · JavaScript · [ACCELERATING]
+Community-maintained Claude Code skill library at 75k stars in ~144 days — new skills added daily, fastest-growing agent SDK catalog around.
 
-• [bradautomates/claude-video](https://github.com/bradautomates/claude-video) — ★ 427 today (4.7k total) · Python · [ACCELERATING]
-Lets Claude reason over any video via frame extraction + transcript — visual QA without a multimodal API.
+• [huxingyi/autoremesher](https://github.com/huxingyi/autoremesher) — ★ 296 today (2.2k total) · C++ · [RETURNING]
+Pushed today after a quiet period — auto-generates clean quad topology from any 3D mesh, fills a gap that most commercial tools charge thousands for.
 
-• [dotnet/skills](https://github.com/dotnet/skills) — ★ 200 today (4.2k total) · C# · [RETURNING]
-Microsoft's official .NET agent skills library — pushed today, C# counterpart to the TypeScript skill ecosystem.
-
-*Infra*
-• [TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox) — ★ 665 today (8.1k total) · Rust · [ACCELERATING]
-Tencent's open-source agent sandbox: microsecond cold starts, concurrent isolation without VMs, active push today.
+*Other*
+• [SmartlyDressedGames/U3-SDK](https://github.com/SmartlyDressedGames/U3-SDK) — ★ 541 today (1.7k total) · C# · [RETURNING]
+Unturned — a free Steam zombie survival game with a massive player base — just open-sourced its full C# SDK after years of closed development.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/12
+sources: trending=ok · gh_api=ok · kept 5/15

@@ -1,0 +1,300 @@
+{
+  "root": "card-trending",
+  "state": {},
+  "elements": {
+    "card-trending": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-07-09"
+      },
+      "children": [
+        "heading-top-pick",
+        "link-top-pick",
+        "text-top-pick-desc",
+        "separator-1",
+        "heading-aiml",
+        "repo-pentagi-stack",
+        "separator-2",
+        "heading-devtools",
+        "repo-agent-skills-stack",
+        "repo-autoremesher-stack",
+        "separator-3",
+        "heading-other",
+        "repo-u3sdk-stack",
+        "separator-4",
+        "text-sources"
+      ]
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h2"
+      }
+    },
+    "link-top-pick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MadsLorentzen/ai-job-search",
+        "href": "https://github.com/MadsLorentzen/ai-job-search",
+        "score": "5,079 stars in one day"
+      }
+    },
+    "text-top-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "An end-to-end Claude Code agent for the full job search cycle — 5,079 stars in one day signals this hit a real nerve with the dev-as-job-seeker crowd.",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "repo-pentagi-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-pentagi",
+        "badge-pentagi-lang",
+        "badge-pentagi-status",
+        "stat-pentagi-stars",
+        "text-pentagi-desc"
+      ]
+    },
+    "link-pentagi": {
+      "type": "StoryLink",
+      "props": {
+        "title": "vxcontrol/pentagi",
+        "href": "https://github.com/vxcontrol/pentagi"
+      }
+    },
+    "badge-pentagi-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "secondary"
+      }
+    },
+    "badge-pentagi-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "stat-pentagi-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "454 today (19k total)"
+      }
+    },
+    "text-pentagi-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Fully autonomous pentest agent chains recon → exploit → report with zero human in the loop — one of the most complete open-source offensive AI pipelines available.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "repo-agent-skills-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-agent-skills",
+        "badge-agent-skills-lang",
+        "badge-agent-skills-status",
+        "stat-agent-skills-stars",
+        "text-agent-skills-desc"
+      ]
+    },
+    "link-agent-skills": {
+      "type": "StoryLink",
+      "props": {
+        "title": "addyosmani/agent-skills",
+        "href": "https://github.com/addyosmani/agent-skills"
+      }
+    },
+    "badge-agent-skills-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "secondary"
+      }
+    },
+    "badge-agent-skills-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "stat-agent-skills-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1,297 today (75.4k total)"
+      }
+    },
+    "text-agent-skills-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Community-maintained Claude Code skill library at 75k stars in ~144 days — new skills added daily, fastest-growing agent SDK catalog around.",
+        "variant": "body"
+      }
+    },
+    "repo-autoremesher-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-autoremesher",
+        "badge-autoremesher-lang",
+        "badge-autoremesher-status",
+        "stat-autoremesher-stars",
+        "text-autoremesher-desc"
+      ]
+    },
+    "link-autoremesher": {
+      "type": "StoryLink",
+      "props": {
+        "title": "huxingyi/autoremesher",
+        "href": "https://github.com/huxingyi/autoremesher"
+      }
+    },
+    "badge-autoremesher-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C++",
+        "variant": "secondary"
+      }
+    },
+    "badge-autoremesher-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "stat-autoremesher-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "296 today (2.2k total)"
+      }
+    },
+    "text-autoremesher-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pushed today after a quiet period — auto-generates clean quad topology from any 3D mesh, fills a gap that most commercial tools charge thousands for.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-other": {
+      "type": "Heading",
+      "props": {
+        "text": "Other",
+        "level": "h2"
+      }
+    },
+    "repo-u3sdk-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-u3sdk",
+        "badge-u3sdk-lang",
+        "badge-u3sdk-status",
+        "stat-u3sdk-stars",
+        "text-u3sdk-desc"
+      ]
+    },
+    "link-u3sdk": {
+      "type": "StoryLink",
+      "props": {
+        "title": "SmartlyDressedGames/U3-SDK",
+        "href": "https://github.com/SmartlyDressedGames/U3-SDK"
+      }
+    },
+    "badge-u3sdk-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C#",
+        "variant": "secondary"
+      }
+    },
+    "badge-u3sdk-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "stat-u3sdk-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "541 today (1.7k total)"
+      }
+    },
+    "text-u3sdk-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unturned — a free Steam zombie survival game with a massive player base — just open-sourced its full C# SDK after years of closed development.",
+        "variant": "body"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/15",
+        "variant": "caption"
+      }
+    }
+  }
+}
