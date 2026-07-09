@@ -1,0 +1,428 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "Risk-on tape — 82% of top-50 non-stablecoins green, median +1.3%; ARB leads alt recovery while LAB extends its collapse into day 2."
+      },
+      "children": [
+        "section-winners",
+        "sep1",
+        "section-losers",
+        "sep2",
+        "section-trending",
+        "sep3",
+        "section-notable"
+      ]
+    },
+    "section-winners": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-winners",
+        "table-winners"
+      ]
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "ARB (Arbitrum)",
+            "$0.08528",
+            "+11.6%",
+            "+8.8%",
+            "0.0%",
+            "$125M",
+            "#100",
+            "TRENDING+UP"
+          ],
+          [
+            "VVV (Venice Token)",
+            "$11.66",
+            "+9.6%",
+            "−13.4%",
+            "+1.2%",
+            "$35M",
+            "#97",
+            "TRENDING+UP, FADE"
+          ],
+          [
+            "LIT (Lighter)",
+            "$2.480",
+            "+6.0%",
+            "+13.9%",
+            "+2.4%",
+            "$56M",
+            "#92",
+            ""
+          ],
+          [
+            "CC (Canton)",
+            "$0.1350",
+            "+5.5%",
+            "−4.2%",
+            "+3.0%",
+            "$14.7M",
+            "#21",
+            "TRENDING+UP"
+          ],
+          [
+            "AVAX (Avalanche)",
+            "$6.740",
+            "+4.8%",
+            "−1.5%",
+            "+0.4%",
+            "$165M",
+            "#31",
+            ""
+          ],
+          [
+            "ICP (Internet Computer)",
+            "$2.270",
+            "+4.4%",
+            "+1.8%",
+            "+1.0%",
+            "$42.7M",
+            "#60",
+            ""
+          ],
+          [
+            "SKY (Sky)",
+            "$0.05658",
+            "+4.2%",
+            "+0.9%",
+            "−1.5%",
+            "$15.2M",
+            "#58",
+            ""
+          ],
+          [
+            "AAVE (Aave)",
+            "$90.68",
+            "+3.9%",
+            "+3.8%",
+            "−0.5%",
+            "$209M",
+            "#54",
+            ""
+          ],
+          [
+            "AERO (Aerodrome Finance)",
+            "$0.3297",
+            "+3.6%",
+            "−9.4%",
+            "−0.1%",
+            "$19.4M",
+            "#104",
+            "TRENDING+UP, FADE"
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "$1.920",
+            "+2.9%",
+            "−0.5%",
+            "0.0%",
+            "$128M",
+            "#37",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-losers",
+        "table-losers"
+      ]
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "LAB (LAB)",
+            "$0.862",
+            "−47.9%",
+            "",
+            "",
+            "",
+            "#138",
+            "TRENDING+DOWN"
+          ],
+          [
+            "M (MemeCore)",
+            "$1.210",
+            "−6.1%",
+            "−25.7%",
+            "+2.6%",
+            "$14.1M",
+            "#47",
+            ""
+          ],
+          [
+            "PI (Pi Network)",
+            "$0.09692",
+            "−4.6%",
+            "−16.9%",
+            "−1.6%",
+            "$15.6M",
+            "#64",
+            ""
+          ],
+          [
+            "JUP (Jupiter)",
+            "$0.2081",
+            "−3.4%",
+            "−17.0%",
+            "−0.9%",
+            "$21.2M",
+            "#88",
+            ""
+          ],
+          [
+            "NIGHT (Midnight)",
+            "$0.03148",
+            "−1.9%",
+            "+2.1%",
+            "+0.7%",
+            "$13.2M",
+            "#101",
+            ""
+          ],
+          [
+            "XMR (Monero)",
+            "$315.8",
+            "−1.7%",
+            "+0.4%",
+            "−0.2%",
+            "$48.1M",
+            "#19",
+            ""
+          ],
+          [
+            "RAIN (Rain)",
+            "$0.01446",
+            "−1.5%",
+            "−7.1%",
+            "−0.3%",
+            "$14.3M",
+            "#13",
+            ""
+          ],
+          [
+            "WLFI (World Liberty Financial)",
+            "$0.05783",
+            "−1.3%",
+            "−2.0%",
+            "−0.5%",
+            "$24.9M",
+            "#43",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-trending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-trending",
+        "table-trending"
+      ]
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "Change",
+          "Status"
+        ],
+        "rows": [
+          [
+            "LAB",
+            "#138",
+            "$0.862",
+            "−47.9%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "CASHCAT",
+            "#271",
+            "$0.1013",
+            "+8.3%",
+            ""
+          ],
+          [
+            "ANSEM",
+            "#218",
+            "$0.3195",
+            "+4.7%",
+            ""
+          ],
+          [
+            "ARB",
+            "#100",
+            "$0.08528",
+            "+11.6%",
+            "TRENDING+UP"
+          ],
+          [
+            "SLX",
+            "#528",
+            "$0.1593",
+            "−16.6%",
+            ""
+          ],
+          [
+            "PENGU",
+            "#115",
+            "$0.006154",
+            "0.0%",
+            ""
+          ],
+          [
+            "HYPE",
+            "#10",
+            "$67.57",
+            "−0.5%",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-notable",
+        "alert-lab",
+        "alert-arb",
+        "alert-vvv"
+      ]
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert-lab": {
+      "type": "Alert",
+      "props": {
+        "title": "LAB [TRENDING+DOWN]",
+        "message": "Day 2 collapse — −47.9% today after −33.9% yesterday; trending searches still surging into the freefall",
+        "type": "error"
+      },
+      "children": []
+    },
+    "alert-arb": {
+      "type": "Alert",
+      "props": {
+        "title": "ARB [TRENDING+UP]",
+        "message": "Best large-cap move of the day — +11.6% on $125M vol; 7d +8.8% rules out flash pump",
+        "type": "success"
+      },
+      "children": []
+    },
+    "alert-vvv": {
+      "type": "Alert",
+      "props": {
+        "title": "VVV [TRENDING+UP][FADE]",
+        "message": "Full reversal from −7.3% loser (Jul 7) to +9.6% today — 7d −13.4% flags this as a relief bounce in a downtrend",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}

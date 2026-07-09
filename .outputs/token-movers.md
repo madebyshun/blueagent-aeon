@@ -1,40 +1,39 @@
-*Token Movers — 2026-07-07*
+*Token Movers — 2026-07-09*
 
-_Recovery — BTC +2.0%, ETH +1.6% lead an alt bounce; ~60% of top-100 alts reversing yesterday's 80%-red session; LAB's 34% collapse is the dominant move._
+_Risk-on tape — 82% of top-50 non-stablecoins green, median +1.3%; ARB leads alt recovery while LAB extends its collapse into day 2._
 
 *Top Winners (24h)*
-1. M (MemeCore) — $1.45  +28.9% / 7d +124% / 1h +0.3%  •  $16.8M / #43  [BREAKOUT]
-2. AERO (Aerodrome) — $0.5980  +9.1% / 7d +31.5% / 1h −0.9%  •  $36.6M / #97
-3. LIT (Lighter) — $2.660  +7.9% / 7d +41.7% / 1h +2.6%  •  $111M / #92  [TRENDING+UP]
-4. WLFI (World Liberty) — $0.0600  +4.0% / 7d +3.4% / 1h −1.2%  •  $42.1M / #44
-5. MORPHO — $1.990  +3.8% / 7d +8.3% / 1h −0.6%  •  $17.7M / #59
-6. APT (Aptos) — $0.6350  +3.8% / 7d +12.4% / 1h −0.5%  •  $47.9M / #102
-7. BEAT (Audiera) — $2.560  +3.7% / 7d −8.9% / 1h +4.8%  •  $15.0M / #81
-8. TAO (Bittensor) — $212.4  +1.9% / 7d +4.6% / 1h −0.8%  •  $95.5M / #41
+1. ARB (Arbitrum) — $0.08528  +11.6% / 7d +8.8% / 1h 0.0%  •  $125M / #100  [TRENDING+UP]
+2. VVV (Venice Token) — $11.66  +9.6% / 7d −13.4% / 1h +1.2%  •  $35M / #97  [TRENDING+UP][FADE]
+3. LIT (Lighter) — $2.480  +6.0% / 7d +13.9% / 1h +2.4%  •  $56M / #92
+4. CC (Canton) — $0.1350  +5.5% / 7d −4.2% / 1h +3.0%  •  $14.7M / #21  [TRENDING+UP]
+5. AVAX (Avalanche) — $6.740  +4.8% / 7d −1.5% / 1h +0.4%  •  $165M / #31
+6. ICP (Internet Computer) — $2.270  +4.4% / 7d +1.8% / 1h +1.0%  •  $42.7M / #60
+7. SKY (Sky) — $0.05658  +4.2% / 7d +0.9% / 1h −1.5%  •  $15.2M / #58
+8. AAVE (Aave) — $90.68  +3.9% / 7d +3.8% / 1h −0.5%  •  $209M / #54
+9. AERO (Aerodrome Finance) — $0.3297  +3.6% / 7d −9.4% / 1h −0.1%  •  $19.4M / #104  [TRENDING+UP][FADE]
+10. NEAR (NEAR Protocol) — $1.920  +2.9% / 7d −0.5% / 1h 0.0%  •  $128M / #37
 
 *Top Losers (24h)*
-1. LAB — $11.30  −33.9% / 7d −13.6% / 1h +18.2%  •  $60.9M / #27  [TRENDING+DOWN]
-2. BONK — $0.0000040  −8.2%  •  N/A / #120  [TRENDING+DOWN]
-3. VVV (Venice) — $10.83  −7.3%  •  N/A / #103  [TRENDING+DOWN]
-4. WLD (Worldcoin) — $0.3850  −5.2% / 7d −5.6% / 1h −1.3%  •  $133M / #56
-5. CC (Canton) — $0.1340  −3.8% / 7d −2.1% / 1h −0.4%  •  $10.4M / #21
-6. XLM (Stellar) — $0.1920  −3.2% / 7d +9.2% / 1h −0.5%  •  $228M / #18
-7. HBAR (Hedera) — $0.0710  −2.9% / 7d +2.0% / 1h −0.6%  •  $66.9M / #30
-8. KAS (Kaspa) — $0.02950  −2.4% / 7d −6.3% / 1h −1.0%  •  $8.0M / #77
-9. DOGE — $0.07430  −1.3% / 7d +6.6% / 1h −0.4%  •  $729M / #11  [MAJOR]
-10. ADA (Cardano) — $0.1780  −1.2% / 7d +23.6% / 1h −0.5%  •  $406M / #16
+1. LAB (LAB) — $0.862  −47.9%  •  #138  [TRENDING+DOWN]
+2. M (MemeCore) — $1.210  −6.1% / 7d −25.7% / 1h +2.6%  •  $14.1M / #47
+3. PI (Pi Network) — $0.09692  −4.6% / 7d −16.9% / 1h −1.6%  •  $15.6M / #64
+4. JUP (Jupiter) — $0.2081  −3.4% / 7d −17.0% / 1h −0.9%  •  $21.2M / #88
+5. NIGHT (Midnight) — $0.03148  −1.9% / 7d +2.1% / 1h +0.7%  •  $13.2M / #101
+6. XMR (Monero) — $315.8  −1.7% / 7d +0.4% / 1h −0.2%  •  $48.1M / #19
+7. RAIN (Rain) — $0.01446  −1.5% / 7d −7.1% / 1h −0.3%  •  $14.3M / #13
+8. WLFI (World Liberty Financial) — $0.05783  −1.3% / 7d −2.0% / 1h −0.5%  •  $24.9M / #43
 
 *Trending*
-1. LAB — #27, $11.30, −33.9%  [TRENDING+DOWN]
-2. LIT (Lighter) — #92, $2.66, +7.9%  [TRENDING+UP]
-3. BONK — #120, $0.0000040, −8.2%  [TRENDING+DOWN]
-4. BTC — #1, $62,997, +2.0%  [MAJOR]
-5. GROVE — #971, $0.028, +9.9%  [MICROCAP]
-6. PENGU (Pudgy Penguins) — #113, $0.0066, +0.2%
-7. HYPE — #10, $71.41, +2.6%  [MAJOR]
+1. LAB (#138) — $0.862, −47.9%  [TRENDING+DOWN]
+2. CASHCAT (#271) — $0.1013, +8.3%
+3. ANSEM (#218) — $0.3195, +4.7%
+4. ARB (#100) — $0.08528, +11.6%  [TRENDING+UP]
+5. SLX (#528) — $0.1593, −16.6%
+6. PENGU (#115) — $0.006154, 0.0%
+7. HYPE (#10) — $67.57, −0.5%
 
 *Notable*
-• LAB [TRENDING+DOWN]: trending 3 days, direction flipped — +25% (Jul 5), +7% (Jul 6), now −34%; 1h +18% hints at dip bounce; trend broken
-• M [BREAKOUT]: top loser yesterday (−19.8%); 7d +124% confirms structural — not a relief bounce
-• LIT [TRENDING+UP]: third consecutive trending day, $111M volume — Robinhood perp-engine bid intact
-• BONK + VVV: two trending tokens flashing [TRENDING+DOWN] — sector caution amid broader recovery
+• LAB [TRENDING+DOWN]: Day 2 collapse — −47.9% today after −33.9% yesterday; trending searches still surging into the freefall
+• ARB [TRENDING+UP]: Best large-cap move of the day — +11.6% on $125M vol; 7d +8.8% rules out flash pump
+• VVV [TRENDING+UP][FADE]: Full reversal from −7.3% loser (Jul 7) to +9.6% today — 7d −13.4% flags this as a relief bounce in a downtrend
