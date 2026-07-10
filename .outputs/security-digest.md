@@ -1,26 +1,37 @@
-The temp files couldn't be removed (sandbox policy), but they're harmless `.tmp_` prefix files. The digest is complete.
+*Security Digest — 2026-07-10*
+Verdict: 2 actively exploited/critical-with-PoC, 4 to patch this week, 2 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
----
+*PATCH TODAY*
+- [CVE-2026-55255](https://github.com/advisories/GHSA-qrpv-q767-xqq2) — langflow (pip) · KEV added 2026-07-07 · EPSS 0.005 · CVSS —
+  IDOR in /api/v1/responses: auth'd attacker executes any user's flow by supplying victim flow ID. Public PoC. KEV due: today.
+  → upgrade langflow to ≥ 1.9.1 now.
 
-## Summary
+- [CVE-2026-52831](https://github.com/advisories/GHSA-v5px-423j-pf7p) — nuclio (Go) · CVSS 10.0 · EPSS — · public PoC
+  Cron trigger headers/body unsanitized → shell injection → persistent root RCE in CronJob pods. Backdoors survive function deletion.
+  → upgrade nuclio to ≥ 1.16.4 today.
 
-**Security Digest — 2026-07-08** executed and queued to `.pending-notify/1751980000.md`.
+*PATCH THIS WEEK*
+- [CVE-2026-53649](https://github.com/advisories/GHSA-xqhv-chqm-fhcc) — joro (Go) · CVSS 9.6 · EPSS —
+  Default localhost API + CORS wildcard: any page the operator visits can upload a malicious plugin and trigger RCE on restart.
+  → upgrade joro past commit 5c0ca35db828.
 
-**PATCH TODAY (3 — all KEV, confirmed exploitation):**
-- CVE-2026-55255 — Langflow (pip) — auth bypass → executes other users' flows
-- CVE-2026-48282 — Adobe ColdFusion — path traversal → RCE
-- CVE-2026-48908 — JoomShaper SP Page Builder — unauth PHP file upload → exec
+- [CVE-2026-50197](https://github.com/advisories/GHSA-659f-rgp5-w4wf) — skipper (Go) · CVSS 8.7 · EPSS — · public PoC
+  opaAuthorizeRequestWithBody bypassed on chunked/HTTP2 requests: OPA evaluates empty body, full payload passes upstream.
+  → upgrade skipper to ≥ 0.26.10.
 
-**PATCH THIS WEEK (5):**
-- CVE-2026-53552 (goploy/go) — CVSS 9.6, IDOR+RCE with public PoC, no patch yet
-- CVE-2026-53513 (@better-auth/sso/npm) — CVSS 9.6, SSRF → account takeover; fix: upgrade to ≥1.6.11
-- CVE-2026-53512 (better-auth/npm) — CVSS 9.1, OAuth token replay; fix: ≥1.6.11
-- GHSA-9h47-pqcx-hjr4 (better-auth/npm) — CVSS 8.7, alg=none default; fix: ≥1.6.11
-- CVE-2026-53516 (better-auth/npm) — CVSS 8.3, OAuth account takeover; fix: ≥1.6.11 (+4 more in same release)
+- [CVE-2026-49471](https://github.com/advisories/GHSA-37h2-6p4f-mp3q) — serena-agent (pip) · CVSS 8.3 · EPSS 0.002
+  Unauthenticated Flask dashboard on fixed port exposed to DNS rebinding → memory poisoning → RCE.
+  → upgrade serena-agent to ≥ 1.5.2.
 
-**MONITOR (3):**
-- CVE-2025-46719 (open-webui/pip) — stored XSS → full RCE via functions, no patch
-- CVE-2026-54760 (langroid/pip) — SQLChatAgent blocklist bypass, no patch
-- CVE-2026-53553 (goploy/go) — CVSS 7.7, path traversal companion to the RCE above, no patch
+- [CVE-2026-49825](https://github.com/advisories/GHSA-4jhm-jv67-739f) — lxml-html-clean (pip) · CVSS 8.2 · EPSS —
+  Cleaner misses javascript: URLs in namespaced attributes; XSS via sanitized output.
+  → upgrade lxml-html-clean to ≥ 0.4.5.
 
-**Files modified:** `memory/logs/2026-07-08.md`, `.pending-notify/1751980000.md`
+*MONITOR*
+- [GHSA-2wc2-fm75-p42x](https://github.com/advisories/GHSA-2wc2-fm75-p42x) — soupsieve (pip) · CVSS 7.5 · no fix yet (≤ 2.8.3)
+  Memory exhaustion + ReDoS via oversized selector lists. Affects all beautifulsoup4 users.
+  → track soupsieve; no patch yet.
+
+- [GHSA-52vm-mxx8-f227](https://github.com/advisories/GHSA-52vm-mxx8-f227) — phantom-audio (pip) · no CVSS · no fix yet (≤ 1.3.0)
+  Unconfined MCP tool paths → arbitrary file write + decode-bomb DoS.
+  → track phantom-audio; no patch yet.

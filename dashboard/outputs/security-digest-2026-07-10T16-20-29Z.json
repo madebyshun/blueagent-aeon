@@ -1,0 +1,425 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-07-10"
+      },
+      "children": [
+        "verdict",
+        "sep1",
+        "patch_today_h",
+        "patch_today_stack",
+        "sep2",
+        "patch_week_h",
+        "patch_week_stack",
+        "sep3",
+        "monitor_h",
+        "monitor_stack"
+      ]
+    },
+    "verdict": {
+      "type": "Text",
+      "props": {
+        "text": "2 actively exploited/critical-with-PoC, 4 to patch this week, 2 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_today_h": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "patch_today_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve_55255",
+        "cve_52831"
+      ]
+    },
+    "cve_55255": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_55255_link",
+        "cve_55255_meta",
+        "cve_55255_desc",
+        "cve_55255_action"
+      ]
+    },
+    "cve_55255_link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-55255",
+        "href": "https://github.com/advisories/GHSA-qrpv-q767-xqq2"
+      }
+    },
+    "cve_55255_meta": {
+      "type": "Text",
+      "props": {
+        "text": "langflow (pip) · KEV added 2026-07-07 · EPSS 0.005 · CVSS —",
+        "variant": "caption"
+      }
+    },
+    "cve_55255_desc": {
+      "type": "Text",
+      "props": {
+        "text": "IDOR in /api/v1/responses: auth'd attacker executes any user's flow by supplying victim flow ID. Public PoC. KEV due: today."
+      }
+    },
+    "cve_55255_action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade langflow to ≥ 1.9.1 now.",
+        "type": "warning"
+      }
+    },
+    "cve_52831": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_52831_link",
+        "cve_52831_meta",
+        "cve_52831_desc",
+        "cve_52831_action"
+      ]
+    },
+    "cve_52831_link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-52831",
+        "href": "https://github.com/advisories/GHSA-v5px-423j-pf7p"
+      }
+    },
+    "cve_52831_meta": {
+      "type": "Text",
+      "props": {
+        "text": "nuclio (Go) · CVSS 10.0 · EPSS — · public PoC",
+        "variant": "caption"
+      }
+    },
+    "cve_52831_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cron trigger headers/body unsanitized → shell injection → persistent root RCE in CronJob pods. Backdoors survive function deletion."
+      }
+    },
+    "cve_52831_action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade nuclio to ≥ 1.16.4 today.",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_week_h": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch_week_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve_53649",
+        "cve_50197",
+        "cve_49471",
+        "cve_49825"
+      ]
+    },
+    "cve_53649": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_53649_link",
+        "cve_53649_meta",
+        "cve_53649_desc",
+        "cve_53649_action"
+      ]
+    },
+    "cve_53649_link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-53649",
+        "href": "https://github.com/advisories/GHSA-xqhv-chqm-fhcc"
+      }
+    },
+    "cve_53649_meta": {
+      "type": "Text",
+      "props": {
+        "text": "joro (Go) · CVSS 9.6 · EPSS —",
+        "variant": "caption"
+      }
+    },
+    "cve_53649_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Default localhost API + CORS wildcard: any page the operator visits can upload a malicious plugin and trigger RCE on restart."
+      }
+    },
+    "cve_53649_action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade joro past commit 5c0ca35db828.",
+        "type": "warning"
+      }
+    },
+    "cve_50197": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_50197_link",
+        "cve_50197_meta",
+        "cve_50197_desc",
+        "cve_50197_action"
+      ]
+    },
+    "cve_50197_link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-50197",
+        "href": "https://github.com/advisories/GHSA-659f-rgp5-w4wf"
+      }
+    },
+    "cve_50197_meta": {
+      "type": "Text",
+      "props": {
+        "text": "skipper (Go) · CVSS 8.7 · EPSS — · public PoC",
+        "variant": "caption"
+      }
+    },
+    "cve_50197_desc": {
+      "type": "Text",
+      "props": {
+        "text": "opaAuthorizeRequestWithBody bypassed on chunked/HTTP2 requests: OPA evaluates empty body, full payload passes upstream."
+      }
+    },
+    "cve_50197_action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade skipper to ≥ 0.26.10.",
+        "type": "warning"
+      }
+    },
+    "cve_49471": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_49471_link",
+        "cve_49471_meta",
+        "cve_49471_desc",
+        "cve_49471_action"
+      ]
+    },
+    "cve_49471_link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-49471",
+        "href": "https://github.com/advisories/GHSA-37h2-6p4f-mp3q"
+      }
+    },
+    "cve_49471_meta": {
+      "type": "Text",
+      "props": {
+        "text": "serena-agent (pip) · CVSS 8.3 · EPSS 0.002",
+        "variant": "caption"
+      }
+    },
+    "cve_49471_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated Flask dashboard on fixed port exposed to DNS rebinding → memory poisoning → RCE."
+      }
+    },
+    "cve_49471_action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade serena-agent to ≥ 1.5.2.",
+        "type": "warning"
+      }
+    },
+    "cve_49825": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_49825_link",
+        "cve_49825_meta",
+        "cve_49825_desc",
+        "cve_49825_action"
+      ]
+    },
+    "cve_49825_link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-49825",
+        "href": "https://github.com/advisories/GHSA-4jhm-jv67-739f"
+      }
+    },
+    "cve_49825_meta": {
+      "type": "Text",
+      "props": {
+        "text": "lxml-html-clean (pip) · CVSS 8.2 · EPSS —",
+        "variant": "caption"
+      }
+    },
+    "cve_49825_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cleaner misses javascript: URLs in namespaced attributes; XSS via sanitized output."
+      }
+    },
+    "cve_49825_action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade lxml-html-clean to ≥ 0.4.5.",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor_h": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "monitor_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_2wc2",
+        "ghsa_52vm"
+      ]
+    },
+    "ghsa_2wc2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_2wc2_link",
+        "ghsa_2wc2_meta",
+        "ghsa_2wc2_desc",
+        "ghsa_2wc2_action"
+      ]
+    },
+    "ghsa_2wc2_link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-2wc2-fm75-p42x",
+        "href": "https://github.com/advisories/GHSA-2wc2-fm75-p42x"
+      }
+    },
+    "ghsa_2wc2_meta": {
+      "type": "Text",
+      "props": {
+        "text": "soupsieve (pip) · CVSS 7.5 · no fix yet (≤ 2.8.3)",
+        "variant": "caption"
+      }
+    },
+    "ghsa_2wc2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Memory exhaustion + ReDoS via oversized selector lists. Affects all beautifulsoup4 users."
+      }
+    },
+    "ghsa_2wc2_action": {
+      "type": "Alert",
+      "props": {
+        "message": "track soupsieve; no patch yet.",
+        "type": "info"
+      }
+    },
+    "ghsa_52vm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_52vm_link",
+        "ghsa_52vm_meta",
+        "ghsa_52vm_desc",
+        "ghsa_52vm_action"
+      ]
+    },
+    "ghsa_52vm_link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-52vm-mxx8-f227",
+        "href": "https://github.com/advisories/GHSA-52vm-mxx8-f227"
+      }
+    },
+    "ghsa_52vm_meta": {
+      "type": "Text",
+      "props": {
+        "text": "phantom-audio (pip) · no CVSS · no fix yet (≤ 1.3.0)",
+        "variant": "caption"
+      }
+    },
+    "ghsa_52vm_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unconfined MCP tool paths → arbitrary file write + decode-bomb DoS."
+      }
+    },
+    "ghsa_52vm_action": {
+      "type": "Alert",
+      "props": {
+        "message": "track phantom-audio; no patch yet.",
+        "type": "info"
+      }
+    }
+  }
+}
