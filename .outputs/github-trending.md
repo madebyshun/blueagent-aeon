@@ -1,22 +1,24 @@
-*GitHub Trending — 2026-07-09*
+*GitHub Trending — 2026-07-10*
 
-*Top pick* — [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)
-An end-to-end Claude Code agent for the full job search cycle — 5,079 stars in one day signals this hit a real nerve with the dev-as-job-seeker crowd.
-
-*AI/ML*
-• [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) — ★ 454 today (19k total) · Go · [RETURNING]
-Fully autonomous pentest agent chains recon → exploit → report with zero human in the loop — one of the most complete open-source offensive AI pipelines available.
+*Top pick* — [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)
+1,929★ today for the first Office suite built for AI agents — CLI-native Word/Excel/PowerPoint that runs without a browser or human in the loop.
 
 *Devtools*
-• [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — ★ 1,297 today (75.4k total) · JavaScript · [ACCELERATING]
-Community-maintained Claude Code skill library at 75k stars in ~144 days — new skills added daily, fastest-growing agent SDK catalog around.
+• [mattpocock/skills](https://github.com/mattpocock/skills) — ★ 1,728 today (163.9k total) · Shell · [ACCELERATING]
+Matt Pocock's production TypeScript expertise encoded as Claude skills — opinionated TS-first patterns, not generic coding advice.
 
-• [huxingyi/autoremesher](https://github.com/huxingyi/autoremesher) — ★ 296 today (2.2k total) · C++ · [RETURNING]
-Pushed today after a quiet period — auto-generates clean quad topology from any 3D mesh, fills a gap that most commercial tools charge thousands for.
+• [obra/superpowers](https://github.com/obra/superpowers) — ★ 1,096 today (251.4k total) · Shell · [ACCELERATING]
+Ships an agentic development methodology, not a skill dump — structured workflow for planning, scoping, and shipping with AI agents.
 
-*Other*
-• [SmartlyDressedGames/U3-SDK](https://github.com/SmartlyDressedGames/U3-SDK) — ★ 541 today (1.7k total) · C# · [RETURNING]
-Unturned — a free Steam zombie survival game with a massive player base — just open-sourced its full C# SDK after years of closed development.
+• [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) — ★ 185 today (6.8k total) · TypeScript · [RETURNING]
+Gives Claude full terminal control and file-system search over MCP — execute commands, diff files, and search repos from inside a conversation.
+
+*AI/ML*
+• [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) — ★ 581 today (8.1k total) · TypeScript · [ACCELERATING]
+Four-tier hot/warm/cold/archive memory pipeline running entirely locally — SQLite + FAISS, zero external API dependencies.
+
+• [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) — ★ 101 today (6.6k total) · TypeScript · [RETURNING]
+Google Labs' open agent skills library for the Stitch MCP server — signals Google's bet on a shared cross-agent skills standard.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/15
+sources: trending=ok · gh_api=ok · kept 6/19

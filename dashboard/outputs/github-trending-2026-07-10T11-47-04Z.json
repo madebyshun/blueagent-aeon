@@ -1,0 +1,369 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-10"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-top-pick",
+        "item-officecli",
+        "sep-1",
+        "heading-devtools",
+        "item-mattpocock",
+        "item-obra",
+        "item-wonderwhy",
+        "sep-2",
+        "heading-aiml",
+        "item-tencentcloud",
+        "item-google",
+        "sep-3",
+        "text-footer"
+      ]
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "item-officecli": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-officecli",
+        "text-officecli-desc"
+      ]
+    },
+    "link-officecli": {
+      "type": "StoryLink",
+      "props": {
+        "title": "iOfficeAI/OfficeCLI",
+        "href": "https://github.com/iOfficeAI/OfficeCLI",
+        "score": "1,929★ today"
+      }
+    },
+    "text-officecli-desc": {
+      "type": "Text",
+      "props": {
+        "text": "The first Office suite built for AI agents — CLI-native Word/Excel/PowerPoint that runs without a browser or human in the loop.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "item-mattpocock": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-mattpocock",
+        "text-mattpocock-desc",
+        "badges-mattpocock"
+      ]
+    },
+    "link-mattpocock": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mattpocock/skills",
+        "href": "https://github.com/mattpocock/skills",
+        "score": "1,728★ today (163.9k total)"
+      }
+    },
+    "text-mattpocock-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Matt Pocock's production TypeScript expertise encoded as Claude skills — opinionated TS-first patterns, not generic coding advice.",
+        "variant": "body"
+      }
+    },
+    "badges-mattpocock": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-mattpocock-lang",
+        "badge-mattpocock-status"
+      ]
+    },
+    "badge-mattpocock-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell",
+        "variant": "secondary"
+      }
+    },
+    "badge-mattpocock-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "item-obra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-obra",
+        "text-obra-desc",
+        "badges-obra"
+      ]
+    },
+    "link-obra": {
+      "type": "StoryLink",
+      "props": {
+        "title": "obra/superpowers",
+        "href": "https://github.com/obra/superpowers",
+        "score": "1,096★ today (251.4k total)"
+      }
+    },
+    "text-obra-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Ships an agentic development methodology, not a skill dump — structured workflow for planning, scoping, and shipping with AI agents.",
+        "variant": "body"
+      }
+    },
+    "badges-obra": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-obra-lang",
+        "badge-obra-status"
+      ]
+    },
+    "badge-obra-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell",
+        "variant": "secondary"
+      }
+    },
+    "badge-obra-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "item-wonderwhy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-wonderwhy",
+        "text-wonderwhy-desc",
+        "badges-wonderwhy"
+      ]
+    },
+    "link-wonderwhy": {
+      "type": "StoryLink",
+      "props": {
+        "title": "wonderwhy-er/DesktopCommanderMCP",
+        "href": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+        "score": "185★ today (6.8k total)"
+      }
+    },
+    "text-wonderwhy-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Gives Claude full terminal control and file-system search over MCP — execute commands, diff files, and search repos from inside a conversation.",
+        "variant": "body"
+      }
+    },
+    "badges-wonderwhy": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-wonderwhy-lang",
+        "badge-wonderwhy-status"
+      ]
+    },
+    "badge-wonderwhy-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge-wonderwhy-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "item-tencentcloud": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-tencentcloud",
+        "text-tencentcloud-desc",
+        "badges-tencentcloud"
+      ]
+    },
+    "link-tencentcloud": {
+      "type": "StoryLink",
+      "props": {
+        "title": "TencentCloud/TencentDB-Agent-Memory",
+        "href": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+        "score": "581★ today (8.1k total)"
+      }
+    },
+    "text-tencentcloud-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Four-tier hot/warm/cold/archive memory pipeline running entirely locally — SQLite + FAISS, zero external API dependencies.",
+        "variant": "body"
+      }
+    },
+    "badges-tencentcloud": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-tencentcloud-lang",
+        "badge-tencentcloud-status"
+      ]
+    },
+    "badge-tencentcloud-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge-tencentcloud-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "item-google": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-google",
+        "text-google-desc",
+        "badges-google"
+      ]
+    },
+    "link-google": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google-labs-code/stitch-skills",
+        "href": "https://github.com/google-labs-code/stitch-skills",
+        "score": "101★ today (6.6k total)"
+      }
+    },
+    "text-google-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Google Labs' open agent skills library for the Stitch MCP server — signals Google's bet on a shared cross-agent skills standard.",
+        "variant": "body"
+      }
+    },
+    "badges-google": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-google-lang",
+        "badge-google-status"
+      ]
+    },
+    "badge-google-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge-google-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/19",
+        "variant": "caption"
+      }
+    }
+  }
+}
