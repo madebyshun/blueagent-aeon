@@ -1,27 +1,25 @@
-*Narrative Tracker — 2026-07-06*
+*Narrative Tracker — 2026-07-10*
 
 TRANSITIONS
-• PROMOTED: BTC Institutional Distribution Fading → Rising/FADE — Strategy sold 3,588 BTC ($216M) to fund preferred dividends; $1.25B tactical-sales framework (Jun 29), 17% consumed in one week. Corporate HODLer narrative cracked. MSTR −19.8%. https://www.coindesk.com/markets/2026/07/06/michael-saylor-s-strategy-dramatically-ups-pace-of-bitcoin-sales-raising-usd216-million
-• PROMOTED: Ethereum Roadmap Emerging/2 → Rising/4 — Vitalik published Lean Ethereum today (CoinDesk Jul 6): 3-4yr overhaul, quantum resistance, privacy as protocol goal, STARKs replacing BLS/KZG/ECDSA. Stacks on Glamsterdam (Sep-Dec 2026). ETH ~$1,750. https://www.coindesk.com/tech/2026/07/06/vitalik-buterin-says-ethereum-is-preparing-its-biggest-rebuild-since-the-merge
-• RESOLVED: HYPE Unlock WATCH → RIDE — $630M absorbed. Jun precedent: contributors restaked, ATH followed 10 days later. Buyback fund 45.65M HYPE (4.6× unlock). ETF thesis survived stress test.
-• COMPOUNDING: MiCA Enforcement Day 6 — Ripple secured full MiCA EU authorization (Luxembourg). XRP ETF inflows. Compliant-exchange moat expanding.
-• SELL-THE-NEWS: GRASS tomorrow — GRASS −7.7% today = pre-event selling confirming exit thesis.
+• NEW: Base B20 / Stablecoin Settlement Layer — native compliance standard live Jul 8; Base $565B June stablecoin vol = #1 L2 by volume
+• NEW: Robinhood Chain / L2 Revenue Models — fee-share to ARB treasury + Uniswap v4 exclusive DEX converts both tokens from governance → revenue-accruing; $100M TVL wk 1
+• NEW: AI Agent Economy Infrastructure — Fable 5 export controls lifted Jul 1 + Coinbase agent accounts live; back-office layer (wallets, rails, billing, governance) entering buildout phase
 
 REFLEXIVITY ALERT
-• Strategy BTC Sales — $1.25B authorization, 17% in 1 week. If corporates follow, accumulation loop that drove BTC from $30K inverts. MSTR −19.8% is leading signal.
-• HYPE Confirmed — Unlock absorbed (2nd consecutive month). Buyback fund (4.6×) + restaking = structural floor. ETF loop intact.
+• Robinhood Chain — ARB +11.6% Jul 9 / UNI +9.1% Jul 10 moving on revenue narrative; actual fee-share to treasuries is negligible at current scale
+• AI Agent Compute (PHALA) — +102.9% weekly on infrastructure narrative with no confirmed on-chain fundamental shift
 
 POSITIONS
-• FRONT-RUN: Ethereum Roadmap (4 ↑↑, Bull) — @VitalikButerin; Ethereum core devs — Bear: 3-4yr timeline; developer urgency (bullish signal)
-• RIDE: HYPE/Perp DEXs (3 ↑, Bull) — Bitwise BHYP; team restaking confirmed — Bear: near ATH $76.85
-• RIDE: AI Agent Payments (5 ↑, Bull) — Coinbase for Agents; x402; WEEX — Bear: EU AI Act Aug 2
-• RIDE: Base Ecosystem (4 ↑, Bull) — Base MCP; Coinbase for Agents; @blockyonbase
-• RIDE: MiCA Enforcement (3 →, Mixed) — Circle; Ripple MiCA win
-• FADE: BTC Institutional Distribution (3 ↑, Bear) — Strategy $1.25B auth; MSTR −19.8%
-• WATCH: GRASS — Jul 7 clarity call TOMORROW; pre-event sell pressure confirmed
+• FRONT-RUN: Base B20 (mindshare 3 ↑↑, Bull) — @base @coinbase Ondo Finance — bear: compliance freeze/transfer controls = corporate rails dressed as DeFi
+• FRONT-RUN: Robinhood Chain / ARB (mindshare 3 ↑↑, Bull) — Robinhood, Arbitrum team, @Uniswap — bear: $100M TVL wk 1 is retail FOMO; treasury revenue at scale is noise
+• RIDE: RWA Tokenization (mindshare 4 ↑, Bull) — BlackRock BUIDL $2.4B, Securitize $400M raise, DTCC Russell 1000 test — bear: 56% of tokenized assets have zero weekly activity
+• RIDE: AI Agent Economy (mindshare 4 ↑, Bull) — @coinbase agent accounts, @a16zcrypto, @anthropic — bear: back-office buildout is speculation; actual agent demand unproven
+• FADE: Stablecoin Payments Volume (mindshare 4 →, Bull) — $1.8T monthly ATH — narrative fully priced; bot/arb flows inflate organic payment story
+• WATCH: Fed Pivot / Macro Tailwind (mindshare 4 →, Mixed) — US-Iran strikes knocked BTC Jul 9; geopolitical risk underpriced in this thesis
+• WATCH: Agentic Dev Tools (mindshare 3 ↑↑, Bull) — mattpocock/skills, obra/superpowers viral on GitHub; no token play yet
 
 MAP
-Emerging: Altcoin ETF Pipeline
-Rising: Ethereum Roadmap, HYPE/Perp DEXs, AI Agent Payments, Base Ecosystem, MiCA, Stablecoins, MORPHO, GRASS (exit imminent)
-Peak: AI Crypto Infra, Prediction Markets (exit Jul 19), RWA
-Fading: BTC Institutional Distribution (FADE), DeFi Rotation, CLARITY Act (stalled)
+Emerging: Base B20, Robinhood Chain / L2 Revenue Models
+Rising: AI Agent Economy Infrastructure, RWA Tokenization, Agentic Dev Tools
+Peak: Stablecoin Payments Volume, Fed Pivot / Macro Tailwind
+Fading: —
