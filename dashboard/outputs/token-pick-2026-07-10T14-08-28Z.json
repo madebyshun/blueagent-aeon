@@ -1,0 +1,291 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-10"
+      },
+      "children": [
+        "heading_token",
+        "sep1",
+        "badge_signal",
+        "progress_score",
+        "sep2",
+        "stat_price",
+        "stat_change_24h",
+        "stat_change_7d",
+        "stat_mcap",
+        "stat_volume",
+        "stat_volmcap",
+        "sep3",
+        "heading_score",
+        "text_score_breakdown",
+        "sep4",
+        "heading_catalyst",
+        "text_catalyst_1",
+        "text_catalyst_2",
+        "text_catalyst_3",
+        "sep5",
+        "heading_risk",
+        "alert_risk_1",
+        "alert_risk_2",
+        "sep6",
+        "heading_comparison",
+        "text_comparison",
+        "sep7",
+        "heading_sources",
+        "text_sources",
+        "sep8",
+        "alert_disclaimer"
+      ]
+    },
+    "heading_token": {
+      "type": "Heading",
+      "props": {
+        "text": "UNI",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH signal",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "progress_score": {
+      "type": "Progress",
+      "props": {
+        "value": 8,
+        "max": 10,
+        "label": "Signal Score"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$3.64"
+      },
+      "children": []
+    },
+    "stat_change_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+9.1%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_change_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+12.8%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$2.26B"
+      },
+      "children": []
+    },
+    "stat_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$208M"
+      },
+      "children": []
+    },
+    "stat_volmcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/MCap Ratio",
+        "value": "0.09"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_score": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_score_breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "trending +2 | 24h > 0 +1 | 7d > 0 +1 | both > 5% +2 | RS vs BTC/ETH +2 = 8/10",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_catalyst": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalysts",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_catalyst_1": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain chose Uniswap v4 as exclusive default DEX from day one (Jul 1) — $250M protocol volume in <1 week, already #2 Uniswap chain by 24h vol behind only Ethereum; v4 fee switch activated (UNI holders now earn protocol fees)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_catalyst_2": {
+      "type": "Text",
+      "props": {
+        "text": "Ondo Finance integration adds 430+ tokenized RWA assets through Uniswap liquidity",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_catalyst_3": {
+      "type": "Text",
+      "props": {
+        "text": "Exclusive default DEX status on emerging high-volume chain",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_risk": {
+      "type": "Heading",
+      "props": {
+        "text": "Risks",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "alert_risk_1": {
+      "type": "Alert",
+      "props": {
+        "title": "Meme Coin Dependency",
+        "message": "CASHCAT meme coin driving portion of Robinhood Chain vol — if meme hype fades, fee revenue reverts",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "alert_risk_2": {
+      "type": "Alert",
+      "props": {
+        "title": "Governance Risk",
+        "message": "v4 fee switch could face governance challenge",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_comparison": {
+      "type": "Heading",
+      "props": {
+        "text": "Vs Recent Picks",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_comparison": {
+      "type": "Text",
+      "props": {
+        "text": "UNI not picked in last 7 days — first appearance this cycle",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_sources": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok | dex=fail | poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep8": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_disclaimer": {
+      "type": "Alert",
+      "props": {
+        "title": "Disclaimer",
+        "message": "Not financial advice — pattern-matching only",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
