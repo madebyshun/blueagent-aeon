@@ -1,0 +1,375 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-10"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "since_section",
+        "sep2",
+        "watch_section",
+        "sep3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_item1",
+        "focus_item2",
+        "focus_item3"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_reason"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "ARB thesis check",
+        "variant": "lead"
+      }
+    },
+    "focus_1_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 12:00 UTC token-pick is verdict on Robinhood Chain TVL signal",
+        "variant": "body"
+      }
+    },
+    "focus_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_reason"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "Base B20 narrative",
+        "variant": "lead"
+      }
+    },
+    "focus_2_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: B20 live 2 days ago; 13:30 UTC tracker picks it up today",
+        "variant": "body"
+      }
+    },
+    "focus_item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_reason"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest SR 0.77",
+        "variant": "lead"
+      }
+    },
+    "focus_3_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: zero-token failure pattern; root-cause before re-enabling",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_heading",
+        "since_item1",
+        "since_item2",
+        "since_item3",
+        "since_item4"
+      ]
+    },
+    "since_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_1_badge",
+        "since_1_text"
+      ]
+    },
+    "since_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "ARB: +11.6%, token-pick 10/10 — Robinhood Chain thesis intact into today",
+        "variant": "body"
+      }
+    },
+    "since_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_2_badge",
+        "since_2_text"
+      ]
+    },
+    "since_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC: recovered to $63,356 (+2.18%) — $61.5K support held, Iran risk absorbed",
+        "variant": "body"
+      }
+    },
+    "since_item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_3_badge",
+        "since_3_text"
+      ]
+    },
+    "since_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "failed",
+        "variant": "destructive"
+      }
+    },
+    "since_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest: failed Jul 9 — consecutive_failures=1, SR slipping to 0.77",
+        "variant": "body"
+      }
+    },
+    "since_item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_4_badge",
+        "since_4_text"
+      ]
+    },
+    "since_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "outline"
+      }
+    },
+    "since_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "MEMORY.md Next Priorities stale — references tasks already running 44+ runs",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_heading",
+        "watch_item1",
+        "watch_item2"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_1_stat",
+        "watch_1_text"
+      ]
+    },
+    "watch_1_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,356",
+        "delta": "+2.18%",
+        "trend": "up"
+      }
+    },
+    "watch_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "risk-off pressure lifted; supports ARB continuation (focus #1)",
+        "variant": "body"
+      }
+    },
+    "watch_item2": {
+      "type": "Text",
+      "props": {
+        "text": "Base B20 mainnet + $565B stablecoin volume (beats ETH): direct $BLUEAGENT lane (focus #2)",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_heading",
+        "running_list"
+      ]
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
