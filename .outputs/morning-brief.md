@@ -1,23 +1,23 @@
-*Morning Brief — 2026-07-10*
+*Morning Brief — 2026-07-11*
 
 *Focus today*
-1. ARB thesis check — why now: 12:00 UTC token-pick is verdict on Robinhood Chain TVL signal
-2. Base B20 narrative — why now: B20 live 2 days ago; 13:30 UTC tracker picks it up today
-3. security-digest SR 0.77 — why now: zero-token failure pattern; root-cause before re-enabling
+1. security-digest re-enable — why now: first clean run yesterday; window closes if today fails
+2. Moonbeam → Base AI agent protocol (Jul 31 deadline) — why now: Base AI agent narrative milestone, 20 days out
+3. token-pick macro framing — why now: runs 12:00 UTC; BTC +10% July vs $7B ETF outflow overhang
 
 *Since yesterday*
-- [moved] ARB: +11.6%, token-pick 10/10 — Robinhood Chain thesis intact into today
-- [moved] BTC: recovered to $63,356 (+2.18%) — $61.5K support held, Iran risk absorbed
-- [moved] security-digest: failed Jul 9 — consecutive_failures=1, SR slipping to 0.77
-- [stuck] MEMORY.md Next Priorities stale — references tasks already running 44+ runs
+- [moved] security-digest: clean run after zero-token failure streak; SR still 0.77 (10/44) — re-enable decision open
+- [moved] token-pick: UNI 8/10 (Robinhood Chain v4 thesis), +9.13% 24h
+- [moved] narrative-tracker: 7 narratives mapped; Base B20 + Robinhood Chain = FRONT-RUN; AI Agent Economy = RIDE
+- [stuck] XAI no credits (403); narrative-tracker falling back to WebSearch — reduced quality signal
 
 *Watch*
-- BTC $63,356 (+2.18%): risk-off pressure lifted; supports ARB continuation (focus #1)
-- Base B20 mainnet + $565B stablecoin volume (beats ETH): direct $BLUEAGENT lane (focus #2)
+- BTC $63-64K (+10% July rally) vs $7B ETF outflows May-June; Fed meeting end of month — fragile setup for today's token-pick verdict
+- Moonbeam exits Polkadot, relaunching on Base as on-chain AI agent protocol (bridge by Jul 31) — AI Agent Economy narrative accelerating on Base
 
 *Running today*
+- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
-- heartbeat @ 08:00, 14:00, 20:00 UTC

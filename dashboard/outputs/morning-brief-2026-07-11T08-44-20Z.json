@@ -1,0 +1,313 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-11"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "since_section",
+        "sep2",
+        "watch_section",
+        "sep3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_items"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      }
+    },
+    "focus_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. security-digest re-enable — why now: first clean run yesterday; window closes if today fails",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Moonbeam → Base AI agent protocol (Jul 31 deadline) — why now: Base AI agent narrative milestone, 20 days out",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. token-pick macro framing — why now: runs 12:00 UTC; BTC +10% July vs $7B ETF outflow overhang",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "since_items"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h3"
+      }
+    },
+    "since_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_1",
+        "since_2",
+        "since_3",
+        "since_4"
+      ]
+    },
+    "since_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_1_badge",
+        "since_1_text"
+      ]
+    },
+    "since_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest: clean run after zero-token failure streak; SR still 0.77 (10/44) — re-enable decision open",
+        "variant": "body"
+      }
+    },
+    "since_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_2_badge",
+        "since_2_text"
+      ]
+    },
+    "since_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick: UNI 8/10 (Robinhood Chain v4 thesis), +9.13% 24h",
+        "variant": "body"
+      }
+    },
+    "since_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_3_badge",
+        "since_3_text"
+      ]
+    },
+    "since_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker: 7 narratives mapped; Base B20 + Robinhood Chain = FRONT-RUN; AI Agent Economy = RIDE",
+        "variant": "body"
+      }
+    },
+    "since_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_4_badge",
+        "since_4_text"
+      ]
+    },
+    "since_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "since_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "XAI no credits (403); narrative-tracker falling back to WebSearch — reduced quality signal",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_items"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h3"
+      }
+    },
+    "watch_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $63-64K (+10% July rally) vs $7B ETF outflows May-June; Fed meeting end of month — fragile setup for today's token-pick verdict",
+        "variant": "body"
+      }
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "Moonbeam exits Polkadot, relaunching on Base as on-chain AI agent protocol (bridge by Jul 31) — AI Agent Economy narrative accelerating on Base",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_table"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h3"
+      }
+    },
+    "running_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Time"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00 UTC"
+          ],
+          [
+            "github-monitor",
+            "09:00 UTC"
+          ],
+          [
+            "token-movers",
+            "12:00 UTC"
+          ],
+          [
+            "token-pick",
+            "12:00 UTC"
+          ],
+          [
+            "narrative-tracker",
+            "13:30 UTC"
+          ]
+        ]
+      }
+    }
+  }
+}
