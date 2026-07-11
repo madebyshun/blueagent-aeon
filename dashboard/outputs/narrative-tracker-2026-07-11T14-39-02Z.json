@@ -1,0 +1,161 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker",
+        "description": "2026-07-11"
+      },
+      "children": [
+        "stack-transitions"
+      ]
+    },
+    "stack-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "transition-1",
+        "transition-2",
+        "transition-3",
+        "transition-4"
+      ]
+    },
+    "transition-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-1",
+        "heading-1",
+        "text-1"
+      ]
+    },
+    "badge-new-1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "Solana x402 / Chain Wars",
+        "level": "h3"
+      }
+    },
+    "text-1": {
+      "type": "Text",
+      "props": {
+        "text": "65% of agentic on-chain payments run on Solana via x402; Base/BNB competing; chain race for AI agent market share just got a scoreboard",
+        "variant": "body"
+      }
+    },
+    "transition-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-2",
+        "heading-2",
+        "text-2"
+      ]
+    },
+    "badge-new-2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "heading-2": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agent Security / TEE Layer",
+        "level": "h3"
+      }
+    },
+    "text-2": {
+      "type": "Text",
+      "props": {
+        "text": "JADEPUFFER incident (prompt injection → instant fund drain); PHALA +102.9% weekly; billing audit industry forming",
+        "variant": "body"
+      }
+    },
+    "transition-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-3",
+        "heading-3",
+        "text-3"
+      ]
+    },
+    "badge-new-3": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "heading-3": {
+      "type": "Heading",
+      "props": {
+        "text": "Kaito Attention Markets / InfoFi",
+        "level": "h3"
+      }
+    },
+    "text-3": {
+      "type": "Text",
+      "props": {
+        "text": "Yapper Leaderboard dead Jan 2026; replaced by betting on mindshare via Polymarket; Solana getting first Kaito-style board",
+        "variant": "body"
+      }
+    },
+    "transition-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-promoted",
+        "heading-4",
+        "text-4"
+      ]
+    },
+    "badge-promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "heading-4": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agent Economy Infrastructure Rising → Peak",
+        "level": "h3"
+      }
+    },
+    "text-4": {
+      "type": "Text",
+      "props": {
+        "text": "sector $3.17B mcap, +16.9% 24h; production",
+        "variant": "body"
+      }
+    }
+  }
+}
