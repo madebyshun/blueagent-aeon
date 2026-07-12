@@ -1,0 +1,230 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-12"
+      },
+      "children": [
+        "heading_token",
+        "badges_signal",
+        "separator_1",
+        "price_section",
+        "separator_2",
+        "score_section",
+        "separator_3",
+        "catalyst_section",
+        "separator_4",
+        "risk_section",
+        "separator_5",
+        "footer_section"
+      ]
+    },
+    "heading_token": {
+      "type": "Heading",
+      "props": {
+        "text": "DEXE",
+        "level": "h2"
+      }
+    },
+    "badges_signal": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_high",
+        "badge_score"
+      ]
+    },
+    "badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "default"
+      }
+    },
+    "badge_score": {
+      "type": "Badge",
+      "props": {
+        "text": "Signal 8/10",
+        "variant": "default"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "price_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_price",
+        "stat_mcap",
+        "stat_volume",
+        "stat_vol_mcap"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$45.09",
+        "delta": "+19.77% 24h / +87.34% 7d",
+        "trend": "up"
+      }
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$2.1B"
+      }
+    },
+    "stat_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$90.3M"
+      }
+    },
+    "stat_vol_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap Ratio",
+        "value": "0.043"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "score_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_score",
+        "text_score_breakdown"
+      ]
+    },
+    "heading_score": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      }
+    },
+    "text_score_breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "24h>0+1, 7d>0+1, both>5%+2, trending+2, RS vs BTC/ETH+2 = 8/10",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "catalyst_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_catalyst",
+        "text_catalyst"
+      ]
+    },
+    "heading_catalyst": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "text_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Second consecutive ATH push — DEXE cleared its Jul 11 ATH ($38.96) today; 96% of liquidations this week were short positions, forcing buy-backs into thin supply (large share locked in DAO treasuries and staking contracts), amplifying each move; macro backdrop softened by Jul 3 NFP miss firming Fed pivot expectations",
+        "variant": "body"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "risk_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_risk",
+        "alert_risk"
+      ]
+    },
+    "heading_risk": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      }
+    },
+    "alert_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "87% 7-day rally is extended; once short fuel exhausts the unwind can be violent; vol/mcap 0.043 signals squeeze-driven move, not organic demand — thin exit liquidity at these prices",
+        "type": "warning"
+      }
+    },
+    "separator_5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "footer_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_comparison",
+        "text_sources",
+        "alert_disclaimer"
+      ]
+    },
+    "text_comparison": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time in 7 days",
+        "variant": "caption"
+      }
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "alert_disclaimer": {
+      "type": "Alert",
+      "props": {
+        "message": "Not financial advice — pattern-matching only",
+        "type": "info"
+      }
+    }
+  }
+}
