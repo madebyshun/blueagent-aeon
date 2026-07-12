@@ -1,19 +1,18 @@
-Done. Here's a summary of what happened:
+*GitHub Trending — 2026-07-12*
 
-## Summary
+*Top pick* — [malisper/pgrust](https://github.com/malisper/pgrust)
+The most credible Rust-native Postgres reimplementation to date — passing the full official regression suite, not a hand-picked subset.
 
-**Status:** `GITHUB_TRENDING_OK`
+*Infra*
+• [malisper/pgrust](https://github.com/malisper/pgrust) — ★ 774 today (2.2k total) · Rust · [ACCELERATING]
+First Rust reimplementation of Postgres that passes 100% of the official regression suite — drop-in replacement, verified by Postgres' own tests.
 
-**Fetched:** 19 repos from `github.com/trending?since=daily`
+*AI/ML*
+• [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) — ★ 219 today (48.1k total) · Jupyter · [RETURNING]
+Official Anthropic cookbook repo refreshed Jul 10 — copy-paste recipes for tool use, prompt caching, and multi-agent patterns.
 
-**Filtered:** 7 HOLDOVERs from the last 2 days (DesktopCommanderMCP, agent-skills, mattpocock/skills, superpowers, TencentDB-Agent-Memory, stitch-skills, OfficeCLI) + a C++ cluster of 6 repos (abseil, yaml-cpp, Catch2, asio, meshoptimizer, grpc) that couldn't produce concrete "why today" lines.
+• [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) — ★ 81 today (33.4k total) · TypeScript · [ACCELERATING]
+Describe a diagram in plain English, get editable draw.io XML back — pushed today, now climbing the trending list.
 
-**Picked 4:**
-1. **oven-sh/bun** (top pick, RETURNING) — Bun's Zig→Rust rewrite merged Jul 8; 1M+ lines, full test suite passing; Anthropic ships it in Claude Code since v2.1.181
-2. **davila7/claude-code-templates** (ACCELERATING) — 100+ agents, 159+ commands, MCP configs in one Claude Code toolkit
-3. **vercel/next.js** (RETURNING) — 16.2's `@vercel/next-browser` enables AI agents to inspect live component trees and PPR boundaries
-4. **hashicorp/terraform** (RETURNING) — v1.15 dynamic module sources close the last major gap vs OpenTofu
-
-**Notification:** Queued to `.pending-notify/1783764956.md` for post-run delivery (sandbox blocks direct curl/script execution).
-
-**Log:** Appended to `memory/logs/2026-07-11.md`.
+---
+sources: trending=ok · gh_api=ok · kept 3/24

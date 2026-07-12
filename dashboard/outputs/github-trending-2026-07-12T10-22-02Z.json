@@ -1,0 +1,387 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-12"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_section",
+        "sep1",
+        "infra_section",
+        "sep2",
+        "ai_ml_section",
+        "sep3",
+        "footer"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top_pick_heading",
+        "top_pick_link",
+        "top_pick_desc"
+      ]
+    },
+    "top_pick_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "top_pick_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "malisper/pgrust",
+        "href": "https://github.com/malisper/pgrust"
+      }
+    },
+    "top_pick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "The most credible Rust-native Postgres reimplementation to date — passing the full official regression suite, not a hand-picked subset.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "infra_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra_heading",
+        "infra_repo1"
+      ]
+    },
+    "infra_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infra_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_repo1_header",
+        "infra_repo1_desc",
+        "infra_repo1_stats"
+      ]
+    },
+    "infra_repo1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "infra_repo1_link",
+        "infra_repo1_badges"
+      ]
+    },
+    "infra_repo1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "malisper/pgrust",
+        "href": "https://github.com/malisper/pgrust"
+      }
+    },
+    "infra_repo1_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_repo1_lang",
+        "infra_repo1_status"
+      ]
+    },
+    "infra_repo1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      }
+    },
+    "infra_repo1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "infra_repo1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "First Rust reimplementation of Postgres that passes 100% of the official regression suite — drop-in replacement, verified by Postgres' own tests.",
+        "variant": "body"
+      }
+    },
+    "infra_repo1_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "infra_repo1_stars_today",
+        "infra_repo1_stars_total"
+      ]
+    },
+    "infra_repo1_stars_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "774"
+      }
+    },
+    "infra_repo1_stars_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "2.2k"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai_ml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai_ml_heading",
+        "ai_ml_repo1",
+        "ai_ml_repo2"
+      ]
+    },
+    "ai_ml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "ai_ml_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_repo1_header",
+        "ai_ml_repo1_desc",
+        "ai_ml_repo1_stats"
+      ]
+    },
+    "ai_ml_repo1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ai_ml_repo1_link",
+        "ai_ml_repo1_badges"
+      ]
+    },
+    "ai_ml_repo1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anthropics/claude-cookbooks",
+        "href": "https://github.com/anthropics/claude-cookbooks"
+      }
+    },
+    "ai_ml_repo1_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_repo1_lang",
+        "ai_ml_repo1_status"
+      ]
+    },
+    "ai_ml_repo1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Jupyter",
+        "variant": "secondary"
+      }
+    },
+    "ai_ml_repo1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "ai_ml_repo1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Official Anthropic cookbook repo refreshed Jul 10 — copy-paste recipes for tool use, prompt caching, and multi-agent patterns.",
+        "variant": "body"
+      }
+    },
+    "ai_ml_repo1_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ai_ml_repo1_stars_today",
+        "ai_ml_repo1_stars_total"
+      ]
+    },
+    "ai_ml_repo1_stars_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "219"
+      }
+    },
+    "ai_ml_repo1_stars_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "48.1k"
+      }
+    },
+    "ai_ml_repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_repo2_header",
+        "ai_ml_repo2_desc",
+        "ai_ml_repo2_stats"
+      ]
+    },
+    "ai_ml_repo2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ai_ml_repo2_link",
+        "ai_ml_repo2_badges"
+      ]
+    },
+    "ai_ml_repo2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DayuanJiang/next-ai-draw-io",
+        "href": "https://github.com/DayuanJiang/next-ai-draw-io"
+      }
+    },
+    "ai_ml_repo2_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_repo2_lang",
+        "ai_ml_repo2_status"
+      ]
+    },
+    "ai_ml_repo2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "ai_ml_repo2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "ai_ml_repo2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Describe a diagram in plain English, get editable draw.io XML back — pushed today, now climbing the trending list.",
+        "variant": "body"
+      }
+    },
+    "ai_ml_repo2_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ai_ml_repo2_stars_today",
+        "ai_ml_repo2_stars_total"
+      ]
+    },
+    "ai_ml_repo2_stars_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "81"
+      }
+    },
+    "ai_ml_repo2_stars_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "33.4k"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 3/24",
+        "variant": "caption"
+      }
+    }
+  }
+}
