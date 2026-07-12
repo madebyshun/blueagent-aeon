@@ -1,19 +1,18 @@
-*Morning Brief — 2026-07-11*
+*Morning Brief — 2026-07-12*
 
 *Focus today*
-1. security-digest re-enable — why now: first clean run yesterday; window closes if today fails
-2. Moonbeam → Base AI agent protocol (Jul 31 deadline) — why now: Base AI agent narrative milestone, 20 days out
-3. token-pick macro framing — why now: runs 12:00 UTC; BTC +10% July vs $7B ETF outflow overhang
+1. KEV deadline tomorrow — why now: iCagenda + Balbooa Forms due Jul 13; zero slack
+2. Moonbeam→Base bridge window — why now: 19 days to Jul 31; x402 crosses 169M agentic txns
+3. security-digest re-enable — why now: SR 0.78 after clean Jul 11 run; one more clears 0.80
 
 *Since yesterday*
-- [moved] security-digest: clean run after zero-token failure streak; SR still 0.77 (10/44) — re-enable decision open
-- [moved] token-pick: UNI 8/10 (Robinhood Chain v4 thesis), +9.13% 24h
-- [moved] narrative-tracker: 7 narratives mapped; Base B20 + Robinhood Chain = FRONT-RUN; AI Agent Economy = RIDE
-- [stuck] XAI no credits (403); narrative-tracker falling back to WebSearch — reduced quality signal
+- VIRTUAL picked +14.32%; AI Agent Economy narrative tipping to FADE
+- Narrative map: Solana x402 FRONT-RUN, Base B20 RIDE, RWA FADE
+- mcp-atlassian prompt injection → credential exfil flagged: active AI-agent attack vector
+- XAI credits depleted (403); narrative-tracker fell back to WebSearch
 
 *Watch*
-- BTC $63-64K (+10% July rally) vs $7B ETF outflows May-June; Fed meeting end of month — fragile setup for today's token-pick verdict
-- Moonbeam exits Polkadot, relaunching on Base as on-chain AI agent protocol (bridge by Jul 31) — AI Agent Economy narrative accelerating on Base
+- Base x402 crosses 169M agentic txns — confirms Moonbeam timing and Base AI agent momentum (focus #2)
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC
