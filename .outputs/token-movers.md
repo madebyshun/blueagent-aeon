@@ -1,44 +1,42 @@
-*Token Movers — 2026-07-12*
+*Token Movers — 2026-07-13*
 
-_Risk-off bias — ~70% of filtered top-100 coins in the red; median ≈ −1.5%; BTC flat $64k while most alts drift lower; DEXE the standout with confirmed breakout on high volume._
+_Broad risk-off — ~84% of filtered top-100 coins red, median 24h ≈ −2.2%; BTC −2.7% $62.3k, ETH −1.9% $1.77k; PI craters 7th consecutive day_
 
 *Top Winners (24h)*
-1. DEXE (DeXe) — $45.10  +19.8% / 7d +87.4% / 1h +0.9%  •  $90.3M / #41  [BREAKOUT][TRENDING+UP]
-2. ULTIMA (Ultima) — $2,672  +17.7% / 7d −20.0% / 1h 0.0%  •  $10.8M / #151  [FADE]
-3. BILL (Billions Network) — $0.04615  +16.8% / 7d +14.9% / 1h +1.4%  •  $10.3M / #248
-4. VELVET (Velvet) — $0.4776  +9.4% / 7d −1.4% / 1h +4.3%  •  $8.7M / #166  [TRENDING+UP]
-5. H (Humanity) — $0.07294  +7.9% / 7d +2.5% / 1h +0.4%  •  $3.2M / #206
-6. BMX (BitMart) — $0.3290  +5.8% / 7d −1.6% / 1h −1.4%  •  $9.5M / #249
-7. ETHFI (Ether.fi) — $0.4380  +5.7% / 7d +4.7% / 1h +1.3%  •  $36.3M / #114
-8. RIF (Rootstock) — $0.1345  +5.3% / 7d +18.7% / 1h +1.0%  •  $11.0M / #218
-9. EDGE (edgeX) — $0.3999  +4.7% / 7d +65.8% / 1h −2.5%  •  $9.2M / #210
-10. ZEC (Zcash) — $524  +4.1% / 7d +15.0% / 1h +0.4%  •  $293M / #14  [MAJOR]
+1. XEC (eCash) — $0.000006700  +30.4% / 7d +28.2% / 1h +0.3%  •  $81.0M / #215  [BREAKOUT][PUMP-RISK]
+2. BILL (Billions Network) — $0.05601  +21.1% / 7d +35.3% / 1h +5.5%  •  $35.1M / #211  [BREAKOUT]
+3. ADI — $7.03  +8.4% / 7d +20.3% / 1h +1.1%  •  $6.8M / #72  [TRENDING+UP]
+4. EIGEN (EigenCloud) — $0.2445  +6.1% / 7d +9.6% / 1h −1.5%  •  $25.5M / #175
+5. BDX (Beldex) — $0.09297  +6.0% / 7d +1.6% / 1h +0.8%  •  $11.9M / #84
+6. PUMP (Pump.fun) — $0.001477  +4.7% / 7d −7.2% / 1h −0.9%  •  $59.0M / #95
+7. UB (Unibase) — $0.07535  +3.6% / 7d −22.4% / 1h −0.2%  •  $6.4M / #171
+8. KAITO — $0.6856  +3.4% / 7d +13.3% / 1h −0.6%  •  $22.5M / #186
+9. JUP (Jupiter) — $0.2080  +3.1% / 7d −12.5% / 1h −0.1%  •  $25.0M / #89
+10. POL — $0.08149  +2.3% / 7d +11.3% / 1h 0%  •  $55.0M / #74
 
 *Top Losers (24h)*
-1. LAB (LAB) — $0.4747  −46.1% / 7d −97.0% / 1h +1.0%  •  $95.8M / #195  [TRENDING+DOWN][CAPITULATION]
-2. CASHCAT (Cash Cat) — $0.1767  −12.2% / 7d new / 1h +7.3%  •  $42.1M / #175  [TRENDING+DOWN]
-3. AWE (AWE Network) — $0.06186  −7.0% / 7d +10.0% / 1h −0.9%  •  $5.2M / #233
-4. B (BUILDon) — $0.1163  −6.9% / 7d −44.9% / 1h −3.1%  •  $71.4M / #236  [CAPITULATION]
-5. MORPHO (Morpho) — $2.00  −6.6% / 7d +0.6% / 1h +0.6%  •  $23.6M / #59
-6. JTO (Jito) — $0.5931  −6.0% / 7d −17.9% / 1h −0.5%  •  $23.6M / #133
-7. VIRTUAL (Virtuals Protocol) — $0.5934  −4.6% / 7d +5.3% / 1h −2.1%  •  $83.2M / #115
-8. AVAX (Avalanche) — $6.43  −4.6% / 7d −6.1% / 1h −0.1%  •  $162M / #34
-9. LZO (LayerZero) — $0.8820  −4.6% / 7d −3.7% / 1h −0.4%  •  $14.8M / #131
-10. DOT (Polkadot) — $0.8459  −3.7% / 7d −2.4% / 1h −0.3%  •  $67.3M / #54
+1. PI (Pi Network) — $0.08037  −17.4% / 7d −27.9% / 1h +0.4%  •  $24.6M / #71
+2. CASHCAT — $0.1581  −13.5% / 7d — / 1h +9.4%  •  $34.7M / #195  [TRENDING+DOWN]
+3. TIBBIR (Ribbita) — $0.1128  −11.7% / 7d −7.9% / 1h −0.2%  •  $1.2M / #241
+4. GWEI (ETHGas) — $0.05227  −11.4% / 7d −60.8% / 1h +0.6%  •  $5.7M / #247
+5. LIT (Lighter) — $2.410  −9.0% / 7d −2.4% / 1h +1.0%  •  $64.5M / #94  [TRENDING+DOWN]
+6. BP (Backpack) — $0.5287  −8.9% / 7d −3.2% / 1h −1.1%  •  $2.6M / #220
+7. BEAT (Audiera) — $2.510  −7.1% / 7d +1.2% / 1h +1.3%  •  $16.4M / #80
+8. RIF — $0.1242  −6.9% / 7d +5.2% / 1h +0.8%  •  $9.5M / #227
+9. DEXE — $43.05  −6.7% / 7d +55.7% / 1h −2.0%  •  $111.6M / #41
+10. FARTCOIN — $0.1409  −6.3% / 7d −10.0% / 1h −0.3%  •  $15.4M / #208
 
 *Trending*
-1. HOODCAT (Cat in Hood) — #774, n/a, +2493.4%  [PUMP-RISK]
-2. $1 ($1 is all you need) — #783, n/a, +2270.5%  [PUMP-RISK]
-3. HOODIE (HOODIE) — #834, n/a, −39.5%  [PUMP-RISK]
-4. DEXE (DeXe) — #41, $45.10, +19.8%  [TRENDING+UP][BREAKOUT]
-5. CASHCAT (Cash Cat) — #175, $0.1767, −12.2%  [TRENDING+DOWN]
-6. LAB (LAB) — #195, $0.4747, −46.1%  [TRENDING+DOWN][CAPITULATION]
-7. VELVET (Velvet) — #166, $0.4776, +9.4%  [TRENDING+UP]
+1. CASHCAT — #195, $0.158, 24h −13.5%  [TRENDING+DOWN]
+2. UNI (Uniswap) — #39, $3.48, 24h −4.2%
+3. LAB — #257, $0.321, 24h −33.0%  [TRENDING+DOWN]
+4. PENGU (Pudgy Penguins) — #118, $0.005905, 24h −2.7%
+5. ADI — #72, $7.03, 24h +8.4%  [TRENDING+UP]
+6. LIT (Lighter) — #94, $2.41, 24h −9.0%  [TRENDING+DOWN]
+7. ANSEM (The Black Bull) — #266, $0.240, 24h +6.2%
 
 *Notable*
-• DEXE: trending + up 19.8% / 7d +87.4% on $90M vol — strongest confirmed [BREAKOUT] today
-• HOODCAT / $1: +2493% / +2270% — extreme [PUMP-RISK], ranks 774/783, manipulation territory
-• LAB: −46.1% / 7d −97% on $95M vol — [CAPITULATION] deepens; second consecutive collapse day
-• B (BUILDon): vol/mcap 0.61, −6.9% after −25% yesterday — [CAPITULATION] unresolved
-• CASHCAT: yesterday +17.7% winner flips to −12.2% trending — [FADE] reversal confirmed
-• VIRTUAL: yesterday's token-pick +14.5% now −4.6% — AI agent economy rotation fading
+• XEC [BREAKOUT][PUMP-RISK]: eCash +30.4% on $81M vol, 7d +28.2% — not a one-day spike, but rank 215 + vol/mcap > 0.6 = manipulation risk; flag before sizing
+• BILL [BREAKOUT]: Billions Network +21.1% / 7d +35.3% on $35M vol — two-day run into breakout territory
+• ADI [TRENDING+UP]: in CG trending + +8.4% / 7d +20.3% — accumulation building across multiple sessions
+• PI −17.4% / 7d −27.9%: rank-71 structural collapse, not noise; 7d confirms trend
