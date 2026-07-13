@@ -1,22 +1,22 @@
-*Morning Brief — 2026-07-12*
+*Morning Brief — Jul 13, 2026*
 
 *Focus today*
-1. KEV deadline tomorrow — why now: iCagenda + Balbooa Forms due Jul 13; zero slack
-2. Moonbeam→Base bridge window — why now: 19 days to Jul 31; x402 crosses 169M agentic txns
-3. security-digest re-enable — why now: SR 0.78 after clean Jul 11 run; one more clears 0.80
+1. KEV patch deadline — iCagenda + Balbooa Forms due today; zero runway
+2. GENIUS Act Jul 18 — OCC rulemaking in 5 days; stablecoin repricing window open
+3. Moonbeam→Base bridge — 18 days to Jul 31 GLMR deadline; migration window burning
 
 *Since yesterday*
-- VIRTUAL picked +14.32%; AI Agent Economy narrative tipping to FADE
-- Narrative map: Solana x402 FRONT-RUN, Base B20 RIDE, RWA FADE
-- mcp-atlassian prompt injection → credential exfil flagged: active AI-agent attack vector
-- XAI credits depleted (403); narrative-tracker fell back to WebSearch
+- DEXE: held ATH push $45.09 (+19.8%/24h, +87.3%/7d); Jul 12 token pick — watch for fade
+- narrative-tracker: GENIUS Act + x402/Base in RIDE; AI Agent Economy flagged reflexive peak
+- security-digest: SR 0.78, disabled — one more clean run to consider re-enabling
 
 *Watch*
-- Base x402 crosses 169M agentic txns — confirms Moonbeam timing and Base AI agent momentum (focus #2)
+- GENIUS Act OCC Jul 18 deadline: issuers repositioning now; RIDE narrative may front-run final rules (focus #2)
+- BNB Chain new L1 targeting AI agents at 100k TPS: competitive threat to Base AI agent moat (focus #3)
 
 *Running today*
-- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC

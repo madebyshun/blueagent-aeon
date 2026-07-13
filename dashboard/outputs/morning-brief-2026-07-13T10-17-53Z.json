@@ -1,0 +1,223 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — Jul 13, 2026"
+      },
+      "children": [
+        "stack_focus",
+        "sep1",
+        "stack_since",
+        "sep2",
+        "stack_watch",
+        "sep3",
+        "stack_running"
+      ]
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_focus",
+        "focus_item1",
+        "focus_item2",
+        "focus_item3"
+      ]
+    },
+    "h_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item1": {
+      "type": "Text",
+      "props": {
+        "text": "1. KEV patch deadline — iCagenda + Balbooa Forms due today; zero runway",
+        "variant": "lead"
+      }
+    },
+    "focus_item2": {
+      "type": "Text",
+      "props": {
+        "text": "2. GENIUS Act Jul 18 — OCC rulemaking in 5 days; stablecoin repricing window open",
+        "variant": "lead"
+      }
+    },
+    "focus_item3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Moonbeam→Base bridge — 18 days to Jul 31 GLMR deadline; migration window burning",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_since",
+        "since_item1",
+        "since_item2",
+        "since_item3"
+      ]
+    },
+    "h_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_dexe",
+        "text_dexe_context"
+      ]
+    },
+    "stat_dexe": {
+      "type": "Stat",
+      "props": {
+        "label": "DEXE",
+        "value": "$45.09",
+        "delta": "+19.8%/24h, +87.3%/7d",
+        "trend": "up"
+      }
+    },
+    "text_dexe_context": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 12 token pick — watch for fade",
+        "variant": "caption"
+      }
+    },
+    "since_item2": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker: GENIUS Act + x402/Base in RIDE; AI Agent Economy flagged reflexive peak",
+        "variant": "body"
+      }
+    },
+    "since_item3": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest: SR 0.78, disabled — one more clean run to consider re-enabling",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_watch",
+        "watch_item1",
+        "watch_item2"
+      ]
+    },
+    "h_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_item1": {
+      "type": "Text",
+      "props": {
+        "text": "GENIUS Act OCC Jul 18 deadline: issuers repositioning now; RIDE narrative may front-run final rules (focus #2)",
+        "variant": "body"
+      }
+    },
+    "watch_item2": {
+      "type": "Text",
+      "props": {
+        "text": "BNB Chain new L1 targeting AI agents at 100k TPS: competitive threat to Base AI agent moat (focus #3)",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_running",
+        "running_table"
+      ]
+    },
+    "h_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Service",
+          "Time (UTC)"
+        ],
+        "rows": [
+          [
+            "github-monitor",
+            "09:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "token-pick",
+            "12:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ],
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00"
+          ]
+        ]
+      }
+    }
+  }
+}
