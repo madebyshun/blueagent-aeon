@@ -1,0 +1,450 @@
+{
+  "root": "security-digest-card",
+  "state": {},
+  "elements": {
+    "security-digest-card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-07-13"
+      },
+      "children": [
+        "verdict-alert",
+        "patch-today-section",
+        "patch-week-section"
+      ]
+    },
+    "verdict-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Verdict",
+        "message": "1 KEV-confirmed, 2 CVSS 9.9 with public PoC → patch today. 3 more to schedule. Sources: KEV, GH Advisory, EPSS"
+      }
+    },
+    "patch-today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-today-heading",
+        "separator-1",
+        "cve-1",
+        "cve-2",
+        "cve-3"
+      ]
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cve-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-1-title",
+        "cve-1-meta",
+        "cve-1-desc",
+        "cve-1-action"
+      ]
+    },
+    "cve-1-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-55255 — langflow (pip)",
+        "href": "https://github.com/advisories/GHSA-qrpv-q767-xqq2",
+        "source": "KEV 2026-07-07"
+      }
+    },
+    "cve-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-1-kev",
+        "cve-1-cvss",
+        "cve-1-epss"
+      ]
+    },
+    "cve-1-kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV-confirmed",
+        "variant": "destructive"
+      }
+    },
+    "cve-1-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.4",
+        "variant": "destructive"
+      }
+    },
+    "cve-1-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.006",
+        "variant": "secondary"
+      }
+    },
+    "cve-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass in /api/v1/responses lets any authed user execute any flow via UUID. CISA-confirmed in-the-wild exploitation.",
+        "variant": "body"
+      }
+    },
+    "cve-1-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade langflow to ≥1.9.1 and redeploy.",
+        "variant": "lead"
+      }
+    },
+    "cve-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-2-title",
+        "cve-2-meta",
+        "cve-2-desc",
+        "cve-2-action"
+      ]
+    },
+    "cve-2-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-50551 — siyuan/kernel (Go)",
+        "href": "https://github.com/advisories/GHSA-56mp-4f3v-fgj2"
+      }
+    },
+    "cve-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-2-cvss",
+        "cve-2-epss",
+        "cve-2-poc"
+      ]
+    },
+    "cve-2-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.9",
+        "variant": "destructive"
+      }
+    },
+    "cve-2-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      }
+    },
+    "cve-2-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "destructive"
+      }
+    },
+    "cve-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Stored XSS→RCE via unsanitized asset cell content in Electron renderer. PoC payload published in advisory.",
+        "variant": "body"
+      }
+    },
+    "cve-2-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade siyuan to ≥build 2026-06-28 and redeploy.",
+        "variant": "lead"
+      }
+    },
+    "cve-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-3-title",
+        "cve-3-meta",
+        "cve-3-desc",
+        "cve-3-action"
+      ]
+    },
+    "cve-3-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54158 — siyuan/kernel (Go)",
+        "href": "https://github.com/advisories/GHSA-5xfx-xj4h-5p7r"
+      }
+    },
+    "cve-3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-3-cvss",
+        "cve-3-epss",
+        "cve-3-poc"
+      ]
+    },
+    "cve-3-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.9",
+        "variant": "destructive"
+      }
+    },
+    "cve-3-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003",
+        "variant": "secondary"
+      }
+    },
+    "cve-3-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "destructive"
+      }
+    },
+    "cve-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Stored XSS→RCE in genAVValueHTML(); workspace sync attack vector. Same build fixes both SiYuan entries.",
+        "variant": "body"
+      }
+    },
+    "cve-3-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade siyuan to ≥build 2026-06-28 and redeploy.",
+        "variant": "lead"
+      }
+    },
+    "patch-week-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-week-heading",
+        "separator-2",
+        "cve-4",
+        "cve-5",
+        "cve-6"
+      ]
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cve-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-4-title",
+        "cve-4-meta",
+        "cve-4-desc",
+        "cve-4-action"
+      ]
+    },
+    "cve-4-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54088 — filebrowser/v2 (Go)",
+        "href": "https://github.com/advisories/GHSA-m93h-4hw7-5qcm"
+      }
+    },
+    "cve-4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-4-cvss",
+        "cve-4-epss",
+        "cve-4-poc"
+      ]
+    },
+    "cve-4-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.3",
+        "variant": "destructive"
+      }
+    },
+    "cve-4-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.005",
+        "variant": "secondary"
+      }
+    },
+    "cve-4-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "destructive"
+      }
+    },
+    "cve-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pre-auth RCE via shell metacharacters in login credentials exploiting auth hook substitution.",
+        "variant": "body"
+      }
+    },
+    "cve-4-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: filebrowser → ≥2.63.6.",
+        "variant": "lead"
+      }
+    },
+    "cve-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-5-title",
+        "cve-5-meta",
+        "cve-5-desc",
+        "cve-5-action"
+      ]
+    },
+    "cve-5-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-g936-7jqj-mwv8 — tsdproxy (Go)",
+        "href": "https://github.com/advisories/GHSA-g936-7jqj-mwv8"
+      }
+    },
+    "cve-5-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-5-cvss"
+      ]
+    },
+    "cve-5-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.0",
+        "variant": "destructive"
+      }
+    },
+    "cve-5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Internal proxy auth token forwarded to all backends; backend can replay to mgmt port with arbitrary identity.",
+        "variant": "body"
+      }
+    },
+    "cve-5-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: tsdproxy → ≥1.4.4 (build 2026-06-03).",
+        "variant": "lead"
+      }
+    },
+    "cve-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-6-title",
+        "cve-6-meta",
+        "cve-6-desc",
+        "cve-6-action"
+      ]
+    },
+    "cve-6-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-xrmc-c5cg-rv7x — safeinstall-cli (npm)",
+        "href": "https://github.com/advisories/GHSA-xrmc-c5cg-rv7x"
+      }
+    },
+    "cve-6-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-6-cvss"
+      ]
+    },
+    "cve-6-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8",
+        "variant": "destructive"
+      }
+    },
+    "cve-6-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Agent guard shell parsing miss lets raw package execution bypass safety checks.",
+        "variant": "body"
+      }
+    },
+    "cve-6-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: safeinstall-cli → ≥0.10.2.",
+        "variant": "lead"
+      }
+    }
+  }
+}
