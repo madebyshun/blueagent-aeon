@@ -1,11 +1,10 @@
-*Daily Pick — 2026-07-12*
+*Daily Pick — 2026-07-13*
 
-*Token: DEXE*  [HIGH]  signal 8/10
-Price: $45.09 (+19.77% 24h / +87.34% 7d) | mcap $2.1B | vol $90.3M (vol/mcap 0.043)
-Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, trending+2, RS vs BTC/ETH+2] = 8/10
-Catalyst: Second consecutive ATH push — DEXE cleared its Jul 11 ATH ($38.96) today; 96% of liquidations this week were short positions, forcing buy-backs into thin supply (large share locked in DAO treasuries and staking contracts), amplifying each move; macro backdrop softened by Jul 3 NFP miss firming Fed pivot expectations
-Risk: 87% 7-day rally is extended; once short fuel exhausts the unwind can be violent; vol/mcap 0.043 signals squeeze-driven move, not organic demand — thin exit liquidity at these prices
-Vs recent picks: first time in 7 days
+*Token: KITE*  [HIGH]  signal 9/10
+Price: $0.135 (+18.3% 24h / +16.0% 7d) | mcap $322M | vol $115M (vol/mcap 0.36)
+Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, vol/mcap≥0.20+3, RS vs BTC+2/ETH+2] = 9/10
+Catalyst: Kite AI mainnet + Agent Passport live since Apr 30 (autonomous AI agent payment identities on-chain); derivatives validator expansion this week — re-rating as the dedicated AI-agent payment chain while x402/Agentic Payments and AI Agent Economy narratives hold at RIDE
+Risk: Scheduled vesting unlocks creating supply overhang; analysts flag June-July downtrend — today's move may be a bear-market bounce, not a confirmed breakout; no DexScreener cross-confirmation
 
 sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only

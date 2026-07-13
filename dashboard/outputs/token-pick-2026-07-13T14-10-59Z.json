@@ -1,0 +1,280 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-13"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-header",
+        "sep1",
+        "price-stat",
+        "market-metrics",
+        "sep2",
+        "score-section",
+        "sep3",
+        "catalyst-section",
+        "sep4",
+        "risk-section",
+        "sep5",
+        "sources-section",
+        "sep6",
+        "disclaimer"
+      ]
+    },
+    "token-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token-name",
+        "high-badge",
+        "signal-badge"
+      ]
+    },
+    "token-name": {
+      "type": "Heading",
+      "props": {
+        "text": "KITE",
+        "level": "h2"
+      }
+    },
+    "high-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "secondary"
+      }
+    },
+    "signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 9/10",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.135",
+        "delta": "+18.3% 24h / +16.0% 7d",
+        "trend": "up"
+      }
+    },
+    "market-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mcap-stat",
+        "vol-stat",
+        "vol-mcap-ratio"
+      ]
+    },
+    "mcap-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$322M"
+      }
+    },
+    "vol-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$115M"
+      }
+    },
+    "vol-mcap-ratio": {
+      "type": "Text",
+      "props": {
+        "text": "vol/mcap: 0.36",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "score-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-heading",
+        "score-breakdown"
+      ]
+    },
+    "score-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      }
+    },
+    "score-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "24h>0 (+1) · 7d>0 (+1) · both>5% (+2) · vol/mcap≥0.20 (+3) · RS vs BTC (+2) · RS vs ETH (+2) = 9/10",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalyst-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-heading",
+        "catalyst-mainnet",
+        "catalyst-validator"
+      ]
+    },
+    "catalyst-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "catalyst-mainnet": {
+      "type": "Text",
+      "props": {
+        "text": "Kite AI mainnet + Agent Passport live since Apr 30 (autonomous AI agent payment identities on-chain)",
+        "variant": "body"
+      }
+    },
+    "catalyst-validator": {
+      "type": "Text",
+      "props": {
+        "text": "Derivatives validator expansion this week — re-rating as the dedicated AI-agent payment chain while x402/Agentic Payments and AI Agent Economy narratives hold at RIDE",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "risk-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "risk-heading",
+        "risk-vesting",
+        "risk-downtrend",
+        "risk-dex"
+      ]
+    },
+    "risk-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      }
+    },
+    "risk-vesting": {
+      "type": "Text",
+      "props": {
+        "text": "Scheduled vesting unlocks creating supply overhang",
+        "variant": "body"
+      }
+    },
+    "risk-downtrend": {
+      "type": "Text",
+      "props": {
+        "text": "Analysts flag June-July downtrend — today's move may be a bear-market bounce, not a confirmed breakout",
+        "variant": "body"
+      }
+    },
+    "risk-dex": {
+      "type": "Text",
+      "props": {
+        "text": "No DexScreener cross-confirmation",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-heading",
+        "sources-status"
+      ]
+    },
+    "sources-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Data Sources",
+        "level": "h3"
+      }
+    },
+    "sources-status": {
+      "type": "Text",
+      "props": {
+        "text": "CoinGecko: ✓ · Dex: ✗ · Polygon: ✓",
+        "variant": "caption"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "disclaimer": {
+      "type": "Alert",
+      "props": {
+        "message": "Not financial advice — pattern-matching only",
+        "type": "info"
+      }
+    }
+  }
+}
