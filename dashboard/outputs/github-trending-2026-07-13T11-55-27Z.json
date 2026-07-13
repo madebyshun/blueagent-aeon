@@ -1,0 +1,618 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-07-13"
+      },
+      "children": [
+        "section_top_pick",
+        "sep1",
+        "section_devtools",
+        "sep2",
+        "section_web",
+        "sep3",
+        "section_ai",
+        "footer_sources"
+      ]
+    },
+    "section_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_top_pick",
+        "repo_graphify_top"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_graphify_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_graphify_top",
+        "desc_graphify_top"
+      ]
+    },
+    "link_graphify_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Graphify-Labs/graphify",
+        "href": "https://github.com/Graphify-Labs/graphify",
+        "score": "83.8k stars in 101 days"
+      },
+      "children": []
+    },
+    "desc_graphify_top": {
+      "type": "Text",
+      "props": {
+        "text": "Codebase-to-knowledge-graph is gaining traction as dev teams hit context limits in AI tools.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "repo_graphify",
+        "repo_spec_kit",
+        "repo_destructive",
+        "repo_hallmark",
+        "repo_marketing"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_graphify": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_graphify",
+        "badges_graphify",
+        "desc_graphify"
+      ]
+    },
+    "link_graphify": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Graphify-Labs/graphify",
+        "href": "https://github.com/Graphify-Labs/graphify"
+      },
+      "children": []
+    },
+    "badges_graphify": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stars_1028",
+        "badge_python_1",
+        "badge_accel_1"
+      ]
+    },
+    "badge_stars_1028": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 1028 today (83.8k total)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_python_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_accel_1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "desc_graphify": {
+      "type": "Text",
+      "props": {
+        "text": "Indexes your entire codebase, SQL schemas, and docs into one queryable graph — Claude Code skill, updated today.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo_spec_kit": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_spec_kit",
+        "badges_spec_kit",
+        "desc_spec_kit"
+      ]
+    },
+    "link_spec_kit": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github/spec-kit",
+        "href": "https://github.com/github/spec-kit"
+      },
+      "children": []
+    },
+    "badges_spec_kit": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stars_508",
+        "badge_python_2",
+        "badge_accel_2"
+      ]
+    },
+    "badge_stars_508": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 508 today (120.2k total)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_python_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_accel_2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "desc_spec_kit": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub's official write-the-spec-first toolkit — AI generates code against a typed contract, not free-form prompts.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo_destructive": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_destructive",
+        "badges_destructive",
+        "desc_destructive"
+      ]
+    },
+    "link_destructive": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Dicklesworthstone/destructive_command_guard",
+        "href": "https://github.com/Dicklesworthstone/destructive_command_guard"
+      },
+      "children": []
+    },
+    "badges_destructive": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stars_444",
+        "badge_rust",
+        "badge_returning"
+      ]
+    },
+    "badge_stars_444": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 444 today (3.6k total)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_rust": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_returning": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "desc_destructive": {
+      "type": "Text",
+      "props": {
+        "text": "Shell-level intercept for rm -rf, force-push, and 60+ destructive commands agents issue — catches mistakes before execution.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo_hallmark": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_hallmark",
+        "badges_hallmark",
+        "desc_hallmark"
+      ]
+    },
+    "link_hallmark": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Nutlope/hallmark",
+        "href": "https://github.com/Nutlope/hallmark"
+      },
+      "children": []
+    },
+    "badges_hallmark": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stars_155",
+        "badge_css",
+        "badge_accel_3"
+      ]
+    },
+    "badge_stars_155": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 155 today (4.7k total)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_css": {
+      "type": "Badge",
+      "props": {
+        "text": "CSS",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_accel_3": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "desc_hallmark": {
+      "type": "Text",
+      "props": {
+        "text": "Design skill that strips AI-slop patterns — gradient cards, hero sections — from Claude Code UI output.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo_marketing": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_marketing",
+        "badges_marketing",
+        "desc_marketing"
+      ]
+    },
+    "link_marketing": {
+      "type": "StoryLink",
+      "props": {
+        "title": "coreyhaines31/marketingskills",
+        "href": "https://github.com/coreyhaines31/marketingskills"
+      },
+      "children": []
+    },
+    "badges_marketing": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stars_260",
+        "badge_js",
+        "badge_accel_4"
+      ]
+    },
+    "badge_stars_260": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 260 today (38.1k total)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_js": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_accel_4": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "desc_marketing": {
+      "type": "Text",
+      "props": {
+        "text": "CRO, SEO, and growth engineering as runnable Claude Code skills — inline, no separate consultant or SaaS required.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_web": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_web",
+        "repo_opencut"
+      ]
+    },
+    "heading_web": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_opencut": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_opencut",
+        "badges_opencut",
+        "desc_opencut"
+      ]
+    },
+    "link_opencut": {
+      "type": "StoryLink",
+      "props": {
+        "title": "OpenCut-app/OpenCut",
+        "href": "https://github.com/OpenCut-app/OpenCut"
+      },
+      "children": []
+    },
+    "badges_opencut": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stars_1077",
+        "badge_ts",
+        "badge_accel_5"
+      ]
+    },
+    "badge_stars_1077": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 1077 today (64.2k total)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_ts": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_accel_5": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "desc_opencut": {
+      "type": "Text",
+      "props": {
+        "text": "Browser-native video editor with CapCut's UX — no account, no watermark, no AI upsell; fully open-source.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_ai",
+        "repo_vibe_trading"
+      ]
+    },
+    "heading_ai": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_vibe_trading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_vibe_trading",
+        "badges_vibe_trading",
+        "desc_vibe_trading"
+      ]
+    },
+    "link_vibe_trading": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HKUDS/Vibe-Trading",
+        "href": "https://github.com/HKUDS/Vibe-Trading"
+      },
+      "children": []
+    },
+    "badges_vibe_trading": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stars_768",
+        "badge_python_3",
+        "badge_accel_6"
+      ]
+    },
+    "badge_stars_768": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 768 today (21.2k total)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_python_3": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_accel_6": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "desc_vibe_trading": {
+      "type": "Text",
+      "props": {
+        "text": "Research-team agent that reads market data and executes trades from natural language strategy — pushed today.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "footer_sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_sources"
+      ]
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/11",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
