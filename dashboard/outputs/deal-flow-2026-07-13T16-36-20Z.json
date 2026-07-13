@@ -1,0 +1,699 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Deal Flow",
+        "description": "2026-07-13"
+      },
+      "children": [
+        "intro_text",
+        "sep_1",
+        "deal_1",
+        "sep_2",
+        "deal_2",
+        "sep_3",
+        "deal_3",
+        "sep_4",
+        "deal_4",
+        "sep_5",
+        "deal_5",
+        "sep_6",
+        "deal_6",
+        "sep_7",
+        "deal_7",
+        "sep_8",
+        "deal_8",
+        "sep_9",
+        "sources"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Smart money clustered at two seams: AI inference scale (SambaNova $1B in 5 months, Prime Intellect $130M for distributed compute) and the regulatory-safety layer one level above it (Gauntlet DeFi risk, EDX bank charter, Taktile agentic underwriting) — the Gauntlet/SBI sole-investor bet 5 days before GENIUS Act OCC deadline reads as a front-run on mandated institutional DeFi infrastructure.",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "deal_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d1_name",
+        "d1_desc",
+        "d1_metrics",
+        "d1_lead",
+        "d1_why"
+      ]
+    },
+    "d1_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Lyzr",
+        "level": "h3"
+      }
+    },
+    "d1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Enterprise AI-agent platform",
+        "variant": "muted"
+      }
+    },
+    "d1_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d1_funding",
+        "d1_round",
+        "d1_post"
+      ]
+    },
+    "d1_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$100M"
+      }
+    },
+    "d1_round": {
+      "type": "Badge",
+      "props": {
+        "text": "Series B",
+        "variant": "outline"
+      }
+    },
+    "d1_post": {
+      "type": "Stat",
+      "props": {
+        "label": "Post",
+        "value": "$500M",
+        "delta": "+100%",
+        "trend": "up"
+      }
+    },
+    "d1_lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Undisclosed (Accenture consortium)",
+        "variant": "caption"
+      }
+    },
+    "d1_why": {
+      "type": "Text",
+      "props": {
+        "text": "An AI agent fielded 130+ investor questions, drafted memos, and tracked slide engagement to close this round — the fundraise is itself a live stress test of the product; no prior enterprise AI company structured a fundraise as peer-reviewed product proof.",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "deal_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d2_name",
+        "d2_desc",
+        "d2_metrics",
+        "d2_lead",
+        "d2_why"
+      ]
+    },
+    "d2_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Gauntlet",
+        "level": "h3"
+      }
+    },
+    "d2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi vault curation and on-chain risk management",
+        "variant": "muted"
+      }
+    },
+    "d2_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d2_funding",
+        "d2_round"
+      ]
+    },
+    "d2_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$125M"
+      }
+    },
+    "d2_round": {
+      "type": "Badge",
+      "props": {
+        "text": "Series C",
+        "variant": "outline"
+      }
+    },
+    "d2_lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: SBI Holdings (sole investor, no syndicate)",
+        "variant": "caption"
+      }
+    },
+    "d2_why": {
+      "type": "Text",
+      "props": {
+        "text": "SBI placed a sole-investor bet on DeFi risk infra 5 days before GENIUS Act OCC deadline — a Japanese megabank going full-position signals that regulated stablecoin rails will require credentialed risk layers before they scale.",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "deal_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d3_name",
+        "d3_desc",
+        "d3_metrics",
+        "d3_lead",
+        "d3_why"
+      ]
+    },
+    "d3_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Prime Intellect",
+        "level": "h3"
+      }
+    },
+    "d3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Open distributed-compute platform for AI",
+        "variant": "muted"
+      }
+    },
+    "d3_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d3_funding",
+        "d3_round",
+        "d3_post"
+      ]
+    },
+    "d3_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$130M"
+      }
+    },
+    "d3_round": {
+      "type": "Badge",
+      "props": {
+        "text": "Series A",
+        "variant": "outline"
+      }
+    },
+    "d3_post": {
+      "type": "Stat",
+      "props": {
+        "label": "Post",
+        "value": "$1B"
+      }
+    },
+    "d3_lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Radical Ventures",
+        "variant": "caption"
+      }
+    },
+    "d3_why": {
+      "type": "Text",
+      "props": {
+        "text": "$1B at Series A for distributed compute — investor thesis is that enterprises needing data sovereignty will route inference away from NVIDIA/AWS centralized monopoly; first capitalized alternative at competitive scale.",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "deal_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d4_name",
+        "d4_desc",
+        "d4_metrics",
+        "d4_lead",
+        "d4_why"
+      ]
+    },
+    "d4_name": {
+      "type": "Heading",
+      "props": {
+        "text": "SambaNova Systems",
+        "level": "h3"
+      }
+    },
+    "d4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Custom AI inference chips",
+        "variant": "muted"
+      }
+    },
+    "d4_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d4_funding",
+        "d4_round",
+        "d4_post"
+      ]
+    },
+    "d4_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$1B"
+      }
+    },
+    "d4_round": {
+      "type": "Badge",
+      "props": {
+        "text": "Series F",
+        "variant": "outline"
+      }
+    },
+    "d4_post": {
+      "type": "Stat",
+      "props": {
+        "label": "Post",
+        "value": "$11B"
+      }
+    },
+    "d4_lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: General Atlantic",
+        "variant": "caption"
+      }
+    },
+    "d4_why": {
+      "type": "Text",
+      "props": {
+        "text": "JPMorganChase selected SambaNova as its on-premises inference partner — this round locked in the enterprise banking channel as the primary AI chip alternative to cloud inference, structurally differentiated from NVIDIA data-center positioning.",
+        "variant": "body"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "deal_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d5_name",
+        "d5_desc",
+        "d5_metrics",
+        "d5_lead",
+        "d5_why"
+      ]
+    },
+    "d5_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Norm AI",
+        "level": "h3"
+      }
+    },
+    "d5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI-native compliance automation",
+        "variant": "muted"
+      }
+    },
+    "d5_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d5_funding",
+        "d5_round",
+        "d5_post"
+      ]
+    },
+    "d5_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$120M"
+      }
+    },
+    "d5_round": {
+      "type": "Badge",
+      "props": {
+        "text": "Series C",
+        "variant": "outline"
+      }
+    },
+    "d5_post": {
+      "type": "Stat",
+      "props": {
+        "label": "Post",
+        "value": "$1.2B"
+      }
+    },
+    "d5_lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Khosla Ventures",
+        "variant": "caption"
+      }
+    },
+    "d5_why": {
+      "type": "Text",
+      "props": {
+        "text": "GENIUS Act converts regulatory text into enforceable software rules on a 5-day deadline — Norm translates statutes directly to executable code; Khosla's second regulatory-AI bet this year shifts the thesis from experimental to critical-path.",
+        "variant": "body"
+      }
+    },
+    "sep_6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "deal_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d6_name",
+        "d6_desc",
+        "d6_metrics",
+        "d6_lead",
+        "d6_why"
+      ]
+    },
+    "d6_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Taktile",
+        "level": "h3"
+      }
+    },
+    "d6_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic decision OS for banks and insurers",
+        "variant": "muted"
+      }
+    },
+    "d6_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d6_funding",
+        "d6_round"
+      ]
+    },
+    "d6_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$110M"
+      }
+    },
+    "d6_round": {
+      "type": "Badge",
+      "props": {
+        "text": "Series C",
+        "variant": "outline"
+      }
+    },
+    "d6_lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Goldman Sachs Growth",
+        "variant": "caption"
+      }
+    },
+    "d6_why": {
+      "type": "Text",
+      "props": {
+        "text": "Goldman Sachs Growth invested in the underwriting AI layer that competes with Goldman's own credit decisions — an investor-pattern anomaly: the incumbent buying the automation before being disrupted by it.",
+        "variant": "body"
+      }
+    },
+    "sep_7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "deal_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d7_name",
+        "d7_desc",
+        "d7_metrics",
+        "d7_lead",
+        "d7_why"
+      ]
+    },
+    "d7_name": {
+      "type": "Heading",
+      "props": {
+        "text": "EDX Markets",
+        "level": "h3"
+      }
+    },
+    "d7_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional crypto exchange",
+        "variant": "muted"
+      }
+    },
+    "d7_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d7_funding",
+        "d7_round"
+      ]
+    },
+    "d7_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$76M"
+      }
+    },
+    "d7_round": {
+      "type": "Badge",
+      "props": {
+        "text": "Series C",
+        "variant": "outline"
+      }
+    },
+    "d7_lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: SBI Group (co-backers: Citadel, Fidelity, Schwab, Paradigm)",
+        "variant": "caption"
+      }
+    },
+    "d7_why": {
+      "type": "Text",
+      "props": {
+        "text": "National trust bank charter application converts EDX from exchange to regulated custody-and-clearing entity — removes the last counterparty-risk objection from GENIUS Act-compliant allocators; Citadel/Fidelity/Schwab/Paradigm as co-backers is TradFi and crypto converging on the same rails.",
+        "variant": "body"
+      }
+    },
+    "sep_8": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "deal_8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "d8_name",
+        "d8_desc",
+        "d8_metrics",
+        "d8_lead",
+        "d8_why"
+      ]
+    },
+    "d8_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Bespoke Labs",
+        "level": "h3"
+      }
+    },
+    "d8_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI agent testing and simulation environments",
+        "variant": "muted"
+      }
+    },
+    "d8_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "d8_funding",
+        "d8_round"
+      ]
+    },
+    "d8_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$40M"
+      }
+    },
+    "d8_round": {
+      "type": "Badge",
+      "props": {
+        "text": "Series A",
+        "variant": "outline"
+      }
+    },
+    "d8_lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Wing VC, Mayfield, The House Fund",
+        "variant": "caption"
+      }
+    },
+    "d8_why": {
+      "type": "Text",
+      "props": {
+        "text": "Every major model lab ships agentic systems with no standardized pre-deployment evaluation layer — Bespoke is pricing the first-mover bet that agent reliability testing becomes a regulatory requirement before the next major agent failure mandates it.",
+        "variant": "body"
+      }
+    },
+    "sep_9": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "src_head",
+        "src_text"
+      ]
+    },
+    "src_head": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h4"
+      }
+    },
+    "src_text": {
+      "type": "Text",
+      "props": {
+        "text": "crunchbase=ok, techcrunch=ok, theblock=ok, aift=ok, cryptorank=fail, crypto-fundraising=fail | candidates=25 → kept=8",
+        "variant": "caption"
+      }
+    }
+  }
+}
