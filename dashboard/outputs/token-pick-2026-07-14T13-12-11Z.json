@@ -1,0 +1,319 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-14"
+      },
+      "children": [
+        "token-header",
+        "sep1",
+        "price-metrics",
+        "sep2",
+        "score-section",
+        "sep3",
+        "catalyst-section",
+        "sep4",
+        "risk-alert",
+        "sep5",
+        "comparison-section",
+        "sep6",
+        "sources-section",
+        "sep7",
+        "disclaimer"
+      ]
+    },
+    "token-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token-text",
+        "signal-badge",
+        "signal-progress"
+      ]
+    },
+    "token-text": {
+      "type": "Heading",
+      "props": {
+        "text": "DRV",
+        "level": "h2"
+      }
+    },
+    "signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "signal-progress": {
+      "type": "Progress",
+      "props": {
+        "label": "Signal",
+        "value": 10,
+        "max": 10
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price-grid",
+        "market-metrics"
+      ]
+    },
+    "price-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "price-24h",
+        "price-7d"
+      ]
+    },
+    "price-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "$0.164",
+        "delta": "+38.6%",
+        "trend": "up"
+      }
+    },
+    "price-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "$0.164",
+        "delta": "+48.7%",
+        "trend": "up"
+      }
+    },
+    "market-metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "mcap-stat",
+        "vol-stat",
+        "volmcap-stat"
+      ]
+    },
+    "mcap-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$164M"
+      }
+    },
+    "vol-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$18.7M"
+      }
+    },
+    "volmcap-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap",
+        "value": "0.11"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "score-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-heading",
+        "score-formula"
+      ]
+    },
+    "score-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      }
+    },
+    "score-formula": {
+      "type": "Text",
+      "props": {
+        "text": "[24h>0+1, 7d>0+1, both>5%+2, trending+2, vol/mcap≥0.10+2, RS vs BTC/ETH+2] = 10/10",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalyst-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-heading",
+        "catalyst-text"
+      ]
+    },
+    "catalyst-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "Upbit + Bithumb dual listing today (Jul 14) with KRW/BTC/USDT pairs — first Korean exchange access for DRV, opening the highest-volume per capita retail market",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "risk-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Classic sell-the-news: $0.18 intraday peak already fading toward $0.164; Korean retail typically exits within 24-48h post-listing",
+        "type": "warning"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "comparison-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "comparison-heading",
+        "comparison-text"
+      ]
+    },
+    "comparison-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Vs Recent Picks",
+        "level": "h3"
+      }
+    },
+    "comparison-text": {
+      "type": "Text",
+      "props": {
+        "text": "First time — not in 7-day dedup window",
+        "variant": "body"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-heading",
+        "sources-list"
+      ]
+    },
+    "sources-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Data Sources",
+        "level": "h3"
+      }
+    },
+    "sources-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cg",
+        "badge-dex",
+        "badge-poly"
+      ]
+    },
+    "badge-cg": {
+      "type": "Badge",
+      "props": {
+        "text": "cg: ok",
+        "variant": "default"
+      }
+    },
+    "badge-dex": {
+      "type": "Badge",
+      "props": {
+        "text": "dex: fail",
+        "variant": "outline"
+      }
+    },
+    "badge-poly": {
+      "type": "Badge",
+      "props": {
+        "text": "poly: ok",
+        "variant": "default"
+      }
+    },
+    "sep7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
