@@ -1,0 +1,425 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-07-14"
+      },
+      "children": [
+        "verdict-text",
+        "sep-1",
+        "patch-heading",
+        "patches-stack"
+      ]
+    },
+    "verdict-text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: nothing urgent today. 5 to schedule, 0 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patches-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-1",
+        "patch-2",
+        "patch-3",
+        "patch-4",
+        "patch-5"
+      ]
+    },
+    "patch-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "patch-1-title",
+        "patch-1-badges",
+        "patch-1-desc",
+        "patch-1-upgrade"
+      ]
+    },
+    "patch-1-title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-61667",
+        "href": "https://github.com/advisories/GHSA-m4m7-4cw8-62j6"
+      }
+    },
+    "patch-1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "patch-1-pkg",
+        "patch-1-cvss",
+        "patch-1-epss",
+        "patch-1-poc"
+      ]
+    },
+    "patch-1-pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "DIRAC (pip)",
+        "variant": "secondary"
+      }
+    },
+    "patch-1-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.9",
+        "variant": "destructive"
+      }
+    },
+    "patch-1-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0",
+        "variant": "default"
+      }
+    },
+    "patch-1-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no public PoC",
+        "variant": "outline"
+      }
+    },
+    "patch-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "RCE via SQL injection in FileCatalog DatasetManager fed into eval(). Authenticated, full server compromise.",
+        "variant": "body"
+      }
+    },
+    "patch-1-upgrade": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade: DIRAC → ≥8.0.79 / ≥9.0.22 / ≥9.1.10",
+        "variant": "caption"
+      }
+    },
+    "patch-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "patch-2-title",
+        "patch-2-badges",
+        "patch-2-desc",
+        "patch-2-upgrade"
+      ]
+    },
+    "patch-2-title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-45579",
+        "href": "https://github.com/advisories/GHSA-9jpv-c7p4-997x"
+      }
+    },
+    "patch-2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "patch-2-pkg",
+        "patch-2-cvss",
+        "patch-2-epss",
+        "patch-2-poc"
+      ]
+    },
+    "patch-2-pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "DIRAC (pip)",
+        "variant": "secondary"
+      }
+    },
+    "patch-2-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.9",
+        "variant": "destructive"
+      }
+    },
+    "patch-2-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0",
+        "variant": "default"
+      }
+    },
+    "patch-2-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no public PoC",
+        "variant": "outline"
+      }
+    },
+    "patch-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "RCE via eval() on untrusted input in RequestManager. Same fix targets.",
+        "variant": "body"
+      }
+    },
+    "patch-2-upgrade": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade: DIRAC → ≥8.0.79 / ≥9.0.22 / ≥9.1.10",
+        "variant": "caption"
+      }
+    },
+    "patch-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "patch-3-title",
+        "patch-3-badges",
+        "patch-3-desc",
+        "patch-3-upgrade"
+      ]
+    },
+    "patch-3-title": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-7xw9-549r-8jrc",
+        "href": "https://github.com/advisories/GHSA-7xw9-549r-8jrc"
+      }
+    },
+    "patch-3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "patch-3-pkg",
+        "patch-3-cvss",
+        "patch-3-epss",
+        "patch-3-cve-status"
+      ]
+    },
+    "patch-3-pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "DIRAC (pip)",
+        "variant": "secondary"
+      }
+    },
+    "patch-3-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.5",
+        "variant": "destructive"
+      }
+    },
+    "patch-3-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0",
+        "variant": "default"
+      }
+    },
+    "patch-3-cve-status": {
+      "type": "Badge",
+      "props": {
+        "text": "no CVE",
+        "variant": "outline"
+      }
+    },
+    "patch-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "SQL injection + missing access control in PilotManager service.",
+        "variant": "body"
+      }
+    },
+    "patch-3-upgrade": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade: DIRAC → ≥8.0.79 / ≥9.0.22 / ≥9.1.10",
+        "variant": "caption"
+      }
+    },
+    "patch-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "patch-4-title",
+        "patch-4-badges",
+        "patch-4-desc",
+        "patch-4-upgrade"
+      ]
+    },
+    "patch-4-title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-61668",
+        "href": "https://github.com/advisories/GHSA-vg99-gr89-qhw9"
+      }
+    },
+    "patch-4-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "patch-4-pkg",
+        "patch-4-cvss",
+        "patch-4-epss",
+        "patch-4-poc"
+      ]
+    },
+    "patch-4-pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "DIRAC (pip)",
+        "variant": "secondary"
+      }
+    },
+    "patch-4-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "destructive"
+      }
+    },
+    "patch-4-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0",
+        "variant": "default"
+      }
+    },
+    "patch-4-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no public PoC",
+        "variant": "outline"
+      }
+    },
+    "patch-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pilot agent code fetched over unverified HTTPS; MITM can inject arbitrary code during download.",
+        "variant": "body"
+      }
+    },
+    "patch-4-upgrade": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade: DIRAC → ≥8.0.79 / ≥9.0.22 / ≥9.1.10",
+        "variant": "caption"
+      }
+    },
+    "patch-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "patch-5-title",
+        "patch-5-badges",
+        "patch-5-desc",
+        "patch-5-upgrade"
+      ]
+    },
+    "patch-5-title": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-xf7x-x43h-rpqh",
+        "href": "https://github.com/advisories/GHSA-xf7x-x43h-rpqh"
+      }
+    },
+    "patch-5-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "patch-5-pkg",
+        "patch-5-cvss",
+        "patch-5-epss",
+        "patch-5-poc"
+      ]
+    },
+    "patch-5-pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "json-repair (pip)",
+        "variant": "secondary"
+      }
+    },
+    "patch-5-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "destructive"
+      }
+    },
+    "patch-5-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0",
+        "variant": "default"
+      }
+    },
+    "patch-5-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "outline"
+      }
+    },
+    "patch-5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Circular JSON Schema $ref infinite loop — unauthenticated CPU DoS. Docker + HTTP PoC published.",
+        "variant": "body"
+      }
+    },
+    "patch-5-upgrade": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade: json-repair → ≥0.60.1",
+        "variant": "caption"
+      }
+    }
+  }
+}

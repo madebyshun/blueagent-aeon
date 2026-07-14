@@ -1,28 +1,23 @@
-*Security Digest — 2026-07-13*
-Verdict: 1 KEV-confirmed, 2 CVSS 9.9 with public PoC → patch today. 3 more to schedule. _Sources: KEV, GH Advisory, EPSS_
-
-*PATCH TODAY*
-- [CVE-2026-55255](https://github.com/advisories/GHSA-qrpv-q767-xqq2) — langflow (pip) · KEV 2026-07-07 · EPSS 0.006 · CVSS 8.4
-  Auth bypass in /api/v1/responses lets any authed user execute any flow via UUID. CISA-confirmed in-the-wild exploitation.
-  → upgrade langflow to ≥1.9.1 and redeploy.
-
-- [CVE-2026-50551](https://github.com/advisories/GHSA-56mp-4f3v-fgj2) — siyuan/kernel (Go) · CVSS 9.9 · EPSS 0.004 · public PoC
-  Stored XSS→RCE via unsanitized asset cell content in Electron renderer. PoC payload published in advisory.
-  → upgrade siyuan to ≥build 2026-06-28 and redeploy.
-
-- [CVE-2026-54158](https://github.com/advisories/GHSA-5xfx-xj4h-5p7r) — siyuan/kernel (Go) · CVSS 9.9 · EPSS 0.003 · public PoC
-  Stored XSS→RCE in genAVValueHTML(); workspace sync attack vector. Same build fixes both SiYuan entries.
-  → upgrade siyuan to ≥build 2026-06-28 and redeploy.
+*Security Digest — 2026-07-14*
+Verdict: nothing urgent today. 5 to schedule, 0 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH THIS WEEK*
-- [CVE-2026-54088](https://github.com/advisories/GHSA-m93h-4hw7-5qcm) — filebrowser/v2 (Go) · CVSS 9.3 · EPSS 0.005 · public PoC
-  Pre-auth RCE via shell metacharacters in login credentials exploiting auth hook substitution.
-  → schedule upgrade: filebrowser → ≥2.63.6.
+- [CVE-2026-61667](https://github.com/advisories/GHSA-m4m7-4cw8-62j6) — DIRAC (pip) · CVSS 9.9 · EPSS 0 · no public PoC
+  RCE via SQL injection in FileCatalog DatasetManager fed into eval(). Authenticated, full server compromise.
+  → schedule upgrade: DIRAC → ≥8.0.79 / ≥9.0.22 / ≥9.1.10
 
-- [GHSA-g936-7jqj-mwv8](https://github.com/advisories/GHSA-g936-7jqj-mwv8) — tsdproxy (Go) · CVSS 9.0 · no CVE/EPSS
-  Internal proxy auth token forwarded to all backends; backend can replay to mgmt port with arbitrary identity.
-  → schedule upgrade: tsdproxy → ≥1.4.4 (build 2026-06-03).
+- [CVE-2026-45579](https://github.com/advisories/GHSA-9jpv-c7p4-997x) — DIRAC (pip) · CVSS 9.9 · EPSS 0 · no public PoC
+  RCE via eval() on untrusted input in RequestManager. Same fix targets.
+  → schedule upgrade: DIRAC → ≥8.0.79 / ≥9.0.22 / ≥9.1.10
 
-- [GHSA-xrmc-c5cg-rv7x](https://github.com/advisories/GHSA-xrmc-c5cg-rv7x) — safeinstall-cli (npm) · CVSS 8.8 · no CVE/EPSS
-  Agent guard shell parsing miss lets raw package execution bypass safety checks.
-  → schedule upgrade: safeinstall-cli → ≥0.10.2.
+- [GHSA-7xw9-549r-8jrc](https://github.com/advisories/GHSA-7xw9-549r-8jrc) — DIRAC (pip) · CVSS 8.5 · EPSS 0 · no CVE
+  SQL injection + missing access control in PilotManager service.
+  → schedule upgrade: DIRAC → ≥8.0.79 / ≥9.0.22 / ≥9.1.10
+
+- [CVE-2026-61668](https://github.com/advisories/GHSA-vg99-gr89-qhw9) — DIRAC (pip) · CVSS 8.1 · EPSS 0 · no public PoC
+  Pilot agent code fetched over unverified HTTPS; MITM can inject arbitrary code during download.
+  → schedule upgrade: DIRAC → ≥8.0.79 / ≥9.0.22 / ≥9.1.10
+
+- [GHSA-xf7x-x43h-rpqh](https://github.com/advisories/GHSA-xf7x-x43h-rpqh) — json-repair (pip) · CVSS 7.5 · EPSS 0 · public PoC
+  Circular JSON Schema $ref infinite loop — unauthenticated CPU DoS. Docker + HTTP PoC published.
+  → schedule upgrade: json-repair → ≥0.60.1
