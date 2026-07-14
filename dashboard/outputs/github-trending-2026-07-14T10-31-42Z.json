@@ -1,0 +1,141 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-14"
+      },
+      "children": [
+        "summary_text",
+        "sep1",
+        "category_heading",
+        "repo_stack",
+        "sep2",
+        "footer_text"
+      ]
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Thin day — 7 of 11 trending repos carried over from Jul 13. One new entry cleared the bar.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "category_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "repo_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo_item"
+      ]
+    },
+    "repo_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_header",
+        "repo_stats",
+        "repo_description"
+      ]
+    },
+    "repo_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_link",
+        "lang_badge",
+        "status_badge"
+      ]
+    },
+    "repo_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "moeru-ai/airi",
+        "href": "https://github.com/moeru-ai/airi",
+        "source": "GitHub"
+      }
+    },
+    "lang_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "repo_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "today_stars",
+        "total_stars"
+      ]
+    },
+    "today_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "78"
+      }
+    },
+    "total_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "42.2k"
+      }
+    },
+    "repo_description": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted AI that plays Minecraft/Factorio with real-time voice — pushed today, autonomous gameplay not just chat.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 1/11",
+        "variant": "caption"
+      }
+    }
+  }
+}
