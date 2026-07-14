@@ -1,0 +1,313 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker",
+        "description": "2026-07-14"
+      },
+      "children": [
+        "section_transitions"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_transitions",
+        "separator_main",
+        "item1",
+        "separator1",
+        "item2",
+        "separator2",
+        "item3"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "separator_main": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item1_badges",
+        "item1_heading",
+        "item1_details"
+      ]
+    },
+    "item1_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new",
+        "badge_frontrun"
+      ]
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "badge_frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "destructive"
+      }
+    },
+    "item1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "On-Chain Options/Derivatives",
+        "level": "h3"
+      }
+    },
+    "item1_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "detail1_1",
+        "detail1_2",
+        "detail1_3",
+        "detail1_4"
+      ]
+    },
+    "detail1_1": {
+      "type": "Text",
+      "props": {
+        "text": "DRV dual KR listing today (Upbit+Bithumb)",
+        "variant": "body"
+      }
+    },
+    "detail1_2": {
+      "type": "Text",
+      "props": {
+        "text": "v3 → RWA options expansion",
+        "variant": "body"
+      }
+    },
+    "detail1_3": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase listed May",
+        "variant": "body"
+      }
+    },
+    "detail1_4": {
+      "type": "Stat",
+      "props": {
+        "label": "On-chain options share",
+        "value": "90%"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item2_badges",
+        "item2_heading",
+        "item2_details"
+      ]
+    },
+    "item2_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted1",
+        "badge_watch_ride1"
+      ]
+    },
+    "badge_promoted1": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "badge_watch_ride1": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH → RIDE",
+        "variant": "default"
+      }
+    },
+    "item2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Kaito/InfoFi",
+        "level": "h3"
+      }
+    },
+    "item2_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "detail2_1",
+        "detail2_2",
+        "detail2_3"
+      ]
+    },
+    "detail2_1": {
+      "type": "Stat",
+      "props": {
+        "label": "KAITO (today)",
+        "value": "+12.0%",
+        "trend": "up"
+      }
+    },
+    "detail2_2": {
+      "type": "Text",
+      "props": {
+        "text": "Mild risk-on (market median +2%)",
+        "variant": "body"
+      }
+    },
+    "detail2_3": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket scaling to thousands of Attention Markets",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item3_badges",
+        "item3_heading",
+        "item3_details"
+      ]
+    },
+    "item3_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted2",
+        "badge_watch_ride2"
+      ]
+    },
+    "badge_promoted2": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "badge_watch_ride2": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH → RIDE",
+        "variant": "default"
+      }
+    },
+    "item3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agent Economy",
+        "level": "h3"
+      }
+    },
+    "item3_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "detail3_1",
+        "detail3_2",
+        "detail3_3",
+        "detail3_4",
+        "detail3_5"
+      ]
+    },
+    "detail3_1": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain wk1",
+        "variant": "lead"
+      }
+    },
+    "detail3_2": {
+      "type": "Stat",
+      "props": {
+        "label": "Agent volume",
+        "value": "$77M"
+      }
+    },
+    "detail3_3": {
+      "type": "Stat",
+      "props": {
+        "label": "Total agents",
+        "value": "2,100"
+      }
+    },
+    "detail3_4": {
+      "type": "Stat",
+      "props": {
+        "label": "Builder earnings",
+        "value": "$1.3M"
+      }
+    },
+    "detail3_5": {
+      "type": "Text",
+      "props": {
+        "text": "no",
+        "variant": "caption"
+      }
+    }
+  }
+}
