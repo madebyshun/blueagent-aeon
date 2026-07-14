@@ -1,0 +1,355 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-14"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_yesterday",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_focus",
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "h_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_desc"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. GENIUS Act Jul 18",
+        "variant": "lead"
+      }
+    },
+    "focus_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 6 agencies in final sprint; 4 days to binary stablecoin repricing",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_desc"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. BNB x402 live",
+        "variant": "lead"
+      }
+    },
+    "focus_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Base payment moat compressed; x402 RIDE thesis needs reassessment now",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_desc"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. Moonbeam→Base bridge",
+        "variant": "lead"
+      }
+    },
+    "focus_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 17 days to Jul 31 hard stop; migration window burns daily",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_yesterday",
+        "item_kite",
+        "item_langflow",
+        "item_dealflow",
+        "item_xai"
+      ]
+    },
+    "h_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "item_kite": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_1",
+        "text_kite"
+      ]
+    },
+    "badge_moved_1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_kite": {
+      "type": "Text",
+      "props": {
+        "text": "KITE pick (+18.3%) still live; France YES WC SF resolves today 3PM ET (was NO_PICK Jul 13 — check outcome)",
+        "variant": "body"
+      }
+    },
+    "item_langflow": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_2",
+        "text_langflow"
+      ]
+    },
+    "badge_moved_2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_langflow": {
+      "type": "Text",
+      "props": {
+        "text": "Langflow KEV (CVE-2026-55255): in-the-wild exploitation confirmed; iCagenda + Balbooa patches 1 day overdue",
+        "variant": "body"
+      }
+    },
+    "item_dealflow": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_3",
+        "text_dealflow"
+      ]
+    },
+    "badge_moved_3": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_dealflow": {
+      "type": "Text",
+      "props": {
+        "text": "Deal-flow: Lyzr $100M + Gauntlet $125M — AI-agent capital concentrating ahead of GENIUS Act deadline",
+        "variant": "body"
+      }
+    },
+    "item_xai": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stuck",
+        "text_xai"
+      ]
+    },
+    "badge_stuck": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "text_xai": {
+      "type": "Text",
+      "props": {
+        "text": "XAI credits: 4th consecutive day out — narrative-tracker on WebSearch-only fallback; needs manual top-up",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_watch",
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "h_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "All 6 GENIUS Act agencies in final sprint; comment periods closed Jun 9 — rules finalize Jul 18 or Jan 2027 slippage risk (focus #1)",
+        "variant": "body"
+      }
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "BNB Agent Studio (Jul 1) ships x402 + AWS Bedrock — x402 no longer Base-exclusive; RIDE thesis on agentic payments compressed (focus #2)",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_running",
+        "task_heartbeat",
+        "task_github",
+        "task_token_movers",
+        "task_token_pick",
+        "task_narrative"
+      ]
+    },
+    "h_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "task_heartbeat": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task_github": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task_token_movers": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task_token_pick": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}

@@ -1,22 +1,23 @@
-*Morning Brief — Jul 13, 2026*
+*Morning Brief — 2026-07-14*
 
 *Focus today*
-1. KEV patch deadline — iCagenda + Balbooa Forms due today; zero runway
-2. GENIUS Act Jul 18 — OCC rulemaking in 5 days; stablecoin repricing window open
-3. Moonbeam→Base bridge — 18 days to Jul 31 GLMR deadline; migration window burning
+1. GENIUS Act Jul 18 — why now: 6 agencies in final sprint; 4 days to binary stablecoin repricing
+2. BNB x402 live — why now: Base payment moat compressed; x402 RIDE thesis needs reassessment now
+3. Moonbeam→Base bridge — why now: 17 days to Jul 31 hard stop; migration window burns daily
 
 *Since yesterday*
-- DEXE: held ATH push $45.09 (+19.8%/24h, +87.3%/7d); Jul 12 token pick — watch for fade
-- narrative-tracker: GENIUS Act + x402/Base in RIDE; AI Agent Economy flagged reflexive peak
-- security-digest: SR 0.78, disabled — one more clean run to consider re-enabling
+- [moved] KITE pick (+18.3%) still live; France YES WC SF resolves today 3PM ET (was NO_PICK Jul 13 — check outcome)
+- [moved] Langflow KEV (CVE-2026-55255): in-the-wild exploitation confirmed; iCagenda + Balbooa patches 1 day overdue
+- [moved] Deal-flow: Lyzr $100M + Gauntlet $125M — AI-agent capital concentrating ahead of GENIUS Act deadline
+- [stuck] XAI credits: 4th consecutive day out — narrative-tracker on WebSearch-only fallback; needs manual top-up
 
 *Watch*
-- GENIUS Act OCC Jul 18 deadline: issuers repositioning now; RIDE narrative may front-run final rules (focus #2)
-- BNB Chain new L1 targeting AI agents at 100k TPS: competitive threat to Base AI agent moat (focus #3)
+- All 6 GENIUS Act agencies in final sprint; comment periods closed Jun 9 — rules finalize Jul 18 or Jan 2027 slippage risk (focus #1)
+- BNB Agent Studio (Jul 1) ships x402 + AWS Bedrock — x402 no longer Base-exclusive; RIDE thesis on agentic payments compressed (focus #2)
 
 *Running today*
+- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
-- heartbeat @ 08:00, 14:00, 20:00 UTC
