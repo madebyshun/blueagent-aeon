@@ -1,0 +1,790 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest",
+        "description": "2026-07-15"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "verdict_text",
+        "sources_text",
+        "patch_today_sep",
+        "patch_today_heading",
+        "patch_today_stack",
+        "patch_this_week_sep",
+        "patch_this_week_heading",
+        "patch_this_week_stack",
+        "monitor_sep",
+        "monitor_heading",
+        "monitor_stack"
+      ]
+    },
+    "verdict_text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 3 actively exploited (KEV Jul 14), 5 to patch this week, 3 to monitor.",
+        "variant": "lead"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: CISA KEV, GH Advisory, EPSS",
+        "variant": "caption"
+      }
+    },
+    "patch_today_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_today_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "patch_today_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "cve_56164_item",
+        "cve_15409_item",
+        "cve_15410_item",
+        "cve_56155_note"
+      ]
+    },
+    "cve_56164_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_56164_link",
+        "cve_56164_badges",
+        "cve_56164_desc",
+        "cve_56164_action"
+      ]
+    },
+    "cve_56164_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-56164 — SharePoint Server (Microsoft)",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-56164",
+        "source": "KEV 2026-07-14",
+        "score": "CVSS n/a"
+      }
+    },
+    "cve_56164_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_56164_kev_badge"
+      ]
+    },
+    "cve_56164_kev_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV Exploited",
+        "variant": "destructive"
+      }
+    },
+    "cve_56164_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Missing auth for critical function → unauthenticated network priv esc. Exploited per CISA.",
+        "variant": "body"
+      }
+    },
+    "cve_56164_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply MS SharePoint security update immediately.",
+        "variant": "muted"
+      }
+    },
+    "cve_15409_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_15409_link",
+        "cve_15409_badges",
+        "cve_15409_desc",
+        "cve_15409_action"
+      ]
+    },
+    "cve_15409_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-15409 — SonicWall SMA1000",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409",
+        "source": "KEV 2026-07-14",
+        "score": "CVSS n/a"
+      }
+    },
+    "cve_15409_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_15409_kev_badge"
+      ]
+    },
+    "cve_15409_kev_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV Exploited",
+        "variant": "destructive"
+      }
+    },
+    "cve_15409_desc": {
+      "type": "Text",
+      "props": {
+        "text": "SSRF: unauthenticated attacker forces appliance to reach internal services.",
+        "variant": "body"
+      }
+    },
+    "cve_15409_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade SMA1000 firmware per SonicWall PSIRT.",
+        "variant": "muted"
+      }
+    },
+    "cve_15410_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_15410_link",
+        "cve_15410_badges",
+        "cve_15410_desc",
+        "cve_15410_action"
+      ]
+    },
+    "cve_15410_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-15410 — SonicWall SMA1000",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-15410",
+        "source": "KEV 2026-07-14",
+        "score": "CVSS n/a"
+      }
+    },
+    "cve_15410_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_15410_kev_badge"
+      ]
+    },
+    "cve_15410_kev_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV Exploited",
+        "variant": "destructive"
+      }
+    },
+    "cve_15410_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Code injection via admin panel; exploited in the wild.",
+        "variant": "body"
+      }
+    },
+    "cve_15410_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ same firmware update as CVE-2026-15409.",
+        "variant": "muted"
+      }
+    },
+    "cve_56155_note": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Also KEV Jul 14: CVE-2026-56155 (MS ADFS local priv esc, authorized attacker) → apply Windows Update."
+      }
+    },
+    "patch_this_week_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_this_week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch_this_week_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "ghsa_j6r7_item",
+        "ghsa_xrcf_item",
+        "ghsa_q3fv_item",
+        "ghsa_2p2f_item",
+        "ghsa_qf34_item"
+      ]
+    },
+    "ghsa_j6r7_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_j6r7_link",
+        "ghsa_j6r7_badges",
+        "ghsa_j6r7_desc",
+        "ghsa_j6r7_action"
+      ]
+    },
+    "ghsa_j6r7_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-j6r7-6fhx-77wx — n8n-mcp (npm) · CVE-2026-54052",
+        "href": "https://github.com/advisories/GHSA-j6r7-6fhx-77wx",
+        "source": "npm"
+      }
+    },
+    "ghsa_j6r7_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_j6r7_cvss",
+        "ghsa_j6r7_epss"
+      ]
+    },
+    "ghsa_j6r7_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.9",
+        "variant": "destructive"
+      }
+    },
+    "ghsa_j6r7_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS ~0",
+        "variant": "outline"
+      }
+    },
+    "ghsa_j6r7_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-tenant read of workflow version backups in multi-tenant HTTP deployments.",
+        "variant": "body"
+      }
+    },
+    "ghsa_j6r7_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade n8n-mcp to ≥2.56.1.",
+        "variant": "muted"
+      }
+    },
+    "ghsa_xrcf_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_xrcf_link",
+        "ghsa_xrcf_badges",
+        "ghsa_xrcf_desc",
+        "ghsa_xrcf_related",
+        "ghsa_xrcf_action"
+      ]
+    },
+    "ghsa_xrcf_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-xrcf-6jh3-ggvx — anyquery (Go) · CVE-2026-50006",
+        "href": "https://github.com/advisories/GHSA-xrcf-6jh3-ggvx",
+        "source": "Go"
+      }
+    },
+    "ghsa_xrcf_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_xrcf_cvss",
+        "ghsa_xrcf_epss"
+      ]
+    },
+    "ghsa_xrcf_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.1",
+        "variant": "destructive"
+      }
+    },
+    "ghsa_xrcf_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS ~0",
+        "variant": "outline"
+      }
+    },
+    "ghsa_xrcf_desc": {
+      "type": "Text",
+      "props": {
+        "text": "ATTACH DATABASE in server mode → arbitrary file write → RCE.",
+        "variant": "body"
+      }
+    },
+    "ghsa_xrcf_related": {
+      "type": "Text",
+      "props": {
+        "text": "Same pkg also: SSRF (CVE-2026-54628, CVSS 8.6) + LFR (CVE-2026-54629, CVSS 7.5).",
+        "variant": "caption"
+      }
+    },
+    "ghsa_xrcf_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade anyquery to ≥0.4.5 (fixes all three); or disable server mode.",
+        "variant": "muted"
+      }
+    },
+    "ghsa_q3fv_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_q3fv_link",
+        "ghsa_q3fv_badges",
+        "ghsa_q3fv_desc",
+        "ghsa_q3fv_action"
+      ]
+    },
+    "ghsa_q3fv_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-q3fv-x8vg-qqm4 — trivy (Go) · CVE-2026-54448",
+        "href": "https://github.com/advisories/GHSA-q3fv-x8vg-qqm4",
+        "source": "Go"
+      }
+    },
+    "ghsa_q3fv_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_q3fv_cvss",
+        "ghsa_q3fv_epss"
+      ]
+    },
+    "ghsa_q3fv_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.7",
+        "variant": "destructive"
+      }
+    },
+    "ghsa_q3fv_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.25%",
+        "variant": "secondary"
+      }
+    },
+    "ghsa_q3fv_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Malformed Helm chart tar bomb → unbounded io.ReadAll → OOM crash. CI/CD scanners exposed.",
+        "variant": "body"
+      }
+    },
+    "ghsa_q3fv_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade trivy to ≥0.71.0.",
+        "variant": "muted"
+      }
+    },
+    "ghsa_2p2f_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_2p2f_link",
+        "ghsa_2p2f_badges",
+        "ghsa_2p2f_desc",
+        "ghsa_2p2f_related",
+        "ghsa_2p2f_action"
+      ]
+    },
+    "ghsa_2p2f_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-2p2f-px33-4vv5 — nebula-mesh (Go) · CVE-2026-53604",
+        "href": "https://github.com/advisories/GHSA-2p2f-px33-4vv5",
+        "source": "Go"
+      }
+    },
+    "ghsa_2p2f_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_2p2f_cvss",
+        "ghsa_2p2f_epss"
+      ]
+    },
+    "ghsa_2p2f_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.7",
+        "variant": "destructive"
+      }
+    },
+    "ghsa_2p2f_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS ~0",
+        "variant": "outline"
+      }
+    },
+    "ghsa_2p2f_desc": {
+      "type": "Text",
+      "props": {
+        "text": "CA private key not zeroized on error paths.",
+        "variant": "body"
+      }
+    },
+    "ghsa_2p2f_related": {
+      "type": "Text",
+      "props": {
+        "text": "Companions: cert revocation bypass (CVE-2026-61699, CVSS 8.1), SSRF protection disable (CVSS 7.7), plaintext session tokens (CVE-2026-53603, CVSS 7.1).",
+        "variant": "caption"
+      }
+    },
+    "ghsa_2p2f_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade nebula-mesh to ≥0.7.2 (fixes all four).",
+        "variant": "muted"
+      }
+    },
+    "ghsa_qf34_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_qf34_link",
+        "ghsa_qf34_badges",
+        "ghsa_qf34_desc",
+        "ghsa_qf34_action"
+      ]
+    },
+    "ghsa_qf34_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-qf34-295c-26v8 — woodpecker-ci (Go) · CVE-2026-61549",
+        "href": "https://github.com/advisories/GHSA-qf34-295c-26v8",
+        "source": "Go"
+      }
+    },
+    "ghsa_qf34_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_qf34_cvss",
+        "ghsa_qf34_epss"
+      ]
+    },
+    "ghsa_qf34_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.2",
+        "variant": "destructive"
+      }
+    },
+    "ghsa_qf34_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS ~0",
+        "variant": "outline"
+      }
+    },
+    "ghsa_qf34_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unrestricted serviceAccountName in K8s backend → cluster privilege escalation.",
+        "variant": "body"
+      }
+    },
+    "ghsa_qf34_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade woodpecker-ci to ≥3.16.0.",
+        "variant": "muted"
+      }
+    },
+    "monitor_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "monitor_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "ghsa_9hc2_item",
+        "ghsa_mqxv_item",
+        "ghsa_pqg7_item"
+      ]
+    },
+    "ghsa_9hc2_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_9hc2_link",
+        "ghsa_9hc2_badge",
+        "ghsa_9hc2_desc",
+        "ghsa_9hc2_action"
+      ]
+    },
+    "ghsa_9hc2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-9hc2-hjx8-q6pv — tidgi (npm)",
+        "href": "https://github.com/advisories/GHSA-9hc2-hjx8-q6pv",
+        "source": "npm"
+      }
+    },
+    "ghsa_9hc2_badge": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_9hc2_cvss",
+        "ghsa_9hc2_status"
+      ]
+    },
+    "ghsa_9hc2_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.6",
+        "variant": "destructive"
+      }
+    },
+    "ghsa_9hc2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch",
+        "variant": "warning"
+      }
+    },
+    "ghsa_9hc2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "TiddlyWiki auto-exec startup modules → unauthenticated RCE on untrusted repo import.",
+        "variant": "body"
+      }
+    },
+    "ghsa_9hc2_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ disable untrusted repo import; track release.",
+        "variant": "muted"
+      }
+    },
+    "ghsa_mqxv_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_mqxv_link",
+        "ghsa_mqxv_badge",
+        "ghsa_mqxv_desc",
+        "ghsa_mqxv_action"
+      ]
+    },
+    "ghsa_mqxv_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-mqxv-9rm6-w8qc — ech0 (Go)",
+        "href": "https://github.com/advisories/GHSA-mqxv-9rm6-w8qc",
+        "source": "Go"
+      }
+    },
+    "ghsa_mqxv_badge": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_mqxv_cvss",
+        "ghsa_mqxv_status"
+      ]
+    },
+    "ghsa_mqxv_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.7",
+        "variant": "destructive"
+      }
+    },
+    "ghsa_mqxv_status": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch",
+        "variant": "warning"
+      }
+    },
+    "ghsa_mqxv_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Accept-Language _ separator → ~70× CPU amplification per request.",
+        "variant": "body"
+      }
+    },
+    "ghsa_mqxv_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ rate-limit in front; track release.",
+        "variant": "muted"
+      }
+    },
+    "ghsa_pqg7_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_pqg7_link",
+        "ghsa_pqg7_badge",
+        "ghsa_pqg7_desc",
+        "ghsa_pqg7_action"
+      ]
+    },
+    "ghsa_pqg7_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-pqg7-v6wh-3pfp — tsdproxy (Go)",
+        "href": "https://github.com/advisories/GHSA-pqg7-v6wh-3pfp",
+        "source": "Go"
+      }
+    },
+    "ghsa_pqg7_badge": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_pqg7_cvss",
+        "ghsa_pqg7_status"
+      ]
+    },
+    "ghsa_pqg7_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.5",
+        "variant": "destructive"
+      }
+    },
+    "ghsa_pqg7_status": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch",
+        "variant": "warning"
+      }
+    },
+    "ghsa_pqg7_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Client X-Forwarded-For injection → IP spoofing in proxied backend requests.",
+        "variant": "body"
+      }
+    },
+    "ghsa_pqg7_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ strip/override XFF at ingress; track release.",
+        "variant": "muted"
+      }
+    }
+  }
+}
