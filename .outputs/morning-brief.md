@@ -1,19 +1,19 @@
-*Morning Brief — 2026-07-14*
+*Morning Brief — 2026-07-15*
 
 *Focus today*
-1. GENIUS Act Jul 18 — why now: 6 agencies in final sprint; 4 days to binary stablecoin repricing
-2. BNB x402 live — why now: Base payment moat compressed; x402 RIDE thesis needs reassessment now
-3. Moonbeam→Base bridge — why now: 17 days to Jul 31 hard stop; migration window burns daily
+1. GENIUS Act Jul 18 — why now: 3 days to binary stablecoin rule publish or slip
+2. x402 Foundation live (Visa/MC/Ripple) — why now: Base payment moat thesis officially closed today
+3. Robinhood Chain wk2: memecoins, not equities — why now: revenue thesis cracks under composition data
 
 *Since yesterday*
-- [moved] KITE pick (+18.3%) still live; France YES WC SF resolves today 3PM ET (was NO_PICK Jul 13 — check outcome)
-- [moved] Langflow KEV (CVE-2026-55255): in-the-wild exploitation confirmed; iCagenda + Balbooa patches 1 day overdue
-- [moved] Deal-flow: Lyzr $100M + Gauntlet $125M — AI-agent capital concentrating ahead of GENIUS Act deadline
-- [stuck] XAI credits: 4th consecutive day out — narrative-tracker on WebSearch-only fallback; needs manual top-up
+- x402: Linux Foundation governance live, 40 members incl. Visa/Mastercard/Ripple + XRP/RLUSD — multi-chain standard confirmed, Base exclusivity dead
+- Robinhood Chain: $3.1B DEX vol wk2, TVL 7x to $135M — memecoin-dominated; tokenized stocks displaced; revenue snag flagged
+- DRV: 1 day post Korea dual-listing pump (+38.6%); watch for fade
+- XAI API: 403 (no credits) 5th consecutive day — narrative-tracker on WebSearch fallback
 
 *Watch*
-- All 6 GENIUS Act agencies in final sprint; comment periods closed Jun 9 — rules finalize Jul 18 or Jan 2027 slippage risk (focus #1)
-- BNB Agent Studio (Jul 1) ships x402 + AWS Bedrock — x402 no longer Base-exclusive; RIDE thesis on agentic payments compressed (focus #2)
+- x402 Foundation: Visa + Mastercard + Ripple governance → x402 is now a global standard; Base exclusivity thesis closed (focus #2)
+- Robinhood wk2 composition: $3.1B vol but memecoin-driven → monetization model now in question (focus #3)
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC

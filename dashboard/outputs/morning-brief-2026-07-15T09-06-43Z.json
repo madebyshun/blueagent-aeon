@@ -1,0 +1,229 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-15"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-stack",
+        "sep1",
+        "since-heading",
+        "since-stack",
+        "sep2",
+        "watch-heading",
+        "watch-stack",
+        "sep3",
+        "running-heading",
+        "running-stack"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. GENIUS Act Jul 18 — why now: 3 days to binary stablecoin rule publish or slip",
+        "variant": "body"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. x402 Foundation live (Visa/MC/Ripple) — why now: Base payment moat thesis officially closed today",
+        "variant": "body"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Robinhood Chain wk2: memecoins, not equities — why now: revenue thesis cracks under composition data",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-4"
+      ]
+    },
+    "since-1": {
+      "type": "Text",
+      "props": {
+        "text": "x402: Linux Foundation governance live, 40 members incl. Visa/Mastercard/Ripple + XRP/RLUSD — multi-chain standard confirmed, Base exclusivity dead",
+        "variant": "body"
+      }
+    },
+    "since-2": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain: $3.1B DEX vol wk2, TVL 7x to $135M — memecoin-dominated; tokenized stocks displaced; revenue snag flagged",
+        "variant": "body"
+      }
+    },
+    "since-3": {
+      "type": "Text",
+      "props": {
+        "text": "DRV: 1 day post Korea dual-listing pump (+38.6%); watch for fade",
+        "variant": "body"
+      }
+    },
+    "since-4": {
+      "type": "Text",
+      "props": {
+        "text": "XAI API: 403 (no credits) 5th consecutive day — narrative-tracker on WebSearch fallback",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-1",
+        "watch-2"
+      ]
+    },
+    "watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "x402 Foundation: Visa + Mastercard + Ripple governance → x402 is now a global standard; Base exclusivity thesis closed (focus #2)",
+        "variant": "body"
+      }
+    },
+    "watch-2": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood wk2 composition: $3.1B vol but memecoin-driven → monetization model now in question (focus #3)",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
