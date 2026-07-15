@@ -1,0 +1,828 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-15",
+        "description": "Market narratives, reflexivity signals, and position tracking"
+      },
+      "children": [
+        "section_transitions",
+        "sep_1",
+        "section_alerts",
+        "sep_2",
+        "section_positions",
+        "sep_3",
+        "section_map"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "item_fed_pivot",
+        "item_x402",
+        "item_drv",
+        "item_ai_compute",
+        "item_privacy_zk",
+        "item_memecoins"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "item_fed_pivot": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted_fed",
+        "text_fed_title",
+        "text_fed_cpi",
+        "text_fed_rate",
+        "text_fed_btc",
+        "text_fed_fomc"
+      ]
+    },
+    "badge_promoted_fed": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED: WATCH → RIDE",
+        "variant": "secondary"
+      }
+    },
+    "text_fed_title": {
+      "type": "Text",
+      "props": {
+        "text": "Fed Pivot / Macro Tailwind",
+        "variant": "lead"
+      }
+    },
+    "text_fed_cpi": {
+      "type": "Text",
+      "props": {
+        "text": "June CPI -0.4% MoM (largest drop since Apr 2020), annual 3.5%",
+        "variant": "body"
+      }
+    },
+    "text_fed_rate": {
+      "type": "Text",
+      "props": {
+        "text": "Rate hike odds collapsed 34% → 6.7% (Polymarket)",
+        "variant": "body"
+      }
+    },
+    "text_fed_btc": {
+      "type": "Text",
+      "props": {
+        "text": "BTC +3% to $65,355",
+        "variant": "body"
+      }
+    },
+    "text_fed_fomc": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC month-end now priced catalyst",
+        "variant": "body"
+      }
+    },
+    "item_x402": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted_x402",
+        "text_x402_title",
+        "text_x402_volume",
+        "text_x402_signal",
+        "text_x402_foundation"
+      ]
+    },
+    "badge_promoted_x402": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED: WATCH → RIDE",
+        "variant": "secondary"
+      }
+    },
+    "text_x402_title": {
+      "type": "Text",
+      "props": {
+        "text": "x402 / Agentic Payments on Base",
+        "variant": "lead"
+      }
+    },
+    "text_x402_volume": {
+      "type": "Text",
+      "props": {
+        "text": "Transactions ≥$1 now 95% of Base agentic volume (was 49% early 2025)",
+        "variant": "body"
+      }
+    },
+    "text_x402_signal": {
+      "type": "Text",
+      "props": {
+        "text": "Quality signal not just quantity",
+        "variant": "body"
+      }
+    },
+    "text_x402_foundation": {
+      "type": "Text",
+      "props": {
+        "text": "x402 Foundation (Visa/MC/Ripple) live today",
+        "variant": "body"
+      }
+    },
+    "item_drv": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted_drv",
+        "text_drv_title",
+        "text_drv_pump",
+        "text_drv_dilution",
+        "text_drv_timing"
+      ]
+    },
+    "badge_demoted_drv": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED: FRONT-RUN → WATCH",
+        "variant": "destructive"
+      }
+    },
+    "text_drv_title": {
+      "type": "Text",
+      "props": {
+        "text": "DRV / On-Chain Options",
+        "variant": "lead"
+      }
+    },
+    "text_drv_pump": {
+      "type": "Text",
+      "props": {
+        "text": "Upbit/Bithumb pump played (+52% peak, settled ~$0.15)",
+        "variant": "body"
+      }
+    },
+    "text_drv_dilution": {
+      "type": "Text",
+      "props": {
+        "text": "Co-founder proposed 50% supply increase (-33% dilution)",
+        "variant": "body"
+      }
+    },
+    "text_drv_timing": {
+      "type": "Text",
+      "props": {
+        "text": "Surfaced same day — bear case materialized",
+        "variant": "body"
+      }
+    },
+    "item_ai_compute": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_ai",
+        "text_ai_title",
+        "text_ai_revenue",
+        "text_ai_hedge",
+        "text_ai_depinai"
+      ]
+    },
+    "badge_new_ai": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW: Emerging ↑↑",
+        "variant": "outline"
+      }
+    },
+    "text_ai_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute / DePIN-AI Layer",
+        "variant": "lead"
+      }
+    },
+    "text_ai_revenue": {
+      "type": "Text",
+      "props": {
+        "text": "Akash, io.net getting actual AI compute revenue vs incentives only",
+        "variant": "body"
+      }
+    },
+    "text_ai_hedge": {
+      "type": "Text",
+      "props": {
+        "text": "95% of crypto hedge funds on multi-agent systems",
+        "variant": "body"
+      }
+    },
+    "text_ai_depinai": {
+      "type": "Text",
+      "props": {
+        "text": "DePIN-without-AI explicitly dying",
+        "variant": "body"
+      }
+    },
+    "item_privacy_zk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_privacy",
+        "text_privacy_title",
+        "text_privacy_upgrade",
+        "text_privacy_zec",
+        "text_privacy_rotation"
+      ]
+    },
+    "badge_new_privacy": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW: Emerging ↑↑",
+        "variant": "outline"
+      }
+    },
+    "text_privacy_title": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy / ZK Layer",
+        "variant": "lead"
+      }
+    },
+    "text_privacy_upgrade": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC Ironwood upgrade Jul 28 (formally verified shielded pool)",
+        "variant": "body"
+      }
+    },
+    "text_privacy_zec": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC trending today +12%",
+        "variant": "body"
+      }
+    },
+    "text_privacy_rotation": {
+      "type": "Text",
+      "props": {
+        "text": "Altcoin rotation amplifying",
+        "variant": "body"
+      }
+    },
+    "item_memecoins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dead",
+        "text_meme_title",
+        "text_meme_stats"
+      ]
+    },
+    "badge_dead": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "text_meme_title": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoins",
+        "variant": "lead"
+      }
+    },
+    "text_meme_stats": {
+      "type": "Text",
+      "props": {
+        "text": "$33.7B cap from $150.6B peak; cross-source fatigue call",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_alerts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_alerts",
+        "alert_genius",
+        "alert_drv_reflex"
+      ]
+    },
+    "heading_alerts": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERTS",
+        "level": "h2"
+      }
+    },
+    "alert_genius": {
+      "type": "Alert",
+      "props": {
+        "title": "GENIUS Act: Jul 18 in 3 days",
+        "message": "Federal Reserve has NOT published standalone rules; no fallback = legal void if missed. Crypto industry shaped preferred provisions (American Prospect Jun 2026) — manufactured consensus at max. RIDE but EXIT Jul 18 regardless.",
+        "type": "warning"
+      }
+    },
+    "alert_drv_reflex": {
+      "type": "Alert",
+      "props": {
+        "title": "DRV: Reflexive Timing",
+        "message": "+52% listing pump and -33% dilution proposal arrived same news cycle Jul 14 — bull catalyst and bear case simultaneous. Reflexive positioning from CEX announcement exceeded what supply math supports.",
+        "type": "warning"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_positions",
+        "pos_frontrun",
+        "pos_ride",
+        "pos_watch",
+        "pos_fade"
+      ]
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos_frontrun": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_frontrun_heading",
+        "pos_ai_compute_detail",
+        "pos_privacy_detail"
+      ]
+    },
+    "pos_frontrun_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "FRONT-RUN",
+        "level": "h3"
+      }
+    },
+    "pos_ai_compute_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_frontrun_ai",
+        "text_pos_ai"
+      ]
+    },
+    "badge_frontrun_ai": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Compute/DePIN-AI • 2 ↑↑ Bull",
+        "variant": "secondary"
+      }
+    },
+    "text_pos_ai": {
+      "type": "Text",
+      "props": {
+        "text": "@akashnet, io.net — bear: token→adoption gap; actual revenue breaks it",
+        "variant": "body"
+      }
+    },
+    "pos_privacy_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_frontrun_privacy",
+        "text_pos_privacy"
+      ]
+    },
+    "badge_frontrun_privacy": {
+      "type": "Badge",
+      "props": {
+        "text": "Privacy/ZK • 2 ↑↑ Bull",
+        "variant": "secondary"
+      }
+    },
+    "text_pos_privacy": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC, @Railgun_Project — bear: regulatory hostility to privacy coins",
+        "variant": "body"
+      }
+    },
+    "pos_ride": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_ride_heading",
+        "pos_fed_pivot_detail",
+        "pos_x402_detail",
+        "pos_genius_detail",
+        "pos_ai_agent_detail"
+      ]
+    },
+    "pos_ride_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE",
+        "level": "h3"
+      }
+    },
+    "pos_fed_pivot_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_fed",
+        "text_pos_fed_ride"
+      ]
+    },
+    "badge_ride_fed": {
+      "type": "Badge",
+      "props": {
+        "text": "Fed Pivot • 4 ↑↑",
+        "variant": "secondary"
+      }
+    },
+    "text_pos_fed_ride": {
+      "type": "Text",
+      "props": {
+        "text": "CME FedWatch, Polymarket — bear: 3.5% CPI vs 2% target; FOMC disappointment",
+        "variant": "body"
+      }
+    },
+    "pos_x402_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_x402",
+        "text_pos_x402_ride"
+      ]
+    },
+    "badge_ride_x402": {
+      "type": "Badge",
+      "props": {
+        "text": "x402/Base Payments • 4 ↑",
+        "variant": "secondary"
+      }
+    },
+    "text_pos_x402_ride": {
+      "type": "Text",
+      "props": {
+        "text": "@base, @coinbase, Stripe, Google — bear: BNB also live; Base leads on quality",
+        "variant": "body"
+      }
+    },
+    "pos_genius_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_genius",
+        "text_pos_genius"
+      ]
+    },
+    "badge_ride_genius": {
+      "type": "Badge",
+      "props": {
+        "text": "GENIUS Act • 5 ↑↑",
+        "variant": "secondary"
+      }
+    },
+    "text_pos_genius": {
+      "type": "Text",
+      "props": {
+        "text": "Circle, OCC×6 agencies — EXIT Jul 18; no fallback",
+        "variant": "body"
+      }
+    },
+    "pos_ai_agent_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_agent",
+        "text_pos_agent"
+      ]
+    },
+    "badge_ride_agent": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Economy • 5 ↑",
+        "variant": "secondary"
+      }
+    },
+    "text_pos_agent": {
+      "type": "Text",
+      "props": {
+        "text": "@robinhoodapp, @virtuals_io — bear: week 2 retention unconfirmed; $619/builder avg thin",
+        "variant": "body"
+      }
+    },
+    "pos_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_watch_heading",
+        "pos_drv_watch_detail"
+      ]
+    },
+    "pos_watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH",
+        "level": "h3"
+      }
+    },
+    "pos_drv_watch_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_drv",
+        "text_pos_drv_watch"
+      ]
+    },
+    "badge_watch_drv": {
+      "type": "Badge",
+      "props": {
+        "text": "DRV/Options • 3 →",
+        "variant": "outline"
+      }
+    },
+    "text_pos_drv_watch": {
+      "type": "Text",
+      "props": {
+        "text": "Supply dilution (-33%) DAO vote pending; hold",
+        "variant": "body"
+      }
+    },
+    "pos_fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_fade_heading",
+        "pos_rwa_detail"
+      ]
+    },
+    "pos_fade_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE",
+        "level": "h3"
+      }
+    },
+    "pos_rwa_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_rwa",
+        "text_pos_rwa"
+      ]
+    },
+    "badge_fade_rwa": {
+      "type": "Badge",
+      "props": {
+        "text": "RWA Tokenization • 4 ↓",
+        "variant": "outline"
+      }
+    },
+    "text_pos_rwa": {
+      "type": "Text",
+      "props": {
+        "text": "UK G7 bond = institutional signal not narrative heat; 56% dormant on-chain",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_map",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading",
+        "map_dead"
+      ]
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_emerging",
+        "text_emerging"
+      ]
+    },
+    "heading_emerging": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h4"
+      }
+    },
+    "text_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN-AI ↑↑, Privacy/ZK ↑↑, Lean Ethereum →, Agentic Dev Tools →",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_rising",
+        "text_rising"
+      ]
+    },
+    "heading_rising": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h4"
+      }
+    },
+    "text_rising": {
+      "type": "Text",
+      "props": {
+        "text": "Fed Pivot ↑↑, x402/Base Payments ↑, Kaito/InfoFi ↑, AI Agent Security/TEE ↑, BNB Chain/AI L1 ↑, DRV/Options →",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_peak",
+        "text_peak"
+      ]
+    },
+    "heading_peak": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h4"
+      }
+    },
+    "text_peak": {
+      "type": "Text",
+      "props": {
+        "text": "GENIUS Act ↑↑, AI Agent Economy ↑, Robinhood Chain ↑",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_fading",
+        "text_fading"
+      ]
+    },
+    "heading_fading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h4"
+      }
+    },
+    "text_fading": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization ↓",
+        "variant": "body"
+      }
+    },
+    "map_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_dead_map",
+        "text_dead_map"
+      ]
+    },
+    "heading_dead_map": {
+      "type": "Heading",
+      "props": {
+        "text": "Dead",
+        "level": "h4"
+      }
+    },
+    "text_dead_map": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoins ↓↓",
+        "variant": "body"
+      }
+    }
+  }
+}
