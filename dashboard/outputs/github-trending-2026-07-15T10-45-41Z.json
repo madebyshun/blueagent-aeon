@@ -1,0 +1,422 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-15"
+      },
+      "children": [
+        "section-top-pick",
+        "sep-1",
+        "section-devtools",
+        "section-ai-ml",
+        "section-web-apps",
+        "section-other",
+        "sep-2",
+        "footer"
+      ]
+    },
+    "section-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-top-pick",
+        "item-top-pick"
+      ]
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-top-pick",
+        "desc-top-pick"
+      ]
+    },
+    "link-top-pick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mattpocock/skills",
+        "href": "https://github.com/mattpocock/skills",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "desc-top-pick": {
+      "type": "Text",
+      "props": {
+        "text": "Matt Pocock's production .claude/ skills — real-world Claude Code patterns from the TypeScript Handbook author, now defining what AI-assisted dev looks like at scale."
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-devtools",
+        "item-devtools"
+      ]
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-devtools",
+        "meta-devtools",
+        "desc-devtools"
+      ]
+    },
+    "link-devtools": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mattpocock/skills",
+        "href": "https://github.com/mattpocock/skills",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "meta-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-devtools",
+        "badge-lang-devtools",
+        "badge-trend-devtools"
+      ]
+    },
+    "stat-devtools": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "171.4k",
+        "delta": "1.7k",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "badge-lang-devtools": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell"
+      },
+      "children": []
+    },
+    "badge-trend-devtools": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      },
+      "children": []
+    },
+    "desc-devtools": {
+      "type": "Text",
+      "props": {
+        "text": "Production-grade Claude Code skills from the TypeScript Handbook author — high-signal .claude/ patterns for AI-assisted engineering workflows."
+      },
+      "children": []
+    },
+    "section-ai-ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-ai-ml",
+        "item-grok2api"
+      ]
+    },
+    "heading-ai-ml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item-grok2api": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-grok2api",
+        "meta-grok2api",
+        "desc-grok2api"
+      ]
+    },
+    "link-grok2api": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chenyme/grok2api",
+        "href": "https://github.com/chenyme/grok2api",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "meta-grok2api": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-grok2api",
+        "badge-lang-grok2api",
+        "badge-trend-grok2api"
+      ]
+    },
+    "stat-grok2api": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "6.0k",
+        "delta": "186",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "badge-lang-grok2api": {
+      "type": "Badge",
+      "props": {
+        "text": "Go"
+      },
+      "children": []
+    },
+    "badge-trend-grok2api": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      },
+      "children": []
+    },
+    "desc-grok2api": {
+      "type": "Text",
+      "props": {
+        "text": "Routes multiple Grok free-tier accounts into one API endpoint — cuts x.ai access costs to zero for teams staying under per-account caps."
+      },
+      "children": []
+    },
+    "section-web-apps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-web-apps",
+        "item-penpot"
+      ]
+    },
+    "heading-web-apps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item-penpot": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-penpot",
+        "meta-penpot",
+        "desc-penpot"
+      ]
+    },
+    "link-penpot": {
+      "type": "StoryLink",
+      "props": {
+        "title": "penpot/penpot",
+        "href": "https://github.com/penpot/penpot",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "meta-penpot": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-penpot",
+        "badge-lang-penpot",
+        "badge-trend-penpot"
+      ]
+    },
+    "stat-penpot": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "56.4k",
+        "delta": "395",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "badge-lang-penpot": {
+      "type": "Badge",
+      "props": {
+        "text": "Clojure"
+      },
+      "children": []
+    },
+    "badge-trend-penpot": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      },
+      "children": []
+    },
+    "desc-penpot": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hostable Figma alternative pushed today — the only mature open-source design platform gaining traction as SaaS-tool churn continues."
+      },
+      "children": []
+    },
+    "section-other": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-other",
+        "item-sharpemu"
+      ]
+    },
+    "heading-other": {
+      "type": "Heading",
+      "props": {
+        "text": "Other",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "item-sharpemu": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-sharpemu",
+        "meta-sharpemu",
+        "desc-sharpemu"
+      ]
+    },
+    "link-sharpemu": {
+      "type": "StoryLink",
+      "props": {
+        "title": "par274/sharpemu",
+        "href": "https://github.com/par274/sharpemu",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "meta-sharpemu": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-sharpemu",
+        "badge-lang-sharpemu",
+        "badge-trend-sharpemu"
+      ]
+    },
+    "stat-sharpemu": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "2.4k",
+        "delta": "332",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "badge-lang-sharpemu": {
+      "type": "Badge",
+      "props": {
+        "text": "C#"
+      },
+      "children": []
+    },
+    "badge-trend-sharpemu": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      },
+      "children": []
+    },
+    "desc-sharpemu": {
+      "type": "Text",
+      "props": {
+        "text": "Experimental PS5 emulator with a 17× star spike today — emulation doesn't fit standard buckets; signals a milestone release or viral community moment."
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/16",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
