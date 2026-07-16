@@ -1,0 +1,1397 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-16"
+      },
+      "children": [
+        "heading_transitions",
+        "sep1",
+        "transitions_stack",
+        "sep2",
+        "heading_reflexivity",
+        "reflexivity_stack",
+        "sep3",
+        "heading_positions",
+        "positions_stack",
+        "sep4",
+        "heading_map",
+        "map_stack"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "transitions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans_genius",
+        "trans_clarity",
+        "trans_tokenized",
+        "trans_rhc",
+        "trans_drv",
+        "trans_privacy"
+      ]
+    },
+    "trans_genius": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_genius_title",
+        "trans_genius_detail"
+      ]
+    },
+    "trans_genius_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_exit_live",
+        "heading_genius"
+      ]
+    },
+    "badge_exit_live": {
+      "type": "Badge",
+      "props": {
+        "text": "EXIT WATCH → LIVE",
+        "variant": "destructive"
+      }
+    },
+    "heading_genius": {
+      "type": "Heading",
+      "props": {
+        "text": "GENIUS Act / Stablecoin Rails",
+        "level": "h4"
+      }
+    },
+    "trans_genius_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 18 deadline TOMORROW. Six agencies racing, no final rules published. Effective date = 120 days after publication (Jan 2027 fallback, not a void). Exit regardless of outcome.",
+        "variant": "body"
+      }
+    },
+    "trans_clarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_clarity_title",
+        "trans_clarity_detail"
+      ]
+    },
+    "trans_clarity_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new",
+        "heading_clarity"
+      ]
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "heading_clarity": {
+      "type": "Heading",
+      "props": {
+        "text": "CLARITY Act / Crypto Market Structure (Emerging ↑↑)",
+        "level": "h4"
+      }
+    },
+    "trans_clarity_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "clarity_text1",
+        "clarity_odds",
+        "clarity_text2"
+      ]
+    },
+    "clarity_text1": {
+      "type": "Text",
+      "props": {
+        "text": "House field hearing in New York Jul 17 (tomorrow). CFTC vs SEC jurisdictional split.",
+        "variant": "body"
+      }
+    },
+    "clarity_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "Senate Odds (Polymarket)",
+        "value": "43%"
+      }
+    },
+    "clarity_text2": {
+      "type": "Text",
+      "props": {
+        "text": "GENIUS Act energy transfers here next. FRONT-RUN.",
+        "variant": "body"
+      }
+    },
+    "trans_tokenized": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_tokenized_title",
+        "trans_tokenized_detail"
+      ]
+    },
+    "trans_tokenized_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_tk",
+        "heading_tokenized"
+      ]
+    },
+    "badge_new_tk": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "heading_tokenized": {
+      "type": "Heading",
+      "props": {
+        "text": "Tokenized Equities / DTCC Rails (Emerging ↑↑)",
+        "level": "h4"
+      }
+    },
+    "trans_tokenized_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tokenized_text1",
+        "tokenized_text2",
+        "tokenized_stats"
+      ]
+    },
+    "tokenized_text1": {
+      "type": "Text",
+      "props": {
+        "text": "DTCC Tokenization Service live Jul 15. Ondo's SPYon/CRCLon backed by DTC entitlements — first tokenized stocks with real clearing-system claim.",
+        "variant": "body"
+      }
+    },
+    "tokenized_text2": {
+      "type": "Text",
+      "props": {
+        "text": "50+ firms: BlackRock, Goldman, JPMorgan.",
+        "variant": "body"
+      }
+    },
+    "tokenized_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_ondo",
+        "stat_btc_context"
+      ]
+    },
+    "stat_ondo": {
+      "type": "Stat",
+      "props": {
+        "label": "ONDO (counter-tape, risk-off day)",
+        "value": "+14.5%",
+        "trend": "up"
+      }
+    },
+    "stat_btc_context": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC context",
+        "value": "-2.1%",
+        "trend": "down"
+      }
+    },
+    "trans_rhc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_rhc_title",
+        "trans_rhc_detail"
+      ]
+    },
+    "trans_rhc_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted",
+        "heading_rhc"
+      ]
+    },
+    "badge_promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "outline"
+      }
+    },
+    "heading_rhc": {
+      "type": "Heading",
+      "props": {
+        "text": "Robinhood Chain / L2 Revenue (↑ → ↑↑)",
+        "level": "h4"
+      }
+    },
+    "trans_rhc_detail": {
+      "type": "Text",
+      "props": {
+        "text": "500M daily Uniswap vol by Jul 8, #2 after ETH mainnet. Week 2 retention concern resolved bullishly. RIDE.",
+        "variant": "body"
+      }
+    },
+    "trans_drv": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_drv_title",
+        "trans_drv_detail"
+      ]
+    },
+    "trans_drv_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted",
+        "heading_drv"
+      ]
+    },
+    "badge_demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "heading_drv": {
+      "type": "Heading",
+      "props": {
+        "text": "DRV / On-Chain Options (WATCH → FADE)",
+        "level": "h4"
+      }
+    },
+    "trans_drv_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Exchange pump faded. Co-founder 50% supply increase unresolved. No new catalyst.",
+        "variant": "body"
+      }
+    },
+    "trans_privacy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_privacy_title",
+        "trans_privacy_detail"
+      ]
+    },
+    "trans_privacy_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted_priv",
+        "heading_privacy"
+      ]
+    },
+    "badge_demoted_priv": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "heading_privacy": {
+      "type": "Heading",
+      "props": {
+        "text": "Privacy / ZK Privacy Layer (↑↑ → ↑)",
+        "level": "h4"
+      }
+    },
+    "trans_privacy_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "privacy_text1",
+        "privacy_stats",
+        "privacy_text2"
+      ]
+    },
+    "privacy_text1": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC 492, -15% from 581 Jul 15 pick.",
+        "variant": "body"
+      }
+    },
+    "privacy_stats": {
+      "type": "Stat",
+      "props": {
+        "label": "Futures:Spot Ratio",
+        "value": "11.7:1",
+        "delta": "speculative peak signal"
+      }
+    },
+    "privacy_text2": {
+      "type": "Text",
+      "props": {
+        "text": "Ironwood still 12 days away. FRONT-RUN but weaker.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_genius_ref",
+        "alert_rhc_ref",
+        "alert_tokenized_ref"
+      ]
+    },
+    "alert_genius_ref": {
+      "type": "Alert",
+      "props": {
+        "title": "GENIUS Act",
+        "message": "Six agencies pre-positioning as regulated stablecoin operators before rules are final. EXIT — sell-news risk on both pass (priced) and miss (uncertainty extends).",
+        "type": "warning"
+      }
+    },
+    "alert_rhc_ref": {
+      "type": "Alert",
+      "props": {
+        "title": "Robinhood Chain",
+        "message": "500M/day narrative → builders deploy → metrics strengthen → narrative amplifies. Watch weekly deceleration as the loop-break signal.",
+        "type": "info"
+      }
+    },
+    "alert_tokenized_ref": {
+      "type": "Alert",
+      "props": {
+        "title": "Tokenized Equities",
+        "message": "ONDO +14.5% counter-tape on broadly risk-off day. DTC entitlement structure not yet processed by most participants — window remains open.",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_exit_genius",
+        "pos_fr_clarity",
+        "pos_fr_tokenized",
+        "pos_fr_ai_compute",
+        "pos_ride_ai_agent",
+        "pos_ride_rhc",
+        "pos_ride_fed",
+        "pos_ride_x402",
+        "pos_ride_ai_security",
+        "pos_fade_drv",
+        "pos_fade_rwa"
+      ]
+    },
+    "pos_exit_genius": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_exit_genius_header",
+        "pos_exit_genius_text"
+      ]
+    },
+    "pos_exit_genius_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_exit_pos",
+        "text_genius_pos"
+      ]
+    },
+    "badge_exit_pos": {
+      "type": "Badge",
+      "props": {
+        "text": "EXIT",
+        "variant": "destructive"
+      }
+    },
+    "text_genius_pos": {
+      "type": "Text",
+      "props": {
+        "text": "GENIUS Act (deadline TOMORROW)",
+        "variant": "lead"
+      }
+    },
+    "pos_exit_genius_text": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "muted"
+      }
+    },
+    "pos_fr_clarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_fr_clarity_header",
+        "pos_fr_clarity_detail"
+      ]
+    },
+    "pos_fr_clarity_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_front_run",
+        "text_clarity_rating"
+      ]
+    },
+    "badge_front_run": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "secondary"
+      }
+    },
+    "text_clarity_rating": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act / Crypto Market Structure (3 ↑↑, Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos_fr_clarity_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "clarity_entities",
+        "clarity_odds_pos",
+        "clarity_bear"
+      ]
+    },
+    "clarity_entities": {
+      "type": "Text",
+      "props": {
+        "text": "HouseFinancialSvc",
+        "variant": "body"
+      }
+    },
+    "clarity_odds_pos": {
+      "type": "Text",
+      "props": {
+        "text": "43% Senate odds priced for miss",
+        "variant": "body"
+      }
+    },
+    "clarity_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: August recess kills it",
+        "variant": "muted"
+      }
+    },
+    "pos_fr_tokenized": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_fr_tokenized_header",
+        "pos_fr_tokenized_detail"
+      ]
+    },
+    "pos_fr_tokenized_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_front_run_tk",
+        "text_tokenized_rating"
+      ]
+    },
+    "badge_front_run_tk": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "secondary"
+      }
+    },
+    "text_tokenized_rating": {
+      "type": "Text",
+      "props": {
+        "text": "Tokenized Equities/DTCC (2 ↑↑, Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos_fr_tokenized_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tokenized_entities_pos",
+        "tokenized_bear_pos"
+      ]
+    },
+    "tokenized_entities_pos": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO, BlackRock, Goldman, JPMorgan",
+        "variant": "body"
+      }
+    },
+    "tokenized_bear_pos": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: SEC still controls equities rails",
+        "variant": "muted"
+      }
+    },
+    "pos_fr_ai_compute": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_fr_ai_compute_header",
+        "pos_fr_ai_compute_detail"
+      ]
+    },
+    "pos_fr_ai_compute_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_front_run_aic",
+        "text_ai_compute_rating"
+      ]
+    },
+    "badge_front_run_aic": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "secondary"
+      }
+    },
+    "text_ai_compute_rating": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN-AI (3 ↑↑, Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos_fr_ai_compute_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_compute_entities",
+        "ai_compute_context",
+        "ai_compute_bear"
+      ]
+    },
+    "ai_compute_entities": {
+      "type": "Text",
+      "props": {
+        "text": "akashnet, io.net, NEAR",
+        "variant": "body"
+      }
+    },
+    "ai_compute_context": {
+      "type": "Text",
+      "props": {
+        "text": "5M daily txns, 27-firm agent dispute court",
+        "variant": "body"
+      }
+    },
+    "ai_compute_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: compute commoditizing fast",
+        "variant": "muted"
+      }
+    },
+    "pos_ride_ai_agent": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ride_ai_agent_header",
+        "pos_ride_ai_agent_detail"
+      ]
+    },
+    "pos_ride_ai_agent_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride",
+        "text_ai_agent_rating"
+      ]
+    },
+    "badge_ride": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "text_ai_agent_rating": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy Infrastructure (5 ↑, Peak)",
+        "variant": "lead"
+      }
+    },
+    "pos_ride_ai_agent_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_agent_entities",
+        "ai_agent_stat",
+        "ai_agent_bear"
+      ]
+    },
+    "ai_agent_entities": {
+      "type": "Text",
+      "props": {
+        "text": "robinhoodapp, virtuals_io",
+        "variant": "body"
+      }
+    },
+    "ai_agent_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "VIRTUAL",
+        "value": "+3.5%",
+        "trend": "up"
+      }
+    },
+    "ai_agent_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: memecoin composition",
+        "variant": "muted"
+      }
+    },
+    "pos_ride_rhc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ride_rhc_header",
+        "pos_ride_rhc_detail"
+      ]
+    },
+    "pos_ride_rhc_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_rhc",
+        "text_rhc_rating"
+      ]
+    },
+    "badge_ride_rhc": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "text_rhc_rating": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain / L2 Revenue (4 ↑↑, Peak)",
+        "variant": "lead"
+      }
+    },
+    "pos_ride_rhc_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rhc_metric",
+        "rhc_bear"
+      ]
+    },
+    "rhc_metric": {
+      "type": "Text",
+      "props": {
+        "text": "500M daily Uniswap vol",
+        "variant": "body"
+      }
+    },
+    "rhc_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: memecoin composition",
+        "variant": "muted"
+      }
+    },
+    "pos_ride_fed": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ride_fed_header",
+        "pos_ride_fed_detail"
+      ]
+    },
+    "pos_ride_fed_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_fed",
+        "text_fed_rating"
+      ]
+    },
+    "badge_ride_fed": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "text_fed_rating": {
+      "type": "Text",
+      "props": {
+        "text": "Fed Pivot / Macro Tailwind (4 ↑, Peak)",
+        "variant": "lead"
+      }
+    },
+    "pos_ride_fed_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fed_metric1",
+        "fed_metric2",
+        "fed_bear"
+      ]
+    },
+    "fed_metric1": {
+      "type": "Text",
+      "props": {
+        "text": "CPI -0.4%",
+        "variant": "body"
+      }
+    },
+    "fed_metric2": {
+      "type": "Text",
+      "props": {
+        "text": "4.5% hike Polymarket",
+        "variant": "body"
+      }
+    },
+    "fed_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: BTC -2.1% today",
+        "variant": "muted"
+      }
+    },
+    "pos_ride_x402": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ride_x402_header",
+        "pos_ride_x402_detail"
+      ]
+    },
+    "pos_ride_x402_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_x402",
+        "text_x402_rating"
+      ]
+    },
+    "badge_ride_x402": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "text_x402_rating": {
+      "type": "Text",
+      "props": {
+        "text": "x402 / Agentic Payments on Base (4 ↑, Rising)",
+        "variant": "lead"
+      }
+    },
+    "pos_ride_x402_detail": {
+      "type": "Text",
+      "props": {
+        "text": "100M cumulative txns",
+        "variant": "body"
+      }
+    },
+    "pos_ride_ai_security": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ride_ai_security_header",
+        "pos_ride_ai_security_detail"
+      ]
+    },
+    "pos_ride_ai_security_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_security",
+        "text_ai_security_rating"
+      ]
+    },
+    "badge_ride_security": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "text_ai_security_rating": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Security / TEE Layer (3 ↑, Rising)",
+        "variant": "lead"
+      }
+    },
+    "pos_ride_ai_security_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_security_entities",
+        "ai_security_event"
+      ]
+    },
+    "ai_security_entities": {
+      "type": "Text",
+      "props": {
+        "text": "PhalaNetwork",
+        "variant": "body"
+      }
+    },
+    "ai_security_event": {
+      "type": "Text",
+      "props": {
+        "text": "JADEPUFFER incident validates narrative",
+        "variant": "body"
+      }
+    },
+    "pos_fade_drv": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_fade_drv_header",
+        "pos_fade_drv_detail"
+      ]
+    },
+    "pos_fade_drv_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade",
+        "text_drv_fade"
+      ]
+    },
+    "badge_fade": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "text_drv_fade": {
+      "type": "Text",
+      "props": {
+        "text": "DRV / On-Chain Options",
+        "variant": "lead"
+      }
+    },
+    "pos_fade_drv_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Dilution overhang",
+        "variant": "body"
+      }
+    },
+    "pos_fade_rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_fade_rwa_header",
+        "pos_fade_rwa_detail"
+      ]
+    },
+    "pos_fade_rwa_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_rwa",
+        "text_rwa_fade"
+      ]
+    },
+    "badge_fade_rwa": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "text_rwa_fade": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization (broad)",
+        "variant": "lead"
+      }
+    },
+    "pos_fade_rwa_detail": {
+      "type": "Text",
+      "props": {
+        "text": "DTCC catalyst splits into separate narrative; broader wave priced",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading",
+        "map_dead"
+      ]
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerging_heading",
+        "map_emerging_items"
+      ]
+    },
+    "map_emerging_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      }
+    },
+    "map_emerging_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_clarity_map",
+        "badge_tokenized_map",
+        "badge_ai_compute_map",
+        "badge_privacy_map",
+        "badge_lean_eth"
+      ]
+    },
+    "badge_clarity_map": {
+      "type": "Badge",
+      "props": {
+        "text": "CLARITY Act",
+        "variant": "secondary"
+      }
+    },
+    "badge_tokenized_map": {
+      "type": "Badge",
+      "props": {
+        "text": "Tokenized Equities/DTCC",
+        "variant": "secondary"
+      }
+    },
+    "badge_ai_compute_map": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Compute/DePIN-AI",
+        "variant": "secondary"
+      }
+    },
+    "badge_privacy_map": {
+      "type": "Badge",
+      "props": {
+        "text": "Privacy/ZK",
+        "variant": "secondary"
+      }
+    },
+    "badge_lean_eth": {
+      "type": "Badge",
+      "props": {
+        "text": "Lean Ethereum",
+        "variant": "secondary"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_heading",
+        "map_rising_items"
+      ]
+    },
+    "map_rising_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      }
+    },
+    "map_rising_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_x402_map",
+        "badge_kaito_map",
+        "badge_ai_sec_map",
+        "badge_bnb_map"
+      ]
+    },
+    "badge_x402_map": {
+      "type": "Badge",
+      "props": {
+        "text": "x402/Base",
+        "variant": "outline"
+      }
+    },
+    "badge_kaito_map": {
+      "type": "Badge",
+      "props": {
+        "text": "Kaito/InfoFi",
+        "variant": "outline"
+      }
+    },
+    "badge_ai_sec_map": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Security/TEE",
+        "variant": "outline"
+      }
+    },
+    "badge_bnb_map": {
+      "type": "Badge",
+      "props": {
+        "text": "BNB Chain/AI L1",
+        "variant": "outline"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_heading",
+        "map_peak_items"
+      ]
+    },
+    "map_peak_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      }
+    },
+    "map_peak_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ai_agent_economy_map",
+        "badge_rhc_map",
+        "badge_fed_pivot_map"
+      ]
+    },
+    "badge_ai_agent_economy_map": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Economy",
+        "variant": "default"
+      }
+    },
+    "badge_rhc_map": {
+      "type": "Badge",
+      "props": {
+        "text": "Robinhood Chain",
+        "variant": "default"
+      }
+    },
+    "badge_fed_pivot_map": {
+      "type": "Badge",
+      "props": {
+        "text": "Fed Pivot",
+        "variant": "default"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_heading",
+        "map_fading_items"
+      ]
+    },
+    "map_fading_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      }
+    },
+    "map_fading_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_genius_fade_map",
+        "badge_rwa_broad_map",
+        "badge_drv_map"
+      ]
+    },
+    "badge_genius_fade_map": {
+      "type": "Badge",
+      "props": {
+        "text": "GENIUS Act (EXIT)",
+        "variant": "destructive"
+      }
+    },
+    "badge_rwa_broad_map": {
+      "type": "Badge",
+      "props": {
+        "text": "RWA Tokenization (broad)",
+        "variant": "destructive"
+      }
+    },
+    "badge_drv_map": {
+      "type": "Badge",
+      "props": {
+        "text": "DRV",
+        "variant": "destructive"
+      }
+    },
+    "map_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_dead_heading",
+        "map_dead_items"
+      ]
+    },
+    "map_dead_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Dead",
+        "level": "h3"
+      }
+    },
+    "map_dead_items": {
+      "type": "Badge",
+      "props": {
+        "text": "Memecoins",
+        "variant": "destructive"
+      }
+    }
+  }
+}
