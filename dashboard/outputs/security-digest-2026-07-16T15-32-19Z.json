@@ -1,0 +1,624 @@
+{
+  "root": "root_card",
+  "state": {},
+  "elements": {
+    "root_card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-07-16"
+      },
+      "children": [
+        "verdict_section",
+        "sep1",
+        "patch_today_section",
+        "sep2",
+        "patch_week_section",
+        "sep3",
+        "monitor_section"
+      ]
+    },
+    "verdict_section": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 2 actively exploited (KEV), 3 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch_today_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_today_heading",
+        "patch_today_items"
+      ]
+    },
+    "patch_today_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "patch_today_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve_46817",
+        "cve_4346"
+      ]
+    },
+    "cve_46817": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_46817_title",
+        "cve_46817_meta",
+        "cve_46817_desc",
+        "cve_46817_action",
+        "cve_46817_deadline"
+      ]
+    },
+    "cve_46817_title": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-46817 — Oracle E-Business Suite",
+        "level": "h3"
+      }
+    },
+    "cve_46817_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_46817",
+        "badge_epss_46817",
+        "text_cvss_46817"
+      ]
+    },
+    "badge_kev_46817": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-07-15",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_46817": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.01",
+        "variant": "outline"
+      }
+    },
+    "text_cvss_46817": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve_46817_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated HTTP attacker can fully compromise Oracle Payments — complete takeover."
+      }
+    },
+    "cve_46817_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: apply vendor mitigation or discontinue use today.",
+        "variant": "muted"
+      }
+    },
+    "cve_46817_deadline": {
+      "type": "Alert",
+      "props": {
+        "title": "BOD 26-04 Deadline",
+        "message": "2026-07-18 (tomorrow)",
+        "type": "error"
+      }
+    },
+    "cve_4346": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_4346_title",
+        "cve_4346_meta",
+        "cve_4346_desc",
+        "cve_4346_action"
+      ]
+    },
+    "cve_4346_title": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2023-4346 — KNX Association KNX Protocol",
+        "level": "h3"
+      }
+    },
+    "cve_4346_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_4346",
+        "badge_epss_4346",
+        "text_cvss_4346"
+      ]
+    },
+    "badge_kev_4346": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-07-15",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_4346": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.01",
+        "variant": "outline"
+      }
+    },
+    "text_cvss_4346": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve_4346_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Lockout abuse lets unauthenticated attacker purge and brick BCU devices with no auth required."
+      }
+    },
+    "cve_4346_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: enable Connection Authorization Option 2 or apply vendor mitigations.",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch_week_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_week_heading",
+        "patch_week_items"
+      ]
+    },
+    "patch_week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch_week_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_r3hx",
+        "cve_54466",
+        "ghsa_62gx"
+      ]
+    },
+    "ghsa_r3hx": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_r3hx_title",
+        "ghsa_r3hx_meta",
+        "ghsa_r3hx_desc",
+        "ghsa_r3hx_action"
+      ]
+    },
+    "ghsa_r3hx_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-r3hx-x5rh-p9vv — django-haystack (pip)",
+        "href": "https://github.com/advisories/GHSA-r3hx-x5rh-p9vv",
+        "source": "GitHub Advisory"
+      }
+    },
+    "ghsa_r3hx_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_high_r3hx",
+        "text_meta_r3hx"
+      ]
+    },
+    "badge_high_r3hx": {
+      "type": "Badge",
+      "props": {
+        "text": "severity: high",
+        "variant": "secondary"
+      }
+    },
+    "text_meta_r3hx": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS n/a · EPSS n/a",
+        "variant": "caption"
+      }
+    },
+    "ghsa_r3hx_desc": {
+      "type": "Text",
+      "props": {
+        "text": "RCE via eval() in Elasticsearch result deserialization — untrusted index content executes on your server."
+      }
+    },
+    "ghsa_r3hx_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: upgrade django-haystack to ≥3.4.0.",
+        "variant": "muted"
+      }
+    },
+    "cve_54466": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_54466_title",
+        "cve_54466_meta",
+        "cve_54466_desc",
+        "cve_54466_action"
+      ]
+    },
+    "cve_54466_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54466 — websocket-driver (npm)",
+        "href": "https://github.com/advisories/GHSA-xv26-6w52-cph6",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve_54466_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_critical_54466",
+        "text_meta_54466"
+      ]
+    },
+    "badge_critical_54466": {
+      "type": "Badge",
+      "props": {
+        "text": "severity: critical",
+        "variant": "destructive"
+      }
+    },
+    "text_meta_54466": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS n/a · EPSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve_54466_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Message corruption via unbounded protocol length header — client can corrupt server payload state and cause incorrect parsing."
+      }
+    },
+    "cve_54466_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: upgrade websocket-driver to ≥0.7.5.",
+        "variant": "muted"
+      }
+    },
+    "ghsa_62gx": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_62gx_title",
+        "ghsa_62gx_meta",
+        "ghsa_62gx_desc",
+        "ghsa_62gx_action"
+      ]
+    },
+    "ghsa_62gx_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-62gx-5q78-wrvx — obsidian-local-rest-api (npm)",
+        "href": "https://github.com/advisories/GHSA-62gx-5q78-wrvx",
+        "source": "GitHub Advisory"
+      }
+    },
+    "ghsa_62gx_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_62gx",
+        "text_epss_62gx"
+      ]
+    },
+    "badge_cvss_62gx": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8",
+        "variant": "secondary"
+      }
+    },
+    "text_epss_62gx": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "caption"
+      }
+    },
+    "ghsa_62gx_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Authenticated path traversal via URL-encoded %2F → arbitrary file read, write, and delete on the host."
+      }
+    },
+    "ghsa_62gx_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: upgrade obsidian-local-rest-api to ≥4.1.3.",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "monitor_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor_heading",
+        "monitor_items"
+      ]
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "monitor_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve_54449",
+        "cve_50289",
+        "cve_54504"
+      ]
+    },
+    "cve_54449": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_54449_title",
+        "cve_54449_meta",
+        "cve_54449_desc",
+        "cve_54449_action"
+      ]
+    },
+    "cve_54449_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54449 — langbot (pip)",
+        "href": "https://github.com/advisories/GHSA-3pvh-63gf-j9mw",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve_54449_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_54449",
+        "badge_no_patch_54449"
+      ]
+    },
+    "badge_cvss_54449": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8",
+        "variant": "secondary"
+      }
+    },
+    "badge_no_patch_54449": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch yet",
+        "variant": "outline"
+      }
+    },
+    "cve_54449_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Authenticated RCE via malicious MCP server configuration."
+      }
+    },
+    "cve_54449_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: track GHSA-3pvh-63gf-j9mw; no patch available.",
+        "variant": "muted"
+      }
+    },
+    "cve_50289": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_50289_title",
+        "cve_50289_meta",
+        "cve_50289_desc",
+        "cve_50289_action"
+      ]
+    },
+    "cve_50289_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-50289 — systeminformation (npm)",
+        "href": "https://github.com/advisories/GHSA-5xpp-75jx-m839",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve_50289_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_high_50289",
+        "badge_no_patch_50289"
+      ]
+    },
+    "badge_high_50289": {
+      "type": "Badge",
+      "props": {
+        "text": "severity: high",
+        "variant": "secondary"
+      }
+    },
+    "badge_no_patch_50289": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch yet",
+        "variant": "outline"
+      }
+    },
+    "cve_50289_desc": {
+      "type": "Text",
+      "props": {
+        "text": "OS command injection in networkInterfaces() via interfaces(5) source-directive on Linux."
+      }
+    },
+    "cve_50289_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: avoid untrusted interface name input until patch ships.",
+        "variant": "muted"
+      }
+    },
+    "cve_54504": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_54504_title",
+        "cve_54504_meta",
+        "cve_54504_desc",
+        "cve_54504_action"
+      ]
+    },
+    "cve_54504_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54504 — @andrea9293/mcp-documentation-server (npm)",
+        "href": "https://github.com/advisories/GHSA-6f5r-5672-72j7",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve_54504_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_54504",
+        "badge_no_patch_54504"
+      ]
+    },
+    "badge_cvss_54504": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8",
+        "variant": "secondary"
+      }
+    },
+    "badge_no_patch_54504": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch yet",
+        "variant": "outline"
+      }
+    },
+    "cve_54504_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Web UI/API binds all interfaces (0.0.0.0:3080) without auth — unauth doc read/write/delete from LAN."
+      }
+    },
+    "cve_54504_action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: firewall port 3080 or set START_WEB_UI=false.",
+        "variant": "muted"
+      }
+    }
+  }
+}
