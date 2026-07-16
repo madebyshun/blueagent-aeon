@@ -1,0 +1,265 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-16"
+      },
+      "children": [
+        "stack-root"
+      ]
+    },
+    "stack-root": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-token",
+        "separator-1",
+        "section-market"
+      ]
+    },
+    "section-token": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header-token",
+        "grid-token-stats",
+        "text-score-breakdown",
+        "text-catalyst",
+        "text-risk-token",
+        "text-vs-recent"
+      ]
+    },
+    "header-token": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-token",
+        "badge-high-token",
+        "stat-signal"
+      ]
+    },
+    "heading-token": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: ONDO",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge-high-token": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "stat-signal": {
+      "type": "Stat",
+      "props": {
+        "label": "signal",
+        "value": "10/10"
+      },
+      "children": []
+    },
+    "grid-token-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-price",
+        "stat-mcap",
+        "stat-vol"
+      ]
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.383",
+        "delta": "+13.73% 24h / +20.56% 7d",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$1.9B"
+      },
+      "children": []
+    },
+    "stat-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$289M"
+      },
+      "children": []
+    },
+    "text-score-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [trending+2, 24h>0+1, 7d>0+1, both>5%+2, vol/mcap≥0.10+2, RS vs BTC/ETH 7d+2] = 10/10 | vol/mcap 0.15",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: DTCC Tokenization Service live Jul 15 — Ondo launched first tokenized stocks backed by DTC entitlements (SPYon/CRCLon), with BlackRock, Goldman Sachs, JPMorgan among 50+ participating firms",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-risk-token": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: price ran $0.32→$0.38+ on initial catalyst; near $0.40 resistance; RWA tokenization narrative was on FADE before this DTCC catalyst; run may be partially played",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-vs-recent": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header-market",
+        "grid-market-odds",
+        "text-fair-yes",
+        "text-thesis",
+        "text-risk-market",
+        "text-sources"
+      ]
+    },
+    "header-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-market",
+        "badge-high-market",
+        "stat-edge"
+      ]
+    },
+    "heading-market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: \"Will the U.S. invade Iran before 2027?\"",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge-high-market": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "stat-edge": {
+      "type": "Stat",
+      "props": {
+        "label": "edge",
+        "value": "13.5pp"
+      },
+      "children": []
+    },
+    "grid-market-odds": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-yes-odds",
+        "stat-no-odds"
+      ]
+    },
+    "stat-yes-odds": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "23.5¢"
+      },
+      "children": []
+    },
+    "stat-no-odds": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "76.5¢"
+      },
+      "children": []
+    },
+    "text-fair-yes": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~10% (inputs: US-Iran in air-strike phase not invasion; US has never invaded Iran despite 4+ decades of hostility; Iran ground war in <6 months logistically near-impossible without pre-positioned division-scale forces + Congressional authorization) | 24h vol $1.4M | resolves: 2026-12-31",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: market overestimates invasion risk at 23.5% — buy NO at 76.5¢; air strikes ≠ invasion; the cost and complexity of an Iran land war are orders of magnitude above current US posture",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-risk-market": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: if US-Iran military exchange escalates to naval blockade or Gulf conflict, invasion odds could spike; market fear of escalation spiral has some basis given ongoing strikes",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok | not financial advice — pattern-matching only",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
