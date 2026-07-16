@@ -1,23 +1,18 @@
-*GitHub Trending — 2026-07-15*
+*GitHub Trending — 2026-07-16*
 
-*Top pick* — [mattpocock/skills](https://github.com/mattpocock/skills)
-Matt Pocock's production .claude/ skills — real-world Claude Code patterns from the TypeScript Handbook author, now defining what AI-assisted dev looks like at scale.
-
-*Devtools*
-• [mattpocock/skills](https://github.com/mattpocock/skills) — ★ 1.7k today (171.4k total) · Shell · [ACCELERATING]
-Production-grade Claude Code skills from the TypeScript Handbook author — high-signal .claude/ patterns for AI-assisted engineering workflows.
+*Top pick* — [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter)
+The 65k-star open-interpreter project now shows Rust as its primary language with an explicit low-cost-model pivot — signals a fundamental rebuild, not maintenance.
 
 *AI/ML*
-• [chenyme/grok2api](https://github.com/chenyme/grok2api) — ★ 186 today (6.0k total) · Go · [RETURNING]
-Routes multiple Grok free-tier accounts into one API endpoint — cuts x.ai access costs to zero for teams staying under per-account caps.
+• [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) — ★ 299 today (65.8k total) · Rust · [RETURNING]
+Coding agent rebuilt in Rust targeting low-cost models — leaner than the original Python CLI per inference call.
 
-*Web/Apps*
-• [penpot/penpot](https://github.com/penpot/penpot) — ★ 395 today (56.4k total) · Clojure · [RETURNING]
-Self-hostable Figma alternative pushed today — the only mature open-source design platform gaining traction as SaaS-tool churn continues.
+• [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) — ★ 172 today (26.6k total) · Python · [ACCELERATING]
+Builds persistent per-learner knowledge state across sessions — targets long-arc mastery, not one-off Q&A.
 
-*Other*
-• [par274/sharpemu](https://github.com/par274/sharpemu) — ★ 332 today (2.4k total) · C# · [RETURNING]
-Experimental PS5 emulator with a 17× star spike today — emulation doesn't fit standard buckets; signals a milestone release or viral community moment.
+*Devtools*
+• [injaneity/pi-computer-use](https://github.com/injaneity/pi-computer-use) — ★ 103 today (1.4k total) · TypeScript · [—]
+Connects Pi computer-use to native macOS/Windows apps — skips browser-sandbox path most computer-use demos rely on.
 
 ---
-sources: trending=ok · gh_api=ok · kept 4/16
+sources: trending=ok (14 repos) · gh_api=ok · kept 3/14

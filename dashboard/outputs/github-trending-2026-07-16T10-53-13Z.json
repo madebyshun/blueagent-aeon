@@ -1,0 +1,371 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-16"
+      },
+      "children": [
+        "top-pick-section",
+        "sep-1",
+        "ai-ml-section",
+        "sep-2",
+        "devtools-section",
+        "sep-3",
+        "footer"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-heading",
+        "top-pick-repo"
+      ]
+    },
+    "top-pick-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h3"
+      }
+    },
+    "top-pick-repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-link",
+        "top-pick-desc"
+      ]
+    },
+    "top-pick-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "openinterpreter/openinterpreter",
+        "href": "https://github.com/openinterpreter/openinterpreter"
+      }
+    },
+    "top-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "The 65k-star open-interpreter project now shows Rust as its primary language with an explicit low-cost-model pivot — signals a fundamental rebuild, not maintenance.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai-ml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-heading",
+        "ai-ml-repos"
+      ]
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "ai-ml-repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "ai-ml-repo-1",
+        "ai-ml-repo-2"
+      ]
+    },
+    "ai-ml-repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-1-header",
+        "ai-ml-1-desc",
+        "ai-ml-1-stats"
+      ]
+    },
+    "ai-ml-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-1-link",
+        "ai-ml-1-lang",
+        "ai-ml-1-status"
+      ]
+    },
+    "ai-ml-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "openinterpreter/openinterpreter",
+        "href": "https://github.com/openinterpreter/openinterpreter"
+      }
+    },
+    "ai-ml-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "ai-ml-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      }
+    },
+    "ai-ml-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Coding agent rebuilt in Rust targeting low-cost models — leaner than the original Python CLI per inference call.",
+        "variant": "body"
+      }
+    },
+    "ai-ml-1-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-1-today",
+        "ai-ml-1-total"
+      ]
+    },
+    "ai-ml-1-today": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars Today",
+        "value": "299"
+      }
+    },
+    "ai-ml-1-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Stars",
+        "value": "65.8k"
+      }
+    },
+    "ai-ml-repo-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-2-header",
+        "ai-ml-2-desc",
+        "ai-ml-2-stats"
+      ]
+    },
+    "ai-ml-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-2-link",
+        "ai-ml-2-lang",
+        "ai-ml-2-status"
+      ]
+    },
+    "ai-ml-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HKUDS/DeepTutor",
+        "href": "https://github.com/HKUDS/DeepTutor"
+      }
+    },
+    "ai-ml-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "ai-ml-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "ai-ml-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Builds persistent per-learner knowledge state across sessions — targets long-arc mastery, not one-off Q&A.",
+        "variant": "body"
+      }
+    },
+    "ai-ml-2-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-2-today",
+        "ai-ml-2-total"
+      ]
+    },
+    "ai-ml-2-today": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars Today",
+        "value": "172"
+      }
+    },
+    "ai-ml-2-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Stars",
+        "value": "26.6k"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-repos"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "devtools-repo-1"
+      ]
+    },
+    "devtools-repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-header",
+        "devtools-1-desc",
+        "devtools-1-stats"
+      ]
+    },
+    "devtools-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-link",
+        "devtools-1-lang",
+        "devtools-1-status"
+      ]
+    },
+    "devtools-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "injaneity/pi-computer-use",
+        "href": "https://github.com/injaneity/pi-computer-use"
+      }
+    },
+    "devtools-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "devtools-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "—"
+      }
+    },
+    "devtools-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Connects Pi computer-use to native macOS/Windows apps — skips browser-sandbox path most computer-use demos rely on.",
+        "variant": "body"
+      }
+    },
+    "devtools-1-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-1-today",
+        "devtools-1-total"
+      ]
+    },
+    "devtools-1-today": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars Today",
+        "value": "103"
+      }
+    },
+    "devtools-1-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Stars",
+        "value": "1.4k"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok (14 repos) · gh_api=ok · kept 3/14",
+        "variant": "caption"
+      }
+    }
+  }
+}
