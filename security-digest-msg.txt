@@ -1,0 +1,37 @@
+*Security Digest — 2026-07-17*
+Verdict: 3 actively exploited (KEV Jul 16), 2 to schedule this week, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
+
+*PATCH TODAY*
+- [CVE-2026-39808](https://www.cve.org/CVERecord?id=CVE-2026-39808) — Fortinet FortiSandbox · KEV added 2026-07-16 · EPSS 0.84 · CVSS n/a
+  Unauthenticated OS command injection via crafted HTTP requests. Confirmed exploited per CISA.
+  → apply FortiSandbox vendor update immediately and redeploy.
+
+- [CVE-2026-25089](https://www.cve.org/CVERecord?id=CVE-2026-25089) — Fortinet FortiSandbox/Cloud/PaaS · KEV added 2026-07-16 · EPSS 0.36 · CVSS n/a
+  Unauthenticated OS command injection (second variant). Confirmed exploited per CISA.
+  → apply FortiSandbox update today (same advisory as above).
+
+- [CVE-2026-58644](https://www.cve.org/CVERecord?id=CVE-2026-58644) — Microsoft SharePoint · KEV added 2026-07-16 · EPSS 0.015 · CVSS n/a
+  Deserialization of untrusted data → unauthenticated remote code execution over network. Confirmed exploited per CISA.
+  → apply Microsoft SharePoint patch per vendor advisory today.
+
+*PATCH THIS WEEK*
+- [CVE-2026-53713](https://github.com/advisories/GHSA-wcrf-9vrr-854f) — Envoy Gateway (Go) · CVSS 9.1 · EPSS ~0 · no known PoC
+  EnvoyExtensionPolicy Lua auth bypass allows any authenticated client to read arbitrary backend secrets.
+  → upgrade envoy gateway to >=1.7.4 (1.7.x) or >=1.8.1 (1.8.x) and redeploy.
+
+- [CVE-2026-52833](https://github.com/advisories/GHSA-3v79-m2cg-89ww) — Nuclio (Go) · CVSS 8.0 · EPSS ~0 · no known PoC
+  Unsanitized runtimeAttributes.repositories injected into Groovy build.gradle enables build-time RCE.
+  → upgrade nuclio to >=1.16.5.
+
+*MONITOR*
+- [GHSA-vj7q-gjh5-988w](https://github.com/advisories/GHSA-vj7q-gjh5-988w) — mcp (pip) · 3 CVEs · CVSS 7.1-7.6 · fix >=1.28.1
+  WebSocket Host/Origin bypass (CVE-2026-59950), HTTP session principal bypass (CVE-2026-52869), task cross-client access/cancel (CVE-2026-52870). Directly relevant to AI agent MCP deployments.
+  → schedule mcp upgrade to >=1.28.1; monitor for exploitation given AI agent proliferation.
+
+- [CVE-2026-50285](https://github.com/advisories/GHSA-ggw3-5987-rx77) — Pomerium (Go) · CVSS 7.5 · EPSS ~0 · fix >=0.32.8
+  Pre-auth memory exhaustion via unbounded zstd decompression in HPKE callback.
+  → schedule pomerium upgrade to >=0.32.8.
+
+- [CVE-2026-53714](https://github.com/advisories/GHSA-22xc-xg2r-9j7v) — Envoy Gateway (Go) · CVSS 7.4 · EPSS ~0 · fix >=1.7.4/1.8.1
+  xDS control plane info disclosure in GatewayNamespaceMode. Same fix as CVE-2026-53713.
+  → resolved by same envoy gateway upgrade above.
