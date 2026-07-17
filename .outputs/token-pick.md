@@ -1,17 +1,17 @@
-*Daily Pick — 2026-07-16*
+*Daily Pick — 2026-07-17*
 
-*Token: ONDO*  [HIGH]  signal 10/10
-Price: $0.383 (+13.73% 24h / +20.56% 7d) | mcap $1.9B | vol $289M (vol/mcap 0.15)
-Score breakdown: [trending+2, 24h>0+1, 7d>0+1, both>5%+2, vol/mcap≥0.10+2, RS vs BTC/ETH 7d+2] = 10/10
-Catalyst: DTCC Tokenization Service live Jul 15 — Ondo launched first tokenized stocks backed by DTC entitlements (SPYon/CRCLon), with BlackRock, Goldman Sachs, JPMorgan among 50+ participating firms
-Risk: price ran $0.32→$0.38+ on initial catalyst; near $0.40 resistance; RWA tokenization narrative was on FADE before this DTCC catalyst; run may be partially played
-Vs recent picks: first time
+*Token: KAITO*  [HIGH]  signal 9/10
+Price: $0.908 (+24.13% 24h / +42.49% 7d) | mcap $219M | vol $63.6M (vol/mcap 0.290)
+Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, vol/mcap≥0.20+3, RS vs BTC/ETH 7d+2] = 9/10
+Catalyst: CLARITY Act July 17 Senate showdown (Federal Hall NYC field hearing today) pushing crypto political mindshare to multi-month peak — Kaito's Attention Capital Markets product (Polymarket × Kaito partnership live since Feb 2026) monetizes this directly
+Risk: Kaito lost its Yaps user acquisition funnel when X banned incentivized posting in Jan 2026; gains may fade sharply once legislative headlines cool
+Vs recent picks: first time picked
 
-*Market: "Will the U.S. invade Iran before 2027?"*  [HIGH]  edge 13.5pp
-Current: YES 23.5¢ / NO 76.5¢ | 24h vol $1.4M | resolves: 2026-12-31
-Fair YES: ~10% (inputs: US-Iran in air-strike phase not invasion; US has never invaded Iran despite 4+ decades of hostility; Iran ground war in <6 months logistically near-impossible without pre-positioned division-scale forces + Congressional authorization)
-Thesis: market overestimates invasion risk at 23.5% — buy NO at 76.5¢; air strikes ≠ invasion; the cost and complexity of an Iran land war are orders of magnitude above current US posture
-Risk: if US-Iran military exchange escalates to naval blockade or Gulf conflict, invasion odds could spike; market fear of escalation spiral has some basis given ongoing strikes
+*Market: "Clarity Act signed into law in 2026?"*  [HIGH]  edge 19.5pp
+Current: YES 30.5¢ / NO 69.5¢ | 24h vol $1.85M | resolves: 2026-12-31
+Fair YES: ~50% (inputs: Galaxy Research 50-50 estimate; resolution is Dec 31 2026 — not just August recess, capturing fall/lame-duck session window; July 17 hearing signals active bipartisan negotiation still live)
+Thesis: market prices only 30.5% chance but the full-year resolution date gives Senate a fall + lame-duck window the market is ignoring; ethics impasse (crypto trading ban for members) is real but solvable; buy YES at 30.5¢
+Risk: ethics provision remains genuine dealbreaker if Senate Republicans refuse — bill dies before Dec 31
 
 sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only
