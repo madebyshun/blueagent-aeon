@@ -1,18 +1,19 @@
-Done. Here's the summary:
+Done. Here's what was completed:
 
 ## Summary
 
-**Data fetched:** CoinGecko markets (top 100 + ranks 101–200) and trending endpoint (15 coins) via WebFetch — curl worked in-sandbox but piping to processors was blocked, so used two targeted WebFetch calls instead.
+**Data fetched:**
+- CoinGecko markets (top 250 by market cap, WebFetch) — full data retrieved for ~100 non-stable coins
+- CoinGecko trending (15 trending search coins, WebFetch)
 
-**Market pulse (2026-07-16):** Broad risk-off reversal from yesterday's mild gains. BTC −2.1%, ETH −3.2%, SOL −3.6%. Only ~20% of non-stable top-100 coins positive. ONDO (+14.5%, trending) the lone standout on RWA/DeFi rotation.
-
-**Key signals:**
-- **[TRENDING+UP]** ONDO — sole material top-100 winner in a red market; 7d +21.4%
-- **[TRENDING+UP]** VIRTUAL — AI agent token holding at +3.5% / 7d +23%
-- **[TRENDING+DOWN]** PI — sharp reversal: was yesterday's #3 winner (+12.6%), now #3 loser (−8.8%); 7d −22.4% breakdown
-- **[TRENDING+DOWN][MAJOR]** HYPE — #10 coin trending while down 4.9%
-- **[PUMP-RISK]** AKE (rank 784): +40.2% outside top-250 — noise
+**Key findings (2026-07-17):**
+- Broad risk-off — ~18% of non-stable top-100 coins green, median ≈ −1.7%
+- Top winner: PI (+6.9%, bouncing from yesterday's −8.8% loss) and DEXE (+6.5%, from −10.0%) — short-covering reversals, not trend changes
+- Top loser: LIT (−9.8%, −12.9% 7d) then HYPE (−8.7%, continuing yesterday's −4.9%)
+- CRO only coin with [TRENDING+UP] signal — in trending list AND positive 24h for second consecutive day
+- CASHCAT trending #3 while crashing −41.8% on volume ($65M) exceeding its market cap ($56M) → [CAPITULATION]
+- HYPE [TRENDING+DOWN][MAJOR] — sustained perp-DEX outflow, #10 coin down significantly two days running
 
 **Files modified:**
-- `.pending-notify/token-movers-2026-07-16.md` — notification queued for post-run delivery
-- `memory/logs/2026-07-16.md` — log entry appended
+- `memory/logs/2026-07-17.md` — token-movers log entry appended
+- `.pending-notify/1752796800.md` — notification queued for post-run delivery
