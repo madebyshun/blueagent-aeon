@@ -1,18 +1,22 @@
-*GitHub Trending — 2026-07-16*
+*GitHub Trending — 2026-07-17*
 
-*Top pick* — [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter)
-The 65k-star open-interpreter project now shows Rust as its primary language with an explicit low-cost-model pivot — signals a fundamental rebuild, not maintenance.
+*Top pick* — [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
+As coding assistants multiply, the scarce resource is structured context about your stack — graphify solves it by turning code, schemas, and infra into a single traversable knowledge graph every assistant can reason over.
 
 *AI/ML*
-• [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) — ★ 299 today (65.8k total) · Rust · [RETURNING]
-Coding agent rebuilt in Rust targeting low-cost models — leaner than the original Python CLI per inference call.
+• [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — ★ 1,107 today (89.7k total) · Python · [ACCELERATING]
+Converts any codebase — SQL schemas, R scripts, shell scripts, docs, images, or video — into one queryable knowledge graph; app code + database schema + infrastructure as a single connected structure.
 
-• [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) — ★ 172 today (26.6k total) · Python · [ACCELERATING]
-Builds persistent per-learner knowledge state across sessions — targets long-arc mastery, not one-off Q&A.
+• [lobehub/lobehub](https://github.com/lobehub/lobehub) — ★ 71 today (80.4k total) · TypeScript · [RETURNING]
+Treats your AI team like an HR org — schedules agents in 7×24 shifts, auto-reports outcomes, and lets you manage dozens of agents from one dashboard; pushed again today suggesting a release catalyst.
 
 *Devtools*
-• [injaneity/pi-computer-use](https://github.com/injaneity/pi-computer-use) — ★ 103 today (1.4k total) · TypeScript · [—]
-Connects Pi computer-use to native macOS/Windows apps — skips browser-sandbox path most computer-use demos rely on.
+• [ibelick/ui-skills](https://github.com/ibelick/ui-skills) — ★ 178 today (4.6k total) · TypeScript
+Design-engineering skills for coding assistants — production CSS animations and interaction patterns that go beyond what component libraries ship out of the box.
+
+*Data*
+• [apache/ossie](https://github.com/apache/ossie) — ★ 60 today (1.1k total) · Python
+Apache-backed vendor-neutral spec to unify semantic metadata across analytics, AI, and BI stacks — OpenAPI for how data describes itself across tools.
 
 ---
-sources: trending=ok (14 repos) · gh_api=ok · kept 3/14
+sources: trending=ok · gh_api=ok · kept 4/17

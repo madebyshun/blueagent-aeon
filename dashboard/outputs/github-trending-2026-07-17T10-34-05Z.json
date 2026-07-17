@@ -1,0 +1,372 @@
+{
+  "root": "root-card",
+  "state": {},
+  "elements": {
+    "root-card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-17"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "toppick-heading",
+        "graphify-toppick-stack",
+        "sep1",
+        "aiml-heading",
+        "aiml-stack",
+        "sep2",
+        "devtools-heading",
+        "devtools-stack",
+        "sep3",
+        "data-heading",
+        "data-stack",
+        "sep4",
+        "footer"
+      ]
+    },
+    "toppick-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "graphify-toppick-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "graphify-toppick-link",
+        "graphify-toppick-desc"
+      ]
+    },
+    "graphify-toppick-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Graphify-Labs/graphify",
+        "href": "https://github.com/Graphify-Labs/graphify"
+      }
+    },
+    "graphify-toppick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "As coding assistants multiply, the scarce resource is structured context about your stack — graphify solves it by turning code, schemas, and infra into a single traversable knowledge graph every assistant can reason over.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo-graphify",
+        "repo-lobehub"
+      ]
+    },
+    "repo-graphify": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "graphify-header",
+        "graphify-stats",
+        "graphify-desc"
+      ]
+    },
+    "graphify-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "graphify-link",
+        "graphify-lang",
+        "graphify-status"
+      ]
+    },
+    "graphify-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Graphify-Labs/graphify",
+        "href": "https://github.com/Graphify-Labs/graphify"
+      }
+    },
+    "graphify-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "graphify-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "graphify-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1,107 today (89.7k total)",
+        "variant": "caption"
+      }
+    },
+    "graphify-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Converts any codebase — SQL schemas, R scripts, shell scripts, docs, images, or video — into one queryable knowledge graph; app code + database schema + infrastructure as a single connected structure.",
+        "variant": "body"
+      }
+    },
+    "repo-lobehub": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lobehub-header",
+        "lobehub-stats",
+        "lobehub-desc"
+      ]
+    },
+    "lobehub-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "lobehub-link",
+        "lobehub-lang",
+        "lobehub-status"
+      ]
+    },
+    "lobehub-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "lobehub/lobehub",
+        "href": "https://github.com/lobehub/lobehub"
+      }
+    },
+    "lobehub-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "lobehub-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "lobehub-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 71 today (80.4k total)",
+        "variant": "caption"
+      }
+    },
+    "lobehub-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Treats your AI team like an HR org — schedules agents in 7×24 shifts, auto-reports outcomes, and lets you manage dozens of agents from one dashboard; pushed again today suggesting a release catalyst.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo-uiskills"
+      ]
+    },
+    "repo-uiskills": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "uiskills-header",
+        "uiskills-stats",
+        "uiskills-desc"
+      ]
+    },
+    "uiskills-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "uiskills-link",
+        "uiskills-lang"
+      ]
+    },
+    "uiskills-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ibelick/ui-skills",
+        "href": "https://github.com/ibelick/ui-skills"
+      }
+    },
+    "uiskills-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "uiskills-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 178 today (4.6k total)",
+        "variant": "caption"
+      }
+    },
+    "uiskills-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Design-engineering skills for coding assistants — production CSS animations and interaction patterns that go beyond what component libraries ship out of the box.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "data-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Data",
+        "level": "h3"
+      }
+    },
+    "data-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo-ossie"
+      ]
+    },
+    "repo-ossie": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ossie-header",
+        "ossie-stats",
+        "ossie-desc"
+      ]
+    },
+    "ossie-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ossie-link",
+        "ossie-lang"
+      ]
+    },
+    "ossie-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "apache/ossie",
+        "href": "https://github.com/apache/ossie"
+      }
+    },
+    "ossie-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "ossie-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 60 today (1.1k total)",
+        "variant": "caption"
+      }
+    },
+    "ossie-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Apache-backed vendor-neutral spec to unify semantic metadata across analytics, AI, and BI stacks — OpenAPI for how data describes itself across tools.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/17",
+        "variant": "muted"
+      }
+    }
+  }
+}
