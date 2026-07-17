@@ -1,0 +1,33 @@
+*Narrative Tracker — 2026-07-17*
+
+TRANSITIONS
+• DEAD: GENIUS Act — six agencies confirmed miss; three comment periods extend past Jul 18; no final rules in Federal Register; EXIT triggered. Next catalyst: Q4 2026 when final rules publish.
+• PROMOTED: CLARITY Act Emerging → Rising — field hearing Federal Hall NYC TODAY; Senate needs 7 Dem votes before Aug 7 recess; Polymarket 30.5¢ vs Galaxy Research 50-50; decision week
+• PROMOTED: Kaito/InfoFi Rising → Peak — KAITO +24% 24h / +42% 7d on CLARITY Act hearing catalyst; Attention Markets volume building; TAO/0G/Monad atop mindshare leaderboard
+• PROMOTED: Tokenized Equities/DTCC Rails Emerging → Rising — ONDO +14.5% counter-tape (BTC −2.1% Jul 16) validating narrative traction; DTC entitlement rails not yet consensus-priced
+• DEMOTED: Fed Pivot Peak → Fading — retail sales beat + jobless claims drop = rate cut expectations collapsing; BTC $63.5k; Fear&Greed 27; two consecutive risk-off days
+• DEMOTED: Hyperliquid/HYPE Rising → Fading — a16z-linked wallet dumps $28M HYPE (437K tokens); 7d −13.2%; ATH Jun 16 $76.85; institutional distribution complete
+
+REFLEXIVITY ALERT
+• CLARITY Act → KAITO: field hearing amplifies Attention Markets volume → KAITO +24% → price amplifies narrative attention → more Polymarket bets on CLARITY Act outcome. Verified loop. Exit watch if Senate signals no floor vote this week.
+• GENIUS Act unwind: six agencies pre-positioned as "regulated operators" before rules existed — manufactured consensus now exposed as miss. Bull reflexivity unwinding.
+• HYPE: a16z-linked dump ($28M, 437K tokens) after ATH Jun 16 — perp DEX dominance narrative enabled the run; institutional exit while retail holds narrative.
+
+POSITIONS
+• RIDE: CLARITY Act (4 ↑↑, Bull) — @HouseFinancialSvc, 7 Senate Dems, @CryptoCouncil — Aug 7 recess kills if no floor vote; Polymarket 30.5¢ vs Galaxy 50-50 = edge intact
+• RIDE: Kaito/InfoFi (4 ↑↑, Bull, Peak) — @kaitoai × @Polymarket — sell-news risk post-hearing; exit if Senate signals no vote before recess
+• FRONT-RUN: Tokenized Equities/DTCC Rails (3 ↑↑, Bull) — @OndoFinance (SPYon/CRCLon DTC entitlements), DTCC + 50 firms incl. BlackRock/Goldman/JPMorgan — SEC controls equities rails; DTC structure untested at scale
+• FRONT-RUN: AI Compute/DePIN-AI (3 ↑↑, Bull) — @akashnet, io.net (actual AI compute revenue), AI sector >$25B — token→adoption gap; Meta entering = regulatory target
+• RIDE: x402/Agentic Payments on Base (4 ↑, Bull) — @base, 4x tester-to-payer conversion confirmed, 100M+ cumulative txns — BNB also live; no Base exclusivity
+• RIDE: AI Agent Economy (5 ↑, Bull, Peak) — @robinhoodapp, @virtuals_io, Ledger Agent Stack — $619/builder avg thin; wk3 Robinhood retention test active
+• RIDE: AI Agent Security/TEE (4 ↑, Bull) — @PhalaNetwork, Ledger Agent Stack (hardware wallet now in space), JADEPUFFER incident — PHALA run captured
+• FADE: Fed Pivot (3 ↓, Bear) — strong macro data kills rate cut narrative; two consecutive risk-off days; FOMC disappointment incoming
+• FADE: Hyperliquid/HYPE (3 ↓↓, Bear) — a16z distribution complete; token unlock supply overhang; no floor visible
+• FADE: DRV/On-Chain Options (1 ↓↓, Bear) — co-founder 50% dilution unresolved; exchange pump fully faded
+
+MAP
+Emerging: AI Compute/DePIN-AI, Privacy/ZK (WATCH), Lean Ethereum (WATCH), Agentic Dev Tools (WATCH)
+Rising: CLARITY Act, Tokenized Equities/DTCC Rails, x402/Agentic Payments, AI Agent Security/TEE, BNB Chain (WATCH)
+Peak: AI Agent Economy, Robinhood Chain, Kaito/InfoFi
+Fading: Fed Pivot, Hyperliquid/HYPE, DRV, RWA Tokenization
+Dead: GENIUS Act, Memecoins
