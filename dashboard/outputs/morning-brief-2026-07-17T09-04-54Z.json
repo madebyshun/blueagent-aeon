@@ -1,0 +1,308 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-07-17"
+      },
+      "children": [
+        "section_focus",
+        "sep_1",
+        "section_yesterday",
+        "sep_2",
+        "section_watch",
+        "sep_3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_stack"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "focus_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_desc"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. GENIUS Act EXIT",
+        "variant": "lead"
+      }
+    },
+    "focus_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 6 agencies unfinished; Jul 18 binary event fires tomorrow",
+        "variant": "body"
+      }
+    },
+    "focus_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_desc"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. CLARITY Act FRONT-RUN",
+        "variant": "lead"
+      }
+    },
+    "focus_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: House NYC field hearing 10 AM ET today; Senate clock ticking",
+        "variant": "body"
+      }
+    },
+    "focus_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_desc"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. Tokenized Equities / DTCC Rails",
+        "variant": "lead"
+      }
+    },
+    "focus_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: ONDO +14.5% counter-tape on risk-off; DTC rails underpriced",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_yesterday",
+        "yesterday_stack"
+      ]
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_1",
+        "yesterday_2",
+        "yesterday_3",
+        "yesterday_4"
+      ]
+    },
+    "yesterday_1": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO +14.5% counter-tape (BTC −2.1% same day); token-pick HIGH, 10/10 score",
+        "variant": "body"
+      }
+    },
+    "yesterday_2": {
+      "type": "Text",
+      "props": {
+        "text": "PI reversal: +12.6% Jul 15 → −8.8% Jul 16; 7d now −22.4%",
+        "variant": "body"
+      }
+    },
+    "yesterday_3": {
+      "type": "Text",
+      "props": {
+        "text": "Narrative map: CLARITY Act + Tokenized Equities → new FRONT-RUN; GENIUS Act → EXIT; broad RWA → FADE",
+        "variant": "body"
+      }
+    },
+    "yesterday_4": {
+      "type": "Text",
+      "props": {
+        "text": "XAI credits depleted day 7 — narrative-tracker WebSearch fallback holding",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_stack"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act House NYC hearing today — Senate must schedule floor vote before Aug 7 or bill dies for 2026 (focus #2)",
+        "variant": "body"
+      }
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "GENIUS Act: agencies can legally miss Jul 18 (40% of Dodd-Frank deadlines slipped) — uncertainty extends regardless of outcome (confirms EXIT focus #1)",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_stack"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
