@@ -1,23 +1,21 @@
-The security digest is complete. Cleanup was blocked by sandbox permissions, but those are non-critical temp files. Here's the summary:
+The security-digest skill is complete. Here's a summary:
 
 ## Summary
 
-**Security Digest 2026-07-17 — executed successfully.**
+**What was done:**
 
-**Sources:** KEV ok (curl), GH Advisory ok (gh api), EPSS ok (WebFetch)
+1. **CISA KEV** — Fetched via WebFetch. No new KEV additions since Jul 17's digest (last batch was Jul 16: FortiSandbox × 2 + SharePoint, all covered yesterday). 12 total additions this week.
 
-**PATCH TODAY (3 — all new KEV Jul 16):**
-- CVE-2026-39808 — Fortinet FortiSandbox unauthenticated OS cmdinj · EPSS **0.84** (highest signal this cycle)
-- CVE-2026-25089 — Fortinet FortiSandbox/Cloud/PaaS unauthenticated OS cmdinj · EPSS 0.36
-- CVE-2026-58644 — Microsoft SharePoint deserialization RCE · EPSS 0.015
+2. **GitHub Advisories (last 48h)** — Pulled critical + high via `gh api`. Filtered to tracked stack (npm, pip, Go, crates.io). Deduped against Jul 16 + Jul 17 logs (excluded 6 IDs already reported).
 
-**PATCH THIS WEEK (2 — tracked Go ecosystem):**
-- CVE-2026-53713 — Envoy Gateway auth bypass → secret disclosure · CVSS 9.1 · fix ≥1.7.4/1.8.1
-- CVE-2026-52833 — Nuclio build-time RCE via Groovy injection · CVSS 8.0 · fix ≥1.16.5
+3. **EPSS enrichment** — 5 of 10 CVEs had data; all 2026 CVEs too new, treated as 0. Gitea (CVE-2026-27771) highest at **EPSS 0.407** — near PATCH TODAY threshold.
 
-**MONITOR (3):**
-- mcp (pip) — 3 CVEs (WebSocket Origin bypass, HTTP session auth bypass, task IDOR) · CVSS 7.1–7.6 · fix ≥1.28.1 — notable for AI agent ecosystem
-- Pomerium (Go) — pre-auth DoS via zstd · CVSS 7.5 · fix ≥0.32.8
-- Envoy Gateway (Go) — xDS info disclosure · CVSS 7.4 · same fix as above
+4. **Digest tiered and sent** via `.pending-notify/` (sandbox post-run delivery):
 
-**Delivery:** Queued to `.pending-notify/1752796800.md` for post-run channel delivery. Log written to `memory/logs/2026-07-17.md`.
+   - **PATCH TODAY:** empty (no new KEV, no EPSS ≥ 0.5)
+   - **PATCH THIS WEEK (5):** Gitea ≥1.26.2 · meta-ads-mcp ≥1.0.115 (public PoC) · skipper ≥0.27.26 (public PoC) · @prompty/core ≥2.0.0-beta.3 · prompty ≥2.0.0b2 (multi-ecosystem)
+   - **MONITOR (3):** sh (no patch) · vllm ReDoS (no patch) · meta-ads-mcp auth bypass (no patch)
+
+5. **Logged** to `memory/logs/2026-07-18.md` with tier counts, IDs, and source status.
+
+**Notable:** Prompty carries two separate CVEs (code exec + file read) both patched in recent betas — directly relevant to the AI agent toolchain tracked in memory.
