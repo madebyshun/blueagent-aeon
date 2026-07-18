@@ -1,0 +1,1160 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-18"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "transitions_heading",
+        "transitions_stack",
+        "sep1",
+        "reflexivity_heading",
+        "reflexivity_stack",
+        "sep2",
+        "positions_heading",
+        "positions_stack",
+        "sep3",
+        "map_heading",
+        "map_grid"
+      ]
+    },
+    "transitions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transitions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans1",
+        "trans2",
+        "trans3",
+        "trans4",
+        "trans5",
+        "trans6"
+      ]
+    },
+    "trans1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans1_badge",
+        "trans1_text"
+      ]
+    },
+    "trans1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD CONFIRMED",
+        "variant": "destructive"
+      }
+    },
+    "trans1_text": {
+      "type": "Text",
+      "props": {
+        "text": "GENIUS Act — Jul 18 deadline arrived, agencies missed as predicted. No legal void (Dodd-Frank precedent). EXIT from Jul 16 validated. Next catalyst Q4 2026."
+      }
+    },
+    "trans2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans2_badge",
+        "trans2_text"
+      ]
+    },
+    "trans2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "trans2_text": {
+      "type": "Text",
+      "props": {
+        "text": "DRV / On-Chain Options — zero mindshare, co-founder dilution unresolved. Done."
+      }
+    },
+    "trans3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans3_badge",
+        "trans3_title",
+        "trans3_details"
+      ]
+    },
+    "trans3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "trans3_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute / DePIN-AI Emerging → Rising",
+        "variant": "lead"
+      }
+    },
+    "trans3_details": {
+      "type": "Text",
+      "props": {
+        "text": "Compute Summit Launch today (Incheon, South Korea; manadia compute + prediction model + coordination network). VVV +13.2% (Dragonfly $65M private AI inference) corroborates structural shift."
+      }
+    },
+    "trans4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans4_badge",
+        "trans4_title",
+        "trans4_details"
+      ]
+    },
+    "trans4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "trans4_title": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito / InfoFi Peak → Fading",
+        "variant": "lead"
+      }
+    },
+    "trans4_details": {
+      "type": "Text",
+      "props": {
+        "text": "KAITO −8.8% today. Jul 17 hearing was the sell-news. Senate no floor vote = exit trigger fired."
+      }
+    },
+    "trans5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans5_badge",
+        "trans5_title",
+        "trans5_details"
+      ]
+    },
+    "trans5_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "trans5_title": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain Peak RIDE → Peak WATCH",
+        "variant": "lead"
+      }
+    },
+    "trans5_details": {
+      "type": "Text",
+      "props": {
+        "text": "Volume stagnating week 3. Velocity stall ↑ → →."
+      }
+    },
+    "trans6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans6_badge",
+        "trans6_title",
+        "trans6_details"
+      ]
+    },
+    "trans6_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY STALL",
+        "variant": "outline"
+      }
+    },
+    "trans6_title": {
+      "type": "Text",
+      "props": {
+        "text": "Tokenized Equities / DTCC Rails ↑↑ → →",
+        "variant": "lead"
+      }
+    },
+    "trans6_details": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO −8.6% today (sell-news on DTCC launch). Structural thesis intact; don't chase the name."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflex1",
+        "reflex2",
+        "reflex3"
+      ]
+    },
+    "reflex1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflex1_title",
+        "reflex1_text"
+      ]
+    },
+    "reflex1_title": {
+      "type": "Text",
+      "props": {
+        "text": "KAITO loop closed",
+        "variant": "lead"
+      }
+    },
+    "reflex1_text": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act hearing → Attention Markets vol → KAITO +24% (Jul 17) → Senate silence → KAITO −8.8% (Jul 18). Pre-named exit trigger fired on schedule."
+      }
+    },
+    "reflex2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflex2_title",
+        "reflex2_text"
+      ]
+    },
+    "reflex2_title": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO sell-news",
+        "variant": "lead"
+      }
+    },
+    "reflex2_text": {
+      "type": "Text",
+      "props": {
+        "text": "DTCC launch Jul 15 → ONDO +14.5% Jul 16 → ONDO −8.6% Jul 18. Post-launch distribution. DTC entitlement thesis still valid."
+      }
+    },
+    "reflex3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflex3_title",
+        "reflex3_text"
+      ]
+    },
+    "reflex3_title": {
+      "type": "Text",
+      "props": {
+        "text": "GENIUS Act unwound",
+        "variant": "lead"
+      }
+    },
+    "reflex3_text": {
+      "type": "Text",
+      "props": {
+        "text": "Six agencies missed. Manufactured certainty confirmed fictional. No legal consequence."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_frontrun_heading",
+        "pos1",
+        "pos2",
+        "pos_ride_heading",
+        "pos3",
+        "pos4",
+        "pos5",
+        "pos6",
+        "pos_watch_heading",
+        "pos7",
+        "pos8",
+        "pos_fade_heading",
+        "pos9",
+        "pos10",
+        "pos11",
+        "pos12"
+      ]
+    },
+    "pos_frontrun_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "FRONT-RUN",
+        "level": "h3"
+      }
+    },
+    "pos1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1_title",
+        "pos1_status",
+        "pos1_details",
+        "pos1_bear"
+      ]
+    },
+    "pos1_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute / DePIN-AI",
+        "variant": "lead"
+      }
+    },
+    "pos1_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1_badge1",
+        "pos1_badge2"
+      ]
+    },
+    "pos1_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑↑"
+      }
+    },
+    "pos1_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "pos1_details": {
+      "type": "Text",
+      "props": {
+        "text": "Compute Summit Jul 18, @akashnet, io.net, VVV Dragonfly"
+      }
+    },
+    "pos1_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: one summit ≠ ecosystem, token→adoption gap",
+        "variant": "muted"
+      }
+    },
+    "pos2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos2_title",
+        "pos2_status",
+        "pos2_details",
+        "pos2_bear"
+      ]
+    },
+    "pos2_title": {
+      "type": "Text",
+      "props": {
+        "text": "Tokenized Equities / DTCC Rails",
+        "variant": "lead"
+      }
+    },
+    "pos2_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos2_badge1",
+        "pos2_badge2"
+      ]
+    },
+    "pos2_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "3 →"
+      }
+    },
+    "pos2_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "pos2_details": {
+      "type": "Text",
+      "props": {
+        "text": "@OndoFinance SPYon/CRCLon, 50+ firms"
+      }
+    },
+    "pos2_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: ONDO −8.6% sell-news; buy thesis not the name",
+        "variant": "muted"
+      }
+    },
+    "pos_ride_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE",
+        "level": "h3"
+      }
+    },
+    "pos3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos3_title",
+        "pos3_status",
+        "pos3_details",
+        "pos3_bear"
+      ]
+    },
+    "pos3_title": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act",
+        "variant": "lead"
+      }
+    },
+    "pos3_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos3_badge1",
+        "pos3_badge2"
+      ]
+    },
+    "pos3_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑"
+      }
+    },
+    "pos3_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "pos3_details": {
+      "type": "Text",
+      "props": {
+        "text": "New combined bill text this week, 20 days to Aug 7 recess"
+      }
+    },
+    "pos3_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: 7 Dems not secured",
+        "variant": "muted"
+      }
+    },
+    "pos4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos4_title",
+        "pos4_status",
+        "pos4_details",
+        "pos4_bear"
+      ]
+    },
+    "pos4_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy",
+        "variant": "lead"
+      }
+    },
+    "pos4_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos4_badge1",
+        "pos4_badge2"
+      ]
+    },
+    "pos4_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "5 ↑"
+      }
+    },
+    "pos4_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "secondary"
+      }
+    },
+    "pos4_details": {
+      "type": "Text",
+      "props": {
+        "text": "@robinhoodapp, @virtuals_io, Ledger Stack, VVV"
+      }
+    },
+    "pos4_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: $619/builder avg thin",
+        "variant": "muted"
+      }
+    },
+    "pos5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos5_title",
+        "pos5_status",
+        "pos5_details"
+      ]
+    },
+    "pos5_title": {
+      "type": "Text",
+      "props": {
+        "text": "x402 / Base",
+        "variant": "lead"
+      }
+    },
+    "pos5_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos5_badge1",
+        "pos5_badge2"
+      ]
+    },
+    "pos5_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑"
+      }
+    },
+    "pos5_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "pos5_details": {
+      "type": "Text",
+      "props": {
+        "text": "100M txns, 4x tester-payer conversion"
+      }
+    },
+    "pos6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos6_title",
+        "pos6_status",
+        "pos6_details"
+      ]
+    },
+    "pos6_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Security / TEE",
+        "variant": "lead"
+      }
+    },
+    "pos6_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos6_badge1",
+        "pos6_badge2"
+      ]
+    },
+    "pos6_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑"
+      }
+    },
+    "pos6_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "pos6_details": {
+      "type": "Text",
+      "props": {
+        "text": "@PhalaNetwork, Ledger Stack, github/copilot-sdk"
+      }
+    },
+    "pos_watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH",
+        "level": "h3"
+      }
+    },
+    "pos7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos7_title",
+        "pos7_status"
+      ]
+    },
+    "pos7_title": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain",
+        "variant": "lead"
+      }
+    },
+    "pos7_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos7_badge1",
+        "pos7_badge2",
+        "pos7_note"
+      ]
+    },
+    "pos7_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "4 →"
+      }
+    },
+    "pos7_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "secondary"
+      }
+    },
+    "pos7_note": {
+      "type": "Text",
+      "props": {
+        "text": "week 3 stagnation test active",
+        "variant": "caption"
+      }
+    },
+    "pos8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos8_title",
+        "pos8_status"
+      ]
+    },
+    "pos8_title": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy / ZK",
+        "variant": "lead"
+      }
+    },
+    "pos8_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos8_badges",
+        "pos8_details"
+      ]
+    },
+    "pos8_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos8_badge1",
+        "pos8_badge2"
+      ]
+    },
+    "pos8_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↑"
+      }
+    },
+    "pos8_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "secondary"
+      }
+    },
+    "pos8_details": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC +3.3%, 10 days to Ironwood Jul 28"
+      }
+    },
+    "pos_fade_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE",
+        "level": "h3"
+      }
+    },
+    "pos9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos9_title",
+        "pos9_status"
+      ]
+    },
+    "pos9_title": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito / InfoFi",
+        "variant": "lead"
+      }
+    },
+    "pos9_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos9_badge1",
+        "pos9_badge2"
+      ]
+    },
+    "pos9_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↓"
+      }
+    },
+    "pos9_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      }
+    },
+    "pos10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos10_title",
+        "pos10_status",
+        "pos10_details"
+      ]
+    },
+    "pos10_title": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE",
+        "variant": "lead"
+      }
+    },
+    "pos10_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos10_badge1",
+        "pos10_badge2"
+      ]
+    },
+    "pos10_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↓↓"
+      }
+    },
+    "pos10_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      }
+    },
+    "pos10_details": {
+      "type": "Text",
+      "props": {
+        "text": "$59.62, −18.7% from ATH; Aug 6 unlock adds supply"
+      }
+    },
+    "pos11": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos11_title",
+        "pos11_status",
+        "pos11_details"
+      ]
+    },
+    "pos11_title": {
+      "type": "Text",
+      "props": {
+        "text": "Fed Pivot",
+        "variant": "lead"
+      }
+    },
+    "pos11_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos11_badge1",
+        "pos11_badge2"
+      ]
+    },
+    "pos11_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↓"
+      }
+    },
+    "pos11_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      }
+    },
+    "pos11_details": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $63,900; Fear & Greed 25"
+      }
+    },
+    "pos12": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos12_title",
+        "pos12_status"
+      ]
+    },
+    "pos12_title": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization",
+        "variant": "lead"
+      }
+    },
+    "pos12_status": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos12_badge1",
+        "pos12_badge2"
+      ]
+    },
+    "pos12_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↓"
+      }
+    },
+    "pos12_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading",
+        "map_dead"
+      ]
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerging_title",
+        "map_emerging_text"
+      ]
+    },
+    "map_emerging_title": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging",
+        "variant": "lead"
+      }
+    },
+    "map_emerging_text": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZK [↑], Lean Ethereum [→], Agentic Dev Tools [↑]"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_title",
+        "map_rising_text"
+      ]
+    },
+    "map_rising_title": {
+      "type": "Text",
+      "props": {
+        "text": "Rising",
+        "variant": "lead"
+      }
+    },
+    "map_rising_text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN-AI [↑↑], CLARITY Act [↑], Tokenized Equities [→], x402/Base [↑], AI Agent Security/TEE [↑], BNB Chain [→]"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_title",
+        "map_peak_text"
+      ]
+    },
+    "map_peak_title": {
+      "type": "Text",
+      "props": {
+        "text": "Peak",
+        "variant": "lead"
+      }
+    },
+    "map_peak_text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy [↑], Robinhood Chain [→]"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_title",
+        "map_fading_text"
+      ]
+    },
+    "map_fading_title": {
+      "type": "Text",
+      "props": {
+        "text": "Fading",
+        "variant": "lead"
+      }
+    },
+    "map_fading_text": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito/InfoFi [↓], HYPE [↓↓], Fed Pivot [↓], RWA Tokenization [↓]"
+      }
+    },
+    "map_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_dead_title",
+        "map_dead_text"
+      ]
+    },
+    "map_dead_title": {
+      "type": "Text",
+      "props": {
+        "text": "Dead",
+        "variant": "lead"
+      }
+    },
+    "map_dead_text": {
+      "type": "Text",
+      "props": {
+        "text": "GENIUS Act, DRV, Memecoins"
+      }
+    }
+  }
+}

@@ -1,22 +1,35 @@
-The temp file can't be deleted by the sandbox — it's harmless and hidden. The skill run is complete.
+*Narrative Tracker — 2026-07-18*
 
-## Summary
+TRANSITIONS
+• DEAD CONFIRMED: GENIUS Act — Jul 18 deadline arrived, agencies missed as predicted. No legal void (Dodd-Frank precedent). EXIT from Jul 16 validated. Next catalyst Q4 2026.
+• DEAD: DRV / On-Chain Options — zero mindshare, co-founder dilution unresolved. Done.
+• PROMOTED: AI Compute / DePIN-AI Emerging → Rising — Compute Summit Launch today (Incheon, South Korea; manadia compute + prediction model + coordination network). VVV +13.2% (Dragonfly $65M private AI inference) corroborates structural shift.
+• DEMOTED: Kaito / InfoFi Peak → Fading — KAITO −8.8% today. Jul 17 hearing was the sell-news. Senate no floor vote = exit trigger fired.
+• DEMOTED: Robinhood Chain Peak RIDE → Peak WATCH — volume stagnating week 3. Velocity stall ↑ → →.
+• VELOCITY STALL: Tokenized Equities / DTCC Rails ↑↑ → → — ONDO −8.6% today (sell-news on DTCC launch). Structural thesis intact; don't chase the name.
 
-**narrative-tracker — 2026-07-17** executed successfully.
+REFLEXIVITY ALERT
+• KAITO loop closed: CLARITY Act hearing → Attention Markets vol → KAITO +24% (Jul 17) → Senate silence → KAITO −8.8% (Jul 18). Pre-named exit trigger fired on schedule.
+• ONDO sell-news: DTCC launch Jul 15 → ONDO +14.5% Jul 16 → ONDO −8.6% Jul 18. Post-launch distribution. DTC entitlement thesis still valid.
+• GENIUS Act unwound: Six agencies missed. Manufactured certainty confirmed fictional. No legal consequence.
 
-**Cache:** `NARRATIVE_CACHE_MISS` (XAI 403, eighth consecutive day) — fell back to WebSearch. Five queries run: crypto narrative Jul 17, AI agent crypto trends, Kaito mindshare leaderboard, CLARITY Act hearing, GENIUS Act deadline, HYPE decline.
+POSITIONS
+• FRONT-RUN: AI Compute / DePIN-AI (3 ↑↑, Rising) — Compute Summit Jul 18, @akashnet, io.net, VVV Dragonfly — bear: one summit ≠ ecosystem, token→adoption gap
+• FRONT-RUN: Tokenized Equities / DTCC Rails (3 →, Rising) — @OndoFinance SPYon/CRCLon, 50+ firms — bear: ONDO −8.6% sell-news; buy thesis not the name
+• RIDE: CLARITY Act (4 ↑, Rising) — new combined bill text this week, 20 days to Aug 7 recess — bear: 7 Dems not secured
+• RIDE: AI Agent Economy (5 ↑, Peak) — @robinhoodapp, @virtuals_io, Ledger Stack, VVV — bear: $619/builder avg thin
+• RIDE: x402 / Base (4 ↑, Rising) — 100M txns, 4x tester-payer conversion
+• RIDE: AI Agent Security / TEE (4 ↑, Rising) — @PhalaNetwork, Ledger Stack, github/copilot-sdk
+• WATCH: Robinhood Chain (4 →, Peak) — week 3 stagnation test active
+• WATCH: Privacy / ZK (2 ↑, Emerging) — ZEC +3.3%, 10 days to Ironwood Jul 28
+• FADE: Kaito / InfoFi (3 ↓, Fading) — Senate silence = exit; −8.8% today
+• FADE: HYPE (2 ↓↓, Fading) — $59.62, −18.7% from ATH; Aug 6 unlock adds supply
+• FADE: Fed Pivot (2 ↓, Fading) — BTC $63,900; Fear & Greed 25
+• FADE: RWA Tokenization (2 ↓, Fading)
 
-**18 narratives scored. Key transitions vs Jul 16:**
-
-| Transition | Narrative | What flipped |
-|---|---|---|
-| DEAD | GENIUS Act | Agencies confirmed miss — three comment periods extend past Jul 18; no final rules in Federal Register |
-| PROMOTED Emerging→Rising | CLARITY Act | Field hearing Federal Hall NYC TODAY; Senate 7 Dem votes before Aug 7 recess; decision week |
-| PROMOTED Rising→Peak | Kaito/InfoFi | KAITO +24% 24h / +42% 7d on CLARITY Act catalyst; Attention Markets volume surging |
-| PROMOTED Emerging→Rising | Tokenized Equities/DTCC Rails | ONDO +14.5% counter-tape (BTC −2.1%) validated mindshare build |
-| DEMOTED Peak→Fading | Fed Pivot | Retail sales beat + jobless claims drop = rate cut thesis cracking; Fear&Greed 27 |
-| DEMOTED Rising→Fading | Hyperliquid/HYPE | a16z-linked wallet dumps $28M HYPE (437K tokens); 7d −13.2%; institutional distribution complete |
-
-**Three reflexivity flags:** CLARITY Act → KAITO feedback loop (verified mechanism); GENIUS Act manufactured consensus unwinding; HYPE institutional distribution while retail holds narrative.
-
-**Notification** queued to `.pending-notify/1752757200.md` for post-run delivery. **Log** appended to `memory/logs/2026-07-17.md`.
+MAP
+Emerging: Privacy/ZK [↑], Lean Ethereum [→], Agentic Dev Tools [↑]
+Rising: AI Compute/DePIN-AI [↑↑], CLARITY Act [↑], Tokenized Equities [→], x402/Base [↑], AI Agent Security/TEE [↑], BNB Chain [→]
+Peak: AI Agent Economy [↑], Robinhood Chain [→]
+Fading: Kaito/InfoFi [↓], HYPE [↓↓], Fed Pivot [↓], RWA Tokenization [↓]
+Dead: GENIUS Act, DRV, Memecoins
