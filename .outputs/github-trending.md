@@ -1,22 +1,21 @@
-*GitHub Trending — 2026-07-17*
+*GitHub Trending — 2026-07-18*
 
-*Top pick* — [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
-As coding assistants multiply, the scarce resource is structured context about your stack — graphify solves it by turning code, schemas, and infra into a single traversable knowledge graph every assistant can reason over.
+*Top pick* — [github/copilot-sdk](https://github.com/github/copilot-sdk)
+GitHub is making Copilot Agent embeddable in third-party tools for the first time — formalizes the open agent runtime every IDE builder has been waiting for.
 
 *AI/ML*
-• [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — ★ 1,107 today (89.7k total) · Python · [ACCELERATING]
-Converts any codebase — SQL schemas, R scripts, shell scripts, docs, images, or video — into one queryable knowledge graph; app code + database schema + infrastructure as a single connected structure.
+• [PrismML-Eng/Bonsai-demo](https://github.com/PrismML-Eng/Bonsai-demo) — ★ 278 today (1.8k total) · Shell · [RETURNING]
+Demo for Bonsai's LLM pruning stack — compressed models running via llama.cpp and MLX on consumer hardware without retraining.
 
-• [lobehub/lobehub](https://github.com/lobehub/lobehub) — ★ 71 today (80.4k total) · TypeScript · [RETURNING]
-Treats your AI team like an HR org — schedules agents in 7×24 shifts, auto-reports outcomes, and lets you manage dozens of agents from one dashboard; pushed again today suggesting a release catalyst.
+• [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec) — ★ 280 today (13.4k total) · Python/Rust · [ACCELERATING]
+Rust ANN vector index with Python bindings built on TurboQuant — trending today despite no code push in 38 days, suggesting organic word-of-mouth.
 
 *Devtools*
-• [ibelick/ui-skills](https://github.com/ibelick/ui-skills) — ★ 178 today (4.6k total) · TypeScript
-Design-engineering skills for coding assistants — production CSS animations and interaction patterns that go beyond what component libraries ship out of the box.
+• [github/copilot-sdk](https://github.com/github/copilot-sdk) — ★ 233 today (9.9k total) · Java · [ACCELERATING]
+Multi-platform SDK to embed GitHub Copilot Agent in any app — agent runtime portable outside github.com for the first time.
 
-*Data*
-• [apache/ossie](https://github.com/apache/ossie) — ★ 60 today (1.1k total) · Python
-Apache-backed vendor-neutral spec to unify semantic metadata across analytics, AI, and BI stacks — OpenAPI for how data describes itself across tools.
+• [PostHog/posthog](https://github.com/PostHog/posthog) — ★ 438 today (36.3k total) · Python · [RETURNING]
+Open-source analytics adding LLM observability and AI decision tracing — 5.7× star spike vs yesterday signals a fresh release or viral post.
 
 ---
-sources: trending=ok · gh_api=ok · kept 4/17
+sources: trending=ok · gh_api=ok · kept 4/14

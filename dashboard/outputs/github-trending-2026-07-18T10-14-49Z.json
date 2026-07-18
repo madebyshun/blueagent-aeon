@@ -1,0 +1,344 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-18"
+      },
+      "children": [
+        "section-toppick",
+        "sep-1",
+        "heading-aiml",
+        "section-aiml",
+        "sep-2",
+        "heading-devtools",
+        "section-devtools",
+        "sep-3",
+        "text-sources"
+      ]
+    },
+    "section-toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "label-toppick",
+        "repo-copilot-sdk-top",
+        "desc-copilot-sdk-top"
+      ]
+    },
+    "label-toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "repo-copilot-sdk-top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github/copilot-sdk",
+        "href": "https://github.com/github/copilot-sdk"
+      }
+    },
+    "desc-copilot-sdk-top": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub is making Copilot Agent embeddable in third-party tools for the first time — formalizes the open agent runtime every IDE builder has been waiting for."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "section-aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo-bonsai",
+        "repo-turbovec"
+      ]
+    },
+    "repo-bonsai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bonsai-header",
+        "bonsai-desc"
+      ]
+    },
+    "bonsai-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "bonsai-link",
+        "bonsai-stars",
+        "bonsai-lang",
+        "bonsai-status"
+      ]
+    },
+    "bonsai-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PrismML-Eng/Bonsai-demo",
+        "href": "https://github.com/PrismML-Eng/Bonsai-demo"
+      }
+    },
+    "bonsai-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 278 today (1.8k total)",
+        "variant": "caption"
+      }
+    },
+    "bonsai-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell"
+      }
+    },
+    "bonsai-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "bonsai-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Demo for Bonsai's LLM pruning stack — compressed models running via llama.cpp and MLX on consumer hardware without retraining."
+      }
+    },
+    "repo-turbovec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "turbovec-header",
+        "turbovec-desc"
+      ]
+    },
+    "turbovec-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "turbovec-link",
+        "turbovec-stars",
+        "turbovec-lang",
+        "turbovec-status"
+      ]
+    },
+    "turbovec-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "RyanCodrai/turbovec",
+        "href": "https://github.com/RyanCodrai/turbovec"
+      }
+    },
+    "turbovec-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 280 today (13.4k total)",
+        "variant": "caption"
+      }
+    },
+    "turbovec-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python/Rust"
+      }
+    },
+    "turbovec-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "turbovec-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rust ANN vector index with Python bindings built on TurboQuant — trending today despite no code push in 38 days, suggesting organic word-of-mouth."
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo-copilot-sdk-devtools",
+        "repo-posthog"
+      ]
+    },
+    "repo-copilot-sdk-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "copilot-header-devtools",
+        "copilot-desc-devtools"
+      ]
+    },
+    "copilot-header-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "copilot-link-devtools",
+        "copilot-stars-devtools",
+        "copilot-lang-devtools",
+        "copilot-status-devtools"
+      ]
+    },
+    "copilot-link-devtools": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github/copilot-sdk",
+        "href": "https://github.com/github/copilot-sdk"
+      }
+    },
+    "copilot-stars-devtools": {
+      "type": "Text",
+      "props": {
+        "text": "★ 233 today (9.9k total)",
+        "variant": "caption"
+      }
+    },
+    "copilot-lang-devtools": {
+      "type": "Badge",
+      "props": {
+        "text": "Java"
+      }
+    },
+    "copilot-status-devtools": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "copilot-desc-devtools": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-platform SDK to embed GitHub Copilot Agent in any app — agent runtime portable outside github.com for the first time."
+      }
+    },
+    "repo-posthog": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "posthog-header",
+        "posthog-desc"
+      ]
+    },
+    "posthog-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "posthog-link",
+        "posthog-stars",
+        "posthog-lang",
+        "posthog-status"
+      ]
+    },
+    "posthog-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PostHog/posthog",
+        "href": "https://github.com/PostHog/posthog"
+      }
+    },
+    "posthog-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 438 today (36.3k total)",
+        "variant": "caption"
+      }
+    },
+    "posthog-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "posthog-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "posthog-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Open-source analytics adding LLM observability and AI decision tracing — 5.7× star spike vs yesterday signals a fresh release or viral post."
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/14",
+        "variant": "muted"
+      }
+    }
+  }
+}
