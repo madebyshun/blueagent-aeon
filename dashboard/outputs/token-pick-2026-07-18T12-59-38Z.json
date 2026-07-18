@@ -1,0 +1,296 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-18"
+      },
+      "children": [
+        "sep1",
+        "stack_vvv",
+        "sep2",
+        "stack_fifa",
+        "sep3",
+        "alert_disclaimer"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_vvv": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_vvv",
+        "stack_vvv_header",
+        "text_price",
+        "stack_mcap_vol",
+        "text_vol_ratio",
+        "text_score",
+        "text_catalyst",
+        "text_risk",
+        "text_recent"
+      ]
+    },
+    "heading_vvv": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: VVV",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_vvv_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_vvv",
+        "stat_vvv_signal"
+      ]
+    },
+    "badge_vvv": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat_vvv_signal": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "6/10"
+      },
+      "children": []
+    },
+    "text_price": {
+      "type": "Text",
+      "props": {
+        "text": "Price: $11.59 (+13.2% 24h / +10.9% 7d)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack_mcap_vol": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_mcap",
+        "stat_vol"
+      ]
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "mcap",
+        "value": "$549M"
+      },
+      "children": []
+    },
+    "stat_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "vol",
+        "value": "$30M"
+      },
+      "children": []
+    },
+    "text_vol_ratio": {
+      "type": "Text",
+      "props": {
+        "text": "vol/mcap: 0.055",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, RS vs BTC/ETH 7d+2] = 6/10",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: $65M Series A from Dragonfly at $1B valuation (Jul 5) + 2M user milestone + final emission cut to 3M VVV/yr active this month — private AI inference directly monetizes AI×crypto narrative",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: ATH was $18.82 on Jul 10 (−38% from peak today); today's move is a bounce within a downtrend; tokenomics doubts about VVV staking utility vs speculation",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_recent": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time in last 7 days",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_fifa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_fifa",
+        "stack_fifa_header",
+        "text_current_odds",
+        "stack_vol_res",
+        "text_fair",
+        "text_thesis",
+        "text_fifa_risk",
+        "text_sources"
+      ]
+    },
+    "heading_fifa": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will Argentina win the 2026 FIFA World Cup?",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_fifa_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fifa",
+        "stat_fifa_edge"
+      ]
+    },
+    "badge_fifa": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat_fifa_edge": {
+      "type": "Stat",
+      "props": {
+        "label": "Edge",
+        "value": "7pp"
+      },
+      "children": []
+    },
+    "text_current_odds": {
+      "type": "Text",
+      "props": {
+        "text": "Current: YES 40.2¢ / NO 59.8¢",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack_vol_res": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_vol_fifa",
+        "text_resolution"
+      ]
+    },
+    "stat_vol_fifa": {
+      "type": "Stat",
+      "props": {
+        "label": "24h vol",
+        "value": "$2.7M"
+      },
+      "children": []
+    },
+    "text_resolution": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-07-20 (final Jul 19)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_fair": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~47% (inputs: defending WC champion 2022 Qatar; two-time finalists historically win ~50% of second finals; Spain's semi dominance 2-0 vs France justifies an edge but not 60-40 vs elite defending champion)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: Argentina at 40¢ underprices a defending champion in the final — buy YES",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_fifa_risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: Spain showed greater tournament dominance; their possession game historically hard to break in knockout rounds",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_disclaimer": {
+      "type": "Alert",
+      "props": {
+        "message": "not financial advice — pattern-matching only",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
