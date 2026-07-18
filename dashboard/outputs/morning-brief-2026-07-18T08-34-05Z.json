@@ -1,0 +1,246 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-18"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3",
+        "sep-1",
+        "yesterday-heading",
+        "yesterday-closed",
+        "yesterday-peak",
+        "yesterday-fade",
+        "yesterday-dead",
+        "sep-2",
+        "watch-heading",
+        "watch-alert",
+        "sep-3",
+        "running-heading",
+        "running-item-1",
+        "running-item-2",
+        "running-item-3",
+        "running-item-4"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. CLARITY Act new text — why now: combined Senate text drops this week; 20 days to recess",
+        "variant": "body"
+      }
+    },
+    "focus-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. KAITO sell-news watch — why now: hearing done; Senate signal in 48h decides loop or reversal",
+        "variant": "body"
+      }
+    },
+    "focus-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Tokenized Equities / DTCC Rails — why now: DTCC rails live Jul 15; ONDO +14.5% counter-tape still unpriced",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-closed": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-closed",
+        "text-closed"
+      ]
+    },
+    "badge-closed": {
+      "type": "Badge",
+      "props": {
+        "text": "closed",
+        "variant": "outline"
+      }
+    },
+    "text-closed": {
+      "type": "Text",
+      "props": {
+        "text": "GENIUS Act — deadline fires today; agencies missed; narrative DEAD",
+        "variant": "body"
+      }
+    },
+    "yesterday-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-peak",
+        "text-peak"
+      ]
+    },
+    "badge-peak": {
+      "type": "Badge",
+      "props": {
+        "text": "peak",
+        "variant": "default"
+      }
+    },
+    "text-peak": {
+      "type": "Text",
+      "props": {
+        "text": "KAITO +24% / CLARITY Act attention loop confirmed at Jul 17 field hearing",
+        "variant": "body"
+      }
+    },
+    "yesterday-fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade",
+        "text-fade"
+      ]
+    },
+    "badge-fade": {
+      "type": "Badge",
+      "props": {
+        "text": "fade",
+        "variant": "secondary"
+      }
+    },
+    "text-fade": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE −8.7% (7d −13.2%) — a16z $28M dump; institutional distribution complete",
+        "variant": "body"
+      }
+    },
+    "yesterday-dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-dead",
+        "text-dead"
+      ]
+    },
+    "badge-dead": {
+      "type": "Badge",
+      "props": {
+        "text": "dead",
+        "variant": "destructive"
+      }
+    },
+    "text-dead": {
+      "type": "Text",
+      "props": {
+        "text": "CASHCAT −41.8% capitulation — memecoins IGNORE confirmed",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "CLARITY Act stalled",
+        "message": "3 disputes (ethics, Section 604, 7 Dem votes not secured) — new text this week is last unsticking lever before Aug 7 recess (focus #1)",
+        "type": "warning"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
