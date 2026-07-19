@@ -1,0 +1,432 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-19"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_top_pick",
+        "separator_1",
+        "section_ai_ml",
+        "separator_2",
+        "section_devtools",
+        "separator_3",
+        "text_source"
+      ]
+    },
+    "section_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_top_pick",
+        "text_top_pick_desc",
+        "link_top_pick"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "text_top_pick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Feed-forward 3D scene reconstruction vs. iterative NeRF — the architectural shift matters, not the star count."
+      }
+    },
+    "link_top_pick": {
+      "type": "Link",
+      "props": {
+        "label": "Robbyant/lingbot-map",
+        "href": "https://github.com/Robbyant/lingbot-map"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_ai_ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_ai_ml",
+        "stack_ai_ml_repos"
+      ]
+    },
+    "heading_ai_ml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "stack_ai_ml_repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo_lingbot_map",
+        "repo_airllm"
+      ]
+    },
+    "repo_lingbot_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_lingbot_map_header",
+        "text_lingbot_map_stars",
+        "text_lingbot_map_desc"
+      ]
+    },
+    "repo_lingbot_map_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_lingbot_map",
+        "badge_python_1",
+        "badge_accelerating_1"
+      ]
+    },
+    "link_lingbot_map": {
+      "type": "Link",
+      "props": {
+        "label": "Robbyant/lingbot-map",
+        "href": "https://github.com/Robbyant/lingbot-map"
+      }
+    },
+    "badge_python_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_accelerating_1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_lingbot_map_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 831 today (13.3k total)",
+        "variant": "caption"
+      }
+    },
+    "text_lingbot_map_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Replaces iterative NeRF optimization with a single feed-forward pass — real-time 3D scene reconstruction from streaming frames."
+      }
+    },
+    "repo_airllm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_airllm_header",
+        "text_airllm_stars",
+        "text_airllm_desc"
+      ]
+    },
+    "repo_airllm_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_airllm",
+        "badge_jupyter",
+        "badge_returning_1"
+      ]
+    },
+    "link_airllm": {
+      "type": "Link",
+      "props": {
+        "label": "lyogavin/airllm",
+        "href": "https://github.com/lyogavin/airllm"
+      }
+    },
+    "badge_jupyter": {
+      "type": "Badge",
+      "props": {
+        "text": "Jupyter"
+      }
+    },
+    "badge_returning_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text_airllm_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 161 today (23.5k total)",
+        "variant": "caption"
+      }
+    },
+    "text_airllm_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Runs 70B models on 4GB VRAM by streaming layers sequentially — no quantization, just memory-efficient layer paging."
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "stack_devtools_repos"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "stack_devtools_repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo_code_review_graph",
+        "repo_wigolo",
+        "repo_kimi_cli"
+      ]
+    },
+    "repo_code_review_graph": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_code_review_graph_header",
+        "text_code_review_graph_stars",
+        "text_code_review_graph_desc"
+      ]
+    },
+    "repo_code_review_graph_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_code_review_graph",
+        "badge_python_2",
+        "badge_accelerating_2"
+      ]
+    },
+    "link_code_review_graph": {
+      "type": "Link",
+      "props": {
+        "label": "tirth8205/code-review-graph",
+        "href": "https://github.com/tirth8205/code-review-graph"
+      }
+    },
+    "badge_python_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_accelerating_2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_code_review_graph_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 355 today (20.4k total)",
+        "variant": "caption"
+      }
+    },
+    "text_code_review_graph_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Persistent MCP-served codebase knowledge graph — benchmarked context reductions on AI code reviews and large-repo workflows."
+      }
+    },
+    "repo_wigolo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_wigolo_header",
+        "text_wigolo_stars",
+        "text_wigolo_desc"
+      ]
+    },
+    "repo_wigolo_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_wigolo",
+        "badge_typescript",
+        "badge_returning_2"
+      ]
+    },
+    "link_wigolo": {
+      "type": "Link",
+      "props": {
+        "label": "KnockOutEZ/wigolo",
+        "href": "https://github.com/KnockOutEZ/wigolo"
+      }
+    },
+    "badge_typescript": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "badge_returning_2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text_wigolo_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 203 today (1.5k total)",
+        "variant": "caption"
+      }
+    },
+    "text_wigolo_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Full web research for any MCP agent — crawl, search, and RAG at $0/query, no API keys, entirely local."
+      }
+    },
+    "repo_kimi_cli": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_kimi_cli_header",
+        "text_kimi_cli_stars",
+        "text_kimi_cli_desc"
+      ]
+    },
+    "repo_kimi_cli_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_kimi_cli",
+        "badge_python_3",
+        "badge_returning_3"
+      ]
+    },
+    "link_kimi_cli": {
+      "type": "Link",
+      "props": {
+        "label": "MoonshotAI/kimi-cli",
+        "href": "https://github.com/MoonshotAI/kimi-cli"
+      }
+    },
+    "badge_python_3": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_returning_3": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text_kimi_cli_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 65 today (9.7k total)",
+        "variant": "caption"
+      }
+    },
+    "text_kimi_cli_desc": {
+      "type": "Text",
+      "props": {
+        "text": "MoonshotAI's official agentic coding CLI — open-source entry into the Claude Code / Cursor competitive space."
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_source": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok (11 repos via WebFetch) · gh_api=ok · kept 5/11",
+        "variant": "muted"
+      }
+    }
+  }
+}

@@ -1,21 +1,24 @@
-*GitHub Trending — 2026-07-18*
+*GitHub Trending — 2026-07-19*
 
-*Top pick* — [github/copilot-sdk](https://github.com/github/copilot-sdk)
-GitHub is making Copilot Agent embeddable in third-party tools for the first time — formalizes the open agent runtime every IDE builder has been waiting for.
+*Top pick* — [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map)
+Feed-forward 3D scene reconstruction vs. iterative NeRF — the architectural shift matters, not the star count.
 
 *AI/ML*
-• [PrismML-Eng/Bonsai-demo](https://github.com/PrismML-Eng/Bonsai-demo) — ★ 278 today (1.8k total) · Shell · [RETURNING]
-Demo for Bonsai's LLM pruning stack — compressed models running via llama.cpp and MLX on consumer hardware without retraining.
+• [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) — ★ 831 today (13.3k total) · Python · [ACCELERATING]
+Replaces iterative NeRF optimization with a single feed-forward pass — real-time 3D scene reconstruction from streaming frames.
 
-• [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec) — ★ 280 today (13.4k total) · Python/Rust · [ACCELERATING]
-Rust ANN vector index with Python bindings built on TurboQuant — trending today despite no code push in 38 days, suggesting organic word-of-mouth.
+• [lyogavin/airllm](https://github.com/lyogavin/airllm) — ★ 161 today (23.5k total) · Jupyter · [RETURNING]
+Runs 70B models on 4GB VRAM by streaming layers sequentially — no quantization, just memory-efficient layer paging.
 
 *Devtools*
-• [github/copilot-sdk](https://github.com/github/copilot-sdk) — ★ 233 today (9.9k total) · Java · [ACCELERATING]
-Multi-platform SDK to embed GitHub Copilot Agent in any app — agent runtime portable outside github.com for the first time.
+• [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) — ★ 355 today (20.4k total) · Python · [ACCELERATING]
+Persistent MCP-served codebase knowledge graph — benchmarked context reductions on AI code reviews and large-repo workflows.
 
-• [PostHog/posthog](https://github.com/PostHog/posthog) — ★ 438 today (36.3k total) · Python · [RETURNING]
-Open-source analytics adding LLM observability and AI decision tracing — 5.7× star spike vs yesterday signals a fresh release or viral post.
+• [KnockOutEZ/wigolo](https://github.com/KnockOutEZ/wigolo) — ★ 203 today (1.5k total) · TypeScript · [RETURNING]
+Full web research for any MCP agent — crawl, search, and RAG at $0/query, no API keys, entirely local.
+
+• [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) — ★ 65 today (9.7k total) · Python · [RETURNING]
+MoonshotAI's official agentic coding CLI — open-source entry into the Claude Code / Cursor competitive space.
 
 ---
-sources: trending=ok · gh_api=ok · kept 4/14
+sources: trending=ok (11 repos via WebFetch) · gh_api=ok · kept 5/11
