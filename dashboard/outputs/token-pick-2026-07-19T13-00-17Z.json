@@ -1,0 +1,259 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-19",
+        "description": "PEPE Token Analysis"
+      },
+      "children": [
+        "token_header",
+        "sep1",
+        "price_section",
+        "sep2",
+        "score_section",
+        "sep3",
+        "catalyst_alert",
+        "sep4",
+        "risk_alert",
+        "sep5",
+        "sources_section"
+      ]
+    },
+    "token_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_token",
+        "badge_level",
+        "score_progress"
+      ]
+    },
+    "badge_token": {
+      "type": "Badge",
+      "props": {
+        "text": "PEPE",
+        "variant": "default"
+      }
+    },
+    "badge_level": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "secondary"
+      }
+    },
+    "score_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 8,
+        "max": 10,
+        "label": "Signal Score"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price_stat",
+        "metrics_grid"
+      ]
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.00000284",
+        "delta": "+4.1% (24h) / +4.4% (7d)",
+        "trend": "up"
+      }
+    },
+    "metrics_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "mcap_stat",
+        "volume_stat",
+        "volmcap_stat"
+      ]
+    },
+    "mcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$1.2B"
+      }
+    },
+    "volume_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$130M"
+      }
+    },
+    "volmcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/MCap Ratio",
+        "value": "0.11"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "score_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "score_heading",
+        "score_items"
+      ]
+    },
+    "score_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown (8/10)",
+        "level": "h3"
+      }
+    },
+    "score_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_trending",
+        "item_volmcap",
+        "item_rs",
+        "item_24h",
+        "item_7d"
+      ]
+    },
+    "item_trending": {
+      "type": "Text",
+      "props": {
+        "text": "Trending: +2",
+        "variant": "body"
+      }
+    },
+    "item_volmcap": {
+      "type": "Text",
+      "props": {
+        "text": "Vol/MCap ≥ 0.10: +2",
+        "variant": "body"
+      }
+    },
+    "item_rs": {
+      "type": "Text",
+      "props": {
+        "text": "RS vs BTC (+0.83%) / ETH (+3.92%) 7d: +2",
+        "variant": "body"
+      }
+    },
+    "item_24h": {
+      "type": "Text",
+      "props": {
+        "text": "24h > 0: +1",
+        "variant": "body"
+      }
+    },
+    "item_7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d > 0: +1",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalyst_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Catalyst",
+        "message": "Canary Capital filed S-1 with SEC in April 2026 for the first spot PEPE ETF — 240-day review clock is running (decision window open through ~Dec 2026); whale accumulation of $7.5M near support early July signals institutional positioning ahead of potential approval",
+        "type": "info"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "risk_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "SEC has no precedent for a pure-memecoin ETF; approval window stretches to Dec 2026; memecoins market cap down 78% from ATH; if BTC/ETH ETF precedent fails to extend to meme tier, thesis collapses; today's +4.4% 7d beats ETH by only 0.45pp — thin margin",
+        "type": "warning"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_heading",
+        "sources_data",
+        "disclaimer"
+      ]
+    },
+    "sources_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Sources",
+        "variant": "muted"
+      }
+    },
+    "sources_data": {
+      "type": "Text",
+      "props": {
+        "text": "CoinGecko: ok | Dex: fail | Polygon: ok",
+        "variant": "caption"
+      }
+    },
+    "disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}

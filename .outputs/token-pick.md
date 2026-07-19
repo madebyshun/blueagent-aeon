@@ -1,17 +1,10 @@
-*Daily Pick — 2026-07-18*
+*Daily Pick — 2026-07-19*
 
-*Token: VVV*  [MEDIUM]  signal 6/10
-Price: $11.59 (+13.2% 24h / +10.9% 7d) | mcap $549M | vol $30M (vol/mcap 0.055)
-Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, RS vs BTC/ETH 7d+2] = 6/10
-Catalyst: $65M Series A from Dragonfly at $1B valuation (Jul 5) + 2M user milestone + final emission cut to 3M VVV/yr active this month — private AI inference directly monetizes AI×crypto narrative
-Risk: ATH was $18.82 on Jul 10 (−38% from peak today); today's move is a bounce within a downtrend; tokenomics doubts about VVV staking utility vs speculation
-Vs recent picks: first time in last 7 days
-
-*Market: "Will Argentina win the 2026 FIFA World Cup?"*  [MEDIUM]  edge 7pp
-Current: YES 40.2¢ / NO 59.8¢ | 24h vol $2.7M | resolves: 2026-07-20 (final Jul 19)
-Fair YES: ~47% (inputs: defending WC champion 2022 Qatar; two-time finalists historically win ~50% of second finals; Spain's semi dominance 2-0 vs France justifies an edge but not 60-40 vs elite defending champion)
-Thesis: Argentina at 40¢ underprices a defending champion in the final — buy YES
-Risk: Spain showed greater tournament dominance; their possession game historically hard to break in knockout rounds
+*Token: PEPE* [HIGH] signal 8/10
+Price: $0.00000284 (+4.1% 24h / +4.4% 7d) | mcap $1.2B | vol $130M (vol/mcap 0.11)
+Score breakdown: [trending+2, vol/mcap≥0.10+2, RS vs BTC(+0.83%)/ETH(+3.92%) 7d+2, 24h>0+1, 7d>0+1] = 8/10
+Catalyst: Canary Capital filed S-1 with SEC in April 2026 for the first spot PEPE ETF — 240-day review clock is running (decision window open through ~Dec 2026); whale accumulation of $7.5M near support early July signals institutional positioning ahead of potential approval
+Risk: SEC has no precedent for a pure-memecoin ETF; approval window stretches to Dec 2026; memecoins market cap down 78% from ATH; if BTC/ETH ETF precedent fails to extend to meme tier, thesis collapses; today's +4.4% 7d beats ETH by only 0.45pp — thin margin
 
 sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only
