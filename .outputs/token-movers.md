@@ -1,43 +1,42 @@
-*Token Movers — 2026-07-18*
+*Token Movers — 2026-07-19*
 
-_Modest recovery — ~70% of non-stable top-100 coins green, median top-50 ≈ +0.8%; BTC +1.8%, ETH +0.9%, SOL +0.8%; broad gains offset by sharp reversals in ONDO and KAITO from yesterday's peaks._
+_~55% of non-stable top-100 coins green; median move near flat; BTC +0.4%, ETH +1.3%; broad but shallow recovery with outsized moves concentrated in low-to-mid-caps._
 
 *Top Winners (24h)*
-1. B (BUILDon) — $0.157  +37.0% / 7d +20.2% / 1h −12.4%  •  $20.7M / #196  [PUMP-RISK]
-2. XEC (eCash) — $0.00001008  +25.8% / 7d +92.9% / 1h +5.5%  •  $115.8M / #164  [TRENDING+UP][BREAKOUT]
-3. VVV (Venice Token) — $11.59  +13.2% / 7d +10.9% / 1h −0.3%  •  $30.0M / #98
-4. TRUMP (Official Trump) — $1.68  +10.1% / 7d +4.6% / 1h −0.7%  •  $157.6M / #116
-5. ETHFI (Ether.fi) — $0.458  +9.5% / 7d +10.9% / 1h +0.7%  •  $38.5M / #108
-6. EDGE (edgeX) — $0.453  +7.2% / 7d +19.5% / 1h −0.1%  •  $7.7M / #195
-7. CRO (Cronos) — $0.06104  +4.9% / 7d +9.1% / 1h +0.5%  •  $16.6M / #33
-8. ADA (Cardano) — $0.1657  +3.8% / 7d −0.9% / 1h −0.1%  •  $381.8M / #20  [MAJOR]
-9. JASMY (JasmyCoin) — $0.00455  +3.7% / 7d +0.5% / 1h −0.1%  •  $25.6M / #151
-10. ZEC (Zcash) — $547.51  +3.3% / 7d +8.8% / 1h +1.4%  •  $356.0M / #14  [MAJOR]
+1. BANK (Lorenzo Protocol) — $0.178  +151.0% / 7d +320.4% / 1h -0.2%  •  $202.8M / #302  [TRENDING+UP][PUMP-RISK]
+2. PUMP (Pump.fun) — $0.001648  +17.2% / 7d n/a / 1h +0.2%  •  $18.8M / #88
+3. PI (Pi Network) — $0.0922  +10.6% / 7d -4.8% / 1h +0.9%  •  $16.7M / #65  [TRENDING+UP]
+4. PEPE (Pepe) — $0.00000285  +4.2% / 7d +4.5% / 1h +0.5%  •  $130.2M / #60  [TRENDING+UP]
+5. SKY (Sky) — $0.06075  +3.5% / 7d -2.0% / 1h +1.3%  •  $14.7M / #53
+6. HYPE (Hyperliquid) — $60.93  +3.3% / 7d -8.7% / 1h -0.2%  •  $276.1M / #10  [MAJOR]
+7. LTC (Litecoin) — $47.10  +3.1% / 7d +5.5% / 1h +0.4%  •  $308.0M / #27
+8. XLM (Stellar) — $0.1903  +2.8% / 7d +2.4% / 1h +0.9%  •  $115.4M / #17
+9. TAO (Bittensor) — $197.38  +2.5% / 7d -5.9% / 1h -0.2%  •  $70.5M / #41
+10. SUI (Sui) — $0.7510  +2.1% / 7d +1.4% / 1h +0.1%  •  $142.6M / #29
 
 *Top Losers (24h)*
-1. HASH (Provenance) — $0.0073  −9.6% / 7d −11.3% / 1h −8.3%  •  $2.5M / #114
-2. VELVET — $0.520  −8.9% / 7d +19.8% / 1h +1.3%  •  $8.2M / #154
-3. KAITO — $0.827  −8.8% / 7d +26.2% / 1h +0.1%  •  $35.5M / #170
-4. ONDO (Ondo Finance) — $0.3427  −8.6% / 7d +3.5% / 1h −0.5%  •  $185.2M / #46  [TRENDING+DOWN]
-5. BONK — $0.000003  −8.4% / 7d −27.6% / 1h −0.9%  •  $57.2M / #142
-6. KITE — $0.111  −7.9% / 7d −6.5% / 1h −1.2%  •  $191.3M / #139
-7. BEAT (Audiera) — $2.35  −6.2% / 7d −19.9% / 1h −0.1%  •  $6.3M / #84
-8. FF (Falcon Finance) — $0.0606  −5.5% / 7d +4.4% / 1h −0.3%  •  $12.3M / #182
-9. TIA (Celestia) — $0.360  −5.2% / 7d −11.9% / 1h −0.3%  •  $22.7M / #123
-10. TEL (Telcoin) — $0.00187  −5.2% / 7d −16.7% / 1h +0.6%  •  $1.6M / #183
+1. ADI — $6.25  -4.7% / 7d -3.3% / 1h +0.4%  •  $6.4M / #76
+2. DEXE (DeXe) — $34.03  -4.6% / 7d -21.6% / 1h -0.7%  •  $44.3M / #49
+3. MEMECORE — $1.20  -3.4% / 7d -1.1% / 1h -0.8%  •  $9.0M / #48
+4. FIL (Filecoin) — $0.7256  -3.2% / 7d -7.6% / 1h -0.6%  •  $34.2M / #92
+5. CRO (Cronos) — $0.05907  -3.0% / 7d +6.2% / 1h +0.2%  •  $8.9M / #33
+6. GRAM — $1.44  -2.9% / 7d -12.6% / 1h -0.5%  •  $20.7M / #26
+7. AVAX (Avalanche) — $6.42  -2.1% / 7d -0.2% / 1h -1.1%  •  $154.1M / #34
+8. INJ (Injective) — $5.04  -1.7% / 7d +2.9% / 1h -0.3%  •  $63.0M / #102
+9. ARB (Arbitrum) — $0.0887  -1.5% / 7d -6.7% / 1h -0.5%  •  $39.9M / #94
+10. DOT (Polkadot) — $0.8264  -1.5% / 7d -2.6% / 1h -0.6%  •  $65.1M / #54
 
 *Trending*
-1. BTC (Bitcoin) — #1, $64,184, +1.8%
-2. ETH (Ethereum) — #2, $1,844, +0.9%
-3. HYPE (Hyperliquid) — #10, $58.81, −1.8%
-4. CC (Canton) — #21, $0.125, −3.4%
-5. ONDO (Ondo Finance) — #46, $0.342, −8.6%  [TRENDING+DOWN]
-6. ADI — #75, $6.57, −4.2%  [TRENDING+DOWN]
-7. PUMP (Pump.fun) — #88, $0.0017, +1.6%  [TRENDING+UP]
+1. BANK (Lorenzo Protocol) — #302, $0.178, 24h +152.4%  [TRENDING+UP][PUMP-RISK]
+2. PENGU (Pudgy Penguins) — #118, $0.00608, 24h +1.2%
+3. PI (Pi Network) — #65, $0.0922, 24h +10.9%  [TRENDING+UP]
+4. CASHCAT (Cash Cat) — #381, $0.0607, 24h +9.5%
+5. PEPE — #60, $0.00000285, 24h +4.4%  [TRENDING+UP]
+6. LAB — #399, $0.172, 24h -8.6%
+7. MON (Monad) — #143, $0.0212, 24h -1.2%
 
 *Notable*
-• XEC [TRENDING+UP][BREAKOUT]: +25.8% / 7d +92.9% on $115.8M vol — sustained high-volume breakout, strongest signal today
-• B [PUMP-RISK]: #196 +37% on $20.7M vol — low-cap spike, manipulation probable
-• ONDO [TRENDING+DOWN]: #46 −8.6% in trending — post-DTCC-rally reversal after yesterday's session high
-• AKE [PUMP-RISK]: trending #14, +47.1% (rank 514, outside top-250) — extreme pump warning
-• KAITO: −8.8% sell-news confirmed — CLARITY Act field hearing Jul 17 was peak; sell-news risk flagged yesterday
+• BANK: #1 trending + 152% 24h on $202.8M vol — rank 302, classic pump profile [PUMP-RISK]
+• PI: fresh trending entry + 10.6% today — testnet-to-mainnet narrative, 7d -4.8% suggests volatility
+• CASHCAT: +9.5% today after -41.8% Jul 17 capitulation — dead-cat bounce candidate, rank 381
+• DEXE: -4.6% today / -21.6% 7d — sustained distribution, no recovery signal

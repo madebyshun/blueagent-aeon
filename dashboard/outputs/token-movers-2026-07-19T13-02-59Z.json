@@ -1,0 +1,479 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-07-19"
+      },
+      "children": [
+        "summary-stack",
+        "sep1",
+        "winners-section",
+        "sep2",
+        "losers-section",
+        "sep3",
+        "trending-section",
+        "sep4",
+        "notable-section"
+      ]
+    },
+    "summary-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "summary-text",
+        "stats-row"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "~55% of non-stable top-100 coins green; median move near flat; broad but shallow recovery with outsized moves concentrated in low-to-mid-caps.",
+        "variant": "body"
+      }
+    },
+    "stats-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-btc",
+        "stat-eth"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "+0.4%",
+        "trend": "up"
+      }
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "+1.3%",
+        "trend": "up"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "winners-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners-heading",
+        "winners-table",
+        "bank-alert"
+      ]
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap / Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "BANK (Lorenzo Protocol)",
+            "$0.178",
+            "+151.0%",
+            "+320.4%",
+            "-0.2%",
+            "$202.8M / #302",
+            "TRENDING+UP, PUMP-RISK"
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.001648",
+            "+17.2%",
+            "n/a",
+            "+0.2%",
+            "$18.8M / #88",
+            ""
+          ],
+          [
+            "PI (Pi Network)",
+            "$0.0922",
+            "+10.6%",
+            "-4.8%",
+            "+0.9%",
+            "$16.7M / #65",
+            "TRENDING+UP"
+          ],
+          [
+            "PEPE (Pepe)",
+            "$0.00000285",
+            "+4.2%",
+            "+4.5%",
+            "+0.5%",
+            "$130.2M / #60",
+            "TRENDING+UP"
+          ],
+          [
+            "SKY (Sky)",
+            "$0.06075",
+            "+3.5%",
+            "-2.0%",
+            "+1.3%",
+            "$14.7M / #53",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "$60.93",
+            "+3.3%",
+            "-8.7%",
+            "-0.2%",
+            "$276.1M / #10",
+            "MAJOR"
+          ],
+          [
+            "LTC (Litecoin)",
+            "$47.10",
+            "+3.1%",
+            "+5.5%",
+            "+0.4%",
+            "$308.0M / #27",
+            ""
+          ],
+          [
+            "XLM (Stellar)",
+            "$0.1903",
+            "+2.8%",
+            "+2.4%",
+            "+0.9%",
+            "$115.4M / #17",
+            ""
+          ],
+          [
+            "TAO (Bittensor)",
+            "$197.38",
+            "+2.5%",
+            "-5.9%",
+            "-0.2%",
+            "$70.5M / #41",
+            ""
+          ],
+          [
+            "SUI (Sui)",
+            "$0.7510",
+            "+2.1%",
+            "+1.4%",
+            "+0.1%",
+            "$142.6M / #29",
+            ""
+          ]
+        ]
+      }
+    },
+    "bank-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "BANK Alert",
+        "message": "BANK (Lorenzo Protocol) showing classic pump profile: #1 trending with +152.4% 24h on $202.8M volume; rank 302 with PUMP-RISK tagged.",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers-heading",
+        "losers-table"
+      ]
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap / Rank",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "ADI",
+            "$6.25",
+            "-4.7%",
+            "-3.3%",
+            "+0.4%",
+            "$6.4M / #76",
+            ""
+          ],
+          [
+            "DEXE (DeXe)",
+            "$34.03",
+            "-4.6%",
+            "-21.6%",
+            "-0.7%",
+            "$44.3M / #49",
+            "Sustained distribution, no recovery signal"
+          ],
+          [
+            "MEMECORE",
+            "$1.20",
+            "-3.4%",
+            "-1.1%",
+            "-0.8%",
+            "$9.0M / #48",
+            ""
+          ],
+          [
+            "FIL (Filecoin)",
+            "$0.7256",
+            "-3.2%",
+            "-7.6%",
+            "-0.6%",
+            "$34.2M / #92",
+            ""
+          ],
+          [
+            "CRO (Cronos)",
+            "$0.05907",
+            "-3.0%",
+            "+6.2%",
+            "+0.2%",
+            "$8.9M / #33",
+            ""
+          ],
+          [
+            "GRAM",
+            "$1.44",
+            "-2.9%",
+            "-12.6%",
+            "-0.5%",
+            "$20.7M / #26",
+            ""
+          ],
+          [
+            "AVAX (Avalanche)",
+            "$6.42",
+            "-2.1%",
+            "-0.2%",
+            "-1.1%",
+            "$154.1M / #34",
+            ""
+          ],
+          [
+            "INJ (Injective)",
+            "$5.04",
+            "-1.7%",
+            "+2.9%",
+            "-0.3%",
+            "$63.0M / #102",
+            ""
+          ],
+          [
+            "ARB (Arbitrum)",
+            "$0.0887",
+            "-1.5%",
+            "-6.7%",
+            "-0.5%",
+            "$39.9M / #94",
+            ""
+          ],
+          [
+            "DOT (Polkadot)",
+            "$0.8264",
+            "-1.5%",
+            "-2.6%",
+            "-0.6%",
+            "$65.1M / #54",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending-heading",
+        "trending-table"
+      ]
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Rank",
+          "Price",
+          "24h Change",
+          "Status"
+        ],
+        "rows": [
+          [
+            "BANK (Lorenzo Protocol)",
+            "#302",
+            "$0.178",
+            "+152.4%",
+            "TRENDING+UP, PUMP-RISK"
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#118",
+            "$0.00608",
+            "+1.2%",
+            ""
+          ],
+          [
+            "PI (Pi Network)",
+            "#65",
+            "$0.0922",
+            "+10.9%",
+            "TRENDING+UP"
+          ],
+          [
+            "CASHCAT (Cash Cat)",
+            "#381",
+            "$0.0607",
+            "+9.5%",
+            ""
+          ],
+          [
+            "PEPE",
+            "#60",
+            "$0.00000285",
+            "+4.4%",
+            "TRENDING+UP"
+          ],
+          [
+            "LAB",
+            "#399",
+            "$0.172",
+            "-8.6%",
+            ""
+          ],
+          [
+            "MON (Monad)",
+            "#143",
+            "$0.0212",
+            "-1.2%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-heading",
+        "notable-bank",
+        "notable-pi",
+        "notable-cashcat",
+        "notable-dexe"
+      ]
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-bank": {
+      "type": "Text",
+      "props": {
+        "text": "BANK: #1 trending + 152% 24h on $202.8M vol — rank 302, classic pump profile [PUMP-RISK]",
+        "variant": "body"
+      }
+    },
+    "notable-pi": {
+      "type": "Text",
+      "props": {
+        "text": "PI: fresh trending entry + 10.6% today — testnet-to-mainnet narrative, 7d -4.8% suggests volatility",
+        "variant": "body"
+      }
+    },
+    "notable-cashcat": {
+      "type": "Text",
+      "props": {
+        "text": "CASHCAT: +9.5% today after -41.8% Jul 17 capitulation — dead-cat bounce candidate, rank 381",
+        "variant": "body"
+      }
+    },
+    "notable-dexe": {
+      "type": "Text",
+      "props": {
+        "text": "DEXE: -4.6% today / -21.6% 7d — sustained distribution, no recovery signal",
+        "variant": "body"
+      }
+    }
+  }
+}
