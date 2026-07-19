@@ -1,0 +1,367 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-19"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-yesterday",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "f1-title",
+        "f1-desc"
+      ]
+    },
+    "f1-title": {
+      "type": "Text",
+      "props": {
+        "text": "1. Argentina YES (Polymarket)",
+        "variant": "lead"
+      }
+    },
+    "f1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: game kicks off 3 PM ET today; edge closes at whistle",
+        "variant": "body"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "f2-title",
+        "f2-desc"
+      ]
+    },
+    "f2-title": {
+      "type": "Text",
+      "props": {
+        "text": "2. CLARITY Act combined text",
+        "variant": "lead"
+      }
+    },
+    "f2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: 19 days to Aug 7 recess; text was due last week",
+        "variant": "body"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "f3-title",
+        "f3-desc"
+      ]
+    },
+    "f3-title": {
+      "type": "Text",
+      "props": {
+        "text": "3. AI Compute/DePIN-AI FRONT-RUN",
+        "variant": "lead"
+      }
+    },
+    "f3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: fresh phase upgrade Jul 18; VVV momentum live",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-yesterday",
+        "y-item-1",
+        "y-item-2",
+        "y-item-3",
+        "y-item-4",
+        "y-item-5"
+      ]
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "y-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "y1-stat",
+        "y1-text"
+      ]
+    },
+    "y1-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "KAITO exit confirmed",
+        "value": "−8.8%",
+        "trend": "down"
+      }
+    },
+    "y1-text": {
+      "type": "Text",
+      "props": {
+        "text": "post-Jul 17 hearing; narrative demoted to FADE (call was right)",
+        "variant": "body"
+      }
+    },
+    "y-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "y2-stat",
+        "y2-text"
+      ]
+    },
+    "y2-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ONDO",
+        "value": "−8.6%",
+        "trend": "down"
+      }
+    },
+    "y2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sell-news post-DTCC launch; structural DTC entitlement thesis intact, don't chase the token",
+        "variant": "body"
+      }
+    },
+    "y-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "y3-text",
+        "y3-badge"
+      ]
+    },
+    "y3-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN-AI: Emerging → Rising FRONT-RUN (Compute Summit Incheon + VVV Dragonfly $65M corroboration)",
+        "variant": "body"
+      }
+    },
+    "y3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "y-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "y4-text",
+        "y4-badge"
+      ]
+    },
+    "y4-text": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain: demoted RIDE → WATCH — week-3 volume stagnating",
+        "variant": "body"
+      }
+    },
+    "y4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "y-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers SR 0.79 (below 0.8 threshold; not breaking — last success Jul 18, consecutive_failures=0)",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "w-item-1"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "w-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act text overdue — expected \"next week\" per Jul 9 reports, still not dropped; three disputes (ethics, Sec. 604, 7 Dem votes) still open — any Senate signal today updates Focus #2",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "running-stack"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r-item-1",
+        "r-item-2",
+        "r-item-3",
+        "r-item-4",
+        "r-item-5"
+      ]
+    },
+    "r-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 UTC",
+        "variant": "body"
+      }
+    },
+    "r-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "r-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "r-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "r-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
