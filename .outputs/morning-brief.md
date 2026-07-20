@@ -1,22 +1,22 @@
-*Morning Brief — 2026-07-19*
+*Morning Brief — 2026-07-20*
 
 *Focus today*
-1. Argentina YES (Polymarket) — why now: game kicks off 3 PM ET today; edge closes at whistle
-2. CLARITY Act combined text — why now: 19 days to Aug 7 recess; text was due last week
-3. AI Compute/DePIN-AI FRONT-RUN — why now: fresh phase upgrade Jul 18; VVV momentum live
+1. CLARITY Act — why now: 18 days to Aug 7 recess; Polymarket at record-low 32%
+2. AI Compute/DePIN-AI FRONT-RUN — why now: entry window open; narrative-tracker confirms at 13:30 UTC
+3. x402/Base agentic payments — why now: Jesse Pollak confirms AI+payments as Base's 2026 strategy
 
 *Since yesterday*
-- KAITO exit confirmed: −8.8% post-Jul 17 hearing; narrative demoted to FADE (call was right)
-- ONDO −8.6% sell-news post-DTCC launch; structural DTC entitlement thesis intact, don't chase the token
-- AI Compute/DePIN-AI: Emerging → Rising FRONT-RUN (Compute Summit Incheon + VVV Dragonfly $65M corroboration)
-- Robinhood Chain: demoted RIDE → WATCH — week-3 volume stagnating
-- token-movers SR 0.79 (below 0.8 threshold; not breaking — last success Jul 18, consecutive_failures=0)
+- Argentina Polymarket resolves today — Jul 19 edge play closes; position outcome known at whistle
+- BANK pump (Jul 19 +151%) — reflexivity exit window is today; watch for price collapse
+- CLARITY Act Polymarket: 43% → 32% (record low Jul 17); combined text still not dropped, 11 days overdue
+- narrative-tracker: PEPE ETF added (Emerging ↑ WATCH); Kaito demoted (Fading ↓↓); Hyperliquid approaching Dead (Aug 6 unlock)
+- Security: quiet — 3 monitor-tier CVEs only, 0 critical, 0 new KEV
 
 *Watch*
-- CLARITY Act text overdue — expected "next week" per Jul 9 reports, still not dropped; three disputes (ethics, Sec. 604, 7 Dem votes) still open — any Senate signal today updates Focus #2
+- Pollak's Base 2026 pivot (AI + payments official) — corroborates Focus #3; BLUEAGENT agentic stack now has explicit strategic anchor from Base founder
 
 *Running today*
-- heartbeat @ 08:00 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
