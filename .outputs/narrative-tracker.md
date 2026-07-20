@@ -1,21 +1,34 @@
-Done. Here's what was executed:
+*Narrative Tracker — 2026-07-20*
 
-## Summary
+TRANSITIONS
+• NEW: US-Iran Geopolitical Risk (Emerging ↑) — Trump port blockade → oil +5%; market treating this as primary macro overhang alongside CLARITY Act; inflation angle = Fed cuts further off table
+• CLARITY TIMELINE PROMOTED / ODDS DEMOTED — Merged Senate draft (Banking+Agriculture) released; floor vote targeted this week. BUT text omits Dem ethics ask; Polymarket 32% record low (↓ from 43% Jul 19). Ethics amendment = re-upgrade to RIDE; floor failure = compression to 20s
+• x402/Base REINFORCED — Jesse Pollak confirms AI+payments as Base 2026 strategy; 2.3M agentic wallets; RIDE intact
+• AI Compute CONFIRMED — cognee (graph AI memory, 28.6k★) + ktransformers (heterogeneous inference) on GitHub trending today; VVV Dragonfly thesis intact; FRONT-RUN holds
+• Privacy/ZK FADE RISK — ZEC −3.9% today, 8 days before Ironwood Jul 28; MiCA + SEC + India FIU pushing exchange delistings; catalyst window narrowing while structural headwinds grow
+• Hyperliquid TERMINAL — Aug 6: 9.92M HYPE (~$597M) to Core Contributors confirmed; stacks on Jul 17 a16z $28M distribution
+• Kaito/InfoFi STRUCTURAL DEAD — Yapper Leaderboard shut down Jan 2026 (X revoked API); original InfoFi loop broken permanently
 
-**Skill:** `narrative-tracker` — 2026-07-19
+REFLEXIVITY ALERT
+• CLARITY Act Polymarket: 32% record low compressing daily. Floor vote this week = vol event either direction. Ethics amendment = instant RIDE. Pure event vol, no directional conviction.
+• PUMP token: $86.49M Jul 15 insider unlock absorbed bullishly (+17.4% today, +30.5% 7d); 42% supply burned; $30-40M/month platform revenue. Narrative belief sustaining against structural selling. Watch secondary unlocks.
 
-**Cache:** `NARRATIVE_CACHE_MISS` (XAI 403, tenth consecutive day) — fell back to WebSearch with three queries: broad crypto sentiment, AI×crypto trend, Kaito mindshare. Added three supplementary targeted searches (CLARITY Act status, BTC price, BANK pump).
+POSITIONS
+• FRONT-RUN: AI Compute/DePIN-AI (3 ↑↑, Bull) — @akashnet, io.net, VVV Dragonfly; cognee/ktransformers infra — bear: token→adoption gap
+• FRONT-RUN: Tokenized Equities/DTCC (3 →, Mixed) — DTCC live, 50+ firms; ignore ONDO price — bear: SEC controls rails
+• RIDE: AI Agent Economy (5 ↑, Bull) — $25B+ sector, $FET, @virtuals_io — bear: $45M H1 vuln losses unpriced
+• RIDE: x402/Base (4 ↑, Bull) — Jesse Pollak confirmed + 2.3M wallets — bear: BNB also live
+• RIDE: AI Agent Security/TEE (4 ↑, Bull) — Ledger Agent Stack, $45M H1 losses = demand signal
+• WATCH: CLARITY Act (4 →, Mixed) — floor vote this week; upgrade to RIDE if ethics amendment added
+• WATCH: Privacy/ZK (2 →, Mixed) — Ironwood 8 days; downgrade to FADE if delistings accelerate pre-event
+• WATCH: US-Iran Risk (2 ↑) — macro inflation; monitor for contagion to crypto risk-on sentiment
+• FADE: Kaito/InfoFi (2 ↓↓) — structural; Yapper loop broken permanently
+• FADE: Hyperliquid (2 ↓↓) — Aug 6 terminal unlock
+• FADE: Fed Pivot (2 ↓) — US-Iran oil confirms inflation; rate cuts off table
+• FADE: RWA Tokenization broad (2 ↓) — wave priced; private credit sub-theme not enough
 
-**Key transitions vs Jul 18:**
-
-- **DEMOTED (position):** CLARITY Act `RIDE → WATCH` — combined Senate text still not dropped (10 days past the "next week" Jul 9 promise); 19 days to Aug 7 recess; prediction markets compressed to 43%; no floor vote, no cloture filed.
-- **DEMOTED further:** Kaito/InfoFi `↓ → ↓↓`, mindshare 3→2 — attention loop dead post-Jul 17 hearing silence.
-- **NEW:** PEPE ETF / Alt-ETF Wave (Emerging ↑ WATCH) — Canary Capital S-1 filed Apr 2026; 240-day SEC clock.
-- **APPROACHING DEAD:** Hyperliquid — Aug 6 unlock now 18 days out.
-- **CONFIRMED FRONT-RUN:** AI Compute/DePIN-AI — morning-brief + institutional $FET inflows corroborate entry window open post-Compute Summit Incheon.
-
-**Reflexivity alert:** BANK +151%/7d+320% (rank 302, $202.8M vol > market cap) — coordinated pump, no fundamentals.
-
-**Files modified:**
-- `.pending-notify/1753014000.md` — notification queued for post-run delivery
-- `memory/logs/2026-07-19.md` — `### narrative-tracker` section appended with full structured output
+MAP
+Emerging: US-Iran Risk, PEPE ETF Wave, Lean Ethereum
+Rising: CLARITY Act, x402/Base, AI Agent Security, AI Compute/DePIN-AI, Tokenized Equities, BNB Chain
+Peak: AI Agent Economy, Robinhood Chain
+Fading: Fed Pivot, Kaito/InfoFi, Hyperliquid, RWA Broad

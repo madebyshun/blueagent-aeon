@@ -1,0 +1,760 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-20"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "transitions_section",
+        "sep1",
+        "reflexivity_section",
+        "sep2",
+        "positions_section",
+        "sep3",
+        "map_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans_heading",
+        "trans_1",
+        "trans_2",
+        "trans_3",
+        "trans_4",
+        "trans_5",
+        "trans_6",
+        "trans_7"
+      ]
+    },
+    "trans_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans_1": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: US-Iran Geopolitical Risk (Emerging ↑) — Trump port blockade → oil +5%; market treating this as primary macro overhang alongside CLARITY Act; inflation angle = Fed cuts further off table"
+      }
+    },
+    "trans_2": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY TIMELINE PROMOTED / ODDS DEMOTED — Merged Senate draft (Banking+Agriculture) released; floor vote targeted this week. BUT text omits Dem ethics ask; Polymarket 32% record low (↓ from 43% Jul 19). Ethics amendment = re-upgrade to RIDE; floor failure = compression to 20s"
+      }
+    },
+    "trans_3": {
+      "type": "Text",
+      "props": {
+        "text": "x402/Base REINFORCED — Jesse Pollak confirms AI+payments as Base 2026 strategy; 2.3M agentic wallets; RIDE intact"
+      }
+    },
+    "trans_4": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute CONFIRMED — cognee (graph AI memory, 28.6k★) + ktransformers (heterogeneous inference) on GitHub trending today; VVV Dragonfly thesis intact; FRONT-RUN holds"
+      }
+    },
+    "trans_5": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZK FADE RISK — ZEC −3.9% today, 8 days before Ironwood Jul 28; MiCA + SEC + India FIU pushing exchange delistings; catalyst window narrowing while structural headwinds grow"
+      }
+    },
+    "trans_6": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid TERMINAL — Aug 6: 9.92M HYPE (~$597M) to Core Contributors confirmed; stacks on Jul 17 a16z $28M distribution"
+      }
+    },
+    "trans_7": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito/InfoFi STRUCTURAL DEAD — Yapper Leaderboard shut down Jan 2026 (X revoked API); original InfoFi loop broken permanently"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "refl_heading",
+        "refl_1",
+        "refl_2"
+      ]
+    },
+    "refl_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "refl_1": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act Polymarket: 32% record low compressing daily. Floor vote this week = vol event either direction. Ethics amendment = instant RIDE. Pure event vol, no directional conviction."
+      }
+    },
+    "refl_2": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP token: $86.49M Jul 15 insider unlock absorbed bullishly (+17.4% today, +30.5% 7d); 42% supply burned; $30-40M/month platform revenue. Narrative belief sustaining against structural selling. Watch secondary unlocks."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_heading",
+        "pos_1",
+        "pos_2",
+        "pos_3",
+        "pos_4",
+        "pos_5",
+        "pos_6",
+        "pos_7",
+        "pos_8",
+        "pos_9",
+        "pos_10",
+        "pos_11",
+        "pos_12"
+      ]
+    },
+    "pos_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_1_badge",
+        "pos_1_title",
+        "pos_1_assets",
+        "pos_1_bear"
+      ]
+    },
+    "pos_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN"
+      }
+    },
+    "pos_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN-AI (3 ↑↑, Bull)"
+      }
+    },
+    "pos_1_assets": {
+      "type": "Text",
+      "props": {
+        "text": "@akashnet, io.net, VVV Dragonfly; cognee/ktransformers infra",
+        "variant": "body"
+      }
+    },
+    "pos_1_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: token→adoption gap",
+        "variant": "caption"
+      }
+    },
+    "pos_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_2_badge",
+        "pos_2_title",
+        "pos_2_assets",
+        "pos_2_bear"
+      ]
+    },
+    "pos_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN"
+      }
+    },
+    "pos_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "Tokenized Equities/DTCC (3 →, Mixed)"
+      }
+    },
+    "pos_2_assets": {
+      "type": "Text",
+      "props": {
+        "text": "DTCC live, 50+ firms; ignore ONDO price",
+        "variant": "body"
+      }
+    },
+    "pos_2_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: SEC controls rails",
+        "variant": "caption"
+      }
+    },
+    "pos_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_3_badge",
+        "pos_3_title",
+        "pos_3_assets",
+        "pos_3_bear"
+      ]
+    },
+    "pos_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE"
+      }
+    },
+    "pos_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy (5 ↑, Bull)"
+      }
+    },
+    "pos_3_assets": {
+      "type": "Text",
+      "props": {
+        "text": "$25B+ sector, $FET, @virtuals_io",
+        "variant": "body"
+      }
+    },
+    "pos_3_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: $45M H1 vuln losses unpriced",
+        "variant": "caption"
+      }
+    },
+    "pos_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_4_badge",
+        "pos_4_title",
+        "pos_4_assets",
+        "pos_4_bear"
+      ]
+    },
+    "pos_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE"
+      }
+    },
+    "pos_4_title": {
+      "type": "Text",
+      "props": {
+        "text": "x402/Base (4 ↑, Bull)"
+      }
+    },
+    "pos_4_assets": {
+      "type": "Text",
+      "props": {
+        "text": "Jesse Pollak confirmed + 2.3M wallets",
+        "variant": "body"
+      }
+    },
+    "pos_4_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: BNB also live",
+        "variant": "caption"
+      }
+    },
+    "pos_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_5_badge",
+        "pos_5_title",
+        "pos_5_assets",
+        "pos_5_bear"
+      ]
+    },
+    "pos_5_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE"
+      }
+    },
+    "pos_5_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Security/TEE (4 ↑, Bull)"
+      }
+    },
+    "pos_5_assets": {
+      "type": "Text",
+      "props": {
+        "text": "Ledger Agent Stack, $45M H1 losses = demand signal",
+        "variant": "body"
+      }
+    },
+    "pos_5_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: (no specific bear case listed)",
+        "variant": "caption"
+      }
+    },
+    "pos_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_6_badge",
+        "pos_6_title",
+        "pos_6_assets",
+        "pos_6_bear"
+      ]
+    },
+    "pos_6_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH"
+      }
+    },
+    "pos_6_title": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act (4 →, Mixed)"
+      }
+    },
+    "pos_6_assets": {
+      "type": "Text",
+      "props": {
+        "text": "floor vote this week; upgrade to RIDE if ethics amendment added",
+        "variant": "body"
+      }
+    },
+    "pos_6_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: (event dependent)",
+        "variant": "caption"
+      }
+    },
+    "pos_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_7_badge",
+        "pos_7_title",
+        "pos_7_assets",
+        "pos_7_bear"
+      ]
+    },
+    "pos_7_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH"
+      }
+    },
+    "pos_7_title": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZK (2 →, Mixed)"
+      }
+    },
+    "pos_7_assets": {
+      "type": "Text",
+      "props": {
+        "text": "Ironwood 8 days; downgrade to FADE if delistings accelerate pre-event",
+        "variant": "body"
+      }
+    },
+    "pos_7_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: (structural headwinds)",
+        "variant": "caption"
+      }
+    },
+    "pos_8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_8_badge",
+        "pos_8_title",
+        "pos_8_assets",
+        "pos_8_bear"
+      ]
+    },
+    "pos_8_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH"
+      }
+    },
+    "pos_8_title": {
+      "type": "Text",
+      "props": {
+        "text": "US-Iran Risk (2 ↑)"
+      }
+    },
+    "pos_8_assets": {
+      "type": "Text",
+      "props": {
+        "text": "macro inflation; monitor for contagion to crypto risk-on sentiment",
+        "variant": "body"
+      }
+    },
+    "pos_8_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: (emerging risk)",
+        "variant": "caption"
+      }
+    },
+    "pos_9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_9_badge",
+        "pos_9_title",
+        "pos_9_assets",
+        "pos_9_bear"
+      ]
+    },
+    "pos_9_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE"
+      }
+    },
+    "pos_9_title": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito/InfoFi (2 ↓↓)"
+      }
+    },
+    "pos_9_assets": {
+      "type": "Text",
+      "props": {
+        "text": "structural; Yapper loop broken permanently",
+        "variant": "body"
+      }
+    },
+    "pos_9_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: (fundamentally terminal)",
+        "variant": "caption"
+      }
+    },
+    "pos_10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_10_badge",
+        "pos_10_title",
+        "pos_10_assets",
+        "pos_10_bear"
+      ]
+    },
+    "pos_10_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE"
+      }
+    },
+    "pos_10_title": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid (2 ↓↓)"
+      }
+    },
+    "pos_10_assets": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 6 terminal unlock",
+        "variant": "body"
+      }
+    },
+    "pos_10_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: (9.92M HYPE ~$597M distribution)",
+        "variant": "caption"
+      }
+    },
+    "pos_11": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_11_badge",
+        "pos_11_title",
+        "pos_11_assets",
+        "pos_11_bear"
+      ]
+    },
+    "pos_11_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE"
+      }
+    },
+    "pos_11_title": {
+      "type": "Text",
+      "props": {
+        "text": "Fed Pivot (2 ↓)"
+      }
+    },
+    "pos_11_assets": {
+      "type": "Text",
+      "props": {
+        "text": "US-Iran oil confirms inflation; rate cuts off table",
+        "variant": "body"
+      }
+    },
+    "pos_11_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: (macro headwind)",
+        "variant": "caption"
+      }
+    },
+    "pos_12": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_12_badge",
+        "pos_12_title",
+        "pos_12_assets",
+        "pos_12_bear"
+      ]
+    },
+    "pos_12_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE"
+      }
+    },
+    "pos_12_title": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization broad (2 ↓)"
+      }
+    },
+    "pos_12_assets": {
+      "type": "Text",
+      "props": {
+        "text": "wave priced; private credit sub-theme not enough",
+        "variant": "body"
+      }
+    },
+    "pos_12_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: (sector consolidation)",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_heading",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerg_h",
+        "map_emerg_t"
+      ]
+    },
+    "map_emerg_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      }
+    },
+    "map_emerg_t": {
+      "type": "Text",
+      "props": {
+        "text": "US-Iran Risk, PEPE ETF Wave, Lean Ethereum"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_h",
+        "map_rising_t"
+      ]
+    },
+    "map_rising_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      }
+    },
+    "map_rising_t": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act, x402/Base, AI Agent Security, AI Compute/DePIN-AI, Tokenized Equities, BNB Chain"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_h",
+        "map_peak_t"
+      ]
+    },
+    "map_peak_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      }
+    },
+    "map_peak_t": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy, Robinhood Chain"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_h",
+        "map_fading_t"
+      ]
+    },
+    "map_fading_h": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      }
+    },
+    "map_fading_t": {
+      "type": "Text",
+      "props": {
+        "text": "Fed Pivot, Kaito/InfoFi, Hyperliquid, RWA Broad"
+      }
+    }
+  }
+}
