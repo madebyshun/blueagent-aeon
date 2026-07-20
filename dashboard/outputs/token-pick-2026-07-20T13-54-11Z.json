@@ -1,0 +1,355 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-20"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_token",
+        "sep1",
+        "section_market"
+      ]
+    },
+    "section_token": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_token",
+        "token_header",
+        "token_price",
+        "token_mcap_vol",
+        "token_score_heading",
+        "token_score",
+        "token_catalyst_heading",
+        "token_catalyst",
+        "token_risk_heading",
+        "token_risk",
+        "token_recent"
+      ]
+    },
+    "heading_token": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: PUMP",
+        "level": "h2"
+      }
+    },
+    "token_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_signal",
+        "badge_high"
+      ]
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "Signal 10/10",
+        "variant": "default"
+      }
+    },
+    "badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "token_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.00194",
+        "delta": "+17.4% 24h / +30.5% 7d",
+        "trend": "up"
+      }
+    },
+    "token_mcap_vol": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_mcap",
+        "stat_volume",
+        "stat_vol_mcap"
+      ]
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$777M"
+      }
+    },
+    "stat_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$173M"
+      }
+    },
+    "stat_vol_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap",
+        "value": "0.22"
+      }
+    },
+    "token_score_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h4"
+      }
+    },
+    "token_score": {
+      "type": "Text",
+      "props": {
+        "text": "trending +2, vol/mcap ≥ 0.20 +3, RS vs BTC/ETH +2, both > 5% +2, 24h > 0 +1, 7d > 0 +1 = 11 → cap 10/10",
+        "variant": "body"
+      }
+    },
+    "token_catalyst_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "token_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Ansem post citing Pump.fun $30-40M/month platform revenue in a bear market; Jul 15 $86.49M insider unlock absorbed bullishly with no sustained selloff + 42% supply burned via protocol buybacks",
+        "variant": "body"
+      }
+    },
+    "token_risk_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      }
+    },
+    "token_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Social-media-driven component",
+        "message": "Ansem influence can reverse fast; secondary unlock events still pending",
+        "type": "warning"
+      }
+    },
+    "token_recent": {
+      "type": "Text",
+      "props": {
+        "text": "First time in 7-day window",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_market",
+        "market_header",
+        "market_question",
+        "market_odds",
+        "market_volume_resolution",
+        "market_fair_heading",
+        "market_fair_stack",
+        "market_thesis_heading",
+        "market_thesis",
+        "market_risk_heading",
+        "market_risk",
+        "market_sources"
+      ]
+    },
+    "heading_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market",
+        "level": "h2"
+      }
+    },
+    "market_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_edge",
+        "badge_high_market"
+      ]
+    },
+    "badge_edge": {
+      "type": "Badge",
+      "props": {
+        "text": "Edge 11.5pp",
+        "variant": "default"
+      }
+    },
+    "badge_high_market": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "market_question": {
+      "type": "Text",
+      "props": {
+        "text": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+        "variant": "lead"
+      }
+    },
+    "market_odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_yes_odds",
+        "stat_no_odds"
+      ]
+    },
+    "stat_yes_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "6.45¢"
+      }
+    },
+    "stat_no_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "93.55¢"
+      }
+    },
+    "market_volume_resolution": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_vol_24h",
+        "stat_resolution"
+      ]
+    },
+    "stat_vol_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$583k"
+      }
+    },
+    "stat_resolution": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "2026-07-29"
+      }
+    },
+    "market_fair_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair YES",
+        "level": "h4"
+      }
+    },
+    "market_fair_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_fair_value",
+        "market_fair_inputs"
+      ]
+    },
+    "market_fair_value": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES Estimate",
+        "value": "~18%"
+      }
+    },
+    "market_fair_inputs": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: CME FedWatch 21.9% hike probability; Trump Iran port blockade → US oil +5% = inflationary pressure; 9/18 FOMC officials penciled in ≥1 hike for 2026; annual CPI 3.5% vs 2% target",
+        "variant": "caption"
+      }
+    },
+    "market_thesis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      }
+    },
+    "market_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket pricing hike at 6.45% vs CME 21.9% — ~15pp gap; buy YES at 6.45¢ with defined downside",
+        "variant": "body"
+      }
+    },
+    "market_risk_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      }
+    },
+    "market_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Market risks",
+        "message": "Fresh macro data could shift expectations toward hold; CME and Polymarket may track different instruments; Trump could soften Iran stance",
+        "type": "warning"
+      }
+    },
+    "market_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok | not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
