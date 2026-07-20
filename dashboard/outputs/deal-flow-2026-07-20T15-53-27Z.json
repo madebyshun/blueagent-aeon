@@ -1,0 +1,609 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Deal Flow",
+        "description": "2026-07-20"
+      },
+      "children": [
+        "read_section",
+        "separator1",
+        "deals_stack",
+        "separator2",
+        "sources_text"
+      ]
+    },
+    "read_section": {
+      "type": "Text",
+      "props": {
+        "text": "Smart money converged on AI inference plumbing this week — specialized models over foundation models (Fireworks, $17.5B), agentic identity as the next infra gap (Oak), Citadel accumulating regulated crypto venues (Crypto.com after Kraken), and local-model infrastructure (Ollama); while health scanning (Neko, $700M) and factory robots (Walden) show physical AI absorbing capital at the same institutional conviction.",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deals_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "deal_1",
+        "deal_2",
+        "deal_3",
+        "deal_4",
+        "deal_5",
+        "deal_6",
+        "deal_7",
+        "deal_8"
+      ]
+    },
+    "deal_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal_1_title",
+        "deal_1_desc",
+        "deal_1_funding",
+        "deal_1_leads",
+        "deal_1_why"
+      ]
+    },
+    "deal_1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Fireworks AI",
+        "level": "h3"
+      }
+    },
+    "deal_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Enterprise AI inference for specialized model deployment"
+      }
+    },
+    "deal_1_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Series D",
+        "value": "$1,505M @ $17.5B"
+      }
+    },
+    "deal_1_leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_1_1",
+        "badge_1_2",
+        "badge_1_3",
+        "badge_1_4"
+      ]
+    },
+    "badge_1_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Atreides",
+        "variant": "secondary"
+      }
+    },
+    "badge_1_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Index",
+        "variant": "secondary"
+      }
+    },
+    "badge_1_3": {
+      "type": "Badge",
+      "props": {
+        "text": "TCV",
+        "variant": "secondary"
+      }
+    },
+    "badge_1_4": {
+      "type": "Badge",
+      "props": {
+        "text": "NVIDIA",
+        "variant": "secondary"
+      }
+    },
+    "deal_1_why": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "$1B ARR on specialized-model inference — not foundation model access — names the infra layer that actually runs the agent economy."
+      }
+    },
+    "deal_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal_2_title",
+        "deal_2_desc",
+        "deal_2_funding",
+        "deal_2_leads",
+        "deal_2_why"
+      ]
+    },
+    "deal_2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Oak",
+        "level": "h3"
+      }
+    },
+    "deal_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI-native IAM that removes excess permissions in real time"
+      }
+    },
+    "deal_2_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Seed",
+        "value": "$60M @ n/d"
+      }
+    },
+    "deal_2_leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_2_1",
+        "badge_2_2",
+        "badge_2_3"
+      ]
+    },
+    "badge_2_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Greylock",
+        "variant": "secondary"
+      }
+    },
+    "badge_2_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Accel",
+        "variant": "secondary"
+      }
+    },
+    "badge_2_3": {
+      "type": "Badge",
+      "props": {
+        "text": "CRV",
+        "variant": "secondary"
+      }
+    },
+    "deal_2_why": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Greylock+Accel co-leading a $60M seed names agentic identity as infrastructure; no legacy IAM was built for agent workloads."
+      }
+    },
+    "deal_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal_3_title",
+        "deal_3_desc",
+        "deal_3_funding",
+        "deal_3_leads",
+        "deal_3_why"
+      ]
+    },
+    "deal_3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto.com",
+        "level": "h3"
+      }
+    },
+    "deal_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Regulated CEX expanding into tokenized securities and prediction markets"
+      }
+    },
+    "deal_3_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Strategic",
+        "value": "$400M @ $20B"
+      }
+    },
+    "deal_3_leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_3_1"
+      ]
+    },
+    "badge_3_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Citadel Securities",
+        "variant": "secondary"
+      }
+    },
+    "deal_3_why": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Citadel's second venue bet at $20B — matching its Kraken valuation — signals systematic institutional accumulation of regulated crypto exchange infrastructure."
+      }
+    },
+    "deal_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal_4_title",
+        "deal_4_desc",
+        "deal_4_funding",
+        "deal_4_leads",
+        "deal_4_why"
+      ]
+    },
+    "deal_4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Neko Health",
+        "level": "h3"
+      }
+    },
+    "deal_4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Non-invasive 60-min full-body scan platform (Daniel Ek)"
+      }
+    },
+    "deal_4_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Series C",
+        "value": "$700M @ ~$7B",
+        "delta": "+312%",
+        "trend": "up"
+      }
+    },
+    "deal_4_leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_4_1",
+        "badge_4_2"
+      ]
+    },
+    "badge_4_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Lightspeed",
+        "variant": "secondary"
+      }
+    },
+    "badge_4_2": {
+      "type": "Badge",
+      "props": {
+        "text": "O.G. Venture Partners",
+        "variant": "secondary"
+      }
+    },
+    "deal_4_why": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "A 4× step-up in 18 months on physical clinics signals AI diagnostics crossed the unit-economics threshold — investors are pricing growth, not hypothesis."
+      }
+    },
+    "deal_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal_5_title",
+        "deal_5_desc",
+        "deal_5_funding",
+        "deal_5_leads",
+        "deal_5_why"
+      ]
+    },
+    "deal_5_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Ollama",
+        "level": "h3"
+      }
+    },
+    "deal_5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Local open-model runtime; one command to run any open-weight LLM"
+      }
+    },
+    "deal_5_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Series B",
+        "value": "$65M @ n/d"
+      }
+    },
+    "deal_5_leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_5_1",
+        "badge_5_2"
+      ]
+    },
+    "badge_5_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Theory Ventures",
+        "variant": "secondary"
+      }
+    },
+    "badge_5_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Benchmark",
+        "variant": "secondary"
+      }
+    },
+    "deal_5_why": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Benchmark entering at 8.9M devs and 85% F500 adoption names Ollama the default enterprise layer for open-model control over cloud dependency."
+      }
+    },
+    "deal_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal_6_title",
+        "deal_6_desc",
+        "deal_6_funding",
+        "deal_6_leads",
+        "deal_6_why"
+      ]
+    },
+    "deal_6_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Walden Robotics",
+        "level": "h3"
+      }
+    },
+    "deal_6_desc": {
+      "type": "Text",
+      "props": {
+        "text": "General-purpose robots deployed in Toyota factory since Feb 2026 (new company)"
+      }
+    },
+    "deal_6_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Series A",
+        "value": "$300M @ $1.1B"
+      }
+    },
+    "deal_6_leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_6_1",
+        "badge_6_2"
+      ]
+    },
+    "badge_6_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Toyota",
+        "variant": "secondary"
+      }
+    },
+    "badge_6_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Deviation Capital",
+        "variant": "secondary"
+      }
+    },
+    "deal_6_why": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Toyota deploying its own robots in its own factory two months post-founding — OEM validates with skin in the game, not a pilot check."
+      }
+    },
+    "deal_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal_7_title",
+        "deal_7_desc",
+        "deal_7_funding",
+        "deal_7_leads",
+        "deal_7_why"
+      ]
+    },
+    "deal_7_title": {
+      "type": "Heading",
+      "props": {
+        "text": "State Affairs",
+        "level": "h3"
+      }
+    },
+    "deal_7_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI policy intelligence tracking every bill across all 50 states"
+      }
+    },
+    "deal_7_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$70M @ n/d"
+      }
+    },
+    "deal_7_leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_7_1",
+        "badge_7_2"
+      ]
+    },
+    "badge_7_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Founders Fund",
+        "variant": "secondary"
+      }
+    },
+    "badge_7_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Khosla Ventures",
+        "variant": "secondary"
+      }
+    },
+    "deal_7_why": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Founders Fund + Khosla into policy AI during CLARITY Act's decisive week names regulatory navigation as an enterprise infrastructure category."
+      }
+    },
+    "deal_8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deal_8_title",
+        "deal_8_desc",
+        "deal_8_funding",
+        "deal_8_leads",
+        "deal_8_why"
+      ]
+    },
+    "deal_8_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Chai Discovery",
+        "level": "h3"
+      }
+    },
+    "deal_8_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI-native protein structure and drug binding prediction"
+      }
+    },
+    "deal_8_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Series C",
+        "value": "$400M @ $3.8B"
+      }
+    },
+    "deal_8_leads": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_8_1",
+        "badge_8_2"
+      ]
+    },
+    "badge_8_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Index Ventures",
+        "variant": "secondary"
+      }
+    },
+    "badge_8_2": {
+      "type": "Badge",
+      "props": {
+        "text": "OpenAI (co-investing)",
+        "variant": "secondary"
+      }
+    },
+    "deal_8_why": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "OpenAI co-investing in biology — not a model company — signals AI labs moving from horizontal infrastructure into vertical science domains."
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: crunchbase=ok, techcrunch=ok, cryptorank=fail, aift=fail | candidates=~30 → kept=8",
+        "variant": "caption"
+      }
+    }
+  }
+}
