@@ -1,0 +1,366 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-07-20",
+        "description": "3 KEV overdue (infrastructure), 3 to schedule, 1 to monitor"
+      },
+      "children": [
+        "text-verdict",
+        "sep-1",
+        "heading-patch-today",
+        "stack-patch-today",
+        "sep-2",
+        "heading-patch-week",
+        "stack-patch-week",
+        "sep-3",
+        "heading-monitor",
+        "stack-monitor"
+      ]
+    },
+    "text-verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 3 KEV overdue (infrastructure), 3 to schedule, 1 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-patch-today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "stack-patch-today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item-39808",
+        "item-25089",
+        "item-8128"
+      ]
+    },
+    "item-39808": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "storylink-39808",
+        "text-desc-39808",
+        "alert-39808"
+      ]
+    },
+    "storylink-39808": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-39808 — Fortinet FortiSandbox",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "KEV 2026-07-16 · EPSS 0.842 · CVSS —"
+      }
+    },
+    "text-desc-39808": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth OS command injection via crafted HTTP. Highest active exploitation probability of the week.",
+        "variant": "body"
+      }
+    },
+    "alert-39808": {
+      "type": "Alert",
+      "props": {
+        "message": "Apply FortiSandbox vendor mitigations per BOD 26-04 today; discontinue if unavailable.",
+        "type": "warning"
+      }
+    },
+    "item-25089": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "storylink-25089",
+        "text-desc-25089",
+        "alert-25089"
+      ]
+    },
+    "storylink-25089": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-25089 — Fortinet FortiSandbox",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "KEV 2026-07-16 · EPSS 0.361 · CVSS —"
+      }
+    },
+    "text-desc-25089": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth arbitrary command execution. Same product and attack surface as CVE-2026-39808.",
+        "variant": "body"
+      }
+    },
+    "alert-25089": {
+      "type": "Alert",
+      "props": {
+        "message": "Apply FortiSandbox vendor mitigations per BOD 26-04 today; discontinue if unavailable.",
+        "type": "warning"
+      }
+    },
+    "item-8128": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "storylink-8128",
+        "text-desc-8128",
+        "alert-8128"
+      ]
+    },
+    "storylink-8128": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2008-4128 — Cisco IOS",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "KEV 2026-07-13 · EPSS 0.239 · CVSS —"
+      }
+    },
+    "text-desc-8128": {
+      "type": "Text",
+      "props": {
+        "text": "CSRF via HTTP interface enables remote command execution. All three KEV due dates overdue.",
+        "variant": "body"
+      }
+    },
+    "alert-8128": {
+      "type": "Alert",
+      "props": {
+        "message": "Apply Cisco IOS patch; disable HTTP server or restrict admin access per BOD 26-04.",
+        "type": "warning"
+      }
+    },
+    "heading-patch-week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "stack-patch-week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item-53713",
+        "item-52833",
+        "item-mcp"
+      ]
+    },
+    "item-53713": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "storylink-53713",
+        "text-desc-53713",
+        "alert-53713"
+      ]
+    },
+    "storylink-53713": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-53713 / GHSA-wcrf-9vrr-854f — envoy-gateway",
+        "href": "https://github.com/advisories/GHSA-wcrf-9vrr-854f",
+        "source": "Go · CVSS 9.1 · EPSS n/a"
+      }
+    },
+    "text-desc-53713": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass via improper Lua validation in EnvoyExtensionPolicy — allows secret disclosure.",
+        "variant": "body"
+      }
+    },
+    "alert-53713": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade envoy-gateway to ≥1.7.4 (1.7.x) or ≥1.8.1 (1.8.x) and redeploy",
+        "type": "info"
+      }
+    },
+    "item-52833": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "storylink-52833",
+        "text-desc-52833",
+        "alert-52833"
+      ]
+    },
+    "storylink-52833": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-52833 / GHSA-3v79-m2cg-89ww — nuclio",
+        "href": "https://github.com/advisories/GHSA-3v79-m2cg-89ww",
+        "source": "Go · CVSS 8.0 · EPSS n/a"
+      }
+    },
+    "text-desc-52833": {
+      "type": "Text",
+      "props": {
+        "text": "Unsanitized runtimeAttributes.repositories injected into Groovy build.gradle → build-time RCE.",
+        "variant": "body"
+      }
+    },
+    "alert-52833": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade nuclio to ≥1.16.5 and redeploy",
+        "type": "info"
+      }
+    },
+    "item-mcp": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-mcp-header",
+        "link-vj7q",
+        "link-jpw9",
+        "link-hvrp",
+        "text-desc-mcp",
+        "alert-mcp"
+      ]
+    },
+    "text-mcp-header": {
+      "type": "Text",
+      "props": {
+        "text": "Three high CVEs in mcp Python SDK (pip) — CVSS 7.1–7.6 · EPSS n/a",
+        "variant": "lead"
+      }
+    },
+    "link-vj7q": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-vj7q-gjh5-988w",
+        "href": "https://github.com/advisories/GHSA-vj7q-gjh5-988w"
+      }
+    },
+    "link-jpw9": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-jpw9-pfvf-9f58",
+        "href": "https://github.com/advisories/GHSA-jpw9-pfvf-9f58"
+      }
+    },
+    "link-hvrp": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-hvrp-rf83-w775",
+        "href": "https://github.com/advisories/GHSA-hvrp-rf83-w775"
+      }
+    },
+    "text-desc-mcp": {
+      "type": "Text",
+      "props": {
+        "text": "WebSocket host validation bypass, HTTP session auth bypass, cross-client task handler access.",
+        "variant": "body"
+      }
+    },
+    "alert-mcp": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade mcp to ≥1.28.1",
+        "type": "info"
+      }
+    },
+    "heading-monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "stack-monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item-54504"
+      ]
+    },
+    "item-54504": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "storylink-54504",
+        "text-desc-54504",
+        "alert-54504"
+      ]
+    },
+    "storylink-54504": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54504 / GHSA-6f5r-5672-72j7 — @andrea9293/mcp-documentation-server",
+        "href": "https://github.com/advisories/GHSA-6f5r-5672-72j7",
+        "source": "npm · CVSS 8.8 · no fix yet"
+      }
+    },
+    "text-desc-54504": {
+      "type": "Text",
+      "props": {
+        "text": "Web UI API binds to 0.0.0.0 without authentication by default. No patched release confirmed.",
+        "variant": "body"
+      }
+    },
+    "alert-54504": {
+      "type": "Alert",
+      "props": {
+        "message": "restrict to localhost or remove; track GHSA-6f5r-5672-72j7 for patch",
+        "type": "warning"
+      }
+    }
+  }
+}
