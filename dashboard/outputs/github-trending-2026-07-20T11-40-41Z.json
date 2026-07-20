@@ -1,0 +1,572 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-20"
+      },
+      "children": [
+        "section-top-pick",
+        "sep-1",
+        "section-ai-ml",
+        "sep-2",
+        "section-infra",
+        "sep-3",
+        "section-web-apps",
+        "footer-sources"
+      ]
+    },
+    "section-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-top-pick",
+        "repo-omni-1"
+      ]
+    },
+    "h-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo-omni-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-omni-1",
+        "text-omni-1-desc"
+      ]
+    },
+    "link-omni-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "diegosouzapw/OmniRoute",
+        "href": "https://github.com/diegosouzapw/OmniRoute",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "text-omni-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "MIT-licensed gateway routing to 268 AI providers under a single OpenAI-compatible API — the consolidation layer the fragmented model market has been waiting for.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section-ai-ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-ai-ml",
+        "stack-ai-ml"
+      ]
+    },
+    "h-ai-ml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-ai-ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo-voicebox",
+        "repo-ktransformers",
+        "repo-cognee"
+      ]
+    },
+    "repo-voicebox": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-voicebox",
+        "meta-voicebox",
+        "text-voicebox-desc"
+      ]
+    },
+    "link-voicebox": {
+      "type": "StoryLink",
+      "props": {
+        "title": "jamiepine/voicebox",
+        "href": "https://github.com/jamiepine/voicebox",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "meta-voicebox": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text-voicebox-stars",
+        "badge-voicebox-lang",
+        "badge-voicebox-status"
+      ]
+    },
+    "text-voicebox-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 610 today (43.8k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge-voicebox-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-voicebox-status": {
+      "type": "Badge",
+      "props": {
+        "text": "[ACCELERATING]",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-voicebox-desc": {
+      "type": "Text",
+      "props": {
+        "text": "MIT browser-based voice cloning and synthesis studio — no API keys, runs on local models, open alternative to ElevenLabs.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo-ktransformers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ktransformers",
+        "meta-ktransformers",
+        "text-ktransformers-desc"
+      ]
+    },
+    "link-ktransformers": {
+      "type": "StoryLink",
+      "props": {
+        "title": "kvcache-ai/ktransformers",
+        "href": "https://github.com/kvcache-ai/ktransformers",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "meta-ktransformers": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text-ktransformers-stars",
+        "badge-ktransformers-lang",
+        "badge-ktransformers-status"
+      ]
+    },
+    "text-ktransformers-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 360 today (18.6k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge-ktransformers-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-ktransformers-status": {
+      "type": "Badge",
+      "props": {
+        "text": "[RETURNING]",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-ktransformers-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Heterogeneous inference framework offloading transformer layers across CPU/GPU/NVMe — runs 236B MoE models on a single consumer workstation.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo-cognee": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-cognee",
+        "meta-cognee",
+        "text-cognee-desc"
+      ]
+    },
+    "link-cognee": {
+      "type": "StoryLink",
+      "props": {
+        "title": "topoteretes/cognee",
+        "href": "https://github.com/topoteretes/cognee",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "meta-cognee": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text-cognee-stars",
+        "badge-cognee-lang",
+        "badge-cognee-status"
+      ]
+    },
+    "text-cognee-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 303 today (28.6k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge-cognee-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-cognee-status": {
+      "type": "Badge",
+      "props": {
+        "text": "[RETURNING]",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-cognee-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Graph-based persistent memory for AI agents — links facts across sessions and surfaces relevant context at query time, plugs into LangChain/LlamaIndex.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section-infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-infra",
+        "stack-infra"
+      ]
+    },
+    "h-infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo-omni-2",
+        "repo-openship"
+      ]
+    },
+    "repo-omni-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-omni-2",
+        "meta-omni-2",
+        "text-omni-2-desc"
+      ]
+    },
+    "link-omni-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "diegosouzapw/OmniRoute",
+        "href": "https://github.com/diegosouzapw/OmniRoute",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "meta-omni-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text-omni-2-stars",
+        "badge-omni-2-lang",
+        "badge-omni-2-status"
+      ]
+    },
+    "text-omni-2-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1,343 today (20.7k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge-omni-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-omni-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "[ACCELERATING]",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-omni-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "MIT-licensed AI gateway unifying 268 providers under one OpenAI-compatible endpoint — self-host to cut inference costs and escape vendor lock-in.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo-openship": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-openship",
+        "meta-openship",
+        "text-openship-desc"
+      ]
+    },
+    "link-openship": {
+      "type": "StoryLink",
+      "props": {
+        "title": "oblien/openship",
+        "href": "https://github.com/oblien/openship",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "meta-openship": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text-openship-stars",
+        "badge-openship-lang",
+        "badge-openship-status"
+      ]
+    },
+    "text-openship-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1,719 today (3.9k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge-openship-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-openship-status": {
+      "type": "Badge",
+      "props": {
+        "text": "[RETURNING]",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-openship-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted deploy platform alternative to Vercel/Railway — 1,719 stars in a single day signals a viral drop or Product Hunt launch.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section-web-apps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-web-apps",
+        "stack-web-apps"
+      ]
+    },
+    "h-web-apps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-web-apps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo-topcoat"
+      ]
+    },
+    "repo-topcoat": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-topcoat",
+        "meta-topcoat",
+        "text-topcoat-desc"
+      ]
+    },
+    "link-topcoat": {
+      "type": "StoryLink",
+      "props": {
+        "title": "tokio-rs/topcoat",
+        "href": "https://github.com/tokio-rs/topcoat",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "meta-topcoat": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "text-topcoat-stars",
+        "badge-topcoat-lang",
+        "badge-topcoat-status"
+      ]
+    },
+    "text-topcoat-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 439 today (1.3k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge-topcoat-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-topcoat-status": {
+      "type": "Badge",
+      "props": {
+        "text": "[RETURNING]",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-topcoat-desc": {
+      "type": "Text",
+      "props": {
+        "text": "tokio-rs team's batteries-included Rust web framework — routing, middleware, and templating without a JS toolchain.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "footer-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/20",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
