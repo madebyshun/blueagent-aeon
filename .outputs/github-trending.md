@@ -1,28 +1,27 @@
-*GitHub Trending — 2026-07-20*
+*GitHub Trending — 2026-07-21*
 
-*Top pick* — [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)
-MIT-licensed gateway routing to 268 AI providers under a single OpenAI-compatible API — the consolidation layer the fragmented model market has been waiting for.
+*Top pick* — [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book)
+4.4k stars today — nearly 5x any other repo on the list. For a technical book, that's a signal the AI-agent-engineering gap was real and this filled it.
 
 *AI/ML*
-• [jamiepine/voicebox](https://github.com/jamiepine/voicebox) — ★ 610 today (43.8k total) · TypeScript · [ACCELERATING]
-MIT browser-based voice cloning and synthesis studio — no API keys, runs on local models, open alternative to ElevenLabs.
+• [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) — ★ 4.4k today (13k total) · Python · [RETURNING]
+Production-grade AI agent engineering book — covers memory, multi-agent orchestration, and tool routing as a coherent system.
 
-• [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers) — ★ 360 today (18.6k total) · Python · [RETURNING]
-Heterogeneous inference framework offloading transformer layers across CPU/GPU/NVMe — runs 236B MoE models on a single consumer workstation.
+• [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) — ★ 317 today (37k total) · Python · [RETURNING]
+Plugs any LLM into WeChat, QQ, Telegram, and 5+ other IM platforms with MCP support built in.
 
-• [topoteretes/cognee](https://github.com/topoteretes/cognee) — ★ 303 today (28.6k total) · Python · [RETURNING]
-Graph-based persistent memory for AI agents — links facts across sessions and surfaces relevant context at query time, plugs into LangChain/LlamaIndex.
+• [handy-computer/transcribe.cpp](https://github.com/handy-computer/transcribe.cpp) — ★ 395 today (1.4k total) · C++ · [RETURNING]
+GGML-based speech-to-text spanning 16+ model families — fully offline, same backend as llama.cpp.
 
-*Infra*
-• [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) — ★ 1,343 today (20.7k total) · TypeScript · [ACCELERATING]
-MIT-licensed AI gateway unifying 268 providers under one OpenAI-compatible endpoint — self-host to cut inference costs and escape vendor lock-in.
+• [moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine) — ★ 282 today (10k total) · C++ · [RETURNING]
+Built for real-time voice agent pipelines where latency is the bottleneck — offline, lightweight, edge-optimized.
 
-• [oblien/openship](https://github.com/oblien/openship) — ★ 1,719 today (3.9k total) · TypeScript · [RETURNING]
-Self-hosted deploy platform alternative to Vercel/Railway — 1,719 stars in a single day signals a viral drop or Product Hunt launch.
+*Devtools*
+• [every-app/open-seo](https://github.com/every-app/open-seo) — ★ 939 today (6.2k total) · TypeScript · [RETURNING]
+Full SEO stack — crawl analysis, rank tracking, competitor backlinks — self-hosted to cut platform subscription costs.
 
-*Web/Apps*
-• [tokio-rs/topcoat](https://github.com/tokio-rs/topcoat) — ★ 439 today (1.3k total) · Rust · [RETURNING]
-tokio-rs team's batteries-included Rust web framework — routing, middleware, and templating without a JS toolchain.
+• [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) — ★ 96 today (26.7k total) · Python · [RETURNING]
+A single @tool decorator turns any Python function into an LLM-callable MCP server tool.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/20
+sources: trending=ok · gh_api=ok · kept 6/21

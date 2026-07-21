@@ -1,0 +1,475 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-21"
+      },
+      "children": [
+        "top-pick-section",
+        "sep-1",
+        "ai-ml-heading",
+        "ai-ml-repos",
+        "sep-2",
+        "devtools-heading",
+        "devtools-repos",
+        "sep-3",
+        "sources-text"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-label",
+        "top-pick-link",
+        "top-pick-stat",
+        "top-pick-desc"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "top-pick-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bojieli/ai-agent-book",
+        "href": "https://github.com/bojieli/ai-agent-book"
+      }
+    },
+    "top-pick-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "4.4k (13k total)"
+      }
+    },
+    "top-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "For a technical book, that's a signal the AI-agent-engineering gap was real and this filled it.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "ai-ml-repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo-1",
+        "repo-2",
+        "repo-3",
+        "repo-4"
+      ]
+    },
+    "repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-1-link",
+        "repo-1-meta",
+        "repo-1-desc"
+      ]
+    },
+    "repo-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bojieli/ai-agent-book",
+        "href": "https://github.com/bojieli/ai-agent-book"
+      }
+    },
+    "repo-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-1-stars",
+        "repo-1-lang",
+        "repo-1-status"
+      ]
+    },
+    "repo-1-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 4.4k today (13k total)",
+        "variant": "caption"
+      }
+    },
+    "repo-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "repo-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Production-grade AI agent engineering book — covers memory, multi-agent orchestration, and tool routing as a coherent system.",
+        "variant": "body"
+      }
+    },
+    "repo-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-2-link",
+        "repo-2-meta",
+        "repo-2-desc"
+      ]
+    },
+    "repo-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AstrBotDevs/AstrBot",
+        "href": "https://github.com/AstrBotDevs/AstrBot"
+      }
+    },
+    "repo-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-2-stars",
+        "repo-2-lang",
+        "repo-2-status"
+      ]
+    },
+    "repo-2-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 317 today (37k total)",
+        "variant": "caption"
+      }
+    },
+    "repo-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "repo-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Plugs any LLM into WeChat, QQ, Telegram, and 5+ other IM platforms with MCP support built in.",
+        "variant": "body"
+      }
+    },
+    "repo-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-3-link",
+        "repo-3-meta",
+        "repo-3-desc"
+      ]
+    },
+    "repo-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "handy-computer/transcribe.cpp",
+        "href": "https://github.com/handy-computer/transcribe.cpp"
+      }
+    },
+    "repo-3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-3-stars",
+        "repo-3-lang",
+        "repo-3-status"
+      ]
+    },
+    "repo-3-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 395 today (1.4k total)",
+        "variant": "caption"
+      }
+    },
+    "repo-3-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C++"
+      }
+    },
+    "repo-3-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "GGML-based speech-to-text spanning 16+ model families — fully offline, same backend as llama.cpp.",
+        "variant": "body"
+      }
+    },
+    "repo-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-4-link",
+        "repo-4-meta",
+        "repo-4-desc"
+      ]
+    },
+    "repo-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "moonshine-ai/moonshine",
+        "href": "https://github.com/moonshine-ai/moonshine"
+      }
+    },
+    "repo-4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-4-stars",
+        "repo-4-lang",
+        "repo-4-status"
+      ]
+    },
+    "repo-4-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 282 today (10k total)",
+        "variant": "caption"
+      }
+    },
+    "repo-4-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C++"
+      }
+    },
+    "repo-4-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Built for real-time voice agent pipelines where latency is the bottleneck — offline, lightweight, edge-optimized.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "devtools-repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo-5",
+        "repo-6"
+      ]
+    },
+    "repo-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-5-link",
+        "repo-5-meta",
+        "repo-5-desc"
+      ]
+    },
+    "repo-5-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "every-app/open-seo",
+        "href": "https://github.com/every-app/open-seo"
+      }
+    },
+    "repo-5-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-5-stars",
+        "repo-5-lang",
+        "repo-5-status"
+      ]
+    },
+    "repo-5-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 939 today (6.2k total)",
+        "variant": "caption"
+      }
+    },
+    "repo-5-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "repo-5-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo-5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Full SEO stack — crawl analysis, rank tracking, competitor backlinks — self-hosted to cut platform subscription costs.",
+        "variant": "body"
+      }
+    },
+    "repo-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-6-link",
+        "repo-6-meta",
+        "repo-6-desc"
+      ]
+    },
+    "repo-6-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PrefectHQ/fastmcp",
+        "href": "https://github.com/PrefectHQ/fastmcp"
+      }
+    },
+    "repo-6-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-6-stars",
+        "repo-6-lang",
+        "repo-6-status"
+      ]
+    },
+    "repo-6-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 96 today (26.7k total)",
+        "variant": "caption"
+      }
+    },
+    "repo-6-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "repo-6-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo-6-desc": {
+      "type": "Text",
+      "props": {
+        "text": "A single @tool decorator turns any Python function into an LLM-callable MCP server tool.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/21",
+        "variant": "muted"
+      }
+    }
+  }
+}
