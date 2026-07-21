@@ -1,0 +1,619 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-07-21",
+        "description": "Verdict: 3 actively exploited (KEV added today), 5 to patch this week, 3 to monitor. Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "sep1",
+        "section-patch-today-heading",
+        "cve-2026-0770",
+        "cve-2026-63030-60137",
+        "cve-2021-27137",
+        "sep2",
+        "section-patch-week-heading",
+        "cve-2026-59873",
+        "cve-2026-61736-61740",
+        "cve-2026-61836-61835",
+        "cve-2026-59731",
+        "cve-pillow-8",
+        "sep3",
+        "section-monitor-heading",
+        "ghsa-filebrowser",
+        "ghsa-mistune",
+        "ghsa-engine-io"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve-2026-0770": {
+      "type": "Card",
+      "props": {
+        "title": "CVE-2026-0770 — Langflow (pip)"
+      },
+      "children": [
+        "cve-2026-0770-badges",
+        "cve-2026-0770-desc",
+        "cve-2026-0770-action"
+      ]
+    },
+    "cve-2026-0770-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-0770",
+        "badge-epss-010",
+        "badge-cvss-na-0770"
+      ]
+    },
+    "badge-kev-0770": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-07-21",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-010": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.10"
+      }
+    },
+    "badge-cvss-na-0770": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a"
+      }
+    },
+    "cve-2026-0770-desc": {
+      "type": "Text",
+      "props": {
+        "text": "RCE on Langflow instances, exploited in the wild per CISA (due 2026-07-24).",
+        "variant": "body"
+      }
+    },
+    "cve-2026-0770-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Isolate Langflow from public network; apply mitigations or discontinue use.",
+        "variant": "body"
+      }
+    },
+    "cve-2026-63030-60137": {
+      "type": "Card",
+      "props": {
+        "title": "CVE-2026-63030 + CVE-2026-60137 — WordPress Core"
+      },
+      "children": [
+        "cve-2026-63030-badges",
+        "cve-2026-63030-desc",
+        "cve-2026-63030-action"
+      ]
+    },
+    "cve-2026-63030-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-63030",
+        "badge-epss-090904"
+      ]
+    },
+    "badge-kev-63030": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-07-21",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-090904": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.09/0.04"
+      }
+    },
+    "cve-2026-63030-desc": {
+      "type": "Text",
+      "props": {
+        "text": "SQL injection + interpretation conflict chain = unauthenticated RCE on default installs. Due 2026-07-24.",
+        "variant": "body"
+      }
+    },
+    "cve-2026-63030-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Update WordPress Core immediately; apply BOD 26-04 mitigations.",
+        "variant": "body"
+      }
+    },
+    "cve-2021-27137": {
+      "type": "Card",
+      "props": {
+        "title": "CVE-2021-27137 — DD-WRT firmware"
+      },
+      "children": [
+        "cve-2021-27137-badges",
+        "cve-2021-27137-desc",
+        "cve-2021-27137-action"
+      ]
+    },
+    "cve-2021-27137-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-2021",
+        "badge-epss-005",
+        "badge-cvss-na-2021"
+      ]
+    },
+    "badge-kev-2021": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-07-21",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-005": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.05"
+      }
+    },
+    "badge-cvss-na-2021": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a"
+      }
+    },
+    "cve-2021-27137-desc": {
+      "type": "Text",
+      "props": {
+        "text": "UPnP stack overflow → unauthenticated code exec. 2021 CVE now actively exploited. Due 2026-07-24.",
+        "variant": "body"
+      }
+    },
+    "cve-2021-27137-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Patch DD-WRT to latest build with UPnP fix; disable UPnP if patch unavailable.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "cve-2026-59873": {
+      "type": "Card",
+      "props": {
+        "title": "CVE-2026-59873 (GHSA-23hp-3jrh-7fpw) — tar (npm)"
+      },
+      "children": [
+        "cve-2026-59873-badges",
+        "cve-2026-59873-desc",
+        "cve-2026-59873-action"
+      ]
+    },
+    "cve-2026-59873-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-92",
+        "badge-epss-0004-tar",
+        "badge-poc"
+      ]
+    },
+    "badge-cvss-92": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.2"
+      }
+    },
+    "badge-epss-0004-tar": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004"
+      }
+    },
+    "badge-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC"
+      }
+    },
+    "cve-2026-59873-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Gzip bomb: no decompression limits → disk exhaust + service crash. PoC documented.",
+        "variant": "body"
+      }
+    },
+    "cve-2026-59873-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Upgrade tar to ≥7.5.19.",
+        "variant": "body"
+      }
+    },
+    "cve-2026-61736-61740": {
+      "type": "Card",
+      "props": {
+        "title": "CVE-2026-61736 + CVE-2026-61740 (GHSA-6x6h-qqr7-855w / GHSA-f4vv-55c2-5789) — lightrag-hku (pip)"
+      },
+      "children": [
+        "cve-2026-61736-badges",
+        "cve-2026-61736-desc",
+        "cve-2026-61736-action"
+      ]
+    },
+    "cve-2026-61736-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-93",
+        "badge-epss-0040030"
+      ]
+    },
+    "badge-cvss-93": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.3 + auth bypass"
+      }
+    },
+    "badge-epss-0040030": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004/0.003"
+      }
+    },
+    "cve-2026-61736-desc": {
+      "type": "Text",
+      "props": {
+        "text": "CORS wildcard with credentials (9.3) + hardcoded DEFAULT_TOKEN_SECRET defeats API key protection.",
+        "variant": "body"
+      }
+    },
+    "cve-2026-61736-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Upgrade lightrag-hku to ≥1.5.4.",
+        "variant": "body"
+      }
+    },
+    "cve-2026-61836-61835": {
+      "type": "Card",
+      "props": {
+        "title": "CVE-2026-61836 + CVE-2026-61835 (GHSA-c6w9-5g5j-jh2p / GHSA-j5h6-vqc3-phqh) — directus (npm)"
+      },
+      "children": [
+        "cve-2026-61836-badges",
+        "cve-2026-61836-desc",
+        "cve-2026-61836-action"
+      ]
+    },
+    "cve-2026-61836-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-8677",
+        "badge-epss-0003-dir"
+      ]
+    },
+    "badge-cvss-8677": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.6 / 7.7"
+      }
+    },
+    "badge-epss-0003-dir": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003"
+      }
+    },
+    "cve-2026-61836-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth-gated responses leak via shared cache key + SSRF bypass via 0.0.0.0.",
+        "variant": "body"
+      }
+    },
+    "cve-2026-61836-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Upgrade directus to ≥12.0.0.",
+        "variant": "body"
+      }
+    },
+    "cve-2026-59731": {
+      "type": "Card",
+      "props": {
+        "title": "CVE-2026-59731 (GHSA-vj59-8hwv-xxmv) — astro (npm)"
+      },
+      "children": [
+        "cve-2026-59731-badges",
+        "cve-2026-59731-desc",
+        "cve-2026-59731-action"
+      ]
+    },
+    "cve-2026-59731-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-82",
+        "badge-epss-0003-astro"
+      ]
+    },
+    "badge-cvss-82": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.2"
+      }
+    },
+    "badge-epss-0003-astro": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003"
+      }
+    },
+    "cve-2026-59731-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass via decode iteration limit + rewrite path canonicalization mismatch.",
+        "variant": "body"
+      }
+    },
+    "cve-2026-59731-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Upgrade astro to ≥6.4.8.",
+        "variant": "body"
+      }
+    },
+    "cve-pillow-8": {
+      "type": "Card",
+      "props": {
+        "title": "8 CVEs — Pillow (pip)"
+      },
+      "children": [
+        "cve-pillow-badges",
+        "cve-pillow-desc",
+        "cve-pillow-action"
+      ]
+    },
+    "cve-pillow-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-7582",
+        "badge-epss-0004-pillow"
+      ]
+    },
+    "badge-cvss-7582": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5–8.2"
+      }
+    },
+    "badge-epss-0004-pillow": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS up to 0.004"
+      }
+    },
+    "cve-pillow-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Heap OOB writes, decompression bomb bypasses via font loading, OOB read via McIdas AREA files.",
+        "variant": "body"
+      }
+    },
+    "cve-pillow-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Upgrade Pillow to ≥12.3.0 when released; pin to latest 12.x now.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "ghsa-filebrowser": {
+      "type": "Card",
+      "props": {
+        "title": "GHSA-7rc3-g7h6-22m7 + GHSA-fmm7-x4gx-8jhr — filebrowser (Go)"
+      },
+      "children": [
+        "ghsa-filebrowser-badges",
+        "ghsa-filebrowser-desc",
+        "ghsa-filebrowser-action"
+      ]
+    },
+    "ghsa-filebrowser-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-8281",
+        "badge-no-patch-fb"
+      ]
+    },
+    "badge-cvss-8281": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.2/8.1"
+      }
+    },
+    "badge-no-patch-fb": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch yet",
+        "variant": "warning"
+      }
+    },
+    "ghsa-filebrowser-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Username normalization collision → shared home dirs; Create-only user deletes arbitrary files via symlink.",
+        "variant": "body"
+      }
+    },
+    "ghsa-filebrowser-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Track filebrowser releases; restrict to trusted users only.",
+        "variant": "body"
+      }
+    },
+    "ghsa-mistune": {
+      "type": "Card",
+      "props": {
+        "title": "GHSA-c8j7-8cv4-2xmq + GHSA-4j32-57v6-6g45 + GHSA-ffq3-xpv3-j92q — mistune (pip)"
+      },
+      "children": [
+        "ghsa-mistune-badges",
+        "ghsa-mistune-desc",
+        "ghsa-mistune-action"
+      ]
+    },
+    "ghsa-mistune-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-75-mistune",
+        "badge-no-patch-mistune"
+      ]
+    },
+    "badge-cvss-75-mistune": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5"
+      }
+    },
+    "badge-no-patch-mistune": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch",
+        "variant": "warning"
+      }
+    },
+    "ghsa-mistune-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Quadratic-time parsing on emphasis, strikethrough, and reference-link inputs; DoS on untrusted markdown.",
+        "variant": "body"
+      }
+    },
+    "ghsa-mistune-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Watch for mistune 3.3.0; cap untrusted input lengths as interim mitigation.",
+        "variant": "body"
+      }
+    },
+    "ghsa-engine-io": {
+      "type": "Card",
+      "props": {
+        "title": "GHSA-r635-g3xr-vw7x (CVE-2026-59725) — engine.io (npm)"
+      },
+      "children": [
+        "ghsa-engine-badges",
+        "ghsa-engine-desc",
+        "ghsa-engine-action"
+      ]
+    },
+    "ghsa-engine-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-75-engine",
+        "badge-fix-667"
+      ]
+    },
+    "badge-cvss-75-engine": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5"
+      }
+    },
+    "badge-fix-667": {
+      "type": "Badge",
+      "props": {
+        "text": "fix ≥6.6.7"
+      }
+    },
+    "ghsa-engine-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Polling transport connection exhaustion → socket.io service denial.",
+        "variant": "body"
+      }
+    },
+    "ghsa-engine-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Upgrade engine.io to ≥6.6.7 if in socket.io stack.",
+        "variant": "body"
+      }
+    }
+  }
+}

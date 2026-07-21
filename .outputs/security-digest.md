@@ -1,33 +1,50 @@
-*Security Digest — 2026-07-20*
-Verdict: 3 KEV overdue (infrastructure), 3 to schedule, 1 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-07-21*
+Verdict: 3 actively exploited (KEV added today), 5 to patch this week, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- [CVE-2026-39808](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Fortinet FortiSandbox · KEV 2026-07-16 · EPSS 0.842 · CVSS —
-  Unauth OS command injection via crafted HTTP. Highest active exploitation probability of the week.
-  → Apply FortiSandbox vendor mitigations per BOD 26-04 today; discontinue if unavailable.
+- CVE-2026-0770 — Langflow (pip) · KEV 2026-07-21 · EPSS 0.10 · CVSS n/a
+  RCE on Langflow instances, exploited in the wild per CISA (due 2026-07-24).
+  → isolate Langflow from public network; apply mitigations or discontinue use.
 
-- [CVE-2026-25089](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Fortinet FortiSandbox · KEV 2026-07-16 · EPSS 0.361 · CVSS —
-  Unauth arbitrary command execution. Same product and attack surface as CVE-2026-39808.
-  → Apply FortiSandbox vendor mitigations per BOD 26-04 today; discontinue if unavailable.
+- CVE-2026-63030 + CVE-2026-60137 — WordPress Core · KEV 2026-07-21 · EPSS 0.09/0.04
+  SQL injection + interpretation conflict chain = unauthenticated RCE on default installs. Due 2026-07-24.
+  → update WordPress Core immediately; apply BOD 26-04 mitigations.
 
-- [CVE-2008-4128](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Cisco IOS · KEV 2026-07-13 · EPSS 0.239 · CVSS —
-  CSRF via HTTP interface enables remote command execution. All three KEV due dates overdue.
-  → Apply Cisco IOS patch; disable HTTP server or restrict admin access per BOD 26-04.
+- CVE-2021-27137 — DD-WRT firmware · KEV 2026-07-21 · EPSS 0.05 · CVSS n/a
+  UPnP stack overflow → unauthenticated code exec. 2021 CVE now actively exploited. Due 2026-07-24.
+  → patch DD-WRT to latest build with UPnP fix; disable UPnP if patch unavailable.
 
 *PATCH THIS WEEK*
-- [CVE-2026-53713 / GHSA-wcrf-9vrr-854f](https://github.com/advisories/GHSA-wcrf-9vrr-854f) — envoy-gateway (Go) · CVSS 9.1 · EPSS n/a
-  Auth bypass via improper Lua validation in EnvoyExtensionPolicy — allows secret disclosure.
-  → upgrade envoy-gateway to ≥1.7.4 (1.7.x) or ≥1.8.1 (1.8.x) and redeploy.
+- CVE-2026-59873 (GHSA-23hp-3jrh-7fpw) — tar (npm) · CVSS 9.2 · EPSS 0.004 · public PoC
+  Gzip bomb: no decompression limits → disk exhaust + service crash. PoC documented.
+  → upgrade tar to ≥7.5.19.
 
-- [CVE-2026-52833 / GHSA-3v79-m2cg-89ww](https://github.com/advisories/GHSA-3v79-m2cg-89ww) — nuclio (Go) · CVSS 8.0 · EPSS n/a
-  Unsanitized runtimeAttributes.repositories injected into Groovy build.gradle → build-time RCE.
-  → upgrade nuclio to ≥1.16.5 and redeploy.
+- CVE-2026-61736 + CVE-2026-61740 (GHSA-6x6h-qqr7-855w / GHSA-f4vv-55c2-5789) — lightrag-hku (pip) · CVSS 9.3 + auth bypass · EPSS 0.004/0.003
+  CORS wildcard with credentials (9.3) + hardcoded DEFAULT_TOKEN_SECRET defeats API key protection.
+  → upgrade lightrag-hku to ≥1.5.4.
 
-- [GHSA-vj7q-gjh5-988w](https://github.com/advisories/GHSA-vj7q-gjh5-988w) + [GHSA-jpw9-pfvf-9f58](https://github.com/advisories/GHSA-jpw9-pfvf-9f58) + [GHSA-hvrp-rf83-w775](https://github.com/advisories/GHSA-hvrp-rf83-w775) — mcp Python SDK (pip) · CVSS 7.1–7.6 · EPSS n/a
-  Three high CVEs in mcp <1.28.1: WebSocket host validation bypass, HTTP session auth bypass, cross-client task handler access.
-  → upgrade mcp to ≥1.28.1.
+- CVE-2026-61836 + CVE-2026-61835 (GHSA-c6w9-5g5j-jh2p / GHSA-j5h6-vqc3-phqh) — directus (npm) · CVSS 8.6 / 7.7 · EPSS 0.003
+  Auth-gated responses leak via shared cache key + SSRF bypass via 0.0.0.0.
+  → upgrade directus to ≥12.0.0.
+
+- CVE-2026-59731 (GHSA-vj59-8hwv-xxmv) — astro (npm) · CVSS 8.2 · EPSS 0.003
+  Auth bypass via decode iteration limit + rewrite path canonicalization mismatch.
+  → upgrade astro to ≥6.4.8.
+
+- 8 CVEs — Pillow (pip) · CVSS 7.5–8.2 · EPSS up to 0.004
+  Heap OOB writes, decompression bomb bypasses via font loading, OOB read via McIdas AREA files.
+  → upgrade Pillow to ≥12.3.0 when released; pin to latest 12.x now.
 
 *MONITOR*
-- [CVE-2026-54504 / GHSA-6f5r-5672-72j7](https://github.com/advisories/GHSA-6f5r-5672-72j7) — @andrea9293/mcp-documentation-server (npm) · CVSS 8.8 · no fix yet
-  Web UI API binds to 0.0.0.0 without authentication by default. No patched release confirmed.
-  → restrict to localhost or remove; track GHSA-6f5r-5672-72j7 for patch.
+- GHSA-7rc3-g7h6-22m7 + GHSA-fmm7-x4gx-8jhr — filebrowser (Go) · CVSS 8.2/8.1 · no patch yet
+  Username normalization collision → shared home dirs; Create-only user deletes arbitrary files via symlink.
+  → track filebrowser releases; restrict to trusted users only.
+
+- GHSA-c8j7-8cv4-2xmq + GHSA-4j32-57v6-6g45 + GHSA-ffq3-xpv3-j92q — mistune (pip) · CVSS 7.5 · no patch
+  Quadratic-time parsing on emphasis, strikethrough, and reference-link inputs; DoS on untrusted markdown.
+  → watch for mistune 3.3.0; cap untrusted input lengths as interim mitigation.
+
+- GHSA-r635-g3xr-vw7x (CVE-2026-59725) — engine.io (npm) · CVSS 7.5 · fix ≥6.6.7
+  Polling transport connection exhaustion → socket.io service denial.
+  → upgrade engine.io to ≥6.6.7 if in socket.io stack.
+
