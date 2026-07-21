@@ -1,0 +1,272 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-21"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-section",
+        "sep-1",
+        "market-section",
+        "sep-2",
+        "footer-section"
+      ]
+    },
+    "token-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "token-header-row",
+        "token-signal",
+        "token-price",
+        "token-metrics",
+        "token-score",
+        "token-catalyst",
+        "token-risk"
+      ]
+    },
+    "token-header-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "token-heading",
+        "token-badge"
+      ]
+    },
+    "token-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: VIRTUAL",
+        "level": "h2"
+      }
+    },
+    "token-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH"
+      }
+    },
+    "token-signal": {
+      "type": "Text",
+      "props": {
+        "text": "Signal: 10/10",
+        "variant": "lead"
+      }
+    },
+    "token-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.665",
+        "delta": "+7.5% 24h / +17.0% 7d",
+        "trend": "up"
+      }
+    },
+    "token-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-mcap",
+        "stat-vol",
+        "stat-vol-ratio"
+      ]
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "mcap",
+        "value": "$437M"
+      }
+    },
+    "stat-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "vol",
+        "value": "$100M"
+      }
+    },
+    "stat-vol-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "vol/mcap",
+        "value": "0.23"
+      }
+    },
+    "token-score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2, both>5%+2, 24h+1, 7d+1] = 11→cap 10"
+      }
+    },
+    "token-catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: Virtuals launched tokenized AI agent indexes on Robinhood Chain (mid-Jul) + peaqOS machine-to-agent commerce live Jul 14 — multi-chain expansion shifts VIRTUAL from narrative token toward infrastructure fee capture"
+      }
+    },
+    "token-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: Robinhood Chain week-3 stagnation test active (builder earnings thin at $619 avg); if network effects plateau, VIRTUAL's valuation premium compresses fast"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market-header-row",
+        "market-edge",
+        "market-current",
+        "market-vol-resolve",
+        "market-fair",
+        "market-thesis",
+        "market-risk"
+      ]
+    },
+    "market-header-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "market-heading",
+        "market-badge"
+      ]
+    },
+    "market-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will Lamine Yamal win the Ballon d'Or 2026?",
+        "level": "h2"
+      }
+    },
+    "market-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH"
+      }
+    },
+    "market-edge": {
+      "type": "Text",
+      "props": {
+        "text": "Edge: 21pp",
+        "variant": "lead"
+      }
+    },
+    "market-current": {
+      "type": "Text",
+      "props": {
+        "text": "Current: YES 29.15¢ / NO ~70.85¢"
+      }
+    },
+    "market-vol-resolve": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-market-vol",
+        "stat-resolves"
+      ]
+    },
+    "stat-market-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h vol",
+        "value": "$348k"
+      }
+    },
+    "stat-resolves": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "Oct 31, 2026"
+      }
+    },
+    "market-fair": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES",
+        "value": "~50%",
+        "delta": "+21pp vs market",
+        "trend": "up"
+      }
+    },
+    "market-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: Polymarket prices Yamal at 29% while Spain winning the WC with Yamal as standard-bearer puts fair value at ~50%; sportsbook bias toward Kane (6 goals, English media market) is overweighting a bronze-medalist team — last three WC/Euro double-win years the WC star dominated (Messi 2022, Rodri 2024)"
+      }
+    },
+    "market-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: Yamal is 18 — older Ballon d'Or voters may penalize youth; Kane's 6-goal campaign keeps him competitive in traditional media narrative; Rodri (same Spain team) could split Spain-bloc votes"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer-sources",
+        "footer-disclaimer"
+      ]
+    },
+    "footer-sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "footer-disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
