@@ -1,0 +1,964 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-21"
+      },
+      "children": [
+        "transitions_section",
+        "sep1",
+        "reflexivity_section",
+        "sep2",
+        "positions_section",
+        "sep3",
+        "map_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions_heading",
+        "clarity_transition",
+        "ondo_transition",
+        "x402_transition",
+        "stablecoin_transition"
+      ]
+    },
+    "transitions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "clarity_transition": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "clarity_badge",
+        "clarity_text_1",
+        "clarity_text_2",
+        "clarity_text_3"
+      ]
+    },
+    "clarity_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED: CLARITY Act (WATCH → RIDE)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "clarity_text_1": {
+      "type": "Text",
+      "props": {
+        "text": "White House ethics deal Jul 20 fires pre-named upgrade trigger",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "clarity_text_2": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket 24%→43% (+19pp intraday)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "clarity_text_3": {
+      "type": "Text",
+      "props": {
+        "text": "Floor vote this week or Aug 7 recess = kill date",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ondo_transition": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ondo_badge",
+        "ondo_text_1",
+        "ondo_text_2",
+        "ondo_text_3"
+      ]
+    },
+    "ondo_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED: Tokenized Equities/Ondo (FRONT-RUN → RIDE)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "ondo_text_1": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO +15.4% 24h / +30.6% 7d",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ondo_text_2": {
+      "type": "Text",
+      "props": {
+        "text": "$3.78B TVL",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ondo_text_3": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN call confirmed; new entries carry momentum risk",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "x402_transition": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "x402_badge",
+        "x402_text_1",
+        "x402_text_2",
+        "x402_text_3"
+      ]
+    },
+    "x402_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "UPGRADED: x402/Base (Rising ↑ → Peak ↑↑, MS 4→5)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "x402_text_1": {
+      "type": "Text",
+      "props": {
+        "text": "Visa/MC/Amex/Stripe/Google/AWS/Shopify/Cloudflare (40 firms, Linux Foundation)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "x402_text_2": {
+      "type": "Text",
+      "props": {
+        "text": "75M txns/mo",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "x402_text_3": {
+      "type": "Text",
+      "props": {
+        "text": "USDC on Base = internet infrastructure tier",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stablecoin_transition": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stablecoin_badge",
+        "stablecoin_text_1",
+        "stablecoin_text_2"
+      ]
+    },
+    "stablecoin_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW: Stablecoin Rails/GENIUS Implementation (Emerging ↑ WATCH)",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stablecoin_text_1": {
+      "type": "Text",
+      "props": {
+        "text": "OCC rulemaking live (filed Jun 22)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stablecoin_text_2": {
+      "type": "Text",
+      "props": {
+        "text": "Comment period closes Jul 24; law passed, implementation phase active",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_heading",
+        "reflexivity_clarity",
+        "reflexivity_ondo",
+        "reflexivity_x402"
+      ]
+    },
+    "reflexivity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "reflexivity_clarity": {
+      "type": "Alert",
+      "props": {
+        "title": "CLARITY Act",
+        "message": "Ethics deal → Polymarket 43% before vote exists — story moving odds before outcome. Floor vote → 60s-70s. Cloture fail → 20s. Binary vol event, no directional edge.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "reflexivity_ondo": {
+      "type": "Alert",
+      "props": {
+        "title": "ONDO",
+        "message": "FRONT-RUN→RIDE now self-reinforcing — TVL + Ondo Perps + Hot Stock Summer driving price (+30.6% 7d) driving narrative. Overbought risk; SEC delay or secondary unlock = reversal.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "reflexivity_x402": {
+      "type": "Alert",
+      "props": {
+        "title": "x402",
+        "message": "40-firm institutional backing leads real adoption by 6-12 months — story moving developer onboarding moving eventual volume. Reflexive but long runway.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions_heading",
+        "ride_clarity_pos",
+        "ride_x402_pos",
+        "ride_ondo_pos",
+        "ride_aiagentecon_pos",
+        "ride_aiagentsec_pos",
+        "frontrun_aicompute_pos",
+        "watch_stablecoin_pos",
+        "fade_hyperliquid_pos",
+        "fade_kaito_pos",
+        "fade_fedpivot_pos"
+      ]
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "ride_clarity_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ride_clarity_badge",
+        "ride_clarity_stat",
+        "ride_clarity_desc",
+        "ride_clarity_bear"
+      ]
+    },
+    "ride_clarity_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "ride_clarity_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "CLARITY Act",
+        "value": "4 ↑↑",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "ride_clarity_desc": {
+      "type": "Text",
+      "props": {
+        "text": "@Thune floor pledge / ethics deal — Mixed sentiment",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ride_clarity_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: needs 60-vote cloture + 7 Dems; Aug 7 recess terminal",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "ride_x402_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ride_x402_badge",
+        "ride_x402_stat",
+        "ride_x402_desc",
+        "ride_x402_bear"
+      ]
+    },
+    "ride_x402_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "ride_x402_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "x402/Base",
+        "value": "5 ↑↑",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "ride_x402_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Visa/MC/Stripe/Google (40 firms) — Bull sentiment",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ride_x402_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: multi-chain; Base leads distribution not exclusivity",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "ride_ondo_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ride_ondo_badge",
+        "ride_ondo_stat",
+        "ride_ondo_desc",
+        "ride_ondo_bear"
+      ]
+    },
+    "ride_ondo_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "ride_ondo_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Tokenized Equities+Ondo",
+        "value": "4 ↑",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "ride_ondo_desc": {
+      "type": "Text",
+      "props": {
+        "text": "@OndoFinance $3.78B TVL / Ondo Perps — Bull sentiment",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ride_ondo_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: fast-move overbought risk",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "ride_aiagentecon_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ride_aiagentecon_badge",
+        "ride_aiagentecon_stat",
+        "ride_aiagentecon_desc",
+        "ride_aiagentecon_bear"
+      ]
+    },
+    "ride_aiagentecon_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "ride_aiagentecon_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "AI Agent Economy",
+        "value": "5 ↑",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "ride_aiagentecon_desc": {
+      "type": "Text",
+      "props": {
+        "text": "@virtuals_io $VIRTUAL +17% 7d — Bull sentiment",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ride_aiagentecon_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: security unpriced",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "ride_aiagentsec_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ride_aiagentsec_badge",
+        "ride_aiagentsec_stat",
+        "ride_aiagentsec_desc",
+        "ride_aiagentsec_bear"
+      ]
+    },
+    "ride_aiagentsec_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "ride_aiagentsec_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "AI Agent Security/TEE",
+        "value": "4 ↑",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "ride_aiagentsec_desc": {
+      "type": "Text",
+      "props": {
+        "text": "@PhalaNetwork / Ledger Stack — Bull sentiment",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ride_aiagentsec_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: tooling ≠ adoption",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "frontrun_aicompute_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "frontrun_aicompute_badge",
+        "frontrun_aicompute_stat",
+        "frontrun_aicompute_desc",
+        "frontrun_aicompute_bear"
+      ]
+    },
+    "frontrun_aicompute_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "frontrun_aicompute_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "AI Compute/DePIN-AI",
+        "value": "3 ↑↑",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "frontrun_aicompute_desc": {
+      "type": "Text",
+      "props": {
+        "text": "@akashnet / io.net / VVV Dragonfly $65M — Bull sentiment",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "frontrun_aicompute_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: token→adoption gap",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "watch_stablecoin_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_stablecoin_badge",
+        "watch_stablecoin_stat",
+        "watch_stablecoin_desc",
+        "watch_stablecoin_bear"
+      ]
+    },
+    "watch_stablecoin_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "watch_stablecoin_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Stablecoin Rails/GENIUS Impl",
+        "value": "2 ↑",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "watch_stablecoin_desc": {
+      "type": "Text",
+      "props": {
+        "text": "OCC rulemaking; Jul 24 comment close — Bull sentiment",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "watch_stablecoin_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: implementation lag",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "fade_hyperliquid_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fade_hyperliquid_badge",
+        "fade_hyperliquid_stat",
+        "fade_hyperliquid_desc"
+      ]
+    },
+    "fade_hyperliquid_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "fade_hyperliquid_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Hyperliquid",
+        "value": "2 ↓↓",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "fade_hyperliquid_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 6: 9.92M HYPE $623M Core Contributors (16 days)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "fade_kaito_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fade_kaito_badge",
+        "fade_kaito_stat",
+        "fade_kaito_desc"
+      ]
+    },
+    "fade_kaito_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "fade_kaito_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Kaito/InfoFi",
+        "value": "2 ↓↓",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "fade_kaito_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Structural dead: X API revoked Jan 2026",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "fade_fedpivot_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fade_fedpivot_badge",
+        "fade_fedpivot_stat",
+        "fade_fedpivot_desc"
+      ]
+    },
+    "fade_fedpivot_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "fade_fedpivot_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fed Pivot",
+        "value": "2 ↓",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "fade_fedpivot_desc": {
+      "type": "Text",
+      "props": {
+        "text": "US-Iran oil +5%; CPI 3.5%; no cut path",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_heading",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NARRATIVE LIFECYCLE MAP",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "map_emerging_title",
+        "map_emerging_item1",
+        "map_emerging_item2",
+        "map_emerging_item3"
+      ]
+    },
+    "map_emerging_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map_emerging_item1": {
+      "type": "Text",
+      "props": {
+        "text": "• Stablecoin Rails/GENIUS Impl (NEW)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map_emerging_item2": {
+      "type": "Text",
+      "props": {
+        "text": "• Agentic Dev Tools",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map_emerging_item3": {
+      "type": "Text",
+      "props": {
+        "text": "• PEPE ETF Wave, Privacy/ZK (FADE RISK 7d), US-Iran Geopolitical, Lean Ethereum",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "map_rising_title",
+        "map_rising_item1",
+        "map_rising_item2",
+        "map_rising_item3",
+        "map_rising_item4",
+        "map_rising_item5"
+      ]
+    },
+    "map_rising_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map_rising_item1": {
+      "type": "Text",
+      "props": {
+        "text": "• CLARITY Act",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map_rising_item2": {
+      "type": "Text",
+      "props": {
+        "text": "• Tokenized Equities+Ondo",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map_rising_item3": {
+      "type": "Text",
+      "props": {
+        "text": "• AI Agent Security/TEE",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map_rising_item4": {
+      "type": "Text",
+      "props": {
+        "text": "• AI Compute/DePIN-AI",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map_rising_item5": {
+      "type": "Text",
+      "props": {
+        "text": "• BNB Chain",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "map_peak_title",
+        "map_peak_item1",
+        "map_peak_item2"
+      ]
+    },
+    "map_peak_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map_peak_item1": {
+      "type": "Text",
+      "props": {
+        "text": "• AI Agent Economy",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map_peak_item2": {
+      "type": "Text",
+      "props": {
+        "text": "• x402/Base Agentic Payments",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "map_fading_title",
+        "map_fading_item1",
+        "map_fading_item2",
+        "map_fading_item3",
+        "map_fading_item4"
+      ]
+    },
+    "map_fading_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map_fading_item1": {
+      "type": "Text",
+      "props": {
+        "text": "• Hyperliquid (Dead Aug 6)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map_fading_item2": {
+      "type": "Text",
+      "props": {
+        "text": "• Kaito/InfoFi (structural)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map_fading_item3": {
+      "type": "Text",
+      "props": {
+        "text": "• Fed Pivot",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map_fading_item4": {
+      "type": "Text",
+      "props": {
+        "text": "• RWA Tokenization",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
