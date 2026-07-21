@@ -1,23 +1,23 @@
-*Morning Brief — 2026-07-20*
+*Morning Brief — 2026-07-21*
 
 *Focus today*
-1. CLARITY Act — why now: 18 days to Aug 7 recess; Polymarket at record-low 32%
-2. AI Compute/DePIN-AI FRONT-RUN — why now: entry window open; narrative-tracker confirms at 13:30 UTC
-3. x402/Base agentic payments — why now: Jesse Pollak confirms AI+payments as Base's 2026 strategy
+1. CLARITY Act floor vote — why now: this week or dead; Aug 7 recess closes 2026 window
+2. x402 Foundation (Visa/Stripe/Google live) — why now: BLUEAGENT thesis just graduated to internet infrastructure
+3. AI Compute / DePIN-AI position — why now: FRONT-RUN window open; entry timing matters this week
 
 *Since yesterday*
-- Argentina Polymarket resolves today — Jul 19 edge play closes; position outcome known at whistle
-- BANK pump (Jul 19 +151%) — reflexivity exit window is today; watch for price collapse
-- CLARITY Act Polymarket: 43% → 32% (record low Jul 17); combined text still not dropped, 11 days overdue
-- narrative-tracker: PEPE ETF added (Emerging ↑ WATCH); Kaito demoted (Fading ↓↓); Hyperliquid approaching Dead (Aug 6 unlock)
-- Security: quiet — 3 monitor-tier CVEs only, 0 critical, 0 new KEV
+- CLARITY Act: Polymarket 24% (record low, was 32% Jul 20); ethics provision unresolved; Thune hasn't scheduled cloture yet
+- x402 Foundation: Linux Foundation launched Jul 14 with 40 founding members (Visa, Mastercard, Stripe, Google, AWS, Cloudflare); Base at 169M agentic txns; $1+ share now 95% of volume
+- narrative-tracker Jul 20: US-Iran geopolitical risk added (oil +5% = inflationary); Hyperliquid approaching DEAD (9.92M HYPE unlock Aug 6)
+- deal-flow: Fireworks AI $1.5B Series D ($17.5B post, NVIDIA in) — AI inference consolidation thesis confirmed
 
 *Watch*
-- Pollak's Base 2026 pivot (AI + payments official) — corroborates Focus #3; BLUEAGENT agentic stack now has explicit strategic anchor from Base founder
+- x402 Foundation: Visa/Stripe/Google as founding members — Focus #2 is no longer crypto-native; it's open internet infrastructure. BLUEAGENT positioning strengthens materially.
+- CLARITY Act: 24% Polymarket vs 32% yesterday — fail to schedule = compress below 15%; ethics amendment = instant pop to 50%+
 
 *Running today*
-- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC

@@ -1,0 +1,409 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-21"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_yesterday",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_item1",
+        "focus_item2",
+        "focus_item3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus1_title",
+        "focus1_text"
+      ]
+    },
+    "focus1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. CLARITY Act floor vote",
+        "variant": "lead"
+      }
+    },
+    "focus1_text": {
+      "type": "Text",
+      "props": {
+        "text": "why now: this week or dead; Aug 7 recess closes 2026 window",
+        "variant": "body"
+      }
+    },
+    "focus_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus2_title",
+        "focus2_text"
+      ]
+    },
+    "focus2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. x402 Foundation (Visa/Stripe/Google live)",
+        "variant": "lead"
+      }
+    },
+    "focus2_text": {
+      "type": "Text",
+      "props": {
+        "text": "why now: BLUEAGENT thesis just graduated to internet infrastructure",
+        "variant": "body"
+      }
+    },
+    "focus_item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus3_title",
+        "focus3_text"
+      ]
+    },
+    "focus3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. AI Compute / DePIN-AI position",
+        "variant": "lead"
+      }
+    },
+    "focus3_text": {
+      "type": "Text",
+      "props": {
+        "text": "why now: FRONT-RUN window open; entry timing matters this week",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_yesterday",
+        "yesterday_item1",
+        "yesterday_item2",
+        "yesterday_item3",
+        "yesterday_item4"
+      ]
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yest1_title",
+        "yest1_stat",
+        "yest1_text"
+      ]
+    },
+    "yest1_title": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act:",
+        "variant": "lead"
+      }
+    },
+    "yest1_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Polymarket",
+        "value": "24%",
+        "delta": "-8%",
+        "trend": "down"
+      }
+    },
+    "yest1_text": {
+      "type": "Text",
+      "props": {
+        "text": "record low, was 32% Jul 20; ethics provision unresolved; Thune hasn't scheduled cloture yet",
+        "variant": "body"
+      }
+    },
+    "yesterday_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yest2_title",
+        "yest2_text1",
+        "yest2_text2"
+      ]
+    },
+    "yest2_title": {
+      "type": "Text",
+      "props": {
+        "text": "x402 Foundation:",
+        "variant": "lead"
+      }
+    },
+    "yest2_text1": {
+      "type": "Text",
+      "props": {
+        "text": "Linux Foundation launched Jul 14 with 40 founding members (Visa, Mastercard, Stripe, Google, AWS, Cloudflare)",
+        "variant": "body"
+      }
+    },
+    "yest2_text2": {
+      "type": "Text",
+      "props": {
+        "text": "Base at 169M agentic txns; $1+ share now 95% of volume",
+        "variant": "body"
+      }
+    },
+    "yesterday_item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yest3_title",
+        "yest3_text"
+      ]
+    },
+    "yest3_title": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker Jul 20:",
+        "variant": "lead"
+      }
+    },
+    "yest3_text": {
+      "type": "Text",
+      "props": {
+        "text": "US-Iran geopolitical risk added (oil +5% = inflationary); Hyperliquid approaching DEAD (9.92M HYPE unlock Aug 6)",
+        "variant": "body"
+      }
+    },
+    "yesterday_item4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yest4_title",
+        "yest4_text"
+      ]
+    },
+    "yest4_title": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow:",
+        "variant": "lead"
+      }
+    },
+    "yest4_text": {
+      "type": "Text",
+      "props": {
+        "text": "Fireworks AI $1.5B Series D ($17.5B post, NVIDIA in) — AI inference consolidation thesis confirmed",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_item1",
+        "watch_item2"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch1_title",
+        "watch1_text"
+      ]
+    },
+    "watch1_title": {
+      "type": "Text",
+      "props": {
+        "text": "x402 Foundation: Visa/Stripe/Google as founding members",
+        "variant": "lead"
+      }
+    },
+    "watch1_text": {
+      "type": "Text",
+      "props": {
+        "text": "Focus #2 is no longer crypto-native; it's open internet infrastructure. BLUEAGENT positioning strengthens materially.",
+        "variant": "body"
+      }
+    },
+    "watch_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch2_title",
+        "watch2_text"
+      ]
+    },
+    "watch2_title": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act: 24% Polymarket vs 32% yesterday",
+        "variant": "lead"
+      }
+    },
+    "watch2_text": {
+      "type": "Text",
+      "props": {
+        "text": "fail to schedule = compress below 15%; ethics amendment = instant pop to 50%+",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_item1",
+        "running_item2",
+        "running_item3",
+        "running_item4",
+        "running_item5"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_item1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
