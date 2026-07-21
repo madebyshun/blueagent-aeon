@@ -1,0 +1,418 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-07-21"
+      },
+      "children": [
+        "summary_text",
+        "sep1",
+        "winners_section",
+        "sep2",
+        "losers_section",
+        "sep3",
+        "trending_section",
+        "sep4",
+        "notable_section"
+      ]
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Broad risk-on — ~88% of non-stable top-100 coins green; BTC +2.9%, ETH +3.6% lead a synchronized major-coin bid; DEXE −62% is the lone crash event.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "winners_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners_heading",
+        "winners_table"
+      ]
+    },
+    "winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h3"
+      }
+    },
+    "winners_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "ONDO (Ondo)",
+            "$0.4018",
+            "+15.4%",
+            "+30.6%",
+            "−0.4%",
+            "$186.9M / #41",
+            "TRENDING+UP BREAKOUT"
+          ],
+          [
+            "VVV (Venice Token)",
+            "$12.95",
+            "+12.5%",
+            "+15.6%",
+            "+0.1%",
+            "$33.4M / #91",
+            "TRENDING+UP"
+          ],
+          [
+            "LIT (Lighter)",
+            "$2.360",
+            "+8.8%",
+            "−5.1%",
+            "+1.2%",
+            "$35.2M / #95",
+            "TRENDING+UP"
+          ],
+          [
+            "ADA (Cardano)",
+            "$0.1753",
+            "+6.9%",
+            "+10.2%",
+            "+0.1%",
+            "$478.3M / #18",
+            "MAJOR"
+          ],
+          [
+            "ENA (Ethena)",
+            "$0.08695",
+            "+6.9%",
+            "+2.7%",
+            "−0.1%",
+            "$119.2M / #75",
+            ""
+          ],
+          [
+            "DOT (Polkadot)",
+            "$0.8619",
+            "+6.1%",
+            "+2.4%",
+            "+0.6%",
+            "$108.3M / #52",
+            ""
+          ],
+          [
+            "STABLE",
+            "$0.03795",
+            "+5.8%",
+            "+2.5%",
+            "+0.8%",
+            "$19.2M / #68",
+            ""
+          ],
+          [
+            "UNI (Uniswap)",
+            "$3.690",
+            "+5.7%",
+            "+0.5%",
+            "+0.4%",
+            "$176.4M / #39",
+            ""
+          ],
+          [
+            "SKY",
+            "$0.06390",
+            "+5.7%",
+            "+5.1%",
+            "+0.6%",
+            "$9.5M / #51",
+            ""
+          ],
+          [
+            "FIL (Filecoin)",
+            "$0.7500",
+            "+5.0%",
+            "−1.8%",
+            "+0.2%",
+            "$68.6M / #92",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "losers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers_heading",
+        "losers_table"
+      ]
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h3"
+      }
+    },
+    "losers_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "DEXE (DeXe)",
+            "$13.23",
+            "−61.6%",
+            "−68.2%",
+            "−9.2%",
+            "$202.0M / #90",
+            "TRENDING+DOWN CAPITULATION"
+          ],
+          [
+            "BEAT (Audiera)",
+            "$2.290",
+            "−8.5%",
+            "−10.9%",
+            "−0.1%",
+            "$8.6M / #85",
+            ""
+          ],
+          [
+            "PI (Pi Network)",
+            "$0.09180",
+            "−6.4%",
+            "+28.0%",
+            "−1.9%",
+            "$21.0M / #65",
+            "TRENDING+DOWN"
+          ],
+          [
+            "M (MemeCore)",
+            "$1.180",
+            "−4.5%",
+            "−21.3%",
+            "−1.0%",
+            "$16.2M / #49",
+            ""
+          ],
+          [
+            "WLFI (World Liberty Fin.)",
+            "$0.05660",
+            "−0.4%",
+            "−1.9%",
+            "−0.2%",
+            "$23.8M / #44",
+            ""
+          ],
+          [
+            "MORPHO",
+            "$1.990",
+            "−0.4%",
+            "−2.0%",
+            "+0.2%",
+            "$18.1M / #58",
+            ""
+          ],
+          [
+            "POL (ex-MATIC)",
+            "$0.08064",
+            "−0.0%",
+            "−3.8%",
+            "−0.2%",
+            "$31.4M / #72",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trending_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending_heading",
+        "trending_table"
+      ]
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h3"
+      }
+    },
+    "trending_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h Change",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "ERA (Caldera)",
+            "#863",
+            "$0.1065",
+            "+73.0%",
+            "PUMP-RISK"
+          ],
+          [
+            "PONS",
+            "#613",
+            "$0.03892",
+            "+104.8%",
+            "PUMP-RISK"
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#115",
+            "$0.006410",
+            "+2.0%",
+            ""
+          ],
+          [
+            "DEXE (DeXe)",
+            "#90",
+            "$13.24",
+            "−61.5%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "ONDO (Ondo)",
+            "#41",
+            "$0.4018",
+            "+15.4%",
+            "TRENDING+UP"
+          ],
+          [
+            "VVV (Venice Token)",
+            "#91",
+            "$12.99",
+            "+12.7%",
+            "TRENDING+UP"
+          ],
+          [
+            "ETH (Ethereum)",
+            "#2",
+            "$1941",
+            "+3.7%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "notable_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_heading",
+        "notable_items"
+      ]
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h3"
+      }
+    },
+    "notable_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_1",
+        "notable_2",
+        "notable_3",
+        "notable_4",
+        "notable_5"
+      ]
+    },
+    "notable_1": {
+      "type": "Alert",
+      "props": {
+        "title": "ONDO: TRENDING+UP BREAKOUT",
+        "message": "7d +30.6% sustained, $186.9M vol at #41; RWA/tokenized equities narrative (DTCC live) likely driving",
+        "type": "success"
+      }
+    },
+    "notable_2": {
+      "type": "Alert",
+      "props": {
+        "title": "DEXE: CAPITULATION TRENDING+DOWN",
+        "message": "−61.6% on $202M vol (vol/mcap 0.33); investigate before any position — likely protocol event or insider dump",
+        "type": "error"
+      }
+    },
+    "notable_3": {
+      "type": "Alert",
+      "props": {
+        "title": "ERA/PONS: Pump Risk",
+        "message": "trending #863/#613 at +73%/+104.8% — low-cap coordinated spikes, avoid",
+        "type": "warning"
+      }
+    },
+    "notable_4": {
+      "type": "Text",
+      "props": {
+        "text": "• BEAT: reversed from Jul 20 winner (+8.1%) to today's loser (−8.5%); momentum exhausted overnight",
+        "variant": "body"
+      }
+    },
+    "notable_5": {
+      "type": "Text",
+      "props": {
+        "text": "• PI: trending while −6.4% 24h (7d still +28%) — search interest vs short-term sell pressure",
+        "variant": "body"
+      }
+    }
+  }
+}
