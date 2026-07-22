@@ -1,0 +1,688 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-07-22"
+      },
+      "children": [
+        "verdict_stack",
+        "sep1",
+        "patch_today_stack",
+        "sep2",
+        "patch_week_stack",
+        "sep3",
+        "monitor_stack"
+      ]
+    },
+    "verdict_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "verdict_badges",
+        "verdict_text",
+        "verdict_sources"
+      ]
+    },
+    "verdict_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_patch_today",
+        "badge_schedule",
+        "badge_monitor"
+      ]
+    },
+    "badge_patch_today": {
+      "type": "Badge",
+      "props": {
+        "text": "3 Patch Today",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge_schedule": {
+      "type": "Badge",
+      "props": {
+        "text": "5 to Schedule",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_monitor": {
+      "type": "Badge",
+      "props": {
+        "text": "3 to Monitor",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "verdict_text": {
+      "type": "Text",
+      "props": {
+        "text": "3 patch today (FortiSandbox EPSS 0.84 active exploitation, Gitea Docker 9.8 PoC), 5 to schedule, 3 to monitor.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "verdict_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV, GH Advisory, EPSS",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "patch_today_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch_today_heading",
+        "cve_39808_item",
+        "cve_25089_item",
+        "cve_20896_item"
+      ]
+    },
+    "patch_today_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Patch Today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "cve_39808_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_39808_link",
+        "cve_39808_meta",
+        "cve_39808_desc",
+        "cve_39808_remed"
+      ]
+    },
+    "cve_39808_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-39808 — Fortinet FortiSandbox",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-39808",
+        "source": "KEV 2026-07-16",
+        "score": "EPSS 0.84"
+      },
+      "children": []
+    },
+    "cve_39808_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve_39808_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated OS command injection via crafted HTTP — highest-EPSS item this week. Active exploitation confirmed per CISA.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve_39808_remed": {
+      "type": "Text",
+      "props": {
+        "text": "→ patch FortiSandbox firmware immediately; restrict unauthenticated HTTP access.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve_25089_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_25089_link",
+        "cve_25089_meta",
+        "cve_25089_desc",
+        "cve_25089_remed"
+      ]
+    },
+    "cve_25089_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-25089 — Fortinet FortiSandbox",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-25089",
+        "source": "KEV 2026-07-16",
+        "score": "EPSS 0.36"
+      },
+      "children": []
+    },
+    "cve_25089_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve_25089_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Companion OS cmdinj CVE on the same attack surface. EPSS 0.36 — elevated active exploitation risk.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve_25089_remed": {
+      "type": "Text",
+      "props": {
+        "text": "→ same patch covers both; verify firmware version after update.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve_20896_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_20896_link",
+        "cve_20896_meta",
+        "cve_20896_desc",
+        "cve_20896_remed"
+      ]
+    },
+    "cve_20896_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-20896 — Gitea Docker (Go)",
+        "href": "https://github.com/advisories/GHSA-f75j-4cw6-rmx4",
+        "source": "public PoC",
+        "score": "CVSS 9.8"
+      },
+      "children": []
+    },
+    "cve_20896_meta": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS 0.008",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve_20896_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Default REVERSE_PROXY_TRUSTED_PROXIES=* trusts X-WEBAUTH-USER from any IP — any attacker impersonates any user.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve_20896_remed": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade Gitea to ≥ 1.26.3, set explicit trusted-proxy IPs, redeploy.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "patch_week_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch_week_heading",
+        "cve_58644_item",
+        "cve_46817_item",
+        "cve_4346_item",
+        "ghsa_vitest_item",
+        "ghsa_gitpython_item"
+      ]
+    },
+    "patch_week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Patch This Week",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "cve_58644_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_58644_link",
+        "cve_58644_meta",
+        "cve_58644_desc",
+        "cve_58644_remed"
+      ]
+    },
+    "cve_58644_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-58644 — Microsoft SharePoint",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-58644",
+        "source": "KEV 2026-07-16",
+        "score": "EPSS 0.015"
+      },
+      "children": []
+    },
+    "cve_58644_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve_58644_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Deserialization RCE over network. Actively exploited per CISA.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve_58644_remed": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule MS SharePoint security update.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve_46817_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_46817_link",
+        "cve_46817_meta",
+        "cve_46817_desc",
+        "cve_46817_remed"
+      ]
+    },
+    "cve_46817_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-46817 — Oracle E-Business Suite",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-46817",
+        "source": "KEV 2026-07-15",
+        "score": "EPSS 0.010"
+      },
+      "children": []
+    },
+    "cve_46817_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve_46817_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated HTTP privilege escalation → full Oracle Payments module takeover.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve_46817_remed": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Oracle Critical Patch Update for E-Business Suite.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve_4346_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_4346_link",
+        "cve_4346_meta",
+        "cve_4346_desc",
+        "cve_4346_remed"
+      ]
+    },
+    "cve_4346_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2023-4346 — KNX Protocol",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2023-4346",
+        "source": "KEV 2026-07-15",
+        "score": "EPSS 0.009"
+      },
+      "children": []
+    },
+    "cve_4346_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve_4346_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Lockout attack wipes devices and sets BCU keys when only Option 1 auth is enabled.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve_4346_remed": {
+      "type": "Text",
+      "props": {
+        "text": "→ enable KNX security Option 2/3; update firmware.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ghsa_vitest_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_vitest_link",
+        "ghsa_vitest_meta",
+        "ghsa_vitest_desc",
+        "ghsa_vitest_remed"
+      ]
+    },
+    "ghsa_vitest_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-p63j-vcc4-9vmv — @vitest/browser (npm)",
+        "href": "https://github.com/advisories/GHSA-p63j-vcc4-9vmv",
+        "source": "npm",
+        "score": "CVSS 9.4"
+      },
+      "children": []
+    },
+    "ghsa_vitest_meta": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS ~0 · no public PoC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ghsa_vitest_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Browser Mode commands bypass allowWrite=false — arbitrary file read/write/delete at any path the Vitest process can access.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ghsa_vitest_remed": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade @vitest/browser to ≥ 3.2.7 (v3) / ≥ 4.1.10 (v4).",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ghsa_gitpython_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_gitpython_link",
+        "ghsa_gitpython_meta",
+        "ghsa_gitpython_desc",
+        "ghsa_gitpython_remed"
+      ]
+    },
+    "ghsa_gitpython_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-2f96-g7mh-g2hx — GitPython (pip)",
+        "href": "https://github.com/advisories/GHSA-2f96-g7mh-g2hx",
+        "source": "pip",
+        "score": "CVSS 8.8"
+      },
+      "children": []
+    },
+    "ghsa_gitpython_meta": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS ~0",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ghsa_gitpython_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Kwarg abbreviation bypasses the CVE-2026-42215 blocklist fix — RCE with attacker-controlled keyword args.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ghsa_gitpython_remed": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade GitPython to ≥ 3.1.51.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "monitor_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "monitor_heading",
+        "ghsa_gitpython_956x_item",
+        "ghsa_sigstore_item",
+        "ghsa_grpc_item"
+      ]
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Monitor",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "ghsa_gitpython_956x_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_gitpython_956x_link",
+        "ghsa_gitpython_956x_meta",
+        "ghsa_gitpython_956x_desc",
+        "ghsa_gitpython_956x_remed"
+      ]
+    },
+    "ghsa_gitpython_956x_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-956x-8gvw-wg5v — GitPython (pip)",
+        "href": "https://github.com/advisories/GHSA-956x-8gvw-wg5v",
+        "source": "pip",
+        "score": "CVSS 8.4"
+      },
+      "children": []
+    },
+    "ghsa_gitpython_956x_meta": {
+      "type": "Text",
+      "props": {
+        "text": "no confirmed patch",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ghsa_gitpython_956x_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Command injection in Repo.archive(), ls_remote(), file overwrite via iter_commits()/blame(). Companion to above.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ghsa_gitpython_956x_remed": {
+      "type": "Text",
+      "props": {
+        "text": "→ avoid untrusted input to affected methods; watch for GitPython ≥ 3.1.52.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ghsa_sigstore_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_sigstore_link",
+        "ghsa_sigstore_meta",
+        "ghsa_sigstore_desc",
+        "ghsa_sigstore_remed"
+      ]
+    },
+    "ghsa_sigstore_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-pf56-329r-95rw — @sigstore/oci (npm)",
+        "href": "https://github.com/advisories/GHSA-pf56-329r-95rw",
+        "source": "npm",
+        "score": "CVSS 9.6"
+      },
+      "children": []
+    },
+    "ghsa_sigstore_meta": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS 0.003 · fix: ≥ 0.7.1",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ghsa_sigstore_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Credential confusion leaks private registry credentials to attacker-controlled registry.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ghsa_sigstore_remed": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade @sigstore/oci to ≥ 0.7.1 in next dep update.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ghsa_grpc_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_grpc_link",
+        "ghsa_grpc_meta",
+        "ghsa_grpc_desc",
+        "ghsa_grpc_remed"
+      ]
+    },
+    "ghsa_grpc_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-hrxh-6v49-42gf — gRPC-Go (go)",
+        "href": "https://github.com/advisories/GHSA-hrxh-6v49-42gf",
+        "source": "go",
+        "score": "no CVSS"
+      },
+      "children": []
+    },
+    "ghsa_grpc_meta": {
+      "type": "Text",
+      "props": {
+        "text": "no CVE · patch pending",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ghsa_grpc_desc": {
+      "type": "Text",
+      "props": {
+        "text": "xDS RBAC and HTTP/2 vulnerability cluster in google.golang.org/grpc. Details pending.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ghsa_grpc_remed": {
+      "type": "Text",
+      "props": {
+        "text": "→ watch gRPC-Go release; update to latest stable once patch lands.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

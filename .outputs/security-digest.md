@@ -1,50 +1,49 @@
-*Security Digest — 2026-07-21*
-Verdict: 3 actively exploited (KEV added today), 5 to patch this week, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-07-22*
+Verdict: 3 patch today (FortiSandbox EPSS 0.84 active exploitation, Gitea Docker 9.8 PoC), 5 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- CVE-2026-0770 — Langflow (pip) · KEV 2026-07-21 · EPSS 0.10 · CVSS n/a
-  RCE on Langflow instances, exploited in the wild per CISA (due 2026-07-24).
-  → isolate Langflow from public network; apply mitigations or discontinue use.
+- [CVE-2026-39808](https://nvd.nist.gov/vuln/detail/CVE-2026-39808) — Fortinet FortiSandbox · KEV 2026-07-16 · EPSS 0.84 · CVSS n/a
+  Unauthenticated OS command injection via crafted HTTP — highest-EPSS item this week. Active exploitation confirmed per CISA.
+  → patch FortiSandbox firmware immediately; restrict unauthenticated HTTP access.
 
-- CVE-2026-63030 + CVE-2026-60137 — WordPress Core · KEV 2026-07-21 · EPSS 0.09/0.04
-  SQL injection + interpretation conflict chain = unauthenticated RCE on default installs. Due 2026-07-24.
-  → update WordPress Core immediately; apply BOD 26-04 mitigations.
+- [CVE-2026-25089](https://nvd.nist.gov/vuln/detail/CVE-2026-25089) — Fortinet FortiSandbox · KEV 2026-07-16 · EPSS 0.36 · CVSS n/a
+  Companion OS cmdinj CVE on the same attack surface. EPSS 0.36 — elevated active exploitation risk.
+  → same patch covers both; verify firmware version after update.
 
-- CVE-2021-27137 — DD-WRT firmware · KEV 2026-07-21 · EPSS 0.05 · CVSS n/a
-  UPnP stack overflow → unauthenticated code exec. 2021 CVE now actively exploited. Due 2026-07-24.
-  → patch DD-WRT to latest build with UPnP fix; disable UPnP if patch unavailable.
+- [CVE-2026-20896](https://github.com/advisories/GHSA-f75j-4cw6-rmx4) — Gitea Docker (Go) · CVSS 9.8 · EPSS 0.008 · public PoC
+  Default REVERSE_PROXY_TRUSTED_PROXIES=* trusts X-WEBAUTH-USER from any IP — any attacker impersonates any user.
+  → upgrade Gitea to ≥ 1.26.3, set explicit trusted-proxy IPs, redeploy.
 
 *PATCH THIS WEEK*
-- CVE-2026-59873 (GHSA-23hp-3jrh-7fpw) — tar (npm) · CVSS 9.2 · EPSS 0.004 · public PoC
-  Gzip bomb: no decompression limits → disk exhaust + service crash. PoC documented.
-  → upgrade tar to ≥7.5.19.
+- [CVE-2026-58644](https://nvd.nist.gov/vuln/detail/CVE-2026-58644) — Microsoft SharePoint · KEV 2026-07-16 · EPSS 0.015 · CVSS n/a
+  Deserialization RCE over network. Actively exploited per CISA.
+  → schedule MS SharePoint security update.
 
-- CVE-2026-61736 + CVE-2026-61740 (GHSA-6x6h-qqr7-855w / GHSA-f4vv-55c2-5789) — lightrag-hku (pip) · CVSS 9.3 + auth bypass · EPSS 0.004/0.003
-  CORS wildcard with credentials (9.3) + hardcoded DEFAULT_TOKEN_SECRET defeats API key protection.
-  → upgrade lightrag-hku to ≥1.5.4.
+- [CVE-2026-46817](https://nvd.nist.gov/vuln/detail/CVE-2026-46817) — Oracle E-Business Suite · KEV 2026-07-15 · EPSS 0.010 · CVSS n/a
+  Unauthenticated HTTP privilege escalation → full Oracle Payments module takeover.
+  → apply Oracle Critical Patch Update for E-Business Suite.
 
-- CVE-2026-61836 + CVE-2026-61835 (GHSA-c6w9-5g5j-jh2p / GHSA-j5h6-vqc3-phqh) — directus (npm) · CVSS 8.6 / 7.7 · EPSS 0.003
-  Auth-gated responses leak via shared cache key + SSRF bypass via 0.0.0.0.
-  → upgrade directus to ≥12.0.0.
+- [CVE-2023-4346](https://nvd.nist.gov/vuln/detail/CVE-2023-4346) — KNX Protocol · KEV 2026-07-15 · EPSS 0.009 · CVSS n/a
+  Lockout attack wipes devices and sets BCU keys when only Option 1 auth is enabled.
+  → enable KNX security Option 2/3; update firmware.
 
-- CVE-2026-59731 (GHSA-vj59-8hwv-xxmv) — astro (npm) · CVSS 8.2 · EPSS 0.003
-  Auth bypass via decode iteration limit + rewrite path canonicalization mismatch.
-  → upgrade astro to ≥6.4.8.
+- [GHSA-p63j-vcc4-9vmv](https://github.com/advisories/GHSA-p63j-vcc4-9vmv) — @vitest/browser (npm) · CVSS 9.4 · EPSS ~0 · no public PoC
+  Browser Mode commands bypass allowWrite=false — arbitrary file read/write/delete at any path the Vitest process can access.
+  → upgrade @vitest/browser to ≥ 3.2.7 (v3) / ≥ 4.1.10 (v4).
 
-- 8 CVEs — Pillow (pip) · CVSS 7.5–8.2 · EPSS up to 0.004
-  Heap OOB writes, decompression bomb bypasses via font loading, OOB read via McIdas AREA files.
-  → upgrade Pillow to ≥12.3.0 when released; pin to latest 12.x now.
+- [GHSA-2f96-g7mh-g2hx](https://github.com/advisories/GHSA-2f96-g7mh-g2hx) — GitPython (pip) · CVSS 8.8 · EPSS ~0
+  Kwarg abbreviation bypasses the CVE-2026-42215 blocklist fix — RCE with attacker-controlled keyword args.
+  → upgrade GitPython to ≥ 3.1.51.
 
 *MONITOR*
-- GHSA-7rc3-g7h6-22m7 + GHSA-fmm7-x4gx-8jhr — filebrowser (Go) · CVSS 8.2/8.1 · no patch yet
-  Username normalization collision → shared home dirs; Create-only user deletes arbitrary files via symlink.
-  → track filebrowser releases; restrict to trusted users only.
+- [GHSA-956x-8gvw-wg5v](https://github.com/advisories/GHSA-956x-8gvw-wg5v) — GitPython (pip) · CVSS 8.4 · no confirmed patch
+  Command injection in Repo.archive(), ls_remote(), file overwrite via iter_commits()/blame(). Companion to above.
+  → avoid untrusted input to affected methods; watch for GitPython ≥ 3.1.52.
 
-- GHSA-c8j7-8cv4-2xmq + GHSA-4j32-57v6-6g45 + GHSA-ffq3-xpv3-j92q — mistune (pip) · CVSS 7.5 · no patch
-  Quadratic-time parsing on emphasis, strikethrough, and reference-link inputs; DoS on untrusted markdown.
-  → watch for mistune 3.3.0; cap untrusted input lengths as interim mitigation.
+- [GHSA-pf56-329r-95rw](https://github.com/advisories/GHSA-pf56-329r-95rw) — @sigstore/oci (npm) · CVSS 9.6 · EPSS 0.003 · fix: ≥ 0.7.1
+  Credential confusion leaks private registry credentials to attacker-controlled registry.
+  → upgrade @sigstore/oci to ≥ 0.7.1 in next dep update.
 
-- GHSA-r635-g3xr-vw7x (CVE-2026-59725) — engine.io (npm) · CVSS 7.5 · fix ≥6.6.7
-  Polling transport connection exhaustion → socket.io service denial.
-  → upgrade engine.io to ≥6.6.7 if in socket.io stack.
-
+- [GHSA-hrxh-6v49-42gf](https://github.com/advisories/GHSA-hrxh-6v49-42gf) — gRPC-Go (go) · no CVE · no CVSS · patch pending
+  xDS RBAC and HTTP/2 vulnerability cluster in google.golang.org/grpc. Details pending.
+  → watch gRPC-Go release; update to latest stable once patch lands.
