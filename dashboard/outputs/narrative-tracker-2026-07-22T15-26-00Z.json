@@ -1,0 +1,524 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-22"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "transitions-section",
+        "reflexivity-section",
+        "positions-section",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans-heading",
+        "trans-items"
+      ]
+    },
+    "trans-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "trans-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-1",
+        "trans-2",
+        "trans-3"
+      ]
+    },
+    "trans-1": {
+      "type": "Alert",
+      "props": {
+        "title": "DEMOTED: CLARITY Act",
+        "message": "RIDE → WATCH | Jul 21 ethics deal reversed; merged Senate draft drops ethics clause; 3 Dems (Murphy/Van Hollen/Merkley) formally opposed; back at Jul 20 fail condition — 16 days to Aug 7 recess",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "trans-2": {
+      "type": "Alert",
+      "props": {
+        "title": "DEMOTED: Privacy/ZK",
+        "message": "Emerging → Fading | ZEC −5.7% today with Ironwood 6 days out; FADE RISK materialized; structural exchange delistings accelerating",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "trans-3": {
+      "type": "Alert",
+      "props": {
+        "title": "APPROACHING DEAD: Hyperliquid",
+        "message": "HYPE −6.7% while #1 trending (distribution signal confirmed); Aug 6 unlock 15 days (9.92M HYPE ~$583M to Core Contributors); stacked pressure terminal",
+        "type": "error"
+      },
+      "children": []
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflex-heading",
+        "reflex-items"
+      ]
+    },
+    "reflex-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "reflex-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflex-1",
+        "reflex-2"
+      ]
+    },
+    "reflex-1": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act Polymarket: Jul 20 ethics deal → 43%; Jul 22 draft drops ethics clause → repricing downward. Story moving markets faster than legislative reality — pure binary vol event, no directional edge",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "reflex-2": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO: +3% today after +15.4% yesterday (+27.8% 7d) in a −1.4% BTC market. Pure momentum carry; overbought signal growing. Reflexive cycle (price → coverage → adoption → price); secondary events = reversal catalyst",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos-heading",
+        "pos-items"
+      ]
+    },
+    "pos-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "pos-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos-1",
+        "pos-2",
+        "pos-3",
+        "pos-4",
+        "pos-5",
+        "pos-6",
+        "pos-7",
+        "pos-8"
+      ]
+    },
+    "pos-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-frontrun",
+        "text-pos-1"
+      ]
+    },
+    "badge-frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "primary"
+      },
+      "children": []
+    },
+    "text-pos-1": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN-AI (3 ↑↑ Rising, Bull) — @akashnet 80% GPU utilization $5M Q1 real revenue; io.net 130k GPUs 130+ countries; Render $38M/month — real revenue pivot confirmed Q1 2026. Bear: token→adoption gap. Entry window open per morning-brief",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride1",
+        "text-pos-2"
+      ]
+    },
+    "badge-ride1": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-pos-2": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy (5 ↑ Peak, Bull) — x402 parabolic, $FET/$VIRTUAL institutional, sector $25B+. Bear: security unpriced",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride2",
+        "text-pos-3"
+      ]
+    },
+    "badge-ride2": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-pos-3": {
+      "type": "Text",
+      "props": {
+        "text": "x402/Base (5 ↑↑ Peak, Bull) — 40 firms Linux Foundation; 75M txns $24M/month. Bear: micro-payment test volumes not macro settlement",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride3",
+        "text-pos-4"
+      ]
+    },
+    "badge-ride3": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-pos-4": {
+      "type": "Text",
+      "props": {
+        "text": "Tokenized Equities/DTCC+Ondo (4 ↑ Rising, Bull) — ONDO +27.8% 7d; RWA.xyz $1B+ tokenized equities July 2026. Bear: overbought momentum risk",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride4",
+        "text-pos-5"
+      ]
+    },
+    "badge-ride4": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-pos-5": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Security/TEE (4 ↑ Rising, Bull) — Ledger Agent Stack; @PhalaNetwork; $45M H1 losses confirm demand",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch",
+        "text-pos-6"
+      ]
+    },
+    "badge-watch": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-pos-6": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act (3 ↓ Rising, Mixed) — Aug 7 recess is terminal; upgrade if ethics enforcement credible; downgrade to FADE if floor vote fails",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade1",
+        "text-pos-7"
+      ]
+    },
+    "badge-fade1": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text-pos-7": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZK (2 ↓↓ Fading) — ZEC −5.7% 6 days pre-Ironwood; security fix framing not bullish expansion; delistings structural",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade2",
+        "text-pos-8"
+      ]
+    },
+    "badge-fade2": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text-pos-8": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid (1 ↓↓ near Dead) — HYPE −6.7% while trending = distribution; Aug 6 terminal",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-heading",
+        "map-items"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "map-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emrg-h",
+        "map-emrg-t"
+      ]
+    },
+    "map-emrg-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-emrg-t": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin Rails/GENIUS, Agentic Dev Tools, BNB Chain, US-Iran, PEPE ETF, Lean Ethereum",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rise-h",
+        "map-rise-t"
+      ]
+    },
+    "map-rise-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-rise-t": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Security/TEE, Tokenized Equities, AI Compute/DePIN-AI, CLARITY Act (WATCH)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-h",
+        "map-peak-t"
+      ]
+    },
+    "map-peak-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-peak-t": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy, x402/Base, Robinhood Chain",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fade-h",
+        "map-fade-t"
+      ]
+    },
+    "map-fade-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-fade-t": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZK (NEW ENTRY), Hyperliquid (near Dead), Fed Pivot, Kaito/InfoFi, RWA Tokenization",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

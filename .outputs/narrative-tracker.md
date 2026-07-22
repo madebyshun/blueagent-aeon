@@ -1,30 +1,26 @@
-*Narrative Tracker — 2026-07-21*
+*Narrative Tracker — 2026-07-22*
 
 TRANSITIONS
-• PROMOTED: CLARITY Act (WATCH → RIDE) — White House ethics deal Jul 20 fires pre-named upgrade trigger; Polymarket 24%→43% (+19pp intraday); floor vote this week or Aug 7 recess = kill date
-• PROMOTED: Tokenized Equities/Ondo (FRONT-RUN → RIDE) — ONDO +15.4% 24h / +30.6% 7d; $3.78B TVL; FRONT-RUN call confirmed; new entries carry momentum risk
-• UPGRADED: x402/Base (Rising ↑ → Peak ↑↑, MS 4→5) — Visa/MC/Amex/Stripe/Google/AWS/Shopify/Cloudflare (40 firms, Linux Foundation); 75M txns/mo; USDC on Base = internet infrastructure tier
-• NEW: Stablecoin Rails/GENIUS Implementation (Emerging ↑ WATCH) — OCC rulemaking live (filed Jun 22); comment period closes Jul 24; law passed, implementation phase active
+• DEMOTED: CLARITY Act (RIDE → WATCH) — Jul 21 ethics deal reversed; merged Senate draft drops ethics clause; 3 Dems (Murphy/Van Hollen/Merkley) formally opposed; back at Jul 20 fail condition — 16 days to Aug 7 recess
+• DEMOTED: Privacy/ZK (Emerging → Fading) — ZEC −5.7% today with Ironwood 6 days out; FADE RISK materialized; structural exchange delistings accelerating
+• APPROACHING DEAD: Hyperliquid — HYPE −6.7% while #1 trending (distribution signal confirmed); Aug 6 unlock 15 days (9.92M HYPE ~$583M to Core Contributors); stacked pressure terminal
 
 REFLEXIVITY ALERT
-• CLARITY Act: ethics deal → Polymarket 43% before vote exists — story moving odds before outcome. Floor vote → 60s-70s. Cloture fail → 20s. Binary vol event, no directional edge.
-• ONDO: FRONT-RUN→RIDE now self-reinforcing — TVL + Ondo Perps + Hot Stock Summer driving price (+30.6% 7d) driving narrative. Overbought risk; SEC delay or secondary unlock = reversal.
-• x402: 40-firm institutional backing leads real adoption by 6-12 months — story moving developer onboarding moving eventual volume. Reflexive but long runway.
+• CLARITY Act Polymarket: Jul 20 ethics deal → 43%; Jul 22 draft drops ethics clause → repricing downward. Story moving markets faster than legislative reality — pure binary vol event, no directional edge
+• ONDO: +3% today after +15.4% yesterday (+27.8% 7d) in a −1.4% BTC market. Pure momentum carry; overbought signal growing. Reflexive cycle (price → coverage → adoption → price); secondary events = reversal catalyst
 
 POSITIONS
-• RIDE: CLARITY Act (4 ↑↑, Mixed) — @Thune floor pledge / ethics deal — Bear: needs 60-vote cloture + 7 Dems; Aug 7 recess terminal
-• RIDE: x402/Base (5 ↑↑, Bull) — Visa/MC/Stripe/Google (40 firms) — Bear: multi-chain; Base leads distribution not exclusivity
-• RIDE: Tokenized Equities+Ondo (4 ↑, Bull) — @OndoFinance $3.78B TVL / Ondo Perps — Bear: fast-move overbought risk
-• RIDE: AI Agent Economy (5 ↑, Bull) — @virtuals_io $VIRTUAL +17% 7d — Bear: security unpriced
-• RIDE: AI Agent Security/TEE (4 ↑, Bull) — @PhalaNetwork / Ledger Stack — Bear: tooling ≠ adoption
-• FRONT-RUN: AI Compute/DePIN-AI (3 ↑↑, Bull) — @akashnet / io.net / VVV Dragonfly $65M — Bear: token→adoption gap
-• WATCH: Stablecoin Rails/GENIUS Impl (2 ↑, Bull) — OCC rulemaking; Jul 24 comment close — Bear: implementation lag
-• FADE: Hyperliquid (2 ↓↓) — Aug 6: 9.92M HYPE $623M Core Contributors (16 days)
-• FADE: Kaito/InfoFi (2 ↓↓) — structural dead: X API revoked Jan 2026
-• FADE: Fed Pivot (2 ↓) — US-Iran oil +5%; CPI 3.5%; no cut path
+• FRONT-RUN: AI Compute/DePIN-AI (3 ↑↑ Rising, Bull) — @akashnet 80% GPU utilization $5M Q1 real revenue; io.net 130k GPUs 130+ countries; Render $38M/month — real revenue pivot confirmed Q1 2026. Bear: token→adoption gap. Entry window open per morning-brief
+• RIDE: AI Agent Economy (5 ↑ Peak, Bull) — x402 parabolic, $FET/$VIRTUAL institutional, sector $25B+. Bear: security unpriced
+• RIDE: x402/Base (5 ↑↑ Peak, Bull) — 40 firms Linux Foundation; 75M txns $24M/month. Bear: micro-payment test volumes not macro settlement
+• RIDE: Tokenized Equities/DTCC+Ondo (4 ↑ Rising, Bull) — ONDO +27.8% 7d; RWA.xyz $1B+ tokenized equities July 2026. Bear: overbought momentum risk
+• RIDE: AI Agent Security/TEE (4 ↑ Rising, Bull) — Ledger Agent Stack; @PhalaNetwork; $45M H1 losses confirm demand
+• WATCH: CLARITY Act (3 ↓ Rising, Mixed) — Aug 7 recess is terminal; upgrade if ethics enforcement credible; downgrade to FADE if floor vote fails
+• FADE: Privacy/ZK (2 ↓↓ Fading) — ZEC −5.7% 6 days pre-Ironwood; security fix framing not bullish expansion; delistings structural
+• FADE: Hyperliquid (1 ↓↓ near Dead) — HYPE −6.7% while trending = distribution; Aug 6 terminal
 
 MAP
-Emerging: Stablecoin Rails/GENIUS Impl (NEW), Agentic Dev Tools, PEPE ETF Wave, Privacy/ZK (FADE RISK 7d), US-Iran Geopolitical, Lean Ethereum
-Rising: CLARITY Act, Tokenized Equities+Ondo, AI Agent Security/TEE, AI Compute/DePIN-AI, BNB Chain
-Peak: AI Agent Economy, x402/Base Agentic Payments
-Fading: Hyperliquid (Dead Aug 6), Kaito/InfoFi (structural), Fed Pivot, RWA Tokenization
+Emerging: Stablecoin Rails/GENIUS, Agentic Dev Tools, BNB Chain, US-Iran, PEPE ETF, Lean Ethereum
+Rising: AI Agent Security/TEE, Tokenized Equities, AI Compute/DePIN-AI, CLARITY Act (WATCH)
+Peak: AI Agent Economy, x402/Base, Robinhood Chain
+Fading: Privacy/ZK (NEW ENTRY), Hyperliquid (near Dead), Fed Pivot, Kaito/InfoFi, RWA Tokenization
