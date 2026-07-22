@@ -1,16 +1,16 @@
-*Daily Pick — 2026-07-21*
+*Daily Pick — 2026-07-22*
 
-*Token: VIRTUAL* [HIGH] signal 10/10
-Price: $0.665 (+7.5% 24h / +17.0% 7d) | mcap $437M | vol $100M (vol/mcap 0.23)
-Score breakdown: [trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2, both>5%+2, 24h+1, 7d+1] = 11→cap 10
-Catalyst: Virtuals launched tokenized AI agent indexes on Robinhood Chain (mid-Jul) + peaqOS machine-to-agent commerce live Jul 14 — multi-chain expansion shifts VIRTUAL from narrative token toward infrastructure fee capture
-Risk: Robinhood Chain week-3 stagnation test active (builder earnings thin at $619 avg); if network effects plateau, VIRTUAL's valuation premium compresses fast
+*Token: XEC*  [HIGH]  signal 9/10
+Price: $0.00000779 (+12.45% 24h / +14.41% 7d) | mcap $156M | vol $37.9M (vol/mcap 0.24)
+Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, vol/mcap≥0.20+3, RS vs BTC/ETH 7d+2] = 9/10
+Catalyst: XEC (eCash) perps went live on ASTER DEX with 5x leverage in July 2026, triggering a 55%+ rally from July 1 all-time low and record derivatives open interest
+Risk: Perp-listing pump already well underway and technically overbought; August 2026 Bitcoin hard fork also claiming the eCash name — brand confusion + potential market split
 
-*Market: "Will Lamine Yamal win the Ballon d'Or 2026?"* [HIGH] edge 21pp
-Current: YES 29.15¢ / NO ~70.85¢ | 24h vol $348k | resolves: Oct 31, 2026
-Fair YES: ~50% (inputs: Spain won 2026 FIFA WC Jul 19 beating Argentina 1-0; Yamal key figure in Spain's run; post-WC analyses rank Yamal as top Ballon d'Or candidate at ~50.8% fair probability)
-Thesis: Polymarket prices Yamal at 29% while Spain winning the WC with Yamal as standard-bearer puts fair value at ~50%; sportsbook bias toward Kane (6 goals, English media market) is overweighting a bronze-medalist team — last three WC/Euro double-win years the WC star dominated (Messi 2022, Rodri 2024)
-Risk: Yamal is 18 — older Ballon d'Or voters may penalize youth; Kane's 6-goal campaign keeps him competitive in traditional media narrative; Rodri (same Spain team) could split Spain-bloc votes
+*Market: "Will LeBron James play for the Miami Heat in 2026-27?"*  [HIGH]  edge 12pp
+Current: YES 50.2¢ / NO 49.8¢ | 24h vol $942k | resolves: 2026-10-31
+Fair YES: ~38% (inputs: 4 teams named as genuine contenders — Cavs, Heat, 76ers, Warriors per ESPN/Bleacher Report; Heat's hard cap forces ~$7M offer vs. max-level deals from Cavs; Rich Paul says no timetable — no confirmed preference yet)
+Thesis: buy NO at 49.8¢ — market prices Heat at 50% but 4 active contenders + Heat's $7M ceiling vs. richer alternatives puts fair value ~38%
+Risk: Giannis reportedly in talks with Heat — if confirmed, Heat probability spikes and NO position loses fast
 
 sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only
