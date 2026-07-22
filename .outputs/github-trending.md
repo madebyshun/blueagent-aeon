@@ -1,27 +1,28 @@
-*GitHub Trending — 2026-07-21*
+*GitHub Trending — 2026-07-22*
 
-*Top pick* — [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book)
-4.4k stars today — nearly 5x any other repo on the list. For a technical book, that's a signal the AI-agent-engineering gap was real and this filled it.
+*Top pick* — [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)
+Best-named repo of the week: a directive layer that forces coding agents to lead with the answer — stops LLMs burying the output under paragraphs of caveats.
 
 *AI/ML*
-• [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) — ★ 4.4k today (13k total) · Python · [RETURNING]
-Production-grade AI agent engineering book — covers memory, multi-agent orchestration, and tool routing as a coherent system.
+• [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — ★ 1,866 today (7.6k total) · Python · [ACCELERATING]
+Forces coding agents to top-load answers — inject this skill and your agent stops hiding the result on line 40.
 
-• [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) — ★ 317 today (37k total) · Python · [RETURNING]
-Plugs any LLM into WeChat, QQ, Telegram, and 5+ other IM platforms with MCP support built in.
+• [koala73/worldmonitor](https://github.com/koala73/worldmonitor) — ★ 1,295 today (67.3k total) · TypeScript · [ACCELERATING]
+Self-hostable real-time intelligence dashboard — AI-ranked live news from global sources, one unified view.
 
-• [handy-computer/transcribe.cpp](https://github.com/handy-computer/transcribe.cpp) — ★ 395 today (1.4k total) · C++ · [RETURNING]
-GGML-based speech-to-text spanning 16+ model families — fully offline, same backend as llama.cpp.
-
-• [moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine) — ★ 282 today (10k total) · C++ · [RETURNING]
-Built for real-time voice agent pipelines where latency is the bottleneck — offline, lightweight, edge-optimized.
+• [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) — ★ 291 today (9.5k total) · JavaScript · [ACCELERATING]
+Open agent skill pack turning natural-language prompts into CAD geometry — first LLM-to-hardware design toolkit for makers and roboticists.
 
 *Devtools*
-• [every-app/open-seo](https://github.com/every-app/open-seo) — ★ 939 today (6.2k total) · TypeScript · [RETURNING]
-Full SEO stack — crawl analysis, rank tracking, competitor backlinks — self-hosted to cut platform subscription costs.
+• [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) — ★ 129 today (30.4k total) · Rust · [ACCELERATING]
+One command audits hundreds of model/provider combos against your GPU specs — replaces trial-and-error LLM hardware selection.
 
-• [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) — ★ 96 today (26.7k total) · Python · [RETURNING]
-A single @tool decorator turns any Python function into an LLM-callable MCP server tool.
+• [schollz/croc](https://github.com/schollz/croc) — ★ 361 today (37.1k total) · Go · [RETURNING]
+Relay-assisted encrypted file transfer through firewalls — no accounts, no port config, just a 3-word code.
+
+*Web/Apps*
+• [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) — ★ 271 today (37.8k total) · Rust · [RETURNING]
+Single Rust codebase compiles to web (WASM), desktop, and mobile — signal-based reactivity with no separate JS layer.
 
 ---
 sources: trending=ok · gh_api=ok · kept 6/21

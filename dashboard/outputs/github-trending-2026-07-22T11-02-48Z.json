@@ -1,0 +1,531 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-22"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_toppick",
+        "sep1",
+        "section_aiml",
+        "sep2",
+        "section_devtools",
+        "sep3",
+        "section_webapps",
+        "sep4",
+        "footer_text"
+      ]
+    },
+    "section_toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_toppick",
+        "link_toppick",
+        "text_toppick_desc"
+      ]
+    },
+    "heading_toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "link_toppick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ayghri/i-have-adhd",
+        "href": "https://github.com/ayghri/i-have-adhd"
+      },
+      "children": []
+    },
+    "text_toppick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Best-named repo of the week: a directive layer that forces coding agents to lead with the answer — stops LLMs burying the output under paragraphs of caveats.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aiml",
+        "stack_aiml_repos"
+      ]
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_aiml_repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo_aiml_1",
+        "repo_aiml_2",
+        "repo_aiml_3"
+      ]
+    },
+    "repo_aiml_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_aiml_1",
+        "meta_aiml_1",
+        "text_aiml_1"
+      ]
+    },
+    "link_aiml_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ayghri/i-have-adhd",
+        "href": "https://github.com/ayghri/i-have-adhd",
+        "score": "★ 1,866 today (7.6k total)"
+      },
+      "children": []
+    },
+    "meta_aiml_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_lang_python",
+        "badge_status_accel1"
+      ]
+    },
+    "badge_lang_python": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_status_accel1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_aiml_1": {
+      "type": "Text",
+      "props": {
+        "text": "Forces coding agents to top-load answers — inject this skill and your agent stops hiding the result on line 40.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo_aiml_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_aiml_2",
+        "meta_aiml_2",
+        "text_aiml_2"
+      ]
+    },
+    "link_aiml_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "koala73/worldmonitor",
+        "href": "https://github.com/koala73/worldmonitor",
+        "score": "★ 1,295 today (67.3k total)"
+      },
+      "children": []
+    },
+    "meta_aiml_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_lang_ts",
+        "badge_status_accel2"
+      ]
+    },
+    "badge_lang_ts": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_status_accel2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_aiml_2": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hostable real-time intelligence dashboard — AI-ranked live news from global sources, one unified view.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo_aiml_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_aiml_3",
+        "meta_aiml_3",
+        "text_aiml_3"
+      ]
+    },
+    "link_aiml_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "earthtojake/text-to-cad",
+        "href": "https://github.com/earthtojake/text-to-cad",
+        "score": "★ 291 today (9.5k total)"
+      },
+      "children": []
+    },
+    "meta_aiml_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_lang_js",
+        "badge_status_accel3"
+      ]
+    },
+    "badge_lang_js": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_status_accel3": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_aiml_3": {
+      "type": "Text",
+      "props": {
+        "text": "Open agent skill pack turning natural-language prompts into CAD geometry — first LLM-to-hardware design toolkit for makers and roboticists.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "stack_devtools_repos"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_devtools_repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo_devtools_1",
+        "repo_devtools_2"
+      ]
+    },
+    "repo_devtools_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_devtools_1",
+        "meta_devtools_1",
+        "text_devtools_1"
+      ]
+    },
+    "link_devtools_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AlexsJones/llmfit",
+        "href": "https://github.com/AlexsJones/llmfit",
+        "score": "★ 129 today (30.4k total)"
+      },
+      "children": []
+    },
+    "meta_devtools_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_lang_rust",
+        "badge_status_accel4"
+      ]
+    },
+    "badge_lang_rust": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_status_accel4": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_devtools_1": {
+      "type": "Text",
+      "props": {
+        "text": "One command audits hundreds of model/provider combos against your GPU specs — replaces trial-and-error LLM hardware selection.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo_devtools_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_devtools_2",
+        "meta_devtools_2",
+        "text_devtools_2"
+      ]
+    },
+    "link_devtools_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "schollz/croc",
+        "href": "https://github.com/schollz/croc",
+        "score": "★ 361 today (37.1k total)"
+      },
+      "children": []
+    },
+    "meta_devtools_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_lang_go",
+        "badge_status_returning1"
+      ]
+    },
+    "badge_lang_go": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_status_returning1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_devtools_2": {
+      "type": "Text",
+      "props": {
+        "text": "Relay-assisted encrypted file transfer through firewalls — no accounts, no port config, just a 3-word code.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_webapps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_webapps",
+        "stack_webapps_repos"
+      ]
+    },
+    "heading_webapps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_webapps_repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo_webapps_1"
+      ]
+    },
+    "repo_webapps_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_webapps_1",
+        "meta_webapps_1",
+        "text_webapps_1"
+      ]
+    },
+    "link_webapps_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DioxusLabs/dioxus",
+        "href": "https://github.com/DioxusLabs/dioxus",
+        "score": "★ 271 today (37.8k total)"
+      },
+      "children": []
+    },
+    "meta_webapps_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_lang_rust2",
+        "badge_status_returning2"
+      ]
+    },
+    "badge_lang_rust2": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_status_returning2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_webapps_1": {
+      "type": "Text",
+      "props": {
+        "text": "Single Rust codebase compiles to web (WASM), desktop, and mobile — signal-based reactivity with no separate JS layer.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/21",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
