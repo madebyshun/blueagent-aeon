@@ -1,0 +1,434 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-22"
+      },
+      "children": [
+        "h-focus",
+        "stack-focus",
+        "sep1",
+        "h-since",
+        "stack-since",
+        "sep2",
+        "h-watch",
+        "alert-watch",
+        "sep3",
+        "h-running",
+        "table-running"
+      ]
+    },
+    "h-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-desc"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "CLARITY Act",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "focus-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: Senate merged draft drops ethics clause; 3 Dems formally opposed"
+      },
+      "children": []
+    },
+    "focus-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-desc"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Compute / DePIN-AI",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "focus-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: FRONT-RUN window open; entry edge narrows daily"
+      },
+      "children": []
+    },
+    "focus-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-desc"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Hyperliquid HYPE",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "focus-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: Aug 6 stacked unlock 15 days out; FADE before distribution"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "h-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-4",
+        "since-5"
+      ]
+    },
+    "since-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-1-ticker",
+        "since-1-detail",
+        "since-1-perf",
+        "since-1-note"
+      ]
+    },
+    "since-1-ticker": {
+      "type": "Heading",
+      "props": {
+        "text": "VIRTUAL",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "since-1-detail": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick 10/10 HIGH sent"
+      },
+      "children": []
+    },
+    "since-1-perf": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "since-1-perf-24h",
+        "since-1-perf-7d"
+      ]
+    },
+    "since-1-perf-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+7.5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "since-1-perf-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+17%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "since-1-note": {
+      "type": "Text",
+      "props": {
+        "text": "thesis intact",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "since-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-2-ticker",
+        "since-2-detail",
+        "since-2-perf",
+        "since-2-note"
+      ]
+    },
+    "since-2-ticker": {
+      "type": "Heading",
+      "props": {
+        "text": "ONDO",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "since-2-detail": {
+      "type": "Text",
+      "props": {
+        "text": "promoted FRONT-RUN → RIDE"
+      },
+      "children": []
+    },
+    "since-2-perf": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+30.6%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "since-2-note": {
+      "type": "Text",
+      "props": {
+        "text": "overbought signal emerging",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "since-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-3-ticker",
+        "since-3-detail"
+      ]
+    },
+    "since-3-ticker": {
+      "type": "Heading",
+      "props": {
+        "text": "x402",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "since-3-detail": {
+      "type": "Text",
+      "props": {
+        "text": "thesis graduated to internet infrastructure (169M txns, 40 firms, Linux Foundation)"
+      },
+      "children": []
+    },
+    "since-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-4-ticker",
+        "since-4-detail",
+        "since-4-perf"
+      ]
+    },
+    "since-4-ticker": {
+      "type": "Heading",
+      "props": {
+        "text": "DEXE",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "since-4-detail": {
+      "type": "Text",
+      "props": {
+        "text": "protocol event; not sector contagion"
+      },
+      "children": []
+    },
+    "since-4-perf": {
+      "type": "Stat",
+      "props": {
+        "label": "change",
+        "value": "−61.6%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "since-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-5-ticker",
+        "since-5-detail",
+        "since-5-note"
+      ]
+    },
+    "since-5-ticker": {
+      "type": "Heading",
+      "props": {
+        "text": "CLARITY Act",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "since-5-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket 24% → 43% on ethics deal"
+      },
+      "children": []
+    },
+    "since-5-note": {
+      "type": "Text",
+      "props": {
+        "text": "regression risk today (draft omits clause)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "h-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert-watch": {
+      "type": "Alert",
+      "props": {
+        "title": "CLARITY Act regression",
+        "message": "merged Senate draft omits ethics provision; Murphy/Van Hollen/Merkley formally opposed → Polymarket 43% likely reprices down; binary vol, no edge",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "h-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-running": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Task",
+          "Schedule"
+        ],
+        "rows": [
+          [
+            "github-monitor",
+            "09:00 UTC"
+          ],
+          [
+            "token-movers",
+            "12:00 UTC"
+          ],
+          [
+            "token-pick",
+            "12:00 UTC"
+          ],
+          [
+            "narrative-tracker",
+            "13:30 UTC"
+          ],
+          [
+            "skill-analytics",
+            "18:30 UTC (Wednesday)"
+          ],
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00 UTC"
+          ]
+        ]
+      },
+      "children": []
+    }
+  }
+}
