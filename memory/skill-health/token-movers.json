@@ -1,0 +1,14 @@
+{
+  "skill": "token-movers",
+  "last_analyzed": "2026-07-23T13:33:30Z",
+  "quality_score": 4,
+  "assessment": "Substantive autonomous run with concrete signals, proper risk flags, and sound dedup methodology",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-07-23",
+      "score": 4
+    }
+  ]
+}
