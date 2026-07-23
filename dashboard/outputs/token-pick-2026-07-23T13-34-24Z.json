@@ -1,0 +1,370 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-23"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "stack_ena",
+        "sep1",
+        "stack_market",
+        "sep2",
+        "stack_footer"
+      ]
+    },
+    "stack_ena": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_ena",
+        "grid_ena_stats",
+        "stack_score",
+        "stack_catalyst",
+        "alert_risk_ena"
+      ]
+    },
+    "header_ena": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading_ena",
+        "badge_signal"
+      ]
+    },
+    "heading_ena": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: ENA",
+        "level": "h2"
+      }
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      }
+    },
+    "grid_ena_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_price",
+        "stat_24h",
+        "stat_7d",
+        "stat_mcap",
+        "stat_volume",
+        "stat_vol_mcap"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.0896"
+      }
+    },
+    "stat_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+2.7%",
+        "trend": "up"
+      }
+    },
+    "stat_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+10.9%",
+        "trend": "up"
+      }
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Mcap",
+        "value": "$857M"
+      }
+    },
+    "stat_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$139.9M"
+      }
+    },
+    "stat_vol_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap",
+        "value": "0.163"
+      }
+    },
+    "stack_score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_score",
+        "text_score"
+      ]
+    },
+    "heading_score": {
+      "type": "Heading",
+      "props": {
+        "text": "Signal: 6/10",
+        "level": "h3"
+      }
+    },
+    "text_score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [24h>0+1, 7d>0+1, vol/mcap≥0.10+2, RS vs BTC/ETH 7d+2] = 6/10",
+        "variant": "body"
+      }
+    },
+    "stack_catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_catalyst",
+        "text_catalyst"
+      ]
+    },
+    "heading_catalyst": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "text_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Ethena Foundation confirmed fee switch parameters met (USDe >$6B supply, protocol revenue >$250M) — Risk Committee sign-off complete, governance vote pending to redirect protocol revenue to sENA stakers via buybacks",
+        "variant": "body"
+      }
+    },
+    "alert_risk_ena": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Whale moved ENA to Binance Jul 21 (selling pressure signal); governance vote timing uncertain; major Jul 2+5 unlocks absorbed but ongoing dilution pressure",
+        "type": "warning"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_market",
+        "grid_market_odds",
+        "grid_market_meta",
+        "stack_fair",
+        "stack_thesis",
+        "alert_risk_market"
+      ]
+    },
+    "header_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading_market",
+        "badge_edge"
+      ]
+    },
+    "heading_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Will LeBron James play for the Cleveland Cavaliers in 2026-27?",
+        "level": "h2"
+      }
+    },
+    "badge_edge": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM — edge 6pp",
+        "variant": "secondary"
+      }
+    },
+    "grid_market_odds": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_yes",
+        "stat_no"
+      ]
+    },
+    "stat_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "Current YES",
+        "value": "25.9¢"
+      }
+    },
+    "stat_no": {
+      "type": "Stat",
+      "props": {
+        "label": "Current NO",
+        "value": "74.1¢"
+      }
+    },
+    "grid_market_meta": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_event_vol",
+        "stat_resolves"
+      ]
+    },
+    "stat_event_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Event Volume",
+        "value": "$39.3M"
+      }
+    },
+    "stat_resolves": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "2026-10-31"
+      }
+    },
+    "stack_fair": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_fair",
+        "text_fair"
+      ]
+    },
+    "heading_fair": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair YES: ~32%",
+        "level": "h3"
+      }
+    },
+    "text_fair": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: [1] Cavs max-level offer vs Heat hard cap ~$7M ceiling per ESPN; [2] market overcorrected Cavs 57%→25.9% on Heat rumor surge — excess swing; [3] 4 teams in genuine contention, Cavs structurally best positioned financially",
+        "variant": "body"
+      }
+    },
+    "stack_thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_thesis",
+        "text_thesis"
+      ]
+    },
+    "heading_thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h3"
+      }
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket punished Cavs too hard on Heat rumor wave — financial edge still belongs to Cleveland; buy YES at 25.9¢",
+        "variant": "body"
+      }
+    },
+    "alert_risk_market": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Confirmed LeBron-Heat signing collapses this to near zero; Rich Paul 'no timetable' means locked until Oct 31",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_sources",
+        "text_disclaimer"
+      ]
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "text_disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "caption"
+      }
+    }
+  }
+}
