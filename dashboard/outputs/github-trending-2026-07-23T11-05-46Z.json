@@ -1,0 +1,462 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-23"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "top-pick-section",
+        "sep1",
+        "ai-ml-section",
+        "sep2",
+        "devtools-section",
+        "sep3",
+        "sources"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-label",
+        "buzz-top"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "buzz-top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "buzz-top-link",
+        "buzz-top-desc"
+      ]
+    },
+    "buzz-top-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "block/buzz",
+        "href": "https://github.com/block/buzz"
+      }
+    },
+    "buzz-top-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Block Inc. ships an AI-native workspace on Nostr where agents hold cryptographic keys as teammates — 3.3k stars in a single day after v0.4.23."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai-ml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-h",
+        "repo-buzz-aiml",
+        "repo-ruview",
+        "repo-ego"
+      ]
+    },
+    "ai-ml-h": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "repo-buzz-aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "buzz-link",
+        "buzz-meta",
+        "buzz-desc"
+      ]
+    },
+    "buzz-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "block/buzz",
+        "href": "https://github.com/block/buzz"
+      }
+    },
+    "buzz-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "buzz-today",
+        "buzz-total",
+        "buzz-lang",
+        "buzz-status"
+      ]
+    },
+    "buzz-today": {
+      "type": "Stat",
+      "props": {
+        "value": "3.3k",
+        "label": "Today"
+      }
+    },
+    "buzz-total": {
+      "type": "Stat",
+      "props": {
+        "value": "5k",
+        "label": "Total"
+      }
+    },
+    "buzz-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "buzz-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "buzz-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hostable Nostr workspace by Block Inc. — agents hold crypto keys and join channels as full teammates."
+      }
+    },
+    "repo-ruview": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ruview-link",
+        "ruview-meta",
+        "ruview-desc"
+      ]
+    },
+    "ruview-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ruvnet/RuView",
+        "href": "https://github.com/ruvnet/RuView"
+      }
+    },
+    "ruview-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ruview-today",
+        "ruview-total",
+        "ruview-lang",
+        "ruview-status"
+      ]
+    },
+    "ruview-today": {
+      "type": "Stat",
+      "props": {
+        "value": "741",
+        "label": "Today"
+      }
+    },
+    "ruview-total": {
+      "type": "Stat",
+      "props": {
+        "value": "85k",
+        "label": "Total"
+      }
+    },
+    "ruview-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "ruview-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "ruview-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Converts WiFi CSI into through-wall presence and vital-sign sensing — no camera, no wearable, 8 KB model."
+      }
+    },
+    "repo-ego": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ego-link",
+        "ego-meta",
+        "ego-desc"
+      ]
+    },
+    "ego-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "citrolabs/ego-lite",
+        "href": "https://github.com/citrolabs/ego-lite"
+      }
+    },
+    "ego-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ego-today",
+        "ego-total",
+        "ego-lang",
+        "ego-status"
+      ]
+    },
+    "ego-today": {
+      "type": "Stat",
+      "props": {
+        "value": "219",
+        "label": "Today"
+      }
+    },
+    "ego-total": {
+      "type": "Stat",
+      "props": {
+        "value": "1.2k",
+        "label": "Total"
+      }
+    },
+    "ego-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript"
+      }
+    },
+    "ego-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "ego-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Agents inherit your existing logins and run parallel workflows in isolated browser Spaces without extra instances."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-h",
+        "repo-harper",
+        "repo-ocr"
+      ]
+    },
+    "devtools-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "repo-harper": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "harper-link",
+        "harper-meta",
+        "harper-desc"
+      ]
+    },
+    "harper-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Automattic/harper",
+        "href": "https://github.com/Automattic/harper"
+      }
+    },
+    "harper-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "harper-today",
+        "harper-total",
+        "harper-lang",
+        "harper-status"
+      ]
+    },
+    "harper-today": {
+      "type": "Stat",
+      "props": {
+        "value": "590",
+        "label": "Today"
+      }
+    },
+    "harper-total": {
+      "type": "Stat",
+      "props": {
+        "value": "12k",
+        "label": "Total"
+      }
+    },
+    "harper-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "harper-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "harper-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Runs entirely offline via WebAssembly — 1/50th LanguageTool's memory, millisecond latency, supports VS Code/Neovim/Helix/Emacs/Zed."
+      }
+    },
+    "repo-ocr": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ocr-link",
+        "ocr-meta",
+        "ocr-desc"
+      ]
+    },
+    "ocr-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "alibaba/open-code-review",
+        "href": "https://github.com/alibaba/open-code-review"
+      }
+    },
+    "ocr-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ocr-today",
+        "ocr-total",
+        "ocr-lang",
+        "ocr-status"
+      ]
+    },
+    "ocr-today": {
+      "type": "Stat",
+      "props": {
+        "value": "162",
+        "label": "Today"
+      }
+    },
+    "ocr-total": {
+      "type": "Stat",
+      "props": {
+        "value": "11k",
+        "label": "Total"
+      }
+    },
+    "ocr-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go"
+      }
+    },
+    "ocr-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "ocr-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pairs rule-based linting with LLM semantic review in one pipeline — surfaces violations and logic bugs per commit."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/16",
+        "variant": "caption"
+      }
+    }
+  }
+}

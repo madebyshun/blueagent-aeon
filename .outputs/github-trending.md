@@ -1,28 +1,24 @@
-*GitHub Trending — 2026-07-22*
+*GitHub Trending — 2026-07-23*
 
-*Top pick* — [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)
-Best-named repo of the week: a directive layer that forces coding agents to lead with the answer — stops LLMs burying the output under paragraphs of caveats.
+*Top pick* — [block/buzz](https://github.com/block/buzz)
+Block Inc. ships an AI-native workspace on Nostr where agents hold cryptographic keys as teammates — 3.3k stars in a single day after v0.4.23.
 
 *AI/ML*
-• [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — ★ 1,866 today (7.6k total) · Python · [ACCELERATING]
-Forces coding agents to top-load answers — inject this skill and your agent stops hiding the result on line 40.
+• [block/buzz](https://github.com/block/buzz) — ★ 3.3k today (5k total) · Rust · [RETURNING]
+Self-hostable Nostr workspace by Block Inc. — agents hold crypto keys and join channels as full teammates.
 
-• [koala73/worldmonitor](https://github.com/koala73/worldmonitor) — ★ 1,295 today (67.3k total) · TypeScript · [ACCELERATING]
-Self-hostable real-time intelligence dashboard — AI-ranked live news from global sources, one unified view.
+• [ruvnet/RuView](https://github.com/ruvnet/RuView) — ★ 741 today (85k total) · Rust · [ACCELERATING]
+Converts WiFi CSI into through-wall presence and vital-sign sensing — no camera, no wearable, 8 KB model.
 
-• [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) — ★ 291 today (9.5k total) · JavaScript · [ACCELERATING]
-Open agent skill pack turning natural-language prompts into CAD geometry — first LLM-to-hardware design toolkit for makers and roboticists.
+• [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) — ★ 219 today (1.2k total) · JavaScript · [RETURNING]
+Agents inherit your existing logins and run parallel workflows in isolated browser Spaces without extra instances.
 
 *Devtools*
-• [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) — ★ 129 today (30.4k total) · Rust · [ACCELERATING]
-One command audits hundreds of model/provider combos against your GPU specs — replaces trial-and-error LLM hardware selection.
+• [Automattic/harper](https://github.com/Automattic/harper) — ★ 590 today (12k total) · Rust · [RETURNING]
+Runs entirely offline via WebAssembly — 1/50th LanguageTool's memory, millisecond latency, supports VS Code/Neovim/Helix/Emacs/Zed.
 
-• [schollz/croc](https://github.com/schollz/croc) — ★ 361 today (37.1k total) · Go · [RETURNING]
-Relay-assisted encrypted file transfer through firewalls — no accounts, no port config, just a 3-word code.
-
-*Web/Apps*
-• [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus) — ★ 271 today (37.8k total) · Rust · [RETURNING]
-Single Rust codebase compiles to web (WASM), desktop, and mobile — signal-based reactivity with no separate JS layer.
+• [alibaba/open-code-review](https://github.com/alibaba/open-code-review) — ★ 162 today (11k total) · Go · [ACCELERATING]
+Pairs rule-based linting with LLM semantic review in one pipeline — surfaces violations and logic bugs per commit.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/21
+sources: trending=ok · gh_api=ok · kept 5/16
