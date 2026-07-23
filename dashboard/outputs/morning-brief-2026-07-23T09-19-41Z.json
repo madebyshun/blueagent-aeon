@@ -1,0 +1,417 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-23"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "since-section",
+        "sep2",
+        "watch-section",
+        "sep3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-desc"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "1. CLARITY Act",
+        "variant": "lead"
+      }
+    },
+    "focus-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: ethics now temporary in new draft; Aug 10 = 18 days",
+        "variant": "body"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-desc"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "2. AI Compute / DePIN-AI FRONT-RUN",
+        "variant": "lead"
+      }
+    },
+    "focus-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: real-revenue pivot confirmed; entry edge narrows daily",
+        "variant": "body"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-desc"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "3. Hyperliquid HYPE FADE",
+        "variant": "lead"
+      }
+    },
+    "focus-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Aug 6 unlock 14 days; distribution signal confirmed Jul 22",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-heading",
+        "since-item-1",
+        "since-item-2",
+        "since-item-3",
+        "since-item-4",
+        "since-item-5"
+      ]
+    },
+    "since-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-1-badge",
+        "since-1-text"
+      ]
+    },
+    "since-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act — Jul 22 draft revives ethics clause as 2029 sunset (not dropped); compromise path opening for 3 opposing Dems",
+        "variant": "body"
+      }
+    },
+    "since-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-2-badge",
+        "since-2-text"
+      ]
+    },
+    "since-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE −6.7% while #1 trending — distribution into demand confirmed; FADE call stands through Aug 6",
+        "variant": "body"
+      }
+    },
+    "since-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-3-badge",
+        "since-3-text"
+      ]
+    },
+    "since-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZK DEMOTED → FADE — ZEC pre-catalyst non-confirmation terminal; thesis closed",
+        "variant": "body"
+      }
+    },
+    "since-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-4-header",
+        "since-4-desc",
+        "since-4-details"
+      ]
+    },
+    "since-4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "since-4-badge",
+        "since-4-ticker",
+        "since-4-stat"
+      ]
+    },
+    "since-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since-4-ticker": {
+      "type": "Text",
+      "props": {
+        "text": "XEC",
+        "variant": "lead"
+      }
+    },
+    "since-4-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "7d performance",
+        "value": "+12.45% / +14.41%",
+        "trend": "up"
+      }
+    },
+    "since-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "ASTER DEX perps thesis playing",
+        "variant": "body"
+      }
+    },
+    "since-4-details": {
+      "type": "Text",
+      "props": {
+        "text": "Jul 22 token-pick HIGH, score 9/10",
+        "variant": "caption"
+      }
+    },
+    "since-item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-5-badge",
+        "since-5-text"
+      ]
+    },
+    "since-5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "outline"
+      }
+    },
+    "since-5-text": {
+      "type": "Text",
+      "props": {
+        "text": "XAI 403 (no credits, day 13) — narrative-tracker on WebSearch fallback",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-item",
+        "watch-note"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-item": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CoinDesk Jul 22: new CLARITY Act draft makes ethics rule temporary (2029 sunset) not dropped — compromise path opens",
+        "source": "CoinDesk",
+        "score": "Polymarket 43% likely to reprice up"
+      }
+    },
+    "watch-note": {
+      "type": "Text",
+      "props": {
+        "text": "updates Focus #1 risk profile",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-item-1",
+        "running-item-2",
+        "running-item-3",
+        "running-item-4",
+        "running-item-5"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
