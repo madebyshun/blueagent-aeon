@@ -238,3 +238,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-23,morning-brief,claude-sonnet-4-6,658,5656,305613,34287
 2026-07-23,github-trending,claude-sonnet-4-6,379,18332,767869,49141
 2026-07-23,token-pick,claude-sonnet-4-6,1356,30563,1657611,109035
+2026-07-23,narrative-tracker,claude-sonnet-4-6,1850,19719,578782,56234
