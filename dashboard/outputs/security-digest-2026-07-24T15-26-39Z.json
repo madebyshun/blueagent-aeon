@@ -1,0 +1,262 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-07-24",
+        "description": "Verdict: nothing urgent today. 4 to schedule. Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "separator_1",
+        "patch_section"
+      ]
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "patch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch_heading",
+        "cve_1",
+        "cve_2",
+        "cve_3",
+        "cve_4"
+      ]
+    },
+    "patch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "cve_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_1_title_stack",
+        "cve_1_desc",
+        "cve_1_upgrade"
+      ]
+    },
+    "cve_1_title_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_1_link",
+        "cve_1_package"
+      ]
+    },
+    "cve_1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-59935 + 59936",
+        "href": "https://github.com/advisories/GHSA-g867-7843-wf8q"
+      },
+      "children": []
+    },
+    "cve_1_package": {
+      "type": "Text",
+      "props": {
+        "text": "pypdf (pip) · CVSS 8.7 · EPSS 0.004 · no PoC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Dual infinite-loop DoS in PDF inline image parsing. Two CVEs, one fix."
+      },
+      "children": []
+    },
+    "cve_1_upgrade": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade pypdf to ≥6.14.2.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "cve_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2_title_stack",
+        "cve_2_desc",
+        "cve_2_upgrade"
+      ]
+    },
+    "cve_2_title_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2_link",
+        "cve_2_package"
+      ]
+    },
+    "cve_2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-55575",
+        "href": "https://github.com/advisories/GHSA-g357-x5c3-c72p"
+      },
+      "children": []
+    },
+    "cve_2_package": {
+      "type": "Text",
+      "props": {
+        "text": "liquidjs (npm) · CVSS 8.2 · EPSS 0.004 · public PoC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "`pop` filter bypasses `memoryLimit` — attacker allocates unbounded arrays regardless of budget."
+      },
+      "children": []
+    },
+    "cve_2_upgrade": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade liquidjs to ≥10.27.1.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "cve_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_3_title_stack",
+        "cve_3_desc",
+        "cve_3_upgrade"
+      ]
+    },
+    "cve_3_title_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_3_link",
+        "cve_3_package"
+      ]
+    },
+    "cve_3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54673",
+        "href": "https://github.com/advisories/GHSA-p2f4-r6v6-j797"
+      },
+      "children": []
+    },
+    "cve_3_package": {
+      "type": "Text",
+      "props": {
+        "text": "builder-util-runtime (npm) · CVSS 8.2 · EPSS 0.002 · no PoC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-origin redirect leaks PRIVATE-TOKEN and mixed-case Authorization headers to attacker hosts."
+      },
+      "children": []
+    },
+    "cve_3_upgrade": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade builder-util-runtime to ≥9.7.0 (electron-builder: update electron-builder).",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "cve_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_4_title_stack",
+        "cve_4_desc",
+        "cve_4_upgrade"
+      ]
+    },
+    "cve_4_title_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_4_link",
+        "cve_4_package"
+      ]
+    },
+    "cve_4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-55685",
+        "href": "https://github.com/advisories/GHSA-chx6-hx7r-mcp5"
+      },
+      "children": []
+    },
+    "cve_4_package": {
+      "type": "Text",
+      "props": {
+        "text": "react-router 7.x (npm) · CVSS unscored · no PoC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve_4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated DoS via inefficient route matching in Framework Mode. All v7.0–v7.17.x affected."
+      },
+      "children": []
+    },
+    "cve_4_upgrade": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade react-router to ≥7.18.0.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
