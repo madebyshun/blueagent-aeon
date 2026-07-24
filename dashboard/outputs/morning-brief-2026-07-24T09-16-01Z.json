@@ -1,0 +1,153 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-24"
+      },
+      "children": [
+        "focus_section",
+        "separator1",
+        "yesterday_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_detail"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. CLARITY Act floor vote",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus_1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "why now: on Senate floor now; Aug 7 hard deadline; 7 Dems still the gate",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_detail"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. OCC stablecoin AML comment deadline",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus_2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "why now: closes today; triggers rulemaking velocity for Stablecoin Rails",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_detail"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. AI Compute / DePIN-AI FRONT-RUN",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus_3_detail": {
+      "type": "Text",
+      "props": {
+        "text": "why now: real-revenue pivot confirmed; entry edge narrows daily",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "yesterday_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_heading",
+        "yesterday_item_1"
+      ]
+    },
+    "yesterday_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act reached Senate floor (Bessent: 1-yard",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
