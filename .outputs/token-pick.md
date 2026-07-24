@@ -1,16 +1,23 @@
-*Daily Pick — 2026-07-23*
+Done. Here's the summary:
 
-*Token: ENA*  [MEDIUM]  signal 6/10
-Price: $0.0896 (+2.7% 24h / +10.9% 7d) | mcap $857M | vol $139.9M (vol/mcap 0.163)
-Score breakdown: [24h>0+1, 7d>0+1, vol/mcap≥0.10+2, RS vs BTC/ETH 7d+2] = 6/10
-Catalyst: Ethena Foundation confirmed fee switch parameters met (USDe >$6B supply, protocol revenue >$250M) — Risk Committee sign-off complete, governance vote pending to redirect protocol revenue to sENA stakers via buybacks
-Risk: Whale moved ENA to Binance Jul 21 (selling pressure signal); governance vote timing uncertain; major Jul 2+5 unlocks absorbed but ongoing dilution pressure
+## Summary
 
-*Market: "Will LeBron James play for the Cleveland Cavaliers in 2026-27?"*  [MEDIUM]  edge 6pp
-Current: YES 25.9¢ / NO 74.1¢ | event vol $39.3M total | resolves: 2026-10-31
-Fair YES: ~32% (inputs: [1] Cavs max-level offer vs Heat hard cap ~$7M ceiling per ESPN; [2] market overcorrected Cavs 57%→25.9% on Heat rumor surge — excess swing; [3] 4 teams in genuine contention, Cavs structurally best positioned financially)
-Thesis: Polymarket punished Cavs too hard on Heat rumor wave — financial edge still belongs to Cleveland; buy YES at 25.9¢
-Risk: Confirmed LeBron-Heat signing collapses this to near zero; Rich Paul 'no timetable' means locked until Oct 31
+**Token pick: AAVE [HIGH] — score 7/10**
+- Price $93.81, -2.0% 24h / +4.3% 7d | mcap $1.4B | vol/mcap 0.108
+- Scored: CG trending (+2), vol/mcap≥0.10 (+2), outperforming BTC+ETH on 7d (+2), 7d>0 (+1) = 7
+- Catalyst: Stable Vaults launch (fixed-rate yield for fintechs), V4 on Avalanche + $15M incentive, Aavenomics 3.0 routing protocol revenue to holders
+- Risk: Red market day, 24h negative; aggressive analyst targets may front-load buyers
 
-sources: cg=ok, dex=fail, poly=ok
-not financial advice — pattern-matching only
+**Market pick: "Will there be no change in Fed rates July 2026?" — BUY NO [HIGH] — edge 10.4pp**
+- YES at 73.9¢ vs fair ~63.5% (CME FedWatch, Jul 23); buy NO at 26.1¢
+- Resolves July 29 | 24h vol $1.2M
+
+**Files modified:**
+- `.pending-notify/1753394400.md` — notification queued for post-run delivery
+- `memory/logs/2026-07-24.md` — Token Pick entry + dedup line appended
+
+Sources:
+- [Aave Stable Vaults Launch — CoinMarketCap](https://coinmarketcap.com/top-stories/6a563449f3821d7066c2fbb5/)
+- [AAVE Price Prediction July 2026 — CryptoRank](https://cryptorank.io/news/feed/b1c1f-aave-price-prediction-july-2026-standard-chartered-sets-a-3500-target-as-aave-surges-19-on-kraken-talks)
+- [Fed Meeting Odds July 2026 — Forbes](https://www.forbes.com/sites/simonmoore/2026/07/23/markets-see-chance-fed-hikes-next-week-at-july-meeting/)
+- [Fed Decision July 2026 — Polymarket](https://polymarket.com/event/fed-decision-in-july-181)
