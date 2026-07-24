@@ -1,0 +1,371 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — Jul 24, 2026",
+        "description": "58/100 top coins red; BTC −1.2% / ETH −1.9%; median top-50 −1.5%; TRX the lone MAJOR in green."
+      },
+      "children": [
+        "winners_section",
+        "sep1",
+        "losers_section",
+        "sep2",
+        "trending_section",
+        "sep3",
+        "notable_section"
+      ]
+    },
+    "winners_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners_heading",
+        "winners_table"
+      ]
+    },
+    "winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h / 7d / 1h",
+          "Cap / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "BEAT (Audiera)",
+            "$3.0600",
+            "+7.4% / +20.3% / +2.7%",
+            "$33M / #67",
+            ""
+          ],
+          [
+            "US (Talus)",
+            "$0.04775",
+            "+5.2% / +7.7% / +2.0%",
+            "$8M / #209",
+            ""
+          ],
+          [
+            "M (MemeCore)",
+            "$1.2000",
+            "+4.4% / −2.2% / +1.2%",
+            "$12M / #49",
+            ""
+          ],
+          [
+            "INJ (Injective)",
+            "$5.2300",
+            "+2.1% / +7.1% / −1.2%",
+            "$91M / #99",
+            ""
+          ],
+          [
+            "TRX (TRON)",
+            "$0.3303",
+            "+1.1% / +2.6% / −0.2%",
+            "$381M / #8",
+            "MAJOR"
+          ],
+          [
+            "JST (JUST)",
+            "$0.1019",
+            "+0.8% / +3.4% / 0.0%",
+            "$25M / #74",
+            ""
+          ],
+          [
+            "RAIN (Rain)",
+            "$0.01429",
+            "+0.5% / +0.7% / −0.2%",
+            "$34M / #12",
+            "MAJOR"
+          ],
+          [
+            "BDX (Beldex)",
+            "$0.0832",
+            "+0.4% / −6.2% / +0.1%",
+            "$14M / #86",
+            ""
+          ],
+          [
+            "ASTER (Aster)",
+            "$0.6252",
+            "+0.3% / +1.5% / −0.2%",
+            "$55M / #46",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers_heading",
+        "losers_table"
+      ]
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h / 7d / 1h",
+          "Cap / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "DEXE (DeXe)",
+            "$2.8130",
+            "−14.7%",
+            "#217",
+            "TRENDING+DOWN"
+          ],
+          [
+            "STX (Stacks)",
+            "$0.1434",
+            "−13.1%",
+            "#137",
+            "TRENDING+DOWN"
+          ],
+          [
+            "WLFI (World Liberty Financial)",
+            "$0.05778",
+            "−10.9% / +1.1%",
+            "$70M / #42",
+            ""
+          ],
+          [
+            "PI (Pi Network)",
+            "$0.08239",
+            "−8.8% / +2.1% / −0.2%",
+            "$15M / #70",
+            "TRENDING+DOWN"
+          ],
+          [
+            "LAB (LAB)",
+            "$0.14657",
+            "−8.6%",
+            "#445",
+            "TRENDING+DOWN, MICROCAP"
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.001817",
+            "−6.4% / +10.0%",
+            "$46M / #82",
+            ""
+          ],
+          [
+            "STABLE (Stable)",
+            "$0.03792",
+            "−6.0% / +8.7% / −0.2%",
+            "$13M / #68",
+            "TRENDING+DOWN"
+          ],
+          [
+            "LIT (Lighter)",
+            "$2.1000",
+            "−5.9% / −4.7% / −0.5%",
+            "$26M / #97",
+            ""
+          ],
+          [
+            "AVAX (Avalanche)",
+            "$6.17",
+            "−5.6% / −4.1% / −0.5%",
+            "$177M / #34",
+            ""
+          ],
+          [
+            "ADA (Cardano)",
+            "$0.1646",
+            "−5.1% / +2.8% / −0.4%",
+            "$226M / #20",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending_heading",
+        "trending_table"
+      ]
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "PONS (Pons)",
+            "#634",
+            "$0.03860",
+            "+23.5%",
+            "MICROCAP"
+          ],
+          [
+            "TAO (Bittensor)",
+            "#43",
+            "$188.10",
+            "−3.4%",
+            ""
+          ],
+          [
+            "ZAMA (Zama)",
+            "#243",
+            "$0.05094",
+            "−5.0%",
+            ""
+          ],
+          [
+            "ETH (Ethereum)",
+            "#2",
+            "$1,861.04",
+            "−1.9%",
+            "MAJOR"
+          ],
+          [
+            "BANK (Lorenzo Protocol)",
+            "#219",
+            "$0.30205",
+            "+18.0%",
+            "TRENDING+UP"
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#113",
+            "$0.005993",
+            "−2.2%",
+            ""
+          ],
+          [
+            "LAB (LAB)",
+            "#445",
+            "$0.14657",
+            "−8.6%",
+            "TRENDING+DOWN, MICROCAP"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_heading",
+        "notable_1",
+        "notable_2",
+        "notable_3",
+        "notable_4"
+      ]
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable_1": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "BANK",
+        "message": "Trending #5 at +18% — cooling from yesterday's +42.1% [PUMP-RISK]; still elevated for a rank-219 token"
+      }
+    },
+    "notable_2": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "STX",
+        "message": "Stacks −13.1% while trending #8 — BTC L2 narrative under pressure"
+      }
+    },
+    "notable_3": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "CASHCAT",
+        "message": "Reversed +15.1% today after −24.6% yesterday — extreme swing, direction unresolved"
+      }
+    },
+    "notable_4": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "WLFI",
+        "message": "−10.9% reversal from +7.4% yesterday — no clear catalyst; high-profile token swinging hard"
+      }
+    }
+  }
+}
