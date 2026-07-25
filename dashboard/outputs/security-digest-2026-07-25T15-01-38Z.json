@@ -1,0 +1,809 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-07-25"
+      },
+      "children": [
+        "verdict_stack",
+        "separator_1",
+        "patch_today_section",
+        "separator_2",
+        "patch_week_section",
+        "separator_3",
+        "monitor_section"
+      ]
+    },
+    "verdict_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "verdict_badges",
+        "sources_text"
+      ]
+    },
+    "verdict_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_poc",
+        "badge_patch_week",
+        "badge_monitor"
+      ]
+    },
+    "badge_poc": {
+      "type": "Badge",
+      "props": {
+        "text": "1 with confirmed PoC",
+        "variant": "destructive"
+      }
+    },
+    "badge_patch_week": {
+      "type": "Badge",
+      "props": {
+        "text": "5 to schedule this week",
+        "variant": "secondary"
+      }
+    },
+    "badge_monitor": {
+      "type": "Badge",
+      "props": {
+        "text": "3 to monitor",
+        "variant": "outline"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV no new entries, GH Advisory, EPSS",
+        "variant": "caption"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch_today_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_today_heading",
+        "vuln_7gfh"
+      ]
+    },
+    "patch_today_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "vuln_7gfh": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_7gfh",
+        "meta_7gfh",
+        "desc_7gfh",
+        "action_7gfh"
+      ]
+    },
+    "link_7gfh": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-7gfh-x38p-prh3",
+        "href": "https://github.com/advisories/GHSA-7gfh-x38p-prh3",
+        "source": "GitHub Advisory"
+      }
+    },
+    "meta_7gfh": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pkg_velocity",
+        "stat_cvss_9_8",
+        "badge_poc_confirmed"
+      ]
+    },
+    "badge_pkg_velocity": {
+      "type": "Badge",
+      "props": {
+        "text": "velocityjs (npm)",
+        "variant": "outline"
+      }
+    },
+    "stat_cvss_9_8": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.8"
+      }
+    },
+    "badge_poc_confirmed": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC confirmed",
+        "variant": "destructive"
+      }
+    },
+    "desc_7gfh": {
+      "type": "Text",
+      "props": {
+        "text": "RCE via property-chain → Function constructor; bypasses prior patch (GHSA-j658-c2gf-x6pq). No auth required.",
+        "variant": "body"
+      }
+    },
+    "action_7gfh": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Upgrade velocityjs to ≥2.1.7 and redeploy."
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch_week_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_week_heading",
+        "vuln_w28w",
+        "vuln_rjg6",
+        "vuln_mv8w",
+        "vuln_r277",
+        "vuln_gitpython"
+      ]
+    },
+    "patch_week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "vuln_w28w": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_w28w",
+        "meta_w28w",
+        "desc_w28w",
+        "action_w28w"
+      ]
+    },
+    "link_w28w": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-w28w-gp39-m4p6",
+        "href": "https://github.com/advisories/GHSA-w28w-gp39-m4p6",
+        "source": "GitHub Advisory"
+      }
+    },
+    "meta_w28w": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pkg_prompty",
+        "stat_cvss_10_0",
+        "badge_epss_na_w28w"
+      ]
+    },
+    "badge_pkg_prompty": {
+      "type": "Badge",
+      "props": {
+        "text": "@prompty/core (npm)",
+        "variant": "outline"
+      }
+    },
+    "stat_cvss_10_0": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "10.0"
+      }
+    },
+    "badge_epss_na_w28w": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "secondary"
+      }
+    },
+    "desc_w28w": {
+      "type": "Text",
+      "props": {
+        "text": "Nunjucks SSTI → full RCE on host Node.js process via constructor chain traversal; untrusted .prompty template files.",
+        "variant": "body"
+      }
+    },
+    "action_w28w": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Upgrade @prompty/core to ≥0.1.5 or ≥2.0.0-beta.5."
+      }
+    },
+    "vuln_rjg6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_rjg6",
+        "meta_rjg6",
+        "desc_rjg6",
+        "action_rjg6"
+      ]
+    },
+    "link_rjg6": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-rjg6-39jm-rgg4",
+        "href": "https://github.com/advisories/GHSA-rjg6-39jm-rgg4",
+        "source": "GitHub Advisory"
+      }
+    },
+    "meta_rjg6": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pkg_betterauth",
+        "stat_cvss_9_9",
+        "badge_epss_na_rjg6"
+      ]
+    },
+    "badge_pkg_betterauth": {
+      "type": "Badge",
+      "props": {
+        "text": "@better-auth/scim (npm)",
+        "variant": "outline"
+      }
+    },
+    "stat_cvss_9_9": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.9"
+      }
+    },
+    "badge_epss_na_rjg6": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "secondary"
+      }
+    },
+    "desc_rjg6": {
+      "type": "Text",
+      "props": {
+        "text": "SCIM provider-id collision links new identity to existing user → account takeover and stale access.",
+        "variant": "body"
+      }
+    },
+    "action_rjg6": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Upgrade @better-auth/scim to ≥1.6.22 / ≥1.7.0-beta.10."
+      }
+    },
+    "vuln_mv8w": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_mv8w",
+        "meta_mv8w",
+        "desc_mv8w",
+        "action_mv8w"
+      ]
+    },
+    "link_mv8w": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-mv8w-475r-vwqw",
+        "href": "https://github.com/advisories/GHSA-mv8w-475r-vwqw",
+        "source": "GitHub Advisory"
+      }
+    },
+    "meta_mv8w": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pkg_seroval",
+        "stat_cvss_9_8_mv8w",
+        "badge_epss_0002",
+        "badge_cve_59940"
+      ]
+    },
+    "badge_pkg_seroval": {
+      "type": "Badge",
+      "props": {
+        "text": "seroval (npm)",
+        "variant": "outline"
+      }
+    },
+    "stat_cvss_9_8_mv8w": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.8"
+      }
+    },
+    "badge_epss_0002": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.002",
+        "variant": "secondary"
+      }
+    },
+    "badge_cve_59940": {
+      "type": "Badge",
+      "props": {
+        "text": "CVE-2026-59940",
+        "variant": "secondary"
+      }
+    },
+    "desc_mv8w": {
+      "type": "Text",
+      "props": {
+        "text": "fromJSON() Promise resolver type confusion invokes attacker-controlled methods during deserialization.",
+        "variant": "body"
+      }
+    },
+    "action_mv8w": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Upgrade seroval to ≥1.5.3."
+      }
+    },
+    "vuln_r277": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_r277",
+        "meta_r277",
+        "desc_r277",
+        "action_r277"
+      ]
+    },
+    "link_r277": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-r277-6w6q-xmqw",
+        "href": "https://github.com/advisories/GHSA-r277-6w6q-xmqw",
+        "source": "GitHub Advisory"
+      }
+    },
+    "meta_r277": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pkg_kinopenapi",
+        "stat_cvss_9_1",
+        "badge_epss_na_r277"
+      ]
+    },
+    "badge_pkg_kinopenapi": {
+      "type": "Badge",
+      "props": {
+        "text": "kin-openapi (Go)",
+        "variant": "outline"
+      }
+    },
+    "stat_cvss_9_1": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.1"
+      }
+    },
+    "badge_epss_na_r277": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "secondary"
+      }
+    },
+    "desc_r277": {
+      "type": "Text",
+      "props": {
+        "text": "ValidationHandler.Load() defaults to NoopAuthenticationFunc → all security schemes fail open silently.",
+        "variant": "body"
+      }
+    },
+    "action_r277": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Upgrade github.com/getkin/kin-openapi to ≥v0.144.0."
+      }
+    },
+    "vuln_gitpython": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_gitpython_title",
+        "meta_gitpython",
+        "links_gitpython",
+        "action_gitpython"
+      ]
+    },
+    "text_gitpython_title": {
+      "type": "Text",
+      "props": {
+        "text": "GitPython 5-advisory batch (pip)",
+        "variant": "lead"
+      }
+    },
+    "meta_gitpython": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_cvss_8_8",
+        "badge_epss_na_git"
+      ]
+    },
+    "stat_cvss_8_8": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "8.8 (highest)"
+      }
+    },
+    "badge_epss_na_git": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "secondary"
+      }
+    },
+    "links_gitpython": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_r9mr",
+        "link_3rp5",
+        "link_6p8h",
+        "link_fjr4",
+        "link_94p4"
+      ]
+    },
+    "link_r9mr": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-r9mr-m37c-5fr3",
+        "href": "https://github.com/advisories/GHSA-r9mr-m37c-5fr3",
+        "source": "kwarg smuggling → cmd exec"
+      }
+    },
+    "link_3rp5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-3rp5-jjmw-4wv2",
+        "href": "https://github.com/advisories/GHSA-3rp5-jjmw-4wv2",
+        "source": "config-section inject → RCE"
+      }
+    },
+    "link_6p8h": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-6p8h-3wgx-97gf",
+        "href": "https://github.com/advisories/GHSA-6p8h-3wgx-97gf",
+        "source": "--template hook RCE"
+      }
+    },
+    "link_fjr4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-fjr4-x663-mwxc",
+        "href": "https://github.com/advisories/GHSA-fjr4-x663-mwxc",
+        "source": "diff output file overwrite"
+      }
+    },
+    "link_94p4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-94p4-4cq8-9g67",
+        "href": "https://github.com/advisories/GHSA-94p4-4cq8-9g67",
+        "source": "env-var exfil via create_remote"
+      }
+    },
+    "action_gitpython": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Upgrade GitPython to ≥3.1.55."
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "monitor_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor_heading",
+        "vuln_budibase",
+        "vuln_claude_code",
+        "vuln_ray"
+      ]
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "vuln_budibase": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_budibase_title",
+        "meta_budibase",
+        "desc_budibase",
+        "action_budibase"
+      ]
+    },
+    "text_budibase_title": {
+      "type": "Text",
+      "props": {
+        "text": "@budibase/server (npm)",
+        "variant": "lead"
+      }
+    },
+    "meta_budibase": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_cvss_9_6",
+        "badge_budibase_nofix"
+      ]
+    },
+    "stat_cvss_9_6": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.6"
+      }
+    },
+    "badge_budibase_nofix": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch yet",
+        "variant": "destructive"
+      }
+    },
+    "desc_budibase": {
+      "type": "Text",
+      "props": {
+        "text": "8-advisory batch today: SQL inject, OIDC SSO account takeover, privilege escalation, SSRF, MongoDB NoSQL inject. No fix available.",
+        "variant": "body"
+      }
+    },
+    "action_budibase": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Restrict external Budibase API; watch for patch release."
+      }
+    },
+    "vuln_claude_code": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_claude_code",
+        "meta_claude_code",
+        "desc_claude_code",
+        "action_claude_code"
+      ]
+    },
+    "link_claude_code": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-7835-87q9-rgvv",
+        "href": "https://github.com/advisories/GHSA-7835-87q9-rgvv",
+        "source": "GitHub Advisory"
+      }
+    },
+    "meta_claude_code": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pkg_claude_code",
+        "stat_cvss_7_7",
+        "badge_epss_0006_cc",
+        "badge_cve_55607"
+      ]
+    },
+    "badge_pkg_claude_code": {
+      "type": "Badge",
+      "props": {
+        "text": "@anthropic-ai/claude-code (npm)",
+        "variant": "outline"
+      }
+    },
+    "stat_cvss_7_7": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "7.7"
+      }
+    },
+    "badge_epss_0006_cc": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.006",
+        "variant": "secondary"
+      }
+    },
+    "badge_cve_55607": {
+      "type": "Badge",
+      "props": {
+        "text": "CVE-2026-55607",
+        "variant": "secondary"
+      }
+    },
+    "desc_claude_code": {
+      "type": "Text",
+      "props": {
+        "text": "Sandbox escape via git worktree path confusion → unsandboxed code execution.",
+        "variant": "body"
+      }
+    },
+    "action_claude_code": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Upgrade @anthropic-ai/claude-code to ≥2.1.163."
+      }
+    },
+    "vuln_ray": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_ray",
+        "meta_ray",
+        "desc_ray",
+        "action_ray"
+      ]
+    },
+    "link_ray": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-hhrp-gw25-jr43",
+        "href": "https://github.com/advisories/GHSA-hhrp-gw25-jr43",
+        "source": "GitHub Advisory"
+      }
+    },
+    "meta_ray": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_pkg_ray",
+        "stat_cvss_8_8_ray",
+        "badge_epss_0006_ray",
+        "badge_cve_57516"
+      ]
+    },
+    "badge_pkg_ray": {
+      "type": "Badge",
+      "props": {
+        "text": "ray (pip)",
+        "variant": "outline"
+      }
+    },
+    "stat_cvss_8_8_ray": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "8.8"
+      }
+    },
+    "badge_epss_0006_ray": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.006",
+        "variant": "secondary"
+      }
+    },
+    "badge_cve_57516": {
+      "type": "Badge",
+      "props": {
+        "text": "CVE-2026-57516",
+        "variant": "secondary"
+      }
+    },
+    "desc_ray": {
+      "type": "Text",
+      "props": {
+        "text": "read_webdataset() calls pickle.loads() and torch.load(weights_only=False) on untrusted data → RCE.",
+        "variant": "body"
+      }
+    },
+    "action_ray": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Upgrade ray to ≥2.56.0 (cap overflow from PATCH THIS WEEK)."
+      }
+    }
+  }
+}
