@@ -1,0 +1,733 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-25"
+      },
+      "children": [
+        "transitions_section",
+        "sep1",
+        "reflexivity_section",
+        "sep2",
+        "positions_section",
+        "sep3",
+        "map_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions_h",
+        "promoted_item",
+        "velocity_item",
+        "event_zec_alert",
+        "event_fed_alert"
+      ]
+    },
+    "transitions_h": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "promoted_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "promoted_badge",
+        "promoted_text",
+        "stat_vvv"
+      ]
+    },
+    "promoted_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "promoted_text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN-AI (mindshare 3→4) — Hut 8 $19.6B Beacon Point + IREN $2.8B AI Cloud contracts + OpenAI $750B compute raise. TradFi anchored at $22B+ scale. FRONT-RUN entry window closing fast.",
+        "variant": "body"
+      }
+    },
+    "stat_vvv": {
+      "type": "Stat",
+      "props": {
+        "label": "VVV",
+        "value": "+9.4%",
+        "trend": "up"
+      }
+    },
+    "velocity_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "velocity_badge",
+        "velocity_text"
+      ]
+    },
+    "velocity_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY",
+        "variant": "outline"
+      }
+    },
+    "velocity_text": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin Rails (↑↑→↑, Emerging) — OCC AML comment closed Jul 24. Rulemaking enters next phase; next signal: CIP close Aug 21.",
+        "variant": "body"
+      }
+    },
+    "event_zec_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "EVENT IMMINENT — 3 days",
+        "message": "ZEC Ironwood Jul 28 — FADE held; bug-fix framing not bullish expansion; sell-the-news setup."
+      }
+    },
+    "event_fed_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "EVENT IMMINENT — 3-4 days",
+        "message": "Fed meeting Jul 28-29 — 70% hold; BTC $64,033 declining; Fear & Greed 27; tail hike risk from oil."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_h",
+        "eul_item",
+        "hype_item"
+      ]
+    },
+    "reflexivity_h": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "eul_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eul_stat",
+        "eul_text"
+      ]
+    },
+    "eul_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "EUL",
+        "value": "+65.5%",
+        "trend": "up"
+      }
+    },
+    "eul_text": {
+      "type": "Text",
+      "props": {
+        "text": "BlackRock sBUIDL ($3B tokenized Treasury) live as collateral on Euler/Avalanche; short squeeze + institutional DeFi narrative moving price directly.",
+        "variant": "body"
+      }
+    },
+    "hype_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hype_badge",
+        "hype_text"
+      ]
+    },
+    "hype_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE cope",
+        "variant": "secondary"
+      }
+    },
+    "hype_text": {
+      "type": "Text",
+      "props": {
+        "text": "FXEmpire \"HYPE eyes 20% rise\" published Jul 24 with Aug 6 $587M unlock 11 days out; a16z $28M Jul 17 stacked = distribution cover.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "positions_h",
+        "frontrun_stack",
+        "ride_stack",
+        "fade_stack"
+      ]
+    },
+    "positions_h": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "frontrun_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "frontrun_badge",
+        "pos_ai_compute"
+      ]
+    },
+    "frontrun_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "destructive"
+      }
+    },
+    "pos_ai_compute": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_compute_title",
+        "ai_compute_text",
+        "ai_compute_bear"
+      ]
+    },
+    "ai_compute_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN-AI (4 ↑↑, Bull)",
+        "variant": "lead"
+      }
+    },
+    "ai_compute_text": {
+      "type": "Text",
+      "props": {
+        "text": "Akash/Render/io.net real revenue + Hut 8 $19.6B + IREN $2.8B + OpenAI $750B",
+        "variant": "body"
+      }
+    },
+    "ai_compute_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: token→revenue gap; Meta entering",
+        "variant": "caption"
+      }
+    },
+    "ride_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "ride_badge",
+        "ride_ai_agents_pos",
+        "ride_x402_pos",
+        "ride_tokenized_pos",
+        "ride_ai_sec_pos",
+        "ride_clarity_pos"
+      ]
+    },
+    "ride_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "ride_ai_agents_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ride_ai_agents_title",
+        "ride_ai_agents_text",
+        "ride_ai_agents_bear"
+      ]
+    },
+    "ride_ai_agents_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy (5 ↑, Peak)",
+        "variant": "lead"
+      }
+    },
+    "ride_ai_agents_text": {
+      "type": "Text",
+      "props": {
+        "text": "@virtuals_io, Robinhood 70k agent beta, sector $25B+",
+        "variant": "body"
+      }
+    },
+    "ride_ai_agents_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: $45M H1 vuln losses",
+        "variant": "caption"
+      }
+    },
+    "ride_x402_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ride_x402_title",
+        "ride_x402_text",
+        "ride_x402_bear"
+      ]
+    },
+    "ride_x402_title": {
+      "type": "Text",
+      "props": {
+        "text": "x402/Base (5 ↑↑, Peak)",
+        "variant": "lead"
+      }
+    },
+    "ride_x402_text": {
+      "type": "Text",
+      "props": {
+        "text": "40 firms, Linux Foundation, 75M txns",
+        "variant": "body"
+      }
+    },
+    "ride_x402_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: multi-chain dilution",
+        "variant": "caption"
+      }
+    },
+    "ride_tokenized_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ride_tokenized_title",
+        "ride_tokenized_text",
+        "ride_tokenized_stats",
+        "ride_tokenized_bear"
+      ]
+    },
+    "ride_tokenized_title": {
+      "type": "Text",
+      "props": {
+        "text": "Tokenized Equities/ONDO (4 ↑, Rising)",
+        "variant": "lead"
+      }
+    },
+    "ride_tokenized_text": {
+      "type": "Text",
+      "props": {
+        "text": "DTCC rails, $3.78B TVL; ONDO burn vote concludes today; EUL/BlackRock confirms theme",
+        "variant": "body"
+      }
+    },
+    "ride_tokenized_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_tvl",
+        "stat_ondo"
+      ]
+    },
+    "stat_tvl": {
+      "type": "Stat",
+      "props": {
+        "label": "TVL",
+        "value": "$3.78B"
+      }
+    },
+    "stat_ondo": {
+      "type": "Stat",
+      "props": {
+        "label": "ONDO",
+        "value": "$0.38",
+        "delta": "−5%",
+        "trend": "down"
+      }
+    },
+    "ride_tokenized_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: SEC controls rails",
+        "variant": "caption"
+      }
+    },
+    "ride_ai_sec_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ride_ai_sec_title",
+        "ride_ai_sec_text",
+        "ride_ai_sec_bear"
+      ]
+    },
+    "ride_ai_sec_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Security/TEE (4 ↑, Rising)",
+        "variant": "lead"
+      }
+    },
+    "ride_ai_sec_text": {
+      "type": "Text",
+      "props": {
+        "text": "Phala, Ledger, $45M H1 losses",
+        "variant": "body"
+      }
+    },
+    "ride_ai_sec_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: tooling ≠ adoption",
+        "variant": "caption"
+      }
+    },
+    "ride_clarity_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ride_clarity_title",
+        "ride_clarity_text",
+        "ride_clarity_bear"
+      ]
+    },
+    "ride_clarity_title": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act (4 ↑↑, Rising, Mixed)",
+        "variant": "lead"
+      }
+    },
+    "ride_clarity_text": {
+      "type": "Text",
+      "props": {
+        "text": "Vote expected this week; ethics 2029 sunset; Trump approved; Aug 7 deadline 13 days",
+        "variant": "body"
+      }
+    },
+    "ride_clarity_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: 7 Dems needed; binary (pass=60s-70s, fail=20s Polymarket)",
+        "variant": "caption"
+      }
+    },
+    "fade_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fade_badge",
+        "fade_hyperliquid_pos",
+        "fade_zec_pos",
+        "fade_fed_pos",
+        "fade_kaito_pos"
+      ]
+    },
+    "fade_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "outline"
+      }
+    },
+    "fade_hyperliquid_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fade_hl_title",
+        "fade_hl_text"
+      ]
+    },
+    "fade_hl_title": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid (1 ↓↓)",
+        "variant": "lead"
+      }
+    },
+    "fade_hl_text": {
+      "type": "Text",
+      "props": {
+        "text": "$587M unlock Aug 6 (11 days); call Dead Aug 6",
+        "variant": "body"
+      }
+    },
+    "fade_zec_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fade_zec_title",
+        "fade_zec_text"
+      ]
+    },
+    "fade_zec_title": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC/Privacy (2 ↓↓)",
+        "variant": "lead"
+      }
+    },
+    "fade_zec_text": {
+      "type": "Text",
+      "props": {
+        "text": "Ironwood Jul 28 in 3 days; structural delistings",
+        "variant": "body"
+      }
+    },
+    "fade_fed_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fade_fed_title",
+        "fade_fed_text"
+      ]
+    },
+    "fade_fed_title": {
+      "type": "Text",
+      "props": {
+        "text": "Fed Pivot/Macro (2 ↓)",
+        "variant": "lead"
+      }
+    },
+    "fade_fed_text": {
+      "type": "Text",
+      "props": {
+        "text": "$4.5B ETF outflows June; BTC declining; Fed this week",
+        "variant": "body"
+      }
+    },
+    "fade_kaito_pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fade_kaito_title",
+        "fade_kaito_text"
+      ]
+    },
+    "fade_kaito_title": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito/InfoFi (2 ↓↓)",
+        "variant": "lead"
+      }
+    },
+    "fade_kaito_text": {
+      "type": "Text",
+      "props": {
+        "text": "Structural; Yapper dead",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_h",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_h": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerging_badge",
+        "map_emerging_text"
+      ]
+    },
+    "map_emerging_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "default"
+      }
+    },
+    "map_emerging_text": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin Rails, Agentic Dev Tools, FHE/ZAMA, US-Iran, PEPE ETF, Lean Ethereum",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_badge",
+        "map_rising_text"
+      ]
+    },
+    "map_rising_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "map_rising_text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN-AI, AI Agent Security/TEE, CLARITY Act, Tokenized Equities, BNB Chain",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_badge",
+        "map_peak_text"
+      ]
+    },
+    "map_peak_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "destructive"
+      }
+    },
+    "map_peak_text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy, x402/Agentic Payments, Robinhood Chain",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_badge",
+        "map_fading_text"
+      ]
+    },
+    "map_fading_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "outline"
+      }
+    },
+    "map_fading_text": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC/Privacy, Fed Pivot, Kaito/InfoFi, Hyperliquid, RWA Tokenization",
+        "variant": "body"
+      }
+    }
+  }
+}
