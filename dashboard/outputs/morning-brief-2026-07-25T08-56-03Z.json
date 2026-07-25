@@ -1,0 +1,422 @@
+{
+  "root": "card_morning_brief",
+  "state": {},
+  "elements": {
+    "card_morning_brief": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-07-25"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus",
+        "separator_1",
+        "heading_since",
+        "stack_since",
+        "separator_2",
+        "heading_watch",
+        "stack_watch",
+        "separator_3",
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_clarity",
+        "text_focus_1"
+      ]
+    },
+    "badge_clarity": {
+      "type": "Badge",
+      "props": {
+        "text": "CLARITY Act",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "why now: ethics deadlock; vote week ending Friday; Aug 7 in 13 days",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_hype",
+        "text_focus_2"
+      ]
+    },
+    "badge_hype": {
+      "type": "Badge",
+      "props": {
+        "text": "HYPE Aug 6 unlock",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 11 days to $587M distribution; weekend = last clean sizing window",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ai_compute",
+        "text_focus_3"
+      ]
+    },
+    "badge_ai_compute": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Compute/DePIN-AI",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "why now: BTC miners pivot to AI infra; OpenAI $750B compute; FRONT-RUN entry narrowing",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_1",
+        "since_2",
+        "since_3",
+        "since_4"
+      ]
+    },
+    "since_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_clarity_update",
+        "text_since_1"
+      ]
+    },
+    "badge_clarity_update": {
+      "type": "Badge",
+      "props": {
+        "text": "CLARITY Act",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since_1": {
+      "type": "Text",
+      "props": {
+        "text": "\"1-yard line\" Thu → ethics impasse stall; three disputes (ethics/DOJ, dev protection, stablecoin yield) unresolved; vote in doubt",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_github",
+        "text_since_2"
+      ]
+    },
+    "badge_github": {
+      "type": "Badge",
+      "props": {
+        "text": "github-trending",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since_2": {
+      "type": "Text",
+      "props": {
+        "text": "failed Jul 24 (consecutive_failures: 1); SR 0.91, watch for repeat today",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_xai",
+        "text_since_3"
+      ]
+    },
+    "badge_xai": {
+      "type": "Badge",
+      "props": {
+        "text": "XAI 403",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since_3": {
+      "type": "Text",
+      "props": {
+        "text": "day 15, no credits; WebSearch fallback active for narrative-tracker",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_btc",
+        "text_since_4"
+      ]
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since_4": {
+      "type": "Text",
+      "props": {
+        "text": "~$65K range, holding overnight; market broadly flat",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "watch_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_clarity",
+        "text_watch_1"
+      ]
+    },
+    "badge_watch_clarity": {
+      "type": "Badge",
+      "props": {
+        "text": "CLARITY Act",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "ethics deadlock confirmed → Focus #1 shifts from \"imminent\" to coin flip; pass = 60s-70s Polymarket; fail = 20s; Aug 7 unchanged",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "watch_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_ai",
+        "text_watch_2"
+      ]
+    },
+    "badge_watch_ai": {
+      "type": "Badge",
+      "props": {
+        "text": "Hut 8 + IREN",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "securing billion-dollar AI compute contracts → validates AI Compute/DePIN-AI FRONT-RUN thesis (Focus #3)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
