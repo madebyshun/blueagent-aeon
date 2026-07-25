@@ -1,23 +1,17 @@
-Done. Here's the summary:
+*Daily Pick — 2026-07-25*
 
-## Summary
+*Token: EUL*  HIGH  signal 10/10
+Price: $1.64 (+65.5% 24h / +71.1% 7d) | mcap $44.5M | vol $59.9M (vol/mcap 1.36)
+Score breakdown: [24h>0 +1, 7d>0 +1, both>5% +2, trending +2, vol/mcap≥0.20 +3, RS vs BTC/ETH +2] = 11→10/10
+Catalyst: BlackRock's sBUIDL went live as collateral on Euler (Avalanche) — first institutional DeFi protocol integration for a tokenized Treasury fund, igniting a months-long descending channel breakout and short squeeze
+Risk: RSI ~93 = deeply overbought; short squeezes unwind as fast as they run; $44.5M mcap = thin exit liquidity at peak
+Vs recent picks: First EUL pick — no dedup conflict
 
-**Token pick: AAVE [HIGH] — score 7/10**
-- Price $93.81, -2.0% 24h / +4.3% 7d | mcap $1.4B | vol/mcap 0.108
-- Scored: CG trending (+2), vol/mcap≥0.10 (+2), outperforming BTC+ETH on 7d (+2), 7d>0 (+1) = 7
-- Catalyst: Stable Vaults launch (fixed-rate yield for fintechs), V4 on Avalanche + $15M incentive, Aavenomics 3.0 routing protocol revenue to holders
-- Risk: Red market day, 24h negative; aggressive analyst targets may front-load buyers
+*Market: "Will Bitcoin hit $65,000 in July 2026?"*  HIGH  edge 14pp
+Current: YES 56¢ / NO 44¢ | $17.9M total market | resolves: Aug 1 2026
+Fair YES: ~70% (inputs: BTC at $64,055 = 1.46% from target; 6 trading days remain; BTC daily vol 2-4%; market resolves on any 1-min Binance candle touch)
+Thesis: Pricing a coin flip on a 1.46% intraday touch in 6 days of BTC trading is wrong — barrier touch probability at current vol is 70-77%
+Risk: BTC trending flat-to-down (24h -1.4%); macro shock could drop BTC below $62k and lock out $65k before expiry
 
-**Market pick: "Will there be no change in Fed rates July 2026?" — BUY NO [HIGH] — edge 10.4pp**
-- YES at 73.9¢ vs fair ~63.5% (CME FedWatch, Jul 23); buy NO at 26.1¢
-- Resolves July 29 | 24h vol $1.2M
-
-**Files modified:**
-- `.pending-notify/1753394400.md` — notification queued for post-run delivery
-- `memory/logs/2026-07-24.md` — Token Pick entry + dedup line appended
-
-Sources:
-- [Aave Stable Vaults Launch — CoinMarketCap](https://coinmarketcap.com/top-stories/6a563449f3821d7066c2fbb5/)
-- [AAVE Price Prediction July 2026 — CryptoRank](https://cryptorank.io/news/feed/b1c1f-aave-price-prediction-july-2026-standard-chartered-sets-a-3500-target-as-aave-surges-19-on-kraken-talks)
-- [Fed Meeting Odds July 2026 — Forbes](https://www.forbes.com/sites/simonmoore/2026/07/23/markets-see-chance-fed-hikes-next-week-at-july-meeting/)
-- [Fed Decision July 2026 — Polymarket](https://polymarket.com/event/fed-decision-in-july-181)
+sources: cg=ok, dex=fail, poly=ok
+not financial advice — pattern-matching only
