@@ -1,0 +1,1153 @@
+{
+  "root": "root_card",
+  "state": {},
+  "elements": {
+    "root_card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-07-25"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_overview",
+        "sep1",
+        "winners_section",
+        "sep2",
+        "losers_section",
+        "sep3",
+        "trending_section",
+        "sep4",
+        "notable_section"
+      ]
+    },
+    "market_overview": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Broad risk-off — 72% of top-100 red, BTC −1.4% ETH −1.2%, median ~−1.5%; DEXE and BEAT are isolated green outliers."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "winners_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners_header",
+        "winners_list"
+      ]
+    },
+    "winners_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w1",
+        "w2",
+        "w3",
+        "w4",
+        "w5",
+        "w6",
+        "w7",
+        "w8",
+        "w9",
+        "w10"
+      ]
+    },
+    "w1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w1_title",
+        "w1_price_change",
+        "w1_market",
+        "w1_tags"
+      ]
+    },
+    "w1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. DEXE (DeXe)",
+        "variant": "lead"
+      }
+    },
+    "w1_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$4.20 | 24h: +54.5% | 7d: n/a | 1h: n/a"
+      }
+    },
+    "w1_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: n/a | Rank: #162",
+        "variant": "caption"
+      }
+    },
+    "w1_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w1_badge1",
+        "w1_badge2"
+      ]
+    },
+    "w1_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "w1_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK",
+        "variant": "destructive"
+      }
+    },
+    "w2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w2_title",
+        "w2_price_change",
+        "w2_market",
+        "w2_tags"
+      ]
+    },
+    "w2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. BEAT (Audiera)",
+        "variant": "lead"
+      }
+    },
+    "w2_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$3.34 | 24h: +16.1% | 7d: +42.6% | 1h: −2.1%"
+      }
+    },
+    "w2_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $22.1M | Rank: #65",
+        "variant": "caption"
+      }
+    },
+    "w2_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w2_badge1"
+      ]
+    },
+    "w2_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT"
+      }
+    },
+    "w3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w3_title",
+        "w3_price_change",
+        "w3_market"
+      ]
+    },
+    "w3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. VVV (Venice Token)",
+        "variant": "lead"
+      }
+    },
+    "w3_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$13.0 | 24h: +9.4% | 7d: +11.1% | 1h: +0.7%"
+      }
+    },
+    "w3_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $16.8M | Rank: #89",
+        "variant": "caption"
+      }
+    },
+    "w4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w4_title",
+        "w4_price_change",
+        "w4_market"
+      ]
+    },
+    "w4_title": {
+      "type": "Text",
+      "props": {
+        "text": "4. DESO",
+        "variant": "lead"
+      }
+    },
+    "w4_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$0.04889 | 24h: +5.8% | 7d: +9.2% | 1h: +0.1%"
+      }
+    },
+    "w4_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $2.5M | Rank: #124",
+        "variant": "caption"
+      }
+    },
+    "w5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w5_title",
+        "w5_price_change",
+        "w5_market"
+      ]
+    },
+    "w5_title": {
+      "type": "Text",
+      "props": {
+        "text": "5. STABLE",
+        "variant": "lead"
+      }
+    },
+    "w5_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$0.03967 | 24h: +4.5% | 7d: +12.2% | 1h: +1.4%"
+      }
+    },
+    "w5_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $11.6M | Rank: #67",
+        "variant": "caption"
+      }
+    },
+    "w6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w6_title",
+        "w6_price_change",
+        "w6_market"
+      ]
+    },
+    "w6_title": {
+      "type": "Text",
+      "props": {
+        "text": "6. TLM (Alien Worlds)",
+        "variant": "lead"
+      }
+    },
+    "w6_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$0.003408 | 24h: +3.9% | 7d: −4.5% | 1h: +0.1%"
+      }
+    },
+    "w6_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $1.1M | Rank: #163",
+        "variant": "caption"
+      }
+    },
+    "w7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w7_title",
+        "w7_price_change",
+        "w7_market",
+        "w7_tags"
+      ]
+    },
+    "w7_title": {
+      "type": "Text",
+      "props": {
+        "text": "7. XMR (Monero)",
+        "variant": "lead"
+      }
+    },
+    "w7_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$366 | 24h: +3.8% | 7d: +10.4% | 1h: +0.3%"
+      }
+    },
+    "w7_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $109M | Rank: #16",
+        "variant": "caption"
+      }
+    },
+    "w7_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w7_badge1"
+      ]
+    },
+    "w7_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR"
+      }
+    },
+    "w8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w8_title",
+        "w8_price_change",
+        "w8_market"
+      ]
+    },
+    "w8_title": {
+      "type": "Text",
+      "props": {
+        "text": "8. BONE (ShibaSwap)",
+        "variant": "lead"
+      }
+    },
+    "w8_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$0.000876 | 24h: +3.0% | 7d: +2.7% | 1h: +0.1%"
+      }
+    },
+    "w8_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $2.5M | Rank: #179",
+        "variant": "caption"
+      }
+    },
+    "w9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w9_title",
+        "w9_price_change",
+        "w9_market"
+      ]
+    },
+    "w9_title": {
+      "type": "Text",
+      "props": {
+        "text": "9. SHIB",
+        "variant": "lead"
+      }
+    },
+    "w9_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$0.000004250 | 24h: +2.3% | 7d: +2.2% | 1h: +0.2%"
+      }
+    },
+    "w9_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $49.8M | Rank: #36",
+        "variant": "caption"
+      }
+    },
+    "w10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w10_title",
+        "w10_price_change",
+        "w10_market"
+      ]
+    },
+    "w10_title": {
+      "type": "Text",
+      "props": {
+        "text": "10. ALGO (Algorand)",
+        "variant": "lead"
+      }
+    },
+    "w10_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$0.08398 | 24h: +1.8% | 7d: +2.2% | 1h: −0.4%"
+      }
+    },
+    "w10_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $33.9M | Rank: #79",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers_header",
+        "losers_list"
+      ]
+    },
+    "losers_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l1",
+        "l2",
+        "l3",
+        "l4",
+        "l5",
+        "l6",
+        "l7",
+        "l8",
+        "l9",
+        "l10"
+      ]
+    },
+    "l1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l1_title",
+        "l1_price_change",
+        "l1_market"
+      ]
+    },
+    "l1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. EVMOS",
+        "variant": "lead"
+      }
+    },
+    "l1_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$0.008823 | 24h: −8.3% | 7d: −18.6% | 1h: −0.6%"
+      }
+    },
+    "l1_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $1.4M | Rank: #164",
+        "variant": "caption"
+      }
+    },
+    "l2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l2_title",
+        "l2_price_change",
+        "l2_market"
+      ]
+    },
+    "l2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. WLD (Worldcoin)",
+        "variant": "lead"
+      }
+    },
+    "l2_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$0.3483 | 24h: −7.3% | 7d: −7.7% | 1h: +1.6%"
+      }
+    },
+    "l2_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $183M | Rank: #57",
+        "variant": "caption"
+      }
+    },
+    "l3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l3_title",
+        "l3_price_change",
+        "l3_market"
+      ]
+    },
+    "l3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. SAND (The Sandbox)",
+        "variant": "lead"
+      }
+    },
+    "l3_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$0.07817 | 24h: −6.1% | 7d: −7.5% | 1h: +0.4%"
+      }
+    },
+    "l3_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $6.5M | Rank: #140",
+        "variant": "caption"
+      }
+    },
+    "l4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l4_title",
+        "l4_price_change",
+        "l4_market"
+      ]
+    },
+    "l4_title": {
+      "type": "Text",
+      "props": {
+        "text": "4. IOTX (IoTeX)",
+        "variant": "lead"
+      }
+    },
+    "l4_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$0.008316 | 24h: −5.8% | 7d: −9.6% | 1h: −0.2%"
+      }
+    },
+    "l4_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $3.3M | Rank: #156",
+        "variant": "caption"
+      }
+    },
+    "l5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l5_title",
+        "l5_price_change",
+        "l5_market"
+      ]
+    },
+    "l5_title": {
+      "type": "Text",
+      "props": {
+        "text": "5. POPCAT",
+        "variant": "lead"
+      }
+    },
+    "l5_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$0.00003090 | 24h: −5.4% | 7d: −6.8% | 1h: −0.2%"
+      }
+    },
+    "l5_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $26.6M | Rank: #121",
+        "variant": "caption"
+      }
+    },
+    "l6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l6_title",
+        "l6_price_change",
+        "l6_market"
+      ]
+    },
+    "l6_title": {
+      "type": "Text",
+      "props": {
+        "text": "6. CYBER",
+        "variant": "lead"
+      }
+    },
+    "l6_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$0.1398 | 24h: −5.2% | 7d: −14.9% | 1h: +1.1%"
+      }
+    },
+    "l6_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $3.1M | Rank: #136",
+        "variant": "caption"
+      }
+    },
+    "l7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l7_title",
+        "l7_price_change",
+        "l7_market"
+      ]
+    },
+    "l7_title": {
+      "type": "Text",
+      "props": {
+        "text": "7. BOBA (Boba Network)",
+        "variant": "lead"
+      }
+    },
+    "l7_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$0.03588 | 24h: −5.2% | 7d: −14.1% | 1h: +0.6%"
+      }
+    },
+    "l7_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $1.0M | Rank: #142",
+        "variant": "caption"
+      }
+    },
+    "l8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l8_title",
+        "l8_price_change",
+        "l8_market"
+      ]
+    },
+    "l8_title": {
+      "type": "Text",
+      "props": {
+        "text": "8. FLOW",
+        "variant": "lead"
+      }
+    },
+    "l8_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$0.1311 | 24h: −5.0% | 7d: −9.5% | 1h: 0.0%"
+      }
+    },
+    "l8_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $5.4M | Rank: #125",
+        "variant": "caption"
+      }
+    },
+    "l9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l9_title",
+        "l9_price_change",
+        "l9_market",
+        "l9_tags"
+      ]
+    },
+    "l9_title": {
+      "type": "Text",
+      "props": {
+        "text": "9. AAVE",
+        "variant": "lead"
+      }
+    },
+    "l9_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$90.73 | 24h: −5.0% | 7d: +3.3% | 1h: −0.1%"
+      }
+    },
+    "l9_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $143M | Rank: #52",
+        "variant": "caption"
+      }
+    },
+    "l9_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "l9_badge1"
+      ]
+    },
+    "l9_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "outline"
+      }
+    },
+    "l10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l10_title",
+        "l10_price_change",
+        "l10_market",
+        "l10_tags"
+      ]
+    },
+    "l10_title": {
+      "type": "Text",
+      "props": {
+        "text": "10. ZEC (Zcash)",
+        "variant": "lead"
+      }
+    },
+    "l10_price_change": {
+      "type": "Text",
+      "props": {
+        "text": "$477 | 24h: −4.9% | 7d: −12.1% | 1h: −0.1%"
+      }
+    },
+    "l10_market": {
+      "type": "Text",
+      "props": {
+        "text": "Market Cap: $180M | Rank: #15",
+        "variant": "caption"
+      }
+    },
+    "l10_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "l10_badge1"
+      ]
+    },
+    "l10_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending_header",
+        "trending_list"
+      ]
+    },
+    "trending_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    "t1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1_title",
+        "t1_data",
+        "t1_tags"
+      ]
+    },
+    "t1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. DEXE (DeXe)",
+        "variant": "lead"
+      }
+    },
+    "t1_data": {
+      "type": "Text",
+      "props": {
+        "text": "#162 | $4.20 | +54.5%"
+      }
+    },
+    "t1_tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t1_badge1",
+        "t1_badge2"
+      ]
+    },
+    "t1_badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "t1_badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK",
+        "variant": "destructive"
+      }
+    },
+    "t2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2_title",
+        "t2_data"
+      ]
+    },
+    "t2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. EUL (Euler)",
+        "variant": "lead"
+      }
+    },
+    "t2_data": {
+      "type": "Text",
+      "props": {
+        "text": "#513 | $1.63 | +65.0%"
+      }
+    },
+    "t3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3_title",
+        "t3_data"
+      ]
+    },
+    "t3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. MON (Monad)",
+        "variant": "lead"
+      }
+    },
+    "t3_data": {
+      "type": "Text",
+      "props": {
+        "text": "#144 | $0.02094 | −4.7%"
+      }
+    },
+    "t4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4_title",
+        "t4_data"
+      ]
+    },
+    "t4_title": {
+      "type": "Text",
+      "props": {
+        "text": "4. ADI",
+        "variant": "lead"
+      }
+    },
+    "t4_data": {
+      "type": "Text",
+      "props": {
+        "text": "#339 | $7.36 | +0.5%"
+      }
+    },
+    "t5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t5_title",
+        "t5_data"
+      ]
+    },
+    "t5_title": {
+      "type": "Text",
+      "props": {
+        "text": "5. PENGU (Pudgy Penguins)",
+        "variant": "lead"
+      }
+    },
+    "t5_data": {
+      "type": "Text",
+      "props": {
+        "text": "#114 | $0.005990 | −0.8%"
+      }
+    },
+    "t6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t6_title",
+        "t6_data"
+      ]
+    },
+    "t6_title": {
+      "type": "Text",
+      "props": {
+        "text": "6. MORPHO",
+        "variant": "lead"
+      }
+    },
+    "t6_data": {
+      "type": "Text",
+      "props": {
+        "text": "#58 | $1.99 | +1.5%"
+      }
+    },
+    "t7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t7_title",
+        "t7_data"
+      ]
+    },
+    "t7_title": {
+      "type": "Text",
+      "props": {
+        "text": "7. PONS",
+        "variant": "lead"
+      }
+    },
+    "t7_data": {
+      "type": "Text",
+      "props": {
+        "text": "#642 | $0.03757 | −4.6%"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_header",
+        "notable_list"
+      ]
+    },
+    "notable_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "n1",
+        "n2",
+        "n3"
+      ]
+    },
+    "n1": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "DEXE: Extreme Reversal",
+        "message": "Worst loser yesterday (−14.7%) → +54.5% today — extreme reversal; [TRENDING+UP] but near-certain pump [PUMP-RISK]; rank 162"
+      }
+    },
+    "n2": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "title": "BEAT [BREAKOUT]",
+        "message": "7d +42.6% sustained — $22.1M vol confirms real buyers; mid-cap ($1B) momentum intact"
+      }
+    },
+    "n3": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "AAVE [TRENDING+DOWN]",
+        "message": "Trending while −5.0%; yesterday's DeFi pick at $93.81, now $90.73"
+      }
+    }
+  }
+}
