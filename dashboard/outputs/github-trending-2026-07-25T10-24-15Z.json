@@ -1,0 +1,585 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-25"
+      },
+      "children": [
+        "top-pick-heading",
+        "top-pick-item",
+        "sep-1",
+        "ai-ml-heading",
+        "ai-ml-items",
+        "sep-2",
+        "devtools-heading",
+        "devtools-items",
+        "sep-3",
+        "infra-heading",
+        "infra-items",
+        "sep-4",
+        "sources-text"
+      ]
+    },
+    "top-pick-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "top-pick-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "buzz-link",
+        "buzz-desc",
+        "buzz-meta"
+      ]
+    },
+    "buzz-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "block/buzz",
+        "href": "https://github.com/block/buzz",
+        "source": "GitHub"
+      }
+    },
+    "buzz-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Block Inc open-sourcing a production Rust messaging platform signals a shift — same team that built Cash App, now shipping developer infrastructure in public."
+      }
+    },
+    "buzz-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "buzz-stars",
+        "buzz-lang",
+        "buzz-status"
+      ]
+    },
+    "buzz-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "3,270",
+        "label": "stars today",
+        "delta": "10.7k total"
+      }
+    },
+    "buzz-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "buzz-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "ai-ml-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "omniroute-item",
+        "ego-lite-item",
+        "worldmonitor-item"
+      ]
+    },
+    "omniroute-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "omniroute-link",
+        "omniroute-desc",
+        "omniroute-meta"
+      ]
+    },
+    "omniroute-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "diegosouzapw/OmniRoute",
+        "href": "https://github.com/diegosouzapw/OmniRoute"
+      }
+    },
+    "omniroute-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Drop-in LLM gateway with 290+ providers and auto quota-fallback — never get rate-limited mid-run again."
+      }
+    },
+    "omniroute-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "omniroute-stars",
+        "omniroute-lang",
+        "omniroute-status"
+      ]
+    },
+    "omniroute-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "1,841",
+        "label": "stars today",
+        "delta": "29.4k total"
+      }
+    },
+    "omniroute-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "omniroute-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "ego-lite-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ego-link",
+        "ego-desc",
+        "ego-meta"
+      ]
+    },
+    "ego-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "citrolabs/ego-lite",
+        "href": "https://github.com/citrolabs/ego-lite"
+      }
+    },
+    "ego-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI agents can share a browser's logged-in session state — solves persistent auth for web automation."
+      }
+    },
+    "ego-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ego-stars",
+        "ego-lang",
+        "ego-status"
+      ]
+    },
+    "ego-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "880",
+        "label": "stars today",
+        "delta": "3.0k total"
+      }
+    },
+    "ego-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript"
+      }
+    },
+    "ego-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "worldmonitor-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "worldmonitor-link",
+        "worldmonitor-desc",
+        "worldmonitor-meta"
+      ]
+    },
+    "worldmonitor-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "koala73/worldmonitor",
+        "href": "https://github.com/koala73/worldmonitor"
+      }
+    },
+    "worldmonitor-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI-powered geopolitical and infra dashboard; 73k stars in 6 months signals strong adoption breakout."
+      }
+    },
+    "worldmonitor-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "worldmonitor-stars",
+        "worldmonitor-lang",
+        "worldmonitor-status"
+      ]
+    },
+    "worldmonitor-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "2,184",
+        "label": "stars today",
+        "delta": "73.8k total"
+      }
+    },
+    "worldmonitor-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "worldmonitor-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "buzz-devtools-item",
+        "harper-item",
+        "skills-item"
+      ]
+    },
+    "buzz-devtools-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "buzz-devtools-link",
+        "buzz-devtools-desc",
+        "buzz-devtools-meta"
+      ]
+    },
+    "buzz-devtools-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "block/buzz",
+        "href": "https://github.com/block/buzz"
+      }
+    },
+    "buzz-devtools-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Nostr-adjacent hive-mind messaging from Block Inc — Rust-native, open-source, actively shipping."
+      }
+    },
+    "buzz-devtools-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "buzz-devtools-stars",
+        "buzz-devtools-lang",
+        "buzz-devtools-status"
+      ]
+    },
+    "buzz-devtools-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "3,270",
+        "label": "stars today",
+        "delta": "10.7k total"
+      }
+    },
+    "buzz-devtools-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "buzz-devtools-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "harper-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "harper-link",
+        "harper-desc",
+        "harper-meta"
+      ]
+    },
+    "harper-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Automattic/harper",
+        "href": "https://github.com/Automattic/harper"
+      }
+    },
+    "harper-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Fully offline privacy-first grammar checker from Automattic — no cloud, Rust-speed."
+      }
+    },
+    "harper-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "harper-stars",
+        "harper-lang",
+        "harper-status"
+      ]
+    },
+    "harper-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "876",
+        "label": "stars today",
+        "delta": "13.2k total"
+      }
+    },
+    "harper-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "harper-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "skills-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "skills-link",
+        "skills-desc",
+        "skills-meta"
+      ]
+    },
+    "skills-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mattpocock/skills",
+        "href": "https://github.com/mattpocock/skills"
+      }
+    },
+    "skills-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Canonical agent skills reference; freshly updated Jul 23 as the agentic dev tools wave peaks."
+      }
+    },
+    "skills-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "skills-stars",
+        "skills-lang",
+        "skills-status"
+      ]
+    },
+    "skills-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "2,251",
+        "label": "stars today",
+        "delta": "187.5k total"
+      }
+    },
+    "skills-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell"
+      }
+    },
+    "skills-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "infra-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infra-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ruview-item"
+      ]
+    },
+    "ruview-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ruview-link",
+        "ruview-desc",
+        "ruview-meta"
+      ]
+    },
+    "ruview-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ruvnet/RuView",
+        "href": "https://github.com/ruvnet/RuView"
+      }
+    },
+    "ruview-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Passive vital sign monitoring from existing WiFi signals — no new hardware, no wearables required."
+      }
+    },
+    "ruview-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ruview-stars",
+        "ruview-lang",
+        "ruview-status"
+      ]
+    },
+    "ruview-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "1,022",
+        "label": "stars today",
+        "delta": "86.2k total"
+      }
+    },
+    "ruview-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "ruview-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/13",
+        "variant": "caption"
+      }
+    }
+  }
+}
