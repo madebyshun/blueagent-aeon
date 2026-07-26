@@ -1,0 +1,504 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-26"
+      },
+      "children": [
+        "shib-section",
+        "separator-1",
+        "clarity-section",
+        "separator-2",
+        "disclaimer"
+      ]
+    },
+    "shib-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "shib-heading",
+        "shib-badges",
+        "shib-price",
+        "shib-details",
+        "shib-score",
+        "shib-catalyst",
+        "shib-risk",
+        "shib-note"
+      ]
+    },
+    "shib-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "SHIB",
+        "level": "h2"
+      }
+    },
+    "shib-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-high",
+        "badge-signal"
+      ]
+    },
+    "badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "badge-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 10/10",
+        "variant": "default"
+      }
+    },
+    "shib-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.0000054",
+        "delta": "+27.5% (24h) +29.6% (7d)",
+        "trend": "up"
+      }
+    },
+    "shib-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-mcap",
+        "stat-vol",
+        "stat-ratio"
+      ]
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "~$3.2B"
+      }
+    },
+    "stat-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "~$672M"
+      }
+    },
+    "stat-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap",
+        "value": "0.21"
+      }
+    },
+    "shib-score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-label",
+        "score-table"
+      ]
+    },
+    "score-label": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown",
+        "variant": "body"
+      }
+    },
+    "score-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Component",
+          "Points"
+        ],
+        "rows": [
+          [
+            "trending",
+            "+2"
+          ],
+          [
+            "vol/mcap≥0.20",
+            "+3"
+          ],
+          [
+            "RS vs BTC/ETH",
+            "+2"
+          ],
+          [
+            "both>5%",
+            "+2"
+          ],
+          [
+            "24h>0",
+            "+1"
+          ],
+          [
+            "7d>0",
+            "+1"
+          ],
+          [
+            "TOTAL",
+            "10/10"
+          ]
+        ]
+      }
+    },
+    "shib-catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-label",
+        "catalyst-kra",
+        "catalyst-reserves",
+        "catalyst-txns"
+      ]
+    },
+    "catalyst-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "catalyst-kra": {
+      "type": "Text",
+      "props": {
+        "text": "South Korean Upbit traders driving mystery volume spike (SHIB/KRW >10% of global vol, premium on KRW pair)"
+      }
+    },
+    "catalyst-reserves": {
+      "type": "Text",
+      "props": {
+        "text": "SHIB exchange reserves hit historic low 86.1T on July 25 = supply squeeze signal"
+      }
+    },
+    "catalyst-txns": {
+      "type": "Text",
+      "props": {
+        "text": "Shibarium daily txns +74% same day (source: coindesk.com)"
+      }
+    },
+    "shib-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Mystery rally — no named fundamental catalyst; Korean momentum plays historically reverse within 48-72h; structural memecoin with zero protocol revenue backing the move",
+        "type": "warning"
+      }
+    },
+    "shib-note": {
+      "type": "Text",
+      "props": {
+        "text": "First SHIB pick",
+        "variant": "muted"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "clarity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "clarity-heading",
+        "clarity-badges",
+        "clarity-odds",
+        "clarity-vol-res",
+        "clarity-fair",
+        "clarity-inputs-section",
+        "clarity-thesis",
+        "clarity-risk",
+        "clarity-sources"
+      ]
+    },
+    "clarity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "\"Clarity Act signed into law in 2026?\"",
+        "level": "h2"
+      }
+    },
+    "clarity-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-clarity-high",
+        "badge-clarity-edge"
+      ]
+    },
+    "badge-clarity-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "badge-clarity-edge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 10pp",
+        "variant": "default"
+      }
+    },
+    "clarity-odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "odds-label",
+        "odds-yes-stack",
+        "odds-no-stack"
+      ]
+    },
+    "odds-label": {
+      "type": "Text",
+      "props": {
+        "text": "Current odds",
+        "variant": "body"
+      }
+    },
+    "odds-yes-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "odds-yes-text",
+        "odds-yes-bar"
+      ]
+    },
+    "odds-yes-text": {
+      "type": "Text",
+      "props": {
+        "text": "YES: 38¢"
+      }
+    },
+    "odds-yes-bar": {
+      "type": "Progress",
+      "props": {
+        "value": 38,
+        "max": 100,
+        "label": "38%"
+      }
+    },
+    "odds-no-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "odds-no-text",
+        "odds-no-bar"
+      ]
+    },
+    "odds-no-text": {
+      "type": "Text",
+      "props": {
+        "text": "NO: 62¢"
+      }
+    },
+    "odds-no-bar": {
+      "type": "Progress",
+      "props": {
+        "value": 62,
+        "max": 100,
+        "label": "62%"
+      }
+    },
+    "clarity-vol-res": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat-clarity-vol",
+        "stat-clarity-res"
+      ]
+    },
+    "stat-clarity-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Volume",
+        "value": "$2.74M"
+      }
+    },
+    "stat-clarity-res": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "2027-01-01"
+      }
+    },
+    "clarity-fair": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair-label",
+        "fair-progress"
+      ]
+    },
+    "fair-label": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~48%",
+        "variant": "lead"
+      }
+    },
+    "fair-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 48,
+        "max": 100,
+        "label": "48%"
+      }
+    },
+    "clarity-inputs-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "inputs-label",
+        "input-1",
+        "input-2",
+        "input-3"
+      ]
+    },
+    "inputs-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Inputs",
+        "level": "h4"
+      }
+    },
+    "input-1": {
+      "type": "Text",
+      "props": {
+        "text": "[1] Independent analysts gave 50-70% passage odds pre-July 25 miss (Yahoo Finance / Solana Compass)"
+      }
+    },
+    "input-2": {
+      "type": "Text",
+      "props": {
+        "text": "[2] Senate returns Jul 28 — 10 working days to Aug 7 hard deadline creates urgency"
+      }
+    },
+    "input-3": {
+      "type": "Text",
+      "props": {
+        "text": "[3] Ethics sunset 2029 compromise confirmed in updated draft — core blocking issue addressed"
+      }
+    },
+    "clarity-thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-label",
+        "thesis-text"
+      ]
+    },
+    "thesis-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      }
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Buy YES at 38¢ — market overprices July 25 vote-miss recency bias; Senate leadership committed to floor time before recess; ethics compromise makes 7-Dem math achievable; priced too pessimistic"
+      }
+    },
+    "clarity-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Cloture 60-vote threshold hard; Murphy / Van Hollen / Merkley holdout bloc grows; floor time never allocated before Aug 7 recess = bill dies for 2026",
+        "type": "warning"
+      }
+    },
+    "clarity-sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-label",
+        "sources-text"
+      ]
+    },
+    "sources-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h4"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=fail, poly=ok"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "disclaimer": {
+      "type": "Alert",
+      "props": {
+        "title": "Disclaimer",
+        "message": "not financial advice — pattern-matching only",
+        "type": "info"
+      }
+    }
+  }
+}
