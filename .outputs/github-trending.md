@@ -1,31 +1,29 @@
-*GitHub Trending — 2026-07-25*
+*GitHub Trending — 2026-07-26*
 
-*Top pick* — [block/buzz](https://github.com/block/buzz)
-Block Inc open-sourcing a production Rust messaging platform signals a shift — same team that built Cash App, now shipping developer infrastructure in public.
-
-*AI/ML*
-• [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) — ★ 1,841 today (29.4k total) · TypeScript · [ACCELERATING]
-Drop-in LLM gateway with 290+ providers and auto quota-fallback — never get rate-limited mid-run again.
-
-• [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) — ★ 880 today (3.0k total) · JavaScript · [RETURNING]
-AI agents can share a browser's logged-in session state — solves persistent auth for web automation.
-
-• [koala73/worldmonitor](https://github.com/koala73/worldmonitor) — ★ 2,184 today (73.8k total) · TypeScript · [ACCELERATING]
-AI-powered geopolitical and infra dashboard; 73k stars in 6 months signals strong adoption breakout.
-
-*Devtools*
-• [block/buzz](https://github.com/block/buzz) — ★ 3,270 today (10.7k total) · Rust · [ACCELERATING]
-Nostr-adjacent hive-mind messaging from Block Inc — Rust-native, open-source, actively shipping.
-
-• [Automattic/harper](https://github.com/Automattic/harper) — ★ 876 today (13.2k total) · Rust · [RETURNING]
-Fully offline privacy-first grammar checker from Automattic — no cloud, Rust-speed.
-
-• [mattpocock/skills](https://github.com/mattpocock/skills) — ★ 2,251 today (187.5k total) · Shell · [ACCELERATING]
-Canonical agent skills reference; freshly updated Jul 23 as the agentic dev tools wave peaks.
+*Top pick* — [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat)
+Highest-velocity pick today at 1,720 stars — offline Bluetooth mesh chat is having its decentralized-comms moment, and the Swift implementation is clean enough to ship.
 
 *Infra*
-• [ruvnet/RuView](https://github.com/ruvnet/RuView) — ★ 1,022 today (86.2k total) · Rust · [ACCELERATING]
-Passive vital sign monitoring from existing WiFi signals — no new hardware, no wearables required.
+• [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) — ★ 1,720 today (29k total) · Swift · [ACCELERATING]
+Peer-to-peer Bluetooth mesh messaging: no internet, no server, no account required.
+
+*AI/ML*
+• [alibaba/open-code-review](https://github.com/alibaba/open-code-review) — ★ 431 today (13k total) · Go · [ACCELERATING]
+Pairs LLM agent judgment with deterministic pipeline steps — code review that's reproducible and testable like any other code.
+
+*Devtools*
+• [obra/superpowers](https://github.com/obra/superpowers) — ★ 479 today (261k total) · Shell · [RETURNING]
+Original skills-as-composable-scripts framework returning to trending after a fresh Jul 24 push — the agentic tooling wave is validating this pattern at scale.
+
+• [OtterMind/Chat2DB](https://github.com/OtterMind/Chat2DB) — ★ 360 today (27k total) · Java · [RETURNING]
+AI-native database client with inline query generation — 3-year-old SQL IDE pushed today, signs of a major new release.
+
+*Web/Apps*
+• [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) — ★ 426 today (5.3k total) · TypeScript · [ACCELERATING]
+Drag-and-drop page builder that outputs self-hosted static sites — Webflow parity without the monthly subscription or CDN dependency.
+
+• [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro) — ★ 412 today (12k total) · Swift · [ACCELERATING]
+Native macOS video editor with local AI editing — no cloud uploads, runs on Apple Silicon, built for privacy-first creators.
 
 ---
-sources: trending=ok · gh_api=ok · kept 7/13
+sources: trending=ok · gh_api=ok · kept 6/18

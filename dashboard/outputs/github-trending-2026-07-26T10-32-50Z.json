@@ -1,0 +1,516 @@
+{
+  "root": "card_trending",
+  "state": {},
+  "elements": {
+    "card_trending": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-26"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_topick",
+        "storylink_topick",
+        "stack_topick_meta",
+        "text_topick_desc",
+        "separator_1",
+        "heading_infra",
+        "repo_infra_bitchat",
+        "separator_2",
+        "heading_aiml",
+        "repo_aiml_open",
+        "separator_3",
+        "heading_devtools",
+        "repo_devtools_superpowers",
+        "repo_devtools_chat2db",
+        "separator_4",
+        "heading_web",
+        "repo_web_instatic",
+        "repo_web_palmier",
+        "separator_5",
+        "text_sources"
+      ]
+    },
+    "heading_topick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "storylink_topick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "permissionlesstech/bitchat",
+        "href": "https://github.com/permissionlesstech/bitchat"
+      }
+    },
+    "stack_topick_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_topick_stars",
+        "badge_topick_lang",
+        "badge_topick_status"
+      ]
+    },
+    "stat_topick_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "1,720",
+        "trend": "up"
+      }
+    },
+    "badge_topick_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Swift"
+      }
+    },
+    "badge_topick_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_topick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Offline Bluetooth mesh chat is having its decentralized-comms moment, and the Swift implementation is clean enough to ship."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "repo_infra_bitchat": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_infra_bitchat",
+        "stack_infra_bitchat_meta",
+        "text_infra_bitchat_desc"
+      ]
+    },
+    "storylink_infra_bitchat": {
+      "type": "StoryLink",
+      "props": {
+        "title": "permissionlesstech/bitchat",
+        "href": "https://github.com/permissionlesstech/bitchat"
+      }
+    },
+    "stack_infra_bitchat_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_infra_bitchat_stars",
+        "badge_infra_bitchat_lang",
+        "badge_infra_bitchat_status"
+      ]
+    },
+    "stat_infra_bitchat_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "29,000",
+        "delta": "+1,720",
+        "trend": "up"
+      }
+    },
+    "badge_infra_bitchat_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Swift"
+      }
+    },
+    "badge_infra_bitchat_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_infra_bitchat_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Peer-to-peer Bluetooth mesh messaging: no internet, no server, no account required."
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "repo_aiml_open": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_aiml_open",
+        "stack_aiml_open_meta",
+        "text_aiml_open_desc"
+      ]
+    },
+    "storylink_aiml_open": {
+      "type": "StoryLink",
+      "props": {
+        "title": "alibaba/open-code-review",
+        "href": "https://github.com/alibaba/open-code-review"
+      }
+    },
+    "stack_aiml_open_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_aiml_open_stars",
+        "badge_aiml_open_lang",
+        "badge_aiml_open_status"
+      ]
+    },
+    "stat_aiml_open_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "13,000",
+        "delta": "+431",
+        "trend": "up"
+      }
+    },
+    "badge_aiml_open_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go"
+      }
+    },
+    "badge_aiml_open_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_aiml_open_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pairs LLM agent judgment with deterministic pipeline steps — code review that's reproducible and testable like any other code."
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "repo_devtools_superpowers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_devtools_superpowers",
+        "stack_devtools_super_meta",
+        "text_devtools_super_desc"
+      ]
+    },
+    "storylink_devtools_superpowers": {
+      "type": "StoryLink",
+      "props": {
+        "title": "obra/superpowers",
+        "href": "https://github.com/obra/superpowers"
+      }
+    },
+    "stack_devtools_super_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_devtools_super_stars",
+        "badge_devtools_super_lang",
+        "badge_devtools_super_status"
+      ]
+    },
+    "stat_devtools_super_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "261,000",
+        "delta": "+479",
+        "trend": "up"
+      }
+    },
+    "badge_devtools_super_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell"
+      }
+    },
+    "badge_devtools_super_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text_devtools_super_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Original skills-as-composable-scripts framework returning to trending after a fresh Jul 24 push — the agentic tooling wave is validating this pattern at scale."
+      }
+    },
+    "repo_devtools_chat2db": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_devtools_chat2db",
+        "stack_devtools_chat_meta",
+        "text_devtools_chat_desc"
+      ]
+    },
+    "storylink_devtools_chat2db": {
+      "type": "StoryLink",
+      "props": {
+        "title": "OtterMind/Chat2DB",
+        "href": "https://github.com/OtterMind/Chat2DB"
+      }
+    },
+    "stack_devtools_chat_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_devtools_chat_stars",
+        "badge_devtools_chat_lang",
+        "badge_devtools_chat_status"
+      ]
+    },
+    "stat_devtools_chat_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "27,000",
+        "delta": "+360",
+        "trend": "up"
+      }
+    },
+    "badge_devtools_chat_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Java"
+      }
+    },
+    "badge_devtools_chat_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text_devtools_chat_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI-native database client with inline query generation — 3-year-old SQL IDE pushed today, signs of a major new release."
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_web": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "repo_web_instatic": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_web_instatic",
+        "stack_web_inst_meta",
+        "text_web_inst_desc"
+      ]
+    },
+    "storylink_web_instatic": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CoreBunch/Instatic",
+        "href": "https://github.com/CoreBunch/Instatic"
+      }
+    },
+    "stack_web_inst_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_web_inst_stars",
+        "badge_web_inst_lang",
+        "badge_web_inst_status"
+      ]
+    },
+    "stat_web_inst_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "5,300",
+        "delta": "+426",
+        "trend": "up"
+      }
+    },
+    "badge_web_inst_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "badge_web_inst_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_web_inst_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Drag-and-drop page builder that outputs self-hosted static sites — Webflow parity without the monthly subscription or CDN dependency."
+      }
+    },
+    "repo_web_palmier": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_web_palmier",
+        "stack_web_palm_meta",
+        "text_web_palm_desc"
+      ]
+    },
+    "storylink_web_palmier": {
+      "type": "StoryLink",
+      "props": {
+        "title": "palmier-io/palmier-pro",
+        "href": "https://github.com/palmier-io/palmier-pro"
+      }
+    },
+    "stack_web_palm_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_web_palm_stars",
+        "badge_web_palm_lang",
+        "badge_web_palm_status"
+      ]
+    },
+    "stat_web_palm_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "12,000",
+        "delta": "+412",
+        "trend": "up"
+      }
+    },
+    "badge_web_palm_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Swift"
+      }
+    },
+    "badge_web_palm_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_web_palm_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Native macOS video editor with local AI editing — no cloud uploads, runs on Apple Silicon, built for privacy-first creators."
+      }
+    },
+    "separator_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/18",
+        "variant": "caption"
+      }
+    }
+  }
+}
