@@ -1,0 +1,478 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-07-26"
+      },
+      "children": [
+        "text_verdict",
+        "sep_1",
+        "heading_patch",
+        "stack_patch",
+        "sep_2",
+        "heading_monitor",
+        "stack_monitor"
+      ]
+    },
+    "text_verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: nothing urgent today. 5 to schedule, 3 to monitor. Sources: KEV (no new adds since Jul 22), GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_patch": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "stack_patch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item_patch_1",
+        "item_patch_2",
+        "item_patch_3",
+        "item_patch_4",
+        "item_patch_5"
+      ]
+    },
+    "item_patch_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "patch_1_links",
+        "patch_1_package",
+        "patch_1_desc",
+        "patch_1_action"
+      ]
+    },
+    "patch_1_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_patch_1a",
+        "link_patch_1b"
+      ]
+    },
+    "link_patch_1a": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-w4hw-qcx7-56pr",
+        "href": "https://github.com/advisories/GHSA-w4hw-qcx7-56pr",
+        "source": "GitHub Advisory"
+      }
+    },
+    "link_patch_1b": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-gm3r-q2wp-hw87",
+        "href": "https://github.com/advisories/GHSA-gm3r-q2wp-hw87",
+        "source": "GitHub Advisory"
+      }
+    },
+    "patch_1_package": {
+      "type": "Text",
+      "props": {
+        "text": "shescape (npm) · CVSS 9.2 / 8.7 · EPSS n/a",
+        "variant": "caption"
+      }
+    },
+    "patch_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Shell injection via unescaped parens on Windows CMD + quadratic-time DoS in flag-protection. Two bugs, one fix."
+      }
+    },
+    "patch_1_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade shescape to ≥2.1.14 (v2) or ≥3.0.1 (v3)",
+        "variant": "muted"
+      }
+    },
+    "item_patch_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_patch_2",
+        "patch_2_package",
+        "patch_2_desc",
+        "patch_2_action"
+      ]
+    },
+    "link_patch_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-vh45-f885-3848",
+        "href": "https://github.com/advisories/GHSA-vh45-f885-3848",
+        "source": "GitHub Advisory"
+      }
+    },
+    "patch_2_package": {
+      "type": "Text",
+      "props": {
+        "text": "sm-crypto (npm) · CVSS 9.1 · EPSS n/a",
+        "variant": "caption"
+      }
+    },
+    "patch_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "SM2 private key generated from Math.random + wall clock in Node.js — CSPRNG branch skipped. Keys recoverable. PoC included."
+      }
+    },
+    "patch_2_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade sm-crypto to ≥0.5.0",
+        "variant": "muted"
+      }
+    },
+    "item_patch_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_patch_3",
+        "patch_3_package",
+        "patch_3_desc",
+        "patch_3_action"
+      ]
+    },
+    "link_patch_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-hp6v-6jw7-gv2f",
+        "href": "https://github.com/advisories/GHSA-hp6v-6jw7-gv2f",
+        "source": "GitHub Advisory"
+      }
+    },
+    "patch_3_package": {
+      "type": "Text",
+      "props": {
+        "text": "@budibase/server (npm) · CVSS 9.0 · EPSS n/a",
+        "variant": "caption"
+      }
+    },
+    "patch_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "OIDC SSO account takeover: email claim linked without checking email_verified. Attacker claims victim email via unverified IdP account → inherits admin session."
+      }
+    },
+    "patch_3_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade budibase to ≥3.39.30",
+        "variant": "muted"
+      }
+    },
+    "item_patch_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_patch_4",
+        "patch_4_package",
+        "patch_4_desc",
+        "patch_4_action"
+      ]
+    },
+    "link_patch_4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-mqhr-6j6h-74p5",
+        "href": "https://github.com/advisories/GHSA-mqhr-6j6h-74p5",
+        "source": "GitHub Advisory"
+      }
+    },
+    "patch_4_package": {
+      "type": "Text",
+      "props": {
+        "text": "@budibase/server (npm) · critical · EPSS n/a",
+        "variant": "caption"
+      }
+    },
+    "patch_4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated REST credential theft: stored Bearer tokens forwarded to attacker-controlled host via PUBLIC query + path param. One request, no login. PoC confirmed."
+      }
+    },
+    "patch_4_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade budibase to ≥3.40.1",
+        "variant": "muted"
+      }
+    },
+    "item_patch_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "patch_5_links",
+        "patch_5_package",
+        "patch_5_desc",
+        "patch_5_action"
+      ]
+    },
+    "patch_5_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_patch_5a",
+        "link_patch_5b"
+      ]
+    },
+    "link_patch_5a": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-6vch-q96h-7gc3",
+        "href": "https://github.com/advisories/GHSA-6vch-q96h-7gc3",
+        "source": "GitHub Advisory"
+      }
+    },
+    "link_patch_5b": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-xg4h-6gfc-h4m8",
+        "href": "https://github.com/advisories/GHSA-xg4h-6gfc-h4m8",
+        "source": "GitHub Advisory"
+      }
+    },
+    "patch_5_package": {
+      "type": "Text",
+      "props": {
+        "text": "etcd (go) · CVSS 8.7 / 7.1 · EPSS n/a",
+        "variant": "caption"
+      }
+    },
+    "patch_5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "TLS listener goroutine DoS (no handshake deadline) + Watch API RBAC bypass (any READ grant reads full keyspace). Both fixed same release."
+      }
+    },
+    "patch_5_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade etcd to ≥3.7.1 / 3.6.14 / 3.5.33",
+        "variant": "muted"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "stack_monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item_monitor_1",
+        "item_monitor_2",
+        "item_monitor_3"
+      ]
+    },
+    "item_monitor_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_monitor_1",
+        "monitor_1_package",
+        "monitor_1_desc",
+        "monitor_1_action"
+      ]
+    },
+    "link_monitor_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-hmj8-5xmh-5573",
+        "href": "https://github.com/advisories/GHSA-hmj8-5xmh-5573",
+        "source": "GitHub Advisory"
+      }
+    },
+    "monitor_1_package": {
+      "type": "Text",
+      "props": {
+        "text": "py-libp2p (pip) · CVSS 7.5 · no fix yet",
+        "variant": "caption"
+      }
+    },
+    "monitor_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "yamux connection DoS: 12-byte frame claiming 4 GB body stalls read loop. Default new_host() affected. Any post-handshake peer can trigger it."
+      }
+    },
+    "monitor_1_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ track issue; no patch yet; consider restricting peer connections",
+        "variant": "muted"
+      }
+    },
+    "item_monitor_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "monitor_2_links",
+        "monitor_2_package",
+        "monitor_2_desc",
+        "monitor_2_action"
+      ]
+    },
+    "monitor_2_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_monitor_2a",
+        "link_monitor_2b"
+      ]
+    },
+    "link_monitor_2a": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-jvxp-qmx7-gjpx",
+        "href": "https://github.com/advisories/GHSA-jvxp-qmx7-gjpx",
+        "source": "GitHub Advisory"
+      }
+    },
+    "link_monitor_2b": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-16756",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-16756"
+      }
+    },
+    "monitor_2_package": {
+      "type": "Text",
+      "props": {
+        "text": "aws-smithy-http-server (crates.io) · CVSS 8.7 · EPSS 0.004",
+        "variant": "caption"
+      }
+    },
+    "monitor_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Slowloris DoS: no connection/header-read timeout in default serve() path. Unauthenticated."
+      }
+    },
+    "monitor_2_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade aws-smithy-http-server to ≥0.66.5",
+        "variant": "muted"
+      }
+    },
+    "item_monitor_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "monitor_3_links",
+        "monitor_3_package",
+        "monitor_3_desc",
+        "monitor_3_action"
+      ]
+    },
+    "monitor_3_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_monitor_3a",
+        "link_monitor_3b"
+      ]
+    },
+    "link_monitor_3a": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-j6g5-3hh3-pgw8",
+        "href": "https://github.com/advisories/GHSA-j6g5-3hh3-pgw8",
+        "source": "GitHub Advisory"
+      }
+    },
+    "link_monitor_3b": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-16796",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-16796"
+      }
+    },
+    "monitor_3_package": {
+      "type": "Text",
+      "props": {
+        "text": "bedrock-agentcore (pip) · CVSS 8.4 · EPSS 0.003",
+        "variant": "caption"
+      }
+    },
+    "monitor_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Argument injection in install_packages(): crafted package specifier → arbitrary command exec inside Code Interpreter sandbox."
+      }
+    },
+    "monitor_3_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade bedrock-agentcore to ≥1.18.1",
+        "variant": "muted"
+      }
+    }
+  }
+}
