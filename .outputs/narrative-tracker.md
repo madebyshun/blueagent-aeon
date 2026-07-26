@@ -1,29 +1,19 @@
-*Narrative Tracker — 2026-07-25*
+Done. Here's the summary:
 
-TRANSITIONS
-• PROMOTED: AI Compute/DePIN-AI (mindshare 3→4) — Hut 8 $19.6B Beacon Point + IREN $2.8B AI Cloud contracts + OpenAI $750B compute raise. TradFi anchored at $22B+ scale. VVV +9.4% today. FRONT-RUN entry window closing fast.
-• VELOCITY: Stablecoin Rails (↑↑→↑, Emerging) — OCC AML comment closed Jul 24. Rulemaking enters next phase; next signal: CIP close Aug 21.
-• EVENT IMMINENT (3 days): ZEC Ironwood Jul 28 — FADE held; bug-fix framing not bullish expansion; sell-the-news setup.
-• EVENT IMMINENT (3-4 days): Fed meeting Jul 28-29 — 70% hold; BTC $64,033 declining; Fear & Greed 27; tail hike risk from oil.
+## Summary
 
-REFLEXIVITY ALERT
-• EUL +65.5% — BlackRock sBUIDL ($3B tokenized Treasury) live as collateral on Euler/Avalanche; short squeeze + institutional DeFi narrative moving price directly.
-• HYPE cope: FXEmpire "HYPE eyes 20% rise" published Jul 24 with Aug 6 $587M unlock 11 days out; a16z $28M Jul 17 stacked = distribution cover.
+**Narrative Tracker — 2026-07-26** complete.
 
-POSITIONS
-• FRONT-RUN: AI Compute/DePIN-AI (4 ↑↑, Bull) — Akash/Render/io.net real revenue + Hut 8 $19.6B + IREN $2.8B + OpenAI $750B — bear: token→revenue gap; Meta entering
-• RIDE: AI Agent Economy (5 ↑, Peak) — @virtuals_io, Robinhood 70k agent beta, sector $25B+ — bear: $45M H1 vuln losses
-• RIDE: x402/Base (5 ↑↑, Peak) — 40 firms, Linux Foundation, 75M txns — bear: multi-chain dilution
-• RIDE: Tokenized Equities/ONDO (4 ↑, Rising) — DTCC rails, $3.78B TVL; ONDO burn vote concludes today; EUL/BlackRock confirms theme — bear: ONDO $0.38 (−5%), SEC controls rails
-• RIDE: AI Agent Security/TEE (4 ↑, Rising) — Phala, Ledger, $45M H1 losses — bear: tooling ≠ adoption
-• RIDE: CLARITY Act (4 ↑↑, Rising, Mixed) — vote expected this week; ethics 2029 sunset; Trump approved; Aug 7 deadline 13 days — bear: 7 Dems needed; binary (pass=60s-70s, fail=20s Polymarket)
-• FADE: Hyperliquid (1 ↓↓) — $587M unlock Aug 6 (11 days); call Dead Aug 6
-• FADE: ZEC/Privacy (2 ↓↓) — Ironwood Jul 28 in 3 days; structural delistings
-• FADE: Fed Pivot/Macro (2 ↓) — $4.5B ETF outflows June; BTC declining; Fed this week
-• FADE: Kaito/InfoFi (2 ↓↓) — structural; Yapper dead
+**Cache:** NARRATIVE_CACHE_MISS (XAI 403, 17th consecutive day) — fell back to WebSearch.
 
-MAP
-Emerging: Stablecoin Rails, Agentic Dev Tools, FHE/ZAMA, US-Iran, PEPE ETF, Lean Ethereum
-Rising: AI Compute/DePIN-AI, AI Agent Security/TEE, CLARITY Act, Tokenized Equities, BNB Chain
-Peak: AI Agent Economy, x402/Agentic Payments, Robinhood Chain
-Fading: ZEC/Privacy, Fed Pivot, Kaito/InfoFi, Hyperliquid, RWA Tokenization
+**4 transitions detected:**
+- **PROMOTED:** Memecoins (IGNORE → Emerging ↑↑ WATCH) — SHIB +27.5-36% driven by South Korean Upbit (KRW >10% global vol, exchange reserves 86.1T historic low, Shibarium +74% txns); PEPE +11.6%; meme cap +11% to $24.74B. 1-day signal; needs confirmation.
+- **DEMOTED:** CLARITY Act (Rising ↑↑ RIDE → Rising → WATCH) — vote missed Jul 25 target; Polymarket crashed to 34-38% from 45-73% peak; Aug 7 = 12 days; binary.
+- **EVENT IN 2 DAYS:** ZEC Ironwood Jul 28 — no price recovery into broad green market today; calling DEAD Jul 28-29.
+- **EVENT IN 2 DAYS:** Fed Jul 28-29 — ~36% hike probability (Chair Warsh hawkish, no forward guidance); binary macro risk.
+
+**3 reflexivity flags:** SHIB supply squeeze loop, VVV revenue-backed burn (5th rally in 2 weeks — real token→adoption linkage confirmed), CLARITY Act Polymarket divergence (retail buying meme coins on bill optimism while sophisticated traders at 34-38%).
+
+**Positions:** FRONT-RUN AI Compute/DePIN-AI (VVV confirming); RIDE on AI Agent Economy/x402/Tokenized Equities/AI Security; FADE ZEC, HYPE, Kaito.
+
+Notification staged in `.pending-notify/narrative-tracker.md` (sandbox blocks `./notify` script execution in interactive mode). Log committed to `memory/logs/2026-07-26.md`.
