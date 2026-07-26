@@ -1,6 +1,7 @@
 import json, sys, statistics
 
-data = json.load(sys.stdin)
+with open('/home/runner/work/blueagent-aeon/blueagent-aeon/.cg_markets_raw.json') as _f:
+    data = json.load(_f)
 
 STABLES = {
     'tether','usd-coin','dai','first-digital-usd','usde','tusd','usdd','pyusd',
