@@ -1,0 +1,568 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-27"
+      },
+      "children": [
+        "section_toppick",
+        "sep1",
+        "section_aiml",
+        "sep2",
+        "section_devtools",
+        "sep3",
+        "section_infra",
+        "sep4",
+        "footer"
+      ]
+    },
+    "section_toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_toppick",
+        "repo_impeccable_top"
+      ]
+    },
+    "heading_toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "repo_impeccable_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_impeccable_top",
+        "text_impeccable_top"
+      ]
+    },
+    "link_impeccable_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "pbakaus/impeccable",
+        "href": "https://github.com/pbakaus/impeccable"
+      }
+    },
+    "text_impeccable_top": {
+      "type": "Text",
+      "props": {
+        "text": "Fills the gap AI code tools keep hitting: a shared design vocabulary LLMs can target consistently, replacing per-project CSS prompt tuning with semantic tokens.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aiml",
+        "repo_airi",
+        "repo_cv",
+        "repo_l30"
+      ]
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "repo_airi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack_airi_meta",
+        "text_airi_desc",
+        "stack_airi_stats"
+      ]
+    },
+    "stack_airi_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link_airi",
+        "badge_airi_status"
+      ]
+    },
+    "link_airi": {
+      "type": "StoryLink",
+      "props": {
+        "title": "moeru-ai/airi",
+        "href": "https://github.com/moeru-ai/airi"
+      }
+    },
+    "badge_airi_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_airi_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted AI companion with voice chat and game-playing — runs on your hardware, no cloud dependency required.",
+        "variant": "body"
+      }
+    },
+    "stack_airi_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_airi",
+        "badge_airi_lang"
+      ]
+    },
+    "stat_airi": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "554 (44k total)"
+      }
+    },
+    "badge_airi_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "repo_cv": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack_cv_meta",
+        "text_cv_desc",
+        "stack_cv_stats"
+      ]
+    },
+    "stack_cv_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link_cv",
+        "badge_cv_status"
+      ]
+    },
+    "link_cv": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bradautomates/claude-video",
+        "href": "https://github.com/bradautomates/claude-video"
+      }
+    },
+    "badge_cv_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_cv_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Full video analysis pipeline for Claude — frame sampling, transcription, motion detection, no separate vision API subscription.",
+        "variant": "body"
+      }
+    },
+    "stack_cv_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_cv",
+        "badge_cv_lang"
+      ]
+    },
+    "stat_cv": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "412 (11k total)"
+      }
+    },
+    "badge_cv_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "repo_l30": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack_l30_meta",
+        "text_l30_desc",
+        "stack_l30_stats"
+      ]
+    },
+    "stack_l30_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link_l30",
+        "badge_l30_status"
+      ]
+    },
+    "link_l30": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mvanhorn/last30days-skill",
+        "href": "https://github.com/mvanhorn/last30days-skill"
+      }
+    },
+    "badge_l30_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_l30_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Parallel agents sweep Reddit, X, YouTube, and HN for 30-day topic signals; clonable into any agent stack.",
+        "variant": "body"
+      }
+    },
+    "stack_l30_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_l30",
+        "badge_l30_lang"
+      ]
+    },
+    "stat_l30": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "221 (54k total)"
+      }
+    },
+    "badge_l30_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "repo_impeccable_dev",
+        "repo_superfile"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "repo_impeccable_dev": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack_imp_meta",
+        "text_imp_desc",
+        "stack_imp_stats"
+      ]
+    },
+    "stack_imp_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link_imp_dev",
+        "badge_imp_status"
+      ]
+    },
+    "link_imp_dev": {
+      "type": "StoryLink",
+      "props": {
+        "title": "pbakaus/impeccable",
+        "href": "https://github.com/pbakaus/impeccable"
+      }
+    },
+    "badge_imp_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_imp_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Semantic design tokens (color role + surface + state) any LLM can target reliably — eliminates per-project CSS prompt engineering.",
+        "variant": "body"
+      }
+    },
+    "stack_imp_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_imp",
+        "badge_imp_lang"
+      ]
+    },
+    "stat_imp": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "849 (51k total)"
+      }
+    },
+    "badge_imp_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "outline"
+      }
+    },
+    "repo_superfile": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack_sf_meta",
+        "text_sf_desc",
+        "stack_sf_stats"
+      ]
+    },
+    "stack_sf_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link_sf",
+        "badge_sf_status"
+      ]
+    },
+    "link_sf": {
+      "type": "StoryLink",
+      "props": {
+        "title": "yorukot/superfile",
+        "href": "https://github.com/yorukot/superfile"
+      }
+    },
+    "badge_sf_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text_sf_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Modern TUI file manager with tabs, previews, and plugins — treats the terminal like an IDE panel, not a 1989-era mc clone.",
+        "variant": "body"
+      }
+    },
+    "stack_sf_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_sf",
+        "badge_sf_lang"
+      ]
+    },
+    "stat_sf": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "600 (21k total)"
+      }
+    },
+    "badge_sf_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_infra",
+        "repo_amnezia"
+      ]
+    },
+    "heading_infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "repo_amnezia": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack_amn_meta",
+        "text_amn_desc",
+        "stack_amn_stats"
+      ]
+    },
+    "stack_amn_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link_amn",
+        "badge_amn_status"
+      ]
+    },
+    "link_amn": {
+      "type": "StoryLink",
+      "props": {
+        "title": "amnezia-vpn/amnezia-client",
+        "href": "https://github.com/amnezia-vpn/amnezia-client"
+      }
+    },
+    "badge_amn_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text_amn_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Wraps WireGuard/OpenVPN with DPI-defeating obfuscation for censorship-heavy networks — 515 stars in one day points to a fresh blocking event.",
+        "variant": "body"
+      }
+    },
+    "stack_amn_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_amn",
+        "badge_amn_lang"
+      ]
+    },
+    "stat_amn": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "515 (14k total)"
+      }
+    },
+    "badge_amn_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C++",
+        "variant": "outline"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/14",
+        "variant": "caption"
+      }
+    }
+  }
+}
