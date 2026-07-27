@@ -1,19 +1,19 @@
-*Morning Brief — 2026-07-26*
+*Morning Brief — 2026-07-27*
 
 *Focus today*
-1. CLARITY Act — why now: vote missed Jul 25 target; Aug 7 deadline 12 days; Senate returns Mon
-2. Fed meeting Jul 28-29 — why now: 2 days to binary rate decision; BTC $64k high-beta risk
-3. HYPE Aug 6 unlock — why now: 10 days to $587M distribution; trending interest already collapsed
+1. Fed decision Wed Jul 29 — why now: Sep hike 82% priced; BTC $64k exposed to relief rally
+2. CLARITY Act, Aug 10 deadline — why now: Senate back tomorrow; ethics cleared; 14 days left
+3. VVV FRONT-RUN — why now: 5th consecutive rally; burn loop reflexive; entry window closing
 
 *Since yesterday*
-- ZEC Ironwood Jul 28 (2 days): price declining into upgrade; FADE confirmed — no reversal signal
-- EUL +65.5%: token pick HIGH 10/10 sent; BlackRock sBUIDL DeFi integration confirmed
-- AI Compute FRONT-RUN: Hut 8 $19.6B + IREN $2.8B + OpenAI $750B maintained; entry window narrowing
-- XAI 403 (no credits): 16th consecutive day; narrative-tracker on WebSearch fallback, SR 0.98
+- [moved] CLARITY Act deadline corrected to Aug 10 (not Aug 7); Trump approved ethics language — key blocker resolved
+- [moved] SHIB +27.5% South Korean Upbit mystery rally; exchange reserves 86.1T historic low — 1-day signal, confirm today
+- [moved] Memecoins/Retail Return: narrative-tracker promoted IGNORE → Emerging ↑↑ WATCH
+- [moved] DEXE +54.5%→−28.6% capitulation completed — pump-dump confirmed, not structural
 
 *Watch*
-- CLARITY Act: Bessent "1-yard line" Jul 21; no vote landed week of Jul 23; next window this week but FOMC floor time competes → binary before Aug 7 [Focus #1]
-- Fed Jul 28-29: 9/18 officials project hike; BTC ETF outflows 3rd consecutive week; hold = recovery, hike = BTC extends sell-off [Focus #2]
+- Fed Jul 29: 65% hold, 82% Sep hike probability — hike tail manageable this week; Sep is real binary (focus #1)
+- CLARITY Act: Trump ethics sign-off eliminates key blocker — YES 35¢ fair-value gap widens to ~13pp (focus #2)
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC

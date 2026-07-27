@@ -1,0 +1,471 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-27"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_yesterday",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_reason"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. Fed decision Wed Jul 29",
+        "variant": "lead"
+      }
+    },
+    "focus_1_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Sep hike 82% priced; BTC $64k exposed to relief rally",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_reason"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. CLARITY Act, Aug 10 deadline",
+        "variant": "lead"
+      }
+    },
+    "focus_2_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Senate back tomorrow; ethics cleared; 14 days left",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_reason"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. VVV FRONT-RUN",
+        "variant": "lead"
+      }
+    },
+    "focus_3_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 5th consecutive rally; burn loop reflexive; entry window closing",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_yesterday",
+        "yesterday_1",
+        "yesterday_2",
+        "yesterday_3",
+        "yesterday_4"
+      ]
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_1",
+        "text_yesterday_1"
+      ]
+    },
+    "badge_moved_1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_yesterday_1": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act deadline corrected to Aug 10 (not Aug 7); Trump approved ethics language — key blocker resolved",
+        "variant": "body"
+      }
+    },
+    "yesterday_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_2",
+        "text_yesterday_2"
+      ]
+    },
+    "badge_moved_2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_yesterday_2": {
+      "type": "Text",
+      "props": {
+        "text": "SHIB +27.5% South Korean Upbit mystery rally; exchange reserves 86.1T historic low — 1-day signal, confirm today",
+        "variant": "body"
+      }
+    },
+    "yesterday_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_3",
+        "text_yesterday_3"
+      ]
+    },
+    "badge_moved_3": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_yesterday_3": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoins/Retail Return: narrative-tracker promoted IGNORE → Emerging ↑↑ WATCH",
+        "variant": "body"
+      }
+    },
+    "yesterday_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_4",
+        "text_yesterday_4"
+      ]
+    },
+    "badge_moved_4": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_yesterday_4": {
+      "type": "Text",
+      "props": {
+        "text": "DEXE +54.5%→−28.6% capitulation completed — pump-dump confirmed, not structural",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_1_title",
+        "watch_1_detail"
+      ]
+    },
+    "watch_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "Fed Jul 29: 65% hold, 82% Sep hike probability",
+        "variant": "lead"
+      }
+    },
+    "watch_1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "hike tail manageable this week; Sep is real binary (focus #1)",
+        "variant": "body"
+      }
+    },
+    "watch_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_2_title",
+        "watch_2_detail"
+      ]
+    },
+    "watch_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act: Trump ethics sign-off eliminates key blocker",
+        "variant": "lead"
+      }
+    },
+    "watch_2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "YES 35¢ fair-value gap widens to ~13pp (focus #2)",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running_1_time",
+        "running_1_name"
+      ]
+    },
+    "running_1_time": {
+      "type": "Badge",
+      "props": {
+        "text": "08:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "running_1_name": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat",
+        "variant": "body"
+      }
+    },
+    "running_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running_2_time",
+        "running_2_name"
+      ]
+    },
+    "running_2_time": {
+      "type": "Badge",
+      "props": {
+        "text": "09:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "running_2_name": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor",
+        "variant": "body"
+      }
+    },
+    "running_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running_3_time",
+        "running_3_name"
+      ]
+    },
+    "running_3_time": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "running_3_name": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers",
+        "variant": "body"
+      }
+    },
+    "running_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running_4_time",
+        "running_4_name"
+      ]
+    },
+    "running_4_time": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "running_4_name": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick",
+        "variant": "body"
+      }
+    },
+    "running_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running_5_time",
+        "running_5_name"
+      ]
+    },
+    "running_5_time": {
+      "type": "Badge",
+      "props": {
+        "text": "13:30 UTC",
+        "variant": "outline"
+      }
+    },
+    "running_5_name": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "body"
+      }
+    }
+  }
+}
