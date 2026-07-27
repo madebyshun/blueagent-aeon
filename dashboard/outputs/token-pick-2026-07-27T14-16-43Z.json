@@ -1,0 +1,313 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-27"
+      },
+      "children": [
+        "section_zama",
+        "separator_1",
+        "section_market",
+        "footer_note"
+      ]
+    },
+    "section_zama": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_zama",
+        "price_stats",
+        "vol_ratio_text",
+        "score_text",
+        "catalyst_text",
+        "risk_alert_zama"
+      ]
+    },
+    "header_zama": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_zama",
+        "badge_high",
+        "badge_signal"
+      ]
+    },
+    "heading_zama": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: ZAMA",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 10/10",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "price_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "price_stat",
+        "mcap_stat",
+        "volume_stat"
+      ]
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.0589",
+        "delta": "+13.9% (24h) / +49.4% (7d)",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "mcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$129.5M"
+      },
+      "children": []
+    },
+    "volume_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$44.9M"
+      },
+      "children": []
+    },
+    "vol_ratio_text": {
+      "type": "Text",
+      "props": {
+        "text": "Vol/Mcap: 0.35",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "score_text": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [trending+2, vol/mcap≥0.20+3, both>5%+2, RS vs BTC/ETH+2, 24h>0+1, 7d>0+1] = 10/10",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: Q2 \"Shielded\" network health report drops today (Jul 27) — tracks confidential token adoption and institutional/developer ecosystem on ZAMA's FHE mainnet; first major fully-homomorphic encryption protocol token live on mainnet",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "risk_alert_zama": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "RSI 83+ overbought; sell-the-news risk on report; FHE throughput far below ZK in real adoption — niche curve risk",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_market",
+        "market_details",
+        "odds_stats",
+        "fair_analysis",
+        "thesis_text",
+        "risk_alert_market",
+        "sources_text"
+      ]
+    },
+    "header_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_market",
+        "badge_medium",
+        "badge_edge"
+      ]
+    },
+    "heading_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will Strait of Hormuz traffic return to normal by Aug 31?",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_edge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 6.5pp",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "market_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "resolve_date_text",
+        "volume_market_stat"
+      ]
+    },
+    "resolve_date_text": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-08-31",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "volume_market_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$308K"
+      },
+      "children": []
+    },
+    "odds_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "odds_yes_stat",
+        "odds_no_stat"
+      ]
+    },
+    "odds_yes_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "13.5¢"
+      },
+      "children": []
+    },
+    "odds_no_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "86.5¢"
+      },
+      "children": []
+    },
+    "fair_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair_yes_stat",
+        "fair_reasoning"
+      ]
+    },
+    "fair_yes_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES",
+        "value": "~7%"
+      },
+      "children": []
+    },
+    "fair_reasoning": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: [1] Jul-31 normalization priced at 0.45% — confirms severity of physical disruption even with ceasefire in place; [2] historical precedent: Iran-US shipping disruptions require 3-6 months to normalize post-ceasefire, not 35 days (Gulf tanker incidents 2019-2020); [3] practical barriers independent of political agreement: mine/threat clearance, insurance reclassification, ship-operator confidence restoration all multi-month processes",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: Buy NO at 86.5¢ — 13.5% normalization in 35 days is ~2x overpriced; ceasefire ≠ traffic normalization",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "risk_alert_market": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Surprise US-Iran formal peace deal (not just ceasefire) triggers immediate confidence + insurance normalization faster than precedent suggests",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "footer_note": {
+      "type": "Text",
+      "props": {
+        "text": "⚠️ Not financial advice — pattern-matching only",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
