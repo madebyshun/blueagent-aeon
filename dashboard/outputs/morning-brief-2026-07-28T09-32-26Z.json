@@ -1,0 +1,370 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-07-28"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-yesterday",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-why"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "1. Fed decision Jul 29",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus-1-why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: hold priced in; Powell tone is the only signal tomorrow",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-why"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "2. Moonbeam/GLMR bridge to Base deadline Jul 31",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus-2-why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 3 days to migrate or lose position",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-why"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "3. CLARITY Act Aug 10 deadline",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus-3-why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: no cloture filed today; 13 days left, stall can break fast",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-yesterday",
+        "item-zama",
+        "item-bank",
+        "item-vvv",
+        "item-skills-failed"
+      ]
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "item-zama": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zama-stat",
+        "zama-detail"
+      ]
+    },
+    "zama-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ZAMA",
+        "value": "+13.9%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "zama-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Q2 Shielded report dropped as expected — HIGH pick confirmed",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "item-bank": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "bank-stat",
+        "bank-detail"
+      ]
+    },
+    "bank-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BANK",
+        "value": "-13.7%",
+        "delta": "reversed from +15.6%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "bank-detail": {
+      "type": "Text",
+      "props": {
+        "text": "$211M vol; yesterday's winner fully faded",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "item-vvv": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vvv-stat",
+        "vvv-detail"
+      ]
+    },
+    "vvv-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "VVV",
+        "value": "-5.4%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "vvv-detail": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN thesis stalled; entry window effectively closed",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "item-skills-failed": {
+      "type": "Alert",
+      "props": {
+        "title": "Skills failed",
+        "message": "security-digest + deal-flow both failed Jul 27; deal-flow SR now 0.78 (below 0.8 threshold)",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "watch-item-1",
+        "watch-item-2"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase formalizes AiFi strategy: Base + USDC + x402 as agentic settlement layer; 100M+ x402 payments; Moonbeam migrating to Base → amplifies Focus #2",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "watch-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act: no floor vote or cloture motion filed today, ethics dispute unresolved → Focus #3 urgency rising",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "task-heartbeat",
+        "task-github-monitor",
+        "task-token-movers",
+        "task-token-pick",
+        "task-narrative-tracker"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "task-heartbeat": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task-github-monitor": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task-token-movers": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task-token-pick": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "task-narrative-tracker": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}

@@ -1,19 +1,19 @@
-*Morning Brief — 2026-07-27*
+*Morning Brief — 2026-07-28*
 
 *Focus today*
-1. Fed decision Wed Jul 29 — why now: Sep hike 82% priced; BTC $64k exposed to relief rally
-2. CLARITY Act, Aug 10 deadline — why now: Senate back tomorrow; ethics cleared; 14 days left
-3. VVV FRONT-RUN — why now: 5th consecutive rally; burn loop reflexive; entry window closing
+1. Fed decision Jul 29 — why now: hold priced in; Powell tone is the only signal tomorrow
+2. Moonbeam/GLMR bridge to Base deadline Jul 31 — why now: 3 days to migrate or lose position
+3. CLARITY Act Aug 10 deadline — why now: no cloture filed today; 13 days left, stall can break fast
 
 *Since yesterday*
-- [moved] CLARITY Act deadline corrected to Aug 10 (not Aug 7); Trump approved ethics language — key blocker resolved
-- [moved] SHIB +27.5% South Korean Upbit mystery rally; exchange reserves 86.1T historic low — 1-day signal, confirm today
-- [moved] Memecoins/Retail Return: narrative-tracker promoted IGNORE → Emerging ↑↑ WATCH
-- [moved] DEXE +54.5%→−28.6% capitulation completed — pump-dump confirmed, not structural
+- ZAMA +13.9%: Q2 Shielded report dropped as expected — HIGH pick confirmed
+- BANK reversed: +15.6% → -13.7%, $211M vol; yesterday's winner fully faded
+- VVV -5.4%: FRONT-RUN thesis stalled; entry window effectively closed
+- security-digest + deal-flow both failed Jul 27; deal-flow SR now 0.78 (below 0.8 threshold)
 
 *Watch*
-- Fed Jul 29: 65% hold, 82% Sep hike probability — hike tail manageable this week; Sep is real binary (focus #1)
-- CLARITY Act: Trump ethics sign-off eliminates key blocker — YES 35¢ fair-value gap widens to ~13pp (focus #2)
+- Coinbase formalizes AiFi strategy: Base + USDC + x402 as agentic settlement layer; 100M+ x402 payments; Moonbeam migrating to Base → amplifies Focus #2
+- CLARITY Act: no floor vote or cloture motion filed today, ethics dispute unresolved → Focus #3 urgency rising
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC
