@@ -1,0 +1,899 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-28"
+      },
+      "children": [
+        "heading_transitions",
+        "stack_transitions",
+        "sep1",
+        "heading_reflexivity",
+        "stack_reflexivity",
+        "sep2",
+        "heading_positions",
+        "stack_positions",
+        "sep3",
+        "heading_map",
+        "stack_map"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "stack_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans_zec",
+        "trans_aifi",
+        "trans_xmoney",
+        "trans_memecoins"
+      ]
+    },
+    "trans_zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_dead",
+        "text_zec"
+      ]
+    },
+    "badge_dead": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "text_zec": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC/Privacy — Ironwood activated today as predicted; ZEC absent from winners/trending = sell-the-news confirmed. Our Jul 25-26 DEAD call lands."
+      }
+    },
+    "trans_aifi": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_new1",
+        "text_aifi"
+      ]
+    },
+    "badge_new1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text_aifi": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase AiFi — Armstrong's Agentic Finance branding (Jul 27) crystallizes x402+Base+USDC as named canonical stack; timed with Coinbase earnings + FOMC this week. Narrative construction event."
+      }
+    },
+    "trans_xmoney": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_new2",
+        "text_xmoney"
+      ]
+    },
+    "badge_new2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text_xmoney": {
+      "type": "Text",
+      "props": {
+        "text": "X Money / Social Payments — X launched US digital banking + payments today, explicitly NO crypto support. Normalizes social payment layer; watch if mainstream social payments work without permissionless rails."
+      }
+    },
+    "trans_memecoins": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_demoted",
+        "text_memecoins"
+      ]
+    },
+    "badge_demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "text_memecoins": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoins/Retail Return (↑↑→↑) — BTW -31.1% today confirms Jul 27 +61.1% was pure pump; 2-day confirmation failed; broad pre-FOMC risk-off suppressing."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "stack_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflex_aifi",
+        "reflex_hype",
+        "reflex_vvv"
+      ]
+    },
+    "reflex_aifi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_reflex_aifi_title",
+        "text_reflex_aifi_detail"
+      ]
+    },
+    "text_reflex_aifi_title": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase AiFi",
+        "variant": "lead"
+      }
+    },
+    "text_reflex_aifi_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Armstrong seeds AiFi narrative Jul 27, one day before FOMC + Coinbase earnings. If Fed holds + earnings beat = institutional amplification follows. Story being built before the data lands."
+      }
+    },
+    "reflex_hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_reflex_hype_title",
+        "text_reflex_hype_detail"
+      ]
+    },
+    "text_reflex_hype_title": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE",
+        "variant": "lead"
+      }
+    },
+    "text_reflex_hype_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Trending today (-8.9% on $502M vol) with Aug 6 Core Contributor unlock 9 days away. High volume + trending + price decline = distribution manufacture. Exit liquidity setup."
+      }
+    },
+    "reflex_vvv": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_reflex_vvv_title",
+        "text_reflex_vvv_detail"
+      ]
+    },
+    "text_reflex_vvv_title": {
+      "type": "Text",
+      "props": {
+        "text": "VVV burn loop",
+        "variant": "lead"
+      }
+    },
+    "text_reflex_vvv_detail": {
+      "type": "Text",
+      "props": {
+        "text": "6th+ consecutive trending day. Revenue-backed burn (5% API → buyback) + emission cuts still active. FRONT-RUN entry window closing fast."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "stack_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_aifi",
+        "pos_aicompute",
+        "pos_aiae",
+        "pos_x402",
+        "pos_ondo",
+        "pos_tee",
+        "pos_hype",
+        "pos_kaito",
+        "pos_clarity",
+        "pos_fomc"
+      ]
+    },
+    "pos_aifi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_aifi_header",
+        "pos_aifi_details"
+      ]
+    },
+    "pos_aifi_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_frontrun1",
+        "text_aifi_name",
+        "badge_bull1"
+      ]
+    },
+    "badge_frontrun1": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "text_aifi_name": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase AiFi (mindshare 3 ↑↑)"
+      }
+    },
+    "badge_bull1": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos_aifi_details": {
+      "type": "Text",
+      "props": {
+        "text": "Armstrong/Coinbase — bear case: onchain reality $50M cumulative vol half-testing — catalyst: FOMC hold + earnings beat this week"
+      }
+    },
+    "pos_aicompute": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_aicompute_header",
+        "pos_aicompute_details"
+      ]
+    },
+    "pos_aicompute_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_frontrun2",
+        "text_aicompute_name",
+        "badge_bull2"
+      ]
+    },
+    "badge_frontrun2": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "text_aicompute_name": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN-AI (mindshare 4 ↑↑)"
+      }
+    },
+    "badge_bull2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos_aicompute_details": {
+      "type": "Text",
+      "props": {
+        "text": "VVV 6th trend day; @akashnet 80% GPU; IREN $2.8B — bear case: token→revenue lag — entry window closing"
+      }
+    },
+    "pos_aiae": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_aiae_header",
+        "pos_aiae_details"
+      ]
+    },
+    "pos_aiae_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride1",
+        "text_aiae_name",
+        "badge_bull3"
+      ]
+    },
+    "badge_ride1": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_aiae_name": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy (mindshare 5 ↑)"
+      }
+    },
+    "badge_bull3": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos_aiae_details": {
+      "type": "Text",
+      "props": {
+        "text": "Armstrong AiFi confirmation; 2.3M agentic wallets; 13th+ consecutive GitHub agent infra day — bear case: $45M H1 vuln losses unpriced"
+      }
+    },
+    "pos_x402": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_x402_header",
+        "pos_x402_details"
+      ]
+    },
+    "pos_x402_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride2",
+        "text_x402_name",
+        "badge_bull4"
+      ]
+    },
+    "badge_ride2": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_x402_name": {
+      "type": "Text",
+      "props": {
+        "text": "x402/Base (mindshare 5 ↑↑)"
+      }
+    },
+    "badge_bull4": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos_x402_details": {
+      "type": "Text",
+      "props": {
+        "text": "40 firms; 165M txns — bear case: $50M cumulative = micro-test not macro settlement"
+      }
+    },
+    "pos_ondo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ondo_header",
+        "pos_ondo_details"
+      ]
+    },
+    "pos_ondo_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride3",
+        "text_ondo_name",
+        "badge_bull5"
+      ]
+    },
+    "badge_ride3": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_ondo_name": {
+      "type": "Text",
+      "props": {
+        "text": "Tokenized Equities/ONDO (mindshare 4 →)"
+      }
+    },
+    "badge_bull5": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos_ondo_details": {
+      "type": "Text",
+      "props": {
+        "text": "DTCC live; sBUIDL on Euler — bear case: ONDO momentum stalling post-burn"
+      }
+    },
+    "pos_tee": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_tee_header",
+        "pos_tee_details"
+      ]
+    },
+    "pos_tee_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride4",
+        "text_tee_name",
+        "badge_bull6"
+      ]
+    },
+    "badge_ride4": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "text_tee_name": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Security/TEE (mindshare 4 ↑)"
+      }
+    },
+    "badge_bull6": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos_tee_details": {
+      "type": "Text",
+      "props": {
+        "text": "AiFi = structural security demand; Phala/Ledger — bear case: tooling ≠ adoption"
+      }
+    },
+    "pos_hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_hype_header",
+        "pos_hype_details"
+      ]
+    },
+    "pos_hype_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade1",
+        "text_hype_name",
+        "badge_cope"
+      ]
+    },
+    "badge_fade1": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "outline"
+      }
+    },
+    "text_hype_name": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE/Hyperliquid (mindshare 1 ↓↓)"
+      }
+    },
+    "badge_cope": {
+      "type": "Badge",
+      "props": {
+        "text": "Cope",
+        "variant": "outline"
+      }
+    },
+    "pos_hype_details": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 6 $587M unlock 9 days; trending = exit liquidity manufacture"
+      }
+    },
+    "pos_kaito": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_kaito_header",
+        "pos_kaito_details"
+      ]
+    },
+    "pos_kaito_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade2",
+        "text_kaito_name",
+        "badge_mixed1"
+      ]
+    },
+    "badge_fade2": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "outline"
+      }
+    },
+    "text_kaito_name": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito/InfoFi (mindshare 2 ↓)"
+      }
+    },
+    "badge_mixed1": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos_kaito_details": {
+      "type": "Text",
+      "props": {
+        "text": "gKAITO early; Yapper Leaderboards dead; structural FADE"
+      }
+    },
+    "pos_clarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_clarity_header",
+        "pos_clarity_details"
+      ]
+    },
+    "pos_clarity_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch1",
+        "text_clarity_name",
+        "badge_mixed2"
+      ]
+    },
+    "badge_watch1": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "text_clarity_name": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act (mindshare 4 →)"
+      }
+    },
+    "badge_mixed2": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos_clarity_details": {
+      "type": "Text",
+      "props": {
+        "text": "37% Polymarket; no cloture filed; Aug 10 deadline 13 days — binary event"
+      }
+    },
+    "pos_fomc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_fomc_header",
+        "pos_fomc_details"
+      ]
+    },
+    "pos_fomc_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_event",
+        "text_fomc_name"
+      ]
+    },
+    "badge_event": {
+      "type": "Badge",
+      "props": {
+        "text": "EVENT TOMORROW",
+        "variant": "destructive"
+      }
+    },
+    "text_fomc_name": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Jul 29"
+      }
+    },
+    "pos_fomc_details": {
+      "type": "Text",
+      "props": {
+        "text": "hold fully priced; Powell tone = only signal; BTC -2.7% $63,253 today = pre-FOMC risk-off; Fear & Greed ~27-29"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "stack_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading",
+        "map_dead"
+      ]
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerging_title",
+        "map_emerging_items"
+      ]
+    },
+    "map_emerging_title": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging",
+        "variant": "lead"
+      }
+    },
+    "map_emerging_items": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase AiFi [NEW] ↑↑, X Money [NEW] ↑↑, Memecoins ↑, Stablecoin Rails ↑, Agentic Dev Tools ↑, FHE/ZAMA ↑, PEPE ETF →, US-Iran →, Lean Ethereum →"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_title",
+        "map_rising_items"
+      ]
+    },
+    "map_rising_title": {
+      "type": "Text",
+      "props": {
+        "text": "Rising",
+        "variant": "lead"
+      }
+    },
+    "map_rising_items": {
+      "type": "Text",
+      "props": {
+        "text": "Tokenized Equities ↑ RIDE, AI Agent Security ↑ RIDE, AI Compute ↑↑ FRONT-RUN, CLARITY Act → WATCH, BNB Chain → WATCH"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_title",
+        "map_peak_items"
+      ]
+    },
+    "map_peak_title": {
+      "type": "Text",
+      "props": {
+        "text": "Peak",
+        "variant": "lead"
+      }
+    },
+    "map_peak_items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy ↑ RIDE, x402/Base ↑↑ RIDE, Robinhood Chain → WATCH"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_title",
+        "map_fading_items"
+      ]
+    },
+    "map_fading_title": {
+      "type": "Text",
+      "props": {
+        "text": "Fading",
+        "variant": "lead"
+      }
+    },
+    "map_fading_items": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito ↓ FADE, Hyperliquid ↓↓ FADE→Dead (Aug 6), RWA ↓ FADE, Fed Pivot ↓ EVENT TOMORROW"
+      }
+    },
+    "map_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_dead_title",
+        "map_dead_items"
+      ]
+    },
+    "map_dead_title": {
+      "type": "Text",
+      "props": {
+        "text": "Dead",
+        "variant": "lead"
+      }
+    },
+    "map_dead_items": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC/Privacy [CONFIRMED TODAY], GENIUS Act, DRV"
+      }
+    }
+  }
+}
