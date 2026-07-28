@@ -1,0 +1,547 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest",
+        "description": "2026-07-28"
+      },
+      "children": [
+        "header_stack",
+        "sep1",
+        "patch_today_section",
+        "sep2",
+        "patch_week_section"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "verdict_text",
+        "sources_text"
+      ]
+    },
+    "verdict_text": {
+      "type": "Text",
+      "props": {
+        "text": "3 actively exploited, 5 to schedule",
+        "variant": "lead"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV, GH Advisory, EPSS",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_today_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch_today_heading",
+        "cve_63030_stack",
+        "cve_60137_stack",
+        "cve_50522_stack"
+      ]
+    },
+    "patch_today_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve_63030_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_63030_link",
+        "cve_63030_meta",
+        "cve_63030_desc",
+        "cve_63030_remediation"
+      ]
+    },
+    "cve_63030_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-63030",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-63030",
+        "source": "WordPress Core"
+      }
+    },
+    "cve_63030_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve_63030_kev",
+        "cve_63030_epss"
+      ]
+    },
+    "cve_63030_kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-07-21",
+        "variant": "outline"
+      }
+    },
+    "cve_63030_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.98",
+        "variant": "destructive"
+      }
+    },
+    "cve_63030_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Interpretation conflict enables unauthenticated RCE chained with CVE-2026-60137. Default installs exposed. CISA due 2026-07-24 (overdue).",
+        "variant": "body"
+      }
+    },
+    "cve_63030_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ patch WordPress Core to latest today.",
+        "variant": "lead"
+      }
+    },
+    "cve_60137_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_60137_link",
+        "cve_60137_meta",
+        "cve_60137_desc",
+        "cve_60137_remediation"
+      ]
+    },
+    "cve_60137_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-60137",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-60137",
+        "source": "WordPress Core"
+      }
+    },
+    "cve_60137_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve_60137_kev",
+        "cve_60137_epss"
+      ]
+    },
+    "cve_60137_kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-07-21",
+        "variant": "outline"
+      }
+    },
+    "cve_60137_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.78",
+        "variant": "destructive"
+      }
+    },
+    "cve_60137_desc": {
+      "type": "Text",
+      "props": {
+        "text": "SQL injection feeding the RCE chain above. Exploited in the wild.",
+        "variant": "body"
+      }
+    },
+    "cve_60137_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ same patch as above.",
+        "variant": "lead"
+      }
+    },
+    "cve_50522_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_50522_link",
+        "cve_50522_meta",
+        "cve_50522_desc",
+        "cve_50522_remediation"
+      ]
+    },
+    "cve_50522_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-50522",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-50522",
+        "source": "Microsoft SharePoint"
+      }
+    },
+    "cve_50522_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve_50522_kev",
+        "cve_50522_epss"
+      ]
+    },
+    "cve_50522_kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-07-22",
+        "variant": "outline"
+      }
+    },
+    "cve_50522_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.57",
+        "variant": "secondary"
+      }
+    },
+    "cve_50522_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Deserialization of untrusted data → unauthenticated network RCE. CISA due 2026-07-25 (overdue).",
+        "variant": "body"
+      }
+    },
+    "cve_50522_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Microsoft July 2026 cumulative update today.",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_week_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch_week_heading",
+        "cve_0770_stack",
+        "ghsa_w6p7_stack",
+        "ghsa_4pj9_stack",
+        "ghsa_8r6w_stack",
+        "ghsa_w4q6_stack"
+      ]
+    },
+    "patch_week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "cve_0770_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_0770_link",
+        "cve_0770_meta",
+        "cve_0770_desc",
+        "cve_0770_remediation"
+      ]
+    },
+    "cve_0770_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-0770",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-0770",
+        "source": "Langflow (pip)"
+      }
+    },
+    "cve_0770_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve_0770_kev",
+        "cve_0770_epss"
+      ]
+    },
+    "cve_0770_kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-07-21",
+        "variant": "outline"
+      }
+    },
+    "cve_0770_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.56",
+        "variant": "secondary"
+      }
+    },
+    "cve_0770_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Arbitrary code execution via untrusted functionality. AI workflow builder widely used in agentic stacks. Actively exploited.",
+        "variant": "body"
+      }
+    },
+    "cve_0770_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade langflow now or restrict to trusted networks only.",
+        "variant": "lead"
+      }
+    },
+    "ghsa_w6p7_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_w6p7_link",
+        "ghsa_w6p7_meta",
+        "ghsa_w6p7_desc",
+        "ghsa_w6p7_remediation"
+      ]
+    },
+    "ghsa_w6p7_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-w6p7-2fxx-4f44",
+        "href": "https://github.com/advisories/GHSA-w6p7-2fxx-4f44",
+        "source": "pocket-id (Go)"
+      }
+    },
+    "ghsa_w6p7_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_w6p7_cvss"
+      ]
+    },
+    "ghsa_w6p7_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.5 · EPSS 0.002",
+        "variant": "secondary"
+      }
+    },
+    "ghsa_w6p7_desc": {
+      "type": "Text",
+      "props": {
+        "text": "OIDC refresh tokens bypass account disabling, group restrictions, and revocation. Disabled employees persist indefinitely.",
+        "variant": "body"
+      }
+    },
+    "ghsa_w6p7_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade pocket-id to ≥v2.6.0.",
+        "variant": "lead"
+      }
+    },
+    "ghsa_4pj9_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_4pj9_link",
+        "ghsa_4pj9_meta",
+        "ghsa_4pj9_desc",
+        "ghsa_4pj9_remediation"
+      ]
+    },
+    "ghsa_4pj9_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-4pj9-g833-qx53",
+        "href": "https://github.com/advisories/GHSA-4pj9-g833-qx53",
+        "source": "lettre (crates.io)"
+      }
+    },
+    "ghsa_4pj9_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_4pj9_cvss"
+      ]
+    },
+    "ghsa_4pj9_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.1 · EPSS 0.002",
+        "variant": "destructive"
+      }
+    },
+    "ghsa_4pj9_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Inverted boolean silently disables TLS hostname verification by default on boring-tls backend. Any chain-valid cert passes. MITM trivial for SMTP credential theft.",
+        "variant": "body"
+      }
+    },
+    "ghsa_4pj9_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade lettre to ≥0.11.22.",
+        "variant": "lead"
+      }
+    },
+    "ghsa_8r6w_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_8r6w_link",
+        "ghsa_8r6w_meta",
+        "ghsa_8r6w_desc",
+        "ghsa_8r6w_remediation"
+      ]
+    },
+    "ghsa_8r6w_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-8r6w-3qq5-4p4r",
+        "href": "https://github.com/advisories/GHSA-8r6w-3qq5-4p4r",
+        "source": "pterodactyl/wings (Go)"
+      }
+    },
+    "ghsa_8r6w_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_8r6w_cvss"
+      ]
+    },
+    "ghsa_8r6w_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "destructive"
+      }
+    },
+    "ghsa_8r6w_desc": {
+      "type": "Text",
+      "props": {
+        "text": "JWT scope flaw lets subusers reuse websocket or download tokens to write arbitrary files without file.create permission.",
+        "variant": "body"
+      }
+    },
+    "ghsa_8r6w_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade wings to ≥1.12.2.",
+        "variant": "lead"
+      }
+    },
+    "ghsa_w4q6_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_w4q6_link",
+        "ghsa_w4q6_meta",
+        "ghsa_w4q6_desc",
+        "ghsa_w4q6_remediation"
+      ]
+    },
+    "ghsa_w4q6_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-w4q6-qw23-4rg7",
+        "href": "https://github.com/advisories/GHSA-w4q6-qw23-4rg7",
+        "source": "github-mcp-server (Go)"
+      }
+    },
+    "ghsa_w4q6_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_w4q6_cvss"
+      ]
+    },
+    "ghsa_w4q6_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "secondary"
+      }
+    },
+    "ghsa_w4q6_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Nil pointer dereference on malformed completion/complete request → unauthenticated crash before auth check (11.7% crash rate in fuzzing).",
+        "variant": "body"
+      }
+    },
+    "ghsa_w4q6_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade github-mcp-server to ≥v1.1.0.",
+        "variant": "lead"
+      }
+    }
+  }
+}
