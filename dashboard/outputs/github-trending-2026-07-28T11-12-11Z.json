@@ -1,0 +1,398 @@
+{
+  "root": "card_trending",
+  "state": {},
+  "elements": {
+    "card_trending": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-07-28"
+      },
+      "children": [
+        "top_pick_section",
+        "separator_1",
+        "ai_ml_section",
+        "separator_2",
+        "devtools_section",
+        "separator_3",
+        "web_section",
+        "separator_4",
+        "data_section",
+        "separator_5",
+        "footer_text"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_heading",
+        "repo_book_to_skill_top",
+        "repo_book_to_skill_meta_top",
+        "repo_book_to_skill_desc_top"
+      ]
+    },
+    "top_pick_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "repo_book_to_skill_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "virgiliojr94/book-to-skill",
+        "href": "https://github.com/virgiliojr94/book-to-skill"
+      }
+    },
+    "repo_book_to_skill_meta_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "book_to_skill_age_top",
+        "book_to_skill_stars_top",
+        "book_to_skill_velocity_top"
+      ]
+    },
+    "book_to_skill_age_top": {
+      "type": "Badge",
+      "props": {
+        "text": "88 days old",
+        "variant": "outline"
+      }
+    },
+    "book_to_skill_stars_top": {
+      "type": "Badge",
+      "props": {
+        "text": "10.7k stars",
+        "variant": "secondary"
+      }
+    },
+    "book_to_skill_velocity_top": {
+      "type": "Badge",
+      "props": {
+        "text": "121/day velocity",
+        "variant": "secondary"
+      }
+    },
+    "repo_book_to_skill_desc_top": {
+      "type": "Text",
+      "props": {
+        "text": "converts PDFs into Claude Code skills, inventing a new workflow: agentic knowledge ingestion straight from books.",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai_ml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai_ml_heading",
+        "repo_speech_to_speech",
+        "repo_speech_to_speech_meta",
+        "repo_speech_to_speech_desc"
+      ]
+    },
+    "ai_ml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "repo_speech_to_speech": {
+      "type": "StoryLink",
+      "props": {
+        "title": "huggingface/speech-to-speech",
+        "href": "https://github.com/huggingface/speech-to-speech"
+      }
+    },
+    "repo_speech_to_speech_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "speech_stars",
+        "speech_lang",
+        "speech_status"
+      ]
+    },
+    "speech_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 177 today (6.7k total)",
+        "variant": "secondary"
+      }
+    },
+    "speech_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "speech_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "repo_speech_to_speech_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Full local voice-agent pipeline (STT + LLM + TTS) on open-source models — no cloud API billing or data egress.",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "repo_book_to_skill_devtools",
+        "repo_book_to_skill_devtools_meta",
+        "repo_book_to_skill_devtools_desc"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "repo_book_to_skill_devtools": {
+      "type": "StoryLink",
+      "props": {
+        "title": "virgiliojr94/book-to-skill",
+        "href": "https://github.com/virgiliojr94/book-to-skill"
+      }
+    },
+    "repo_book_to_skill_devtools_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "book_devtools_stars",
+        "book_devtools_lang",
+        "book_devtools_status"
+      ]
+    },
+    "book_devtools_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 366 today (10.7k total)",
+        "variant": "secondary"
+      }
+    },
+    "book_devtools_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "book_devtools_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "repo_book_to_skill_devtools_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Converts any technical PDF into callable Claude Code skills — teach your agent from O'Reilly books directly.",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "web_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web_heading",
+        "repo_editor",
+        "repo_editor_meta",
+        "repo_editor_desc"
+      ]
+    },
+    "web_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h2"
+      }
+    },
+    "repo_editor": {
+      "type": "StoryLink",
+      "props": {
+        "title": "pascalorg/editor",
+        "href": "https://github.com/pascalorg/editor"
+      }
+    },
+    "repo_editor_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "editor_stars",
+        "editor_lang",
+        "editor_status"
+      ]
+    },
+    "editor_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 412 today (18.2k total)",
+        "variant": "secondary"
+      }
+    },
+    "editor_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "editor_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "repo_editor_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Browser-based 3D architectural editor with live collaboration — no CAD suite, no export loop.",
+        "variant": "body"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "data_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "data_heading",
+        "repo_geomlibre",
+        "repo_geomlibre_meta",
+        "repo_geomlibre_desc"
+      ]
+    },
+    "data_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Data",
+        "level": "h2"
+      }
+    },
+    "repo_geomlibre": {
+      "type": "StoryLink",
+      "props": {
+        "title": "opengeos/GeoLibre",
+        "href": "https://github.com/opengeos/GeoLibre"
+      }
+    },
+    "repo_geomlibre_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "geomlibre_stars",
+        "geomlibre_lang",
+        "geomlibre_status"
+      ]
+    },
+    "geomlibre_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 420 today (3k total)",
+        "variant": "secondary"
+      }
+    },
+    "geomlibre_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "geomlibre_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "repo_geomlibre_desc": {
+      "type": "Text",
+      "props": {
+        "text": "FOSS cloud-native GIS that runs in the browser — geospatial analysis without QGIS or a local install.",
+        "variant": "body"
+      }
+    },
+    "separator_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/12",
+        "variant": "muted"
+      }
+    }
+  }
+}

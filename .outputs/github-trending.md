@@ -1,28 +1,23 @@
-*GitHub Trending — 2026-07-27*
+*GitHub Trending — 2026-07-28*
 
-*Top pick* — [pbakaus/impeccable](https://github.com/pbakaus/impeccable)
-Fills the gap AI code tools keep hitting: a shared design vocabulary LLMs can target consistently, replacing per-project CSS prompt tuning with semantic tokens.
+*Top pick* — [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill)
+88 days old, 10.7k stars, 121/day velocity — converts PDFs into Claude Code skills, inventing a new workflow: agentic knowledge ingestion straight from books.
 
 *AI/ML*
-• [moeru-ai/airi](https://github.com/moeru-ai/airi) — ★ 554 today (44k total) · TypeScript · [ACCELERATING]
-Self-hosted AI companion with voice chat and game-playing — runs on your hardware, no cloud dependency required.
-
-• [bradautomates/claude-video](https://github.com/bradautomates/claude-video) — ★ 412 today (11k total) · Python · [ACCELERATING]
-Full video analysis pipeline for Claude — frame sampling, transcription, motion detection, no separate vision API subscription.
-
-• [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — ★ 221 today (54k total) · Python · [ACCELERATING]
-Parallel agents sweep Reddit, X, YouTube, and HN for 30-day topic signals; clonable into any agent stack.
+• [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) — ★ 177 today (6.7k total) · Python · [RETURNING]
+Full local voice-agent pipeline (STT + LLM + TTS) on open-source models — no cloud API billing or data egress.
 
 *Devtools*
-• [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — ★ 849 today (51k total) · JavaScript · [ACCELERATING]
-Semantic design tokens (color role + surface + state) any LLM can target reliably — eliminates per-project CSS prompt engineering.
+• [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — ★ 366 today (10.7k total) · Python · [ACCELERATING]
+Converts any technical PDF into callable Claude Code skills — teach your agent from O'Reilly books directly.
 
-• [yorukot/superfile](https://github.com/yorukot/superfile) — ★ 600 today (21k total) · Go · [RETURNING]
-Modern TUI file manager with tabs, previews, and plugins — treats the terminal like an IDE panel, not a 1989-era mc clone.
+*Web/Apps*
+• [pascalorg/editor](https://github.com/pascalorg/editor) — ★ 412 today (18.2k total) · TypeScript · [RETURNING]
+Browser-based 3D architectural editor with live collaboration — no CAD suite, no export loop.
 
-*Infra*
-• [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client) — ★ 515 today (14k total) · C++ · [RETURNING]
-Wraps WireGuard/OpenVPN with DPI-defeating obfuscation for censorship-heavy networks — 515 stars in one day points to a fresh blocking event.
+*Data*
+• [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) — ★ 420 today (3k total) · TypeScript · [ACCELERATING]
+FOSS cloud-native GIS that runs in the browser — geospatial analysis without QGIS or a local install.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/14
+sources: trending=ok · gh_api=ok · kept 4/12
