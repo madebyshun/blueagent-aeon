@@ -1,0 +1,598 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — Jul 28, 2026"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-market",
+        "sep-1",
+        "section-winners",
+        "sep-2",
+        "section-losers",
+        "sep-3",
+        "section-trending",
+        "sep-4",
+        "section-notable"
+      ]
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-market-sentiment",
+        "grid-market-stats"
+      ]
+    },
+    "text-market-sentiment": {
+      "type": "Text",
+      "props": {
+        "text": "Broad risk-off — 76/100 top coins red, median −2.1%",
+        "variant": "lead"
+      }
+    },
+    "grid-market-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-btc",
+        "stat-eth"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "Bitcoin (BTC)",
+        "value": "$63,253",
+        "delta": "−2.7%",
+        "trend": "down"
+      }
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "Ethereum (ETH)",
+        "value": "$1,882",
+        "delta": "−3.7%",
+        "trend": "down"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-winners": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-winners",
+        "table-winners"
+      ]
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table-winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "DEXE (DeXe)",
+            "$3.30",
+            "+33.5%",
+            "−77.6%",
+            "+3.5%",
+            "$249M",
+            "#189",
+            "TRENDING+UP, FADE, PUMP-RISK"
+          ],
+          [
+            "WFI (WeFi)",
+            "$2.04",
+            "+11.3%",
+            "−6.4%",
+            "−0.1%",
+            "$1.2M",
+            "#174",
+            ""
+          ],
+          [
+            "TRAC (OriginTrail)",
+            "$0.2843",
+            "+6.9%",
+            "−7.2%",
+            "+0.7%",
+            "$9.3M",
+            "#219",
+            ""
+          ],
+          [
+            "FF (Falcon Finance)",
+            "$0.06358",
+            "+4.0%",
+            "+5.7%",
+            "+0.6%",
+            "$13.2M",
+            "#167",
+            ""
+          ],
+          [
+            "MON (Monad)",
+            "$0.02123",
+            "+3.5%",
+            "−7.3%",
+            "+0.1%",
+            "$19.1M",
+            "#139",
+            ""
+          ],
+          [
+            "ZAMA (Zama)",
+            "$0.06138",
+            "+3.2%",
+            "+59.0%",
+            "+0.6%",
+            "$66.9M",
+            "#210",
+            "TRENDING+UP"
+          ],
+          [
+            "TWT (Trust Wallet)",
+            "$0.3601",
+            "+2.6%",
+            "+6.1%",
+            "+0.1%",
+            "$6.9M",
+            "#193",
+            ""
+          ],
+          [
+            "H (Humanity)",
+            "$0.06383",
+            "+2.5%",
+            "+7.4%",
+            "+2.5%",
+            "$2.9M",
+            "#220",
+            ""
+          ],
+          [
+            "RUNE (THORChain)",
+            "$0.4395",
+            "+2.3%",
+            "−2.7%",
+            "−0.1%",
+            "$10.8M",
+            "#195",
+            ""
+          ],
+          [
+            "BANK (Lorenzo Protocol)",
+            "$0.3503",
+            "+2.3%",
+            "+156.2%",
+            "+5.8%",
+            "$269M",
+            "#196",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-losers",
+        "table-losers"
+      ]
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table-losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "BTW (Bitway)",
+            "$0.07694",
+            "−31.1%",
+            "+14.1%",
+            "−1.4%",
+            "$22.0M",
+            "#176",
+            ""
+          ],
+          [
+            "BEAT (Audiera)",
+            "$3.19",
+            "−24.7%",
+            "+39.1%",
+            "+2.5%",
+            "$70.2M",
+            "#65",
+            ""
+          ],
+          [
+            "JTO (Jito)",
+            "$0.5512",
+            "−9.9%",
+            "−10.5%",
+            "+0.2%",
+            "$26.3M",
+            "#133",
+            ""
+          ],
+          [
+            "ZRO (LayerZero)",
+            "$0.8455",
+            "−9.7%",
+            "+3.6%",
+            "−1.3%",
+            "$40.2M",
+            "#126",
+            ""
+          ],
+          [
+            "B (BUILDon)",
+            "$0.1662",
+            "−9.6%",
+            "−33.9%",
+            "−1.2%",
+            "$6.7M",
+            "#178",
+            ""
+          ],
+          [
+            "FET (ASI Alliance)",
+            "$0.1395",
+            "−9.2%",
+            "−12.3%",
+            "−0.6%",
+            "$79.3M",
+            "#121",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "$54.08",
+            "−8.9%",
+            "−13.9%",
+            "−0.6%",
+            "$502M",
+            "#10",
+            "MAJOR, TRENDING+DOWN"
+          ],
+          [
+            "ENA (Ethena)",
+            "$0.08314",
+            "−8.8%",
+            "−4.5%",
+            "−0.7%",
+            "$114M",
+            "#76",
+            ""
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "$1.66",
+            "−8.8%",
+            "−17.1%",
+            "−0.6%",
+            "$171M",
+            "#39",
+            ""
+          ],
+          [
+            "STRK (Starknet)",
+            "$0.02866",
+            "−8.6%",
+            "−2.3%",
+            "−0.5%",
+            "$15.0M",
+            "#164",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-trending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-trending",
+        "stack-trending-items"
+      ]
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "stack-trending-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tr-1",
+        "tr-2",
+        "tr-3",
+        "tr-4",
+        "tr-5",
+        "tr-6",
+        "tr-7"
+      ]
+    },
+    "tr-1": {
+      "type": "Text",
+      "props": {
+        "text": "PONS — #502, $0.05153, −21.9%"
+      }
+    },
+    "tr-2": {
+      "type": "Text",
+      "props": {
+        "text": "PENGU (Pudgy Penguins) — #111, $0.005914, −7.6%"
+      }
+    },
+    "tr-3": {
+      "type": "Text",
+      "props": {
+        "text": "TAO (Bittensor) — #42, $188.26, −4.8%"
+      }
+    },
+    "tr-4": {
+      "type": "Text",
+      "props": {
+        "text": "VVV (Venice Token) — #91, $12.92, −3.3%"
+      }
+    },
+    "tr-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tr-5-text",
+        "tr-5-badges"
+      ]
+    },
+    "tr-5-text": {
+      "type": "Text",
+      "props": {
+        "text": "COTI — #564, $0.01170, +52.3%"
+      }
+    },
+    "tr-5-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-pump-risk-1",
+        "badge-microcap"
+      ]
+    },
+    "badge-pump-risk-1": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK"
+      }
+    },
+    "badge-microcap": {
+      "type": "Badge",
+      "props": {
+        "text": "MICROCAP"
+      }
+    },
+    "tr-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tr-6-text",
+        "badge-trend-down"
+      ]
+    },
+    "tr-6-text": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE (Hyperliquid) — #10, $54.08, −8.9%"
+      }
+    },
+    "badge-trend-down": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN"
+      }
+    },
+    "tr-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tr-7-text",
+        "tr-7-badges"
+      ]
+    },
+    "tr-7-text": {
+      "type": "Text",
+      "props": {
+        "text": "DEXE (DeXe) — #189, $3.26, +32.6%"
+      }
+    },
+    "tr-7-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-trend-up",
+        "badge-pump-risk-2"
+      ]
+    },
+    "badge-trend-up": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "badge-pump-risk-2": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-notable",
+        "stack-notable-items"
+      ]
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "stack-notable-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-dexe",
+        "alert-coti",
+        "alert-btw",
+        "alert-hype"
+      ]
+    },
+    "alert-dexe": {
+      "type": "Alert",
+      "props": {
+        "title": "DEXE",
+        "message": "Bounced +33.5% after yesterday's −36.6% crash — 7d still −77.6%, vol $249M on $154M mcap — relief bounce, not recovery",
+        "type": "warning"
+      }
+    },
+    "alert-coti": {
+      "type": "Alert",
+      "props": {
+        "title": "COTI",
+        "message": "+52.3% trending at rank #564, $35M mcap — no clear catalyst visible — high manipulation probability",
+        "type": "warning"
+      }
+    },
+    "alert-btw": {
+      "type": "Alert",
+      "props": {
+        "title": "BTW",
+        "message": "Yesterday's top winner +61.1% → today −31.1% — post-pump reversal",
+        "type": "warning"
+      }
+    },
+    "alert-hype": {
+      "type": "Alert",
+      "props": {
+        "title": "HYPE",
+        "message": "−8.9% on $502M volume at rank #10 — drawdown continues, 7d −13.9%",
+        "type": "warning"
+      }
+    }
+  }
+}
