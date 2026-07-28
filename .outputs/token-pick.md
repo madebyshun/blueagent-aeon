@@ -1,16 +1,16 @@
-*Daily Pick — 2026-07-27*
+*Daily Pick — 2026-07-28*
 
-*Token: ZAMA*  [HIGH]  signal 10/10
-Price: $0.0589 (+13.9% 24h / +49.4% 7d) | mcap $129.5M | vol $44.9M (vol/mcap 0.35)
-Score breakdown: [trending+2, vol/mcap≥0.20+3, both>5%+2, RS vs BTC/ETH+2, 24h>0+1, 7d>0+1] = 10/10
-Catalyst: Q2 "Shielded" network health report drops today (Jul 27) — tracks confidential token adoption and institutional/developer ecosystem on ZAMA's FHE mainnet; first major fully-homomorphic encryption protocol token live on mainnet
-Risk: RSI 83+ overbought; sell-the-news risk on report; FHE throughput far below ZK in real adoption — niche curve risk
+*Token: COTI*  [HIGH]  signal 10/10
+Price: $0.0116 (+50.0% 24h / +52.5% 7d) | mcap $34M | vol $122M (vol/mcap 3.58)
+Score breakdown: [trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH 7d+2, both>5%+2, 24h>0+1, 7d>0+1] = 11→cap 10/10
+Catalyst: Tier-1 exchange listing pending + Mainnet 2.0 upgrade in 2–4 weeks (COTI Nightfall ZK Rollup for enterprise privacy, multichain expansion)
+Risk: Exchange listing date unconfirmed (speculative timing); vol/mcap 3.58 suggests momentum may be exhausted; $34M micro-cap = thin exit liquidity in risk-off market (BTC −2.5%)
 
-*Market: "Will Strait of Hormuz traffic return to normal by Aug 31?"*  [MEDIUM]  edge 6.5pp
-Current: YES 13.5¢ / NO 86.5¢ | 24h vol $308K | resolves: 2026-08-31
-Fair YES: ~7% (inputs: [1] Jul-31 normalization priced at 0.45% — confirms severity of physical disruption even with ceasefire in place; [2] historical precedent: Iran-US shipping disruptions require 3-6 months to normalize post-ceasefire, not 35 days (Gulf tanker incidents 2019-2020); [3] practical barriers independent of political agreement: mine/threat clearance, insurance reclassification, ship-operator confidence restoration all multi-month processes)
-Thesis: Buy NO at 86.5¢ — 13.5% normalization in 35 days is ~2x overpriced; ceasefire ≠ traffic normalization
-Risk: Surprise US-Iran formal peace deal (not just ceasefire) triggers immediate confidence + insurance normalization faster than precedent suggests
+*Market: "Will the U.S. invade Iran before 2027?"*  [HIGH]  edge 12pp
+Current: YES 22¢ / NO 78¢ | vol $48.8M total | resolves: Dec 30, 2026
+Fair YES: ~10% (inputs: [1] US-Iran Geneva formal agreement Jun 19 + nuclear talks framework active; [2] ceasefire holding since Apr 2026 (3+ months); [3] zero historical precedent for US ground invasion while formal peace talks underway)
+Thesis: Market at 22% overprices invasion probability — ceasefire → MoU → Geneva agreement trajectory points to nuclear deal not military escalation; buy NO at 78¢
+Risk: Iranian nuclear provocation or sudden talks collapse; resolution requires ground invasion (US airstrikes Feb 28 do not qualify)
 
-sources: cg=ok, dex=fail, poly=ok
+sources: cg=ok, dex=skip, poly=ok
 not financial advice — pattern-matching only
