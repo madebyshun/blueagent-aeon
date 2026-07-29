@@ -1,0 +1,532 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-29"
+      },
+      "children": [
+        "heading_top_pick",
+        "link_top_pick",
+        "text_top_pick_desc",
+        "sep1",
+        "heading_devtools",
+        "stack_devtools",
+        "sep2",
+        "heading_aiml",
+        "stack_aiml",
+        "sep3",
+        "text_sources"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "link_top_pick": {
+      "type": "Link",
+      "props": {
+        "label": "alibaba/open-code-review",
+        "href": "https://github.com/alibaba/open-code-review"
+      },
+      "children": []
+    },
+    "text_top_pick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Practical architecture for AI tooling: static analysis runs first, LLM agents only see what rules can't decide.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_item_1",
+        "devtools_item_2",
+        "devtools_item_3"
+      ]
+    },
+    "devtools_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_1_header",
+        "devtools_1_stats",
+        "devtools_1_desc"
+      ]
+    },
+    "devtools_1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_1_link",
+        "devtools_1_lang",
+        "devtools_1_status"
+      ]
+    },
+    "devtools_1_link": {
+      "type": "Link",
+      "props": {
+        "label": "alibaba/open-code-review",
+        "href": "https://github.com/alibaba/open-code-review"
+      },
+      "children": []
+    },
+    "devtools_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "devtools_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "devtools_1_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_1_stars_today",
+        "devtools_1_stars_total"
+      ]
+    },
+    "devtools_1_stars_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "918"
+      },
+      "children": []
+    },
+    "devtools_1_stars_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "15.7k"
+      },
+      "children": []
+    },
+    "devtools_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Runs deterministic linting first, then routes only ambiguous violations to LLM agents — cuts token spend sharply.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "devtools_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_2_header",
+        "devtools_2_stats",
+        "devtools_2_desc"
+      ]
+    },
+    "devtools_2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_2_link",
+        "devtools_2_lang",
+        "devtools_2_status"
+      ]
+    },
+    "devtools_2_link": {
+      "type": "Link",
+      "props": {
+        "label": "1jehuang/jcode",
+        "href": "https://github.com/1jehuang/jcode"
+      },
+      "children": []
+    },
+    "devtools_2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "devtools_2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "devtools_2_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_2_stars_today",
+        "devtools_2_stars_total"
+      ]
+    },
+    "devtools_2_stars_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "652"
+      },
+      "children": []
+    },
+    "devtools_2_stars_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "13.1k"
+      },
+      "children": []
+    },
+    "devtools_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rust harness for AI agent loops claiming the lowest memory footprint of any Claude Code runner.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "devtools_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_3_header",
+        "devtools_3_stats",
+        "devtools_3_desc"
+      ]
+    },
+    "devtools_3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_3_link",
+        "devtools_3_lang",
+        "devtools_3_status"
+      ]
+    },
+    "devtools_3_link": {
+      "type": "Link",
+      "props": {
+        "label": "different-ai/openwork",
+        "href": "https://github.com/different-ai/openwork"
+      },
+      "children": []
+    },
+    "devtools_3_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "devtools_3_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "devtools_3_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_3_stars_today",
+        "devtools_3_stars_total"
+      ]
+    },
+    "devtools_3_stars_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "58"
+      },
+      "children": []
+    },
+    "devtools_3_stars_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "17.4k"
+      },
+      "children": []
+    },
+    "devtools_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hostable, model-agnostic alternative to Claude Cowork — multi-agent team workspaces without Anthropic's cloud.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_item_1",
+        "aiml_item_2"
+      ]
+    },
+    "aiml_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_1_header",
+        "aiml_1_stats",
+        "aiml_1_desc"
+      ]
+    },
+    "aiml_1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_1_link",
+        "aiml_1_lang",
+        "aiml_1_status"
+      ]
+    },
+    "aiml_1_link": {
+      "type": "Link",
+      "props": {
+        "label": "microsoft/VibeVoice",
+        "href": "https://github.com/microsoft/VibeVoice"
+      },
+      "children": []
+    },
+    "aiml_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "aiml_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "aiml_1_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_1_stars_today",
+        "aiml_1_stars_total"
+      ]
+    },
+    "aiml_1_stars_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "332"
+      },
+      "children": []
+    },
+    "aiml_1_stars_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "51k"
+      },
+      "children": []
+    },
+    "aiml_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Microsoft open-sources a frontier-grade voice AI model, targeting commercial API parity for local and cloud deployments.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "aiml_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_2_header",
+        "aiml_2_stats",
+        "aiml_2_desc"
+      ]
+    },
+    "aiml_2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_2_link",
+        "aiml_2_lang",
+        "aiml_2_status"
+      ]
+    },
+    "aiml_2_link": {
+      "type": "Link",
+      "props": {
+        "label": "MoonshotAI/FlashKDA",
+        "href": "https://github.com/MoonshotAI/FlashKDA"
+      },
+      "children": []
+    },
+    "aiml_2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "CUDA",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "aiml_2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "aiml_2_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_2_stars_today",
+        "aiml_2_stars_total"
+      ]
+    },
+    "aiml_2_stars_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "216"
+      },
+      "children": []
+    },
+    "aiml_2_stars_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "884"
+      },
+      "children": []
+    },
+    "aiml_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Moonshot AI open-sources Kimi Delta Attention CUDA kernels — faster long-context inference for Kimi-class models.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/17",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
