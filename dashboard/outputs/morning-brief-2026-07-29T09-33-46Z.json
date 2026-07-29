@@ -1,0 +1,220 @@
+{
+  "root": "card_morning_brief",
+  "state": {},
+  "elements": {
+    "card_morning_brief": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-07-29"
+      },
+      "children": [
+        "stack_focus",
+        "sep_1",
+        "stack_since",
+        "sep_2",
+        "stack_watch",
+        "sep_3",
+        "stack_running"
+      ]
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "text_focus_1",
+        "text_focus_2",
+        "text_focus_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. FOMC decision today — Warsh press conference tone is the only signal; hold or hawkish pivot"
+      },
+      "children": []
+    },
+    "text_focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Coinbase Q2 earnings Jul 30 — Base hit 100M AiFi txns; watch for revenue disclosure"
+      },
+      "children": []
+    },
+    "text_focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Moonbeam/GLMR → Base migration closes Jul 31 — 2 days left to act"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "stack_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "text_since_1",
+        "text_since_2",
+        "text_since_3",
+        "text_since_4",
+        "text_since_5"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_since_1": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC arrives: hold at 3.50–3.75% fully priced (75%+ prediction markets); Warsh chairs, not Powell"
+      },
+      "children": []
+    },
+    "text_since_2": {
+      "type": "Text",
+      "props": {
+        "text": "Base 100M agentic payment milestone confirmed — hard adoption metric ahead of earnings"
+      },
+      "children": []
+    },
+    "text_since_3": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act: 3 named disputes (Murphy/Van Hollen/Merkley) confirm August recess push → Q4 story"
+      },
+      "children": []
+    },
+    "text_since_4": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC/Privacy Dead: Ironwood activated Jul 28, absent from winners/trending = sell-the-news confirmed"
+      },
+      "children": []
+    },
+    "text_since_5": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow still degraded: SR 0.78, 1 consecutive failure (Jul 27)"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "text_watch_1"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase earnings Jul 30 — AiFi revenue disclosed = institutional amplification of Base/x402 (Focus #2)"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "text_running_1",
+        "text_running_2",
+        "text_running_3",
+        "text_running_4",
+        "text_running_5"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_running_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC"
+      },
+      "children": []
+    },
+    "text_running_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      },
+      "children": []
+    },
+    "text_running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      },
+      "children": []
+    },
+    "text_running_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      },
+      "children": []
+    },
+    "text_running_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      },
+      "children": []
+    }
+  }
+}

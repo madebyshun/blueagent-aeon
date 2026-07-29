@@ -1,19 +1,19 @@
-*Morning Brief — 2026-07-28*
+*Morning Brief — 2026-07-29*
 
 *Focus today*
-1. Fed decision Jul 29 — why now: hold priced in; Powell tone is the only signal tomorrow
-2. Moonbeam/GLMR bridge to Base deadline Jul 31 — why now: 3 days to migrate or lose position
-3. CLARITY Act Aug 10 deadline — why now: no cloture filed today; 13 days left, stall can break fast
+1. FOMC decision today — Warsh press conference tone is the only signal; hold or hawkish pivot
+2. Coinbase Q2 earnings Jul 30 — Base hit 100M AiFi txns; watch for revenue disclosure
+3. Moonbeam/GLMR → Base migration closes Jul 31 — 2 days left to act
 
 *Since yesterday*
-- ZAMA +13.9%: Q2 Shielded report dropped as expected — HIGH pick confirmed
-- BANK reversed: +15.6% → -13.7%, $211M vol; yesterday's winner fully faded
-- VVV -5.4%: FRONT-RUN thesis stalled; entry window effectively closed
-- security-digest + deal-flow both failed Jul 27; deal-flow SR now 0.78 (below 0.8 threshold)
+- FOMC arrives: hold at 3.50–3.75% fully priced (75%+ prediction markets); Warsh chairs, not Powell
+- Base 100M agentic payment milestone confirmed — hard adoption metric ahead of earnings
+- CLARITY Act: 3 named disputes (Murphy/Van Hollen/Merkley) confirm August recess push → Q4 story
+- ZEC/Privacy Dead: Ironwood activated Jul 28, absent from winners/trending = sell-the-news confirmed
+- deal-flow still degraded: SR 0.78, 1 consecutive failure (Jul 27)
 
 *Watch*
-- Coinbase formalizes AiFi strategy: Base + USDC + x402 as agentic settlement layer; 100M+ x402 payments; Moonbeam migrating to Base → amplifies Focus #2
-- CLARITY Act: no floor vote or cloture motion filed today, ethics dispute unresolved → Focus #3 urgency rising
+- Coinbase earnings Jul 30 — AiFi revenue disclosed = institutional amplification of Base/x402 (Focus #2)
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC
