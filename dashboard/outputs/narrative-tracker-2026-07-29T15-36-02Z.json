@@ -1,0 +1,888 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-29"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_transitions",
+        "sep1",
+        "section_reflexivity",
+        "sep2",
+        "section_positions",
+        "sep3",
+        "section_map"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_transitions",
+        "trans_dead",
+        "trans_new",
+        "trans_promoted_1",
+        "trans_promoted_2",
+        "trans_demoted_1",
+        "trans_demoted_2",
+        "trans_velocity"
+      ]
+    },
+    "h_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dead",
+        "text_dead"
+      ]
+    },
+    "badge_dead": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "text_dead": {
+      "type": "Text",
+      "props": {
+        "text": "Fed Pivot — FOMC held 3.50–3.75% as priced; BTC +1.3% $64.3K relief rally. Catalyst consumed. Narrative over."
+      }
+    },
+    "trans_new": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new",
+        "heading_new",
+        "text_new",
+        "badge_frontrun"
+      ]
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "heading_new": {
+      "type": "Heading",
+      "props": {
+        "text": "AI→Crypto Capital Rotation",
+        "level": "h4"
+      }
+    },
+    "text_new": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional money leaving AI infra stocks (Chinese semis + valuation risk) → crypto. Coinbase +4.5%, Bitmine +11% Jul 27 (Bloomberg/CNBC). Coinbase Q2 earnings tomorrow = amplification."
+      }
+    },
+    "badge_frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "outline"
+      }
+    },
+    "trans_promoted_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted",
+        "heading_p1",
+        "text_p1"
+      ]
+    },
+    "badge_promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "outline"
+      }
+    },
+    "heading_p1": {
+      "type": "Heading",
+      "props": {
+        "text": "Coinbase AiFi/Base (Emerging → Rising)",
+        "level": "h4"
+      }
+    },
+    "text_p1": {
+      "type": "Text",
+      "props": {
+        "text": "Base hit 100M AiFi txns milestone today; Q2 earnings Jul 30. Narrative hardening before financials land."
+      }
+    },
+    "trans_promoted_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_p2",
+        "text_p2"
+      ]
+    },
+    "heading_p2": {
+      "type": "Heading",
+      "props": {
+        "text": "Robinhood Chain (WATCH → RIDE)",
+        "level": "h4"
+      }
+    },
+    "text_p2": {
+      "type": "Text",
+      "props": {
+        "text": "$400M+ TVL, $500M Uniswap 24h vol (highest outside ETH mainnet), 50%+ MoM growth confirmed Jul 22. Not stagnating."
+      }
+    },
+    "trans_demoted_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted",
+        "heading_d1",
+        "text_d1"
+      ]
+    },
+    "badge_demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "heading_d1": {
+      "type": "Heading",
+      "props": {
+        "text": "CLARITY Act (Rising → Fading)",
+        "level": "h4"
+      }
+    },
+    "text_d1": {
+      "type": "Text",
+      "props": {
+        "text": "3-dispute stall confirmed by morning-brief; demoted to Q4. No cloture, no near-term path."
+      }
+    },
+    "trans_demoted_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_d2",
+        "text_d2"
+      ]
+    },
+    "heading_d2": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Compute FRONT-RUN → RIDE",
+        "level": "h4"
+      }
+    },
+    "text_d2": {
+      "type": "Text",
+      "props": {
+        "text": "VVV absent from today's movers; narrow entry window appears closed."
+      }
+    },
+    "trans_velocity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_velocity",
+        "heading_vel",
+        "text_vel"
+      ]
+    },
+    "badge_velocity": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY",
+        "variant": "outline"
+      }
+    },
+    "heading_vel": {
+      "type": "Heading",
+      "props": {
+        "text": "Kaito ↓→→",
+        "level": "h4"
+      }
+    },
+    "text_vel": {
+      "type": "Text",
+      "props": {
+        "text": "KAITO +11% 3rd consecutive bounce; $17M unlock absorbed. Monitor for WATCH upgrade."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_reflexivity",
+        "alert_1",
+        "alert_2",
+        "alert_3"
+      ]
+    },
+    "h_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert_1": {
+      "type": "Alert",
+      "props": {
+        "title": "Base 100M AiFi Milestone & Earnings Timing",
+        "message": "Base 100M AiFi milestone announced before Coinbase earnings tomorrow — narrative construction pre-data. If earnings beat → institutional amplification follows. Source: cryptotimes.io / morning-brief Jul 29.",
+        "type": "warning"
+      }
+    },
+    "alert_2": {
+      "type": "Alert",
+      "props": {
+        "title": "AI→Crypto Rotation Self-Confirmation Loop",
+        "message": "Bloomberg/CNBC coverage → institutions buy crypto stocks → stocks rise → narrative confirmed → more rotate. Self-confirming loop active.",
+        "type": "warning"
+      }
+    },
+    "alert_3": {
+      "type": "Alert",
+      "props": {
+        "title": "COTI Pump Risk Confirmed",
+        "message": "COTI day-2: +52.3% Jul 28 → +35.9% Jul 29, two consecutive trending days, $46.5M microcap, no confirmed catalyst. PUMP-RISK confirmed.",
+        "type": "error"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_positions",
+        "group_frontrun",
+        "group_ride",
+        "group_fade"
+      ]
+    },
+    "h_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "group_frontrun": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "subh_frontrun",
+        "pos_fr1",
+        "pos_fr2"
+      ]
+    },
+    "subh_frontrun": {
+      "type": "Heading",
+      "props": {
+        "text": "FRONT-RUN",
+        "level": "h3"
+      }
+    },
+    "pos_fr1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_fr1",
+        "stat_fr1",
+        "text_fr1_bear"
+      ]
+    },
+    "h_fr1": {
+      "type": "Heading",
+      "props": {
+        "text": "AI→Crypto Capital Rotation",
+        "level": "h4"
+      }
+    },
+    "stat_fr1": {
+      "type": "Text",
+      "props": {
+        "text": "MS 3 ↑↑ | Bull | Bloomberg/CNBC/cryptobriefing; Coinbase earnings Jul 30 = trigger",
+        "variant": "caption"
+      }
+    },
+    "text_fr1_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: rotation benefits exchanges not miners (Core Scientific −9%)",
+        "variant": "muted"
+      }
+    },
+    "pos_fr2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_fr2",
+        "stat_fr2",
+        "text_fr2_bear"
+      ]
+    },
+    "h_fr2": {
+      "type": "Heading",
+      "props": {
+        "text": "Coinbase AiFi/Base",
+        "level": "h4"
+      }
+    },
+    "stat_fr2": {
+      "type": "Text",
+      "props": {
+        "text": "MS 4 ↑↑ | Bull | 100M AiFi txns; earnings Jul 30",
+        "variant": "caption"
+      }
+    },
+    "text_fr2_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: narrative ahead of fundamentals; $50M cumulative vol half-testing",
+        "variant": "muted"
+      }
+    },
+    "group_ride": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "subh_ride",
+        "pos_ride1",
+        "pos_ride2",
+        "pos_ride3",
+        "pos_ride4",
+        "pos_ride5",
+        "pos_ride6"
+      ]
+    },
+    "subh_ride": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE",
+        "level": "h3"
+      }
+    },
+    "pos_ride1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_ride1",
+        "stat_ride1",
+        "text_ride1_bear"
+      ]
+    },
+    "h_ride1": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agent Economy",
+        "level": "h4"
+      }
+    },
+    "stat_ride1": {
+      "type": "Text",
+      "props": {
+        "text": "MS 5 ↑ | Bull | 14th+ consecutive GitHub infra day",
+        "variant": "caption"
+      }
+    },
+    "text_ride1_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: $45M H1 vuln losses",
+        "variant": "muted"
+      }
+    },
+    "pos_ride2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_ride2",
+        "stat_ride2",
+        "text_ride2_bear"
+      ]
+    },
+    "h_ride2": {
+      "type": "Heading",
+      "props": {
+        "text": "x402/Agentic Payments",
+        "level": "h4"
+      }
+    },
+    "stat_ride2": {
+      "type": "Text",
+      "props": {
+        "text": "MS 5 ↑↑ | Bull | 100M AiFi milestone; 40 firms; earnings tomorrow catalyst",
+        "variant": "caption"
+      }
+    },
+    "text_ride2_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: multi-chain standard risk",
+        "variant": "muted"
+      }
+    },
+    "pos_ride3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_ride3",
+        "stat_ride3",
+        "text_ride3_bear"
+      ]
+    },
+    "h_ride3": {
+      "type": "Heading",
+      "props": {
+        "text": "Robinhood Chain",
+        "level": "h4"
+      }
+    },
+    "stat_ride3": {
+      "type": "Text",
+      "props": {
+        "text": "MS 4 ↑ | Bull | $400M TVL; $500M Uniswap vol; UNI fee switch active",
+        "variant": "caption"
+      }
+    },
+    "text_ride3_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: TVL was 90% concentrated at launch",
+        "variant": "muted"
+      }
+    },
+    "pos_ride4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_ride4",
+        "stat_ride4",
+        "text_ride4_bear"
+      ]
+    },
+    "h_ride4": {
+      "type": "Heading",
+      "props": {
+        "text": "Tokenized Equities",
+        "level": "h4"
+      }
+    },
+    "stat_ride4": {
+      "type": "Text",
+      "props": {
+        "text": "MS 4 → | Bull | DTCC live; UNI permissioned pools Securitize/Superstate/Dowgo",
+        "variant": "caption"
+      }
+    },
+    "text_ride4_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: ONDO burn catalyst spent",
+        "variant": "muted"
+      }
+    },
+    "pos_ride5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_ride5",
+        "stat_ride5",
+        "text_ride5_bear"
+      ]
+    },
+    "h_ride5": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agent Security",
+        "level": "h4"
+      }
+    },
+    "stat_ride5": {
+      "type": "Text",
+      "props": {
+        "text": "MS 4 ↑ | Bull | structural demand from AiFi wave",
+        "variant": "caption"
+      }
+    },
+    "text_ride5_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: tooling ≠ adoption",
+        "variant": "muted"
+      }
+    },
+    "pos_ride6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_ride6",
+        "stat_ride6",
+        "text_ride6_bear"
+      ]
+    },
+    "h_ride6": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Compute/DePIN-AI",
+        "level": "h4"
+      }
+    },
+    "stat_ride6": {
+      "type": "Text",
+      "props": {
+        "text": "MS 4 ↑ | Bull | io.net/Render/Akash active",
+        "variant": "caption"
+      }
+    },
+    "text_ride6_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: VVV window closed",
+        "variant": "muted"
+      }
+    },
+    "group_fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "subh_fade",
+        "pos_fade1",
+        "pos_fade2",
+        "pos_fade3"
+      ]
+    },
+    "subh_fade": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE",
+        "level": "h3"
+      }
+    },
+    "pos_fade1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_fade1",
+        "stat_fade1"
+      ]
+    },
+    "h_fade1": {
+      "type": "Heading",
+      "props": {
+        "text": "CLARITY Act",
+        "level": "h4"
+      }
+    },
+    "stat_fade1": {
+      "type": "Text",
+      "props": {
+        "text": "MS 2 ↓↓ | Bear | Q4 stall; Polymarket ~34-38% falling; no path to vote",
+        "variant": "caption"
+      }
+    },
+    "pos_fade2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_fade2",
+        "stat_fade2"
+      ]
+    },
+    "h_fade2": {
+      "type": "Heading",
+      "props": {
+        "text": "Hyperliquid",
+        "level": "h4"
+      }
+    },
+    "stat_fade2": {
+      "type": "Text",
+      "props": {
+        "text": "MS 1 ↓↓ | Bear | Aug 6: $587M HYPE unlock in 8 days; distribution setup",
+        "variant": "caption"
+      }
+    },
+    "pos_fade3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_fade3",
+        "stat_fade3"
+      ]
+    },
+    "h_fade3": {
+      "type": "Heading",
+      "props": {
+        "text": "RWA broad",
+        "level": "h4"
+      }
+    },
+    "stat_fade3": {
+      "type": "Text",
+      "props": {
+        "text": "MS 2 ↓ | Mixed | consensus priced; DTCC absorbed into Tokenized Equities",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_map",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading",
+        "map_dead"
+      ]
+    },
+    "h_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_emerging",
+        "text_emerging"
+      ]
+    },
+    "badge_emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "outline"
+      }
+    },
+    "text_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "AI→Crypto Rotation, Stablecoin Rails, X Money/Social Payments, Agentic Dev Tools, FHE/ZAMA, Memecoins/Retail, PEPE ETF, Lean Ethereum"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_rising",
+        "text_rising"
+      ]
+    },
+    "badge_rising": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "outline"
+      }
+    },
+    "text_rising": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase AiFi/Base, AI Agent Security, AI Compute/DePIN-AI, BNB Chain"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_peak",
+        "text_peak"
+      ]
+    },
+    "badge_peak": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "outline"
+      }
+    },
+    "text_peak": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy, x402/Base Payments, Robinhood Chain, Tokenized Equities"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fading",
+        "text_fading"
+      ]
+    },
+    "badge_fading": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "outline"
+      }
+    },
+    "text_fading": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act, Kaito/InfoFi, Hyperliquid, RWA"
+      }
+    },
+    "map_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dead_map",
+        "text_dead_narratives"
+      ]
+    },
+    "badge_dead_map": {
+      "type": "Badge",
+      "props": {
+        "text": "Dead",
+        "variant": "destructive"
+      }
+    },
+    "text_dead_narratives": {
+      "type": "Text",
+      "props": {
+        "text": "Fed Pivot (event executed), ZEC/Privacy, GENIUS Act, DRV"
+      }
+    }
+  }
+}
