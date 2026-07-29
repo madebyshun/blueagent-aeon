@@ -261,3 +261,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-28,security-digest,claude-sonnet-4-6,17,16303,846930,78140
 2026-07-29,morning-brief,claude-sonnet-4-6,10,4449,259083,30366
 2026-07-29,github-trending,claude-sonnet-4-6,13,11094,371712,33591
+2026-07-29,defi-monitor,claude-sonnet-4-6,7,1803,170500,10218
