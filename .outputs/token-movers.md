@@ -1,42 +1,42 @@
-*Token Movers — Jul 28, 2026*
+*Token Movers — 2026-07-29*
 
-_Broad risk-off — 76/100 top coins red, median −2.1%; BTC −2.7% at $63,253, ETH −3.7% at $1,882._
+_FOMC relief — BTC +1.3% to $64.3k on expected hold; 54% of tracked majors green, median 24h ~+0.9%; selective mid-cap spikes, continued 7d rot in most L1s._
 
 *Top Winners (24h)*
-1. DEXE (DeXe) — $3.30  +33.5% / 7d −77.6% / 1h +3.5%  •  $249M / #189  [TRENDING+UP][FADE][PUMP-RISK]
-2. WFI (WeFi) — $2.04  +11.3% / 7d −6.4% / 1h −0.1%  •  $1.2M / #174
-3. TRAC (OriginTrail) — $0.2843  +6.9% / 7d −7.2% / 1h +0.7%  •  $9.3M / #219
-4. FF (Falcon Finance) — $0.06358  +4.0% / 7d +5.7% / 1h +0.6%  •  $13.2M / #167
-5. MON (Monad) — $0.02123  +3.5% / 7d −7.3% / 1h +0.1%  •  $19.1M / #139
-6. ZAMA (Zama) — $0.06138  +3.2% / 7d +59.0% / 1h +0.6%  •  $66.9M / #210  [TRENDING+UP]
-7. TWT (Trust Wallet) — $0.3601  +2.6% / 7d +6.1% / 1h +0.1%  •  $6.9M / #193
-8. H (Humanity) — $0.06383  +2.5% / 7d +7.4% / 1h +2.5%  •  $2.9M / #220
-9. RUNE (THORChain) — $0.4395  +2.3% / 7d −2.7% / 1h −0.1%  •  $10.8M / #195
-10. BANK (Lorenzo Protocol) — $0.3503  +2.3% / 7d +156.2% / 1h +5.8%  •  $269M / #196
+1. COTI — $0.01561  +35.9% / 7d – / 1h –  •  $135M / #440  [TRENDING+UP][PUMP-RISK]
+2. META (MetaDAO) — $5.61  +32.9% / 7d – / 1h –  •  $18.6M / #216  [PUMP-RISK]
+3. BEAT (Audiera) — $3.82  +20.8% / 7d +43.8% / 1h 0.0%  •  $33.9M / #58  [BREAKOUT]
+4. KAITO — $1.254  +11.0% / 7d – / 1h –  •  $65.8M / #123  [TRENDING+UP]
+5. JUP — $0.1954  +7.2% / 7d +0.2% / 1h −0.4%  •  $28.0M / #86
+6. UNI — $4.05  +5.9% / 7d +7.1% / 1h −0.2%  •  $291M / #37
+7. SKY — $0.0581  +5.0% / 7d −9.2% / 1h −0.8%  •  $12.4M / #53
+8. PI — $0.0793  +4.8% / 7d −12.8% / 1h −1.0%  •  $11.9M / #74
+9. ADA — $0.165  +4.4% / 7d −5.2% / 1h +0.1%  •  $322M / #19  [MAJOR]
+10. SHIB — $0.000004790  +3.2% / 7d +12.6% / 1h +0.2%  •  $135.8M / #31
 
 *Top Losers (24h)*
-1. BTW (Bitway) — $0.07694  −31.1% / 7d +14.1% / 1h −1.4%  •  $22.0M / #176
-2. BEAT (Audiera) — $3.19  −24.7% / 7d +39.1% / 1h +2.5%  •  $70.2M / #65
-3. JTO (Jito) — $0.5512  −9.9% / 7d −10.5% / 1h +0.2%  •  $26.3M / #133
-4. ZRO (LayerZero) — $0.8455  −9.7% / 7d +3.6% / 1h −1.3%  •  $40.2M / #126
-5. B (BUILDon) — $0.1662  −9.6% / 7d −33.9% / 1h −1.2%  •  $6.7M / #178
-6. FET (ASI Alliance) — $0.1395  −9.2% / 7d −12.3% / 1h −0.6%  •  $79.3M / #121
-7. HYPE (Hyperliquid) — $54.08  −8.9% / 7d −13.9% / 1h −0.6%  •  $502M / #10  [MAJOR][TRENDING+DOWN]
-8. ENA (Ethena) — $0.08314  −8.8% / 7d −4.5% / 1h −0.7%  •  $114M / #76
-9. NEAR (NEAR Protocol) — $1.66  −8.8% / 7d −17.1% / 1h −0.6%  •  $171M / #39
-10. STRK (Starknet) — $0.02866  −8.6% / 7d −2.3% / 1h −0.5%  •  $15.0M / #164
+1. PUMP — $0.001876  −6.8% / 7d −5.5% / 1h −0.6%  •  $73.1M / #79  [TRENDING+DOWN]
+2. WLD — $0.3054  −5.4% / 7d −20.0% / 1h −0.5%  •  $108M / #63
+3. AERO — $0.4188  −4.2% / 7d −4.3% / 1h −1.0%  •  $29.9M / #105
+4. POL — $0.0722  −3.4% / 7d −9.7% / 1h −0.2%  •  $28.2M / #77
+5. ASTER — $0.6046  −3.2% / 7d −3.9% / 1h −0.1%  •  $91.2M / #46
+6. GRAM — $1.41  −2.8% / 7d −7.1% / 1h 0.0%  •  $44.7M / #26
+7. LTC — $45.33  −2.8% / 7d −2.7% / 1h −0.1%  •  $217M / #27
+8. JST — $0.1000  −2.8% / 7d −1.1% / 1h −0.2%  •  $34.5M / #75
+9. PEPE — $0.000002740  −2.3% / 7d −3.5% / 1h −0.1%  •  $140.8M / #60
+10. APT — $0.5690  −2.2% / 7d −5.9% / 1h −0.3%  •  $38.5M / #100
 
 *Trending*
-1. PONS — #502, $0.05153, −21.9%
-2. PENGU (Pudgy Penguins) — #111, $0.005914, −7.6%
-3. TAO (Bittensor) — #42, $188.26, −4.8%
-4. VVV (Venice Token) — #91, $12.92, −3.3%
-5. COTI — #564, $0.01170, +52.3%  [PUMP-RISK][MICROCAP]
-6. HYPE (Hyperliquid) — #10, $54.08, −8.9%  [TRENDING+DOWN]
-7. DEXE (DeXe) — #189, $3.26, +32.6%  [TRENDING+UP][PUMP-RISK]
+1. CSPR (Casper Network) — #637, $0.001765, 24h +4.0%
+2. ZAMA — #201, $0.06387, 24h +4.1%  [TRENDING+UP]
+3. PENGU (Pudgy Penguins) — #111, $0.005842, 24h −0.6%
+4. UNI (Uniswap) — #37, $4.05, 24h +4.7%  [TRENDING+UP]
+5. PUMP (Pump.fun) — #79, $0.001865, 24h −6.2%  [TRENDING+DOWN]
+6. COTI — #440, $0.01561, 24h +35.9%  [TRENDING+UP][PUMP-RISK]
+7. ADI — #347, $6.91, 24h −0.8%
 
 *Notable*
-• DEXE: bounced +33.5% after yesterday's −36.6% crash — 7d still −77.6%, vol $249M on $154M mcap — [PUMP-RISK] relief bounce, not recovery
-• COTI: +52.3% trending at rank #564, $35M mcap — no clear catalyst visible — [PUMP-RISK] high manipulation probability
-• BTW: yesterday's top winner +61.1% → today −31.1% — post-pump reversal
-• HYPE: −8.9% on $502M volume at rank #10 — [MAJOR] drawdown continues, 7d −13.9%
+• COTI: 2nd consecutive trending day, +35.9% — [PUMP-RISK], $46.5M microcap, vol/mcap 2.9×, no confirmed catalyst; watch for reversal
+• BEAT (Audiera): bounced +20.8% with 7d +43.8% on $1.18B cap after −24.7% yesterday — [BREAKOUT] sustained, not a relief bounce
+• META (MetaDAO): #216 up +32.9% on only $18.6M vol — [PUMP-RISK], thin Solana governance token; gap between move and liquidity is a red flag
+• PUMP: trending while −6.8% — search interest diverging from price; 7d −5.5% confirms downtrend not a dip
