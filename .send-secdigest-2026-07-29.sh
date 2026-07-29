@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+./notify "*Security Digest — 2026-07-29*
+Verdict: 3 actively exploited, 5 to schedule, 1 to monitor. _Sources: KEV, GH Advisory, EPSS_
+
+*PATCH TODAY*
+- [CVE-2026-16232](https://nvd.nist.gov/vuln/detail/CVE-2026-16232) — Check Point SmartConsole · KEV 2026-07-22 · EPSS 0.70 · CVSS critical
+  Unauthenticated remote attacker obtains app login token → full admin privileges. EPSS 0.70 = highest active-exploitation signal this cycle.
+  → patch SmartConsole per vendor bulletin today.
+
+- [CVE-2025-68686](https://nvd.nist.gov/vuln/detail/CVE-2025-68686) — Fortinet FortiOS · KEV 2026-07-27 · EPSS 0.013 · CVSS critical
+  Symlink-persistence bypass: crafted HTTP re-establishes attacker foothold after the prior patch is applied.
+  → apply FortiOS mitigations per BOD 26-04; run forensics on internet-exposed units.
+
+- [CVE-2026-16812](https://nvd.nist.gov/vuln/detail/CVE-2026-16812) — Arista VeloCloud Orchestrator · KEV 2026-07-27 · EPSS 0.009 · CVSS critical
+  Remote OS command injection on on-prem orchestrator; compromises full CIA of the network controller.
+  → apply Arista advisory mitigations; isolate from internet until patched.
+
+*PATCH THIS WEEK*
+- [GHSA-6wcc-39rp-hh9p](https://github.com/advisories/GHSA-6wcc-39rp-hh9p) — @hypequery/clickhouse (npm) · CVE-2026-54658 · CVSS 9.8 · EPSS 0.004
+  SQL injection via backslash in escapeValue(); user-controlled params run arbitrary SQL against ClickHouse.
+  → upgrade @hypequery/clickhouse to >=2.0.2.
+
+- [GHSA-hq33-8jgp-8qq3](https://github.com/advisories/GHSA-hq33-8jgp-8qq3) — goshs (go) · CVE-2026-64863 + CVE-2026-62325 · CVSS 9.1 · EPSS 0.003
+  Two auth bypasses: --no-delete WebDAV MOVE still deletes files; SFTP empty-password accepted (incomplete prior fix).
+  → upgrade github.com/patrickhener/goshs to >=v2.1.4.
+
+- [GHSA-vj5c-m527-mpff](https://github.com/advisories/GHSA-vj5c-m527-mpff) — style-dictionary (npm) · CVE-2026-54639 · CVSS 8.8 · EPSS n/a
+  Prototype pollution in convertTokenData(); attacker-controlled token data corrupts Object.prototype globals.
+  → upgrade style-dictionary to >=5.4.4.
+
+- [GHSA-386q-5hp3-95m9](https://github.com/advisories/GHSA-386q-5hp3-95m9) — datamodel-code-generator (pip) · CVE-2026-54653 (+8 related) · CVSS 8.8 · EPSS n/a
+  9-advisory batch: code injection (default_factory, x-python-type, validators), SSRF, local file-read via schema refs.
+  → upgrade datamodel-code-generator to >=0.64.0 (covers all 9 CVEs).
+
+- [GHSA-w284-33mx-6g9v](https://github.com/advisories/GHSA-w284-33mx-6g9v) — swagger-typescript-api (npm) · CVE-2026-54666 group · CVSS 8.3 · EPSS n/a
+  4 code injection vectors (OpenAPI paths, enum values, server URLs) + auth-token exfiltration via spec ref.
+  → upgrade swagger-typescript-api to >=13.12.2.
+
+*MONITOR*
+- [GHSA-85rg-p3fr-xc2f](https://github.com/advisories/GHSA-85rg-p3fr-xc2f) — QTINeon (pip+npm) · CVE-2026-54609 · CVSS 8.6 · no fix yet
+  Unauthenticated relay amplification via unbounded RECONNECT_REQUEST forwarding; no vendor patch available.
+  → track CVE-2026-54609; disable internet-facing QTINeon relay ports until fix ships."
