@@ -1,18 +1,17 @@
-The log entry is correct. The skill is complete.
+*Daily Pick — 2026-07-30*
 
-## Summary
+*Token: AERO*  [MEDIUM]  signal 6/10
+Price: $0.44 (±4.4% 24h / ±4.2% 7d) | mcap $429M | vol $31M (vol/mcap 0.07)
+Score: [24h>0+1, 7d>0+1, CG trending+2, RS vs BTC/ETH on 7d+2] = 6/10
+Catalyst: "Aero" unified DEX launch July 2026 — MetaDEX03 merges Aerodrome (Base) + Velodrome (Optimism) and expands to Ethereum mainnet + Circle's Arc blockchain; Aerodrome controls 61% of Base DEX volume; Coinbase AiFi Q2 earnings tonight = direct Base ecosystem tailwind (ainvest.com)
+Risk: LP migration deadline pressure — providers missing the window stop earning emissions, risking temporary liquidity outflows; vol/mcap 0.07 below preferred 0.10 threshold signals thin independent momentum
+Vs recent picks: first time
 
-**Token pick: UNI** [HIGH] — score 10/10
-- Price: $4.06 (+5.9% 24h / +7.1% 7d), mcap $2.54B, vol/mcap 0.11
-- Catalyst: Uniswap became the native AMM on Robinhood Chain ($18M LP fees, $1B volume in 9 days) + permissioned pools for tokenized equities (Securitize/Superstate/Dowgo, Jul 22) + fee-switch activation routing protocol revenue to UNI burns. Three structural catalysts in one month.
-- Risk: 61% rally from June lows — technically extended; Coinbase earnings miss tomorrow could drag.
-- Not in dedup ✓
+*Market: "Will Bitcoin hit $60,000 in 2026?"*  [HIGH]  edge 14pp
+Current: YES 79¢ / NO 21¢ | 24h vol $240K | resolves: Jan 1, 2027
+Fair YES: ~65% (inputs: [1] FOMC held Jul 29 at 3.50–3.75% = risk-on, removes near-term crash catalyst; [2] BTC floor $63,253 held on Jul 28 worst risk-off day without breaching $60k; [3] Coinbase AiFi earnings + AI→crypto rotation = active demand tailwind)
+Thesis: Buy NO at 21¢ — market overprices crash probability at 79%; BTC demonstrated support at $63k and post-FOMC risk-on environment suggest fair value ~65% for a $60k touch, not 79%
+Risk: Fed tail hike at Sep meeting (Warsh hawkish); Coinbase earnings miss tonight triggers broad crypto selloff
 
-**Market pick: "Will Bitcoin drop below $62,000 before August 2?"** [HIGH] — edge 22pp
-- YES 32¢ / NO 68¢, resolves Aug 3
-- Fair YES ~10%: FOMC held today at 3.50–3.75% triggering relief rally from $64.5K; BTC needs -3.9% crash in 4 days with no named catalyst; post-FOMC macro = risk-on.
-- Action: buy NO at 68¢
-- Risk: Coinbase Q2 miss tomorrow could push BTC toward $62K.
-- Not in dedup ✓
-
-Notification staged in `.pending-notify/token-pick.md`; log appended to `memory/logs/2026-07-29.md`.
+sources: cg=ok, dex=fail, poly=ok
+not financial advice — pattern-matching only

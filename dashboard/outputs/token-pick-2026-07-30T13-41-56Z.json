@@ -1,0 +1,363 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-30"
+      },
+      "children": [
+        "token-section",
+        "separator-1",
+        "market-section",
+        "disclaimer"
+      ]
+    },
+    "token-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-header",
+        "token-metrics",
+        "score-section",
+        "catalyst-section",
+        "risk-token-alert",
+        "vs-recent-text"
+      ]
+    },
+    "token-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aero-heading",
+        "medium-badge",
+        "signal-stat"
+      ]
+    },
+    "aero-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AERO",
+        "level": "h2"
+      }
+    },
+    "medium-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      }
+    },
+    "signal-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "6/10"
+      }
+    },
+    "token-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "price-stat",
+        "mcap-stat",
+        "volume-stat"
+      ]
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.44",
+        "delta": "±4.4% (24h) / ±4.2% (7d)",
+        "trend": "neutral"
+      }
+    },
+    "mcap-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$429M"
+      }
+    },
+    "volume-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$31M",
+        "delta": "vol/mcap ratio 0.07"
+      }
+    },
+    "score-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-heading",
+        "score-breakdown"
+      ]
+    },
+    "score-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h4"
+      }
+    },
+    "score-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "24h momentum +1 | 7d momentum +1 | CoinGecko trending +2 | RS vs BTC/ETH on 7d +2 = 6/10",
+        "variant": "body"
+      }
+    },
+    "catalyst-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-heading",
+        "catalyst-text"
+      ]
+    },
+    "catalyst-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aero unified DEX launch July 2026 — MetaDEX03 merges Aerodrome (Base) + Velodrome (Optimism) and expands to Ethereum mainnet + Circle's Arc blockchain; Aerodrome controls 61% of Base DEX volume; Coinbase AiFi Q2 earnings tonight = direct Base ecosystem tailwind (ainvest.com)",
+        "variant": "body"
+      }
+    },
+    "risk-token-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "LP migration deadline pressure — providers missing the window stop earning emissions, risking temporary liquidity outflows; vol/mcap 0.07 below preferred 0.10 threshold signals thin independent momentum",
+        "type": "warning"
+      }
+    },
+    "vs-recent-text": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-header",
+        "market-details",
+        "fair-value-section",
+        "thesis-section",
+        "risk-market-alert",
+        "sources-text"
+      ]
+    },
+    "market-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market-heading",
+        "high-badge",
+        "edge-stat"
+      ]
+    },
+    "market-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Will Bitcoin hit $60,000 in 2026?",
+        "level": "h2"
+      }
+    },
+    "high-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "secondary"
+      }
+    },
+    "edge-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Edge",
+        "value": "14pp"
+      }
+    },
+    "market-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "current-prices-grid",
+        "volume-resolution"
+      ]
+    },
+    "current-prices-grid": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "yes-price-stat",
+        "no-price-stat"
+      ]
+    },
+    "yes-price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current YES",
+        "value": "79¢"
+      }
+    },
+    "no-price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current NO",
+        "value": "21¢"
+      }
+    },
+    "volume-resolution": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "volume-stat-market",
+        "resolution-text"
+      ]
+    },
+    "volume-stat-market": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$240K"
+      }
+    },
+    "resolution-text": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: January 1, 2027",
+        "variant": "caption"
+      }
+    },
+    "fair-value-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair-value-heading",
+        "fair-value-progress",
+        "fair-value-inputs"
+      ]
+    },
+    "fair-value-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair Value Analysis",
+        "level": "h4"
+      }
+    },
+    "fair-value-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 65,
+        "max": 100,
+        "label": "Fair YES Probability"
+      }
+    },
+    "fair-value-inputs": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: (1) FOMC held July 29 at 3.50–3.75% = risk-on environment removes near-term crash catalyst; (2) BTC floor $63,253 held on July 28 worst risk-off day without breaching $60k; (3) Coinbase AiFi earnings + AI→crypto rotation = active demand tailwind",
+        "variant": "body"
+      }
+    },
+    "thesis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-heading",
+        "thesis-text"
+      ]
+    },
+    "thesis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      }
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Buy NO at 21¢ — market overprices crash probability at 79%; BTC demonstrated support at $63k and post-FOMC risk-on environment suggest fair value ~65% for a $60k touch, not 79%",
+        "variant": "body"
+      }
+    },
+    "risk-market-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Fed tail hike at September meeting (Warsh hawkish); Coinbase earnings miss tonight triggers broad crypto selloff",
+        "type": "warning"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "Data sources: CoinGecko (ok) | DEX volume (failed) | Polygon (ok)",
+        "variant": "caption"
+      }
+    },
+    "disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
