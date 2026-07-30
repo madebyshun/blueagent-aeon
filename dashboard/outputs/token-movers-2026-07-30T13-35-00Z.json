@@ -1,0 +1,453 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-07-30",
+        "description": "Flat before the print — BTC +0.7% at $64.8K; ~60% of top-100 green, median top-50 ~+0.7%; market holding rather than trading ahead of Coinbase Q2 earnings after close tonight."
+      },
+      "children": [
+        "section_winners",
+        "sep1",
+        "section_losers",
+        "sep2",
+        "section_trending",
+        "sep3",
+        "section_notable"
+      ]
+    },
+    "section_winners": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_winners",
+        "table_winners"
+      ]
+    },
+    "heading_winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table_winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "#",
+          "Token",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Vol/Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "US",
+            "$0.04586",
+            "+7.5%",
+            "+3.6%",
+            "+0.7%",
+            "$6.8M / #205",
+            "MICROCAP"
+          ],
+          [
+            "2",
+            "INJ (Injective)",
+            "$4.79",
+            "+5.1%",
+            "−7.2%",
+            "−0.6%",
+            "$62.7M / #100",
+            ""
+          ],
+          [
+            "3",
+            "ONDO",
+            "$0.4217",
+            "+5.1%",
+            "+4.7%",
+            "+0.5%",
+            "$164M / #41",
+            ""
+          ],
+          [
+            "4",
+            "UNI (Uniswap)",
+            "$4.25",
+            "+4.0%",
+            "+9.6%",
+            "+1.8%",
+            "$275M / #36",
+            "TRENDING+UP"
+          ],
+          [
+            "5",
+            "PUMP",
+            "$0.001947",
+            "+4.0%",
+            "+0.3%",
+            "+1.5%",
+            "$68.5M / #76",
+            ""
+          ],
+          [
+            "6",
+            "NEAR",
+            "$1.65",
+            "+3.8%",
+            "−12.8%",
+            "−0.6%",
+            "$180M / #40",
+            ""
+          ],
+          [
+            "7",
+            "LIT (Litentry)",
+            "$2.26",
+            "+3.8%",
+            "+1.6%",
+            "+2.5%",
+            "$34.1M / #92",
+            ""
+          ],
+          [
+            "8",
+            "ZEC (Zcash)",
+            "$475.34",
+            "+3.5%",
+            "−8.1%",
+            "−0.1%",
+            "$210M / #15",
+            "MAJOR"
+          ],
+          [
+            "9",
+            "XMR (Monero)",
+            "$360.03",
+            "+3.5%",
+            "+3.0%",
+            "+0.2%",
+            "$96.4M / #16",
+            "MAJOR"
+          ],
+          [
+            "10",
+            "PI",
+            "$0.08265",
+            "+3.3%",
+            "−9.1%",
+            "+0.5%",
+            "$11.0M / #70",
+            "TRENDING+UP"
+          ]
+        ]
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_losers",
+        "table_losers"
+      ]
+    },
+    "heading_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table_losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "#",
+          "Token",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Vol/Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "VVV (Venice AI)",
+            "$12.14",
+            "−6.2%",
+            "−2.5%",
+            "−1.0%",
+            "$15.8M / #91",
+            ""
+          ],
+          [
+            "2",
+            "STABLE",
+            "$0.03434",
+            "−4.6%",
+            "−14.9%",
+            "−0.1%",
+            "$10.7M / #74",
+            ""
+          ],
+          [
+            "3",
+            "HYPE (Hyperliquid)",
+            "$52.89",
+            "−3.1%",
+            "−10.3%",
+            "+0.1%",
+            "$373M / #10",
+            "MAJOR TRENDING+DOWN"
+          ],
+          [
+            "4",
+            "SHIB (Shiba Inu)",
+            "$0.0000046",
+            "−2.4%",
+            "+9.7%",
+            "−0.1%",
+            "$110M / #33",
+            ""
+          ],
+          [
+            "5",
+            "ENA (Ethena)",
+            "$0.08011",
+            "−1.9%",
+            "−12.8%",
+            "0.0%",
+            "$99.0M / #77",
+            ""
+          ],
+          [
+            "6",
+            "ALGO (Algorand)",
+            "$0.07798",
+            "−1.7%",
+            "−5.9%",
+            "+0.3%",
+            "$20.7M / #82",
+            ""
+          ],
+          [
+            "7",
+            "RAIN",
+            "$0.01338",
+            "−1.5%",
+            "−6.2%",
+            "−0.5%",
+            "$21.9M / #13",
+            ""
+          ],
+          [
+            "8",
+            "MNT (Mantle)",
+            "$0.3972",
+            "−1.5%",
+            "−4.6%",
+            "0.0%",
+            "$22.8M / #56",
+            ""
+          ],
+          [
+            "9",
+            "POL (Polygon)",
+            "$0.07026",
+            "−1.4%",
+            "−10.0%",
+            "−1.0%",
+            "$25.2M / #79",
+            ""
+          ],
+          [
+            "10",
+            "KAS (Kaspa)",
+            "$0.02749",
+            "−1.0%",
+            "−3.0%",
+            "+0.4%",
+            "$6.0M / #78",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_trending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_trending",
+        "table_trending"
+      ]
+    },
+    "heading_trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table_trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "#",
+          "Token",
+          "Price",
+          "24h %",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "GRVT (#612)",
+            "$0.2738",
+            "0%",
+            ""
+          ],
+          [
+            "2",
+            "COTI (#438)",
+            "$0.01571",
+            "+0.2%",
+            ""
+          ],
+          [
+            "3",
+            "PENGU (#113)",
+            "$0.005834",
+            "0%",
+            ""
+          ],
+          [
+            "4",
+            "HYPE (#10)",
+            "$52.98",
+            "−3.5%",
+            "MAJOR TRENDING+DOWN"
+          ],
+          [
+            "5",
+            "BANK (#564)",
+            "$0.07977",
+            "−55.9%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "6",
+            "TAO (#42)",
+            "$193.15",
+            "+0.4%",
+            ""
+          ],
+          [
+            "7",
+            "AERO (#105)",
+            "$0.4384",
+            "+4.8%",
+            "TRENDING+UP"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_notable",
+        "alert1",
+        "alert2",
+        "alert3",
+        "alert4",
+        "alert5"
+      ]
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "BANK: #564 −55.9%",
+        "message": "No confirmed catalyst; largest single-day trending drop today; watch",
+        "type": "warning"
+      }
+    },
+    "alert2": {
+      "type": "Alert",
+      "props": {
+        "title": "HYPE [TRENDING+DOWN][MAJOR]",
+        "message": "Day 2 trending-down, 7d −10.3%; Aug 6 Core Contributors unlock ($587M) = 7 days — distribution visible",
+        "type": "warning"
+      }
+    },
+    "alert3": {
+      "type": "Alert",
+      "props": {
+        "title": "COTI",
+        "message": "Cooling after +52.3% Jul 28 / +35.9% Jul 29; +0.2% on day 3 trending — momentum stalled, no catalyst confirmed",
+        "type": "info"
+      }
+    },
+    "alert4": {
+      "type": "Alert",
+      "props": {
+        "title": "UNI [TRENDING+UP]",
+        "message": "3rd day trending, +4.0% / 7d +9.6%; Robinhood Chain + permissioned pools thesis intact",
+        "type": "success"
+      }
+    },
+    "alert5": {
+      "type": "Alert",
+      "props": {
+        "title": "AERO [TRENDING+UP]",
+        "message": "Base native DEX, +3.2% trending ahead of Coinbase Q2 earnings tonight",
+        "type": "success"
+      }
+    }
+  }
+}
