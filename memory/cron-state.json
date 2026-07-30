@@ -12,12 +12,12 @@
   },
   "token-pick": {
     "last_status": "success",
-    "last_success": "2026-07-29T13:59:42Z",
-    "total_runs": 66,
-    "total_successes": 57,
+    "last_success": "2026-07-30T13:43:14Z",
+    "total_runs": 67,
+    "total_successes": 58,
     "total_failures": 9,
     "consecutive_failures": 0,
-    "success_rate": 0.86,
+    "success_rate": 0.87,
     "last_failed": "2026-07-08T13:37:06Z",
     "last_error": "cheReadInputTokens\":0,\"cacheCreationInputTokens\":0,\"webSearchRequests\":6,\"costUSD\":0.48092199999999996,\"contextWindow\":200000,\"maxOutputTokens\":32000},\"claude-sonnet-4-6\":{\"inputTokens\":4689,\"outputTo"
   },
