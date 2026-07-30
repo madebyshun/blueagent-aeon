@@ -1,21 +1,23 @@
-Security digest for 2026-07-29 is complete. Here's the summary:
+Done. The sandbox blocked cleanup of temp files but all essential work is complete. Here's the summary:
 
 ## Summary
 
-**Sources:** KEV (WebFetch ✓), GitHub Advisory API (gh api ✓), EPSS (WebFetch ✓)
+**Security Digest — 2026-07-30**
 
-**PATCH TODAY (3)** — all KEV-confirmed exploitation in the wild:
-- **CVE-2026-16232** — Check Point SmartConsole · EPSS 0.70 (strongest signal) · unauthenticated admin token theft
-- **CVE-2025-68686** — Fortinet FortiOS · EPSS 0.013 · symlink persistence bypass post-patch
-- **CVE-2026-16812** — Arista VeloCloud Orchestrator · EPSS 0.009 · OS command injection
+**Sources:** KEV=ok (WebFetch), GH Advisory=ok (gh api + WebFetch), EPSS=ok (WebFetch)
 
-**PATCH THIS WEEK (5):**
-- @hypequery/clickhouse (npm) · CVSS 9.8 · SQL injection → fix ≥2.0.2
-- goshs (go) · CVSS 9.1 · WebDAV + SFTP double auth bypass → fix ≥v2.1.4
-- style-dictionary (npm) · CVSS 8.8 · prototype pollution → fix ≥5.4.4
-- datamodel-code-generator (pip) · CVSS 8.8 · 9-advisory batch (code injection/SSRF/file-read) → fix ≥0.64.0
-- swagger-typescript-api (npm) · CVSS 8.3 · 4-vector code injection → fix ≥13.12.2
+**Tier counts: PATCH TODAY: 3 | PATCH THIS WEEK: 2 | MONITOR: 1**
 
-**MONITOR (1):** QTINeon (pip+npm) · CVSS 8.6 · unauthenticated relay amplification · no fix yet
+**PATCH TODAY:**
+- **CVE-2026-20316** — Cisco FMC · KEV Jul 29 · CVSS 5.3 · Hard-coded creds → unauthenticated remote read. Due 2026-08-01.
+- **GHSA-2956-977x-2w3r / CVE-2026-67429** — flyto-core (pip) · CVSS 10.0 · Path traversal → arbitrary file write with PoC. Fix: ≥2.26.7. (One upgrade also closes 5 additional flyto-core advisories — CVEs 67424–67428, CVSS 8.5–9.3.)
+- **GHSA-mjqf-28ph-426h / CVE-2026-54680** — kube-logging/logging-operator (go) · CVSS 9.9 · Fluentd config injection → RCE via Kubernetes Flow CRD with PoC YAML. Fix: ≥6.6.0.
 
-Notification queued to `.pending-notify/` for post-run delivery. Log entry appended to `memory/logs/2026-07-29.md`.
+**PATCH THIS WEEK:**
+- **GHSA-4p3g-4hcj-wpvx / CVE-2026-54735** — prebid-server/v4 (go) · CVSS 10.0 · SSRF via bidder adapters. Fix: ≥4.4.0; v2/v3 no patch.
+- **GHSA-m4x6-gwgp-4pm7 / CVE-2026-11393** — @aws/agentcore (npm) · CVSS 8.8 · Code injection via Bedrock agent import. Fix: ≥0.14.2.
+
+**MONITOR:**
+- prebid-server v2/v3 — no patch for SSRF (CVE-2026-54735). Disable affected adapters; plan v4 migration.
+
+**Files modified:** `memory/logs/2026-07-30.md` (log appended), `.pending-notify/1785426000.md` (notification queued for post-run delivery).
