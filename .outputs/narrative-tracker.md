@@ -1,35 +1,24 @@
-*Narrative Tracker — 2026-07-29*
+*Narrative Tracker — 2026-07-30*
 
 TRANSITIONS
-• DEAD: Fed Pivot — FOMC held 3.50–3.75% as priced; BTC +1.3% $64.3K relief rally. Catalyst consumed. Narrative over.
-• NEW: AI→Crypto Capital Rotation — institutional money leaving AI infra stocks (Chinese semis + valuation risk) → crypto. Coinbase +4.5%, Bitmine +11% Jul 27 (Bloomberg/CNBC). Coinbase Q2 earnings tomorrow = amplification. FRONT-RUN.
-• PROMOTED: Coinbase AiFi/Base (Emerging → Rising) — Base hit 100M AiFi txns milestone today; Q2 earnings Jul 30. Narrative hardening before financials land.
-• PROMOTED: Robinhood Chain (WATCH → RIDE) — $400M+ TVL, $500M Uniswap 24h vol (highest outside ETH mainnet), 50%+ MoM growth confirmed Jul 22. Not stagnating.
-• DEMOTED: CLARITY Act (Rising → Fading) — 3-dispute stall confirmed by morning-brief; demoted to Q4. No cloture, no near-term path.
-• DEMOTED: AI Compute FRONT-RUN → RIDE — VVV absent from today's movers; narrow entry window appears closed.
-• VELOCITY: Kaito ↓→→ — KAITO +11% 3rd consecutive bounce; $17M unlock absorbed. Monitor for WATCH upgrade.
+• VELOCITY UPGRADE: Tokenized Equities (Rising → ↑) — RWA.xyz listed $1B+ tokenized equities/ETFs in July 2026; ONDO +5.1% today. Velocity moves from flat to rising.
+• EVENT IMMINENT: Coinbase AiFi + AI→Crypto Rotation — Q2 earnings tonight after close ($1.29–1.31B consensus). Beat on Base/AiFi revenue = both FRONT-RUN narratives PROMOTE to Rising/Peak. Miss = narrative deflation. Highest-stakes test since FOMC.
+• APPROACHING DEAD: Hyperliquid — Aug 6 $587M Core Contributors unlock in 7 days. Day-2 trending-down (Jul 30 log). Distribution window fully active.
 
 REFLEXIVITY ALERT
-• Base 100M AiFi milestone announced before Coinbase earnings tomorrow — narrative construction pre-data. If earnings beat → institutional amplification follows. cryptotimes.io / morning-brief Jul 29.
-• AI→Crypto rotation: Bloomberg/CNBC coverage → institutions buy crypto stocks → stocks rise → narrative confirmed → more rotate. Self-confirming loop active.
-• COTI day-2: +52.3% Jul 28 → +35.9% Jul 29, two consecutive trending days, $46.5M microcap, no confirmed catalyst. PUMP-RISK confirmed.
+• Coinbase AiFi self-validation loop: Armstrong seeded "AiFi" Jul 27 → sell-side cited $73M/176M txns in Q2 preview → earnings tonight lands the data. Beat = institutional amplification; loop completes.
+• AI→Crypto Rotation (day 3): Bloomberg/CNBC coverage → institutions buy COIN → stock rises → narrative confirmed → more rotate. Watch COIN after-hours.
+• HYPE trending-down day 2 heading into Aug 6 unlock — narrative attention = exit liquidity for insiders. Classic distribution setup.
 
 POSITIONS
-• FRONT-RUN: AI→Crypto Capital Rotation (MS 3 ↑↑, Bull) — Bloomberg/CNBC/cryptobriefing; Coinbase earnings Jul 30 = trigger; bear: rotation benefits exchanges not miners (Core Scientific −9%)
-• FRONT-RUN: Coinbase AiFi/Base (MS 4 ↑↑, Bull) — 100M AiFi txns; earnings Jul 30; bear: narrative ahead of fundamentals; $50M cumulative vol half-testing
-• RIDE: AI Agent Economy (MS 5 ↑, Bull) — 14th+ consecutive GitHub infra day; bear: $45M H1 vuln losses
-• RIDE: x402/Agentic Payments (MS 5 ↑↑, Bull) — 100M AiFi milestone; 40 firms; earnings tomorrow catalyst; bear: multi-chain standard risk
-• RIDE: Robinhood Chain (MS 4 ↑, Bull) — $400M TVL; $500M Uniswap vol; UNI fee switch active; bear: TVL was 90% concentrated at launch
-• RIDE: Tokenized Equities (MS 4 →, Bull) — DTCC live; UNI permissioned pools Securitize/Superstate/Dowgo; bear: ONDO burn catalyst spent
-• RIDE: AI Agent Security (MS 4 ↑, Bull) — structural demand from AiFi wave; bear: tooling ≠ adoption
-• RIDE: AI Compute/DePIN-AI (MS 4 ↑, Bull) — io.net/Render/Akash active; bear: VVV window closed
-• FADE: CLARITY Act (MS 2 ↓↓, Bear) — Q4 stall; Polymarket ~34-38% falling; no path to vote
-• FADE: Hyperliquid (MS 1 ↓↓, Bear) — Aug 6: $587M HYPE unlock in 8 days; distribution setup
-• FADE: RWA broad (MS 2 ↓, Mixed) — consensus priced; DTCC absorbed into Tokenized Equities
+• FRONT-RUN: Coinbase AiFi / Base Ecosystem (MS 4 ↑↑, Bull) — earnings tonight; $73M/176M txns cited in preview — Bear: miss deflates narrative before it institutionalizes
+• FRONT-RUN: AI→Crypto Capital Rotation (MS 3 ↑↑, Bull) — Bloomberg/CNBC amplifying; tonight = stated go/no-go catalyst — Bear: one-week pattern ≠ structural reallocation; miners excluded
+• RIDE: AI Agent Economy (5 ↑ Peak) | x402/Base (5 ↑↑ Peak) | Tokenized Equities (4 ↑ Rising, upgraded) | Robinhood Chain (4 ↑ Peak) | AI Security (4 ↑ Rising) | AI Compute/DePIN (4 ↑ Rising)
+• FADE: Hyperliquid (1 ↓↓, 7d to DEAD) | CLARITY Act (2 ↓↓) | Kaito (2 → monitoring) | RWA broad (2 ↓)
 
 MAP
-Emerging: AI→Crypto Rotation, Stablecoin Rails, X Money/Social Payments, Agentic Dev Tools, FHE/ZAMA, Memecoins/Retail, PEPE ETF, Lean Ethereum
-Rising: Coinbase AiFi/Base, AI Agent Security, AI Compute/DePIN-AI, BNB Chain
-Peak: AI Agent Economy, x402/Base Payments, Robinhood Chain, Tokenized Equities
-Fading: CLARITY Act, Kaito/InfoFi, Hyperliquid, RWA
-Dead: Fed Pivot (event executed), ZEC/Privacy, GENIUS Act, DRV
+Emerging: Stablecoin Rails | Agentic Dev Tools | Memecoins | X Money | FHE/ZAMA | Lean Ethereum | PEPE ETF
+Rising: AI Agent Security | AI Compute/DePIN | BNB Chain | Tokenized Equities ↑
+Peak: AI Agent Economy | x402/Base | Robinhood Chain
+Fading: Hyperliquid [7d to Dead] | CLARITY Act | Kaito | RWA broad
+Dead: Fed Pivot | ZEC | GENIUS Act | DRV
