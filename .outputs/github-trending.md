@@ -1,24 +1,13 @@
-*GitHub Trending — 2026-07-29*
+*GitHub Trending — Jul 30*
 
-*Top pick* — [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
-Practical architecture for AI tooling: static analysis runs first, LLM agents only see what rules can't decide.
+Thin day — 15 of 17 repos on the trending page overlap with picks or drops from the last 48h. One repo clears the noise floor.
 
-*Devtools*
-• [alibaba/open-code-review](https://github.com/alibaba/open-code-review) — ★ 918 today (15.7k total) · Go · [ACCELERATING]
-Runs deterministic linting first, then routes only ambiguous violations to LLM agents — cuts token spend sharply.
-
-• [1jehuang/jcode](https://github.com/1jehuang/jcode) — ★ 652 today (13.1k total) · Rust · [ACCELERATING]
-Rust harness for AI agent loops claiming the lowest memory footprint of any Claude Code runner.
-
-• [different-ai/openwork](https://github.com/different-ai/openwork) — ★ 58 today (17.4k total) · TypeScript · [ACCELERATING]
-Self-hostable, model-agnostic alternative to Claude Cowork — multi-agent team workspaces without Anthropic's cloud.
+*Top pick* — [moeru-ai/airi](https://github.com/moeru-ai/airi)
+Self-hosted AI companion that keeps shipping — pushed code today, 682 stars, unusual voice + gaming-integration stack at 45k total.
 
 *AI/ML*
-• [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) — ★ 332 today (51k total) · Python · [ACCELERATING]
-Microsoft open-sources a frontier-grade voice AI model, targeting commercial API parity for local and cloud deployments.
-
-• [MoonshotAI/FlashKDA](https://github.com/MoonshotAI/FlashKDA) — ★ 216 today (884 total) · CUDA · [RETURNING]
-Moonshot AI open-sources Kimi Delta Attention CUDA kernels — faster long-context inference for Kimi-class models.
+• [moeru-ai/airi](https://github.com/moeru-ai/airi) — ★ 682 today (45.7k total) · TypeScript · [RETURNING]
+v0.11.3 shipped Jul 18; active push again today — self-hosted voice AI with Minecraft/Factorio gaming integration, no cloud dependency.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/17
+sources: trending=ok (17 repos) · gh_api=ok · kept 1/17

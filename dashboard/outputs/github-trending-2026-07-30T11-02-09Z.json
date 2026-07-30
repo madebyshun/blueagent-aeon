@@ -1,0 +1,171 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — Jul 30"
+      },
+      "children": [
+        "text_observation",
+        "sep1",
+        "heading_toppick",
+        "storylink_airi_1",
+        "text_toppick_desc",
+        "sep2",
+        "heading_aiml",
+        "stack_aiml_content",
+        "sep3",
+        "text_sources"
+      ]
+    },
+    "text_observation": {
+      "type": "Text",
+      "props": {
+        "text": "Thin day — 15 of 17 repos on the trending page overlap with picks or drops from the last 48h. One repo clears the noise floor.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "storylink_airi_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "moeru-ai/airi",
+        "href": "https://github.com/moeru-ai/airi",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "text_toppick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted AI companion that keeps shipping — pushed code today, 682 stars, unusual voice + gaming-integration stack at 45k total.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_aiml_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item_airi"
+      ]
+    },
+    "item_airi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_airi_2",
+        "stack_badges_lang",
+        "stat_stars",
+        "text_airi_desc"
+      ]
+    },
+    "storylink_airi_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "moeru-ai/airi",
+        "href": "https://github.com/moeru-ai/airi",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "stack_badges_lang": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_typescript",
+        "badge_returning"
+      ]
+    },
+    "badge_typescript": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_returning": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "stat_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "45.7k",
+        "delta": "+682",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text_airi_desc": {
+      "type": "Text",
+      "props": {
+        "text": "v0.11.3 shipped Jul 18; active push again today — self-hosted voice AI with Minecraft/Factorio gaming integration, no cloud dependency.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok (17 repos) · gh_api=ok · kept 1/17",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

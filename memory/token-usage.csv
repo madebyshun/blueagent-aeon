@@ -265,3 +265,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-07-29,narrative-tracker,claude-sonnet-4-6,1983,19784,594818,54883
 2026-07-29,security-digest,claude-sonnet-4-6,2861,32856,2521910,91916
 2026-07-30,morning-brief,claude-sonnet-4-6,11,6151,311976,35139
+2026-07-30,github-trending,claude-sonnet-4-6,14,10729,460255,38943
