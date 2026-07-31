@@ -1,0 +1,399 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-07-31",
+        "description": "Mild risk-off — 53/100 top coins red, median top-50 −0.45%; large-caps leading the decline post-Coinbase Q2 miss while select alts decouple."
+      },
+      "children": [
+        "sep1",
+        "winners_heading",
+        "winners_table",
+        "sep2",
+        "losers_heading",
+        "losers_table",
+        "sep3",
+        "trending_heading",
+        "trending_table",
+        "sep4",
+        "notable_heading",
+        "notable_stack"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "M (MemeCore)",
+            "$1.240",
+            "+35.6%",
+            "+7.6%",
+            "+13.9%",
+            "$10.9M / #46",
+            ""
+          ],
+          [
+            "UB (Unibase)",
+            "$0.1624",
+            "+15.3%",
+            "—",
+            "—",
+            "$13.8M / #107",
+            ""
+          ],
+          [
+            "BEAT (Audiera)",
+            "$4.200",
+            "+8.5%",
+            "+44.6%",
+            "+0.0%",
+            "$7.2M / #58",
+            ""
+          ],
+          [
+            "US (Talus)",
+            "$0.05103",
+            "+6.2%",
+            "+3.8%",
+            "+0.0%",
+            "$6.2M / #194",
+            ""
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.002044",
+            "+5.9%",
+            "+11.9%",
+            "+1.0%",
+            "$75.0M / #76",
+            "TRENDING+UP"
+          ],
+          [
+            "UNI (Uniswap)",
+            "$4.363",
+            "+5.2%",
+            "+13.5%",
+            "−0.3%",
+            "$445M / #34",
+            "TRENDING+UP"
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "$55.29",
+            "+4.0%",
+            "−5.3%",
+            "+0.8%",
+            "$381M / #10",
+            "TRENDING+UP MAJOR"
+          ],
+          [
+            "JST (JUST)",
+            "$0.1030",
+            "+3.9%",
+            "+1.2%",
+            "−0.5%",
+            "$26.6M / #75",
+            ""
+          ],
+          [
+            "FIL (Filecoin)",
+            "$0.7216",
+            "+3.6%",
+            "−1.6%",
+            "+0.1%",
+            "$63.0M / #91",
+            ""
+          ],
+          [
+            "CAKE (PancakeSwap)",
+            "$1.470",
+            "+3.3%",
+            "+5.5%",
+            "−0.1%",
+            "$41.3M / #103",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "RAIN",
+            "$0.01284",
+            "−5.0%",
+            "−11.2%",
+            "−0.1%",
+            "$16.6M / #14",
+            "MAJOR"
+          ],
+          [
+            "ZEC (Zcash)",
+            "$459.6",
+            "−4.0%",
+            "−8.7%",
+            "−0.4%",
+            "$165M / #15",
+            "MAJOR"
+          ],
+          [
+            "AERO (Aerodrome)",
+            "$0.4225",
+            "−3.9%",
+            "−0.3%",
+            "+0.3%",
+            "$17.5M / #106",
+            ""
+          ],
+          [
+            "ATOM (Cosmos)",
+            "$1.240",
+            "−3.8%",
+            "−10.8%",
+            "+0.8%",
+            "$26.3M / #86",
+            ""
+          ],
+          [
+            "GRAM (Toncoin)",
+            "$1.393",
+            "−3.1%",
+            "−5.0%",
+            "+0.1%",
+            "$25.6M / #26",
+            "TRENDING+DOWN"
+          ],
+          [
+            "XMR (Monero)",
+            "$350.4",
+            "−2.9%",
+            "−0.7%",
+            "−0.1%",
+            "$92.3M / #16",
+            "MAJOR"
+          ],
+          [
+            "LIT (Lighter)",
+            "$2.170",
+            "−2.7%",
+            "+1.8%",
+            "−1.1%",
+            "$32.7M / #95",
+            ""
+          ],
+          [
+            "LINK (Chainlink)",
+            "$8.260",
+            "−2.6%",
+            "−2.3%",
+            "+0.0%",
+            "$176M / #19",
+            "MAJOR"
+          ],
+          [
+            "CC (Canton)",
+            "$0.1190",
+            "−2.3%",
+            "−0.5%",
+            "+0.5%",
+            "$8.8M / #21",
+            ""
+          ],
+          [
+            "ETH (Ethereum)",
+            "$1,887",
+            "−2.2%",
+            "+0.0%",
+            "+0.0%",
+            "$7.77B / #2",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Rank",
+          "Price",
+          "24h Change",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "PENGU (Pudgy Penguins)",
+            "#111",
+            "$0.006100",
+            "+4.5%",
+            ""
+          ],
+          [
+            "MOONDOGECOIN",
+            "#771",
+            "$0.02112",
+            "+0.0%",
+            ""
+          ],
+          [
+            "GRVT",
+            "#620",
+            "$0.2632",
+            "−8.0%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "UNI (Uniswap)",
+            "#34",
+            "$4.363",
+            "+2.9%",
+            "TRENDING+UP"
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "#10",
+            "$55.36",
+            "+4.2%",
+            "TRENDING+UP MAJOR"
+          ],
+          [
+            "AEON",
+            "#972",
+            "$0.07468",
+            "−21.2%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "#76",
+            "$0.002044",
+            "+4.7%",
+            "TRENDING+UP"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_1",
+        "notable_2",
+        "notable_3",
+        "notable_4"
+      ]
+    },
+    "notable_1": {
+      "type": "Alert",
+      "props": {
+        "title": "HYPE [TRENDING+UP][MAJOR] #10",
+        "message": "Reversed yesterday's −3.1% [TRENDING+DOWN]; Aug 6 $587M unlock 6 days out — bounce into distribution window",
+        "type": "info"
+      }
+    },
+    "notable_2": {
+      "type": "Alert",
+      "props": {
+        "title": "AEON [TRENDING+DOWN] #972",
+        "message": "−21.2% while trending — thin-cap, high manipulation risk",
+        "type": "warning"
+      }
+    },
+    "notable_3": {
+      "type": "Alert",
+      "props": {
+        "title": "UNI [TRENDING+UP]",
+        "message": "4th consecutive trending+up day; +5.2% against broad red tape, $445M volume",
+        "type": "info"
+      }
+    },
+    "notable_4": {
+      "type": "Alert",
+      "props": {
+        "title": "AERO −3.9%",
+        "message": "Yesterday's Coinbase earnings tailwind trade; COIN Q2 miss (−$70M rev, COIN −6.5% AH) pulled it back",
+        "type": "info"
+      }
+    }
+  }
+}

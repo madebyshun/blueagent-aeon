@@ -1,43 +1,42 @@
-*Token Movers — 2026-07-30*
+*Token Movers — 2026-07-31*
 
-_Flat before the print — BTC +0.7% at $64.8K; ~60% of top-100 green, median top-50 ~+0.7%; market holding rather than trading ahead of Coinbase Q2 earnings after close tonight._
+_Mild risk-off — 53/100 top coins red, median top-50 −0.45%; large-caps leading the decline post-Coinbase Q2 miss while select alts decouple._
 
 *Top Winners (24h)*
-1. US — $0.04586  +7.5% / 7d +3.6% / 1h +0.7%  •  $6.8M / #205  [MICROCAP]
-2. INJ (Injective) — $4.79  +5.1% / 7d −7.2% / 1h −0.6%  •  $62.7M / #100
-3. ONDO — $0.4217  +5.1% / 7d +4.7% / 1h +0.5%  •  $164M / #41
-4. UNI (Uniswap) — $4.25  +4.0% / 7d +9.6% / 1h +1.8%  •  $275M / #36  [TRENDING+UP]
-5. PUMP — $0.001947  +4.0% / 7d +0.3% / 1h +1.5%  •  $68.5M / #76
-6. NEAR — $1.65  +3.8% / 7d −12.8% / 1h −0.6%  •  $180M / #40
-7. LIT (Litentry) — $2.26  +3.8% / 7d +1.6% / 1h +2.5%  •  $34.1M / #92
-8. ZEC (Zcash) — $475.34  +3.5% / 7d −8.1% / 1h −0.1%  •  $210M / #15  [MAJOR]
-9. XMR (Monero) — $360.03  +3.5% / 7d +3.0% / 1h +0.2%  •  $96.4M / #16  [MAJOR]
-10. PI — $0.08265  +3.3% / 7d −9.1% / 1h +0.5%  •  $11.0M / #70  [TRENDING+UP]
+1. M (MemeCore) — $1.240  +35.6% / 7d +7.6% / 1h +13.9%  •  $10.9M / #46
+2. UB (Unibase) — $0.1624  +15.3% / 7d — / 1h —  •  $13.8M / #107
+3. BEAT (Audiera) — $4.200  +8.5% / 7d +44.6% / 1h +0.0%  •  $7.2M / #58
+4. US (Talus) — $0.05103  +6.2% / 7d +3.8% / 1h +0.0%  •  $6.2M / #194
+5. PUMP (Pump.fun) — $0.002044  +5.9% / 7d +11.9% / 1h +1.0%  •  $75.0M / #76  [TRENDING+UP]
+6. UNI (Uniswap) — $4.363  +5.2% / 7d +13.5% / 1h −0.3%  •  $445M / #34  [TRENDING+UP]
+7. HYPE (Hyperliquid) — $55.29  +4.0% / 7d −5.3% / 1h +0.8%  •  $381M / #10  [TRENDING+UP][MAJOR]
+8. JST (JUST) — $0.1030  +3.9% / 7d +1.2% / 1h −0.5%  •  $26.6M / #75
+9. FIL (Filecoin) — $0.7216  +3.6% / 7d −1.6% / 1h +0.1%  •  $63.0M / #91
+10. CAKE (PancakeSwap) — $1.470  +3.3% / 7d +5.5% / 1h −0.1%  •  $41.3M / #103
 
 *Top Losers (24h)*
-1. VVV (Venice AI) — $12.14  −6.2% / 7d −2.5% / 1h −1.0%  •  $15.8M / #91
-2. STABLE — $0.03434  −4.6% / 7d −14.9% / 1h −0.1%  •  $10.7M / #74
-3. HYPE (Hyperliquid) — $52.89  −3.1% / 7d −10.3% / 1h +0.1%  •  $373M / #10  [MAJOR][TRENDING+DOWN]
-4. SHIB (Shiba Inu) — $0.0000046  −2.4% / 7d +9.7% / 1h −0.1%  •  $110M / #33
-5. ENA (Ethena) — $0.08011  −1.9% / 7d −12.8% / 1h 0.0%  •  $99.0M / #77
-6. ALGO (Algorand) — $0.07798  −1.7% / 7d −5.9% / 1h +0.3%  •  $20.7M / #82
-7. RAIN — $0.01338  −1.5% / 7d −6.2% / 1h −0.5%  •  $21.9M / #13
-8. MNT (Mantle) — $0.3972  −1.5% / 7d −4.6% / 1h 0.0%  •  $22.8M / #56
-9. POL (Polygon) — $0.07026  −1.4% / 7d −10.0% / 1h −1.0%  •  $25.2M / #79
-10. KAS (Kaspa) — $0.02749  −1.0% / 7d −3.0% / 1h +0.4%  •  $6.0M / #78
+1. RAIN — $0.01284  −5.0% / 7d −11.2% / 1h −0.1%  •  $16.6M / #14  [MAJOR]
+2. ZEC (Zcash) — $459.6  −4.0% / 7d −8.7% / 1h −0.4%  •  $165M / #15  [MAJOR]
+3. AERO (Aerodrome) — $0.4225  −3.9% / 7d −0.3% / 1h +0.3%  •  $17.5M / #106
+4. ATOM (Cosmos) — $1.240  −3.8% / 7d −10.8% / 1h +0.8%  •  $26.3M / #86
+5. GRAM (Toncoin) — $1.393  −3.1% / 7d −5.0% / 1h +0.1%  •  $25.6M / #26  [TRENDING+DOWN]
+6. XMR (Monero) — $350.4  −2.9% / 7d −0.7% / 1h −0.1%  •  $92.3M / #16  [MAJOR]
+7. LIT (Lighter) — $2.170  −2.7% / 7d +1.8% / 1h −1.1%  •  $32.7M / #95
+8. LINK (Chainlink) — $8.260  −2.6% / 7d −2.3% / 1h +0.0%  •  $176M / #19  [MAJOR]
+9. CC (Canton) — $0.1190  −2.3% / 7d −0.5% / 1h +0.5%  •  $8.8M / #21
+10. ETH (Ethereum) — $1,887  −2.2% / 7d +0.0% / 1h +0.0%  •  $7.77B / #2  [MAJOR]
 
 *Trending*
-1. GRVT (#612) — $0.2738, 0%
-2. COTI (#438) — $0.01571, +0.2% (down from +36% yesterday)
-3. PENGU (#113) — $0.005834, 0%
-4. HYPE (#10) — $52.98, −3.5%  [MAJOR][TRENDING+DOWN]
-5. BANK (#564) — $0.07977, −55.9%  [TRENDING+DOWN]
-6. TAO (#42) — $193.15, +0.4%
-7. AERO (#105) — $0.4384, +4.8%  [TRENDING+UP]
+1. PENGU (Pudgy Penguins) — #111, $0.006100, +4.5%
+2. MOONDOGECOIN — #771, $0.02112, +0.0%
+3. GRVT — #620, $0.2632, −8.0%  [TRENDING+DOWN]
+4. UNI (Uniswap) — #34, $4.363, +2.9%  [TRENDING+UP]
+5. HYPE (Hyperliquid) — #10, $55.36, +4.2%  [TRENDING+UP][MAJOR]
+6. AEON — #972, $0.07468, −21.2%  [TRENDING+DOWN]
+7. PUMP (Pump.fun) — #76, $0.002044, +4.7%  [TRENDING+UP]
 
 *Notable*
-• BANK: #564 −55.9% while trending — no confirmed catalyst; largest single-day trending drop today; watch
-• HYPE [TRENDING+DOWN][MAJOR]: day 2 trending-down, 7d −10.3%; Aug 6 Core Contributors unlock ($587M) = 7 days — distribution visible
-• COTI: cooling after +52.3% Jul 28 / +35.9% Jul 29; +0.2% on day 3 trending — momentum stalled, no catalyst confirmed
-• UNI [TRENDING+UP]: 3rd day trending, +4.0% / 7d +9.6%; Robinhood Chain + permissioned pools thesis intact
-• AERO [TRENDING+UP]: Base native DEX, +3.2% trending ahead of Coinbase Q2 earnings tonight
+• HYPE [TRENDING+UP][MAJOR] #10: reversed yesterday's −3.1% [TRENDING+DOWN]; Aug 6 $587M unlock 6 days out — bounce into distribution window
+• AEON [TRENDING+DOWN] #972: −21.2% while trending — thin-cap, high manipulation risk
+• UNI [TRENDING+UP]: 4th consecutive trending+up day; +5.2% against broad red tape, $445M volume
+• AERO −3.9%: yesterday's Coinbase earnings tailwind trade; COIN Q2 miss (−$70M rev, COIN −6.5% AH) pulled it back
