@@ -1,0 +1,353 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-07-31"
+      },
+      "children": [
+        "section_pump",
+        "sep1",
+        "section_market",
+        "sep2",
+        "footer"
+      ]
+    },
+    "section_pump": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_pump",
+        "badge_pump",
+        "stats_pump",
+        "score_pump",
+        "breakdown_pump",
+        "catalyst_section",
+        "risks_pump",
+        "note_pump"
+      ]
+    },
+    "heading_pump": {
+      "type": "Heading",
+      "props": {
+        "text": "PUMP",
+        "level": "h2"
+      }
+    },
+    "badge_pump": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "stats_pump": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_price",
+        "stat_24h",
+        "stat_7d",
+        "stat_mcap",
+        "stat_vol",
+        "stat_ratio"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.00207"
+      }
+    },
+    "stat_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+5.9%",
+        "trend": "up"
+      }
+    },
+    "stat_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+11.9%",
+        "trend": "up"
+      }
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "mcap",
+        "value": "$819M"
+      }
+    },
+    "stat_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "vol",
+        "value": "$75M"
+      }
+    },
+    "stat_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "vol/mcap",
+        "value": "0.092"
+      }
+    },
+    "score_pump": {
+      "type": "Progress",
+      "props": {
+        "label": "Signal Score",
+        "value": 8,
+        "max": 10
+      }
+    },
+    "breakdown_pump": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: trending +2, both >5% +2, RS vs BTC/ETH +2, 24h >0 +1, 7d >0 +1 = 8/10",
+        "variant": "caption"
+      }
+    },
+    "catalyst_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst_heading",
+        "catalyst_text"
+      ]
+    },
+    "catalyst_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst",
+        "variant": "lead"
+      }
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "BOOST mechanism (launched Jul 21) auto-buyback+burns post-migration absorbed 82.5B token Jul 12 unlock; 42% of circulating supply burned; price held $0.002+ and rising against unlock pressure",
+        "variant": "body"
+      }
+    },
+    "risks_pump": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Insider vesting unlocks continue; $0.00210 resistance zone; meme-platform narrative exposure",
+        "type": "warning"
+      }
+    },
+    "note_pump": {
+      "type": "Badge",
+      "props": {
+        "text": "First time picked",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_market",
+        "badge_market",
+        "edge_stat",
+        "question_market",
+        "odds_stack",
+        "fair_stack",
+        "thesis_section",
+        "risks_market"
+      ]
+    },
+    "heading_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Fed Rate Hike Prediction",
+        "level": "h2"
+      }
+    },
+    "badge_market": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "edge_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Edge",
+        "value": "15.5pp"
+      }
+    },
+    "question_market": {
+      "type": "Text",
+      "props": {
+        "text": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+        "variant": "body"
+      }
+    },
+    "odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_yes",
+        "stat_no",
+        "stat_vol_market",
+        "stat_resolve"
+      ]
+    },
+    "stat_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "54.5¢"
+      }
+    },
+    "stat_no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "45.5¢"
+      }
+    },
+    "stat_vol_market": {
+      "type": "Stat",
+      "props": {
+        "label": "24h vol",
+        "value": "$452k"
+      }
+    },
+    "stat_resolve": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "2026-09-16"
+      }
+    },
+    "fair_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair_heading",
+        "fair_stat",
+        "fair_inputs"
+      ]
+    },
+    "fair_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES",
+        "variant": "lead"
+      }
+    },
+    "fair_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Estimated",
+        "value": "~70%"
+      }
+    },
+    "fair_inputs": {
+      "type": "Text",
+      "props": {
+        "text": "Based on: [1] CME FedWatch 72.3% post-Jul 29 hold; [2] Warsh \"won't hesitate to stop inflation\" hawkish presser; [3] elevated energy prices sustaining inflationary pressure",
+        "variant": "caption"
+      }
+    },
+    "thesis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis_heading",
+        "thesis_text"
+      ]
+    },
+    "thesis_heading": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis",
+        "variant": "lead"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket anchored to pre-FOMC caution — CME repriced to 72% post-hold; buy YES at 54.5¢",
+        "variant": "body"
+      }
+    },
+    "risks_market": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Soft economic data (Coinbase Q2 miss signals some stress); inflation moderation or energy price drop before Sep 16 reduces hike odds",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_text",
+        "disclaimer_text"
+      ]
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "disclaimer_text": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "caption"
+      }
+    }
+  }
+}

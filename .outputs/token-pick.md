@@ -1,17 +1,17 @@
-*Daily Pick — 2026-07-30*
+*Daily Pick — 2026-07-31*
 
-*Token: AERO*  [MEDIUM]  signal 6/10
-Price: $0.44 (±4.4% 24h / ±4.2% 7d) | mcap $429M | vol $31M (vol/mcap 0.07)
-Score: [24h>0+1, 7d>0+1, CG trending+2, RS vs BTC/ETH on 7d+2] = 6/10
-Catalyst: "Aero" unified DEX launch July 2026 — MetaDEX03 merges Aerodrome (Base) + Velodrome (Optimism) and expands to Ethereum mainnet + Circle's Arc blockchain; Aerodrome controls 61% of Base DEX volume; Coinbase AiFi Q2 earnings tonight = direct Base ecosystem tailwind (ainvest.com)
-Risk: LP migration deadline pressure — providers missing the window stop earning emissions, risking temporary liquidity outflows; vol/mcap 0.07 below preferred 0.10 threshold signals thin independent momentum
-Vs recent picks: first time
+*Token: PUMP*  [HIGH]  signal 8/10
+Price: $0.00207 (+5.9% 24h / +11.9% 7d) | mcap $819M | vol $75M (vol/mcap 0.092)
+Score breakdown: [trending+2, both>5%+2, RS vs BTC/ETH+2, 24h>0+1, 7d>0+1] = 8/10
+Catalyst: BOOST mechanism (launched Jul 21) auto-buyback+burns post-migration absorbed 82.5B token Jul 12 unlock; 42% of circulating supply burned; price held $0.002+ and rising against unlock pressure
+Risk: Insider vesting unlocks continue; $0.00210 resistance zone; meme-platform narrative exposure
+Vs recent picks: First time picked
 
-*Market: "Will Bitcoin hit $60,000 in 2026?"*  [HIGH]  edge 14pp
-Current: YES 79¢ / NO 21¢ | 24h vol $240K | resolves: Jan 1, 2027
-Fair YES: ~65% (inputs: [1] FOMC held Jul 29 at 3.50–3.75% = risk-on, removes near-term crash catalyst; [2] BTC floor $63,253 held on Jul 28 worst risk-off day without breaching $60k; [3] Coinbase AiFi earnings + AI→crypto rotation = active demand tailwind)
-Thesis: Buy NO at 21¢ — market overprices crash probability at 79%; BTC demonstrated support at $63k and post-FOMC risk-on environment suggest fair value ~65% for a $60k touch, not 79%
-Risk: Fed tail hike at Sep meeting (Warsh hawkish); Coinbase earnings miss tonight triggers broad crypto selloff
+*Market: "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?"*  [HIGH]  edge 15.5pp
+Current: YES 54.5¢ / NO 45.5¢ | 24h vol $452k | resolves: 2026-09-16
+Fair YES: ~70% (inputs: [1] CME FedWatch 72.3% post-Jul 29 hold; [2] Warsh "won't hesitate to stop inflation" hawkish presser; [3] elevated energy prices sustaining inflationary pressure)
+Thesis: Polymarket anchored to pre-FOMC caution — CME repriced to 72% post-hold; buy YES at 54.5¢
+Risk: Soft economic data (Coinbase Q2 miss signals some stress); inflation moderation or energy price drop before Sep 16 reduces hike odds
 
 sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only
