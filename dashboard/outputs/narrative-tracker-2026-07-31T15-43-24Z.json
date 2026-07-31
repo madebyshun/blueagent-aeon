@@ -1,0 +1,347 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-07-31"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-transitions",
+        "sep-1",
+        "section-reflexivity",
+        "sep-2",
+        "section-positions",
+        "sep-3",
+        "section-map"
+      ]
+    },
+    "section-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-transitions",
+        "trans-1",
+        "trans-2",
+        "trans-3",
+        "trans-4"
+      ]
+    },
+    "h-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans-1": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "DEMOTED: Coinbase AiFi/Base Ecosystem",
+        "message": "Rising FRONT-RUN → Emerging WATCH\n\nCOIN Q2: $359M net loss, missed both transaction AND subscription revenue ($1.22B vs $1.29B consensus). \"Diversification story faces a test.\" — blockhead.co"
+      }
+    },
+    "trans-2": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "DEMOTED: AI→Crypto Capital Rotation",
+        "message": "Emerging FRONT-RUN → Emerging WATCH\n\ngo/no-go catalyst (COIN Q2) delivered miss. COIN -6.53% AH. \"Wall Street split on timing of recovery.\" — coindesk.com"
+      }
+    },
+    "trans-3": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "DEMOTED: x402/Agentic Payments on Base",
+        "message": "Peak ↑↑ RIDE → Peak ↓ WATCH\n\nAiFi reflexivity loop broke at earnings. AERO -3.9% post-print. 100M txns data intact but narrative momentum gone."
+      }
+    },
+    "trans-4": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "VELOCITY BOUNCE: Hyperliquid",
+        "message": "HYPE +4.0% today, trending reversed from ↓↓. Aug 6 $587M unlock 6 days out. Structural FADE unchanged — pre-distribution squeeze."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-reflexivity",
+        "reflex-1",
+        "reflex-2"
+      ]
+    },
+    "h-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflex-1": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Coinbase AiFi loop BROKE",
+        "message": "Armstrong \"AiFi\" seed → sell-side cited $73M/176M txns in Q2 preview → Coinbase reported → miss on BOTH revenue lines → institutional confirmation denied. Armstrong now pivoting: \"AI agents will need their own financial infrastructure\" — reshaping narrative away from trading fees toward infrastructure. Next catalyst needed."
+      }
+    },
+    "reflex-2": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "HYPE pre-unlock squeeze",
+        "message": "+4.0% bounce into Aug 6 $587M Core Contributors unlock. Classic pre-distribution positioning. Not a reversal signal."
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-positions",
+        "pos-table"
+      ]
+    },
+    "h-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Position",
+          "Status",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "WATCH: Coinbase AiFi/Base",
+            "2 ↓, Mixed",
+            "next catalyst = Q3 Base revenue or AiFi partnership. Miss burned near-term thesis."
+          ],
+          [
+            "WATCH: AI→Crypto Capital Rotation",
+            "2 ↓, Mixed",
+            "structural rotation thesis intact; near-term momentum stalled. Bloomberg/CNBC coverage hasn't retracted."
+          ],
+          [
+            "WATCH: x402/Agentic Payments on Base",
+            "4 ↓, Mixed",
+            "100M txns real; infrastructure thesis real; reflexivity loop broke. @cbarmstrong repositioning as long-term play."
+          ],
+          [
+            "RIDE: AI Agent Economy Infrastructure",
+            "5 ↑, Bull",
+            "Base 2026 roadmap for agent economy; tester-to-payer 4x; $25B AI sector cap. Coinbase miss doesn't touch this."
+          ],
+          [
+            "RIDE: Tokenized Equities/DTCC+Ondo",
+            "4 ↑, Rising, Bull",
+            "RWA.xyz $1B+; ONDO; BlackRock sBUIDL. Unaffected by COIN miss."
+          ],
+          [
+            "RIDE: Robinhood Chain",
+            "4 ↑, Peak, Bull",
+            "$400M+ TVL; $500M Uniswap vol. Independent of Coinbase."
+          ],
+          [
+            "RIDE: AI Agent Security/TEE Layer",
+            "4 ↑, Rising, Bull",
+            "@PhalaNetwork; Ledger Agent Stack; $45M H1 vuln losses."
+          ],
+          [
+            "RIDE: AI Compute/DePIN-AI Layer",
+            "4 ↑, Rising, Bull",
+            "io.net 130k GPUs; Render $38M/month; @akashnet."
+          ],
+          [
+            "FADE: Hyperliquid",
+            "2 ↑bounce, Fading, Bear",
+            "Aug 6 $587M unlock 6 days; bounce = pre-distribution, not reversal."
+          ],
+          [
+            "FADE: Kaito/InfoFi",
+            "2 →, Fading, Mixed",
+            "bounce did not sustain day 4; structural fade."
+          ],
+          [
+            "FADE: CLARITY Act",
+            "2 ↓↓, Fading, Bear",
+            "Senate out; no cloture."
+          ]
+        ]
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-map",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading",
+        "map-note"
+      ]
+    },
+    "h-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-heading",
+        "map-emerging-items"
+      ]
+    },
+    "map-emerging-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      }
+    },
+    "map-emerging-items": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase AiFi*, AI→Crypto Rotation*, Stablecoin Rails, Agentic Dev Tools, FHE/ZAMA, Memecoins, X Money, Lean Ethereum, PEPE ETF"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-heading",
+        "map-rising-items"
+      ]
+    },
+    "map-rising-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      }
+    },
+    "map-rising-items": {
+      "type": "Text",
+      "props": {
+        "text": "Tokenized Equities, AI Agent Security, AI Compute/DePIN, BNB Chain"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-heading",
+        "map-peak-items"
+      ]
+    },
+    "map-peak-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      }
+    },
+    "map-peak-items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy Infrastructure, x402/Agentic Payments*, Robinhood Chain"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-heading",
+        "map-fading-items"
+      ]
+    },
+    "map-fading-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      }
+    },
+    "map-fading-items": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid, Kaito, RWA broad, CLARITY Act"
+      }
+    },
+    "map-note": {
+      "type": "Text",
+      "props": {
+        "text": "*Phase change today",
+        "variant": "caption"
+      }
+    }
+  }
+}
