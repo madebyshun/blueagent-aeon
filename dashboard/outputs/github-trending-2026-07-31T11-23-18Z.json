@@ -1,0 +1,428 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-07-31"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-top-pick",
+        "repo-top-pick",
+        "separator-1",
+        "heading-aiml",
+        "repo-aiml-1",
+        "separator-2",
+        "heading-devtools",
+        "repo-devtools-1",
+        "repo-devtools-2",
+        "repo-devtools-3",
+        "separator-3",
+        "heading-webapps",
+        "repo-webapps-1",
+        "separator-4",
+        "text-footer"
+      ]
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "repo-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link-top-pick",
+        "text-top-pick"
+      ]
+    },
+    "link-top-pick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "zhaoxuya520/reverse-skill",
+        "href": "https://github.com/zhaoxuya520/reverse-skill"
+      }
+    },
+    "text-top-pick": {
+      "type": "Text",
+      "props": {
+        "text": "Full reverse-engineering + authorized pentest workflow packaged as a routable agent skill — security tradecraft meets agentic deployment.",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "repo-aiml-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link-aiml-1",
+        "text-aiml-1",
+        "metadata-aiml-1"
+      ]
+    },
+    "link-aiml-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mvanhorn/last30days-skill",
+        "href": "https://github.com/mvanhorn/last30days-skill"
+      }
+    },
+    "text-aiml-1": {
+      "type": "Text",
+      "props": {
+        "text": "Wires one agent into Reddit, X, YouTube, HN, and Polymarket — cross-source synthesis in a single call.",
+        "variant": "body"
+      }
+    },
+    "metadata-aiml-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-aiml-1",
+        "badge-aiml-1-lang",
+        "badge-aiml-1-status"
+      ]
+    },
+    "stat-aiml-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "378",
+        "delta": "55.8k total",
+        "trend": "up"
+      }
+    },
+    "badge-aiml-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "badge-aiml-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "repo-devtools-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link-devtools-1",
+        "text-devtools-1",
+        "metadata-devtools-1"
+      ]
+    },
+    "link-devtools-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "zhaoxuya520/reverse-skill",
+        "href": "https://github.com/zhaoxuya520/reverse-skill"
+      }
+    },
+    "text-devtools-1": {
+      "type": "Text",
+      "props": {
+        "text": "Full pentest + reverse-engineering workflow packaged as a routable agent skill — deploy this, not scripts.",
+        "variant": "body"
+      }
+    },
+    "metadata-devtools-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-devtools-1",
+        "badge-devtools-1-lang",
+        "badge-devtools-1-status"
+      ]
+    },
+    "stat-devtools-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "612",
+        "delta": "9.9k total",
+        "trend": "up"
+      }
+    },
+    "badge-devtools-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "PowerShell",
+        "variant": "outline"
+      }
+    },
+    "badge-devtools-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo-devtools-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link-devtools-2",
+        "text-devtools-2",
+        "metadata-devtools-2"
+      ]
+    },
+    "link-devtools-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "agavra/tuicr",
+        "href": "https://github.com/agavra/tuicr"
+      }
+    },
+    "text-devtools-2": {
+      "type": "Text",
+      "props": {
+        "text": "Terminal-native PR review with vim keybindings — leave the browser, never lose your editor flow.",
+        "variant": "body"
+      }
+    },
+    "metadata-devtools-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-devtools-2",
+        "badge-devtools-2-lang",
+        "badge-devtools-2-status"
+      ]
+    },
+    "stat-devtools-2": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "190",
+        "delta": "2k total",
+        "trend": "neutral"
+      }
+    },
+    "badge-devtools-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "outline"
+      }
+    },
+    "badge-devtools-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo-devtools-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link-devtools-3",
+        "text-devtools-3",
+        "metadata-devtools-3"
+      ]
+    },
+    "link-devtools-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "geo-tp/ESP32-Bit-Pirate",
+        "href": "https://github.com/geo-tp/ESP32-Bit-Pirate"
+      }
+    },
+    "text-devtools-3": {
+      "type": "Text",
+      "props": {
+        "text": "$5 ESP32 turned browser-accessible sniffer/injector covering UART, SPI, I2C, and JTAG from one web CLI.",
+        "variant": "body"
+      }
+    },
+    "metadata-devtools-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-devtools-3",
+        "badge-devtools-3-lang",
+        "badge-devtools-3-status"
+      ]
+    },
+    "stat-devtools-3": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "152",
+        "delta": "4.6k total",
+        "trend": "neutral"
+      }
+    },
+    "badge-devtools-3-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C++",
+        "variant": "outline"
+      }
+    },
+    "badge-devtools-3-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-webapps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "repo-webapps-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link-webapps-1",
+        "text-webapps-1",
+        "metadata-webapps-1"
+      ]
+    },
+    "link-webapps-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "usekaneo/kaneo",
+        "href": "https://github.com/usekaneo/kaneo"
+      }
+    },
+    "text-webapps-1": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted Linear/Jira alternative keeping data on-prem — MIT licensed, no vendor lock-in.",
+        "variant": "body"
+      }
+    },
+    "metadata-webapps-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-webapps-1",
+        "badge-webapps-1-lang",
+        "badge-webapps-1-status"
+      ]
+    },
+    "stat-webapps-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "188",
+        "delta": "4.6k total",
+        "trend": "neutral"
+      }
+    },
+    "badge-webapps-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "badge-webapps-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/12",
+        "variant": "muted"
+      }
+    }
+  }
+}
