@@ -1,0 +1,399 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest",
+        "description": "2026-07-31"
+      },
+      "children": [
+        "verdict_section",
+        "sep1",
+        "patch_section",
+        "sep2",
+        "monitor_section"
+      ]
+    },
+    "verdict_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "verdict_text",
+        "sources_text"
+      ]
+    },
+    "verdict_text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: nothing urgent today. 3 clusters to schedule, 3 to monitor.",
+        "variant": "lead"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: CISA KEV, GitHub Advisory DB, FIRST EPSS",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch_heading",
+        "patch_cve1",
+        "patch_cve2",
+        "patch_cve3"
+      ]
+    },
+    "patch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch_cve1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve1_header",
+        "cve1_meta",
+        "cve1_desc",
+        "cve1_action"
+      ]
+    },
+    "cve1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve1_link",
+        "cve1_severity"
+      ]
+    },
+    "cve1_link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2025-4318",
+        "href": "https://github.com/advisories/GHSA-hf3j-86p7-mfw8"
+      }
+    },
+    "cve1_severity": {
+      "type": "Badge",
+      "props": {
+        "text": "critical",
+        "variant": "destructive"
+      }
+    },
+    "cve1_meta": {
+      "type": "Text",
+      "props": {
+        "text": "@aws-amplify/codegen-ui-react (npm) · CVSS 9.5 · EPSS 0.009",
+        "variant": "caption"
+      }
+    },
+    "cve1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Eval injection via attacker-controlled component schema; arbitrary JS at build/import time via aws CLI import. No public PoC."
+      }
+    },
+    "cve1_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade to ≥ 2.20.4 (2.20.3 is a partial fix only).",
+        "variant": "muted"
+      }
+    },
+    "patch_cve2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve2_header",
+        "cve2_meta",
+        "cve2_desc",
+        "cve2_action"
+      ]
+    },
+    "cve2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve2_link1",
+        "cve2_link2",
+        "cve2_link3"
+      ]
+    },
+    "cve2_link1": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-54664",
+        "href": "https://github.com/advisories/GHSA-5f94-x226-ccpm"
+      }
+    },
+    "cve2_link2": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-54661",
+        "href": "https://github.com/advisories/GHSA-38c3-wv3c-v3xj"
+      }
+    },
+    "cve2_link3": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-54662",
+        "href": "https://github.com/advisories/GHSA-hqj5-cw9f-rx67"
+      }
+    },
+    "cve2_meta": {
+      "type": "Text",
+      "props": {
+        "text": "swagger-typescript-api (npm) · CVSS 8.3 · EPSS 0.003",
+        "variant": "caption"
+      }
+    },
+    "cve2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "3 new code-injection vectors: unescaped enum strings + servers[0].url in axios/fetch templates. PoC published — import of generated module fires payload. CI pipelines are attack surface if spec is vendor-controlled."
+      }
+    },
+    "cve2_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade swagger-typescript-api to ≥ 13.12.2 (also fixes GHSA-h754-fxp7-88wx token exfil, CVSS 7.4).",
+        "variant": "muted"
+      }
+    },
+    "patch_cve3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve3_header",
+        "cve3_meta",
+        "cve3_desc",
+        "cve3_action"
+      ]
+    },
+    "cve3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve3_link1",
+        "cve3_link2"
+      ]
+    },
+    "cve3_link1": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-54727",
+        "href": "https://github.com/advisories/GHSA-7h3g-4w2f-fj2f"
+      }
+    },
+    "cve3_link2": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-54574",
+        "href": "https://github.com/advisories/GHSA-9xq3-3fqg-4vg7"
+      }
+    },
+    "cve3_meta": {
+      "type": "Text",
+      "props": {
+        "text": "proot-distro (pip) · CVSS 8.2",
+        "variant": "caption"
+      }
+    },
+    "cve3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Container isolation bypass via hardlink in restore archive + symlink escape on install. PoC included for both."
+      }
+    },
+    "cve3_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade proot-distro to ≥ 5.1.6 (fixes both).",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "monitor_heading",
+        "monitor_cve1",
+        "monitor_cve2",
+        "monitor_cve3"
+      ]
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "monitor_cve1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mon_cve1_title",
+        "mon_cve1_meta",
+        "mon_cve1_desc",
+        "mon_cve1_action"
+      ]
+    },
+    "mon_cve1_title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-67437",
+        "href": "https://github.com/advisories/GHSA-xpxj-f2fm-rqch"
+      }
+    },
+    "mon_cve1_meta": {
+      "type": "Text",
+      "props": {
+        "text": "OliveTin (go) · CVSS 7.5 · EPSS 0.0035",
+        "variant": "caption"
+      }
+    },
+    "mon_cve1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated OAuth2 state map grows unbounded → OOM DoS. Patch available."
+      }
+    },
+    "mon_cve1_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade if running OliveTin with OAuth2 enabled.",
+        "variant": "muted"
+      }
+    },
+    "monitor_cve2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mon_cve2_title",
+        "mon_cve2_meta",
+        "mon_cve2_desc",
+        "mon_cve2_action"
+      ]
+    },
+    "mon_cve2_title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-54693",
+        "href": "https://github.com/advisories/GHSA-jq8w-8q2f-ffm9"
+      }
+    },
+    "mon_cve2_meta": {
+      "type": "Text",
+      "props": {
+        "text": "ZITADEL (go) · EPSS 0.0034",
+        "variant": "caption"
+      }
+    },
+    "mon_cve2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Users self-verify email/phone via direct API call, bypassing verification flow. Partial patch across v2/v3/v4 branches."
+      }
+    },
+    "mon_cve2_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ check branch + restrict direct API access if email/phone verification is a security control.",
+        "variant": "muted"
+      }
+    },
+    "monitor_cve3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mon_cve3_title",
+        "mon_cve3_meta",
+        "mon_cve3_desc",
+        "mon_cve3_action"
+      ]
+    },
+    "mon_cve3_title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-54722",
+        "href": "https://github.com/advisories/GHSA-cg4g-m8jx-vjv2"
+      }
+    },
+    "mon_cve3_meta": {
+      "type": "Text",
+      "props": {
+        "text": "dssrf (npm) · EPSS 0.0033",
+        "variant": "caption"
+      }
+    },
+    "mon_cve3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "SSRF protection bypassed by inserting @ in URL, stripping prefix sanitization."
+      }
+    },
+    "mon_cve3_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade to ≥ 1.0.4 if using dssrf.",
+        "variant": "muted"
+      }
+    }
+  }
+}

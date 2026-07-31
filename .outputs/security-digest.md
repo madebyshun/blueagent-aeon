@@ -1,23 +1,31 @@
-Done. The sandbox blocked cleanup of temp files but all essential work is complete. Here's the summary:
+*Security Digest — 2026-07-31*
+Verdict: nothing urgent today. 3 clusters to schedule, 3 to monitor.
+_Sources: CISA KEV, GitHub Advisory DB, FIRST EPSS_
 
-## Summary
+*PATCH THIS WEEK*
 
-**Security Digest — 2026-07-30**
+- [CVE-2025-4318](https://github.com/advisories/GHSA-hf3j-86p7-mfw8) — @aws-amplify/codegen-ui-react (npm) · critical · CVSS 9.5 · EPSS 0.009
+Eval injection via attacker-controlled component schema; arbitrary JS at build/import time via aws CLI import. No public PoC.
+→ upgrade to ≥ 2.20.4 (2.20.3 is a partial fix only).
 
-**Sources:** KEV=ok (WebFetch), GH Advisory=ok (gh api + WebFetch), EPSS=ok (WebFetch)
+- [CVE-2026-54664](https://github.com/advisories/GHSA-5f94-x226-ccpm) + [CVE-2026-54661](https://github.com/advisories/GHSA-38c3-wv3c-v3xj) + [CVE-2026-54662](https://github.com/advisories/GHSA-hqj5-cw9f-rx67) — swagger-typescript-api (npm) · CVSS 8.3 · EPSS 0.003
+3 new code-injection vectors: unescaped enum strings + servers[0].url in axios/fetch templates. PoC published — import of generated module fires payload. CI pipelines are attack surface if spec is vendor-controlled.
+→ upgrade swagger-typescript-api to ≥ 13.12.2 (also fixes GHSA-h754-fxp7-88wx token exfil, CVSS 7.4).
 
-**Tier counts: PATCH TODAY: 3 | PATCH THIS WEEK: 2 | MONITOR: 1**
+- [CVE-2026-54727](https://github.com/advisories/GHSA-7h3g-4w2f-fj2f) + [CVE-2026-54574](https://github.com/advisories/GHSA-9xq3-3fqg-4vg7) — proot-distro (pip) · CVSS 8.2
+Container isolation bypass via hardlink in restore archive + symlink escape on install. PoC included for both.
+→ upgrade proot-distro to ≥ 5.1.6 (fixes both).
 
-**PATCH TODAY:**
-- **CVE-2026-20316** — Cisco FMC · KEV Jul 29 · CVSS 5.3 · Hard-coded creds → unauthenticated remote read. Due 2026-08-01.
-- **GHSA-2956-977x-2w3r / CVE-2026-67429** — flyto-core (pip) · CVSS 10.0 · Path traversal → arbitrary file write with PoC. Fix: ≥2.26.7. (One upgrade also closes 5 additional flyto-core advisories — CVEs 67424–67428, CVSS 8.5–9.3.)
-- **GHSA-mjqf-28ph-426h / CVE-2026-54680** — kube-logging/logging-operator (go) · CVSS 9.9 · Fluentd config injection → RCE via Kubernetes Flow CRD with PoC YAML. Fix: ≥6.6.0.
+*MONITOR*
 
-**PATCH THIS WEEK:**
-- **GHSA-4p3g-4hcj-wpvx / CVE-2026-54735** — prebid-server/v4 (go) · CVSS 10.0 · SSRF via bidder adapters. Fix: ≥4.4.0; v2/v3 no patch.
-- **GHSA-m4x6-gwgp-4pm7 / CVE-2026-11393** — @aws/agentcore (npm) · CVSS 8.8 · Code injection via Bedrock agent import. Fix: ≥0.14.2.
+- [CVE-2026-67437](https://github.com/advisories/GHSA-xpxj-f2fm-rqch) — OliveTin (go) · CVSS 7.5 · EPSS 0.0035
+Unauthenticated OAuth2 state map grows unbounded → OOM DoS. Patch available.
+→ upgrade if running OliveTin with OAuth2 enabled.
 
-**MONITOR:**
-- prebid-server v2/v3 — no patch for SSRF (CVE-2026-54735). Disable affected adapters; plan v4 migration.
+- [CVE-2026-54693](https://github.com/advisories/GHSA-jq8w-8q2f-ffm9) — ZITADEL (go) · no CVSS · EPSS 0.0034
+Users self-verify email/phone via direct API call, bypassing verification flow. Partial patch across v2/v3/v4 branches.
+→ check branch + restrict direct API access if email/phone verification is a security control.
 
-**Files modified:** `memory/logs/2026-07-30.md` (log appended), `.pending-notify/1785426000.md` (notification queued for post-run delivery).
+- [CVE-2026-54722](https://github.com/advisories/GHSA-cg4g-m8jx-vjv2) — dssrf (npm) · no CVSS · EPSS 0.0033
+SSRF protection bypassed by inserting @ in URL, stripping prefix sanitization.
+→ upgrade to ≥ 1.0.4 if using dssrf.
