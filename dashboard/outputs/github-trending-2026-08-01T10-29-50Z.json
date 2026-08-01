@@ -1,0 +1,222 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-08-01"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_top_pick",
+        "section_devtools",
+        "sep_footer",
+        "text_footer"
+      ]
+    },
+    "section_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_top_pick",
+        "link_openwork_top",
+        "text_intro"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "link_openwork_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "different-ai/openwork",
+        "href": "https://github.com/different-ai/openwork"
+      },
+      "children": []
+    },
+    "text_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Thin day — 2 repos cleared filters, both pushed live commits this morning. openwork is the louder signal: 806 stars with a 4-day sustained run, still accelerating."
+      },
+      "children": []
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "repo_openwork",
+        "repo_jcode"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "repo_openwork": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_openwork",
+        "desc_openwork"
+      ]
+    },
+    "item_openwork": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_openwork",
+        "stat_openwork",
+        "badge_ts",
+        "badge_accel1"
+      ]
+    },
+    "link_openwork": {
+      "type": "StoryLink",
+      "props": {
+        "title": "different-ai/openwork",
+        "href": "https://github.com/different-ai/openwork"
+      },
+      "children": []
+    },
+    "stat_openwork": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "806 today (19.8k total)"
+      },
+      "children": []
+    },
+    "badge_ts": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      },
+      "children": []
+    },
+    "badge_accel1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "desc_openwork": {
+      "type": "Text",
+      "props": {
+        "text": "Open-source drop-in for Claude Cowork (built on opencode), pushed today — sustained 4-day run suggests real adoption, not a launch spike."
+      },
+      "children": []
+    },
+    "repo_jcode": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_jcode",
+        "desc_jcode"
+      ]
+    },
+    "item_jcode": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_jcode",
+        "stat_jcode",
+        "badge_rust",
+        "badge_accel2"
+      ]
+    },
+    "link_jcode": {
+      "type": "StoryLink",
+      "props": {
+        "title": "1jehuang/jcode",
+        "href": "https://github.com/1jehuang/jcode"
+      },
+      "children": []
+    },
+    "stat_jcode": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "527 today (14.8k total)"
+      },
+      "children": []
+    },
+    "badge_rust": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      },
+      "children": []
+    },
+    "badge_accel2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "desc_jcode": {
+      "type": "Text",
+      "props": {
+        "text": "Rust TUI/CLI harness for Claude + OpenAI + MCP coding agents — lowest-RAM option in the space, pushed fresh commits today."
+      },
+      "children": []
+    },
+    "sep_footer": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 2/12",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

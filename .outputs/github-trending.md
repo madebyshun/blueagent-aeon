@@ -1,25 +1,14 @@
-*GitHub Trending — 2026-07-31*
+*GitHub Trending — 2026-08-01*
 
-*Top pick* — [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill)
-Full reverse-engineering + authorized pentest workflow packaged as a routable agent skill — security tradecraft meets agentic deployment.
-
-*AI/ML*
-• [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — ★ 378 today (55.8k total) · Python · [ACCELERATING]
-Wires one agent into Reddit, X, YouTube, HN, and Polymarket — cross-source synthesis in a single call.
+*Top pick* — [different-ai/openwork](https://github.com/different-ai/openwork)
+Thin day — 2 repos cleared filters, both pushed live commits this morning. openwork is the louder signal: 806 stars with a 4-day sustained run, still accelerating.
 
 *Devtools*
-• [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) — ★ 612 today (9.9k total) · PowerShell · [ACCELERATING]
-Full pentest + reverse-engineering workflow packaged as a routable agent skill — deploy this, not scripts.
+• [different-ai/openwork](https://github.com/different-ai/openwork) — ★ 806 today (19.8k total) · TypeScript · [ACCELERATING]
+Open-source drop-in for Claude Cowork (built on opencode), pushed today — sustained 4-day run suggests real adoption, not a launch spike.
 
-• [agavra/tuicr](https://github.com/agavra/tuicr) — ★ 190 today (2k total) · Rust · [RETURNING]
-Terminal-native PR review with vim keybindings — leave the browser, never lose your editor flow.
-
-• [geo-tp/ESP32-Bit-Pirate](https://github.com/geo-tp/ESP32-Bit-Pirate) — ★ 152 today (4.6k total) · C++ · [RETURNING]
-$5 ESP32 turned browser-accessible sniffer/injector covering UART, SPI, I2C, and JTAG from one web CLI.
-
-*Web/Apps*
-• [usekaneo/kaneo](https://github.com/usekaneo/kaneo) — ★ 188 today (4.6k total) · TypeScript · [RETURNING]
-Self-hosted Linear/Jira alternative keeping data on-prem — MIT licensed, no vendor lock-in.
+• [1jehuang/jcode](https://github.com/1jehuang/jcode) — ★ 527 today (14.8k total) · Rust · [ACCELERATING]
+Rust TUI/CLI harness for Claude + OpenAI + MCP coding agents — lowest-RAM option in the space, pushed fresh commits today.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/12
+sources: trending=ok · gh_api=ok · kept 2/12
