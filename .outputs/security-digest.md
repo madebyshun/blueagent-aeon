@@ -1,31 +1,24 @@
-*Security Digest — 2026-07-31*
-Verdict: nothing urgent today. 3 clusters to schedule, 3 to monitor.
-_Sources: CISA KEV, GitHub Advisory DB, FIRST EPSS_
+*Security Digest — 2026-08-01*
+Verdict: 1 PoC-confirmed critical, 5 to schedule, 0 to monitor. _Sources: KEV, GH Advisory, EPSS_
+
+*PATCH TODAY*
+- [CVE-2026-67429](https://github.com/advisories/GHSA-2956-977x-2w3r) — flyto-core (pip) · CVSS 10.0 · EPSS 0.005 · PoC published
+  Arbitrary file write, no auth — output_dir='/' bypasses sandbox; all file-writing modules affected incl. MCP interface.
+  → upgrade flyto-core to ≥2.26.7 and redeploy.
 
 *PATCH THIS WEEK*
-
-- [CVE-2025-4318](https://github.com/advisories/GHSA-hf3j-86p7-mfw8) — @aws-amplify/codegen-ui-react (npm) · critical · CVSS 9.5 · EPSS 0.009
-Eval injection via attacker-controlled component schema; arbitrary JS at build/import time via aws CLI import. No public PoC.
-→ upgrade to ≥ 2.20.4 (2.20.3 is a partial fix only).
-
-- [CVE-2026-54664](https://github.com/advisories/GHSA-5f94-x226-ccpm) + [CVE-2026-54661](https://github.com/advisories/GHSA-38c3-wv3c-v3xj) + [CVE-2026-54662](https://github.com/advisories/GHSA-hqj5-cw9f-rx67) — swagger-typescript-api (npm) · CVSS 8.3 · EPSS 0.003
-3 new code-injection vectors: unescaped enum strings + servers[0].url in axios/fetch templates. PoC published — import of generated module fires payload. CI pipelines are attack surface if spec is vendor-controlled.
-→ upgrade swagger-typescript-api to ≥ 13.12.2 (also fixes GHSA-h754-fxp7-88wx token exfil, CVSS 7.4).
-
-- [CVE-2026-54727](https://github.com/advisories/GHSA-7h3g-4w2f-fj2f) + [CVE-2026-54574](https://github.com/advisories/GHSA-9xq3-3fqg-4vg7) — proot-distro (pip) · CVSS 8.2
-Container isolation bypass via hardlink in restore archive + symlink escape on install. PoC included for both.
-→ upgrade proot-distro to ≥ 5.1.6 (fixes both).
-
-*MONITOR*
-
-- [CVE-2026-67437](https://github.com/advisories/GHSA-xpxj-f2fm-rqch) — OliveTin (go) · CVSS 7.5 · EPSS 0.0035
-Unauthenticated OAuth2 state map grows unbounded → OOM DoS. Patch available.
-→ upgrade if running OliveTin with OAuth2 enabled.
-
-- [CVE-2026-54693](https://github.com/advisories/GHSA-jq8w-8q2f-ffm9) — ZITADEL (go) · no CVSS · EPSS 0.0034
-Users self-verify email/phone via direct API call, bypassing verification flow. Partial patch across v2/v3/v4 branches.
-→ check branch + restrict direct API access if email/phone verification is a security control.
-
-- [CVE-2026-54722](https://github.com/advisories/GHSA-cg4g-m8jx-vjv2) — dssrf (npm) · no CVSS · EPSS 0.0033
-SSRF protection bypassed by inserting @ in URL, stripping prefix sanitization.
-→ upgrade to ≥ 1.0.4 if using dssrf.
+- [CVE-2026-55100](https://github.com/advisories/GHSA-g956-2f74-rmv7) — hashi-vault-js (npm) · CVSS 8.7 · EPSS 0.004 · no PoC
+  Unencoded identifiers → path traversal to sys/ admin paths or query injection with app's Vault token.
+  → upgrade hashi-vault-js to ≥0.5.2.
+- [CVE-2026-53502](https://github.com/advisories/GHSA-cj54-hpcc-gj6h) — thumbor (pip) · CVSS 8.7 · EPSS 0.004 · no PoC
+  Path traversal via post-validation URL-decode bypass in file_loader.
+  → upgrade thumbor to ≥7.8.0 (clears 6 CVEs in this batch).
+- [CVE-2026-54729](https://github.com/advisories/GHSA-5846-7qm3-r52j) — dssrf (npm) · CVSS 8.7 · EPSS 0.003 · no PoC
+  SSRF via 1.1.1.1 DNS NXDOMAIN for localhost; localhost filter bypassed.
+  → upgrade dssrf to ≥1.0.5.
+- [CVE-2026-67426](https://github.com/advisories/GHSA-jx74-cqjv-2c67) — flyto-core (pip) · CVSS 9.3 · EPSS 0.003 · PoC published
+  Unauthed SSRF + runner-secret exfiltration via unvalidated callback_url; leaks FLYTO_RUNNER_SECRET.
+  → upgrade flyto-core to ≥2.26.7.
+- [CVE-2026-53500](https://github.com/advisories/GHSA-6x26-6r6f-m537) — thumbor (pip) · CVSS 8.2 · EPSS 0.003 · no PoC
+  ALLOWED_SOURCES strings treated as unescaped regex; hostname-bypass via crafted domain.
+  → upgrade thumbor to ≥7.8.0.

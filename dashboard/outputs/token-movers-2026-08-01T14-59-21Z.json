@@ -1,0 +1,23 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers"
+      },
+      "children": [
+        "text_date"
+      ]
+    },
+    "text_date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-01",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

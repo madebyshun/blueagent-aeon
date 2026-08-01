@@ -1,0 +1,524 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-08-01"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "verdict-text",
+        "sep-1",
+        "patch-today-heading",
+        "cve-67429-section",
+        "sep-2",
+        "patch-week-heading",
+        "patch-week-stack"
+      ]
+    },
+    "verdict-text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 1 PoC-confirmed critical, 5 to schedule, 0 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve-67429-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-67429-link",
+        "cve-67429-package",
+        "cve-67429-metrics",
+        "cve-67429-description",
+        "cve-67429-action"
+      ]
+    },
+    "cve-67429-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-67429",
+        "href": "https://github.com/advisories/GHSA-2956-977x-2w3r",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-67429-package": {
+      "type": "Text",
+      "props": {
+        "text": "flyto-core (pip)"
+      }
+    },
+    "cve-67429-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-67429-cvss",
+        "cve-67429-epss",
+        "cve-67429-poc"
+      ]
+    },
+    "cve-67429-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 10.0",
+        "variant": "destructive"
+      }
+    },
+    "cve-67429-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.005",
+        "variant": "default"
+      }
+    },
+    "cve-67429-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "PoC published",
+        "variant": "destructive"
+      }
+    },
+    "cve-67429-description": {
+      "type": "Text",
+      "props": {
+        "text": "Arbitrary file write, no auth — output_dir='/' bypasses sandbox; all file-writing modules affected incl. MCP interface.",
+        "variant": "body"
+      }
+    },
+    "cve-67429-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: upgrade flyto-core to ≥2.26.7 and redeploy.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch-week-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve-55100-section",
+        "cve-53502-section",
+        "cve-54729-section",
+        "cve-67426-section",
+        "cve-53500-section"
+      ]
+    },
+    "cve-55100-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55100-link",
+        "cve-55100-package",
+        "cve-55100-metrics",
+        "cve-55100-description",
+        "cve-55100-action"
+      ]
+    },
+    "cve-55100-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-55100",
+        "href": "https://github.com/advisories/GHSA-g956-2f74-rmv7",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-55100-package": {
+      "type": "Text",
+      "props": {
+        "text": "hashi-vault-js (npm)"
+      }
+    },
+    "cve-55100-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55100-cvss",
+        "cve-55100-epss",
+        "cve-55100-poc"
+      ]
+    },
+    "cve-55100-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.7",
+        "variant": "default"
+      }
+    },
+    "cve-55100-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "default"
+      }
+    },
+    "cve-55100-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "secondary"
+      }
+    },
+    "cve-55100-description": {
+      "type": "Text",
+      "props": {
+        "text": "Unencoded identifiers → path traversal to sys/ admin paths or query injection with app's Vault token.",
+        "variant": "body"
+      }
+    },
+    "cve-55100-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: upgrade hashi-vault-js to ≥0.5.2.",
+        "variant": "body"
+      }
+    },
+    "cve-53502-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-53502-link",
+        "cve-53502-package",
+        "cve-53502-metrics",
+        "cve-53502-description",
+        "cve-53502-action"
+      ]
+    },
+    "cve-53502-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-53502",
+        "href": "https://github.com/advisories/GHSA-cj54-hpcc-gj6h",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-53502-package": {
+      "type": "Text",
+      "props": {
+        "text": "thumbor (pip)"
+      }
+    },
+    "cve-53502-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-53502-cvss",
+        "cve-53502-epss",
+        "cve-53502-poc"
+      ]
+    },
+    "cve-53502-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.7",
+        "variant": "default"
+      }
+    },
+    "cve-53502-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "default"
+      }
+    },
+    "cve-53502-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "secondary"
+      }
+    },
+    "cve-53502-description": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal via post-validation URL-decode bypass in file_loader.",
+        "variant": "body"
+      }
+    },
+    "cve-53502-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: upgrade thumbor to ≥7.8.0 (clears 6 CVEs in this batch).",
+        "variant": "body"
+      }
+    },
+    "cve-54729-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-54729-link",
+        "cve-54729-package",
+        "cve-54729-metrics",
+        "cve-54729-description",
+        "cve-54729-action"
+      ]
+    },
+    "cve-54729-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54729",
+        "href": "https://github.com/advisories/GHSA-5846-7qm3-r52j",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-54729-package": {
+      "type": "Text",
+      "props": {
+        "text": "dssrf (npm)"
+      }
+    },
+    "cve-54729-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-54729-cvss",
+        "cve-54729-epss",
+        "cve-54729-poc"
+      ]
+    },
+    "cve-54729-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.7",
+        "variant": "default"
+      }
+    },
+    "cve-54729-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003",
+        "variant": "default"
+      }
+    },
+    "cve-54729-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "secondary"
+      }
+    },
+    "cve-54729-description": {
+      "type": "Text",
+      "props": {
+        "text": "SSRF via 1.1.1.1 DNS NXDOMAIN for localhost; localhost filter bypassed.",
+        "variant": "body"
+      }
+    },
+    "cve-54729-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: upgrade dssrf to ≥1.0.5.",
+        "variant": "body"
+      }
+    },
+    "cve-67426-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-67426-link",
+        "cve-67426-package",
+        "cve-67426-metrics",
+        "cve-67426-description",
+        "cve-67426-action"
+      ]
+    },
+    "cve-67426-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-67426",
+        "href": "https://github.com/advisories/GHSA-jx74-cqjv-2c67",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-67426-package": {
+      "type": "Text",
+      "props": {
+        "text": "flyto-core (pip)"
+      }
+    },
+    "cve-67426-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-67426-cvss",
+        "cve-67426-epss",
+        "cve-67426-poc"
+      ]
+    },
+    "cve-67426-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.3",
+        "variant": "default"
+      }
+    },
+    "cve-67426-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003",
+        "variant": "default"
+      }
+    },
+    "cve-67426-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "PoC published",
+        "variant": "destructive"
+      }
+    },
+    "cve-67426-description": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthed SSRF + runner-secret exfiltration via unvalidated callback_url; leaks FLYTO_RUNNER_SECRET.",
+        "variant": "body"
+      }
+    },
+    "cve-67426-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: upgrade flyto-core to ≥2.26.7.",
+        "variant": "body"
+      }
+    },
+    "cve-53500-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-53500-link",
+        "cve-53500-package",
+        "cve-53500-metrics",
+        "cve-53500-description",
+        "cve-53500-action"
+      ]
+    },
+    "cve-53500-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-53500",
+        "href": "https://github.com/advisories/GHSA-6x26-6r6f-m537",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-53500-package": {
+      "type": "Text",
+      "props": {
+        "text": "thumbor (pip)"
+      }
+    },
+    "cve-53500-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-53500-cvss",
+        "cve-53500-epss",
+        "cve-53500-poc"
+      ]
+    },
+    "cve-53500-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.2",
+        "variant": "default"
+      }
+    },
+    "cve-53500-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003",
+        "variant": "default"
+      }
+    },
+    "cve-53500-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "secondary"
+      }
+    },
+    "cve-53500-description": {
+      "type": "Text",
+      "props": {
+        "text": "ALLOWED_SOURCES strings treated as unescaped regex; hostname-bypass via crafted domain.",
+        "variant": "body"
+      }
+    },
+    "cve-53500-action": {
+      "type": "Text",
+      "props": {
+        "text": "Action: upgrade thumbor to ≥7.8.0.",
+        "variant": "body"
+      }
+    }
+  }
+}
