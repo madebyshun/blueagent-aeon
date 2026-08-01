@@ -1,0 +1,1036 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-01"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "h_transitions",
+        "transitions_group",
+        "sep1",
+        "h_reflexivity",
+        "reflexivity_group",
+        "sep2",
+        "h_positions",
+        "positions_group",
+        "sep3",
+        "h_map",
+        "map_group"
+      ]
+    },
+    "h_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transitions_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    "t1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1_b",
+        "t1_h",
+        "t1_s",
+        "t1_d"
+      ]
+    },
+    "t1_b": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "default"
+      }
+    },
+    "t1_h": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN — RIDE → FRONT-RUN",
+        "variant": "lead"
+      }
+    },
+    "t1_s": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t1_s1",
+        "t1_s2"
+      ]
+    },
+    "t1_s1": {
+      "type": "Stat",
+      "props": {
+        "label": "AKT",
+        "value": "+12.9%",
+        "trend": "up"
+      }
+    },
+    "t1_s2": {
+      "type": "Stat",
+      "props": {
+        "label": "Median Market",
+        "value": "−1.5%",
+        "trend": "down"
+      }
+    },
+    "t1_d": {
+      "type": "Text",
+      "props": {
+        "text": "TAO trending; decoupling from risk-off reopens entry window",
+        "variant": "body"
+      }
+    },
+    "t2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2_b",
+        "t2_h",
+        "t2_d1",
+        "t2_s",
+        "t2_d2"
+      ]
+    },
+    "t2_b": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      }
+    },
+    "t2_h": {
+      "type": "Text",
+      "props": {
+        "text": "AI→Crypto Capital Rotation — WATCH → FADE",
+        "variant": "lead"
+      }
+    },
+    "t2_d1": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi leads losses today:",
+        "variant": "caption"
+      }
+    },
+    "t2_s": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t2_s1",
+        "t2_s2",
+        "t2_s3"
+      ]
+    },
+    "t2_s1": {
+      "type": "Stat",
+      "props": {
+        "label": "UNI",
+        "value": "−6.8%",
+        "trend": "down"
+      }
+    },
+    "t2_s2": {
+      "type": "Stat",
+      "props": {
+        "label": "AAVE",
+        "value": "−6.6%",
+        "trend": "down"
+      }
+    },
+    "t2_s3": {
+      "type": "Stat",
+      "props": {
+        "label": "ONDO",
+        "value": "−5.1%",
+        "trend": "down"
+      }
+    },
+    "t2_d2": {
+      "type": "Text",
+      "props": {
+        "text": "Rotation thesis inverted post-COIN Q2 miss",
+        "variant": "body"
+      }
+    },
+    "t3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3_b",
+        "t3_h",
+        "t3_s",
+        "t3_d"
+      ]
+    },
+    "t3_b": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      }
+    },
+    "t3_h": {
+      "type": "Text",
+      "props": {
+        "text": "Tokenized Equities — ↑ RIDE → ↓ WATCH",
+        "variant": "lead"
+      }
+    },
+    "t3_s": {
+      "type": "Stat",
+      "props": {
+        "label": "ONDO",
+        "value": "−5.1%",
+        "delta": "reverses +5.1% yesterday",
+        "trend": "down"
+      }
+    },
+    "t3_d": {
+      "type": "Text",
+      "props": {
+        "text": "Momentum stalling post burn catalyst",
+        "variant": "body"
+      }
+    },
+    "t4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4_b",
+        "t4_h",
+        "t4_s",
+        "t4_d"
+      ]
+    },
+    "t4_b": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY REVERTED",
+        "variant": "outline"
+      }
+    },
+    "t4_h": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid — ↑ bounce → ↓↓ FADE held",
+        "variant": "lead"
+      }
+    },
+    "t4_s": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "−5.0%",
+        "trend": "down"
+      }
+    },
+    "t4_d": {
+      "type": "Text",
+      "props": {
+        "text": "Trending-down; Aug 6 $518.86M unlock (5 days)",
+        "variant": "body"
+      }
+    },
+    "t5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t5_b",
+        "t5_h",
+        "t5_s",
+        "t5_d"
+      ]
+    },
+    "t5_b": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY UPGRADE",
+        "variant": "outline"
+      }
+    },
+    "t5_h": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoins — → to ↑",
+        "variant": "lead"
+      }
+    },
+    "t5_s": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t5_s1",
+        "t5_s2"
+      ]
+    },
+    "t5_s1": {
+      "type": "Stat",
+      "props": {
+        "label": "SHIB",
+        "value": "+6.7%",
+        "trend": "up"
+      }
+    },
+    "t5_s2": {
+      "type": "Stat",
+      "props": {
+        "label": "PUMP",
+        "value": "+6.5%",
+        "trend": "up"
+      }
+    },
+    "t5_d": {
+      "type": "Text",
+      "props": {
+        "text": "PEPE whale $7.5M accumulation; decoupling from broad risk-off",
+        "variant": "body"
+      }
+    },
+    "t6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t6_b",
+        "t6_h",
+        "t6_s",
+        "t6_d"
+      ]
+    },
+    "t6_b": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY UPGRADE",
+        "variant": "outline"
+      }
+    },
+    "t6_h": {
+      "type": "Text",
+      "props": {
+        "text": "PEPE ETF — ↓ to ↑",
+        "variant": "lead"
+      }
+    },
+    "t6_s": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t6_s1",
+        "t6_s2"
+      ]
+    },
+    "t6_s1": {
+      "type": "Stat",
+      "props": {
+        "label": "Token Pick",
+        "value": "HIGH 8/10"
+      }
+    },
+    "t6_s2": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/MCap",
+        "value": "11.9%"
+      }
+    },
+    "t6_d": {
+      "type": "Text",
+      "props": {
+        "text": "Whale positioning ahead of 240-day SEC window",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "r1",
+        "r2",
+        "r3"
+      ]
+    },
+    "r1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r1_t",
+        "r1_d1",
+        "r1_d2"
+      ]
+    },
+    "r1_t": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE unlock fight",
+        "variant": "lead"
+      }
+    },
+    "r1_d1": {
+      "type": "Text",
+      "props": {
+        "text": "Trending-down −5.0% into Aug 6 $518.86M unlock. FADE thesis (exit liquidity) vs historical +4.17% post-unlock avg.",
+        "variant": "body"
+      }
+    },
+    "r1_d2": {
+      "type": "Alert",
+      "props": {
+        "title": "Conflicting Narratives",
+        "message": "Two competing narratives for same token — no clean call. Team historically restakes.",
+        "type": "warning"
+      }
+    },
+    "r2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r2_t",
+        "r2_d"
+      ]
+    },
+    "r2_t": {
+      "type": "Text",
+      "props": {
+        "text": "PEPE whale floor",
+        "variant": "lead"
+      }
+    },
+    "r2_d": {
+      "type": "Text",
+      "props": {
+        "text": "$7.5M at $0.0000027 support, 4+ months before ETF decision window. ETF filing creating artificial price floor narrative before decision arrives.",
+        "variant": "body"
+      }
+    },
+    "r3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r3_t",
+        "r3_d"
+      ]
+    },
+    "r3_t": {
+      "type": "Text",
+      "props": {
+        "text": "DePIN decoupling",
+        "variant": "lead"
+      }
+    },
+    "r3_d": {
+      "type": "Alert",
+      "props": {
+        "title": "Structural Demand",
+        "message": "AKT +12.9% on −1.5% median market = organic institutional demand. Non-reflexive — structural, not narrative-driven.",
+        "type": "success"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6"
+      ]
+    },
+    "p1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p1_b",
+        "p1_h",
+        "p1_stats",
+        "p1_d1",
+        "p1_d2"
+      ]
+    },
+    "p1_b": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "p1_h": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN",
+        "variant": "lead"
+      }
+    },
+    "p1_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p1_s1",
+        "p1_s2",
+        "p1_s3"
+      ]
+    },
+    "p1_s1": {
+      "type": "Stat",
+      "props": {
+        "label": "Level",
+        "value": "4"
+      }
+    },
+    "p1_s2": {
+      "type": "Badge",
+      "props": {
+        "text": "↑↑ Bull",
+        "variant": "default"
+      }
+    },
+    "p1_s3": {
+      "type": "Badge",
+      "props": {
+        "text": "@akashnet AKT +12.9%",
+        "variant": "default"
+      }
+    },
+    "p1_d1": {
+      "type": "Text",
+      "props": {
+        "text": "TAO trending",
+        "variant": "body"
+      }
+    },
+    "p1_d2": {
+      "type": "Alert",
+      "props": {
+        "title": "Bear",
+        "message": "Meta entering; VVV entry-window precedent (narrow)",
+        "type": "warning"
+      }
+    },
+    "p2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p2_b",
+        "p2_h",
+        "p2_stats",
+        "p2_d"
+      ]
+    },
+    "p2_b": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "p2_h": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy",
+        "variant": "lead"
+      }
+    },
+    "p2_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p2_s1",
+        "p2_s2"
+      ]
+    },
+    "p2_s1": {
+      "type": "Stat",
+      "props": {
+        "label": "Level",
+        "value": "5"
+      }
+    },
+    "p2_s2": {
+      "type": "Badge",
+      "props": {
+        "text": "↑ Bull",
+        "variant": "outline"
+      }
+    },
+    "p2_d": {
+      "type": "Text",
+      "props": {
+        "text": "different-ai/openwork 806★ live, 1jehuang/jcode 527★; Virtuals Protocol on Robinhood Chain — 7/8 AI tokens down daily/weekly",
+        "variant": "body"
+      }
+    },
+    "p3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p3_b",
+        "p3_h",
+        "p3_stats",
+        "p3_d"
+      ]
+    },
+    "p3_b": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "p3_h": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain",
+        "variant": "lead"
+      }
+    },
+    "p3_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p3_s1",
+        "p3_s2"
+      ]
+    },
+    "p3_s1": {
+      "type": "Stat",
+      "props": {
+        "label": "Level",
+        "value": "4"
+      }
+    },
+    "p3_s2": {
+      "type": "Badge",
+      "props": {
+        "text": "↑ Bull",
+        "variant": "outline"
+      }
+    },
+    "p3_d": {
+      "type": "Text",
+      "props": {
+        "text": "Virtuals Protocol expanding to RH Chain; $400M+ TVL; Base-independent — 90% TVL concentrated at launch",
+        "variant": "body"
+      }
+    },
+    "p4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p4_b",
+        "p4_h",
+        "p4_stats",
+        "p4_d"
+      ]
+    },
+    "p4_b": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "p4_h": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Security/TEE",
+        "variant": "lead"
+      }
+    },
+    "p4_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p4_s1",
+        "p4_s2"
+      ]
+    },
+    "p4_s1": {
+      "type": "Stat",
+      "props": {
+        "label": "Level",
+        "value": "4"
+      }
+    },
+    "p4_s2": {
+      "type": "Badge",
+      "props": {
+        "text": "↑ Bull",
+        "variant": "outline"
+      }
+    },
+    "p4_d": {
+      "type": "Text",
+      "props": {
+        "text": "August infra/substance month; $45M H1 2026 vuln losses = structural demand — tooling ≠ adoption",
+        "variant": "body"
+      }
+    },
+    "p5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p5_b",
+        "p5_h",
+        "p5_stats",
+        "p5_d"
+      ]
+    },
+    "p5_b": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "p5_h": {
+      "type": "Text",
+      "props": {
+        "text": "AI→Crypto Capital Rotation",
+        "variant": "lead"
+      }
+    },
+    "p5_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p5_s1",
+        "p5_s2"
+      ]
+    },
+    "p5_s1": {
+      "type": "Stat",
+      "props": {
+        "label": "Level",
+        "value": "2"
+      }
+    },
+    "p5_s2": {
+      "type": "Badge",
+      "props": {
+        "text": "↓↓ Bear",
+        "variant": "destructive"
+      }
+    },
+    "p5_d": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi leading losses; rotation inverted; needs new catalyst to re-enter",
+        "variant": "body"
+      }
+    },
+    "p6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p6_b",
+        "p6_h",
+        "p6_stats",
+        "p6_d"
+      ]
+    },
+    "p6_b": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "p6_h": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid",
+        "variant": "lead"
+      }
+    },
+    "p6_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "p6_s1",
+        "p6_s2"
+      ]
+    },
+    "p6_s1": {
+      "type": "Stat",
+      "props": {
+        "label": "Level",
+        "value": "3"
+      }
+    },
+    "p6_s2": {
+      "type": "Badge",
+      "props": {
+        "text": "↓↓ Bear",
+        "variant": "destructive"
+      }
+    },
+    "p6_d": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 6 $518.86M unlock (5 days); structural FADE maintained despite historical restake nuance",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_e_h",
+        "map_e_t"
+      ]
+    },
+    "map_e_h": {
+      "type": "Badge",
+      "props": {
+        "text": "EMERGING",
+        "variant": "default"
+      }
+    },
+    "map_e_t": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin Rails ↑, Agentic Dev Tools ↑, Coinbase AiFi ↓, Memecoins ↑, X Money →, Lean Ethereum ↑, PEPE ETF ↑, FHE/ZAMA →",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_r_h",
+        "map_r_t"
+      ]
+    },
+    "map_r_h": {
+      "type": "Badge",
+      "props": {
+        "text": "RISING",
+        "variant": "outline"
+      }
+    },
+    "map_r_t": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Security ↑, Tokenized Equities ↓WATCH, BNB Chain →",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_p_h",
+        "map_p_t"
+      ]
+    },
+    "map_p_h": {
+      "type": "Badge",
+      "props": {
+        "text": "PEAK",
+        "variant": "outline"
+      }
+    },
+    "map_p_t": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy ↑, x402/Agentic Payments ↓WATCH, Robinhood Chain ↑",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_f_h",
+        "map_f_t"
+      ]
+    },
+    "map_f_h": {
+      "type": "Badge",
+      "props": {
+        "text": "FADING",
+        "variant": "destructive"
+      }
+    },
+    "map_f_t": {
+      "type": "Text",
+      "props": {
+        "text": "AI→Crypto Rotation ↓↓FADE, Kaito →, Hyperliquid ↓↓, RWA broad ↓, CLARITY Act ↓↓",
+        "variant": "body"
+      }
+    }
+  }
+}

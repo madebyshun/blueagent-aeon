@@ -1,32 +1,28 @@
-*Narrative Tracker — 2026-07-31*
+*Narrative Tracker — 2026-08-01*
 
 TRANSITIONS
-• DEMOTED: Coinbase AiFi/Base Ecosystem — Rising FRONT-RUN → Emerging WATCH — COIN Q2: $359M net loss, missed both transaction AND subscription revenue ($1.22B vs $1.29B consensus). "Diversification story faces a test." — blockhead.co
-• DEMOTED: AI→Crypto Capital Rotation — Emerging FRONT-RUN → Emerging WATCH — go/no-go catalyst (COIN Q2) delivered miss. COIN -6.53% AH. "Wall Street split on timing of recovery." — coindesk.com
-• DEMOTED: x402/Agentic Payments on Base — Peak ↑↑ RIDE → Peak ↓ WATCH — AiFi reflexivity loop broke at earnings. AERO -3.9% post-print. 100M txns data intact but narrative momentum gone.
-• VELOCITY BOUNCE: Hyperliquid — HYPE +4.0% today, trending reversed from ↓↓. Aug 6 $587M unlock 6 days out. Structural FADE unchanged — pre-distribution squeeze.
+• PROMOTED: AI Compute/DePIN — RIDE → FRONT-RUN — AKT +12.9% on −1.5% median market; TAO trending; decoupling from risk-off reopens entry window
+• DEMOTED: AI→Crypto Capital Rotation — WATCH → FADE — DeFi leads losses today (UNI −6.8%, AAVE −6.6%, ONDO −5.1%); rotation thesis inverted post-COIN Q2 miss
+• DEMOTED: Tokenized Equities — ↑ RIDE → ↓ WATCH — ONDO −5.1% reverses yesterday's +5.1%; momentum stalling post burn catalyst
+• VELOCITY REVERTED: Hyperliquid — ↑ bounce → ↓↓ FADE held — HYPE −5.0% trending-down; Aug 6 $518.86M unlock 5 days
+• VELOCITY UPGRADE: Memecoins — → to ↑ — SHIB +6.7%, PUMP +6.5%, PEPE whale $7.5M accumulation; decoupling from broad risk-off
+• VELOCITY UPGRADE: PEPE ETF — ↓ to ↑ — PEPE token-pick HIGH 8/10 today; vol/mcap 11.9%; whale positioning ahead of 240-day SEC window
 
 REFLEXIVITY ALERT
-• Coinbase AiFi loop BROKE: Armstrong "AiFi" seed → sell-side cited $73M/176M txns in Q2 preview → Coinbase reported → miss on BOTH revenue lines → institutional confirmation denied. Armstrong now pivoting: "AI agents will need their own financial infrastructure" — reshaping narrative away from trading fees toward infrastructure. Next catalyst needed.
-• HYPE pre-unlock squeeze: +4.0% bounce into Aug 6 $587M Core Contributors unlock. Classic pre-distribution positioning. Not a reversal signal.
+• HYPE unlock fight: trending-down −5.0% into Aug 6 $518.86M unlock. FADE thesis (exit liquidity) vs historical +4.17% post-unlock avg (morning-brief Aug 1); team historically restakes. Two competing narratives, same token — no clean call.
+• PEPE whale floor: $7.5M at $0.0000027 support, 4+ months before ETF decision window. ETF filing creating artificial price floor narrative before decision arrives.
+• DePIN decoupling: AKT +12.9% on −1.5% median market day = organic institutional demand. Non-reflexive — structural, not narrative-driven.
 
 POSITIONS
-• WATCH: Coinbase AiFi/Base (2 ↓, Mixed) — next catalyst = Q3 Base revenue or AiFi partnership. Miss burned near-term thesis.
-• WATCH: AI→Crypto Capital Rotation (2 ↓, Mixed) — structural rotation thesis intact; near-term momentum stalled. Bloomberg/CNBC coverage hasn't retracted.
-• WATCH: x402/Agentic Payments on Base (4 ↓, Mixed) — 100M txns real; infrastructure thesis real; reflexivity loop broke. @cbarmstrong repositioning as long-term play.
-• RIDE: AI Agent Economy Infrastructure (5 ↑, Bull) — Base 2026 roadmap for agent economy; tester-to-payer 4x; $25B AI sector cap. Coinbase miss doesn't touch this.
-• RIDE: Tokenized Equities/DTCC+Ondo (4 ↑, Rising, Bull) — RWA.xyz $1B+; ONDO; BlackRock sBUIDL. Unaffected by COIN miss.
-• RIDE: Robinhood Chain (4 ↑, Peak, Bull) — $400M+ TVL; $500M Uniswap vol. Independent of Coinbase.
-• RIDE: AI Agent Security/TEE Layer (4 ↑, Rising, Bull) — @PhalaNetwork; Ledger Agent Stack; $45M H1 vuln losses.
-• RIDE: AI Compute/DePIN-AI Layer (4 ↑, Rising, Bull) — io.net 130k GPUs; Render $38M/month; @akashnet.
-• FADE: Hyperliquid (2 ↑bounce, Fading, Bear) — Aug 6 $587M unlock 6 days; bounce = pre-distribution, not reversal.
-• FADE: Kaito/InfoFi (2 →, Fading, Mixed) — bounce did not sustain day 4; structural fade.
-• FADE: CLARITY Act (2 ↓↓, Fading, Bear) — Senate out; no cloture.
+• FRONT-RUN: AI Compute/DePIN (4 ↑↑, Bull) — @akashnet AKT +12.9% decoupling; TAO trending — bear: Meta entering; VVV entry-window precedent (narrow)
+• RIDE: AI Agent Economy (5 ↑, Bull) — different-ai/openwork 806★ live, 1jehuang/jcode 527★; Virtuals Protocol on Robinhood Chain — 7/8 AI tokens down daily/weekly
+• RIDE: Robinhood Chain (4 ↑, Bull) — Virtuals Protocol expanding to RH Chain; $400M+ TVL; Base-independent — 90% TVL concentrated at launch
+• RIDE: AI Agent Security/TEE (4 ↑, Bull) — August infra/substance month; $45M H1 2026 vuln losses = structural demand — tooling ≠ adoption
+• FADE: AI→Crypto Capital Rotation (2 ↓↓, Bear) — DeFi leading losses; rotation inverted; needs new catalyst to re-enter
+• FADE: Hyperliquid (3 ↓↓, Bear) — Aug 6 $518.86M unlock 5 days; structural FADE maintained despite historical restake nuance
 
 MAP
-Emerging: Coinbase AiFi*, AI→Crypto Rotation*, Stablecoin Rails, Agentic Dev Tools, FHE/ZAMA, Memecoins, X Money, Lean Ethereum, PEPE ETF
-Rising: Tokenized Equities, AI Agent Security, AI Compute/DePIN, BNB Chain
-Peak: AI Agent Economy Infrastructure, x402/Agentic Payments*, Robinhood Chain
-Fading: Hyperliquid, Kaito, RWA broad, CLARITY Act
-
-*Phase change today
+Emerging: Stablecoin Rails ↑, Agentic Dev Tools ↑, Coinbase AiFi ↓, Memecoins ↑, X Money →, Lean Ethereum ↑, PEPE ETF ↑, FHE/ZAMA →
+Rising: AI Agent Security ↑, Tokenized Equities ↓WATCH, BNB Chain →
+Peak: AI Agent Economy ↑, x402/Agentic Payments ↓WATCH, Robinhood Chain ↑
+Fading: AI→Crypto Rotation ↓↓FADE, Kaito →, Hyperliquid ↓↓, RWA broad ↓, CLARITY Act ↓↓
