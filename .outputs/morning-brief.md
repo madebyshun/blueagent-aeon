@@ -1,18 +1,18 @@
-*Morning Brief — 2026-07-31*
+*Morning Brief — 2026-08-01*
 
 *Focus today*
-1. Narrative-tracker DEMOTE — why now: map stale; 13:30 UTC run emits wrong signals without correction
-2. GLMR bridge final close — why now: closes midnight tonight; no extension; funds gone
-3. COIN miss vs +1.4% market — why now: token-pick at 12:00 needs recalibrated AiFi thesis
+1. HYPE Aug 6 unlock — why now: 5 days to unlock; $587M squeeze active now
+2. Narrative-tracker 13:30 UTC — why now: first post-COIN Q2 baseline; 3 signals at WATCH
+3. background: XAI credits expired day 21 — narrative signal degraded, WebSearch fallback only
 
 *Since yesterday*
-- [moved] COIN Q2: $1.22B rev (miss $70M), net loss −$1.36/share vs est. −$0.01; COIN −6.53% AH
-- [moved] AiFi DEMOTE triggered: Coinbase AiFi → Emerging, AI→Crypto Rotation → stalled (per Jul 30 baseline conditions)
-- [stuck] XAI credits: day 20 consecutive — narrative-tracker WebSearch fallback; X/Grok data absent
-- [stuck] deal-flow: consecutive_failures 1 (failed Jul 27) — monitor next run Mon Aug 3
+- DEMOTED: Coinbase AiFi, AI→Crypto Rotation, x402/Agentic Payments → WATCH (COIN Q2: $359M net loss, $1.22B rev miss)
+- HYPE reversed ↓↓ (+4.0%, trending); Aug 6 $587M unlock now 5 days out
+- token-pick: PUMP +5.9% / Fed YES 54.5¢ — both tier HIGH
+- deal-flow: 1 failure on record (Jul 27); skill disabled in aeon.yml — confirm if intentional
 
 *Watch*
-- COIN Q2 miss ($70M revenue shortfall, subscription also below) — implies #1 + #3: DEMOTE Coinbase AiFi + AI→Crypto Rotation from FRONT-RUN before 13:30 run; crypto market +1.4% today = COIN-specific miss, not broad contagion
+- HYPE post-unlock avg +4.17% across 6 prior 2026 events; team historically restakes vs sells — complicates structural FADE call (Focus #1)
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC

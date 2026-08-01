@@ -1,0 +1,383 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-01"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "yesterday-section",
+        "sep2",
+        "watch-section",
+        "sep3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-reason"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "1. HYPE Aug 6 unlock",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus-1-reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 5 days to unlock; $587M squeeze active now",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-reason"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "2. Narrative-tracker 13:30 UTC",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus-2-reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: first post-COIN Q2 baseline; 3 signals at WATCH",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-reason"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "3. background: XAI credits expired day 21",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus-3-reason": {
+      "type": "Text",
+      "props": {
+        "text": "narrative signal degraded, WebSearch fallback only",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-heading",
+        "yesterday-item-1",
+        "yesterday-item-2",
+        "yesterday-item-3",
+        "yesterday-item-4"
+      ]
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-1-main",
+        "yesterday-1-detail"
+      ]
+    },
+    "yesterday-1-main": {
+      "type": "Text",
+      "props": {
+        "text": "DEMOTED: Coinbase AiFi, AI→Crypto Rotation, x402/Agentic Payments → WATCH",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "yesterday-1-detail": {
+      "type": "Text",
+      "props": {
+        "text": "COIN Q2: $359M net loss, $1.22B rev miss",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "yesterday-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-2-main",
+        "yesterday-2-detail"
+      ]
+    },
+    "yesterday-2-main": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE reversed ↓↓ (+4.0%, trending)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "yesterday-2-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 6 $587M unlock now 5 days out",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "yesterday-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-3-main",
+        "yesterday-3-detail"
+      ]
+    },
+    "yesterday-3-main": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick: PUMP +5.9% / Fed YES 54.5¢",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "yesterday-3-detail": {
+      "type": "Text",
+      "props": {
+        "text": "both tier HIGH",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "yesterday-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-4-main",
+        "yesterday-4-detail"
+      ]
+    },
+    "yesterday-4-main": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow: 1 failure on record (Jul 27)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "yesterday-4-detail": {
+      "type": "Text",
+      "props": {
+        "text": "skill disabled in aeon.yml — confirm if intentional",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-item-1"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-1-main",
+        "watch-1-detail"
+      ]
+    },
+    "watch-1-main": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE post-unlock avg +4.17% across 6 prior 2026 events",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "watch-1-detail": {
+      "type": "Text",
+      "props": {
+        "text": "team historically restakes vs sells — complicates structural FADE call (Focus #1)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-item-1",
+        "running-item-2",
+        "running-item-3",
+        "running-item-4",
+        "running-item-5"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
