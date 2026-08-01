@@ -1,0 +1,291 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-08-01"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_pepe_header",
+        "section_pepe_details",
+        "sep1",
+        "section_market_header",
+        "section_market_details",
+        "sep2",
+        "footer_section"
+      ]
+    },
+    "section_pepe_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading_pepe",
+        "badge_pepe",
+        "stat_pepe_signal"
+      ]
+    },
+    "heading_pepe": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: PEPE",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_pepe": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "stat_pepe_signal": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "8/10"
+      },
+      "children": []
+    },
+    "section_pepe_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pepe_price",
+        "pepe_metrics",
+        "pepe_score",
+        "pepe_catalyst",
+        "pepe_risk",
+        "pepe_recent"
+      ]
+    },
+    "pepe_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.00000276"
+      },
+      "children": []
+    },
+    "pepe_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "24h: +0.7% | 7d: +2.6% | mcap: $1.16B | vol: $137.7M | vol/mcap: 0.119",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pepe_score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: 24h pos +1 | 7d pos +1 | vol/mcap≥0.10 +2 | RS vs BTC/ETH +2 | CG trending +2 = 8/10",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pepe_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: Whales accumulated ~$7.5M near $0.0000027 support in early July; Canary Capital S-1 for spot PEPE ETF filed April 2026 adds institutional visibility — quiet loading before potential breakout",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pepe_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "No binary near-term event; community attention bleeding to Pepeto presale; rotation stalls if BTC dominance holds above 65%",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "pepe_recent": {
+      "type": "Text",
+      "props": {
+        "text": "First pick in 7+ days",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_market_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading_market",
+        "badge_market",
+        "stat_market_edge"
+      ]
+    },
+    "heading_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Israel x Iran ceasefire through August 2?",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_market": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat_market_edge": {
+      "type": "Stat",
+      "props": {
+        "label": "Edge",
+        "value": "9.5pp"
+      },
+      "children": []
+    },
+    "section_market_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_odds_container",
+        "market_volume_resolution",
+        "market_fair_yes",
+        "market_reasoning",
+        "market_thesis",
+        "market_risk"
+      ]
+    },
+    "market_odds_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market_yes_odds",
+        "market_no_odds"
+      ]
+    },
+    "market_yes_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "78.5¢"
+      },
+      "children": []
+    },
+    "market_no_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "21.5¢"
+      },
+      "children": []
+    },
+    "market_volume_resolution": {
+      "type": "Text",
+      "props": {
+        "text": "24h vol: $701K | Resolves: 2026-08-02",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "market_fair_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES probability",
+        "value": "~88%"
+      },
+      "children": []
+    },
+    "market_reasoning": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: Iran explicitly halted offensive ops Aug 1; US-brokered diplomatic track advancing; resolution criteria requires direct territory-impacting strike — intercepted munitions don't count",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "market_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: Market overprices breakdown risk — Iran is signaling de-escalation and the resolution bar is strict; 78.5¢ is too cheap for YES",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "market_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "IRGC proxy action triggers Israeli retaliation in the 48h window; Netanyahu's forceful-response warning leaves escalation on the table",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer_sources",
+        "footer_disclaimer"
+      ]
+    },
+    "footer_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "footer_disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
