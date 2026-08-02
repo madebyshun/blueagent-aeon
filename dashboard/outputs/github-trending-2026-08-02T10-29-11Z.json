@@ -1,0 +1,434 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-08-02"
+      },
+      "children": [
+        "top_pick_section",
+        "sep1",
+        "ai_ml_section",
+        "sep2",
+        "infra_section",
+        "sep3",
+        "devtools_section",
+        "sep4",
+        "web_apps_section",
+        "sep5",
+        "status_section"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_heading",
+        "top_pick_description",
+        "top_pick_link"
+      ]
+    },
+    "top_pick_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "top_pick_description": {
+      "type": "Text",
+      "props": {
+        "text": "ByteDance's open-source Deep Research rival — a long-horizon SuperAgent chaining research, code, and content creation, with 78.9k stars and a live push today."
+      }
+    },
+    "top_pick_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bytedance/deer-flow",
+        "href": "https://github.com/bytedance/deer-flow",
+        "source": "GitHub"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai_ml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai_ml_heading",
+        "aiml_repo1",
+        "aiml_repo2",
+        "aiml_repo3"
+      ]
+    },
+    "ai_ml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml1_title_row",
+        "aiml1_desc"
+      ]
+    },
+    "aiml1_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml1_link",
+        "aiml1_badge"
+      ]
+    },
+    "aiml1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bytedance/deer-flow",
+        "href": "https://github.com/bytedance/deer-flow",
+        "source": "GitHub"
+      }
+    },
+    "aiml1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "aiml1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "★ 209 today (78.9k total) · Python · Deep Research alternative that chains multi-step research, code execution, and content creation without API limits.",
+        "variant": "caption"
+      }
+    },
+    "aiml_repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml2_title_row",
+        "aiml2_desc"
+      ]
+    },
+    "aiml2_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml2_link",
+        "aiml2_badge"
+      ]
+    },
+    "aiml2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "huggingface/speech-to-speech",
+        "href": "https://github.com/huggingface/speech-to-speech",
+        "source": "GitHub"
+      }
+    },
+    "aiml2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "aiml2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "★ 442 today (10.3k total) · Python · Fully local, no-API-key voice agent stack — STT → LLM → TTS runs entirely offline on consumer hardware.",
+        "variant": "caption"
+      }
+    },
+    "aiml_repo3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml3_title_row",
+        "aiml3_desc"
+      ]
+    },
+    "aiml3_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml3_link",
+        "aiml3_badge"
+      ]
+    },
+    "aiml3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "microsoft/TRELLIS.2",
+        "href": "https://github.com/microsoft/TRELLIS.2",
+        "source": "GitHub"
+      }
+    },
+    "aiml3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "aiml3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "★ 107 today (10.1k total) · Python · Successor to TRELLIS; compact native-resolution latents for 3D generation cut the encoder's representation overhead.",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "infra_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra_heading",
+        "infra_repo1"
+      ]
+    },
+    "infra_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infra_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra1_title_row",
+        "infra1_desc"
+      ]
+    },
+    "infra1_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "infra1_link",
+        "infra1_badge"
+      ]
+    },
+    "infra1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "TencentCloud/TencentDB-Agent-Memory",
+        "href": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+        "source": "GitHub"
+      }
+    },
+    "infra1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "infra1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "★ 227 today (10.5k total) · TypeScript · Persistent cross-agent memory hub tracking chat, skills, wiki, and code graphs across a multi-agent team in one shared store.",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "devtools_repo1"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools1_title_row",
+        "devtools1_desc"
+      ]
+    },
+    "devtools1_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools1_link",
+        "devtools1_badge"
+      ]
+    },
+    "devtools1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github/copilot-sdk",
+        "href": "https://github.com/github/copilot-sdk",
+        "source": "GitHub"
+      }
+    },
+    "devtools1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "devtools1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "★ 142 today (10.3k total) · Java · Multi-platform SDK to embed Copilot Agent mode into non-VS Code editors and CI pipelines; pushed live today.",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "web_apps_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web_apps_heading",
+        "web_apps_repo1"
+      ]
+    },
+    "web_apps_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "web_apps_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "web_apps1_title_row",
+        "web_apps1_desc"
+      ]
+    },
+    "web_apps1_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "web_apps1_link",
+        "web_apps1_badge"
+      ]
+    },
+    "web_apps1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "iv-org/invidious",
+        "href": "https://github.com/iv-org/invidious",
+        "source": "GitHub"
+      }
+    },
+    "web_apps1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "web_apps1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "★ 435 today (21.7k total) · Crystal · Privacy-first YouTube proxy in Crystal — 21k stars, back to trending with an active push today.",
+        "variant": "caption"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "status_section": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/15",
+        "variant": "muted"
+      }
+    }
+  }
+}
