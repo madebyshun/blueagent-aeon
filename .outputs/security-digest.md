@@ -1,24 +1,36 @@
-*Security Digest — 2026-08-01*
-Verdict: 1 PoC-confirmed critical, 5 to schedule, 0 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-08-02*
+Verdict: 3 KEV confirmed-exploitation (Fortinet/Arista/Cisco) + 5 npm/go/pip to schedule. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- [CVE-2026-67429](https://github.com/advisories/GHSA-2956-977x-2w3r) — flyto-core (pip) · CVSS 10.0 · EPSS 0.005 · PoC published
-  Arbitrary file write, no auth — output_dir='/' bypasses sandbox; all file-writing modules affected incl. MCP interface.
-  → upgrade flyto-core to ≥2.26.7 and redeploy.
+- [CVE-2025-68686](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Fortinet FortiOS · KEV 2026-07-27 · EPSS 1.26% · CVSS N/A (check vendor)
+  Info disclosure via symbolic-link persistency patch bypass. Due: Aug 10.
+  → apply Fortinet vendor mitigations per BOD 26-04; discontinue if unavailable.
+
+- [CVE-2026-16812](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Arista VeloCloud Orchestrator · KEV 2026-07-27 · EPSS 0.88% · CVSS N/A
+  OS command injection → full orchestrator RCE. Due: Jul 30 (PAST DUE).
+  → apply Arista vendor mitigations immediately.
+
+- [CVE-2026-20316](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Cisco Secure FMC · KEV 2026-07-29 · EPSS 0.79% · CVSS N/A
+  Hard-coded password allows unauthenticated remote login. Due: Aug 1 (PAST DUE).
+  → patch immediately or discontinue.
 
 *PATCH THIS WEEK*
-- [CVE-2026-55100](https://github.com/advisories/GHSA-g956-2f74-rmv7) — hashi-vault-js (npm) · CVSS 8.7 · EPSS 0.004 · no PoC
-  Unencoded identifiers → path traversal to sys/ admin paths or query injection with app's Vault token.
-  → upgrade hashi-vault-js to ≥0.5.2.
-- [CVE-2026-53502](https://github.com/advisories/GHSA-cj54-hpcc-gj6h) — thumbor (pip) · CVSS 8.7 · EPSS 0.004 · no PoC
-  Path traversal via post-validation URL-decode bypass in file_loader.
-  → upgrade thumbor to ≥7.8.0 (clears 6 CVEs in this batch).
-- [CVE-2026-54729](https://github.com/advisories/GHSA-5846-7qm3-r52j) — dssrf (npm) · CVSS 8.7 · EPSS 0.003 · no PoC
-  SSRF via 1.1.1.1 DNS NXDOMAIN for localhost; localhost filter bypassed.
-  → upgrade dssrf to ≥1.0.5.
-- [CVE-2026-67426](https://github.com/advisories/GHSA-jx74-cqjv-2c67) — flyto-core (pip) · CVSS 9.3 · EPSS 0.003 · PoC published
-  Unauthed SSRF + runner-secret exfiltration via unvalidated callback_url; leaks FLYTO_RUNNER_SECRET.
-  → upgrade flyto-core to ≥2.26.7.
-- [CVE-2026-53500](https://github.com/advisories/GHSA-6x26-6r6f-m537) — thumbor (pip) · CVSS 8.2 · EPSS 0.003 · no PoC
-  ALLOWED_SOURCES strings treated as unescaped regex; hostname-bypass via crafted domain.
-  → upgrade thumbor to ≥7.8.0.
+- [CVE-2026-52887](https://github.com/advisories/GHSA-p849-8hwh-84j9) — @nocobase/plugin-notification-in-app-message (npm) ≤2.0.60 · CVSS 10.0 · EPSS 0.59% · public PoC
+  SQL injection → PG superuser shell RCE. Anonymous reach (allowSignUp:true default).
+  → upgrade to ≥2.0.61.
+
+- [CVE-2026-54725](https://github.com/advisories/GHSA-r2v3-8gwf-7ghm) — vault-secrets-webhook (Go) ≤1.22.2 · CVSS 9.6 · EPSS 0.32% · PoC in advisory
+  SSRF via vault-addr annotation at K8s admission time → SA JWT theft cluster-wide.
+  → upgrade bank-vaults/vault-secrets-webhook to ≥1.23.1.
+
+- [CVE-2026-52855](https://github.com/advisories/GHSA-pfvc-3p5h-x7h6) — pterodactyl/wings (Go) <1.12.3 · CVSS 9.9 · EPSS 0.27%
+  Egg templating leaks daemon token → forge JWTs for all servers on the node.
+  → upgrade to ≥1.12.3; rotate daemon tokens after.
+
+- [CVE-2026-53609](https://github.com/advisories/GHSA-6h5j-32cf-4253) — apostrophe (npm) ≤4.30.0 · CVSS 9.1 · EPSS 0.24% · PoC included
+  Prototype pollution via $pullAll → process-wide auth bypass for unauthenticated requests.
+  → upgrade apostrophe to ≥4.31.0.
+
+- [CVE-2026-53608](https://github.com/advisories/GHSA-wf43-fpp3-cf65) — @apostrophecms/seo (npm) ≤1.4.2 · CVSS 8.7 · EPSS 0.21%
+  Stored XSS via unsanitized GA/GTM ID injected into HTML script tag.
+  → upgrade @apostrophecms/seo to ≥1.5.0.

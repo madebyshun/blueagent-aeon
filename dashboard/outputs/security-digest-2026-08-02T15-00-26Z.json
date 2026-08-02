@@ -1,0 +1,851 @@
+{
+  "root": "card-security-digest",
+  "state": {},
+  "elements": {
+    "card-security-digest": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-08-02"
+      },
+      "children": [
+        "verdict-alert",
+        "sep-1",
+        "patch-today-section",
+        "sep-2",
+        "patch-week-section"
+      ]
+    },
+    "verdict-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Verdict",
+        "message": "3 KEV confirmed-exploitation (Fortinet/Arista/Cisco) + 5 npm/go/pip to schedule. Sources: KEV, GH Advisory, EPSS",
+        "type": "info"
+      }
+    },
+    "sep-1": {
+      "type": "Separator"
+    },
+    "patch-today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-today-heading",
+        "cve-68686",
+        "cve-16812",
+        "cve-20316"
+      ]
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve-68686": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-68686-header",
+        "cve-68686-link",
+        "cve-68686-meta",
+        "cve-68686-description",
+        "cve-68686-action"
+      ]
+    },
+    "cve-68686-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve-68686-id",
+        "cve-68686-product",
+        "cve-68686-kev-badge"
+      ]
+    },
+    "cve-68686-id": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2025-68686",
+        "level": "h4"
+      }
+    },
+    "cve-68686-product": {
+      "type": "Text",
+      "props": {
+        "text": "Fortinet FortiOS",
+        "variant": "body"
+      }
+    },
+    "cve-68686-kev-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV",
+        "variant": "destructive"
+      }
+    },
+    "cve-68686-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on CISA KEV",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      }
+    },
+    "cve-68686-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "cve-68686-kev-date",
+        "cve-68686-epss",
+        "cve-68686-cvss",
+        "cve-68686-due"
+      ]
+    },
+    "cve-68686-kev-date": {
+      "type": "Text",
+      "props": {
+        "text": "KEV: 2026-07-27",
+        "variant": "caption"
+      }
+    },
+    "cve-68686-epss": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS: 1.26%",
+        "variant": "caption"
+      }
+    },
+    "cve-68686-cvss": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS: N/A (check vendor)",
+        "variant": "caption"
+      }
+    },
+    "cve-68686-due": {
+      "type": "Badge",
+      "props": {
+        "text": "Due: Aug 10",
+        "variant": "outline"
+      }
+    },
+    "cve-68686-description": {
+      "type": "Text",
+      "props": {
+        "text": "Info disclosure via symbolic-link persistency patch bypass.",
+        "variant": "body"
+      }
+    },
+    "cve-68686-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Apply Fortinet vendor mitigations per BOD 26-04; discontinue if unavailable.",
+        "type": "warning"
+      }
+    },
+    "cve-16812": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-16812-header",
+        "cve-16812-link",
+        "cve-16812-meta",
+        "cve-16812-description",
+        "cve-16812-action"
+      ]
+    },
+    "cve-16812-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve-16812-id",
+        "cve-16812-product",
+        "cve-16812-kev-badge"
+      ]
+    },
+    "cve-16812-id": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-16812",
+        "level": "h4"
+      }
+    },
+    "cve-16812-product": {
+      "type": "Text",
+      "props": {
+        "text": "Arista VeloCloud Orchestrator",
+        "variant": "body"
+      }
+    },
+    "cve-16812-kev-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV",
+        "variant": "destructive"
+      }
+    },
+    "cve-16812-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on CISA KEV",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      }
+    },
+    "cve-16812-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "cve-16812-kev-date",
+        "cve-16812-epss",
+        "cve-16812-cvss",
+        "cve-16812-due"
+      ]
+    },
+    "cve-16812-kev-date": {
+      "type": "Text",
+      "props": {
+        "text": "KEV: 2026-07-27",
+        "variant": "caption"
+      }
+    },
+    "cve-16812-epss": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS: 0.88%",
+        "variant": "caption"
+      }
+    },
+    "cve-16812-cvss": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS: N/A",
+        "variant": "caption"
+      }
+    },
+    "cve-16812-due": {
+      "type": "Badge",
+      "props": {
+        "text": "Due: Jul 30 (PAST DUE)",
+        "variant": "destructive"
+      }
+    },
+    "cve-16812-description": {
+      "type": "Text",
+      "props": {
+        "text": "OS command injection → full orchestrator RCE.",
+        "variant": "body"
+      }
+    },
+    "cve-16812-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Apply Arista vendor mitigations immediately.",
+        "type": "error"
+      }
+    },
+    "cve-20316": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-20316-header",
+        "cve-20316-link",
+        "cve-20316-meta",
+        "cve-20316-description",
+        "cve-20316-action"
+      ]
+    },
+    "cve-20316-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve-20316-id",
+        "cve-20316-product",
+        "cve-20316-kev-badge"
+      ]
+    },
+    "cve-20316-id": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-20316",
+        "level": "h4"
+      }
+    },
+    "cve-20316-product": {
+      "type": "Text",
+      "props": {
+        "text": "Cisco Secure FMC",
+        "variant": "body"
+      }
+    },
+    "cve-20316-kev-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV",
+        "variant": "destructive"
+      }
+    },
+    "cve-20316-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on CISA KEV",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      }
+    },
+    "cve-20316-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "cve-20316-kev-date",
+        "cve-20316-epss",
+        "cve-20316-cvss",
+        "cve-20316-due"
+      ]
+    },
+    "cve-20316-kev-date": {
+      "type": "Text",
+      "props": {
+        "text": "KEV: 2026-07-29",
+        "variant": "caption"
+      }
+    },
+    "cve-20316-epss": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS: 0.79%",
+        "variant": "caption"
+      }
+    },
+    "cve-20316-cvss": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS: N/A",
+        "variant": "caption"
+      }
+    },
+    "cve-20316-due": {
+      "type": "Badge",
+      "props": {
+        "text": "Due: Aug 1 (PAST DUE)",
+        "variant": "destructive"
+      }
+    },
+    "cve-20316-description": {
+      "type": "Text",
+      "props": {
+        "text": "Hard-coded password allows unauthenticated remote login.",
+        "variant": "body"
+      }
+    },
+    "cve-20316-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Patch immediately or discontinue.",
+        "type": "error"
+      }
+    },
+    "sep-2": {
+      "type": "Separator"
+    },
+    "patch-week-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-week-heading",
+        "cve-52887",
+        "cve-54725",
+        "cve-52855",
+        "cve-53609",
+        "cve-53608"
+      ]
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "cve-52887": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-52887-header",
+        "cve-52887-link",
+        "cve-52887-meta",
+        "cve-52887-description",
+        "cve-52887-action"
+      ]
+    },
+    "cve-52887-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve-52887-id",
+        "cve-52887-product",
+        "cve-52887-poc"
+      ]
+    },
+    "cve-52887-id": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-52887",
+        "level": "h4"
+      }
+    },
+    "cve-52887-product": {
+      "type": "Text",
+      "props": {
+        "text": "@nocobase/plugin-notification-in-app-message (npm) ≤2.0.60",
+        "variant": "body"
+      }
+    },
+    "cve-52887-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "destructive"
+      }
+    },
+    "cve-52887-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on GitHub Advisory",
+        "href": "https://github.com/advisories/GHSA-p849-8hwh-84j9"
+      }
+    },
+    "cve-52887-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "cve-52887-cvss",
+        "cve-52887-epss"
+      ]
+    },
+    "cve-52887-cvss": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS: 10.0",
+        "variant": "caption"
+      }
+    },
+    "cve-52887-epss": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS: 0.59%",
+        "variant": "caption"
+      }
+    },
+    "cve-52887-description": {
+      "type": "Text",
+      "props": {
+        "text": "SQL injection → PG superuser shell RCE. Anonymous reach (allowSignUp:true default).",
+        "variant": "body"
+      }
+    },
+    "cve-52887-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade to ≥2.0.61.",
+        "type": "warning"
+      }
+    },
+    "cve-54725": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-54725-header",
+        "cve-54725-link",
+        "cve-54725-meta",
+        "cve-54725-description",
+        "cve-54725-action"
+      ]
+    },
+    "cve-54725-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve-54725-id",
+        "cve-54725-product",
+        "cve-54725-poc"
+      ]
+    },
+    "cve-54725-id": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-54725",
+        "level": "h4"
+      }
+    },
+    "cve-54725-product": {
+      "type": "Text",
+      "props": {
+        "text": "vault-secrets-webhook (Go) ≤1.22.2",
+        "variant": "body"
+      }
+    },
+    "cve-54725-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "PoC in advisory",
+        "variant": "destructive"
+      }
+    },
+    "cve-54725-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on GitHub Advisory",
+        "href": "https://github.com/advisories/GHSA-r2v3-8gwf-7ghm"
+      }
+    },
+    "cve-54725-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "cve-54725-cvss",
+        "cve-54725-epss"
+      ]
+    },
+    "cve-54725-cvss": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS: 9.6",
+        "variant": "caption"
+      }
+    },
+    "cve-54725-epss": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS: 0.32%",
+        "variant": "caption"
+      }
+    },
+    "cve-54725-description": {
+      "type": "Text",
+      "props": {
+        "text": "SSRF via vault-addr annotation at K8s admission time → SA JWT theft cluster-wide.",
+        "variant": "body"
+      }
+    },
+    "cve-54725-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade bank-vaults/vault-secrets-webhook to ≥1.23.1.",
+        "type": "warning"
+      }
+    },
+    "cve-52855": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-52855-header",
+        "cve-52855-link",
+        "cve-52855-meta",
+        "cve-52855-description",
+        "cve-52855-action"
+      ]
+    },
+    "cve-52855-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve-52855-id",
+        "cve-52855-product"
+      ]
+    },
+    "cve-52855-id": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-52855",
+        "level": "h4"
+      }
+    },
+    "cve-52855-product": {
+      "type": "Text",
+      "props": {
+        "text": "pterodactyl/wings (Go) <1.12.3",
+        "variant": "body"
+      }
+    },
+    "cve-52855-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on GitHub Advisory",
+        "href": "https://github.com/advisories/GHSA-pfvc-3p5h-x7h6"
+      }
+    },
+    "cve-52855-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "cve-52855-cvss",
+        "cve-52855-epss"
+      ]
+    },
+    "cve-52855-cvss": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS: 9.9",
+        "variant": "caption"
+      }
+    },
+    "cve-52855-epss": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS: 0.27%",
+        "variant": "caption"
+      }
+    },
+    "cve-52855-description": {
+      "type": "Text",
+      "props": {
+        "text": "Egg templating leaks daemon token → forge JWTs for all servers on the node.",
+        "variant": "body"
+      }
+    },
+    "cve-52855-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade to ≥1.12.3; rotate daemon tokens after.",
+        "type": "warning"
+      }
+    },
+    "cve-53609": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-53609-header",
+        "cve-53609-link",
+        "cve-53609-meta",
+        "cve-53609-description",
+        "cve-53609-action"
+      ]
+    },
+    "cve-53609-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve-53609-id",
+        "cve-53609-product",
+        "cve-53609-poc"
+      ]
+    },
+    "cve-53609-id": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-53609",
+        "level": "h4"
+      }
+    },
+    "cve-53609-product": {
+      "type": "Text",
+      "props": {
+        "text": "apostrophe (npm) ≤4.30.0",
+        "variant": "body"
+      }
+    },
+    "cve-53609-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "PoC included",
+        "variant": "destructive"
+      }
+    },
+    "cve-53609-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on GitHub Advisory",
+        "href": "https://github.com/advisories/GHSA-6h5j-32cf-4253"
+      }
+    },
+    "cve-53609-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "cve-53609-cvss",
+        "cve-53609-epss"
+      ]
+    },
+    "cve-53609-cvss": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS: 9.1",
+        "variant": "caption"
+      }
+    },
+    "cve-53609-epss": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS: 0.24%",
+        "variant": "caption"
+      }
+    },
+    "cve-53609-description": {
+      "type": "Text",
+      "props": {
+        "text": "Prototype pollution via $pullAll → process-wide auth bypass for unauthenticated requests.",
+        "variant": "body"
+      }
+    },
+    "cve-53609-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade apostrophe to ≥4.31.0.",
+        "type": "warning"
+      }
+    },
+    "cve-53608": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-53608-header",
+        "cve-53608-link",
+        "cve-53608-meta",
+        "cve-53608-description",
+        "cve-53608-action"
+      ]
+    },
+    "cve-53608-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve-53608-id",
+        "cve-53608-product"
+      ]
+    },
+    "cve-53608-id": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-53608",
+        "level": "h4"
+      }
+    },
+    "cve-53608-product": {
+      "type": "Text",
+      "props": {
+        "text": "@apostrophecms/seo (npm) ≤1.4.2",
+        "variant": "body"
+      }
+    },
+    "cve-53608-link": {
+      "type": "Link",
+      "props": {
+        "label": "View on GitHub Advisory",
+        "href": "https://github.com/advisories/GHSA-wf43-fpp3-cf65"
+      }
+    },
+    "cve-53608-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "cve-53608-cvss",
+        "cve-53608-epss"
+      ]
+    },
+    "cve-53608-cvss": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS: 8.7",
+        "variant": "caption"
+      }
+    },
+    "cve-53608-epss": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS: 0.21%",
+        "variant": "caption"
+      }
+    },
+    "cve-53608-description": {
+      "type": "Text",
+      "props": {
+        "text": "Stored XSS via unsanitized GA/GTM ID injected into HTML script tag.",
+        "variant": "body"
+      }
+    },
+    "cve-53608-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade @apostrophecms/seo to ≥1.5.0.",
+        "type": "warning"
+      }
+    }
+  }
+}
