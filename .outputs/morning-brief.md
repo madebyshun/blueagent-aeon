@@ -1,18 +1,19 @@
-*Morning Brief — 2026-08-01*
+*Morning Brief — 2026-08-02*
 
 *Focus today*
-1. HYPE Aug 6 unlock — why now: 5 days to unlock; $587M squeeze active now
-2. Narrative-tracker 13:30 UTC — why now: first post-COIN Q2 baseline; 3 signals at WATCH
-3. background: XAI credits expired day 21 — narrative signal degraded, WebSearch fallback only
+1. HYPE Aug 6 unlock — why now: bear-case model targets $41; 4 days to position or exit
+2. AI Compute/DePIN FRONT-RUN — why now: value-capture gap confirmed; Proposal 318 is gating question before adding
+3. Memecoins / PEPE — why now: sector decoupled from risk-off Aug 1; HYPE unlock volatility may rotate here
 
 *Since yesterday*
-- DEMOTED: Coinbase AiFi, AI→Crypto Rotation, x402/Agentic Payments → WATCH (COIN Q2: $359M net loss, $1.22B rev miss)
-- HYPE reversed ↓↓ (+4.0%, trending); Aug 6 $587M unlock now 5 days out
-- token-pick: PUMP +5.9% / Fed YES 54.5¢ — both tier HIGH
-- deal-flow: 1 failure on record (Jul 27); skill disabled in aeon.yml — confirm if intentional
+- [moved] AI Compute/DePIN PROMOTED to FRONT-RUN — AKT +12.9% on −1.5% median; TAO trending; decoupling from broad risk-off
+- [moved] AI→Crypto Rotation DEMOTED to FADE — DeFi led losses: UNI −6.8%, AAVE −6.6%, ONDO −5.1%
+- [moved] Tokenized Equities DEMOTED to WATCH — ONDO reversed +5.1% → −5.1%; burn catalyst spent
+- [stuck] XAI credits expired day 22 — narrative-tracker on WebSearch fallback; institutional data blind spot
 
 *Watch*
-- HYPE post-unlock avg +4.17% across 6 prior 2026 events; team historically restakes vs sells — complicates structural FADE call (Focus #1)
+- [CryptoNews] HYPE model targets $41.66 by Aug 6 — confirms structural FADE on Focus #1; sell pressure accelerating into unlock
+- [TECHi] AKT: $5M compute spend, token 94% below 2021 highs — value-capture gap directly challenges FRONT-RUN; Burn-Mint Equilibrium (Proposal 318) is the gating mechanism
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC

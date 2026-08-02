@@ -1,0 +1,375 @@
+{
+  "root": "card-morning-brief",
+  "state": {},
+  "elements": {
+    "card-morning-brief": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-08-02"
+      },
+      "children": [
+        "sep-intro",
+        "section-focus",
+        "sep-1",
+        "section-yesterday",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "sep-intro": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-desc"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "1. HYPE Aug 6 unlock",
+        "variant": "lead"
+      }
+    },
+    "focus-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: bear-case model targets $41; 4 days to position or exit"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-desc"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "2. AI Compute/DePIN FRONT-RUN",
+        "variant": "lead"
+      }
+    },
+    "focus-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: value-capture gap confirmed; Proposal 318 is gating question before adding"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-desc"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "3. Memecoins / PEPE",
+        "variant": "lead"
+      }
+    },
+    "focus-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "why now: sector decoupled from risk-off Aug 1; HYPE unlock volatility may rotate here"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-yesterday",
+        "yesterday-item-1",
+        "yesterday-item-2",
+        "yesterday-item-3",
+        "yesterday-item-4"
+      ]
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "y1-badge",
+        "y1-text"
+      ]
+    },
+    "y1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved → PROMOTED to FRONT-RUN",
+        "variant": "secondary"
+      }
+    },
+    "y1-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN — AKT +12.9% on −1.5% median; TAO trending; decoupling from broad risk-off"
+      }
+    },
+    "yesterday-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "y2-badge",
+        "y2-text"
+      ]
+    },
+    "y2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved → DEMOTED to FADE",
+        "variant": "destructive"
+      }
+    },
+    "y2-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI→Crypto Rotation — DeFi led losses: UNI −6.8%, AAVE −6.6%, ONDO −5.1%"
+      }
+    },
+    "yesterday-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "y3-badge",
+        "y3-text"
+      ]
+    },
+    "y3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved → DEMOTED to WATCH",
+        "variant": "destructive"
+      }
+    },
+    "y3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Tokenized Equities — ONDO reversed +5.1% → −5.1%; burn catalyst spent"
+      }
+    },
+    "yesterday-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "y4-badge",
+        "y4-text"
+      ]
+    },
+    "y4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "outline"
+      }
+    },
+    "y4-text": {
+      "type": "Text",
+      "props": {
+        "text": "XAI credits expired day 22 — narrative-tracker on WebSearch fallback; institutional data blind spot"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "watch-item-1",
+        "watch-item-2"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "w1-source",
+        "w1-text"
+      ]
+    },
+    "w1-source": {
+      "type": "Badge",
+      "props": {
+        "text": "CryptoNews",
+        "variant": "outline"
+      }
+    },
+    "w1-text": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE model targets $41.66 by Aug 6 — confirms structural FADE on Focus #1; sell pressure accelerating into unlock"
+      }
+    },
+    "watch-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "w2-source",
+        "w2-text"
+      ]
+    },
+    "w2-source": {
+      "type": "Badge",
+      "props": {
+        "text": "TECHi",
+        "variant": "outline"
+      }
+    },
+    "w2-text": {
+      "type": "Text",
+      "props": {
+        "text": "AKT: $5M compute spend, token 94% below 2021 highs — value-capture gap directly challenges FRONT-RUN; Burn-Mint Equilibrium (Proposal 318) is the gating mechanism"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      }
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    }
+  }
+}
