@@ -1,0 +1,472 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-08-02"
+      },
+      "children": [
+        "ada-section",
+        "separator-1",
+        "market-section",
+        "separator-2",
+        "sources-footer"
+      ]
+    },
+    "ada-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ada-header",
+        "ada-price-stats",
+        "ada-score-breakdown",
+        "ada-catalyst",
+        "ada-risk",
+        "ada-recent"
+      ]
+    },
+    "ada-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ada-title",
+        "ada-badge",
+        "ada-signal"
+      ]
+    },
+    "ada-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: ADA",
+        "level": "h2"
+      }
+    },
+    "ada-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "ada-signal": {
+      "type": "Stat",
+      "props": {
+        "label": "signal",
+        "value": "8/10"
+      }
+    },
+    "ada-price-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ada-price-row",
+        "ada-mcap-vol-row"
+      ]
+    },
+    "ada-price-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-price",
+        "stat-24h",
+        "stat-7d"
+      ]
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.190"
+      }
+    },
+    "stat-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+9.3%",
+        "trend": "up"
+      }
+    },
+    "stat-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+14.2%",
+        "trend": "up"
+      }
+    },
+    "ada-mcap-vol-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-mcap",
+        "stat-vol",
+        "stat-vol-ratio"
+      ]
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "mcap",
+        "value": "$7.09B"
+      }
+    },
+    "stat-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "vol",
+        "value": "$570M"
+      }
+    },
+    "stat-vol-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "vol/mcap",
+        "value": "0.08"
+      }
+    },
+    "ada-score-breakdown": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-label",
+        "score-text"
+      ]
+    },
+    "score-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Score breakdown",
+        "level": "h4"
+      }
+    },
+    "score-text": {
+      "type": "Text",
+      "props": {
+        "text": "CG trending +2, both 24h & 7d > +5% +2, RS vs BTC/ETH 7d +2, 24h > 0 +1, 7d > 0 +1 = 8/10",
+        "variant": "caption"
+      }
+    },
+    "ada-catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-label",
+        "catalyst-text",
+        "catalyst-sources"
+      ]
+    },
+    "catalyst-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "CME ADA futures complete 6-month mark Aug 9 — meets SEC eligibility criterion for spot ETF review; Grayscale GADA ETF decision deadline Oct 23; whale accumulation 30M+ ADA this week",
+        "variant": "body"
+      }
+    },
+    "catalyst-sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-link-1",
+        "catalyst-link-2"
+      ]
+    },
+    "catalyst-link-1": {
+      "type": "Link",
+      "props": {
+        "label": "mexc.com",
+        "href": "https://mexc.com"
+      }
+    },
+    "catalyst-link-2": {
+      "type": "Link",
+      "props": {
+        "label": "coingape.com",
+        "href": "https://coingape.com"
+      }
+    },
+    "ada-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Eligibility ≠ approval — SEC commodity classification unresolved; CME futures liquidity may be insufficient; Oct 23 decision is 2.5 months away",
+        "type": "warning"
+      }
+    },
+    "ada-recent": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "recent-label",
+        "recent-text"
+      ]
+    },
+    "recent-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Vs recent picks",
+        "level": "h4"
+      }
+    },
+    "recent-text": {
+      "type": "Text",
+      "props": {
+        "text": "first ADA pick in 7+ days",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-header",
+        "market-odds",
+        "market-fair",
+        "market-thesis",
+        "market-risk"
+      ]
+    },
+    "market-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "market-title",
+        "market-badge",
+        "market-edge"
+      ]
+    },
+    "market-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Strait of Hormuz traffic returns to normal by December 31?",
+        "level": "h2"
+      }
+    },
+    "market-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "market-edge": {
+      "type": "Stat",
+      "props": {
+        "label": "edge",
+        "value": "22.5pp"
+      }
+    },
+    "market-odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "odds-label",
+        "odds-data",
+        "resolution-data"
+      ]
+    },
+    "odds-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Odds",
+        "level": "h4"
+      }
+    },
+    "odds-data": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-yes-odds",
+        "stat-no-odds",
+        "stat-vol-market"
+      ]
+    },
+    "stat-yes-odds": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "57.5¢"
+      }
+    },
+    "stat-no-odds": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "42.5¢"
+      }
+    },
+    "stat-vol-market": {
+      "type": "Stat",
+      "props": {
+        "label": "24h vol",
+        "value": "$264K"
+      }
+    },
+    "resolution-data": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-12-31",
+        "variant": "caption"
+      }
+    },
+    "market-fair": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair-label",
+        "fair-value",
+        "fair-breakdown"
+      ]
+    },
+    "fair-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair YES",
+        "level": "h4"
+      }
+    },
+    "fair-value": {
+      "type": "Stat",
+      "props": {
+        "label": "estimated",
+        "value": "~35%"
+      }
+    },
+    "fair-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "[1] traffic at 0.45% of normal Jul 31 — effectively zero; [2] Iran attacked US bases in Gulf Jul 26, Iraq closed airspace 72h; [3] mine clearance + insurance reset = 6-12 months minimum",
+        "variant": "caption"
+      }
+    },
+    "market-thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-label",
+        "thesis-text",
+        "thesis-recommendation"
+      ]
+    },
+    "thesis-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      }
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market overprices normalization — traffic near-zero with active escalation and multi-month mine clearance required",
+        "variant": "body"
+      }
+    },
+    "thesis-recommendation": {
+      "type": "Badge",
+      "props": {
+        "text": "buy NO at 42.5¢",
+        "variant": "secondary"
+      }
+    },
+    "market-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Surprise formal US-Iran peace deal triggers rapid international mine-clearance and confidence recovery ahead of schedule",
+        "type": "warning"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-text",
+        "disclaimer-text"
+      ]
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "disclaimer-text": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
