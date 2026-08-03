@@ -1,0 +1,594 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Deal Flow — 2026-08-03"
+      },
+      "children": [
+        "intro_text",
+        "sep1",
+        "deals_stack",
+        "sep2",
+        "sources_text"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Read: Three AI agent security rounds ($203M combined, seven days) signal capital treating agent governance as a standalone infrastructure category; A16z's $1.7B Physical AI bet and Sequoia's $10B Etched pre-money confirm inference-hardware moats forming as model weights commoditize.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "deals_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "deal_1",
+        "deal_2",
+        "deal_3",
+        "deal_4",
+        "deal_5",
+        "deal_6",
+        "deal_7",
+        "deal_8"
+      ]
+    },
+    "deal_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_1_heading",
+        "deal_1_desc",
+        "deal_1_funding",
+        "deal_1_why"
+      ]
+    },
+    "deal_1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Onyx Security",
+        "level": "h3"
+      }
+    },
+    "deal_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Enterprise AI agent governance: permissions, monitoring, and control"
+      }
+    },
+    "deal_1_funding": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "deal_1_amount",
+        "deal_1_stage",
+        "deal_1_post",
+        "deal_1_lead"
+      ]
+    },
+    "deal_1_amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$113M"
+      }
+    },
+    "deal_1_stage": {
+      "type": "Badge",
+      "props": {
+        "text": "Series B"
+      }
+    },
+    "deal_1_post": {
+      "type": "Stat",
+      "props": {
+        "label": "Post",
+        "value": "$640M"
+      }
+    },
+    "deal_1_lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Bessemer Venture Partners",
+        "variant": "caption"
+      }
+    },
+    "deal_1_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Anthropic embedded Onyx into its enterprise deployment in June — first $640M model-lab-anchored agent governance company."
+      }
+    },
+    "deal_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_2_heading",
+        "deal_2_desc",
+        "deal_2_funding",
+        "deal_2_why"
+      ]
+    },
+    "deal_2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Atoms",
+        "level": "h3"
+      }
+    },
+    "deal_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Physical AI platform for industrial automation and digitization"
+      }
+    },
+    "deal_2_funding": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "deal_2_amount",
+        "deal_2_stage",
+        "deal_2_lead"
+      ]
+    },
+    "deal_2_amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$1.7B"
+      }
+    },
+    "deal_2_stage": {
+      "type": "Badge",
+      "props": {
+        "text": "Growth"
+      }
+    },
+    "deal_2_lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Andreessen Horowitz",
+        "variant": "caption"
+      }
+    },
+    "deal_2_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: A16z's $1.7B bet frames Physical AI as infrastructure cycle peer to cloud, not a robotics subcategory."
+      }
+    },
+    "deal_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_3_heading",
+        "deal_3_desc",
+        "deal_3_funding",
+        "deal_3_why"
+      ]
+    },
+    "deal_3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Act Security",
+        "level": "h3"
+      }
+    },
+    "deal_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cloud access control and permission management for agent workloads"
+      }
+    },
+    "deal_3_funding": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "deal_3_amount",
+        "deal_3_stage",
+        "deal_3_lead"
+      ]
+    },
+    "deal_3_amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$60M"
+      }
+    },
+    "deal_3_stage": {
+      "type": "Badge",
+      "props": {
+        "text": "Seed+A"
+      }
+    },
+    "deal_3_lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Team8, Bessemer Venture Partners",
+        "variant": "caption"
+      }
+    },
+    "deal_3_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Bessemer leads both this round and Onyx ($113M) — explicit full-stack agent security portfolio bet, not opportunistic."
+      }
+    },
+    "deal_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_4_heading",
+        "deal_4_desc",
+        "deal_4_funding",
+        "deal_4_why"
+      ]
+    },
+    "deal_4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Etched",
+        "level": "h3"
+      }
+    },
+    "deal_4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Co-designed chips and software optimized for frontier AI inference"
+      }
+    },
+    "deal_4_funding": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "deal_4_amount",
+        "deal_4_stage",
+        "deal_4_post",
+        "deal_4_pre",
+        "deal_4_lead"
+      ]
+    },
+    "deal_4_amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$300M"
+      }
+    },
+    "deal_4_stage": {
+      "type": "Badge",
+      "props": {
+        "text": "Series C"
+      }
+    },
+    "deal_4_post": {
+      "type": "Stat",
+      "props": {
+        "label": "Post",
+        "value": "$10.3B"
+      }
+    },
+    "deal_4_pre": {
+      "type": "Stat",
+      "props": {
+        "label": "Pre",
+        "value": "$10B"
+      }
+    },
+    "deal_4_lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Sequoia Capital",
+        "variant": "caption"
+      }
+    },
+    "deal_4_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: $10B pre-money for chips before product launch — Sequoia pricing inference-layer silicon moat as model weights commoditize."
+      }
+    },
+    "deal_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_5_heading",
+        "deal_5_desc",
+        "deal_5_funding",
+        "deal_5_why"
+      ]
+    },
+    "deal_5_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Natural",
+        "level": "h3"
+      }
+    },
+    "deal_5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Payments and transaction infrastructure for autonomous AI agents"
+      }
+    },
+    "deal_5_funding": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "deal_5_amount",
+        "deal_5_stage",
+        "deal_5_lead"
+      ]
+    },
+    "deal_5_amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$30M"
+      }
+    },
+    "deal_5_stage": {
+      "type": "Badge",
+      "props": {
+        "text": "Series A"
+      }
+    },
+    "deal_5_lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Forerunner",
+        "variant": "caption"
+      }
+    },
+    "deal_5_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: First dedicated agent-payments infrastructure Series A — VC-backed competing standard to x402 validates agentic payments as a market."
+      }
+    },
+    "deal_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_6_heading",
+        "deal_6_desc",
+        "deal_6_funding",
+        "deal_6_why"
+      ]
+    },
+    "deal_6_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Hush Security",
+        "level": "h3"
+      }
+    },
+    "deal_6_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Just-in-time secrets and permissions management for agent access"
+      }
+    },
+    "deal_6_funding": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "deal_6_amount",
+        "deal_6_stage",
+        "deal_6_lead"
+      ]
+    },
+    "deal_6_amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$30M"
+      }
+    },
+    "deal_6_stage": {
+      "type": "Badge",
+      "props": {
+        "text": "Series A"
+      }
+    },
+    "deal_6_lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Akamai, Battery Ventures, YL Ventures",
+        "variant": "caption"
+      }
+    },
+    "deal_6_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Akamai strategic confirms edge compute and agent execution share the same attack surface — CDN layer calling its shot."
+      }
+    },
+    "deal_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_7_heading",
+        "deal_7_desc",
+        "deal_7_funding",
+        "deal_7_why"
+      ]
+    },
+    "deal_7_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "June",
+        "level": "h3"
+      }
+    },
+    "deal_7_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI agent deployment platform for enterprise legacy system integration"
+      }
+    },
+    "deal_7_funding": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "deal_7_amount",
+        "deal_7_stage",
+        "deal_7_lead"
+      ]
+    },
+    "deal_7_amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$20M"
+      }
+    },
+    "deal_7_stage": {
+      "type": "Badge",
+      "props": {
+        "text": "Pre-seed"
+      }
+    },
+    "deal_7_lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Time Ventures (Marc Benioff)",
+        "variant": "caption"
+      }
+    },
+    "deal_7_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Four enterprise establishment backers (Benioff, Dell, Levie, Kurtz) fund the legacy-to-agent migration layer — distribution built before product."
+      }
+    },
+    "deal_8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_8_heading",
+        "deal_8_desc",
+        "deal_8_funding",
+        "deal_8_why"
+      ]
+    },
+    "deal_8_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Freehand",
+        "level": "h3"
+      }
+    },
+    "deal_8_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Autonomous agents for enterprise supply-chain procurement and payments"
+      }
+    },
+    "deal_8_funding": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "deal_8_amount",
+        "deal_8_stage",
+        "deal_8_lead"
+      ]
+    },
+    "deal_8_amount": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$75M"
+      }
+    },
+    "deal_8_stage": {
+      "type": "Badge",
+      "props": {
+        "text": "Series B"
+      }
+    },
+    "deal_8_lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Battery Ventures, NewRoad Capital",
+        "variant": "caption"
+      }
+    },
+    "deal_8_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Battery Ventures closes the first $75M Series B for fully autonomous (not copilot) enterprise agents — execution priced as market."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: crunchbase=ok, techcrunch=ok, cryptorank=partial, aift=ok, gravity.fast=ok | candidates=32 → kept=8",
+        "variant": "caption"
+      }
+    }
+  }
+}
