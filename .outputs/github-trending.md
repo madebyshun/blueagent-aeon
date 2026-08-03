@@ -1,29 +1,24 @@
-*GitHub Trending — 2026-08-02*
+*GitHub Trending — 2026-08-03*
 
-*Top pick* — [bytedance/deer-flow](https://github.com/bytedance/deer-flow)
-ByteDance's open-source Deep Research rival — a long-horizon SuperAgent chaining research, code, and content creation, with 78.9k stars and a live push today.
+*Top pick* — [antirez/ds4](https://github.com/antirez/ds4)
+antirez (Redis creator) shipping C-native DeepSeek 4 inference is the signal — a systems legend who knows how to keep runtimes lean taking a direct swing at the Python-heavy inference stack.
 
 *AI/ML*
-• [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — ★ 209 today (78.9k total) · Python · [ACCELERATING]
-Deep Research alternative that chains multi-step research, code execution, and content creation without API limits.
+• [antirez/ds4](https://github.com/antirez/ds4) — ★385 today (20.2k total) · C · [ACCELERATING]
+antirez (Redis author) builds a C-native runtime for DeepSeek 4 with Metal, CUDA, and ROCm backends — no Python layer, single binary.
 
-• [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) — ★ 442 today (10.3k total) · Python · [RETURNING]
-Fully local, no-API-key voice agent stack — STT → LLM → TTS runs entirely offline on consumer hardware.
+• [lyogavin/airllm](https://github.com/lyogavin/airllm) — ★1,081 today (26.3k total) · Python · [RETURNING]
+Runs 70B parameter models on a single 4GB GPU via layer-offloading — no multi-GPU rig, no VRAM upgrade required.
 
-• [microsoft/TRELLIS.2](https://github.com/microsoft/TRELLIS.2) — ★ 107 today (10.1k total) · Python · [RETURNING]
-Successor to TRELLIS; compact native-resolution latents for 3D generation cut the encoder's representation overhead.
-
-*Infra*
-• [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) — ★ 227 today (10.5k total) · TypeScript · [ACCELERATING]
-Persistent cross-agent memory hub tracking chat, skills, wiki, and code graphs across a multi-agent team in one shared store.
+• [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) — ★217 today (35.7k total) · Python · [RETURNING]
+Foundation model pretrained on price series and orderbook depth, not text — raw market microstructure as token inputs.
 
 *Devtools*
-• [github/copilot-sdk](https://github.com/github/copilot-sdk) — ★ 142 today (10.3k total) · Java · [ACCELERATING]
-Multi-platform SDK to embed Copilot Agent mode into non-VS Code editors and CI pipelines; pushed live today.
+• [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) — ★877 today (29.6k total) · Go · [ACCELERATING]
+Go-native AI coding agent for the terminal — single binary, DeepSeek reasoning backend, pushed live today.
 
-*Web/Apps*
-• [iv-org/invidious](https://github.com/iv-org/invidious) — ★ 435 today (21.7k total) · Crystal · [RETURNING]
-Privacy-first YouTube proxy in Crystal — 21k stars, back to trending with an active push today.
+• [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector) — ★1,769 today (6.7k total) · Rust · [RETURNING]
+Rust library from firecrawl for PDF parsing, classification, and text extraction — native alternative to pdfplumber/PyMuPDF.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/15
+sources: trending=ok · gh_api=ok · kept 5/16
