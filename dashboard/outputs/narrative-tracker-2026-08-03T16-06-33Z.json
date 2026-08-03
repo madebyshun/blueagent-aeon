@@ -1,0 +1,374 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-03"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-transitions",
+        "transition-1",
+        "transition-2",
+        "transition-3",
+        "separator-1",
+        "heading-reflexivity",
+        "reflexivity-1",
+        "reflexivity-2",
+        "separator-2",
+        "heading-positions",
+        "pos-frontrun-heading",
+        "pos-frontrun-1",
+        "pos-frontrun-2",
+        "pos-ride-heading",
+        "pos-ride-1",
+        "pos-ride-2",
+        "pos-ride-3",
+        "pos-ride-4",
+        "pos-watch-heading",
+        "pos-watch-1",
+        "pos-watch-2",
+        "pos-watch-3",
+        "pos-watch-4",
+        "pos-fade-heading",
+        "pos-fade-1",
+        "pos-fade-2",
+        "pos-fade-3",
+        "separator-3",
+        "heading-map",
+        "map-emerging-heading",
+        "map-emerging-items",
+        "map-rising-heading",
+        "map-rising-items",
+        "map-peak-heading",
+        "map-peak-items",
+        "map-fading-heading",
+        "map-fading-items",
+        "map-watch-heading",
+        "map-watch-items"
+      ]
+    },
+    "heading-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "transition-1": {
+      "type": "Text",
+      "props": {
+        "text": "VELOCITY FLIP: Hyperliquid/Perp DEX ↓↓ FADE → ↑ WATCH — HYPE #1 trending, reversed 2-day slide +4.0%, T-3 to Aug 6 unlock; 4.6x buyback fund narrative gaining vs bear-case $41.66; GRVT TGE Jul 30 on Binance Alpha + 4 exchanges confirms perp DEX competition healthy. Structural FADE intact post-Aug 6 — loosened to WATCH until event resolves.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "transition-2": {
+      "type": "Text",
+      "props": {
+        "text": "VELOCITY UPGRADE: x402/Agentic Payments ↓ WATCH → ↑ RIDE — Q2 data: 97% of onchain agent txns used x402; 90%+ agentic stablecoin vol on Base. Thesis graduated from speculative to evidenced.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "transition-3": {
+      "type": "Text",
+      "props": {
+        "text": "VELOCITY FLIP: Kaito/InfoFi → FADE → ↑ WATCH — Katalyst launched Jul 29 (creator reward layer: mindshare + clicks + deposits); CMC KAITO +6.91% on launch. Product pivot; monitoring for phase re-evaluation.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "reflexivity-1": {
+      "type": "Alert",
+      "props": {
+        "title": "HYPE pre-unlock",
+        "message": "#1 trending with no fundamental news = pure narrative clash. 4.6x buyback fund vs $41.66 bear target. T-3. Classic reflexive pre-event squeeze — whoever blinks loses.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "reflexivity-2": {
+      "type": "Alert",
+      "props": {
+        "title": "Alt-ETF Pipeline (ADA)",
+        "message": "Whale accumulation at multi-year supply high into Aug 9 CME milestone. Market pricing procedural step, not approval. Eligibility ≠ approval.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "pos-frontrun-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "FRONT-RUN",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pos-frontrun-1": {
+      "type": "Text",
+      "props": {
+        "text": "Alt-ETF Pipeline (3 ↑↑, Bull) — CME ADA Aug 9 = 6 days; whale at multi-year supply high; Grayscale GADA Oct 23 — bear: thin ADA futures vs BTC/ETH precedent",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-frontrun-2": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN (4 ↑↑, Bull) — airllm 47× spike (consumer inference); DeepSeek-Reasonix 877★/285/day; TAO trending 3rd consecutive day — bear: AKT 94% below ATH; Proposal 318 pending",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-ride-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pos-ride-1": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy (5 ↑, Bull) — Robinhood 100k agentic accounts / $100M+ assets (new concrete); x402 97% Q2 adoption",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-ride-2": {
+      "type": "Text",
+      "props": {
+        "text": "x402/Base (4 ↑, Bull) — 97% agent txns, 90% stablecoin vol confirmed Q2",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-ride-3": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain (4 ↑, Bull) — 100k agentic accounts, $400M+ TVL",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-ride-4": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Security/TEE (4 ↑, Bull) — $45M H1 vuln losses = structural demand",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pos-watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid/Perp DEX (3 ↑, Mixed) — HYPE reversed; GRVT TGE active; Aug 6 T-3 structural risk",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-watch-2": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito/InfoFi (2 ↑, Mixed) — Katalyst pivot; monitoring phase re-evaluation",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-watch-3": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Dev Tools (4 ↑↑, Mixed) — 4th consecutive GitHub AI infra day",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-watch-4": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin Rails (3 ↑, Bull) — ENA +4.8%; CIP Aug 21 = 18 days",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-fade-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pos-fade-1": {
+      "type": "Text",
+      "props": {
+        "text": "AI→Crypto Rotation (2 ↓↓, Bear) — alt recovery = sector-wide, not AI-specific",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-fade-2": {
+      "type": "Text",
+      "props": {
+        "text": "RWA broad (2 ↓, Mixed) — ONDO -2.1%; rotating to Solana RWA sub-narrative",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-fade-3": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act (2 ↓↓, Bear) — Senate out; zero active signal",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "map-emerging-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-emerging-items": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin Rails, BNB Chain, Lean Ethereum, X Money, FHE/ZAMA, Memecoins",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-rising-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-rising-items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN ↑↑, Alt-ETF Pipeline ↑↑, AI Agent Security, Agentic Dev Tools",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-peak-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-peak-items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy, x402/Base, Robinhood Chain",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-fading-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-fading-items": {
+      "type": "Text",
+      "props": {
+        "text": "AI→Crypto Rotation, RWA broad, CLARITY Act",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch (velocity flip from Fading)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-watch-items": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito, Hyperliquid",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
