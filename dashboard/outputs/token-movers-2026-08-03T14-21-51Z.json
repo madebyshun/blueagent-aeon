@@ -1,0 +1,390 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-08-03"
+      },
+      "children": [
+        "summary-text",
+        "sep1",
+        "heading-winners",
+        "table-winners",
+        "sep2",
+        "heading-losers",
+        "table-losers",
+        "sep3",
+        "heading-trending",
+        "table-trending",
+        "sep4",
+        "heading-notable",
+        "notable-stack"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Slight positive lean — 58/100 top-cap coins green, median top-50 +0.55%; BTC flat at $63k, alts mixed.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table-winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Cap / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "UB (UNIBASE)",
+            "$0.1831",
+            "+31.9%",
+            "+37.7%",
+            "+1.1%",
+            "$17.3M / #104",
+            "BREAKOUT"
+          ],
+          [
+            "TALUS (US)",
+            "$0.05426",
+            "+6.7%",
+            "+20.0%",
+            "−0.1%",
+            "$7.3M / #187",
+            ""
+          ],
+          [
+            "ALGO (Algorand)",
+            "$0.08702",
+            "+5.4%",
+            "+4.8%",
+            "−0.4%",
+            "$39.6M / #79",
+            ""
+          ],
+          [
+            "ENA (Ethena)",
+            "$0.09358",
+            "+4.8%",
+            "+2.8%",
+            "+1.9%",
+            "$145.6M / #72",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "$53.57",
+            "+4.0%",
+            "−10.3%",
+            "+1.4%",
+            "$258.8M / #10",
+            "TRENDING+UP, MAJOR"
+          ],
+          [
+            "ZEC (Zcash)",
+            "$489.9",
+            "+4.0%",
+            "−1.7%",
+            "+2.0%",
+            "$215.2M / #15",
+            "MAJOR"
+          ],
+          [
+            "NEXO",
+            "$0.7355",
+            "+3.2%",
+            "+0.9%",
+            "+0.4%",
+            "$3.2M / #80",
+            ""
+          ],
+          [
+            "LIT (Lighter)",
+            "$2.100",
+            "+2.8%",
+            "−6.8%",
+            "+1.8%",
+            "$23.3M / #96",
+            ""
+          ],
+          [
+            "ADA (Cardano)",
+            "$0.1945",
+            "+2.2%",
+            "+18.2%",
+            "+2.6%",
+            "$500.7M / #16",
+            "MAJOR"
+          ],
+          [
+            "AAVE",
+            "$92.82",
+            "+2.1%",
+            "−8.1%",
+            "+0.7%",
+            "$182.6M / #50",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table-losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Cap / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "BEAT (Audiera)",
+            "$3.12",
+            "−21.1%",
+            "−25.2%",
+            "−2.9%",
+            "$54.1M / #66",
+            ""
+          ],
+          [
+            "BIANRENSHENG",
+            "$0.5415",
+            "−9.3%",
+            "−13.7%",
+            "+0.3%",
+            "$14.3M / #95",
+            ""
+          ],
+          [
+            "PI (Pi Network)",
+            "$0.08318",
+            "−3.6%",
+            "+1.9%",
+            "+0.6%",
+            "$5.9M / #68",
+            "TRENDING+DOWN"
+          ],
+          [
+            "BGB (Bitget Token)",
+            "$1.59",
+            "−3.0%",
+            "−6.6%",
+            "+0.1%",
+            "$8.6M / #62",
+            ""
+          ],
+          [
+            "WLFI",
+            "$0.05438",
+            "−2.9%",
+            "−0.5%",
+            "+0.1%",
+            "$20.2M / #45",
+            ""
+          ],
+          [
+            "M (Memecore)",
+            "$1.14",
+            "−2.8%",
+            "−5.7%",
+            "−0.6%",
+            "$8.9M / #49",
+            ""
+          ],
+          [
+            "SHIB (Shiba Inu)",
+            "$0.000004890",
+            "−2.2%",
+            "−1.9%",
+            "+1.0%",
+            "$84.3M / #31",
+            ""
+          ],
+          [
+            "ONDO",
+            "$0.3769",
+            "−2.1%",
+            "−8.2%",
+            "+0.9%",
+            "$103M / #41",
+            ""
+          ],
+          [
+            "KAS (Kaspa)",
+            "$0.02617",
+            "−2.0%",
+            "−10.3%",
+            "+0.1%",
+            "$8.6M / #81",
+            ""
+          ],
+          [
+            "XLM (Stellar)",
+            "$0.1723",
+            "−1.2%",
+            "−4.8%",
+            "+0.5%",
+            "$100.4M / #20",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table-trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "HYPE (Hyperliquid)",
+            "#10",
+            "$53.57",
+            "+3.8%",
+            "TRENDING+UP, MAJOR"
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#109",
+            "$0.0062",
+            "+0.1%",
+            ""
+          ],
+          [
+            "ETH (Ethereum)",
+            "#2",
+            "$1853",
+            "+0.0%",
+            "MAJOR"
+          ],
+          [
+            "GRVT",
+            "#636",
+            "$0.26",
+            "+5.8%",
+            "TRENDING+UP, MICROCAP"
+          ],
+          [
+            "BTC (Bitcoin)",
+            "#1",
+            "$63143",
+            "+0.2%",
+            "MAJOR"
+          ],
+          [
+            "TAO (Bittensor)",
+            "#42",
+            "$189.2",
+            "−1.9%",
+            ""
+          ],
+          [
+            "PI (Pi Network)",
+            "#69",
+            "$0.0832",
+            "−3.9%",
+            "TRENDING+DOWN"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "notable-1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE [TRENDING+UP][MAJOR]: reversed 2-day slide to +4.0%, #1 trending — Aug 6 unlock in 3 days; buyback fund (4.6× unlock) vs bear-case $41.66 still unresolved"
+      }
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "UB [BREAKOUT]: +31.9%/7d+37.7% on rank 104 — sustained, but BEAT ran the same pattern and cratered"
+      }
+    },
+    "notable-3": {
+      "type": "Text",
+      "props": {
+        "text": "BEAT: 3rd consecutive crash day — +15.7% Aug 1, −10.5% Aug 2, −21.1% today; pump fully exhausted"
+      }
+    },
+    "notable-4": {
+      "type": "Text",
+      "props": {
+        "text": "GRVT [TRENDING+UP][MICROCAP]: reversed from −9.3% loser (Aug 2) to +5.8% trending; rank 636, thin liquidity"
+      }
+    }
+  }
+}

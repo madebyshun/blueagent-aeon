@@ -1,41 +1,42 @@
-*Token Movers — 2026-08-02*
+*Token Movers — 2026-08-03*
 
-_Mixed recovery — 62/100 top-cap coins green, median top-50 +0.35%; alts bid across L1s while BTC holds $63k._
+_Slight positive lean — 58/100 top-cap coins green, median top-50 +0.55%; BTC flat at $63k, alts mixed._
 
 *Top Winners (24h)*
-1. ADA (Cardano) — $0.1900  +9.3% / 7d +14.2% / 1h +1.0%  •  $570M / #16  [TRENDING+UP][MAJOR]
-2. ENA (Ethena) — $0.0886  +8.1% / 7d +3.2% / 1h −1.7%  •  $162M / #75
-3. ARB (Arbitrum) — $0.08173  +4.4% / 7d −1.6% / 1h −0.2%  •  $38.4M / #95
-4. AVAX (Avalanche) — $6.57  +4.0% / 7d −1.9% / 1h +0.1%  •  $258M / #32
-5. DOT (Polkadot) — $0.7943  +4.0% / 7d −3.8% / 1h −0.3%  •  $95.1M / #53
-6. UNI (Uniswap) — $4.18  +2.8% / 7d +11.3% / 1h −0.9%  •  $200M / #36  [TRENDING+UP]
-7. NEAR (NEAR Protocol) — $1.70  +2.6% / 7d −5.6% / 1h −0.7%  •  $141M / #39
-8. LINK (Chainlink) — $8.29  +2.2% / 7d −1.9% / 1h −0.5%  •  $191M / #19  [MAJOR]
-9. ATOM (Cosmos) — $1.26  +2.2% / 7d −10.1% / 1h +0.4%  •  $20.1M / #85
-10. XLM (Stellar) — $0.1741  +2.1% / 7d −2.2% / 1h −0.2%  •  $99.1M / #20  [MAJOR]
+1. UB (UNIBASE) — $0.1831  +31.9% / 7d +37.7% / 1h +1.1%  •  $17.3M / #104  [BREAKOUT]
+2. TALUS (US) — $0.05426  +6.7% / 7d +20.0% / 1h −0.1%  •  $7.3M / #187
+3. ALGO (Algorand) — $0.08702  +5.4% / 7d +4.8% / 1h −0.4%  •  $39.6M / #79
+4. ENA (Ethena) — $0.09358  +4.8% / 7d +2.8% / 1h +1.9%  •  $145.6M / #72
+5. HYPE (Hyperliquid) — $53.57  +4.0% / 7d −10.3% / 1h +1.4%  •  $258.8M / #10  [TRENDING+UP][MAJOR]
+6. ZEC (Zcash) — $489.9  +4.0% / 7d −1.7% / 1h +2.0%  •  $215.2M / #15  [MAJOR]
+7. NEXO — $0.7355  +3.2% / 7d +0.9% / 1h +0.4%  •  $3.2M / #80
+8. LIT (Lighter) — $2.100  +2.8% / 7d −6.8% / 1h +1.8%  •  $23.3M / #96
+9. ADA (Cardano) — $0.1945  +2.2% / 7d +18.2% / 1h +2.6%  •  $500.7M / #16  [MAJOR]
+10. AAVE — $92.82  +2.1% / 7d −8.1% / 1h +0.7%  •  $182.6M / #50
 
 *Top Losers (24h)*
-1. BEAT (Audiera) — $4.03  −10.5% / 7d +17.2% / 1h −0.8%  •  $53.3M / #58
-2. GRVT (GRVT Token) — $0.2447  −9.3%  •  #656  [TRENDING+DOWN][MICROCAP]
-3. STABLE (Stable) — $0.03162  −6.1% / 7d −17.3% / 1h −0.5%  •  $8.1M / #77
-4. BinanceLife — $0.5967  −3.2% / 7d −6.5% / 1h −1.4%  •  $8.9M / #90
-5. QNT (Quant) — $60.87  −2.7% / 7d −3.8% / 1h −0.1%  •  $6.2M / #72
-6. KAS (Kaspa) — $0.02670  −1.5% / 7d −7.3% / 1h −0.5%  •  $5.9M / #80
-7. HYPE (Hyperliquid) — $51.51  −1.2% / 7d −12.8% / 1h −0.4%  •  $239M / #10  [TRENDING+DOWN][MAJOR]
+1. BEAT (Audiera) — $3.12  −21.1% / 7d −25.2% / 1h −2.9%  •  $54.1M / #66
+2. BIANRENSHENG — $0.5415  −9.3% / 7d −13.7% / 1h +0.3%  •  $14.3M / #95
+3. PI (Pi Network) — $0.08318  −3.6% / 7d +1.9% / 1h +0.6%  •  $5.9M / #68  [TRENDING+DOWN]
+4. BGB (Bitget Token) — $1.59  −3.0% / 7d −6.6% / 1h +0.1%  •  $8.6M / #62
+5. WLFI — $0.05438  −2.9% / 7d −0.5% / 1h +0.1%  •  $20.2M / #45
+6. M (Memecore) — $1.14  −2.8% / 7d −5.7% / 1h −0.6%  •  $8.9M / #49
+7. SHIB (Shiba Inu) — $0.000004890  −2.2% / 7d −1.9% / 1h +1.0%  •  $84.3M / #31
+8. ONDO — $0.3769  −2.1% / 7d −8.2% / 1h +0.9%  •  $103M / #41
+9. KAS (Kaspa) — $0.02617  −2.0% / 7d −10.3% / 1h +0.1%  •  $8.6M / #81
+10. XLM (Stellar) — $0.1723  −1.2% / 7d −4.8% / 1h +0.5%  •  $100.4M / #20  [MAJOR]
 
 *Trending*
-1. CATE (Catecoin) — #822, $0.01913, 24h +105.7%  [PUMP-RISK][MICROCAP]
-2. BTC (Bitcoin) — #1, $63,068, 24h +0.0%
-3. HYPE (Hyperliquid) — #10, $51.47, 24h −1.5%  [TRENDING+DOWN]
-4. ADA (Cardano) — #16, $0.1900, 24h +9.0%  [TRENDING+UP]
-5. SHIB (Shiba Inu) — #31, $0.000004989, 24h +0.4%
-6. RENDER (Render) — #82, $1.368, 24h −0.5%
-7. CASHCAT (Cash Cat) — #486, $0.04094, 24h +1.8%
+1. HYPE (Hyperliquid) — #10, $53.57, 24h +3.8%  [TRENDING+UP][MAJOR]
+2. PENGU (Pudgy Penguins) — #109, $0.0062, 24h +0.1%
+3. ETH (Ethereum) — #2, $1853, 24h +0.0%  [MAJOR]
+4. GRVT — #636, $0.26, 24h +5.8%  [TRENDING+UP][MICROCAP]
+5. BTC (Bitcoin) — #1, $63143, 24h +0.2%  [MAJOR]
+6. TAO (Bittensor) — #42, $189.2, 24h −1.9%
+7. PI (Pi Network) — #69, $0.0832, 24h −3.9%  [TRENDING+DOWN]
 
 *Notable*
-• CATE: #822 up +105.7% trending #1 — PUMP-RISK, minimal liquidity, high manipulation probability
-• ADA: [TRENDING+UP][MAJOR] +9.3% / 7d +14.2% — strongest large-cap signal today; L1 alt bid building
-• BEAT: yesterday's biggest winner (+15.7% [BREAKOUT]) reversed to biggest loser (−10.5%); no new buy signal
-• UNI: [TRENDING+UP] reversed from yesterday's top loser (−6.8%) to +2.8% / 7d +11.3% — momentum building
-• GRVT: [TRENDING+DOWN] 2nd consecutive day down at −9.3%, rank 656
-• HYPE: [TRENDING+DOWN] Aug 6 unlock 4 days out; −1.2% after −5.0% yesterday; FADE holds
+• HYPE [TRENDING+UP][MAJOR]: reversed 2-day slide to +4.0%, #1 trending — Aug 6 unlock in 3 days; buyback fund (4.6× unlock) vs bear-case $41.66 still unresolved
+• UB [BREAKOUT]: +31.9%/7d+37.7% on rank 104 — sustained, but BEAT ran the same pattern and cratered
+• BEAT: 3rd consecutive crash day — +15.7% Aug 1, −10.5% Aug 2, −21.1% today; pump fully exhausted
+• GRVT [TRENDING+UP][MICROCAP]: reversed from −9.3% loser (Aug 2) to +5.8% trending; rank 636, thin liquidity
