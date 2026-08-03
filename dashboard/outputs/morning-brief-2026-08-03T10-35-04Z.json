@@ -1,0 +1,209 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-03"
+      },
+      "children": [
+        "heading-focus",
+        "stack-focus",
+        "separator-1",
+        "heading-since",
+        "stack-since",
+        "separator-2",
+        "heading-watch",
+        "stack-watch",
+        "separator-3",
+        "heading-running",
+        "stack-running"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. HYPE Aug 6 unlock — why now: T-3 days, bull/bear clash still unresolved"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. ADA CME eligibility Aug 9 — why now: whale accumulation confirmed at multi-year high today"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. background: AI Compute/DePIN — AKT Proposal 318 still gating value-capture; no new signal"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-4"
+      ]
+    },
+    "since-1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE: bull counter-narrative emerged — 4.6x buyback fund challenges bear-case $41.66 target"
+      }
+    },
+    "since-2": {
+      "type": "Text",
+      "props": {
+        "text": "ADA: 10M–100M whale cohort hits multi-year supply high ahead of Aug 9"
+      }
+    },
+    "since-3": {
+      "type": "Text",
+      "props": {
+        "text": "BEAT reversed −10.5% (was +15.7% Aug 1 — pump exhausted, sector noise)"
+      }
+    },
+    "since-4": {
+      "type": "Text",
+      "props": {
+        "text": "XAI credits expired 23+ days — narrative-tracker on WebSearch fallback (quality degraded)"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-1",
+        "watch-2"
+      ]
+    },
+    "watch-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ADA whales at multi-year supply high, price stays low — smart-money positioning into Focus #2",
+        "href": "https://captainaltcoin.com",
+        "source": "captainaltcoin.com"
+      }
+    },
+    "watch-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HYPE: buyback fund 4.6x unlock size, eyes 20% rise — challenges Focus #1 bear-case exit thesis",
+        "href": "https://fxempire.com",
+        "source": "fxempire.com"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC"
+      }
+    }
+  }
+}
