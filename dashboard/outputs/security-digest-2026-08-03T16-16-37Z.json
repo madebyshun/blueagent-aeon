@@ -1,0 +1,157 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-08-03"
+      },
+      "children": [
+        "verdict_section",
+        "sep1",
+        "patch_section",
+        "sep2",
+        "kev_section"
+      ]
+    },
+    "verdict_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verdict_text",
+        "sources_text"
+      ]
+    },
+    "verdict_text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: nothing urgent today. 1 to schedule, 0 to monitor.",
+        "variant": "body"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV, GH Advisory, EPSS",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_heading",
+        "vuln_container"
+      ]
+    },
+    "patch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "vuln_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "vuln_link",
+        "package_text",
+        "severity_badges",
+        "vuln_description",
+        "upgrade_instructions"
+      ]
+    },
+    "vuln_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-vpx6-8pjr-4g3v",
+        "href": "https://github.com/advisories/GHSA-vpx6-8pjr-4g3v"
+      }
+    },
+    "package_text": {
+      "type": "Text",
+      "props": {
+        "text": "@angular/platform-server (npm)",
+        "variant": "body"
+      }
+    },
+    "severity_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cvss_badge",
+        "epss_badge",
+        "poc_badge"
+      ]
+    },
+    "cvss_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.6",
+        "variant": "destructive"
+      }
+    },
+    "epss_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "secondary"
+      }
+    },
+    "poc_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "No public PoC",
+        "variant": "default"
+      }
+    },
+    "vuln_description": {
+      "type": "Text",
+      "props": {
+        "text": "SSR missing escaping in fallback elements (<iframe>/<noscript>/<noframes>) → unauthenticated XSS. Network, low complexity, passive user interaction.",
+        "variant": "body"
+      }
+    },
+    "upgrade_instructions": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade @angular/platform-server to ≥22.0.7 (v22) / ≥21.2.19 (v21) / ≥20.3.27 (v20).",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "kev_section": {
+      "type": "Alert",
+      "props": {
+        "title": "KEV Note",
+        "message": "3 confirmed-exploited entries this week (Cisco FMC, Fortinet FortiOS, Arista VeloCloud) — all reported Aug 1–2, not repeating.",
+        "type": "info"
+      }
+    }
+  }
+}
