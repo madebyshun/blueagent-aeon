@@ -289,3 +289,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-08-03,security-digest,claude-sonnet-4-6,173,7273,535572,39809
 2026-08-03,deal-flow,claude-sonnet-4-6,2003,17658,988117,96740
 2026-08-04,morning-brief,claude-sonnet-4-6,12,5627,354663,34119
+2026-08-04,github-trending,claude-sonnet-4-6,28,20475,1383915,51763
