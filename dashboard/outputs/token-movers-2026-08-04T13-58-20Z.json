@@ -1,0 +1,478 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "2026-08-04"
+      },
+      "children": [
+        "summary_text",
+        "sep1",
+        "winners_section",
+        "sep2",
+        "losers_section",
+        "sep3",
+        "trending_section",
+        "sep4",
+        "notable_section"
+      ]
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Risk-on bid — BTC +2.2%, ETH +2.0%; ~62% of top-100 coins green, median top-50 ~+1.5%; broad alt lift with L1s and derivatives names leading.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "winners_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners_heading",
+        "winners_table"
+      ]
+    },
+    "winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "winners_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Name",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Volume / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "UB",
+            "Unibase",
+            "$0.1976",
+            "+10.4%",
+            "+55.2%",
+            "+0.2%",
+            "$4.7M / #99",
+            ""
+          ],
+          [
+            "ATOM",
+            "Cosmos",
+            "$1.37",
+            "+6.9%",
+            "+5.0%",
+            "−0.7%",
+            "$56.7M / #82",
+            ""
+          ],
+          [
+            "PUMP",
+            "Pump.fun",
+            "$0.002237",
+            "+6.3%",
+            "+11.9%",
+            "−0.5%",
+            "$95.3M / #71",
+            "TRENDING+UP"
+          ],
+          [
+            "AVAX",
+            "Avalanche",
+            "$6.75",
+            "+5.7%",
+            "+5.3%",
+            "−0.3%",
+            "$282.8M / #32",
+            ""
+          ],
+          [
+            "HYPE",
+            "Hyperliquid",
+            "$55.67",
+            "+5.6%",
+            "+2.4%",
+            "+0.3%",
+            "$320.4M / #10",
+            "TRENDING+UP, MAJOR"
+          ],
+          [
+            "WLD",
+            "Worldcoin",
+            "$0.3245",
+            "+4.8%",
+            "+0.9%",
+            "−0.9%",
+            "$130.6M / #60",
+            ""
+          ],
+          [
+            "M",
+            "MemeCore",
+            "$1.20",
+            "+3.8%",
+            "+4.5%",
+            "−0.9%",
+            "$5.6M / #48",
+            ""
+          ],
+          [
+            "SHIB",
+            "Shiba Inu",
+            "$0.000005",
+            "+3.3%",
+            "+8.2%",
+            "−0.4%",
+            "$95.3M / #31",
+            ""
+          ],
+          [
+            "DOT",
+            "Polkadot",
+            "$0.8290",
+            "+3.0%",
+            "+9.6%",
+            "−0.3%",
+            "$97.8M / #53",
+            ""
+          ],
+          [
+            "HBAR",
+            "Hedera",
+            "$0.0699",
+            "+2.9%",
+            "+4.8%",
+            "−0.4%",
+            "$53.4M / #29",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "losers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers_heading",
+        "losers_table"
+      ]
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "losers_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Name",
+          "Price",
+          "24h%",
+          "7d%",
+          "1h%",
+          "Volume / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "CC",
+            "Canton",
+            "$0.1085",
+            "−5.9%",
+            "−8.4%",
+            "−1.4%",
+            "$15.4M / #23",
+            ""
+          ],
+          [
+            "UNI",
+            "Uniswap",
+            "$3.86",
+            "−5.2%",
+            "+0.8%",
+            "−0.6%",
+            "$241.3M / #38",
+            "TRENDING+DOWN"
+          ],
+          [
+            "NEXO",
+            "NEXO",
+            "$0.7201",
+            "−2.3%",
+            "−0.4%",
+            "+0.7%",
+            "$6.0M / #81",
+            ""
+          ],
+          [
+            "FLR",
+            "Flare",
+            "$0.006100",
+            "−2.2%",
+            "−1.5%",
+            "+0.6%",
+            "$2.6M / #95",
+            ""
+          ],
+          [
+            "RAIN",
+            "RAIN",
+            "$0.01250",
+            "−2.0%",
+            "−10.1%",
+            "−0.7%",
+            "$19.9M / #14",
+            "MAJOR"
+          ],
+          [
+            "LIT",
+            "Lighter",
+            "$2.05",
+            "−1.1%",
+            "−4.4%",
+            "−0.6%",
+            "$22.5M / #98",
+            ""
+          ],
+          [
+            "GRAM",
+            "Toncoin",
+            "$1.38",
+            "−1.0%",
+            "−4.2%",
+            "−0.1%",
+            "$58.8M / #26",
+            ""
+          ],
+          [
+            "ONDO",
+            "ONDO",
+            "$0.3708",
+            "−0.7%",
+            "n/a",
+            "n/a",
+            "n/a / #43",
+            "TRENDING+DOWN"
+          ],
+          [
+            "AAVE",
+            "AAVE",
+            "$91.98",
+            "−0.6%",
+            "−5.2%",
+            "−0.7%",
+            "$174.9M / #51",
+            ""
+          ],
+          [
+            "ENA",
+            "Ethena",
+            "$0.0913",
+            "−0.6%",
+            "+9.6%",
+            "−0.1%",
+            "$131.9M / #73",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "trending_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending_heading",
+        "trending_items"
+      ]
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "trending_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trend_1",
+        "trend_2",
+        "trend_3",
+        "trend_4",
+        "trend_5",
+        "trend_6",
+        "trend_7"
+      ]
+    },
+    "trend_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. QUID (Squid) — #816, $0.1108, 24h +0.0%"
+      },
+      "children": []
+    },
+    "trend_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. ERG (Ergo) — #833, $0.2212, 24h +5.1%"
+      },
+      "children": []
+    },
+    "trend_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. PENGU (Pudgy Penguins) — #110, $0.006112, 24h +0.0%"
+      },
+      "children": []
+    },
+    "trend_4": {
+      "type": "Text",
+      "props": {
+        "text": "4. CASHCAT (Cash Cat) — #319, $0.07211, 24h +52.2% [PUMP-RISK]"
+      },
+      "children": []
+    },
+    "trend_5": {
+      "type": "Text",
+      "props": {
+        "text": "5. HOME — #424, $0.01146, 24h +76.1% [PUMP-RISK]"
+      },
+      "children": []
+    },
+    "trend_6": {
+      "type": "Text",
+      "props": {
+        "text": "6. HYPE (Hyperliquid) — #10, $55.66, 24h +4.6% [TRENDING+UP][MAJOR]"
+      },
+      "children": []
+    },
+    "trend_7": {
+      "type": "Text",
+      "props": {
+        "text": "7. CYS (Cysic) — #294, $0.4924, 24h +69.2% [PUMP-RISK]"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "notable_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_heading",
+        "notable_items"
+      ]
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "notable_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable_1",
+        "notable_2",
+        "notable_3",
+        "notable_4",
+        "notable_5"
+      ]
+    },
+    "notable_1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE [TRENDING+UP][MAJOR]: +5.6% with Aug 6 unlock T-2 — pre-event bid holds at $55.67; short-cover or buyback narrative driving; event risk peaks tomorrow"
+      },
+      "children": []
+    },
+    "notable_2": {
+      "type": "Text",
+      "props": {
+        "text": "CASHCAT / HOME / CYS [PUMP-RISK]: ranks 319/424/294 all >+50% trending — textbook microcap pump cluster; discard as signal without specific catalyst knowledge"
+      },
+      "children": []
+    },
+    "notable_3": {
+      "type": "Text",
+      "props": {
+        "text": "UNI [TRENDING+DOWN]: flipped from Aug 2 winner (+2.8%) to −5.2% while still trending — watch for continued selling or bounce"
+      },
+      "children": []
+    },
+    "notable_4": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO [TRENDING+DOWN]: 2nd straight loser day in trending; tokenized equities narrative intact structurally but sentiment soft"
+      },
+      "children": []
+    },
+    "notable_5": {
+      "type": "Text",
+      "props": {
+        "text": "BEAT: 4th straight loss day −24.9% (Aug 1 +15.7% → Aug 2 −10.5% → Aug 3 −21.1% → today); crash ongoing, no capitulation volume signal yet"
+      },
+      "children": []
+    }
+  }
+}
