@@ -1,23 +1,15 @@
-*Morning Brief — 2026-08-03*
+*Morning Brief — 2026-08-04*
 
 *Focus today*
-1. HYPE Aug 6 unlock — why now: T-3 days, bull/bear clash still unresolved
-2. ADA CME eligibility Aug 9 — why now: whale accumulation confirmed at multi-year high today
-3. background: AI Compute/DePIN — AKT Proposal 318 still gating value-capture; no new signal
+1. HYPE Aug 6 unlock — why now: T-2, positioning window closes in ~24h
+2. ADA CME Aug 9 eligibility — why now: whale accumulation confirmed; 5 days to catalyst
+3. background: XAI credits expired 24+ days — narrative-tracker on WebSearch fallback; no fix yet
 
 *Since yesterday*
-- HYPE: bull counter-narrative emerged — 4.6x buyback fund challenges bear-case $41.66 target
-- ADA: 10M–100M whale cohort hits multi-year supply high ahead of Aug 9
-- BEAT reversed −10.5% (was +15.7% Aug 1 — pump exhausted, sector noise)
-- XAI credits expired 23+ days — narrative-tracker on WebSearch fallback (quality degraded)
+- HYPE: T-3 → T-2; +4.0% reversal confirmed, 4.6x buyback fund narrative vs bear-case $41.66 unresolved
+- ADA: +2.2%, whale accumulation at multi-year supply high; CME clock at 5 days
+- AI agent security: $203M across 3 rounds in 7 days — Onyx $113M, Act $60M, Hush $30M (deal-flow Aug 3)
+- Token pick: GRVT HIGH 8/10 — TGE Jul 30, Binance Alpha + 4 exchanges + perp futures live
 
 *Watch*
-- ADA whales at multi-year supply high, price stays low — smart-money positioning into Focus #2 (captainaltcoin.com)
-- HYPE: buyback fund 4.6x unlock size, eyes 20% rise — challenges Focus #1 bear-case exit thesis (fxempire.com)
-
-*Running today*
-- github-monitor @ 09:00 UTC
-- token-movers @ 12:00 UTC
-- token-pick @ 12:00 UTC
-- narrative-tracker @ 13:30 UTC
-- heartbeat @ 08:00, 14:00, 20:00 UTC
+- FXEmpire: Hyperliquid

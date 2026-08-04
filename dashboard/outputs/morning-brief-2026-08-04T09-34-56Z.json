@@ -1,0 +1,191 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-04"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "yesterday_section",
+        "sep2",
+        "watch_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_list"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "focus_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE Aug 6 unlock — why now: T-2, positioning window closes in ~24h"
+      },
+      "children": []
+    },
+    "focus_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "ADA CME Aug 9 eligibility — why now: whale accumulation confirmed; 5 days to catalyst"
+      },
+      "children": []
+    },
+    "focus_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "background: XAI credits expired 24+ days — narrative-tracker on WebSearch fallback; no fix yet"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "yesterday_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_heading",
+        "yesterday_list"
+      ]
+    },
+    "yesterday_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_item_1",
+        "yesterday_item_2",
+        "yesterday_item_3",
+        "yesterday_item_4"
+      ]
+    },
+    "yesterday_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE: T-3 → T-2; +4.0% reversal confirmed, 4.6x buyback fund narrative vs bear-case $41.66 unresolved"
+      },
+      "children": []
+    },
+    "yesterday_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "ADA: +2.2%, whale accumulation at multi-year supply high; CME clock at 5 days"
+      },
+      "children": []
+    },
+    "yesterday_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "AI agent security: $203M across 3 rounds in 7 days — Onyx $113M, Act $60M, Hush $30M (deal-flow Aug 3)"
+      },
+      "children": []
+    },
+    "yesterday_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "Token pick: GRVT HIGH 8/10 — TGE Jul 30, Binance Alpha + 4 exchanges + perp futures live"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_heading",
+        "watch_list"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_item_1"
+      ]
+    },
+    "watch_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "FXEmpire: Hyperliquid"
+      },
+      "children": []
+    }
+  }
+}
