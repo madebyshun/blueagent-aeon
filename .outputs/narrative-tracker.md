@@ -1,15 +1,19 @@
+Sandbox blocks direct `./notify` for multi-line args — consistent with the established pattern. The notification is staged in `.pending-notify/narrative-tracker-2026-08-05.md` for the postprocess step to pick up.
+
 ## Summary
 
-Narrative tracker run complete for 2026-08-04.
+**What was done:**
+- Logged `NARRATIVE_CACHE_MISS` (XAI 403, 26th consecutive day) — fell back to WebSearch
+- Ran 5 WebSearch queries covering broad crypto sentiment, AI agent trends, Kaito mindshare, HYPE unlock, and Aug 5 market movers
+- Diffed against the Aug 2–4 baseline (20 narratives)
 
-**Cache:** NARRATIVE_CACHE_MISS — XAI 403 (25th consecutive day). Fell back to WebSearch + today's prior skill logs as primary sources.
+**Transitions detected (3):**
+- **PROMOTED**: Hyperliquid/HYPE Fading → Rising RIDE — Aug 6 unlock confirmed 22.74M/0.19% supply (bear case busted); HYPE up today; 4.6x buyback fund + historical +4.17% post-unlock avg = base case
+- **NEW**: ZEC/Privacy Payments Emerging ↑↑ FRONT-RUN — three compounding catalysts (Fortitude Mining 60MW, Multicoin Capital, shielded pool >30%); ZEC-specific, not broad privacy rotation (XMR -2.4% same day)
+- **VELOCITY UPGRADE**: Memecoins → → ↑ — PUMP sustained +13–18% in Fear & Greed 25; decoupling from HFT/CYS pump-risk noise
 
-**Key transitions vs Aug 3 baseline:**
+**Reflexivity flagged:** HYPE pre-unlock narrative pricing, PUMP extreme-fear breakout, ENA unlock headwind vs CIP bull narrative
 
-- **VELOCITY UPGRADE: Stablecoin Rails (↑ → ↑↑)** — ENA fee switch governance vote compressing (CIP Aug 21 = 17 days; sENA yield 4.5–34% APY; thresholds already met). UNI -5.2% trending-down on risk-on day = DeFi capital rotating from governance-only → yield-bearing in real time.
-- **RESOLUTION IMMINENT: Hyperliquid** — HYPE +5.6% trending (3rd consecutive day), T-2 to Aug 6 unlock. Pre-unlock squeeze at peak. Post-event position call incoming.
-- **VELOCITY DECAY CONFIRMED: Tokenized Equities** — ONDO -0.7% second consecutive trending-down day. Structural thesis intact (DTCC rails), token diverging.
-
-**Reflexivity:** HYPE pre-unlock squeeze (peak narrative clash, no fundamental news); ENA/UNI DeFi rotation (concrete: same session, opposite directions, no UNI catalyst).
-
-**Files:** `memory/logs/2026-08-04.md` updated with full narrative table, `.pending-notify/narrative-tracker-2026-08-04.md` staged for post-process delivery (sandbox blocked direct `./notify`). Committed.
+**Files written:**
+- `.pending-notify/narrative-tracker-2026-08-05.md` — notification staged for postprocess delivery
+- `memory/logs/2026-08-05.md` — full `### narrative-tracker` section appended (all 21 narratives scored, transitions logged, sources cited)
