@@ -1,0 +1,264 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-08-05"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token_section",
+        "separator_1",
+        "market_section",
+        "separator_2",
+        "footer_section"
+      ]
+    },
+    "token_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token_heading",
+        "token_header_row",
+        "stat_price",
+        "stat_mcap",
+        "stat_volume",
+        "text_score",
+        "text_catalyst",
+        "risk_delistings"
+      ]
+    },
+    "token_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC",
+        "level": "h2"
+      }
+    },
+    "token_header_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_high",
+        "stat_signal"
+      ]
+    },
+    "badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "default"
+      }
+    },
+    "stat_signal": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "8/10"
+      }
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "value": "$517.37",
+        "label": "Price",
+        "delta": "+7.3% 24h / +13.8% 7d",
+        "trend": "up"
+      }
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "value": "$8.7B",
+        "label": "Market Cap"
+      }
+    },
+    "stat_volume": {
+      "type": "Stat",
+      "props": {
+        "value": "$256M",
+        "label": "Volume (vol/mcap 0.029)"
+      }
+    },
+    "text_score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, CG trending+2, RS vs BTC/ETH+2] = 8/10",
+        "variant": "caption"
+      }
+    },
+    "text_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: Fortitude Mining (DCG-backed) announced Zcash network capacity expansion to 60 MW — primary near-term driver; Multicoin Capital openly accumulating ZEC framing it as a seizure-resistant asset",
+        "variant": "body"
+      }
+    },
+    "risk_delistings": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "MiCA + SEC exchange delistings structurally active — European liquidity exit could sharply compress price despite bullish on-chain signals",
+        "type": "warning"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_heading",
+        "market_header_row",
+        "text_current_odds",
+        "market_odds_stack",
+        "stat_fair_yes",
+        "text_thesis",
+        "risk_escalation"
+      ]
+    },
+    "market_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Will the U.S. invade Iran before 2027?",
+        "level": "h2"
+      }
+    },
+    "market_header_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_medium",
+        "text_edge_label"
+      ]
+    },
+    "badge_medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      }
+    },
+    "text_edge_label": {
+      "type": "Text",
+      "props": {
+        "text": "Edge: 9.5pp",
+        "variant": "body"
+      }
+    },
+    "text_current_odds": {
+      "type": "Text",
+      "props": {
+        "text": "Current: YES 15.5¢ / NO 84.5¢ | Resolves: Dec 31, 2026",
+        "variant": "body"
+      }
+    },
+    "market_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "progress_yes",
+        "progress_no"
+      ]
+    },
+    "progress_yes": {
+      "type": "Progress",
+      "props": {
+        "value": 15.5,
+        "max": 100,
+        "label": "YES: 15.5¢"
+      }
+    },
+    "progress_no": {
+      "type": "Progress",
+      "props": {
+        "value": 84.5,
+        "max": 100,
+        "label": "NO: 84.5¢"
+      }
+    },
+    "stat_fair_yes": {
+      "type": "Stat",
+      "props": {
+        "value": "~6%",
+        "label": "Fair YES Probability"
+      }
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: BUY NO at 84.5¢ — market at 15.5% YES prices 2.5× invasion probability vs evidence; post-ceasefire de-escalation makes <5-month timeline implausible. Reasoning: [1] ceasefire holding Aug 1–5, US-Iran risk labeled DEAD in narrative tracker; [2] no Congressional authorization process underway; [3] no US ground invasion since Iraq 2003 — air campaigns only in recent conflicts",
+        "variant": "body"
+      }
+    },
+    "risk_escalation": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Unexpected military escalation if ceasefire breaks; executive unilateral action bypassing Congress",
+        "type": "warning"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_sources",
+        "text_disclaimer"
+      ]
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "text_disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}

@@ -1,16 +1,16 @@
-Done. Here's the summary:
+*Daily Pick — 2026-08-05*
 
-## Summary
+*Token: ZEC*  \[HIGH\]  signal 8/10
+Price: $517.37 (+7.3% 24h / +13.8% 7d) | mcap $8.7B | vol $256M (vol/mcap 0.029)
+Score breakdown: \[24h>0+1, 7d>0+1, both>5%+2, CG trending+2, RS vs BTC/ETH+2\] = 8/10
+Catalyst: Fortitude Mining (DCG-backed) announced Zcash network capacity expansion to 60 MW — primary near-term driver; Multicoin Capital openly accumulating ZEC framing it as a seizure-resistant asset
+Risk: MiCA + SEC exchange delistings structurally active — European liquidity exit could sharply compress price despite bullish on-chain signals
 
-**Token Pick: ENA (Ethena) — HIGH, 8/10**
-- $0.091 | +0.6% 24h / +9.6% 7d | mcap $874M | vol $132M (vol/mcap 15.1%)
-- Score: trending+2, vol/mcap+2, RS vs BTC/ETH 7d+2, both-positive+1+1 = 8/10
-- Catalyst: Fee switch governance vote pending — Risk Committee confirmed all conditions met (May 2026); if passed, sENA becomes yield-bearing at 4.5–34% APY
-- Risk: 171.88M token unlock Aug 5 (~$15.4M, near-term supply headwind)
+*Market: "Will the U.S. invade Iran before 2027?"*  \[MEDIUM\]  edge 9.5pp
+Current: YES 15.5¢ / NO 84.5¢ | resolves: Dec 31, 2026
+Fair YES: ~6% (inputs: \[1\] ceasefire holding Aug 1–5, US-Iran risk labeled DEAD in narrative tracker; \[2\] no Congressional authorization process underway; \[3\] no US ground invasion since Iraq 2003 — air campaigns only in recent conflicts)
+Thesis: BUY NO at 84.5¢ — market at 15.5% YES prices 2.5× invasion probability vs evidence; post-ceasefire de-escalation makes <5-month timeline implausible
+Risk: Unexpected military escalation if ceasefire breaks; executive unilateral action bypassing Congress
 
-**Market Pick: "Will the Fed raise rates by the October 2026 FOMC meeting?" — HIGH, 13pp edge, BUY YES at 62¢**
-- Fair YES ~75%: Sep hike 50% (Kalshi/Polymarket aggregate) + Oct hike if Sep skipped ~50% (Warsh hawkish, 9/19 FOMC dot plot) = 50% + 25% = 75%
-- Thesis: market conflates a September skip with the hike cycle ending; October is the natural next window
-- Risk: July NFP (Aug 7) very weak → dovish repricing
-
-**Notification** staged to `.pending-notify/1785851957.md` (sandbox blocked direct `./notify`). Log appended to `memory/logs/2026-08-04.md`.
+sources: cg=ok, dex=fail, poly=ok
+not financial advice — pattern-matching only
