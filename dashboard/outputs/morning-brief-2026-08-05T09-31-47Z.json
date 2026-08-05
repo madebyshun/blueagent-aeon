@@ -1,0 +1,380 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-05"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-focus-heading",
+        "section-focus",
+        "separator-1",
+        "section-since-heading",
+        "section-since",
+        "separator-2",
+        "section-watch-heading",
+        "section-watch",
+        "separator-3",
+        "section-running-heading",
+        "section-running"
+      ]
+    },
+    "section-focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-text"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "HYPE Aug 6 unlock",
+        "level": "h3"
+      }
+    },
+    "focus-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: T-1, pre-unlock window closes today; 22.74M core contributor release"
+      }
+    },
+    "focus-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-text"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ADA CME eligibility Aug 9",
+        "level": "h3"
+      }
+    },
+    "focus-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: T-4, 75-day SEC window opens; 6-firm ETF queue filing-ready"
+      }
+    },
+    "focus-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-text"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ENA fee switch CIP Aug 21",
+        "level": "h3"
+      }
+    },
+    "focus-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: T-16, thresholds already met; DeFi capital rotating from UNI"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-since-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "section-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-4"
+      ]
+    },
+    "since-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-1-badge",
+        "since-1-text"
+      ]
+    },
+    "since-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE +5.6% trending (3rd consecutive day); ENA token-pick HIGH 8/10 on fee switch thesis"
+      }
+    },
+    "since-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-2-badge",
+        "since-2-text"
+      ]
+    },
+    "since-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin Rails narrative upgraded ↑→↑↑ — ENA/UNI rotation confirmed same session"
+      }
+    },
+    "since-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-3-badge",
+        "since-3-alert"
+      ]
+    },
+    "since-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since-3-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Security: Flowise 3.1.2",
+        "message": "6 critical/high CVEs, Metasploit root shell (GHSA-vmv7-4m6c-3cg5); KEV add CVE-2026-18577 (N-able N-central)",
+        "type": "warning"
+      }
+    },
+    "since-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-4-badge",
+        "since-4-text"
+      ]
+    },
+    "since-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "since-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "XAI credits expired — 25th consecutive day; narrative-tracker on WebSearch fallback (degraded)",
+        "variant": "muted"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-1",
+        "watch-2"
+      ]
+    },
+    "watch-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-1-title",
+        "watch-1-text"
+      ]
+    },
+    "watch-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "HYPE unlock",
+        "level": "h3"
+      }
+    },
+    "watch-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "22.74M (433K tokens, 0.19% supply) core contributor release; smaller than bear-case feared — bullish for Focus #1"
+      }
+    },
+    "watch-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-2-title",
+        "watch-2-text"
+      ]
+    },
+    "watch-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ADA Aug 9",
+        "level": "h3"
+      }
+    },
+    "watch-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Oct 23 decision deadline confirmed; 6 firms queued — compresses Focus #2 timeline"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC"
+      }
+    }
+  }
+}
