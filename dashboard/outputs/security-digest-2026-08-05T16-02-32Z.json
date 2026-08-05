@@ -1,0 +1,14 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest 2026-08-05",
+        "description": "staging to .pending-notify (sandbox limitation)"
+      },
+      "children": []
+    }
+  }
+}
