@@ -1,0 +1,493 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-08-06"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-token",
+        "sep-major-1",
+        "section-market",
+        "sep-major-2",
+        "disclaimer"
+      ]
+    },
+    "section-token": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-header",
+        "token-prices",
+        "score-section",
+        "catalyst-section",
+        "risk-token-section",
+        "vs-recent"
+      ]
+    },
+    "token-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading-token",
+        "badge-high",
+        "stat-signal"
+      ]
+    },
+    "heading-token": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: BICO",
+        "level": "h3"
+      }
+    },
+    "badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "stat-signal": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "9/10"
+      }
+    },
+    "token-prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat-price",
+        "stat-mcap",
+        "stat-volume",
+        "stat-ratio"
+      ]
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.034",
+        "delta": "+31.9% 24h / +168.9% 7d",
+        "trend": "up"
+      }
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$34M"
+      }
+    },
+    "stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$117M"
+      }
+    },
+    "stat-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/mcap",
+        "value": "3.41"
+      }
+    },
+    "score-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-score",
+        "score-table"
+      ]
+    },
+    "heading-score": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h4"
+      }
+    },
+    "score-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Metric",
+          "Points"
+        ],
+        "rows": [
+          [
+            "Trending",
+            "+2"
+          ],
+          [
+            "Vol/mcap > 0.20",
+            "+3"
+          ],
+          [
+            "RS vs BTC/ETH",
+            "+2"
+          ],
+          [
+            "24h > 0%",
+            "+1"
+          ],
+          [
+            "7d > 0%",
+            "+1"
+          ],
+          [
+            "Both > 5%",
+            "+2"
+          ],
+          [
+            "Total",
+            "9/10"
+          ]
+        ]
+      }
+    },
+    "catalyst-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-catalyst",
+        "catalyst-1",
+        "catalyst-2",
+        "catalyst-3"
+      ]
+    },
+    "heading-catalyst": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "catalyst-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Gemini Wallet launched on Biconomy Nexus smart account stack",
+        "href": "https://blog.biconomy.io",
+        "source": "Biconomy Blog"
+      }
+    },
+    "catalyst-2": {
+      "type": "Text",
+      "props": {
+        "text": "ERC-8211 AI-agent DeFi batching standard co-authored with Ethereum Foundation",
+        "variant": "body"
+      }
+    },
+    "catalyst-3": {
+      "type": "Text",
+      "props": {
+        "text": "Bitkub listing Aug 22",
+        "variant": "body"
+      }
+    },
+    "risk-token-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-risk-token",
+        "risk-1",
+        "risk-2",
+        "risk-3"
+      ]
+    },
+    "heading-risk-token": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      }
+    },
+    "risk-1": {
+      "type": "Text",
+      "props": {
+        "text": "mcap $34M thin float",
+        "variant": "body"
+      }
+    },
+    "risk-2": {
+      "type": "Text",
+      "props": {
+        "text": "BICO value-capture from ERC-8211 adoption unproven",
+        "variant": "body"
+      }
+    },
+    "risk-3": {
+      "type": "Text",
+      "props": {
+        "text": "Bitkub is a small exchange",
+        "variant": "body"
+      }
+    },
+    "vs-recent": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time",
+        "variant": "caption"
+      }
+    },
+    "sep-major-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-header",
+        "market-odds-group",
+        "market-details",
+        "fair-value-section",
+        "thesis-section",
+        "risk-market-section",
+        "sources-section"
+      ]
+    },
+    "market-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading-market",
+        "badge-high-market",
+        "stat-edge"
+      ]
+    },
+    "heading-market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will there be no change in Fed interest rates after September 2026 meeting?",
+        "level": "h3"
+      }
+    },
+    "badge-high-market": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "stat-edge": {
+      "type": "Stat",
+      "props": {
+        "label": "Edge",
+        "value": "20pp"
+      }
+    },
+    "market-odds-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-yes",
+        "stat-no"
+      ]
+    },
+    "stat-yes": {
+      "type": "Stat",
+      "props": {
+        "label": "Current: YES (no change)",
+        "value": "50.5¢"
+      }
+    },
+    "stat-no": {
+      "type": "Stat",
+      "props": {
+        "label": "Current: NO (change)",
+        "value": "49.5¢"
+      }
+    },
+    "market-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-vol-market",
+        "stat-resolution"
+      ]
+    },
+    "stat-vol-market": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$1,542,480"
+      }
+    },
+    "stat-resolution": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "2026-09-16"
+      }
+    },
+    "fair-value-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-fair",
+        "stat-fair-yes",
+        "text-inputs"
+      ]
+    },
+    "heading-fair": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair Value Analysis",
+        "level": "h4"
+      }
+    },
+    "stat-fair-yes": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES",
+        "value": "~30%"
+      }
+    },
+    "text-inputs": {
+      "type": "Text",
+      "props": {
+        "text": "[1] CME FedWatch Sep hike prob ~70% — Warsh hawkish + elevated energy prices; [2] Jul 29 FOMC held but tightening trajectory unchanged per dot plot; [3] market conflates July hold with September hold — different inflation context",
+        "variant": "body"
+      }
+    },
+    "thesis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-thesis",
+        "text-thesis"
+      ]
+    },
+    "heading-thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      }
+    },
+    "text-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Market overprices no-change at 50.5¢; hawkish trajectory + energy-driven inflation make Sep 25bp hike base case; BUY NO at 49.5¢",
+        "variant": "body"
+      }
+    },
+    "risk-market-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-risk-market",
+        "text-risk-market"
+      ]
+    },
+    "heading-risk-market": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      }
+    },
+    "text-risk-market": {
+      "type": "Text",
+      "props": {
+        "text": "Rapid CPI decline between now and Sep 16 could justify hold and flip fair value above 50%",
+        "variant": "body"
+      }
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-sources",
+        "text-sources"
+      ]
+    },
+    "heading-sources": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h4"
+      }
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "sep-major-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "disclaimer": {
+      "type": "Alert",
+      "props": {
+        "message": "Not financial advice — pattern-matching only",
+        "type": "info"
+      }
+    }
+  }
+}
