@@ -1,23 +1,25 @@
-*Morning Brief — 2026-08-05*
+*Morning Brief — 2026-08-06*
 
 *Focus today*
-1. HYPE Aug 6 unlock — why now: T-1, pre-unlock window closes today; 22.74M core contributor release
-2. ADA CME eligibility Aug 9 — why now: T-4, 75-day SEC window opens; 6-firm ETF queue filing-ready
-3. ENA fee switch CIP Aug 21 — why now: T-16, thresholds already met; DeFi capital rotating from UNI
+1. HYPE unlock day — why now: 9.92M tokens live; post-event direction resolves today
+2. ADA CME eligibility Aug 9 — why now: Grayscale filing activation expected in 3 days
+3. ONDO demote call pending — why now: Aug 7 deadline; 4th no-signal day triggers demotion
 
 *Since yesterday*
-- [moved] HYPE +5.6% trending (3rd consecutive day); ENA token-pick HIGH 8/10 on fee switch thesis
-- [moved] Stablecoin Rails narrative upgraded ↑→↑↑ — ENA/UNI rotation confirmed same session
-- [moved] Security: Flowise 3.1.2 — 6 critical/high CVEs, Metasploit root shell (GHSA-vmv7-4m6c-3cg5); KEV add CVE-2026-18577 (N-able N-central)
-- [stuck] XAI credits expired — 25th consecutive day; narrative-tracker on WebSearch fallback (degraded)
+- HYPE [UNLOCK DAY]: pre-event relief rally held ($56.82); market testing post-unlock absorption now
+- ZEC [FRONT-RUN carried]: three compounding catalysts; token pick Aug 5 HIGH 8/10 intact
+- Memecoins: PUMP velocity upgrade sustained (↑ WATCH) — extreme fear market breakout held
+- XAI credits: day 26 expired — narrative-tracker running on WebSearch fallback (degraded)
 
 *Watch*
-- HYPE unlock: 22.74M (433K tokens, 0.19% supply) core contributor release; smaller than bear-case feared — bullish for Focus #1
-- ADA Aug 9: Oct 23 decision deadline confirmed; 6 firms queued — compresses Focus #2 timeline
+- HYPE $56.82 on unlock day (9.92M tokens, 1.0% supply entering market) — relief narrative holds or sell-the-news exits crowded longs; resolves Focus #1
+- ADA ETF: smart money already positioned ahead of Aug 9 CME eligibility; Oct 23 SEC decision deadline locked — compresses Focus #2 horizon
 
 *Running today*
+- heartbeat @ 08:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
-- heartbeat @ 08:00, 14:00, 20:00 UTC
+- heartbeat @ 14:00 UTC
+- heartbeat @ 20:00 UTC

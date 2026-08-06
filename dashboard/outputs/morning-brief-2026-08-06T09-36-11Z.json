@@ -1,0 +1,219 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-06"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus",
+        "sep1",
+        "heading_yesterday",
+        "stack_yesterday",
+        "sep2",
+        "heading_watch",
+        "stack_watch",
+        "sep3",
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. HYPE unlock day — why now: 9.92M tokens live; post-event direction resolves today"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. ADA CME eligibility Aug 9 — why now: Grayscale filing activation expected in 3 days"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. ONDO demote call pending — why now: Aug 7 deadline; 4th no-signal day triggers demotion"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_1",
+        "yesterday_2",
+        "yesterday_3",
+        "yesterday_4"
+      ]
+    },
+    "yesterday_1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE [UNLOCK DAY]: pre-event relief rally held ($56.82); market testing post-unlock absorption now"
+      }
+    },
+    "yesterday_2": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC [FRONT-RUN carried]: three compounding catalysts; token pick Aug 5 HIGH 8/10 intact"
+      }
+    },
+    "yesterday_3": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoins: PUMP velocity upgrade sustained (↑ WATCH) — extreme fear market breakout held"
+      }
+    },
+    "yesterday_4": {
+      "type": "Text",
+      "props": {
+        "text": "XAI credits: day 26 expired — narrative-tracker running on WebSearch fallback (degraded)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE $56.82 on unlock day (9.92M tokens, 1.0% supply entering market) — relief narrative holds or sell-the-news exits crowded longs; resolves Focus #1"
+      }
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "ADA ETF: smart money already positioned ahead of Aug 9 CME eligibility; Oct 23 SEC decision deadline locked — compresses Focus #2 horizon"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "run_1",
+        "run_2",
+        "run_3",
+        "run_4",
+        "run_5",
+        "run_6",
+        "run_7"
+      ]
+    },
+    "run_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 UTC"
+      }
+    },
+    "run_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      }
+    },
+    "run_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      }
+    },
+    "run_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      }
+    },
+    "run_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    },
+    "run_6": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 14:00 UTC"
+      }
+    },
+    "run_7": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 20:00 UTC"
+      }
+    }
+  }
+}
