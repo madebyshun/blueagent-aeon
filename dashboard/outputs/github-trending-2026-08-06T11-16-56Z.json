@@ -1,0 +1,447 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-08-06"
+      },
+      "children": [
+        "heading_toppick",
+        "storylink_computer",
+        "text_computer_desc",
+        "separator_1",
+        "heading_aiml",
+        "stack_aiml",
+        "separator_2",
+        "heading_devtools",
+        "stack_devtools",
+        "separator_3",
+        "heading_web",
+        "stack_web",
+        "separator_4",
+        "text_sources"
+      ]
+    },
+    "heading_toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h2"
+      }
+    },
+    "storylink_computer": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cloudflare/computer",
+        "href": "https://github.com/cloudflare/computer",
+        "source": "GitHub"
+      }
+    },
+    "text_computer_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cloudflare's official SDK for giving AI agents a remote-controlled computer — production auth, rate-limiting, and billing baked in, not a hobbyist wrapper.",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "stack_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_repo1",
+        "aiml_repo2"
+      ]
+    },
+    "aiml_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml1_header",
+        "aiml1_badges",
+        "aiml1_desc"
+      ]
+    },
+    "aiml1_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cloudflare/computer",
+        "href": "https://github.com/cloudflare/computer",
+        "score": "★ 891 today (4.3k total)"
+      }
+    },
+    "aiml1_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_aiml1_lang",
+        "badge_aiml1_status"
+      ]
+    },
+    "badge_aiml1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_aiml1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "aiml1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cloudflare's production-ready SDK for browser-controlled remote computer access — ships with auth and rate-limits built in, no DIY glue required.",
+        "variant": "body"
+      }
+    },
+    "aiml_repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml2_header",
+        "aiml2_badges",
+        "aiml2_desc"
+      ]
+    },
+    "aiml2_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Accio-org/RealReplicaBench",
+        "href": "https://github.com/Accio-org/RealReplicaBench",
+        "score": "★ ~259/day (1k total)"
+      }
+    },
+    "aiml2_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_aiml2_lang",
+        "badge_aiml2_status"
+      ]
+    },
+    "badge_aiml2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "HTML",
+        "variant": "secondary"
+      }
+    },
+    "badge_aiml2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "aiml2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Evaluation suite running agents against stateful replicas of real websites — closes the gap between toy evals and production agent testing.",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "stack_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_repo1",
+        "devtools_repo2"
+      ]
+    },
+    "devtools_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools1_header",
+        "devtools1_badges",
+        "devtools1_desc"
+      ]
+    },
+    "devtools1_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "disler/super-simple-software-factory",
+        "href": "https://github.com/disler/super-simple-software-factory",
+        "score": "★ ~110/day (0.4k total)"
+      }
+    },
+    "devtools1_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_devtools1_lang",
+        "badge_devtools1_status"
+      ]
+    },
+    "badge_devtools1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "badge_devtools1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "devtools1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Deterministic Python execution graph with coding agents as bounded nodes — prevents runaway agent behavior without sacrificing automation.",
+        "variant": "body"
+      }
+    },
+    "devtools_repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools2_header",
+        "devtools2_badges",
+        "devtools2_desc"
+      ]
+    },
+    "devtools2_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "0xwilliamortiz/ratchet",
+        "href": "https://github.com/0xwilliamortiz/ratchet",
+        "score": "★ ~72/day (0.4k total)"
+      }
+    },
+    "devtools2_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_devtools2_lang",
+        "badge_devtools2_status"
+      ]
+    },
+    "badge_devtools2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_devtools2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "devtools2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Post-run rule verifier for AI agents — bolt-on behavioral assertions without modifying the agent itself.",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_web": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h2"
+      }
+    },
+    "stack_web": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web_repo1",
+        "web_repo2"
+      ]
+    },
+    "web_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "web1_header",
+        "web1_badges",
+        "web1_desc"
+      ]
+    },
+    "web1_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "genspark-ai/genoffice",
+        "href": "https://github.com/genspark-ai/genoffice",
+        "score": "★ ~324/day (1.9k total)"
+      }
+    },
+    "web1_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_web1_lang",
+        "badge_web1_status"
+      ]
+    },
+    "badge_web1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_web1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "web1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Full office suite built AI-first from scratch — not a Copilot plugin, a replacement where AI owns the editing model.",
+        "variant": "body"
+      }
+    },
+    "web_repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "web2_header",
+        "web2_badges",
+        "web2_desc"
+      ]
+    },
+    "web2_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "guillermolg00/morphicons",
+        "href": "https://github.com/guillermolg00/morphicons",
+        "score": "★ ~155/day (0.8k total)"
+      }
+    },
+    "web2_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_web2_lang",
+        "badge_web2_status"
+      ]
+    },
+    "badge_web2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_web2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "web2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Universal icon morphing at 7 KB zero-dep — handles cross-icon-set transitions CSS transitions can't pull off cleanly.",
+        "variant": "body"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=partial (13/~25) · gh_api=ok · kept 6/25+",
+        "variant": "caption"
+      }
+    }
+  }
+}
