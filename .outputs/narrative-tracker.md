@@ -1,19 +1,19 @@
-Sandbox blocks direct `./notify` for multi-line args — consistent with the established pattern. The notification is staged in `.pending-notify/narrative-tracker-2026-08-05.md` for the postprocess step to pick up.
+Done. Here's the summary:
 
 ## Summary
 
-**What was done:**
-- Logged `NARRATIVE_CACHE_MISS` (XAI 403, 26th consecutive day) — fell back to WebSearch
-- Ran 5 WebSearch queries covering broad crypto sentiment, AI agent trends, Kaito mindshare, HYPE unlock, and Aug 5 market movers
-- Diffed against the Aug 2–4 baseline (20 narratives)
+**narrative-tracker run — 2026-08-07**
 
-**Transitions detected (3):**
-- **PROMOTED**: Hyperliquid/HYPE Fading → Rising RIDE — Aug 6 unlock confirmed 22.74M/0.19% supply (bear case busted); HYPE up today; 4.6x buyback fund + historical +4.17% post-unlock avg = base case
-- **NEW**: ZEC/Privacy Payments Emerging ↑↑ FRONT-RUN — three compounding catalysts (Fortitude Mining 60MW, Multicoin Capital, shielded pool >30%); ZEC-specific, not broad privacy rotation (XMR -2.4% same day)
-- **VELOCITY UPGRADE**: Memecoins → → ↑ — PUMP sustained +13–18% in Fear & Greed 25; decoupling from HFT/CYS pump-risk noise
+**Cache:** NARRATIVE_CACHE_MISS (XAI 403, 27th consecutive day) — WebSearch fallback used across 6 targeted queries.
 
-**Reflexivity flagged:** HYPE pre-unlock narrative pricing, PUMP extreme-fear breakout, ENA unlock headwind vs CIP bull narrative
+**5 transitions detected:**
 
-**Files written:**
-- `.pending-notify/narrative-tracker-2026-08-05.md` — notification staged for postprocess delivery
-- `memory/logs/2026-08-05.md` — full `### narrative-tracker` section appended (all 21 narratives scored, transitions logged, sources cited)
+1. **DEMOTED**: Tokenized Equities Rising → Fading — Aug 7 deadline triggered. ONDO -4.7% (7d -13.1%), 4th consecutive no-signal day. $3.78B TVL and FINRA auth don't move the token anymore.
+2. **PROMOTED**: Stablecoin Rails Emerging → Rising RIDE — ENA +6.4%, unlock headwind dissipating, fee switch CIP T-14 (Aug 21 vote), $500M buyback on table.
+3. **PHASE UPDATE**: Hyperliquid Rising → Peak — unlock absorbed cleanly (+2.5% post-event), primary catalyst resolved.
+4. **VELOCITY CONFIRMED**: Alt-ETF Pipeline ↑↑ T-2 — ADA +6.7%, CME + Grayscale GADA both Saturday (Aug 9).
+5. **CONFIRMED DEAD**: CLARITY Act — Senate confirmed no vote until Sept 14.
+
+**3 reflexivity flags**: LIT (price up, revenue down), AI Agent Economy (media top signal), ADA (eligibility ≠ approval, sell-the-milestone risk Saturday).
+
+**Notification:** staged to `.pending-notify/narrative-tracker-2026-08-07.md` for post-run delivery (sandbox blocks multi-line `./notify` arg — consistent with prior runs). **Full run logged** to `memory/logs/2026-08-07.md`.
