@@ -1,0 +1,287 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-07"
+      },
+      "children": [
+        "section_focus",
+        "sep_1",
+        "section_since",
+        "sep_2",
+        "section_watch",
+        "sep_3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. ONDO demote evaluation — deadline today; 4th no-signal triggers Tokenized Equities → Fading",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. ADA CME T-2 — Aug 9 eligibility opens; Grayscale activation expected Saturday, Oct 23 SEC clock starts",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. BICO day-2 — yesterday's pick +31.9%/+168.9% 7d; watch continuation vs profit-taking on Gemini/Biconomy narrative",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "since_item_1",
+        "since_item_2",
+        "since_item_3",
+        "since_item_4"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_hype",
+        "desc_hype"
+      ]
+    },
+    "stat_hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE unlock",
+        "value": "-3.3%",
+        "trend": "down"
+      }
+    },
+    "desc_hype": {
+      "type": "Text",
+      "props": {
+        "text": "Mild sell-the-news absorbed — post-event direction resolved downward",
+        "variant": "caption"
+      }
+    },
+    "since_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_cashcat",
+        "desc_cashcat"
+      ]
+    },
+    "stat_cashcat": {
+      "type": "Stat",
+      "props": {
+        "label": "CASHCAT",
+        "value": "+64.1%",
+        "trend": "up"
+      }
+    },
+    "desc_cashcat": {
+      "type": "Text",
+      "props": {
+        "text": "Spike, no confirmed catalyst — pump-risk flag active",
+        "variant": "caption"
+      }
+    },
+    "since_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_bico",
+        "desc_bico"
+      ]
+    },
+    "stat_bico": {
+      "type": "Stat",
+      "props": {
+        "label": "BICO",
+        "value": "+31.9%",
+        "delta": "+168.9% 7d"
+      }
+    },
+    "desc_bico": {
+      "type": "Text",
+      "props": {
+        "text": "Token-pick confirmed (3 catalysts: Gemini Wallet, ERC-8211, Bitkub Aug 22 listing)",
+        "variant": "caption"
+      }
+    },
+    "since_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_pump",
+        "desc_pump"
+      ]
+    },
+    "stat_pump": {
+      "type": "Stat",
+      "props": {
+        "label": "PUMP",
+        "value": "-7.2%",
+        "trend": "down"
+      }
+    },
+    "desc_pump": {
+      "type": "Text",
+      "props": {
+        "text": "Reversed from prior day +13.4% — momentum broken",
+        "variant": "caption"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "Cardano CME 6-month mark confirmed Aug 9 — Grayscale GADA expected to activate filing Saturday → Oct 23 SEC decision deadline (updates Focus #2)",
+        "variant": "body"
+      }
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO FINRA authorization (July) + SBI Japan expansion + $3.78B TVL — fundamentals strong despite -4.5% price; complicates today's narrative-tracker demote call (affects Focus #1)",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "tasks_table"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "tasks_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Task",
+          "Time (UTC)"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00"
+          ],
+          [
+            "github-monitor",
+            "09:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "token-pick",
+            "12:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ]
+        ]
+      }
+    }
+  }
+}
