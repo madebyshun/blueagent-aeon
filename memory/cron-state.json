@@ -80,12 +80,12 @@
   },
   "security-digest": {
     "last_status": "success",
-    "last_success": "2026-08-05T16:02:44Z",
-    "total_runs": 70,
-    "total_successes": 59,
+    "last_success": "2026-08-07T14:55:39Z",
+    "total_runs": 71,
+    "total_successes": 60,
     "total_failures": 11,
     "consecutive_failures": 0,
-    "success_rate": 0.84,
+    "success_rate": 0.85,
     "last_failed": "2026-07-27T16:06:40Z",
     "last_error": "sts\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_deni"
   },
