@@ -1,0 +1,783 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest",
+        "description": "2026-08-07"
+      },
+      "children": [
+        "verdict-summary",
+        "sep1",
+        "patch-today-heading",
+        "patch-today-group",
+        "sep2",
+        "patch-week-heading",
+        "patch-week-group",
+        "sep3",
+        "monitor-heading",
+        "monitor-group"
+      ]
+    },
+    "verdict-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 5 KEV additions this week (3 shown), 4 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "patch-today-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve-34486-card",
+        "cve-9198-card",
+        "cve-18577-card"
+      ]
+    },
+    "cve-34486-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-34486-link",
+        "cve-34486-meta",
+        "cve-34486-desc",
+        "cve-34486-action"
+      ]
+    },
+    "cve-34486-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-34486 — Apache Tomcat",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-34486",
+        "source": "KEV"
+      }
+    },
+    "cve-34486-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-34486-kev",
+        "badge-34486-epss",
+        "badge-34486-cvss"
+      ]
+    },
+    "badge-34486-kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-08-04",
+        "variant": "secondary"
+      }
+    },
+    "badge-34486-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.81",
+        "variant": "secondary"
+      }
+    },
+    "badge-34486-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "secondary"
+      }
+    },
+    "cve-34486-desc": {
+      "type": "Text",
+      "props": {
+        "text": "EncryptInterceptor bypass, chainable with CVE-2025-24813 for session hijack. Due today.",
+        "variant": "body"
+      }
+    },
+    "cve-34486-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Apply Tomcat vendor patch per BOD 26-04 immediately.",
+        "type": "error"
+      }
+    },
+    "cve-9198-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-9198-link",
+        "cve-9198-meta",
+        "cve-9198-desc",
+        "cve-9198-action"
+      ]
+    },
+    "cve-9198-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-9198 — Langflow (pip)",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-9198",
+        "source": "KEV"
+      }
+    },
+    "cve-9198-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-9198-kev",
+        "badge-9198-epss",
+        "badge-9198-cvss"
+      ]
+    },
+    "badge-9198-kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-08-04",
+        "variant": "secondary"
+      }
+    },
+    "badge-9198-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.17",
+        "variant": "secondary"
+      }
+    },
+    "badge-9198-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8",
+        "variant": "destructive"
+      }
+    },
+    "cve-9198-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated RCE on default Langflow deployments. Due today.",
+        "variant": "body"
+      }
+    },
+    "cve-9198-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Upgrade langflow now and redeploy; take offline if patching is delayed.",
+        "type": "error"
+      }
+    },
+    "cve-18577-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-18577-link",
+        "cve-18577-meta",
+        "cve-18577-desc",
+        "cve-18577-related",
+        "cve-18577-action"
+      ]
+    },
+    "cve-18577-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-18577 — N-able N-central",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-18577",
+        "source": "KEV"
+      }
+    },
+    "cve-18577-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-18577-kev",
+        "badge-18577-epss",
+        "badge-18577-cvss"
+      ]
+    },
+    "badge-18577-kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-08-03",
+        "variant": "secondary"
+      }
+    },
+    "badge-18577-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.04",
+        "variant": "secondary"
+      }
+    },
+    "badge-18577-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "secondary"
+      }
+    },
+    "cve-18577-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass + account takeover; incomplete fix for CVE-2026-18556. Due 2026-08-06.",
+        "variant": "body"
+      }
+    },
+    "cve-18577-related": {
+      "type": "Text",
+      "props": {
+        "text": "Also in KEV: CVE-2026-63077 (TeamCity RCE, CVSS 9.8, due 2026-08-08)",
+        "variant": "caption"
+      }
+    },
+    "cve-18577-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Apply vendor mitigations.",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch-week-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve-65600-card",
+        "cve-71319-card",
+        "cve-69240-card",
+        "cve-71320-card"
+      ]
+    },
+    "cve-65600-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-65600-link",
+        "cve-65600-meta",
+        "cve-65600-desc",
+        "cve-65600-related",
+        "cve-65600-action"
+      ]
+    },
+    "cve-65600-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-65600 — traefik (Go)",
+        "href": "https://github.com/advisories/GHSA-cxjq-mrr5-89rv",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-65600-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-65600-cvss",
+        "badge-65600-epss",
+        "badge-65600-poc"
+      ]
+    },
+    "badge-65600-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.1",
+        "variant": "destructive"
+      }
+    },
+    "badge-65600-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      }
+    },
+    "badge-65600-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "outline"
+      }
+    },
+    "cve-65600-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass via ReplacePathRegex path traversal.",
+        "variant": "body"
+      }
+    },
+    "cve-65600-related": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrading also fixes 3 more traefik CVEs: GHSA-fgjj-px3w-67xx (CVSS 8.2), GHSA-3ccp-42pg-hgv6, GHSA-x677-9fxg-v5c5",
+        "variant": "caption"
+      }
+    },
+    "cve-65600-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Upgrade traefik to ≥3.7.10.",
+        "type": "warning"
+      }
+    },
+    "cve-71319-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-71319-link",
+        "cve-71319-meta",
+        "cve-71319-desc",
+        "cve-71319-action"
+      ]
+    },
+    "cve-71319-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-71319 — @nuxt/devtools (npm)",
+        "href": "https://github.com/advisories/GHSA-279x-mwfv-vcqv",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-71319-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-71319-cvss",
+        "badge-71319-epss",
+        "badge-71319-poc"
+      ]
+    },
+    "badge-71319-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.6",
+        "variant": "destructive"
+      }
+    },
+    "badge-71319-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003",
+        "variant": "secondary"
+      }
+    },
+    "badge-71319-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "outline"
+      }
+    },
+    "cve-71319-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated RCE via Vite HMR RPC on exposed dev port.",
+        "variant": "body"
+      }
+    },
+    "cve-71319-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Upgrade @nuxt/devtools to ≥3.3.1.",
+        "type": "warning"
+      }
+    },
+    "cve-69240-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-69240-link",
+        "cve-69240-meta",
+        "cve-69240-desc",
+        "cve-69240-action"
+      ]
+    },
+    "cve-69240-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-69240 — sequelize (npm)",
+        "href": "https://github.com/advisories/GHSA-v8fg-2rw7-q452",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-69240-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-69240-cvss",
+        "badge-69240-epss",
+        "badge-69240-poc"
+      ]
+    },
+    "badge-69240-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8",
+        "variant": "destructive"
+      }
+    },
+    "badge-69240-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003",
+        "variant": "secondary"
+      }
+    },
+    "badge-69240-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "destructive"
+      }
+    },
+    "cve-69240-desc": {
+      "type": "Text",
+      "props": {
+        "text": "SQL injection Oracle dialect — TO_DATE escape bypass, data theft confirmed exploitable.",
+        "variant": "body"
+      }
+    },
+    "cve-69240-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Upgrade sequelize to ≥6.37.4.",
+        "type": "warning"
+      }
+    },
+    "cve-71320-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-71320-link",
+        "cve-71320-meta",
+        "cve-71320-desc",
+        "cve-71320-action"
+      ]
+    },
+    "cve-71320-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-71320 — nuxt (npm)",
+        "href": "https://github.com/advisories/GHSA-9473-5f9j-94wq",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-71320-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-71320-cvss",
+        "badge-71320-epss",
+        "badge-71320-poc"
+      ]
+    },
+    "badge-71320-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "destructive"
+      }
+    },
+    "badge-71320-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      }
+    },
+    "badge-71320-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "outline"
+      }
+    },
+    "cve-71320-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Server-side RCE via template injection in server island props (runtime compiler enabled).",
+        "variant": "body"
+      }
+    },
+    "cve-71320-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "Upgrade nuxt to ≥4.5.1 (v4) or ≥3.21.10 (v3).",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "monitor-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve-16633-card",
+        "cve-71476-card",
+        "flowise-card"
+      ]
+    },
+    "cve-16633-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-16633-link",
+        "cve-16633-meta",
+        "cve-16633-desc",
+        "cve-16633-action"
+      ]
+    },
+    "cve-16633-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-16633 — pdfjs-dist (npm)",
+        "href": "https://github.com/advisories/GHSA-hq66-cqwq-w95j",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-16633-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-16633-severity",
+        "badge-16633-cvss",
+        "badge-16633-fix"
+      ]
+    },
+    "badge-16633-severity": {
+      "type": "Badge",
+      "props": {
+        "text": "high",
+        "variant": "destructive"
+      }
+    },
+    "badge-16633-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "no CVSS",
+        "variant": "secondary"
+      }
+    },
+    "badge-16633-fix": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix listed",
+        "variant": "outline"
+      }
+    },
+    "cve-16633-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Arbitrary JS execution on malicious PDF open.",
+        "variant": "body"
+      }
+    },
+    "cve-16633-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Monitor Action",
+        "message": "Patch to ≥6.2.108 if available; block untrusted PDF rendering.",
+        "type": "info"
+      }
+    },
+    "cve-71476-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-71476-link",
+        "cve-71476-meta",
+        "cve-71476-desc",
+        "cve-71476-action"
+      ]
+    },
+    "cve-71476-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-71476 — nx (npm)",
+        "href": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-71476-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-71476-epss",
+        "badge-71476-patch"
+      ]
+    },
+    "badge-71476-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.006",
+        "variant": "secondary"
+      }
+    },
+    "badge-71476-patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch confirmed",
+        "variant": "outline"
+      }
+    },
+    "cve-71476-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Zip-Slip in nx self-hosted remote cache on restore.",
+        "variant": "body"
+      }
+    },
+    "cve-71476-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Monitor Action",
+        "message": "Restrict cache to trusted sources; watch for patch.",
+        "type": "info"
+      }
+    },
+    "flowise-card": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "flowise-title",
+        "flowise-badges",
+        "flowise-desc",
+        "flowise-action"
+      ]
+    },
+    "flowise-title": {
+      "type": "Heading",
+      "props": {
+        "text": "flowise/flowise-components (npm) ≤3.1.2",
+        "level": "h4"
+      }
+    },
+    "flowise-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "flowise-cves"
+      ]
+    },
+    "flowise-cves": {
+      "type": "Badge",
+      "props": {
+        "text": "9 critical RCEs (CVE-2026-69251–CVE-2026-70478)",
+        "variant": "destructive"
+      }
+    },
+    "flowise-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Multiple sandbox escapes, code injection paths to full RCE.",
+        "variant": "body"
+      }
+    },
+    "flowise-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Monitor Action",
+        "message": "Isolate from public; verify 3.1.3+ availability.",
+        "type": "info"
+      }
+    }
+  }
+}
