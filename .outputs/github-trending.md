@@ -1,28 +1,24 @@
-*GitHub Trending — 2026-08-06*
+Done. Here's the summary:
 
-*Top pick* — [cloudflare/computer](https://github.com/cloudflare/computer)
-Cloudflare's official SDK for giving AI agents a remote-controlled computer — production auth, rate-limiting, and billing baked in, not a hobbyist wrapper.
+## Summary
 
-*AI/ML*
-• [cloudflare/computer](https://github.com/cloudflare/computer) — ★ 891 today (4.3k total) · TypeScript · [ACCELERATING]
-Cloudflare's production-ready SDK for browser-controlled remote computer access — ships with auth and rate-limits built in, no DIY glue required.
+**Status:** `GITHUB_TRENDING_OK`
 
-• [Accio-org/RealReplicaBench](https://github.com/Accio-org/RealReplicaBench) — ★ ~259/day (1k total) · HTML · [DEBUT]
-Evaluation suite running agents against stateful replicas of real websites — closes the gap between toy evals and production agent testing.
+**Fetched:** 13/~25 repos via WebFetch (trending page partial) + ~25 additional via `gh api` search.
 
-*Devtools*
-• [disler/super-simple-software-factory](https://github.com/disler/super-simple-software-factory) — ★ ~110/day (0.4k total) · Python · [DEBUT]
-Deterministic Python execution graph with coding agents as bounded nodes — prevents runaway agent behavior without sacrificing automation.
+**Picked 6 repos after filtering:**
 
-• [0xwilliamortiz/ratchet](https://github.com/0xwilliamortiz/ratchet) — ★ ~72/day (0.4k total) · JavaScript · [DEBUT]
-Post-run rule verifier for AI agents — bolt-on behavioral assertions without modifying the agent itself.
+| Repo | Tag | Category | Why |
+|---|---|---|---|
+| mattpocock/skills | RETURNING | Devtools (top pick) | Total TypeScript's 200k-star author publishing production .agents/ skills — ecosystem signal the pattern is standard |
+| img2threejs/img2threejs | ACCELERATING | AI/ML | Reference photo → procedural animation-ready Three.js 3D model, pure code |
+| kirodotdev/KiroCrew | ACCELERATING | AI/ML | Dev workspace that rewrites its own AI context across sessions |
+| VictorTaelin/OptMem | DEBUT | AI/ML | Persistent agent memory via 426-token prompt, zero infra |
+| tirth8205/code-review-graph | ACCELERATING | Devtools | Persistent codebase graph for MCP/CLI tools, benchmarked context reductions |
+| littledivy/mimic | ACCELERATING | Devtools | Intercepts any app so Python calls it as a library |
 
-*Web/Apps*
-• [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) — ★ ~324/day (1.9k total) · TypeScript · [DEBUT]
-Full office suite built AI-first from scratch — not a Copilot plugin, a replacement where AI owns the editing model.
+**Dropped:** 13 already-featured (Aug 5–6), 3 noise-filter, ~20+ no-description/no-why-notable/niche.
 
-• [guillermolg00/morphicons](https://github.com/guillermolg00/morphicons) — ★ ~155/day (0.8k total) · TypeScript · [DEBUT]
-Universal icon morphing at 7 KB zero-dep — handles cross-icon-set transitions CSS transitions can't pull off cleanly.
+**Notification:** Staged at `.pending-notify/github-trending-2026-08-07.md` (1,393 chars, well under 4,000 limit). Sandbox blocked direct `./notify` multi-line arg — consistent with prior days.
 
----
-sources: trending=partial (13/~25) · gh_api=ok · kept 6/25+
+**Log:** Appended to `memory/logs/2026-08-07.md` under `### github-trending`.
