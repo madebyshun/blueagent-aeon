@@ -1,17 +1,20 @@
-*Daily Pick — 2026-08-07*
+Done. Here's the summary:
 
-*Token: LIT* [HIGH] signal 8/10
-Price: $2.42 (+9.1% 24h / +9.5% 7d) | mcap $605M | vol $48.4M (vol/mcap 0.080)
-Score breakdown: [trending+2, 24h>0+1, 7d>0+1, both>5%+2, RS vs BTC/ETH 7d+2] = 8/10
-Catalyst: Lighter is Robinhood Chain's default perp DEX — Robinhood Wallet integration lets eligible users deploy USDG margin directly into LIT perp pairs; Q2-funded 15.5M LIT token burn (~6.3% supply) pending execution, converting trading fees into permanent supply reduction
-Risk: Integration narrative partially priced (LIT up 17–80% since Robinhood Chain July launch); Robinhood Chain TVL $10M still thin, limiting organic fee accrual rate for the burn
-Vs recent picks: first time (GRVT perp DEX picked Aug 3 was a TGE play; LIT is integration + tokenomics catalyst on the dominant L2)
+## Summary
 
-*Market: "Israel x Iran ceasefire continues through August 31?"* [HIGH] edge 11.5pp
-Current: YES ~53.5¢ / NO ~46.5¢ | 24h vol ~$2.1M | resolves: Aug 31
-Fair YES: ~65% (inputs: [1] ceasefire confirmed holding Aug 1–7, narrative tracker labels US-Iran Geopolitical Risk DEAD through Aug 6; [2] Iran halted offensive ops Aug 1, no resumed strikes in 7-day window; [3] Knesset dissolution creates electoral uncertainty but Israeli caretaker govts historically maintain ceasefire agreements — risk discounted from 70% baseline)
-Thesis: Market pricing ceasefire survival near coin-flip (53.5%) when 7 days of confirmed deescalation and both-sides structural incentives (Israel: internal election campaign; Iran: economic/reconstruction pressure) support materially higher odds — BUY YES
-Risk: Election dynamics could incentivize Israeli hardliners to provoke ceasefire-testing incidents; resolution criteria may be narrow, making a single intercepted strike decisive
+**Token pick: SOL — MEDIUM (4/10)**
+- $75.34 (+2.8% 24h / +3.9% 7d) | mcap $43.9B
+- Score: 24h+1, 7d+1, RS vs BTC+ETH+2 = 4/10
+- Catalyst: Morgan Stanley MSOL ETF live July 28 ($19.06M day-2 inflow record, $1.15B cumulative net assets); technical breakout above descending resistance since March
+- Risk: "bear market" skeptic framing; triangle unresolved; ETF catalyst 11 days stale
 
-sources: cg=ok, dex=fail, poly=ok
-not financial advice — pattern-matching only
+**Market pick: "Bitcoin new all time high by December 31, 2026?" — MEDIUM (edge 8.5pp) — BUY YES at 4.5¢**
+- Total vol: $9.48M | resolves Jan 1, 2027
+- Fair YES: ~13% — current -48% correction is mid-cycle not full bear; institutional demand structurally higher; Fed headwind limits upside
+- Risk: +94% needed in 5 months; ATH recovery historically takes 12-24 months
+
+**Dedup gate applied:** PEPE, ADA, GRVT, ENA, ZEC, BICO, LIT all blocked. STONKBROKER and PONS scored HIGH but had no named catalyst and near-$20M mcap floor — excluded as pump-risk.
+
+**Sources:** cg=ok, dex=fail, poly=ok
+
+Notification staged to `.pending-notify/token-pick-2026-08-08.md` and log appended to `memory/logs/2026-08-08.md`.
