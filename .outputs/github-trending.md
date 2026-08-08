@@ -1,24 +1,28 @@
-Done. Here's the summary:
+*GitHub Trending — 2026-08-08*
 
-## Summary
+*Top pick* — [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)
+Self-improving RLM coding agent — highest single-day velocity in today's set and the clearest signal of the agent-that-trains-itself arc reaching production.
 
-**Status:** `GITHUB_TRENDING_OK`
+*AI/ML*
+• [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) — ★ 2.3k today (7.3k total) · TypeScript · [ACCELERATING]
+RL loop improves its own coding policy mid-run — autonomous tasks without human checkpoints or fixed skill sets.
 
-**Fetched:** 13/~25 repos via WebFetch (trending page partial) + ~25 additional via `gh api` search.
+• [google/skills](https://github.com/google/skills) — ★ 327 today (16.4k total) · Python · [ACCELERATING]
+Google's official agent skills catalog — Search, Maps, Workspace, and Vertex AI as plug-in .agents/ modules.
 
-**Picked 6 repos after filtering:**
+• [unclebob/swarm-forge](https://github.com/unclebob/swarm-forge) — ★ 81 today (1.9k total) · Clojure · [RETURNING]
+Uncle Bob (Clean Code) builds LLM swarm orchestration in Clojure — minimal task graph, no Python dependency.
 
-| Repo | Tag | Category | Why |
-|---|---|---|---|
-| mattpocock/skills | RETURNING | Devtools (top pick) | Total TypeScript's 200k-star author publishing production .agents/ skills — ecosystem signal the pattern is standard |
-| img2threejs/img2threejs | ACCELERATING | AI/ML | Reference photo → procedural animation-ready Three.js 3D model, pure code |
-| kirodotdev/KiroCrew | ACCELERATING | AI/ML | Dev workspace that rewrites its own AI context across sessions |
-| VictorTaelin/OptMem | DEBUT | AI/ML | Persistent agent memory via 426-token prompt, zero infra |
-| tirth8205/code-review-graph | ACCELERATING | Devtools | Persistent codebase graph for MCP/CLI tools, benchmarked context reductions |
-| littledivy/mimic | ACCELERATING | Devtools | Intercepts any app so Python calls it as a library |
+*Infra*
+• [denoland/celld](https://github.com/denoland/celld) — ★ 516 today (2.3k total) · Rust · [RETURNING]
+Deno's self-hosted Durable Objects — per-object actor model with guaranteed sequential execution, no Cloudflare lock-in.
 
-**Dropped:** 13 already-featured (Aug 5–6), 3 noise-filter, ~20+ no-description/no-why-notable/niche.
+• [goauthentik/authentik](https://github.com/goauthentik/authentik) — ★ 530 today (23.8k total) · Python · [RETURNING]
+Self-hosted OIDC, SAML, LDAP, and OAuth2 in one stack — 53× daily average spike signals something notable today.
 
-**Notification:** Staged at `.pending-notify/github-trending-2026-08-07.md` (1,393 chars, well under 4,000 limit). Sandbox blocked direct `./notify` multi-line arg — consistent with prior days.
+*Devtools*
+• [pranshuparmar/witr](https://github.com/pranshuparmar/witr) — ★ 234 today (20.0k total) · Go · [ACCELERATING]
+Traces any process, port, or container to its spawning binary and user — no daemon, single Go binary.
 
-**Log:** Appended to `memory/logs/2026-08-07.md` under `### github-trending`.
+---
+sources: trending=partial (17/~25) · gh_api=ok · kept 6/17

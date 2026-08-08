@@ -1,0 +1,657 @@
+{
+  "root": "root",
+  "state": {},
+  "elements": {
+    "root": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-08-08"
+      },
+      "children": [
+        "section_top_pick",
+        "sep_after_top",
+        "heading_ai_ml",
+        "section_ai_ml",
+        "sep_after_ai_ml",
+        "heading_infra",
+        "section_infra",
+        "sep_after_infra",
+        "heading_devtools",
+        "section_devtools",
+        "sep_after_devtools",
+        "alert_sources"
+      ]
+    },
+    "section_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_top_pick",
+        "repo_prime_top"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "repo_prime_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_prime_top",
+        "desc_prime_top"
+      ]
+    },
+    "link_prime_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PrimeIntellect-ai/prime-agent",
+        "href": "https://github.com/PrimeIntellect-ai/prime-agent"
+      },
+      "children": []
+    },
+    "desc_prime_top": {
+      "type": "Text",
+      "props": {
+        "text": "Self-improving RLM coding agent — highest single-day velocity in today's set and the clearest signal of the agent-that-trains-itself arc reaching production.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_after_top": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_ai_ml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "section_ai_ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo_prime_ml",
+        "repo_google",
+        "repo_unclebob"
+      ]
+    },
+    "repo_prime_ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_prime_ml",
+        "desc_prime_ml",
+        "stats_prime_ml"
+      ]
+    },
+    "header_prime_ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_prime_ml",
+        "badge_prime_lang",
+        "badge_prime_accel_1"
+      ]
+    },
+    "link_prime_ml": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PrimeIntellect-ai/prime-agent",
+        "href": "https://github.com/PrimeIntellect-ai/prime-agent"
+      },
+      "children": []
+    },
+    "badge_prime_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      },
+      "children": []
+    },
+    "badge_prime_accel_1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "desc_prime_ml": {
+      "type": "Text",
+      "props": {
+        "text": "RL loop improves its own coding policy mid-run — autonomous tasks without human checkpoints or fixed skill sets.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stats_prime_ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_prime_ml_today",
+        "stat_prime_ml_total"
+      ]
+    },
+    "stat_prime_ml_today": {
+      "type": "Stat",
+      "props": {
+        "value": "2.3k",
+        "label": "Stars today"
+      },
+      "children": []
+    },
+    "stat_prime_ml_total": {
+      "type": "Stat",
+      "props": {
+        "value": "7.3k",
+        "label": "Total stars"
+      },
+      "children": []
+    },
+    "repo_google": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_google",
+        "desc_google",
+        "stats_google"
+      ]
+    },
+    "header_google": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_google",
+        "badge_google_lang",
+        "badge_google_accel_2"
+      ]
+    },
+    "link_google": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google/skills",
+        "href": "https://github.com/google/skills"
+      },
+      "children": []
+    },
+    "badge_google_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      },
+      "children": []
+    },
+    "badge_google_accel_2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "desc_google": {
+      "type": "Text",
+      "props": {
+        "text": "Google's official agent skills catalog — Search, Maps, Workspace, and Vertex AI as plug-in .agents/ modules.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stats_google": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_google_today",
+        "stat_google_total"
+      ]
+    },
+    "stat_google_today": {
+      "type": "Stat",
+      "props": {
+        "value": "327",
+        "label": "Stars today"
+      },
+      "children": []
+    },
+    "stat_google_total": {
+      "type": "Stat",
+      "props": {
+        "value": "16.4k",
+        "label": "Total stars"
+      },
+      "children": []
+    },
+    "repo_unclebob": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_unclebob",
+        "desc_unclebob",
+        "stats_unclebob"
+      ]
+    },
+    "header_unclebob": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_unclebob",
+        "badge_unclebob_lang",
+        "badge_unclebob_return"
+      ]
+    },
+    "link_unclebob": {
+      "type": "StoryLink",
+      "props": {
+        "title": "unclebob/swarm-forge",
+        "href": "https://github.com/unclebob/swarm-forge"
+      },
+      "children": []
+    },
+    "badge_unclebob_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Clojure"
+      },
+      "children": []
+    },
+    "badge_unclebob_return": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "desc_unclebob": {
+      "type": "Text",
+      "props": {
+        "text": "Uncle Bob (Clean Code) builds LLM swarm orchestration in Clojure — minimal task graph, no Python dependency.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stats_unclebob": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_unclebob_today",
+        "stat_unclebob_total"
+      ]
+    },
+    "stat_unclebob_today": {
+      "type": "Stat",
+      "props": {
+        "value": "81",
+        "label": "Stars today"
+      },
+      "children": []
+    },
+    "stat_unclebob_total": {
+      "type": "Stat",
+      "props": {
+        "value": "1.9k",
+        "label": "Total stars"
+      },
+      "children": []
+    },
+    "sep_after_ai_ml": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "section_infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo_deno",
+        "repo_authentik"
+      ]
+    },
+    "repo_deno": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_deno",
+        "desc_deno",
+        "stats_deno"
+      ]
+    },
+    "header_deno": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_deno",
+        "badge_deno_lang",
+        "badge_deno_return_1"
+      ]
+    },
+    "link_deno": {
+      "type": "StoryLink",
+      "props": {
+        "title": "denoland/celld",
+        "href": "https://github.com/denoland/celld"
+      },
+      "children": []
+    },
+    "badge_deno_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      },
+      "children": []
+    },
+    "badge_deno_return_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "desc_deno": {
+      "type": "Text",
+      "props": {
+        "text": "Deno's self-hosted Durable Objects — per-object actor model with guaranteed sequential execution, no Cloudflare lock-in.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stats_deno": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_deno_today",
+        "stat_deno_total"
+      ]
+    },
+    "stat_deno_today": {
+      "type": "Stat",
+      "props": {
+        "value": "516",
+        "label": "Stars today"
+      },
+      "children": []
+    },
+    "stat_deno_total": {
+      "type": "Stat",
+      "props": {
+        "value": "2.3k",
+        "label": "Total stars"
+      },
+      "children": []
+    },
+    "repo_authentik": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_authentik",
+        "desc_authentik",
+        "stats_authentik"
+      ]
+    },
+    "header_authentik": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_authentik",
+        "badge_authentik_lang",
+        "badge_authentik_return_2"
+      ]
+    },
+    "link_authentik": {
+      "type": "StoryLink",
+      "props": {
+        "title": "goauthentik/authentik",
+        "href": "https://github.com/goauthentik/authentik"
+      },
+      "children": []
+    },
+    "badge_authentik_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      },
+      "children": []
+    },
+    "badge_authentik_return_2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "desc_authentik": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted OIDC, SAML, LDAP, and OAuth2 in one stack — 53× daily average spike signals something notable today.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stats_authentik": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_authentik_today",
+        "stat_authentik_total"
+      ]
+    },
+    "stat_authentik_today": {
+      "type": "Stat",
+      "props": {
+        "value": "530",
+        "label": "Stars today"
+      },
+      "children": []
+    },
+    "stat_authentik_total": {
+      "type": "Stat",
+      "props": {
+        "value": "23.8k",
+        "label": "Total stars"
+      },
+      "children": []
+    },
+    "sep_after_infra": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo_witr"
+      ]
+    },
+    "repo_witr": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_witr",
+        "desc_witr",
+        "stats_witr"
+      ]
+    },
+    "header_witr": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_witr",
+        "badge_witr_lang",
+        "badge_witr_accel_3"
+      ]
+    },
+    "link_witr": {
+      "type": "StoryLink",
+      "props": {
+        "title": "pranshuparmar/witr",
+        "href": "https://github.com/pranshuparmar/witr"
+      },
+      "children": []
+    },
+    "badge_witr_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go"
+      },
+      "children": []
+    },
+    "badge_witr_accel_3": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "desc_witr": {
+      "type": "Text",
+      "props": {
+        "text": "Traces any process, port, or container to its spawning binary and user — no daemon, single Go binary.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stats_witr": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_witr_today",
+        "stat_witr_total"
+      ]
+    },
+    "stat_witr_today": {
+      "type": "Stat",
+      "props": {
+        "value": "234",
+        "label": "Stars today"
+      },
+      "children": []
+    },
+    "stat_witr_total": {
+      "type": "Stat",
+      "props": {
+        "value": "20.0k",
+        "label": "Total stars"
+      },
+      "children": []
+    },
+    "sep_after_devtools": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=partial (17/~25) · gh_api=ok · kept 6/17",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
