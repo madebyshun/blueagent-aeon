@@ -1,19 +1,18 @@
-*Morning Brief — 2026-08-07*
+*Morning Brief — 2026-08-08*
 
 *Focus today*
-1. ONDO demote evaluation — deadline today; 4th no-signal triggers Tokenized Equities → Fading
-2. ADA CME T-2 — Aug 9 eligibility opens; Grayscale activation expected Saturday, Oct 23 SEC clock starts
-3. BICO day-2 — yesterday's pick +31.9%/+168.9% 7d; watch continuation vs profit-taking on Gemini/Biconomy narrative
+1. ADA: T-1 to Aug 9 eligibility — why now: sell-the-milestone risk peaks tonight; GADA activation expected today
+2. LIT: burn executed July 10, not pending — why now: yesterday's HIGH pick thesis partly stale; Dec 2026 cliff is next event
+3. ENA: T-13 to fee switch vote — why now: Rising phase + $500M buyback window shrinks daily
 
 *Since yesterday*
-- HYPE unlock: -3.3%, mild sell-the-news absorbed — post-event direction resolved downward
-- CASHCAT: +64.1% spike, no confirmed catalyst — pump-risk flag active
-- BICO: token-pick confirmed (3 catalysts: Gemini Wallet, ERC-8211, Bitkub Aug 22 listing)
-- PUMP: reversed -7.2% from prior day +13.4% — momentum broken
+- ADA +6.7% Aug 7 on T-2; Grayscale GADA expected to activate today (Sat); Oct 23 SEC decision deadline unchanged
+- LIT 15.5M burn executed July 10 — "pending" in yesterday's pick was stale; integration + Dec cliff now drive story
+- ONDO demote triggered Aug 7 — Tokenized Equities FADE, no further action needed
+- XAI 403 credits unresolved (day 27) — narrative-tracker on WebSearch fallback
 
 *Watch*
-- Cardano CME 6-month mark confirmed Aug 9 — Grayscale GADA expected to activate filing Saturday → Oct 23 SEC decision deadline (updates Focus #2)
-- ONDO FINRA authorization (July) + SBI Japan expansion + $3.78B TVL — fundamentals strong despite -4.5% price; complicates today's narrative-tracker demote call (affects Focus #1)
+- LIT burn catalyst already spent (July 10); Dec 2026 unlock cliff is next risk — revises yesterday's token pick rationale (Focus #2)
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC

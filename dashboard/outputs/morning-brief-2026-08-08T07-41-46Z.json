@@ -1,0 +1,385 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-08"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_focus",
+        "sep_1",
+        "section_yesterday",
+        "sep_2",
+        "section_watch",
+        "sep_3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_badge",
+        "focus_1_text"
+      ]
+    },
+    "focus_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ADA"
+      },
+      "children": []
+    },
+    "focus_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "T-1 to Aug 9 eligibility — why now: sell-the-milestone risk peaks tonight; GADA activation expected today",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_badge",
+        "focus_2_text"
+      ]
+    },
+    "focus_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "LIT"
+      },
+      "children": []
+    },
+    "focus_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "burn executed July 10, not pending — why now: yesterday's HIGH pick thesis partly stale; Dec 2026 cliff is next event",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_badge",
+        "focus_3_text"
+      ]
+    },
+    "focus_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ENA"
+      },
+      "children": []
+    },
+    "focus_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "T-13 to fee switch vote — why now: Rising phase + $500M buyback window shrinks daily",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_yesterday",
+        "yesterday_item_1",
+        "yesterday_item_2",
+        "yesterday_item_3",
+        "yesterday_item_4"
+      ]
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_1_badge",
+        "yesterday_1_text"
+      ]
+    },
+    "yesterday_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ADA"
+      },
+      "children": []
+    },
+    "yesterday_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "+6.7% Aug 7 on T-2; Grayscale GADA expected to activate today (Sat); Oct 23 SEC decision deadline unchanged",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_2_badge",
+        "yesterday_2_text"
+      ]
+    },
+    "yesterday_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "LIT"
+      },
+      "children": []
+    },
+    "yesterday_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "15.5M burn executed July 10 — \"pending\" in yesterday's pick was stale; integration + Dec cliff now drive story",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_3_badge",
+        "yesterday_3_text"
+      ]
+    },
+    "yesterday_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ONDO"
+      },
+      "children": []
+    },
+    "yesterday_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "demote triggered Aug 7 — Tokenized Equities FADE, no further action needed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_4_badge",
+        "yesterday_4_text"
+      ]
+    },
+    "yesterday_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "XAI"
+      },
+      "children": []
+    },
+    "yesterday_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "403 credits unresolved (day 27) — narrative-tracker on WebSearch fallback",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_item_1"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_1_badge",
+        "watch_1_text"
+      ]
+    },
+    "watch_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "LIT"
+      },
+      "children": []
+    },
+    "watch_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "burn catalyst already spent (July 10); Dec 2026 unlock cliff is next risk — revises yesterday's token pick rationale (Focus #2)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_item_1",
+        "running_item_2",
+        "running_item_3",
+        "running_item_4",
+        "running_item_5"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_item_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
