@@ -1,18 +1,19 @@
-*Morning Brief — 2026-08-08*
+*Morning Brief — 2026-08-09*
 
 *Focus today*
-1. ADA: T-1 to Aug 9 eligibility — why now: sell-the-milestone risk peaks tonight; GADA activation expected today
-2. LIT: burn executed July 10, not pending — why now: yesterday's HIGH pick thesis partly stale; Dec 2026 cliff is next event
-3. ENA: T-13 to fee switch vote — why now: Rising phase + $500M buyback window shrinks daily
+1. ADA T-0 — why now: CME eligibility fires at today's open; FADE active, sell-the-milestone risk highest
+2. ENA fee switch T-12 — why now: vote Aug 21; implementation window shrinks daily; buy window narrowing
+3. HYPE session watch — why now: −4.0% Aug 8 flagged Fading confirmation pending; today's close decides narrative phase
 
 *Since yesterday*
-- ADA +6.7% Aug 7 on T-2; Grayscale GADA expected to activate today (Sat); Oct 23 SEC decision deadline unchanged
-- LIT 15.5M burn executed July 10 — "pending" in yesterday's pick was stale; integration + Dec cliff now drive story
-- ONDO demote triggered Aug 7 — Tokenized Equities FADE, no further action needed
-- XAI 403 credits unresolved (day 27) — narrative-tracker on WebSearch fallback
+- LIT burn: executed July 10 (not pending); Dec 2026 unlock cliff is next event; token-pick thesis stale
+- ENA −6.3% Aug 8: buy-rumor/sell-vote dynamic active; RIDE maintained, add on implementation confirm
+- KAITO −19.8% Aug 8 capitulation: narrative dead; Aug 20 unlock 13.5% supply ($27M) incoming
+- security-digest: failed Aug 8 (83% SR, 1 consecutive); disabled in aeon.yml — no auto-rerun
 
 *Watch*
-- LIT burn catalyst already spent (July 10); Dec 2026 unlock cliff is next risk — revises yesterday's token pick rationale (Focus #2)
+- ADA CME eligibility confirmed Aug 9; Grayscale GADA under SEC review, Oct 23 decision deadline — eligibility ≠ approval; FADE stands (Focus #1)
+- ENA $61M August revenue; parameters met; Risk Committee sign-off pending → vote path confirmed, no surprise catalyst yet (Focus #2)
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC

@@ -1,0 +1,215 @@
+{
+  "root": "morning-brief-card",
+  "state": {},
+  "elements": {
+    "morning-brief-card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-09"
+      },
+      "children": [
+        "focus-heading",
+        "focus-stack",
+        "separator-1",
+        "since-yesterday-heading",
+        "since-yesterday-stack",
+        "separator-2",
+        "watch-heading",
+        "watch-stack",
+        "separator-3",
+        "running-today-heading",
+        "running-today-stack"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "ADA T-0 — why now: CME eligibility fires at today's open; FADE active, sell-the-milestone risk highest",
+        "variant": "lead"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "ENA fee switch T-12 — why now: vote Aug 21; implementation window shrinks daily; buy window narrowing",
+        "variant": "lead"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE session watch — why now: −4.0% Aug 8 flagged Fading confirmation pending; today's close decides narrative phase",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since-yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-yesterday-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-4"
+      ]
+    },
+    "since-1": {
+      "type": "Text",
+      "props": {
+        "text": "LIT burn: executed July 10 (not pending); Dec 2026 unlock cliff is next event; token-pick thesis stale"
+      }
+    },
+    "since-2": {
+      "type": "Text",
+      "props": {
+        "text": "ENA −6.3% Aug 8: buy-rumor/sell-vote dynamic active; RIDE maintained, add on implementation confirm"
+      }
+    },
+    "since-3": {
+      "type": "Text",
+      "props": {
+        "text": "KAITO −19.8% Aug 8 capitulation: narrative dead; Aug 20 unlock 13.5% supply ($27M) incoming"
+      }
+    },
+    "since-4": {
+      "type": "Alert",
+      "props": {
+        "title": "security-digest",
+        "message": "failed Aug 8 (83% SR, 1 consecutive); disabled in aeon.yml — no auto-rerun",
+        "type": "warning"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-1",
+        "watch-2"
+      ]
+    },
+    "watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "ADA CME eligibility confirmed Aug 9; Grayscale GADA under SEC review, Oct 23 decision deadline — eligibility ≠ approval; FADE stands (Focus #1)"
+      }
+    },
+    "watch-2": {
+      "type": "Text",
+      "props": {
+        "text": "ENA $61M August revenue; parameters met; Risk Committee sign-off pending → vote path confirmed, no surprise catalyst yet (Focus #2)"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-today-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "caption"
+      }
+    }
+  }
+}
