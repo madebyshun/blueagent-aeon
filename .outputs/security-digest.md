@@ -1,42 +1,41 @@
-*Security Digest — 2026-08-07*
-Verdict: 5 KEV additions this week (3 shown), 4 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
+Done. Here's the full digest output:
 
-*PATCH TODAY*
-- [CVE-2026-34486](https://nvd.nist.gov/vuln/detail/CVE-2026-34486) — Apache Tomcat · KEV 2026-08-04 · EPSS 0.81 · CVSS 7.5
-  EncryptInterceptor bypass, chainable with CVE-2025-24813 for session hijack. Due today.
-  → apply Tomcat vendor patch per BOD 26-04 immediately.
+---
 
-- [CVE-2026-9198](https://nvd.nist.gov/vuln/detail/CVE-2026-9198) — Langflow (pip) · KEV 2026-08-04 · EPSS 0.17 · CVSS 9.8
-  Unauthenticated RCE on default Langflow deployments. Due today.
-  → upgrade langflow now and redeploy; take offline if patching is delayed.
+**Security Digest — 2026-08-09**
+Verdict: 3 actively exploited, 4 in tracked stack to schedule, 3 to monitor. *Sources: KEV, GH Advisory, EPSS*
 
-- [CVE-2026-18577](https://nvd.nist.gov/vuln/detail/CVE-2026-18577) — N-able N-central · KEV 2026-08-03 · EPSS 0.04 · CVSS n/a
-  Auth bypass + account takeover; incomplete fix for CVE-2026-18556. Due 2026-08-06.
-  → apply vendor mitigations. Also in KEV: CVE-2026-63077 (TeamCity RCE, CVSS 9.8, due 2026-08-08).
+**PATCH TODAY**
+- **CVE-2026-8037** — Progress LoadMaster · KEV 2026-08-07 · EPSS 0.99 · CISA due 2026-08-10
+  Command injection via unsanitized admin endpoints — unauthenticated arbitrary OS command execution.
+  → apply vendor patch; take internet-facing LoadMaster offline until patched.
 
-*PATCH THIS WEEK*
-- [CVE-2026-65600](https://github.com/advisories/GHSA-cxjq-mrr5-89rv) — traefik (Go) · CVSS 9.1 · EPSS 0.004 · no PoC
-  Auth bypass via ReplacePathRegex path traversal. Upgrading also fixes 3 more traefik CVEs (GHSA-fgjj-px3w-67xx CVSS 8.2, GHSA-3ccp-42pg-hgv6, GHSA-x677-9fxg-v5c5).
-  → upgrade traefik to ≥3.7.10.
+- **CVE-2026-34486** — Apache Tomcat · KEV 2026-08-04 · EPSS 0.81
+  Missing encryption bypasses EncryptInterceptor; chains with CVE-2025-24813 for full exploitation.
+  → upgrade Tomcat per vendor advisory; verify EncryptInterceptor config today.
 
-- [CVE-2026-71319](https://github.com/advisories/GHSA-279x-mwfv-vcqv) — @nuxt/devtools (npm) · CVSS 9.6 · EPSS 0.003 · no PoC
-  Unauthenticated RCE via Vite HMR RPC on exposed dev port.
-  → upgrade @nuxt/devtools to ≥3.3.1.
+- **CVE-2026-9198** — Langflow (pip) · KEV 2026-08-04 · EPSS 0.17
+  Code injection on default deployments — unauthenticated RCE with no prerequisites.
+  → upgrade Langflow immediately; restrict admin API to loopback if upgrade delayed.
 
-- [CVE-2026-69240](https://github.com/advisories/GHSA-v8fg-2rw7-q452) — sequelize (npm) · CVSS 9.8 · EPSS 0.003 · public PoC
-  SQL injection Oracle dialect — TO_DATE escape bypass, data theft confirmed exploitable.
-  → upgrade sequelize to ≥6.37.4.
+**PATCH THIS WEEK**
+- **CVE-2026-18556 + CVE-2026-18577** — N-able N-central · KEV (both) · EPSS 0.04 — auth bypass pair, both confirmed exploited, CISA due dates passed → schedule upgrade this week.
+- **CVE-2026-63077** — JetBrains TeamCity · KEV 2026-08-05 · EPSS 0.01 · CISA due 2026-08-08 (overdue) — deserialization RCE via agent polling → upgrade TeamCity; block agent polling port externally.
+- **GHSA-rg76-677x-56q9** (CVE-2026-71851) — crypto-js (npm) < 4.0.0 · CVSS 9.0 · EPSS 0.003 — insufficient entropy in secret generation → upgrade crypto-js to ≥4.0.0.
+- **GitPython (pip) ≤ 3.1.57** · CVSS 8.8 — 4 advisories (2026-08-07): git option injection, sshCommand RCE, .gitmodules injection, read-tree file overwrite → upgrade GitPython to ≥3.1.58.
 
-- [CVE-2026-71320](https://github.com/advisories/GHSA-9473-5f9j-94wq) — nuxt (npm) · CVSS 8.1 · EPSS 0.004 · no PoC
-  Server-side RCE via template injection in server island props (runtime compiler enabled).
-  → upgrade nuxt to ≥4.5.1 (v4) or ≥3.21.10 (v3).
+**MONITOR**
+- **GHSA-wcx4-wpfv-mc5c** — jsii-diff (npm) < 1.131.0 · CVSS 7.8 — command injection → upgrade to ≥1.131.0.
+- **GHSA-hc8v-wwc9-vgxm** — go-git (Go) ≤ 5.19.1 · CVSS 7.1 — symlink following → upgrade to ≥5.19.2.
+- **GHSA-gm37-52c6-37mw** — pymdown-extensions (pip) ≤ 11.0.0 · CVSS 7.5 — ReDoS → upgrade to ≥11.0.1.
 
-*MONITOR*
-- [CVE-2026-16633](https://github.com/advisories/GHSA-hq66-cqwq-w95j) — pdfjs-dist (npm) · high · no CVSS · no fix listed
-  Arbitrary JS execution on malicious PDF open. → patch to ≥6.2.108 if available; block untrusted PDF rendering.
+---
 
-- [CVE-2026-71476](https://github.com/advisories/GHSA-vp3h-ghgh-jr7g) — nx (npm) · EPSS 0.006 · no patch confirmed
-  Zip-Slip in nx self-hosted remote cache on restore. → restrict cache to trusted sources; watch for patch.
+## Summary
 
-- flowise/flowise-components (npm) ≤3.1.2 — 9 critical RCEs (CVE-2026-69251–CVE-2026-70478)
-  Multiple sandbox escapes, code injection paths to full RCE. → isolate from public; verify 3.1.3+ availability.
+- **KEV**: 6 new entries this week; top 3 selected for PATCH TODAY by EPSS (LoadMaster 0.99, Tomcat 0.81, Langflow 0.17)
+- **Tracked stack hits**: crypto-js (npm), GitPython cluster ×4 (pip), jsii-diff (npm), go-git (Go), pymdown-extensions (pip)
+- **GitPython notable**: 4 separate RCE/file-overwrite advisories published same day (2026-08-07), all resolved by upgrading to 3.1.58
+- **Sources**: kev=ok, gh=ok, epss=ok (all via WebFetch — sandbox blocked curl)
+- **Notification**: staged to `.pending-notify/security-digest-2026-08-09.md`
+- **Log**: appended to `memory/logs/2026-08-09.md`
