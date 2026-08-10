@@ -4,22 +4,20 @@ Done. Here's the summary:
 
 **Status:** `GITHUB_TRENDING_OK`
 
-**What happened:**
-- Fetched GitHub trending (12/~25 repos via WebFetch — partial result)
-- Used `gh api` search to discover ~40+ additional candidates from recent high-star repos
-- Applied noise filters: dropped 5 already-featured repos (Aug 7-8), meta-lists, non-code bundles, null-description repos
-- Enriched shortlist with velocity metadata via `gh api`
+**Fetched:** 12/~25 repos via WebFetch (partial return). `gh api` enrichment: ok for all candidates.
 
-**7 picks selected:**
+**Picked 5 repos:**
 
-| Repo | Category | Tag | Signal |
-|---|---|---|---|
-| leonickson1/Swiftlet | AI/ML | DEBUT | MoE streaming on iPhone — Qwen 80B without 80GB RAM |
-| jd-opensource/JoyAI-Video-Edit | AI/ML | DEBUT | Real-time video editing via autoregressive diffusion |
-| AMAP-ML/LongHorizon-Harness | AI/ML | DEBUT | Durable state + auditing for computer-use agents |
-| addyosmani/agent-skills | Devtools | ACCELERATING | 779★ today on trending page |
-| firecrawl/anydoc | Devtools | DEBUT | Any doc → Markdown in Rust |
-| xoreaxeaxeax/asm-hall-of-shame | Other | DEBUT | movfuscator author's CPU antipatterns catalog |
-| nfzerox/VirtualMacOniPad | Other | DEBUT | Full macOS on iPad Pro M1/M2 |
+| Repo | Tag | Stars today |
+|---|---|---|
+| msitarzewski/agency-agents | ACCELERATING | 858★ (141k total) — TOP PICK |
+| ZhuLinsen/daily_stock_analysis | ACCELERATING | 306★ (61.6k total) |
+| pingdotgg/t3code | ACCELERATING | 163★ (17.8k total) |
+| vitali87/code-graph-rag | RETURNING | 96★ (3.3k total) |
+| google-deepmind/weathernext | RETURNING | 86★ (7.2k total) |
 
-**Notification** staged to `.pending-notify/github-trending-2026-08-09.md` (postprocess script delivers it). Log appended to `memory/logs/2026-08-09.md`.
+**Dropped:** 5 already featured (Aug 8-9), 1 below threshold (harvey-labs, 47★), 1 no catalyst (ComfyUI)
+
+**Notification:** staged to `.pending-notify/github-trending-2026-08-10.md` (sandbox blocked direct `./notify` multiline arg — consistent with recent days)
+
+**Log:** appended `### github-trending` to `memory/logs/2026-08-10.md`
