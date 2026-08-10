@@ -1,19 +1,17 @@
-*Morning Brief — 2026-08-09*
+*Morning Brief — 2026-08-10*
 
 *Focus today*
-1. ADA T-0 — why now: CME eligibility fires at today's open; FADE active, sell-the-milestone risk highest
-2. ENA fee switch T-12 — why now: vote Aug 21; implementation window shrinks daily; buy window narrowing
-3. HYPE session watch — why now: −4.0% Aug 8 flagged Fading confirmation pending; today's close decides narrative phase
+1. ENA fee switch T-11 — why now: Risk Committee sign-off the last gate before Aug 21 vote
+2. KAITO Aug 20 unlock — why now: 32.6M tokens ($23M) confirmed; 10 days to avoid re-entry trap
+3. TAO reflexivity — why now: CMC governance-concerns article live; overshoot risk on FRONT-RUN
 
 *Since yesterday*
-- LIT burn: executed July 10 (not pending); Dec 2026 unlock cliff is next event; token-pick thesis stale
-- ENA −6.3% Aug 8: buy-rumor/sell-vote dynamic active; RIDE maintained, add on implementation confirm
-- KAITO −19.8% Aug 8 capitulation: narrative dead; Aug 20 unlock 13.5% supply ($27M) incoming
-- security-digest: failed Aug 8 (83% SR, 1 consecutive); disabled in aeon.yml — no auto-rerun
+- ADA resolved: sell-the-milestone confirmed (-1.6% on event day); 75-day hibernation → Oct 23 Grayscale GADA SEC decision
+- HYPE demoted Fading FADE: 2 consecutive sessions; $55 vs $76.67 ATH (-28%); no catalyst
+- xAI 403 — 29 consecutive days; narrative-tracker on WebSearch fallback (quality maintained)
 
 *Watch*
-- ADA CME eligibility confirmed Aug 9; Grayscale GADA under SEC review, Oct 23 decision deadline — eligibility ≠ approval; FADE stands (Focus #1)
-- ENA $61M August revenue; parameters met; Risk Committee sign-off pending → vote path confirmed, no surprise catalyst yet (Focus #2)
+- KAITO: TradingView confirms 32.6M unlock @ Aug 20 12:00 UTC (3.3% total supply / 13.5% market cap) — timeline is firm — Focus #2
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC

@@ -1,0 +1,257 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-10"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus",
+        "separator1",
+        "heading_yesterday",
+        "stack_yesterday",
+        "separator2",
+        "heading_watch",
+        "stack_watch",
+        "separator3",
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "focus_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_title_1",
+        "focus_desc_1"
+      ]
+    },
+    "focus_title_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. ENA fee switch T-11",
+        "variant": "lead"
+      }
+    },
+    "focus_desc_1": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Risk Committee sign-off the last gate before Aug 21 vote",
+        "variant": "body"
+      }
+    },
+    "focus_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_title_2",
+        "focus_desc_2"
+      ]
+    },
+    "focus_title_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. KAITO Aug 20 unlock",
+        "variant": "lead"
+      }
+    },
+    "focus_desc_2": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 32.6M tokens ($23M) confirmed; 10 days to avoid re-entry trap",
+        "variant": "body"
+      }
+    },
+    "focus_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_title_3",
+        "focus_desc_3"
+      ]
+    },
+    "focus_title_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. TAO reflexivity",
+        "variant": "lead"
+      }
+    },
+    "focus_desc_3": {
+      "type": "Text",
+      "props": {
+        "text": "why now: CMC governance-concerns article live; overshoot risk on FRONT-RUN",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_item_1",
+        "yesterday_item_2",
+        "yesterday_item_3"
+      ]
+    },
+    "yesterday_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "ADA resolved: sell-the-milestone confirmed (-1.6% on event day); 75-day hibernation → Oct 23 Grayscale GADA SEC decision",
+        "variant": "body"
+      }
+    },
+    "yesterday_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE demoted Fading FADE: 2 consecutive sessions; $55 vs $76.67 ATH (-28%); no catalyst",
+        "variant": "body"
+      }
+    },
+    "yesterday_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "xAI 403 — 29 consecutive days; narrative-tracker on WebSearch fallback (quality maintained)",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_item_1"
+      ]
+    },
+    "watch_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "KAITO: TradingView confirms 32.6M unlock @ Aug 20 12:00 UTC (3.3% total supply / 13.5% market cap) — timeline is firm — Focus #2",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_item_1",
+        "running_item_2",
+        "running_item_3",
+        "running_item_4",
+        "running_item_5"
+      ]
+    },
+    "running_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
