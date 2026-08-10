@@ -1,0 +1,425 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-08-10"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "pengu_section",
+        "separator_main_1",
+        "market_section",
+        "separator_main_2",
+        "footer_section"
+      ]
+    },
+    "pengu_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pengu_header_row",
+        "pengu_price_row",
+        "pengu_mcap_vol_row",
+        "pengu_score_row",
+        "pengu_catalyst_subsection",
+        "pengu_risk_subsection"
+      ]
+    },
+    "pengu_header_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pengu_heading",
+        "badge_pengu_high",
+        "badge_pengu_signal"
+      ]
+    },
+    "pengu_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: PENGU",
+        "level": "h2"
+      }
+    },
+    "badge_pengu_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "badge_pengu_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 10/10",
+        "variant": "default"
+      }
+    },
+    "pengu_price_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pengu_price_stat",
+        "pengu_changes_stat_24h",
+        "pengu_changes_stat_7d"
+      ]
+    },
+    "pengu_price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.0068"
+      }
+    },
+    "pengu_changes_stat_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+6.8%",
+        "trend": "up"
+      }
+    },
+    "pengu_changes_stat_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+11.1%",
+        "trend": "up"
+      }
+    },
+    "pengu_mcap_vol_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pengu_mcap",
+        "pengu_vol",
+        "pengu_vol_mcap_ratio"
+      ]
+    },
+    "pengu_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "mcap",
+        "value": "$0.42B"
+      }
+    },
+    "pengu_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h vol",
+        "value": "$80M"
+      }
+    },
+    "pengu_vol_mcap_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "vol/mcap",
+        "value": "0.19"
+      }
+    },
+    "pengu_score_row": {
+      "type": "Text",
+      "props": {
+        "text": "Score: [trending+2, both>5%+2, vol/mcap≥0.10+2, RS vs BTC/ETH+2, 24h>0+1, 7d>0+1] = 10/10"
+      }
+    },
+    "pengu_catalyst_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pengu_catalyst_heading",
+        "pengu_catalyst_items"
+      ]
+    },
+    "pengu_catalyst_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "pengu_catalyst_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst_1",
+        "catalyst_2",
+        "catalyst_3"
+      ]
+    },
+    "catalyst_1": {
+      "type": "Text",
+      "props": {
+        "text": "LBank listing activated Aug 6 (fresh exchange onboarding driving inflows)"
+      }
+    },
+    "catalyst_2": {
+      "type": "Text",
+      "props": {
+        "text": "physical comic series + digital collectible drop Aug 2"
+      }
+    },
+    "catalyst_3": {
+      "type": "Text",
+      "props": {
+        "text": "plushies in 1,800 Target stores (Jul 2026) — brand-to-ecosystem flywheel running into fresh demand"
+      }
+    },
+    "pengu_risk_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pengu_risk_heading",
+        "pengu_risk_items"
+      ]
+    },
+    "pengu_risk_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      }
+    },
+    "pengu_risk_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "risk_pengu_1",
+        "risk_pengu_2"
+      ]
+    },
+    "risk_pengu_1": {
+      "type": "Text",
+      "props": {
+        "text": "$4M token unlock hit Aug 2 alongside the comic launch adding persistent sell pressure"
+      }
+    },
+    "risk_pengu_2": {
+      "type": "Text",
+      "props": {
+        "text": "high vol/mcap 0.19 indicates speculative activity, not just organic bid"
+      }
+    },
+    "separator_main_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_header_row",
+        "market_odds_row",
+        "market_details_row",
+        "market_fair_stat",
+        "market_thesis_row",
+        "market_risk_subsection",
+        "market_comparison_subsection",
+        "market_sources_text"
+      ]
+    },
+    "market_header_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "market_heading",
+        "badge_market_high",
+        "badge_market_edge"
+      ]
+    },
+    "market_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Fed rate hike in 2026?",
+        "level": "h2"
+      }
+    },
+    "badge_market_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "badge_market_edge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 25pp",
+        "variant": "default"
+      }
+    },
+    "market_odds_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "market_yes_stat",
+        "market_no_stat"
+      ]
+    },
+    "market_yes_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current: YES",
+        "value": "55¢"
+      }
+    },
+    "market_no_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "45¢"
+      }
+    },
+    "market_details_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market_vol_stat",
+        "market_resolution_text"
+      ]
+    },
+    "market_vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h vol",
+        "value": "$7M"
+      }
+    },
+    "market_resolution_text": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: Dec 2026"
+      }
+    },
+    "market_fair_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES",
+        "value": "~80%"
+      }
+    },
+    "market_thesis_row": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: Market pricing full-year hike at 55% when Sep alone is already 38.5% — Oct and Dec meetings each add ~15-20pp probability that the 55% market price ignores; BUY YES. Underlying math: (1) \"no change in Sep\" market at 61.5% → Sep hike = 38.5%; (2) conditional Oct/Dec hike prob ~45% each given Warsh hawkish stance + June dot plot (9/19 officials see ≥1 hike); (3) cumulative across Sep+Oct+Dec = ~80%"
+      }
+    },
+    "market_risk_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_risk_heading",
+        "market_risk_text"
+      ]
+    },
+    "market_risk_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      }
+    },
+    "market_risk_text": {
+      "type": "Text",
+      "props": {
+        "text": "Cooler July CPI or labor market softening could shift dot plot firmly dovish, collapsing Oct/Dec hike probability before any move lands"
+      }
+    },
+    "market_comparison_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "comparison_heading",
+        "comparison_text"
+      ]
+    },
+    "comparison_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Vs recent picks",
+        "level": "h3"
+      }
+    },
+    "comparison_text": {
+      "type": "Text",
+      "props": {
+        "text": "PENGU first time | Fed hike market distinct from Aug 4 pick (\"by October\" — different question, different horizon)"
+      }
+    },
+    "market_sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok (partial)"
+      }
+    },
+    "separator_main_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_section": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
