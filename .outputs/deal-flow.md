@@ -1,37 +1,29 @@
-*Deal Flow — 2026-08-03*
+*Deal Flow — 2026-08-10*
 
-**Read:** Three AI agent security rounds ($203M combined, seven days) signal capital treating agent governance as a standalone infrastructure category; A16z's $1.7B Physical AI bet and Sequoia's $10B Etched pre-money confirm inference-hardware moats forming as model weights commoditize.
+*Read:* Capital this week stacked on AI infrastructure — compute (Volta), optical interconnects (Lumilens), and agentic operations (HappyRobot) — while stablecoin rails (Yellow Card) landed institutional banking validation. Investors are writing decade-scale infrastructure checks before any application layer has proved unit economics. Picks-and-shovels dominates; vertical AI multiples elevated but disconnected from fundamentals.
 
-1. **Onyx Security** — enterprise AI agent governance: permissions, monitoring, and control
-$113M Series B @ $640M post (n/d vs prior) | Lead: Bessemer Venture Partners
-*Why it matters:* Anthropic embedded Onyx into its enterprise deployment in June — first $640M model-lab-anchored agent governance company.
+1. *Volta* — Neocloud AI compute for growth-stage startups
+$300M Seed+A @ $2.4B post (n/d vs prior) | Lead: a16z, Altimeter; Nvidia + Dell co-invest
+_Why it matters:_ Nvidia and Dell co-investing in a competing neocloud, alongside a $10B strategic deal and $5B financing facility, marks the first credible credit-financed GPU access model for startups below Microsoft's contract floor — Nvidia is distributing not consolidating.
 
-2. **Atoms** — physical AI platform for industrial automation and digitization
-$1.7B Growth @ n/d | Lead: Andreessen Horowitz
-*Why it matters:* A16z's $1.7B bet frames Physical AI as infrastructure cycle peer to cloud, not a robotics subcategory.
+2. *Lumilens* — Optical interconnects for hyperscaler AI data centers
+$700M+ Series C @ $5.51B post (n/d vs prior) | Lead: Atreides Management, Bain Capital Ventures, Spark Capital
+_Why it matters:_ First commercial-scale optical interconnect company shipping into production AI data centers under a multi-billion-dollar customer agreement — confirms connectivity, not chips, as the next structural bottleneck before standards lock in.
 
-3. **Act Security** — cloud access control and permission management for agent workloads
-$60M Seed+A @ n/d | Lead: Team8, Bessemer Venture Partners
-*Why it matters:* Bessemer leads both this round and Onyx ($113M) — explicit full-stack agent security portfolio bet, not opportunistic.
+3. *Simile* — Human behavior simulation platform for enterprise pre-decision testing
+$200M+ Series B @ $2B post (n/d vs prior; 5mo after $100M Series A) | Lead: Greenoaks, Index Ventures
+_Why it matters:_ $2B in five months post-Series-A signals enterprises pay premium for AI that reduces model failure cost before decisions commit budget — a direct risk layer for agentic workflows running on imperfect models.
 
-4. **Etched** — co-designed chips and software optimized for frontier AI inference
-$300M Series C @ ~$10.3B post ($10B pre, n/d vs prior) | Lead: Sequoia Capital
-*Why it matters:* $10B pre-money for chips before product launch — Sequoia pricing inference-layer silicon moat as model weights commoditize.
+4. *HappyRobot* — Enterprise AI voice and operations agent platform
+$150M Series C @ $1.2B post (n/d vs prior) | Lead: Prysm Capital, Eurazeo; a16z existing
+_Why it matters:_ Unicorn confirmation for AI agents executing across DHL and Kuehne+Nagel logistics marks the inflection from enterprise AI as chat to AI as contracted operational infrastructure — the Agent Economy thesis has revenue.
 
-5. **Natural** — payments and transaction infrastructure for autonomous AI agents
-$30M Series A @ n/d | Lead: Forerunner
-*Why it matters:* First dedicated agent-payments infrastructure Series A — VC-backed competing standard to x402 validates agentic payments as a market.
+5. *Yellow Card* — Stablecoin payment rails and Global USD Accounts (50+ countries)
+$40M Strategic (n/d vs prior) | Lead: SC Ventures (Standard Chartered), Polychain Capital, Blockchain Capital
+_Why it matters:_ Standard Chartered + Polychain co-leading confirms stablecoin rails are crossing from crypto-native into institutional banking distribution — timed against GENIUS Act CIP closing Aug 21 as the regulatory floor locks in.
 
-6. **Hush Security** — just-in-time secrets and permissions management for agent access
-$30M Series A @ n/d | Lead: Akamai, Battery Ventures, YL Ventures
-*Why it matters:* Akamai strategic confirms edge compute and agent execution share the same attack surface — CDN layer calling its shot.
+6. *Horizon3* — Continuous attack-path simulation and automated penetration testing
+$250M Series E @ $2B+ post (UP — valuation tripled from Series D) | Lead: NightDragon, NEA
+_Why it matters:_ Tripling valuation across successive rounds confirms cybersecurity has re-priced from periodic compliance audits to continuous real-time simulation — structural demand accelerating as agentic software expands enterprise attack surfaces faster than manual testing can track.
 
-7. **June** — AI agent deployment platform for enterprise legacy system integration
-$20M Pre-seed @ n/d | Lead: Time Ventures (Marc Benioff)
-*Why it matters:* Four enterprise establishment backers (Benioff, Dell, Levie, Kurtz) fund the legacy-to-agent migration layer — distribution built before product.
-
-8. **Freehand** — autonomous agents for enterprise supply-chain procurement and payments
-$75M Series B @ n/d | Lead: Battery Ventures, NewRoad Capital
-*Why it matters:* Battery Ventures closes the first $75M Series B for fully autonomous (not copilot) enterprise agents — execution priced as market.
-
-*Sources:* crunchbase=ok, techcrunch=ok, cryptorank=partial, aift=ok, gravity.fast=ok | candidates=32 → kept=8
+_Sources:_ crunchbase=ok, techcrunch=ok, cryptorank=partial, aifundingtracker=fail | candidates=22 → kept=6

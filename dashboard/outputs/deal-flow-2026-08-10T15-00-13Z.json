@@ -1,0 +1,291 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Deal Flow",
+        "description": "2026-08-10"
+      },
+      "children": [
+        "text_intro",
+        "separator_1",
+        "deal_1",
+        "deal_2",
+        "deal_3",
+        "deal_4",
+        "deal_5",
+        "deal_6",
+        "separator_2",
+        "text_sources"
+      ]
+    },
+    "text_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Capital this week stacked on AI infrastructure — compute (Volta), optical interconnects (Lumilens), and agentic operations (HappyRobot) — while stablecoin rails (Yellow Card) landed institutional banking validation. Investors are writing decade-scale infrastructure checks before any application layer has proved unit economics. Picks-and-shovels dominates; vertical AI multiples elevated but disconnected from fundamentals.",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator"
+    },
+    "deal_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_1_heading",
+        "deal_1_desc",
+        "deal_1_funding",
+        "deal_1_leads",
+        "deal_1_why"
+      ]
+    },
+    "deal_1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "1. Volta",
+        "level": "h3"
+      }
+    },
+    "deal_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Neocloud AI compute for growth-stage startups",
+        "variant": "muted"
+      }
+    },
+    "deal_1_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$300M Seed+A @ $2.4B post (n/d vs prior) | Lead: a16z, Altimeter; Nvidia + Dell co-invest"
+      }
+    },
+    "deal_1_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Nvidia and Dell co-investing in a competing neocloud, alongside a $10B strategic deal and $5B financing facility, marks the first credible credit-financed GPU access model for startups below Microsoft's contract floor — Nvidia is distributing not consolidating.",
+        "variant": "body"
+      }
+    },
+    "deal_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_2_heading",
+        "deal_2_desc",
+        "deal_2_funding",
+        "deal_2_leads",
+        "deal_2_why"
+      ]
+    },
+    "deal_2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "2. Lumilens",
+        "level": "h3"
+      }
+    },
+    "deal_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Optical interconnects for hyperscaler AI data centers",
+        "variant": "muted"
+      }
+    },
+    "deal_2_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$700M+ Series C @ $5.51B post (n/d vs prior) | Lead: Atreides Management, Bain Capital Ventures, Spark Capital"
+      }
+    },
+    "deal_2_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: First commercial-scale optical interconnect company shipping into production AI data centers under a multi-billion-dollar customer agreement — confirms connectivity, not chips, as the next structural bottleneck before standards lock in.",
+        "variant": "body"
+      }
+    },
+    "deal_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_3_heading",
+        "deal_3_desc",
+        "deal_3_funding",
+        "deal_3_leads",
+        "deal_3_why"
+      ]
+    },
+    "deal_3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "3. Simile",
+        "level": "h3"
+      }
+    },
+    "deal_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Human behavior simulation platform for enterprise pre-decision testing",
+        "variant": "muted"
+      }
+    },
+    "deal_3_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$200M+ Series B @ $2B post (n/d vs prior; 5mo after $100M Series A) | Lead: Greenoaks, Index Ventures"
+      }
+    },
+    "deal_3_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: $2B in five months post-Series-A signals enterprises pay premium for AI that reduces model failure cost before decisions commit budget — a direct risk layer for agentic workflows running on imperfect models.",
+        "variant": "body"
+      }
+    },
+    "deal_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_4_heading",
+        "deal_4_desc",
+        "deal_4_funding",
+        "deal_4_leads",
+        "deal_4_why"
+      ]
+    },
+    "deal_4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "4. HappyRobot",
+        "level": "h3"
+      }
+    },
+    "deal_4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Enterprise AI voice and operations agent platform",
+        "variant": "muted"
+      }
+    },
+    "deal_4_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$150M Series C @ $1.2B post (n/d vs prior) | Lead: Prysm Capital, Eurazeo; a16z existing"
+      }
+    },
+    "deal_4_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Unicorn confirmation for AI agents executing across DHL and Kuehne+Nagel logistics marks the inflection from enterprise AI as chat to AI as contracted operational infrastructure — the Agent Economy thesis has revenue.",
+        "variant": "body"
+      }
+    },
+    "deal_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_5_heading",
+        "deal_5_desc",
+        "deal_5_funding",
+        "deal_5_leads",
+        "deal_5_why"
+      ]
+    },
+    "deal_5_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "5. Yellow Card",
+        "level": "h3"
+      }
+    },
+    "deal_5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin payment rails and Global USD Accounts (50+ countries)",
+        "variant": "muted"
+      }
+    },
+    "deal_5_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$40M Strategic (n/d vs prior) | Lead: SC Ventures (Standard Chartered), Polychain Capital, Blockchain Capital"
+      }
+    },
+    "deal_5_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Standard Chartered + Polychain co-leading confirms stablecoin rails are crossing from crypto-native into institutional banking distribution — timed against GENIUS Act CIP closing Aug 21 as the regulatory floor locks in.",
+        "variant": "body"
+      }
+    },
+    "deal_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_6_heading",
+        "deal_6_desc",
+        "deal_6_funding",
+        "deal_6_leads",
+        "deal_6_why"
+      ]
+    },
+    "deal_6_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "6. Horizon3",
+        "level": "h3"
+      }
+    },
+    "deal_6_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Continuous attack-path simulation and automated penetration testing",
+        "variant": "muted"
+      }
+    },
+    "deal_6_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$250M Series E @ $2B+ post (UP — valuation tripled from Series D) | Lead: NightDragon, NEA"
+      }
+    },
+    "deal_6_why": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Tripling valuation across successive rounds confirms cybersecurity has re-priced from periodic compliance audits to continuous real-time simulation — structural demand accelerating as agentic software expands enterprise attack surfaces faster than manual testing can track.",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator"
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: crunchbase=ok, techcrunch=ok, cryptorank=partial, aifundingtracker=fail | candidates=22 → kept=6",
+        "variant": "caption"
+      }
+    }
+  }
+}
