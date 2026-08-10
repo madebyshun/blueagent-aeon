@@ -91,12 +91,12 @@
   },
   "deal-flow": {
     "last_status": "success",
-    "last_success": "2026-08-03T16:27:15Z",
-    "total_runs": 10,
-    "total_successes": 8,
+    "last_success": "2026-08-10T15:00:57Z",
+    "total_runs": 11,
+    "total_successes": 9,
     "total_failures": 2,
     "consecutive_failures": 0,
-    "success_rate": 0.8,
+    "success_rate": 0.82,
     "last_failed": "2026-07-27T16:13:08Z",
     "last_error": "sts\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":0,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[],\"speed\":\"standard\"},\"modelUsage\":{},\"permission_deni"
   }
