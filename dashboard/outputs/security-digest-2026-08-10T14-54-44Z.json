@@ -1,0 +1,167 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-08-10"
+      },
+      "children": [
+        "verdict_section",
+        "separator1",
+        "monitor_section",
+        "separator2",
+        "note_section"
+      ]
+    },
+    "verdict_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verdict_badges",
+        "verdict_sources"
+      ]
+    },
+    "verdict_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_schedule",
+        "badge_monitor"
+      ]
+    },
+    "badge_schedule": {
+      "type": "Badge",
+      "props": {
+        "text": "0 to schedule",
+        "variant": "default"
+      }
+    },
+    "badge_monitor": {
+      "type": "Badge",
+      "props": {
+        "text": "1 to monitor",
+        "variant": "outline"
+      }
+    },
+    "verdict_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV, GH Advisory, EPSS",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor_heading",
+        "advisory_item"
+      ]
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h3"
+      }
+    },
+    "advisory_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "advisory_link",
+        "advisory_meta",
+        "advisory_description",
+        "advisory_action"
+      ]
+    },
+    "advisory_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-9rj7-rf2p-w77r — GitPython (pip)",
+        "href": "https://github.com/advisories/GHSA-9rj7-rf2p-w77r",
+        "source": "GitHub Security Advisory"
+      }
+    },
+    "advisory_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cvss_stat",
+        "epss_stat",
+        "fix_badge"
+      ]
+    },
+    "cvss_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "7.5"
+      }
+    },
+    "epss_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "n/a"
+      }
+    },
+    "fix_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "fix: ≥3.1.58",
+        "variant": "secondary"
+      }
+    },
+    "advisory_description": {
+      "type": "Text",
+      "props": {
+        "text": "5th in the GitPython cluster (all vuln ≤3.1.57): unguarded --template arg in Repo.init lets attacker-controlled hooks execute at process privilege. Basic PoC in advisory. Same 3.1.58 patch as the 4 advisories from Aug 9.",
+        "variant": "body"
+      }
+    },
+    "advisory_action": {
+      "type": "Alert",
+      "props": {
+        "message": "upgrade GitPython to ≥3.1.58 if not yet done.",
+        "type": "warning"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "note_section": {
+      "type": "Text",
+      "props": {
+        "text": "Note: 6 KEV additions this week (all reported Aug 3–7, deduped). 3 non-tracked critical advisories (CodeIgniter 9.8/9.4, CraftCMS unscored) filtered — composer ecosystem, not in stack.",
+        "variant": "caption"
+      }
+    }
+  }
+}
