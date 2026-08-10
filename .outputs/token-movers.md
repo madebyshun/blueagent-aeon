@@ -2,22 +2,20 @@ Done. Here's a summary of what was executed:
 
 ## Summary
 
-**Token Movers — 2026-08-09**
+**Token Movers — 2026-08-10** completed.
 
-**Market pulse:** Flat-to-bearish broad tape. BTC/ETH both -0.1%; ~56% of top-100 tradable alts in the red, but moves mostly under 2%. The day is defined by low-cap momentum plays, not broad rotation.
-
-**Top Winners (24h):**
-TUT +196.7% `[PUMP-RISK][TRENDING+UP]`, BEAT +29.5% `[FADE]`, CASHCAT +12.0% `[TRENDING+UP]`, PUMP +10.5% `[TRENDING+UP]`, SKYAI +8.4%, PYTH +7.5%, TEL +7.1%, CVX +6.9%, CC +6.8% `[TRENDING+UP]`, BTW +6.5%
-
-**Top Losers (24h):**
-TAG -10.1%, AERO -3.3%, RUNE -3.3%, BONK -2.7%, KAITO -2.4%, GRAM -1.9%, STRK -1.9%, ADA -1.6% `[MAJOR]`, ATOM -1.5%, UB -1.5%
+**Market pulse:** BTC/ETH near-flat; ~59% of top-100 alts green with median move near zero. Upside concentrated in low-cap trending pumps.
 
 **Key signals:**
-- `[PUMP-RISK]` TUT: $670M volume against a $147M market cap (4.5×) — clear wash-trade pattern
-- `[FADE]` BEAT: +29.5% 24h but 7d still -21.8% — relief bounce, not reversal
-- SKYAI: 7d +305.2% with no 24h exhaustion yet
-- KAITO: second consecutive down session after yesterday's capitulation; Aug 20 unlock (13.5% supply) approaching
+- **CASHCAT** +32.9% / 7d +206.6% — `[TRENDING+UP][PUMP-RISK]` (rank 192, second consecutive trending day)
+- **CYS (Cysic)** +23.3% / 7d +318.5% on $98.2M vol — `[TRENDING+UP][BREAKOUT]` (rank 157)
+- **BEAT** −22.5% reversing yesterday's +29.5% winner — `[FADE]` confirmed (7d −26.4% downtrend)
+- **PENGU** +6.8% — `[TRENDING+UP]` third consecutive trending day
 
-**Files written:**
-- `.pending-notify/token-movers-2026-08-09.md` — notification staged for postprocess delivery
-- `memory/logs/2026-08-09.md` — token-movers section appended
+**Losers:** BEAT (−22.5%), ALGO (−3.8%), JST (−3.2%), ZEC (−3.0% `[MAJOR]`), then small moves across M/RENDER/LTC/PI/QNT/NEXO.
+
+**Deduped:** PUMP, CC, BTW (same direction, smaller moves vs Aug 9); CRO/GRAM/ATOM (same direction as Aug 8–9 logs).
+
+**Files changed:**
+- `.pending-notify/token-movers-2026-08-10.md` — notification staged for delivery
+- `memory/logs/2026-08-10.md` — log entry appended
