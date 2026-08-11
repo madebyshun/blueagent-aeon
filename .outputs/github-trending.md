@@ -1,23 +1,25 @@
-Done. Here's the summary:
+Done. Here's what was completed:
+
+**GitHub Trending — 2026-08-11**
+
+**6 picks from 16 candidates:**
+
+| Repo | Stars Today | Tag | Category |
+|---|---|---|---|
+| semantica-agi/semantica | 970★ | RETURNING | AI/ML (top pick) |
+| firecrawl/firecrawl | 835★ | ACCELERATING | Devtools |
+| danielmiessler/LifeOS | 315★ | ACCELERATING | AI/ML |
+| paperclipai/paperclip | 198★ | ACCELERATING | Devtools |
+| ruvnet/RuView | 154★ | ACCELERATING | Devtools |
+| opa334/Dopamine | 111★ | RETURNING | Other |
+
+**Dropped:** 6 already featured Aug 9–10 (agency-agents, agent-skills, prime-agent, weathernext, code-graph-rag, t3code); 4 for noise/no-catalyst (TradingAgents, Ladybird, ComfyUI, MediaCrawler).
+
+Notification staged at `.pending-notify/github-trending-2026-08-11.md` for post-run delivery. Log appended to `memory/logs/2026-08-11.md`.
 
 ## Summary
 
-**Status:** `GITHUB_TRENDING_OK`
-
-**Fetched:** 12/~25 repos via WebFetch (partial return). `gh api` enrichment: ok for all candidates.
-
-**Picked 5 repos:**
-
-| Repo | Tag | Stars today |
-|---|---|---|
-| msitarzewski/agency-agents | ACCELERATING | 858★ (141k total) — TOP PICK |
-| ZhuLinsen/daily_stock_analysis | ACCELERATING | 306★ (61.6k total) |
-| pingdotgg/t3code | ACCELERATING | 163★ (17.8k total) |
-| vitali87/code-graph-rag | RETURNING | 96★ (3.3k total) |
-| google-deepmind/weathernext | RETURNING | 86★ (7.2k total) |
-
-**Dropped:** 5 already featured (Aug 8-9), 1 below threshold (harvey-labs, 47★), 1 no catalyst (ComfyUI)
-
-**Notification:** staged to `.pending-notify/github-trending-2026-08-10.md` (sandbox blocked direct `./notify` multiline arg — consistent with recent days)
-
-**Log:** appended `### github-trending` to `memory/logs/2026-08-10.md`
+- Fetched 16 repos from GitHub trending (WebFetch), enriched 9 with `gh api` metadata
+- Curated 6 picks with concrete why-notable lines; deduped 6 already-featured repos from the past 2 days
+- Top pick: `semantica-agi/semantica` — 970★/day breakout on a graph-native AI accountability infra repo pushed today
+- Notification staged in `.pending-notify/`; log entry appended to `memory/logs/2026-08-11.md`
