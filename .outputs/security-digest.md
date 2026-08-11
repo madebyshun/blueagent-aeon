@@ -1,9 +1,7 @@
-*Security Digest — 2026-08-10*
-Verdict: nothing urgent today. 0 to schedule, 1 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-08-11*
+Verdict: nothing urgent today. 1 to schedule, 0 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
-*MONITOR*
-- [GHSA-9rj7-rf2p-w77r](https://github.com/advisories/GHSA-9rj7-rf2p-w77r) — GitPython (pip) · CVSS 7.5 · EPSS n/a · fix: ≥3.1.58
-  5th in the GitPython cluster (all vuln ≤3.1.57): unguarded --template arg in Repo.init lets attacker-controlled hooks execute at process privilege. Basic PoC in advisory. Same 3.1.58 patch as the 4 advisories from Aug 9.
-  → upgrade GitPython to ≥3.1.58 if not yet done.
-
-_Note: 6 KEV additions this week (all reported Aug 3–7, deduped). 3 non-tracked critical advisories (CodeIgniter 9.8/9.4, CraftCMS unscored) filtered — composer ecosystem, not in stack._
+*PATCH THIS WEEK*
+- [GHSA-cxjq-mrr5-89rv](https://github.com/advisories/GHSA-cxjq-mrr5-89rv) — Traefik (Go) · CVSS 9.1 · EPSS 0.41% · public PoC
+  Auth bypass via ReplacePathRegex path traversal. Single crafted request reaches BasicAuth/ForwardAuth-protected routes on any backend that normalizes paths (Express, Flask, Django, Spring, ASP.NET). Same class as CVE-2026-48020 (StripPrefix); check applied to ReplacePathRegex. Full docker-compose PoC in advisory.
+  → upgrade github.com/traefik/traefik/v2 to ≥2.11.52 or v3 to ≥3.6.23/3.7.7 and redeploy.
