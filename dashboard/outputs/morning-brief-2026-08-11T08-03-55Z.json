@@ -1,0 +1,280 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-11"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_focus",
+        "sep_1",
+        "section_since",
+        "sep_2",
+        "section_watch",
+        "sep_3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_1_title",
+        "focus_1_desc",
+        "focus_2_title",
+        "focus_2_desc",
+        "focus_3_title",
+        "focus_3_desc"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. ENA fee switch T-10",
+        "variant": "lead"
+      }
+    },
+    "focus_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "buy window enters single digits; Risk Committee sign-off is the only remaining gate",
+        "variant": "body"
+      }
+    },
+    "focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. TAO reflexivity FRONT-RUN",
+        "variant": "lead"
+      }
+    },
+    "focus_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "\"price risks deeper correction\" live on crypto.news; mainstream bear narrative = overshoot window closing",
+        "variant": "body"
+      }
+    },
+    "focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. KAITO unlock T-9",
+        "variant": "lead"
+      }
+    },
+    "focus_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "FADE position set; 32.6M tokens (~$23M) drop Aug 20 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_since",
+        "since_1",
+        "since_2",
+        "since_3"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_1": {
+      "type": "Text",
+      "props": {
+        "text": "All skills ran clean Aug 10: github-trending, token-movers, narrative-tracker, deal-flow, security-digest",
+        "variant": "body"
+      }
+    },
+    "since_2": {
+      "type": "Text",
+      "props": {
+        "text": "CASHCAT +32.9% (7d +206.6%) — watch for BEAT-style reversal (BEAT preceded its -22.5% with +29.5%)",
+        "variant": "body"
+      }
+    },
+    "since_3": {
+      "type": "Text",
+      "props": {
+        "text": "ENA +3.3% Aug 10; buy-the-anticipation pattern intact heading into final countdown",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_title",
+        "watch_meta_stack"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_title": {
+      "type": "Text",
+      "props": {
+        "text": "Bittensor price risks deeper correction as Root Reborn debate rattles TAO bulls",
+        "variant": "lead"
+      }
+    },
+    "watch_meta_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_source",
+        "watch_analysis"
+      ]
+    },
+    "watch_source": {
+      "type": "Badge",
+      "props": {
+        "text": "crypto.news"
+      }
+    },
+    "watch_analysis": {
+      "type": "Text",
+      "props": {
+        "text": "centralization/regulatory concern now mainstream; easy money in FRONT-RUN likely taken",
+        "variant": "caption"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_list"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5",
+        "running_6"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "running_6": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}

@@ -1,21 +1,22 @@
-*Morning Brief — 2026-08-10*
+*Morning Brief — 2026-08-11*
 
 *Focus today*
-1. ENA fee switch T-11 — why now: Risk Committee sign-off the last gate before Aug 21 vote
-2. KAITO Aug 20 unlock — why now: 32.6M tokens ($23M) confirmed; 10 days to avoid re-entry trap
-3. TAO reflexivity — why now: CMC governance-concerns article live; overshoot risk on FRONT-RUN
+1. ENA fee switch T-10 — buy window enters single digits; Risk Committee sign-off is the only remaining gate
+2. TAO reflexivity FRONT-RUN — "price risks deeper correction" live on crypto.news; mainstream bear narrative = overshoot window closing
+3. KAITO unlock T-9 — FADE position set; 32.6M tokens (~$23M) drop Aug 20 12:00 UTC
 
 *Since yesterday*
-- ADA resolved: sell-the-milestone confirmed (-1.6% on event day); 75-day hibernation → Oct 23 Grayscale GADA SEC decision
-- HYPE demoted Fading FADE: 2 consecutive sessions; $55 vs $76.67 ATH (-28%); no catalyst
-- xAI 403 — 29 consecutive days; narrative-tracker on WebSearch fallback (quality maintained)
+- All skills ran clean Aug 10: github-trending, token-movers, narrative-tracker, deal-flow, security-digest
+- CASHCAT +32.9% (7d +206.6%) — watch for BEAT-style reversal (BEAT preceded its -22.5% with +29.5%)
+- ENA +3.3% Aug 10; buy-the-anticipation pattern intact heading into final countdown
 
 *Watch*
-- KAITO: TradingView confirms 32.6M unlock @ Aug 20 12:00 UTC (3.3% total supply / 13.5% market cap) — timeline is firm — Focus #2
+- "Bittensor price risks deeper correction as Root Reborn debate rattles TAO bulls" (crypto.news) — centralization/regulatory concern now mainstream; easy money in FRONT-RUN likely taken (Focus #2)
 
 *Running today*
-- heartbeat @ 08:00, 14:00, 20:00 UTC
+- heartbeat @ 08:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
+- heartbeat @ 14:00, 20:00 UTC
