@@ -1,21 +1,18 @@
-Done. Here's a summary of what was executed:
-
 ## Summary
 
-**Token Movers — 2026-08-10** completed.
+**Token Movers — 2026-08-11** complete.
 
-**Market pulse:** BTC/ETH near-flat; ~59% of top-100 alts green with median move near zero. Upside concentrated in low-cap trending pumps.
+**Market pulse:** Broad risk-off. BTC -0.9%, ETH -1.2%, ~35% of top-100 alts green, median 24h around -1.5%. Strength concentrated in DeFi (CRV), oracle (LINK), and select L2s. BEAT's collapse dominates.
 
-**Key signals:**
-- **CASHCAT** +32.9% / 7d +206.6% — `[TRENDING+UP][PUMP-RISK]` (rank 192, second consecutive trending day)
-- **CYS (Cysic)** +23.3% / 7d +318.5% on $98.2M vol — `[TRENDING+UP][BREAKOUT]` (rank 157)
-- **BEAT** −22.5% reversing yesterday's +29.5% winner — `[FADE]` confirmed (7d −26.4% downtrend)
-- **PENGU** +6.8% — `[TRENDING+UP]` third consecutive trending day
+**Top Winners:** VELVET +63.7% [BREAKOUT], CRV +11.7%, LIT +8.8%, LINK +5.0% [MAJOR]
 
-**Losers:** BEAT (−22.5%), ALGO (−3.8%), JST (−3.2%), ZEC (−3.0% `[MAJOR]`), then small moves across M/RENDER/LTC/PI/QNT/NEXO.
+**Top Losers:** BEAT -63.7% [CAPITULATION], TALUS -11.6%, EDGE -5.9%, MON -4.3%, ADA -3.2% [MAJOR], XRP -2.3% [MAJOR]
 
-**Deduped:** PUMP, CC, BTW (same direction, smaller moves vs Aug 9); CRO/GRAM/ATOM (same direction as Aug 8–9 logs).
+**Trending signals:**
+- DOS +76.8% [PUMP-RISK][TRENDING+UP] — rank 269, zero 7d baseline, no catalyst
+- VELVET [BREAKOUT][TRENDING+UP] — multi-day sustained move
+- BEAT [CAPITULATION][TRENDING+DOWN] — [FADE] call from Aug 9 fully played out; $97M exit volume confirms distribution
 
-**Files changed:**
-- `.pending-notify/token-movers-2026-08-10.md` — notification staged for delivery
-- `memory/logs/2026-08-10.md` — log entry appended
+**Files written:**
+- `.pending-notify/token-movers-2026-08-11.md` — notification staged for post-run delivery
+- `memory/logs/2026-08-11.md` — log entry appended
