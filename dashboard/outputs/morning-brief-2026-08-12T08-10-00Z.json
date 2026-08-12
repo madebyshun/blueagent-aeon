@@ -1,0 +1,260 @@
+{
+  "root": "card-morning-brief",
+  "state": {},
+  "elements": {
+    "card-morning-brief": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-12"
+      },
+      "children": [
+        "focus-heading",
+        "focus-stack",
+        "separator-1",
+        "since-yesterday-heading",
+        "since-yesterday-stack",
+        "separator-2",
+        "watch-heading",
+        "watch-stack",
+        "separator-3",
+        "running-today-heading",
+        "running-today-table"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. KAITO unlock T-8 — 8 days to $23M drop; fade set, watch for pre-event pump"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. ENA fee switch T-9 — Risk Committee sign-off is single remaining gate; buy window tightening"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. LINK Day 2 — media stack expanding; SC repricing window still open, check for fade"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since-yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-yesterday-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "beat-item",
+        "defi-item",
+        "memecoins-item",
+        "xai-item"
+      ]
+    },
+    "beat-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "beat-badge",
+        "beat-text"
+      ]
+    },
+    "beat-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "closed",
+        "variant": "outline"
+      }
+    },
+    "beat-text": {
+      "type": "Text",
+      "props": {
+        "text": "BEAT -63.7% CAPITULATION — Aug 9 FADE call fully confirmed"
+      }
+    },
+    "defi-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "defi-badge",
+        "defi-text"
+      ]
+    },
+    "defi-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "new",
+        "variant": "outline"
+      }
+    },
+    "defi-text": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Revival (CRV +11.7%, VELVET +63.7%) — tagged FRONT-RUN; Day 1 follow-through TBD"
+      }
+    },
+    "memecoins-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "memecoins-badge",
+        "memecoins-text"
+      ]
+    },
+    "memecoins-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "outline"
+      }
+    },
+    "memecoins-text": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoins demoted Fading — pump cluster closed; DOS PUMP-RISK isolated"
+      }
+    },
+    "xai-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "xai-badge",
+        "xai-text"
+      ]
+    },
+    "xai-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "outline"
+      }
+    },
+    "xai-text": {
+      "type": "Text",
+      "props": {
+        "text": "XAI 403 (no credits) — narrative-tracker on WebSearch fallback, 30+ consecutive days"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ethena-watch",
+        "benzinga-watch"
+      ]
+    },
+    "ethena-watch": {
+      "type": "Text",
+      "props": {
+        "text": "Ethena network growth at 90-day high as fee switch countdown begins (CCN) — Focus #2: buy window at peak momentum, exhaustion risk rising"
+      }
+    },
+    "benzinga-watch": {
+      "type": "Text",
+      "props": {
+        "text": "Benzinga + Cryptorank + Coinpedia publishing SC LINK Day-2 coverage ($13 EOY, oracles at $33.43T) — Focus #3: media stack expanding = repricing not fading yet"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-today-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Task",
+          "Time"
+        ],
+        "rows": [
+          [
+            "github-monitor",
+            "09:00 UTC"
+          ],
+          [
+            "token-movers",
+            "12:00 UTC"
+          ],
+          [
+            "token-pick",
+            "12:00 UTC"
+          ],
+          [
+            "narrative-tracker",
+            "13:30 UTC"
+          ]
+        ]
+      }
+    }
+  }
+}
