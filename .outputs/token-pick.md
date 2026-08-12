@@ -1,26 +1,18 @@
-Done. Here's the full run summary:
-
----
-
 ## Summary
 
-**Token pick: LINK (Chainlink) — HIGH — 9/10**
+**Token Pick — BTW (Bitway)** | MEDIUM | 6/10
+- Price: $0.232 (+20.1% 24h / +70.1% 7d), mcap $635M, vol $28.7M
+- Score: 24h>0 (+1), 7d>0 (+1), both >5% (+2), RS vs BTC/ETH on 7d (+2) = 6/10
+- Catalyst: Short squeeze on Binance BTWUSDT 10x perp futures pressing against $0.2375 ATH
+- Rejected: APR (no named fundamental catalyst despite 10/10 score — airdrop insider controversy with 87% pump = dump risk); ZEC/LINK/PENGU/SOL/TAO/PENGU/BICO/LIT (all deduped)
 
-- Price $8.65 | +5.0% 24h / +6.0% 7d | mcap $6.47B
-- Score: `24h>0(+1) + 7d>0(+1) + both>5%(+2) + CG trending(+2) + RS vs BTC/ETH(+2) + DexScreener confirmed(+1) = 9/10`
-- Catalyst: Standard Chartered initiated coverage Aug 10 with a $13 EOY 2026 target (+50% from here) and $200/2030. Their prior initiations on UNI and AAVE each caused sharp repricing — LINK is next in the queue.
-- Risk: Sell-the-news; vol/mcap 4.75% shows accumulation, not breakout momentum.
-- Dedup: clean (not picked in last 7 days)
+**Prediction Market — CLARITY Act signed by Dec 31, 2026** | MEDIUM | BUY NO | 6.5pp edge
+- YES 16.5¢ → fair YES ~10% (Senate recess through Sept 14, ethics provisions unresolved, GENIUS Act took 18 months for a narrower bill)
+- Volume $411k ✓, resolves Jan 1, 2027 ✓
+- Rejected: all BTC price markets (4 deduped), Fed September markets (deduped Aug 6), Iran/ceasefire markets (deduped Aug 5 + 7), esports (resolving today)
 
-**Market pick: "Will Bitcoin hit $67,500 in August 2026?" — HIGH — edge 10pp — direction: NO**
+**Context:** July CPI printed 3.4% YoY in line with expectations — soft but not catalyst-moving for any pick.
 
-- YES at 50¢, fair YES ~40%
-- BTC at $64,325, needs +4.9% in 21 days with only +1% 7d momentum
-- Internal contradiction: same market prices ↓ 62,500 at 67% — market can't simultaneously be 67% likely to dip AND 50% likely to rally +5%
-- Liquidity: $1.47M pool, $4.37M event volume (well above $50k gate)
-- Dedup: clean (prior Aug 9 pick was annual BTC market, not August-specific)
-- Risk: Macro shock or ETF inflow spike
+**Sources:** cg=ok, dex=fail (garbage results), poly=ok
 
-**Files modified:**
-- `.pending-notify/token-pick-2026-08-11.md` — notification staged for postprocess send
-- `memory/logs/2026-08-11.md` — log entry appended with TOKEN_PICK_DEDUP line
+Notification staged to `.pending-notify/token-pick-2026-08-12.md` and log appended to `memory/logs/2026-08-12.md`.
