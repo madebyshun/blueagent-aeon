@@ -1,18 +1,21 @@
+Done. Here's the summary:
+
 ## Summary
 
-**Token Movers — 2026-08-11** complete.
+**Data fetched:** CoinGecko markets (250 coins, 3 WebFetch calls) + trending (15 coins). Both sources healthy.
 
-**Market pulse:** Broad risk-off. BTC -0.9%, ETH -1.2%, ~35% of top-100 alts green, median 24h around -1.5%. Strength concentrated in DeFi (CRV), oracle (LINK), and select L2s. BEAT's collapse dominates.
+**Market pulse:** BTC nearly flat at −0.2%, median top-50 24h move ~+0.3%, ~55% of top-100 alts green — very shallow tape. Two outlier coins (APR +89.8%, BEAT +30.7%) dominate by volume noise; UNI −9.5% is the only meaningful large-cap move.
 
-**Top Winners:** VELVET +63.7% [BREAKOUT], CRV +11.7%, LIT +8.8%, LINK +5.0% [MAJOR]
+**Key signals today:**
+- **APR (aPriori)** [TRENDING+UP][PUMP-RISK] — +89.8% at rank 246 with no identified catalyst; trending #1
+- **BEAT** [TRENDING+UP][FADE] — +30.7% bounce after yesterday's −63.7% CAPITULATION; still in trending, re-pump risk
+- **BTW** [BREAKOUT] — +17.5% / 7d +60%; new tag vs prior days, legitimate sustained move
+- **KAITO** [CAPITULATION] — −23.7% / vol/mcap 0.48; T-8 to Aug 20 unlock ($23M) accelerating the exit
+- **DOS** [TRENDING+DOWN] — −25.8% after yesterday's +76.8% [PUMP-RISK]; 2-session pump-dump cycle closed
+- **VELVET** — −28.4% reversal of yesterday's +63.7% [BREAKOUT]; sharpest reversal on the tape
 
-**Top Losers:** BEAT -63.7% [CAPITULATION], TALUS -11.6%, EDGE -5.9%, MON -4.3%, ADA -3.2% [MAJOR], XRP -2.3% [MAJOR]
+**Files created/modified:**
+- `.pending-notify/token-movers-2026-08-12.md` — notification staged for post-run delivery
+- `memory/logs/2026-08-12.md` — token-movers entry appended
 
-**Trending signals:**
-- DOS +76.8% [PUMP-RISK][TRENDING+UP] — rank 269, zero 7d baseline, no catalyst
-- VELVET [BREAKOUT][TRENDING+UP] — multi-day sustained move
-- BEAT [CAPITULATION][TRENDING+DOWN] — [FADE] call from Aug 9 fully played out; $97M exit volume confirms distribution
-
-**Files written:**
-- `.pending-notify/token-movers-2026-08-11.md` — notification staged for post-run delivery
-- `memory/logs/2026-08-11.md` — log entry appended
+**Deduped (skipped):** CYS (3rd day same direction/tags), CVX, GENIUS, CRV, SHIB, ADA.
