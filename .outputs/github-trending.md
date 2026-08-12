@@ -1,25 +1,23 @@
-Done. Here's what was completed:
-
-**GitHub Trending — 2026-08-11**
-
-**6 picks from 16 candidates:**
-
-| Repo | Stars Today | Tag | Category |
-|---|---|---|---|
-| semantica-agi/semantica | 970★ | RETURNING | AI/ML (top pick) |
-| firecrawl/firecrawl | 835★ | ACCELERATING | Devtools |
-| danielmiessler/LifeOS | 315★ | ACCELERATING | AI/ML |
-| paperclipai/paperclip | 198★ | ACCELERATING | Devtools |
-| ruvnet/RuView | 154★ | ACCELERATING | Devtools |
-| opa334/Dopamine | 111★ | RETURNING | Other |
-
-**Dropped:** 6 already featured Aug 9–10 (agency-agents, agent-skills, prime-agent, weathernext, code-graph-rag, t3code); 4 for noise/no-catalyst (TradingAgents, Ladybird, ComfyUI, MediaCrawler).
-
-Notification staged at `.pending-notify/github-trending-2026-08-11.md` for post-run delivery. Log appended to `memory/logs/2026-08-11.md`.
+Done. Here's the summary:
 
 ## Summary
 
-- Fetched 16 repos from GitHub trending (WebFetch), enriched 9 with `gh api` metadata
-- Curated 6 picks with concrete why-notable lines; deduped 6 already-featured repos from the past 2 days
-- Top pick: `semantica-agi/semantica` — 970★/day breakout on a graph-native AI accountability infra repo pushed today
-- Notification staged in `.pending-notify/`; log entry appended to `memory/logs/2026-08-11.md`
+**Status:** `GITHUB_TRENDING_OK`
+
+**Sources:** trending=ok (WebFetch, 18 repos) · gh_api=ok
+
+**Picked 5/18:**
+
+| Repo | Stars Today | Tag | Category |
+|------|-------------|-----|----------|
+| cathrynlavery/diagram-design | 1,616★ | ACCELERATING | Devtools (Top Pick) |
+| stablyai/orca | 875★ | ACCELERATING | Devtools |
+| HKUDS/DeepTutor | 812★ | ACCELERATING | AI/ML |
+| anthropics/skills | 485★ | ACCELERATING | Devtools |
+| calesthio/OpenMontage | 458★ | ACCELERATING | AI/ML |
+
+**Dropped:** 7 already-featured (Aug 10–11) + 6 noise-filtered (awesome-lists, low-activity, no today-catalyst)
+
+**Files modified:**
+- `.pending-notify/github-trending-2026-08-12.md` — notification staged for post-run delivery
+- `memory/logs/2026-08-12.md` — log entry appended
