@@ -1,21 +1,21 @@
-Done. Here's the summary:
+Done. Here's what I did:
 
-## Summary
+**Token Movers — 2026-08-13**
 
-**Data fetched:** CoinGecko markets (250 coins, 3 WebFetch calls) + trending (15 coins). Both sources healthy.
+**Market pulse:** Broad risk-off. BTC -1.1%, ~34% of top-100 alts green, median 24h ~-1.1%. Large-caps red uniformly; isolated pump-risk spikes dominate the winners side.
 
-**Market pulse:** BTC nearly flat at −0.2%, median top-50 24h move ~+0.3%, ~55% of top-100 alts green — very shallow tape. Two outlier coins (APR +89.8%, BEAT +30.7%) dominate by volume noise; UNI −9.5% is the only meaningful large-cap move.
+**Top Winners:**
+1. AKE +45.2% [PUMP-RISK] — rank 224, no catalyst
+2. APR +34.5% [PUMP-RISK][TRENDING+UP] — Day 2 of pump; was +89.8% yesterday; 7d +148%
+3. VELVET +19.6% [BREAKOUT] — direction reversal from -28.4% loser yesterday
+4-10: B +8.5%, MNT +6.7%, OKB +5.9%, STABLE +5.6%, ZANO +5.1%, VIRTUAL +5.0%, CASHCAT +4.7%[TRENDING+UP]
 
-**Key signals today:**
-- **APR (aPriori)** [TRENDING+UP][PUMP-RISK] — +89.8% at rank 246 with no identified catalyst; trending #1
-- **BEAT** [TRENDING+UP][FADE] — +30.7% bounce after yesterday's −63.7% CAPITULATION; still in trending, re-pump risk
-- **BTW** [BREAKOUT] — +17.5% / 7d +60%; new tag vs prior days, legitimate sustained move
-- **KAITO** [CAPITULATION] — −23.7% / vol/mcap 0.48; T-8 to Aug 20 unlock ($23M) accelerating the exit
-- **DOS** [TRENDING+DOWN] — −25.8% after yesterday's +76.8% [PUMP-RISK]; 2-session pump-dump cycle closed
-- **VELVET** — −28.4% reversal of yesterday's +63.7% [BREAKOUT]; sharpest reversal on the tape
+**Top Losers:**
+1. BEAT -28.5% [TRENDING+DOWN] — Day 3; yesterday's bounce confirmed dead-cat
+2. CYS -14.2% [TRENDING+DOWN] — reversal from 3-day winning streak
+3. CRV -9.5% — reversal from recent DeFi revival signal
+4-10: 2Z -8.2%, EDGE -7.9%, UB -6.1%, ARB -5.6%, TRUMP -5.5%, PEPE -5.4%, BAT -5.3%
 
-**Files created/modified:**
-- `.pending-notify/token-movers-2026-08-12.md` — notification staged for post-run delivery
-- `memory/logs/2026-08-12.md` — token-movers entry appended
+**Notable:** KAITO [CAPITULATION] T-7 with unlock revised upward to $34M/13.5% supply (from $23M estimate), vol/mcap 0.66.
 
-**Deduped (skipped):** CYS (3rd day same direction/tags), CVX, GENIUS, CRV, SHIB, ADA.
+Notification staged at `.pending-notify/token-movers-2026-08-13.md` and log appended to `memory/logs/2026-08-13.md`.
