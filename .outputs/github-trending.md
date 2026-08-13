@@ -1,23 +1,26 @@
-Done. Here's the summary:
+Done. Here's what was done:
 
 ## Summary
 
 **Status:** `GITHUB_TRENDING_OK`
 
-**Sources:** trending=ok (WebFetch, 18 repos) · gh_api=ok
+**Fetched:** 17 repos from `https://github.com/trending?since=daily`
 
-**Picked 5/18:**
+**Filtered out:**
+- 5 repos already featured Aug 12 (diagram-design, orca, skills, DeepTutor, OpenMontage)
+- 3 repos featured earlier this week (agency-agents, semantica, paperclip)
+- 7 repos dropped for noise (no today catalyst, below star threshold, educational content)
 
-| Repo | Stars Today | Tag | Category |
-|------|-------------|-----|----------|
-| cathrynlavery/diagram-design | 1,616★ | ACCELERATING | Devtools (Top Pick) |
-| stablyai/orca | 875★ | ACCELERATING | Devtools |
-| HKUDS/DeepTutor | 812★ | ACCELERATING | AI/ML |
-| anthropics/skills | 485★ | ACCELERATING | Devtools |
-| calesthio/OpenMontage | 458★ | ACCELERATING | AI/ML |
+**5 picks sent:**
 
-**Dropped:** 7 already-featured (Aug 10–11) + 6 noise-filtered (awesome-lists, low-activity, no today-catalyst)
+| Repo | Stars today | Tag |
+|---|---|---|
+| NVIDIA-NeMo/Switchyard (top pick) | 421★ | RETURNING |
+| cactus-compute/needle | 315★ | RETURNING |
+| hugohe3/ppt-master | 476★ | ACCELERATING |
+| macro-inc/macro | 227★ | RETURNING |
+| Lightricks/LTX-2 | 65★ | RETURNING (judgment call) |
 
-**Files modified:**
-- `.pending-notify/github-trending-2026-08-12.md` — notification staged for post-run delivery
-- `memory/logs/2026-08-12.md` — log entry appended
+**Top pick rationale:** Switchyard is NVIDIA's official Rust LLM proxy for translating between OpenAI and Anthropic APIs — lets you point Claude Code at any open-source backend without touching agent config. Gained 43% of its lifetime stars today.
+
+**Notification** staged to `.pending-notify/github-trending-2026-08-13.md`. Log appended to `memory/logs/2026-08-13.md`.
