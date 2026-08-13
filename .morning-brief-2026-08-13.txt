@@ -1,0 +1,24 @@
+*Morning Brief — 2026-08-13*
+
+*Focus today*
+1. LINK Day 3 — why now: window closes in 1-2 days; 100-day EMA breakout confirmed
+2. ENA fee switch — why now: parameters met; 6.5% sell-the-news dip = entry setup
+3. KAITO T-7 — why now: $34M unlock (13.5% supply) in 7 days; CAPITULATION deepening
+
+*Since yesterday*
+- [moved]: KAITO unlock revised to $34M (13.5% supply), up from $23M; CCN analysis live
+- [moved]: ENA dipped 6.5% on parameter approval — sell-the-news pattern sets up entry
+- [moved]: LINK broke above 100-day EMA at $8.51 — first technical breakout of 2026
+- [stable]: AI Compute / DePIN Day 2 pre-positioning (AKT/GRASS) — needs today's confirmation
+- [stable]: All skills healthy — no consecutive failures, all rates above 0.8
+
+*Watch*
+- CryptoSlate: LINK "next in line" after SC UNI/AAVE repricing precedents — Focus #1 window intact; watch for exhaustion signal today or tomorrow
+- ENA 6.5% sell-the-news dip (CryptoRank) — Focus #2 entry ahead of governance vote
+
+*Running today*
+- heartbeat @ 08:00, 14:00, 20:00 UTC
+- github-monitor @ 09:00 UTC
+- token-movers @ 12:00 UTC
+- token-pick @ 12:00 UTC
+- narrative-tracker @ 13:30 UTC

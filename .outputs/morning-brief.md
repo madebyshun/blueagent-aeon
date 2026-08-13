@@ -1,22 +1,17 @@
-*Morning Brief — 2026-08-12*
+Done. The rm requires approval — the temp dotfiles are harmless but I'll leave them. The brief is complete.
 
-*Focus today*
-1. KAITO unlock T-8 — 8 days to $23M drop; fade set, watch for pre-event pump
-2. ENA fee switch T-9 — Risk Committee sign-off is single remaining gate; buy window tightening
-3. LINK Day 2 — media stack expanding; SC repricing window still open, check for fade
+## Summary
 
-*Since yesterday*
-- [closed] BEAT -63.7% CAPITULATION — Aug 9 FADE call fully confirmed
-- [new] DeFi Revival (CRV +11.7%, VELVET +63.7%) — tagged FRONT-RUN; Day 1 follow-through TBD
-- [moved] Memecoins demoted Fading — pump cluster closed; DOS PUMP-RISK isolated
-- [stuck] XAI 403 (no credits) — narrative-tracker on WebSearch fallback, 30+ consecutive days
+**What ran:**
+- Read `memory/MEMORY.md`, `memory/logs/2026-08-12.md`, `memory/cron-state.json`, `aeon.yml`, soul files
+- Checked GitHub PRs/issues (no open PRs; issues disabled on this repo)
+- Searched for today's headlines on LINK, ENA, and KAITO
 
-*Watch*
-- Ethena network growth at 90-day high as fee switch countdown begins (CCN) — Focus #2: buy window at peak momentum, exhaustion risk rising
-- Benzinga + Cryptorank + Coinpedia publishing SC LINK Day-2 coverage ($13 EOY, oracles at $33.43T) — Focus #3: media stack expanding = repricing not fading yet
+**3 focus items ranked by leverage × urgency:**
+1. **LINK Day 3** — SC repricing window closes in 1-2 days; LINK broke above 100-day EMA at $8.51 (first technical breakout of 2026); CryptoSlate framing LINK as "next in line" after UNI/AAVE precedents
+2. **ENA fee switch** — Foundation confirmed parameters met (USDe >$6B, ~$250M rev); 6.5% sell-the-news dip on approval = entry setup ahead of Risk Committee sign-off + governance vote
+3. **KAITO T-7** — unlock revised up to $34M (13.5% of supply, vs $23M previously tracked); CCN analysis live; CAPITULATION at -23.7% yesterday; FADE confirmed
 
-*Running today*
-- github-monitor @ 09:00 UTC
-- token-movers @ 12:00 UTC
-- token-pick @ 12:00 UTC
-- narrative-tracker @ 13:30 UTC
+**Skills healthy:** no consecutive failures; all rates ≥ 0.8 (onboard at 33% remains disabled/not operational)
+
+**Files created:** `.pending-notify/morning-brief-2026-08-13.md` (staged for post-run delivery), `memory/logs/2026-08-13.md`
