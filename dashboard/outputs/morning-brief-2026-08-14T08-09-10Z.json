@@ -1,0 +1,279 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-14"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "yesterday-section",
+        "sep2",
+        "watch-section",
+        "sep3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-link",
+        "focus-kaito",
+        "focus-ena"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-link": {
+      "type": "Text",
+      "props": {
+        "text": "1. LINK Day 4 — why now: breakout window closes today; watch for exhaustion or exit",
+        "variant": "body"
+      }
+    },
+    "focus-kaito": {
+      "type": "Text",
+      "props": {
+        "text": "2. KAITO T-6 — why now: $34M unlock Aug 20; daily CAPITULATION deepening",
+        "variant": "body"
+      }
+    },
+    "focus-ena": {
+      "type": "Text",
+      "props": {
+        "text": "3. ENA background: fee switch parameters met; -6.5% dip entry live; Risk Committee sign-off pending",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-heading",
+        "yesterday-link",
+        "yesterday-kaito",
+        "yesterday-ake-apr",
+        "yesterday-mnt"
+      ]
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-link": {
+      "type": "Text",
+      "props": {
+        "text": "LINK: Day 3 held; testing $8.76-$8.84 resistance zone (Day 4)",
+        "variant": "body"
+      }
+    },
+    "yesterday-kaito": {
+      "type": "Text",
+      "props": {
+        "text": "KAITO: T-7→T-6; $34M/13.5% supply unlock Aug 20 confirmed",
+        "variant": "body"
+      }
+    },
+    "yesterday-ake-apr": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ake-apr-stats",
+        "pump-risk-note"
+      ]
+    },
+    "ake-apr-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ake-stat",
+        "apr-stat"
+      ]
+    },
+    "ake-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "AKE (Day 2)",
+        "value": "+45%",
+        "delta": "+148% (7d)",
+        "trend": "up"
+      }
+    },
+    "apr-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "APR (Day 2)",
+        "value": "+34.5%",
+        "trend": "up"
+      }
+    },
+    "pump-risk-note": {
+      "type": "Text",
+      "props": {
+        "text": "both pump-risk, no catalyst",
+        "variant": "caption"
+      }
+    },
+    "yesterday-mnt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mnt-stat",
+        "mnt-context"
+      ]
+    },
+    "mnt-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "MNT",
+        "value": "+6.7%",
+        "trend": "up"
+      }
+    },
+    "mnt-context": {
+      "type": "Text",
+      "props": {
+        "text": "Mantle Super Portal / CCIP gains held",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-content"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-content": {
+      "type": "Text",
+      "props": {
+        "text": "Figure Technologies moving $1.6T U.S. auto loan market on-chain via Chainlink — adds fundamental weight to LINK Day 4 breakout",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-tasks"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-tasks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "task-github",
+        "task-movers",
+        "task-pick",
+        "task-narrative",
+        "task-heartbeat"
+      ]
+    },
+    "task-github": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task-movers": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task-pick": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task-narrative": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "task-heartbeat": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}

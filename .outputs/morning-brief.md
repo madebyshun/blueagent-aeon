@@ -1,17 +1,22 @@
-Done. The rm requires approval — the temp dotfiles are harmless but I'll leave them. The brief is complete.
+*Morning Brief — 2026-08-14*
 
-## Summary
+*Focus today*
+1. LINK Day 4 — why now: breakout window closes today; watch for exhaustion or exit
+2. KAITO T-6 — why now: $34M unlock Aug 20; daily CAPITULATION deepening
+3. ENA background: fee switch parameters met; -6.5% dip entry live; Risk Committee sign-off pending
 
-**What ran:**
-- Read `memory/MEMORY.md`, `memory/logs/2026-08-12.md`, `memory/cron-state.json`, `aeon.yml`, soul files
-- Checked GitHub PRs/issues (no open PRs; issues disabled on this repo)
-- Searched for today's headlines on LINK, ENA, and KAITO
+*Since yesterday*
+- LINK: Day 3 held; testing $8.76-$8.84 resistance zone (Day 4)
+- KAITO: T-7→T-6; $34M/13.5% supply unlock Aug 20 confirmed
+- AKE +45%, APR +34.5% Day 2 (7d +148%) — both pump-risk, no catalyst
+- MNT +6.7% — Mantle Super Portal / CCIP gains held
 
-**3 focus items ranked by leverage × urgency:**
-1. **LINK Day 3** — SC repricing window closes in 1-2 days; LINK broke above 100-day EMA at $8.51 (first technical breakout of 2026); CryptoSlate framing LINK as "next in line" after UNI/AAVE precedents
-2. **ENA fee switch** — Foundation confirmed parameters met (USDe >$6B, ~$250M rev); 6.5% sell-the-news dip on approval = entry setup ahead of Risk Committee sign-off + governance vote
-3. **KAITO T-7** — unlock revised up to $34M (13.5% of supply, vs $23M previously tracked); CCN analysis live; CAPITULATION at -23.7% yesterday; FADE confirmed
+*Watch*
+- Figure Technologies moving $1.6T U.S. auto loan market on-chain via Chainlink — adds fundamental weight to LINK Day 4 breakout
 
-**Skills healthy:** no consecutive failures; all rates ≥ 0.8 (onboard at 33% remains disabled/not operational)
-
-**Files created:** `.pending-notify/morning-brief-2026-08-13.md` (staged for post-run delivery), `memory/logs/2026-08-13.md`
+*Running today*
+- github-monitor @ 09:00 UTC
+- token-movers @ 12:00 UTC
+- token-pick @ 12:00 UTC
+- narrative-tracker @ 13:30 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC
