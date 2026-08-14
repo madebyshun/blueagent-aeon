@@ -1,26 +1,28 @@
-Done. Here's what was done:
+*GitHub Trending — 2026-08-14*
 
-## Summary
+*Top pick* — [unslothai/unsloth](https://github.com/unslothai/unsloth)
+Pushed today with Kimi K3, MiniMax-H3, and DeepSeek-V4 support — the go-to local LLM trainer just added the week's newest models.
 
-**Status:** `GITHUB_TRENDING_OK`
+*AI/ML*
+• [unslothai/unsloth](https://github.com/unslothai/unsloth) — ★ 328 today (71.3k total) · Python · [ACCELERATING]
+Pushed today with Kimi K3 + MiniMax-H3 support — run or fine-tune these models locally via the same one-click UI.
 
-**Fetched:** 17 repos from `https://github.com/trending?since=daily`
+• [semantica-agi/semantica](https://github.com/semantica-agi/semantica) — ★ 713 today (7.2k total) · Python · [RETURNING]
+Graph-native context + accountability layer for AI pipelines — structured relationship retrieval instead of flat vector search.
 
-**Filtered out:**
-- 5 repos already featured Aug 12 (diagram-design, orca, skills, DeepTutor, OpenMontage)
-- 3 repos featured earlier this week (agency-agents, semantica, paperclip)
-- 7 repos dropped for noise (no today catalyst, below star threshold, educational content)
+*Devtools*
+• [holaboss-ai/holaOS](https://github.com/holaboss-ai/holaOS) — ★ 241 today (6.9k total) · TypeScript · [RETURNING]
+Open-source Claude Code + Codex workspace with 100+ tool integrations and persistent shared agent memory across sessions.
 
-**5 picks sent:**
+• [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) — ★ 292 today (46.1k total) · [RETURNING]
+From Obsidian's creator — gives Claude Code native vault access via CLI, Markdown, Bases, and JSON Canvas formats.
 
-| Repo | Stars today | Tag |
-|---|---|---|
-| NVIDIA-NeMo/Switchyard (top pick) | 421★ | RETURNING |
-| cactus-compute/needle | 315★ | RETURNING |
-| hugohe3/ppt-master | 476★ | ACCELERATING |
-| macro-inc/macro | 227★ | RETURNING |
-| Lightricks/LTX-2 | 65★ | RETURNING (judgment call) |
+*Web/Apps*
+• [lightningpixel/modly](https://github.com/lightningpixel/modly) — ★ 118 today (5.7k total) · TypeScript · [RETURNING]
+Image-to-3D model generation that runs entirely on your local GPU — no cloud, no API calls required.
 
-**Top pick rationale:** Switchyard is NVIDIA's official Rust LLM proxy for translating between OpenAI and Anthropic APIs — lets you point Claude Code at any open-source backend without touching agent config. Gained 43% of its lifetime stars today.
+• [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice) — ★ 76 today (10k total) · Swift · [RETURNING]
+On-device macOS dictation with a custom-trained enhancement model — no API calls, no audio leaves your machine.
 
-**Notification** staged to `.pending-notify/github-trending-2026-08-13.md`. Log appended to `memory/logs/2026-08-13.md`.
+---
+sources: trending=ok · gh\_api=ok · kept 6/17

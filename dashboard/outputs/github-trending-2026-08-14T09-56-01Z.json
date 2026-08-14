@@ -1,0 +1,468 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending"
+      },
+      "children": [
+        "date_text",
+        "sep_1",
+        "section_top_pick",
+        "sep_2",
+        "section_aiml",
+        "sep_3",
+        "section_devtools",
+        "sep_4",
+        "section_web",
+        "sep_5",
+        "sources_text"
+      ]
+    },
+    "date_text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-08-14",
+        "variant": "muted"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_top_pick",
+        "repo_unsloth_top"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "repo_unsloth_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_unsloth_top_header",
+        "repo_unsloth_top_desc"
+      ]
+    },
+    "repo_unsloth_top_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_unsloth_top"
+      ]
+    },
+    "storylink_unsloth_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "unslothai/unsloth",
+        "href": "https://github.com/unslothai/unsloth"
+      }
+    },
+    "repo_unsloth_top_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pushed today with Kimi K3, MiniMax-H3, and DeepSeek-V4 support — the go-to local LLM trainer just added the week's newest models."
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aiml",
+        "repo_unsloth_aiml",
+        "repo_semantica"
+      ]
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "repo_unsloth_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_unsloth_aiml_header",
+        "repo_unsloth_aiml_stats",
+        "repo_unsloth_aiml_desc"
+      ]
+    },
+    "repo_unsloth_aiml_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_unsloth_aiml",
+        "badge_accelerating"
+      ]
+    },
+    "storylink_unsloth_aiml": {
+      "type": "StoryLink",
+      "props": {
+        "title": "unslothai/unsloth",
+        "href": "https://github.com/unslothai/unsloth"
+      }
+    },
+    "badge_accelerating": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo_unsloth_aiml_stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 328 today (71.3k total) · Python",
+        "variant": "caption"
+      }
+    },
+    "repo_unsloth_aiml_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pushed today with Kimi K3 + MiniMax-H3 support — run or fine-tune these models locally via the same one-click UI."
+      }
+    },
+    "repo_semantica": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_semantica_header",
+        "repo_semantica_stats",
+        "repo_semantica_desc"
+      ]
+    },
+    "repo_semantica_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_semantica",
+        "badge_returning_1"
+      ]
+    },
+    "storylink_semantica": {
+      "type": "StoryLink",
+      "props": {
+        "title": "semantica-agi/semantica",
+        "href": "https://github.com/semantica-agi/semantica"
+      }
+    },
+    "badge_returning_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo_semantica_stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 713 today (7.2k total) · Python",
+        "variant": "caption"
+      }
+    },
+    "repo_semantica_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Graph-native context + accountability layer for AI pipelines — structured relationship retrieval instead of flat vector search."
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "repo_holaos",
+        "repo_obsidian_skills"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "repo_holaos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_holaos_header",
+        "repo_holaos_stats",
+        "repo_holaos_desc"
+      ]
+    },
+    "repo_holaos_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_holaos",
+        "badge_returning_2"
+      ]
+    },
+    "storylink_holaos": {
+      "type": "StoryLink",
+      "props": {
+        "title": "holaboss-ai/holaOS",
+        "href": "https://github.com/holaboss-ai/holaOS"
+      }
+    },
+    "badge_returning_2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo_holaos_stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 241 today (6.9k total) · TypeScript",
+        "variant": "caption"
+      }
+    },
+    "repo_holaos_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Open-source Claude Code + Codex workspace with 100+ tool integrations and persistent shared agent memory across sessions."
+      }
+    },
+    "repo_obsidian_skills": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_obsidian_skills_header",
+        "repo_obsidian_skills_stats",
+        "repo_obsidian_skills_desc"
+      ]
+    },
+    "repo_obsidian_skills_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_obsidian_skills",
+        "badge_returning_3"
+      ]
+    },
+    "storylink_obsidian_skills": {
+      "type": "StoryLink",
+      "props": {
+        "title": "kepano/obsidian-skills",
+        "href": "https://github.com/kepano/obsidian-skills"
+      }
+    },
+    "badge_returning_3": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo_obsidian_skills_stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 292 today (46.1k total)",
+        "variant": "caption"
+      }
+    },
+    "repo_obsidian_skills_desc": {
+      "type": "Text",
+      "props": {
+        "text": "From Obsidian's creator — gives Claude Code native vault access via CLI, Markdown, Bases, and JSON Canvas formats."
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_web": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_web",
+        "repo_modly",
+        "repo_fluidvoice"
+      ]
+    },
+    "heading_web": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h2"
+      }
+    },
+    "repo_modly": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_modly_header",
+        "repo_modly_stats",
+        "repo_modly_desc"
+      ]
+    },
+    "repo_modly_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_modly",
+        "badge_returning_4"
+      ]
+    },
+    "storylink_modly": {
+      "type": "StoryLink",
+      "props": {
+        "title": "lightningpixel/modly",
+        "href": "https://github.com/lightningpixel/modly"
+      }
+    },
+    "badge_returning_4": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo_modly_stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 118 today (5.7k total) · TypeScript",
+        "variant": "caption"
+      }
+    },
+    "repo_modly_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Image-to-3D model generation that runs entirely on your local GPU — no cloud, no API calls required."
+      }
+    },
+    "repo_fluidvoice": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_fluidvoice_header",
+        "repo_fluidvoice_stats",
+        "repo_fluidvoice_desc"
+      ]
+    },
+    "repo_fluidvoice_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_fluidvoice",
+        "badge_returning_5"
+      ]
+    },
+    "storylink_fluidvoice": {
+      "type": "StoryLink",
+      "props": {
+        "title": "altic-dev/FluidVoice",
+        "href": "https://github.com/altic-dev/FluidVoice"
+      }
+    },
+    "badge_returning_5": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo_fluidvoice_stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 76 today (10k total) · Swift",
+        "variant": "caption"
+      }
+    },
+    "repo_fluidvoice_desc": {
+      "type": "Text",
+      "props": {
+        "text": "On-device macOS dictation with a custom-trained enhancement model — no API calls, no audio leaves your machine."
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/17",
+        "variant": "muted"
+      }
+    }
+  }
+}
