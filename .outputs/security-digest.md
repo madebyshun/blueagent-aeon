@@ -1,18 +1,18 @@
-Done. Here's the summary:
+Done.
 
 ## Summary
 
-**Security Digest — 2026-08-13** executed successfully.
+**What I did:**
+- Read `memory/MEMORY.md` and last 2 days of logs to extract 9 CVE/GHSA IDs to exclude (all reported Aug 12–13)
+- Fetched CISA KEV via WebFetch — confirmed 4 KEV entries this week, all previously reported; no new additions since Aug 13
+- Fetched GitHub critical + high advisories via `gh api` (last 48h); filtered to tracked stack (npm, pip, Go, crates.io, GitHub Actions)
+- Enriched new candidates with EPSS via WebFetch; fetched advisory detail pages for top candidates
 
-**PATCH TODAY (1)**
-- **CVE-2026-8037** — Progress Kemp LoadMaster, pre-auth command injection → root RCE. KEV added 2026-08-07, EPSS 0.993, CVSS 9.6. 792 exploit attempts confirmed in the wild; FCEB due date (Aug 10) already past. Fix: LoadMaster ≥7.2.63.2 (GA) or ≥7.2.54.18 (LTSF).
+**Tier results:**
+- **PATCH TODAY (0):** No new KEV, no EPSS ≥ 0.5, no (CVSS ≥ 9.8 + PoC)
+- **PATCH THIS WEEK (1):** CVE-2026-73654 — `@trigger.dev/core` (npm) CVSS 8.5, fix at 4.5.6, public PoC (single-request Object.prototype corruption, cross-tenant DoS)
+- **MONITOR (3):** CVE-2026-12243 `nltk` (pip, fix ≥3.10.0, PoC exists, EPSS 0.006) · CVE-2026-54917 `seaweedfs` (Go, no fix) · CVE-2026-46369 `nimiq-blockchain` (crates.io, no fix)
 
-**PATCH THIS WEEK (1)**
-- **GHSA-49m4-vp58-wgc9 / CVE-2026-55071** — stata-mcp (pip), command injection via newline in MCP tool param. CVSS 8.4, public PoC with Docker repro. Fix: `pip install stata-mcp>=1.19.0`.
-
-**MONITOR (3)**
-- GHSA-48p8-g2fx-3wwm — Argo Workflows (Go), allow-list bypass (incomplete fix for CVE-2026-31892), no patch yet.
-- GHSA-cxgv-hp74-jj7r — ansible-jailexec (pip), symlink jail escape → arbitrary host file write as root, no patch yet.
-- GHSA-rm43-82j9-r4mj — atomic-agents-stack (pip), dashboard path traversal → arbitrary file read, no patch yet.
-
-**Sources**: KEV=ok (WebFetch), GH Advisory=ok (gh api), EPSS=ok (WebFetch). Notification staged to `.pending-notify/security-digest-2026-08-13.md`. Log appended to `memory/logs/2026-08-13.md`. All Aug 12 IDs (CVE-2026-72898, CVE-2026-20349, CVE-2026-68820, GHSA-87fv-vqqr-m4jr) correctly deduplicated.
+**Files created/modified:**
+- `.pending-notify/security-digest-2026-08-14.md` — staged notification for postprocessing
+- `memory/logs/2026-08-14.md` — appended `### security-digest` log entry
