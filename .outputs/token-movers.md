@@ -1,21 +1,17 @@
-Done. Here's what I did:
+Done. Here's the summary:
 
-**Token Movers — 2026-08-13**
+## Summary
 
-**Market pulse:** Broad risk-off. BTC -1.1%, ~34% of top-100 alts green, median 24h ~-1.1%. Large-caps red uniformly; isolated pump-risk spikes dominate the winners side.
+**token-movers skill completed for 2026-08-14.**
 
-**Top Winners:**
-1. AKE +45.2% [PUMP-RISK] — rank 224, no catalyst
-2. APR +34.5% [PUMP-RISK][TRENDING+UP] — Day 2 of pump; was +89.8% yesterday; 7d +148%
-3. VELVET +19.6% [BREAKOUT] — direction reversal from -28.4% loser yesterday
-4-10: B +8.5%, MNT +6.7%, OKB +5.9%, STABLE +5.6%, ZANO +5.1%, VIRTUAL +5.0%, CASHCAT +4.7%[TRENDING+UP]
+**Market pulse:** Broad risk-off — BTC −1.2%, ~75% of large-cap alts red, median ~−1.0%.
 
-**Top Losers:**
-1. BEAT -28.5% [TRENDING+DOWN] — Day 3; yesterday's bounce confirmed dead-cat
-2. CYS -14.2% [TRENDING+DOWN] — reversal from 3-day winning streak
-3. CRV -9.5% — reversal from recent DeFi revival signal
-4-10: 2Z -8.2%, EDGE -7.9%, UB -6.1%, ARB -5.6%, TRUMP -5.5%, PEPE -5.4%, BAT -5.3%
+**Top winners:** AKE +107.3% [PUMP-RISK] (Day 2 escalation), VELVET +41.3% [BREAKOUT], H +29.7% [BREAKOUT], CAP +20.2% [BREAKOUT], ETHFI +12.5% [TRENDING+UP], ATOM +10.3%
 
-**Notable:** KAITO [CAPITULATION] T-7 with unlock revised upward to $34M/13.5% supply (from $23M estimate), vol/mcap 0.66.
+**Top losers:** UNI −10.8% (fresh −5.6% 1h drop), CASHCAT −10.4% [TRENDING+DOWN], ZRO −7.1%, CVX −6.0%
 
-Notification staged at `.pending-notify/token-movers-2026-08-13.md` and log appended to `memory/logs/2026-08-13.md`.
+**Notable:** ACE (rank #688) and AKE are the standout [PUMP-RISK] signals — both in trending with no catalyst. CASHCAT flipped from trending winner to loser overnight. VELVET running 3 consecutive volatile sessions.
+
+**Files created/modified:**
+- `.pending-notify/token-movers-2026-08-14.md` — notification staged for postprocess delivery
+- `memory/logs/2026-08-14.md` — log entry appended
