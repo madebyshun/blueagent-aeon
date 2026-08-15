@@ -1,0 +1,1042 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-15",
+        "description": "Market narrative transitions, reflexivity alerts, active positions, and narrative phase map"
+      },
+      "children": [
+        "transitions_section",
+        "sep1",
+        "reflexivity_section",
+        "sep2",
+        "positions_section",
+        "sep3",
+        "map_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions_heading",
+        "trans1",
+        "trans2",
+        "trans3",
+        "trans4"
+      ]
+    },
+    "transitions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans1_badge",
+        "trans1_text1",
+        "trans1_text2",
+        "trans1_links"
+      ]
+    },
+    "trans1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "trans1_text1": {
+      "type": "Text",
+      "props": {
+        "text": "SEC Regulation Crypto — Rising ↑↑ FRONT-RUN → Fading ↓ WATCH. SEC canceled \"Regulation Crypto\" vote Aug 13 with no new date. Tokenized securities innovation exemption also delayed simultaneously. BTC −1.2%, Coinbase/Robinhood shares fell. Both regulatory paths now blocked (CLARITY Act still stalled). Regulatory clarity → regulatory uncertainty",
+        "variant": "body"
+      }
+    },
+    "trans1_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trans1_link1",
+        "trans1_link2"
+      ]
+    },
+    "trans1_link1": {
+      "type": "Link",
+      "props": {
+        "label": "CoinDesk",
+        "href": "https://coindesk.com"
+      }
+    },
+    "trans1_link2": {
+      "type": "Link",
+      "props": {
+        "label": "Crypto Times",
+        "href": "https://cryptotimes.io"
+      }
+    },
+    "trans2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans2_badge",
+        "trans2_text1",
+        "trans2_text2",
+        "trans2_stat",
+        "trans2_links"
+      ]
+    },
+    "trans2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CATALYST UPGRADE",
+        "variant": "secondary"
+      }
+    },
+    "trans2_text1": {
+      "type": "Text",
+      "props": {
+        "text": "Oracle/LINK — Peak ↑ RIDE confirmed and refreshed. Circle Arc (BlackRock, DTCC, Visa, Mastercard, Standard Chartered, Galaxy, ICE, Sumitomo founding validators) joins Chainlink Scale ahead of Sep 16 mainnet.",
+        "variant": "body"
+      }
+    },
+    "trans2_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "LINK Aug 15",
+        "value": "+5.8%",
+        "trend": "up"
+      }
+    },
+    "trans2_text2": {
+      "type": "Text",
+      "props": {
+        "text": "Narrative shifts: SC analyst coverage reflexivity → institutional production adoption. Token-pick today: HIGH 8/10",
+        "variant": "body"
+      }
+    },
+    "trans2_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trans2_link1",
+        "trans2_link2"
+      ]
+    },
+    "trans2_link1": {
+      "type": "Link",
+      "props": {
+        "label": "CoinGabbar",
+        "href": "https://coingabbar.com"
+      }
+    },
+    "trans2_link2": {
+      "type": "Link",
+      "props": {
+        "label": "CoinPaprika",
+        "href": "https://coinpaprika.com"
+      }
+    },
+    "trans3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans3_badge",
+        "trans3_text1",
+        "trans3_text2",
+        "trans3_text3"
+      ]
+    },
+    "trans3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "REFLEXIVITY REVEAL",
+        "variant": "outline"
+      }
+    },
+    "trans3_text1": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid/HYPE — Rising ↑ WATCH. $213B RWA perps Q2 2026; RWA = #1 trading category July 2026.",
+        "variant": "body"
+      }
+    },
+    "trans3_text2": {
+      "type": "Text",
+      "props": {
+        "text": "But: HIP-3 builder markets (Trade.xyz) driving ~50% volume while leaving smaller protocol fee cut → HYPE buyback weakening structurally.",
+        "variant": "body"
+      }
+    },
+    "trans3_text3": {
+      "type": "Text",
+      "props": {
+        "text": "Volume story intact; token economics deteriorating beneath it. (CoinDesk Aug 9)",
+        "variant": "body"
+      }
+    },
+    "trans4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans4_badge",
+        "trans4_text"
+      ]
+    },
+    "trans4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY DECAY",
+        "variant": "outline"
+      }
+    },
+    "trans4_text": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi-TradFi/ETHFI — Emerging ↑↑ FRONT-RUN → Rising ↑ RIDE. No new catalyst Aug 15. Product is real ($3B ETHGas forward deal, neobank tokenized stocks). Day 1 momentum normalized.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_heading",
+        "refl1",
+        "refl2",
+        "refl3"
+      ]
+    },
+    "reflexivity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "refl1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl1_title",
+        "refl1_text"
+      ]
+    },
+    "refl1_title": {
+      "type": "Text",
+      "props": {
+        "text": "SEC Regulation Crypto (REVERSING)",
+        "variant": "lead"
+      }
+    },
+    "refl1_text": {
+      "type": "Text",
+      "props": {
+        "text": "Market priced \"regulatory clarity imminent\" as certainty. Cancellation without new date exposed the gap. Positions built on this thesis are unanchored. No floor until vote date announced.",
+        "variant": "body"
+      }
+    },
+    "refl2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl2_title",
+        "refl2_text"
+      ]
+    },
+    "refl2_title": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid/HYPE (STRUCTURAL)",
+        "variant": "lead"
+      }
+    },
+    "refl2_text": {
+      "type": "Text",
+      "props": {
+        "text": "$213B RWA volume Q2 is real. But the same RWA narrative (HIP-3 builder markets) is compressing HYPE buyback revenue. Volume ≠ value accrual.",
+        "variant": "body"
+      }
+    },
+    "refl3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl3_title",
+        "refl3_text"
+      ]
+    },
+    "refl3_title": {
+      "type": "Text",
+      "props": {
+        "text": "LINK Circle Arc (INCOMING)",
+        "variant": "lead"
+      }
+    },
+    "refl3_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sep 16 is 4 weeks away. LINK +5.8% today = pre-positioning narrative. Watch for post-mainnet reflexivity flip if Q4 adoption disappoints.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions_heading",
+        "pos1",
+        "pos2",
+        "pos3",
+        "pos4",
+        "pos5",
+        "pos6",
+        "pos7",
+        "pos8",
+        "pos9",
+        "pos10",
+        "pos11"
+      ]
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1_badges",
+        "pos1_text"
+      ]
+    },
+    "pos1_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1_name",
+        "pos1_status",
+        "pos1_rating",
+        "pos1_sentiment"
+      ]
+    },
+    "pos1_name": {
+      "type": "Badge",
+      "props": {
+        "text": "Oracle/LINK",
+        "variant": "default"
+      }
+    },
+    "pos1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "pos1_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑",
+        "variant": "outline"
+      }
+    },
+    "pos1_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos1_text": {
+      "type": "Text",
+      "props": {
+        "text": "Circle Arc Sep 16; BlackRock/DTCC/Visa institutional rails; LINK buyback running — bear: pre-mainnet reflexivity risk",
+        "variant": "body"
+      }
+    },
+    "pos2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos2_badges",
+        "pos2_text"
+      ]
+    },
+    "pos2_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos2_name",
+        "pos2_status",
+        "pos2_rating",
+        "pos2_sentiment"
+      ]
+    },
+    "pos2_name": {
+      "type": "Badge",
+      "props": {
+        "text": "DeFi-TradFi/ETHFI",
+        "variant": "default"
+      }
+    },
+    "pos2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "pos2_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑",
+        "variant": "outline"
+      }
+    },
+    "pos2_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos2_text": {
+      "type": "Text",
+      "props": {
+        "text": "neobank + tokenized stocks + $3B ETHGas deal — bear: regulatory exposure under new SEC uncertainty",
+        "variant": "body"
+      }
+    },
+    "pos3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos3_badges",
+        "pos3_text"
+      ]
+    },
+    "pos3_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos3_name",
+        "pos3_status",
+        "pos3_rating",
+        "pos3_sentiment"
+      ]
+    },
+    "pos3_name": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Economy Infra",
+        "variant": "default"
+      }
+    },
+    "pos3_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "pos3_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "5 ↑",
+        "variant": "outline"
+      }
+    },
+    "pos3_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos3_text": {
+      "type": "Text",
+      "props": {
+        "text": "ego-lite agent browser runtime; ragflow RAG+agent; 5th consecutive GitHub trending session — bear: AI token underperformance persistent",
+        "variant": "body"
+      }
+    },
+    "pos4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos4_badges",
+        "pos4_text"
+      ]
+    },
+    "pos4_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos4_name",
+        "pos4_status",
+        "pos4_rating",
+        "pos4_sentiment"
+      ]
+    },
+    "pos4_name": {
+      "type": "Badge",
+      "props": {
+        "text": "Stablecoin/ENA",
+        "variant": "default"
+      }
+    },
+    "pos4_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "pos4_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑",
+        "variant": "outline"
+      }
+    },
+    "pos4_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos4_text": {
+      "type": "Text",
+      "props": {
+        "text": "T-6 fee switch vote Aug 21; 6.5% dip entry live — bear: buy-anticipation risk; Risk Committee sign-off outstanding",
+        "variant": "body"
+      }
+    },
+    "pos5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos5_badges",
+        "pos5_text"
+      ]
+    },
+    "pos5_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos5_name",
+        "pos5_status",
+        "pos5_rating",
+        "pos5_sentiment"
+      ]
+    },
+    "pos5_name": {
+      "type": "Badge",
+      "props": {
+        "text": "x402/Base",
+        "variant": "default"
+      }
+    },
+    "pos5_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "pos5_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑",
+        "variant": "outline"
+      }
+    },
+    "pos5_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos5_text": {
+      "type": "Text",
+      "props": {
+        "text": "$73M/176M agentic txns live",
+        "variant": "body"
+      }
+    },
+    "pos6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos6_badges",
+        "pos6_text"
+      ]
+    },
+    "pos6_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos6_name",
+        "pos6_status",
+        "pos6_rating",
+        "pos6_sentiment"
+      ]
+    },
+    "pos6_name": {
+      "type": "Badge",
+      "props": {
+        "text": "Hyperliquid/HYPE",
+        "variant": "default"
+      }
+    },
+    "pos6_status": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "secondary"
+      }
+    },
+    "pos6_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑",
+        "variant": "outline"
+      }
+    },
+    "pos6_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos6_text": {
+      "type": "Text",
+      "props": {
+        "text": "volume real; buyback compression building → FADE in 1-2 sessions if confirmed",
+        "variant": "body"
+      }
+    },
+    "pos7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos7_badges",
+        "pos7_text"
+      ]
+    },
+    "pos7_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos7_name",
+        "pos7_status",
+        "pos7_rating",
+        "pos7_sentiment"
+      ]
+    },
+    "pos7_name": {
+      "type": "Badge",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "default"
+      }
+    },
+    "pos7_status": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "secondary"
+      }
+    },
+    "pos7_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑",
+        "variant": "outline"
+      }
+    },
+    "pos7_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos7_text": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole T-12 (Aug 27-29); FOMC Sep 16; SEC cancellation adds macro uncertainty demand",
+        "variant": "body"
+      }
+    },
+    "pos8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos8_badges",
+        "pos8_text"
+      ]
+    },
+    "pos8_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos8_name",
+        "pos8_status",
+        "pos8_rating",
+        "pos8_sentiment"
+      ]
+    },
+    "pos8_name": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Compute/DePIN",
+        "variant": "default"
+      }
+    },
+    "pos8_status": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "secondary"
+      }
+    },
+    "pos8_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "4 →",
+        "variant": "outline"
+      }
+    },
+    "pos8_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos8_text": {
+      "type": "Text",
+      "props": {
+        "text": "NVIDIA T-11; no AKT/GRASS signal today; conditional FRONT-RUN cooling",
+        "variant": "body"
+      }
+    },
+    "pos9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos9_badges",
+        "pos9_text"
+      ]
+    },
+    "pos9_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos9_name",
+        "pos9_status",
+        "pos9_rating",
+        "pos9_sentiment"
+      ]
+    },
+    "pos9_name": {
+      "type": "Badge",
+      "props": {
+        "text": "DeFi Revival/Curve",
+        "variant": "default"
+      }
+    },
+    "pos9_status": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "pos9_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↓↓",
+        "variant": "outline"
+      }
+    },
+    "pos9_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear",
+        "variant": "destructive"
+      }
+    },
+    "pos9_text": {
+      "type": "Text",
+      "props": {
+        "text": "UNI −3.9% Aug 15 = 4th consecutive DeFi red session; thesis broken",
+        "variant": "body"
+      }
+    },
+    "pos10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos10_badges",
+        "pos10_text"
+      ]
+    },
+    "pos10_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos10_name",
+        "pos10_status",
+        "pos10_rating",
+        "pos10_sentiment"
+      ]
+    },
+    "pos10_name": {
+      "type": "Badge",
+      "props": {
+        "text": "Memecoins",
+        "variant": "default"
+      }
+    },
+    "pos10_status": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "pos10_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "1 ↓↓",
+        "variant": "outline"
+      }
+    },
+    "pos10_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Cope",
+        "variant": "destructive"
+      }
+    },
+    "pos10_text": {
+      "type": "Text",
+      "props": {
+        "text": "BEAT −27.6%; AKE Day 3 decelerating (+107% → +13.6%); COW +72.8% PUMP-RISK absent from top-250",
+        "variant": "body"
+      }
+    },
+    "pos11": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos11_badges",
+        "pos11_text"
+      ]
+    },
+    "pos11_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos11_name",
+        "pos11_status"
+      ]
+    },
+    "pos11_name": {
+      "type": "Badge",
+      "props": {
+        "text": "Kaito",
+        "variant": "default"
+      }
+    },
+    "pos11_status": {
+      "type": "Badge",
+      "props": {
+        "text": "IGNORE",
+        "variant": "secondary"
+      }
+    },
+    "pos11_text": {
+      "type": "Text",
+      "props": {
+        "text": "T-5 to $34M unlock Aug 20; capitulation deepening",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_heading",
+        "map_table"
+      ]
+    },
+    "map_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Phase",
+          "Narratives"
+        ],
+        "rows": [
+          [
+            "Rising",
+            "Oracle/LINK, Stablecoin/ENA, DeFi-TradFi/ETHFI, AI Agent Security/TEE, Agentic Dev Tools, Hyperliquid/HYPE, Prediction Markets, ZEC/Privacy, Solana RWA, AI Compute/DePIN, BNB Chain"
+          ],
+          [
+            "Peak",
+            "AI Agent Economy Infra, x402/Base"
+          ],
+          [
+            "Fading",
+            "SEC Regulation Crypto, DeFi Revival/Curve, Memecoins, AI→Crypto Rotation, Alt-ETF/ADA, Tokenized Equities/ONDO"
+          ],
+          [
+            "Dead",
+            "Kaito (T-5 Aug 20), CLARITY Act"
+          ]
+        ]
+      }
+    }
+  }
+}
