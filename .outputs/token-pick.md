@@ -1,24 +1,17 @@
-Done. Here's the summary of what was executed:
+*Daily Pick — 2026-08-15*
 
----
+*Token: LINK*  [HIGH]  signal 8/10
+Price: $9.34 (+5.7% 24h / +11.5% 7d) | mcap $7.0B | vol $478M (vol/mcap 0.07)
+Score breakdown: [CG trending+2, 24h>0+1, 7d>0+1, both>5%+2, RS vs BTC+ETH+2] = 8/10
+Catalyst: Circle Arc institutional blockchain (BlackRock, DTCC, Visa as day-1 validators) joins Chainlink's Scale program on its Sep 16, 2026 mainnet launch
+Risk: Catalyst is 32 days out — buy-the-rumor/sell-the-news risk, and if BTC weakness deepens (−3.1% 7d) LINK gets dragged regardless of narrative
+Vs recent picks: first time LINK picked
 
-## Summary
+*Market: "Bitcoin all time high by December 31, 2026?"*  [MEDIUM]  edge 6pp
+Current: YES 5¢ / NO 95¢ | vol $10M total | resolves: Dec 31, 2026
+Fair YES: ~11% (inputs: [post-halving cycle dynamics put ATH window in late 2026], [Circle Arc Sep 16 upgrades institutional BTC adoption thesis], [Oct/Dec FOMC cut optionality if Warsh pivot materializes post-JH])
+Thesis: 5¢ YES underprices institutional stacking through Q4; buying YES at 5¢ offers +6pp edge vs fair value
+Risk: BTC needs +73% from current $62.9k in 4.5 months — prolonged drawdown (−42% from ATH) and hawkish macro could make fair value lower than estimated
 
-**Token: ETHFI** [HIGH] — 10/10
-- $0.425 | +12.5% 24h / +15.4% 7d | mcap $413M | vol/mcap 0.155
-- Score: trending+2, both>5%+2, vol/mcap+2, RS vs BTC/ETH+2, 24h+1, 7d+1 = 10/10
-- Catalyst: Ether.fi neobank expanded with tokenized stocks + DeFi loans (Aug 13 announcement); $3B ETHGas forward blockspace deal; weekly buyback program
-- Risk: EIP-8363 proposal could reduce liquid staking yield attractiveness
-
-**Market: "Fed Decision in September?"** [MEDIUM] — edge 8pp — BUY NO
-- YES 74¢ (hold) / NO 26¢ | $2M 24h volume | resolves Sep 16
-- Fair YES ~66%: JPMorgan July 23 had 65% September hike probability; flat PPI today (0.0% vs 0.2% expected) is modestly dovish but YoY +4.7% + Warsh hawkishness keep change probability above market's 26%
-- Catalyst: Jackson Hole Aug 22–24 — Warsh signals could reprice NO from 26¢ to 50¢+
-
-**Dedup cleared** — neither ETHFI nor this Fed decision market appeared in last 7 days of picks.
-
-**Files:**
-- Notification staged: `.pending-notify/token-pick-2026-08-14.md`
-- Log appended: `memory/logs/2026-08-14.md`
-
-Sources: [ether.fi ETHFI news](https://coinpedia.org/news/ethfi-price-today-upbit-krw-listing-causes-20-spike-as-arthur-hayes-accumulates/) | [Polymarket Fed September](https://polymarket.com/predictions/fed) | [PPI July 2026](https://cedarnews.net/newstasks/942478/us-ppi-inflation-report-producer-prices-unchanged-in-july-2026/) | [JPMorgan September hike call](https://www.chase.com/personal/investments/learning-and-insights/article/september-2026-rate-hike-now-expected-amid-energy-shocks)
+sources: cg=ok, dex=fail, poly=ok
+not financial advice — pattern-matching only
