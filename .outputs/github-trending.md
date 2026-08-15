@@ -1,28 +1,28 @@
-*GitHub Trending — 2026-08-14*
-
-*Top pick* — [unslothai/unsloth](https://github.com/unslothai/unsloth)
-Pushed today with Kimi K3, MiniMax-H3, and DeepSeek-V4 support — the go-to local LLM trainer just added the week's newest models.
-
-*AI/ML*
-• [unslothai/unsloth](https://github.com/unslothai/unsloth) — ★ 328 today (71.3k total) · Python · [ACCELERATING]
-Pushed today with Kimi K3 + MiniMax-H3 support — run or fine-tune these models locally via the same one-click UI.
-
-• [semantica-agi/semantica](https://github.com/semantica-agi/semantica) — ★ 713 today (7.2k total) · Python · [RETURNING]
-Graph-native context + accountability layer for AI pipelines — structured relationship retrieval instead of flat vector search.
-
-*Devtools*
-• [holaboss-ai/holaOS](https://github.com/holaboss-ai/holaOS) — ★ 241 today (6.9k total) · TypeScript · [RETURNING]
-Open-source Claude Code + Codex workspace with 100+ tool integrations and persistent shared agent memory across sessions.
-
-• [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) — ★ 292 today (46.1k total) · [RETURNING]
-From Obsidian's creator — gives Claude Code native vault access via CLI, Markdown, Bases, and JSON Canvas formats.
-
-*Web/Apps*
-• [lightningpixel/modly](https://github.com/lightningpixel/modly) — ★ 118 today (5.7k total) · TypeScript · [RETURNING]
-Image-to-3D model generation that runs entirely on your local GPU — no cloud, no API calls required.
-
-• [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice) — ★ 76 today (10k total) · Swift · [RETURNING]
-On-device macOS dictation with a custom-trained enhancement model — no API calls, no audio leaves your machine.
+The temp file cleanup was blocked by the sandbox, which is fine — it's a non-critical artifact.
 
 ---
-sources: trending=ok · gh\_api=ok · kept 6/17
+
+## Summary
+
+**Status:** `GITHUB_TRENDING_OK`
+
+**What I did:**
+- Fetched GitHub trending (all languages, daily) via WebFetch — 17 repos returned
+- Read last 2 days of logs (Aug 13–14) for deduplication
+- Enriched 8 candidates with `gh api` for creation dates and velocity
+- Applied all noise filters: dropped 4 (featured Aug 14), 1 (meta-list), 1 (low-activity), 5 (no concrete "why notable")
+
+**6 picks sent:**
+
+| Repo | Tag | Category |
+|------|-----|----------|
+| github/spec-kit (★1,160 today) | ACCELERATING | Devtools — **top pick** |
+| cathrynlavery/diagram-design (★3,646 today) | ACCELERATING | Devtools |
+| citrolabs/ego-lite (★165 today) | ACCELERATING | Devtools |
+| cactus-compute/needle (★662 today) | RETURNING | AI/ML |
+| infiniflow/ragflow (★473 today) | RETURNING | AI/ML |
+| OpenCut-app/OpenCut (★255 today) | RETURNING | Web/Apps |
+
+**Files modified:**
+- `memory/logs/2026-08-15.md` — appended `### github-trending` log entry
+- `.pending-notify/github-trending-2026-08-15.md` — staged for post-run delivery (sandbox blocked direct `./notify`)
