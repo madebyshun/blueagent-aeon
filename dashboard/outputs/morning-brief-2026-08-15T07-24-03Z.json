@@ -1,0 +1,354 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — Aug 15, 2026"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_since",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_focus",
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "SEC meeting canceled — reassess FRONT-RUN; narrative-tracker re-prices at 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "KAITO T-5 — Aug 20 unlock ($34M / 13.5% supply); capitulation deepening daily; FADE holds",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "Jackson Hole T-7 — Warsh first speech; 80% cut priced vs. hawks unmoved; positioning window live",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_since",
+        "since_1",
+        "since_2",
+        "since_3",
+        "since_4",
+        "since_5"
+      ]
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "since_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_updated1",
+        "text_since1"
+      ]
+    },
+    "badge_updated1": {
+      "type": "Badge",
+      "props": {
+        "text": "updated",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since1": {
+      "type": "Text",
+      "props": {
+        "text": "SEC Regulation Crypto: meeting canceled (was set for Aug 14 vote) — yesterday's FRONT-RUN call needs re-evaluation; reflexivity unwind risk for tokens with SEC-narrative tailwind",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_updated2",
+        "text_since2"
+      ]
+    },
+    "badge_updated2": {
+      "type": "Badge",
+      "props": {
+        "text": "updated",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since2": {
+      "type": "Text",
+      "props": {
+        "text": "LINK: Day 4 breakout window closed; Circle Arc (BlackRock, DTCC, Visa) joins Chainlink Scale for Sep 16 mainnet — fundamental thesis extends past analyst coverage clock",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_open",
+        "text_since3"
+      ]
+    },
+    "badge_open": {
+      "type": "Badge",
+      "props": {
+        "text": "open",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_since3": {
+      "type": "Text",
+      "props": {
+        "text": "ENA: T-4 to Aug 21 fee switch vote; 6.5% dip entry window live; Risk Committee sign-off still pending",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fading",
+        "text_since4"
+      ]
+    },
+    "badge_fading": {
+      "type": "Badge",
+      "props": {
+        "text": "fading",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_since4": {
+      "type": "Text",
+      "props": {
+        "text": "AKE/ACE: pump-risk Day 3 — watch for capitulation tag in today's token-movers",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stuck",
+        "text_since5"
+      ]
+    },
+    "badge_stuck": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text_since5": {
+      "type": "Text",
+      "props": {
+        "text": "XAI prefetch: 403 for 36 consecutive days (no credits); narrative-tracker falling back to WebSearch",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_watch",
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "Circle Arc + BlackRock/DTCC/Visa on Chainlink Sep 16 — new fundamental anchor for LINK past Day 4 exhaustion",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "Yahoo Finance: \"Fed hawks may not be swayed\" despite 80% cut pricing — Warsh JH speech is a live surprise risk",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_running",
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
