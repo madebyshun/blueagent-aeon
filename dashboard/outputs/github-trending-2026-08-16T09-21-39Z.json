@@ -1,0 +1,489 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-08-16"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "top-pick-section",
+        "sep1",
+        "ai-ml-section",
+        "sep2",
+        "devtools-section",
+        "sep3",
+        "web-apps-section",
+        "sources"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-heading",
+        "cli-anything-1-stack"
+      ]
+    },
+    "top-pick-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "cli-anything-1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cli-anything-1-link",
+        "cli-anything-1-meta",
+        "cli-anything-1-desc"
+      ]
+    },
+    "cli-anything-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HKUDS/CLI-Anything",
+        "href": "https://github.com/HKUDS/CLI-Anything"
+      }
+    },
+    "cli-anything-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cli-anything-1-stars",
+        "cli-anything-1-velocity",
+        "badge-accel-1"
+      ]
+    },
+    "cli-anything-1-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "47.5k"
+      }
+    },
+    "cli-anything-1-velocity": {
+      "type": "Stat",
+      "props": {
+        "label": "Velocity",
+        "value": "295/day"
+      }
+    },
+    "badge-accel-1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "cli-anything-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Largest agent-native infrastructure project on GitHub right now — 47.5k stars, velocity 295/day, still accelerating. Becoming the default primitive for wrapping any CLI tool into an agent-callable interface."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai-ml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-heading",
+        "soup-stack"
+      ]
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "soup-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "soup-link",
+        "soup-meta",
+        "soup-desc"
+      ]
+    },
+    "soup-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MakazhanAlpamys/Soup",
+        "href": "https://github.com/MakazhanAlpamys/Soup"
+      }
+    },
+    "soup-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-py-1",
+        "soup-stars",
+        "badge-returning-1"
+      ]
+    },
+    "badge-py-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "soup-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1.8k",
+        "delta": "+297",
+        "trend": "up"
+      }
+    },
+    "badge-returning-1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "soup-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Layer-streaming cuts 8B model fine-tuning to 4GB VRAM — single YAML replaces the usual wall of training scaffold. Active push today."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "cli-anything-2-stack",
+        "cursor-plugins-stack",
+        "cordis-stack"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "cli-anything-2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cli-anything-2-link",
+        "cli-anything-2-meta",
+        "cli-anything-2-desc"
+      ]
+    },
+    "cli-anything-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HKUDS/CLI-Anything",
+        "href": "https://github.com/HKUDS/CLI-Anything"
+      }
+    },
+    "cli-anything-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-py-2",
+        "cli-anything-2-stars",
+        "badge-accel-2"
+      ]
+    },
+    "badge-py-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "cli-anything-2-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "47.5k",
+        "delta": "+118",
+        "trend": "up"
+      }
+    },
+    "badge-accel-2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "cli-anything-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Universal CLI-to-agent bridge — wraps any shell command as an agent-callable tool without modifying the underlying binary."
+      }
+    },
+    "cursor-plugins-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cursor-plugins-link",
+        "cursor-plugins-meta",
+        "cursor-plugins-desc"
+      ]
+    },
+    "cursor-plugins-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cursor/plugins",
+        "href": "https://github.com/cursor/plugins"
+      }
+    },
+    "cursor-plugins-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ts-1",
+        "cursor-plugins-stars",
+        "badge-returning-2"
+      ]
+    },
+    "badge-ts-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "cursor-plugins-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "3k",
+        "delta": "+149",
+        "trend": "up"
+      }
+    },
+    "badge-returning-2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "cursor-plugins-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cursor's first public plugin spec — third-party devs can now extend the AI editor with full access to its context and commands."
+      }
+    },
+    "cordis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cordis-link",
+        "cordis-meta",
+        "cordis-desc"
+      ]
+    },
+    "cordis-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cordiverse/cordis",
+        "href": "https://github.com/cordiverse/cordis"
+      }
+    },
+    "cordis-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ts-2",
+        "cordis-stars",
+        "badge-returning-3"
+      ]
+    },
+    "badge-ts-2": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "cordis-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "4.3k",
+        "delta": "+599",
+        "trend": "up"
+      }
+    },
+    "badge-returning-3": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "cordis-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Hot-swappable plugin composition — services mount, unmount, and rewire at runtime without restart; the primitive agent frameworks keep reinventing."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "web-apps-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web-apps-heading",
+        "tooljet-stack"
+      ]
+    },
+    "web-apps-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h2"
+      }
+    },
+    "tooljet-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tooljet-link",
+        "tooljet-meta",
+        "tooljet-desc"
+      ]
+    },
+    "tooljet-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ToolJet/ToolJet",
+        "href": "https://github.com/ToolJet/ToolJet"
+      }
+    },
+    "tooljet-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-js-1",
+        "tooljet-stars",
+        "badge-returning-4"
+      ]
+    },
+    "badge-js-1": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "secondary"
+      }
+    },
+    "tooljet-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "39.7k",
+        "delta": "+544",
+        "trend": "up"
+      }
+    },
+    "badge-returning-4": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "tooljet-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Open-source Retool alternative returns trending on new AI agent workflow builder — run agents inside internal dashboards without additional infra."
+      }
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/13",
+        "variant": "caption"
+      }
+    }
+  }
+}
