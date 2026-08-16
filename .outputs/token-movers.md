@@ -1,22 +1,16 @@
-Files will remain but won't affect the run. The skill is complete.
-
----
+The rm hook is blocking cleanup of temp files — they'll stay as hidden files but won't affect the run. The core outputs are complete.
 
 ## Summary
 
 **What was done:**
-- Fetched top 250 coins from CoinGecko markets API and trending endpoint via curl
-- Filtered stablecoins and illiquid tokens (vol < $1M), computed winners/losers with jq
-- Applied signal enrichment tags per skill rules
-- Checked last 2 days of logs to dedup repeated movers (skipped ETHFI, BTW, CASHCAT)
+- Read `memory/MEMORY.md` and last 2 days of logs (Aug 14–15) for dedup context
+- Fetched CoinGecko top-250 markets (curl, 232KB) and trending (WebFetch, 15 coins)
+- Filtered 175 non-stablecoin, >$1M volume coins; identified top winners, losers, and market pulse
+- Applied dedup rules: skipped BTW (3+ consecutive same-direction days), BEAT, UB (same direction, no new tag)
+- Key signals: CYS reversed from +41.2% winner (Aug 15) to −53.4% loser with [CAPITULATION][PUMP-RISK]; H confirmed [BREAKOUT] +103.9% 7d; AKE and VELVET pump sequences complete
 
-**Key findings — 2026-08-15:**
-- **Pulse:** Mild alt rotation, 54% of top-100 alts green, BTC flat at +0.3%
-- **Top winner:** CYS (Cysic) +41.2% [BREAKOUT] — strongest confirmed multi-timeframe move
-- **Notable risk:** COW +72.8% trending but absent from top-250 markets data (unverifiable volume) [PUMP-RISK]; ANSEM +34.6% trending AND in winners [PUMP-RISK][TRENDING+UP]
-- **Capitulation:** BEAT −27.6% / 7d −81.5% [CAPITULATION] — gets its new tag today after being deduped prior days
-- **AKE pump fading:** +107.3% Aug 14 → +13.6% today — energy exhaustion, watch for reversal
+**Files created/modified:**
+- `.pending-notify/token-movers-2026-08-16.md` — notification staged for post-run delivery
+- `memory/logs/2026-08-16.md` — token-movers log entry appended
 
-**Files modified:**
-- `memory/logs/2026-08-15.md` — appended token-movers log entry
-- `.pending-notify/token-movers-2026-08-15.md` — notification staged for post-run delivery (sandbox limitation)
+**Notification message staged** (sandbox blocked direct `./notify`). Post-run step will deliver.
