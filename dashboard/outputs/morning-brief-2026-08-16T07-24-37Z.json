@@ -1,0 +1,213 @@
+{
+  "root": "card-brief",
+  "state": {},
+  "elements": {
+    "card-brief": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-16"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-focus",
+        "stack-focus",
+        "sep-1",
+        "h-yesterday",
+        "stack-yesterday",
+        "sep-2",
+        "h-watch",
+        "stack-watch",
+        "sep-3",
+        "h-running",
+        "stack-running"
+      ]
+    },
+    "h-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. ENA T-5 — why now: Hayes $248K buy; fee switch vote in 5 days; entry window live",
+        "variant": "body"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. KAITO T-4 — why now: $34M/13.5% unlock Aug 20; IGNORE; avoid new longs now",
+        "variant": "body"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. HYPE structural FADE — why now: buyback erosion confirmed; 1 session to trigger",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-1",
+        "yesterday-2",
+        "yesterday-3"
+      ]
+    },
+    "yesterday-1": {
+      "type": "Text",
+      "props": {
+        "text": "SEC Reg Crypto: canceled without new date — CLARITY Act also stalled; both paths blocked",
+        "variant": "body"
+      }
+    },
+    "yesterday-2": {
+      "type": "Text",
+      "props": {
+        "text": "LINK +5.8%: Circle Arc (BlackRock/DTCC/Visa) joins Chainlink Scale Sep 16; token-pick HIGH 8/10",
+        "variant": "body"
+      }
+    },
+    "yesterday-3": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi blue-chips: 4th consecutive red session (UNI −3.9%, LEO −3.8%); FADE confirmed",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-1"
+      ]
+    },
+    "watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "Arthur Hayes bought $248K ENA — adds conviction to Focus #1 (T-5 vote entry)",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}

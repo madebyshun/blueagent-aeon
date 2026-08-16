@@ -1,20 +1,17 @@
-*Morning Brief — Aug 15, 2026*
+*Morning Brief — 2026-08-16*
 
 *Focus today*
-1. SEC meeting canceled — reassess FRONT-RUN; narrative-tracker re-prices at 13:30 UTC
-2. KAITO T-5 — Aug 20 unlock ($34M / 13.5% supply); capitulation deepening daily; FADE holds
-3. Jackson Hole T-7 — Warsh first speech; 80% cut priced vs. hawks unmoved; positioning window live
+1. ENA T-5 — why now: Hayes $248K buy; fee switch vote in 5 days; entry window live
+2. KAITO T-4 — why now: $34M/13.5% unlock Aug 20; IGNORE; avoid new longs now
+3. HYPE structural FADE — why now: buyback erosion confirmed; 1 session to trigger
 
 *Since yesterday*
-- [updated] SEC Regulation Crypto: meeting canceled (was set for Aug 14 vote) — yesterday's FRONT-RUN call needs re-evaluation; reflexivity unwind risk for tokens with SEC-narrative tailwind
-- [updated] LINK: Day 4 breakout window closed; Circle Arc (BlackRock, DTCC, Visa) joins Chainlink Scale for Sep 16 mainnet — fundamental thesis extends past analyst coverage clock
-- [open] ENA: T-4 to Aug 21 fee switch vote; 6.5% dip entry window live; Risk Committee sign-off still pending
-- [fading] AKE/ACE: pump-risk Day 3 — watch for capitulation tag in today's token-movers
-- [stuck] XAI prefetch: 403 for 36 consecutive days (no credits); narrative-tracker falling back to WebSearch
+- SEC Reg Crypto: canceled without new date — CLARITY Act also stalled; both paths blocked
+- LINK +5.8%: Circle Arc (BlackRock/DTCC/Visa) joins Chainlink Scale Sep 16; token-pick HIGH 8/10
+- DeFi blue-chips: 4th consecutive red session (UNI −3.9%, LEO −3.8%); FADE confirmed
 
 *Watch*
-- Circle Arc + BlackRock/DTCC/Visa on Chainlink Sep 16 — new fundamental anchor for LINK past Day 4 exhaustion
-- Yahoo Finance: "Fed hawks may not be swayed" despite 80% cut pricing — Warsh JH speech is a live surprise risk
+- Arthur Hayes bought $248K ENA — adds conviction to Focus #1 (T-5 vote entry)
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC
