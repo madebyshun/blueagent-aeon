@@ -1,0 +1,388 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-08-16"
+      },
+      "children": [
+        "token_section",
+        "separator1",
+        "market_section",
+        "separator2",
+        "footer_section"
+      ]
+    },
+    "token_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token_header",
+        "token_metrics",
+        "score_breakdown",
+        "catalyst_block",
+        "risk_token_block",
+        "first_pick_note"
+      ]
+    },
+    "token_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token_name",
+        "badge_high",
+        "badge_score"
+      ]
+    },
+    "token_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: H",
+        "level": "h2"
+      }
+    },
+    "badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "badge_score": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 8/10"
+      }
+    },
+    "token_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "price_stat",
+        "metrics_row"
+      ]
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.159",
+        "delta": "+15.9% (24h) / +103.9% (7d)",
+        "trend": "up"
+      }
+    },
+    "metrics_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "mcap_stat",
+        "vol_stat",
+        "ratio_stat"
+      ]
+    },
+    "mcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$317M"
+      }
+    },
+    "vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$36.8M"
+      }
+    },
+    "ratio_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap",
+        "value": "0.12"
+      }
+    },
+    "score_breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "Score: [24h>0+1, 7d>0+1, both>5%+2, vol/mcap≥0.10+2, RS vs BTC/ETH+2] = 8/10",
+        "variant": "caption"
+      }
+    },
+    "catalyst_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst_heading",
+        "catalyst_text"
+      ]
+    },
+    "catalyst_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "Humanity Mainnet relaunched post-$36M June hack (DPRK-attributed); new audited H token migration completed 1:1 fairdrop to pre-hack holders; palm-scan biometric proof-of-humanity L2 now operational"
+      }
+    },
+    "risk_token_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "risk_token_heading",
+        "risk_token_text"
+      ]
+    },
+    "risk_token_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      }
+    },
+    "risk_token_text": {
+      "type": "Text",
+      "props": {
+        "text": "Post-fairdrop sell pressure from 800K+ token recipients receiving free tokens; DPRK attribution = ongoing regulatory scrutiny; Day 4+ rally after 100%+ run — reversal risk elevated"
+      }
+    },
+    "first_pick_note": {
+      "type": "Text",
+      "props": {
+        "text": "First pick",
+        "variant": "caption"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_header",
+        "market_odds_row",
+        "market_details",
+        "fair_yes_block",
+        "thesis_block",
+        "risk_market_block"
+      ]
+    },
+    "market_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market_question",
+        "badge_market_high"
+      ]
+    },
+    "market_question": {
+      "type": "Heading",
+      "props": {
+        "text": "Will NVDA close above $250 on August 31, 2026?",
+        "level": "h3"
+      }
+    },
+    "badge_market_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH (12pp edge)",
+        "variant": "destructive"
+      }
+    },
+    "market_odds_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "odds_yes_stat",
+        "odds_no_stat"
+      ]
+    },
+    "odds_yes_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current: YES",
+        "value": "9¢"
+      }
+    },
+    "odds_no_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current: NO",
+        "value": "91¢"
+      }
+    },
+    "market_details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "volume_detail",
+        "resolves_detail"
+      ]
+    },
+    "volume_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Estimated volume: ≥$50K (Benzinga/finbold coverage)",
+        "variant": "body"
+      }
+    },
+    "resolves_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-08-31",
+        "variant": "body"
+      }
+    },
+    "fair_yes_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair_yes_stat",
+        "fair_yes_inputs"
+      ]
+    },
+    "fair_yes_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES Probability",
+        "value": "~21%"
+      }
+    },
+    "fair_yes_inputs": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: [1] 95% Polymarket P(Q2 data center >$80B) = strong beat floor; [2] analysts: $2.07 EPS +100% YoY, NVDA at ~$222 needs only +12.6%; [3] historical NVDA post-earnings +8–20%+ on beats in AI capex cycle"
+      }
+    },
+    "thesis_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis_heading",
+        "thesis_text",
+        "action_badge"
+      ]
+    },
+    "thesis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Market underpricing earnings beat magnitude; post-earnings surge to $250+ well within historical range"
+      }
+    },
+    "action_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BUY YES",
+        "variant": "secondary"
+      }
+    },
+    "risk_market_block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "risk_market_heading",
+        "risk_market_text"
+      ]
+    },
+    "risk_market_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      }
+    },
+    "risk_market_text": {
+      "type": "Text",
+      "props": {
+        "text": "Beat already partially priced; Warsh Jackson Hole keynote (Aug 28) = hawkish macro headwind between earnings (Aug 26) and resolution (Aug 31); guidance miss → post-earnings reversal"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_text",
+        "disclaimer_alert"
+      ]
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=partial",
+        "variant": "caption"
+      }
+    },
+    "disclaimer_alert": {
+      "type": "Alert",
+      "props": {
+        "message": "Not financial advice — pattern-matching only",
+        "type": "info"
+      }
+    }
+  }
+}
