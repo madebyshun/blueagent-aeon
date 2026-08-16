@@ -1,0 +1,141 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-date",
+        "text-verdict",
+        "text-sources",
+        "sep-1",
+        "heading-monitor",
+        "stack-advisory"
+      ]
+    },
+    "heading-date": {
+      "type": "Heading",
+      "props": {
+        "text": "2026-08-16",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: nothing urgent today. 0 to schedule, 1 to monitor.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV, GH Advisory, EPSS",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "heading-monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "Monitor",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-advisory": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "storylink-advisory",
+        "stack-badges",
+        "text-description",
+        "text-remediation"
+      ]
+    },
+    "storylink-advisory": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-5fpj-28rv-84r7",
+        "href": "https://github.com/advisories/GHSA-5fpj-28rv-84r7",
+        "source": "@budibase/server (npm)"
+      },
+      "children": []
+    },
+    "stack-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss",
+        "badge-epss",
+        "badge-fix"
+      ]
+    },
+    "badge-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSSv4 7.1",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003 (est.)",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-fix": {
+      "type": "Badge",
+      "props": {
+        "text": "Fix available",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-description": {
+      "type": "Text",
+      "props": {
+        "text": "Automation steps (outgoing webhook, Zapier, n8n, Slack, Discord) make unvalidated HTTP requests, bypassing the IP blacklist. Cloud metadata endpoints (169.254.169.254) reachable by any automation user; default deployments have no SSRF protection.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-remediation": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade @budibase/server to ≥3.41.3 and add BLACKLIST_IPS env var.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
