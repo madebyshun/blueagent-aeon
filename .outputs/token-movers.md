@@ -1,16 +1,19 @@
-The rm hook is blocking cleanup of temp files — they'll stay as hidden files but won't affect the run. The core outputs are complete.
+Done. Here's the summary:
 
 ## Summary
 
-**What was done:**
-- Read `memory/MEMORY.md` and last 2 days of logs (Aug 14–15) for dedup context
-- Fetched CoinGecko top-250 markets (curl, 232KB) and trending (WebFetch, 15 coins)
-- Filtered 175 non-stablecoin, >$1M volume coins; identified top winners, losers, and market pulse
-- Applied dedup rules: skipped BTW (3+ consecutive same-direction days), BEAT, UB (same direction, no new tag)
-- Key signals: CYS reversed from +41.2% winner (Aug 15) to −53.4% loser with [CAPITULATION][PUMP-RISK]; H confirmed [BREAKOUT] +103.9% 7d; AKE and VELVET pump sequences complete
+**Data:** Fetched top 250 coins (3 WebFetch pages) and 15 trending coins from CoinGecko.
+
+**Market pulse:** Drift-up session — BTC +0.9%, ~72% of filtered top-50 alts green, median ~+0.8%.
+
+**Top signal:** GPS (GoPlus Security, rank 246) — +52.0% on $85M volume, trending, [TRENDING+UP][BREAKOUT][PUMP-RISK]. High manipulation probability, isolated low-cap spike.
+
+**Key reversals:** H (−28.4%), Q (−22.7%), DRV (−13.7%) — all were winners Aug 15–16, all reversed today. VELVET (−29.4%) extending its post-pump decline.
+
+**Notable losers tag:** BEAT (−29.8%) [CAPITULATION] returning after Aug 16 dedup-skip; CASHCAT (−9.4%) [TRENDING+DOWN] newly in trending.
+
+**ZEC:** [TRENDING+UP][MAJOR] — rank 15, +5.5% on $215M volume, in trending. Privacy-coin bid intact.
 
 **Files created/modified:**
-- `.pending-notify/token-movers-2026-08-16.md` — notification staged for post-run delivery
-- `memory/logs/2026-08-16.md` — token-movers log entry appended
-
-**Notification message staged** (sandbox blocked direct `./notify`). Post-run step will deliver.
+- `.pending-notify/token-movers-2026-08-17.md` — notification staged for post-run delivery
+- `memory/logs/2026-08-17.md` — token-movers section appended
