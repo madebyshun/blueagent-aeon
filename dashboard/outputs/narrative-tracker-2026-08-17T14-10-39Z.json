@@ -1,0 +1,1086 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-17",
+        "description": "Market transitions, reflexivity alerts, active positions, and narrative map"
+      },
+      "children": [
+        "transitions-section",
+        "transitions-separator",
+        "reflexivity-section",
+        "reflexivity-separator",
+        "positions-section",
+        "positions-separator",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transitions-separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "transition-1-promoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-badge-promoted",
+        "t1-title",
+        "t1-desc-1",
+        "t1-desc-2",
+        "t1-desc-3"
+      ]
+    },
+    "t1-badge-promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "default"
+      }
+    },
+    "t1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Agentic Dev Tools Rising WATCH → Rising RIDE",
+        "level": "h4"
+      }
+    },
+    "t1-desc-1": {
+      "type": "Text",
+      "props": {
+        "text": "DeepSeek Harness 143.7k★ in 4 days (fastest repo ever; \"Everything is a Plugin\" MIT agent runtime; @deepseek_ai)",
+        "variant": "body"
+      }
+    },
+    "t1-desc-2": {
+      "type": "Text",
+      "props": {
+        "text": "7th consecutive ↑↑ GitHub dev tools session",
+        "variant": "body"
+      }
+    },
+    "t1-desc-3": {
+      "type": "Text",
+      "props": {
+        "text": "GPS (GoPlus Security) token-pick 10/10 Aug 17 = adjacent web3 security play [PUMP-RISK caveated]",
+        "variant": "body"
+      }
+    },
+    "transition-2-promoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-badge-promoted",
+        "t2-title",
+        "t2-desc-1",
+        "t2-desc-2",
+        "t2-desc-3"
+      ]
+    },
+    "t2-badge-promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "default"
+      }
+    },
+    "t2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Tokenized Equities/ONDO Fading → Rising RIDE",
+        "level": "h4"
+      }
+    },
+    "t2-desc-1": {
+      "type": "Text",
+      "props": {
+        "text": "Ondo Global Markets $1B TVL milestone",
+        "variant": "body"
+      }
+    },
+    "t2-desc-2": {
+      "type": "Text",
+      "props": {
+        "text": "KuCoin Alpha Ondo tokenized stocks integration Aug 11",
+        "variant": "body"
+      }
+    },
+    "t2-desc-3": {
+      "type": "Text",
+      "props": {
+        "text": "DTCC production testing Russell 1000 tokenized stocks July 2026; ONDO +4.5% Aug 17",
+        "variant": "body"
+      }
+    },
+    "transition-3-promoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-badge-promoted",
+        "t3-title",
+        "t3-desc-1"
+      ]
+    },
+    "t3-badge-promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "default"
+      }
+    },
+    "t3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "RWA Tokenization (broad) Emerging → Rising RIDE",
+        "level": "h4"
+      }
+    },
+    "t3-desc-1": {
+      "type": "Text",
+      "props": {
+        "text": "Product metrics arrived: Ondo $1B TVL + DTCC Russell 1000 production + Solana RWA $8.68B 30d volume + Morpho Midnight; narrative now has fundamentals",
+        "variant": "body"
+      }
+    },
+    "transition-4-velocity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-badge-velocity",
+        "t4-title",
+        "t4-desc-1",
+        "t4-desc-2",
+        "t4-desc-3"
+      ]
+    },
+    "t4-badge-velocity": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY UP",
+        "variant": "default"
+      }
+    },
+    "t4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC (Rising → Rising ↑↑ FRONT-RUN)",
+        "level": "h4"
+      }
+    },
+    "t4-desc-1": {
+      "type": "Text",
+      "props": {
+        "text": "Zcash Labs launched Aug 12 (new entity for biz integrations + fiat on-ramps)",
+        "variant": "body"
+      }
+    },
+    "t4-desc-2": {
+      "type": "Text",
+      "props": {
+        "text": "Real estate/flights/eSIM payment integrations Aug 2; quantum-proof upgrade Nov 2026",
+        "variant": "body"
+      }
+    },
+    "t4-desc-3": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC [MAJOR] TRENDING+UP +5.5% $215M volume Aug 17",
+        "variant": "body"
+      }
+    },
+    "transition-5-velocity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t5-badge-velocity",
+        "t5-title",
+        "t5-desc-1",
+        "t5-desc-2"
+      ]
+    },
+    "t5-badge-velocity": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY UP",
+        "variant": "default"
+      }
+    },
+    "t5-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Compute/DePIN (Rising ↑ → Rising ↑↑ FRONT-RUN)",
+        "level": "h4"
+      }
+    },
+    "t5-desc-1": {
+      "type": "Text",
+      "props": {
+        "text": "bitcoinfoundation.org explicitly names Render/ASI/TAO/NEAR as NVIDIA earnings spillover",
+        "variant": "body"
+      }
+    },
+    "t5-desc-2": {
+      "type": "Text",
+      "props": {
+        "text": "T-9 to Aug 26 ($93-95B expected +96% YoY); TAO [MAJOR] trending; pre-positioning window peak",
+        "variant": "body"
+      }
+    },
+    "transition-6-velocity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t6-badge-velocity",
+        "t6-title",
+        "t6-desc-1",
+        "t6-desc-2"
+      ]
+    },
+    "t6-badge-velocity": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY UP",
+        "variant": "default"
+      }
+    },
+    "t6-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Stablecoin/ENA (Rising ↑ → Rising ↑↑ RIDE)",
+        "level": "h4"
+      }
+    },
+    "t6-desc-1": {
+      "type": "Text",
+      "props": {
+        "text": "T-4 to fee switch vote Aug 21; Blockworks + Cryptopolitan confirm vote imminent",
+        "variant": "body"
+      }
+    },
+    "t6-desc-2": {
+      "type": "Text",
+      "props": {
+        "text": "90-day high network activity; Hayes $248K named driver",
+        "variant": "body"
+      }
+    },
+    "transition-7-decay": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t7-badge-decay",
+        "t7-title",
+        "t7-desc-1"
+      ]
+    },
+    "t7-badge-decay": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY DECAY",
+        "variant": "secondary"
+      }
+    },
+    "t7-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Agent Identity/Credentials (Emerging ↑↑ FRONT-RUN → Emerging → WATCH)",
+        "level": "h4"
+      }
+    },
+    "t7-desc-1": {
+      "type": "Text",
+      "props": {
+        "text": "H −28.4% Aug 17 closes Day 1 pre-positioning window; a16zcrypto thesis intact; re-entry on next named catalyst",
+        "variant": "body"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "ENA (LIVE, T-4)",
+        "message": "Hayes named driver + vote in 4 days + 90d activity high. Price leading implementation. Risk Committee sign-off still outstanding — vote could slip. No new entries.",
+        "type": "warning"
+      }
+    },
+    "reflexivity-alert-2": {
+      "type": "Alert",
+      "props": {
+        "title": "NVIDIA/AI Compute (BUILDING, T-9)",
+        "message": "Render/ASI/TAO/NEAR named as spillover plays, none moved yet. T-9 = peak reflexivity window. Historical: AI tokens rally 5-7 days pre-earnings, fade post-report.",
+        "type": "warning"
+      }
+    },
+    "reflexivity-alert-3": {
+      "type": "Alert",
+      "props": {
+        "title": "ONDO (INCOMING)",
+        "message": "+4.5% on $1B TVL milestone = repricing product adoption. Risk: 70%+ market share = harder to grow from here.",
+        "type": "info"
+      }
+    },
+    "positions-section": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions-separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "pos-front-run-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-1-status",
+        "pos-1-title",
+        "pos-1-rating",
+        "pos-1-detail",
+        "pos-1-risk"
+      ]
+    },
+    "pos-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "destructive"
+      }
+    },
+    "pos-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC",
+        "level": "h4"
+      }
+    },
+    "pos-1-rating": {
+      "type": "Text",
+      "props": {
+        "text": "3 ↑↑ Bull",
+        "variant": "caption"
+      }
+    },
+    "pos-1-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Zcash Labs + Nov quantum upgrade + [MAJOR] volume",
+        "variant": "body"
+      }
+    },
+    "pos-1-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: current mcap well below 2026 ATH; liquidity risk",
+        "variant": "muted"
+      }
+    },
+    "pos-front-run-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-2-status",
+        "pos-2-title",
+        "pos-2-rating",
+        "pos-2-detail",
+        "pos-2-risk"
+      ]
+    },
+    "pos-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "destructive"
+      }
+    },
+    "pos-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Compute/DePIN",
+        "level": "h4"
+      }
+    },
+    "pos-2-rating": {
+      "type": "Text",
+      "props": {
+        "text": "4 ↑↑ Mixed",
+        "variant": "caption"
+      }
+    },
+    "pos-2-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Render/ASI/TAO/NEAR NVIDIA T-9",
+        "variant": "body"
+      }
+    },
+    "pos-2-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: may be stock play not crypto play",
+        "variant": "muted"
+      }
+    },
+    "pos-ride-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-3-status",
+        "pos-3-title",
+        "pos-3-rating",
+        "pos-3-detail",
+        "pos-3-risk"
+      ]
+    },
+    "pos-3-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "pos-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ENA",
+        "level": "h4"
+      }
+    },
+    "pos-3-rating": {
+      "type": "Text",
+      "props": {
+        "text": "4 ↑↑ Bull",
+        "variant": "caption"
+      }
+    },
+    "pos-3-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Hayes + T-4 + 90d high",
+        "variant": "body"
+      }
+    },
+    "pos-3-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: Risk Committee pending",
+        "variant": "muted"
+      }
+    },
+    "pos-ride-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-4-status",
+        "pos-4-title",
+        "pos-4-rating",
+        "pos-4-detail",
+        "pos-4-risk"
+      ]
+    },
+    "pos-4-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "pos-4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ONDO/Tokenized Equities",
+        "level": "h4"
+      }
+    },
+    "pos-4-rating": {
+      "type": "Text",
+      "props": {
+        "text": "3 ↑↑ Bull",
+        "variant": "caption"
+      }
+    },
+    "pos-4-detail": {
+      "type": "Text",
+      "props": {
+        "text": "$1B TVL + DTCC production",
+        "variant": "body"
+      }
+    },
+    "pos-4-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: 70% share = harder to grow",
+        "variant": "muted"
+      }
+    },
+    "pos-ride-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-5-status",
+        "pos-5-title",
+        "pos-5-rating",
+        "pos-5-detail",
+        "pos-5-risk"
+      ]
+    },
+    "pos-5-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "pos-5-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Agent Economy Infra",
+        "level": "h4"
+      }
+    },
+    "pos-5-rating": {
+      "type": "Text",
+      "props": {
+        "text": "5 ↑↑ Bull",
+        "variant": "caption"
+      }
+    },
+    "pos-5-detail": {
+      "type": "Text",
+      "props": {
+        "text": "DeepSeek Harness",
+        "variant": "body"
+      }
+    },
+    "pos-5-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: token/infra disconnect",
+        "variant": "muted"
+      }
+    },
+    "pos-ride-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-6-status",
+        "pos-6-title",
+        "pos-6-rating",
+        "pos-6-detail",
+        "pos-6-risk"
+      ]
+    },
+    "pos-6-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "pos-6-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Agentic Dev Tools",
+        "level": "h4"
+      }
+    },
+    "pos-6-rating": {
+      "type": "Text",
+      "props": {
+        "text": "4 ↑↑ Mixed",
+        "variant": "caption"
+      }
+    },
+    "pos-6-detail": {
+      "type": "Text",
+      "props": {
+        "text": "DeepSeek Harness + GPS adjacent",
+        "variant": "body"
+      }
+    },
+    "pos-6-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: GPS is PUMP-RISK",
+        "variant": "muted"
+      }
+    },
+    "pos-ride-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-7-status",
+        "pos-7-title",
+        "pos-7-rating",
+        "pos-7-detail",
+        "pos-7-risk"
+      ]
+    },
+    "pos-7-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "pos-7-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Oracle/LINK",
+        "level": "h4"
+      }
+    },
+    "pos-7-rating": {
+      "type": "Text",
+      "props": {
+        "text": "4 ↑ Bull",
+        "variant": "caption"
+      }
+    },
+    "pos-7-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Circle Arc Sep 16 T-30",
+        "variant": "body"
+      }
+    },
+    "pos-7-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: 4-week gap",
+        "variant": "muted"
+      }
+    },
+    "pos-ride-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-8-status",
+        "pos-8-title",
+        "pos-8-rating",
+        "pos-8-detail",
+        "pos-8-risk"
+      ]
+    },
+    "pos-8-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "pos-8-title": {
+      "type": "Heading",
+      "props": {
+        "text": "RWA broad",
+        "level": "h4"
+      }
+    },
+    "pos-8-rating": {
+      "type": "Text",
+      "props": {
+        "text": "3 ↑ Bull",
+        "variant": "caption"
+      }
+    },
+    "pos-8-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Ondo $1B TVL + DTCC + Solana $8.68B",
+        "variant": "body"
+      }
+    },
+    "pos-8-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: no single dominant token",
+        "variant": "muted"
+      }
+    },
+    "pos-ride-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-9-status",
+        "pos-9-title",
+        "pos-9-rating",
+        "pos-9-detail"
+      ]
+    },
+    "pos-9-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "pos-9-title": {
+      "type": "Heading",
+      "props": {
+        "text": "DeFi-TradFi/ETHFI",
+        "level": "h4"
+      }
+    },
+    "pos-9-rating": {
+      "type": "Text",
+      "props": {
+        "text": "3 ↑ Bull",
+        "variant": "caption"
+      }
+    },
+    "pos-9-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Neobank real; MORPHO +4.2% adjacent",
+        "variant": "body"
+      }
+    },
+    "pos-ride-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-10-status",
+        "pos-10-title",
+        "pos-10-detail"
+      ]
+    },
+    "pos-10-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "pos-10-title": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin/ENA, AI Agent Security/TEE — unchanged",
+        "variant": "body"
+      }
+    },
+    "pos-10-detail": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "body"
+      }
+    },
+    "pos-watch-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-11-status",
+        "pos-11-title",
+        "pos-11-rating",
+        "pos-11-detail"
+      ]
+    },
+    "pos-11-status": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos-11-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Agent Identity",
+        "level": "h4"
+      }
+    },
+    "pos-11-rating": {
+      "type": "Text",
+      "props": {
+        "text": "2 →",
+        "variant": "caption"
+      }
+    },
+    "pos-11-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis valid; H reversal = wait",
+        "variant": "body"
+      }
+    },
+    "pos-watch-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-12-status",
+        "pos-12-title",
+        "pos-12-rating",
+        "pos-12-detail"
+      ]
+    },
+    "pos-12-status": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos-12-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Prediction Markets",
+        "level": "h4"
+      }
+    },
+    "pos-12-rating": {
+      "type": "Text",
+      "props": {
+        "text": "3 ↑",
+        "variant": "caption"
+      }
+    },
+    "pos-12-detail": {
+      "type": "Text",
+      "props": {
+        "text": "T-10 JH, T-9 NVIDIA, T-4 ENA; no token catalyst",
+        "variant": "body"
+      }
+    },
+    "pos-fade-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-13-status",
+        "pos-13-title",
+        "pos-13-detail"
+      ]
+    },
+    "pos-13-status": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "secondary"
+      }
+    },
+    "pos-13-title": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE (revenue −43%, buyback −51% confirmed), DeFi Revival, Memecoins, AI→Crypto Rotation",
+        "variant": "body"
+      }
+    },
+    "pos-ignore-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-14-status",
+        "pos-14-detail"
+      ]
+    },
+    "pos-14-status": {
+      "type": "Badge",
+      "props": {
+        "text": "IGNORE",
+        "variant": "secondary"
+      }
+    },
+    "pos-14-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito (T-3 → Aug 20 $34M unlock), CLARITY Act",
+        "variant": "body"
+      }
+    },
+    "map-section": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-label",
+        "map-emerging-items"
+      ]
+    },
+    "map-emerging-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h4"
+      }
+    },
+    "map-emerging-items": {
+      "type": "Text",
+      "props": {
+        "text": "WorldCoin, FHE/ZAMA, Lean Ethereum, X Money, Agent Identity, Coinbase AiFi",
+        "variant": "body"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-label",
+        "map-rising-items"
+      ]
+    },
+    "map-rising-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h4"
+      }
+    },
+    "map-rising-items": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC (FRONT-RUN), AI Compute (FRONT-RUN), ENA/Stablecoins, Oracle/LINK, DeFi-TradFi/ETHFI, AI Agent Security/TEE, Agentic Dev Tools, Tokenized Equities/ONDO, RWA broad, Prediction Markets, Solana RWA, BNB Chain",
+        "variant": "body"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-label",
+        "map-peak-items"
+      ]
+    },
+    "map-peak-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h4"
+      }
+    },
+    "map-peak-items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy Infra",
+        "variant": "body"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-label",
+        "map-fading-items"
+      ]
+    },
+    "map-fading-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h4"
+      }
+    },
+    "map-fading-items": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE (FADE), DeFi Revival (FADE), Memecoins (FADE), AI→Crypto Rotation (FADE), SEC Reg Crypto, Alt-ETF/ADA",
+        "variant": "body"
+      }
+    }
+  }
+}
