@@ -1,0 +1,237 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-08-17"
+      },
+      "children": [
+        "header_stack",
+        "separator1",
+        "price_section",
+        "market_section",
+        "scoring_section",
+        "catalyst_section"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token_name",
+        "signal_badge"
+      ]
+    },
+    "token_name": {
+      "type": "Heading",
+      "props": {
+        "text": "GPS (GoPlus Security)",
+        "level": "h2"
+      }
+    },
+    "signal_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH - 10/10",
+        "variant": "default"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price_label",
+        "price_grid"
+      ]
+    },
+    "price_label": {
+      "type": "Text",
+      "props": {
+        "text": "Price & Performance",
+        "variant": "lead"
+      }
+    },
+    "price_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_price",
+        "stat_24h",
+        "stat_7d"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.017"
+      }
+    },
+    "stat_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+52.0%",
+        "trend": "up"
+      }
+    },
+    "stat_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+77.9%",
+        "trend": "up"
+      }
+    },
+    "market_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_label",
+        "market_grid"
+      ]
+    },
+    "market_label": {
+      "type": "Text",
+      "props": {
+        "text": "Market Metrics",
+        "variant": "lead"
+      }
+    },
+    "market_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_mcap",
+        "stat_vol",
+        "stat_ratio"
+      ]
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$99M"
+      }
+    },
+    "stat_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$86.1M"
+      }
+    },
+    "stat_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap Ratio",
+        "value": "0.87"
+      }
+    },
+    "scoring_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "scoring_label",
+        "scoring_table"
+      ]
+    },
+    "scoring_label": {
+      "type": "Text",
+      "props": {
+        "text": "Scoring Breakdown",
+        "variant": "lead"
+      }
+    },
+    "scoring_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Criteria",
+          "Points"
+        ],
+        "rows": [
+          [
+            "24h > 0%",
+            "+1"
+          ],
+          [
+            "7d > 0%",
+            "+1"
+          ],
+          [
+            "Both > 5%",
+            "+2"
+          ],
+          [
+            "CG Trending",
+            "+2"
+          ],
+          [
+            "Vol/Mcap ≥ 0.20",
+            "+3"
+          ],
+          [
+            "RS vs BTC+ETH 7d",
+            "+2"
+          ],
+          [
+            "Total Score",
+            "10/10"
+          ]
+        ]
+      }
+    },
+    "catalyst_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "catalyst_label",
+        "catalyst_text"
+      ]
+    },
+    "catalyst_label": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst",
+        "variant": "lead"
+      }
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "DeepSeek Harness (Everything",
+        "variant": "body"
+      }
+    }
+  }
+}
