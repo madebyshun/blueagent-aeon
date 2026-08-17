@@ -1,0 +1,294 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-08-17"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "since_section",
+        "sep2",
+        "watch_section",
+        "sep3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. ENA — T-4 to fee switch vote; Risk Committee sign-off still the swing factor",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. NVIDIA T-9 — pre-earnings AI token window live; YES $250 strike at 9¢ (edge 12pp)",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. KAITO T-3 — $34M/13.5% supply unlock hits Wednesday; clear all exposure today",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_heading",
+        "since_1",
+        "since_2",
+        "since_3",
+        "since_4"
+      ]
+    },
+    "since_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted",
+        "text_since_1"
+      ]
+    },
+    "badge_demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "demoted",
+        "variant": "destructive"
+      }
+    },
+    "text_since_1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE → structural FADE confirmed: revenue −43% from $357M peak; buyback −51%",
+        "variant": "body"
+      }
+    },
+    "since_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new",
+        "text_since_2"
+      ]
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "new",
+        "variant": "secondary"
+      }
+    },
+    "text_since_2": {
+      "type": "Text",
+      "props": {
+        "text": "Agent Identity FRONT-RUN — H +103.9% 7d; a16z: credentials are next agent bottleneck",
+        "variant": "body"
+      }
+    },
+    "since_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted",
+        "text_since_3"
+      ]
+    },
+    "badge_promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "promoted",
+        "variant": "default"
+      }
+    },
+    "text_since_3": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN → FRONT-RUN — T-9 media stack fully live (Benzinga, Motley Fool)",
+        "variant": "body"
+      }
+    },
+    "since_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stuck",
+        "text_since_4"
+      ]
+    },
+    "badge_stuck": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "outline"
+      }
+    },
+    "text_since_4": {
+      "type": "Text",
+      "props": {
+        "text": "XAI 403 day 37 — narrative-tracker on WebSearch fallback indefinitely",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_heading",
+        "watch_1"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "Benzinga: NVIDIA Q2 earnings explicitly tied to crypto prediction market (YES NVDA >$250 @ 9¢) — supports Focus #2 and yesterday's token-pick thesis",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_heading",
+        "running_list"
+      ]
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "caption"
+      }
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "caption"
+      }
+    }
+  }
+}
