@@ -1,25 +1,29 @@
-*GitHub Trending — 2026-08-16*
+*GitHub Trending — 2026-08-17*
 
-*Top pick* — [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)
-Largest agent-native infrastructure project on GitHub right now — 47.5k stars, velocity 295/day, still accelerating. Becoming the default primitive for wrapping any CLI tool into an agent-callable interface.
+*Top pick* — [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
+DeepSeek's plugin-first AI coding runtime hit 143k stars in 4 days — one of the fastest repo launches in GitHub history, spawning 20+ ecosystem repos before the week closed.
 
 *AI/ML*
-• [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) — ★ 297 today (1.8k total) · Python · [RETURNING]
-Layer-streaming cuts 8B model fine-tuning to 4GB VRAM — single YAML replaces the usual wall of training scaffold. Active push today.
+• [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) — ★ 143.7k total · ~35.9k/day · TypeScript · [DEBUT]
+"Everything is a Plugin" — DeepSeek's answer to Claude Code, with a full plugin ecosystem live at launch.
+
+• [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) — ★ 12.5k total · ~2.1k/day · Python · [DEBUT]
+First tool unifying C2PA metadata stripping, Unicode text hygiene, and statistical rewrites across PNG, JPEG, SVG, PDF, DOCX, HTML, and MD in one CLI.
 
 *Devtools*
-• [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) — ★ 118 today (47.5k total) · Python · [ACCELERATING]
-Universal CLI-to-agent bridge — wraps any shell command as an agent-callable tool without modifying the underlying binary.
+• [dmmulroy/anti-slop](https://github.com/dmmulroy/anti-slop) — ★ 1.9k total · ~376/day · TypeScript · [DEBUT]
+Oxlint rules explicitly targeting AI-generated low-evidence TS/JS patterns — the first linter that treats LLM code slop as a lint error category.
 
-• [cursor/plugins](https://github.com/cursor/plugins) — ★ 149 today (3k total) · TypeScript · [RETURNING]
-Cursor's first public plugin spec — third-party devs can now extend the AI editor with full access to its context and commands.
+• [Leutenegger/book-to-skill](https://github.com/Leutenegger/book-to-skill) — ★ 1.2k total · ~291/day · Python · [DEBUT]
+Converts any technical PDF into a runnable Claude Code skill file — textbooks become queryable context while you code.
 
-• [cordiverse/cordis](https://github.com/cordiverse/cordis) — ★ 599 today (4.3k total) · TypeScript · [RETURNING]
-Hot-swappable plugin composition — services mount, unmount, and rewire at runtime without restart; the primitive agent frameworks keep reinventing.
+*Infra*
+• [xoreaxeaxeax/skitter-creek-bath-salts](https://github.com/xoreaxeaxeax/skitter-creek-bath-salts) — ★ 1.75k total · ~438/day · C · [DEBUT]
+From the "mov is Turing complete" author — DRAM scrambling technique that bypasses memory protections on modern CPUs.
 
 *Web/Apps*
-• [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) — ★ 544 today (39.7k total) · JavaScript · [RETURNING]
-Open-source Retool alternative returns trending on new AI agent workflow builder — run agents inside internal dashboards without additional infra.
+• [shadcn-ui/chatbot-template](https://github.com/shadcn-ui/chatbot-template) — ★ 708 total · ~118/day · TypeScript · [DEBUT]
+First official shadcn chatbot scaffold on Next.js + Vercel AI Gateway — one-command setup the community has been hand-rolling for months.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/13
+sources: trending=partial (7/~25, all filtered) · gh_api=ok · kept 6/25

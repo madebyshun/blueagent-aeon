@@ -1,0 +1,554 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-08-17"
+      },
+      "children": [
+        "heading_top_pick",
+        "stack_top_pick",
+        "separator_1",
+        "heading_ai_ml",
+        "stack_ai_ml",
+        "separator_2",
+        "heading_devtools",
+        "stack_devtools",
+        "separator_3",
+        "heading_infra",
+        "stack_infra",
+        "separator_4",
+        "heading_web_apps",
+        "stack_web_apps",
+        "separator_5",
+        "text_footer"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h2"
+      }
+    },
+    "stack_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo_deepseek_1"
+      ]
+    },
+    "repo_deepseek_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_deepseek_1",
+        "text_deepseek_1_desc"
+      ]
+    },
+    "link_deepseek_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "deepseek-ai/deepseek-harness",
+        "href": "https://github.com/deepseek-ai/deepseek-harness",
+        "source": "GitHub"
+      }
+    },
+    "text_deepseek_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "DeepSeek's plugin-first AI coding runtime hit 143k stars in 4 days — one of the fastest repo launches in GitHub history, spawning 20+ ecosystem repos before the week closed.",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_ai_ml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "stack_ai_ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_deepseek_2",
+        "repo_watermarks"
+      ]
+    },
+    "repo_deepseek_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_deepseek_2",
+        "stack_deepseek_2_meta",
+        "text_deepseek_2_desc"
+      ]
+    },
+    "link_deepseek_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "deepseek-ai/deepseek-harness",
+        "href": "https://github.com/deepseek-ai/deepseek-harness"
+      }
+    },
+    "stack_deepseek_2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_deepseek_2_stars",
+        "stat_deepseek_2_daily",
+        "badge_deepseek_2_lang",
+        "badge_deepseek_2_status"
+      ]
+    },
+    "stat_deepseek_2_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "143.7k",
+        "delta": "35.9k/day",
+        "trend": "up"
+      }
+    },
+    "stat_deepseek_2_daily": {
+      "type": "Text",
+      "props": {
+        "text": "TypeScript",
+        "variant": "caption"
+      }
+    },
+    "badge_deepseek_2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_deepseek_2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "outline"
+      }
+    },
+    "text_deepseek_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "\"Everything is a Plugin\" — DeepSeek's answer to Claude Code, with a full plugin ecosystem live at launch.",
+        "variant": "body"
+      }
+    },
+    "repo_watermarks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_watermarks",
+        "stack_watermarks_meta",
+        "text_watermarks_desc"
+      ]
+    },
+    "link_watermarks": {
+      "type": "StoryLink",
+      "props": {
+        "title": "guillaumemeyer/watermarks-remover",
+        "href": "https://github.com/guillaumemeyer/watermarks-remover"
+      }
+    },
+    "stack_watermarks_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_watermarks_stars",
+        "badge_watermarks_lang",
+        "badge_watermarks_status"
+      ]
+    },
+    "stat_watermarks_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "12.5k",
+        "delta": "2.1k/day",
+        "trend": "up"
+      }
+    },
+    "badge_watermarks_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "badge_watermarks_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "outline"
+      }
+    },
+    "text_watermarks_desc": {
+      "type": "Text",
+      "props": {
+        "text": "First tool unifying C2PA metadata stripping, Unicode text hygiene, and statistical rewrites across PNG, JPEG, SVG, PDF, DOCX, HTML, and MD in one CLI.",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "stack_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_antislop",
+        "repo_bookskill"
+      ]
+    },
+    "repo_antislop": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_antislop",
+        "stack_antislop_meta",
+        "text_antislop_desc"
+      ]
+    },
+    "link_antislop": {
+      "type": "StoryLink",
+      "props": {
+        "title": "dmmulroy/anti-slop",
+        "href": "https://github.com/dmmulroy/anti-slop"
+      }
+    },
+    "stack_antislop_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_antislop_stars",
+        "badge_antislop_lang",
+        "badge_antislop_status"
+      ]
+    },
+    "stat_antislop_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1.9k",
+        "delta": "376/day",
+        "trend": "up"
+      }
+    },
+    "badge_antislop_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_antislop_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "outline"
+      }
+    },
+    "text_antislop_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Oxlint rules explicitly targeting AI-generated low-evidence TS/JS patterns — the first linter that treats LLM code slop as a lint error category.",
+        "variant": "body"
+      }
+    },
+    "repo_bookskill": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_bookskill",
+        "stack_bookskill_meta",
+        "text_bookskill_desc"
+      ]
+    },
+    "link_bookskill": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Leutenegger/book-to-skill",
+        "href": "https://github.com/Leutenegger/book-to-skill"
+      }
+    },
+    "stack_bookskill_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_bookskill_stars",
+        "badge_bookskill_lang",
+        "badge_bookskill_status"
+      ]
+    },
+    "stat_bookskill_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1.2k",
+        "delta": "291/day",
+        "trend": "up"
+      }
+    },
+    "badge_bookskill_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "badge_bookskill_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "outline"
+      }
+    },
+    "text_bookskill_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Converts any technical PDF into a runnable Claude Code skill file — textbooks become queryable context while you code.",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h2"
+      }
+    },
+    "stack_infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_skitter"
+      ]
+    },
+    "repo_skitter": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_skitter",
+        "stack_skitter_meta",
+        "text_skitter_desc"
+      ]
+    },
+    "link_skitter": {
+      "type": "StoryLink",
+      "props": {
+        "title": "xoreaxeaxeax/skitter-creek-bath-salts",
+        "href": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts"
+      }
+    },
+    "stack_skitter_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_skitter_stars",
+        "badge_skitter_lang",
+        "badge_skitter_status"
+      ]
+    },
+    "stat_skitter_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1.75k",
+        "delta": "438/day",
+        "trend": "up"
+      }
+    },
+    "badge_skitter_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C",
+        "variant": "secondary"
+      }
+    },
+    "badge_skitter_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "outline"
+      }
+    },
+    "text_skitter_desc": {
+      "type": "Text",
+      "props": {
+        "text": "From the \"mov is Turing complete\" author — DRAM scrambling technique that bypasses memory protections on modern CPUs.",
+        "variant": "body"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_web_apps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h2"
+      }
+    },
+    "stack_web_apps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_chatbot"
+      ]
+    },
+    "repo_chatbot": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_chatbot",
+        "stack_chatbot_meta",
+        "text_chatbot_desc"
+      ]
+    },
+    "link_chatbot": {
+      "type": "StoryLink",
+      "props": {
+        "title": "shadcn-ui/chatbot-template",
+        "href": "https://github.com/shadcn-ui/chatbot-template"
+      }
+    },
+    "stack_chatbot_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_chatbot_stars",
+        "badge_chatbot_lang",
+        "badge_chatbot_status"
+      ]
+    },
+    "stat_chatbot_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "708",
+        "delta": "118/day",
+        "trend": "up"
+      }
+    },
+    "badge_chatbot_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_chatbot_status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "outline"
+      }
+    },
+    "text_chatbot_desc": {
+      "type": "Text",
+      "props": {
+        "text": "First official shadcn chatbot scaffold on Next.js + Vercel AI Gateway — one-command setup the community has been hand-rolling for months.",
+        "variant": "body"
+      }
+    },
+    "separator_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=partial (7/~25, all filtered) · gh_api=ok · kept 6/25",
+        "variant": "caption"
+      }
+    }
+  }
+}
