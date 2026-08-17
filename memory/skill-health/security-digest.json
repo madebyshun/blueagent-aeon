@@ -1,0 +1,14 @@
+{
+  "skill": "security-digest",
+  "last_analyzed": "2026-08-17T14:23:10Z",
+  "quality_score": 4,
+  "assessment": "Substantive findings with proper prioritization, CVE details, and actionable remediation guidance.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-08-17",
+      "score": 4
+    }
+  ]
+}
