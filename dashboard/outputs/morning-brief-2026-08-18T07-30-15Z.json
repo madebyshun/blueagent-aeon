@@ -1,0 +1,337 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-18"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-focus",
+        "sep1",
+        "section-since",
+        "sep2",
+        "section-watch",
+        "sep3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-focus",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. KAITO exit — unlock hits tomorrow 12:00 UTC; already −11% today",
+        "variant": "body"
+      }
+    },
+    "focus-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. ENA watch — Risk Committee parameters confirmed; sign-off = go signal",
+        "variant": "body"
+      }
+    },
+    "focus-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. NVIDIA T-8 — AI crypto pre-positioning live; DePIN entry window closing",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-since",
+        "since-item-1",
+        "since-item-2",
+        "since-item-3",
+        "since-item-4",
+        "since-item-5"
+      ]
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-1-label",
+        "since-1-text"
+      ]
+    },
+    "since-1-label": {
+      "type": "Badge",
+      "props": {
+        "text": "KAITO",
+        "variant": "default"
+      }
+    },
+    "since-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "−11% today ahead of 32.6M token unlock Aug 20 12:00 UTC; dollar value lower than prior $34M estimate at current prices",
+        "variant": "body"
+      }
+    },
+    "since-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-2-label",
+        "since-2-text"
+      ]
+    },
+    "since-2-label": {
+      "type": "Badge",
+      "props": {
+        "text": "ENA",
+        "variant": "default"
+      }
+    },
+    "since-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Risk Committee parameters confirmed met; Aug 21 vote on track; no block signal",
+        "variant": "body"
+      }
+    },
+    "since-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-3-label",
+        "since-3-text"
+      ]
+    },
+    "since-3-label": {
+      "type": "Badge",
+      "props": {
+        "text": "NVIDIA",
+        "variant": "default"
+      }
+    },
+    "since-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI crypto tokens already surging ahead of Aug 26 print (BeInCrypto confirms)",
+        "variant": "body"
+      }
+    },
+    "since-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-4-label",
+        "since-4-text"
+      ]
+    },
+    "since-4-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Deal-flow",
+        "variant": "secondary"
+      }
+    },
+    "since-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "River AI $1.1B (General Catalyst + Nvidia + YC); Lovable $400M on $500M ARR",
+        "variant": "body"
+      }
+    },
+    "since-item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-5-label",
+        "since-5-text"
+      ]
+    },
+    "since-5-label": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC",
+        "variant": "destructive"
+      }
+    },
+    "since-5-text": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN ↑↑ — Zcash Labs + quantum upgrade Nov 2026 + $215M volume Aug 17",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-watch",
+        "watch-item-1",
+        "watch-item-2"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-item-1": {
+      "type": "Alert",
+      "props": {
+        "title": "KAITO −11% today ahead of unlock",
+        "message": "Price already pricing sell pressure (Focus #1)",
+        "type": "warning"
+      }
+    },
+    "watch-item-2": {
+      "type": "Alert",
+      "props": {
+        "title": "AI crypto surging pre-NVIDIA",
+        "message": "T-8 entry window narrowing fast (Focus #3)",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-running",
+        "running-item-1",
+        "running-item-2",
+        "running-item-3",
+        "running-item-4",
+        "running-item-5",
+        "running-item-6"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-6": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}

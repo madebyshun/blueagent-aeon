@@ -1,22 +1,25 @@
-*Morning Brief — 2026-08-17*
+*Morning Brief — 2026-08-18*
 
 *Focus today*
-1. ENA — T-4 to fee switch vote; Risk Committee sign-off still the swing factor
-2. NVIDIA T-9 — pre-earnings AI token window live; YES $250 strike at 9¢ (edge 12pp)
-3. KAITO T-3 — $34M/13.5% supply unlock hits Wednesday; clear all exposure today
+1. KAITO exit — unlock hits tomorrow 12:00 UTC; already −11% today
+2. ENA watch — Risk Committee parameters confirmed; sign-off = go signal
+3. NVIDIA T-8 — AI crypto pre-positioning live; DePIN entry window closing
 
 *Since yesterday*
-- [demoted] HYPE → structural FADE confirmed: revenue −43% from $357M peak; buyback −51%
-- [new] Agent Identity FRONT-RUN — H +103.9% 7d; a16z: credentials are next agent bottleneck
-- [promoted] AI Compute/DePIN → FRONT-RUN — T-9 media stack fully live (Benzinga, Motley Fool)
-- [stuck] XAI 403 day 37 — narrative-tracker on WebSearch fallback indefinitely
+- KAITO: −11% today ahead of 32.6M token unlock Aug 20 12:00 UTC; dollar value lower than prior $34M estimate at current prices
+- ENA: Risk Committee parameters confirmed met; Aug 21 vote on track; no block signal
+- NVIDIA: AI crypto tokens already surging ahead of Aug 26 print (BeInCrypto confirms)
+- Deal-flow: River AI $1.1B (General Catalyst + Nvidia + YC); Lovable $400M on $500M ARR
+- ZEC: FRONT-RUN ↑↑ — Zcash Labs + quantum upgrade Nov 2026 + $215M volume Aug 17
 
 *Watch*
-- Benzinga: NVIDIA Q2 earnings explicitly tied to crypto prediction market (YES NVDA >$250 @ 9¢) — supports Focus #2 and yesterday's token-pick thesis
+- KAITO −11% today ahead of unlock — price already pricing sell pressure (Focus #1)
+- AI crypto surging pre-NVIDIA (BeInCrypto) — T-8 entry window narrowing fast (Focus #3)
 
 *Running today*
+- heartbeat @ 08:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
-- heartbeat @ 08:00, 14:00, 20:00 UTC
+- heartbeat @ 14:00, 20:00 UTC
