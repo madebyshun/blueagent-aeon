@@ -1,0 +1,603 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-08-18"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-toppick",
+        "sep-1",
+        "section-aiml",
+        "sep-2",
+        "section-devtools",
+        "sep-3",
+        "section-infra",
+        "sep-4",
+        "section-web",
+        "sep-5",
+        "footer"
+      ]
+    },
+    "section-toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label-toppick",
+        "repo-toppick"
+      ]
+    },
+    "label-toppick": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "repo-toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "link-toppick",
+        "desc-toppick"
+      ]
+    },
+    "link-toppick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "usestrix/strix",
+        "href": "https://github.com/usestrix/strix"
+      }
+    },
+    "desc-toppick": {
+      "type": "Text",
+      "props": {
+        "text": "An open-source AI red team that chains vulnerabilities end-to-end is the sharpest new security tool on trending — it builds exploit paths, not just CVE lists.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-aiml",
+        "aiml-1",
+        "aiml-2"
+      ]
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "aiml-1-title",
+        "aiml-1-meta",
+        "aiml-1-desc"
+      ]
+    },
+    "aiml-1-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "harry0703/MoneyPrinterTurbo",
+        "href": "https://github.com/harry0703/MoneyPrinterTurbo"
+      }
+    },
+    "aiml-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-1-stars",
+        "aiml-1-lang",
+        "aiml-1-status"
+      ]
+    },
+    "aiml-1-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1.2k today (107k total)",
+        "variant": "caption"
+      }
+    },
+    "aiml-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "aiml-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "aiml-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Keyword-to-HD-video pipeline: script, voiceover, stock footage assembly, and export — fully automated, no editing step.",
+        "variant": "body"
+      }
+    },
+    "aiml-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "aiml-2-title",
+        "aiml-2-meta",
+        "aiml-2-desc"
+      ]
+    },
+    "aiml-2-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "jundot/omlx",
+        "href": "https://github.com/jundot/omlx"
+      }
+    },
+    "aiml-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-2-stars",
+        "aiml-2-lang",
+        "aiml-2-status"
+      ]
+    },
+    "aiml-2-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 78 today (19k total)",
+        "variant": "caption"
+      }
+    },
+    "aiml-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "aiml-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "aiml-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Runs models larger than your unified memory by spilling layers to SSD on Apple Silicon via continuous batching.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-devtools",
+        "devtools-1",
+        "devtools-2",
+        "devtools-3"
+      ]
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "devtools-1-title",
+        "devtools-1-meta",
+        "devtools-1-desc"
+      ]
+    },
+    "devtools-1-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "usestrix/strix",
+        "href": "https://github.com/usestrix/strix"
+      }
+    },
+    "devtools-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-stars",
+        "devtools-1-lang",
+        "devtools-1-status"
+      ]
+    },
+    "devtools-1-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 598 today (55k total)",
+        "variant": "caption"
+      }
+    },
+    "devtools-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "devtools-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Autonomous AI red team that discovers auth bypass → SSRF → RCE chains end-to-end, not individual CVEs.",
+        "variant": "body"
+      }
+    },
+    "devtools-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "devtools-2-title",
+        "devtools-2-meta",
+        "devtools-2-desc"
+      ]
+    },
+    "devtools-2-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AlexsJones/llmfit",
+        "href": "https://github.com/AlexsJones/llmfit"
+      }
+    },
+    "devtools-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-2-stars",
+        "devtools-2-lang",
+        "devtools-2-status"
+      ]
+    },
+    "devtools-2-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 198 today (33k total)",
+        "variant": "caption"
+      }
+    },
+    "devtools-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "outline"
+      }
+    },
+    "devtools-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "One command scans GPU/RAM and ranks hundreds of models by what actually fits — ends OOM trial-and-error.",
+        "variant": "body"
+      }
+    },
+    "devtools-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "devtools-3-title",
+        "devtools-3-meta",
+        "devtools-3-desc"
+      ]
+    },
+    "devtools-3-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "akitaonrails/ai-memory",
+        "href": "https://github.com/akitaonrails/ai-memory"
+      }
+    },
+    "devtools-3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-3-stars",
+        "devtools-3-lang",
+        "devtools-3-status"
+      ]
+    },
+    "devtools-3-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 207 today (2.4k total)",
+        "variant": "caption"
+      }
+    },
+    "devtools-3-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "outline"
+      }
+    },
+    "devtools-3-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Vendor-agnostic memory layer for AI coding CLIs — persists context between sessions and across providers as structured files.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-infra",
+        "infra-1"
+      ]
+    },
+    "heading-infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infra-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "infra-1-title",
+        "infra-1-meta",
+        "infra-1-desc"
+      ]
+    },
+    "infra-1-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "nautechsystems/nautilus_trader",
+        "href": "https://github.com/nautechsystems/nautilus_trader"
+      }
+    },
+    "infra-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra-1-stars",
+        "infra-1-lang",
+        "infra-1-status"
+      ]
+    },
+    "infra-1-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 120 today (26k total)",
+        "variant": "caption"
+      }
+    },
+    "infra-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "outline"
+      }
+    },
+    "infra-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "infra-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rust trading engine where backtest and live execution share identical code paths — no port, no paper-trading divergence.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-web": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-web",
+        "web-1"
+      ]
+    },
+    "heading-web": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "web-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "web-1-title",
+        "web-1-meta",
+        "web-1-desc"
+      ]
+    },
+    "web-1-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "santifer/career-ops",
+        "href": "https://github.com/santifer/career-ops"
+      }
+    },
+    "web-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "web-1-stars",
+        "web-1-lang",
+        "web-1-status"
+      ]
+    },
+    "web-1-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 218 today (65k total)",
+        "variant": "caption"
+      }
+    },
+    "web-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "outline"
+      }
+    },
+    "web-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "web-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Automates the full job search loop — portal scraping, rubric scoring, CV tailoring per role, and application tracking.",
+        "variant": "body"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=partial (11/~25) · gh_api=ok · kept 7/11",
+        "variant": "caption"
+      }
+    }
+  }
+}

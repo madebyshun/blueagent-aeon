@@ -1,29 +1,32 @@
-*GitHub Trending — 2026-08-17*
+*GitHub Trending — 2026-08-18*
 
-*Top pick* — [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
-DeepSeek's plugin-first AI coding runtime hit 143k stars in 4 days — one of the fastest repo launches in GitHub history, spawning 20+ ecosystem repos before the week closed.
+*Top pick* — [usestrix/strix](https://github.com/usestrix/strix)
+An open-source AI red team that chains vulnerabilities end-to-end is the sharpest new security tool on trending — it builds exploit paths, not just CVE lists.
 
 *AI/ML*
-• [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) — ★ 143.7k total · ~35.9k/day · TypeScript · [DEBUT]
-"Everything is a Plugin" — DeepSeek's answer to Claude Code, with a full plugin ecosystem live at launch.
+• [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — ★ 1.2k today (107k total) · Python · [RETURNING]
+Keyword-to-HD-video pipeline: script, voiceover, stock footage assembly, and export — fully automated, no editing step.
 
-• [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) — ★ 12.5k total · ~2.1k/day · Python · [DEBUT]
-First tool unifying C2PA metadata stripping, Unicode text hygiene, and statistical rewrites across PNG, JPEG, SVG, PDF, DOCX, HTML, and MD in one CLI.
+• [jundot/omlx](https://github.com/jundot/omlx) — ★ 78 today (19k total) · Python · [ACCELERATING]
+Runs models larger than your unified memory by spilling layers to SSD on Apple Silicon via continuous batching.
 
 *Devtools*
-• [dmmulroy/anti-slop](https://github.com/dmmulroy/anti-slop) — ★ 1.9k total · ~376/day · TypeScript · [DEBUT]
-Oxlint rules explicitly targeting AI-generated low-evidence TS/JS patterns — the first linter that treats LLM code slop as a lint error category.
+• [usestrix/strix](https://github.com/usestrix/strix) — ★ 598 today (55k total) · Python · [ACCELERATING]
+Autonomous AI red team that discovers auth bypass → SSRF → RCE chains end-to-end, not individual CVEs.
 
-• [Leutenegger/book-to-skill](https://github.com/Leutenegger/book-to-skill) — ★ 1.2k total · ~291/day · Python · [DEBUT]
-Converts any technical PDF into a runnable Claude Code skill file — textbooks become queryable context while you code.
+• [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) — ★ 198 today (33k total) · Rust · [ACCELERATING]
+One command scans GPU/RAM and ranks hundreds of models by what actually fits — ends OOM trial-and-error.
+
+• [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) — ★ 207 today (2.4k total) · Rust · [ACCELERATING]
+Vendor-agnostic memory layer for AI coding CLIs — persists context between sessions and across providers as structured files.
 
 *Infra*
-• [xoreaxeaxeax/skitter-creek-bath-salts](https://github.com/xoreaxeaxeax/skitter-creek-bath-salts) — ★ 1.75k total · ~438/day · C · [DEBUT]
-From the "mov is Turing complete" author — DRAM scrambling technique that bypasses memory protections on modern CPUs.
+• [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) — ★ 120 today (26k total) · Rust · [RETURNING]
+Rust trading engine where backtest and live execution share identical code paths — no port, no paper-trading divergence.
 
 *Web/Apps*
-• [shadcn-ui/chatbot-template](https://github.com/shadcn-ui/chatbot-template) — ★ 708 total · ~118/day · TypeScript · [DEBUT]
-First official shadcn chatbot scaffold on Next.js + Vercel AI Gateway — one-command setup the community has been hand-rolling for months.
+• [santifer/career-ops](https://github.com/santifer/career-ops) — ★ 218 today (65k total) · JavaScript · [ACCELERATING]
+Automates the full job search loop — portal scraping, rubric scoring, CV tailoring per role, and application tracking.
 
 ---
-sources: trending=partial (7/~25, all filtered) · gh_api=ok · kept 6/25
+sources: trending=partial (11/~25) · gh_api=ok · kept 7/11
