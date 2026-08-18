@@ -2,18 +2,18 @@ Done. Here's the summary:
 
 ## Summary
 
-**Data:** Fetched top 250 coins (3 WebFetch pages) and 15 trending coins from CoinGecko.
+**Data fetched:** CoinGecko top 250 by market cap (WebFetch) + trending coins endpoint. Both sources returned valid data.
 
-**Market pulse:** Drift-up session — BTC +0.9%, ~72% of filtered top-50 alts green, median ~+0.8%.
+**Market pulse:** Quietly constructive session — 64% of filtered top-100 green, median near 0%. Gains concentrated in mid-cap names; large-caps mostly flat.
 
-**Top signal:** GPS (GoPlus Security, rank 246) — +52.0% on $85M volume, trending, [TRENDING+UP][BREAKOUT][PUMP-RISK]. High manipulation probability, isolated low-cap spike.
+**Top winners:** VVV +18.7% [TRENDING+UP], BTW +16.5% [TRENDING+UP][BREAKOUT] (7d +92%), then a quiet drop-off to POL +4.4%, SKY +3.6%, VIRTUALS +3.3%, AAVE +2.8%.
 
-**Key reversals:** H (−28.4%), Q (−22.7%), DRV (−13.7%) — all were winners Aug 15–16, all reversed today. VELVET (−29.4%) extending its post-pump decline.
+**Top losers:** WLD −10.7% (biggest move, approaching but below CAPITULATION threshold), AKE −7.3% [TRENDING+DOWN], FIL −7.0%, then a cluster of −2.5% to −4.7% moves.
 
-**Notable losers tag:** BEAT (−29.8%) [CAPITULATION] returning after Aug 16 dedup-skip; CASHCAT (−9.4%) [TRENDING+DOWN] newly in trending.
+**Trending signals:** VVV and BTW both trending+up (BTW earns [BREAKOUT] today after being deduped 3 days). Three [TRENDING+DOWN] reversals: ONDO, PUMP, and AKE — all were winners Aug 17.
 
-**ZEC:** [TRENDING+UP][MAJOR] — rank 15, +5.5% on $215M volume, in trending. Privacy-coin bid intact.
+**Deduped:** MORPHO, SOL, HYPE, LINK, ANSEM — same direction/tags as prior 2 days, no new signals.
 
-**Files created/modified:**
-- `.pending-notify/token-movers-2026-08-17.md` — notification staged for post-run delivery
-- `memory/logs/2026-08-17.md` — token-movers section appended
+**Files modified:**
+- `.pending-notify/token-movers-2026-08-18.md` — notification staged for post-run delivery
+- `memory/logs/2026-08-18.md` — log entry appended
