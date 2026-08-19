@@ -1,0 +1,979 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-19"
+      },
+      "children": [
+        "transitions_section",
+        "sep1",
+        "reflexivity_section",
+        "sep2",
+        "positions_section",
+        "sep3",
+        "map_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions_heading",
+        "transition_memecoins",
+        "transition_agent_id",
+        "transition_velocity_decay",
+        "transition_velocity_up",
+        "transition_dead"
+      ]
+    },
+    "transitions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transition_memecoins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "memecoin_title_row",
+        "memecoin_stats_row",
+        "memecoin_description"
+      ]
+    },
+    "memecoin_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "memecoin_label",
+        "promoted_badge"
+      ]
+    },
+    "memecoin_label": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoins / Retail (Fading → Rising ↑↑)",
+        "variant": "lead"
+      }
+    },
+    "promoted_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "default"
+      }
+    },
+    "memecoin_stats_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "btw_stat",
+        "velvet_stat",
+        "pump_stat",
+        "breakout_badge"
+      ]
+    },
+    "btw_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTW",
+        "value": "+70.2%",
+        "trend": "up"
+      }
+    },
+    "velvet_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "VELVET",
+        "value": "+24.2%",
+        "trend": "up"
+      }
+    },
+    "pump_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "PUMP",
+        "value": "+7.6%",
+        "trend": "up"
+      }
+    },
+    "breakout_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "secondary"
+      }
+    },
+    "memecoin_description": {
+      "type": "Text",
+      "props": {
+        "text": "3-session: +0%→+16.5%→+70.2%. Pure reflexivity. WATCH.",
+        "variant": "body"
+      }
+    },
+    "transition_agent_id": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "agent_id_title_row",
+        "agent_id_stat",
+        "agent_id_description"
+      ]
+    },
+    "agent_id_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "agent_id_label",
+        "demoted_badge"
+      ]
+    },
+    "agent_id_label": {
+      "type": "Text",
+      "props": {
+        "text": "Agent Identity (Emerging → Fading ↓↓)",
+        "variant": "lead"
+      }
+    },
+    "demoted_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "agent_id_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "H",
+        "value": "−20.1%",
+        "trend": "down"
+      }
+    },
+    "agent_id_description": {
+      "type": "Text",
+      "props": {
+        "text": "3rd consecutive major decline. Thesis intact; token rejected. FADE.",
+        "variant": "body"
+      }
+    },
+    "transition_velocity_decay": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "velocity_decay_title",
+        "velocity_decay_desc"
+      ]
+    },
+    "velocity_decay_title": {
+      "type": "Text",
+      "props": {
+        "text": "VELOCITY DECAY: AI Applications",
+        "variant": "lead"
+      }
+    },
+    "velocity_decay_desc": {
+      "type": "Text",
+      "props": {
+        "text": "VVV [TRENDING+DOWN] after +18.7% yesterday. Rotating to Virtuals lower-caps (TIBBIR +21.6% [BREAKOUT]).",
+        "variant": "body"
+      }
+    },
+    "transition_velocity_up": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "velocity_up_title",
+        "velocity_up_desc"
+      ]
+    },
+    "velocity_up_title": {
+      "type": "Text",
+      "props": {
+        "text": "VELOCITY UP: SEC Regulation (Fading → Rising)",
+        "variant": "lead"
+      }
+    },
+    "velocity_up_desc": {
+      "type": "Text",
+      "props": {
+        "text": "White House crypto meeting + Fed FOMC minutes Aug 19.",
+        "variant": "body"
+      }
+    },
+    "transition_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dead_title_row",
+        "dead_desc"
+      ]
+    },
+    "dead_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "dead_label",
+        "dead_badge"
+      ]
+    },
+    "dead_label": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito unlock-day bounce",
+        "variant": "lead"
+      }
+    },
+    "dead_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "dead_desc": {
+      "type": "Text",
+      "props": {
+        "text": "+6.2%, vol/mcap 0.43. IGNORE.",
+        "variant": "body"
+      }
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_heading",
+        "reflexivity_alert_badge",
+        "reflexivity_ena",
+        "reflexivity_btw",
+        "reflexivity_nvidia"
+      ]
+    },
+    "reflexivity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity_alert_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠ ALERT",
+        "variant": "warning"
+      }
+    },
+    "reflexivity_ena": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflexivity_ena_title_row",
+        "reflexivity_ena_desc"
+      ]
+    },
+    "reflexivity_ena_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_ena_label",
+        "reflexivity_ena_status"
+      ]
+    },
+    "reflexivity_ena_label": {
+      "type": "Text",
+      "props": {
+        "text": "ENA",
+        "variant": "lead"
+      }
+    },
+    "reflexivity_ena_status": {
+      "type": "Badge",
+      "props": {
+        "text": "CLOSING, T-2",
+        "variant": "secondary"
+      }
+    },
+    "reflexivity_ena_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Peak reflexivity flagged. Exit on Aug 21 approval — not after.",
+        "variant": "body"
+      }
+    },
+    "reflexivity_btw": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflexivity_btw_title_row",
+        "reflexivity_btw_desc"
+      ]
+    },
+    "reflexivity_btw_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_btw_label",
+        "reflexivity_btw_status"
+      ]
+    },
+    "reflexivity_btw_label": {
+      "type": "Text",
+      "props": {
+        "text": "BTW",
+        "variant": "lead"
+      }
+    },
+    "reflexivity_btw_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACTIVE",
+        "variant": "secondary"
+      }
+    },
+    "reflexivity_btw_desc": {
+      "type": "Text",
+      "props": {
+        "text": "+16.5%→+70.2% 2-session acceleration. Price-creates-narrative. No fundamentals.",
+        "variant": "body"
+      }
+    },
+    "reflexivity_nvidia": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflexivity_nvidia_title_row",
+        "reflexivity_nvidia_desc"
+      ]
+    },
+    "reflexivity_nvidia_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_nvidia_label",
+        "reflexivity_nvidia_status"
+      ]
+    },
+    "reflexivity_nvidia_label": {
+      "type": "Text",
+      "props": {
+        "text": "NVIDIA/DePIN",
+        "variant": "lead"
+      }
+    },
+    "reflexivity_nvidia_status": {
+      "type": "Badge",
+      "props": {
+        "text": "BUILDING, T-7",
+        "variant": "secondary"
+      }
+    },
+    "reflexivity_nvidia_desc": {
+      "type": "Text",
+      "props": {
+        "text": "TAO + NEAR [MAJOR] trending; VVV reversing = compute rotation confirmed.",
+        "variant": "body"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions_heading",
+        "position_frontrun_compute",
+        "position_frontrun_zec",
+        "position_ride_agents",
+        "position_ride_agentic",
+        "position_ride_stablecoin",
+        "position_watch_memecoins",
+        "position_fade_agent_id",
+        "position_fade_defi"
+      ]
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "position_frontrun_compute": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position_frontrun_compute_title_row",
+        "position_frontrun_compute_details"
+      ]
+    },
+    "position_frontrun_compute_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "position_frontrun_compute_label",
+        "position_frontrun_compute_badge",
+        "position_frontrun_compute_tier"
+      ]
+    },
+    "position_frontrun_compute_label": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN",
+        "variant": "lead"
+      }
+    },
+    "position_frontrun_compute_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "position_frontrun_compute_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑↑, T-7",
+        "variant": "secondary"
+      }
+    },
+    "position_frontrun_compute_details": {
+      "type": "Text",
+      "props": {
+        "text": "Enter RENDER/AKT/ASI. Bear: fades post-report.",
+        "variant": "body"
+      }
+    },
+    "position_frontrun_zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position_frontrun_zec_title_row",
+        "position_frontrun_zec_details"
+      ]
+    },
+    "position_frontrun_zec_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "position_frontrun_zec_label",
+        "position_frontrun_zec_badge",
+        "position_frontrun_zec_tier"
+      ]
+    },
+    "position_frontrun_zec_label": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC/Privacy",
+        "variant": "lead"
+      }
+    },
+    "position_frontrun_zec_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "position_frontrun_zec_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑",
+        "variant": "secondary"
+      }
+    },
+    "position_frontrun_zec_details": {
+      "type": "Text",
+      "props": {
+        "text": "Zcash Labs, quantum Nov 2026. Bear: below ATH.",
+        "variant": "body"
+      }
+    },
+    "position_ride_agents": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position_ride_agents_title_row",
+        "position_ride_agents_details"
+      ]
+    },
+    "position_ride_agents_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "position_ride_agents_label",
+        "position_ride_agents_badge",
+        "position_ride_agents_tier"
+      ]
+    },
+    "position_ride_agents_label": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy",
+        "variant": "lead"
+      }
+    },
+    "position_ride_agents_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "position_ride_agents_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "5 ↑, Peak",
+        "variant": "secondary"
+      }
+    },
+    "position_ride_agents_details": {
+      "type": "Text",
+      "props": {
+        "text": "TIBBIR [BREAKOUT], NEAR [MAJOR].",
+        "variant": "body"
+      }
+    },
+    "position_ride_agentic": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position_ride_agentic_title_row",
+        "position_ride_agentic_details"
+      ]
+    },
+    "position_ride_agentic_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "position_ride_agentic_label",
+        "position_ride_agentic_badge",
+        "position_ride_agentic_tier"
+      ]
+    },
+    "position_ride_agentic_label": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Dev Tools",
+        "variant": "lead"
+      }
+    },
+    "position_ride_agentic_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "position_ride_agentic_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑↑",
+        "variant": "secondary"
+      }
+    },
+    "position_ride_agentic_details": {
+      "type": "Text",
+      "props": {
+        "text": "DeepSeek Harness ongoing.",
+        "variant": "body"
+      }
+    },
+    "position_ride_stablecoin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position_ride_stablecoin_title_row",
+        "position_ride_stablecoin_details"
+      ]
+    },
+    "position_ride_stablecoin_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "position_ride_stablecoin_label",
+        "position_ride_stablecoin_badge",
+        "position_ride_stablecoin_tier"
+      ]
+    },
+    "position_ride_stablecoin_label": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin/ENA",
+        "variant": "lead"
+      }
+    },
+    "position_ride_stablecoin_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "position_ride_stablecoin_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑↑, Peak",
+        "variant": "secondary"
+      }
+    },
+    "position_ride_stablecoin_details": {
+      "type": "Text",
+      "props": {
+        "text": "T-2. Reduce size.",
+        "variant": "body"
+      }
+    },
+    "position_watch_memecoins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position_watch_memecoins_title_row",
+        "position_watch_memecoins_details"
+      ]
+    },
+    "position_watch_memecoins_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "position_watch_memecoins_label",
+        "position_watch_memecoins_badge",
+        "position_watch_memecoins_tier"
+      ]
+    },
+    "position_watch_memecoins_label": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoins",
+        "variant": "lead"
+      }
+    },
+    "position_watch_memecoins_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "secondary"
+      }
+    },
+    "position_watch_memecoins_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑↑",
+        "variant": "secondary"
+      }
+    },
+    "position_watch_memecoins_details": {
+      "type": "Text",
+      "props": {
+        "text": "BTW/VELVET/PUMP. Trade; don't hold.",
+        "variant": "body"
+      }
+    },
+    "position_fade_agent_id": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position_fade_agent_id_title_row",
+        "position_fade_agent_id_details"
+      ]
+    },
+    "position_fade_agent_id_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "position_fade_agent_id_label",
+        "position_fade_agent_id_badge",
+        "position_fade_agent_id_tier"
+      ]
+    },
+    "position_fade_agent_id_label": {
+      "type": "Text",
+      "props": {
+        "text": "Agent Identity",
+        "variant": "lead"
+      }
+    },
+    "position_fade_agent_id_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "position_fade_agent_id_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↓↓",
+        "variant": "secondary"
+      }
+    },
+    "position_fade_agent_id_details": {
+      "type": "Text",
+      "props": {
+        "text": "H day 3.",
+        "variant": "body"
+      }
+    },
+    "position_fade_defi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "position_fade_defi_title_row",
+        "position_fade_defi_details"
+      ]
+    },
+    "position_fade_defi_title_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "position_fade_defi_label",
+        "position_fade_defi_badge",
+        "position_fade_defi_tier"
+      ]
+    },
+    "position_fade_defi_label": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Revival",
+        "variant": "lead"
+      }
+    },
+    "position_fade_defi_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "position_fade_defi_tier": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↓↓",
+        "variant": "secondary"
+      }
+    },
+    "position_fade_defi_details": {
+      "type": "Text",
+      "props": {
+        "text": "MORPHO+PENDLE, 9th weak session.",
+        "variant": "body"
+      }
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_heading",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_label",
+        "map_rising_items"
+      ]
+    },
+    "map_rising_label": {
+      "type": "Text",
+      "props": {
+        "text": "Rising",
+        "variant": "lead"
+      }
+    },
+    "map_rising_items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN · Agentic Dev Tools · Oracle/LINK · ZEC · AI Agent Security · DeFi-TradFi · RWA · Tokenized Equities · Memecoins · SEC Reg",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_label",
+        "map_peak_items"
+      ]
+    },
+    "map_peak_label": {
+      "type": "Text",
+      "props": {
+        "text": "Peak",
+        "variant": "lead"
+      }
+    },
+    "map_peak_items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy · x402/Base · Stablecoin/ENA",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_label",
+        "map_fading_items"
+      ]
+    },
+    "map_fading_label": {
+      "type": "Text",
+      "props": {
+        "text": "Fading",
+        "variant": "lead"
+      }
+    },
+    "map_fading_items": {
+      "type": "Text",
+      "props": {
+        "text": "Agent Identity · WorldCoin · DeFi Revival",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    }
+  }
+}
