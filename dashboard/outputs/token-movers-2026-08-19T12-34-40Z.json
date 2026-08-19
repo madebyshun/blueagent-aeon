@@ -1,0 +1,448 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "2026-08-19"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-summary",
+        "sep-1",
+        "heading-winners",
+        "table-winners",
+        "sep-2",
+        "heading-losers",
+        "table-losers",
+        "sep-3",
+        "heading-trending",
+        "stack-trending",
+        "sep-4",
+        "heading-notable",
+        "stack-notable"
+      ]
+    },
+    "text-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Cautiously green — ~66% of filtered top-100 in positive territory, median ~+0.8%; large-caps flat to slight green, mid-cap momentum concentrated in BTW's continued breakout and select reversals.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table-winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "#",
+          "Symbol",
+          "Name",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume/Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "BTW",
+            "Bitway",
+            "$0.6137",
+            "+70.2%",
+            "+161.7%",
+            "−7.8%",
+            "$184M / #47",
+            "TRENDING+UP, BREAKOUT"
+          ],
+          [
+            "2",
+            "VELVET",
+            "",
+            "$0.6753",
+            "+24.2%",
+            "+12.5%",
+            "+1.4%",
+            "$26.7M / #127",
+            "TRENDING+UP"
+          ],
+          [
+            "3",
+            "TIBBIR",
+            "Ribbita",
+            "$0.2340",
+            "+21.6%",
+            "+62.7%",
+            "−0.5%",
+            "$3.9M / #142",
+            "BREAKOUT"
+          ],
+          [
+            "4",
+            "GNO",
+            "Gnosis",
+            "$112.87",
+            "+9.1%",
+            "+7.7%",
+            "−0.8%",
+            "$19.3M / #122",
+            ""
+          ],
+          [
+            "5",
+            "PUMP",
+            "Pump.fun",
+            "$0.002990",
+            "+7.6%",
+            "+11.1%",
+            "+0.7%",
+            "$101M / #62",
+            "TRENDING+UP"
+          ],
+          [
+            "6",
+            "ZRO",
+            "LayerZero",
+            "$0.8350",
+            "+7.5%",
+            "−1.4%",
+            "−1.8%",
+            "$24.7M / #124",
+            ""
+          ],
+          [
+            "7",
+            "KAITO",
+            "",
+            "$0.3470",
+            "+6.2%",
+            "−30.1%",
+            "+1.1%",
+            "$35.8M / #274",
+            ""
+          ],
+          [
+            "8",
+            "NIGHT",
+            "Midnight",
+            "$0.0180",
+            "+5.8%",
+            "+3.2%",
+            "+0.8%",
+            "$5.9M / #123",
+            ""
+          ],
+          [
+            "9",
+            "CAKE",
+            "PancakeSwap",
+            "$1.54",
+            "+5.8%",
+            "+6.1%",
+            "−0.6%",
+            "$37.1M / #98",
+            ""
+          ],
+          [
+            "10",
+            "INJ",
+            "Injective",
+            "$4.24",
+            "+4.8%",
+            "−7.7%",
+            "+0.2%",
+            "$53.0M / #105",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table-losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "#",
+          "Symbol",
+          "Name",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume/Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "H",
+            "Humanity",
+            "$0.0950",
+            "−20.1%",
+            "+6.3%",
+            "−0.4%",
+            "$8.0M / #163",
+            ""
+          ],
+          [
+            "2",
+            "ANSEM",
+            "",
+            "$0.2357",
+            "−10.0%",
+            "+21.2%",
+            "−1.4%",
+            "$11.8M / #244",
+            ""
+          ],
+          [
+            "3",
+            "DCR",
+            "Decred",
+            "$10.70",
+            "−6.6%",
+            "−14.8%",
+            "−0.2%",
+            "$8.2M / #164",
+            ""
+          ],
+          [
+            "4",
+            "WEMIX",
+            "",
+            "$0.1909",
+            "−5.2%",
+            "−5.8%",
+            "−1.2%",
+            "$1.0M / #247",
+            ""
+          ],
+          [
+            "5",
+            "PENDLE",
+            "",
+            "$1.30",
+            "−4.6%",
+            "−4.2%",
+            "+0.2%",
+            "$23.0M / #143",
+            ""
+          ],
+          [
+            "6",
+            "MORPHO",
+            "",
+            "$2.06",
+            "−4.4%",
+            "+3.8%",
+            "+1.7%",
+            "$16.3M / #54",
+            ""
+          ],
+          [
+            "7",
+            "STABLE",
+            "",
+            "$0.02918",
+            "−4.4%",
+            "−9.2%",
+            "−0.1%",
+            "$10.9M / #78",
+            ""
+          ],
+          [
+            "8",
+            "GENIUS",
+            "",
+            "$0.3553",
+            "−4.1%",
+            "−7.1%",
+            "+0.4%",
+            "$8.0M / #217",
+            ""
+          ],
+          [
+            "9",
+            "HTX",
+            "",
+            "$0.00000169",
+            "−4.1%",
+            "−7.6%",
+            "−0.4%",
+            "$37.2M / #51",
+            ""
+          ],
+          [
+            "10",
+            "SUN",
+            "",
+            "$0.01700",
+            "−4.1%",
+            "−7.5%",
+            "−0.4%",
+            "$28.8M / #117",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "stack-trending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trending-1",
+        "trending-2",
+        "trending-3",
+        "trending-4",
+        "trending-5",
+        "trending-6",
+        "trending-7"
+      ]
+    },
+    "trending-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. BTW (Bitway) — #47, $0.609, +63.2%  [TRENDING+UP][BREAKOUT]"
+      }
+    },
+    "trending-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. VVV (Venice Token) — #87, $14.02, −4.0%  [TRENDING+DOWN]"
+      }
+    },
+    "trending-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. VELVET — #128, $0.664, +11.7%  [TRENDING+UP]"
+      }
+    },
+    "trending-4": {
+      "type": "Text",
+      "props": {
+        "text": "4. PUMP (Pump.fun) — #62, $0.00300, +6.7%  [TRENDING+UP]"
+      }
+    },
+    "trending-5": {
+      "type": "Text",
+      "props": {
+        "text": "5. DOT (Polkadot) — #57, $0.777, +5.1%  [TRENDING+UP]"
+      }
+    },
+    "trending-6": {
+      "type": "Text",
+      "props": {
+        "text": "6. TAO (Bittensor) — #45, $192.30, +0.1%  [MAJOR]"
+      }
+    },
+    "trending-7": {
+      "type": "Text",
+      "props": {
+        "text": "7. NEAR Protocol — #42, $1.616, −0.6%  [MAJOR]"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "stack-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "notable-1": {
+      "type": "Text",
+      "props": {
+        "text": "• BTW acceleration — Aug 18 +16.5% → today +70.2%; 7d +161.7%; $184M volume [TRENDING+UP][BREAKOUT]"
+      }
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "• VELVET whipsaw — Aug 17 −29.4% loser → today +24.2% [TRENDING+UP]; violent reversal, direction unclear"
+      }
+    },
+    "notable-3": {
+      "type": "Text",
+      "props": {
+        "text": "• TIBBIR (Ribbita by Virtuals) — +21.6% / 7d +62.7% [BREAKOUT]; thin $3.9M volume"
+      }
+    },
+    "notable-4": {
+      "type": "Text",
+      "props": {
+        "text": "• VVV [TRENDING+DOWN] — yesterday's top winner fading −4.0%; profit-taking into strength"
+      }
+    }
+  }
+}
