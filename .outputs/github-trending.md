@@ -1,32 +1,26 @@
-*GitHub Trending — 2026-08-18*
+*GitHub Trending — 2026-08-19*
 
-*Top pick* — [usestrix/strix](https://github.com/usestrix/strix)
-An open-source AI red team that chains vulnerabilities end-to-end is the sharpest new security tool on trending — it builds exploit paths, not just CVE lists.
+*Top pick* — [volcengine/OpenViking](https://github.com/volcengine/OpenViking)
+ByteDance open-sourced their production agent memory infrastructure — the layer that unifies episodic memory, RAG, and skill caching is now forkable.
 
 *AI/ML*
-• [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — ★ 1.2k today (107k total) · Python · [RETURNING]
-Keyword-to-HD-video pipeline: script, voiceover, stock footage assembly, and export — fully automated, no editing step.
+• [volcengine/OpenViking](https://github.com/volcengine/OpenViking) — ★ 213 today (29.7k total) · Python · [ACCELERATING]
+ByteDance's production agent memory layer — self-evolving context DB that unifies episodic memory, RAG knowledge, and skill caching in one system.
 
-• [jundot/omlx](https://github.com/jundot/omlx) — ★ 78 today (19k total) · Python · [ACCELERATING]
-Runs models larger than your unified memory by spilling layers to SSD on Apple Silicon via continuous batching.
+• [chaitanyagiri/munder-difflin](https://github.com/chaitanyagiri/munder-difflin) — ★ 306 today (2.4k total) · TypeScript · [ACCELERATING]
+Multi-agent harness built for fully local execution — complete orchestration stack with no cloud calls or telemetry.
 
 *Devtools*
-• [usestrix/strix](https://github.com/usestrix/strix) — ★ 598 today (55k total) · Python · [ACCELERATING]
-Autonomous AI red team that discovers auth bypass → SSRF → RCE chains end-to-end, not individual CVEs.
-
-• [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) — ★ 198 today (33k total) · Rust · [ACCELERATING]
-One command scans GPU/RAM and ranks hundreds of models by what actually fits — ends OOM trial-and-error.
-
-• [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) — ★ 207 today (2.4k total) · Rust · [ACCELERATING]
-Vendor-agnostic memory layer for AI coding CLIs — persists context between sessions and across providers as structured files.
-
-*Infra*
-• [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) — ★ 120 today (26k total) · Rust · [RETURNING]
-Rust trading engine where backtest and live execution share identical code paths — no port, no paper-trading divergence.
+• [basecamp/omarchy](https://github.com/basecamp/omarchy) — ★ 356 today (26.6k total) · Shell · [RETURNING]
+DHH's opinionated Arch Linux distro — one command from bare ISO to fully configured desktop; new commit pushed today.
 
 *Web/Apps*
-• [santifer/career-ops](https://github.com/santifer/career-ops) — ★ 218 today (65k total) · JavaScript · [ACCELERATING]
-Automates the full job search loop — portal scraping, rubric scoring, CV tailoring per role, and application tracking.
+• [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) — ★ 192 today (85k total) · TypeScript · [RETURNING]
+85k-star in-browser video editor — runs fully client-side, no upload, no account; direct open-source CapCut replacement.
+
+*Other*
+• [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) — ★ 192 today (24.5k total) · PLSQL · [RETURNING]
+Complete open-source 10.5 GHz phased-array radar — schematics, firmware, and DSP in one repo, sub-$200 BOM.
 
 ---
-sources: trending=partial (11/~25) · gh_api=ok · kept 7/11
+sources: trending=partial (12/~25) · gh_api=ok · kept 5/12

@@ -1,0 +1,616 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-08-19"
+      },
+      "children": [
+        "section_topPick",
+        "sep1",
+        "section_aiml",
+        "sep2",
+        "section_devtools",
+        "sep3",
+        "section_web",
+        "sep4",
+        "section_other",
+        "footer"
+      ]
+    },
+    "section_topPick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_topPick",
+        "repo_openviking_top"
+      ]
+    },
+    "heading_topPick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_openviking_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_openviking_top",
+        "text_openviking_desc"
+      ]
+    },
+    "link_openviking_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "volcengine/OpenViking",
+        "href": "https://github.com/volcengine/OpenViking"
+      },
+      "children": []
+    },
+    "text_openviking_desc": {
+      "type": "Text",
+      "props": {
+        "text": "ByteDance open-sourced their production agent memory infrastructure — the layer that unifies episodic memory, RAG, and skill caching is now forkable.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aiml",
+        "repo_openviking",
+        "repo_munderdifflin"
+      ]
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_openviking": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_openviking",
+        "stats_openviking",
+        "badges_openviking",
+        "text_openviking"
+      ]
+    },
+    "link_openviking": {
+      "type": "StoryLink",
+      "props": {
+        "title": "volcengine/OpenViking",
+        "href": "https://github.com/volcengine/OpenViking"
+      },
+      "children": []
+    },
+    "stats_openviking": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_stars_openviking",
+        "stat_total_openviking"
+      ]
+    },
+    "stat_stars_openviking": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "213"
+      },
+      "children": []
+    },
+    "stat_total_openviking": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "29.7k"
+      },
+      "children": []
+    },
+    "badges_openviking": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_python",
+        "badge_accel"
+      ]
+    },
+    "badge_python": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_accel": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_openviking": {
+      "type": "Text",
+      "props": {
+        "text": "ByteDance's production agent memory layer — self-evolving context DB that unifies episodic memory, RAG knowledge, and skill caching in one system.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo_munderdifflin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_munderdifflin",
+        "stats_munderdifflin",
+        "badges_munderdifflin",
+        "text_munderdifflin"
+      ]
+    },
+    "link_munderdifflin": {
+      "type": "StoryLink",
+      "props": {
+        "title": "chaitanyagiri/munder-difflin",
+        "href": "https://github.com/chaitanyagiri/munder-difflin"
+      },
+      "children": []
+    },
+    "stats_munderdifflin": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_stars_munderdifflin",
+        "stat_total_munderdifflin"
+      ]
+    },
+    "stat_stars_munderdifflin": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "306"
+      },
+      "children": []
+    },
+    "stat_total_munderdifflin": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "2.4k"
+      },
+      "children": []
+    },
+    "badges_munderdifflin": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_typescript",
+        "badge_accel2"
+      ]
+    },
+    "badge_typescript": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_accel2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_munderdifflin": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-agent harness built for fully local execution — complete orchestration stack with no cloud calls or telemetry.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "repo_omarchy"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_omarchy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_omarchy",
+        "stats_omarchy",
+        "badges_omarchy",
+        "text_omarchy"
+      ]
+    },
+    "link_omarchy": {
+      "type": "StoryLink",
+      "props": {
+        "title": "basecamp/omarchy",
+        "href": "https://github.com/basecamp/omarchy"
+      },
+      "children": []
+    },
+    "stats_omarchy": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_stars_omarchy",
+        "stat_total_omarchy"
+      ]
+    },
+    "stat_stars_omarchy": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "356"
+      },
+      "children": []
+    },
+    "stat_total_omarchy": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "26.6k"
+      },
+      "children": []
+    },
+    "badges_omarchy": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_shell",
+        "badge_returning"
+      ]
+    },
+    "badge_shell": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_returning": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_omarchy": {
+      "type": "Text",
+      "props": {
+        "text": "DHH's opinionated Arch Linux distro — one command from bare ISO to fully configured desktop; new commit pushed today.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_web": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_web",
+        "repo_opencut"
+      ]
+    },
+    "heading_web": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_opencut": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_opencut",
+        "stats_opencut",
+        "badges_opencut",
+        "text_opencut"
+      ]
+    },
+    "link_opencut": {
+      "type": "StoryLink",
+      "props": {
+        "title": "OpenCut-app/OpenCut",
+        "href": "https://github.com/OpenCut-app/OpenCut"
+      },
+      "children": []
+    },
+    "stats_opencut": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_stars_opencut",
+        "stat_total_opencut"
+      ]
+    },
+    "stat_stars_opencut": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "192"
+      },
+      "children": []
+    },
+    "stat_total_opencut": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "85k"
+      },
+      "children": []
+    },
+    "badges_opencut": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_typescript2",
+        "badge_returning2"
+      ]
+    },
+    "badge_typescript2": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_returning2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_opencut": {
+      "type": "Text",
+      "props": {
+        "text": "85k-star in-browser video editor — runs fully client-side, no upload, no account; direct open-source CapCut replacement.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_other": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_other",
+        "repo_radar"
+      ]
+    },
+    "heading_other": {
+      "type": "Heading",
+      "props": {
+        "text": "Other",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_radar": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_radar",
+        "stats_radar",
+        "badges_radar",
+        "text_radar"
+      ]
+    },
+    "link_radar": {
+      "type": "StoryLink",
+      "props": {
+        "title": "NawfalMotii79/PLFM_RADAR",
+        "href": "https://github.com/NawfalMotii79/PLFM_RADAR"
+      },
+      "children": []
+    },
+    "stats_radar": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_stars_radar",
+        "stat_total_radar"
+      ]
+    },
+    "stat_stars_radar": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "192"
+      },
+      "children": []
+    },
+    "stat_total_radar": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "24.5k"
+      },
+      "children": []
+    },
+    "badges_radar": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_plsql",
+        "badge_returning3"
+      ]
+    },
+    "badge_plsql": {
+      "type": "Badge",
+      "props": {
+        "text": "PLSQL",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_returning3": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_radar": {
+      "type": "Text",
+      "props": {
+        "text": "Complete open-source 10.5 GHz phased-array radar — schematics, firmware, and DSP in one repo, sub-$200 BOM.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sep_footer",
+        "text_footer"
+      ]
+    },
+    "sep_footer": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=partial (12/~25) · gh_api=ok · kept 5/12",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
