@@ -1,25 +1,22 @@
-*Morning Brief — 2026-08-18*
+*Morning Brief — 2026-08-19*
 
 *Focus today*
-1. KAITO exit — unlock hits tomorrow 12:00 UTC; already −11% today
-2. ENA watch — Risk Committee parameters confirmed; sign-off = go signal
-3. NVIDIA T-8 — AI crypto pre-positioning live; DePIN entry window closing
+1. KAITO unlock — 32.6M tokens ($10.6M) hit 12:00 UTC; last exit window before sell pressure
+2. ENA vote — T-2 to Aug 21; reflexivity at peak, no new entries, size down pre-vote
+3. NVIDIA T-7 — DePIN compute front-run open; applications layer (VVV/VIRTUALS) already moved
 
 *Since yesterday*
-- KAITO: −11% today ahead of 32.6M token unlock Aug 20 12:00 UTC; dollar value lower than prior $34M estimate at current prices
-- ENA: Risk Committee parameters confirmed met; Aug 21 vote on track; no block signal
-- NVIDIA: AI crypto tokens already surging ahead of Aug 26 print (BeInCrypto confirms)
-- Deal-flow: River AI $1.1B (General Catalyst + Nvidia + YC); Lovable $400M on $500M ARR
-- ZEC: FRONT-RUN ↑↑ — Zcash Labs + quantum upgrade Nov 2026 + $215M volume Aug 17
+- VVV +18.7%: Venice AI 2M+ users + 42.8% supply burned; AI Applications leading NVIDIA pre-positioning
+- BTW +16.5%: 7d +92% breakout; momentum continuing
+- WLD −10.7%: biometric identity pair declining 2nd consecutive session; Agent Identity thesis not tokenizing at price
+- vm2 (npm): 3 critical sandbox escapes (CVSS 10.0/9.9/9.8) in 24h; package deprecated, no fix — audit deps
 
 *Watch*
-- KAITO −11% today ahead of unlock — price already pricing sell pressure (Focus #1)
-- AI crypto surging pre-NVIDIA (BeInCrypto) — T-8 entry window narrowing fast (Focus #3)
+- KAITO: AMBCrypto confirms 32.6M tokens ($10.6M, 3.3% supply) unlock today — adds sell-pressure magnitude to Focus #1
 
 *Running today*
-- heartbeat @ 08:00 UTC
 - github-monitor @ 09:00 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
-- heartbeat @ 14:00, 20:00 UTC
