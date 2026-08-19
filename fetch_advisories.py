@@ -1,70 +1,68 @@
 import subprocess, json, sys
 
-tracked = {'go', 'npm', 'pip', 'crates.io', 'actions', 'github actions'}
-deduped = set([
-  'CVE-2026-54067', 'CVE-2026-54072', 'CVE-2026-54089', 'CVE-2026-54174',
-  'CVE-2026-54069', 'CVE-2026-54066', 'CVE-2026-54063', 'CVE-2026-49866',
-  'CVE-2026-48939', 'CVE-2026-56291',
-  'GHSA-mvjr-vv3c-w4qv', 'GHSA-h29v-hj44-q8cv', 'GHSA-xqp3-jq6g-x3qm',
-  'GHSA-fpg8-7664-jc5q', 'GHSA-hvr9-72v2-fff3', 'GHSA-p4m3-mgmm-c664',
-  'GHSA-h69g-9hx6-f3v4', 'GHSA-cwc9-cp4j-mcvv'
-])
+tracked = {'npm', 'pip', 'Go', 'Rust', 'actions'}
+since = '2026-08-17'
+results = []
 
-all_items = []
 for sev in ['critical', 'high']:
-    result = subprocess.run(
-        ['gh', 'api', '/advisories?type=reviewed&severity=' + sev + '&per_page=100'],
+    r = subprocess.run(
+        ['gh', 'api', f'/advisories?type=reviewed&severity={sev}&per_page=50'],
         capture_output=True, text=True
     )
-    if result.returncode != 0:
-        print('gh api error for ' + sev + ': ' + result.stderr[:200])
+    if r.returncode != 0:
+        print(f"ERROR fetching {sev}: {r.stderr}", file=sys.stderr)
         continue
-    try:
-        data = json.loads(result.stdout)
-    except Exception as e:
-        print('JSON parse error: ' + str(e))
-        continue
-
+    data = json.loads(r.stdout)
     for a in data:
-        pub = a.get('published_at', '')
-        if pub < '2026-07-11':
+        if a.get('published_at', '') < since:
             continue
         ghsa = a.get('ghsa_id', '')
-        cve = a.get('cve_id') or ''
-        if ghsa in deduped or (cve and cve in deduped):
+        cve = a.get('cve_id', '')
+        # skip already-reported IDs
+        skip_ids = {
+            'CVE-2025-62593','GHSA-q279-jhrf-cc6v','GHSA-2qvg-qr73-mqxp','CVE-2026-55158',
+            'GHSA-m44r-7c5h-m6mj','CVE-2026-53728','GHSA-ggr8-5vv4-36mx','CVE-2026-40345',
+            'GHSA-m5w8-4gq2-6f8x','GHSA-m283-3h24-438v','CVE-2026-47686','GHSA-cfcw-xp6x-25gj',
+            'CVE-2026-47698','GHSA-7gwp-5pfp-969j','CVE-2026-64849','GHSA-8r8v-xf7q-rcpr',
+            'CVE-2026-71479','GHSA-6x2c-phff-wx57','CVE-2026-64859','GHSA-73wf-9vmv-5pv9',
+            'CVE-2026-62982','GHSA-8g4w-4ffg-8vgx','CVE-2026-56677'
+        }
+        if ghsa in skip_ids or cve in skip_ids:
             continue
-        vuln_pkgs = a.get('vulnerabilities', [])
-        ecos = [v.get('package', {}).get('ecosystem', '').lower() for v in vuln_pkgs]
-        if not any(e in tracked for e in ecos):
+        ecosystems = [v.get('package', {}).get('ecosystem', '') for v in a.get('vulnerabilities', [])]
+        in_tracked = any(e in tracked for e in ecosystems)
+        # Include if in tracked ecosystem OR if it's a KEV entry
+        kev_ids = {'CVE-2026-33824','CVE-2026-59310','CVE-2026-55040','CVE-2026-65400'}
+        if not in_tracked and cve not in kev_ids:
             continue
-        cvss = (a.get('cvss_severities') or {}).get('cvss_v3', {}).get('score', 0) or 0
-        all_items.append({
-            'ghsa': ghsa, 'cve': cve,
-            'summary': a.get('summary', ''),
-            'severity': a.get('severity', '') + '_from_' + sev,
-            'published': pub,
-            'cvss': cvss,
-            'url': a.get('html_url', ''),
-            'description': a.get('description', '')[:500],
-            'vulns': [
+        results.append({
+            'ghsa_id': ghsa,
+            'cve_id': cve,
+            'summary': a.get('summary', '')[:150],
+            'severity': a.get('severity'),
+            'cvss': a.get('cvss', {}).get('score') if a.get('cvss') else None,
+            'published_at': a.get('published_at'),
+            'html_url': a.get('html_url'),
+            'ecosystems': ecosystems,
+            'in_tracked': in_tracked,
+            'packages': [
                 {
-                    'eco': v.get('package', {}).get('ecosystem', ''),
-                    'name': v.get('package', {}).get('name', ''),
-                    'patched': v.get('first_patched_version', ''),
-                    'range': v.get('vulnerable_version_range', '')
+                    'ecosystem': v.get('package', {}).get('ecosystem'),
+                    'name': v.get('package', {}).get('name'),
+                    'patched': v.get('patched_versions'),
+                    'vuln': v.get('vulnerable_version_range')
                 }
-                for v in vuln_pkgs
+                for v in a.get('vulnerabilities', [])
             ]
         })
 
+# dedupe by ghsa_id
 seen = set()
-unique = []
-for item in all_items:
-    k = item['ghsa'] or item['cve']
-    if k not in seen:
-        seen.add(k)
-        unique.append(item)
+deduped = []
+for r in results:
+    key = r['ghsa_id'] or r['cve_id']
+    if key not in seen:
+        seen.add(key)
+        deduped.append(r)
 
-unique.sort(key=lambda x: x['cvss'], reverse=True)
-print(json.dumps(unique, indent=2))
-print('# Total new: ' + str(len(unique)), file=sys.stderr)
+print(json.dumps(deduped, indent=2))

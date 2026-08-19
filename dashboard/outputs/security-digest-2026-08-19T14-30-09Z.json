@@ -1,0 +1,81 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest 2026-08-19"
+      },
+      "children": [
+        "stack_metrics",
+        "separator_1",
+        "stack_file"
+      ]
+    },
+    "stack_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_exploited",
+        "stat_schedule",
+        "stat_monitor"
+      ]
+    },
+    "stat_exploited": {
+      "type": "Stat",
+      "props": {
+        "label": "Actively exploited (KEV+4)",
+        "value": "3"
+      }
+    },
+    "stat_schedule": {
+      "type": "Stat",
+      "props": {
+        "label": "To schedule",
+        "value": "5"
+      }
+    },
+    "stat_monitor": {
+      "type": "Stat",
+      "props": {
+        "label": "To monitor",
+        "value": "3"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_file": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_full_digest",
+        "link_file"
+      ]
+    },
+    "text_full_digest": {
+      "type": "Text",
+      "props": {
+        "text": "Full digest staged at:",
+        "variant": "caption"
+      }
+    },
+    "link_file": {
+      "type": "Link",
+      "props": {
+        "label": ".pending-notify/security-digest-2026-08-19.md",
+        "href": ".pending-notify/security-digest-2026-08-19.md"
+      }
+    }
+  }
+}
