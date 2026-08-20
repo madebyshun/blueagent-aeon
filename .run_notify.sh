@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 set -euo pipefail
-mkdir -p .pending-notify
-MSG=$(cat .notify_msg.txt)
+MSG=$(cat .token_movers_msg.txt)
 ./notify "$MSG"
