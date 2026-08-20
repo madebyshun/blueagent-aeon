@@ -1,28 +1,18 @@
-*Narrative Tracker — 2026-08-19*
+Done. Here's the summary:
 
-TRANSITIONS
-• PROMOTED: Memecoins / Retail (Fading → Rising ↑↑) — BTW +70.2% [BREAKOUT] (3-session: +0%→+16.5%→+70.2%), VELVET +24.2% reversal, PUMP +7.6% trending. Pure reflexivity — WATCH.
-• DEMOTED: Agent Identity (Emerging → Fading ↓↓) — H −20.1% (3rd consecutive major decline). Thesis intact; token rejected. FADE.
-• VELOCITY DECAY: AI Applications (VVV [TRENDING+DOWN] after +18.7% yesterday). Rotating to Virtuals lower-caps (TIBBIR +21.6% [BREAKOUT]).
-• VELOCITY UP: SEC Regulation (Fading → Rising) — White House crypto meeting + Fed FOMC minutes Aug 19.
-• DEAD: Kaito unlock-day bounce (+6.2%, vol/mcap 0.43). IGNORE.
+## Summary
 
-REFLEXIVITY ALERT
-• ENA (CLOSING, T-2): Peak reflexivity flagged. Exit on Aug 21 approval — not after.
-• BTW (ACTIVE): +16.5%→+70.2% 2-session acceleration. Price-creates-narrative. No fundamentals.
-• NVIDIA/DePIN (BUILDING, T-7): TAO + NEAR [MAJOR] trending; VVV reversing = compute rotation confirmed.
+**narrative-tracker — 2026-08-20** completed.
 
-POSITIONS
-• FRONT-RUN: AI Compute/DePIN (4 ↑↑, T-7) — Enter RENDER/AKT/ASI. Bear: fades post-report.
-• FRONT-RUN: ZEC/Privacy (3 ↑) — Zcash Labs, quantum Nov 2026. Bear: below ATH.
-• RIDE: AI Agent Economy (5 ↑, Peak) — TIBBIR [BREAKOUT], NEAR [MAJOR].
-• RIDE: Agentic Dev Tools (4 ↑↑) — DeepSeek Harness ongoing.
-• RIDE: Stablecoin/ENA (4 ↑↑, Peak) — T-2. Reduce size.
-• WATCH: Memecoins (3 ↑↑) — BTW/VELVET/PUMP. Trade; don't hold.
-• FADE: Agent Identity (2 ↓↓) — H day 3.
-• FADE: DeFi Revival (2 ↓↓) — MORPHO+PENDLE, 9th weak session.
+**Cache:** NARRATIVE_CACHE_MISS (XAI 403, 41st consecutive day) — fell back to WebSearch (3 queries).
 
-MAP
-Rising: AI Compute/DePIN · Agentic Dev Tools · Oracle/LINK · ZEC · AI Agent Security · DeFi-TradFi · RWA · Tokenized Equities · Memecoins · SEC Reg
-Peak: AI Agent Economy · x402/Base · Stablecoin/ENA
-Fading: Agent Identity · WorldCoin · DeFi Revival
+**Key transitions vs Aug 19:**
+- **NEW → FRONT-RUN:** Perp DEX / Hyperliquid — HYPE +22.8% [BREAKOUT][MAJOR] on Trump CFTC/SEC announcement + Hyperliquid Policy Center SEC submission; first US regulatory-legitimacy catalyst for a perp DEX
+- **PROMOTED → Rising ↑↑ RIDE:** SEC Regulation / Token Offering — SEC proposed Regulation Crypto Assets (tailored securities offering regime) Aug 18; BTC +8% to $69K confirmed by price action (US Treasury long-end buybacks + short covering + regulatory optimism)
+- **DEMOTED → Fading ↓ FADE:** Memecoins / Retail Return — BTW −41.5% reverses Aug 19 PROMOTE; pool drained; PEPE/MON/SPX gains are risk-on tails at +10% median market, not independent narrative
+
+**T-1 trigger:** ENA vote Aug 21 tomorrow — exit on approval. ENA +19.3% today = risk-on + vote anticipation double-layered. Final session.
+
+**Active reflexivity:** ENA (T-1 closing), HYPE (regulatory-legitimacy loop), BTC $69K (Treasury + narrative amplification)
+
+**Files:** `memory/logs/2026-08-20.md` updated, `.pending-notify/narrative-tracker-2026-08-20.md` staged (sandbox blocked direct `./notify`).
