@@ -1,0 +1,295 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-20"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "since_yesterday_section",
+        "sep2",
+        "watch_section",
+        "sep3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_items"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_why"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "ENA vote T-1",
+        "level": "h4"
+      }
+    },
+    "focus_1_why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: vote tomorrow; exit on approval, implementation lag follows",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_why"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "NVIDIA T-6 / DePIN front-run",
+        "level": "h4"
+      }
+    },
+    "focus_2_why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: RENDER/AKT/ASI entries still open; window shrinks daily",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_why"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "BTW reflexivity",
+        "level": "h4"
+      }
+    },
+    "focus_3_why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 3-session acceleration, no catalyst; pool drains fast",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since_yesterday_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_heading",
+        "since_items"
+      ]
+    },
+    "since_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_1",
+        "since_2",
+        "since_3",
+        "since_4"
+      ]
+    },
+    "since_1": {
+      "type": "Text",
+      "props": {
+        "text": "ENA: T-2 → T-1; Cryptopolitan confirms parameters met (USDe >$6B, revenue >$250M) — size down, exit ready at approval",
+        "variant": "body"
+      }
+    },
+    "since_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick: failed Aug 19 (1 consecutive failure — watching; threshold is 2)",
+        "variant": "body"
+      }
+    },
+    "since_3": {
+      "type": "Text",
+      "props": {
+        "text": "BTW: no Aug 20 catalyst; +70.2% breakout Aug 19 unresolved — pure reflexivity",
+        "variant": "body"
+      }
+    },
+    "since_4": {
+      "type": "Text",
+      "props": {
+        "text": "Agent Identity (H): demoted FADE after 3 consecutive major declines — no re-entry",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_heading",
+        "watch_items"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "ENA parameters confirmed passing (Cryptopolitan) — execution on Focus #1 de-risked",
+        "variant": "body"
+      }
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA $91.8B expected (+100% YoY); prediction market at $250 — beat may be priced in → size Focus #2 accordingly",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_heading",
+        "running_table"
+      ]
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Task",
+          "Time (UTC)"
+        ],
+        "rows": [
+          [
+            "github-monitor",
+            "09:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "token-pick",
+            "12:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ],
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00"
+          ]
+        ]
+      }
+    }
+  }
+}
