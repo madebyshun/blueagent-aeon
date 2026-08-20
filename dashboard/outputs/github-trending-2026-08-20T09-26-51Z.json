@@ -1,0 +1,230 @@
+{
+  "root": "root_card",
+  "state": {},
+  "elements": {
+    "root_card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-08-20"
+      },
+      "children": [
+        "top_pick_section",
+        "separator_1",
+        "devtools_section",
+        "separator_2",
+        "footer_section"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_heading",
+        "top_pick_storylink",
+        "top_pick_description"
+      ]
+    },
+    "top_pick_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h3"
+      }
+    },
+    "top_pick_storylink": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mattpocock/skills",
+        "href": "https://github.com/mattpocock/skills"
+      }
+    },
+    "top_pick_description": {
+      "type": "Text",
+      "props": {
+        "text": "Real agent skill files from a community leader — rare to see a production .agents/ directory published at this scale.",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "devtools_items_stack"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools_items_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "devtools_item_1",
+        "devtools_item_2"
+      ]
+    },
+    "devtools_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_1_header",
+        "item_1_stats",
+        "item_1_description"
+      ]
+    },
+    "item_1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_1",
+        "badge_1_lang",
+        "badge_1_status"
+      ]
+    },
+    "storylink_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mattpocock/skills",
+        "href": "https://github.com/mattpocock/skills"
+      }
+    },
+    "badge_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell"
+      }
+    },
+    "badge_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "item_1_stats": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars (today)",
+        "value": "224.5k",
+        "delta": "+1,894",
+        "trend": "up"
+      }
+    },
+    "item_1_description": {
+      "type": "Text",
+      "props": {
+        "text": "Matt Pocock's exact .agents/ skill definitions published raw — plug into any Claude CLI and get a proven TS-native agent setup.",
+        "variant": "body"
+      }
+    },
+    "devtools_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_2_header",
+        "item_2_stats",
+        "item_2_description"
+      ]
+    },
+    "item_2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_2",
+        "badge_2_lang",
+        "badge_2_status"
+      ]
+    },
+    "storylink_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "obra/superpowers",
+        "href": "https://github.com/obra/superpowers"
+      }
+    },
+    "badge_2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell"
+      }
+    },
+    "badge_2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "item_2_stats": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars (today)",
+        "value": "274.6k",
+        "delta": "+557",
+        "trend": "up"
+      }
+    },
+    "item_2_description": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic dev methodology with structured task, context, and execution layers — senior engineering judgment baked into reusable agent prompts.",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer_text"
+      ]
+    },
+    "footer_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=partial (14/~25) · gh_api=ok · kept 2/14 (9 deduped last 2 days, 3 noise)",
+        "variant": "caption"
+      }
+    }
+  }
+}
