@@ -1,0 +1,317 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-08-20",
+        "description": "Verdict: 1 actively exploited, 1 to patch this week, 3 to monitor. Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "patch-today-section",
+        "sep1",
+        "patch-week-section",
+        "sep2",
+        "monitor-section"
+      ]
+    },
+    "patch-today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-today-heading",
+        "cve-64849-item"
+      ]
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve-64849-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-64849-link",
+        "cve-64849-meta",
+        "cve-64849-status",
+        "cve-64849-desc",
+        "cve-64849-action"
+      ]
+    },
+    "cve-64849-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-64849",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-64849",
+        "source": "mlflow (pip)"
+      }
+    },
+    "cve-64849-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV added 2026-08-19 · EPSS 0.011 · CVSS TBD · Due 2026-09-02",
+        "variant": "caption"
+      }
+    },
+    "cve-64849-status": {
+      "type": "Badge",
+      "props": {
+        "text": "Actively Exploited",
+        "variant": "destructive"
+      }
+    },
+    "cve-64849-desc": {
+      "type": "Text",
+      "props": {
+        "text": "SSRF via unauthenticated webhook endpoint reaches internal services and cloud metadata (IMDS). Actively exploited per CISA."
+      }
+    },
+    "cve-64849-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Upgrade mlflow to ≥3.15.0 and redeploy.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-week-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-week-heading",
+        "ghsa-c7hr-item"
+      ]
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "ghsa-c7hr-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-c7hr-link",
+        "ghsa-c7hr-meta",
+        "ghsa-c7hr-desc",
+        "ghsa-c7hr-action"
+      ]
+    },
+    "ghsa-c7hr-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-c7hr-448w-65px",
+        "href": "https://github.com/advisories/GHSA-c7hr-448w-65px",
+        "source": "meshcentral (npm)"
+      }
+    },
+    "ghsa-c7hr-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 8.3 · EPSS N/A · Public PoC",
+        "variant": "caption"
+      }
+    },
+    "ghsa-c7hr-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Stored XSS via unsanitized agent osdesc field; executes on admin panel load, no user interaction required."
+      }
+    },
+    "ghsa-c7hr-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Schedule upgrade: meshcentral → ≥1.1.60.",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor-heading",
+        "monitor-item-1",
+        "monitor-item-2",
+        "monitor-item-3"
+      ]
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "monitor-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-2xhg-link",
+        "ghsa-2xhg-meta",
+        "ghsa-2xhg-desc",
+        "ghsa-2xhg-action"
+      ]
+    },
+    "ghsa-2xhg-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-2xhg-73j7-rrgx / CVE-2026-53957",
+        "href": "https://github.com/advisories/GHSA-2xhg-73j7-rrgx",
+        "source": "@contentful/mcp-server (npm)"
+      }
+    },
+    "ghsa-2xhg-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 7.7 · EPSS ~0 · PoC confirmed",
+        "variant": "caption"
+      }
+    },
+    "ghsa-2xhg-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Prompt-injection SSRF: LLM-controlled host/proxy args in export_space/import_space exfiltrate Contentful PAT to attacker endpoint."
+      }
+    },
+    "ghsa-2xhg-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Upgrade @contentful/mcp-server ≥1.7.19 and @contentful/mcp-tools ≥0.4.5 if in use.",
+        "variant": "lead"
+      }
+    },
+    "monitor-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-rr55-link",
+        "ghsa-rr55-meta",
+        "ghsa-rr55-badge",
+        "ghsa-rr55-desc",
+        "ghsa-rr55-action"
+      ]
+    },
+    "ghsa-rr55-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-rr55-jp92-8wp2",
+        "href": "https://github.com/advisories/GHSA-rr55-jp92-8wp2",
+        "source": "faf-mcp cluster (npm)"
+      }
+    },
+    "ghsa-rr55-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Affects: claude-faf-mcp, faf-mcp, grok-faf-mcp · CVSS 7.5 · No fix",
+        "variant": "caption"
+      }
+    },
+    "ghsa-rr55-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "No patch yet",
+        "variant": "outline"
+      }
+    },
+    "ghsa-rr55-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Arbitrary local file R/W via unconfined path arg in fs_* MCP tools. All three packages affected."
+      }
+    },
+    "ghsa-rr55-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Remove from MCP server if installed; no patch yet.",
+        "variant": "lead"
+      }
+    },
+    "monitor-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-9gmc-link",
+        "ghsa-9gmc-meta",
+        "ghsa-9gmc-badge",
+        "ghsa-9gmc-desc",
+        "ghsa-9gmc-action"
+      ]
+    },
+    "ghsa-9gmc-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-9gmc-jqmh-3rvm / CVE-2026-53951",
+        "href": "https://github.com/advisories/GHSA-9gmc-jqmh-3rvm",
+        "source": "copier (pip)"
+      }
+    },
+    "ghsa-9gmc-meta": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS 0.002 · No fix",
+        "variant": "caption"
+      }
+    },
+    "ghsa-9gmc-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Track for updates",
+        "variant": "outline"
+      }
+    },
+    "ghsa-9gmc-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Trust-prefix bypass via path traversal runs tasks unprompted without user confirmation."
+      }
+    },
+    "ghsa-9gmc-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Track GHSA-9gmc-jqmh-3rvm; watch for patched release, avoid untrusted template sources.",
+        "variant": "lead"
+      }
+    }
+  }
+}
