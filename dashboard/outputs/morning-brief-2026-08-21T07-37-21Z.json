@@ -1,0 +1,356 @@
+{
+  "root": "card_brief",
+  "state": {},
+  "elements": {
+    "card_brief": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-21"
+      },
+      "children": [
+        "h_focus",
+        "stack_focus",
+        "sep1",
+        "h_yesterday",
+        "stack_yesterday",
+        "sep2",
+        "h_watch",
+        "stack_watch",
+        "sep3",
+        "h_running",
+        "stack_running"
+      ]
+    },
+    "h_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_detail"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. ENA governance vote",
+        "variant": "body"
+      }
+    },
+    "focus_1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "why now: vote live today; exit immediately on approval",
+        "variant": "muted"
+      }
+    },
+    "focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_detail"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. NVIDIA T-5 / DePIN front-run",
+        "variant": "body"
+      }
+    },
+    "focus_2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Goldman warns beat may be priced in; entries closing",
+        "variant": "muted"
+      }
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_detail"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. HYPE Perp DEX",
+        "variant": "body"
+      }
+    },
+    "focus_3_detail": {
+      "type": "Text",
+      "props": {
+        "text": "why now: quiet window post-CFTC; watch for retest entry signal",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_ena",
+        "yesterday_hype",
+        "yesterday_btw",
+        "yesterday_sec",
+        "yesterday_mcp"
+      ]
+    },
+    "yesterday_ena": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_ena_val",
+        "yesterday_ena_text"
+      ]
+    },
+    "yesterday_ena_val": {
+      "type": "Text",
+      "props": {
+        "text": "ENA +19.3%",
+        "variant": "lead"
+      }
+    },
+    "yesterday_ena_text": {
+      "type": "Text",
+      "props": {
+        "text": "risk-on + vote anticipation; vote T-1 → T-0 today",
+        "variant": "body"
+      }
+    },
+    "yesterday_hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_hype_val",
+        "yesterday_hype_text"
+      ]
+    },
+    "yesterday_hype_val": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE +22.8% BREAKOUT",
+        "variant": "lead"
+      }
+    },
+    "yesterday_hype_text": {
+      "type": "Text",
+      "props": {
+        "text": "Trump CFTC/SEC confirmation + Hyperliquid Policy Center SEC submission",
+        "variant": "body"
+      }
+    },
+    "yesterday_btw": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_btw_val",
+        "yesterday_btw_text"
+      ]
+    },
+    "yesterday_btw_val": {
+      "type": "Text",
+      "props": {
+        "text": "BTW −41.5%",
+        "variant": "lead"
+      }
+    },
+    "yesterday_btw_text": {
+      "type": "Text",
+      "props": {
+        "text": "pool drained — memecoin cycle closed; Memecoins narrative FADED",
+        "variant": "body"
+      }
+    },
+    "yesterday_sec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_sec_title",
+        "yesterday_sec_text"
+      ]
+    },
+    "yesterday_sec_title": {
+      "type": "Text",
+      "props": {
+        "text": "SEC Regulation Crypto Assets PROMOTED: Fading → Rising ↑↑",
+        "variant": "lead"
+      }
+    },
+    "yesterday_sec_text": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE (BTC +8% to $69K on regulatory optimism)",
+        "variant": "body"
+      }
+    },
+    "yesterday_mcp": {
+      "type": "Alert",
+      "props": {
+        "title": "MCP advisory",
+        "message": "Contentful PAT exfiltration PoC live + faf-mcp x3 (no fix) — audit tooling if affected",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_goldman",
+        "watch_ena"
+      ]
+    },
+    "watch_goldman": {
+      "type": "Alert",
+      "props": {
+        "title": "Goldman Sachs",
+        "message": "NVIDIA beat may be priced in; sell-the-news risk flagged — tighten DePIN sizing ahead of Aug 26 (Focus #2)",
+        "type": "warning"
+      }
+    },
+    "watch_ena": {
+      "type": "Alert",
+      "props": {
+        "title": "ENA Snapshot result not yet indexed",
+        "message": "check snapshot.org for live outcome before acting (Focus #1)",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "caption"
+      }
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "caption"
+      }
+    }
+  }
+}
