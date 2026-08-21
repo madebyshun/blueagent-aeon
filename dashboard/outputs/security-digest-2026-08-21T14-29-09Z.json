@@ -1,0 +1,584 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-08-21",
+        "description": "Verdict: 2 actively exploited (KEV), 3 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "sep_1",
+        "heading_patch_today",
+        "stack_patch_today",
+        "sep_2",
+        "heading_patch_week",
+        "stack_patch_week",
+        "sep_3",
+        "heading_monitor",
+        "stack_monitor"
+      ]
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_patch_today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_patch_today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "alert_72529",
+        "alert_72530"
+      ]
+    },
+    "alert_72529": {
+      "type": "Alert",
+      "props": {
+        "title": "CVE-2026-72529 — TrueConf Server (all)",
+        "type": "error",
+        "message": "KEV 2026-08-20 · Due 2026-08-23 · EPSS 0.003 · CVSS n/a\n\nMissing auth on port 4307/TCP — unauthenticated remote script execution. CISA-confirmed exploitation.\n\nAction: Apply TrueConf vendor patch; firewall 4307/TCP if patch unavailable. Due in 2 days."
+      },
+      "children": []
+    },
+    "alert_72530": {
+      "type": "Alert",
+      "props": {
+        "title": "CVE-2026-72530 — TrueConf Server (all)",
+        "type": "error",
+        "message": "KEV 2026-08-20 · Due 2026-09-03 · EPSS 0.003 · CVSS n/a\n\nCode injection via port 4307/TCP — unauthenticated RCE on host. CISA-confirmed exploitation.\n\nAction: Apply TrueConf vendor patch today."
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_patch_week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_patch_week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item_54061",
+        "item_ghsa_ghvf",
+        "item_54167"
+      ]
+    },
+    "item_54061": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_54061",
+        "text_dgraph_title",
+        "stack_54061_meta",
+        "text_54061_desc",
+        "text_54061_action"
+      ]
+    },
+    "badge_54061": {
+      "type": "Badge",
+      "props": {
+        "text": "GHSA-rrwh-6jrq-wp5v / CVE-2026-54061",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_dgraph_title": {
+      "type": "Text",
+      "props": {
+        "text": "dgraph (go)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack_54061_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_54061_cvss",
+        "stat_54061_epss",
+        "badge_54061_poc"
+      ]
+    },
+    "stat_54061_cvss": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.1"
+      },
+      "children": []
+    },
+    "stat_54061_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.004"
+      },
+      "children": []
+    },
+    "badge_54061_poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_54061_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated gRPC snapshot import replaces/clears group stores. Complete PoC published.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_54061_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action required",
+        "type": "warning",
+        "message": "Upgrade github.com/dgraph-io/dgraph/v25 to >=25.3.5"
+      },
+      "children": []
+    },
+    "item_ghsa_ghvf": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_ghsa_ghvf",
+        "text_nocobase_title",
+        "stack_ghsa_ghvf_meta",
+        "text_ghsa_ghvf_desc",
+        "text_ghsa_ghvf_action"
+      ]
+    },
+    "badge_ghsa_ghvf": {
+      "type": "Badge",
+      "props": {
+        "text": "GHSA-ghvf-qf6h-g8x5",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_nocobase_title": {
+      "type": "Text",
+      "props": {
+        "text": "@nocobase/server (npm)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack_ghsa_ghvf_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_ghsa_ghvf_high",
+        "badge_ghsa_ghvf_nopoc"
+      ]
+    },
+    "badge_ghsa_ghvf_high": {
+      "type": "Badge",
+      "props": {
+        "text": "high",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge_ghsa_ghvf_nopoc": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_ghsa_ghvf_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Arbitrary file write chained with LFI leads to RCE. Fix available.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_ghsa_ghvf_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action required",
+        "type": "warning",
+        "message": "Upgrade @nocobase/server to >=2.1.5"
+      },
+      "children": []
+    },
+    "item_54167": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_54167",
+        "text_pipelines_title",
+        "stack_54167_meta",
+        "text_54167_desc",
+        "text_54167_action"
+      ]
+    },
+    "badge_54167": {
+      "type": "Badge",
+      "props": {
+        "text": "GHSA-f5f4-3hh4-f54m / CVE-2026-54167",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_pipelines_title": {
+      "type": "Text",
+      "props": {
+        "text": "pipelines-as-code (go)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack_54167_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_54167_cvss",
+        "badge_54167_nopoc"
+      ]
+    },
+    "stat_54167_cvss": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "8.2"
+      },
+      "children": []
+    },
+    "badge_54167_nopoc": {
+      "type": "Badge",
+      "props": {
+        "text": "no public PoC",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_54167_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Malicious Enterprise-Host header redirects GitHub App token — credential exfiltration.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_54167_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action required",
+        "type": "warning",
+        "message": "Upgrade openshift-pipelines/pipelines-as-code to >=0.48.0 / >=0.42.1 / >=0.39.6"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item_55445",
+        "item_55253",
+        "item_54263"
+      ]
+    },
+    "item_55445": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_55445",
+        "text_qinglong_title",
+        "stack_55445_meta",
+        "text_55445_desc",
+        "text_55445_action"
+      ]
+    },
+    "badge_55445": {
+      "type": "Badge",
+      "props": {
+        "text": "GHSA-v667-gc2r-2xm7 / CVE-2026-55445",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_qinglong_title": {
+      "type": "Text",
+      "props": {
+        "text": "@whyour/qinglong (npm)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack_55445_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_55445_critical",
+        "stat_55445_epss",
+        "badge_55445_nofix"
+      ]
+    },
+    "badge_55445_critical": {
+      "type": "Badge",
+      "props": {
+        "text": "critical",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "stat_55445_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.004"
+      },
+      "children": []
+    },
+    "badge_55445_nofix": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_55445_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Incomplete patch for CVE-2026-3965 — /open/user/init rewrites past auth guard → unauth admin reset.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_55445_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action required",
+        "type": "info",
+        "message": "No patch yet; restrict panel network access"
+      },
+      "children": []
+    },
+    "item_55253": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_55253",
+        "text_langgraph_title",
+        "stack_55253_meta",
+        "text_55253_desc",
+        "text_55253_action"
+      ]
+    },
+    "badge_55253": {
+      "type": "Badge",
+      "props": {
+        "text": "GHSA-533j-2v4q-mw5h / CVE-2026-55253",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_langgraph_title": {
+      "type": "Text",
+      "props": {
+        "text": "langgraph-checkpoint-mongodb + langgraph-store-mongodb (pip)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack_55253_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_55253_cvss"
+      ]
+    },
+    "stat_55253_cvss": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "7.7"
+      },
+      "children": []
+    },
+    "text_55253_desc": {
+      "type": "Text",
+      "props": {
+        "text": "NoSQL operator injection in MongoDBSaver.list() → cross-tenant data exposure.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_55253_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action required",
+        "type": "info",
+        "message": "Upgrade checkpoint-mongodb >=0.3.0 and store-mongodb >=0.4.0"
+      },
+      "children": []
+    },
+    "item_54263": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_54263",
+        "text_wagtail_title",
+        "stack_54263_meta",
+        "text_54263_desc",
+        "text_54263_action"
+      ]
+    },
+    "badge_54263": {
+      "type": "Badge",
+      "props": {
+        "text": "GHSA-23m2-mghx-vqmf / CVE-2026-54263",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_wagtail_title": {
+      "type": "Text",
+      "props": {
+        "text": "wagtail (pip)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack_54263_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_54263_cvss",
+        "stat_54263_epss",
+        "badge_54263_nopoc"
+      ]
+    },
+    "stat_54263_cvss": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "7.3"
+      },
+      "children": []
+    },
+    "stat_54263_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.002"
+      },
+      "children": []
+    },
+    "badge_54263_nopoc": {
+      "type": "Badge",
+      "props": {
+        "text": "no server-side PoC",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_54263_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Reflected XSS in dynamic image URL generator.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_54263_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action required",
+        "type": "info",
+        "message": "Upgrade wagtail to >=7.3.3 or >=7.4.2"
+      },
+      "children": []
+    }
+  }
+}
