@@ -1,0 +1,583 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-08-21"
+      },
+      "children": [
+        "section_toppick",
+        "sep1",
+        "section_aiml",
+        "sep2",
+        "section_devtools",
+        "sep3",
+        "section_infra",
+        "sep4",
+        "section_webapps",
+        "sep5",
+        "footer"
+      ]
+    },
+    "section_toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "toppick_label",
+        "toppick_repo",
+        "toppick_desc"
+      ]
+    },
+    "toppick_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "toppick_repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AprilNEA/OpenLogi",
+        "href": "https://github.com/AprilNEA/OpenLogi"
+      }
+    },
+    "toppick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cleaner hardware driver story than most OSS: drops Logitech's telemetry blob entirely, rebuilds HID++ control in Rust — the kind of tool you actually deploy.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_heading",
+        "aiml_repo1",
+        "aiml_repo2"
+      ]
+    },
+    "aiml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml1_header",
+        "aiml1_desc"
+      ]
+    },
+    "aiml1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml1_link",
+        "aiml1_stars",
+        "aiml1_lang",
+        "aiml1_badge"
+      ]
+    },
+    "aiml1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "modular/modular",
+        "href": "https://github.com/modular/modular"
+      }
+    },
+    "aiml1_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "268",
+        "delta": "28.3k total"
+      }
+    },
+    "aiml1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Mojo"
+      }
+    },
+    "aiml1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "aiml1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Modular pushed a MAX/Mojo platform update today — Mojo compiler + inference stack targeting Python replacement in production ML.",
+        "variant": "body"
+      }
+    },
+    "aiml_repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml2_header",
+        "aiml2_desc"
+      ]
+    },
+    "aiml2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml2_link",
+        "aiml2_stars",
+        "aiml2_lang",
+        "aiml2_badge"
+      ]
+    },
+    "aiml2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Tencent/AI-Infra-Guard",
+        "href": "https://github.com/Tencent/AI-Infra-Guard"
+      }
+    },
+    "aiml2_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "50",
+        "delta": "5.2k total"
+      }
+    },
+    "aiml2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "aiml2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "aiml2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "MCP server scanning + agent skill auditing built in — directly relevant as MCP prompt-injection advisories mount.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "devtools_repo1",
+        "devtools_repo2",
+        "devtools_repo3"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools1_header",
+        "devtools1_desc"
+      ]
+    },
+    "devtools1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools1_link",
+        "devtools1_stars",
+        "devtools1_lang",
+        "devtools1_badge"
+      ]
+    },
+    "devtools1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AprilNEA/OpenLogi",
+        "href": "https://github.com/AprilNEA/OpenLogi"
+      }
+    },
+    "devtools1_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "1.5k",
+        "delta": "12.3k total"
+      }
+    },
+    "devtools1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "devtools1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Drop-in Logitech daemon in Rust: full HID++ button remapping + DPI control, zero telemetry, works offline.",
+        "variant": "body"
+      }
+    },
+    "devtools_repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools2_header",
+        "devtools2_desc"
+      ]
+    },
+    "devtools2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools2_link",
+        "devtools2_stars",
+        "devtools2_lang",
+        "devtools2_badge"
+      ]
+    },
+    "devtools2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cursor/plugins",
+        "href": "https://github.com/cursor/plugins"
+      }
+    },
+    "devtools2_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "449",
+        "delta": "4.2k total"
+      }
+    },
+    "devtools2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "devtools2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "devtools2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cursor's plugin spec just went public — first time you can build and ship extensions into Cursor IDE against a defined API.",
+        "variant": "body"
+      }
+    },
+    "devtools_repo3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools3_header",
+        "devtools3_desc"
+      ]
+    },
+    "devtools3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools3_link",
+        "devtools3_stars",
+        "devtools3_lang",
+        "devtools3_badge"
+      ]
+    },
+    "devtools3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "JuliusBrussee/caveman",
+        "href": "https://github.com/JuliusBrussee/caveman"
+      }
+    },
+    "devtools3_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "258",
+        "delta": "99.9k total"
+      }
+    },
+    "devtools3_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go"
+      }
+    },
+    "devtools3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Forces Claude Code to respond in compressed caveman prose — reportedly cuts session token usage 65% on heavy agentic workflows.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra_heading",
+        "infra_repo1"
+      ]
+    },
+    "infra_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infra_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra1_header",
+        "infra1_desc"
+      ]
+    },
+    "infra1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "infra1_link",
+        "infra1_stars",
+        "infra1_lang",
+        "infra1_badge"
+      ]
+    },
+    "infra1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "RyanCodrai/turbovec",
+        "href": "https://github.com/RyanCodrai/turbovec"
+      }
+    },
+    "infra1_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "230",
+        "delta": "16.1k total"
+      }
+    },
+    "infra1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "infra1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "infra1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rust-native vector index with native quantization baked in, bypassing embedding-conversion overhead of FAISS wrappers.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_webapps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "webapps_heading",
+        "webapps_repo1"
+      ]
+    },
+    "webapps_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "webapps_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "webapps1_header",
+        "webapps1_desc"
+      ]
+    },
+    "webapps1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "webapps1_link",
+        "webapps1_stars",
+        "webapps1_lang",
+        "webapps1_badge"
+      ]
+    },
+    "webapps1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mahlernim/google-timeline-visualizer",
+        "href": "https://github.com/mahlernim/google-timeline-visualizer"
+      }
+    },
+    "webapps1_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "657",
+        "delta": "1.9k total"
+      }
+    },
+    "webapps1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Kotlin"
+      }
+    },
+    "webapps1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "webapps1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Turns Google Takeout Location JSON into a yearly travel map, client-side only — 34% of all-time stars in one session, viral HN/Reddit signal.",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/13 (excl. 4 deduped Aug 19-20)",
+        "variant": "caption"
+      }
+    }
+  }
+}
