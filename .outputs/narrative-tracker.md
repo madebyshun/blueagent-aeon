@@ -1,25 +1,18 @@
-Done. Here's the summary:
+All done. Here's the summary:
 
 ## Summary
 
-**narrative-tracker — 2026-08-21**
+**What ran:** Narrative Tracker for 2026-08-22 (43rd consecutive XAI cache miss — 403 error already logged by prefetch step). Fell back to WebSearch (5 queries).
 
-**Cache:** NARRATIVE_CACHE_MISS (42nd consecutive day, XAI 403). Fell back to WebSearch (5 queries: broad crypto, AI×agent, DefiLlama/Kaito, ENA vote result, Coinbase/COIN).
+**Key transitions detected (highest-value output):**
+- **CONFIRMED FADING — Stablecoin/ENA**: Vote passed Aug 21, ENA −6.5% day-after = sell-the-news confirmed. Exit telegraphed since T-3. No re-entry until first revenue distribution milestone.
+- **PROMOTED — ZEC/Privacy Payments** (FRONT-RUN → RIDE): Grayscale filed 5th amendment for spot ZEC ETF (ticker ZCH, NYSE Arca); DCG discussing 200K ZEC (~$110M) contribution; ZEC +42% to $800+. Thesis executing.
+- **PROMOTED — CLARITY Act** (Dead → Emerging): Trump named Sept 15 Senate vote date. Out of hibernation.
+- **NEW — Political Memecoin/TRUMP** (FADE): +53.5% on Mar-a-Lago gala event. Pure political reflexivity, no utility. Position: FADE.
+- **DEMOTED — DeFi Revival/Curve** (Emerging → Fading): CRV absent Aug 22; Aug 21 reversal confirmed as single-session risk-on tail.
 
-**Key transitions detected:**
+**Active FRONT-RUN:** AI Compute/DePIN into NVIDIA T-4 (Aug 26). 4 sessions remain.
 
-| Transition | Narrative | Signal |
-|---|---|---|
-| EXIT TRIGGER | Stablecoin / ENA | ENA +39.5% vote day = buy-the-vote peak. Exit on approval. |
-| PROMOTED ↑↑ | RWA Tokenization | Coinbase Abu Dhabi FSRA hub + SEC tailored digital securities regime — two concrete milestones same day. COIN +4.5%. |
-| PROMOTED ↑↑ | Coinbase AiFi / Base | Q2 market share ATH, subscription 50% of net revenue, Abu Dhabi hub — all executing simultaneously. |
-| VELOCITY UP | x402 / Agentic Payments | Cloudflare Agents Week gave AI agents wallets — the infrastructure event x402 pointed at. |
-| VELOCITY UP | ZEC / Privacy Payments | ZEC +13.3% [MAJOR] today on quantum-proof thesis. |
-| VELOCITY DOWN | Perp DEX / Hyperliquid | Post-CFTC quiet window (morning brief). FRONT-RUN → WATCH pending retest. |
-| NOTE | DeFi Revival / CRV | CRV +16.1% single-session reversal — upgraded Fading/FADE → Emerging/WATCH; not structural yet. |
-
-**Reflexivity alerts:** ENA exit NOW (vote day peak); AI Compute/DePIN T-5 pre-earnings rally (5 sessions); RWA/Coinbase price front-running implementation.
-
-**Files:**
-- `.pending-notify/narrative-tracker-2026-08-21.md` — staged notification
-- `memory/logs/2026-08-21.md` — full structured log appended
+**Files written:**
+- `.pending-notify/narrative-tracker-2026-08-22.md` — notification staged (sandbox blocks direct `./notify`)
+- `memory/logs/2026-08-22.md` — full structured log with all 28 narratives appended
