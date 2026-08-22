@@ -1,0 +1,357 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-08-22"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-zec",
+        "separator1",
+        "section-sol"
+      ]
+    },
+    "section-zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-zec",
+        "stack-zec-badges",
+        "grid-zec-stats",
+        "text-score-breakdown",
+        "text-catalyst-title",
+        "text-catalyst-details",
+        "text-risk-title",
+        "text-risk-details",
+        "text-comparison"
+      ]
+    },
+    "heading-zec": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: ZEC",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-zec-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-zec-high",
+        "badge-zec-signal"
+      ]
+    },
+    "badge-zec-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-zec-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 10/10",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "grid-zec-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-price-24h",
+        "stat-price-7d",
+        "stat-mcap",
+        "stat-volume",
+        "stat-vol-mcap-ratio"
+      ]
+    },
+    "stat-price-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "Price (24h)",
+        "value": "$804",
+        "delta": "+26.6%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-price-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "Price (7d)",
+        "value": "$804",
+        "delta": "+63.6%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$13.6B"
+      },
+      "children": []
+    },
+    "stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$2.43B"
+      },
+      "children": []
+    },
+    "stat-vol-mcap-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap Ratio",
+        "value": "0.18"
+      },
+      "children": []
+    },
+    "text-score-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [trending+2, vol/mcap(0.18)+2, RS vs BTC/ETH+2, both>5%+2, 24h>0+1, 7d>0+1] = 10/10",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-catalyst-title": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-catalyst-details": {
+      "type": "Text",
+      "props": {
+        "text": "Grayscale filed 8-K with SEC to convert Grayscale Zcash Trust into spot ZEC ETF on NYSE Arca; DCG subsidiary considering ~$110M (200K ZEC) purchase",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-risk-title": {
+      "type": "Text",
+      "props": {
+        "text": "Risk:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-risk-details": {
+      "type": "Text",
+      "props": {
+        "text": "ETF filing ≠ approval — SEC has historically resisted privacy-coin products; run already +63.6% 7d means much of the first move is priced in",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-comparison": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time picked; ZEC was on FRONT-RUN in narrative tracker since Aug 17 but ETF filing catalyst is brand new as of Aug 21-22",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-sol": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-sol",
+        "stack-sol-badges",
+        "text-sol-resolution",
+        "text-sol-volume",
+        "grid-sol-odds",
+        "text-fair-odds-title",
+        "text-fair-odds-value",
+        "text-fair-odds-inputs",
+        "text-thesis-title",
+        "text-thesis-details",
+        "text-sol-risk-title",
+        "text-sol-risk-details",
+        "text-sources"
+      ]
+    },
+    "heading-sol": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: \"Will Solana hit $110 in August 2026?\"",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-sol-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-sol-high",
+        "badge-sol-edge"
+      ]
+    },
+    "badge-sol-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-sol-edge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge ~12pp",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-sol-resolution": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-09-01 (1-min Binance candle)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-sol-volume": {
+      "type": "Text",
+      "props": {
+        "text": "24h vol ~$895K total",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "grid-sol-odds": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-sol-yes",
+        "stat-sol-no"
+      ]
+    },
+    "stat-sol-yes": {
+      "type": "Stat",
+      "props": {
+        "label": "Current YES",
+        "value": "23.1¢"
+      },
+      "children": []
+    },
+    "stat-sol-no": {
+      "type": "Stat",
+      "props": {
+        "label": "Current NO",
+        "value": "81¢"
+      },
+      "children": []
+    },
+    "text-fair-odds-title": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES probability:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-fair-odds-value": {
+      "type": "Text",
+      "props": {
+        "text": "~35%",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-fair-odds-inputs": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: [1] SOL at $93.83 needs only +17.2% to touch $110 in 10 days; [2] 7d momentum +23.9% in BTC $77K bull market; [3] NVIDIA earnings Aug 26 + Jackson Hole Aug 27-29 bullish macro cluster",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-thesis-title": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-thesis-details": {
+      "type": "Text",
+      "props": {
+        "text": "SOL's current momentum in a strong bull market underestimates probability of touching $110 before Sep 1; 1-min candle mechanism is forgiving — just needs to touch, not close",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-sol-risk-title": {
+      "type": "Text",
+      "props": {
+        "text": "Risk:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-sol-risk-details": {
+      "type": "Text",
+      "props": {
+        "text": "SOL already ran +24% this week; consolidation likely; any macro shock ends the run",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=partial | not financial advice — pattern-matching only",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
