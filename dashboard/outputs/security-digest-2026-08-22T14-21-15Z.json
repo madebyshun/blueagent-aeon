@@ -1,0 +1,854 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-08-22",
+        "description": "Verdict: 2 KEV-confirmed exploited · 1 critical PoC cluster · 5 to schedule · 3 to monitor"
+      },
+      "children": [
+        "meta_sources",
+        "separator_1",
+        "section_patch_today",
+        "separator_2",
+        "section_patch_week",
+        "separator_3",
+        "section_monitor"
+      ]
+    },
+    "meta_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV, GH Advisory, EPSS",
+        "variant": "caption"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_patch_today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_patch_today",
+        "item_cve_73570",
+        "item_cve_33824",
+        "item_cve_jsonata"
+      ]
+    },
+    "heading_patch_today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "item_cve_73570": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_critical_1",
+        "link_cve_73570",
+        "details_73570",
+        "meta_73570",
+        "action_73570"
+      ]
+    },
+    "badge_critical_1": {
+      "type": "Badge",
+      "props": {
+        "text": "PATCH TODAY",
+        "variant": "destructive"
+      }
+    },
+    "link_cve_73570": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-73570 — Zimbra ZCS",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-73570",
+        "source": "NVD"
+      }
+    },
+    "details_73570": {
+      "type": "Text",
+      "props": {
+        "text": "OS command injection via crafted SMTP. Unauth'd RCE as zimbra user. Exploited per CISA."
+      }
+    },
+    "meta_73570": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_73570",
+        "badge_epss_73570",
+        "badge_due_73570"
+      ]
+    },
+    "badge_kev_73570": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-08-21",
+        "variant": "secondary"
+      }
+    },
+    "badge_epss_73570": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.005",
+        "variant": "outline"
+      }
+    },
+    "badge_due_73570": {
+      "type": "Badge",
+      "props": {
+        "text": "Due 2026-08-24",
+        "variant": "outline"
+      }
+    },
+    "action_73570": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Zimbra patch or isolate SMTP port today.",
+        "variant": "muted"
+      }
+    },
+    "item_cve_33824": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_critical_2",
+        "link_cve_33824",
+        "details_33824",
+        "meta_33824",
+        "action_33824"
+      ]
+    },
+    "badge_critical_2": {
+      "type": "Badge",
+      "props": {
+        "text": "PATCH TODAY",
+        "variant": "destructive"
+      }
+    },
+    "link_cve_33824": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-33824 — Microsoft IKE Service Extensions",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
+        "source": "NVD"
+      }
+    },
+    "details_33824": {
+      "type": "Text",
+      "props": {
+        "text": "Double-free → remote code execution. 77.9% exploitation probability (99.5th percentile)."
+      }
+    },
+    "meta_33824": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_33824",
+        "badge_epss_33824",
+        "badge_status_33824"
+      ]
+    },
+    "badge_kev_33824": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-08-18",
+        "variant": "secondary"
+      }
+    },
+    "badge_epss_33824": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.779",
+        "variant": "outline"
+      }
+    },
+    "badge_status_33824": {
+      "type": "Badge",
+      "props": {
+        "text": "Past Due",
+        "variant": "destructive"
+      }
+    },
+    "action_33824": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Windows security update immediately.",
+        "variant": "muted"
+      }
+    },
+    "item_cve_jsonata": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_critical_3",
+        "link_cve_jsonata",
+        "details_jsonata",
+        "meta_jsonata",
+        "action_jsonata"
+      ]
+    },
+    "badge_critical_3": {
+      "type": "Badge",
+      "props": {
+        "text": "PATCH TODAY",
+        "variant": "destructive"
+      }
+    },
+    "link_cve_jsonata": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-66mm-25pp-rfff + 2 CVEs — jsonata (npm)",
+        "href": "https://github.com/advisories/GHSA-66mm-25pp-rfff",
+        "source": "GitHub Advisory"
+      }
+    },
+    "details_jsonata": {
+      "type": "Text",
+      "props": {
+        "text": "ACE cluster: object mutation + lambda destruction chain via crafted expressions. 3 overlapping CVEs (CVE-2026-77415/14/13). Public PoC available."
+      }
+    },
+    "meta_jsonata": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_severity_jsonata",
+        "badge_poc_jsonata"
+      ]
+    },
+    "badge_severity_jsonata": {
+      "type": "Badge",
+      "props": {
+        "text": "Critical",
+        "variant": "destructive"
+      }
+    },
+    "badge_poc_jsonata": {
+      "type": "Badge",
+      "props": {
+        "text": "Public PoC",
+        "variant": "destructive"
+      }
+    },
+    "action_jsonata": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade jsonata to ≥2.2.1 (v2.x) or ≥1.8.8 (v1.x) and redeploy.",
+        "variant": "muted"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_patch_week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_patch_week",
+        "item_cve_61539",
+        "item_cve_59310",
+        "item_cve_55040",
+        "item_cve_64679",
+        "item_cve_54245"
+      ]
+    },
+    "heading_patch_week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "item_cve_61539": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_week_1",
+        "link_cve_61539",
+        "details_61539",
+        "meta_61539",
+        "action_61539"
+      ]
+    },
+    "badge_week_1": {
+      "type": "Badge",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "variant": "secondary"
+      }
+    },
+    "link_cve_61539": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-61539 — xinference (pip)",
+        "href": "https://github.com/advisories/GHSA-x2rj-828p-hx9m",
+        "source": "GitHub Advisory"
+      }
+    },
+    "details_61539": {
+      "type": "Text",
+      "props": {
+        "text": "RCE via unsafe eval() in Llama3 tool-call response parsing. No patch yet on PyPI at time of advisory."
+      }
+    },
+    "meta_61539": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_61539",
+        "badge_affected_61539"
+      ]
+    },
+    "badge_cvss_61539": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 10.0",
+        "variant": "outline"
+      }
+    },
+    "badge_affected_61539": {
+      "type": "Badge",
+      "props": {
+        "text": "Affects ≤2.5.0",
+        "variant": "outline"
+      }
+    },
+    "action_61539": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade xinference when patch lands; restrict tool-call surface in the interim.",
+        "variant": "muted"
+      }
+    },
+    "item_cve_59310": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_week_2",
+        "link_cve_59310",
+        "details_59310",
+        "meta_59310",
+        "action_59310"
+      ]
+    },
+    "badge_week_2": {
+      "type": "Badge",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "variant": "secondary"
+      }
+    },
+    "link_cve_59310": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-59310 — VMware vCenter",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
+        "source": "NVD"
+      }
+    },
+    "details_59310": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal → arbitrary code execution via network access to vCenter."
+      }
+    },
+    "meta_59310": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_59310",
+        "badge_epss_59310",
+        "badge_status_59310"
+      ]
+    },
+    "badge_kev_59310": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-08-18",
+        "variant": "secondary"
+      }
+    },
+    "badge_epss_59310": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.024",
+        "variant": "outline"
+      }
+    },
+    "badge_status_59310": {
+      "type": "Badge",
+      "props": {
+        "text": "Past Due",
+        "variant": "secondary"
+      }
+    },
+    "action_59310": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule vCenter patch; restrict management network access.",
+        "variant": "muted"
+      }
+    },
+    "item_cve_55040": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_week_3",
+        "link_cve_55040",
+        "details_55040",
+        "meta_55040",
+        "action_55040"
+      ]
+    },
+    "badge_week_3": {
+      "type": "Badge",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "variant": "secondary"
+      }
+    },
+    "link_cve_55040": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-55040 — Microsoft SharePoint",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
+        "source": "NVD"
+      }
+    },
+    "details_55040": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass over network."
+      }
+    },
+    "meta_55040": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_55040",
+        "badge_epss_55040",
+        "badge_status_55040"
+      ]
+    },
+    "badge_kev_55040": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-08-18",
+        "variant": "secondary"
+      }
+    },
+    "badge_epss_55040": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.055",
+        "variant": "outline"
+      }
+    },
+    "badge_status_55040": {
+      "type": "Badge",
+      "props": {
+        "text": "Past Due",
+        "variant": "secondary"
+      }
+    },
+    "action_55040": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule SharePoint security update.",
+        "variant": "muted"
+      }
+    },
+    "item_cve_64679": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_week_4",
+        "link_cve_64679",
+        "details_64679",
+        "meta_64679",
+        "action_64679"
+      ]
+    },
+    "badge_week_4": {
+      "type": "Badge",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "variant": "secondary"
+      }
+    },
+    "link_cve_64679": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-64679 — atlantis (Go)",
+        "href": "https://github.com/advisories/GHSA-26w5-6g95-gj28",
+        "source": "GitHub Advisory"
+      }
+    },
+    "details_64679": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal in workspace handling → directory deletion/creation outside workspace root."
+      }
+    },
+    "meta_64679": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_64679",
+        "badge_fix_64679"
+      ]
+    },
+    "badge_cvss_64679": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "outline"
+      }
+    },
+    "badge_fix_64679": {
+      "type": "Badge",
+      "props": {
+        "text": "Fix ≥0.45.0",
+        "variant": "outline"
+      }
+    },
+    "action_64679": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade atlantis to ≥0.45.0.",
+        "variant": "muted"
+      }
+    },
+    "item_cve_54245": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_week_5",
+        "link_cve_54245",
+        "details_54245",
+        "meta_54245",
+        "action_54245"
+      ]
+    },
+    "badge_week_5": {
+      "type": "Badge",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "variant": "secondary"
+      }
+    },
+    "link_cve_54245": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54245 — fleet (Go)",
+        "href": "https://github.com/advisories/GHSA-7q96-f8xw-jv5j",
+        "source": "GitHub Advisory"
+      }
+    },
+    "details_54245": {
+      "type": "Text",
+      "props": {
+        "text": "SQL injection in Okta conditional access endpoint; host-controlled DB compromise."
+      }
+    },
+    "meta_54245": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_severity_54245",
+        "badge_fix_54245"
+      ]
+    },
+    "badge_severity_54245": {
+      "type": "Badge",
+      "props": {
+        "text": "High Severity",
+        "variant": "outline"
+      }
+    },
+    "badge_fix_54245": {
+      "type": "Badge",
+      "props": {
+        "text": "Fix ≥4.86.2",
+        "variant": "outline"
+      }
+    },
+    "action_54245": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade fleet to ≥4.86.2.",
+        "variant": "muted"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_monitor",
+        "item_cve_61824",
+        "item_cve_68508",
+        "item_cve_54155"
+      ]
+    },
+    "heading_monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "item_cve_61824": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_monitor_1",
+        "link_cve_61824",
+        "details_61824",
+        "meta_61824",
+        "action_61824"
+      ]
+    },
+    "badge_monitor_1": {
+      "type": "Badge",
+      "props": {
+        "text": "MONITOR",
+        "variant": "outline"
+      }
+    },
+    "link_cve_61824": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-61824 — defuddle (npm)",
+        "href": "https://github.com/advisories/GHSA-jg4p-g6xj-4qmf",
+        "source": "GitHub Advisory"
+      }
+    },
+    "details_61824": {
+      "type": "Text",
+      "props": {
+        "text": "XSS via unescaped attribute interpolation in site extractors. No fix yet."
+      }
+    },
+    "meta_61824": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_61824"
+      ]
+    },
+    "badge_cvss_61824": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.2",
+        "variant": "outline"
+      }
+    },
+    "action_61824": {
+      "type": "Text",
+      "props": {
+        "text": "→ sanitize defuddle output; track for patch.",
+        "variant": "muted"
+      }
+    },
+    "item_cve_68508": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_monitor_2",
+        "link_cve_68508",
+        "details_68508",
+        "meta_68508",
+        "action_68508"
+      ]
+    },
+    "badge_monitor_2": {
+      "type": "Badge",
+      "props": {
+        "text": "MONITOR",
+        "variant": "outline"
+      }
+    },
+    "link_cve_68508": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-68508 — hydra-core (pip)",
+        "href": "https://github.com/advisories/GHSA-2cp2-2r3c-7p7r",
+        "source": "GitHub Advisory"
+      }
+    },
+    "details_68508": {
+      "type": "Text",
+      "props": {
+        "text": "Code execution via hydra.utils.instantiate with untrusted config. No fix yet."
+      }
+    },
+    "meta_68508": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_68508"
+      ]
+    },
+    "badge_cvss_68508": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.8",
+        "variant": "outline"
+      }
+    },
+    "action_68508": {
+      "type": "Text",
+      "props": {
+        "text": "→ avoid untrusted config inputs.",
+        "variant": "muted"
+      }
+    },
+    "item_cve_54155": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_monitor_3",
+        "link_cve_54155",
+        "details_54155",
+        "meta_54155",
+        "action_54155"
+      ]
+    },
+    "badge_monitor_3": {
+      "type": "Badge",
+      "props": {
+        "text": "MONITOR",
+        "variant": "outline"
+      }
+    },
+    "link_cve_54155": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54155 — node-opcua (npm)",
+        "href": "https://github.com/advisories/GHSA-mq36-523m-x7vv",
+        "source": "GitHub Advisory"
+      }
+    },
+    "details_54155": {
+      "type": "Text",
+      "props": {
+        "text": "Missing nonce verification in UserNameIdentityToken auth. No fix yet."
+      }
+    },
+    "meta_54155": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_54155"
+      ]
+    },
+    "badge_cvss_54155": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.7",
+        "variant": "outline"
+      }
+    },
+    "action_54155": {
+      "type": "Text",
+      "props": {
+        "text": "→ monitor for patched release.",
+        "variant": "muted"
+      }
+    }
+  }
+}

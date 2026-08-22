@@ -1,37 +1,45 @@
-*Security Digest — 2026-08-21*
-Verdict: 2 actively exploited (KEV), 3 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-08-22*
+Verdict: 2 KEV-confirmed exploited · 1 critical PoC cluster · 5 to schedule · 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- CVE-2026-72529 — TrueConf Server (all) · KEV 2026-08-20 · due 2026-08-23 · EPSS 0.003 · CVSS n/a
-  Missing auth on port 4307/TCP — unauthenticated remote script execution. CISA-confirmed exploitation.
-  → apply TrueConf vendor patch; firewall 4307/TCP if patch unavailable. Due in 2 days.
+- [CVE-2026-73570](https://nvd.nist.gov/vuln/detail/CVE-2026-73570) — Zimbra ZCS · KEV 2026-08-21 · EPSS 0.005 · due 2026-08-24
+  OS command injection via crafted SMTP. Unauth'd RCE as zimbra user. Exploited per CISA.
+  → apply Zimbra patch or isolate SMTP port today.
 
-- CVE-2026-72530 — TrueConf Server (all) · KEV 2026-08-20 · due 2026-09-03 · EPSS 0.003 · CVSS n/a
-  Code injection via port 4307/TCP — unauthenticated RCE on host. CISA-confirmed exploitation.
-  → apply TrueConf vendor patch today.
+- [CVE-2026-33824](https://nvd.nist.gov/vuln/detail/CVE-2026-33824) — Microsoft IKE Service Extensions · KEV 2026-08-18 · EPSS 0.779 · past due
+  Double-free → remote code execution. 77.9% exploitation probability (99.5th percentile).
+  → apply Windows security update immediately.
+
+- [GHSA-66mm-25pp-rfff](https://github.com/advisories/GHSA-66mm-25pp-rfff) + 2 CVEs — jsonata (npm) · critical · public PoC
+  ACE cluster: object mutation + lambda destruction chain via crafted expressions. 3 overlapping CVEs (CVE-2026-77415/14/13).
+  → upgrade jsonata to ≥2.2.1 (v2.x) or ≥1.8.8 (v1.x) and redeploy.
 
 *PATCH THIS WEEK*
-- GHSA-rrwh-6jrq-wp5v / CVE-2026-54061 — dgraph (go) · CVSS 9.1 · EPSS 0.004 · public PoC
-  Unauthenticated gRPC snapshot import replaces/clears group stores. Complete PoC published.
-  → upgrade github.com/dgraph-io/dgraph/v25 to >=25.3.5.
+- [CVE-2026-61539](https://github.com/advisories/GHSA-x2rj-828p-hx9m) — xinference (pip) · CVSS 10.0 · affects ≤2.5.0
+  RCE via unsafe eval() in Llama3 tool-call response parsing. No patch yet on PyPI at time of advisory.
+  → upgrade xinference when patch lands; restrict tool-call surface in the interim.
 
-- GHSA-ghvf-qf6h-g8x5 — @nocobase/server (npm) · high · no PoC
-  Arbitrary file write chained with LFI leads to RCE. Fix available.
-  → upgrade @nocobase/server to >=2.1.5.
+- [CVE-2026-59310](https://nvd.nist.gov/vuln/detail/CVE-2026-59310) — VMware vCenter · KEV 2026-08-18 · EPSS 0.024 · past due
+  Path traversal → arbitrary code execution via network access to vCenter.
+  → schedule vCenter patch; restrict management network access.
 
-- GHSA-f5f4-3hh4-f54m / CVE-2026-54167 — pipelines-as-code (go) · CVSS 8.2 · no public PoC
-  Malicious Enterprise-Host header redirects GitHub App token — credential exfiltration.
-  → upgrade openshift-pipelines/pipelines-as-code to >=0.48.0 / >=0.42.1 / >=0.39.6.
+- [CVE-2026-55040](https://nvd.nist.gov/vuln/detail/CVE-2026-55040) — Microsoft SharePoint · KEV 2026-08-18 · EPSS 0.055 · past due
+  Auth bypass over network. → schedule SharePoint security update.
+
+- [CVE-2026-64679](https://github.com/advisories/GHSA-26w5-6g95-gj28) — atlantis (Go) · CVSS 8.1 · fix ≥0.45.0
+  Path traversal in workspace handling → directory deletion/creation outside workspace root.
+  → upgrade atlantis to ≥0.45.0.
+
+- [CVE-2026-54245](https://github.com/advisories/GHSA-7q96-f8xw-jv5j) — fleet (Go) · high · fix ≥4.86.2
+  SQL injection in Okta conditional access endpoint; host-controlled DB compromise.
+  → upgrade fleet to ≥4.86.2.
 
 *MONITOR*
-- GHSA-v667-gc2r-2xm7 / CVE-2026-55445 — @whyour/qinglong (npm) · critical · EPSS 0.004 · no fix
-  Incomplete patch for CVE-2026-3965 — /open/user/init rewrites past auth guard → unauth admin reset.
-  → no patch yet; restrict panel network access.
+- [CVE-2026-61824](https://github.com/advisories/GHSA-jg4p-g6xj-4qmf) — defuddle (npm) · CVSS 8.2 · no fix yet
+  XSS via unescaped attribute interpolation in site extractors. → sanitize defuddle output; track for patch.
 
-- GHSA-533j-2v4q-mw5h / CVE-2026-55253 — langgraph-checkpoint-mongodb + langgraph-store-mongodb (pip) · CVSS 7.7
-  NoSQL operator injection in MongoDBSaver.list() → cross-tenant data exposure.
-  → upgrade checkpoint-mongodb >=0.3.0 and store-mongodb >=0.4.0.
+- [CVE-2026-68508](https://github.com/advisories/GHSA-2cp2-2r3c-7p7r) — hydra-core (pip) · CVSS 7.8 · no fix yet
+  Code execution via hydra.utils.instantiate with untrusted config. → avoid untrusted config inputs.
 
-- GHSA-23m2-mghx-vqmf / CVE-2026-54263 — wagtail (pip) · CVSS 7.3 · EPSS 0.002
-  Reflected XSS in dynamic image URL generator. No server-side PoC.
-  → upgrade wagtail to >=7.3.3 or >=7.4.2.
+- [CVE-2026-54155](https://github.com/advisories/GHSA-mq36-523m-x7vv) — node-opcua (npm) · CVSS 7.7 · no fix yet
+  Missing nonce verification in UserNameIdentityToken auth. → monitor for patched release.
