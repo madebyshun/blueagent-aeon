@@ -1,32 +1,21 @@
-*GitHub Trending — 2026-08-21*
+*GitHub Trending — 2026-08-22*
 
-*Top pick* — [AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi)
-Cleaner hardware driver story than most OSS: drops Logitech's telemetry blob entirely, rebuilds HID++ control in Rust — the kind of tool you actually deploy.
-
-*AI/ML*
-• [modular/modular](https://github.com/modular/modular) — ★ 268 today (28.3k total) · Mojo · [RETURNING]
-Modular pushed a MAX/Mojo platform update today — Mojo compiler + inference stack targeting Python replacement in production ML.
-
-• [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) — ★ 50 today (5.2k total) · Python · [RETURNING]
-MCP server scanning + agent skill auditing built in — directly relevant as MCP prompt-injection advisories mount.
+*Top pick* — [affaan-m/ECC](https://github.com/affaan-m/ECC)
+The highest-velocity agent harness in the ecosystem: 241k developers starred it in 7 months — it's become the cross-harness OS layer that Claude Code, Codex, and Cursor projects reach for.
 
 *Devtools*
-• [AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi) — ★ 1.5k today (12.3k total) · Rust · [ACCELERATING]
-Drop-in Logitech daemon in Rust: full HID++ button remapping + DPI control, zero telemetry, works offline.
+• [affaan-m/ECC](https://github.com/affaan-m/ECC) — ★ 357 today (242k total) · JS · [ACCELERATING]
+Cross-harness agent OS (skills, memory, security, visual plan review) for Claude Code, Codex, Cursor, Gemini — 241k stars in 7 months makes it the category default.
 
-• [cursor/plugins](https://github.com/cursor/plugins) — ★ 449 today (4.2k total) · TypeScript · [RETURNING]
-Cursor's plugin spec just went public — first time you can build and ship extensions into Cursor IDE against a defined API.
-
-• [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) — ★ 258 today (99.9k total) · Go · [ACCELERATING]
-Forces Claude Code to respond in compressed caveman prose — reportedly cuts session token usage 65% on heavy agentic workflows.
+• [santifer/career-ops](https://github.com/santifer/career-ops) — ★ 921 today (68k total) · JS · [ACCELERATING]
+Grades job listings A–F, tailors your CV, tracks applications — runs natively inside Claude Code, Codex, or Cursor; pushed today.
 
 *Infra*
-• [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec) — ★ 230 today (16.1k total) · Rust · [ACCELERATING]
-Rust-native vector index with native quantization baked in, bypassing embedding-conversion overhead of FAISS wrappers.
+• [PostHog/posthog](https://github.com/PostHog/posthog) — ★ 335 today (38k total) · Python · [RETURNING]
+Desktop client shipped MCP retry-with-backoff today — PostHog positioning as the AI observability layer agents call for self-diagnosis.
 
-*Web/Apps*
-• [mahlernim/google-timeline-visualizer](https://github.com/mahlernim/google-timeline-visualizer) — ★ 657 today (1.9k total) · Kotlin · [RETURNING]
-Turns Google Takeout Location JSON into a yearly travel map, client-side only — 34% of all-time stars in one session, viral HN/Reddit signal.
+• [apache/maka](https://github.com/apache/maka) — ★ 148 today (2.1k total) · TypeScript · [RETURNING]
+Apache-incubated local-first agent workspace; v0.1.11 (375 PRs, 24 contributors) makes Runtime Host the coordination authority for multiple concurrent agent sessions.
 
 ---
-sources: trending=ok · gh_api=ok · kept 7/13 (excl. 4 deduped Aug 19-20)
+sources: trending=ok · gh_api=ok · kept 4/16

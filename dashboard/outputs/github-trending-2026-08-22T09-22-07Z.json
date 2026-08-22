@@ -1,0 +1,373 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-08-22"
+      },
+      "children": [
+        "top_pick_section",
+        "sep1",
+        "devtools_section",
+        "sep2",
+        "infra_section",
+        "sep3",
+        "footer_section"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_heading",
+        "top_pick_repo"
+      ]
+    },
+    "top_pick_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "top_pick_repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ecc_link",
+        "ecc_desc"
+      ]
+    },
+    "ecc_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "affaan-m/ECC",
+        "href": "https://github.com/affaan-m/ECC"
+      }
+    },
+    "ecc_desc": {
+      "type": "Text",
+      "props": {
+        "text": "The highest-velocity agent harness in the ecosystem: 241k developers starred it in 7 months — it's become the cross-harness OS layer that Claude Code, Codex, and Cursor projects reach for.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "devtools_item_1",
+        "devtools_item_2"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_1_title",
+        "devtools_1_meta",
+        "devtools_1_desc"
+      ]
+    },
+    "devtools_1_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "affaan-m/ECC",
+        "href": "https://github.com/affaan-m/ECC"
+      }
+    },
+    "devtools_1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_1_stars",
+        "devtools_1_lang",
+        "devtools_1_status"
+      ]
+    },
+    "devtools_1_stars": {
+      "type": "Stat",
+      "props": {
+        "value": "357",
+        "delta": "242k total",
+        "trend": "up"
+      }
+    },
+    "devtools_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JS"
+      }
+    },
+    "devtools_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-harness agent OS (skills, memory, security, visual plan review) for Claude Code, Codex, Cursor, Gemini — 241k stars in 7 months makes it the category default.",
+        "variant": "body"
+      }
+    },
+    "devtools_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_2_title",
+        "devtools_2_meta",
+        "devtools_2_desc"
+      ]
+    },
+    "devtools_2_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "santifer/career-ops",
+        "href": "https://github.com/santifer/career-ops"
+      }
+    },
+    "devtools_2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_2_stars",
+        "devtools_2_lang",
+        "devtools_2_status"
+      ]
+    },
+    "devtools_2_stars": {
+      "type": "Stat",
+      "props": {
+        "value": "921",
+        "delta": "68k total",
+        "trend": "up"
+      }
+    },
+    "devtools_2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JS"
+      }
+    },
+    "devtools_2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Grades job listings A–F, tailors your CV, tracks applications — runs natively inside Claude Code, Codex, or Cursor; pushed today.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "infra_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra_heading",
+        "infra_item_1",
+        "infra_item_2"
+      ]
+    },
+    "infra_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infra_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_1_title",
+        "infra_1_meta",
+        "infra_1_desc"
+      ]
+    },
+    "infra_1_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PostHog/posthog",
+        "href": "https://github.com/PostHog/posthog"
+      }
+    },
+    "infra_1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_1_stars",
+        "infra_1_lang",
+        "infra_1_status"
+      ]
+    },
+    "infra_1_stars": {
+      "type": "Stat",
+      "props": {
+        "value": "335",
+        "delta": "38k total",
+        "trend": "up"
+      }
+    },
+    "infra_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "infra_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "infra_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Desktop client shipped MCP retry-with-backoff today — PostHog positioning as the AI observability layer agents call for self-diagnosis.",
+        "variant": "body"
+      }
+    },
+    "infra_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_2_title",
+        "infra_2_meta",
+        "infra_2_desc"
+      ]
+    },
+    "infra_2_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "apache/maka",
+        "href": "https://github.com/apache/maka"
+      }
+    },
+    "infra_2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_2_stars",
+        "infra_2_lang",
+        "infra_2_status"
+      ]
+    },
+    "infra_2_stars": {
+      "type": "Stat",
+      "props": {
+        "value": "148",
+        "delta": "2.1k total",
+        "trend": "up"
+      }
+    },
+    "infra_2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "infra_2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "infra_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Apache-incubated local-first agent workspace; v0.1.11 (375 PRs, 24 contributors) makes Runtime Host the coordination authority for multiple concurrent agent sessions.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer_text"
+      ]
+    },
+    "footer_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/16",
+        "variant": "caption"
+      }
+    }
+  }
+}
