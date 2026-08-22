@@ -1,24 +1,23 @@
-*Morning Brief — 2026-08-21*
+*Morning Brief — 2026-08-22*
 
 *Focus today*
-1. ENA governance vote — why now: vote live today; exit immediately on approval
-2. NVIDIA T-5 / DePIN front-run — why now: Goldman warns beat may be priced in; entries closing
-3. HYPE Perp DEX — why now: quiet window post-CFTC; watch for retest entry signal
+1. NVIDIA/DePIN entries (T-4) — why now: market fatigue + Goldman = entry window closing today
+2. ENA exit confirmation — why now: vote-day peak hit yesterday; holding compounds post-peak risk
+3. TrueConf KEV patch (CVE-2026-72529) — why now: KEV deadline 2026-08-23, ~24h remaining
 
 *Since yesterday*
-- ENA +19.3% (risk-on + vote anticipation); vote T-1 → T-0 today
-- HYPE +22.8% BREAKOUT — Trump CFTC/SEC confirmation + Hyperliquid Policy Center SEC submission
-- BTW −41.5% pool drained — memecoin cycle closed; Memecoins narrative FADED
-- SEC Regulation Crypto Assets PROMOTED: Fading → Rising ↑↑ RIDE (BTC +8% to $69K on regulatory optimism)
-- MCP advisory: Contentful PAT exfiltration PoC live + faf-mcp x3 (no fix) — audit tooling if affected
+- ENA: +39.5% on vote day — exit signal triggered (buy-the-vote peak, implementation lag follows)
+- RWA/Coinbase: promoted Rising ↑↑ — COIN +4.5%; Abu Dhabi FSRA hub + SEC tailored regime same day
+- x402/Agentic Payments: velocity up ↑↑ — Cloudflare Agents Week confirmed: AI agents now have wallets
+- TrueConf: double-KEV filed (CVE-2026-72529 + -72530, port 4307); -72529 due tomorrow
+- XAI: still 403, 42 consecutive days; narrative-tracker on WebSearch fallback
 
 *Watch*
-- Goldman Sachs: NVIDIA beat may be priced in; sell-the-news risk flagged — tighten DePIN sizing ahead of Aug 26 (Focus #2)
-- ENA Snapshot result not yet indexed — check snapshot.org for live outcome before acting (Focus #1)
+- NVIDIA Aug 26: options imply 6.75% implied move from ~$220; market historically fades T-0 regardless of beat — size DePIN exposure conservatively (Focus #1)
 
 *Running today*
+- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
-- heartbeat @ 08:00, 14:00, 20:00 UTC

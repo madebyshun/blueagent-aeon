@@ -1,0 +1,375 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-22"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-since",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-why"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "NVIDIA/DePIN entries (T-4)",
+        "variant": "lead"
+      }
+    },
+    "focus-1-why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: market fatigue + Goldman = entry window closing today",
+        "variant": "body"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-why"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "ENA exit confirmation",
+        "variant": "lead"
+      }
+    },
+    "focus-2-why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: vote-day peak hit yesterday; holding compounds post-peak risk",
+        "variant": "body"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-why"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "TrueConf KEV patch (CVE-2026-72529)",
+        "variant": "lead"
+      }
+    },
+    "focus-3-why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: KEV deadline 2026-08-23, ~24h remaining",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-since",
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-4",
+        "since-5"
+      ]
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-1-stat",
+        "since-1-text"
+      ]
+    },
+    "since-1-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ENA",
+        "value": "+39.5%",
+        "trend": "up"
+      }
+    },
+    "since-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "on vote day — exit signal triggered (buy-the-vote peak, implementation lag follows)",
+        "variant": "body"
+      }
+    },
+    "since-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-2-title",
+        "since-2-stat",
+        "since-2-text"
+      ]
+    },
+    "since-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "RWA/Coinbase: promoted Rising ↑↑",
+        "variant": "lead"
+      }
+    },
+    "since-2-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "COIN",
+        "value": "+4.5%",
+        "trend": "up"
+      }
+    },
+    "since-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Abu Dhabi FSRA hub + SEC tailored regime same day",
+        "variant": "body"
+      }
+    },
+    "since-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-3-title",
+        "since-3-text"
+      ]
+    },
+    "since-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "x402/Agentic Payments: velocity up ↑↑",
+        "variant": "lead"
+      }
+    },
+    "since-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Cloudflare Agents Week confirmed: AI agents now have wallets",
+        "variant": "body"
+      }
+    },
+    "since-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-4-title",
+        "since-4-text"
+      ]
+    },
+    "since-4-title": {
+      "type": "Text",
+      "props": {
+        "text": "TrueConf: double-KEV filed (CVE-2026-72529 + -72530, port 4307)",
+        "variant": "lead"
+      }
+    },
+    "since-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "-72529 due tomorrow",
+        "variant": "body"
+      }
+    },
+    "since-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since-5-title",
+        "since-5-text"
+      ]
+    },
+    "since-5-title": {
+      "type": "Text",
+      "props": {
+        "text": "XAI: still 403, 42 consecutive days",
+        "variant": "lead"
+      }
+    },
+    "since-5-text": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker on WebSearch fallback",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "watch-item"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-item": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "NVIDIA Aug 26: options imply 6.75% implied move from ~$220; market historically fades T-0 regardless of beat — size DePIN exposure conservatively (Focus #1)"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "running-table"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Time (UTC)"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00"
+          ],
+          [
+            "github-monitor",
+            "09:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "token-pick",
+            "12:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ]
+        ]
+      }
+    }
+  }
+}
