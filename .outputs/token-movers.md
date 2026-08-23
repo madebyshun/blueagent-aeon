@@ -1,20 +1,19 @@
-Done. Here's the summary:
-
 ## Summary
 
-**Token Movers — 2026-08-22** executed successfully.
+**Token Movers — 2026-08-23** complete.
 
-**Market pulse:** BTC flat at $77.2K (+0.4%); alt rotation day with concentrated leadership rather than yesterday's near-unanimous green.
+**Market pulse:** Mixed tape — 53/100 top coins green, BTC flat at $77K (+0.6%). DeFi/cross-chain infra rotated in; yesterday's event pumps (TRUMP, BTW) gave back gains.
 
-**Top Winners:**
-1. TRUMP +53.5% [TRENDING+UP][BREAKOUT] — 7d +91.8%, trending #1
-2. POL +21.7% [BREAKOUT] — ex-MATIC organic recovery
-3. ZEC +20.8% [BREAKOUT][MAJOR] — quantum-proof multi-session acceleration
+**Top winners:** ZRO +23.0% [BREAKOUT], TRAC +21.9% [BREAKOUT], STX +19.1% [BREAKOUT], PUMP +18.7% [TRENDING+UP][BREAKOUT], ENA +17.5% [TRENDING+UP][BREAKOUT]
 
-**Notable signals:** LIT and NEXO both reversed direction vs. Aug 21 (LIT was a loser, now +13.5%; NEXO was a winner, now -11.5% on thin tape). PI is the only [TRENDING+DOWN] coin.
+**Top losers:** BTW -11.7% (extending Aug 22 losses), H -7.2%, FARTCOIN -6.1%, JTO -5.5%, TRUMP -4.1% [TRENDING+DOWN]
 
-**Deduped:** PEPE, PUMP, ENA, PENGU, BCH, JST — all same direction from Aug 20/21 logs with no new tags.
+**Notable signals:**
+- PUMP & ENA are the strongest: both trending in top-3 and winning, with 7d gains of +93% and +112% respectively
+- ENA reversed its Aug 22 sell-the-news -6.5% drop — fee switch implementation continuing to attract buyers
+- TRUMP [TRENDING+DOWN]: yesterday's +53.5% Mar-a-Lago gala pop is now -4.1%; event window closed
+- FOLD (trending #4, rank #528) flagged [PUMP-RISK] — volume $84.9M exceeds market cap $38.7M
 
-**Files:**
-- `.pending-notify/token-movers-2026-08-22.md` — staged notification (sandbox restriction, consistent with prior days)
-- `memory/logs/2026-08-22.md` — log entry appended
+**Files updated:**
+- `.pending-notify/token-movers-2026-08-23.md` — notification staged for post-run delivery (sandbox restriction)
+- `memory/logs/2026-08-23.md` — log entry appended
