@@ -1,0 +1,222 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-08-23"
+      },
+      "children": [
+        "intro-text",
+        "sep-1",
+        "top-pick-heading",
+        "top-pick-link",
+        "top-pick-desc",
+        "sep-2",
+        "aiml-heading",
+        "aiml-repo",
+        "sep-3",
+        "devtools-heading",
+        "devtools-repo",
+        "sep-4",
+        "source-info"
+      ]
+    },
+    "intro-text": {
+      "type": "Text",
+      "props": {
+        "text": "Thin field today — 7 repos featured this week, 4 config/skills dumps filtered. Two clear standouts remain.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator"
+    },
+    "top-pick-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h3"
+      }
+    },
+    "top-pick-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "openai/codex",
+        "href": "https://github.com/openai/codex"
+      }
+    },
+    "top-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rust-native terminal coding agent pulling 1.5k stars in a single session signals teams migrating off Node-based CLI agents in volume.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator"
+    },
+    "aiml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml-repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml-repo-header",
+        "aiml-repo-desc"
+      ]
+    },
+    "aiml-repo-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-repo-link",
+        "aiml-repo-meta"
+      ]
+    },
+    "aiml-repo-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "openai/codex",
+        "href": "https://github.com/openai/codex"
+      }
+    },
+    "aiml-repo-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-stars",
+        "aiml-lang",
+        "aiml-status"
+      ]
+    },
+    "aiml-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1,544 today (114k total)"
+      }
+    },
+    "aiml-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "aiml-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "aiml-repo-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Native Rust runtime removes Node.js from the call chain — real filesystem ops, zero cold-start delay, runs entirely in-process.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator"
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-repo-header",
+        "devtools-repo-desc"
+      ]
+    },
+    "devtools-repo-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-repo-link",
+        "devtools-repo-meta"
+      ]
+    },
+    "devtools-repo-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Wei-Shaw/sub2api",
+        "href": "https://github.com/Wei-Shaw/sub2api"
+      }
+    },
+    "devtools-repo-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-stars",
+        "devtools-lang",
+        "devtools-status"
+      ]
+    },
+    "devtools-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 278 today (38.9k total)"
+      }
+    },
+    "devtools-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go"
+      }
+    },
+    "devtools-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools-repo-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Single Go endpoint proxies Claude, GPT-4o, Gemini, and Grok under one API key — kills 4-client auth sprawl for mixed-model eval pipelines.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator"
+    },
+    "source-info": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 2/17 · 7 featured recently · 4 config/list drops · quiet day",
+        "variant": "caption"
+      }
+    }
+  }
+}
