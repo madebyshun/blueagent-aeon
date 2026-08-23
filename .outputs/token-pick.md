@@ -1,17 +1,18 @@
-*Daily Pick — 2026-08-22*
+Done. Here's the summary:
 
-*Token: ZEC*  [HIGH]  signal 10/10
-Price: $804 (+26.6% 24h / +63.6% 7d) | mcap $13.6B | vol $2.43B (vol/mcap 0.18)
-Score breakdown: [trending+2, vol/mcap(0.18)+2, RS vs BTC/ETH+2, both>5%+2, 24h>0+1, 7d>0+1] = 10/10
-Catalyst: Grayscale filed 8-K with SEC to convert Grayscale Zcash Trust into spot ZEC ETF on NYSE Arca; DCG subsidiary considering ~$110M (200K ZEC) purchase
-Risk: ETF filing ≠ approval — SEC has historically resisted privacy-coin products; run already +63.6% 7d means much of the first move is priced in
-Vs recent picks: first time picked; ZEC was on FRONT-RUN in narrative tracker since Aug 17 but ETF filing catalyst is brand new as of Aug 21-22
+## Summary
 
-*Market: "Will Solana hit $110 in August 2026?"*  [HIGH]  edge ~12pp
-Current: YES 23.1¢ / NO 81¢ | 24h vol ~$895K total | resolves: 2026-09-01 (1-min Binance candle)
-Fair YES: ~35% (inputs: [1] SOL at $93.83 needs only +17.2% to touch $110 in 10 days; [2] 7d momentum +23.9% in BTC $77K bull market; [3] NVIDIA earnings Aug 26 + Jackson Hole Aug 27-29 bullish macro cluster)
-Thesis: SOL's current momentum in a strong bull market underestimates probability of touching $110 before Sep 1; 1-min candle mechanism is forgiving — just needs to touch, not close
-Risk: SOL already ran +24% this week; consolidation likely; any macro shock ends the run
+**Token Pick: PUMP (Pump.fun) — HIGH, 10/10**
+- $0.00525 (+12.6% 24h / +82% 7d) | mcap $2.1B | vol/mcap 0.31
+- Score: CG trending #1 (+2), vol/mcap ≥0.20 (+3), both 24h+7d >5% (+2), RS vs BTC/ETH (+2), directional momentum (+2) = 11 capped at 10
+- Catalyst: $11.5M 7-day protocol revenue (4th globally), memecoin retail return cycle running hot
+- Risk: Reflexive revenue — collapses when Solana retail exits
 
-sources: cg=ok, dex=fail, poly=partial
-not financial advice — pattern-matching only
+**Market Pick: "What will NVDA hit in August 2026?" (>$248) — MEDIUM, edge 6pp**
+- YES 26¢ | fair value ~32% | edge 6pp
+- Catalyst: NVIDIA earnings T-3 (Aug 26), 90% historical beat rate, analyst targets $275-325; market underpricing rally probability
+- Risk: Sell-the-news even on a beat
+
+**Sources:** cg=ok, dex=ok (no PUMP cross-confirm from DexScreener), poly=partial (events API 422; NVDA market data via WebSearch)
+
+Notification staged at `.pending-notify/token-pick-2026-08-23.md`. Log appended to `memory/logs/2026-08-23.md`.
