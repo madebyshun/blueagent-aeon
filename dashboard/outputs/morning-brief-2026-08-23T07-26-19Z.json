@@ -1,0 +1,384 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-08-23"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-items",
+        "sep-1",
+        "heading-yesterday",
+        "yesterday-items",
+        "sep-2",
+        "heading-watch",
+        "watch-items",
+        "sep-3",
+        "heading-running",
+        "running-items"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-text"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "TrueConf KEV (CVE-2026-72529)",
+        "level": "h3"
+      }
+    },
+    "focus-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Deadline today; Head Mare actively exploiting since July",
+        "variant": "body"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-text"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "NVIDIA earnings T-3 (Aug 26)",
+        "level": "h3"
+      }
+    },
+    "focus-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "3 sessions left to size or close DePIN entries",
+        "variant": "body"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-text"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Zimbra KEV (CVE-2026-73570)",
+        "level": "h3"
+      }
+    },
+    "focus-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "KEV due 2026-08-24 — 24h window to confirm 10.1.20",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-item-1",
+        "yesterday-item-2",
+        "yesterday-item-3",
+        "yesterday-item-4"
+      ]
+    },
+    "yesterday-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-1-title",
+        "yesterday-1-text"
+      ]
+    },
+    "yesterday-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC: Grayscale 5th amendment spot ETF (ZCH, NYSE Arca)",
+        "level": "h3"
+      }
+    },
+    "yesterday-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Filing executing — RIDE active ($800+, +42%)",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-2-title",
+        "yesterday-2-stat",
+        "yesterday-2-text"
+      ]
+    },
+    "yesterday-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ENA: Sell-the-news confirmed",
+        "level": "h3"
+      }
+    },
+    "yesterday-2-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price action",
+        "value": "−6.5%",
+        "trend": "down"
+      }
+    },
+    "yesterday-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Post-vote — FADE; no re-entry until revenue distribution",
+        "variant": "caption"
+      }
+    },
+    "yesterday-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-3-title",
+        "yesterday-3-stat",
+        "yesterday-3-text"
+      ]
+    },
+    "yesterday-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "TRUMP",
+        "level": "h3"
+      }
+    },
+    "yesterday-3-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price action",
+        "value": "+53.5%",
+        "trend": "up"
+      }
+    },
+    "yesterday-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "On Mar-a-Lago gala event — FADE (event-specific, no on-chain anchor)",
+        "variant": "caption"
+      }
+    },
+    "yesterday-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-4-title",
+        "yesterday-4-text"
+      ]
+    },
+    "yesterday-4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "CLARITY Act",
+        "level": "h3"
+      }
+    },
+    "yesterday-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sept 15 Senate vote date named — promoted Dead → Emerging WATCH",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-item-1"
+      ]
+    },
+    "watch-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-1-text1",
+        "watch-1-text2"
+      ]
+    },
+    "watch-1-text1": {
+      "type": "Text",
+      "props": {
+        "text": "Benzinga: Polymarket now pricing NVDA above $250 on Aug 26 earnings — adds prediction-market angle to DePIN Focus #2",
+        "variant": "body"
+      }
+    },
+    "watch-1-text2": {
+      "type": "Text",
+      "props": {
+        "text": "SOL $110 YES at 23.1¢ converges same catalyst window",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC (madebyshun/blue-agent)",
+        "variant": "body"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
