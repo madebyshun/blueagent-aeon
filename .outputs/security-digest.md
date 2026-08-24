@@ -1,29 +1,18 @@
-Done. Here's the summary of what was produced:
+*Security Digest — 2026-08-24*
+Verdict: 2 patch today (1 KEV/CISA + 1 CVSS 9.8+PoC), 0 to schedule, 1 to monitor. Sources: KEV, GH Advisory (extended weekly scan), EPSS
 
-## Summary
+PATCH TODAY
+- CVE-2025-62593 — ray (pip) · KEV added 2026-08-17 · EPSS 0.169 (96.8th pct) · CVSS 9.4
+  RCE via DNS rebinding through Firefox/Safari; exploits unauthenticated /api/jobs endpoint. CISA due 2026-08-20 — past due. Public PoC (Singularity DNS rebind + User-Agent bypass).
+  → upgrade ray to ≥2.52.0 and enable auth per Ray security docs.
 
-**Security Digest — 2026-08-23**
+- GHSA-cfcw-xp6x-25gj / CVE-2026-47698 — vm2 (npm) · CVSS 9.8 · EPSS 0.006 · public PoC
+  Sandbox breakout via WebAssembly prototype manipulation bypasses prior fix; host-level RCE. Companion GHSA-m5w8-4gq2-6f8x (Aug 23) unpatched.
+  → upgrade vm2 to ≥3.11.6 today; plan migration away from vm2 long-term.
 
-**Sources:** KEV=ok (WebFetch), GH Advisory=ok (WebFetch), EPSS=partial (14/17 CVEs indexed; 2026 CVEs largely absent from FIRST database, treated as 0).
+MONITOR
+- GHSA-m283-3h24-438v / CVE-2026-47686 — vm2 (npm) · CVSS critical · no fix · EPSS 0.004
+  Missing Error.cause sanitization enables sandbox escape to RCE. Third vm2 critical advisory this cycle; no patch for this variant.
+  → accelerate migration away from vm2; track for fix.
 
-**Deduped from last 2 days of logs:** CVE-2026-72529 (TrueConf missing auth, in Aug 22+23 morning-brief), CVE-2026-73570 (Zimbra ZCS, in Aug 22 security-digest), jsonata cluster, xinference, atlantis, defuddle, hydra-core, and others from Aug 22 security-digest.
-
-**PATCH TODAY (2)**
-- **CVE-2026-72530** — TrueConf Server — KEV added 2026-08-20 — Code injection via unauthenticated port 4307/TCP → host RCE. Due 2026-09-03. EPSS 0.010.
-- **CVE-2026-64849** — MLflow (pip) — KEV added 2026-08-19 — Unauthenticated SSRF via unvalidated HTTP redirects. Due 2026-09-02. EPSS 0.082 (94th pct), CVSS 9.3. → upgrade to ≥3.15.0.
-
-**PATCH THIS WEEK (5)**
-- surfio (pip) CVSS 9.8 — OOB read → ≥0.0.19
-- resdata (pip) CVSS 9.8 — buffer overflow → ≥6.2.9
-- @whyour/qinglong (npm) CVSS 9.3 — incomplete auth fix → ≥2.20.1
-- dgraph/v25 (go) CVSS 9.1 — unauth snapshot import → ≥25.3.5
-- kin-openapi (go) CVSS 8.7 — resource exhaustion DoS → ≥0.142.0 (covers companion GHSA-mmfr too)
-
-**MONITOR (3)**
-- vm2 (npm) CVSS 9.3 — no fix available; migrate to isolated-vm
-- @keystone-6/core (npm) CVSS 7.5 — graphql over-fetch → ≥6.5.3
-- unleash-server (npm) CVSS 7.5 — unauth DoS → ≥7.5.2/7.6.5/8.0.2
-
-**Files written/modified:**
-- `.pending-notify/security-digest-2026-08-23.md` — notification staged for delivery
-- `memory/logs/2026-08-23.md` — log entry appended
+GH 48h advisory window empty for npm/pip/Go/Actions. vm2 items surfaced via extended weekly scan.

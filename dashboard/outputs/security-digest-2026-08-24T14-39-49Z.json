@@ -1,0 +1,282 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest",
+        "description": "2026-08-24"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "stack_header",
+        "sep1",
+        "heading_patch",
+        "stack_patch",
+        "sep2",
+        "heading_monitor",
+        "alert_monitor",
+        "sep3",
+        "text_note"
+      ]
+    },
+    "stack_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_verdict",
+        "text_sources"
+      ]
+    },
+    "text_verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 2 patch today (1 KEV/CISA + 1 CVSS 9.8+PoC), 0 to schedule, 1 to monitor.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV, GH Advisory (extended weekly scan), EPSS",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_patch": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_patch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "card_ray",
+        "card_vm2"
+      ]
+    },
+    "card_ray": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_ray",
+        "stack_ray_meta",
+        "text_ray_desc",
+        "text_ray_action"
+      ]
+    },
+    "heading_ray": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2025-62593 — ray (pip)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_ray_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev",
+        "stat_ray_epss",
+        "stat_ray_cvss"
+      ]
+    },
+    "badge_kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-08-17",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stat_ray_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.169",
+        "delta": "96.8th pct"
+      },
+      "children": []
+    },
+    "stat_ray_cvss": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.4"
+      },
+      "children": []
+    },
+    "text_ray_desc": {
+      "type": "Text",
+      "props": {
+        "text": "RCE via DNS rebinding through Firefox/Safari; exploits unauthenticated /api/jobs endpoint. CISA due 2026-08-20 — past due. Public PoC (Singularity DNS rebind + User-Agent bypass).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_ray_action": {
+      "type": "Text",
+      "props": {
+        "text": "⚠ Action: upgrade ray to ≥2.52.0 and enable auth per Ray security docs.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "card_vm2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_vm2",
+        "stack_vm2_meta",
+        "text_vm2_companion",
+        "text_vm2_desc",
+        "text_vm2_action"
+      ]
+    },
+    "heading_vm2": {
+      "type": "Heading",
+      "props": {
+        "text": "GHSA-cfcw-xp6x-25gj / CVE-2026-47698 — vm2 (npm)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_vm2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_vm2_poc",
+        "stat_vm2_cvss",
+        "stat_vm2_epss"
+      ]
+    },
+    "badge_vm2_poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "stat_vm2_cvss": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.8"
+      },
+      "children": []
+    },
+    "stat_vm2_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.006"
+      },
+      "children": []
+    },
+    "text_vm2_companion": {
+      "type": "Text",
+      "props": {
+        "text": "Companion GHSA-m5w8-4gq2-6f8x (Aug 23) unpatched.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_vm2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Sandbox breakout via WebAssembly prototype manipulation bypasses prior fix; host-level RCE.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_vm2_action": {
+      "type": "Text",
+      "props": {
+        "text": "⚠ Action: upgrade vm2 to ≥3.11.6 today; plan migration away from vm2 long-term.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert_monitor": {
+      "type": "Alert",
+      "props": {
+        "title": "GHSA-m283-3h24-438v / CVE-2026-47686 — vm2 (npm)",
+        "message": "CVSS critical · no fix · EPSS 0.004\n\nMissing Error.cause sanitization enables sandbox escape to RCE. Third vm2 critical advisory this cycle; no patch for this variant.\n\n⚠ Action: accelerate migration away from vm2; track for fix.",
+        "type": "error"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_note": {
+      "type": "Text",
+      "props": {
+        "text": "GH 48h advisory window empty for npm/pip/Go/Actions. vm2 items surfaced via extended weekly scan.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
