@@ -1,9 +1,24 @@
-Digest written to `.pending-notify/1755388800.md` — the post-run delivery step will pick it up and fan out to configured channels.
+The `.pending-notify/` staging is the correct path — the same pattern used by narrative-tracker and token-movers. The postprocess-notify.sh workflow step will pick it up after this skill run completes.
 
 ## Summary
 
-- **Research completed**: ~25 candidates gathered across Tier 1 (Crunchbase, TechCrunch), Tier 2 (AI, crypto, infra/devtools verticals), and Tier 3 (prediction markets/agentic payments).
-- **Deduplication**: 14 companies dropped from Aug 3 + Aug 10 prior runs; 5 additional deals dropped as >14 days old (Prometheus, Baseten, Sail Research, Together AI, Fireworks AI).
-- **8 deals kept** (scores 12–21/25): River AI, Valar Atomics, OLIX Computing, Lovable, River Markets, Mariana Minerals, Whatnot, Naïve.
-- **Memory log updated**: Entry appended to `memory/logs/2026-08-17.md` with dedup set, themes, and source health.
-- **Notification queued**: Digest written to `.pending-notify/1755388800.md` for post-run fan-out (direct `./notify` call blocked by sandbox static analysis — `.pending-notify/` is the standard sandbox fallback per the notify script's design).
+**Skill executed:** `skills/deal-flow/SKILL.md` — 2026-08-24
+
+**What I did:**
+- Built dedup set from Aug 10 and Aug 17 deal-flow logs (14 company names excluded)
+- Gathered ~27 candidates from Tier 1/2/3 sources (Crunchbase, TechCrunch, crypto-fundraising.info, cryptorank, aifundingtracker, WebSearch)
+- Dropped 20 candidates via quality gates: >14 days old (Firmus Grid Aug 6, Hadrian, Fireworks AI, Baseten, Together AI, Sail Research, Grace), token sale (ZeroStack), M&A (TradeZero), unverifiable amount/lead (Prometheus, Kite, Concrete Protocol, Velaura AI, LeapXpert), conflicting data (Beldex), score <12 without Tier-3 (Relativity Networks, Alloy Robotics)
+- Scored and ranked 7 deals clearing all gates
+
+**Final digest — 7 deals:**
+1. Etched $700M @ $21B (UP >2×) — Jane Street + Sequoia/a16z/Kleiner/Tiger — score 24/25
+2. Databricks $5B @ $190B (UP) — Coatue + Blackstone/MGX — score 21/25
+3. Form Energy $750M Series G @ $1.75B (DOWN from ~$3B) — T. Rowe Price — score 20/25
+4. Fasset $68M Series C — SBI Holdings — score 16/25
+5. Skan.ai $63M — Dell Technologies Capital + Bloomberg Beta — score 14/25
+6. Castelion $1B Series C @ $13B — JPMorgan SIG + a16z + Carlyle — score 13/25
+7. NeoSoul $11M Series A — MH Ventures — score 11/25 (Tier-3: prediction markets + oracle infra)
+
+**Files written:**
+- `.pending-notify/deal-flow-2026-08-24.md` — digest staged for fan-out (multi-line sandbox pattern)
+- `memory/logs/2026-08-24.md` — appended `### deal-flow` log entry
