@@ -1,0 +1,43 @@
+{
+  "root": "card-trending",
+  "state": {},
+  "elements": {
+    "card-trending": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-08-24"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-toppick",
+        "story-buzz"
+      ]
+    },
+    "badge-toppick": {
+      "type": "Badge",
+      "props": {
+        "text": "Top pick",
+        "variant": "default"
+      }
+    },
+    "story-buzz": {
+      "type": "StoryLink",
+      "props": {
+        "title": "block/buzz",
+        "href": "https://github.com/block/buzz",
+        "source": "GitHub",
+        "score": "Block shipping a Rust-native hive"
+      }
+    }
+  }
+}
