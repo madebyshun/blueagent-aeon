@@ -1,0 +1,402 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "Risk-off pullback — BTC flat at $79K while ~80% of non-stable top-50 alts are red; selloff broad-based across DeFi, L1s, and L2s with XMR, SOL, and Base ecosystem names the only pockets of strength."
+      },
+      "children": [
+        "winners_section",
+        "sep1",
+        "losers_section",
+        "sep2",
+        "trending_section",
+        "sep3",
+        "notable_section"
+      ]
+    },
+    "winners_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners_heading",
+        "winners_table"
+      ]
+    },
+    "winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h3"
+      }
+    },
+    "winners_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "M (MemeCore)",
+            "$1.18",
+            "+4.8%",
+            "+4.8%",
+            "+0.8%",
+            "$4.5M",
+            "#38",
+            ""
+          ],
+          [
+            "XMR (Monero)",
+            "$441.32",
+            "+4.7%",
+            "+8.6%",
+            "−0.6%",
+            "$137M",
+            "#18",
+            "MAJOR"
+          ],
+          [
+            "AERO (Aerodrome)",
+            "$0.5356",
+            "+3.9%",
+            "+33.7%",
+            "−0.9%",
+            "$115M",
+            "#103",
+            "TRENDING+UP"
+          ],
+          [
+            "SOL (Solana)",
+            "$97.90",
+            "+3.3%",
+            "+30.1%",
+            "−1.0%",
+            "$7.2B",
+            "#7",
+            "MAJOR"
+          ],
+          [
+            "RAIN (Rain)",
+            "$0.01452",
+            "+3.2%",
+            "+11.1%",
+            "−0.1%",
+            "$45M",
+            "#13",
+            "MAJOR"
+          ],
+          [
+            "ASTER (Aster)",
+            "$0.6996",
+            "+1.0%",
+            "+16.5%",
+            "+0.2%",
+            "$151M",
+            "#47",
+            ""
+          ],
+          [
+            "BTC (Bitcoin)",
+            "$78,784",
+            "+0.5%",
+            "+23.3%",
+            "−0.2%",
+            "$54.6B",
+            "#1",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers_heading",
+        "losers_table"
+      ]
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h3"
+      }
+    },
+    "losers_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "CC (Canton)",
+            "$0.1180",
+            "−7.4%",
+            "+32.6%",
+            "−1.1%",
+            "$19.7M",
+            "#22",
+            ""
+          ],
+          [
+            "AAVE (Aave)",
+            "$128.11",
+            "−6.5%",
+            "+44.1%",
+            "−0.5%",
+            "$413M",
+            "#46",
+            ""
+          ],
+          [
+            "MORPHO (Morpho)",
+            "$2.60",
+            "−6.2%",
+            "+23.9%",
+            "0.0%",
+            "$52M",
+            "#51",
+            "TRENDING+DOWN"
+          ],
+          [
+            "ETHFI (Ether.fi)",
+            "$0.602",
+            "−5.1%",
+            "+22.4%",
+            "−1.3%",
+            "$86M",
+            "#93",
+            ""
+          ],
+          [
+            "FLR (Flare)",
+            "$0.00670",
+            "−4.5%",
+            "+14.5%",
+            "−0.7%",
+            "$4.1M",
+            "#98",
+            ""
+          ],
+          [
+            "ARB (Arbitrum)",
+            "$0.09470",
+            "−4.4%",
+            "+26.1%",
+            "−0.9%",
+            "$82M",
+            "#92",
+            ""
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "$1.93",
+            "−3.6%",
+            "+18.9%",
+            "+0.1%",
+            "$321M",
+            "#40",
+            ""
+          ],
+          [
+            "LTC (Litecoin)",
+            "$51.10",
+            "−3.3%",
+            "+15.0%",
+            "−0.6%",
+            "$374M",
+            "#27",
+            ""
+          ],
+          [
+            "SUI (Sui)",
+            "$0.7994",
+            "−3.3%",
+            "+23.4%",
+            "−0.1%",
+            "$729M",
+            "#30",
+            ""
+          ],
+          [
+            "ADA (Cardano)",
+            "$0.2167",
+            "−2.9%",
+            "+26.1%",
+            "−0.4%",
+            "$584M",
+            "#19",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending_heading",
+        "trending_table"
+      ]
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h3"
+      }
+    },
+    "trending_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "PONS (Pons)",
+            "#379",
+            "$0.0876",
+            "+37.6%",
+            "PUMP-RISK, MICROCAP"
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "#48",
+            "$0.004751",
+            "−4.4%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "PEAQ (peaq)",
+            "#431",
+            "$0.02175",
+            "+12.3%",
+            "TRENDING+UP, MICROCAP"
+          ],
+          [
+            "SOL (Solana)",
+            "#7",
+            "$98.45",
+            "+3.3%",
+            "MAJOR"
+          ],
+          [
+            "ZANO (Zano)",
+            "#220",
+            "$8.41",
+            "−2.4%",
+            "MICROCAP"
+          ],
+          [
+            "CASHCAT (Cash Cat)",
+            "#176",
+            "$0.1945",
+            "+24.5%",
+            "PUMP-RISK"
+          ],
+          [
+            "ZEC (Zcash)",
+            "#11",
+            "$837.0",
+            "−0.1%",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_heading",
+        "notable1",
+        "notable2",
+        "notable3"
+      ]
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h3"
+      }
+    },
+    "notable1": {
+      "type": "Text",
+      "props": {
+        "text": "MORPHO [TRENDING+DOWN]: yesterday's +13.7% winner now reversing (−6.2%) while trending — DeFi consolidation after promotion",
+        "variant": "body"
+      }
+    },
+    "notable2": {
+      "type": "Text",
+      "props": {
+        "text": "AERO [TRENDING+UP]: Base ecosystem +3.9% in broad selloff — DeFi-TradFi narrative holds 2nd day",
+        "variant": "body"
+      }
+    },
+    "notable3": {
+      "type": "Text",
+      "props": {
+        "text": "PONS: trending #1 for 2nd consecutive day, +37.6% — [PUMP-RISK] mcap ~$46M; no structural signal",
+        "variant": "body"
+      }
+    }
+  }
+}
