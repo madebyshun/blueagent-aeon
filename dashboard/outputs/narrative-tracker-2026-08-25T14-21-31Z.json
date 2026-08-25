@@ -1,0 +1,309 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker",
+        "description": "2026-08-25"
+      },
+      "children": [
+        "transitions-stack"
+      ]
+    },
+    "transitions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ]
+    },
+    "t1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-header",
+        "t1-desc",
+        "t1-link"
+      ]
+    },
+    "t1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-badge-new",
+        "t1-title",
+        "t1-context"
+      ]
+    },
+    "t1-badge-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "t1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Treasury Liquidity",
+        "level": "h2"
+      }
+    },
+    "t1-context": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging ↑↑ • WATCH",
+        "variant": "outline"
+      }
+    },
+    "t1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Treasury doubled bond buybacks to $4B/session; BTC hit $80K three-month high on fiscal action, not Fed. New macro vector. Warsh first Jackson Hole speech tomorrow",
+        "variant": "body"
+      }
+    },
+    "t1-link": {
+      "type": "Link",
+      "props": {
+        "label": "bloomberg.com",
+        "href": "https://bloomberg.com"
+      }
+    },
+    "t2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-header",
+        "t2-desc",
+        "t2-link"
+      ]
+    },
+    "t2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-badge-new",
+        "t2-title",
+        "t2-context"
+      ]
+    },
+    "t2-badge-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "t2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Solana Supply Shock",
+        "level": "h2"
+      }
+    },
+    "t2-context": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging ↑↑ • FRONT-RUN",
+        "variant": "outline"
+      }
+    },
+    "t2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "governance vote tightening float; SOL +3.3% while 80% alts red; traders front-running before implementation",
+        "variant": "body"
+      }
+    },
+    "t2-link": {
+      "type": "Link",
+      "props": {
+        "label": "cryptonews.com",
+        "href": "https://cryptonews.com"
+      }
+    },
+    "t3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-header",
+        "t3-desc",
+        "t3-stat"
+      ]
+    },
+    "t3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-badge-promoted",
+        "t3-title",
+        "t3-context"
+      ]
+    },
+    "t3-badge-promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "t3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Compute/DePIN",
+        "level": "h2"
+      }
+    },
+    "t3-context": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak T-1 • FADE",
+        "variant": "outline"
+      }
+    },
+    "t3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "NVIDIA earnings after bell tomorrow. Exit window is today. Historical: fade post-print regardless of beat",
+        "variant": "body"
+      }
+    },
+    "t3-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Polymarket beat probability",
+        "value": "96%"
+      }
+    },
+    "t4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-header",
+        "t4-desc"
+      ]
+    },
+    "t4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-badge-promoted",
+        "t4-title",
+        "t4-context"
+      ]
+    },
+    "t4-badge-promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "t4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC/Privacy",
+        "level": "h2"
+      }
+    },
+    "t4-context": {
+      "type": "Badge",
+      "props": {
+        "text": "↑↑",
+        "variant": "outline"
+      }
+    },
+    "t4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "XMR +4.7% + ZEC MAJOR trending in broad selloff. Privacy holding when nothing else is",
+        "variant": "body"
+      }
+    },
+    "t5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t5-header",
+        "t5-desc"
+      ]
+    },
+    "t5-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t5-badge-promoted",
+        "t5-title",
+        "t5-context"
+      ]
+    },
+    "t5-badge-promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "t5-title": {
+      "type": "Heading",
+      "props": {
+        "text": "SEC Regulation",
+        "level": "h2"
+      }
+    },
+    "t5-context": {
+      "type": "Badge",
+      "props": {
+        "text": "↑↑",
+        "variant": "outline"
+      }
+    },
+    "t5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "CFTC regulation",
+        "variant": "body"
+      }
+    }
+  }
+}
