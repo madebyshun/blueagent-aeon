@@ -1,0 +1,64 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest",
+        "description": "2026-08-25"
+      },
+      "children": [
+        "stats_grid",
+        "separator",
+        "file_reference"
+      ]
+    },
+    "stats_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_exploited",
+        "stat_schedule",
+        "stat_monitor"
+      ]
+    },
+    "stat_exploited": {
+      "type": "Stat",
+      "props": {
+        "label": "KEV Exploited Today",
+        "value": "3"
+      }
+    },
+    "stat_schedule": {
+      "type": "Stat",
+      "props": {
+        "label": "To Schedule",
+        "value": "5"
+      }
+    },
+    "stat_monitor": {
+      "type": "Stat",
+      "props": {
+        "label": "To Monitor",
+        "value": "3"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "file_reference": {
+      "type": "Text",
+      "props": {
+        "text": "Staged in .pending-notify/security-digest-2026-08-25.md",
+        "variant": "caption"
+      }
+    }
+  }
+}
