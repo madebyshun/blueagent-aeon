@@ -1,0 +1,219 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-25"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "stack-focus",
+        "sep-1",
+        "heading-yesterday",
+        "stack-yesterday",
+        "sep-2",
+        "heading-watch",
+        "alert-watch",
+        "sep-3",
+        "heading-running",
+        "table-running"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. NVIDIA earnings after bell tomorrow (Aug 26) — why now: T-1 exit window; historical fade post-print regardless of beat",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. DeFi-TradFi RIDE day 1 (AAVE+Morpho) — why now: first full session since promotion; RWA collateral anchor is structural",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. morning-brief failure (Aug 24) — why now: second consecutive miss triggers cron-state degradation flag",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-1",
+        "yesterday-2",
+        "yesterday-3",
+        "yesterday-4",
+        "yesterday-5"
+      ]
+    },
+    "yesterday-1": {
+      "type": "Text",
+      "props": {
+        "text": "NVIDIA T-1: countdown tightens; bear framing (\"cracks in the AI boom\") appearing alongside bull consensus ($313 avg PT, ~$91.8B revenue guided)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday-2": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi-TradFi promoted: MORPHO +13.7% (2nd consecutive day), AAVE +5.8% — Aavenomics 3.0 buyback live + Neuberger Berman RWA collateral on Aave Horizon → Rising ↑↑ RIDE confirmed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday-3": {
+      "type": "Text",
+      "props": {
+        "text": "ENA CAPITULATION: −9.9% day 4 closes buy-vote cycle; FADE holds; no re-entry until fee distribution milestone live",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday-4": {
+      "type": "Text",
+      "props": {
+        "text": "XAI 403: 45th consecutive day, no credits; narrative-tracker WebSearch fallback intact, quality unaffected",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday-5": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow: Etched $700M @$21B post (Jane Street + Sequoia) — purpose-built AI silicon consolidating fast",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert-watch": {
+      "type": "Alert",
+      "props": {
+        "title": "Nvidia earnings framing risk",
+        "message": "\"Nvidia earnings could expose cracks in the AI boom\" framing emerging pre-print — if miss, AI Compute/DePIN FADE accelerates post-Aug 26; confirms T-1 exit urgency (Focus #1)",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-running": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Time (UTC)"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00"
+          ],
+          [
+            "github-monitor",
+            "09:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "token-pick",
+            "12:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ]
+        ]
+      },
+      "children": []
+    }
+  }
+}

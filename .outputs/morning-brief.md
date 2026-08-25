@@ -1,22 +1,23 @@
-*Morning Brief — 2026-08-23*
+*Morning Brief — 2026-08-25*
 
 *Focus today*
-1. TrueConf KEV (CVE-2026-72529) — why now: deadline today; Head Mare actively exploiting since July
-2. NVIDIA earnings T-3 (Aug 26) — why now: 3 sessions left to size or close DePIN entries
-3. Zimbra KEV (CVE-2026-73570) — why now: KEV due 2026-08-24 — 24h window to confirm 10.1.20
+1. NVIDIA earnings after bell tomorrow (Aug 26) — why now: T-1 exit window; historical fade post-print regardless of beat
+2. DeFi-TradFi RIDE day 1 (AAVE+Morpho) — why now: first full session since promotion; RWA collateral anchor is structural
+3. morning-brief failure (Aug 24) — why now: second consecutive miss triggers cron-state degradation flag
 
 *Since yesterday*
-- ZEC: Grayscale 5th amendment spot ETF (ZCH, NYSE Arca) filing executing — RIDE active ($800+, +42%)
-- ENA: Sell-the-news confirmed (−6.5% post-vote) — FADE; no re-entry until revenue distribution
-- TRUMP: +53.5% on Mar-a-Lago gala event — FADE (event-specific, no on-chain anchor)
-- CLARITY Act: Sept 15 Senate vote date named — promoted Dead → Emerging WATCH
+- NVIDIA T-1: countdown tightens; bear framing ("cracks in the AI boom") appearing alongside bull consensus ($313 avg PT, ~$91.8B revenue guided)
+- DeFi-TradFi promoted: MORPHO +13.7% (2nd consecutive day), AAVE +5.8% — Aavenomics 3.0 buyback live + Neuberger Berman RWA collateral on Aave Horizon → Rising ↑↑ RIDE confirmed
+- ENA CAPITULATION: −9.9% day 4 closes buy-vote cycle; FADE holds; no re-entry until fee distribution milestone live
+- XAI 403: 45th consecutive day, no credits; narrative-tracker WebSearch fallback intact, quality unaffected
+- deal-flow: Etched $700M @$21B post (Jane Street + Sequoia) — purpose-built AI silicon consolidating fast
 
 *Watch*
-- Benzinga: Polymarket now pricing NVDA above $250 on Aug 26 earnings — adds prediction-market angle to DePIN Focus #2; SOL $110 YES at 23.1¢ converges same catalyst window
+- "Nvidia earnings could expose cracks in the AI boom" framing emerging pre-print — if miss, AI Compute/DePIN FADE accelerates post-Aug 26; confirms T-1 exit urgency (Focus #1)
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC
-- github-monitor @ 09:00 UTC (madebyshun/blue-agent)
+- github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
