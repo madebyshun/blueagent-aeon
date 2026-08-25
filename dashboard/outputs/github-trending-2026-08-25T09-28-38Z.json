@@ -1,0 +1,396 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-08-25"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-top-pick",
+        "section-top-pick",
+        "sep-1",
+        "heading-aiml",
+        "stack-aiml",
+        "sep-2",
+        "heading-devtools",
+        "stack-devtools",
+        "sep-3",
+        "text-sources"
+      ]
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "section-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-repo-openhuman-pick",
+        "text-repo-openhuman-pick-desc"
+      ]
+    },
+    "link-repo-openhuman-pick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "tinyhumansai/openhuman",
+        "href": "https://github.com/tinyhumansai/openhuman",
+        "source": "GitHub"
+      }
+    },
+    "text-repo-openhuman-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Sat quiet at ~39★/day for weeks, then spiked 14× overnight — when a Rust local-first agent memory layer does that, something shipped.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "stack-aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack-repo-aiml-1",
+        "stack-repo-aiml-2"
+      ]
+    },
+    "stack-repo-aiml-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-repo-openhuman-aiml",
+        "stack-repo-openhuman-aiml-meta",
+        "text-repo-openhuman-aiml-desc"
+      ]
+    },
+    "link-repo-openhuman-aiml": {
+      "type": "StoryLink",
+      "props": {
+        "title": "tinyhumansai/openhuman",
+        "href": "https://github.com/tinyhumansai/openhuman"
+      }
+    },
+    "stack-repo-openhuman-aiml-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-openhuman-today",
+        "stat-openhuman-total",
+        "badge-rust",
+        "badge-returning"
+      ]
+    },
+    "stat-openhuman-today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "515★"
+      }
+    },
+    "stat-openhuman-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "37.5k★"
+      }
+    },
+    "badge-rust": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "outline"
+      }
+    },
+    "badge-returning": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text-repo-openhuman-aiml-desc": {
+      "type": "Text",
+      "props": {
+        "text": "14× daily-rate spike from yesterday's 39★ baseline; Rust + local-first persistent memory for agent orchestration, pushed today.",
+        "variant": "body"
+      }
+    },
+    "stack-repo-aiml-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-repo-madslorentzen",
+        "stack-repo-madslorentzen-meta",
+        "text-repo-madslorentzen-desc"
+      ]
+    },
+    "link-repo-madslorentzen": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MadsLorentzen/ai-job-search",
+        "href": "https://github.com/MadsLorentzen/ai-job-search"
+      }
+    },
+    "stack-repo-madslorentzen-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-madslorentzen-today",
+        "stat-madslorentzen-total",
+        "badge-python",
+        "badge-accelerating"
+      ]
+    },
+    "stat-madslorentzen-today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "434★"
+      }
+    },
+    "stat-madslorentzen-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "34.5k★"
+      }
+    },
+    "badge-python": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "badge-accelerating": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text-repo-madslorentzen-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Claude Code agent that auto-tailors your CV and generates role-specific interview prep — end-to-end, no manual copy-paste.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "stack-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack-repo-devtools-1",
+        "stack-repo-devtools-2"
+      ]
+    },
+    "stack-repo-devtools-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-repo-apache-maka",
+        "stack-repo-apache-maka-meta",
+        "text-repo-apache-maka-desc"
+      ]
+    },
+    "link-repo-apache-maka": {
+      "type": "StoryLink",
+      "props": {
+        "title": "apache/maka",
+        "href": "https://github.com/apache/maka"
+      }
+    },
+    "stack-repo-apache-maka-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-apache-maka-today",
+        "stat-apache-maka-total",
+        "badge-typescript-maka",
+        "badge-returning-maka"
+      ]
+    },
+    "stat-apache-maka-today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "411★"
+      }
+    },
+    "stat-apache-maka-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "3.1k★"
+      }
+    },
+    "badge-typescript-maka": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "badge-returning-maka": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text-repo-apache-maka-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Append-only event log under every agent action gives full provenance + time-travel replay for your local agent workspace; pushed today.",
+        "variant": "body"
+      }
+    },
+    "stack-repo-devtools-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-repo-tashfeenahmed",
+        "stack-repo-tashfeenahmed-meta",
+        "text-repo-tashfeenahmed-desc"
+      ]
+    },
+    "link-repo-tashfeenahmed": {
+      "type": "StoryLink",
+      "props": {
+        "title": "tashfeenahmed/freellmapi",
+        "href": "https://github.com/tashfeenahmed/freellmapi"
+      }
+    },
+    "stack-repo-tashfeenahmed-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-tashfeenahmed-today",
+        "stat-tashfeenahmed-total",
+        "badge-typescript-tashfeenahmed",
+        "badge-accelerating-tashfeenahmed"
+      ]
+    },
+    "stat-tashfeenahmed-today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "174★"
+      }
+    },
+    "stat-tashfeenahmed-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "20k★"
+      }
+    },
+    "badge-typescript-tashfeenahmed": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "badge-accelerating-tashfeenahmed": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text-repo-tashfeenahmed-desc": {
+      "type": "Text",
+      "props": {
+        "text": "One OpenAI-compatible endpoint routing across 34 providers' free tiers — 7.4B tokens/month, no billing until rate limits bite.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/19",
+        "variant": "caption"
+      }
+    }
+  }
+}
