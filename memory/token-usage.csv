@@ -390,4 +390,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-08-24,deal-flow,claude-sonnet-4-6,19,27461,845741,177413
 2026-08-25,morning-brief,claude-sonnet-4-6,826,5202,435273,36018
 2026-08-25,github-trending,claude-sonnet-4-6,14,12487,445081,37373
-2026-08-25,defi-monitor,claude-sonnet-4-6,6,918,142590,9415
+2026-08-25,token-pick,claude-sonnet-4-6,3985,20655,2363057,111967
