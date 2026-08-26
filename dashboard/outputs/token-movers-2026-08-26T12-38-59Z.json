@@ -1,0 +1,442 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "2026-08-26"
+      },
+      "children": [
+        "summary_text",
+        "sep1",
+        "winners_section",
+        "sep2",
+        "losers_section",
+        "sep3",
+        "trending_section",
+        "sep4",
+        "notable_section"
+      ]
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Broad drift lower into NVIDIA earnings — ~70% of non-stable top-100 coins red, median 24h ~−1.5%; BTC holding $78.5K while alts bleed broadly.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "winners_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners_heading",
+        "winners_table"
+      ]
+    },
+    "winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "RAIN (Rain)",
+            "$0.01762",
+            "+21.4%",
+            "+34.6%",
+            "−0.2%",
+            "$52.6M / #13",
+            "BREAKOUT, MAJOR"
+          ],
+          [
+            "SPX (SPX6900)",
+            "$0.5395",
+            "+14.6%",
+            "+65.6%",
+            "−0.1%",
+            "$26.1M / #105",
+            ""
+          ],
+          [
+            "JUP (Jupiter)",
+            "$0.2241",
+            "+4.3%",
+            "+33.5%",
+            "+0.1%",
+            "$52.6M / #86",
+            ""
+          ],
+          [
+            "STX (Stacks)",
+            "$0.2708",
+            "+4.2%",
+            "+126.7%",
+            "+0.6%",
+            "$83.3M / #104",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "$82.65",
+            "+4.0%",
+            "+40.0%",
+            "−1.5%",
+            "$1.14B / #10",
+            "TRENDING+UP, MAJOR"
+          ],
+          [
+            "GT (Gate)",
+            "$7.94",
+            "+2.9%",
+            "+17.1%",
+            "−0.4%",
+            "$1.9M / #76",
+            ""
+          ],
+          [
+            "WLFI (World Liberty)",
+            "$0.05909",
+            "+2.5%",
+            "−2.2%",
+            "−0.4%",
+            "$52.0M / #48",
+            ""
+          ],
+          [
+            "NEXO (NEXO)",
+            "$0.8367",
+            "+2.2%",
+            "+19.5%",
+            "−1.3%",
+            "$4.9M / #77",
+            ""
+          ],
+          [
+            "ATOM (Cosmos)",
+            "$1.56",
+            "+1.9%",
+            "+11.2%",
+            "+0.1%",
+            "$41.3M / #80",
+            ""
+          ],
+          [
+            "BNB (BNB)",
+            "$703.1",
+            "+1.3%",
+            "+16.6%",
+            "−0.6%",
+            "$849M / #4",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers_heading",
+        "losers_table"
+      ]
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "BTW (Bitway)",
+            "$0.4032",
+            "−10.0%",
+            "−41.3%",
+            "+2.3%",
+            "$22.8M / #69",
+            ""
+          ],
+          [
+            "XDC (XDC Network)",
+            "$0.02799",
+            "−5.9%",
+            "+3.6%",
+            "+0.2%",
+            "$5.9M / #99",
+            ""
+          ],
+          [
+            "DASH (Dash)",
+            "$38.92",
+            "−5.8%",
+            "+29.5%",
+            "−1.1%",
+            "$84.7M / #106",
+            ""
+          ],
+          [
+            "INJ (Injective)",
+            "$5.53",
+            "−5.5%",
+            "+27.9%",
+            "−1.4%",
+            "$91.8M / #100",
+            ""
+          ],
+          [
+            "ZEC (Zcash)",
+            "$790.1",
+            "−5.0%",
+            "+54.9%",
+            "−1.2%",
+            "$1.11B / #12",
+            "MAJOR"
+          ],
+          [
+            "PEPE (Pepe)",
+            "$0.000003810",
+            "−4.3%",
+            "+46.5%",
+            "−0.9%",
+            "$296M / #54",
+            ""
+          ],
+          [
+            "KAS (Kaspa)",
+            "$0.02740",
+            "−4.0%",
+            "+6.2%",
+            "−0.5%",
+            "$13.7M / #85",
+            ""
+          ],
+          [
+            "CRO (Cronos)",
+            "$0.05855",
+            "−4.0%",
+            "+27.6%",
+            "−0.1%",
+            "$8.9M / #34",
+            ""
+          ],
+          [
+            "XLM (Stellar)",
+            "$0.1844",
+            "−3.8%",
+            "+17.0%",
+            "−1.0%",
+            "$196M / #20",
+            "MAJOR"
+          ],
+          [
+            "XRP (XRP)",
+            "$1.42",
+            "−3.2%",
+            "+40.5%",
+            "−1.4%",
+            "$3.67B / #5",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending_heading",
+        "trending_items"
+      ]
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trend1",
+        "trend2",
+        "trend3",
+        "trend4",
+        "trend5",
+        "trend6",
+        "trend7"
+      ]
+    },
+    "trend1": {
+      "type": "Text",
+      "props": {
+        "text": "1. BTR (Bitlayer) — #626, $0.1209, 24h +268.6% [PUMP-RISK][MICROCAP]"
+      }
+    },
+    "trend2": {
+      "type": "Text",
+      "props": {
+        "text": "2. NCT (PolySwarm) — #440, $0.02624, 24h +443.1% [PUMP-RISK][MICROCAP]"
+      }
+    },
+    "trend3": {
+      "type": "Text",
+      "props": {
+        "text": "3. BTC (Bitcoin) — #1, $78,503, 24h −0.4% [MAJOR]"
+      }
+    },
+    "trend4": {
+      "type": "Text",
+      "props": {
+        "text": "4. PENGU (Pudgy Penguins) — #93, $0.009409, 24h −1.2%"
+      }
+    },
+    "trend5": {
+      "type": "Text",
+      "props": {
+        "text": "5. DRV (Derive) — #183, $0.1750, 24h +18.8%"
+      }
+    },
+    "trend6": {
+      "type": "Text",
+      "props": {
+        "text": "6. HYPE (Hyperliquid) — #10, $82.35, 24h +3.1% [TRENDING+UP][MAJOR]"
+      }
+    },
+    "trend7": {
+      "type": "Text",
+      "props": {
+        "text": "7. AERO (Aerodrome) — #102, $0.5214, 24h −1.8%"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_heading",
+        "notable_items"
+      ]
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable1",
+        "notable2",
+        "notable3",
+        "notable4"
+      ]
+    },
+    "notable1": {
+      "type": "Alert",
+      "props": {
+        "title": "RAIN +21.4% [BREAKOUT][MAJOR]",
+        "message": "rank 13 breakout on aligned 24h + 7d momentum (+34.6% 7d); credible cap tier signal",
+        "type": "success"
+      }
+    },
+    "notable2": {
+      "type": "Alert",
+      "props": {
+        "title": "HYPE [TRENDING+UP][MAJOR]",
+        "message": "perp DEX +4% while 70% of market bleeds; trending + price = sustained bid",
+        "type": "info"
+      }
+    },
+    "notable3": {
+      "type": "Alert",
+      "props": {
+        "title": "BTR +269% + NCT +443% [PUMP-RISK][MICROCAP]",
+        "message": "extreme trending spikes from rank 626 and 440; near-certain manipulation; do not trade",
+        "type": "warning"
+      }
+    },
+    "notable4": {
+      "type": "Alert",
+      "props": {
+        "title": "ZEC [MAJOR] −5.0%",
+        "message": "reversing from Aug 25 trending position; privacy sector bid fading post-2-day rally",
+        "type": "info"
+      }
+    }
+  }
+}
