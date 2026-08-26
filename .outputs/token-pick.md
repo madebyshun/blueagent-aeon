@@ -1,23 +1,20 @@
-Done. Here's a summary of what was executed:
-
----
+Done. Here's the summary:
 
 ## Summary
 
-**Token: INJ (Injective) — HIGH — 9/10**
-- Price: $5.86 (+8.7% 24h / +45.4% 7d) | mcap $586M | vol $196M | vol/mcap 0.33
-- Score breakdown: +24h(+1), +7d(+1), both>5%(+2), vol/mcap≥0.20(+3), beats BTC+ETH on 7d(+2) = 9/10
-- Catalyst: SEC Transfer Agent Registration announced Aug 24-25 (institutional legitimacy for RWA/tokenized securities) + LG CNS/POSCO International live on-chain trade-finance pilot + August community buyback burning 33,000+ INJ
-- Risk: Ecosystem adoption lag — infrastructure milestones haven't yet driven proportional usage/TVL
-- Dedup: First INJ pick (not picked in last 7 days)
+**Token: PENGU** — HIGH conviction (8/10)
+- Price $0.00944 | −0.6% 24h / +50.8% 7d | mcap $593M | vol $286M | vol/mcap 0.48
+- Score: CG trending+2, vol/mc≥0.20+3, RS vs BTC/ETH+2, 7d>0+1 = **8/10**
+- Catalyst: LBank $500K locked earn campaign + Top-100 re-entry → $400M volume spike Aug 24-25, social momentum into BTC $80K backdrop
+- Risk: CEX campaign = pump-then-fade; no product catalyst; downtrend not broken per technicals
 
-**Market: "What price will Bitcoin hit in August 2026?" — $82,500 — HIGH — edge 14pp**
-- YES 45.7¢ / NO 54.4¢ | vol $1.08M on this tier | resolves Aug 31
-- Fair YES: ~60% — BTC at $78,784 needs only +4.7% in 7 days; NVIDIA Q2 beat (96% Polymarket probability) resolves tomorrow = risk-on continuation; Jackson Hole Aug 27-29 converging
-- Action: BUY YES $82,500
-- Risk: Post-NVIDIA crypto fade historically common; hawkish Warsh surprise at Jackson Hole
-- Dedup: New market — $75K tier was picked Aug 20 (that threshold has already resolved YES)
+**Market: ETH hits $2,700 in August** — HIGH conviction (edge ~12pp)
+- YES 38¢ / NO 62¢ | resolves Sep 1 | ~$6M total volume
+- Fair YES ~50% (ETH +28.5% 7d momentum + NVIDIA T+1 risk-on + Warsh JH crypto speech Aug 28)
+- Thesis: market underprices ETH's multi-catalyst window; BUY YES $2,700
 
-**Files modified:**
-- `.pending-notify/token-pick-2026-08-25.md` — notification staged for post-run delivery
-- `memory/logs/2026-08-25.md` — Token Pick section appended with DEDUP line
+**Files updated:**
+- `.pending-notify/token-pick-2026-08-26.md` — staged for delivery
+- `memory/logs/2026-08-26.md` — log entry + dedup line appended
+
+**Dedup gated tokens avoided:** HYPE (Aug 19), ENA (Aug 20), ZEC (Aug 21), PUMP (Aug 22), AAVE (Aug 24), INJ (Aug 25)
