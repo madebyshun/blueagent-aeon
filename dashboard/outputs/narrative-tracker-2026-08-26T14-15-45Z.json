@@ -1,0 +1,361 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-26"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_1",
+        "sep_1",
+        "section_2",
+        "sep_2",
+        "section_3",
+        "sep_3",
+        "section_4",
+        "sep_4",
+        "section_5"
+      ]
+    },
+    "section_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted_1",
+        "heading_1",
+        "stat_nvda",
+        "stat_near",
+        "text_1_detail",
+        "badges_1"
+      ]
+    },
+    "badge_demoted_1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "heading_1": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Compute/DePIN Peak → Fading",
+        "level": "h3"
+      }
+    },
+    "stat_nvda": {
+      "type": "Stat",
+      "props": {
+        "label": "NVDA",
+        "value": "-8%",
+        "trend": "down"
+      }
+    },
+    "stat_near": {
+      "type": "Stat",
+      "props": {
+        "label": "NEAR (Aug 25)",
+        "value": "-3.6%",
+        "trend": "down"
+      }
+    },
+    "text_1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Longest losing streak since 2022, $208. AI alts broadly bleeding T-0. Post-print tonight determines magnitude. FADE executing."
+      }
+    },
+    "badges_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade"
+      ]
+    },
+    "badge_fade": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "secondary"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted_2",
+        "heading_2",
+        "stat_zec",
+        "text_2_detail",
+        "badges_2"
+      ]
+    },
+    "badge_demoted_2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "heading_2": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC/Privacy Payments Peak ↑↑ → Fading ↓",
+        "level": "h3"
+      }
+    },
+    "stat_zec": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC",
+        "value": "-5.0%",
+        "trend": "down"
+      }
+    },
+    "text_2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Reversing after 2-day outperformance. Sector bid evaporating into NVDA risk-off tape."
+      }
+    },
+    "badges_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_major_2"
+      ]
+    },
+    "badge_major_2": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR",
+        "variant": "destructive"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted",
+        "heading_3",
+        "stat_hype",
+        "stats_3_btc",
+        "text_3_detail",
+        "badges_3"
+      ]
+    },
+    "badge_promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "default"
+      }
+    },
+    "heading_3": {
+      "type": "Heading",
+      "props": {
+        "text": "Perp DEX/Hyperliquid → ↑ RIDE",
+        "level": "h3"
+      }
+    },
+    "stat_hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "+4.0%",
+        "trend": "up"
+      }
+    },
+    "stats_3_btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_alts"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "-0.58%",
+        "trend": "down"
+      }
+    },
+    "stat_alts": {
+      "type": "Stat",
+      "props": {
+        "label": "Median alts",
+        "value": "-1.5%",
+        "trend": "down"
+      }
+    },
+    "text_3_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Holding while broader market sells. Selective strength in selloff = accumulation signal."
+      }
+    },
+    "badges_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_trending",
+        "badge_major_3"
+      ]
+    },
+    "badge_trending": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "default"
+      }
+    },
+    "badge_major_3": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR",
+        "variant": "default"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted_4",
+        "heading_4",
+        "text_4_detail",
+        "badges_4"
+      ]
+    },
+    "badge_demoted_4": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "heading_4": {
+      "type": "Heading",
+      "props": {
+        "text": "Solana Supply Shock FRONT-RUN → WATCH",
+        "level": "h3"
+      }
+    },
+    "text_4_detail": {
+      "type": "Text",
+      "props": {
+        "text": "SOL slipping ahead of PCE/Warsh. Governance vote unconfirmed. 2 sessions without follow-through."
+      }
+    },
+    "badges_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch"
+      ]
+    },
+    "badge_watch": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_velocity",
+        "heading_5",
+        "text_5_detail"
+      ]
+    },
+    "badge_velocity": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY UP",
+        "variant": "default"
+      }
+    },
+    "heading_5": {
+      "type": "Heading",
+      "props": {
+        "text": "Jackson Hole Policy ↑↑",
+        "level": "h3"
+      }
+    },
+    "text_5_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Theme confirmed: Financial"
+      }
+    }
+  }
+}
