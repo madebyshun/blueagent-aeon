@@ -1,0 +1,517 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-08-26"
+      },
+      "children": [
+        "heading-toppick",
+        "content-toppick",
+        "sep1",
+        "section-devtools",
+        "sep2",
+        "section-aiml",
+        "sep3",
+        "section-infra",
+        "sep4",
+        "footer"
+      ]
+    },
+    "heading-toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "content-toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "toppick-repo",
+        "toppick-desc",
+        "toppick-info"
+      ]
+    },
+    "toppick-repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "openai/codex",
+        "href": "https://github.com/openai/codex"
+      },
+      "children": []
+    },
+    "toppick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Same-day push brings OpenAI's Rust terminal coding agent back to the top — consistent 1k+ daily stars signals it has settled as infrastructure, not hype.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "toppick-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "toppick-stars",
+        "toppick-lang",
+        "toppick-status"
+      ]
+    },
+    "toppick-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "1,181",
+        "delta": "118.5k total"
+      },
+      "children": []
+    },
+    "toppick-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "toppick-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-devtools",
+        "devtools-codex",
+        "devtools-ponytail"
+      ]
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "devtools-codex": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-codex-link",
+        "devtools-codex-info",
+        "devtools-codex-desc"
+      ]
+    },
+    "devtools-codex-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "openai/codex",
+        "href": "https://github.com/openai/codex"
+      },
+      "children": []
+    },
+    "devtools-codex-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-codex-stars",
+        "devtools-codex-lang",
+        "devtools-codex-status"
+      ]
+    },
+    "devtools-codex-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "1,181",
+        "delta": "118.5k total"
+      },
+      "children": []
+    },
+    "devtools-codex-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "devtools-codex-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "devtools-codex-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pushed today — new build of OpenAI's terminal coding agent; 1k stars is still its daily floor.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "devtools-ponytail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-ponytail-link",
+        "devtools-ponytail-info",
+        "devtools-ponytail-desc"
+      ]
+    },
+    "devtools-ponytail-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DietrichGebert/ponytail",
+        "href": "https://github.com/DietrichGebert/ponytail"
+      },
+      "children": []
+    },
+    "devtools-ponytail-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-ponytail-stars",
+        "devtools-ponytail-lang",
+        "devtools-ponytail-status"
+      ]
+    },
+    "devtools-ponytail-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "982",
+        "delta": "111.7k total"
+      },
+      "children": []
+    },
+    "devtools-ponytail-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "devtools-ponytail-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "devtools-ponytail-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Prompt scaffolding that makes agents default to minimal, readable changes over clever solutions.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-aiml",
+        "aiml-obsidian",
+        "aiml-marin"
+      ]
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "aiml-obsidian": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-obsidian-link",
+        "aiml-obsidian-info",
+        "aiml-obsidian-desc"
+      ]
+    },
+    "aiml-obsidian-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AgriciDaniel/claude-obsidian",
+        "href": "https://github.com/AgriciDaniel/claude-obsidian"
+      },
+      "children": []
+    },
+    "aiml-obsidian-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml-obsidian-stars",
+        "aiml-obsidian-lang",
+        "aiml-obsidian-status"
+      ]
+    },
+    "aiml-obsidian-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "813",
+        "delta": "13k total"
+      },
+      "children": []
+    },
+    "aiml-obsidian-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "aiml-obsidian-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "aiml-obsidian-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Turns Obsidian into a Claude Code-powered second brain — notes auto-link, index, and query via agents.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "aiml-marin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-marin-link",
+        "aiml-marin-info",
+        "aiml-marin-desc"
+      ]
+    },
+    "aiml-marin-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "marin-community/marin",
+        "href": "https://github.com/marin-community/marin"
+      },
+      "children": []
+    },
+    "aiml-marin-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml-marin-stars",
+        "aiml-marin-lang",
+        "aiml-marin-status"
+      ]
+    },
+    "aiml-marin-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "231",
+        "delta": "2.3k total"
+      },
+      "children": []
+    },
+    "aiml-marin-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "aiml-marin-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "aiml-marin-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Open framework for foundation model R&D — pushed today, suggesting a new checkpoint or dataset release.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-infra",
+        "infra-hister"
+      ]
+    },
+    "heading-infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "infra-hister": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra-hister-link",
+        "infra-hister-info",
+        "infra-hister-desc"
+      ]
+    },
+    "infra-hister-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "asciimoo/hister",
+        "href": "https://github.com/asciimoo/hister"
+      },
+      "children": []
+    },
+    "infra-hister-info": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "infra-hister-stars",
+        "infra-hister-lang",
+        "infra-hister-status"
+      ]
+    },
+    "infra-hister-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "98",
+        "delta": "3k total"
+      },
+      "children": []
+    },
+    "infra-hister-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "infra-hister-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "infra-hister-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted full-text search engine in pure Go — no cloud, no auth, runs anywhere offline.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/16",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
