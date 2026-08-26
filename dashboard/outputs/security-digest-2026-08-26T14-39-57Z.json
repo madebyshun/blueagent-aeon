@@ -1,0 +1,1012 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-08-26"
+      },
+      "children": [
+        "verdict-text",
+        "sep1",
+        "patch-today-heading",
+        "cve-60004",
+        "cve-45018",
+        "cve-55546",
+        "sep2",
+        "patch-week-heading",
+        "cve-54523",
+        "cve-55536",
+        "cve-55585",
+        "cve-55596",
+        "cve-45019",
+        "sep3",
+        "monitor-heading",
+        "cve-55677",
+        "cve-55092",
+        "ghsa-vwf3"
+      ]
+    },
+    "verdict-text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 1 actively exploited (KEV), 2 PoC-confirmed RCE — patch today. 5 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve-60004": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-60004-header",
+        "cve-60004-meta",
+        "cve-60004-desc",
+        "cve-60004-action"
+      ]
+    },
+    "cve-60004-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-60004-link",
+        "cve-60004-product"
+      ]
+    },
+    "cve-60004-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-60004",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      }
+    },
+    "cve-60004-product": {
+      "type": "Text",
+      "props": {
+        "text": "Gitea",
+        "variant": "body"
+      }
+    },
+    "cve-60004-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-60004-kev",
+        "cve-60004-cvss",
+        "cve-60004-epss",
+        "cve-60004-due"
+      ]
+    },
+    "cve-60004-kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-08-25",
+        "variant": "destructive"
+      }
+    },
+    "cve-60004-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS —",
+        "variant": "default"
+      }
+    },
+    "cve-60004-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "default"
+      }
+    },
+    "cve-60004-due": {
+      "type": "Badge",
+      "props": {
+        "text": "Due 2026-08-28",
+        "variant": "destructive"
+      }
+    },
+    "cve-60004-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Code injection via Git hooks: repo write-access → shell as Gitea service account. Exploited in wild.",
+        "variant": "body"
+      }
+    },
+    "cve-60004-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Apply BOD 26-04 vendor mitigations or take offline today.",
+        "type": "error"
+      }
+    },
+    "cve-45018": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-45018-header",
+        "cve-45018-meta",
+        "cve-45018-desc",
+        "cve-45018-action"
+      ]
+    },
+    "cve-45018-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-45018-link",
+        "cve-45018-product"
+      ]
+    },
+    "cve-45018-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-45018",
+        "href": "https://github.com/advisories/GHSA-w3fx-mc44-mf6j"
+      }
+    },
+    "cve-45018-product": {
+      "type": "Text",
+      "props": {
+        "text": "chainlit (pip)",
+        "variant": "body"
+      }
+    },
+    "cve-45018-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-45018-cvss",
+        "cve-45018-epss",
+        "cve-45018-poc"
+      ]
+    },
+    "cve-45018-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8",
+        "variant": "destructive"
+      }
+    },
+    "cve-45018-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "default"
+      }
+    },
+    "cve-45018-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "PoC public",
+        "variant": "secondary"
+      }
+    },
+    "cve-45018-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated command injection via /mcp endpoint — npx args unvalidated → RCE as Chainlit process. Requires MCP enabled.",
+        "variant": "body"
+      }
+    },
+    "cve-45018-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade chainlit to ≥2.12.0 today.",
+        "type": "error"
+      }
+    },
+    "cve-55546": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55546-header",
+        "cve-55546-meta",
+        "cve-55546-desc",
+        "cve-55546-action"
+      ]
+    },
+    "cve-55546-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55546-link",
+        "cve-55546-product"
+      ]
+    },
+    "cve-55546-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-55546",
+        "href": "https://github.com/advisories/GHSA-mw6r-2hvm-4rp2"
+      }
+    },
+    "cve-55546-product": {
+      "type": "Text",
+      "props": {
+        "text": "qwed-mcp (pip)",
+        "variant": "body"
+      }
+    },
+    "cve-55546-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55546-cvss",
+        "cve-55546-epss",
+        "cve-55546-poc"
+      ]
+    },
+    "cve-55546-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8",
+        "variant": "destructive"
+      }
+    },
+    "cve-55546-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "default"
+      }
+    },
+    "cve-55546-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "PoC public",
+        "variant": "secondary"
+      }
+    },
+    "cve-55546-desc": {
+      "type": "Text",
+      "props": {
+        "text": "parse_expr() passes user input to Python eval with unrestricted builtins → unauthenticated RCE via __import__('os').",
+        "variant": "body"
+      }
+    },
+    "cve-55546-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade qwed-mcp to ≥0.2.1 today.",
+        "type": "error"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "cve-54523": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-54523-header",
+        "cve-54523-meta",
+        "cve-54523-desc",
+        "cve-54523-action"
+      ]
+    },
+    "cve-54523-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-54523-link",
+        "cve-54523-product"
+      ]
+    },
+    "cve-54523-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-54523",
+        "href": "https://github.com/advisories/GHSA-79gf-7frw-68m9"
+      }
+    },
+    "cve-54523-product": {
+      "type": "Text",
+      "props": {
+        "text": "kyverno (Go)",
+        "variant": "body"
+      }
+    },
+    "cve-54523-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-54523-cvss",
+        "cve-54523-epss",
+        "cve-54523-patch"
+      ]
+    },
+    "cve-54523-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.6",
+        "variant": "destructive"
+      }
+    },
+    "cve-54523-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "default"
+      }
+    },
+    "cve-54523-patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch yet",
+        "variant": "secondary"
+      }
+    },
+    "cve-54523-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unvalidated namespace arg in NamespacedGeneratingPolicy → background controller creates RoleBindings in kube-system. Affects 1.18.0–1.18.1.",
+        "variant": "body"
+      }
+    },
+    "cve-54523-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Restrict ClusterRole; pin <1.18.0; track upstream patch.",
+        "type": "warning"
+      }
+    },
+    "cve-55536": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55536-header",
+        "cve-55536-meta",
+        "cve-55536-desc",
+        "cve-55536-action"
+      ]
+    },
+    "cve-55536-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55536-link",
+        "cve-55536-product"
+      ]
+    },
+    "cve-55536-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-55536",
+        "href": "https://github.com/advisories/GHSA-6g6r-q6gw-w8fg"
+      }
+    },
+    "cve-55536-product": {
+      "type": "Text",
+      "props": {
+        "text": "PraisonAI (pip)",
+        "variant": "body"
+      }
+    },
+    "cve-55536-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55536-cvss",
+        "cve-55536-epss",
+        "cve-55536-patch"
+      ]
+    },
+    "cve-55536-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.1",
+        "variant": "destructive"
+      }
+    },
+    "cve-55536-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "default"
+      }
+    },
+    "cve-55536-patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch yet",
+        "variant": "secondary"
+      }
+    },
+    "cve-55536-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Patch bypass of CVE-2026-40289: unanchored WebSocket origin regex → CSRF on MCP HTTP server. Affects <4.6.58.",
+        "variant": "body"
+      }
+    },
+    "cve-55536-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Firewall or disable PraisonAI MCP WebSocket until patch lands.",
+        "type": "warning"
+      }
+    },
+    "cve-55585": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55585-header",
+        "cve-55585-meta",
+        "cve-55585-desc",
+        "cve-55585-action"
+      ]
+    },
+    "cve-55585-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55585-link",
+        "cve-55585-product"
+      ]
+    },
+    "cve-55585-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-55585",
+        "href": "https://github.com/advisories/GHSA-q27q-98j4-9pfv"
+      }
+    },
+    "cve-55585-product": {
+      "type": "Text",
+      "props": {
+        "text": "qwed (pip)",
+        "variant": "body"
+      }
+    },
+    "cve-55585-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55585-cvss",
+        "cve-55585-epss",
+        "cve-55585-patch"
+      ]
+    },
+    "cve-55585-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8",
+        "variant": "destructive"
+      }
+    },
+    "cve-55585-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "default"
+      }
+    },
+    "cve-55585-patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch yet",
+        "variant": "secondary"
+      }
+    },
+    "cve-55585-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Same SymPy parse_expr root cause as CVE-2026-55546 — authenticated path, different package.",
+        "variant": "body"
+      }
+    },
+    "cve-55585-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Sandbox or remove qwed until patched.",
+        "type": "warning"
+      }
+    },
+    "cve-55596": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55596-header",
+        "cve-55596-meta",
+        "cve-55596-desc",
+        "cve-55596-action"
+      ]
+    },
+    "cve-55596-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55596-link",
+        "cve-55596-product"
+      ]
+    },
+    "cve-55596-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-55596",
+        "href": "https://github.com/advisories/GHSA-qj6x-xx2h-8hvv"
+      }
+    },
+    "cve-55596-product": {
+      "type": "Text",
+      "props": {
+        "text": "@platejs/media (npm)",
+        "variant": "body"
+      }
+    },
+    "cve-55596-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55596-cvss",
+        "cve-55596-epss",
+        "cve-55596-patch"
+      ]
+    },
+    "cve-55596-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.7",
+        "variant": "destructive"
+      }
+    },
+    "cve-55596-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.43%",
+        "variant": "default"
+      }
+    },
+    "cve-55596-patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch yet",
+        "variant": "secondary"
+      }
+    },
+    "cve-55596-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Embed provider metadata bypasses URL sanitization → iframe JS execution. Plate editor XSS.",
+        "variant": "body"
+      }
+    },
+    "cve-55596-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Disable media embeds or block untrusted provider metadata until fix lands.",
+        "type": "warning"
+      }
+    },
+    "cve-45019": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-45019-header",
+        "cve-45019-meta",
+        "cve-45019-desc",
+        "cve-45019-action"
+      ]
+    },
+    "cve-45019-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-45019-link",
+        "cve-45019-product"
+      ]
+    },
+    "cve-45019-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-45019",
+        "href": "https://github.com/advisories/GHSA-hvfh-5mj3-5f3j"
+      }
+    },
+    "cve-45019-product": {
+      "type": "Text",
+      "props": {
+        "text": "chainlit (pip)",
+        "variant": "body"
+      }
+    },
+    "cve-45019-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-45019-cvss",
+        "cve-45019-epss",
+        "cve-45019-patch"
+      ]
+    },
+    "cve-45019-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.2",
+        "variant": "secondary"
+      }
+    },
+    "cve-45019-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "default"
+      }
+    },
+    "cve-45019-patch": {
+      "type": "Badge",
+      "props": {
+        "text": "fix: 2.12.0",
+        "variant": "secondary"
+      }
+    },
+    "cve-45019-desc": {
+      "type": "Text",
+      "props": {
+        "text": "SSRF via MCP SSE/streamable-http → unauthenticated internal network access. Companion to CVE-2026-45018.",
+        "variant": "body"
+      }
+    },
+    "cve-45019-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade chainlit to ≥2.12.0 (same fix as TODAY action).",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "cve-55677": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55677-header",
+        "cve-55677-meta",
+        "cve-55677-desc",
+        "cve-55677-action"
+      ]
+    },
+    "cve-55677-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55677-link",
+        "cve-55677-product"
+      ]
+    },
+    "cve-55677-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-55677",
+        "href": "https://github.com/advisories/GHSA-vfp3-v2gw-7wfq"
+      }
+    },
+    "cve-55677-product": {
+      "type": "Text",
+      "props": {
+        "text": "echo/v5 (Go)",
+        "variant": "body"
+      }
+    },
+    "cve-55677-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55677-cvss",
+        "cve-55677-epss",
+        "cve-55677-patch"
+      ]
+    },
+    "cve-55677-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "secondary"
+      }
+    },
+    "cve-55677-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.43%",
+        "variant": "default"
+      }
+    },
+    "cve-55677-patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix yet",
+        "variant": "secondary"
+      }
+    },
+    "cve-55677-desc": {
+      "type": "Text",
+      "props": {
+        "text": "%2F-encoded slash bypasses route middleware → exposes static paths behind auth.",
+        "variant": "body"
+      }
+    },
+    "cve-55677-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Watch for patch; avoid sensitive static routes under echo/v5.",
+        "type": "info"
+      }
+    },
+    "cve-55092": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55092-header",
+        "cve-55092-meta",
+        "cve-55092-desc",
+        "cve-55092-action"
+      ]
+    },
+    "cve-55092-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55092-link",
+        "cve-55092-product"
+      ]
+    },
+    "cve-55092-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-55092",
+        "href": "https://github.com/advisories/GHSA-mcj4-mphf-j9ff"
+      }
+    },
+    "cve-55092-product": {
+      "type": "Text",
+      "props": {
+        "text": "trivy (Go)",
+        "variant": "body"
+      }
+    },
+    "cve-55092-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-55092-cvss",
+        "cve-55092-epss",
+        "cve-55092-patch"
+      ]
+    },
+    "cve-55092-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "secondary"
+      }
+    },
+    "cve-55092-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.44%",
+        "variant": "default"
+      }
+    },
+    "cve-55092-patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix yet",
+        "variant": "secondary"
+      }
+    },
+    "cve-55092-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal via crafted vuln DB or artifacts → write outside install dir.",
+        "variant": "body"
+      }
+    },
+    "cve-55092-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Use only trusted DB mirrors; watch upstream.",
+        "type": "info"
+      }
+    },
+    "ghsa-vwf3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-vwf3-header",
+        "ghsa-vwf3-meta",
+        "ghsa-vwf3-desc",
+        "ghsa-vwf3-action"
+      ]
+    },
+    "ghsa-vwf3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-vwf3-link",
+        "ghsa-vwf3-product"
+      ]
+    },
+    "ghsa-vwf3-link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-vwf3-4xxj-qg6h",
+        "href": "https://github.com/advisories/GHSA-vwf3-4xxj-qg6h"
+      }
+    },
+    "ghsa-vwf3-product": {
+      "type": "Text",
+      "props": {
+        "text": "mcp-contextforge-gateway (pip)",
+        "variant": "body"
+      }
+    },
+    "ghsa-vwf3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-vwf3-cvss",
+        "ghsa-vwf3-epss",
+        "ghsa-vwf3-patch"
+      ]
+    },
+    "ghsa-vwf3-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "no CVSS",
+        "variant": "default"
+      }
+    },
+    "ghsa-vwf3-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "default"
+      }
+    },
+    "ghsa-vwf3-patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix yet",
+        "variant": "secondary"
+      }
+    },
+    "ghsa-vwf3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unsandboxed Jinja2 in PromptService._render_template → SSTI/RCE via untrusted prompt input.",
+        "variant": "body"
+      }
+    },
+    "ghsa-vwf3-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Do not expose to untrusted input; watch for patched release.",
+        "type": "info"
+      }
+    }
+  }
+}
