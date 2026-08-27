@@ -1,0 +1,536 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-08-27"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "alert-verdict",
+        "sep-1",
+        "heading-patch-today",
+        "stack-patch-today",
+        "sep-2",
+        "heading-patch-week",
+        "stack-patch-week",
+        "sep-3",
+        "heading-monitor",
+        "stack-monitor"
+      ]
+    },
+    "alert-verdict": {
+      "type": "Alert",
+      "props": {
+        "title": "Verdict",
+        "message": "3 actively exploited (all CISA KEV today), 5 to patch this week (incl. 1 unpatched CVSS 9.8 RCE + 1 supply-chain compromise), 2 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "type": "warning"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-patch-today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "stack-patch-today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve-2023-49105",
+        "cve-2026-53362",
+        "cve-2026-66384"
+      ]
+    },
+    "cve-2023-49105": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-2023-49105",
+        "text-2023-49105-meta",
+        "text-2023-49105-desc",
+        "text-2023-49105-rem"
+      ]
+    },
+    "badge-2023-49105": {
+      "type": "Badge",
+      "props": {
+        "text": "CVE-2023-49105",
+        "variant": "destructive"
+      }
+    },
+    "text-2023-49105-meta": {
+      "type": "Text",
+      "props": {
+        "text": "ownCloud · KEV 2026-08-27 · due 2026-08-30 · EPSS 0.111 (95th pct) · CVSS ~9.8",
+        "variant": "caption"
+      }
+    },
+    "text-2023-49105-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated file access/delete if victim username known and no signing-key set. Exploited in the wild."
+      }
+    },
+    "text-2023-49105-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply BOD 26-04 vendor mitigations; discontinue if unavailable.",
+        "variant": "muted"
+      }
+    },
+    "cve-2026-53362": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-2026-53362",
+        "text-2026-53362-meta",
+        "text-2026-53362-desc",
+        "text-2026-53362-rem"
+      ]
+    },
+    "badge-2026-53362": {
+      "type": "Badge",
+      "props": {
+        "text": "CVE-2026-53362",
+        "variant": "destructive"
+      }
+    },
+    "text-2026-53362-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Linux Kernel IPv6 · KEV 2026-08-27 · due 2026-08-30 · EPSS 0.003",
+        "variant": "caption"
+      }
+    },
+    "text-2026-53362-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Privilege escalation via IPv6 networking subsystem — RHEL, SUSE, upstream."
+      }
+    },
+    "text-2026-53362-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Red Hat/SUSE kernel patches and reboot today.",
+        "variant": "muted"
+      }
+    },
+    "cve-2026-66384": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-2026-66384",
+        "text-2026-66384-meta",
+        "text-2026-66384-desc",
+        "text-2026-66384-rem"
+      ]
+    },
+    "badge-2026-66384": {
+      "type": "Badge",
+      "props": {
+        "text": "CVE-2026-66384",
+        "variant": "destructive"
+      }
+    },
+    "text-2026-66384-meta": {
+      "type": "Text",
+      "props": {
+        "text": "JFrog Artifactory · KEV 2026-08-27 · due 2026-09-10 · EPSS 0.003",
+        "variant": "caption"
+      }
+    },
+    "text-2026-66384-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Authenticated users write outside Docker cache path under remote-repo conditions."
+      }
+    },
+    "text-2026-66384-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ patch Artifactory to latest per BOD 26-04.",
+        "variant": "muted"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-patch-week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "stack-patch-week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve-2026-54569",
+        "ghsa-93qj",
+        "cve-2026-55640",
+        "cve-2026-54606",
+        "ghsa-mf7q"
+      ]
+    },
+    "cve-2026-54569": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-2026-54569",
+        "text-2026-54569-meta",
+        "text-2026-54569-desc",
+        "text-2026-54569-rem"
+      ]
+    },
+    "badge-2026-54569": {
+      "type": "Badge",
+      "props": {
+        "text": "GHSA-jrw6-7x4q-w25j / CVE-2026-54569",
+        "variant": "destructive"
+      }
+    },
+    "text-2026-54569-meta": {
+      "type": "Text",
+      "props": {
+        "text": "senaite.core (pip) · CVSS 9.8 · EPSS 0.008 · PoC published · NO FIX YET",
+        "variant": "caption"
+      }
+    },
+    "text-2026-54569-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated RCE: eval() in /@@API/update runs arbitrary Python on default Plone install. Full host compromise."
+      }
+    },
+    "text-2026-54569-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ disable /@@API routes or block anonymous access until patch available.",
+        "variant": "muted"
+      }
+    },
+    "ghsa-93qj": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-93qj",
+        "text-93qj-meta",
+        "text-93qj-desc",
+        "stack-93qj-rem"
+      ]
+    },
+    "badge-93qj": {
+      "type": "Badge",
+      "props": {
+        "text": "GHSA-93qj-5q5v-3c2h",
+        "variant": "destructive"
+      }
+    },
+    "text-93qj-meta": {
+      "type": "Text",
+      "props": {
+        "text": "pantheon-agents (pip) · supply-chain · PyPI 0.6.1–0.6.2 trojanized · fix via git",
+        "variant": "caption"
+      }
+    },
+    "text-93qj-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Hades campaign: compromised PyPI token; wheel exfiltrates env vars, cloud creds, SSH keys on import."
+      }
+    },
+    "stack-93qj-rem": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "text-93qj-rem-prefix",
+        "link-pantheon-repo"
+      ]
+    },
+    "text-93qj-rem-prefix": {
+      "type": "Text",
+      "props": {
+        "text": "→ pip uninstall; rotate all credentials; reinstall from",
+        "variant": "muted"
+      }
+    },
+    "link-pantheon-repo": {
+      "type": "Link",
+      "props": {
+        "label": "github.com/aristoteleo/PantheonOS",
+        "href": "https://github.com/aristoteleo/PantheonOS"
+      }
+    },
+    "cve-2026-55640": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-2026-55640",
+        "text-2026-55640-meta",
+        "text-2026-55640-desc",
+        "text-2026-55640-rem"
+      ]
+    },
+    "badge-2026-55640": {
+      "type": "Badge",
+      "props": {
+        "text": "GHSA-8vh3-g2qg-2h2c / CVE-2026-55640",
+        "variant": "destructive"
+      }
+    },
+    "text-2026-55640-meta": {
+      "type": "Text",
+      "props": {
+        "text": "nextcloud-mcp-server (pip) · CVSS 9.1 · EPSS 0.005 · fix >=0.117.2",
+        "variant": "caption"
+      }
+    },
+    "text-2026-55640-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated webhook endpoint deletes any user's vector embeddings (WEBHOOK_SECRET unset by default)."
+      }
+    },
+    "text-2026-55640-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade nextcloud-mcp-server to >=0.117.2.",
+        "variant": "muted"
+      }
+    },
+    "cve-2026-54606": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-2026-54606",
+        "text-2026-54606-meta",
+        "text-2026-54606-desc",
+        "text-2026-54606-rem"
+      ]
+    },
+    "badge-2026-54606": {
+      "type": "Badge",
+      "props": {
+        "text": "GHSA-w93q-cq9w-58p7 / CVE-2026-54606",
+        "variant": "destructive"
+      }
+    },
+    "text-2026-54606-meta": {
+      "type": "Text",
+      "props": {
+        "text": "suneditor (npm) · CVSS v4 8.5 · fix >=3.1.4",
+        "variant": "caption"
+      }
+    },
+    "text-2026-54606-desc": {
+      "type": "Text",
+      "props": {
+        "text": "DOM XSS via Embed plugin: crafted iframe+script bypasses sanitizer, executes attacker JS in editor context."
+      }
+    },
+    "text-2026-54606-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade suneditor to >=3.1.4.",
+        "variant": "muted"
+      }
+    },
+    "ghsa-mf7q": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-mf7q",
+        "text-mf7q-meta",
+        "text-mf7q-desc",
+        "text-mf7q-rem"
+      ]
+    },
+    "badge-mf7q": {
+      "type": "Badge",
+      "props": {
+        "text": "GHSA-mf7q-r4rv-jv94",
+        "variant": "destructive"
+      }
+    },
+    "text-mf7q-meta": {
+      "type": "Text",
+      "props": {
+        "text": "crossplane-runtime (go) · CVSS v4 8.2 · fix >=2.3.3",
+        "variant": "caption"
+      }
+    },
+    "text-mf7q-desc": {
+      "type": "Text",
+      "props": {
+        "text": "TOCTOU: cosign verifies one tag, installer fetches different one from adversarial OCI registry. Signature bypass."
+      }
+    },
+    "text-mf7q-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade crossplane-runtime to >=2.3.3 (v2.3) or >=2.4.0-rc.1 (v2.4); use digest pins.",
+        "variant": "muted"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "stack-monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa-2wxc",
+        "ghsa-w5fv"
+      ]
+    },
+    "ghsa-2wxc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-2wxc",
+        "text-2wxc-meta",
+        "text-2wxc-desc",
+        "text-2wxc-rem"
+      ]
+    },
+    "badge-2wxc": {
+      "type": "Badge",
+      "props": {
+        "text": "GHSA-2wxc-x7rj-hg8f / CVE-2026-54591",
+        "variant": "outline"
+      }
+    },
+    "text-2wxc-meta": {
+      "type": "Text",
+      "props": {
+        "text": "asyncssh (pip) · CVSS 8.1 · fix >=2.23.1",
+        "variant": "caption"
+      }
+    },
+    "text-2wxc-desc": {
+      "type": "Text",
+      "props": {
+        "text": "SCP path traversal: malicious SSH server overwrites ~/.bashrc or ~/.ssh/authorized_keys for RCE chain."
+      }
+    },
+    "text-2wxc-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ track; upgrade asyncssh to >=2.23.1.",
+        "variant": "muted"
+      }
+    },
+    "ghsa-w5fv": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-w5fv",
+        "text-w5fv-meta",
+        "text-w5fv-desc",
+        "text-w5fv-rem"
+      ]
+    },
+    "badge-w5fv": {
+      "type": "Badge",
+      "props": {
+        "text": "GHSA-w5fv-7x5q-g8qp / CVE-2026-54563",
+        "variant": "outline"
+      }
+    },
+    "text-w5fv-meta": {
+      "type": "Text",
+      "props": {
+        "text": "cloudreve v3 (go) · CVSS 7.1 · no fix for v3",
+        "variant": "caption"
+      }
+    },
+    "text-w5fv-desc": {
+      "type": "Text",
+      "props": {
+        "text": "WebDAV scoped credential escapes root via %2e%2e; full owner-namespace read/write."
+      }
+    },
+    "text-w5fv-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ migrate to Cloudreve v4 >=4.16.1 or restrict DAV accounts to full-namespace scope.",
+        "variant": "muted"
+      }
+    }
+  }
+}

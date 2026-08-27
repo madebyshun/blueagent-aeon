@@ -1,46 +1,45 @@
-*Security Digest — 2026-08-26*
-Verdict: 1 actively exploited (KEV), 2 PoC-confirmed RCE — patch today. 5 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-08-27*
+Verdict: 3 actively exploited (all CISA KEV today), 5 to patch this week (incl. 1 unpatched CVSS 9.8 RCE + 1 supply-chain compromise), 2 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- [CVE-2026-60004](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Gitea · KEV 2026-08-25 · CVSS — · EPSS n/a
-  Code injection via Git hooks: repo write-access → shell as Gitea service account. Exploited in wild. Due 2026-08-28.
-  → apply BOD 26-04 vendor mitigations or take offline today.
+- CVE-2023-49105 — ownCloud · KEV 2026-08-27 · due 2026-08-30 · EPSS 0.111 (95th pct) · CVSS ~9.8
+  Unauthenticated file access/delete if victim username known and no signing-key set. Exploited in the wild.
+  → apply BOD 26-04 vendor mitigations; discontinue if unavailable.
 
-- [CVE-2026-45018](https://github.com/advisories/GHSA-w3fx-mc44-mf6j) — chainlit (pip) · CVSS 9.8 · EPSS n/a · PoC public
-  Unauthenticated command injection via /mcp endpoint — npx args unvalidated → RCE as Chainlit process. Requires MCP enabled.
-  → upgrade chainlit to ≥2.12.0 today.
+- CVE-2026-53362 — Linux Kernel IPv6 · KEV 2026-08-27 · due 2026-08-30 · EPSS 0.003
+  Privilege escalation via IPv6 networking subsystem — RHEL, SUSE, upstream.
+  → apply Red Hat/SUSE kernel patches and reboot today.
 
-- [CVE-2026-55546](https://github.com/advisories/GHSA-mw6r-2hvm-4rp2) — qwed-mcp (pip) · CVSS 9.8 · EPSS n/a · PoC public
-  parse_expr() passes user input to Python eval with unrestricted builtins → unauthenticated RCE via __import__('os').
-  → upgrade qwed-mcp to ≥0.2.1 today.
+- CVE-2026-66384 — JFrog Artifactory · KEV 2026-08-27 · due 2026-09-10 · EPSS 0.003
+  Authenticated users write outside Docker cache path under remote-repo conditions.
+  → patch Artifactory to latest per BOD 26-04.
 
 *PATCH THIS WEEK*
-- [CVE-2026-54523](https://github.com/advisories/GHSA-79gf-7frw-68m9) — kyverno (Go) · CVSS 9.6 · EPSS n/a · no patch yet
-  Unvalidated namespace arg in NamespacedGeneratingPolicy → background controller creates RoleBindings in kube-system. Affects 1.18.0–1.18.1.
-  → restrict ClusterRole; pin <1.18.0; track upstream patch.
+- GHSA-jrw6-7x4q-w25j / CVE-2026-54569 — senaite.core (pip) · CVSS 9.8 · EPSS 0.008 · PoC published · NO FIX YET
+  Unauthenticated RCE: eval() in /@@API/update runs arbitrary Python on default Plone install. Full host compromise.
+  → disable /@@API routes or block anonymous access until patch available.
 
-- [CVE-2026-55536](https://github.com/advisories/GHSA-6g6r-q6gw-w8fg) — PraisonAI (pip) · CVSS 9.1 · EPSS n/a · no patch yet
-  Patch bypass of CVE-2026-40289: unanchored WebSocket origin regex → CSRF on MCP HTTP server. Affects <4.6.58.
-  → firewall or disable PraisonAI MCP WebSocket until patch lands.
+- GHSA-93qj-5q5v-3c2h — pantheon-agents (pip) · supply-chain · PyPI 0.6.1–0.6.2 trojanized · fix via git
+  Hades campaign: compromised PyPI token; wheel exfiltrates env vars, cloud creds, SSH keys on import.
+  → pip uninstall; rotate all credentials; reinstall from github.com/aristoteleo/PantheonOS.
 
-- [CVE-2026-55585](https://github.com/advisories/GHSA-q27q-98j4-9pfv) — qwed (pip) · CVSS 8.8 · EPSS n/a · no patch yet
-  Same SymPy parse_expr root cause as CVE-2026-55546 — authenticated path, different package.
-  → sandbox or remove qwed until patched.
+- GHSA-8vh3-g2qg-2h2c / CVE-2026-55640 — nextcloud-mcp-server (pip) · CVSS 9.1 · EPSS 0.005 · fix >=0.117.2
+  Unauthenticated webhook endpoint deletes any user's vector embeddings (WEBHOOK_SECRET unset by default).
+  → upgrade nextcloud-mcp-server to >=0.117.2.
 
-- [CVE-2026-55596](https://github.com/advisories/GHSA-qj6x-xx2h-8hvv) — @platejs/media (npm) · CVSS 8.7 · EPSS 0.43% · no patch yet
-  Embed provider metadata bypasses URL sanitization → iframe JS execution. Plate editor XSS.
-  → disable media embeds or block untrusted provider metadata until fix lands.
+- GHSA-w93q-cq9w-58p7 / CVE-2026-54606 — suneditor (npm) · CVSS v4 8.5 · fix >=3.1.4
+  DOM XSS via Embed plugin: crafted iframe+script bypasses sanitizer, executes attacker JS in editor context.
+  → upgrade suneditor to >=3.1.4.
 
-- [CVE-2026-45019](https://github.com/advisories/GHSA-hvfh-5mj3-5f3j) — chainlit (pip) · CVSS 7.2 · EPSS n/a · fix: 2.12.0
-  SSRF via MCP SSE/streamable-http → unauthenticated internal network access. Companion to CVE-2026-45018.
-  → upgrade chainlit to ≥2.12.0 (same fix as TODAY action).
+- GHSA-mf7q-r4rv-jv94 — crossplane-runtime (go) · CVSS v4 8.2 · fix >=2.3.3
+  TOCTOU: cosign verifies one tag, installer fetches different one from adversarial OCI registry. Signature bypass.
+  → upgrade crossplane-runtime to >=2.3.3 (v2.3) or >=2.4.0-rc.1 (v2.4); use digest pins.
 
 *MONITOR*
-- [CVE-2026-55677](https://github.com/advisories/GHSA-vfp3-v2gw-7wfq) — echo/v5 (Go) · CVSS 7.5 · EPSS 0.43% · no fix yet
-  %2F-encoded slash bypasses route middleware → exposes static paths behind auth. → watch for patch; avoid sensitive static routes under echo/v5.
+- GHSA-2wxc-x7rj-hg8f / CVE-2026-54591 — asyncssh (pip) · CVSS 8.1 · fix >=2.23.1
+  SCP path traversal: malicious SSH server overwrites ~/.bashrc or ~/.ssh/authorized_keys for RCE chain.
+  → track; upgrade asyncssh to >=2.23.1.
 
-- [CVE-2026-55092](https://github.com/advisories/GHSA-mcj4-mphf-j9ff) — trivy (Go) · CVSS 7.5 · EPSS 0.44% · no fix yet
-  Path traversal via crafted vuln DB or artifacts → write outside install dir. → use only trusted DB mirrors; watch upstream.
-
-- [GHSA-vwf3-4xxj-qg6h](https://github.com/advisories/GHSA-vwf3-4xxj-qg6h) — mcp-contextforge-gateway (pip) · no CVSS · EPSS n/a · no fix yet
-  Unsandboxed Jinja2 in PromptService._render_template → SSTI/RCE via untrusted prompt input. → do not expose to untrusted input; watch for patched release.
+- GHSA-w5fv-7x5q-g8qp / CVE-2026-54563 — cloudreve v3 (go) · CVSS 7.1 · no fix for v3
+  WebDAV scoped credential escapes root via %2e%2e; full owner-namespace read/write.
+  → migrate to Cloudreve v4 >=4.16.1 or restrict DAV accounts to full-namespace scope.
