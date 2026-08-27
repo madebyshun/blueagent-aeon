@@ -1,0 +1,430 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-08-27"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_overview",
+        "sep_1",
+        "heading_winners",
+        "table_winners",
+        "sep_2",
+        "heading_losers",
+        "table_losers",
+        "sep_3",
+        "heading_trending",
+        "table_trending",
+        "sep_4",
+        "heading_notable",
+        "stack_notable"
+      ]
+    },
+    "text_overview": {
+      "type": "Text",
+      "props": {
+        "text": "Risk-on across the board — ~85% of non-stable top-100 coins green, median 24h ≈ +3.1%; BTC +1.7% at $80K, broad recovery across L1s, DeFi, and memes.",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table_winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap/Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "BEAM (Beam)",
+            "$0.001800",
+            "+25.1%",
+            "+26.9%",
+            "+2.0%",
+            "$91.6M / #283",
+            "BREAKOUT"
+          ],
+          [
+            "2",
+            "ENA (Ethena)",
+            "$0.1721",
+            "+23.7%",
+            "+56.0%",
+            "+0.3%",
+            "$1.78B / #53",
+            "BREAKOUT, TRENDING+UP"
+          ],
+          [
+            "3",
+            "KMNO (Kamino)",
+            "$0.03000",
+            "+18.8%",
+            "+45.3%",
+            "−0.7%",
+            "$21.2M / #195",
+            "BREAKOUT"
+          ],
+          [
+            "4",
+            "VET (VeChain)",
+            "$0.007040",
+            "+16.6%",
+            "+39.0%",
+            "−2.0%",
+            "$75.3M / #94",
+            "BREAKOUT, TRENDING+UP"
+          ],
+          [
+            "5",
+            "TRUMP (Official Trump)",
+            "$2.57",
+            "+13.3%",
+            "+56.1%",
+            "+0.8%",
+            "$709M / #91",
+            ""
+          ],
+          [
+            "6",
+            "LIT (Lighter)",
+            "$3.75",
+            "+11.9%",
+            "+41.0%",
+            "+0.4%",
+            "$81.3M / #73",
+            "TRENDING+UP"
+          ],
+          [
+            "7",
+            "JUP (Jupiter)",
+            "$0.2377",
+            "+11.9%",
+            "+24.9%",
+            "−0.5%",
+            "$79.0M / #86",
+            "TRENDING+UP"
+          ],
+          [
+            "8",
+            "ZBCN (Zebec Network)",
+            "$0.002100",
+            "+11.5%",
+            "+18.6%",
+            "−0.4%",
+            "$11.8M / #169",
+            ""
+          ],
+          [
+            "9",
+            "SOL (Solana)",
+            "$108.7",
+            "+11.3%",
+            "+24.8%",
+            "−0.1%",
+            "$7.45B / #7",
+            "TRENDING+UP, MAJOR"
+          ],
+          [
+            "10",
+            "TIBBIR (Ribbita by Virtuals)",
+            "$0.2750",
+            "+9.9%",
+            "+18.8%",
+            "−0.9%",
+            "$3.7M / #142",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table_losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap/Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "UP (up)",
+            "$0.2700",
+            "−12.2%",
+            "+167.6%",
+            "−1.1%",
+            "$1.3M / #185",
+            ""
+          ],
+          [
+            "2",
+            "FF (Falcon Finance)",
+            "$0.09000",
+            "−6.3%",
+            "+39.2%",
+            "+0.8%",
+            "$17.6M / #140",
+            ""
+          ],
+          [
+            "3",
+            "CAP (Cap)",
+            "$0.06660",
+            "−5.7%",
+            "−0.3%",
+            "−0.2%",
+            "$13.7M / #263",
+            ""
+          ],
+          [
+            "4",
+            "STX (Stacks)",
+            "$0.2600",
+            "−4.4%",
+            "+80.2%",
+            "−0.9%",
+            "$35.1M / #112",
+            ""
+          ],
+          [
+            "5",
+            "S (Sonic)",
+            "$0.03040",
+            "−4.1%",
+            "+23.4%",
+            "+0.2%",
+            "$26.3M / #239",
+            ""
+          ],
+          [
+            "6",
+            "REAL (RealLink)",
+            "$0.07500",
+            "−4.0%",
+            "−7.2%",
+            "−0.2%",
+            "$6.5M / #150",
+            ""
+          ],
+          [
+            "7",
+            "JST (JUST)",
+            "$0.09663",
+            "−3.9%",
+            "−9.7%",
+            "−0.3%",
+            "$21.2M / #85",
+            ""
+          ],
+          [
+            "8",
+            "AKE (Akedo)",
+            "$0.007000",
+            "−3.8%",
+            "−16.4%",
+            "−4.4%",
+            "$20.8M / #197",
+            ""
+          ],
+          [
+            "9",
+            "APEPE (Ape and Pepe)",
+            "$0.0000011",
+            "−3.8%",
+            "+10.5%",
+            "+0.4%",
+            "$12.0M / #157",
+            ""
+          ],
+          [
+            "10",
+            "CC (Canton)",
+            "$0.1127",
+            "−2.9%",
+            "+12.6%",
+            "+0.6%",
+            "$16.2M / #23",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table_trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Token",
+          "Rank / Price",
+          "24h Change",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "SOL (Solana)",
+            "#7, $109.1",
+            "+11.9%",
+            "TRENDING+UP, MAJOR"
+          ],
+          [
+            "2",
+            "LIT (Lighter)",
+            "#73, $3.75",
+            "+11.8%",
+            "TRENDING+UP"
+          ],
+          [
+            "3",
+            "VET (VeChain)",
+            "#94, $0.007",
+            "+17.2%",
+            "TRENDING+UP, BREAKOUT"
+          ],
+          [
+            "4",
+            "ENA (Ethena)",
+            "#53, $0.17",
+            "+22.9%",
+            "TRENDING+UP, BREAKOUT"
+          ],
+          [
+            "5",
+            "PUMP (Pump.fun)",
+            "#47, $0.004895",
+            "+5.4%",
+            ""
+          ],
+          [
+            "6",
+            "PONS (Pons)",
+            "#309, $0.115",
+            "−11.4%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "7",
+            "TAO (Bittensor)",
+            "#42, $249.7",
+            "+8.5%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "stack_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_notable_1",
+        "text_notable_2",
+        "text_notable_3",
+        "text_notable_4"
+      ]
+    },
+    "text_notable_1": {
+      "type": "Text",
+      "props": {
+        "text": "ENA: trending #5 + +23.7% [BREAKOUT][TRENDING+UP] — was FADE-rated Aug 24; vol $1.78B ≈ mcap; sharp post-JH risk-on bid"
+      }
+    },
+    "text_notable_2": {
+      "type": "Text",
+      "props": {
+        "text": "VET: trending #3 + +16.6% [BREAKOUT][TRENDING+UP] — 7d +39%; broad cross-ecosystem recovery"
+      }
+    },
+    "text_notable_3": {
+      "type": "Text",
+      "props": {
+        "text": "SOL: trending #1 + +11.3% [TRENDING+UP][MAJOR] — back above $108; supply shock governance + NVDA beat tailwind"
+      }
+    },
+    "text_notable_4": {
+      "type": "Text",
+      "props": {
+        "text": "BEAM: #283 + +25.1% [BREAKOUT] — vol $91.6M ≈ mcap $92.3M; liquidity thin, treat cautiously"
+      }
+    }
+  }
+}
