@@ -1,0 +1,451 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-08-27"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-since",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-focus-1-title",
+        "text-focus-1-reason"
+      ]
+    },
+    "text-focus-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "1. JH/Warsh keynote T-1",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-focus-1-reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Warsh speaks tomorrow; today is last entry window",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-focus-2-title",
+        "text-focus-2-reason"
+      ]
+    },
+    "text-focus-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "2. NVDA beat reverses AI Compute/DePIN FADE",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-focus-2-reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: AI tokens rallying; narrative reprices 13:30 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-focus-3-title",
+        "text-focus-3-reason"
+      ]
+    },
+    "text-focus-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "3. BTC $82,500 YES",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-focus-3-reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: NVDA fired, JH fires tomorrow; peak 36h window",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-since",
+        "since-item-1",
+        "since-item-2",
+        "since-item-3",
+        "since-item-4"
+      ]
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "since-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-since-1",
+        "text-since-1"
+      ]
+    },
+    "badge-since-1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-since-1": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA BEAT: $96.2B rev (est. $92.3B), $108B Q3 guide; NVDA +8%; IREN +5% — AI FADE thesis inverted",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-since-2",
+        "text-since-2"
+      ]
+    },
+    "badge-since-2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-since-2": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $79.7K challenging $80K; up from $78.5K on NVDA risk-on bid",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-since-3",
+        "text-since-3"
+      ]
+    },
+    "badge-since-3": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-since-3": {
+      "type": "Text",
+      "props": {
+        "text": "JH Symposium opened today (Aug 27–29); Warsh keynote tomorrow morning",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-item-4": {
+      "type": "Alert",
+      "props": {
+        "title": "Gitea KEV CVE-2026-60004",
+        "message": "CISA patch deadline TOMORROW (Aug 28) — patch today",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "watch-item-1",
+        "watch-item-2"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-watch-1",
+        "grid-watch-1"
+      ]
+    },
+    "text-watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA +8% on $96.2B beat + $108B Q3 guide; AI miners (IREN +5%) leading — AI Compute/DePIN flips from FADE; narrative-tracker reprices 13:30 UTC (focus #2)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "grid-watch-1": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-nvda-beat",
+        "stat-q3-guide",
+        "stat-iren-move"
+      ]
+    },
+    "stat-nvda-beat": {
+      "type": "Stat",
+      "props": {
+        "label": "NVDA Revenue",
+        "value": "$96.2B",
+        "delta": "+$3.9B vs $92.3B est"
+      },
+      "children": []
+    },
+    "stat-q3-guide": {
+      "type": "Stat",
+      "props": {
+        "label": "Q3 Guide",
+        "value": "$108B"
+      },
+      "children": []
+    },
+    "stat-iren-move": {
+      "type": "Stat",
+      "props": {
+        "label": "IREN",
+        "value": "+5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "watch-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-watch-2",
+        "grid-watch-2"
+      ]
+    },
+    "text-watch-2": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $79.7K + NVDA risk-on + JH T-1 — $82,500 YES gap narrows to 4.3%; 36h convergence window (focus #3)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "grid-watch-2": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-btc-current",
+        "stat-btc-target",
+        "progress-btc-gap"
+      ]
+    },
+    "stat-btc-current": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Current",
+        "value": "$79.7K"
+      },
+      "children": []
+    },
+    "stat-btc-target": {
+      "type": "Stat",
+      "props": {
+        "label": "Target YES",
+        "value": "$82,500"
+      },
+      "children": []
+    },
+    "progress-btc-gap": {
+      "type": "Progress",
+      "props": {
+        "value": 97,
+        "max": 100,
+        "label": "Gap: 4.3%"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "table-scheduled-tasks"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-scheduled-tasks": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Task",
+          "Time (UTC)"
+        ],
+        "rows": [
+          [
+            "github-monitor",
+            "09:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "token-pick",
+            "12:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ],
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00"
+          ]
+        ]
+      },
+      "children": []
+    }
+  }
+}
