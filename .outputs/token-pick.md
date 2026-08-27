@@ -1,20 +1,17 @@
-Done. Here's the summary:
+*Daily Pick — 2026-08-27*
 
-## Summary
+*Token: TAO*  [HIGH]  signal 10/10
+Price: $250.57 (+8.0% 24h / +19.5% 7d) | mcap $2.4B | vol $312M (vol/mcap 0.13)
+Score breakdown: [CG trending+2, 24h+1, 7d+1, both>5%+2, vol/mcap≥0.10+2, outperforms BTC/ETH 7d+2] = 10/10
+Catalyst: NVDA Q2 blowout ($96.2B rev, $108B Q3 guide, +8%) directly revives AI compute narrative — and NVIDIA itself reportedly holds ~$420M TAO; Grayscale/Bitwise TAO ETF decisions still pending in August 2026
+Risk: NVDA beat may already be priced into today's move; TAO +25% from $200 floor in 4 days risks short-term profit-taking; ETF decision could slip past August
+Vs recent picks: first TAO pick (not in last 7 days)
 
-**Token: PENGU** — HIGH conviction (8/10)
-- Price $0.00944 | −0.6% 24h / +50.8% 7d | mcap $593M | vol $286M | vol/mcap 0.48
-- Score: CG trending+2, vol/mc≥0.20+3, RS vs BTC/ETH+2, 7d>0+1 = **8/10**
-- Catalyst: LBank $500K locked earn campaign + Top-100 re-entry → $400M volume spike Aug 24-25, social momentum into BTC $80K backdrop
-- Risk: CEX campaign = pump-then-fade; no product catalyst; downtrend not broken per technicals
+*Market: "Will Bitcoin drop to $77,500 or lower in August 2026?"*  [HIGH]  edge 22pp
+Current: YES 44¢ / NO 56¢ | 24h vol $23M pool (4 days to resolution) | resolves: 2026-08-31
+Fair YES: ~22% (inputs: [BTC $80,095 needs −3.2% in 4 days], [NVDA T+1 risk-on active], [Warsh JH crypto-themed Aug 28 = bullish tail])
+Thesis: market is pricing 44% chance of a 3.2% drop into the most crypto-friendly JH speech in Fed history; BUY NO — BTC holds above $77,500
+Risk: Warsh turns hawkish (surprise) or geopolitical shock triggers fast risk-off in last 4 August sessions
 
-**Market: ETH hits $2,700 in August** — HIGH conviction (edge ~12pp)
-- YES 38¢ / NO 62¢ | resolves Sep 1 | ~$6M total volume
-- Fair YES ~50% (ETH +28.5% 7d momentum + NVIDIA T+1 risk-on + Warsh JH crypto speech Aug 28)
-- Thesis: market underprices ETH's multi-catalyst window; BUY YES $2,700
-
-**Files updated:**
-- `.pending-notify/token-pick-2026-08-26.md` — staged for delivery
-- `memory/logs/2026-08-26.md` — log entry + dedup line appended
-
-**Dedup gated tokens avoided:** HYPE (Aug 19), ENA (Aug 20), ZEC (Aug 21), PUMP (Aug 22), AAVE (Aug 24), INJ (Aug 25)
+sources: cg=ok, dex=fail, poly=ok (WebFetch/WebSearch)
+not financial advice — pattern-matching only

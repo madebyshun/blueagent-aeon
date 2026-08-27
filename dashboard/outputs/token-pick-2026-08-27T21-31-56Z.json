@@ -1,0 +1,464 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-08-27"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_token",
+        "separator_1",
+        "section_market",
+        "separator_2",
+        "section_footer"
+      ]
+    },
+    "section_token": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token_header",
+        "stat_price",
+        "stat_mcap",
+        "stat_volume",
+        "text_vol_ratio",
+        "divider_score",
+        "score_breakdown",
+        "divider_catalyst",
+        "catalyst_section",
+        "divider_risk",
+        "risk_section",
+        "text_vs_recent"
+      ]
+    },
+    "token_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading_token",
+        "badge_signal"
+      ]
+    },
+    "heading_token": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: TAO",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH signal 10/10",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$250.57",
+        "delta": "+8.0% 24h / +19.5% 7d",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$2.4B"
+      },
+      "children": []
+    },
+    "stat_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$312M"
+      },
+      "children": []
+    },
+    "text_vol_ratio": {
+      "type": "Text",
+      "props": {
+        "text": "vol/mcap: 0.13",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "divider_score": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "score_breakdown": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_score",
+        "table_score"
+      ]
+    },
+    "heading_score": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown (10/10)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "table_score": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Factor",
+          "Points"
+        ],
+        "rows": [
+          [
+            "CG trending",
+            "+2"
+          ],
+          [
+            "24h performance",
+            "+1"
+          ],
+          [
+            "7d performance",
+            "+1"
+          ],
+          [
+            "Both > 5%",
+            "+2"
+          ],
+          [
+            "vol/mcap ≥ 0.10",
+            "+2"
+          ],
+          [
+            "Outperforms BTC/ETH 7d",
+            "+2"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "divider_catalyst": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "catalyst_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_catalyst",
+        "text_catalyst"
+      ]
+    },
+    "heading_catalyst": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA Q2 blowout ($96.2B rev, $108B Q3 guide, +8%) directly revives AI compute narrative — and NVIDIA itself reportedly holds ~$420M TAO; Grayscale/Bitwise TAO ETF decisions still pending in August 2026",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "divider_risk": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "risk_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_risk",
+        "text_risk"
+      ]
+    },
+    "heading_risk": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_risk": {
+      "type": "Text",
+      "props": {
+        "text": "NVDA beat may already be priced into today's move; TAO +25% from $200 floor in 4 days risks short-term profit-taking; ETF decision could slip past August",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_vs_recent": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first TAO pick (not in last 7 days)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_header",
+        "market_odds",
+        "market_timeline",
+        "divider_fair",
+        "market_fair_section",
+        "divider_thesis",
+        "thesis_section"
+      ]
+    },
+    "market_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading_market",
+        "badge_edge"
+      ]
+    },
+    "heading_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will Bitcoin drop to $77,500 or lower in August 2026?",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_edge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH edge 22pp",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "market_odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_yes",
+        "stat_no"
+      ]
+    },
+    "stat_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "44¢"
+      },
+      "children": []
+    },
+    "stat_no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "56¢"
+      },
+      "children": []
+    },
+    "market_timeline": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_volume",
+        "text_resolution"
+      ]
+    },
+    "text_volume": {
+      "type": "Text",
+      "props": {
+        "text": "24h volume: $23M pool | 4 days to resolution",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_resolution": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-08-31",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "divider_fair": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "market_fair_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_fair_yes",
+        "text_fair_inputs"
+      ]
+    },
+    "stat_fair_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES",
+        "value": "~22%"
+      },
+      "children": []
+    },
+    "text_fair_inputs": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: [BTC $80,095 needs −3.2% in 4 days], [NVDA T+1 risk-on active], [Warsh JH crypto-themed Aug 28 = bullish tail]",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "divider_thesis": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "thesis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_thesis",
+        "text_thesis_main",
+        "text_thesis_risk"
+      ]
+    },
+    "heading_thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text_thesis_main": {
+      "type": "Text",
+      "props": {
+        "text": "Market is pricing 44% chance of a 3.2% drop into the most crypto-friendly JH speech in Fed history; BUY NO — BTC holds above $77,500",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_thesis_risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: Warsh turns hawkish (surprise) or geopolitical shock triggers fast risk-off in last 4 August sessions",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_sources",
+        "text_disclaimer"
+      ]
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok (WebFetch/WebSearch)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
