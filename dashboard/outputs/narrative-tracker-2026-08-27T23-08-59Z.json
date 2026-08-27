@@ -1,0 +1,894 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-27"
+      },
+      "children": [
+        "heading_transitions",
+        "transitions_stack",
+        "separator_1",
+        "heading_reflexivity",
+        "reflexivity_stack",
+        "separator_2",
+        "heading_positions",
+        "positions_stack",
+        "separator_3",
+        "heading_map",
+        "map_stack"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transitions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans_1",
+        "trans_2",
+        "trans_3",
+        "trans_4",
+        "trans_5",
+        "trans_6",
+        "trans_7",
+        "trans_8"
+      ]
+    },
+    "trans_1": {
+      "type": "Text",
+      "props": {
+        "text": "RE-PROMOTED: AI Compute/DePIN — Fading ↓ → Rising ↑↑. NVDA $96.2B beat ($108B Q3 guide, +8%) completely inverts yesterday's FADE. AI miners rallying. TAO 10/10 today. NVIDIA reportedly holds ~$420M TAO."
+      }
+    },
+    "trans_2": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN NEW: Coinbase AiFi/Base — WATCH → Rising ↑↑. Coinbase launches BTC-backed mortgages: homebuyers use BTC as collateral without selling. Times exactly with JH 'Financial Innovation' theme T-0 tomorrow. Structural new product catalyst."
+      }
+    },
+    "trans_3": {
+      "type": "Text",
+      "props": {
+        "text": "PROMOTED: JH/Warsh Policy — Rising → Peak ↑↑. Warsh speaks Aug 28. CryptoSlate: 'Is JH now a crypto conference?' Maximum positioning window closes tonight. No directional call."
+      }
+    },
+    "trans_4": {
+      "type": "Text",
+      "props": {
+        "text": "PROMOTED: Prediction Markets — Rising → Peak. BTC $77,500 YES at 44¢ overpriced (fair ~22%, BUY NO). BTC $82,500 YES 45.7¢ still live. Market pricing bull + bear JH simultaneously."
+      }
+    },
+    "trans_5": {
+      "type": "Text",
+      "props": {
+        "text": "VELOCITY UP: Agentic Dev Tools — ↑ → ↑↑. archify 4,260★ (verifiable architecture diagrams as diffable artifacts) = highest agentic tool entry in 3+ weeks."
+      }
+    },
+    "trans_6": {
+      "type": "Text",
+      "props": {
+        "text": "RESURRECTION: ENA — Fading ↓↓ → Emerging ↑↑. +23.7% BREAKOUT from Aug 24 CAPITULATION. Vol ≈ mcap = squeeze risk not structural. WATCH for 2nd session."
+      }
+    },
+    "trans_7": {
+      "type": "Text",
+      "props": {
+        "text": "RESURRECTION: TRUMP — Dead → Emerging ↑. +13.3% in 85%-green risk-on tape. No structural catalyst. Pure beta bounce."
+      }
+    },
+    "trans_8": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: Bitcoin L2 — Bitlayer +278% (Aug 27). Bitcoin L2/BitVM narrative ticking up. WATCH."
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "refl_1",
+        "refl_2",
+        "refl_3"
+      ]
+    },
+    "refl_1": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN (RE-INVERTED): NVDA 7-session losing streak built the FADE call. Beat with $108B Q3 guide inverts in one session. If NVIDIA ~$420M TAO confirmed, NVDA earnings = direct crypto token catalyst = double reflexivity loop."
+      }
+    },
+    "refl_2": {
+      "type": "Text",
+      "props": {
+        "text": "JH/Warsh (T-0): BTC $77,500 YES 44¢ (overpriced, fair ~22%) and $82,500 YES 45.7¢ both live. Markets pricing contradictory outcomes. One side is very wrong."
+      }
+    },
+    "refl_3": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Rally 'Not Retail' (cryptotimes.io Aug 27): ETF inflows + short covering drove BTC, not retail. TRUMP +13.3% and BEAM +25.1% are thin-liquidity risk-on bounces, not meme season return."
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_1",
+        "pos_2",
+        "pos_3",
+        "pos_4",
+        "pos_5",
+        "pos_6",
+        "pos_7",
+        "pos_8",
+        "pos_9",
+        "pos_10",
+        "pos_11",
+        "pos_12",
+        "pos_13",
+        "pos_14",
+        "pos_15"
+      ]
+    },
+    "pos_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_1_title",
+        "pos_1_details"
+      ]
+    },
+    "pos_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN: AI Compute/DePIN (5 ↑↑, Rising, Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos_1_details": {
+      "type": "Text",
+      "props": {
+        "text": "TAO $250.57 10/10; NVDA confirmed; Grayscale/Bitwise ETF pending — bear: $108B Q3 guide sets elevated new bar",
+        "variant": "body"
+      }
+    },
+    "pos_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_2_title",
+        "pos_2_details"
+      ]
+    },
+    "pos_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN: Coinbase AiFi/Base (4 ↑↑, Rising, Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos_2_details": {
+      "type": "Text",
+      "props": {
+        "text": "BTC mortgages × JH theme convergence — bear: TradFi product, execution risk",
+        "variant": "body"
+      }
+    },
+    "pos_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_3_title",
+        "pos_3_details"
+      ]
+    },
+    "pos_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: AI Agent Economy (5 ↑, Peak, Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos_3_details": {
+      "type": "Text",
+      "props": {
+        "text": "6th+ day agentic density",
+        "variant": "body"
+      }
+    },
+    "pos_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_4_title",
+        "pos_4_details"
+      ]
+    },
+    "pos_4_title": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: Agentic Dev Tools (4 ↑↑, Rising, Mixed)",
+        "variant": "lead"
+      }
+    },
+    "pos_4_details": {
+      "type": "Text",
+      "props": {
+        "text": "archify 4,260★; no token play",
+        "variant": "body"
+      }
+    },
+    "pos_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_5_title",
+        "pos_5_details"
+      ]
+    },
+    "pos_5_title": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: x402/Agentic Payments (5 →, Peak, Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos_5_details": {
+      "type": "Text",
+      "props": {
+        "text": "mature; no new push",
+        "variant": "body"
+      }
+    },
+    "pos_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_6_title",
+        "pos_6_details"
+      ]
+    },
+    "pos_6_title": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: SEC Regulation (4 ↑, Rising, Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos_6_details": {
+      "type": "Text",
+      "props": {
+        "text": "JH T-0 as policy signal incoming",
+        "variant": "body"
+      }
+    },
+    "pos_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_7_title",
+        "pos_7_details"
+      ]
+    },
+    "pos_7_title": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: RWA Tokenization (4 ↑, Rising, Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos_7_details": {
+      "type": "Text",
+      "props": {
+        "text": "Circle Arc T-20; ONDO",
+        "variant": "body"
+      }
+    },
+    "pos_8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_8_title",
+        "pos_8_details"
+      ]
+    },
+    "pos_8_title": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: Perp DEX/Hyperliquid (3 ↑, Rising, Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos_8_details": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE confirmed holding",
+        "variant": "body"
+      }
+    },
+    "pos_9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_9_title",
+        "pos_9_details"
+      ]
+    },
+    "pos_9_title": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: Oracle/LINK (4 ↑, Rising, Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos_9_details": {
+      "type": "Text",
+      "props": {
+        "text": "Circle Arc T-20",
+        "variant": "body"
+      }
+    },
+    "pos_10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_10_title",
+        "pos_10_details"
+      ]
+    },
+    "pos_10_title": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: JH/Warsh (4 ↑↑, Peak, Mixed)",
+        "variant": "lead"
+      }
+    },
+    "pos_10_details": {
+      "type": "Text",
+      "props": {
+        "text": "Warsh tomorrow; no directional call until speech",
+        "variant": "body"
+      }
+    },
+    "pos_11": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_11_title",
+        "pos_11_details"
+      ]
+    },
+    "pos_11_title": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: DeFi-TradFi/AAVE+Morpho (3 ↑, Rising, Mixed)",
+        "variant": "lead"
+      }
+    },
+    "pos_11_details": {
+      "type": "Text",
+      "props": {
+        "text": "structural intact; 3rd session no direct signal",
+        "variant": "body"
+      }
+    },
+    "pos_12": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_12_title",
+        "pos_12_details"
+      ]
+    },
+    "pos_12_title": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: ENA (3 ↑↑, Emerging, Mixed)",
+        "variant": "lead"
+      }
+    },
+    "pos_12_details": {
+      "type": "Text",
+      "props": {
+        "text": "BREAKOUT or squeeze? 2nd session decides",
+        "variant": "body"
+      }
+    },
+    "pos_13": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_13_title",
+        "pos_13_details"
+      ]
+    },
+    "pos_13_title": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: Solana Supply Shock (3 ↑, Emerging, Mixed)",
+        "variant": "lead"
+      }
+    },
+    "pos_13_details": {
+      "type": "Text",
+      "props": {
+        "text": "SOL $108+; vote unconfirmed",
+        "variant": "body"
+      }
+    },
+    "pos_14": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_14_title",
+        "pos_14_details"
+      ]
+    },
+    "pos_14_title": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: ZEC/Privacy (2 ↓, Fading, Bear)",
+        "variant": "lead"
+      }
+    },
+    "pos_14_details": {
+      "type": "Text",
+      "props": {
+        "text": "risk-on rally didn't lift; sector bid gone",
+        "variant": "body"
+      }
+    },
+    "pos_15": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_15_title",
+        "pos_15_details"
+      ]
+    },
+    "pos_15_title": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: LayerZero (2 ↓, Fading, Bear)",
+        "variant": "lead"
+      }
+    },
+    "pos_15_details": {
+      "type": "Text",
+      "props": {
+        "text": "4th consecutive silence",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerging_title",
+        "map_emerging_badges"
+      ]
+    },
+    "map_emerging_title": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging:",
+        "variant": "lead"
+      }
+    },
+    "map_emerging_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ena",
+        "badge_solana_supply",
+        "badge_treasury",
+        "badge_trump",
+        "badge_meme",
+        "badge_btc_l2",
+        "badge_clarity"
+      ]
+    },
+    "badge_ena": {
+      "type": "Badge",
+      "props": {
+        "text": "ENA",
+        "variant": "default"
+      }
+    },
+    "badge_solana_supply": {
+      "type": "Badge",
+      "props": {
+        "text": "Solana Supply Shock",
+        "variant": "default"
+      }
+    },
+    "badge_treasury": {
+      "type": "Badge",
+      "props": {
+        "text": "Treasury Liquidity",
+        "variant": "default"
+      }
+    },
+    "badge_trump": {
+      "type": "Badge",
+      "props": {
+        "text": "TRUMP",
+        "variant": "default"
+      }
+    },
+    "badge_meme": {
+      "type": "Badge",
+      "props": {
+        "text": "Memecoins/Retail",
+        "variant": "default"
+      }
+    },
+    "badge_btc_l2": {
+      "type": "Badge",
+      "props": {
+        "text": "Bitcoin L2",
+        "variant": "default"
+      }
+    },
+    "badge_clarity": {
+      "type": "Badge",
+      "props": {
+        "text": "CLARITY Act",
+        "variant": "default"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_title",
+        "map_rising_badges"
+      ]
+    },
+    "map_rising_title": {
+      "type": "Text",
+      "props": {
+        "text": "Rising:",
+        "variant": "lead"
+      }
+    },
+    "map_rising_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ai_compute",
+        "badge_coinbase",
+        "badge_agentic_tools",
+        "badge_sec",
+        "badge_rwa",
+        "badge_defi_tradfi",
+        "badge_perp",
+        "badge_oracle",
+        "badge_ai_security",
+        "badge_bnb",
+        "badge_solana_rwa"
+      ]
+    },
+    "badge_ai_compute": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Compute/DePIN",
+        "variant": "secondary"
+      }
+    },
+    "badge_coinbase": {
+      "type": "Badge",
+      "props": {
+        "text": "Coinbase AiFi/Base",
+        "variant": "secondary"
+      }
+    },
+    "badge_agentic_tools": {
+      "type": "Badge",
+      "props": {
+        "text": "Agentic Dev Tools",
+        "variant": "secondary"
+      }
+    },
+    "badge_sec": {
+      "type": "Badge",
+      "props": {
+        "text": "SEC Reg",
+        "variant": "secondary"
+      }
+    },
+    "badge_rwa": {
+      "type": "Badge",
+      "props": {
+        "text": "RWA",
+        "variant": "secondary"
+      }
+    },
+    "badge_defi_tradfi": {
+      "type": "Badge",
+      "props": {
+        "text": "DeFi-TradFi",
+        "variant": "secondary"
+      }
+    },
+    "badge_perp": {
+      "type": "Badge",
+      "props": {
+        "text": "Perp DEX",
+        "variant": "secondary"
+      }
+    },
+    "badge_oracle": {
+      "type": "Badge",
+      "props": {
+        "text": "Oracle",
+        "variant": "secondary"
+      }
+    },
+    "badge_ai_security": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Security",
+        "variant": "secondary"
+      }
+    },
+    "badge_bnb": {
+      "type": "Badge",
+      "props": {
+        "text": "BNB",
+        "variant": "secondary"
+      }
+    },
+    "badge_solana_rwa": {
+      "type": "Badge",
+      "props": {
+        "text": "Solana RWA",
+        "variant": "secondary"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_title",
+        "map_peak_badges"
+      ]
+    },
+    "map_peak_title": {
+      "type": "Text",
+      "props": {
+        "text": "Peak:",
+        "variant": "lead"
+      }
+    },
+    "map_peak_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ai_agent_economy",
+        "badge_x402",
+        "badge_jh_warsh",
+        "badge_prediction"
+      ]
+    },
+    "badge_ai_agent_economy": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Economy",
+        "variant": "outline"
+      }
+    },
+    "badge_x402": {
+      "type": "Badge",
+      "props": {
+        "text": "x402",
+        "variant": "outline"
+      }
+    },
+    "badge_jh_warsh": {
+      "type": "Badge",
+      "props": {
+        "text": "JH/Warsh Policy",
+        "variant": "outline"
+      }
+    },
+    "badge_prediction": {
+      "type": "Badge",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "outline"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_title",
+        "map_fading_badges"
+      ]
+    },
+    "map_fading_title": {
+      "type": "Text",
+      "props": {
+        "text": "Fading:",
+        "variant": "lead"
+      }
+    },
+    "map_fading_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_zec",
+        "badge_layerzero",
+        "badge_defi_revival",
+        "badge_alt_etf"
+      ]
+    },
+    "badge_zec": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC/Privacy",
+        "variant": "destructive"
+      }
+    },
+    "badge_layerzero": {
+      "type": "Badge",
+      "props": {
+        "text": "LayerZero",
+        "variant": "destructive"
+      }
+    },
+    "badge_defi_revival": {
+      "type": "Badge",
+      "props": {
+        "text": "DeFi Revival/Curve",
+        "variant": "destructive"
+      }
+    },
+    "badge_alt_etf": {
+      "type": "Badge",
+      "props": {
+        "text": "Alt-ETF Pipeline",
+        "variant": "destructive"
+      }
+    }
+  }
+}
