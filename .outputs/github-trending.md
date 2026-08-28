@@ -1,21 +1,29 @@
-*GitHub Trending — 2026-08-27*
+*GitHub Trending — 2026-08-28*
 
-*Top pick* — [tt-a1i/archify](https://github.com/tt-a1i/archify)
-By far the biggest spike today (4,260★, pushed this morning) — architecture and workflow diagrams rendered as verifiable, diffable artifacts rather than static images.
+*Top pick* — [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view)
+Browser-based spy satellite simulator with real open-source spatial intelligence data — biggest new signal of the day and it runs entirely client-side.
+
+*Web/Apps*
+• [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) — ★ 3,398 today (10.8k total) · JS · [ACCELERATING]
+Renders real ISR satellite imagery in-browser with no backend — open-source satellite intelligence, zero clearance required.
 
 *AI/ML*
-• [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) — ★1,284 today (52.2k total) · Python · [ACCELERATING]
-12 agentic pipelines from script to final cut — fully open-source video production with zero manual timeline editing.
-
-• [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) — ★260 today (92.2k total) · JavaScript · [ACCELERATING]
-Auto-injects prior Claude Code session context into new sessions — no re-briefing the agent after every restart.
+• [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) — ★ 477 today (21.5k total) · TypeScript · [ACCELERATING]
+One OpenAI-compatible endpoint routing across 34 free-tier LLM providers — 7.4B tokens/month, no credit card.
 
 *Devtools*
-• [tt-a1i/archify](https://github.com/tt-a1i/archify) — ★4,260 today (22.6k total) · JavaScript · [RETURNING]
-Architecture and workflow diagrams as verifiable, diffable artifacts — built for teams needing auditable design docs.
+• [cursor/plugins](https://github.com/cursor/plugins) — ★ 257 today (5.9k total) · TypeScript · [RETURNING]
+Cursor's official plugin spec pushed today — opens the most-used AI code editor to third-party extensions.
 
-• [JetBrains/go-modern-guidelines](https://github.com/JetBrains/go-modern-guidelines) — ★314 today (2k total) · Go · [RETURNING]
-JetBrains-authored prompt rules to stop AI coding agents generating pre-generics, error-as-string Go antipatterns.
+• [swoole/typephp](https://github.com/swoole/typephp) — ★ 188 today (0.8k total) · PHP · [RETURNING]
+Compiles PHP to native binaries, eliminating the runtime — a self-contained PHP executable with no Zend Engine.
+
+• [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) — ★ 61 today (49.9k total) · TypeScript · [ACCELERATING]
+Official Chrome DevTools MCP server — agents can now inspect the DOM, run scripts, and debug browser pages programmatically.
+
+*Infra*
+• [tailscale/tailcat](https://github.com/tailscale/tailcat) — ★ 986 today (2.6k total) · Go · [RETURNING]
+Tailscale-native netcat — punch nc-style tunnels through your mesh network without opening any firewall ports.
 
 ---
-sources: trending=ok · gh_api=ok · kept 4/18
+sources: trending=ok · gh_api=ok · kept 6/20

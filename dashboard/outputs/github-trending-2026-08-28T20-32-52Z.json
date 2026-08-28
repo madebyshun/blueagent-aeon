@@ -1,0 +1,511 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-08-28"
+      },
+      "children": [
+        "heading_toppick",
+        "link_toppick",
+        "text_toppick",
+        "sep_1",
+        "heading_webapps",
+        "repo_webapps_1",
+        "sep_2",
+        "heading_aiml",
+        "repo_aiml_1",
+        "sep_3",
+        "heading_devtools",
+        "repo_devtools_1",
+        "repo_devtools_2",
+        "repo_devtools_3",
+        "sep_4",
+        "heading_infra",
+        "repo_infra_1",
+        "sep_5",
+        "text_sources"
+      ]
+    },
+    "heading_toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "link_toppick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bilawalsidhu/gods-eye-view",
+        "href": "https://github.com/bilawalsidhu/gods-eye-view",
+        "source": "GitHub"
+      }
+    },
+    "text_toppick": {
+      "type": "Text",
+      "props": {
+        "text": "Browser-based spy satellite simulator with real open-source spatial intelligence data — biggest new signal of the day and it runs entirely client-side."
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_webapps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h2"
+      }
+    },
+    "repo_webapps_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_webapps_1",
+        "stats_webapps_1",
+        "text_webapps_1"
+      ]
+    },
+    "link_webapps_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bilawalsidhu/gods-eye-view",
+        "href": "https://github.com/bilawalsidhu/gods-eye-view",
+        "source": "GitHub"
+      }
+    },
+    "stats_webapps_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_webapps_1_today",
+        "stat_webapps_1_total",
+        "badge_webapps_1_lang",
+        "badge_webapps_1_status"
+      ]
+    },
+    "stat_webapps_1_today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "3,398"
+      }
+    },
+    "stat_webapps_1_total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "10.8k"
+      }
+    },
+    "badge_webapps_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JS",
+        "variant": "outline"
+      }
+    },
+    "badge_webapps_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_webapps_1": {
+      "type": "Text",
+      "props": {
+        "text": "Renders real ISR satellite imagery in-browser with no backend — open-source satellite intelligence, zero clearance required."
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "repo_aiml_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_aiml_1",
+        "stats_aiml_1",
+        "text_aiml_1"
+      ]
+    },
+    "link_aiml_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "tashfeenahmed/freellmapi",
+        "href": "https://github.com/tashfeenahmed/freellmapi",
+        "source": "GitHub"
+      }
+    },
+    "stats_aiml_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_aiml_1_today",
+        "stat_aiml_1_total",
+        "badge_aiml_1_lang",
+        "badge_aiml_1_status"
+      ]
+    },
+    "stat_aiml_1_today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "477"
+      }
+    },
+    "stat_aiml_1_total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "21.5k"
+      }
+    },
+    "badge_aiml_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "badge_aiml_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_aiml_1": {
+      "type": "Text",
+      "props": {
+        "text": "One OpenAI-compatible endpoint routing across 34 free-tier LLM providers — 7.4B tokens/month, no credit card."
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "repo_devtools_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_devtools_1",
+        "stats_devtools_1",
+        "text_devtools_1"
+      ]
+    },
+    "link_devtools_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cursor/plugins",
+        "href": "https://github.com/cursor/plugins",
+        "source": "GitHub"
+      }
+    },
+    "stats_devtools_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_devtools_1_today",
+        "stat_devtools_1_total",
+        "badge_devtools_1_lang",
+        "badge_devtools_1_status"
+      ]
+    },
+    "stat_devtools_1_today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "257"
+      }
+    },
+    "stat_devtools_1_total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "5.9k"
+      }
+    },
+    "badge_devtools_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "badge_devtools_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text_devtools_1": {
+      "type": "Text",
+      "props": {
+        "text": "Cursor's official plugin spec pushed today — opens the most-used AI code editor to third-party extensions."
+      }
+    },
+    "repo_devtools_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_devtools_2",
+        "stats_devtools_2",
+        "text_devtools_2"
+      ]
+    },
+    "link_devtools_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "swoole/typephp",
+        "href": "https://github.com/swoole/typephp",
+        "source": "GitHub"
+      }
+    },
+    "stats_devtools_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_devtools_2_today",
+        "stat_devtools_2_total",
+        "badge_devtools_2_lang",
+        "badge_devtools_2_status"
+      ]
+    },
+    "stat_devtools_2_today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "188"
+      }
+    },
+    "stat_devtools_2_total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "0.8k"
+      }
+    },
+    "badge_devtools_2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "PHP",
+        "variant": "outline"
+      }
+    },
+    "badge_devtools_2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text_devtools_2": {
+      "type": "Text",
+      "props": {
+        "text": "Compiles PHP to native binaries, eliminating the runtime — a self-contained PHP executable with no Zend Engine."
+      }
+    },
+    "repo_devtools_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_devtools_3",
+        "stats_devtools_3",
+        "text_devtools_3"
+      ]
+    },
+    "link_devtools_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ChromeDevTools/chrome-devtools-mcp",
+        "href": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "source": "GitHub"
+      }
+    },
+    "stats_devtools_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_devtools_3_today",
+        "stat_devtools_3_total",
+        "badge_devtools_3_lang",
+        "badge_devtools_3_status"
+      ]
+    },
+    "stat_devtools_3_today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "61"
+      }
+    },
+    "stat_devtools_3_total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "49.9k"
+      }
+    },
+    "badge_devtools_3_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "badge_devtools_3_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_devtools_3": {
+      "type": "Text",
+      "props": {
+        "text": "Official Chrome DevTools MCP server — agents can now inspect the DOM, run scripts, and debug browser pages programmatically."
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h2"
+      }
+    },
+    "repo_infra_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_infra_1",
+        "stats_infra_1",
+        "text_infra_1"
+      ]
+    },
+    "link_infra_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "tailscale/tailcat",
+        "href": "https://github.com/tailscale/tailcat",
+        "source": "GitHub"
+      }
+    },
+    "stats_infra_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_infra_1_today",
+        "stat_infra_1_total",
+        "badge_infra_1_lang",
+        "badge_infra_1_status"
+      ]
+    },
+    "stat_infra_1_today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "986"
+      }
+    },
+    "stat_infra_1_total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "2.6k"
+      }
+    },
+    "badge_infra_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "outline"
+      }
+    },
+    "badge_infra_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text_infra_1": {
+      "type": "Text",
+      "props": {
+        "text": "Tailscale-native netcat — punch nc-style tunnels through your mesh network without opening any firewall ports."
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/20",
+        "variant": "muted"
+      }
+    }
+  }
+}
