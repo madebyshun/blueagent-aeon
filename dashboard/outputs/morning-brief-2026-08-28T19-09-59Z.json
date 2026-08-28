@@ -1,0 +1,302 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-28"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "since_yesterday_section",
+        "sep2",
+        "watch_section",
+        "sep3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Warsh fired hawkish — BTC at $78K; reassess both Polymarket BTC positions today"
+      }
+    },
+    "focus_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. AI Compute/DePIN hold test — NVDA ↑↑ vs risk-off macro; narrative-tracker reprices 13:30 UTC"
+      }
+    },
+    "focus_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Coinbase BTC mortgages × JH theme — hawkish speech now tests new product narrative today"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since_yesterday_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_heading",
+        "since_item_1",
+        "since_item_2",
+        "since_item_3",
+        "since_item_4",
+        "since_item_5"
+      ]
+    },
+    "since_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_badge_1",
+        "since_text_1"
+      ]
+    },
+    "since_badge_1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_text_1": {
+      "type": "Text",
+      "props": {
+        "text": "Warsh spoke: \"committed to discipline, not a decision\" — BTC $79K → $78K, gold −3%"
+      }
+    },
+    "since_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_badge_2",
+        "since_text_2"
+      ]
+    },
+    "since_badge_2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_text_2": {
+      "type": "Text",
+      "props": {
+        "text": "$82,500 YES: gap widens to ~5.7% (BTC $78K); bullish JH tail fully priced out"
+      }
+    },
+    "since_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_badge_3",
+        "since_text_3"
+      ]
+    },
+    "since_badge_3": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "outline"
+      }
+    },
+    "since_text_3": {
+      "type": "Text",
+      "props": {
+        "text": "$77,500 YES BUY NO (yesterday pick, fair ~22%) — BTC sliding toward target; reassess edge"
+      }
+    },
+    "since_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_badge_4",
+        "since_text_4"
+      ]
+    },
+    "since_badge_4": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "since_text_4": {
+      "type": "Text",
+      "props": {
+        "text": "ENA +23.7% BREAKOUT (Aug 27) — second-session confirmation still needed"
+      }
+    },
+    "since_item_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "since_badge_5",
+        "since_text_5"
+      ]
+    },
+    "since_badge_5": {
+      "type": "Badge",
+      "props": {
+        "text": "alert",
+        "variant": "destructive"
+      }
+    },
+    "since_text_5": {
+      "type": "Text",
+      "props": {
+        "text": "pantheon-agents 0.6.1/0.6.2 supply-chain (Hades) — assume full credential compromise if installed"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_heading",
+        "watch_item_1",
+        "watch_item_2"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "Warsh hawkish flips JH/Warsh Policy: Peak → FADE — Polymarket BTC $82,500 YES collapses; $77,500 YES BUY NO thesis narrowing (focus #1)"
+      }
+    },
+    "watch_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute tokens (TAO, RNDR, FET) under pressure — NVDA supply-side narrative vs hawkish rate signal; watch 13:30 UTC rePrice (focus #2)"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_heading",
+        "running_item_1",
+        "running_item_2",
+        "running_item_3",
+        "running_item_4",
+        "running_item_5"
+      ]
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC"
+      }
+    },
+    "running_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      }
+    },
+    "running_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      }
+    },
+    "running_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      }
+    },
+    "running_item_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    }
+  }
+}
