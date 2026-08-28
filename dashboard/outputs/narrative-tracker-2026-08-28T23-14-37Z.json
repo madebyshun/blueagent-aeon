@@ -1,0 +1,59 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker",
+        "description": "2026-08-28"
+      },
+      "children": [
+        "transitions_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions_heading",
+        "transition_item_1"
+      ]
+    },
+    "transitions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h3"
+      }
+    },
+    "transition_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dead",
+        "text_policy"
+      ]
+    },
+    "badge_dead": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "text_policy": {
+      "type": "Text",
+      "props": {
+        "text": "JH/Warsh Policy — speech delivered; Warsh hawkish (2%",
+        "variant": "body"
+      }
+    }
+  }
+}
