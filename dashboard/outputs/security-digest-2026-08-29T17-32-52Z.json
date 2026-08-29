@@ -1,0 +1,418 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-08-29"
+      },
+      "children": [
+        "stack-root"
+      ]
+    },
+    "stack-root": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "verdict-text",
+        "separator-1",
+        "heading-today",
+        "stack-today",
+        "separator-2",
+        "heading-week",
+        "stack-week"
+      ]
+    },
+    "verdict-text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 3 actively exploited (KEV), 5 to schedule. Sources: KEV +8 new this week, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "stack-today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "cve-1",
+        "cve-2",
+        "cve-3"
+      ]
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "stack-week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "cve-4",
+        "cve-5",
+        "cve-6",
+        "cve-7",
+        "cve-8"
+      ]
+    },
+    "cve-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-1-title",
+        "cve-1-meta",
+        "cve-1-desc",
+        "cve-1-rem"
+      ]
+    },
+    "cve-1-title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-60004",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-60004"
+      }
+    },
+    "cve-1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Gitea · KEV 2026-08-25 (due 2026-08-28, OVERDUE) · EPSS 0.85 (99.7th) · CVSS 9.8",
+        "variant": "caption"
+      }
+    },
+    "cve-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Repo write access → plant malicious Git hook → RCE as Gitea service account via diffpatch API.",
+        "variant": "body"
+      }
+    },
+    "cve-1-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade Gitea to ≥1.27.1 and audit existing hooks.",
+        "variant": "body"
+      }
+    },
+    "cve-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-2-title",
+        "cve-2-meta",
+        "cve-2-desc",
+        "cve-2-rem"
+      ]
+    },
+    "cve-2-title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2021-23758",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758"
+      }
+    },
+    "cve-2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Ajax.NET Professional · KEV 2026-08-26 · EPSS 0.84 (99.7th) · CVSS 9.8",
+        "variant": "caption"
+      }
+    },
+    "cve-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": ".NET deserialization of untrusted data → unauthenticated RCE via arbitrary class instantiation; product likely EOL.",
+        "variant": "body"
+      }
+    },
+    "cve-2-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ migrate off Ajax.NET Pro or network-isolate the host today.",
+        "variant": "body"
+      }
+    },
+    "cve-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-3-title",
+        "cve-3-meta",
+        "cve-3-desc",
+        "cve-3-rem"
+      ]
+    },
+    "cve-3-title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2019-1068",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068"
+      }
+    },
+    "cve-3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Microsoft SQL Server · KEV 2026-08-26 (due TODAY) · EPSS 0.53 (98.9th) · CVSS 8.8",
+        "variant": "caption"
+      }
+    },
+    "cve-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Authenticated attacker executes arbitrary code as SQL Server service account.",
+        "variant": "body"
+      }
+    },
+    "cve-3-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply MS SQL July 2019 patch (KB4505225 / CU equivalent) today.",
+        "variant": "body"
+      }
+    },
+    "cve-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-4-title",
+        "cve-4-meta",
+        "cve-4-desc",
+        "cve-4-rem"
+      ]
+    },
+    "cve-4-title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-21962",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-21962"
+      }
+    },
+    "cve-4-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Oracle HTTP Server / WebLogic Proxy · KEV 2026-08-24 (due 2026-08-27, OVERDUE) · EPSS 0.42 (98.6th) · CVSS 10.0",
+        "variant": "caption"
+      }
+    },
+    "cve-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Improper access control → unauthorized create/delete/modify of critical server data.",
+        "variant": "body"
+      }
+    },
+    "cve-4-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Oracle Critical Patch Update; escalate — already past federal due date.",
+        "variant": "body"
+      }
+    },
+    "cve-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-5-title",
+        "cve-5-meta",
+        "cve-5-desc",
+        "cve-5-rem"
+      ]
+    },
+    "cve-5-title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2022-0995",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2022-0995"
+      }
+    },
+    "cve-5-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Linux Kernel · KEV 2026-08-26 · EPSS 0.10 (95.2nd) · CVSS 7.8",
+        "variant": "caption"
+      }
+    },
+    "cve-5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "OOB write in watch_queue subsystem → local privilege escalation.",
+        "variant": "body"
+      }
+    },
+    "cve-5-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule kernel update; apply distro vendor security patch.",
+        "variant": "body"
+      }
+    },
+    "cve-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-6-title",
+        "cve-6-meta",
+        "cve-6-desc",
+        "cve-6-rem"
+      ]
+    },
+    "cve-6-title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2015-3246",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2015-3246"
+      }
+    },
+    "cve-6-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Red Hat Libuser · KEV 2026-08-26 · EPSS 0.09 (94.9th)",
+        "variant": "caption"
+      }
+    },
+    "cve-6-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Race condition → /etc/passwd corruption → DoS or privilege escalation.",
+        "variant": "body"
+      }
+    },
+    "cve-6-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ yum update libuser on RHEL/CentOS systems.",
+        "variant": "body"
+      }
+    },
+    "cve-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-7-title",
+        "cve-7-meta",
+        "cve-7-desc",
+        "cve-7-rem"
+      ]
+    },
+    "cve-7-title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2015-5287",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2015-5287"
+      }
+    },
+    "cve-7-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Red Hat ABRT · KEV 2026-08-26 · EPSS 0.05 (91.6th)",
+        "variant": "caption"
+      }
+    },
+    "cve-7-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Symlink attack by local user with write permissions → privilege escalation; product may be EOL.",
+        "variant": "body"
+      }
+    },
+    "cve-7-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ yum update abrt or disable ABRT service if unused.",
+        "variant": "body"
+      }
+    },
+    "cve-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-8-title",
+        "cve-8-meta",
+        "cve-8-desc",
+        "cve-8-rem"
+      ]
+    },
+    "cve-8-title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-8452",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-8452"
+      }
+    },
+    "cve-8-meta": {
+      "type": "Text",
+      "props": {
+        "text": "Citrix NetScaler ADC / Gateway · KEV 2026-08-26 (due TODAY) · EPSS 0.02 (73.7th) · CVSS 9.8",
+        "variant": "caption"
+      }
+    },
+    "cve-8-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Memory buffer vulnerability → denial of service on exposed appliance.",
+        "variant": "body"
+      }
+    },
+    "cve-8-rem": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Citrix Aug 2026 security bulletin update today.",
+        "variant": "body"
+      }
+    }
+  }
+}

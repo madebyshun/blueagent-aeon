@@ -1,29 +1,36 @@
-The temp file can stay (it's hidden). Let me provide the summary.
+*Security Digest — 2026-08-29*
+Verdict: 3 actively exploited (KEV), 5 to schedule. _Sources: KEV +8 new this week, GH Advisory, EPSS_
 
-## Summary
+*PATCH TODAY*
+- [CVE-2026-60004](https://nvd.nist.gov/vuln/detail/CVE-2026-60004) — Gitea · KEV 2026-08-25 *(due 2026-08-28, OVERDUE)* · EPSS 0.85 (99.7th) · CVSS 9.8
+  Repo write access → plant malicious Git hook → RCE as Gitea service account via diffpatch API.
+  → upgrade Gitea to ≥1.27.1 and audit existing hooks.
 
-**Security Digest — 2026-08-28** complete.
+- [CVE-2021-23758](https://nvd.nist.gov/vuln/detail/CVE-2021-23758) — Ajax.NET Professional · KEV 2026-08-26 · EPSS 0.84 (99.7th) · CVSS 9.8
+  .NET deserialization of untrusted data → unauthenticated RCE via arbitrary class instantiation; product likely EOL.
+  → migrate off Ajax.NET Pro or network-isolate the host today.
 
-**What I did:**
-1. Read soul files (empty templates → neutral tone), checked last 2 days of logs for dedup IDs
-2. Fetched CISA KEV via WebFetch — 4 entries since 2026-08-21; 3 were deduped from yesterday; CVE-2026-73570 (Zimbra ZCS) is fresh
-3. Fetched GitHub Advisories via `gh api` (critical + high, Aug 26–28) — 3 critical + ~40 high
-4. Filtered to tracked stack: npm, pip, Go, crates.io
-5. Fetched EPSS for 14 CVEs — 8 indexed; CVE-2026-73570 leads at 0.205 (97th percentile)
-6. Fetched advisory detail pages for RestrictedPython, mariadb, and both 9router CVEs
+- [CVE-2019-1068](https://nvd.nist.gov/vuln/detail/CVE-2019-1068) — Microsoft SQL Server · KEV 2026-08-26 *(due TODAY)* · EPSS 0.53 (98.9th) · CVSS 8.8
+  Authenticated attacker executes arbitrary code as SQL Server service account.
+  → apply MS SQL July 2019 patch (KB4505225 / CU equivalent) today.
 
-**Tiers:**
+*PATCH THIS WEEK*
+- [CVE-2026-21962](https://nvd.nist.gov/vuln/detail/CVE-2026-21962) — Oracle HTTP Server / WebLogic Proxy · KEV 2026-08-24 *(due 2026-08-27, OVERDUE)* · EPSS 0.42 (98.6th) · CVSS 10.0
+  Improper access control → unauthorized create/delete/modify of critical server data.
+  → apply Oracle Critical Patch Update; escalate — already past federal due date.
 
-| Tier | Item | Action |
-|------|------|--------|
-| PATCH TODAY | CVE-2026-73570 — Zimbra ZCS (KEV, EPSS 0.205) | Patch now — CISA deadline already passed |
-| PATCH THIS WEEK | CVE-2026-55830 — RestrictedPython pip (CVSS 8.3, public PoC) | Upgrade to ≥8.3 |
-| PATCH THIS WEEK | CVE-2026-55638 + CVE-2026-55641 — 9router npm (CVSS 8.6/8.2, LLM proxy bypass) | Upgrade to ≥0.5.2 |
-| PATCH THIS WEEK | CVE-2026-55215 — mariadb npm (CVSS 7.5, creds leak to MitM) | Upgrade to ≥3.4.6, set VERIFY_CA |
-| MONITOR | CVE-2026-55485 — piccolo-admin pip (CVSS 8.8, admin→superuser, no fix) | Restrict endpoint |
-| MONITOR | CVE-2026-55247 — plone.app.event pip (CVSS 9.1, DoS, no fix) | Disable untrusted import |
-| MONITOR | CVE-2026-54788 — datadog-opentelemetry crates.io (CVSS 7.5, DoS, no fix) | Cap tracestate at ingress |
+- [CVE-2022-0995](https://nvd.nist.gov/vuln/detail/CVE-2022-0995) — Linux Kernel · KEV 2026-08-26 · EPSS 0.10 (95.2nd) · CVSS 7.8
+  OOB write in watch_queue subsystem → local privilege escalation.
+  → schedule kernel update; apply distro vendor security patch.
 
-**Files modified:**
-- `memory/logs/2026-08-28.md` — log entry appended
-- `.pending-notify/security-digest-2026-08-28.md` — notification staged for post-run delivery
+- [CVE-2015-3246](https://nvd.nist.gov/vuln/detail/CVE-2015-3246) — Red Hat Libuser · KEV 2026-08-26 · EPSS 0.09 (94.9th)
+  Race condition → /etc/passwd corruption → DoS or privilege escalation.
+  → yum update libuser on RHEL/CentOS systems.
+
+- [CVE-2015-5287](https://nvd.nist.gov/vuln/detail/CVE-2015-5287) — Red Hat ABRT · KEV 2026-08-26 · EPSS 0.05 (91.6th)
+  Symlink attack by local user with write permissions → privilege escalation; product may be EOL.
+  → yum update abrt or disable ABRT service if unused.
+
+- [CVE-2026-8452](https://nvd.nist.gov/vuln/detail/CVE-2026-8452) — Citrix NetScaler ADC / Gateway · KEV 2026-08-26 *(due TODAY)* · EPSS 0.02 (73.7th) · CVSS 9.8
+  Memory buffer vulnerability → denial of service on exposed appliance.
+  → apply Citrix Aug 2026 security bulletin update today.
