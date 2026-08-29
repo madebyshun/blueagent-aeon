@@ -1,0 +1,443 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-08-29"
+      },
+      "children": [
+        "top_pick_section",
+        "separator1",
+        "aiml_section",
+        "separator2",
+        "devtools_section",
+        "separator3",
+        "footer_section"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_label",
+        "ponytail_top"
+      ]
+    },
+    "top_pick_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "ponytail_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ponytail_top_link",
+        "ponytail_top_badges",
+        "ponytail_top_desc"
+      ]
+    },
+    "ponytail_top_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DietrichGebert/ponytail",
+        "href": "https://github.com/DietrichGebert/ponytail",
+        "source": "GitHub"
+      }
+    },
+    "ponytail_top_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_116k",
+        "badge_agentic"
+      ]
+    },
+    "badge_116k": {
+      "type": "Badge",
+      "props": {
+        "text": "116k ⭐",
+        "variant": "default"
+      }
+    },
+    "badge_agentic": {
+      "type": "Badge",
+      "props": {
+        "text": "Agentic Planning Framework",
+        "variant": "outline"
+      }
+    },
+    "ponytail_top_desc": {
+      "type": "Text",
+      "props": {
+        "text": "v4.9.0 makes 'search for existing libs first' a first-class primitive — directly reduces hallucinated abstractions from AI coding agents.",
+        "variant": "body"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_heading",
+        "livekit_item",
+        "marin_item"
+      ]
+    },
+    "aiml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "livekit_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "livekit_header_row",
+        "livekit_badges",
+        "livekit_desc"
+      ]
+    },
+    "livekit_header_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "livekit_link",
+        "livekit_stars_text"
+      ]
+    },
+    "livekit_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "livekit/agents",
+        "href": "https://github.com/livekit/agents",
+        "source": "GitHub"
+      }
+    },
+    "livekit_stars_text": {
+      "type": "Text",
+      "props": {
+        "text": "⭐ 256 today (13.4k total)",
+        "variant": "caption"
+      }
+    },
+    "livekit_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_python1",
+        "badge_returning1"
+      ]
+    },
+    "badge_python1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "badge_returning1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "livekit_desc": {
+      "type": "Text",
+      "props": {
+        "text": "v1.7.1 ships xAI LLM models, Gemini 3.5 live STT, ElevenLabs v3 TTS, and serialized AgentTask chains for multi-step voice conversations.",
+        "variant": "body"
+      }
+    },
+    "marin_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "marin_header_row",
+        "marin_badges",
+        "marin_desc"
+      ]
+    },
+    "marin_header_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "marin_link",
+        "marin_stars_text"
+      ]
+    },
+    "marin_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "marin-community/marin",
+        "href": "https://github.com/marin-community/marin",
+        "source": "GitHub"
+      }
+    },
+    "marin_stars_text": {
+      "type": "Text",
+      "props": {
+        "text": "⭐ 163 today (2.9k total)",
+        "variant": "caption"
+      }
+    },
+    "marin_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_python2",
+        "badge_returning2",
+        "badge_pushed"
+      ]
+    },
+    "badge_python2": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "badge_returning2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "badge_pushed": {
+      "type": "Badge",
+      "props": {
+        "text": "Pushed today",
+        "variant": "secondary"
+      }
+    },
+    "marin_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Modular pretraining and eval framework for foundation models; designed for reproducible multi-dataset research sweeps.",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "ponytail_devtools_item",
+        "gitnexus_item"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "ponytail_devtools_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ponytail_devtools_header_row",
+        "ponytail_devtools_badges",
+        "ponytail_devtools_desc"
+      ]
+    },
+    "ponytail_devtools_header_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ponytail_devtools_link",
+        "ponytail_devtools_stars_text"
+      ]
+    },
+    "ponytail_devtools_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DietrichGebert/ponytail",
+        "href": "https://github.com/DietrichGebert/ponytail",
+        "source": "GitHub"
+      }
+    },
+    "ponytail_devtools_stars_text": {
+      "type": "Text",
+      "props": {
+        "text": "⭐ 1,171 today (116k total)",
+        "variant": "caption"
+      }
+    },
+    "ponytail_devtools_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_javascript",
+        "badge_accelerating1"
+      ]
+    },
+    "badge_javascript": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_accelerating1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "ponytail_devtools_desc": {
+      "type": "Text",
+      "props": {
+        "text": "v4.9.0 encodes 'lazy senior dev' heuristics — agents search for existing libs before writing code, cutting hallucinated abstractions.",
+        "variant": "body"
+      }
+    },
+    "gitnexus_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "gitnexus_header_row",
+        "gitnexus_badges",
+        "gitnexus_desc"
+      ]
+    },
+    "gitnexus_header_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "gitnexus_link",
+        "gitnexus_stars_text"
+      ]
+    },
+    "gitnexus_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "abhigyanpatwari/GitNexus",
+        "href": "https://github.com/abhigyanpatwari/GitNexus",
+        "source": "GitHub"
+      }
+    },
+    "gitnexus_stars_text": {
+      "type": "Text",
+      "props": {
+        "text": "⭐ 273 today (46.3k total)",
+        "variant": "caption"
+      }
+    },
+    "gitnexus_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_typescript",
+        "badge_accelerating2"
+      ]
+    },
+    "badge_typescript": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_accelerating2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "gitnexus_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Builds an interactive call-graph of any codebase entirely client-side in-browser — no uploads, no backend, exports as diffable JSON.",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_section": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/20",
+        "variant": "muted"
+      }
+    }
+  }
+}
