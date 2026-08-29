@@ -1,23 +1,22 @@
-*Morning Brief — 2026-08-28*
+*Morning Brief — 2026-08-29*
 
 *Focus today*
-1. Warsh fired hawkish — BTC at $78K; reassess both Polymarket BTC positions today
-2. AI Compute/DePIN hold test — NVDA ↑↑ vs risk-off macro; narrative-tracker reprices 13:30 UTC
-3. Coinbase BTC mortgages × JH theme — hawkish speech now tests new product narrative today
+1. Sept Fed no-change YES (48.5¢) — why now: CoinDesk shows 57% hike priced; reassess before adding
+2. TRUMP anti-Fed front-run — why now: day-after JH is peak narrative window; was outlier yesterday
+3. AI Compute/DePIN hold — why now: hawkish tape narrows TAO/FET/RNDR breakout window today
 
 *Since yesterday*
-- [moved] Warsh spoke: "committed to discipline, not a decision" — BTC $79K → $78K, gold −3%
-- [moved] $82,500 YES: gap widens to ~5.7% (BTC $78K); bullish JH tail fully priced out
-- [stuck] $77,500 YES BUY NO (yesterday pick, fair ~22%) — BTC sliding toward target; reassess edge
-- [moved] ENA +23.7% BREAKOUT (Aug 27) — second-session confirmation still needed
-- [alert] pantheon-agents 0.6.1/0.6.2 supply-chain (Hades) — assume full credential compromise if installed
+- BTC recovered to ~$79K from $77.5K; still risk-off, gold below $4,500
+- Coinbase AiFi/Base demoted Fading ↓ — hawkish JH broke both thesis prongs
+- Memecoins crushed: CASHCAT −19.2%, FARTCOIN −9.8%; retail bid gone
+- $912M whale pre-positioned before Warsh speech — smart money was hedged
+- narrative-tracker: Hawkish Fed NEW, Prediction Markets demoted to Fading ↓
 
 *Watch*
-- Warsh hawkish flips JH/Warsh Policy: Peak → FADE — Polymarket BTC $82,500 YES collapses; $77,500 YES BUY NO thesis narrowing (focus #1)
-- AI Compute tokens (TAO, RNDR, FET) under pressure — NVDA supply-side narrative vs hawkish rate signal; watch 13:30 UTC rePrice (focus #2)
+- BTC ~$79K, market pricing 57% Sept hike (CoinDesk) — narrows Sept no-change YES upside; check CME vs Polymarket spread before sizing up
+- AI agents could make crypto hacks look like pennies (The Block) — adversarial agent risk scaling faster than defenses; x402/agent economy risk unpriced
 
 *Running today*
-- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC

@@ -1,0 +1,406 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-29"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-since",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-fed",
+        "text-fed-reasoning"
+      ]
+    },
+    "stat-fed": {
+      "type": "Stat",
+      "props": {
+        "label": "Sept Fed no-change YES",
+        "value": "48.5¢"
+      },
+      "children": []
+    },
+    "text-fed-reasoning": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: CoinDesk shows 57% hike priced; reassess before adding",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-trump",
+        "text-trump-reasoning"
+      ]
+    },
+    "heading-trump": {
+      "type": "Heading",
+      "props": {
+        "text": "TRUMP anti-Fed front-run",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text-trump-reasoning": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: day-after JH is peak narrative window; was outlier yesterday",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-ai-compute",
+        "text-ai-reasoning"
+      ]
+    },
+    "heading-ai-compute": {
+      "type": "Heading",
+      "props": {
+        "text": "AI Compute/DePIN hold",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text-ai-reasoning": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: hawkish tape narrows TAO/FET/RNDR breakout window today",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-since",
+        "since-btc",
+        "since-coinbase",
+        "since-memecoins",
+        "since-whale",
+        "since-narrative"
+      ]
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "since-btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-btc-recovery",
+        "text-btc-note"
+      ]
+    },
+    "stat-btc-recovery": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Recovery",
+        "value": "~$79K",
+        "delta": "+$1.5K"
+      },
+      "children": []
+    },
+    "text-btc-note": {
+      "type": "Text",
+      "props": {
+        "text": "from $77.5K; still risk-off, gold below $4,500",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "since-coinbase": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase AiFi/Base demoted Fading ↓ — hawkish JH broke both thesis prongs",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-memecoins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-memecoins-heading",
+        "stat-cashcat",
+        "stat-fartcoin",
+        "text-retail"
+      ]
+    },
+    "text-memecoins-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoins crushed:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat-cashcat": {
+      "type": "Stat",
+      "props": {
+        "label": "CASHCAT",
+        "value": "−19.2%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat-fartcoin": {
+      "type": "Stat",
+      "props": {
+        "label": "FARTCOIN",
+        "value": "−9.8%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-retail": {
+      "type": "Text",
+      "props": {
+        "text": "retail bid gone",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "since-whale": {
+      "type": "Text",
+      "props": {
+        "text": "$912M whale pre-positioned before Warsh speech — smart money was hedged",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "since-narrative": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-narrative-label",
+        "badge-hawkish",
+        "badge-pm"
+      ]
+    },
+    "text-narrative-label": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker updates:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "badge-hawkish": {
+      "type": "Badge",
+      "props": {
+        "text": "Hawkish Fed NEW",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-pm": {
+      "type": "Badge",
+      "props": {
+        "text": "Prediction Markets demoted to Fading ↓",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "watch-item-1",
+        "watch-item-2"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-btc-watch",
+        "text-btc-watch-detail"
+      ]
+    },
+    "stat-btc-watch": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "~$79K"
+      },
+      "children": []
+    },
+    "text-btc-watch-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Market pricing 57% Sept hike (CoinDesk) — narrows Sept no-change YES upside; check CME vs Polymarket spread before sizing up",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "watch-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "AI agents could make crypto hacks look like pennies (The Block) — adversarial agent risk scaling faster than defenses; x402/agent economy risk unpriced",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "table-scheduled"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-scheduled": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Time (UTC)"
+        ],
+        "rows": [
+          [
+            "github-monitor",
+            "09:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "token-pick",
+            "12:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ]
+        ]
+      },
+      "children": []
+    }
+  }
+}
