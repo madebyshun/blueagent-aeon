@@ -1,0 +1,244 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-08-29"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-icp",
+        "separator-1",
+        "section-market",
+        "alert-disclaimer"
+      ]
+    },
+    "section-icp": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack-icp-header",
+        "text-icp-price",
+        "text-icp-score",
+        "text-icp-catalyst",
+        "text-icp-risk"
+      ]
+    },
+    "stack-icp-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading-icp",
+        "badge-icp-medium",
+        "stat-icp-signal"
+      ]
+    },
+    "heading-icp": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: ICP",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge-icp-medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat-icp-signal": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "6/10"
+      },
+      "children": []
+    },
+    "text-icp-price": {
+      "type": "Text",
+      "props": {
+        "text": "Price: $2.53 (+6.0% 24h / +5.2% 7d) | mcap $1.4B | vol $46.6M (vol/mcap 0.033)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-icp-score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [24h>0+1, 7d>0+1, both>+5%+2, RS vs BTC/ETH on 7d+2] = 6/10",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-icp-catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: ICP's MCP Server Preview (July 23) bridges AI agents like Claude directly to on-chain canisters; Caffeine AI now listed in AWS Marketplace and Claude's MCP directory — live hook into the agent-economy narrative",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-icp-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: Mission 70 inflation-cut story is 7+ months old and may already be priced in; ICP historically drops 50-70% when crypto breadth stalls",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack-market-header",
+        "text-market-current",
+        "text-market-volume",
+        "text-market-resolution",
+        "text-market-fair",
+        "text-market-thesis",
+        "text-market-risk",
+        "text-market-sources"
+      ]
+    },
+    "stack-market-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-market",
+        "stack-market-badges"
+      ]
+    },
+    "heading-market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-market-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-market-medium",
+        "stat-market-edge"
+      ]
+    },
+    "badge-market-medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat-market-edge": {
+      "type": "Stat",
+      "props": {
+        "label": "Edge",
+        "value": "6pp"
+      },
+      "children": []
+    },
+    "text-market-current": {
+      "type": "Text",
+      "props": {
+        "text": "Current: YES 43.5¢ / NO 56.5¢",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-market-volume": {
+      "type": "Text",
+      "props": {
+        "text": "24h vol: $920K",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-market-resolution": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-09-16",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-market-fair": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~49.5% (inputs: [CoinDesk/CME futures peaked at 57% hike probability this morning post-Warsh JH speech], [Polymarket no-change moved from 48.5¢→54.5¢ today — partial repricing already happened], [50+bps tranche priced at 0.55%, so 25bps captures nearly all hike probability])",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-market-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: Futures repriced hawkishly post-Warsh but Polymarket lags — total hike probability on Poly is 44% vs ~50% fair-value, creating a 6pp edge on the 25bps tranche",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-market-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: Incoming PCE or jobs data before Sept 16 could collapse hike odds back toward 40% and close the gap against this position",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-market-sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "alert-disclaimer": {
+      "type": "Alert",
+      "props": {
+        "message": "Not financial advice — pattern-matching only",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
