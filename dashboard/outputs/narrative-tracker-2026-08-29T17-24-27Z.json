@@ -1,0 +1,495 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-29"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "transitions-section",
+        "sep-1",
+        "reflexivity-section",
+        "sep-2",
+        "positions-section",
+        "sep-3",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions-heading",
+        "trans-1",
+        "trans-2",
+        "trans-3",
+        "trans-4",
+        "trans-5",
+        "trans-6"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans-1": {
+      "type": "Text",
+      "props": {
+        "text": "NEW CATALYST: Agent Identity — ERC-8004 \"Trustless Agents\" (Ethereum on-chain identity + portable reputation + validation registries). Was Fading 12+ sessions. RESURRECTS as Emerging ↑ WATCH.",
+        "variant": "body"
+      }
+    },
+    "trans-2": {
+      "type": "Text",
+      "props": {
+        "text": "PROMOTED: Hawkish Fed/Macro → Peak ↑↑ — BTC −3.8% day 2, market −2.9% ($2.72T). CME pricing 57% Sept hike. Deepening.",
+        "variant": "body"
+      }
+    },
+    "trans-3": {
+      "type": "Text",
+      "props": {
+        "text": "PROMOTED: Prediction Markets — Fading ↓ → Emerging ↑. Sector \"largest 24h gainer\" (CoinGecko). Sept Fed no-change YES 43.5¢ (~13pp gap vs CME 57%).",
+        "variant": "body"
+      }
+    },
+    "trans-4": {
+      "type": "Text",
+      "props": {
+        "text": "DEMOTED: ENA/Stablecoin Rails — Emerging → Fading ↓↓. ENA −8.1% today. Aug 27 +23.7% confirmed squeeze exhaust. FADE.",
+        "variant": "body"
+      }
+    },
+    "trans-5": {
+      "type": "Text",
+      "props": {
+        "text": "VELOCITY DOWN: AI Compute/DePIN — Rising ↑ → Rising →. FET −4.1%, macro headwind day 2. NVDA structurally intact.",
+        "variant": "body"
+      }
+    },
+    "trans-6": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC RESURRECTION SIGNAL — Fading ↓↓ → WATCH. ZEC [MAJOR] returns to trending. One more session needed.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "alert-1",
+        "alert-2"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "Hawkish Fed × Prediction Markets",
+        "message": "CME 57% Sept hike vs Polymarket no-change YES 43.5¢ (~13pp gap). Second consecutive post-JH fear premium. Exploitable if Fed holds in Sept.",
+        "type": "warning"
+      }
+    },
+    "alert-2": {
+      "type": "Alert",
+      "props": {
+        "title": "HYPE $723M Unlock (4.46% circ)",
+        "message": "HYPE [MAJOR] in trending on unlock day = holders absorbing. Resilience signal — cascade risk if distribution accelerates.",
+        "type": "info"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions-heading",
+        "pos-1",
+        "pos-2",
+        "pos-3",
+        "pos-4",
+        "pos-5",
+        "pos-6",
+        "pos-7"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-1-badge",
+        "pos-1-text"
+      ]
+    },
+    "pos-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "pos-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Hawkish Fed/Macro (5 ↑↑, Bear) — crypto long headwind deepening; BTC $80K resistance; day 2 risk-off — no contrarian edge",
+        "variant": "body"
+      }
+    },
+    "pos-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-2-badge",
+        "pos-2-text"
+      ]
+    },
+    "pos-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "pos-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization (4 ↑, Bull) — Tokenized Private Credit sector-leading 24h; Circle Arc T-18; velocity up",
+        "variant": "body"
+      }
+    },
+    "pos-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-3-badge",
+        "pos-3-text"
+      ]
+    },
+    "pos-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "pos-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy (5 →, Bull) — Binance Agent OS + ERC-8004 structural development; stable Peak",
+        "variant": "body"
+      }
+    },
+    "pos-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-4-badge",
+        "pos-4-text"
+      ]
+    },
+    "pos-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets (3 ↑, Mixed) — sector leading; Sept Fed YES mispricing; promoted from Fading",
+        "variant": "body"
+      }
+    },
+    "pos-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-5-badge",
+        "pos-5-text"
+      ]
+    },
+    "pos-5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos-5-text": {
+      "type": "Text",
+      "props": {
+        "text": "Agent Identity / ERC-8004 (3 ↑, Bull) — on-chain agent identity standard; Emerging; monitor for token catalyst",
+        "variant": "body"
+      }
+    },
+    "pos-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-6-badge",
+        "pos-6-text"
+      ]
+    },
+    "pos-6-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos-6-text": {
+      "type": "Text",
+      "props": {
+        "text": "Perp DEX/HYPE (3 ↑, Mixed) — trending on $723M unlock; resilience test ongoing",
+        "variant": "body"
+      }
+    },
+    "pos-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pos-7-badge",
+        "pos-7-text"
+      ]
+    },
+    "pos-7-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "pos-7-text": {
+      "type": "Text",
+      "props": {
+        "text": "ENA (2 ↓↓, Bear) — squeeze exhaust confirmed; second-session fail",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-heading",
+        "map-peak",
+        "map-rising",
+        "map-emerging",
+        "map-fading",
+        "map-dead"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-heading",
+        "map-peak-text"
+      ]
+    },
+    "map-peak-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      }
+    },
+    "map-peak-text": {
+      "type": "Text",
+      "props": {
+        "text": "Hawkish Fed/Macro, AI Agent Economy, x402/Agentic Payments",
+        "variant": "body"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-heading",
+        "map-rising-text"
+      ]
+    },
+    "map-rising-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      }
+    },
+    "map-rising-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN →, RWA Tokenization ↑, Agentic Dev Tools, SEC Regulation, Oracle/LINK, AI Agent Security, BNB Chain/AI Agent L1",
+        "variant": "body"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-heading",
+        "map-emerging-text"
+      ]
+    },
+    "map-emerging-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      }
+    },
+    "map-emerging-text": {
+      "type": "Text",
+      "props": {
+        "text": "Agent Identity (ERC-8004) ↑, Prediction Markets ↑, Perp DEX/HYPE ↑, TRUMP →, Bitcoin L2, CLARITY Act, Lean Ethereum, Quantum, FHE, X Money",
+        "variant": "body"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-heading",
+        "map-fading-text"
+      ]
+    },
+    "map-fading-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      }
+    },
+    "map-fading-text": {
+      "type": "Text",
+      "props": {
+        "text": "ENA, Coinbase AiFi/Base, ZEC (WATCH), DeFi-TradFi/AAVE, Memecoins/Retail, Solana Supply Shock, WorldCoin, LayerZero, DeFi Revival, AI→Crypto Rotation",
+        "variant": "body"
+      }
+    },
+    "map-dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-dead-heading",
+        "map-dead-text"
+      ]
+    },
+    "map-dead-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Dead",
+        "level": "h3"
+      }
+    },
+    "map-dead-text": {
+      "type": "Text",
+      "props": {
+        "text": "JH/Warsh Policy, Kaito/InfoFi",
+        "variant": "body"
+      }
+    }
+  }
+}
