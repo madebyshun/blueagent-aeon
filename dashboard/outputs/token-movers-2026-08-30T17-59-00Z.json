@@ -1,0 +1,40 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "date_badge",
+        "digest_note"
+      ]
+    },
+    "date_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "2026-08-30",
+        "variant": "secondary"
+      }
+    },
+    "digest_note": {
+      "type": "Text",
+      "props": {
+        "text": "see full digest in logs",
+        "variant": "muted"
+      }
+    }
+  }
+}

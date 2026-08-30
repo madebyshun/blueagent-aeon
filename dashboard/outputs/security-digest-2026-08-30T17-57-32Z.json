@@ -1,0 +1,531 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest",
+        "description": "2026-08-30 | Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "verdict",
+        "sep1",
+        "today_heading",
+        "today_stack",
+        "sep2",
+        "week_heading",
+        "week_stack"
+      ]
+    },
+    "verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 3 KEV (2 due today), 4 tracked-stack advisories to schedule",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "today_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "today_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "cve_2023_49105",
+        "cve_2026_66384",
+        "cve_2026_53362"
+      ]
+    },
+    "cve_2023_49105": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2023_49105_link",
+        "cve_2023_49105_meta",
+        "cve_2023_49105_desc",
+        "cve_2023_49105_cisa",
+        "cve_2023_49105_action"
+      ]
+    },
+    "cve_2023_49105_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2023-49105 — ownCloud",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2023-49105",
+        "source": "KEV 2026-08-27",
+        "score": "CVSS 9.8"
+      }
+    },
+    "cve_2023_49105_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2023_49105_epss",
+        "cve_2023_49105_due"
+      ]
+    },
+    "cve_2023_49105_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.432",
+        "variant": "destructive"
+      }
+    },
+    "cve_2023_49105_due": {
+      "type": "Badge",
+      "props": {
+        "text": "CISA due TODAY",
+        "variant": "destructive"
+      }
+    },
+    "cve_2023_49105_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass: access/modify/delete files with known username if signing-key missing."
+      }
+    },
+    "cve_2023_49105_cisa": {
+      "type": "Alert",
+      "props": {
+        "title": "URGENT",
+        "message": "CISA deadline: TODAY",
+        "type": "error"
+      }
+    },
+    "cve_2023_49105_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply vendor mitigation or disable unauthenticated WebDAV access immediately.",
+        "variant": "lead"
+      }
+    },
+    "cve_2026_66384": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_66384_link",
+        "cve_2026_66384_meta",
+        "cve_2026_66384_desc",
+        "cve_2026_66384_deadline",
+        "cve_2026_66384_action"
+      ]
+    },
+    "cve_2026_66384_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-66384 — JFrog Artifactory",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-66384",
+        "source": "KEV 2026-08-27",
+        "score": "CVSS 5.3"
+      }
+    },
+    "cve_2026_66384_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_66384_epss",
+        "cve_2026_66384_auth"
+      ]
+    },
+    "cve_2026_66384_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.006",
+        "variant": "secondary"
+      }
+    },
+    "cve_2026_66384_auth": {
+      "type": "Badge",
+      "props": {
+        "text": "Authenticated",
+        "variant": "outline"
+      }
+    },
+    "cve_2026_66384_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Docker cache path traversal — write outside intended dir under remote-repo conditions."
+      }
+    },
+    "cve_2026_66384_deadline": {
+      "type": "Alert",
+      "props": {
+        "title": "CISA Deadline",
+        "message": "2026-09-10",
+        "type": "warning"
+      }
+    },
+    "cve_2026_66384_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply vendor mitigation.",
+        "variant": "lead"
+      }
+    },
+    "cve_2026_53362": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_53362_link",
+        "cve_2026_53362_meta",
+        "cve_2026_53362_desc",
+        "cve_2026_53362_cisa",
+        "cve_2026_53362_action"
+      ]
+    },
+    "cve_2026_53362_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-53362 — Linux Kernel",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-53362",
+        "source": "KEV 2026-08-27",
+        "score": "CVSS 7.8"
+      }
+    },
+    "cve_2026_53362_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_53362_epss",
+        "cve_2026_53362_lpe"
+      ]
+    },
+    "cve_2026_53362_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.005",
+        "variant": "secondary"
+      }
+    },
+    "cve_2026_53362_lpe": {
+      "type": "Badge",
+      "props": {
+        "text": "LPE",
+        "variant": "destructive"
+      }
+    },
+    "cve_2026_53362_desc": {
+      "type": "Text",
+      "props": {
+        "text": "IPv6 UDPv6 MSG_MORE fragmentation buffer overflow → local privilege escalation."
+      }
+    },
+    "cve_2026_53362_cisa": {
+      "type": "Alert",
+      "props": {
+        "title": "URGENT",
+        "message": "CISA deadline: TODAY",
+        "type": "error"
+      }
+    },
+    "cve_2026_53362_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ update kernel; isolate IPv6-exposed hosts until patched.",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "week_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "cve_2026_55247",
+        "cve_2026_55248",
+        "cve_2026_55641",
+        "cve_2026_55068"
+      ]
+    },
+    "cve_2026_55247": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_55247_link",
+        "cve_2026_55247_meta",
+        "cve_2026_55247_desc",
+        "cve_2026_55247_action"
+      ]
+    },
+    "cve_2026_55247_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-55247 — plone.app.event",
+        "href": "https://github.com/advisories/GHSA-r82h-mqw3-fc56",
+        "source": "GH Advisory",
+        "score": "CVSS 9.1"
+      }
+    },
+    "cve_2026_55247_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_55247_epss",
+        "cve_2026_55247_severity"
+      ]
+    },
+    "cve_2026_55247_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003",
+        "variant": "secondary"
+      }
+    },
+    "cve_2026_55247_severity": {
+      "type": "Badge",
+      "props": {
+        "text": "SSRF+DoS+XSS",
+        "variant": "destructive"
+      }
+    },
+    "cve_2026_55247_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Editor-level SSRF + DoS + stored XSS via malformed iCalendar import."
+      }
+    },
+    "cve_2026_55247_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade plone.app.event to ≥5.2.4 (Plone 6.x: ≥6.0.1).",
+        "variant": "lead"
+      }
+    },
+    "cve_2026_55248": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_55248_link",
+        "cve_2026_55248_meta",
+        "cve_2026_55248_desc",
+        "cve_2026_55248_action"
+      ]
+    },
+    "cve_2026_55248_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-55248 — plone.app.portlets",
+        "href": "https://github.com/advisories/GHSA-x5g3-w747-2h8q",
+        "source": "GH Advisory",
+        "score": "CVSS 9.1"
+      }
+    },
+    "cve_2026_55248_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_55248_epss",
+        "cve_2026_55248_severity"
+      ]
+    },
+    "cve_2026_55248_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003",
+        "variant": "secondary"
+      }
+    },
+    "cve_2026_55248_severity": {
+      "type": "Badge",
+      "props": {
+        "text": "DoS+XSS",
+        "variant": "destructive"
+      }
+    },
+    "cve_2026_55248_desc": {
+      "type": "Text",
+      "props": {
+        "text": "DoS + XSS via RSS feed portlet; XSS in event URL field."
+      }
+    },
+    "cve_2026_55248_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade to ≥5.0.8 (6.x: ≥6.0.4; 7.x ≤7.0.1: no fix yet, monitor).",
+        "variant": "lead"
+      }
+    },
+    "cve_2026_55641": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_55641_link",
+        "cve_2026_55641_meta",
+        "cve_2026_55641_desc",
+        "cve_2026_55641_related",
+        "cve_2026_55641_action"
+      ]
+    },
+    "cve_2026_55641_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-55641 — 9router",
+        "href": "https://github.com/advisories/GHSA-86m2-fcxq-5q7c",
+        "source": "GH Advisory",
+        "score": "CVSS 8.2"
+      }
+    },
+    "cve_2026_55641_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_55641_epss",
+        "cve_2026_55641_severity"
+      ]
+    },
+    "cve_2026_55641_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "outline"
+      }
+    },
+    "cve_2026_55641_severity": {
+      "type": "Badge",
+      "props": {
+        "text": "Open-AI relay+SSRF",
+        "variant": "destructive"
+      }
+    },
+    "cve_2026_55641_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated open-AI relay + SSRF via Host-header spoof (/v1); /codex auth bypass."
+      }
+    },
+    "cve_2026_55641_related": {
+      "type": "Text",
+      "props": {
+        "text": "Related: CVE-2026-55638",
+        "variant": "caption"
+      }
+    },
+    "cve_2026_55641_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade 9router to ≥0.5.2.",
+        "variant": "lead"
+      }
+    },
+    "cve_2026_55068": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_55068_link",
+        "cve_2026_55068_meta",
+        "cve_2026_55068_desc",
+        "cve_2026_55068_action"
+      ]
+    },
+    "cve_2026_55068_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-55068 — free5GC",
+        "href": "https://github.com/advisories/GHSA-x8mj-6p3q-g5pp",
+        "source": "GH Advisory",
+        "score": "CVSS critical"
+      }
+    },
+    "cve_2026_55068_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_55068_epss",
+        "cve_2026_55068_severity"
+      ]
+    },
+    "cve_2026_55068_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      }
+    },
+    "cve_2026_55068_severity": {
+      "type": "Badge",
+      "props": {
+        "text": "Unauthenticated",
+        "variant": "destructive"
+      }
+    },
+    "cve_2026_55068_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated NF profile poisoning — fake endpoints route 5G control-plane traffic to attacker."
+      }
+    },
+    "cve_2026_55068_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade github.com/free5gc/free5gc to ≥4.2.2.",
+        "variant": "lead"
+      }
+    }
+  }
+}
