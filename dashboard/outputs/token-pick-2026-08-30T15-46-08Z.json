@@ -1,0 +1,339 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-08-30"
+      },
+      "children": [
+        "token-header",
+        "sep1",
+        "price-section",
+        "sep2",
+        "market-section",
+        "sep3",
+        "score-section",
+        "sep4",
+        "catalyst-section",
+        "sep5",
+        "risk-section",
+        "sep6",
+        "sources-section"
+      ]
+    },
+    "token-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token-name",
+        "signal-badge",
+        "signal-score"
+      ]
+    },
+    "token-name": {
+      "type": "Heading",
+      "props": {
+        "text": "HNT",
+        "level": "h2"
+      }
+    },
+    "signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "signal-score": {
+      "type": "Stat",
+      "props": {
+        "label": "signal",
+        "value": "10/10"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price-heading",
+        "price-24h",
+        "price-7d"
+      ]
+    },
+    "price-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Price: $0.89",
+        "level": "h3"
+      }
+    },
+    "price-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h change",
+        "value": "+155.5%",
+        "trend": "up"
+      }
+    },
+    "price-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d change",
+        "value": "+385%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-section": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "mcap-stat",
+        "vol-stat",
+        "volmcap-stat"
+      ]
+    },
+    "mcap-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "mcap",
+        "value": "$166M"
+      }
+    },
+    "vol-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "volume (24h)",
+        "value": "$246M"
+      }
+    },
+    "volmcap-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "vol/mcap ratio",
+        "value": "1.48"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "score-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "score-heading",
+        "score-items",
+        "score-calculation"
+      ]
+    },
+    "score-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      }
+    },
+    "score-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-trending",
+        "score-vol",
+        "score-rs",
+        "score-24h",
+        "score-7d",
+        "score-both"
+      ]
+    },
+    "score-trending": {
+      "type": "Text",
+      "props": {
+        "text": "trending: +2",
+        "variant": "body"
+      }
+    },
+    "score-vol": {
+      "type": "Text",
+      "props": {
+        "text": "vol/mcap ≥0.20: +3",
+        "variant": "body"
+      }
+    },
+    "score-rs": {
+      "type": "Text",
+      "props": {
+        "text": "RS vs BTC/ETH 7d: +2",
+        "variant": "body"
+      }
+    },
+    "score-24h": {
+      "type": "Text",
+      "props": {
+        "text": "24h > 0%: +1",
+        "variant": "body"
+      }
+    },
+    "score-7d": {
+      "type": "Text",
+      "props": {
+        "text": "7d > 0%: +1",
+        "variant": "body"
+      }
+    },
+    "score-both": {
+      "type": "Text",
+      "props": {
+        "text": "both > 5%: +2",
+        "variant": "body"
+      }
+    },
+    "score-calculation": {
+      "type": "Text",
+      "props": {
+        "text": "12 raw → capped 10/10",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalyst-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "catalyst-heading",
+        "catalyst-text"
+      ]
+    },
+    "catalyst-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "City of Celina, TX converted public Wi-Fi to Helium carrier coverage (Aug 29), triggering a short squeeze with AT&T and Telefónica carrier confirmations from CEO Aug 28 letter — DePIN narrative turning into signed municipal contracts",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "risk-section": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Short squeeze largely exhausted ($125K liquidations cleared); +155% single-day move sets up mean-reversion once momentum chasers exit; real-world network expansion pace will lag token price velocity",
+        "type": "warning"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sources-heading",
+        "sources-badges",
+        "disclaimer"
+      ]
+    },
+    "sources-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Data Sources",
+        "level": "h4"
+      }
+    },
+    "sources-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cg-badge",
+        "dex-badge",
+        "poly-badge"
+      ]
+    },
+    "cg-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "cg=ok",
+        "variant": "default"
+      }
+    },
+    "dex-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "dex=fail",
+        "variant": "destructive"
+      }
+    },
+    "poly-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "poly=partial (markets ok / events 422)",
+        "variant": "secondary"
+      }
+    },
+    "disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
