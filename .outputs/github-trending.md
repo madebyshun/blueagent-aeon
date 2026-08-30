@@ -1,21 +1,28 @@
-*GitHub Trending — 2026-08-29*
+*GitHub Trending — 2026-08-30*
 
-*Top pick* — [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
-116k-star agentic planning framework; v4.9.0 makes 'search for existing libs first' a first-class primitive — directly reduces hallucinated abstractions from AI coding agents.
+*Top pick* — [tt-a1i/archify](https://github.com/tt-a1i/archify)
+The 3,730-star day signals a shift: developers now expect agents to render verifiable artifacts, not just describe system designs in text.
 
 *AI/ML*
-• [livekit/agents](https://github.com/livekit/agents) — ★ 256 today (13.4k total) · Python · [RETURNING]
-v1.7.1 ships xAI LLM models, Gemini 3.5 live STT, ElevenLabs v3 TTS, and serialized AgentTask chains for multi-step voice conversations.
+• [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) — ★ 907 today (23.1k total) · TypeScript · [ACCELERATING]
+Orchestrates a live AI tutor, devil's advocate, and examiner agent around a single learner in real time.
 
-• [marin-community/marin](https://github.com/marin-community/marin) — ★ 163 today (2.9k total) · Python · [RETURNING]
-Pushed today — modular pretraining and eval framework for foundation models; designed for reproducible multi-dataset research sweeps.
+• [p-e-w/heretic](https://github.com/p-e-w/heretic) — ★ 150 today (28.9k total) · Python · [RETURNING]
+Strips refusal prompts from local models at inference time — no fine-tuning, just filter removal at the system-prompt layer.
+
+• [pollen-robotics/microduck_rl](https://github.com/pollen-robotics/microduck_rl) — ★ 147 today (0.7k total) · Python · [RETURNING]
+Open RL training environments for a sub-$500 robot — closes the gap between academic simulation and real consumer hardware.
 
 *Devtools*
-• [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) — ★ 1,171 today (116k total) · JavaScript · [ACCELERATING]
-v4.9.0 encodes 'lazy senior dev' heuristics — agents search for existing libs before writing code, cutting hallucinated abstractions.
+• [tt-a1i/archify](https://github.com/tt-a1i/archify) — ★ 3,730 today (33.2k total) · JavaScript · [ACCELERATING]
+Drop-in agent skill that generates auto-layouting, verifiable architecture and sequence diagrams from natural-language descriptions.
 
-• [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) — ★ 273 today (46.3k total) · TypeScript · [ACCELERATING]
-Builds an interactive call-graph of any codebase entirely client-side in-browser — no uploads, no backend, exports as diffable JSON.
+• [Lakr233/vphone-cli](https://github.com/Lakr233/vphone-cli) — ★ 633 today (9.4k total) · Swift · [ACCELERATING]
+Signs, launches, and scripts iOS apps from the terminal — no Xcode, no GUI, fully scriptable device management.
+
+*Web/Apps*
+• [every-app/open-seo](https://github.com/every-app/open-seo) — ★ 517 today (14.9k total) · TypeScript · [ACCELERATING]
+Self-hostable Semrush/Ahrefs alternative — crawl, backlink, and keyword analysis without a $499/month subscription.
 
 ---
-sources: trending=ok · gh_api=ok · kept 4/20
+sources: trending=ok · gh_api=ok · kept 6/19

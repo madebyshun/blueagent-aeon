@@ -1,0 +1,417 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-08-30"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_toppick",
+        "repo_archify_top",
+        "sep_1",
+        "heading_aiml",
+        "stack_aiml",
+        "sep_2",
+        "heading_devtools",
+        "stack_devtools",
+        "sep_3",
+        "heading_web",
+        "stack_web",
+        "sep_4",
+        "text_footer"
+      ]
+    },
+    "heading_toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h3"
+      }
+    },
+    "repo_archify_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_archify_top",
+        "text_archify_top_desc"
+      ]
+    },
+    "storylink_archify_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "tt-a1i/archify",
+        "href": "https://github.com/tt-a1i/archify"
+      }
+    },
+    "text_archify_top_desc": {
+      "type": "Text",
+      "props": {
+        "text": "The 3,730-star day signals a shift: developers now expect agents to render verifiable artifacts, not just describe system designs in text."
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "stack_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_openmaim",
+        "repo_heretic",
+        "repo_microduck"
+      ]
+    },
+    "repo_openmaim": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_openmaim",
+        "text_openmaim_desc"
+      ]
+    },
+    "header_openmaim": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_openmaim",
+        "badge_accelerating"
+      ]
+    },
+    "storylink_openmaim": {
+      "type": "StoryLink",
+      "props": {
+        "title": "THU-MAIC/OpenMAIC",
+        "href": "https://github.com/THU-MAIC/OpenMAIC",
+        "source": "TypeScript",
+        "score": "★ 907 today (23.1k total)"
+      }
+    },
+    "badge_accelerating": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_openmaim_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Orchestrates a live AI tutor, devil's advocate, and examiner agent around a single learner in real time."
+      }
+    },
+    "repo_heretic": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_heretic",
+        "text_heretic_desc"
+      ]
+    },
+    "header_heretic": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_heretic",
+        "badge_returning"
+      ]
+    },
+    "storylink_heretic": {
+      "type": "StoryLink",
+      "props": {
+        "title": "p-e-w/heretic",
+        "href": "https://github.com/p-e-w/heretic",
+        "source": "Python",
+        "score": "★ 150 today (28.9k total)"
+      }
+    },
+    "badge_returning": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "text_heretic_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Strips refusal prompts from local models at inference time — no fine-tuning, just filter removal at the system-prompt layer."
+      }
+    },
+    "repo_microduck": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_microduck",
+        "text_microduck_desc"
+      ]
+    },
+    "header_microduck": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_microduck",
+        "badge_returning_2"
+      ]
+    },
+    "storylink_microduck": {
+      "type": "StoryLink",
+      "props": {
+        "title": "pollen-robotics/microduck_rl",
+        "href": "https://github.com/pollen-robotics/microduck_rl",
+        "source": "Python",
+        "score": "★ 147 today (0.7k total)"
+      }
+    },
+    "badge_returning_2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "text_microduck_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Open RL training environments for a sub-$500 robot — closes the gap between academic simulation and real consumer hardware."
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "stack_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_archify_dev",
+        "repo_vphone"
+      ]
+    },
+    "repo_archify_dev": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_archify_dev",
+        "text_archify_dev_desc"
+      ]
+    },
+    "header_archify_dev": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_archify_dev",
+        "badge_accelerating_2"
+      ]
+    },
+    "storylink_archify_dev": {
+      "type": "StoryLink",
+      "props": {
+        "title": "tt-a1i/archify",
+        "href": "https://github.com/tt-a1i/archify",
+        "source": "JavaScript",
+        "score": "★ 3,730 today (33.2k total)"
+      }
+    },
+    "badge_accelerating_2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_archify_dev_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Drop-in agent skill that generates auto-layouting, verifiable architecture and sequence diagrams from natural-language descriptions."
+      }
+    },
+    "repo_vphone": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_vphone",
+        "text_vphone_desc"
+      ]
+    },
+    "header_vphone": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_vphone",
+        "badge_accelerating_3"
+      ]
+    },
+    "storylink_vphone": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Lakr233/vphone-cli",
+        "href": "https://github.com/Lakr233/vphone-cli",
+        "source": "Swift",
+        "score": "★ 633 today (9.4k total)"
+      }
+    },
+    "badge_accelerating_3": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_vphone_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Signs, launches, and scripts iOS apps from the terminal — no Xcode, no GUI, fully scriptable device management."
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_web": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "stack_web": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_openseo"
+      ]
+    },
+    "repo_openseo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header_openseo",
+        "text_openseo_desc"
+      ]
+    },
+    "header_openseo": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink_openseo",
+        "badge_accelerating_4"
+      ]
+    },
+    "storylink_openseo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "every-app/open-seo",
+        "href": "https://github.com/every-app/open-seo",
+        "source": "TypeScript",
+        "score": "★ 517 today (14.9k total)"
+      }
+    },
+    "badge_accelerating_4": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_openseo_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hostable Semrush/Ahrefs alternative — crawl, backlink, and keyword analysis without a $499/month subscription."
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/19",
+        "variant": "caption"
+      }
+    }
+  }
+}
