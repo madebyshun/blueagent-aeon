@@ -1,0 +1,295 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-30"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_transitions",
+        "separator_main",
+        "section_reflexivity"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "item_depIN",
+        "item_zec",
+        "item_agent",
+        "item_trump",
+        "item_fed"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "item_depIN": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_depIN",
+        "text_depIN",
+        "stat_hnt",
+        "alert_depIN_risk"
+      ]
+    },
+    "badge_depIN": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED: AI Compute/DePIN",
+        "variant": "default"
+      }
+    },
+    "text_depIN": {
+      "type": "Text",
+      "props": {
+        "text": "Rising → → ↑↑ FRONT-RUN. City of Celina TX municipal Wi-Fi conversion + AT&T/Telefónica carrier confirmations. DePIN crossing from speculation to signed contracts.",
+        "variant": "body"
+      }
+    },
+    "stat_hnt": {
+      "type": "Stat",
+      "props": {
+        "label": "HNT",
+        "value": "+150%",
+        "trend": "up"
+      }
+    },
+    "alert_depIN_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "PUMP-RISK",
+        "message": "Short squeeze component",
+        "type": "warning"
+      }
+    },
+    "item_zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_zec",
+        "text_zec",
+        "grid_zec_stats"
+      ]
+    },
+    "badge_zec": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED: ZEC/Privacy",
+        "variant": "default"
+      }
+    },
+    "text_zec": {
+      "type": "Text",
+      "props": {
+        "text": "Fading → Emerging ↑ FRONT-RUN. Confirmed winners on recovery day. Dual-coin structural bid.",
+        "variant": "body"
+      }
+    },
+    "grid_zec_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_zec_major",
+        "stat_xmr_major"
+      ]
+    },
+    "stat_zec_major": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC [MAJOR]",
+        "value": "+3.9%",
+        "trend": "up"
+      }
+    },
+    "stat_xmr_major": {
+      "type": "Stat",
+      "props": {
+        "label": "XMR [MAJOR]",
+        "value": "+9.2%",
+        "trend": "up"
+      }
+    },
+    "item_agent": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_agent",
+        "text_agent_main",
+        "text_agent_clarification"
+      ]
+    },
+    "badge_agent": {
+      "type": "Badge",
+      "props": {
+        "text": "CORRECTION/PROMOTED: Agent Identity",
+        "variant": "outline"
+      }
+    },
+    "text_agent_main": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging → Rising RIDE. ERC-8004 live mainnet since Jan 29 2026 (tens of thousands agents registered). Structural infra was underpriced.",
+        "variant": "body"
+      }
+    },
+    "text_agent_clarification": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 29 resurrection was renewed coverage, not launch.",
+        "variant": "caption"
+      }
+    },
+    "item_trump": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_trump",
+        "text_trump",
+        "stat_trump"
+      ]
+    },
+    "badge_trump": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED: TRUMP",
+        "variant": "destructive"
+      }
+    },
+    "text_trump": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging → Fading ↓ FADE. Anti-Fed narrative not materializing. Selective selling = narrative collapse. (62% market green)",
+        "variant": "body"
+      }
+    },
+    "stat_trump": {
+      "type": "Stat",
+      "props": {
+        "label": "TRUMP",
+        "value": "-4.2%",
+        "trend": "down"
+      }
+    },
+    "item_fed": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fed",
+        "text_fed",
+        "stat_btc",
+        "text_fed_details"
+      ]
+    },
+    "badge_fed": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY DOWN: Hawkish Fed",
+        "variant": "outline"
+      }
+    },
+    "text_fed": {
+      "type": "Text",
+      "props": {
+        "text": "Peak ↑↑ → Peak →. 62% alts green. CME-Polymarket spread closing. ETF bid ($48.6B IBIT) absorbing macro narrative. Still FADE longs, urgency down.",
+        "variant": "body"
+      }
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$78.2K",
+        "delta": "+0.75%"
+      }
+    },
+    "text_fed_details": {
+      "type": "Text",
+      "props": {
+        "text": "ETF bid: $48.6B IBIT absorbing macro narrative",
+        "variant": "caption"
+      }
+    },
+    "separator_main": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_reflexivity",
+        "alert_depIN_reflexivity",
+        "alert_x402"
+      ]
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert_depIN_reflexivity": {
+      "type": "Alert",
+      "props": {
+        "title": "DePIN/HNT: Real Contracts, Inflated Valuation",
+        "message": "City of Celina + AT&T/Telefónica contracts are real — but HNT +150% vs revenue = narrative→price→media loop. Trading 3–5x ahead of revenue.",
+        "type": "warning"
+      }
+    },
+    "alert_x402": {
+      "type": "Alert",
+      "props": {
+        "title": "x402/Agentic Payments",
+        "message": "CoinDesk next",
+        "type": "info"
+      }
+    }
+  }
+}
