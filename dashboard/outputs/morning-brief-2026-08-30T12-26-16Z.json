@@ -1,0 +1,319 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-30"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "stack-focus",
+        "sep-1",
+        "heading-since",
+        "stack-since",
+        "sep-2",
+        "heading-watch",
+        "stack-watch",
+        "sep-3",
+        "heading-running",
+        "stack-running"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $77K support / Sept Fed YES (43.5¢) — why now: day 3 macro risk-off; 57% vs 43% CME-Polymarket spread closing fast",
+        "variant": "body"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE $723M unlock day 2 verdict — why now: day 1 held per trending data; today's close confirms RIDE or cascade",
+        "variant": "body"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "background: Agentic payments going institutional — CoinDesk 'next trillion-dollar currency' framing validates x402 narrative at Peak",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-1",
+        "since-2",
+        "since-3",
+        "since-4",
+        "since-5"
+      ]
+    },
+    "since-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-moved-1",
+        "text-since-1"
+      ]
+    },
+    "badge-moved-1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text-since-1": {
+      "type": "Text",
+      "props": {
+        "text": "Hawkish Fed PROMOTED → Peak ↑↑ (BTC −3.8% day 2, ETH −3.1%, 73% alts negative)",
+        "variant": "body"
+      }
+    },
+    "since-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-moved-2",
+        "text-since-2"
+      ]
+    },
+    "badge-moved-2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text-since-2": {
+      "type": "Text",
+      "props": {
+        "text": "Agent Identity RESURRECTED — ERC-8004 'Trustless Agents' Ethereum standard proposed; no token yet, watch SUI/NEAR/ETH adjacent",
+        "variant": "body"
+      }
+    },
+    "since-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-moved-3",
+        "text-since-3"
+      ]
+    },
+    "badge-moved-3": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text-since-3": {
+      "type": "Text",
+      "props": {
+        "text": "ENA FADED — Aug 27 +23.7% confirmed squeeze exhaust; −8.1% day 2 closes position",
+        "variant": "body"
+      }
+    },
+    "since-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-moved-4",
+        "text-since-4"
+      ]
+    },
+    "badge-moved-4": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text-since-4": {
+      "type": "Text",
+      "props": {
+        "text": "RWA Tokenization ↑ — Tokenized Private Credit 'largest 24h gainer sector' (CoinGecko), Circle Arc T-18",
+        "variant": "body"
+      }
+    },
+    "since-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-flagged",
+        "text-since-5"
+      ]
+    },
+    "badge-flagged": {
+      "type": "Badge",
+      "props": {
+        "text": "flagged",
+        "variant": "destructive"
+      }
+    },
+    "text-since-5": {
+      "type": "Text",
+      "props": {
+        "text": "Gitea CVE-2026-60004 CVSS 9.8 — CISA due date passed 2026-08-28; patch if Gitea is in stack",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-1"
+      ]
+    },
+    "watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "CoinDesk (Aug 29): 'Next trillion-dollar currency may not be a stablecoin' — institutional framing of agentic payment rails; direct x402 narrative confirmation at Peak",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
