@@ -1,0 +1,393 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-08-31"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-dash",
+        "sep-1",
+        "section-market",
+        "footer"
+      ]
+    },
+    "section-dash": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "dash-header",
+        "dash-price-grid",
+        "dash-score",
+        "dash-catalyst",
+        "dash-risk",
+        "dash-timing"
+      ]
+    },
+    "dash-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "dash-title",
+        "dash-badge-high",
+        "dash-badge-signal"
+      ]
+    },
+    "dash-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: DASH",
+        "level": "h2"
+      }
+    },
+    "dash-badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "default"
+      }
+    },
+    "dash-badge-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 9/10",
+        "variant": "secondary"
+      }
+    },
+    "dash-price-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "dash-stat-price",
+        "dash-stat-24h",
+        "dash-stat-7d",
+        "dash-stat-mcap",
+        "dash-stat-volume",
+        "dash-stat-ratio"
+      ]
+    },
+    "dash-stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$47.40"
+      }
+    },
+    "dash-stat-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+10.86%",
+        "trend": "up"
+      }
+    },
+    "dash-stat-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+13.40%",
+        "trend": "up"
+      }
+    },
+    "dash-stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "mcap",
+        "value": "$609M"
+      }
+    },
+    "dash-stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "vol",
+        "value": "$184M"
+      }
+    },
+    "dash-stat-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "vol/mcap",
+        "value": "0.30"
+      }
+    },
+    "dash-score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dash-score-label",
+        "dash-score-breakdown"
+      ]
+    },
+    "dash-score-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Score breakdown",
+        "level": "h4"
+      }
+    },
+    "dash-score-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "24h+1, 7d+1, both>5%+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2 = 9/10",
+        "variant": "body"
+      }
+    },
+    "dash-catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dash-catalyst-label",
+        "dash-catalyst-text"
+      ]
+    },
+    "dash-catalyst-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "dash-catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "Dash Evolution Platform 4.1 (Aug 9) activated transferable DPNS username ownership — first on-chain username property rights in Dash history; DashPay iOS wallet live (Aug 11); breakout from multi-month $30–38 consolidation on 55% OI surge (fresh capital, not short squeeze)",
+        "variant": "body"
+      }
+    },
+    "dash-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "DASH has underperformed BTC/ETH structurally for 3+ years; Evolution promised since 2019; BTC macro headwinds (Barclays two-hike call today) amplify to the downside in DASH",
+        "type": "warning"
+      }
+    },
+    "dash-timing": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time in 7+ days",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-header",
+        "market-odds-section",
+        "market-fair-value",
+        "market-thesis",
+        "market-risk"
+      ]
+    },
+    "market-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market-title",
+        "market-badge-high",
+        "market-badge-edge"
+      ]
+    },
+    "market-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will United Russia gain the most seats in the next Russian parliamentary election?",
+        "level": "h2"
+      }
+    },
+    "market-badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "default"
+      }
+    },
+    "market-badge-edge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 21pp",
+        "variant": "secondary"
+      }
+    },
+    "market-odds-section": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "market-stat-yes",
+        "market-stat-no",
+        "market-stat-volume",
+        "market-stat-resolve"
+      ]
+    },
+    "market-stat-yes": {
+      "type": "Stat",
+      "props": {
+        "label": "Current YES",
+        "value": "68.5¢"
+      }
+    },
+    "market-stat-no": {
+      "type": "Stat",
+      "props": {
+        "label": "Current NO",
+        "value": "31.5¢"
+      }
+    },
+    "market-stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "24h vol",
+        "value": "$396k"
+      }
+    },
+    "market-stat-resolve": {
+      "type": "Stat",
+      "props": {
+        "label": "resolves",
+        "value": "2026-09-30"
+      }
+    },
+    "market-fair-value": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market-fair-label",
+        "market-fair-stat",
+        "market-fair-inputs"
+      ]
+    },
+    "market-fair-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair value",
+        "level": "h4"
+      }
+    },
+    "market-fair-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES",
+        "value": "~90%"
+      }
+    },
+    "market-fair-inputs": {
+      "type": "Text",
+      "props": {
+        "text": "inputs: United Russia won 72% of Duma seats in 2021, no viable opposition exists under current Kremlin control, United Russia has won every Duma election since 2003",
+        "variant": "caption"
+      }
+    },
+    "market-thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market-thesis-label",
+        "market-thesis-text",
+        "market-action"
+      ]
+    },
+    "market-thesis-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      }
+    },
+    "market-thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market's 68.5¢ implies ~31% upset probability — structurally impossible in today's Russian political environment",
+        "variant": "body"
+      }
+    },
+    "market-action": {
+      "type": "Badge",
+      "props": {
+        "text": "BUY YES",
+        "variant": "default"
+      }
+    },
+    "market-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Unexpected pre-election instability or Western-narrative-driven contrarian flow could widen the discount further before convergence",
+        "type": "warning"
+      }
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer-sources",
+        "footer-disclaimer"
+      ]
+    },
+    "footer-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "footer-disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "caption"
+      }
+    }
+  }
+}

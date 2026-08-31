@@ -1,10 +1,17 @@
-*Daily Pick — 2026-08-30*
+*Daily Pick — 2026-08-31*
 
-*Token: HNT*  [HIGH]  signal 10/10
-Price: $0.89 (+155.5% 24h / +385% 7d) | mcap $166M | vol $246M (vol/mcap 1.48)
-Score breakdown: [trending+2, vol/mcap ≥0.20+3, RS vs BTC/ETH 7d+2, 24h>0+1, 7d>0+1, both>5%+2] = 12 raw → capped 10/10
-Catalyst: City of Celina, TX converted public Wi-Fi to Helium carrier coverage (Aug 29), triggering a short squeeze with AT&T and Telefónica carrier confirmations from CEO Aug 28 letter — DePIN narrative turning into signed municipal contracts
-Risk: Short squeeze largely exhausted ($125K liquidations cleared); +155% single-day move sets up mean-reversion once momentum chasers exit; real-world network expansion pace will lag token price velocity
+*Token: DASH*  [HIGH]  signal 9/10
+Price: $47.40 (+10.86% 24h / +13.40% 7d) | mcap $609M | vol $184M (vol/mcap 0.30)
+Score breakdown: [24h+1, 7d+1, both>5%+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2] = 9/10
+Catalyst: Dash Evolution Platform 4.1 (Aug 9) activated transferable DPNS username ownership — first on-chain username property rights in Dash history; DashPay iOS wallet live (Aug 11); breakout from multi-month $30–38 consolidation on 55% OI surge (fresh capital, not short squeeze)
+Risk: DASH has underperformed BTC/ETH structurally for 3+ years; Evolution promised since 2019; BTC macro headwinds (Barclays two-hike call today) amplify to the downside in DASH
+Vs recent picks: first time in 7+ days
 
-sources: cg=ok, dex=fail, poly=partial (markets ok / events 422)
+*Market: "Will United Russia gain the most seats in the next Russian parliamentary election?"*  [HIGH]  edge 21pp
+Current: YES 68.5¢ / NO 31.5¢ | 24h vol $396k | resolves: 2026-09-30
+Fair YES: ~90% (inputs: United Russia won 72% of Duma seats in 2021, no viable opposition exists under current Kremlin control, United Russia has won every Duma election since 2003)
+Thesis: Market's 68.5¢ implies ~31% upset probability — structurally impossible in today's Russian political environment; BUY YES
+Risk: Unexpected pre-election instability or Western-narrative-driven contrarian flow could widen the discount further before convergence
+
+sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only
