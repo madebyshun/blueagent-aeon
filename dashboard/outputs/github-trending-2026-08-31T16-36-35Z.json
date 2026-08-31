@@ -1,0 +1,392 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-08-31"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-top-pick",
+        "sep-1",
+        "section-ai",
+        "sep-2",
+        "section-devtools",
+        "sep-3",
+        "text-sources"
+      ]
+    },
+    "section-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-top-pick",
+        "repo-minimind-top"
+      ]
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "repo-minimind-top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-minimind-top",
+        "text-minimind-top"
+      ]
+    },
+    "link-minimind-top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "jingyaogong/minimind",
+        "href": "https://github.com/jingyaogong/minimind"
+      }
+    },
+    "text-minimind-top": {
+      "type": "Text",
+      "props": {
+        "text": "A working proof that full LLM pretraining fits on consumer hardware — fresh commits today, 55.9k stars, and the reproducibility is the point."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-ai",
+        "repo-minimind",
+        "repo-ods"
+      ]
+    },
+    "heading-ai": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "repo-minimind": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-minimind-header",
+        "repo-minimind-desc"
+      ]
+    },
+    "repo-minimind-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link-minimind",
+        "badge-minimind-lang",
+        "badge-minimind-status"
+      ]
+    },
+    "link-minimind": {
+      "type": "StoryLink",
+      "props": {
+        "title": "jingyaogong/minimind",
+        "href": "https://github.com/jingyaogong/minimind",
+        "score": "★ 472 today (55.9k total)"
+      }
+    },
+    "badge-minimind-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge-minimind-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo-minimind-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Trains a 64M-param LLM end-to-end on one consumer GPU in under 2 hours — minimal, reproducible pipeline.",
+        "variant": "body"
+      }
+    },
+    "repo-ods": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-ods-header",
+        "repo-ods-desc"
+      ]
+    },
+    "repo-ods-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link-ods",
+        "badge-ods-lang",
+        "badge-ods-status"
+      ]
+    },
+    "link-ods": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Osmantic/ODS",
+        "href": "https://github.com/Osmantic/ODS",
+        "score": "★ 163 today (5.3k total)"
+      }
+    },
+    "badge-ods-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge-ods-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo-ods-desc": {
+      "type": "Text",
+      "props": {
+        "text": "One-command AI server for your laptop — bundles local inference, chat UI, voice, and agents without cloud APIs.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-devtools",
+        "repo-pdf-inspector",
+        "repo-ipatool",
+        "repo-user-scanner"
+      ]
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "repo-pdf-inspector": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-pdf-inspector-header",
+        "repo-pdf-inspector-desc"
+      ]
+    },
+    "repo-pdf-inspector-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link-pdf-inspector",
+        "badge-pdf-lang",
+        "badge-pdf-status"
+      ]
+    },
+    "link-pdf-inspector": {
+      "type": "StoryLink",
+      "props": {
+        "title": "firecrawl/pdf-inspector",
+        "href": "https://github.com/firecrawl/pdf-inspector",
+        "score": "★ 199 today (17.2k total)"
+      }
+    },
+    "badge-pdf-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "badge-pdf-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo-pdf-inspector-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rust PDF library from firecrawl — classifies and extracts text in a single parse pass, faster than Python PDF libs.",
+        "variant": "body"
+      }
+    },
+    "repo-ipatool": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-ipatool-header",
+        "repo-ipatool-desc"
+      ]
+    },
+    "repo-ipatool-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link-ipatool",
+        "badge-ipatool-lang",
+        "badge-ipatool-status"
+      ]
+    },
+    "link-ipatool": {
+      "type": "StoryLink",
+      "props": {
+        "title": "majd/ipatool",
+        "href": "https://github.com/majd/ipatool",
+        "score": "★ 376 today (10.4k total)"
+      }
+    },
+    "badge-ipatool-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go"
+      }
+    },
+    "badge-ipatool-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo-ipatool-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Downloads signed .ipa archives from Apple's CDN without a Mac — enables security analysis and CI ipa diffing.",
+        "variant": "body"
+      }
+    },
+    "repo-user-scanner": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-user-scanner-header",
+        "repo-user-scanner-desc"
+      ]
+    },
+    "repo-user-scanner-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "link-user-scanner",
+        "badge-user-scanner-lang",
+        "badge-user-scanner-status"
+      ]
+    },
+    "link-user-scanner": {
+      "type": "StoryLink",
+      "props": {
+        "title": "kaifcodec/user-scanner",
+        "href": "https://github.com/kaifcodec/user-scanner",
+        "score": "★ 184 today (4.1k total)"
+      }
+    },
+    "badge-user-scanner-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge-user-scanner-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo-user-scanner-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Consolidates 465+ OSINT lookup vectors for email and username recon into one CLI — replaces a dozen separate tools.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/16",
+        "variant": "caption"
+      }
+    }
+  }
+}

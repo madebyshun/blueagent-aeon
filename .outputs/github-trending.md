@@ -1,28 +1,24 @@
-*GitHub Trending — 2026-08-30*
+*GitHub Trending — 2026-08-31*
 
-*Top pick* — [tt-a1i/archify](https://github.com/tt-a1i/archify)
-The 3,730-star day signals a shift: developers now expect agents to render verifiable artifacts, not just describe system designs in text.
+*Top pick* — [jingyaogong/minimind](https://github.com/jingyaogong/minimind)
+A working proof that full LLM pretraining fits on consumer hardware — fresh commits today, 55.9k stars, and the reproducibility is the point.
 
 *AI/ML*
-• [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) — ★ 907 today (23.1k total) · TypeScript · [ACCELERATING]
-Orchestrates a live AI tutor, devil's advocate, and examiner agent around a single learner in real time.
+• [jingyaogong/minimind](https://github.com/jingyaogong/minimind) — ★ 472 today (55.9k total) · Python · [ACCELERATING]
+Trains a 64M-param LLM end-to-end on one consumer GPU in under 2 hours — minimal, reproducible pipeline.
 
-• [p-e-w/heretic](https://github.com/p-e-w/heretic) — ★ 150 today (28.9k total) · Python · [RETURNING]
-Strips refusal prompts from local models at inference time — no fine-tuning, just filter removal at the system-prompt layer.
-
-• [pollen-robotics/microduck_rl](https://github.com/pollen-robotics/microduck_rl) — ★ 147 today (0.7k total) · Python · [RETURNING]
-Open RL training environments for a sub-$500 robot — closes the gap between academic simulation and real consumer hardware.
+• [Osmantic/ODS](https://github.com/Osmantic/ODS) — ★ 163 today (5.3k total) · Python · [RETURNING]
+One-command AI server for your laptop — bundles local inference, chat UI, voice, and agents without cloud APIs.
 
 *Devtools*
-• [tt-a1i/archify](https://github.com/tt-a1i/archify) — ★ 3,730 today (33.2k total) · JavaScript · [ACCELERATING]
-Drop-in agent skill that generates auto-layouting, verifiable architecture and sequence diagrams from natural-language descriptions.
+• [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector) — ★ 199 today (17.2k total) · Rust · [ACCELERATING]
+Rust PDF library from firecrawl — classifies and extracts text in a single parse pass, faster than Python PDF libs.
 
-• [Lakr233/vphone-cli](https://github.com/Lakr233/vphone-cli) — ★ 633 today (9.4k total) · Swift · [ACCELERATING]
-Signs, launches, and scripts iOS apps from the terminal — no Xcode, no GUI, fully scriptable device management.
+• [majd/ipatool](https://github.com/majd/ipatool) — ★ 376 today (10.4k total) · Go · [RETURNING]
+Downloads signed .ipa archives from Apple's CDN without a Mac — enables security analysis and CI ipa diffing.
 
-*Web/Apps*
-• [every-app/open-seo](https://github.com/every-app/open-seo) — ★ 517 today (14.9k total) · TypeScript · [ACCELERATING]
-Self-hostable Semrush/Ahrefs alternative — crawl, backlink, and keyword analysis without a $499/month subscription.
+• [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner) — ★ 184 today (4.1k total) · Python · [RETURNING]
+Consolidates 465+ OSINT lookup vectors for email and username recon into one CLI — replaces a dozen separate tools.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/19
+sources: trending=ok · gh_api=ok · kept 5/16
