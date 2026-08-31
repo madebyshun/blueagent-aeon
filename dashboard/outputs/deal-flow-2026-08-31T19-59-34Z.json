@@ -1,0 +1,379 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Deal Flow — 2026-08-31"
+      },
+      "children": [
+        "lead-para",
+        "sep-1",
+        "deal-1-container",
+        "sep-2",
+        "deal-2-container",
+        "sep-3",
+        "deal-3-container",
+        "sep-4",
+        "deal-4-container",
+        "sep-5",
+        "deal-5-container",
+        "sep-6",
+        "deal-6-container",
+        "sep-7",
+        "sources-para"
+      ]
+    },
+    "lead-para": {
+      "type": "Text",
+      "props": {
+        "text": "Two independent $100M+ Series A rounds closed in 72 hours — grid-responsive data center software and ultra-low-power silicon — confirming capital identified electricity as the AI stack's new hard constraint.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal-1-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal-1-name",
+        "deal-1-desc",
+        "deal-1-funding",
+        "deal-1-lead",
+        "deal-1-why"
+      ]
+    },
+    "deal-1-name": {
+      "type": "Heading",
+      "props": {
+        "text": "1. Emerald AI",
+        "level": "h3"
+      }
+    },
+    "deal-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Software orchestrating AI workload power to protect the grid"
+      }
+    },
+    "deal-1-funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$150M Series A @ $1.05B post (n/d vs prior)"
+      }
+    },
+    "deal-1-lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Energize Capital + DCVC (+ NVIDIA strategic)",
+        "variant": "caption"
+      }
+    },
+    "deal-1-why": {
+      "type": "Alert",
+      "props": {
+        "title": "Why it matters",
+        "message": "NVIDIA co-investing in software that throttles its own GPU clusters confirms the compute bottleneck migrated from silicon to electricity.",
+        "type": "info"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal-2-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal-2-name",
+        "deal-2-desc",
+        "deal-2-funding",
+        "deal-2-lead",
+        "deal-2-why"
+      ]
+    },
+    "deal-2-name": {
+      "type": "Heading",
+      "props": {
+        "text": "2. Instinct",
+        "level": "h3"
+      }
+    },
+    "deal-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI personal assistant connecting to apps and devices for task execution"
+      }
+    },
+    "deal-2-funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$250M Series B @ $2.5B post (n/d vs prior)"
+      }
+    },
+    "deal-2-lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Index Ventures + Benchmark",
+        "variant": "caption"
+      }
+    },
+    "deal-2-why": {
+      "type": "Alert",
+      "props": {
+        "title": "Why it matters",
+        "message": "Benchmark + Index at $2.5B for a one-year-old assistant signals category consolidation — top-tier capital picking winners, not the market.",
+        "type": "info"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal-3-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal-3-name",
+        "deal-3-desc",
+        "deal-3-funding",
+        "deal-3-lead",
+        "deal-3-why"
+      ]
+    },
+    "deal-3-name": {
+      "type": "Heading",
+      "props": {
+        "text": "3. Velaura AI",
+        "level": "h3"
+      }
+    },
+    "deal-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Ultra-low-power AI compute silicon for data centers and physical AI"
+      }
+    },
+    "deal-3-funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$110M Series A @ $1B+ post (n/d vs prior)"
+      }
+    },
+    "deal-3-lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Seligman Ventures + Mayfield + Samsung Catalyst",
+        "variant": "caption"
+      }
+    },
+    "deal-3-why": {
+      "type": "Alert",
+      "props": {
+        "title": "Why it matters",
+        "message": "Titan Core's 2-4× performance-per-watt gain already deployed in 30M+ ASICs means this is a silicon efficiency bet against NVIDIA's power-hungry roadmap.",
+        "type": "info"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal-4-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal-4-name",
+        "deal-4-desc",
+        "deal-4-funding",
+        "deal-4-lead",
+        "deal-4-why"
+      ]
+    },
+    "deal-4-name": {
+      "type": "Heading",
+      "props": {
+        "text": "4. RQD Clearing",
+        "level": "h3"
+      }
+    },
+    "deal-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "API-native clearing and settlement for tokenized equities and digital assets"
+      }
+    },
+    "deal-4-funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$74M strategic @ n/d post (n/d vs prior)"
+      }
+    },
+    "deal-4-lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Bain Capital Tech Opportunities + ABN AMRO",
+        "variant": "caption"
+      }
+    },
+    "deal-4-why": {
+      "type": "Alert",
+      "props": {
+        "title": "Why it matters",
+        "message": "Bain and ABN AMRO building tokenized-equity clearing rails inside the DTCC framework is a settlement-layer bet before the market exists.",
+        "type": "info"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal-5-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal-5-name",
+        "deal-5-desc",
+        "deal-5-funding",
+        "deal-5-lead",
+        "deal-5-why"
+      ]
+    },
+    "deal-5-name": {
+      "type": "Heading",
+      "props": {
+        "text": "5. Agentrys",
+        "level": "h3"
+      }
+    },
+    "deal-5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI agents automating chip verification and physical design for chipmakers"
+      }
+    },
+    "deal-5-funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$19.1M seed @ n/d post (n/d vs prior)"
+      }
+    },
+    "deal-5-lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Etna Capital + MediaTek (strategic)",
+        "variant": "caption"
+      }
+    },
+    "deal-5-why": {
+      "type": "Alert",
+      "props": {
+        "title": "Why it matters",
+        "message": "MediaTek backing an EDA agent that beats 90% on NVIDIA's chip-verification benchmark signals AI will displace legacy EDA tooling.",
+        "type": "info"
+      }
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal-6-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal-6-name",
+        "deal-6-desc",
+        "deal-6-funding",
+        "deal-6-lead",
+        "deal-6-why"
+      ]
+    },
+    "deal-6-name": {
+      "type": "Heading",
+      "props": {
+        "text": "6. Socure",
+        "level": "h3"
+      }
+    },
+    "deal-6-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI identity verification platform with agentic fraud detection, acquired Fravity"
+      }
+    },
+    "deal-6-funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding",
+        "value": "$156M strategic @ $5.2B post (UP vs $1.3B 2021)"
+      }
+    },
+    "deal-6-lead": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: undisclosed",
+        "variant": "caption"
+      }
+    },
+    "deal-6-why": {
+      "type": "Alert",
+      "props": {
+        "title": "Why it matters",
+        "message": "At $5.2B — 4× its 2021 mark — plus an agentic fraud acquisition, Socure reframes identity verification as AI defense infrastructure.",
+        "type": "info"
+      }
+    },
+    "sep-7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-para": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: crunchbase=ok, techcrunch=ok, cryptorank=fail, aift=fail, crypto-fundraising.info=ok | candidates=~28 → kept=6",
+        "variant": "muted"
+      }
+    }
+  }
+}
