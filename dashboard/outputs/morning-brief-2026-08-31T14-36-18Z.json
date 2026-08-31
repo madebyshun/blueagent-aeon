@@ -1,0 +1,181 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-08-31"
+      },
+      "children": [
+        "heading_focus",
+        "focus_stack",
+        "separator_1",
+        "heading_yesterday",
+        "yesterday_stack",
+        "separator_2",
+        "heading_watch",
+        "watch_text",
+        "separator_3",
+        "heading_running",
+        "running_stack"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. BTC macro repricing — why now: Barclays two-hike call (Sept+Dec) published today; market pricing one"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. HYPE day 3 post-$1.2B unlock — why now: day 2 absent from trending; Sep 6 next unlock already queued"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. HNT day 2 post-150% pump — why now: PUMP-RISK tag; today's close is the DePIN phase verdict"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_btc",
+        "yesterday_hype",
+        "yesterday_zec",
+        "yesterday_xai"
+      ]
+    },
+    "yesterday_btc": {
+      "type": "Text",
+      "props": {
+        "text": "[moved] BTC: $78.2K → $77.7K open; Barclays two-hike call published today; CME Sept hike at 57%"
+      }
+    },
+    "yesterday_hype": {
+      "type": "Text",
+      "props": {
+        "text": "[moved] HYPE: Record $86.71 on unlock day (Aug 27); absent from trending Aug 30 = distribution signal"
+      }
+    },
+    "yesterday_zec": {
+      "type": "Text",
+      "props": {
+        "text": "[moved] ZEC/XMR: Both MAJOR green Aug 30 — privacy resurrection confirmed, FRONT-RUN now"
+      }
+    },
+    "yesterday_xai": {
+      "type": "Text",
+      "props": {
+        "text": "[running] XAI 403: Day 52 no credits; narrative-tracker WebSearch fallback healthy"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_text": {
+      "type": "Text",
+      "props": {
+        "text": "Barclays calls two 25bp hikes (Sept+Dec) — market pricing one; 2x macro headwind if right — focus #1"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      }
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      }
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    }
+  }
+}

@@ -1,22 +1,20 @@
-*Morning Brief — 2026-08-30*
+*Morning Brief — 2026-08-31*
 
 *Focus today*
-1. BTC $77K support / Sept Fed YES (43.5¢) — why now: day 3 macro risk-off; 57% vs 43% CME-Polymarket spread closing fast
-2. HYPE $723M unlock day 2 verdict — why now: day 1 held per trending data; today's close confirms RIDE or cascade
-3. background: Agentic payments going institutional — CoinDesk 'next trillion-dollar currency' framing validates x402 narrative at Peak
+1. BTC macro repricing — why now: Barclays two-hike call (Sept+Dec) published today; market pricing one
+2. HYPE day 3 post-$1.2B unlock — why now: day 2 absent from trending; Sep 6 next unlock already queued
+3. HNT day 2 post-150% pump — why now: PUMP-RISK tag; today's close is the DePIN phase verdict
 
 *Since yesterday*
-- moved: Hawkish Fed PROMOTED → Peak ↑↑ (BTC −3.8% day 2, ETH −3.1%, 73% alts negative)
-- moved: Agent Identity RESURRECTED — ERC-8004 'Trustless Agents' Ethereum standard proposed; no token yet, watch SUI/NEAR/ETH adjacent
-- moved: ENA FADED — Aug 27 +23.7% confirmed squeeze exhaust; −8.1% day 2 closes position
-- moved: RWA Tokenization ↑ — Tokenized Private Credit 'largest 24h gainer sector' (CoinGecko), Circle Arc T-18
-- flagged: Gitea CVE-2026-60004 CVSS 9.8 — CISA due date passed 2026-08-28; patch if Gitea is in stack
+- [moved] BTC: $78.2K → $77.7K open; Barclays two-hike call published today; CME Sept hike at 57%
+- [moved] HYPE: Record $86.71 on unlock day (Aug 27); absent from trending Aug 30 = distribution signal
+- [moved] ZEC/XMR: Both MAJOR green Aug 30 — privacy resurrection confirmed, FRONT-RUN now
+- [running] XAI 403: Day 52 no credits; narrative-tracker WebSearch fallback healthy
 
 *Watch*
-- CoinDesk (Aug 29): 'Next trillion-dollar currency may not be a stablecoin' — institutional framing of agentic payment rails; direct x402 narrative confirmation at Peak
+- Barclays calls two 25bp hikes (Sept+Dec) — market pricing one; 2x macro headwind if right — focus #1
 
 *Running today*
-- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
