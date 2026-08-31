@@ -1,0 +1,744 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-08-31"
+      },
+      "children": [
+        "transitions",
+        "sep1",
+        "reflexivity",
+        "sep2",
+        "positions",
+        "sep3",
+        "map"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "h-transitions",
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    "h-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "t1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-badge",
+        "t1-title",
+        "t1-detail1",
+        "t1-detail2",
+        "t1-detail3"
+      ]
+    },
+    "t1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "t1-title": {
+      "type": "Text",
+      "props": {
+        "text": "Quantum — Emerging → Rising ↑↑ FRONT-RUN",
+        "variant": "lead"
+      }
+    },
+    "t1-detail1": {
+      "type": "Text",
+      "props": {
+        "text": "StarkWare tested first quantum-resistant Bitcoin mainnet txn; Google Quantum AI whitepaper (<500K qubits to break BTC/ETH ECDSA)."
+      }
+    },
+    "t1-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "CoinGecko top-10 2026 narrative. Underpriced."
+      }
+    },
+    "t1-detail3": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "caption"
+      }
+    },
+    "t2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-badge",
+        "t2-title",
+        "t2-detail1",
+        "t2-detail2"
+      ]
+    },
+    "t2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "REACCELERATED",
+        "variant": "secondary"
+      }
+    },
+    "t2-title": {
+      "type": "Text",
+      "props": {
+        "text": "Hawkish Fed/Macro — Peak → → Peak ↑",
+        "variant": "lead"
+      }
+    },
+    "t2-detail1": {
+      "type": "Text",
+      "props": {
+        "text": "Barclays two-hike call (Sept+Dec) published Aug 31; market pricing one. Aug 30 recovery fully reversed: 11/78 non-stable green, median −1.7%."
+      }
+    },
+    "t2-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "Prior deceleration was a false bottom."
+      }
+    },
+    "t3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-badge",
+        "t3-title",
+        "t3-detail1",
+        "t3-detail2"
+      ]
+    },
+    "t3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY UP",
+        "variant": "secondary"
+      }
+    },
+    "t3-title": {
+      "type": "Text",
+      "props": {
+        "text": "Agent Identity/Credentials — Rising → → Rising ↑",
+        "variant": "lead"
+      }
+    },
+    "t3-detail1": {
+      "type": "Text",
+      "props": {
+        "text": "'Non-human identities outnumber human employees 96-to-1 yet remain unbanked ghosts.' OKX MCP toolkit + 306 AI agents mapped across DeFi."
+      }
+    },
+    "t3-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "Clearest bottleneck framing yet."
+      }
+    },
+    "t4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-badge",
+        "t4-title",
+        "t4-detail1",
+        "t4-detail2"
+      ]
+    },
+    "t4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "t4-title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Compute/DePIN-AI — Rising ↑↑ FRONT-RUN → Rising → RIDE",
+        "variant": "lead"
+      }
+    },
+    "t4-detail1": {
+      "type": "Text",
+      "props": {
+        "text": "HNT absent from top-250 and trending. DePIN PUMP-RISK exhausted. AI infra angle (OKX MCP, TAO/NEAR +20% weekly) holds the narrative above Fading."
+      }
+    },
+    "t4-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "caption"
+      }
+    },
+    "t5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t5-badge",
+        "t5-title",
+        "t5-detail1",
+        "t5-detail2",
+        "t5-detail3"
+      ]
+    },
+    "t5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "t5-title": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC/Privacy — Emerging ↑ FRONT-RUN → Emerging → WATCH",
+        "variant": "lead"
+      }
+    },
+    "t5-detail1": {
+      "type": "Text",
+      "props": {
+        "text": "No follow-through on risk-off day. Quantum threat also creates ambiguity (ECDSA risk applies to ZEC/XMR)."
+      }
+    },
+    "t5-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "Needs one more confirmation session."
+      }
+    },
+    "t5-detail3": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "caption"
+      }
+    },
+    "t6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t6-badge",
+        "t6-title",
+        "t6-detail1",
+        "t6-detail2"
+      ]
+    },
+    "t6-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "t6-title": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoins/Retail — Fading → WATCH → Fading ↓ FADE",
+        "variant": "lead"
+      }
+    },
+    "t6-detail1": {
+      "type": "Text",
+      "props": {
+        "text": "PENGU −5.1% [TRENDING+DOWN], PUMP −6.1% [TRENDING+DOWN], PEPE −4.1%. SKR +54.7% and RAM +3963% are pure manipulation, not retail narrative."
+      }
+    },
+    "t6-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "caption"
+      }
+    },
+    "reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-reflexivity",
+        "r1",
+        "r2"
+      ]
+    },
+    "h-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "r1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r1-title",
+        "r1-detail1",
+        "r1-detail2"
+      ]
+    },
+    "r1-title": {
+      "type": "Text",
+      "props": {
+        "text": "Quantum × Bitcoin",
+        "variant": "lead"
+      }
+    },
+    "r1-detail1": {
+      "type": "Text",
+      "props": {
+        "text": "StarkWare mainnet test driven by narrative, not imminent threat. Google's March 2026 whitepaper surfacing NOW (5-month delayed absorption) = narrative inflection, not technical. Developer resources moving before the threat is real."
+      }
+    },
+    "r1-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "Watch for VC-backed quantum-resistant L1/L2 announcements."
+      }
+    },
+    "r2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r2-title",
+        "r2-detail1",
+        "r2-detail2"
+      ]
+    },
+    "r2-title": {
+      "type": "Text",
+      "props": {
+        "text": "Hawkish Fed × Positioning",
+        "variant": "lead"
+      }
+    },
+    "r2-detail1": {
+      "type": "Text",
+      "props": {
+        "text": "Barclays two-hike call vs market pricing one. If Sept Fed hikes AND signals Dec, positioning cascade is violent."
+      }
+    },
+    "r2-detail2": {
+      "type": "Text",
+      "props": {
+        "text": "CME/Polymarket gap = exploitable asymmetry."
+      }
+    },
+    "positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-positions",
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "h-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "p1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p1-badge",
+        "p1-detail",
+        "p1-bear"
+      ]
+    },
+    "p1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN: Quantum",
+        "variant": "secondary"
+      }
+    },
+    "p1-detail": {
+      "type": "Text",
+      "props": {
+        "text": "MS 3 ↑↑, Bull — @starkware mainnet + Google whitepaper"
+      }
+    },
+    "p1-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: 500K qubits still years away; BTC hard fork politically contentious",
+        "variant": "muted"
+      }
+    },
+    "p2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p2-badge",
+        "p2-detail",
+        "p2-bear"
+      ]
+    },
+    "p2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: AI Agent Economy",
+        "variant": "default"
+      }
+    },
+    "p2-detail": {
+      "type": "Text",
+      "props": {
+        "text": "5 ↑, Bull — OKX MCP, $73M AI-agent settlement, 306 agents"
+      }
+    },
+    "p2-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: no single AI token breakout",
+        "variant": "muted"
+      }
+    },
+    "p3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p3-badge",
+        "p3-detail",
+        "p3-bear"
+      ]
+    },
+    "p3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: x402/Agentic Payments",
+        "variant": "default"
+      }
+    },
+    "p3-detail": {
+      "type": "Text",
+      "props": {
+        "text": "5 ↑, Bull — identity bottleneck validates payment rails"
+      }
+    },
+    "p3-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: no new x402 protocol catalyst",
+        "variant": "muted"
+      }
+    },
+    "p4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p4-badge",
+        "p4-detail",
+        "p4-bear"
+      ]
+    },
+    "p4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: Agentic Dev Tools",
+        "variant": "default"
+      }
+    },
+    "p4-detail": {
+      "type": "Text",
+      "props": {
+        "text": "4 ↑, Bull — minimind 472★ [ACCEL] consumer GPU LLM, OKX MCP open-source"
+      }
+    },
+    "p4-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: no clean token play",
+        "variant": "muted"
+      }
+    },
+    "p5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p5-badge",
+        "p5-detail",
+        "p5-bear"
+      ]
+    },
+    "p5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: Agent Identity/Credentials",
+        "variant": "default"
+      }
+    },
+    "p5-detail": {
+      "type": "Text",
+      "props": {
+        "text": "3 ↑, Bull — 96-to-1 unbanked ghosts framing, OKX MCP normalizing"
+      }
+    },
+    "p5-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: no token catalyst yet",
+        "variant": "muted"
+      }
+    },
+    "p6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p6-badge",
+        "p6-detail"
+      ]
+    },
+    "p6-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE: Hawkish Fed longs",
+        "variant": "destructive"
+      }
+    },
+    "p6-detail": {
+      "type": "Text",
+      "props": {
+        "text": "5 ↑ — Barclays two-hike; 11/78 green, median −1.7%"
+      }
+    },
+    "p7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p7-badge",
+        "p7-detail"
+      ]
+    },
+    "p7-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE: Memecoins/Retail",
+        "variant": "destructive"
+      }
+    },
+    "p7-detail": {
+      "type": "Text",
+      "props": {
+        "text": "2 ↓ — PENGU/PUMP/PEPE all [TRENDING+DOWN]"
+      }
+    },
+    "map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-map",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "h-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-badge",
+        "map-emerging-text"
+      ]
+    },
+    "map-emerging-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "secondary"
+      }
+    },
+    "map-emerging-text": {
+      "type": "Text",
+      "props": {
+        "text": "Quantum ↑↑*, ZEC/Privacy →, CLARITY Act ↑, Lean Eth →, FHE →, X Money →, Bitcoin L2 →"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-badge",
+        "map-rising-text"
+      ]
+    },
+    "map-rising-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "default"
+      }
+    },
+    "map-rising-text": {
+      "type": "Text",
+      "props": {
+        "text": "Agent Identity ↑, Agentic Dev Tools ↑, AI Compute/DePIN →, RWA →, AI Agent Security/TEE →, Oracle/LINK →, BNB Chain →, Solana RWA →, SEC Reg →"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-badge",
+        "map-peak-text"
+      ]
+    },
+    "map-peak-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "default"
+      }
+    },
+    "map-peak-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy ↑, x402/Agentic Payments ↑, Hawkish Fed ↑*"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-badge",
+        "map-fading-text"
+      ]
+    },
+    "map-fading-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      }
+    },
+    "map-fading-text": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi-TradFi →, ZEC/Privacy →, Coinbase AiFi/Base ↓↓, Memecoins ↓, ENA ↓↓, TRUMP ↓↓"
+      }
+    }
+  }
+}
