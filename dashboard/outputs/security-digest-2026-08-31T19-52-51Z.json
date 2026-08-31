@@ -1,0 +1,666 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-08-31"
+      },
+      "children": [
+        "summary_section",
+        "separator_1",
+        "patch_today_section",
+        "separator_2",
+        "patch_week_section",
+        "separator_3",
+        "monitor_section"
+      ]
+    },
+    "summary_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_exploited",
+        "stat_schedule",
+        "stat_monitor",
+        "sources_text"
+      ]
+    },
+    "stat_exploited": {
+      "type": "Stat",
+      "props": {
+        "label": "Actively Exploited",
+        "value": "2",
+        "trend": "up"
+      }
+    },
+    "stat_schedule": {
+      "type": "Stat",
+      "props": {
+        "label": "To Schedule This Week",
+        "value": "5"
+      }
+    },
+    "stat_monitor": {
+      "type": "Stat",
+      "props": {
+        "label": "To Monitor",
+        "value": "1"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV, GH Advisory, EPSS",
+        "variant": "caption"
+      }
+    },
+    "separator_1": {
+      "type": "Separator"
+    },
+    "patch_today_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_today_alert",
+        "cve_81578",
+        "cve_82078"
+      ]
+    },
+    "patch_today_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "PATCH TODAY",
+        "message": "2 actively exploited vulnerabilities with CISA-confirmed exploitation. Due 2026-09-14."
+      }
+    },
+    "cve_81578": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_81578",
+        "badges_81578",
+        "desc_81578",
+        "action_81578"
+      ]
+    },
+    "link_81578": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-81578",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-81578",
+        "source": "PaperCut NG/MF"
+      }
+    },
+    "badges_81578": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_1",
+        "badge_cvss_1",
+        "badge_epss_1"
+      ]
+    },
+    "badge_kev_1": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-08-31",
+        "variant": "destructive"
+      }
+    },
+    "badge_cvss_1": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a"
+      }
+    },
+    "badge_epss_1": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004"
+      }
+    },
+    "desc_81578": {
+      "type": "Text",
+      "props": {
+        "text": "Missing auth for critical functions → unauth remote config modification. Chain entry point for CVE-2026-82078. CISA-confirmed exploitation.",
+        "variant": "body"
+      }
+    },
+    "action_81578": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply PaperCut NG/MF vendor patch today.",
+        "variant": "lead"
+      }
+    },
+    "cve_82078": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_82078",
+        "badges_82078",
+        "desc_82078",
+        "action_82078"
+      ]
+    },
+    "link_82078": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-82078",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-82078",
+        "source": "PaperCut NG/MF"
+      }
+    },
+    "badges_82078": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_2",
+        "badge_cvss_2",
+        "badge_epss_2"
+      ]
+    },
+    "badge_kev_2": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-08-31",
+        "variant": "destructive"
+      }
+    },
+    "badge_cvss_2": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a"
+      }
+    },
+    "badge_epss_2": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.005"
+      }
+    },
+    "desc_82078": {
+      "type": "Text",
+      "props": {
+        "text": "Unsafe reflection → arbitrary Java bytecode execution under server security context. Chains with CVE-2026-81578. CISA-confirmed exploitation.",
+        "variant": "body"
+      }
+    },
+    "action_82078": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply PaperCut NG/MF vendor patch today.",
+        "variant": "lead"
+      }
+    },
+    "separator_2": {
+      "type": "Separator"
+    },
+    "patch_week_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_week_heading",
+        "cve_54755",
+        "cve_54754",
+        "cve_55485",
+        "cve_55638",
+        "cve_55108"
+      ]
+    },
+    "patch_week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h3"
+      }
+    },
+    "cve_54755": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_54755",
+        "badges_54755",
+        "desc_54755",
+        "action_54755"
+      ]
+    },
+    "link_54755": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54755",
+        "href": "https://github.com/advisories/GHSA-cgc5-v3f2-8m2v",
+        "source": "klever-go (Go)"
+      }
+    },
+    "badges_54755": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_54755",
+        "badge_epss_54755",
+        "badge_poc_54755"
+      ]
+    },
+    "badge_cvss_54755": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.6",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_54755": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004"
+      }
+    },
+    "badge_poc_54755": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "outline"
+      }
+    },
+    "desc_54755": {
+      "type": "Text",
+      "props": {
+        "text": "Integer overflow in split-royalty validation enables unbounded token minting.",
+        "variant": "body"
+      }
+    },
+    "action_54755": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade github.com/klever-io/klever-go to ≥1.7.19.",
+        "variant": "lead"
+      }
+    },
+    "cve_54754": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_54754",
+        "badges_54754",
+        "desc_54754",
+        "action_54754"
+      ]
+    },
+    "link_54754": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-54754",
+        "href": "https://github.com/advisories/GHSA-p7gw-2pcp-5pf8",
+        "source": "klever-go (Go)"
+      }
+    },
+    "badges_54754": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_54754",
+        "badge_epss_54754",
+        "badge_poc_54754"
+      ]
+    },
+    "badge_cvss_54754": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.6",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_54754": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003"
+      }
+    },
+    "badge_poc_54754": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "outline"
+      }
+    },
+    "desc_54754": {
+      "type": "Text",
+      "props": {
+        "text": "Marketplace settlement mints KLV when referral + royalty % exceed cap.",
+        "variant": "body"
+      }
+    },
+    "action_54754": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade github.com/klever-io/klever-go to ≥1.7.19.",
+        "variant": "lead"
+      }
+    },
+    "cve_55485": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_55485",
+        "badges_55485",
+        "desc_55485",
+        "action_55485"
+      ]
+    },
+    "link_55485": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-55485",
+        "href": "https://github.com/advisories/GHSA-2gh4-jmwq-rr8w",
+        "source": "piccolo-admin (pip)"
+      }
+    },
+    "badges_55485": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_55485",
+        "badge_epss_55485",
+        "badge_poc_55485"
+      ]
+    },
+    "badge_cvss_55485": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_55485": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004"
+      }
+    },
+    "badge_poc_55485": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "outline"
+      }
+    },
+    "desc_55485": {
+      "type": "Text",
+      "props": {
+        "text": "Admin → superuser privilege escalation via session manipulation.",
+        "variant": "body"
+      }
+    },
+    "action_55485": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade piccolo-admin to ≥1.14.0.",
+        "variant": "lead"
+      }
+    },
+    "cve_55638": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_55638",
+        "badges_55638",
+        "desc_55638",
+        "action_55638"
+      ]
+    },
+    "link_55638": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-55638",
+        "href": "https://github.com/advisories/GHSA-8gmq-j984-vp4r",
+        "source": "9router (npm)"
+      }
+    },
+    "badges_55638": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_55638",
+        "badge_epss_55638",
+        "badge_poc_55638"
+      ]
+    },
+    "badge_cvss_55638": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.6",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_55638": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.006"
+      }
+    },
+    "badge_poc_55638": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "outline"
+      }
+    },
+    "desc_55638": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated LLM proxy access via /codex rewrite auth bypass. (Separate from Aug 30 GHSA-86m2-fcxq-5q7c Host-header issue.)",
+        "variant": "body"
+      }
+    },
+    "action_55638": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade 9router to ≥0.5.2.",
+        "variant": "lead"
+      }
+    },
+    "cve_55108": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_55108",
+        "badges_55108",
+        "desc_55108",
+        "action_55108"
+      ]
+    },
+    "link_55108": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-55108",
+        "href": "https://github.com/advisories/GHSA-fmgp-q6jx-gg3x",
+        "source": "kubevela (Go)"
+      }
+    },
+    "badges_55108": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_55108",
+        "badge_epss_55108",
+        "badge_poc_55108"
+      ]
+    },
+    "badge_cvss_55108": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.5",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_55108": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.006"
+      }
+    },
+    "badge_poc_55108": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "outline"
+      }
+    },
+    "desc_55108": {
+      "type": "Text",
+      "props": {
+        "text": "Terraform remote loader DoS via unbounded file read.",
+        "variant": "body"
+      }
+    },
+    "action_55108": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade github.com/oam-dev/kubevela to ≥1.9.14.",
+        "variant": "lead"
+      }
+    },
+    "separator_3": {
+      "type": "Separator"
+    },
+    "monitor_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor_heading",
+        "cve_55784"
+      ]
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h3"
+      }
+    },
+    "cve_55784": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_55784",
+        "badges_55784",
+        "desc_55784",
+        "action_55784"
+      ]
+    },
+    "link_55784": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-55784",
+        "href": "https://github.com/advisories/GHSA-334q-h5g3-fpxv",
+        "source": "free5GC AUSF (Go)"
+      }
+    },
+    "badges_55784": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_55784",
+        "badge_fix_55784",
+        "badge_epss_55784"
+      ]
+    },
+    "badge_cvss_55784": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "secondary"
+      }
+    },
+    "badge_fix_55784": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix yet",
+        "variant": "outline"
+      }
+    },
+    "badge_epss_55784": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003"
+      }
+    },
+    "desc_55784": {
+      "type": "Text",
+      "props": {
+        "text": "Auth contexts overwritten by concurrent requests — session fixation pattern.",
+        "variant": "body"
+      }
+    },
+    "action_55784": {
+      "type": "Text",
+      "props": {
+        "text": "→ track GHSA-334q-h5g3-fpxv; avoid exposing AUSF to untrusted networks.",
+        "variant": "lead"
+      }
+    }
+  }
+}
