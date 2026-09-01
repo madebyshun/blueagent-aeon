@@ -1,17 +1,17 @@
-*Daily Pick — 2026-08-31*
+*Daily Pick — 2026-09-01*
 
-*Token: DASH*  [HIGH]  signal 9/10
-Price: $47.40 (+10.86% 24h / +13.40% 7d) | mcap $609M | vol $184M (vol/mcap 0.30)
-Score breakdown: [24h+1, 7d+1, both>5%+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2] = 9/10
-Catalyst: Dash Evolution Platform 4.1 (Aug 9) activated transferable DPNS username ownership — first on-chain username property rights in Dash history; DashPay iOS wallet live (Aug 11); breakout from multi-month $30–38 consolidation on 55% OI surge (fresh capital, not short squeeze)
-Risk: DASH has underperformed BTC/ETH structurally for 3+ years; Evolution promised since 2019; BTC macro headwinds (Barclays two-hike call today) amplify to the downside in DASH
-Vs recent picks: first time in 7+ days
+*Token: ARB*  [HIGH]  signal 9/10
+Price: $0.109 (+24.7% 24h / +16.2% 7d) | mcap $727M | vol $557M (vol/mcap 0.77)
+Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, CG trending+2, vol/mcap≥0.20+3, RS vs BTC+ETH on 7d+2] = 12 raw → 9/10
+Catalyst: Robinhood Chain fee revenue hit $2M+ today (10% flows to Arbitrum treasury) — first clean proof-of-revenue day for ARB holders, combined with ArbOS Elara upgrade live across Arbitrum One/Nova (Arbitrum Foundation, Sep 1)
+Risk: Robinhood is subsidizing fees for the first 90 days (expiring late September); removal deflates the revenue narrative and could reverse the squeeze instantly
+Vs recent picks: first time in 7d (ARB last picked 2026-07-09)
 
-*Market: "Will United Russia gain the most seats in the next Russian parliamentary election?"*  [HIGH]  edge 21pp
-Current: YES 68.5¢ / NO 31.5¢ | 24h vol $396k | resolves: 2026-09-30
-Fair YES: ~90% (inputs: United Russia won 72% of Duma seats in 2021, no viable opposition exists under current Kremlin control, United Russia has won every Duma election since 2003)
-Thesis: Market's 68.5¢ implies ~31% upset probability — structurally impossible in today's Russian political environment; BUY YES
-Risk: Unexpected pre-election instability or Western-narrative-driven contrarian flow could widen the discount further before convergence
+*Market: "Clarity Act (H.R.3633) signed into law in 2026?"*  [MEDIUM]  edge 6pp
+Current: YES 14¢ / NO 86¢ | cumulative vol $11.6M | resolves: Jan 1, 2027
+Fair YES: ~20% (inputs: Galaxy Research at 30%, Senate cloture needs 4+ Dem crossovers with only 1–2 confirmed, $818K single bet cratered from 24%→14%)
+Thesis: Market overreacted to one large short; Sept 15 cloture vote is a binary repricing event — buy the fear discount at 14¢ vs Galaxy's 30% calibration
+Risk: The $818K bet is smart money; with only 1–2 confirmed Dem crossovers, Senate math could put fair value at 12–15%, making this a wash
 
 sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only

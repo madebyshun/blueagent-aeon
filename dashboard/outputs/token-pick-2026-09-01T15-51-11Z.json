@@ -1,0 +1,447 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-09-01"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "arb-section",
+        "sep1",
+        "clarity-section",
+        "sep2",
+        "footer"
+      ]
+    },
+    "arb-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "arb-title",
+        "arb-price",
+        "arb-score",
+        "arb-catalyst",
+        "arb-risk",
+        "arb-recent"
+      ]
+    },
+    "arb-title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "arb-label",
+        "arb-badge-high",
+        "arb-signal"
+      ]
+    },
+    "arb-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: ARB",
+        "level": "h3"
+      }
+    },
+    "arb-badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "arb-signal": {
+      "type": "Stat",
+      "props": {
+        "label": "signal",
+        "value": "9/10"
+      }
+    },
+    "arb-price": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "arb-price-main",
+        "arb-price-details"
+      ]
+    },
+    "arb-price-main": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.109"
+      }
+    },
+    "arb-price-details": {
+      "type": "Text",
+      "props": {
+        "text": "+24.7% 24h / +16.2% 7d | mcap $727M | vol $557M (vol/mcap 0.77)",
+        "variant": "caption"
+      }
+    },
+    "arb-score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "arb-score-label",
+        "arb-score-breakdown"
+      ]
+    },
+    "arb-score-label": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown:",
+        "variant": "lead"
+      }
+    },
+    "arb-score-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "[24h>0+1, 7d>0+1, both>5%+2, CG trending+2, vol/mcap≥0.20+3, RS vs BTC+ETH on 7d+2] = 12 raw → 9/10",
+        "variant": "caption"
+      }
+    },
+    "arb-catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "arb-catalyst-label",
+        "arb-catalyst-text"
+      ]
+    },
+    "arb-catalyst-label": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst:",
+        "variant": "lead"
+      }
+    },
+    "arb-catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain fee revenue hit $2M+ today (10% flows to Arbitrum treasury) — first clean proof-of-revenue day for ARB holders, combined with ArbOS Elara upgrade live across Arbitrum One/Nova (Arbitrum Foundation, Sep 1)",
+        "variant": "body"
+      }
+    },
+    "arb-risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "arb-risk-label",
+        "arb-risk-text"
+      ]
+    },
+    "arb-risk-label": {
+      "type": "Text",
+      "props": {
+        "text": "Risk:",
+        "variant": "lead"
+      }
+    },
+    "arb-risk-text": {
+      "type": "Alert",
+      "props": {
+        "message": "Robinhood is subsidizing fees for the first 90 days (expiring late September); removal deflates the revenue narrative and could reverse the squeeze instantly",
+        "type": "warning"
+      }
+    },
+    "arb-recent": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "arb-recent-label",
+        "arb-recent-text"
+      ]
+    },
+    "arb-recent-label": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks:",
+        "variant": "lead"
+      }
+    },
+    "arb-recent-text": {
+      "type": "Text",
+      "props": {
+        "text": "first time in 7d (ARB last picked 2026-07-09)",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "clarity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "clarity-title",
+        "clarity-odds",
+        "clarity-volume",
+        "clarity-fair",
+        "clarity-thesis",
+        "clarity-risk"
+      ]
+    },
+    "clarity-title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "clarity-label",
+        "clarity-badge-medium",
+        "clarity-edge"
+      ]
+    },
+    "clarity-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: \"Clarity Act (H.R.3633) signed into law in 2026?\"",
+        "level": "h3"
+      }
+    },
+    "clarity-badge-medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      }
+    },
+    "clarity-edge": {
+      "type": "Text",
+      "props": {
+        "text": "edge 6pp",
+        "variant": "body"
+      }
+    },
+    "clarity-odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "clarity-odds-label",
+        "clarity-odds-data"
+      ]
+    },
+    "clarity-odds-label": {
+      "type": "Text",
+      "props": {
+        "text": "Current:",
+        "variant": "lead"
+      }
+    },
+    "clarity-odds-data": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "clarity-yes",
+        "clarity-no"
+      ]
+    },
+    "clarity-yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "14¢"
+      }
+    },
+    "clarity-no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "86¢"
+      }
+    },
+    "clarity-volume": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "clarity-volume-label",
+        "clarity-volume-text"
+      ]
+    },
+    "clarity-volume-label": {
+      "type": "Text",
+      "props": {
+        "text": "Volume & Resolution:",
+        "variant": "lead"
+      }
+    },
+    "clarity-volume-text": {
+      "type": "Text",
+      "props": {
+        "text": "cumulative vol $11.6M | resolves: Jan 1, 2027",
+        "variant": "caption"
+      }
+    },
+    "clarity-fair": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "clarity-fair-label",
+        "clarity-fair-text"
+      ]
+    },
+    "clarity-fair-label": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES:",
+        "variant": "lead"
+      }
+    },
+    "clarity-fair-text": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "clarity-fair-value",
+        "clarity-fair-inputs"
+      ]
+    },
+    "clarity-fair-value": {
+      "type": "Stat",
+      "props": {
+        "value": "~20%"
+      }
+    },
+    "clarity-fair-inputs": {
+      "type": "Text",
+      "props": {
+        "text": "inputs: Galaxy Research at 30%, Senate cloture needs 4+ Dem crossovers with only 1–2 confirmed, $818K single bet cratered from 24%→14%",
+        "variant": "caption"
+      }
+    },
+    "clarity-thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "clarity-thesis-label",
+        "clarity-thesis-text"
+      ]
+    },
+    "clarity-thesis-label": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis:",
+        "variant": "lead"
+      }
+    },
+    "clarity-thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market overreacted to one large short; Sept 15 cloture vote is a binary repricing event — buy the fear discount at 14¢ vs Galaxy's 30% calibration",
+        "variant": "body"
+      }
+    },
+    "clarity-risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "clarity-risk-label",
+        "clarity-risk-text"
+      ]
+    },
+    "clarity-risk-label": {
+      "type": "Text",
+      "props": {
+        "text": "Risk:",
+        "variant": "lead"
+      }
+    },
+    "clarity-risk-text": {
+      "type": "Alert",
+      "props": {
+        "message": "The $818K bet is smart money; with only 1–2 confirmed Dem crossovers, Senate math could put fair value at 12–15%, making this a wash",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources",
+        "disclaimer"
+      ]
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
