@@ -1,21 +1,24 @@
-*Morning Brief — 2026-08-31*
+*Morning Brief — 2026-09-01*
 
 *Focus today*
-1. BTC macro repricing — why now: Barclays two-hike call (Sept+Dec) published today; market pricing one
-2. HYPE day 3 post-$1.2B unlock — why now: day 2 absent from trending; Sep 6 next unlock already queued
-3. HNT day 2 post-150% pump — why now: PUMP-RISK tag; today's close is the DePIN phase verdict
+1. Quantum FRONT-RUN — why now: two quantum-resistance milestones in 24h; window opening now
+2. CLARITY Act Sept 15 — why now: odds at 17–30%; fade the passage premium before vote
+3. HYPE Sep 6 unlock — why now: 5 days out; day-3 weak recovery hasn't cleared distribution
 
 *Since yesterday*
-- [moved] BTC: $78.2K → $77.7K open; Barclays two-hike call published today; CME Sept hike at 57%
-- [moved] HYPE: Record $86.71 on unlock day (Aug 27); absent from trending Aug 30 = distribution signal
-- [moved] ZEC/XMR: Both MAJOR green Aug 30 — privacy resurrection confirmed, FRONT-RUN now
-- [running] XAI 403: Day 52 no credits; narrative-tracker WebSearch fallback healthy
+- [moved] Quantum to FRONT-RUN: StarkWare BTC mainnet txn (Aug 31) + ETH post-quantum validator proposal (Sep 1) — two milestones 24h apart
+- [moved] Base/AiFi FADE threshold: 4th consecutive miss, downgraded from WATCH
+- [moved] BTC flat ~$78.6K: Sep 1 open confirms Barclays two-hike call absorbed, no bounce
+- [moved] deal-flow: Emerald AI $150M Series A + Instinct $250M Series B logged (AI infra + consumer AI consolidation)
+- [stuck] XAI 403 (53rd day): narrative-tracker on WebSearch fallback — needs operator billing action
 
 *Watch*
-- Barclays calls two 25bp hikes (Sept+Dec) — market pricing one; 2x macro headwind if right — focus #1
+- ETH post-quantum validator contract proposed Sep 1 — two independent quantum moves in 24h = developer coordination signal (Focus #1)
+- CLARITY Act: Galaxy 30% / Polymarket 17% — still mispriced; fade YES if held long (Focus #2)
 
 *Running today*
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC

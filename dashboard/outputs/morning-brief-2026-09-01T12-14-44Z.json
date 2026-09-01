@@ -1,0 +1,466 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-09-01"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus",
+        "sep1",
+        "heading_yesterday",
+        "stack_yesterday",
+        "sep2",
+        "heading_watch",
+        "stack_watch",
+        "sep3",
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "Quantum FRONT-RUN — why now: two quantum-resistance milestones in 24h; window opening now",
+        "variant": "lead"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act Sept 15 — why now: odds at 17–30%; fade the passage premium before vote",
+        "variant": "lead"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE Sep 6 unlock — why now: 5 days out; day-3 weak recovery hasn't cleared distribution",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_1",
+        "yesterday_2",
+        "yesterday_3",
+        "yesterday_4",
+        "yesterday_5"
+      ]
+    },
+    "yesterday_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_1",
+        "text_yesterday_1"
+      ]
+    },
+    "badge_moved_1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_yesterday_1": {
+      "type": "Text",
+      "props": {
+        "text": "Quantum to FRONT-RUN: StarkWare BTC mainnet txn (Aug 31) + ETH post-quantum validator proposal (Sep 1) — two milestones 24h apart",
+        "variant": "body"
+      }
+    },
+    "yesterday_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_2",
+        "text_yesterday_2"
+      ]
+    },
+    "badge_moved_2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_yesterday_2": {
+      "type": "Text",
+      "props": {
+        "text": "Base/AiFi FADE threshold: 4th consecutive miss, downgraded from WATCH",
+        "variant": "body"
+      }
+    },
+    "yesterday_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_3",
+        "text_yesterday_3"
+      ]
+    },
+    "badge_moved_3": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_yesterday_3": {
+      "type": "Text",
+      "props": {
+        "text": "BTC flat ~$78.6K: Sep 1 open confirms Barclays two-hike call absorbed, no bounce",
+        "variant": "body"
+      }
+    },
+    "yesterday_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved_4",
+        "text_yesterday_4a",
+        "text_yesterday_4b"
+      ]
+    },
+    "badge_moved_4": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_yesterday_4a": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow logged:",
+        "variant": "body"
+      }
+    },
+    "text_yesterday_4b": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_emerald",
+        "stat_instinct"
+      ]
+    },
+    "stat_emerald": {
+      "type": "Stat",
+      "props": {
+        "label": "Emerald AI Series A",
+        "value": "$150M"
+      }
+    },
+    "stat_instinct": {
+      "type": "Stat",
+      "props": {
+        "label": "Instinct Series B",
+        "value": "$250M"
+      }
+    },
+    "yesterday_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stuck",
+        "text_yesterday_5"
+      ]
+    },
+    "badge_stuck": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "text_yesterday_5": {
+      "type": "Text",
+      "props": {
+        "text": "XAI 403 (53rd day): narrative-tracker on WebSearch fallback — needs operator billing action",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "ETH post-quantum validator contract proposed Sep 1 — two independent quantum moves in 24h = developer coordination signal (Focus #1)",
+        "variant": "body"
+      }
+    },
+    "watch_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_watch_2",
+        "stack_watch_odds"
+      ]
+    },
+    "text_watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act: Galaxy 30% / Polymarket 17% — still mispriced; fade YES if held long (Focus #2)",
+        "variant": "body"
+      }
+    },
+    "stack_watch_odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "progress_galaxy",
+        "progress_polymarket"
+      ]
+    },
+    "progress_galaxy": {
+      "type": "Progress",
+      "props": {
+        "value": 30,
+        "max": 100,
+        "label": "Galaxy"
+      }
+    },
+    "progress_polymarket": {
+      "type": "Progress",
+      "props": {
+        "value": 17,
+        "max": 100,
+        "label": "Polymarket"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "run_1",
+        "run_2",
+        "run_3",
+        "run_4",
+        "run_5"
+      ]
+    },
+    "run_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "text_run_1_name",
+        "text_run_1_time"
+      ]
+    },
+    "text_run_1_name": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor",
+        "variant": "body"
+      }
+    },
+    "text_run_1_time": {
+      "type": "Text",
+      "props": {
+        "text": "09:00 UTC",
+        "variant": "muted"
+      }
+    },
+    "run_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "text_run_2_name",
+        "text_run_2_time"
+      ]
+    },
+    "text_run_2_name": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers",
+        "variant": "body"
+      }
+    },
+    "text_run_2_time": {
+      "type": "Text",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "muted"
+      }
+    },
+    "run_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "text_run_3_name",
+        "text_run_3_time"
+      ]
+    },
+    "text_run_3_name": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick",
+        "variant": "body"
+      }
+    },
+    "text_run_3_time": {
+      "type": "Text",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "muted"
+      }
+    },
+    "run_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "text_run_4_name",
+        "text_run_4_time"
+      ]
+    },
+    "text_run_4_name": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "body"
+      }
+    },
+    "text_run_4_time": {
+      "type": "Text",
+      "props": {
+        "text": "13:30 UTC",
+        "variant": "muted"
+      }
+    },
+    "run_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_run_5_name",
+        "text_run_5_time"
+      ]
+    },
+    "text_run_5_name": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat",
+        "variant": "body"
+      }
+    },
+    "text_run_5_time": {
+      "type": "Text",
+      "props": {
+        "text": "08:00, 14:00, 20:00 UTC",
+        "variant": "muted"
+      }
+    }
+  }
+}
