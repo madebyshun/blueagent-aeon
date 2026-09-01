@@ -1,0 +1,467 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-01"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-transitions",
+        "sep1",
+        "section-reflexivity",
+        "sep2",
+        "section-positions",
+        "sep3",
+        "section-map"
+      ]
+    },
+    "section-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-trans",
+        "trans-items"
+      ]
+    },
+    "heading-trans": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    "t1": {
+      "type": "Text",
+      "props": {
+        "text": "• NEW: L2 Ecosystem Revival (ARB/OP) — ARB +24.6% ArbOS Elara live + Robinhood Chain $2M/day fee → Arbitrum treasury; OP +16.1%, VELO +13.1%, UNI trending; first revenue-backed L2 breakout — FRONT-RUN"
+      }
+    },
+    "t2": {
+      "type": "Text",
+      "props": {
+        "text": "• PROMOTED: ZEC/Privacy — WATCH → FRONT-RUN. Third consecutive signal: Aug 29 trending, Aug 30 MAJOR winner +3.9%, Sep 1 [MAJOR] trending. Three-session confirmation delivered."
+      }
+    },
+    "t3": {
+      "type": "Text",
+      "props": {
+        "text": "• PROMOTED: DeFi Revival — Fading → Rising ↑↑ RIDE. CRV +15%, UNI trending, VELO +13.1%; sector rotation confirmed."
+      }
+    },
+    "t4": {
+      "type": "Text",
+      "props": {
+        "text": "• PROMOTED: Quantum (mindshare 3→4) — ↑↑ FRONT-RUN maintained. ETH post-quantum validator contract proposed Sep 1 = second milestone in 24h after StarkWare BTC tx Aug 31. Morning-brief led with this."
+      }
+    },
+    "t5": {
+      "type": "Text",
+      "props": {
+        "text": "• PROMOTED: Agentic Dev Tools — Rising → Peak ↑↑ RIDE. Three ACCELERATING repos (591★/509★/516★) + Kraken+Coinbase+OKX simultaneously open-sourcing MCP toolkits."
+      }
+    },
+    "t6": {
+      "type": "Text",
+      "props": {
+        "text": "• DEMOTED: Hawkish Fed — Peak ↑ → Peak →. Alt rotation underway. Three-event cluster Sept 15/16/18 keeps narrative alive."
+      }
+    },
+    "t7": {
+      "type": "Text",
+      "props": {
+        "text": "• DEMOTED: AI Compute/DePIN — Rising → → Rising ↓ WATCH. HNT -9.5% loser = DePIN sub-narrative confirmed dead."
+      }
+    },
+    "section-reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-refl",
+        "alert-refl"
+      ]
+    },
+    "heading-refl": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert-refl": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "r1",
+        "r2",
+        "r3"
+      ]
+    },
+    "r1": {
+      "type": "Text",
+      "props": {
+        "text": "• Quantum × Two-Day Milestone Cascade — StarkWare BTC tx (Aug 31) + ETH post-quantum validator contract (Sep 1): narrative moving capital before threat is technically real (500K qubits, years away). Watch for quantum-resistant L1/L2 VC announcements this week."
+      }
+    },
+    "r2": {
+      "type": "Text",
+      "props": {
+        "text": "• L2 Revenue × ARB Token Price — \"Robinhood Chain $2M/day → Arbitrum treasury\" is first revenue-backed L2 framing. If OP/BASE/VELO adopt same \"L2 PE ratio\" story → reflexive sector repricing."
+      }
+    },
+    "r3": {
+      "type": "Text",
+      "props": {
+        "text": "• CLARITY Act × Galaxy-Polymarket Spread — Galaxy 30% vs Polymarket 14-17% YES odds. Morning-brief: FADE the passage premium. Galaxy estimate likely lobbying-manufactured."
+      }
+    },
+    "section-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-pos",
+        "pos-items"
+      ]
+    },
+    "heading-pos": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos-frontrun",
+        "pos-ride",
+        "pos-fade"
+      ]
+    },
+    "pos-frontrun": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-frontrun",
+        "stack-fr-items"
+      ]
+    },
+    "badge-frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "stack-fr-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-fr1",
+        "p-fr2",
+        "p-fr3"
+      ]
+    },
+    "p-fr1": {
+      "type": "Text",
+      "props": {
+        "text": "• L2 Ecosystem Revival (3, ↑↑, Bull) — ArbOS Elara + Robinhood Chain fee flow — bear: one rotation day, Nov unlock overhang"
+      }
+    },
+    "p-fr2": {
+      "type": "Text",
+      "props": {
+        "text": "• Quantum (4, ↑↑, Bull) — two milestones in 24h — bear: 500K qubits years away"
+      }
+    },
+    "p-fr3": {
+      "type": "Text",
+      "props": {
+        "text": "• ZEC/Privacy (3, ↑, Bull) — three-session confirmed — bear: quantum standards could replace ZEC"
+      }
+    },
+    "pos-ride": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride",
+        "stack-ride-items"
+      ]
+    },
+    "badge-ride": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "stack-ride-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-ride1",
+        "p-ride2",
+        "p-ride3"
+      ]
+    },
+    "p-ride1": {
+      "type": "Text",
+      "props": {
+        "text": "• AI Agent Economy (5, ↑, Peak) — three ACCELERATING repos + three-exchange MCP toolkits"
+      }
+    },
+    "p-ride2": {
+      "type": "Text",
+      "props": {
+        "text": "• x402/Agentic Payments (5, ↑, Peak) — Kraken+Coinbase+OKX production infra simultaneously"
+      }
+    },
+    "p-ride3": {
+      "type": "Text",
+      "props": {
+        "text": "• DeFi Revival (3, ↑↑, Rising) — CRV+15%, UNI trending, VELO+13.1%"
+      }
+    },
+    "pos-fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade",
+        "stack-fade-items"
+      ]
+    },
+    "badge-fade": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "stack-fade-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-fade1",
+        "p-fade2"
+      ]
+    },
+    "p-fade1": {
+      "type": "Text",
+      "props": {
+        "text": "• Coinbase AiFi/Base (2, ↓↓, Fading) — 5th miss; ARB/OP taking L2 rotation liquidity"
+      }
+    },
+    "p-fade2": {
+      "type": "Text",
+      "props": {
+        "text": "• Memecoins/Retail (2, ↓↓, Fading) — SKR CAPITULATION day 2, APEPE -6.7%"
+      }
+    },
+    "section-map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-map",
+        "map-items"
+      ]
+    },
+    "heading-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "subheading-emerging",
+        "text-emerging"
+      ]
+    },
+    "subheading-emerging": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h4"
+      }
+    },
+    "text-emerging": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC/Privacy ↑ FRONT-RUN | L2 Revival ↑↑ FRONT-RUN | CLARITY Act ↑ WATCH | Prediction Markets ↑ WATCH | Lean ETH ↑ WATCH"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "subheading-rising",
+        "text-rising"
+      ]
+    },
+    "subheading-rising": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h4"
+      }
+    },
+    "text-rising": {
+      "type": "Text",
+      "props": {
+        "text": "Quantum ↑↑ FRONT-RUN | DeFi Revival ↑↑ | Agent Identity ↑ | RWA | Oracle Infra"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "subheading-peak",
+        "text-peak"
+      ]
+    },
+    "subheading-peak": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h4"
+      }
+    },
+    "text-peak": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy ↑ | x402/Payments ↑ | Agentic Dev Tools ↑↑ | Hawkish Fed →"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "subheading-fading",
+        "text-fading"
+      ]
+    },
+    "subheading-fading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h4"
+      }
+    },
+    "text-fading": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase/Base ↓↓ | Memecoins ↓↓ | ENA ↓↓ | TRUMP ↓↓ | DePIN ↓ | Solana ↓"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    }
+  }
+}
