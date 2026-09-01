@@ -1,0 +1,340 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-01"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_section",
+        "sep1",
+        "ai_ml_section",
+        "sep2",
+        "devtools_section",
+        "sep3",
+        "footer"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top_pick_heading",
+        "top_pick_item"
+      ]
+    },
+    "top_pick_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "top_pick_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "top_pick_link",
+        "top_pick_desc"
+      ]
+    },
+    "top_pick_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "browser-use/video-use",
+        "href": "https://github.com/browser-use/video-use"
+      },
+      "children": []
+    },
+    "top_pick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "The browser-use team extends coding-agent automation to video — describe an edit in plain English, the agent writes and runs the code.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "ai_ml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_ml_heading",
+        "ai_ml_item"
+      ]
+    },
+    "ai_ml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "ai_ml_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "ai_ml_link",
+        "ai_ml_meta",
+        "ai_ml_desc"
+      ]
+    },
+    "ai_ml_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "debpalash/VoiceStudio",
+        "href": "https://github.com/debpalash/VoiceStudio"
+      },
+      "children": []
+    },
+    "ai_ml_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ai_ml_stat",
+        "ai_ml_lang",
+        "ai_ml_status"
+      ]
+    },
+    "ai_ml_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "13.2k",
+        "delta": "+509",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "ai_ml_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      },
+      "children": []
+    },
+    "ai_ml_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "ai_ml_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Drop-in local ElevenLabs: voice cloning, dubbing, dictation, and audiobook creation in one package — no API key, no subscription.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_heading",
+        "devtools_item1",
+        "devtools_item2"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "devtools_item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "devtools_link1",
+        "devtools_meta1",
+        "devtools_desc1"
+      ]
+    },
+    "devtools_link1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "browser-use/video-use",
+        "href": "https://github.com/browser-use/video-use"
+      },
+      "children": []
+    },
+    "devtools_meta1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_stat1",
+        "devtools_lang1",
+        "devtools_status1"
+      ]
+    },
+    "devtools_stat1": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "22.6k",
+        "delta": "+591",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "devtools_lang1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      },
+      "children": []
+    },
+    "devtools_status1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "devtools_desc1": {
+      "type": "Text",
+      "props": {
+        "text": "Describe a video edit in plain English; the agent writes and executes FFmpeg code — no timeline scrubbing, no GUI required.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "devtools_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "devtools_link2",
+        "devtools_meta2",
+        "devtools_desc2"
+      ]
+    },
+    "devtools_link2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "unclecode/crawl4ai",
+        "href": "https://github.com/unclecode/crawl4ai"
+      },
+      "children": []
+    },
+    "devtools_meta2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_stat2",
+        "devtools_lang2",
+        "devtools_status2"
+      ]
+    },
+    "devtools_stat2": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "80.7k",
+        "delta": "+516",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "devtools_lang2": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      },
+      "children": []
+    },
+    "devtools_status2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "devtools_desc2": {
+      "type": "Text",
+      "props": {
+        "text": "LLM-native web crawler at 80k stars pushed an update today — the standard pick for RAG ingestion pipelines.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 3/15",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

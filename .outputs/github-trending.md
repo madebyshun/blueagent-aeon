@@ -1,24 +1,18 @@
-*GitHub Trending — 2026-08-31*
+*GitHub Trending — 2026-09-01*
 
-*Top pick* — [jingyaogong/minimind](https://github.com/jingyaogong/minimind)
-A working proof that full LLM pretraining fits on consumer hardware — fresh commits today, 55.9k stars, and the reproducibility is the point.
+*Top pick* — [browser-use/video-use](https://github.com/browser-use/video-use)
+The browser-use team extends coding-agent automation to video — describe an edit in plain English, the agent writes and runs the code.
 
 *AI/ML*
-• [jingyaogong/minimind](https://github.com/jingyaogong/minimind) — ★ 472 today (55.9k total) · Python · [ACCELERATING]
-Trains a 64M-param LLM end-to-end on one consumer GPU in under 2 hours — minimal, reproducible pipeline.
-
-• [Osmantic/ODS](https://github.com/Osmantic/ODS) — ★ 163 today (5.3k total) · Python · [RETURNING]
-One-command AI server for your laptop — bundles local inference, chat UI, voice, and agents without cloud APIs.
+• [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — ★509 today (13.2k total) · Python · [ACCELERATING]
+Drop-in local ElevenLabs: voice cloning, dubbing, dictation, and audiobook creation in one package — no API key, no subscription.
 
 *Devtools*
-• [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector) — ★ 199 today (17.2k total) · Rust · [ACCELERATING]
-Rust PDF library from firecrawl — classifies and extracts text in a single parse pass, faster than Python PDF libs.
+• [browser-use/video-use](https://github.com/browser-use/video-use) — ★591 today (22.6k total) · Python · [ACCELERATING]
+Describe a video edit in plain English; the agent writes and executes FFmpeg code — no timeline scrubbing, no GUI required.
 
-• [majd/ipatool](https://github.com/majd/ipatool) — ★ 376 today (10.4k total) · Go · [RETURNING]
-Downloads signed .ipa archives from Apple's CDN without a Mac — enables security analysis and CI ipa diffing.
-
-• [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner) — ★ 184 today (4.1k total) · Python · [RETURNING]
-Consolidates 465+ OSINT lookup vectors for email and username recon into one CLI — replaces a dozen separate tools.
+• [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) — ★516 today (80.7k total) · Python · [ACCELERATING]
+LLM-native web crawler at 80k stars pushed an update today — the standard pick for RAG ingestion pipelines.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/16
+sources: trending=ok · gh_api=ok · kept 3/15
