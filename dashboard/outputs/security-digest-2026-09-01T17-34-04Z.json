@@ -1,0 +1,447 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-09-01",
+        "description": "Verdict: nothing urgent today. 2 to schedule, 3 to monitor."
+      },
+      "children": [
+        "sources",
+        "sep1",
+        "patch-section",
+        "sep2",
+        "monitor-section"
+      ]
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV (5 this week, all prior-logged), GH Advisory, EPSS",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-heading",
+        "adv-mlflow",
+        "adv-mysql2"
+      ]
+    },
+    "patch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h3"
+      }
+    },
+    "adv-mlflow": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mlflow-link",
+        "mlflow-pkg",
+        "mlflow-scores",
+        "mlflow-desc",
+        "mlflow-action"
+      ]
+    },
+    "mlflow-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-gqvg-gmmx-x4hm",
+        "href": "https://github.com/advisories/GHSA-gqvg-gmmx-x4hm"
+      }
+    },
+    "mlflow-pkg": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "mlflow-pkg-name",
+        "mlflow-pkg-lang"
+      ]
+    },
+    "mlflow-pkg-name": {
+      "type": "Badge",
+      "props": {
+        "text": "mlflow",
+        "variant": "default"
+      }
+    },
+    "mlflow-pkg-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "pip",
+        "variant": "secondary"
+      }
+    },
+    "mlflow-scores": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "mlflow-cvss",
+        "mlflow-epss"
+      ]
+    },
+    "mlflow-cvss": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "8.8"
+      }
+    },
+    "mlflow-epss": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "caption"
+      }
+    },
+    "mlflow-desc": {
+      "type": "Text",
+      "props": {
+        "text": "statsmodels flavor ignores MLFLOW_ALLOW_PICKLE_DESERIALIZATION=False → RCE via crafted model artifact even with the guard enabled.",
+        "variant": "body"
+      }
+    },
+    "mlflow-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "upgrade mlflow to ≥3.15.0 and redeploy.",
+        "type": "warning"
+      }
+    },
+    "adv-mysql2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mysql2-link",
+        "mysql2-pkg",
+        "mysql2-scores",
+        "mysql2-desc",
+        "mysql2-action"
+      ]
+    },
+    "mysql2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-3f6p-5ww8-9rcr",
+        "href": "https://github.com/advisories/GHSA-3f6p-5ww8-9rcr"
+      }
+    },
+    "mysql2-pkg": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "mysql2-pkg-name",
+        "mysql2-pkg-lang"
+      ]
+    },
+    "mysql2-pkg-name": {
+      "type": "Badge",
+      "props": {
+        "text": "mysql2",
+        "variant": "default"
+      }
+    },
+    "mysql2-pkg-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "npm",
+        "variant": "secondary"
+      }
+    },
+    "mysql2-scores": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "mysql2-cvss",
+        "mysql2-epss",
+        "mysql2-poc"
+      ]
+    },
+    "mysql2-cvss": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "8.2"
+      }
+    },
+    "mysql2-epss": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "caption"
+      }
+    },
+    "mysql2-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "PoC on request",
+        "variant": "destructive"
+      }
+    },
+    "mysql2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rogue server/MITM forces auth plugin downgrade to mysql_clear_password → plaintext credentials captured; 9M weekly downloads.",
+        "variant": "body"
+      }
+    },
+    "mysql2-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action Required",
+        "message": "upgrade mysql2 to ≥3.22.0 and redeploy.",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor-heading",
+        "adv-engineio",
+        "adv-browserslist"
+      ]
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h3"
+      }
+    },
+    "adv-engineio": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "engineio-link",
+        "engineio-pkg",
+        "engineio-scores",
+        "engineio-desc",
+        "engineio-action"
+      ]
+    },
+    "engineio-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-gr94-w7qr-f4j3",
+        "href": "https://github.com/advisories/GHSA-gr94-w7qr-f4j3"
+      }
+    },
+    "engineio-pkg": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "engineio-pkg-name",
+        "engineio-pkg-lang"
+      ]
+    },
+    "engineio-pkg-name": {
+      "type": "Badge",
+      "props": {
+        "text": "engine.io",
+        "variant": "default"
+      }
+    },
+    "engineio-pkg-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "npm",
+        "variant": "secondary"
+      }
+    },
+    "engineio-scores": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "engineio-cvss",
+        "engineio-epss"
+      ]
+    },
+    "engineio-cvss": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "7.5"
+      }
+    },
+    "engineio-epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.61%"
+      }
+    },
+    "engineio-desc": {
+      "type": "Text",
+      "props": {
+        "text": "__proto__ SID crashes WebTransport upgrade handler → unauthenticated remote DoS. WebTransport is opt-in.",
+        "variant": "body"
+      }
+    },
+    "engineio-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Mitigation",
+        "message": "upgrade engine.io to ≥6.6.7; mitigate with transports: [\"polling\",\"websocket\"].",
+        "type": "info"
+      }
+    },
+    "adv-browserslist": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "browserslist-links",
+        "browserslist-pkg",
+        "browserslist-scores",
+        "browserslist-desc",
+        "browserslist-action"
+      ]
+    },
+    "browserslist-links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "browserslist-link-1",
+        "browserslist-link-2"
+      ]
+    },
+    "browserslist-link-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-c83g-rgw3-j3cx",
+        "href": "https://github.com/advisories/GHSA-c83g-rgw3-j3cx"
+      }
+    },
+    "browserslist-link-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-73wf-gq98-2v4g",
+        "href": "https://github.com/advisories/GHSA-73wf-gq98-2v4g"
+      }
+    },
+    "browserslist-pkg": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "browserslist-pkg-name",
+        "browserslist-pkg-lang"
+      ]
+    },
+    "browserslist-pkg-name": {
+      "type": "Badge",
+      "props": {
+        "text": "browserslist",
+        "variant": "default"
+      }
+    },
+    "browserslist-pkg-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "npm",
+        "variant": "secondary"
+      }
+    },
+    "browserslist-scores": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "browserslist-cvss",
+        "browserslist-epss"
+      ]
+    },
+    "browserslist-cvss": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "7.5"
+      }
+    },
+    "browserslist-epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.36%"
+      }
+    },
+    "browserslist-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Two bugs: unbounded cache OOM (50 MB+ heap at 30k distinct queries) + prototype crash via poisoned browserslist-stats.json.",
+        "variant": "body"
+      }
+    },
+    "browserslist-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action",
+        "message": "upgrade browserslist to ≥4.28.7; most build tools (Autoprefixer, Babel, Stylelint) pick it up transitively.",
+        "type": "info"
+      }
+    }
+  }
+}
