@@ -1,17 +1,17 @@
-*Daily Pick — 2026-09-01*
+*Daily Pick — 2026-09-02*
 
-*Token: ARB*  [HIGH]  signal 9/10
-Price: $0.109 (+24.7% 24h / +16.2% 7d) | mcap $727M | vol $557M (vol/mcap 0.77)
-Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, CG trending+2, vol/mcap≥0.20+3, RS vs BTC+ETH on 7d+2] = 12 raw → 9/10
-Catalyst: Robinhood Chain fee revenue hit $2M+ today (10% flows to Arbitrum treasury) — first clean proof-of-revenue day for ARB holders, combined with ArbOS Elara upgrade live across Arbitrum One/Nova (Arbitrum Foundation, Sep 1)
-Risk: Robinhood is subsidizing fees for the first 90 days (expiring late September); removal deflates the revenue narrative and could reverse the squeeze instantly
-Vs recent picks: first time in 7d (ARB last picked 2026-07-09)
+*Token: UNI*  [HIGH]  signal 9/10
+Price: $5.83 (+1.4% 24h / +35.4% 7d) | mcap $3.62B | vol $1.1B (vol/mcap 0.30)
+Score breakdown: [trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH 7d+2, 24h>0+1, 7d>0+1] = 9/10
+Catalyst: Robinhood Chain TVL +87% to $127M with Uniswap as the leading DEX; fee switch now burns UNI from Unichain + protocol fees — first active buy-and-burn from real network revenue; 60%+ of RWA DEX volume routing through the protocol
+Risk: Already +35% in 7 days — momentum may be exhausted; risk-off tape (BTC -1% at $77K); Sept FOMC Sept 16 creates macro overhang 14 days out
+Vs recent picks: first time — not in prior 7-day dedup window
 
-*Market: "Clarity Act (H.R.3633) signed into law in 2026?"*  [MEDIUM]  edge 6pp
-Current: YES 14¢ / NO 86¢ | cumulative vol $11.6M | resolves: Jan 1, 2027
-Fair YES: ~20% (inputs: Galaxy Research at 30%, Senate cloture needs 4+ Dem crossovers with only 1–2 confirmed, $818K single bet cratered from 24%→14%)
-Thesis: Market overreacted to one large short; Sept 15 cloture vote is a binary repricing event — buy the fear discount at 14¢ vs Galaxy's 30% calibration
-Risk: The $818K bet is smart money; with only 1–2 confirmed Dem crossovers, Senate math could put fair value at 12–15%, making this a wash
+*Market: "US to invade Iran before 2027?"*  [MEDIUM]  edge 8.5pp
+Current: YES 15.5¢ / NO 84.5¢ | 24h vol $660K | resolves: 2027-01-01
+Fair YES: ~7% (inputs: [US already struck Iran via airstrikes in 2026 without this market resolving → resolution requires ground invasion]; [ground invasion of Iran in 4-month window is near-politically-impossible]; [historical base rate of US ground invasion of Iran = 0])
+Thesis: YES overpriced at 15.5% vs fair ~7% — market never repriced after prior air strikes failed to resolve; implication is BUY NO at 84.5¢
+Risk: Definitional ambiguity if Polymarket rules a large military operation as invasion; surprise escalation event
 
 sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only

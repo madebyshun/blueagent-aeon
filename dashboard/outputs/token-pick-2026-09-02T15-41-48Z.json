@@ -1,0 +1,292 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-09-02"
+      },
+      "children": [
+        "heading_token",
+        "stack_uni",
+        "sep_1",
+        "heading_market",
+        "stack_market",
+        "sep_2",
+        "stack_footer"
+      ]
+    },
+    "heading_token": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: UNI",
+        "level": "h2"
+      }
+    },
+    "stack_uni": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_uni_header",
+        "stack_price",
+        "text_score",
+        "text_catalyst",
+        "text_risk",
+        "text_comparison"
+      ]
+    },
+    "stack_uni_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_high",
+        "badge_signal"
+      ]
+    },
+    "badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 9/10",
+        "variant": "default"
+      }
+    },
+    "stack_price": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_price",
+        "stat_24h",
+        "stat_7d",
+        "stat_mcap",
+        "stat_vol",
+        "stat_ratio"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$5.83"
+      }
+    },
+    "stat_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+1.4%",
+        "trend": "up"
+      }
+    },
+    "stat_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+35.4%",
+        "trend": "up"
+      }
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "mcap",
+        "value": "$3.62B"
+      }
+    },
+    "stat_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h volume",
+        "value": "$1.1B"
+      }
+    },
+    "stat_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "vol/mcap",
+        "value": "0.30"
+      }
+    },
+    "text_score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH 7d+2, 24h>0+1, 7d>0+1] = 9/10",
+        "variant": "caption"
+      }
+    },
+    "text_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: Robinhood Chain TVL +87% to $127M with Uniswap as the leading DEX; fee switch now burns UNI from Unichain + protocol fees — first active buy-and-burn from real network revenue; 60%+ of RWA DEX volume routing through the protocol",
+        "variant": "body"
+      }
+    },
+    "text_risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: Already +35% in 7 days — momentum may be exhausted; risk-off tape (BTC -1% at $77K); Sept FOMC Sept 16 creates macro overhang 14 days out",
+        "variant": "body"
+      }
+    },
+    "text_comparison": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time — not in prior 7-day dedup window",
+        "variant": "caption"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: \"US to invade Iran before 2027?\"",
+        "level": "h2"
+      }
+    },
+    "stack_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_market_header",
+        "stack_odds",
+        "text_volume_resolution",
+        "text_fair_value",
+        "text_thesis",
+        "text_market_risk"
+      ]
+    },
+    "stack_market_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_medium",
+        "badge_edge"
+      ]
+    },
+    "badge_medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      }
+    },
+    "badge_edge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 8.5pp",
+        "variant": "default"
+      }
+    },
+    "stack_odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_yes",
+        "stat_no"
+      ]
+    },
+    "stat_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "15.5¢"
+      }
+    },
+    "stat_no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "84.5¢"
+      }
+    },
+    "text_volume_resolution": {
+      "type": "Text",
+      "props": {
+        "text": "24h volume: $660K | Resolves: 2027-01-01",
+        "variant": "caption"
+      }
+    },
+    "text_fair_value": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~7% (inputs: [US already struck Iran via airstrikes in 2026 without this market resolving → resolution requires ground invasion]; [ground invasion of Iran in 4-month window is near-politically-impossible]; [historical base rate of US ground invasion of Iran = 0])",
+        "variant": "body"
+      }
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: YES overpriced at 15.5% vs fair ~7% — market never repriced after prior air strikes failed to resolve; implication is BUY NO at 84.5¢",
+        "variant": "body"
+      }
+    },
+    "text_market_risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: Definitional ambiguity if Polymarket rules a large military operation as invasion; surprise escalation event",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_sources",
+        "text_disclaimer"
+      ]
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "text_disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "caption"
+      }
+    }
+  }
+}
