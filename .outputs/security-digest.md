@@ -1,20 +1,34 @@
-*Security Digest — 2026-09-01*
-Verdict: nothing urgent today. 2 to schedule, 3 to monitor. _Sources: KEV (5 this week, all prior-logged), GH Advisory, EPSS_
+*Security Digest — 2026-09-02*
+Verdict: 3 actively exploited (KEV), 2 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
+
+*PATCH TODAY*
+- [CVE-2026-59822](https://github.com/advisories/GHSA-7488-6r32-c95q) — litellm (pip) · KEV 2026-09-02 · EPSS 0.005 · CVSS 8.8
+  MCP endpoint auth bypass — fallback accepts any Bearer token, granting unauth MCP tool access. Exploited per CISA.
+  → upgrade litellm to ≥1.84.0 and redeploy.
+
+- [CVE-2026-48710](https://github.com/advisories/GHSA-86qp-5c8j-p5mr) — starlette (pip) · KEV 2026-09-02 · EPSS 0.021 · CVSS 6.5
+  Missing Host header validation corrupts request.url.path, bypassing path-prefix auth middleware. Exploited per CISA.
+  → upgrade starlette to ≥1.0.1 and redeploy.
+
+- [CVE-2026-49869](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Kestra OSS · KEV 2026-09-02 · EPSS 0.010 · CVSS N/A · due 2026-09-05
+  OS command injection — unauth attacker creates/executes arbitrary workflows. Exploited per CISA.
+  → apply Kestra vendor patch or disable unauth workflow creation immediately; due Sep 5.
 
 *PATCH THIS WEEK*
-- [GHSA-gqvg-gmmx-x4hm](https://github.com/advisories/GHSA-gqvg-gmmx-x4hm) — mlflow (pip) · CVSS 8.8 · EPSS n/a
-  statsmodels flavor ignores MLFLOW\_ALLOW\_PICKLE\_DESERIALIZATION=False → RCE via crafted model artifact even with the guard enabled.
-  → upgrade mlflow to ≥3.15.0 and redeploy.
+- [GHSA-p4cg-3328-rvfg](https://github.com/advisories/GHSA-p4cg-3328-rvfg) — orval (npm) · critical · EPSS 0.005 · CVSS unassigned · public PoC attached
+  Import-time RCE via OpenAPI defaults injected into zod template literals on module import. Two variants (CVE-2026-72716 + CVE-2026-71866). PoC in advisory.
+  → schedule upgrade: orval → ≥8.21.0
 
-- [GHSA-3f6p-5ww8-9rcr](https://github.com/advisories/GHSA-3f6p-5ww8-9rcr) — mysql2 (npm) · CVSS 8.2 · EPSS n/a · PoC on request
-  Rogue server/MITM forces auth plugin downgrade to mysql\_clear\_password → plaintext credentials captured; 9M weekly downloads.
-  → upgrade mysql2 to ≥3.22.0 and redeploy.
+- [GHSA-2v6v-25fm-p4fg](https://github.com/advisories/GHSA-2v6v-25fm-p4fg) — SeaweedFS (go) · CVSS 9.8 · EPSS 0.004
+  Unauth filer gRPC grants full S3 admin control without credentials.
+  → schedule upgrade: build from commit ≥20260512; firewall gRPC filer port.
 
 *MONITOR*
-- [GHSA-gr94-w7qr-f4j3](https://github.com/advisories/GHSA-gr94-w7qr-f4j3) — engine.io (npm) · CVSS 7.5 · EPSS 0.61%
-  \_\_proto\_\_ SID crashes WebTransport upgrade handler → unauthenticated remote DoS. WebTransport is opt-in.
-  → upgrade engine.io to ≥6.6.7; mitigate with transports: ["polling","websocket"].
+- [GHSA-m4rf-3fr8-xwx3](https://github.com/advisories/GHSA-m4rf-3fr8-xwx3) — nltk (pip) · CVSS 9.8 · EPSS 0.004 · no fix yet
+  JVM arg injection via Stanford wrapper per-call options (incomplete prior fix, ≤3.10.2). → disable Stanford NLP plugin; watch for patch.
 
-- [GHSA-c83g-rgw3-j3cx](https://github.com/advisories/GHSA-c83g-rgw3-j3cx) + [GHSA-73wf-gq98-2v4g](https://github.com/advisories/GHSA-73wf-gq98-2v4g) — browserslist (npm) · CVSS 7.5 · EPSS 0.36%
-  Two bugs: unbounded cache OOM (50 MB+ heap at 30k distinct queries) + prototype crash via poisoned browserslist-stats.json.
-  → upgrade browserslist to ≥4.28.7; most build tools (Autoprefixer, Babel, Stylelint) pick it up transitively.
+- [GHSA-vx52-2968-3vc6](https://github.com/advisories/GHSA-vx52-2968-3vc6) — pnpm (npm) · CVSS 7.4 · no fix
+  Env secrets leaked via placeholder expansion in proxy settings from untrusted pnpm-workspace.yaml. → audit workspace.yaml proxy settings.
+
+- [GHSA-vp52-pcj8-j9qc](https://github.com/advisories/GHSA-vp52-pcj8-j9qc) — grpc-go (go) · CVSS high · EPSS 0.004 · no fix
+  HTTP/2 DATA fragmentation causes OOM heap exhaustion. → rate-limit HTTP/2 frame size at ingress; track upstream fix.

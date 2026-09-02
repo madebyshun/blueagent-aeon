@@ -1,0 +1,618 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-09-02"
+      },
+      "children": [
+        "verdict-alert",
+        "sep1",
+        "patch-today-section",
+        "sep2",
+        "patch-week-section",
+        "sep3",
+        "monitor-section"
+      ]
+    },
+    "verdict-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Verdict",
+        "message": "3 actively exploited (KEV), 2 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "patch-today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch-today-heading",
+        "cve-59822",
+        "cve-48710",
+        "cve-49869"
+      ]
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve-59822": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve-59822-title",
+        "cve-59822-meta",
+        "cve-59822-desc",
+        "cve-59822-action"
+      ]
+    },
+    "cve-59822-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-59822",
+        "href": "https://github.com/advisories/GHSA-7488-6r32-c95q",
+        "source": "litellm (pip)"
+      }
+    },
+    "cve-59822-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve-59822-badge1",
+        "cve-59822-badge2",
+        "cve-59822-badge3"
+      ]
+    },
+    "cve-59822-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-09-02",
+        "variant": "destructive"
+      }
+    },
+    "cve-59822-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.005"
+      }
+    },
+    "cve-59822-badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8"
+      }
+    },
+    "cve-59822-desc": {
+      "type": "Text",
+      "props": {
+        "text": "MCP endpoint auth bypass — fallback accepts any Bearer token, granting unauth MCP tool access. Exploited per CISA.",
+        "variant": "body"
+      }
+    },
+    "cve-59822-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade litellm to ≥1.84.0 and redeploy.",
+        "variant": "lead"
+      }
+    },
+    "cve-48710": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve-48710-title",
+        "cve-48710-meta",
+        "cve-48710-desc",
+        "cve-48710-action"
+      ]
+    },
+    "cve-48710-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48710",
+        "href": "https://github.com/advisories/GHSA-86qp-5c8j-p5mr",
+        "source": "starlette (pip)"
+      }
+    },
+    "cve-48710-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve-48710-badge1",
+        "cve-48710-badge2",
+        "cve-48710-badge3"
+      ]
+    },
+    "cve-48710-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-09-02",
+        "variant": "destructive"
+      }
+    },
+    "cve-48710-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.021"
+      }
+    },
+    "cve-48710-badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 6.5"
+      }
+    },
+    "cve-48710-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Missing Host header validation corrupts request.url.path, bypassing path-prefix auth middleware. Exploited per CISA.",
+        "variant": "body"
+      }
+    },
+    "cve-48710-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade starlette to ≥1.0.1 and redeploy.",
+        "variant": "lead"
+      }
+    },
+    "cve-49869": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve-49869-title",
+        "cve-49869-meta",
+        "cve-49869-desc",
+        "cve-49869-action"
+      ]
+    },
+    "cve-49869-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-49869",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "Kestra OSS"
+      }
+    },
+    "cve-49869-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve-49869-badge1",
+        "cve-49869-badge2",
+        "cve-49869-badge3",
+        "cve-49869-badge4"
+      ]
+    },
+    "cve-49869-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-09-02",
+        "variant": "destructive"
+      }
+    },
+    "cve-49869-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.010"
+      }
+    },
+    "cve-49869-badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS N/A"
+      }
+    },
+    "cve-49869-badge4": {
+      "type": "Badge",
+      "props": {
+        "text": "due 2026-09-05",
+        "variant": "destructive"
+      }
+    },
+    "cve-49869-desc": {
+      "type": "Text",
+      "props": {
+        "text": "OS command injection — unauth attacker creates/executes arbitrary workflows. Exploited per CISA.",
+        "variant": "body"
+      }
+    },
+    "cve-49869-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Kestra vendor patch or disable unauth workflow creation immediately; due Sep 5.",
+        "variant": "lead"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "patch-week-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch-week-heading",
+        "ghsa-p4cg",
+        "ghsa-2v6v"
+      ]
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "ghsa-p4cg": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa-p4cg-title",
+        "ghsa-p4cg-meta",
+        "ghsa-p4cg-desc",
+        "ghsa-p4cg-action"
+      ]
+    },
+    "ghsa-p4cg-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-p4cg-3328-rvfg",
+        "href": "https://github.com/advisories/GHSA-p4cg-3328-rvfg",
+        "source": "orval (npm)"
+      }
+    },
+    "ghsa-p4cg-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa-p4cg-badge1",
+        "ghsa-p4cg-badge2",
+        "ghsa-p4cg-badge3"
+      ]
+    },
+    "ghsa-p4cg-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "critical",
+        "variant": "destructive"
+      }
+    },
+    "ghsa-p4cg-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.005"
+      }
+    },
+    "ghsa-p4cg-badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC"
+      }
+    },
+    "ghsa-p4cg-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Import-time RCE via OpenAPI defaults injected into zod template literals on module import. Two variants (CVE-2026-72716 + CVE-2026-71866). PoC in advisory.",
+        "variant": "body"
+      }
+    },
+    "ghsa-p4cg-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: orval → ≥8.21.0",
+        "variant": "lead"
+      }
+    },
+    "ghsa-2v6v": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa-2v6v-title",
+        "ghsa-2v6v-meta",
+        "ghsa-2v6v-desc",
+        "ghsa-2v6v-action"
+      ]
+    },
+    "ghsa-2v6v-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-2v6v-25fm-p4fg",
+        "href": "https://github.com/advisories/GHSA-2v6v-25fm-p4fg",
+        "source": "SeaweedFS (go)"
+      }
+    },
+    "ghsa-2v6v-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa-2v6v-badge1",
+        "ghsa-2v6v-badge2"
+      ]
+    },
+    "ghsa-2v6v-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8"
+      }
+    },
+    "ghsa-2v6v-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004"
+      }
+    },
+    "ghsa-2v6v-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth filer gRPC grants full S3 admin control without credentials.",
+        "variant": "body"
+      }
+    },
+    "ghsa-2v6v-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: build from commit ≥20260512; firewall gRPC filer port.",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "monitor-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "monitor-heading",
+        "ghsa-m4rf",
+        "ghsa-vx52",
+        "ghsa-vp52"
+      ]
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "ghsa-m4rf": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa-m4rf-title",
+        "ghsa-m4rf-meta",
+        "ghsa-m4rf-desc",
+        "ghsa-m4rf-action"
+      ]
+    },
+    "ghsa-m4rf-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-m4rf-3fr8-xwx3",
+        "href": "https://github.com/advisories/GHSA-m4rf-3fr8-xwx3",
+        "source": "nltk (pip)"
+      }
+    },
+    "ghsa-m4rf-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa-m4rf-badge1",
+        "ghsa-m4rf-badge2",
+        "ghsa-m4rf-badge3"
+      ]
+    },
+    "ghsa-m4rf-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8"
+      }
+    },
+    "ghsa-m4rf-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004"
+      }
+    },
+    "ghsa-m4rf-badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix yet",
+        "variant": "outline"
+      }
+    },
+    "ghsa-m4rf-desc": {
+      "type": "Text",
+      "props": {
+        "text": "JVM arg injection via Stanford wrapper per-call options (incomplete prior fix, ≤3.10.2).",
+        "variant": "body"
+      }
+    },
+    "ghsa-m4rf-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ disable Stanford NLP plugin; watch for patch.",
+        "variant": "lead"
+      }
+    },
+    "ghsa-vx52": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa-vx52-title",
+        "ghsa-vx52-meta",
+        "ghsa-vx52-desc",
+        "ghsa-vx52-action"
+      ]
+    },
+    "ghsa-vx52-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-vx52-2968-3vc6",
+        "href": "https://github.com/advisories/GHSA-vx52-2968-3vc6",
+        "source": "pnpm (npm)"
+      }
+    },
+    "ghsa-vx52-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa-vx52-badge1",
+        "ghsa-vx52-badge2"
+      ]
+    },
+    "ghsa-vx52-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.4"
+      }
+    },
+    "ghsa-vx52-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "outline"
+      }
+    },
+    "ghsa-vx52-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Env secrets leaked via placeholder expansion in proxy settings from untrusted pnpm-workspace.yaml.",
+        "variant": "body"
+      }
+    },
+    "ghsa-vx52-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ audit workspace.yaml proxy settings.",
+        "variant": "lead"
+      }
+    },
+    "ghsa-vp52": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa-vp52-title",
+        "ghsa-vp52-meta",
+        "ghsa-vp52-desc",
+        "ghsa-vp52-action"
+      ]
+    },
+    "ghsa-vp52-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-vp52-pcj8-j9qc",
+        "href": "https://github.com/advisories/GHSA-vp52-pcj8-j9qc",
+        "source": "grpc-go (go)"
+      }
+    },
+    "ghsa-vp52-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa-vp52-badge1",
+        "ghsa-vp52-badge2",
+        "ghsa-vp52-badge3"
+      ]
+    },
+    "ghsa-vp52-badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS high"
+      }
+    },
+    "ghsa-vp52-badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004"
+      }
+    },
+    "ghsa-vp52-badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "outline"
+      }
+    },
+    "ghsa-vp52-desc": {
+      "type": "Text",
+      "props": {
+        "text": "HTTP/2 DATA fragmentation causes OOM heap exhaustion.",
+        "variant": "body"
+      }
+    },
+    "ghsa-vp52-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ rate-limit HTTP/2 frame size at ingress; track upstream fix.",
+        "variant": "lead"
+      }
+    }
+  }
+}
