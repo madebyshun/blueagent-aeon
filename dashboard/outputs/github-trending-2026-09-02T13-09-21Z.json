@@ -1,0 +1,445 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-02"
+      },
+      "children": [
+        "sep_0",
+        "toppick_section",
+        "sep_1",
+        "aiml_section",
+        "sep_2",
+        "devtools_section",
+        "sep_3",
+        "infra_section",
+        "sep_4",
+        "footer"
+      ]
+    },
+    "sep_0": {
+      "type": "Separator",
+      "props": {}
+    },
+    "toppick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "toppick_label",
+        "toppick_item"
+      ]
+    },
+    "toppick_label": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "toppick_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "toppick_link",
+        "toppick_desc"
+      ]
+    },
+    "toppick_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "pacifio/atlas",
+        "href": "https://github.com/pacifio/atlas",
+        "source": "GitHub"
+      }
+    },
+    "toppick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Source control purpose-built for agents is new critical infrastructure: a VCS that understands concurrent multi-agent writes, not just human commits."
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "aiml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_label",
+        "aiml_repo1"
+      ]
+    },
+    "aiml_label": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_r1_link",
+        "aiml_r1_desc",
+        "aiml_r1_meta"
+      ]
+    },
+    "aiml_r1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google-research/timesfm",
+        "href": "https://github.com/google-research/timesfm",
+        "source": "GitHub"
+      }
+    },
+    "aiml_r1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Google Research's pre-trained time-series model pushed today — zero-shot forecasting across domains without per-dataset retraining."
+      }
+    },
+    "aiml_r1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_r1_stars",
+        "aiml_r1_lang",
+        "aiml_r1_status"
+      ]
+    },
+    "aiml_r1_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "326 today (29k total)",
+        "trend": "up"
+      }
+    },
+    "aiml_r1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "aiml_r1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_label",
+        "devtools_repo1",
+        "devtools_repo2",
+        "devtools_repo3"
+      ]
+    },
+    "devtools_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_r1_link",
+        "devtools_r1_desc",
+        "devtools_r1_meta"
+      ]
+    },
+    "devtools_r1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ChromeDevTools/chrome-devtools-mcp",
+        "href": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "source": "GitHub"
+      }
+    },
+    "devtools_r1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Official Chrome DevTools MCP server — coding agents get direct DOM access and live JS console without a browser extension."
+      }
+    },
+    "devtools_r1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_r1_stars",
+        "devtools_r1_lang",
+        "devtools_r1_status"
+      ]
+    },
+    "devtools_r1_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "140 today (50.5k total)",
+        "trend": "up"
+      }
+    },
+    "devtools_r1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "devtools_r1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "devtools_repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_r2_link",
+        "devtools_r2_desc",
+        "devtools_r2_meta"
+      ]
+    },
+    "devtools_r2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "pacifio/atlas",
+        "href": "https://github.com/pacifio/atlas",
+        "source": "GitHub"
+      }
+    },
+    "devtools_r2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Version control built for multi-agent workflows — diffs, queries, and merges concurrent agent changes across branches."
+      }
+    },
+    "devtools_r2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_r2_stars",
+        "devtools_r2_lang",
+        "devtools_r2_status"
+      ]
+    },
+    "devtools_r2_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "895 today (2.7k total)",
+        "trend": "up"
+      }
+    },
+    "devtools_r2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "devtools_r2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "devtools_repo3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_r3_link",
+        "devtools_r3_desc",
+        "devtools_r3_meta"
+      ]
+    },
+    "devtools_r3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "vercel-labs/portless",
+        "href": "https://github.com/vercel-labs/portless",
+        "source": "GitHub"
+      }
+    },
+    "devtools_r3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Replaces port numbers with stable named local URLs that survive restarts — removes localhost:PORT cognitive load for agents and devs."
+      }
+    },
+    "devtools_r3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_r3_stars",
+        "devtools_r3_lang",
+        "devtools_r3_status"
+      ]
+    },
+    "devtools_r3_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "69 today (11.5k total)",
+        "trend": "up"
+      }
+    },
+    "devtools_r3_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "devtools_r3_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "infra_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra_label",
+        "infra_repo1"
+      ]
+    },
+    "infra_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infra_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_r1_link",
+        "infra_r1_desc",
+        "infra_r1_meta"
+      ]
+    },
+    "infra_r1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "superlinked/sie",
+        "href": "https://github.com/superlinked/sie",
+        "source": "GitHub"
+      }
+    },
+    "infra_r1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Single inference cluster that routes across embedding, reranking, and generative models — one endpoint for all agent model calls."
+      }
+    },
+    "infra_r1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_r1_stars",
+        "infra_r1_lang",
+        "infra_r1_status"
+      ]
+    },
+    "infra_r1_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "61 today (3k total)",
+        "trend": "up"
+      }
+    },
+    "infra_r1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "infra_r1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/18",
+        "variant": "muted"
+      }
+    }
+  }
+}
