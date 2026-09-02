@@ -1,0 +1,293 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-09-02"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "focus_section",
+        "focus_sep",
+        "yesterday_section",
+        "yesterday_sep",
+        "watch_section",
+        "watch_sep",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. HYPE Sep 6 unlock — why now: T-4; $797M nominal; watch claim rate vs March 1.75% baseline",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Quantum FRONT-RUN — why now: US/EU regulatory migration deadlines now joining narrative; VC capital moving",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. L2 Revival follow-through — why now: ARB +24.6% yesterday; does OP publish fee stats today?",
+        "variant": "body"
+      }
+    },
+    "focus_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_heading",
+        "yesterday_1",
+        "yesterday_2",
+        "yesterday_3",
+        "yesterday_4"
+      ]
+    },
+    "yesterday_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_moved_1",
+        "text_yesterday_1"
+      ]
+    },
+    "badge_moved_1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_yesterday_1": {
+      "type": "Text",
+      "props": {
+        "text": "ARB +24.6% — ArbOS Elara live Sep 1 + Robinhood Chain $2M+/day → Arbitrum treasury; token-pick 9/10",
+        "variant": "body"
+      }
+    },
+    "yesterday_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_moved_2",
+        "text_yesterday_2"
+      ]
+    },
+    "badge_moved_2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_yesterday_2": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC → Emerging ↑ FRONT-RUN — third consecutive trending confirmation (Aug 29, Aug 30, Sep 1)",
+        "variant": "body"
+      }
+    },
+    "yesterday_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_stuck_1",
+        "text_yesterday_3"
+      ]
+    },
+    "badge_stuck_1": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "text_yesterday_3": {
+      "type": "Text",
+      "props": {
+        "text": "XAI cache 403 (53rd consecutive day) — narrative-tracker on WebSearch fallback",
+        "variant": "body"
+      }
+    },
+    "yesterday_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_stuck_2",
+        "text_yesterday_4"
+      ]
+    },
+    "badge_stuck_2": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "text_yesterday_4": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act Galaxy/Polymarket spread unresolved — T-13 to Sep 15 Senate vote",
+        "variant": "body"
+      }
+    },
+    "yesterday_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_heading",
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE Sep 6: 9.92M tokens ($797M nominal) unlock T-4; March precedent = 1.75% claimed/sold — deviation signals insider distribution (focus #1)",
+        "variant": "body"
+      }
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "US/EU setting quantum migration deadlines — accelerates niche quantum-resistant plays; QRL/QANplatform in window (focus #2)",
+        "variant": "body"
+      }
+    },
+    "watch_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_heading",
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4"
+      ]
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}

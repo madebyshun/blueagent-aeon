@@ -1,24 +1,22 @@
-*Morning Brief — 2026-09-01*
+*Morning Brief — 2026-09-02*
 
 *Focus today*
-1. Quantum FRONT-RUN — why now: two quantum-resistance milestones in 24h; window opening now
-2. CLARITY Act Sept 15 — why now: odds at 17–30%; fade the passage premium before vote
-3. HYPE Sep 6 unlock — why now: 5 days out; day-3 weak recovery hasn't cleared distribution
+1. HYPE Sep 6 unlock — why now: T-4; $797M nominal; watch claim rate vs March 1.75% baseline
+2. Quantum FRONT-RUN — why now: US/EU regulatory migration deadlines now joining narrative; VC capital moving
+3. L2 Revival follow-through — why now: ARB +24.6% yesterday; does OP publish fee stats today?
 
 *Since yesterday*
-- [moved] Quantum to FRONT-RUN: StarkWare BTC mainnet txn (Aug 31) + ETH post-quantum validator proposal (Sep 1) — two milestones 24h apart
-- [moved] Base/AiFi FADE threshold: 4th consecutive miss, downgraded from WATCH
-- [moved] BTC flat ~$78.6K: Sep 1 open confirms Barclays two-hike call absorbed, no bounce
-- [moved] deal-flow: Emerald AI $150M Series A + Instinct $250M Series B logged (AI infra + consumer AI consolidation)
-- [stuck] XAI 403 (53rd day): narrative-tracker on WebSearch fallback — needs operator billing action
+- [moved]: ARB +24.6% — ArbOS Elara live Sep 1 + Robinhood Chain $2M+/day → Arbitrum treasury; token-pick 9/10
+- [moved]: ZEC → Emerging ↑ FRONT-RUN — third consecutive trending confirmation (Aug 29, Aug 30, Sep 1)
+- [stuck]: XAI cache 403 (53rd consecutive day) — narrative-tracker on WebSearch fallback
+- [stuck]: CLARITY Act Galaxy/Polymarket spread unresolved — T-13 to Sep 15 Senate vote
 
 *Watch*
-- ETH post-quantum validator contract proposed Sep 1 — two independent quantum moves in 24h = developer coordination signal (Focus #1)
-- CLARITY Act: Galaxy 30% / Polymarket 17% — still mispriced; fade YES if held long (Focus #2)
+- HYPE Sep 6: 9.92M tokens ($797M nominal) unlock T-4; March precedent = 1.75% claimed/sold — deviation signals insider distribution (focus #1)
+- US/EU setting quantum migration deadlines — accelerates niche quantum-resistant plays; QRL/QANplatform in window (focus #2)
 
 *Running today*
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
-- heartbeat @ 08:00, 14:00, 20:00 UTC
