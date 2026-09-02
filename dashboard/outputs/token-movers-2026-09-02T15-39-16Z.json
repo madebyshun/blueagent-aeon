@@ -1,0 +1,397 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — Sep 2, 2026"
+      },
+      "children": [
+        "text_summary",
+        "sep1",
+        "heading_winners",
+        "table_winners",
+        "sep2",
+        "heading_losers",
+        "table_losers",
+        "sep3",
+        "heading_trending",
+        "table_trending",
+        "sep4",
+        "heading_notable",
+        "stack_notable"
+      ]
+    },
+    "text_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Risk-off — 32/100 top coins green, median −1.3%; broad selling in large-caps with BTC ($77k −1%), ETH ($2,388 −2.2%), SOL ($99 −2.7%) all red while a handful of L2/DeFi names hold gains.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table_winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Cap/Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "BTW (Bitway)",
+            "$0.4513",
+            "+12.7%",
+            "+7.9%",
+            "+0.9%",
+            "$14.2M / #66",
+            ""
+          ],
+          [
+            "FIL (Filecoin)",
+            "$0.7669",
+            "+7.6%",
+            "+8.0%",
+            "−1.0%",
+            "$249M / #91",
+            ""
+          ],
+          [
+            "JST (JUST)",
+            "$0.1066",
+            "+6.7%",
+            "+6.6%",
+            "−0.4%",
+            "$32.4M / #76",
+            ""
+          ],
+          [
+            "ARB (Arbitrum)",
+            "$0.1155",
+            "+5.6%",
+            "+27.4%",
+            "+4.6%",
+            "$281M / #82",
+            "TRENDING+UP"
+          ],
+          [
+            "ASTER",
+            "$0.7229",
+            "+4.3%",
+            "+6.5%",
+            "+3.6%",
+            "$122M / #45",
+            ""
+          ],
+          [
+            "MNT (Mantle)",
+            "$0.5513",
+            "+2.3%",
+            "+9.8%",
+            "0.0%",
+            "$24.8M / #48",
+            ""
+          ],
+          [
+            "PI (Pi Network)",
+            "$0.09346",
+            "+1.8%",
+            "+4.5%",
+            "+0.2%",
+            "$6.8M / #69",
+            ""
+          ],
+          [
+            "UNI (Uniswap)",
+            "$5.81",
+            "+1.2%",
+            "+35.4%",
+            "−1.4%",
+            "$1.10B / #28",
+            "TRENDING+UP"
+          ],
+          [
+            "ICP (Internet Computer)",
+            "$2.47",
+            "+1.0%",
+            "+4.9%",
+            "−1.3%",
+            "$62.4M / #59",
+            ""
+          ],
+          [
+            "KAS (Kaspa)",
+            "$0.02739",
+            "+0.8%",
+            "+0.5%",
+            "+0.1%",
+            "$7.3M / #84",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table_losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Cap/Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "NEAR",
+            "$1.84",
+            "−9.2%",
+            "+0.8%",
+            "−0.3%",
+            "$250M / #39",
+            ""
+          ],
+          [
+            "ENA (Ethena)",
+            "$0.1492",
+            "−8.2%",
+            "+7.6%",
+            "−0.7%",
+            "$601M / #55",
+            ""
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.004096",
+            "−8.1%",
+            "−12.8%",
+            "−1.8%",
+            "$120M / #53",
+            "TRENDING+DOWN"
+          ],
+          [
+            "TRUMP",
+            "$2.18",
+            "−8.0%",
+            "−2.5%",
+            "−1.3%",
+            "$243M / #95",
+            ""
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "$0.008202",
+            "−6.5%",
+            "−10.3%",
+            "−0.4%",
+            "$162M / #102",
+            "TRENDING+DOWN"
+          ],
+          [
+            "ETHFI (Ether.fi)",
+            "$0.5376",
+            "−6.3%",
+            "−4.7%",
+            "−2.0%",
+            "$66.5M / #101",
+            ""
+          ],
+          [
+            "SPX (SPX6900)",
+            "$0.5381",
+            "−6.3%",
+            "+1.7%",
+            "+0.2%",
+            "$9.5M / #103",
+            ""
+          ],
+          [
+            "CC (Canton)",
+            "$0.1100",
+            "−5.7%",
+            "−4.7%",
+            "−0.5%",
+            "$10.4M / #23",
+            ""
+          ],
+          [
+            "LIT (Lighter)",
+            "$3.61",
+            "−5.5%",
+            "+8.6%",
+            "−1.5%",
+            "$98.7M / #74",
+            "TRENDING+DOWN"
+          ],
+          [
+            "ZEC (Zcash)",
+            "$811.47",
+            "−5.2%",
+            "+5.0%",
+            "+0.5%",
+            "$545M / #11",
+            "MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table_trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Rank",
+          "Price",
+          "24h",
+          "Status"
+        ],
+        "rows": [
+          [
+            "PONS (Pons)",
+            "#141",
+            "$0.379",
+            "−10.5%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "UNI (Uniswap)",
+            "#28",
+            "$5.83",
+            "+1.8%",
+            "TRENDING+UP"
+          ],
+          [
+            "SYRUP (Maple Finance)",
+            "#147",
+            "$0.214",
+            "+10.8%",
+            ""
+          ],
+          [
+            "BTC (Bitcoin)",
+            "#1",
+            "$77,035",
+            "−1.0%",
+            "MAJOR"
+          ],
+          [
+            "CASHCAT (Cash Cat)",
+            "#151",
+            "$0.245",
+            "+14.1%",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "#10",
+            "$81.09",
+            "−2.7%",
+            "MAJOR"
+          ],
+          [
+            "USELESS",
+            "#238",
+            "$0.115",
+            "+12.8%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "stack_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_notable1",
+        "text_notable2",
+        "text_notable3",
+        "text_notable4",
+        "text_notable5"
+      ]
+    },
+    "text_notable1": {
+      "type": "Text",
+      "props": {
+        "text": "ARB [TRENDING+UP]: day 2 trending+up; +5.6% today vs +24.6% yesterday — 7d +27.4% holding; L2 narrative intact in risk-off tape"
+      }
+    },
+    "text_notable2": {
+      "type": "Text",
+      "props": {
+        "text": "UNI [TRENDING+UP]: 7d +35.4% — DeFi rotation holding even as large-caps sell off"
+      }
+    },
+    "text_notable3": {
+      "type": "Text",
+      "props": {
+        "text": "PUMP/PENGU/LIT [TRENDING+DOWN]: 3 trending coins in today's losers — meme/NFT/perp momentum reversing"
+      }
+    },
+    "text_notable4": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE [MAJOR]: −2.7% while trending; Sep 6 unlock T-4 ($797M nominal) — overhang pressure building"
+      }
+    },
+    "text_notable5": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC [MAJOR]: −5.2% after 3 trending signals in 4 days — risk-off hitting quantum/privacy play"
+      }
+    }
+  }
+}
