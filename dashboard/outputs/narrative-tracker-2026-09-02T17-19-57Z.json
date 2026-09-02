@@ -1,0 +1,412 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-02"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-transitions",
+        "sep-1",
+        "section-reflexivity",
+        "sep-2",
+        "section-positions"
+      ]
+    },
+    "section-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-transitions",
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ]
+    },
+    "h-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "t1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-badge",
+        "t1-title",
+        "t1-desc"
+      ]
+    },
+    "t1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "t1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Iran War / Geopolitical Risk",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "US airstrikes escalating, crypto tumbling across the board; Polymarket YES 15.5¢ vs fair ~7% → FRONT-RUN the fade, buy NO",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "t2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-badge",
+        "t2-title",
+        "t2-desc"
+      ]
+    },
+    "t2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "t2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC Privacy (FRONT-RUN → WATCH)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC -5.2% [MAJOR] loser on risk-off; Sep 1 call premature",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "t3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-badge",
+        "t3-title",
+        "t3-desc"
+      ]
+    },
+    "t3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "t3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "L2 Revival (FRONT-RUN → RIDE)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "ARB fading +24.6% → +5.6%; first-day ArbOS Elara catalyst priced in; UNI carries structural thesis via fee switch",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "t4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-badge",
+        "t4-title",
+        "t4-desc"
+      ]
+    },
+    "t4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY UP",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "t4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Hawkish Fed/Macro (Peak → → Peak ↑↑)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Iran war layers onto FOMC Sept 16 + CLARITY Act Sept 15 + quadruple witching Sept 18",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "t5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t5-badge",
+        "t5-title",
+        "t5-desc"
+      ]
+    },
+    "t5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY DOWN",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "t5-title": {
+      "type": "Heading",
+      "props": {
+        "text": "DeFi Revival (↑↑ → ↓)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "yesterday's CRV/UNI rotation not carrying; UNI structural but catalyst priced in",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "t6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t6-badge",
+        "t6-title",
+        "t6-desc"
+      ]
+    },
+    "t6-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY UP",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "t6-title": {
+      "type": "Heading",
+      "props": {
+        "text": "HYPE/Perp DEX (↓ → ↑)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "t6-desc": {
+      "type": "Text",
+      "props": {
+        "text": "T-4 unlock spotlight; attention spike = distribution signal, not bull",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-reflexivity",
+        "r1",
+        "r2"
+      ]
+    },
+    "h-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "r1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r1-title",
+        "r1-desc"
+      ]
+    },
+    "r1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Iran War × TRUMP",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "r1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "TRUMP -8% on airstrikes = geopolitical event directly pricing political memecoin. TRUMP now functions as a real-time Iran war inverse hedge.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "r2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "r2-title",
+        "r2-desc"
+      ]
+    },
+    "r2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "HYPE Unlock × Attention",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "r2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE [MAJOR] trending T-4 before $797M unlock. Pre-event attention = distribution window. Key signal: claim rate vs 1.75% March baseline — spike = relief rally, miss = reflexive dump.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-positions",
+        "p1"
+      ]
+    },
+    "h-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "p1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p1-badge",
+        "p1-title",
+        "p1-desc"
+      ]
+    },
+    "p1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "p1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Iran War Fade (mindshare 4 ↑↑, Bear)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "BUY NO on Polymarket US",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}
