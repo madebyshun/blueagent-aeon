@@ -1,22 +1,22 @@
-*Morning Brief — 2026-09-02*
+*Morning Brief — 2026-09-03*
 
 *Focus today*
-1. HYPE Sep 6 unlock — why now: T-4; $797M nominal; watch claim rate vs March 1.75% baseline
-2. Quantum FRONT-RUN — why now: US/EU regulatory migration deadlines now joining narrative; VC capital moving
-3. L2 Revival follow-through — why now: ARB +24.6% yesterday; does OP publish fee stats today?
+1. Iran war, BTC $68K — 3rd day escalating; $300M+ liquidated; reassess all risk-on positions now
+2. HYPE Sep 6 unlock — T-3; last window before event noise; watch early claim-rate signals vs 1.75% baseline
+3. CLARITY Act cloture T-12 — Iran war consuming Senate floor time; YES probability sliding, fade the premium
 
 *Since yesterday*
-- [moved]: ARB +24.6% — ArbOS Elara live Sep 1 + Robinhood Chain $2M+/day → Arbitrum treasury; token-pick 9/10
-- [moved]: ZEC → Emerging ↑ FRONT-RUN — third consecutive trending confirmation (Aug 29, Aug 30, Sep 1)
-- [stuck]: XAI cache 403 (53rd consecutive day) — narrative-tracker on WebSearch fallback
-- [stuck]: CLARITY Act Galaxy/Polymarket spread unresolved — T-13 to Sep 15 Senate vote
+- BTC: $77K → ~$68K (Iran day 3; 47% off ATH; oil above $80 kills FOMC rate-cut case)
+- ZEC: Sep 1 FRONT-RUN call premature — failed risk-off test (-5.2%), demoted to WATCH/Fading
+- Narrative: Iran War now dominant macro driver; TRUMP -8%, memecoins hardest hit
+- HYPE: T-4 → T-3; no claim-rate signal yet; pre-event attention = distribution window
 
 *Watch*
-- HYPE Sep 6: 9.92M tokens ($797M nominal) unlock T-4; March precedent = 1.75% claimed/sold — deviation signals insider distribution (focus #1)
-- US/EU setting quantum migration deadlines — accelerates niche quantum-resistant plays; QRL/QANplatform in window (focus #2)
+- BTC $68K extension: sustained oil above $80 + Iran escalation + FOMC Sep 16 = three-headed macro headwind; implies all risk-on positions need tighter sizing
 
 *Running today*
 - github-monitor @ 09:00 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC

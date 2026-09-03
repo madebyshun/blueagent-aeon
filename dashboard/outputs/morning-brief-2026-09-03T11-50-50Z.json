@@ -1,0 +1,328 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-09-03"
+      },
+      "children": [
+        "section_focus",
+        "separator_1",
+        "section_yesterday",
+        "separator_2",
+        "section_watch",
+        "separator_3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_item_1": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Iran war, BTC $68K",
+        "message": "3rd day escalating; $300M+ liquidated; reassess all risk-on positions now"
+      },
+      "children": []
+    },
+    "focus_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_main",
+        "focus_2_note"
+      ]
+    },
+    "focus_2_main": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE Sep 6 unlock",
+        "value": "T-3"
+      },
+      "children": []
+    },
+    "focus_2_note": {
+      "type": "Text",
+      "props": {
+        "text": "Last window before event noise — watch early claim-rate signals vs 1.75% baseline",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_main",
+        "focus_3_note"
+      ]
+    },
+    "focus_3_main": {
+      "type": "Stat",
+      "props": {
+        "label": "CLARITY Act cloture",
+        "value": "T-12"
+      },
+      "children": []
+    },
+    "focus_3_note": {
+      "type": "Text",
+      "props": {
+        "text": "Iran war consuming Senate floor time; YES probability sliding, fade the premium",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_yesterday",
+        "yesterday_btc_container",
+        "yesterday_zec_container",
+        "yesterday_narrative",
+        "yesterday_hype_container"
+      ]
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday_btc_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_btc_stat",
+        "yesterday_btc_note"
+      ]
+    },
+    "yesterday_btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$68K",
+        "delta": "-$9K",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "yesterday_btc_note": {
+      "type": "Text",
+      "props": {
+        "text": "Iran day 3; 47% off ATH; oil above $80 kills FOMC rate-cut case",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "yesterday_zec_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_zec_badge",
+        "yesterday_zec_text"
+      ]
+    },
+    "yesterday_zec_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC: Sep 1 FRONT-RUN call premature",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "yesterday_zec_text": {
+      "type": "Text",
+      "props": {
+        "text": "Failed risk-off test (-5.2%), demoted to WATCH/Fading",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_narrative": {
+      "type": "Text",
+      "props": {
+        "text": "Narrative: Iran War now dominant macro driver; TRUMP -8%, memecoins hardest hit",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday_hype_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_hype_stat",
+        "yesterday_hype_note"
+      ]
+    },
+    "yesterday_hype_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE countdown",
+        "value": "T-3",
+        "delta": "T-4 yesterday"
+      },
+      "children": []
+    },
+    "yesterday_hype_note": {
+      "type": "Text",
+      "props": {
+        "text": "No claim-rate signal yet; pre-event attention = distribution window",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_alert"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "BTC $68K extension",
+        "message": "Sustained oil above $80 + Iran escalation + FOMC Sep 16 = three-headed macro headwind; implies all risk-on positions need tighter sizing"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_table"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Time (UTC)"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "08:00"
+          ],
+          [
+            "github-monitor",
+            "09:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "token-pick",
+            "12:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ],
+          [
+            "heartbeat",
+            "14:00"
+          ],
+          [
+            "heartbeat",
+            "20:00"
+          ]
+        ]
+      },
+      "children": []
+    }
+  }
+}
