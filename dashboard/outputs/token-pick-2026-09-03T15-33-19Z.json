@@ -1,0 +1,407 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-09-03"
+      },
+      "children": [
+        "section-zec",
+        "sep1",
+        "section-market",
+        "sep2",
+        "footer"
+      ]
+    },
+    "section-zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "zec-title",
+        "zec-badges",
+        "zec-price",
+        "zec-mcap",
+        "zec-vol",
+        "zec-vol-ratio",
+        "zec-score",
+        "catalyst-head",
+        "catalyst-items",
+        "zec-risk-head",
+        "risk-items",
+        "zec-dedup"
+      ]
+    },
+    "zec-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: ZEC",
+        "level": "h2"
+      }
+    },
+    "zec-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-zec-high",
+        "signal-zec"
+      ]
+    },
+    "badge-zec-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "default"
+      }
+    },
+    "signal-zec": {
+      "type": "Text",
+      "props": {
+        "text": "signal 8/10",
+        "variant": "body"
+      }
+    },
+    "zec-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$909",
+        "delta": "+12.0% (24h) / +9.3% (7d)"
+      }
+    },
+    "zec-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$15.4B"
+      }
+    },
+    "zec-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$561M"
+      }
+    },
+    "zec-vol-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap Ratio",
+        "value": "0.04"
+      }
+    },
+    "zec-score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-label",
+        "score-breakdown"
+      ]
+    },
+    "score-label": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: 8/10",
+        "variant": "lead"
+      }
+    },
+    "score-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "[24h>0+1, 7d>0+1, both>5%+2, RS vs BTC/ETH+2, CG trending+2]",
+        "variant": "caption"
+      }
+    },
+    "catalyst-head": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "catalyst-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cat-1",
+        "cat-2",
+        "cat-3"
+      ]
+    },
+    "cat-1": {
+      "type": "Text",
+      "props": {
+        "text": "Grayscale ZCSH ETF launched Sep 1 with $313M AUM — first institutional ZEC product",
+        "variant": "body"
+      }
+    },
+    "cat-2": {
+      "type": "Text",
+      "props": {
+        "text": "SEC investigation into Zcash Foundation closed",
+        "variant": "body"
+      }
+    },
+    "cat-3": {
+      "type": "Text",
+      "props": {
+        "text": "NU7 upgrade advisory vote Sep 14 (faster blocks, new issuance curve)",
+        "variant": "body"
+      }
+    },
+    "zec-risk-head": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      }
+    },
+    "risk-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "risk-1",
+        "risk-2",
+        "risk-3"
+      ]
+    },
+    "risk-1": {
+      "type": "Text",
+      "props": {
+        "text": "Post-ETF sell-the-news risk (ZEC already +82% from $472 Aug lows)",
+        "variant": "body"
+      }
+    },
+    "risk-2": {
+      "type": "Text",
+      "props": {
+        "text": "NU7 advisory non-binding",
+        "variant": "body"
+      }
+    },
+    "risk-3": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy-coin exchange delisting pressure ongoing",
+        "variant": "body"
+      }
+    },
+    "zec-dedup": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: First time — not in last-7-day dedup",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-title",
+        "market-badges",
+        "market-odds",
+        "market-volume",
+        "market-resolve",
+        "market-fair-head",
+        "market-fair-val",
+        "market-inputs",
+        "market-thesis-head",
+        "market-thesis-text",
+        "market-position",
+        "market-risk-head",
+        "market-risk-text"
+      ]
+    },
+    "market-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: \"Next round of US-Iran peace talks by September 30?\"",
+        "level": "h2"
+      }
+    },
+    "market-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-market-high",
+        "edge-market"
+      ]
+    },
+    "badge-market-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "default"
+      }
+    },
+    "edge-market": {
+      "type": "Text",
+      "props": {
+        "text": "edge 28pp",
+        "variant": "body"
+      }
+    },
+    "market-odds": {
+      "type": "Text",
+      "props": {
+        "text": "Current: YES 45¢ / NO 55¢",
+        "variant": "lead"
+      }
+    },
+    "market-volume": {
+      "type": "Text",
+      "props": {
+        "text": "24h vol est. active (part of $11M total, Iran war day 3)",
+        "variant": "body"
+      }
+    },
+    "market-resolve": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-09-30",
+        "variant": "caption"
+      }
+    },
+    "market-fair-head": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES:",
+        "variant": "lead"
+      }
+    },
+    "market-fair-val": {
+      "type": "Stat",
+      "props": {
+        "label": "Probability",
+        "value": "~17%"
+      }
+    },
+    "market-inputs": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "input-1",
+        "input-2",
+        "input-3"
+      ]
+    },
+    "input-1": {
+      "type": "Text",
+      "props": {
+        "text": "Iran war actively escalating Sep 1–3, $300M+ liquidated at $68K trough",
+        "variant": "caption"
+      }
+    },
+    "input-2": {
+      "type": "Text",
+      "props": {
+        "text": "Volume now concentrated on NO side",
+        "variant": "caption"
+      }
+    },
+    "input-3": {
+      "type": "Text",
+      "props": {
+        "text": "Aug 5 Trump strike-cancellation optimism already reversing with renewed military action",
+        "variant": "caption"
+      }
+    },
+    "market-thesis-head": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h3"
+      }
+    },
+    "market-thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market still partially anchored to Aug 5 diplomatic optimism; 3-day war escalation directly contradicts peace-talks thesis by month-end",
+        "variant": "body"
+      }
+    },
+    "market-position": {
+      "type": "Badge",
+      "props": {
+        "text": "Long NO",
+        "variant": "secondary"
+      }
+    },
+    "market-risk-head": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      }
+    },
+    "market-risk-text": {
+      "type": "Text",
+      "props": {
+        "text": "Surprise back-channel ceasefire or Trump announcement could reprice YES sharply",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources",
+        "disclaimer"
+      ]
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}

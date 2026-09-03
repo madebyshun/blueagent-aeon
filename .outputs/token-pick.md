@@ -1,17 +1,17 @@
-*Daily Pick — 2026-09-02*
+*Daily Pick — 2026-09-03*
 
-*Token: UNI*  [HIGH]  signal 9/10
-Price: $5.83 (+1.4% 24h / +35.4% 7d) | mcap $3.62B | vol $1.1B (vol/mcap 0.30)
-Score breakdown: [trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH 7d+2, 24h>0+1, 7d>0+1] = 9/10
-Catalyst: Robinhood Chain TVL +87% to $127M with Uniswap as the leading DEX; fee switch now burns UNI from Unichain + protocol fees — first active buy-and-burn from real network revenue; 60%+ of RWA DEX volume routing through the protocol
-Risk: Already +35% in 7 days — momentum may be exhausted; risk-off tape (BTC -1% at $77K); Sept FOMC Sept 16 creates macro overhang 14 days out
-Vs recent picks: first time — not in prior 7-day dedup window
+*Token: ZEC*  [HIGH]  signal 8/10
+Price: $909 (+12.0% 24h / +9.3% 7d) | mcap $15.4B | vol $561M (vol/mcap 0.04)
+Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, RS vs BTC/ETH+2, CG trending+2] = 8/10
+Catalyst: Grayscale ZCSH ETF launched Sep 1 with $313M AUM — first institutional ZEC product; SEC investigation into Zcash Foundation closed; NU7 upgrade advisory vote Sep 14 (faster blocks, new issuance curve)
+Risk: Post-ETF sell-the-news risk (ZEC already +82% from $472 Aug lows); NU7 advisory non-binding; privacy-coin exchange delisting pressure ongoing
+Vs recent picks: First time — not in last-7-day dedup
 
-*Market: "US to invade Iran before 2027?"*  [MEDIUM]  edge 8.5pp
-Current: YES 15.5¢ / NO 84.5¢ | 24h vol $660K | resolves: 2027-01-01
-Fair YES: ~7% (inputs: [US already struck Iran via airstrikes in 2026 without this market resolving → resolution requires ground invasion]; [ground invasion of Iran in 4-month window is near-politically-impossible]; [historical base rate of US ground invasion of Iran = 0])
-Thesis: YES overpriced at 15.5% vs fair ~7% — market never repriced after prior air strikes failed to resolve; implication is BUY NO at 84.5¢
-Risk: Definitional ambiguity if Polymarket rules a large military operation as invasion; surprise escalation event
+*Market: "Next round of US-Iran peace talks by September 30?"*  [HIGH]  edge 28pp
+Current: YES 45¢ / NO 55¢ | 24h vol est. active (part of $11M total, Iran war day 3) | resolves: 2026-09-30
+Fair YES: ~17% (inputs: [Iran war actively escalating Sep 1–3, $300M+ liquidated at $68K trough], [volume now concentrated on NO side], [Aug 5 Trump strike-cancellation optimism already reversing with renewed military action])
+Thesis: Market still partially anchored to Aug 5 diplomatic optimism; 3-day war escalation directly contradicts peace-talks thesis by month-end — long NO
+Risk: Surprise back-channel ceasefire or Trump announcement could reprice YES sharply
 
 sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only
