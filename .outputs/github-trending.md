@@ -1,25 +1,13 @@
-*GitHub Trending — 2026-09-02*
+*GitHub Trending — 2026-09-03*
 
-*Top pick* — [pacifio/atlas](https://github.com/pacifio/atlas)
-Source control purpose-built for agents is new critical infrastructure: a VCS that understands concurrent multi-agent writes, not just human commits.
+Low-signal day — trending page dominated by suspicious star-inflation repos and "agent skills" meta-lists. One genuine pick surfaced.
 
-*AI/ML*
-• [google-research/timesfm](https://github.com/google-research/timesfm) — ★ 326 today (29k total) · Python · [RETURNING]
-Google Research's pre-trained time-series model pushed today — zero-shot forecasting across domains without per-dataset retraining.
+*Top pick* — [magnitudedev/magnitude](https://github.com/magnitudedev/magnitude)
+Local inference server auto-routing agent calls to the best model for your hardware — plugs into Claude Code, Codex, and Cline via drop-in API.
 
 *Devtools*
-• [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) — ★ 140 today (50.5k total) · TypeScript · [ACCELERATING]
-Official Chrome DevTools MCP server — coding agents get direct DOM access and live JS console without a browser extension.
-
-• [pacifio/atlas](https://github.com/pacifio/atlas) — ★ 895 today (2.7k total) · Rust · [RETURNING]
-Version control built for multi-agent workflows — diffs, queries, and merges concurrent agent changes across branches.
-
-• [vercel-labs/portless](https://github.com/vercel-labs/portless) — ★ 69 today (11.5k total) · TypeScript · [ACCELERATING]
-Replaces port numbers with stable named local URLs that survive restarts — removes localhost:PORT cognitive load for agents and devs.
-
-*Infra*
-• [superlinked/sie](https://github.com/superlinked/sie) — ★ 61 today (3k total) · Python · [RETURNING]
-Single inference cluster that routes across embedding, reranking, and generative models — one endpoint for all agent model calls.
+• [magnitudedev/magnitude](https://github.com/magnitudedev/magnitude) — ★ 130 today (1.8k total) · TypeScript · [ACCELERATING]
+Auto-routes each agent call to the optimal local model for your hardware; pushed Sep 2 with active Claude Code/Codex/Cline integration.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/18
+sources: trending=ok · gh_api=ok · kept 1/19

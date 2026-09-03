@@ -1,0 +1,179 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-03"
+      },
+      "children": [
+        "status-note",
+        "sep1",
+        "top-pick-section",
+        "sep2",
+        "devtools-section",
+        "sep3",
+        "sources-note"
+      ]
+    },
+    "status-note": {
+      "type": "Text",
+      "props": {
+        "text": "Low-signal day — trending page dominated by suspicious star-inflation repos and \"agent skills\" meta-lists. One genuine pick surfaced.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top-pick-heading",
+        "top-pick-link",
+        "top-pick-description"
+      ]
+    },
+    "top-pick-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "top-pick-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "magnitudedev/magnitude",
+        "href": "https://github.com/magnitudedev/magnitude",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "top-pick-description": {
+      "type": "Text",
+      "props": {
+        "text": "Local inference server auto-routing agent calls to the best model for your hardware — plugs into Claude Code, Codex, and Cline via drop-in API.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-item"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "devtools-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-link",
+        "devtools-meta",
+        "devtools-description"
+      ]
+    },
+    "devtools-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "magnitudedev/magnitude",
+        "href": "https://github.com/magnitudedev/magnitude",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "devtools-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stars-stat",
+        "lang-badge",
+        "status-badge"
+      ]
+    },
+    "stars-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "130",
+        "delta": "1.8k total"
+      },
+      "children": []
+    },
+    "lang-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      },
+      "children": []
+    },
+    "status-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "devtools-description": {
+      "type": "Text",
+      "props": {
+        "text": "Auto-routes each agent call to the optimal local model for your hardware; pushed Sep 2 with active Claude Code/Codex/Cline integration.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources-note": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 1/19",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
