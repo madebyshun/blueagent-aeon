@@ -1,0 +1,1038 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-03"
+      },
+      "children": [
+        "transitions_section",
+        "reflexivity_section",
+        "positions_section",
+        "map_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions_heading",
+        "sep1",
+        "trans_iran",
+        "trans_zec",
+        "trans_l2",
+        "trans_ada",
+        "trans_memes",
+        "trans_eth_etf",
+        "trans_ai_infra",
+        "trans_clarity",
+        "trans_defi"
+      ]
+    },
+    "transitions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trans_iran": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "iran_badge",
+        "iran_text"
+      ]
+    },
+    "iran_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED: Iran War — Emerging ↑↑ → Fading",
+        "variant": "secondary"
+      }
+    },
+    "iran_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $68K→$80.7K full recovery in <24h; 92% of top-100 green, median +5.5%. Acute risk priced; oil $96/bbl is residual.",
+        "variant": "body"
+      }
+    },
+    "trans_zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zec_badge",
+        "zec_text"
+      ]
+    },
+    "zec_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED: ZEC/Privacy — WATCH Fading ↓↓ → Rising ↑↑ FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "zec_text": {
+      "type": "Text",
+      "props": {
+        "text": "Grayscale ZCSH ETF ($313M AUM, launched Sep 1) + SEC investigation closed + NU7 upgrade vote Sep 14. Sep 2 demotion was a stop-hunt.",
+        "variant": "body"
+      }
+    },
+    "trans_l2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l2_badge",
+        "l2_text"
+      ]
+    },
+    "l2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED: L2 Revival — Rising → Peak",
+        "variant": "default"
+      }
+    },
+    "l2_text": {
+      "type": "Text",
+      "props": {
+        "text": "ARB day 3 7d +46.7%. Revenue-backed L2 thesis extending.",
+        "variant": "body"
+      }
+    },
+    "trans_ada": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ada_badge",
+        "ada_text"
+      ]
+    },
+    "ada_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED: Alt-ETF Pipeline (ADA) — Fading → Emerging ↑",
+        "variant": "default"
+      }
+    },
+    "ada_text": {
+      "type": "Text",
+      "props": {
+        "text": "ADA +11.4% today; GADA Oct 23 countdown.",
+        "variant": "body"
+      }
+    },
+    "trans_memes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "memes_badge",
+        "memes_text"
+      ]
+    },
+    "memes_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED: Memecoins/Retail — Fading ↓↓ → Rising ↑",
+        "variant": "default"
+      }
+    },
+    "memes_text": {
+      "type": "Text",
+      "props": {
+        "text": "PEPE +10.6%, CAKE +10.8%. Relief bounce — not structural.",
+        "variant": "body"
+      }
+    },
+    "trans_eth_etf": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eth_badge",
+        "eth_text"
+      ]
+    },
+    "eth_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW: ETH ETF Inflow Surge",
+        "variant": "outline"
+      }
+    },
+    "eth_text": {
+      "type": "Text",
+      "props": {
+        "text": "$87.68M net inflows during Iran-war day (BlackRock ETHA $59.94M). Geopolitical stress test passed.",
+        "variant": "body"
+      }
+    },
+    "trans_ai_infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_infra_badge",
+        "ai_infra_text"
+      ]
+    },
+    "ai_infra_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW: AI Trading Infrastructure",
+        "variant": "outline"
+      }
+    },
+    "ai_infra_text": {
+      "type": "Text",
+      "props": {
+        "text": "AI bots/multi-agent systems replacing discretionary workflows (crypto.news Sep 3; niteagent five-stage pipeline). Institutional angle, distinct from AI Agent Economy.",
+        "variant": "body"
+      }
+    },
+    "trans_clarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "clarity_badge",
+        "clarity_text"
+      ]
+    },
+    "clarity_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY DOWN: CLARITY Act",
+        "variant": "secondary"
+      }
+    },
+    "clarity_text": {
+      "type": "Text",
+      "props": {
+        "text": "YES probability sliding; Iran war consuming Senate floor time. T-12 to cloture vote.",
+        "variant": "body"
+      }
+    },
+    "trans_defi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "defi_badge",
+        "defi_text"
+      ]
+    },
+    "defi_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY UP: DeFi Revival",
+        "variant": "default"
+      }
+    },
+    "defi_text": {
+      "type": "Text",
+      "props": {
+        "text": "↓ → ↑. CAKE/JUP in today's winners. One-day signal — needs confirmation.",
+        "variant": "body"
+      }
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_heading",
+        "sep2",
+        "reflexivity_zec",
+        "reflexivity_btc"
+      ]
+    },
+    "reflexivity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity_zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zec_alert_title",
+        "zec_alert_text"
+      ]
+    },
+    "zec_alert_title": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC Stop-Hunt",
+        "level": "h3"
+      }
+    },
+    "zec_alert_text": {
+      "type": "Text",
+      "props": {
+        "text": "ZCSH ETF ($313M) launched Sep 1 while ZEC dumped -5.2% on Iran risk-off Sep 2. Market panic-sold a live catalyst. Today +12.2% [MAJOR] is price discovery resuming.",
+        "variant": "body"
+      }
+    },
+    "reflexivity_btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc_alert_title",
+        "btc_alert_text"
+      ]
+    },
+    "btc_alert_title": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC Geopolitical Floor",
+        "level": "h3"
+      }
+    },
+    "btc_alert_text": {
+      "type": "Text",
+      "props": {
+        "text": "$68K→$80.7K in <24h. Iran war now functions as buy-the-dip trigger. Sets the reflex for next escalation.",
+        "variant": "body"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions_heading",
+        "sep3",
+        "pos_zec",
+        "pos_ai_infra",
+        "pos_agent_econ",
+        "pos_l2",
+        "pos_x402",
+        "pos_quantum",
+        "pos_hype",
+        "pos_clarity",
+        "pos_base"
+      ]
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "pos_zec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_zec_header",
+        "pos_zec_meta",
+        "pos_zec_bear"
+      ]
+    },
+    "pos_zec_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_zec_badge",
+        "pos_zec_rating"
+      ]
+    },
+    "pos_zec_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN: ZEC",
+        "variant": "default"
+      }
+    },
+    "pos_zec_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑↑ Rising",
+        "variant": "secondary"
+      }
+    },
+    "pos_zec_meta": {
+      "type": "Text",
+      "props": {
+        "text": "@ZcashFoundation + @Grayscale + NU7 Sep 14",
+        "variant": "caption"
+      }
+    },
+    "pos_zec_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: advisory vote, not binding upgrade",
+        "variant": "muted"
+      }
+    },
+    "pos_ai_infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ai_header",
+        "pos_ai_rating",
+        "pos_ai_meta",
+        "pos_ai_bear"
+      ]
+    },
+    "pos_ai_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ai_badge"
+      ]
+    },
+    "pos_ai_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN: AI Trading Infrastructure",
+        "variant": "default"
+      }
+    },
+    "pos_ai_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↑ Emerging",
+        "variant": "secondary"
+      }
+    },
+    "pos_ai_meta": {
+      "type": "Text",
+      "props": {
+        "text": "crypto.news / niteagent.com",
+        "variant": "caption"
+      }
+    },
+    "pos_ai_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: repackaged AI narrative, no clean token",
+        "variant": "muted"
+      }
+    },
+    "pos_agent_econ": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_agent_header",
+        "pos_agent_rating",
+        "pos_agent_detail"
+      ]
+    },
+    "pos_agent_header": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: AI Agent Economy",
+        "variant": "default"
+      }
+    },
+    "pos_agent_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "5 ↑ Peak",
+        "variant": "secondary"
+      }
+    },
+    "pos_agent_detail": {
+      "type": "Text",
+      "props": {
+        "text": "$73M/176M txns; Kraken+Coinbase+OKX MCP toolkits",
+        "variant": "caption"
+      }
+    },
+    "pos_l2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_l2_header",
+        "pos_l2_rating",
+        "pos_l2_perf",
+        "pos_l2_note"
+      ]
+    },
+    "pos_l2_header": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: L2 Revival",
+        "variant": "default"
+      }
+    },
+    "pos_l2_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑ Peak",
+        "variant": "secondary"
+      }
+    },
+    "pos_l2_perf": {
+      "type": "Text",
+      "props": {
+        "text": "ARB 7d +46.7%; revenue-backed",
+        "variant": "caption"
+      }
+    },
+    "pos_l2_note": {
+      "type": "Text",
+      "props": {
+        "text": "OP fee stats still unpublished",
+        "variant": "muted"
+      }
+    },
+    "pos_x402": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_x402_header",
+        "pos_x402_rating",
+        "pos_x402_detail"
+      ]
+    },
+    "pos_x402_header": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: x402/Agentic Payments",
+        "variant": "default"
+      }
+    },
+    "pos_x402_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "5 ↑ Peak",
+        "variant": "secondary"
+      }
+    },
+    "pos_x402_detail": {
+      "type": "Text",
+      "props": {
+        "text": "USDC 98.6% of $73M settlement at scale",
+        "variant": "caption"
+      }
+    },
+    "pos_quantum": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_quantum_header",
+        "pos_quantum_rating",
+        "pos_quantum_milestone",
+        "pos_quantum_note"
+      ]
+    },
+    "pos_quantum_header": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: Quantum",
+        "variant": "default"
+      }
+    },
+    "pos_quantum_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "4 → Rising",
+        "variant": "secondary"
+      }
+    },
+    "pos_quantum_milestone": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC/NU7 Sep 14 quantum-adjacent",
+        "variant": "caption"
+      }
+    },
+    "pos_quantum_note": {
+      "type": "Text",
+      "props": {
+        "text": "no new milestone this cycle",
+        "variant": "muted"
+      }
+    },
+    "pos_hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_hype_header",
+        "pos_hype_rating",
+        "pos_hype_detail"
+      ]
+    },
+    "pos_hype_header": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH: HYPE Unlock",
+        "variant": "outline"
+      }
+    },
+    "pos_hype_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "T-3 Sep 6",
+        "variant": "secondary"
+      }
+    },
+    "pos_hype_detail": {
+      "type": "Text",
+      "props": {
+        "text": "$797M; claim rate vs 1.75% March baseline is the signal",
+        "variant": "caption"
+      }
+    },
+    "pos_clarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_clarity_header",
+        "pos_clarity_rating",
+        "pos_clarity_detail"
+      ]
+    },
+    "pos_clarity_header": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH: CLARITY Act",
+        "variant": "outline"
+      }
+    },
+    "pos_clarity_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE YES",
+        "variant": "secondary"
+      }
+    },
+    "pos_clarity_detail": {
+      "type": "Text",
+      "props": {
+        "text": "T-12 to cloture",
+        "variant": "caption"
+      }
+    },
+    "pos_base": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_base_header",
+        "pos_base_rating",
+        "pos_base_detail"
+      ]
+    },
+    "pos_base_header": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE: Coinbase AiFi/Base",
+        "variant": "destructive"
+      }
+    },
+    "pos_base_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↓↓",
+        "variant": "secondary"
+      }
+    },
+    "pos_base_detail": {
+      "type": "Text",
+      "props": {
+        "text": "7th consecutive miss",
+        "variant": "caption"
+      }
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_heading",
+        "sep4",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerging_title",
+        "map_emerging_items"
+      ]
+    },
+    "map_emerging_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      }
+    },
+    "map_emerging_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_em_1",
+        "map_em_2"
+      ]
+    },
+    "map_em_1": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Trading Infrastructure ↑",
+        "variant": "outline"
+      }
+    },
+    "map_em_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Alt-ETF/ADA ↑",
+        "variant": "outline"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_title",
+        "map_rising_items"
+      ]
+    },
+    "map_rising_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      }
+    },
+    "map_rising_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_r_1",
+        "map_r_2",
+        "map_r_3",
+        "map_r_4",
+        "map_r_5",
+        "map_r_6",
+        "map_r_7",
+        "map_r_8",
+        "map_r_9"
+      ]
+    },
+    "map_r_1": {
+      "type": "Badge",
+      "props": {
+        "text": "ZEC ↑↑",
+        "variant": "outline"
+      }
+    },
+    "map_r_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Quantum →",
+        "variant": "outline"
+      }
+    },
+    "map_r_3": {
+      "type": "Badge",
+      "props": {
+        "text": "Agent Identity →",
+        "variant": "outline"
+      }
+    },
+    "map_r_4": {
+      "type": "Badge",
+      "props": {
+        "text": "RWA →",
+        "variant": "outline"
+      }
+    },
+    "map_r_5": {
+      "type": "Badge",
+      "props": {
+        "text": "Oracle/LINK →",
+        "variant": "outline"
+      }
+    },
+    "map_r_6": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Security/TEE →",
+        "variant": "outline"
+      }
+    },
+    "map_r_7": {
+      "type": "Badge",
+      "props": {
+        "text": "DeFi Revival ↑",
+        "variant": "outline"
+      }
+    },
+    "map_r_8": {
+      "type": "Badge",
+      "props": {
+        "text": "Memecoins ↑",
+        "variant": "outline"
+      }
+    },
+    "map_r_9": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Compute/DePIN ↑",
+        "variant": "outline"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_title",
+        "map_peak_items"
+      ]
+    },
+    "map_peak_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      }
+    },
+    "map_peak_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_p_1",
+        "map_p_2",
+        "map_p_3",
+        "map_p_4",
+        "map_p_5"
+      ]
+    },
+    "map_p_1": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agent Economy ↑",
+        "variant": "secondary"
+      }
+    },
+    "map_p_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Agentic Dev Tools →",
+        "variant": "secondary"
+      }
+    },
+    "map_p_3": {
+      "type": "Badge",
+      "props": {
+        "text": "x402/Agentic Payments ↑",
+        "variant": "secondary"
+      }
+    },
+    "map_p_4": {
+      "type": "Badge",
+      "props": {
+        "text": "L2 Revival ↑",
+        "variant": "secondary"
+      }
+    },
+    "map_p_5": {
+      "type": "Badge",
+      "props": {
+        "text": "Hawkish Fed →",
+        "variant": "secondary"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_title",
+        "map_fading_items"
+      ]
+    },
+    "map_fading_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      }
+    },
+    "map_fading_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_f_1",
+        "map_f_2",
+        "map_f_3",
+        "map_f_4",
+        "map_f_5"
+      ]
+    },
+    "map_f_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Iran War ↓",
+        "variant": "destructive"
+      }
+    },
+    "map_f_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Coinbase AiFi/Base",
+        "variant": "destructive"
+      }
+    },
+    "map_f_3": {
+      "type": "Badge",
+      "props": {
+        "text": "ENA",
+        "variant": "destructive"
+      }
+    },
+    "map_f_4": {
+      "type": "Badge",
+      "props": {
+        "text": "TRUMP",
+        "variant": "destructive"
+      }
+    },
+    "map_f_5": {
+      "type": "Badge",
+      "props": {
+        "text": "Solana Supply Shock",
+        "variant": "destructive"
+      }
+    }
+  }
+}
