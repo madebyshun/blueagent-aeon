@@ -1,34 +1,41 @@
-*Security Digest — 2026-09-02*
-Verdict: 3 actively exploited (KEV), 2 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-09-04*
+Verdict: 1 actively exploited, 5 high-CVSS to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- [CVE-2026-59822](https://github.com/advisories/GHSA-7488-6r32-c95q) — litellm (pip) · KEV 2026-09-02 · EPSS 0.005 · CVSS 8.8
-  MCP endpoint auth bypass — fallback accepts any Bearer token, granting unauth MCP tool access. Exploited per CISA.
-  → upgrade litellm to ≥1.84.0 and redeploy.
-
-- [CVE-2026-48710](https://github.com/advisories/GHSA-86qp-5c8j-p5mr) — starlette (pip) · KEV 2026-09-02 · EPSS 0.021 · CVSS 6.5
-  Missing Host header validation corrupts request.url.path, bypassing path-prefix auth middleware. Exploited per CISA.
-  → upgrade starlette to ≥1.0.1 and redeploy.
-
-- [CVE-2026-49869](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Kestra OSS · KEV 2026-09-02 · EPSS 0.010 · CVSS N/A · due 2026-09-05
-  OS command injection — unauth attacker creates/executes arbitrary workflows. Exploited per CISA.
-  → apply Kestra vendor patch or disable unauth workflow creation immediately; due Sep 5.
+- [CVE-2026-85046](https://nvd.nist.gov/vuln/detail/CVE-2026-85046) — Google Chromium V8 · KEV added 2026-09-04 · EPSS 0.0046 · CVSS browser-scope
+  Type confusion → RCE inside renderer sandbox via crafted HTML. Actively exploited in the wild; Chrome, Edge, Opera all affected. CISA due 2026-09-18.
+  → update Chrome/Edge/Opera to latest build today.
 
 *PATCH THIS WEEK*
-- [GHSA-p4cg-3328-rvfg](https://github.com/advisories/GHSA-p4cg-3328-rvfg) — orval (npm) · critical · EPSS 0.005 · CVSS unassigned · public PoC attached
-  Import-time RCE via OpenAPI defaults injected into zod template literals on module import. Two variants (CVE-2026-72716 + CVE-2026-71866). PoC in advisory.
-  → schedule upgrade: orval → ≥8.21.0
+- [CVE-2026-69084 +2](https://github.com/advisories/GHSA-vh22-h7hf-www7) — siyuan-note/siyuan (Go) · CVSS 10.0 · EPSS 0.011 · 13 advisories in 48h · no fix
+  Unauthenticated SQL injection in publish mode: raw SQL exec via fullTextSearch/backlink/embed endpoints, any reader can reach them. No patch yet.
+  → disable publish mode until patched; block external access to SiYuan ports.
 
-- [GHSA-2v6v-25fm-p4fg](https://github.com/advisories/GHSA-2v6v-25fm-p4fg) — SeaweedFS (go) · CVSS 9.8 · EPSS 0.004
-  Unauth filer gRPC grants full S3 admin control without credentials.
-  → schedule upgrade: build from commit ≥20260512; firewall gRPC filer port.
+- [CVE-2026-73843 +1](https://github.com/advisories/GHSA-qh9r-j7rp-4x2m) — openchoreo/openchoreo (Go) · CVSS 9.6 / 8.8 · EPSS 0.0029 · no fix
+  Unauthenticated cluster-gateway API exposes all data-plane ops (9.6); authenticated workflow templates allow OS cmd injection in privileged pods (8.8).
+  → firewall management-API port; restrict workflow template authorship.
+
+- [CVE-2026-71428](https://github.com/advisories/GHSA-4mvj-m6j5-pmf7) — unstructured (pip) · CVSS 9.3 · EPSS 0.0025 · no fix
+  SSRF in URL-based document partitioning — attacker-supplied URLs reach internal metadata services. AI/ETL pipelines exposed.
+  → sanitize user-controlled URL inputs before passing to unstructured.
+
+- [CVE-2026-62674 +2](https://github.com/advisories/GHSA-jrrm-9hc7-2v3h) — omnigent (pip) · CVSS 9.0 / 8.8 · EPSS 0.0034 · no fix
+  3-CVE AI-agent RCE cluster: shared bundle overwrite → runner RCE; uploaded Python callable tools → RCE; unvalidated cwd → host filesystem traversal.
+  → isolate runners; reject untrusted agent bundles until patched.
+
+- [CVE-2026-73222](https://github.com/advisories/GHSA-79wm-x847-7cvg) — claude-code-templates (npm) · CVSS 8.8 · no fix
+  Unauthenticated OS command injection in `--studio` server. Any local-network attacker gets RCE.
+  → do not expose `--studio` on shared/public networks; bind localhost only.
 
 *MONITOR*
-- [GHSA-m4rf-3fr8-xwx3](https://github.com/advisories/GHSA-m4rf-3fr8-xwx3) — nltk (pip) · CVSS 9.8 · EPSS 0.004 · no fix yet
-  JVM arg injection via Stanford wrapper per-call options (incomplete prior fix, ≤3.10.2). → disable Stanford NLP plugin; watch for patch.
+- [GHSA-fg9p +8 variants](https://github.com/advisories/GHSA-fg9p-mrxr-hvq7) — orval (npm) · critical severity · EPSS ~0.005 · no CVSS assigned · no fix
+  9 new import-time RCE variants Sep 3 via OpenAPI-spec template-literal injection (Sep 2 had 2 logged). Attack surface grows.
+  → track series; avoid processing untrusted OpenAPI specs with orval.
 
-- [GHSA-vx52-2968-3vc6](https://github.com/advisories/GHSA-vx52-2968-3vc6) — pnpm (npm) · CVSS 7.4 · no fix
-  Env secrets leaked via placeholder expansion in proxy settings from untrusted pnpm-workspace.yaml. → audit workspace.yaml proxy settings.
+- [CVE-2026-75931 +3](https://github.com/advisories/GHSA-5jgf-p345-68v8) — fast-uri (npm) · CVSS 7.5 · no fix
+  4-CVE SSRF/host-confusion cluster: IPv6 normalization bypass, repeated percent-decode SSRF, scheme-relative confusion, scheme normalization. Widely transitive dependency.
+  → watch GHSA-5jgf/f65p/fph4/jqff; sanitize URIs upstream of fast-uri consumers.
 
-- [GHSA-vp52-pcj8-j9qc](https://github.com/advisories/GHSA-vp52-pcj8-j9qc) — grpc-go (go) · CVSS high · EPSS 0.004 · no fix
-  HTTP/2 DATA fragmentation causes OOM heap exhaustion. → rate-limit HTTP/2 frame size at ingress; track upstream fix.
+- [CVE-2026-72921](https://github.com/advisories/GHSA-gv5w-hfx8-8cwq) — seaweedfs/seaweedfs (Go) · CVSS 8.1 · no fix
+  JWT allowed_prefixes literal match → cross-tenant access to sibling paths. Distinct from Sep 2's critical unauth admin (GHSA-2v6v).
+  → track GHSA-gv5w; audit allowed_prefixes configuration.

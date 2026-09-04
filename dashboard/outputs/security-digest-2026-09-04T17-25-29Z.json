@@ -1,0 +1,642 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-09-04",
+        "description": "1 actively exploited, 5 high-CVSS to schedule, 3 to monitor • Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "verdict-stats",
+        "sep-1",
+        "patch-today-heading",
+        "patch-today-1",
+        "sep-2",
+        "patch-week-heading",
+        "patch-week-stack",
+        "sep-3",
+        "monitor-heading",
+        "monitor-stack"
+      ]
+    },
+    "verdict-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-exploited",
+        "stat-cvss",
+        "stat-monitor"
+      ]
+    },
+    "stat-exploited": {
+      "type": "Stat",
+      "props": {
+        "label": "Actively Exploited",
+        "value": "1"
+      }
+    },
+    "stat-cvss": {
+      "type": "Stat",
+      "props": {
+        "label": "High-CVSS to Patch",
+        "value": "5"
+      }
+    },
+    "stat-monitor": {
+      "type": "Stat",
+      "props": {
+        "label": "To Monitor",
+        "value": "3"
+      }
+    },
+    "sep-1": {
+      "type": "Separator"
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h3"
+      }
+    },
+    "patch-today-1": {
+      "type": "Alert",
+      "props": {
+        "type": "danger",
+        "title": "CVE-2026-85046 — Google Chromium V8",
+        "message": "KEV (2026-09-04) · EPSS 0.0046 · CVSS browser-scope\n\nType confusion → RCE inside renderer sandbox via crafted HTML. Actively exploited in the wild; Chrome, Edge, Opera all affected. CISA due 2026-09-18.\n\n→ update Chrome/Edge/Opera to latest build today."
+      }
+    },
+    "sep-2": {
+      "type": "Separator"
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h3"
+      }
+    },
+    "patch-week-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "cve-69084-group",
+        "cve-73843-group",
+        "cve-71428-group",
+        "cve-62674-group",
+        "cve-73222-group"
+      ]
+    },
+    "cve-69084-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-69084-link",
+        "cve-69084-badges",
+        "cve-69084-desc",
+        "cve-69084-remedy"
+      ]
+    },
+    "cve-69084-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-69084 +2 — siyuan-note/siyuan (Go)",
+        "href": "https://github.com/advisories/GHSA-vh22-h7hf-www7",
+        "source": "GH Advisory"
+      }
+    },
+    "cve-69084-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-69084-cvss",
+        "cve-69084-epss",
+        "cve-69084-advisories",
+        "cve-69084-nofix"
+      ]
+    },
+    "cve-69084-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 10.0",
+        "variant": "destructive"
+      }
+    },
+    "cve-69084-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.011",
+        "variant": "secondary"
+      }
+    },
+    "cve-69084-advisories": {
+      "type": "Badge",
+      "props": {
+        "text": "13 advisories in 48h",
+        "variant": "outline"
+      }
+    },
+    "cve-69084-nofix": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "destructive"
+      }
+    },
+    "cve-69084-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated SQL injection in publish mode: raw SQL exec via fullTextSearch/backlink/embed endpoints, any reader can reach them. No patch yet.",
+        "variant": "body"
+      }
+    },
+    "cve-69084-remedy": {
+      "type": "Text",
+      "props": {
+        "text": "→ disable publish mode until patched; block external access to SiYuan ports.",
+        "variant": "caption"
+      }
+    },
+    "cve-73843-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-73843-link",
+        "cve-73843-badges",
+        "cve-73843-desc",
+        "cve-73843-remedy"
+      ]
+    },
+    "cve-73843-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-73843 +1 — openchoreo/openchoreo (Go)",
+        "href": "https://github.com/advisories/GHSA-qh9r-j7rp-4x2m",
+        "source": "GH Advisory"
+      }
+    },
+    "cve-73843-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-73843-cvss",
+        "cve-73843-epss",
+        "cve-73843-nofix"
+      ]
+    },
+    "cve-73843-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.6 / 8.8",
+        "variant": "destructive"
+      }
+    },
+    "cve-73843-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.0029",
+        "variant": "secondary"
+      }
+    },
+    "cve-73843-nofix": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "destructive"
+      }
+    },
+    "cve-73843-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated cluster-gateway API exposes all data-plane ops (9.6); authenticated workflow templates allow OS cmd injection in privileged pods (8.8).",
+        "variant": "body"
+      }
+    },
+    "cve-73843-remedy": {
+      "type": "Text",
+      "props": {
+        "text": "→ firewall management-API port; restrict workflow template authorship.",
+        "variant": "caption"
+      }
+    },
+    "cve-71428-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-71428-link",
+        "cve-71428-badges",
+        "cve-71428-desc",
+        "cve-71428-remedy"
+      ]
+    },
+    "cve-71428-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-71428 — unstructured (pip)",
+        "href": "https://github.com/advisories/GHSA-4mvj-m6j5-pmf7",
+        "source": "GH Advisory"
+      }
+    },
+    "cve-71428-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-71428-cvss",
+        "cve-71428-epss",
+        "cve-71428-nofix"
+      ]
+    },
+    "cve-71428-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.3",
+        "variant": "destructive"
+      }
+    },
+    "cve-71428-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.0025",
+        "variant": "secondary"
+      }
+    },
+    "cve-71428-nofix": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "destructive"
+      }
+    },
+    "cve-71428-desc": {
+      "type": "Text",
+      "props": {
+        "text": "SSRF in URL-based document partitioning — attacker-supplied URLs reach internal metadata services. AI/ETL pipelines exposed.",
+        "variant": "body"
+      }
+    },
+    "cve-71428-remedy": {
+      "type": "Text",
+      "props": {
+        "text": "→ sanitize user-controlled URL inputs before passing to unstructured.",
+        "variant": "caption"
+      }
+    },
+    "cve-62674-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-62674-link",
+        "cve-62674-badges",
+        "cve-62674-desc",
+        "cve-62674-remedy"
+      ]
+    },
+    "cve-62674-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-62674 +2 — omnigent (pip)",
+        "href": "https://github.com/advisories/GHSA-jrrm-9hc7-2v3h",
+        "source": "GH Advisory"
+      }
+    },
+    "cve-62674-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-62674-cvss",
+        "cve-62674-epss",
+        "cve-62674-nofix"
+      ]
+    },
+    "cve-62674-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.0 / 8.8",
+        "variant": "destructive"
+      }
+    },
+    "cve-62674-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.0034",
+        "variant": "secondary"
+      }
+    },
+    "cve-62674-nofix": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "destructive"
+      }
+    },
+    "cve-62674-desc": {
+      "type": "Text",
+      "props": {
+        "text": "3-CVE AI-agent RCE cluster: shared bundle overwrite → runner RCE; uploaded Python callable tools → RCE; unvalidated cwd → host filesystem traversal.",
+        "variant": "body"
+      }
+    },
+    "cve-62674-remedy": {
+      "type": "Text",
+      "props": {
+        "text": "→ isolate runners; reject untrusted agent bundles until patched.",
+        "variant": "caption"
+      }
+    },
+    "cve-73222-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-73222-link",
+        "cve-73222-badges",
+        "cve-73222-desc",
+        "cve-73222-remedy"
+      ]
+    },
+    "cve-73222-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-73222 — claude-code-templates (npm)",
+        "href": "https://github.com/advisories/GHSA-79wm-x847-7cvg",
+        "source": "GH Advisory"
+      }
+    },
+    "cve-73222-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-73222-cvss",
+        "cve-73222-nofix"
+      ]
+    },
+    "cve-73222-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8",
+        "variant": "destructive"
+      }
+    },
+    "cve-73222-nofix": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "destructive"
+      }
+    },
+    "cve-73222-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated OS command injection in `--studio` server. Any local-network attacker gets RCE.",
+        "variant": "body"
+      }
+    },
+    "cve-73222-remedy": {
+      "type": "Text",
+      "props": {
+        "text": "→ do not expose `--studio` on shared/public networks; bind localhost only.",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator"
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h3"
+      }
+    },
+    "monitor-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "ghsa-fg9p-group",
+        "cve-75931-group",
+        "cve-72921-group"
+      ]
+    },
+    "ghsa-fg9p-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-fg9p-link",
+        "ghsa-fg9p-badges",
+        "ghsa-fg9p-desc",
+        "ghsa-fg9p-remedy"
+      ]
+    },
+    "ghsa-fg9p-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-fg9p +8 variants — orval (npm)",
+        "href": "https://github.com/advisories/GHSA-fg9p-mrxr-hvq7",
+        "source": "GH Advisory"
+      }
+    },
+    "ghsa-fg9p-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-fg9p-severity",
+        "ghsa-fg9p-epss"
+      ]
+    },
+    "ghsa-fg9p-severity": {
+      "type": "Badge",
+      "props": {
+        "text": "critical severity",
+        "variant": "destructive"
+      }
+    },
+    "ghsa-fg9p-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS ~0.005",
+        "variant": "secondary"
+      }
+    },
+    "ghsa-fg9p-desc": {
+      "type": "Text",
+      "props": {
+        "text": "9 new import-time RCE variants Sep 3 via OpenAPI-spec template-literal injection (Sep 2 had 2 logged). Attack surface grows.",
+        "variant": "body"
+      }
+    },
+    "ghsa-fg9p-remedy": {
+      "type": "Text",
+      "props": {
+        "text": "→ track series; avoid processing untrusted OpenAPI specs with orval.",
+        "variant": "caption"
+      }
+    },
+    "cve-75931-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-75931-link",
+        "cve-75931-badges",
+        "cve-75931-desc",
+        "cve-75931-remedy"
+      ]
+    },
+    "cve-75931-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-75931 +3 — fast-uri (npm)",
+        "href": "https://github.com/advisories/GHSA-5jgf-p345-68v8",
+        "source": "GH Advisory"
+      }
+    },
+    "cve-75931-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-75931-cvss",
+        "cve-75931-nofix"
+      ]
+    },
+    "cve-75931-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "destructive"
+      }
+    },
+    "cve-75931-nofix": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "destructive"
+      }
+    },
+    "cve-75931-desc": {
+      "type": "Text",
+      "props": {
+        "text": "4-CVE SSRF/host-confusion cluster: IPv6 normalization bypass, repeated percent-decode SSRF, scheme-relative confusion, scheme normalization. Widely transitive dependency.",
+        "variant": "body"
+      }
+    },
+    "cve-75931-remedy": {
+      "type": "Text",
+      "props": {
+        "text": "→ watch GHSA-5jgf/f65p/fph4/jqff; sanitize URIs upstream of fast-uri consumers.",
+        "variant": "caption"
+      }
+    },
+    "cve-72921-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-72921-link",
+        "cve-72921-badges",
+        "cve-72921-desc",
+        "cve-72921-remedy"
+      ]
+    },
+    "cve-72921-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-72921 — seaweedfs/seaweedfs (Go)",
+        "href": "https://github.com/advisories/GHSA-gv5w-hfx8-8cwq",
+        "source": "GH Advisory"
+      }
+    },
+    "cve-72921-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-72921-cvss",
+        "cve-72921-nofix"
+      ]
+    },
+    "cve-72921-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "destructive"
+      }
+    },
+    "cve-72921-nofix": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "destructive"
+      }
+    },
+    "cve-72921-desc": {
+      "type": "Text",
+      "props": {
+        "text": "JWT allowed_prefixes literal match → cross-tenant access to sibling paths. Distinct from Sep 2's critical unauth admin (GHSA-2v6v).",
+        "variant": "body"
+      }
+    },
+    "cve-72921-remedy": {
+      "type": "Text",
+      "props": {
+        "text": "→ track GHSA-gv5w; audit allowed_prefixes configuration.",
+        "variant": "caption"
+      }
+    }
+  }
+}
