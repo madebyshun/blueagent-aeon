@@ -1,0 +1,380 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-09-04",
+        "description": "Broad risk-off — ~25% of non-stablecoin top-100 green, median −1.2%; BTC −1.7% and SOL −2.8% lead steady large-cap bleed while isolated outliers (ZEC, LIT, PONS) diverge on token-specific catalysts."
+      },
+      "children": [
+        "winners-heading",
+        "winners-table",
+        "separator-1",
+        "losers-heading",
+        "losers-table",
+        "separator-2",
+        "trending-heading",
+        "trending-table",
+        "separator-3",
+        "notable-heading",
+        "notable-stack"
+      ]
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Market Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "MARSCOIN",
+            "$0.1712",
+            "+50.3%",
+            "",
+            "",
+            "",
+            "#189",
+            "[PUMP-RISK]"
+          ],
+          [
+            "USELESS",
+            "$0.2554",
+            "+40.9%",
+            "",
+            "",
+            "",
+            "#148",
+            "[PUMP-RISK]"
+          ],
+          [
+            "PONS (Pons)",
+            "$0.7211",
+            "+27.3%",
+            "+449%",
+            "−2.1%",
+            "$203M",
+            "#105",
+            "[TRENDING+UP][BREAKOUT]"
+          ],
+          [
+            "LIT (Lighter)",
+            "$4.740",
+            "+15.5%",
+            "+34.1%",
+            "−1.6%",
+            "$191M",
+            "#68",
+            "[TRENDING+UP][BREAKOUT]"
+          ],
+          [
+            "DASH (Dash)",
+            "$50.79",
+            "+11.2%",
+            "+28.9%",
+            "−0.2%",
+            "$280M",
+            "#91",
+            ""
+          ],
+          [
+            "ZEC (Zcash)",
+            "$984.2",
+            "+7.8%",
+            "+22.4%",
+            "−1.2%",
+            "$1.31B",
+            "#11",
+            "[MAJOR][TRENDING+UP]"
+          ]
+        ]
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Market Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "JUP (Jupiter)",
+            "$0.2152",
+            "−7.7%",
+            "−7.6%",
+            "−0.9%",
+            "$66.7M",
+            "#88",
+            ""
+          ],
+          [
+            "FIL (Filecoin)",
+            "$0.7464",
+            "−6.6%",
+            "+6.1%",
+            "−0.8%",
+            "$86M",
+            "#94",
+            ""
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "$0.008240",
+            "−6.2%",
+            "−12.8%",
+            "−2.1%",
+            "$182M",
+            "#104",
+            "[TRENDING+DOWN]"
+          ],
+          [
+            "PEPE",
+            "$0.0000035",
+            "−6.0%",
+            "−8.0%",
+            "−1.5%",
+            "$398M",
+            "#55",
+            ""
+          ],
+          [
+            "CASHCAT",
+            "$0.2559",
+            "−5.4%",
+            "",
+            "",
+            "",
+            "#151",
+            "[TRENDING+DOWN]"
+          ],
+          [
+            "TRUMP (Official Trump)",
+            "$2.260",
+            "−5.3%",
+            "−18.2%",
+            "−0.3%",
+            "$415M",
+            "#95",
+            ""
+          ],
+          [
+            "SUI",
+            "$0.7489",
+            "−4.0%",
+            "−2.1%",
+            "−1.3%",
+            "$546M",
+            "#32",
+            ""
+          ],
+          [
+            "ONDO",
+            "$0.3537",
+            "−3.9%",
+            "−4.7%",
+            "−2.0%",
+            "$111M",
+            "#50",
+            ""
+          ],
+          [
+            "DOT (Polkadot)",
+            "$0.8532",
+            "−3.9%",
+            "−2.6%",
+            "−1.5%",
+            "$140M",
+            "#58",
+            ""
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.004270",
+            "−3.9%",
+            "−11.2%",
+            "−2.1%",
+            "$230M",
+            "#52",
+            ""
+          ]
+        ]
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h %",
+          "Tags / Notes"
+        ],
+        "rows": [
+          [
+            "PONS (Pons)",
+            "#105",
+            "$0.7211",
+            "+27.3%",
+            "[TRENDING+UP]"
+          ],
+          [
+            "LIT (Lighter)",
+            "#68",
+            "$4.740",
+            "+15.5%",
+            "[TRENDING+UP]"
+          ],
+          [
+            "USELESS",
+            "#148",
+            "$0.2554",
+            "+40.9%",
+            "[PUMP-RISK]"
+          ],
+          [
+            "ZEC (Zcash)",
+            "#11",
+            "$984",
+            "+12.1%",
+            "[MAJOR][TRENDING+UP]"
+          ],
+          [
+            "MARSCOIN",
+            "#189",
+            "$0.1712",
+            "+50.3%",
+            "[PUMP-RISK]"
+          ],
+          [
+            "PENGU",
+            "#104",
+            "$0.008240",
+            "−6.1%",
+            "[TRENDING+DOWN]"
+          ],
+          [
+            "HYPE",
+            "#10",
+            "$84.66",
+            "+0.9%",
+            "(Sep 6 unlock T-2)"
+          ]
+        ]
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4",
+        "notable-5",
+        "notable-6"
+      ]
+    },
+    "notable-1": {
+      "type": "Text",
+      "props": {
+        "text": "PONS [TRENDING+UP][BREAKOUT]: #105 up 27% / 7d +449% — sustained multi-day run, no clear catalyst; watch for sharp reversal"
+      }
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "MARSCOIN [PUMP-RISK]: #189 up 50% — low-cap spike, no catalyst; discard"
+      }
+    },
+    "notable-3": {
+      "type": "Text",
+      "props": {
+        "text": "USELESS [PUMP-RISK]: #148, third consecutive +40% day — clear manipulation pattern regardless of rank"
+      }
+    },
+    "notable-4": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC [MAJOR] day 3: $909→$984; ZCSH ETF $313M AUM live + NU7 vote Sep 14; same tags as Sep 3 but run extending"
+      }
+    },
+    "notable-5": {
+      "type": "Text",
+      "props": {
+        "text": "JUP/PEPE reversal: both Sep 3 winners (+10.4%/+10.6%) now lead losers (−7.7%/−6.0%) — relief-rally retail alts fading"
+      }
+    },
+    "notable-6": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE T-2: Sep 6 $797M unlock window opens tomorrow; trending at near-flat price = distribution watch"
+      }
+    }
+  }
+}
