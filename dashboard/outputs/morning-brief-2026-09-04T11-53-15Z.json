@@ -1,0 +1,337 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-09-04"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "yesterday-section",
+        "sep2",
+        "watch-section",
+        "sep3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. HYPE Sep 6 unlock — why now: T-2; claim rate vs 1.75% baseline window closes tomorrow"
+      },
+      "children": []
+    },
+    "focus-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. CLARITY Act cloture T-11 — why now: Iran consuming Senate calendar, YES slide accelerating"
+      },
+      "children": []
+    },
+    "focus-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Binance Agent OS — why now: first exchange MCP execution product live; agentic payments phase shift"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-heading",
+        "yesterday-btc-stack",
+        "yesterday-zec-stack",
+        "yesterday-arb-stack",
+        "yesterday-security"
+      ]
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday-btc-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc-stat",
+        "btc-note"
+      ]
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$77.6K",
+        "delta": "−3.7%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "btc-note": {
+      "type": "Text",
+      "props": {
+        "text": "$80.7K→$77.6K — partial giveback; Iran war absorbed but range tightening",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "yesterday-zec-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zec-badges-row",
+        "zec-explanation"
+      ]
+    },
+    "zec-badges-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "zec-stat",
+        "zec-badge-major",
+        "zec-badge-trending"
+      ]
+    },
+    "zec-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ZEC",
+        "value": "+12.2%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "zec-badge-major": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "zec-badge-trending": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "zec-explanation": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN confirmed (Grayscale ZCSH $313M + SEC investigation closed); NU7 advisory vote T-10 Sep 14",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "yesterday-arb-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "arb-stat",
+        "arb-note"
+      ]
+    },
+    "arb-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ARB",
+        "value": "+46.7%",
+        "delta": "3rd consecutive winner day, 7d",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "arb-note": {
+      "type": "Text",
+      "props": {
+        "text": "L2 Revival at Peak",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "yesterday-security": {
+      "type": "Alert",
+      "props": {
+        "title": "security-digest",
+        "message": "Failed Sep 3, 1 consecutive failure (skill disabled)",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-stack"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-stat",
+        "watch-note"
+      ]
+    },
+    "watch-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$77.6K",
+        "delta": "−3.7% from recovery",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "watch-note": {
+      "type": "Text",
+      "props": {
+        "text": "relief rally fading; amplifies HYPE unlock sell risk (focus #1)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-tasks"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running-tasks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "task-1",
+        "task-2",
+        "task-3",
+        "task-4"
+      ]
+    },
+    "task-1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      },
+      "children": []
+    },
+    "task-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      },
+      "children": []
+    },
+    "task-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      },
+      "children": []
+    },
+    "task-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      },
+      "children": []
+    }
+  }
+}

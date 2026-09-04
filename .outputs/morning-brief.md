@@ -1,22 +1,21 @@
-*Morning Brief — 2026-09-03*
+*Morning Brief — 2026-09-04*
 
 *Focus today*
-1. Iran war, BTC $68K — 3rd day escalating; $300M+ liquidated; reassess all risk-on positions now
-2. HYPE Sep 6 unlock — T-3; last window before event noise; watch early claim-rate signals vs 1.75% baseline
-3. CLARITY Act cloture T-12 — Iran war consuming Senate floor time; YES probability sliding, fade the premium
+1. HYPE Sep 6 unlock — why now: T-2; claim rate vs 1.75% baseline window closes tomorrow
+2. CLARITY Act cloture T-11 — why now: Iran consuming Senate calendar, YES slide accelerating
+3. Binance Agent OS — why now: first exchange MCP execution product live; agentic payments phase shift
 
 *Since yesterday*
-- BTC: $77K → ~$68K (Iran day 3; 47% off ATH; oil above $80 kills FOMC rate-cut case)
-- ZEC: Sep 1 FRONT-RUN call premature — failed risk-off test (-5.2%), demoted to WATCH/Fading
-- Narrative: Iran War now dominant macro driver; TRUMP -8%, memecoins hardest hit
-- HYPE: T-4 → T-3; no claim-rate signal yet; pre-event attention = distribution window
+- [moved]: BTC $80.7K→$77.6K — partial giveback; Iran war absorbed but range tightening
+- [moved]: ZEC +12.2% [MAJOR][TRENDING+UP] — FRONT-RUN confirmed (Grayscale ZCSH $313M + SEC investigation closed); NU7 advisory vote T-10 Sep 14
+- [moved]: ARB 3rd consecutive winner day, 7d +46.7% — L2 Revival at Peak
+- [stuck]: security-digest — failed Sep 3, 1 consecutive failure (skill disabled)
 
 *Watch*
-- BTC $68K extension: sustained oil above $80 + Iran escalation + FOMC Sep 16 = three-headed macro headwind; implies all risk-on positions need tighter sizing
+- BTC $77.6K (−3.7% from recovery) — relief rally fading; amplifies HYPE unlock sell risk (focus #1)
 
 *Running today*
 - github-monitor @ 09:00 UTC
-- heartbeat @ 08:00, 14:00, 20:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
