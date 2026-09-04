@@ -1,0 +1,625 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-04"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-transitions",
+        "sep-1",
+        "section-reflexivity",
+        "sep-2",
+        "section-positions",
+        "sep-3",
+        "section-map"
+      ]
+    },
+    "section-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-transitions",
+        "stack-transition-items"
+      ]
+    },
+    "heading-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "stack-transition-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans-1",
+        "trans-2",
+        "trans-3",
+        "trans-4",
+        "trans-5",
+        "trans-6",
+        "trans-7",
+        "trans-8",
+        "trans-9"
+      ]
+    },
+    "trans-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-1-badge",
+        "trans-1-text"
+      ]
+    },
+    "trans-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "trans-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Trading Infrastructure Emerging → Rising ↑↑ — Binance Agent OS live (first exchange MCP execution product; \"agentic payments phase shift\" per morning-brief). Sep 3 FRONT-RUN now executing. RIDE.",
+        "variant": "body"
+      }
+    },
+    "trans-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-2-badge",
+        "trans-2-text"
+      ]
+    },
+    "trans-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "trans-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "ETH ETF / Institutional Flow Emerging → Rising — Standard Chartered UAE institutional spot crypto (BTC+ETH+75 assets); SEC Bitcoin fund options approved. Institutional thesis confirmed.",
+        "variant": "body"
+      }
+    },
+    "trans-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-3-badge",
+        "trans-3-text"
+      ]
+    },
+    "trans-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "trans-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "BNB Chain/AI L1 Rising → Rising ↑ — Binance Agent OS direct catalyst. First concrete driver in weeks. RIDE.",
+        "variant": "body"
+      }
+    },
+    "trans-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-4-badge",
+        "trans-4-text"
+      ]
+    },
+    "trans-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY UP",
+        "variant": "secondary"
+      }
+    },
+    "trans-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "x402/Agentic Payments ↑ → ↑↑ — Binance Agent OS = world's largest CEX deploying agent execution rails. Four exchanges simultaneous now. Peak Bull RIDE.",
+        "variant": "body"
+      }
+    },
+    "trans-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-5-badge",
+        "trans-5-text"
+      ]
+    },
+    "trans-5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CONFIRMED",
+        "variant": "secondary"
+      }
+    },
+    "trans-5-text": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC/Privacy FRONT-RUN → RIDE — Day 4 +7.8% [MAJOR]. ZCSH ETF $313M + SEC closed + NU7 Sep 14. Trade working. No longer speculative.",
+        "variant": "body"
+      }
+    },
+    "trans-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-6-badge",
+        "trans-6-text"
+      ]
+    },
+    "trans-6-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "trans-6-text": {
+      "type": "Text",
+      "props": {
+        "text": "Hawkish Fed Peak → Peak ↓ — Fed Gov Waller: supports unchanged rates if August CPI holds; rate-hike probability 63%→50%. First concrete pivot signal. BTC $81K.",
+        "variant": "body"
+      }
+    },
+    "trans-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-7-badge",
+        "trans-7-text"
+      ]
+    },
+    "trans-7-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "trans-7-text": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act Emerging ↓ → Fading ↓↓ — T-11, YES probability sliding; Iran consuming Senate calendar. FADE YES.",
+        "variant": "body"
+      }
+    },
+    "trans-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-8-badge",
+        "trans-8-text"
+      ]
+    },
+    "trans-8-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "trans-8-text": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoins Rising ↑ → Fading ↓↓ — PENGU −6.2%, PEPE −6.0%, TRUMP −5.3%, PUMP −3.9% all red despite broad market recovery. Structural divergence. FADE.",
+        "variant": "body"
+      }
+    },
+    "trans-9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-9-badge",
+        "trans-9-text"
+      ]
+    },
+    "trans-9-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "trans-9-text": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE Unlock T-2 — Sep 6 $797M. Distribution window open. Attention spike = sell signal. Monitor claim rate vs 1.75% March baseline.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-reflexivity",
+        "stack-reflexivity-items"
+      ]
+    },
+    "heading-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "stack-reflexivity-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflex-1",
+        "reflex-2",
+        "reflex-3"
+      ]
+    },
+    "reflex-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflex-1-title",
+        "reflex-1-text"
+      ]
+    },
+    "reflex-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "Fed Waller → BTC $81K:",
+        "variant": "lead"
+      }
+    },
+    "reflex-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "One pre-meeting governor comment pushed crypto market +4.7% in hours. Narrative about Fed posture moving prices before policy is set.",
+        "variant": "body"
+      }
+    },
+    "reflex-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflex-2-title",
+        "reflex-2-text"
+      ]
+    },
+    "reflex-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "Binance Agent OS × x402:",
+        "variant": "lead"
+      }
+    },
+    "reflex-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Binance (largest CEX globally) launches MCP execution product same week as Kraken/Coinbase/OKX toolkits. Four exchanges simultaneous = reflexive validation loop. Institutional FOMO compounding the narrative.",
+        "variant": "body"
+      }
+    },
+    "reflex-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflex-3-title",
+        "reflex-3-text"
+      ]
+    },
+    "reflex-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC Stop-Hunt Loop:",
+        "variant": "lead"
+      }
+    },
+    "reflex-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "ETF Sep 1 → Iran panic dump −5.2% Sep 2 → +12.2% Sep 3 → +7.8% Sep 4. Multi-catalyst narrative creates dip-buy reflex. NU7 Sep 14 next reload.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-positions",
+        "table-positions"
+      ]
+    },
+    "heading-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "table-positions": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Position",
+          "Rating",
+          "Type / Sentiment",
+          "Details"
+        ],
+        "rows": [
+          [
+            "x402/Agentic Payments",
+            "5 ↑↑",
+            "RIDE / Bull",
+            "Binance/Kraken/Coinbase/OKX — no base-specific catalyst"
+          ],
+          [
+            "ZEC/Privacy",
+            "3 ↑",
+            "RIDE / Bull",
+            "ZCSH ETF + NU7 Sep 14 — quantum obsolescence risk"
+          ],
+          [
+            "AI Trading Infrastructure",
+            "3 ↑↑",
+            "RIDE / Bull",
+            "Binance Agent OS — no clean token play yet"
+          ],
+          [
+            "L2 Revival",
+            "4 ↑",
+            "RIDE / Bull",
+            "ARB/UNI in alt rally — ArbOS priced"
+          ],
+          [
+            "Quantum",
+            "4 →",
+            "FRONT-RUN / Bull",
+            "ETH quantum validator + ZEC adjacency — 500K qubits years away"
+          ],
+          [
+            "HYPE Unlock",
+            "4 ↑↑",
+            "FADE / Bear",
+            "T-2 distribution window"
+          ],
+          [
+            "Memecoins",
+            "2 ↓↓",
+            "FADE / Bear",
+            "diverging from market recovery"
+          ],
+          [
+            "CLARITY Act",
+            "2 ↓↓",
+            "FADE YES / Bear",
+            "Iran consuming Senate floor"
+          ]
+        ]
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-map",
+        "stack-map-items"
+      ]
+    },
+    "heading-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "stack-map-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-heading",
+        "map-emerging-text"
+      ]
+    },
+    "map-emerging-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging:",
+        "variant": "lead"
+      }
+    },
+    "map-emerging-text": {
+      "type": "Text",
+      "props": {
+        "text": "Alt-ETF/ADA, Lean Ethereum, FHE, X Money, Bitcoin L2",
+        "variant": "body"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-heading",
+        "map-rising-text"
+      ]
+    },
+    "map-rising-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Rising:",
+        "variant": "lead"
+      }
+    },
+    "map-rising-text": {
+      "type": "Text",
+      "props": {
+        "text": "Quantum, Agent Identity, ZEC/Privacy, AI Trading Infrastructure, DeFi Revival, AI Compute/DePIN, RWA, Oracle/LINK, Solana RWA, BNB Chain/AI L1, AI Agent Security/TEE, ETH ETF/Inst Flow",
+        "variant": "body"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-heading",
+        "map-peak-text"
+      ]
+    },
+    "map-peak-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Peak:",
+        "variant": "lead"
+      }
+    },
+    "map-peak-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy, x402/Agentic Payments, Agentic Dev Tools, L2 Revival",
+        "variant": "body"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-heading",
+        "map-fading-text"
+      ]
+    },
+    "map-fading-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Fading:",
+        "variant": "lead"
+      }
+    },
+    "map-fading-text": {
+      "type": "Text",
+      "props": {
+        "text": "Iran War, HYPE Unlock (event), CLARITY Act, Memecoins, Coinbase AiFi/Base, ENA, TRUMP, Solana Supply Shock",
+        "variant": "body"
+      }
+    }
+  }
+}
