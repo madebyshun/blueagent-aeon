@@ -1,13 +1,18 @@
-*GitHub Trending — 2026-09-03*
+*GitHub Trending — 2026-09-04*
 
-Low-signal day — trending page dominated by suspicious star-inflation repos and "agent skills" meta-lists. One genuine pick surfaced.
+*Top pick* — [clshortfuse/renodx](https://github.com/clshortfuse/renodx)
+The only non-AI repo to break out today — a DirectX modding engine that just pushed and sent 759★ flying in a single day.
 
-*Top pick* — [magnitudedev/magnitude](https://github.com/magnitudedev/magnitude)
-Local inference server auto-routing agent calls to the best model for your hardware — plugs into Claude Code, Codex, and Cline via drop-in API.
+*AI/ML*
+• [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — ★ 1,345 today (17k total) · Python · [ACCELERATING]
+Pushed today; now covers 646 languages for local voice cloning, dubbing, and dictation — compounds while ElevenLabs API costs do too.
 
-*Devtools*
-• [magnitudedev/magnitude](https://github.com/magnitudedev/magnitude) — ★ 130 today (1.8k total) · TypeScript · [ACCELERATING]
-Auto-routes each agent call to the optimal local model for your hardware; pushed Sep 2 with active Claude Code/Codex/Cline integration.
+• [radixark/miles](https://github.com/radixark/miles) — ★ 55 today (2.5k total) · Python · [RETURNING]
+Enterprise RL post-training for LLMs/VLMs, co-evolving with slime — GRPO/RLHF with production defaults baked in.
+
+*Other*
+• [clshortfuse/renodx](https://github.com/clshortfuse/renodx) — ★ 759 today (3.4k total) · HLSL · [RETURNING]
+Injects HDR and path tracing into shipped DX11/DX12 titles at the GPU layer — no binary patches, no source required.
 
 ---
-sources: trending=ok · gh_api=ok · kept 1/19
+sources: trending=ok · gh_api=ok · kept 3/17

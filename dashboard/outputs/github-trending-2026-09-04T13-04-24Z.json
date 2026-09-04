@@ -1,0 +1,263 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-04"
+      },
+      "children": [
+        "heading_top_pick",
+        "story_renodx_top",
+        "text_renodx_top_desc",
+        "separator1",
+        "heading_aiml",
+        "stack_voicestudio",
+        "stack_miles",
+        "separator2",
+        "heading_other",
+        "stack_renodx_other",
+        "separator3",
+        "text_sources"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "story_renodx_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "clshortfuse/renodx",
+        "href": "https://github.com/clshortfuse/renodx",
+        "source": "GitHub"
+      }
+    },
+    "text_renodx_top_desc": {
+      "type": "Text",
+      "props": {
+        "text": "The only non-AI repo to break out today — a DirectX modding engine that just pushed and sent 759★ flying in a single day."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "stack_voicestudio": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story_voicestudio",
+        "text_voicestudio_desc",
+        "stack_voicestudio_stats"
+      ]
+    },
+    "story_voicestudio": {
+      "type": "StoryLink",
+      "props": {
+        "title": "debpalash/VoiceStudio",
+        "href": "https://github.com/debpalash/VoiceStudio",
+        "source": "GitHub"
+      }
+    },
+    "text_voicestudio_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pushed today; now covers 646 languages for local voice cloning, dubbing, and dictation — compounds while ElevenLabs API costs do too."
+      }
+    },
+    "stack_voicestudio_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_voicestudio_stars",
+        "badge_voicestudio_lang",
+        "badge_voicestudio_status"
+      ]
+    },
+    "stat_voicestudio_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "1,345",
+        "delta": "17k total"
+      }
+    },
+    "badge_voicestudio_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_voicestudio_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "stack_miles": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story_miles",
+        "text_miles_desc",
+        "stack_miles_stats"
+      ]
+    },
+    "story_miles": {
+      "type": "StoryLink",
+      "props": {
+        "title": "radixark/miles",
+        "href": "https://github.com/radixark/miles",
+        "source": "GitHub"
+      }
+    },
+    "text_miles_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Enterprise RL post-training for LLMs/VLMs, co-evolving with slime — GRPO/RLHF with production defaults baked in."
+      }
+    },
+    "stack_miles_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_miles_stars",
+        "badge_miles_lang",
+        "badge_miles_status"
+      ]
+    },
+    "stat_miles_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "55",
+        "delta": "2.5k total"
+      }
+    },
+    "badge_miles_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_miles_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_other": {
+      "type": "Heading",
+      "props": {
+        "text": "Other",
+        "level": "h3"
+      }
+    },
+    "stack_renodx_other": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "story_renodx_other",
+        "text_renodx_other_desc",
+        "stack_renodx_other_stats"
+      ]
+    },
+    "story_renodx_other": {
+      "type": "StoryLink",
+      "props": {
+        "title": "clshortfuse/renodx",
+        "href": "https://github.com/clshortfuse/renodx",
+        "source": "GitHub"
+      }
+    },
+    "text_renodx_other_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Injects HDR and path tracing into shipped DX11/DX12 titles at the GPU layer — no binary patches, no source required."
+      }
+    },
+    "stack_renodx_other_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_renodx_other_stars",
+        "badge_renodx_lang",
+        "badge_renodx_status"
+      ]
+    },
+    "stat_renodx_other_stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "759",
+        "delta": "3.4k total"
+      }
+    },
+    "badge_renodx_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "HLSL"
+      }
+    },
+    "badge_renodx_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 3/17",
+        "variant": "caption"
+      }
+    }
+  }
+}
