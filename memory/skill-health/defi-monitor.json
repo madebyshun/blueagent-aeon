@@ -1,0 +1,14 @@
+{
+  "skill": "defi-monitor",
+  "last_analyzed": "2026-09-04T15:24:16Z",
+  "quality_score": 3,
+  "assessment": "Gracefully handled missing configuration, logged status appropriately. No work to perform without on-chain-watches.yml.",
+  "flags": [],
+  "avg_score": 3,
+  "history": [
+    {
+      "date": "2026-09-04",
+      "score": 3
+    }
+  ]
+}
