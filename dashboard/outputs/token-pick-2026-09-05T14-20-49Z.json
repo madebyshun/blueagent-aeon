@@ -1,0 +1,227 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-09-05"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token_section",
+        "price_section",
+        "score_section",
+        "catalyst_section",
+        "risk_section",
+        "sources_section",
+        "disclaimer_section"
+      ]
+    },
+    "token_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token_name",
+        "signal_badge",
+        "signal_text"
+      ]
+    },
+    "token_name": {
+      "type": "Heading",
+      "props": {
+        "text": "ASTER",
+        "level": "h2"
+      }
+    },
+    "signal_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "secondary"
+      }
+    },
+    "signal_text": {
+      "type": "Text",
+      "props": {
+        "text": "signal 10/10"
+      }
+    },
+    "price_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "price_stat",
+        "mcap_stat",
+        "vol_stat",
+        "vol_ratio_text"
+      ]
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.82",
+        "delta": "+13.1% 24h / +16.9% 7d",
+        "trend": "up"
+      }
+    },
+    "mcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$2.2B"
+      }
+    },
+    "vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$317M"
+      }
+    },
+    "vol_ratio_text": {
+      "type": "Text",
+      "props": {
+        "text": "vol/mcap: 0.14",
+        "variant": "caption"
+      }
+    },
+    "score_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score_heading",
+        "score_breakdown_text"
+      ]
+    },
+    "score_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      }
+    },
+    "score_breakdown_text": {
+      "type": "Text",
+      "props": {
+        "text": "trending +2, both>5% +2, vol/mcap +2, RS vs BTC/ETH +2, both positive +2 = 10/10"
+      }
+    },
+    "catalyst_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst_heading",
+        "catalyst_text"
+      ]
+    },
+    "catalyst_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "Team allocation cliff extended 12 months (Sep 17 2026→Sep 17 2027) removes 400M ASTER (5% of max supply) from near-term circulation; token broke $0.73 key resistance on the news"
+      }
+    },
+    "risk_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "DeFi/perp token in hawkish macro tape; 13% already moved on the day — momentum stalls if FOMC fears front-run the Sep 15-16 meeting",
+        "type": "warning"
+      }
+    },
+    "sources_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_heading",
+        "sources_table"
+      ]
+    },
+    "sources_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h3"
+      }
+    },
+    "sources_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Source",
+          "Status"
+        ],
+        "rows": [
+          [
+            "CoinGecko",
+            "ok"
+          ],
+          [
+            "DEX",
+            "fail"
+          ],
+          [
+            "Polygon",
+            "ok"
+          ]
+        ]
+      }
+    },
+    "recent_picks_text": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time"
+      }
+    },
+    "disclaimer_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "recent_picks_text",
+        "disclaimer_text"
+      ]
+    },
+    "disclaimer_text": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
