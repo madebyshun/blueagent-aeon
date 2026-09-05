@@ -1,40 +1,42 @@
-*Token Movers — 2026-09-04*
+*Token Movers — Sep 5, 2026*
 
-_Broad risk-off — ~25% of non-stablecoin top-100 green, median −1.2%; BTC −1.7% and SOL −2.8% lead steady large-cap bleed while isolated outliers (ZEC, LIT, PONS) diverge on token-specific catalysts._
+_Broad green — ~85% of non-stablecoin top-100 coins positive 24h, BTC flat at $79.7K; DASH +39% leads privacy rotation while NEAR, CAKE, BNB, and ASTER each add 7–13%._
 
 *Top Winners (24h)*
-1. MARSCOIN — $0.1712  +50.3%  •  #189  [PUMP-RISK]
-2. USELESS — $0.2554  +40.9%  •  #148  [PUMP-RISK]
-3. PONS (Pons) — $0.7211  +27.3% / 7d +449% / 1h −2.1%  •  $203M / #105  [TRENDING+UP][BREAKOUT]
-4. LIT (Lighter) — $4.740  +15.5% / 7d +34.1% / 1h −1.6%  •  $191M / #68  [TRENDING+UP][BREAKOUT]
-5. DASH (Dash) — $50.79  +11.2% / 7d +28.9% / 1h −0.2%  •  $280M / #91
-6. ZEC (Zcash) — $984.2  +7.8% / 7d +22.4% / 1h −1.2%  •  $1.31B / #11  [MAJOR][TRENDING+UP]
+1. DASH (Dash) — $69.32  +39.3% / 7d +73.6% / 1h +0.9%  •  $610M / #78  [BREAKOUT]
+2. PONS (Pons) — $0.9253  +21.2% / 7d +384.5% / 1h +0.7%  •  $201M / #93  [TRENDING+UP][BREAKOUT]
+3. 币安人生 — $0.5538  +13.7% / 7d +8.5% / 1h +0.7%  •  $9.6M / #101
+4. CAKE (PancakeSwap) — $2.22  +12.7% / 7d +29.6% / 1h +0.2%  •  $116M / #90  [TRENDING+UP]
+5. ASTER (Aster) — $0.8188  +12.5% / 7d +16.9% / 1h −1.3%  •  $316M / #44  [TRENDING+UP]
+6. NEAR (NEAR Protocol) — $2.20  +12.2% / 7d +22.3% / 1h −1.4%  •  $543M / #35
+7. GT (Gate) — $9.05  +8.8% / 7d +13.4% / 1h +0.4%  •  $2.6M / #74
+8. LTC (Litecoin) — $53.94  +7.2% / 7d +10.5% / 1h +0.6%  •  $385M / #26
+9. ALGO (Algorand) — $0.0974  +7.2% / 7d +11.5% / 1h −0.6%  •  $36.3M / #80
+10. BNB — $763  +6.8% / 7d +10.4% / 1h −0.5%  •  $1.67B / #4  [MAJOR]
 
 *Top Losers (24h)*
-1. JUP (Jupiter) — $0.2152  −7.7% / 7d −7.6% / 1h −0.9%  •  $66.7M / #88
-2. FIL (Filecoin) — $0.7464  −6.6% / 7d +6.1% / 1h −0.8%  •  $86M / #94
-3. PENGU (Pudgy Penguins) — $0.008240  −6.2% / 7d −12.8% / 1h −2.1%  •  $182M / #104  [TRENDING+DOWN]
-4. PEPE — $0.0000035  −6.0% / 7d −8.0% / 1h −1.5%  •  $398M / #55
-5. CASHCAT — $0.2559  −5.4%  •  #151  [TRENDING+DOWN]
-6. TRUMP (Official Trump) — $2.260  −5.3% / 7d −18.2% / 1h −0.3%  •  $415M / #95
-7. SUI — $0.7489  −4.0% / 7d −2.1% / 1h −1.3%  •  $546M / #32
-8. ONDO — $0.3537  −3.9% / 7d −4.7% / 1h −2.0%  •  $111M / #50
-9. DOT (Polkadot) — $0.8532  −3.9% / 7d −2.6% / 1h −1.5%  •  $140M / #58
-10. PUMP (Pump.fun) — $0.004270  −3.9% / 7d −11.2% / 1h −2.1%  •  $230M / #52
+1. PUMP (Pump.fun) — $0.004097  −4.1% / 7d −11.8% / 1h −0.6%  •  $128M / #53  [TRENDING+DOWN]
+2. SPX (SPX6900) — $0.5885  −3.4% / 7d +11.3% / 1h −0.6%  •  $8.2M / #103
+3. QNT (Quant) — $63.84  −1.9% / 7d +4.5% / 1h −0.8%  •  $14.2M / #75
+4. ENA (Ethena) — $0.1636  −1.1% / 7d +5.5% / 1h −1.1%  •  $394M / #52
+5. RAIN (Rain) — $0.01643  −1.0% / 7d −6.9% / 1h −0.1%  •  $43.0M / #13
+6. ETHFI (Ether.fi) — $0.5581  −0.9% / 7d +5.1% / 1h −1.0%  •  $37.0M / #105
+7. AAVE (Aave) — $130.16  −0.7% / 7d +6.4% / 1h −0.6%  •  $184M / #46
+8. FLR (Flare) — $0.006707  −0.7% / 7d +6.5% / 1h +0.2%  •  $2.3M / #98
+9. ARB (Arbitrum) — $0.1339  −0.6% / 7d +52.7% / 1h −0.9%  •  $175M / #77
+10. BCH (Bitcoin Cash) — $249.57  −0.6% / 7d +2.4% / 1h +0.2%  •  $139M / #21
 
 *Trending*
-1. PONS (Pons) — #105, $0.7211, +27.3%  [TRENDING+UP]
-2. LIT (Lighter) — #68, $4.740, +15.5%  [TRENDING+UP]
-3. USELESS — #148, $0.2554, +40.9%  [PUMP-RISK]
-4. ZEC (Zcash) — #11, $984, +12.1%  [MAJOR][TRENDING+UP]
-5. MARSCOIN — #189, $0.1712, +50.3%  [PUMP-RISK]
-6. PENGU — #104, $0.008240, −6.1%  [TRENDING+DOWN]
-7. HYPE — #10, $84.66, +0.9%  (Sep 6 unlock T-2)
+1. FIRO (Firo) — #974, $0.81, +19.5%  [MICROCAP]
+2. PONS (Pons) — #93, $0.925, +21.2%  [TRENDING+UP]
+3. SHRUB (Lil' Shrub) — #231, $0.13, +53.3%  [PUMP-RISK]
+4. PUMP (Pump.fun) — #53, $0.0041, −4.1%  [TRENDING+DOWN]
+5. USELESS — #149, $0.26, +1.7%
+6. ZEC (Zcash) — #11, $1,015, +3.7%  [MAJOR]
+7. MARSCOIN — #167, $0.23, +30.7%  [PUMP-RISK]
 
 *Notable*
-• PONS [TRENDING+UP][BREAKOUT]: #105 up 27% / 7d +449% — sustained multi-day run, no clear catalyst; watch for sharp reversal
-• MARSCOIN [PUMP-RISK]: #189 up 50% — low-cap spike, no catalyst; discard
-• USELESS [PUMP-RISK]: #148, third consecutive +40% day — clear manipulation pattern regardless of rank
-• ZEC [MAJOR] day 3: $909→$984; ZCSH ETF $313M AUM live + NU7 vote Sep 14; same tags as Sep 3 but run extending
-• JUP/PEPE reversal: both Sep 3 winners (+10.4%/+10.6%) now lead losers (−7.7%/−6.0%) — relief-rally retail alts fading
-• HYPE T-2: Sep 6 $797M unlock window opens tomorrow; trending at near-flat price = distribution watch
+• DASH: +39.3% / 7d +73.6% [BREAKOUT] — privacy rotation accelerating; ZEC in day 5 uptrend, DASH now joining. NU7 Sep 14 + ZCSH ETF narrative spilling into DASH.
+• PONS: Day 2 [TRENDING+UP][BREAKOUT] (Sep 4: +27.3%) — Binance Alpha listing momentum holding; 7d still +384.5%.
+• SHRUB: #231 +53.3% in trending [PUMP-RISK] — no identifiable catalyst; low-cap spike.
+• MARSCOIN: Day 2 trending [PUMP-RISK] (Sep 4: +50.3% → today +30.7%) — continued manipulation signal.
