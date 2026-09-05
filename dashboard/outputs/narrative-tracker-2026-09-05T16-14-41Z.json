@@ -1,0 +1,597 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-05"
+      },
+      "children": [
+        "section_transitions",
+        "sep_1",
+        "section_reflexivity",
+        "sep_2",
+        "section_positions",
+        "sep_3",
+        "section_map"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "transitions_stack"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transitions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans_dead_iran",
+        "trans_promoted_privacy",
+        "trans_promoted_hype",
+        "trans_velocity_bnb",
+        "trans_velocity_defi"
+      ]
+    },
+    "trans_dead_iran": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_dead_header",
+        "trans_dead_detail"
+      ]
+    },
+    "trans_dead_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_dead",
+        "text_dead_title"
+      ]
+    },
+    "badge_dead": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "text_dead_title": {
+      "type": "Text",
+      "props": {
+        "text": "Iran War"
+      }
+    },
+    "trans_dead_detail": {
+      "type": "Text",
+      "props": {
+        "text": "dropped from morning-brief top 3 for first time since Sep 1; BTC holds $79.7K; market fully absorbed (was MS 2 ↓↓ Fading)",
+        "variant": "caption"
+      }
+    },
+    "trans_promoted_privacy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_priv_header",
+        "trans_priv_detail"
+      ]
+    },
+    "trans_priv_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_promoted",
+        "text_priv_title"
+      ]
+    },
+    "badge_promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_priv_title": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy Coin Rotation — Rising ↑↑ FRONT-RUN"
+      }
+    },
+    "trans_priv_detail": {
+      "type": "Text",
+      "props": {
+        "text": "(was ZEC/Privacy Rising ↑ RIDE) — ZEC narrative bled into DASH Day 2 +39.3% [BREAKOUT]; DashCon 2026 Amsterdam = new named catalyst; FIRO [MICROCAP] trending = three-coin rotation now live; ZEC NU7 Sep 14 still the core reload",
+        "variant": "caption"
+      }
+    },
+    "trans_promoted_hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_hype_header",
+        "trans_hype_detail"
+      ]
+    },
+    "trans_hype_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_promoted_2",
+        "text_hype_title"
+      ]
+    },
+    "badge_promoted_2": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_hype_title": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE Unlock — Emerging → Peak ↑↑ FADE"
+      }
+    },
+    "trans_hype_detail": {
+      "type": "Text",
+      "props": {
+        "text": "$797M contributor tokens drop Sep 6; T-1 decision window closes today",
+        "variant": "caption"
+      }
+    },
+    "trans_velocity_bnb": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_bnb_header",
+        "trans_bnb_detail"
+      ]
+    },
+    "trans_bnb_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_velocity_up",
+        "text_bnb_title"
+      ]
+    },
+    "badge_velocity_up": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY UP",
+        "variant": "outline"
+      }
+    },
+    "text_bnb_title": {
+      "type": "Text",
+      "props": {
+        "text": "BNB Chain/AI L1 (↑ → ↑↑)"
+      }
+    },
+    "trans_bnb_detail": {
+      "type": "Text",
+      "props": {
+        "text": "BNB +6.8% [MAJOR] Day 2; Binance Agent OS product-token flywheel confirmed",
+        "variant": "caption"
+      }
+    },
+    "trans_velocity_defi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_defi_header",
+        "trans_defi_detail"
+      ]
+    },
+    "trans_defi_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_velocity_up_2",
+        "text_defi_title"
+      ]
+    },
+    "badge_velocity_up_2": {
+      "type": "Badge",
+      "props": {
+        "text": "VELOCITY UP",
+        "variant": "outline"
+      }
+    },
+    "text_defi_title": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Revival (↑ → ↑↑)"
+      }
+    },
+    "trans_defi_detail": {
+      "type": "Text",
+      "props": {
+        "text": "CAKE +12.7%",
+        "variant": "caption"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_reflexivity": {
+      "type": "Alert",
+      "props": {
+        "title": "REFLEXIVITY ALERT",
+        "type": "warning",
+        "message": "Privacy Coin Rotation: ZEC catalyst (ZCSH ETF + NU7 Sep 14) now moving DASH +39.3% and FIRO [MICROCAP] with zero independent catalysts — pure narrative-driven spillover. Momentum is breakable if ZEC fails to hold.\n\nHYPE Unlock Cliff: T-1 attention peak = prime distribution window. Claim rate vs 1.75% March baseline is the key variable. High claim rate → supply shock sell; Low claim rate → holders long → post-unlock squeeze setup.\n\nBNB/Binance Flywheel: Binance MCP product (Sep 4) → BNB +6.8% [MAJOR] Day 2 (Sep 5). Exchange infrastructure narrative pricing native token. Compounds each day more exchanges deploy."
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_positions",
+        "positions_stack"
+      ]
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_fade_hype",
+        "pos_frontrun_privacy",
+        "pos_ride_bnb"
+      ]
+    },
+    "pos_fade_hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_hype_header",
+        "pos_hype_detail"
+      ]
+    },
+    "pos_hype_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_fade",
+        "text_pos_hype_title"
+      ]
+    },
+    "badge_fade": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "text_pos_hype_title": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE Unlock (MS 5 ↑↑ Peak, Bear)"
+      }
+    },
+    "pos_hype_detail": {
+      "type": "Text",
+      "props": {
+        "text": "$797M Sep 6; T-1 last exit window; bear case: post-unlock rally if claim rate <1.75% March baseline",
+        "variant": "caption"
+      }
+    },
+    "pos_frontrun_privacy": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_privacy_header",
+        "pos_privacy_detail"
+      ]
+    },
+    "pos_privacy_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_frontrun",
+        "text_pos_privacy_title"
+      ]
+    },
+    "badge_frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "outline"
+      }
+    },
+    "text_pos_privacy_title": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy Coin Rotation (MS 4 ↑↑ Rising, Bull)"
+      }
+    },
+    "pos_privacy_detail": {
+      "type": "Text",
+      "props": {
+        "text": "@DashPay DashCon Amsterdam + @ZcashMedia NU7 Sep 14 reload + FIRO spillover — bear: DASH has no ETF catalyst, purely reflexive off ZEC",
+        "variant": "caption"
+      }
+    },
+    "pos_ride_bnb": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_bnb_header",
+        "pos_bnb_detail"
+      ]
+    },
+    "pos_bnb_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_ride",
+        "text_pos_bnb_title"
+      ]
+    },
+    "badge_ride": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "text_pos_bnb_title": {
+      "type": "Text",
+      "props": {
+        "text": "BNB Chain/AI L1 (MS 4 ↑↑ Rising, Mixed)"
+      }
+    },
+    "pos_bnb_detail": {
+      "type": "Text",
+      "props": {
+        "text": "@BNBChain Agent OS Day 2 product-token flywheel — bear: Binance product, not decentralized ecosystem",
+        "variant": "caption"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_map",
+        "map_stack"
+      ]
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading",
+        "map_dead"
+      ]
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerging_title",
+        "map_emerging_items"
+      ]
+    },
+    "map_emerging_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      }
+    },
+    "map_emerging_items": {
+      "type": "Text",
+      "props": {
+        "text": "Alt-ETF/ADA, Lean Ethereum, FHE, X Money, Bitcoin L2/BitVM"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_title",
+        "map_rising_items"
+      ]
+    },
+    "map_rising_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      }
+    },
+    "map_rising_items": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy Coin Rotation, AI Trading Infrastructure, ETH ETF/Institutional Flow, Agent Identity, DeFi Revival, AI Compute/DePIN, AI Agent Security/TEE, RWA Tokenization, Oracle/LINK, BNB Chain/AI L1, Solana RWA, Quantum"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_title",
+        "map_peak_items"
+      ]
+    },
+    "map_peak_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      }
+    },
+    "map_peak_items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy, x402/Agentic Payments, Agentic Dev Tools, L2 Revival, Hawkish Fed, HYPE Unlock"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_title",
+        "map_fading_items"
+      ]
+    },
+    "map_fading_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      }
+    },
+    "map_fading_items": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act, Memecoins/Retail, Coinbase AiFi/Base, ENA, TRUMP, Solana Supply Shock, AI→Crypto Capital Rotation, LayerZero L1 Zero"
+      }
+    },
+    "map_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_dead_title",
+        "map_dead_items"
+      ]
+    },
+    "map_dead_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Dead",
+        "level": "h3"
+      }
+    },
+    "map_dead_items": {
+      "type": "Text",
+      "props": {
+        "text": "Iran War"
+      }
+    }
+  }
+}
