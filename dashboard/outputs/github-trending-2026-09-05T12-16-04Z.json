@@ -1,0 +1,37 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-05"
+      },
+      "children": [
+        "alert-main",
+        "sep-1",
+        "text-sources"
+      ]
+    },
+    "alert-main": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Quiet day — nothing above the noise floor. Page dominated by suspected star-farm repos (agent harnesses and skills collections) and previously flagged inflated accounts. Zero genuine survivors after filtering."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 0/16",
+        "variant": "caption"
+      }
+    }
+  }
+}
