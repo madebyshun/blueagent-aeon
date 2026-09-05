@@ -1,0 +1,202 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-09-05"
+      },
+      "children": [
+        "focus-heading",
+        "focus-stack",
+        "sep1",
+        "yesterday-heading",
+        "yesterday-stack",
+        "sep2",
+        "watch-heading",
+        "watch-text",
+        "sep3",
+        "running-heading",
+        "running-stack"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE unlock T-1 — why now: $797M contributor tokens drop tomorrow; decide today",
+        "variant": "body"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "x402/Agentic Payments — why now: four exchanges live on MCP; loop compounds each day",
+        "variant": "body"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act T-10 — why now: Iran consuming Senate floor; YES slide still accelerating",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "btc",
+        "hype",
+        "zec",
+        "skills"
+      ]
+    },
+    "btc": {
+      "type": "Text",
+      "props": {
+        "text": "BTC: $77.6K → $81K (Waller dovish) → ~$79K today; broke 200-day EMA first time since June",
+        "variant": "body"
+      }
+    },
+    "hype": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE: T-2 → T-1; second unlock (14.175M tokens) also queued Sep 29",
+        "variant": "body"
+      }
+    },
+    "zec": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC: Day 5 rally intact; NU7 Sep 14 is next reload",
+        "variant": "body"
+      }
+    },
+    "skills": {
+      "type": "Text",
+      "props": {
+        "text": "Skills: all green — security-digest recovered from Sep 3 failure",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-text": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Sep 15-16: rate-hike prob dropped 63%→50% on Waller signal; if Aug CPI holds, macro headwind clears — amplifies HYPE unlock timing and x402 reflexive loop",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "run-1",
+        "run-2",
+        "run-3",
+        "run-4",
+        "run-5"
+      ]
+    },
+    "run-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 / 14:00 / 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "run-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "run-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "run-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "run-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
