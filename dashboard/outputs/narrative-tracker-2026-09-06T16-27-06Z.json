@@ -1,0 +1,624 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-06"
+      },
+      "children": [
+        "transitions-section",
+        "sep1",
+        "reflexivity-section",
+        "sep2",
+        "positions-section",
+        "sep3",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions-heading",
+        "transition-1",
+        "transition-2",
+        "transition-3",
+        "transition-4",
+        "transition-5"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transition-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-badge",
+        "t1-text"
+      ]
+    },
+    "t1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD: HYPE",
+        "variant": "destructive"
+      }
+    },
+    "t1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Unlock FADE — resolved T-0; low claim rate (below 1.75% March baseline) rejected bear thesis; HYPE +3.7% on unlock day"
+      }
+    },
+    "transition-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-badge",
+        "t2-text"
+      ]
+    },
+    "t2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW: Solana Perp DEX / JUP",
+        "variant": "secondary"
+      }
+    },
+    "t2-text": {
+      "type": "Text",
+      "props": {
+        "text": "JUP V-bounce +18.5%; DAO eliminated 2026 net emissions; buyback raised to 70% of protocol fees; Solana perps $1.08T cumulative with JUP ~80% share"
+      }
+    },
+    "transition-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-badge",
+        "t3-text"
+      ]
+    },
+    "t3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED: DeFi Revival Rising",
+        "variant": "secondary"
+      }
+    },
+    "t3-text": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH → Rising ↑↑ RIDE — ARB +39% $1B vol 7d+118% [BREAKOUT] confirms infrastructure in actual use"
+      }
+    },
+    "transition-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-badge",
+        "t4-text"
+      ]
+    },
+    "t4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED: Privacy Coin Rotation",
+        "variant": "outline"
+      }
+    },
+    "t4-text": {
+      "type": "Text",
+      "props": {
+        "text": "↑↑ FRONT-RUN → ↑ RIDE — DASH −3.1% reversal (was +39.3% Sep 5 Day 2); multi-coin thesis broken; ZEC core holds Day 6 +12.2%"
+      }
+    },
+    "transition-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t5-badge",
+        "t5-text"
+      ]
+    },
+    "t5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED: BNB Chain/AI L1",
+        "variant": "outline"
+      }
+    },
+    "t5-text": {
+      "type": "Text",
+      "props": {
+        "text": "↑↑ RIDE → ↓ WATCH — BNB −3.4% [MAJOR]; Binance Agent OS flywheel stalled one day after pump"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "alert-arb",
+        "alert-jup",
+        "alert-dash"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERTS",
+        "level": "h2"
+      }
+    },
+    "alert-arb": {
+      "type": "Alert",
+      "props": {
+        "title": "ARB: DeFi Narrative Reflexivity",
+        "message": "DeFi narrative creating its own volume signal — $1B 24h vol, 7d +118%; infrastructure story is reflexive",
+        "type": "warning"
+      }
+    },
+    "alert-jup": {
+      "type": "Alert",
+      "props": {
+        "title": "JUP: DAO-Engineered Supply Narrative",
+        "message": "DAO-engineered supply narrative — emission cut + buyback raise is deliberate scarcity construction; price move partly reflexive on governance",
+        "type": "warning"
+      }
+    },
+    "alert-dash": {
+      "type": "Alert",
+      "props": {
+        "title": "DASH: Confirmed Trap",
+        "message": "Confirmed trap — +39.3% Sep 5 on DashCon Amsterdam (no ETF catalyst); −3.1% Sep 6 while ZEC (real NU7 Sep 14 catalyst) holds; narrative bleed exposed",
+        "type": "error"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions-heading",
+        "pos-1",
+        "pos-2",
+        "pos-3",
+        "pos-4",
+        "pos-5",
+        "pos-6",
+        "pos-7",
+        "pos-8",
+        "pos-9"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1-title",
+        "pos1-handles",
+        "pos1-bear"
+      ]
+    },
+    "pos1-title": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN: Solana Perp DEX / JUP (MS 3 ↑↑ Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos1-handles": {
+      "type": "Text",
+      "props": {
+        "text": "@JupiterExchange DAO, @aeyakovenko"
+      }
+    },
+    "pos1-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: V-bounce at $0.27 may have priced in the emission cut",
+        "variant": "caption"
+      }
+    },
+    "pos-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos2-title",
+        "pos2-handles",
+        "pos2-bear"
+      ]
+    },
+    "pos2-title": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN: ARB Breakout (MS 4 ↑↑ Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos2-handles": {
+      "type": "Text",
+      "props": {
+        "text": "@arbitrum, L2 flows"
+      }
+    },
+    "pos2-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: short-covering rally; sustainable only if TVL follows volume",
+        "variant": "caption"
+      }
+    },
+    "pos-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos3-title",
+        "pos3-detail",
+        "pos3-bear"
+      ]
+    },
+    "pos3-title": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: DeFi Revival (MS 4 ↑↑ Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos3-detail": {
+      "type": "Text",
+      "props": {
+        "text": "ARB + CAKE + JUP"
+      }
+    },
+    "pos3-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: vol spikes front-run announcements, not always organic",
+        "variant": "caption"
+      }
+    },
+    "pos-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos4-title",
+        "pos4-handles",
+        "pos4-bear"
+      ]
+    },
+    "pos4-title": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: AI Agent Economy (MS 5 → Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos4-handles": {
+      "type": "Text",
+      "props": {
+        "text": "@a16zcrypto, @Keyrock_trading"
+      }
+    },
+    "pos4-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: $73M settled = rounding error vs total DeFi TVL",
+        "variant": "caption"
+      }
+    },
+    "pos-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos5-title",
+        "pos5-detail",
+        "pos5-bear"
+      ]
+    },
+    "pos5-title": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: x402/Agentic Payments (MS 5 ↑↑ Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos5-detail": {
+      "type": "Text",
+      "props": {
+        "text": "@base MCP stack"
+      }
+    },
+    "pos5-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: four exchanges is a demo, not network effects yet",
+        "variant": "caption"
+      }
+    },
+    "pos-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos6-title",
+        "pos6-detail"
+      ]
+    },
+    "pos6-title": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: Post-Unlock HYPE Squeeze (MS 3 ↑ Mixed)",
+        "variant": "lead"
+      }
+    },
+    "pos6-detail": {
+      "type": "Text",
+      "props": {
+        "text": "low claim rate bullish; 48h absorption window still open; @HyperliquidX"
+      }
+    },
+    "pos-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos7-title",
+        "pos7-detail"
+      ]
+    },
+    "pos7-title": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: Hawkish Fed (MS 5 ↓ Mixed)",
+        "variant": "lead"
+      }
+    },
+    "pos7-detail": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Sep 15-16; 50% hike prob; could flip all risk-on in 9 days"
+      }
+    },
+    "pos-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos8-title",
+        "pos8-detail"
+      ]
+    },
+    "pos8-title": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: CLARITY Act (MS 2 ↓↓ Bear)",
+        "variant": "lead"
+      }
+    },
+    "pos8-detail": {
+      "type": "Text",
+      "props": {
+        "text": "T-9; DeFi rules dispute + ethics provisions killing YES votes"
+      }
+    },
+    "pos-9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos9-title",
+        "pos9-detail"
+      ]
+    },
+    "pos9-title": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: Memecoins/Retail (MS 2 ↓↓ Bear)",
+        "variant": "lead"
+      }
+    },
+    "pos9-detail": {
+      "type": "Text",
+      "props": {
+        "text": "SHRUB −77.6% capitulation; STONK +277% [PUMP-RISK]; distribution phase"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-heading",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-label",
+        "map-emerging-items"
+      ]
+    },
+    "map-emerging-label": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging",
+        "variant": "lead"
+      }
+    },
+    "map-emerging-items": {
+      "type": "Text",
+      "props": {
+        "text": "Solana Perp DEX/JUP ★NEW, Post-Unlock HYPE Squeeze ★NEW, FHE/Confidential"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-label",
+        "map-rising-items"
+      ]
+    },
+    "map-rising-label": {
+      "type": "Text",
+      "props": {
+        "text": "Rising",
+        "variant": "lead"
+      }
+    },
+    "map-rising-items": {
+      "type": "Text",
+      "props": {
+        "text": "ARB Breakout, DeFi Revival, Privacy Coin Rotation (ZEC), AI Trading Infrastructure, ETH ETF/Institutional, Quantum, RWA, Agent Identity/TEE, AI Compute/DePIN, BNB Chain ↓, Alt-ETF"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-label",
+        "map-peak-items"
+      ]
+    },
+    "map-peak-label": {
+      "type": "Text",
+      "props": {
+        "text": "Peak",
+        "variant": "lead"
+      }
+    },
+    "map-peak-items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy, x402/Agentic Payments, Agentic Dev Tools, Hawkish Fed"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-label",
+        "map-fading-items"
+      ]
+    },
+    "map-fading-label": {
+      "type": "Text",
+      "props": {
+        "text": "Fading",
+        "variant": "lead"
+      }
+    },
+    "map-fading-items": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act, Memecoins/Retail, Coinbase AiFi/Base, ENA, Solana Supply Shock, LayerZero L1 Zero"
+      }
+    }
+  }
+}
