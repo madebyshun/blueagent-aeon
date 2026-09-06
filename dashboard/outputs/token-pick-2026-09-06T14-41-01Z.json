@@ -1,0 +1,406 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-09-06"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-jup",
+        "sep-1",
+        "section-market",
+        "sep-2",
+        "footer"
+      ]
+    },
+    "section-jup": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-jup",
+        "jup-header",
+        "jup-price-stats",
+        "jup-score",
+        "jup-catalyst",
+        "jup-risk",
+        "jup-comparison"
+      ]
+    },
+    "heading-jup": {
+      "type": "Heading",
+      "props": {
+        "text": "JUP Token",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "jup-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-jup-signal"
+      ]
+    },
+    "badge-jup-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH • signal 11/10",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "jup-price-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-price",
+        "stat-change-24h",
+        "stat-change-7d",
+        "stat-mcap",
+        "stat-volume",
+        "stat-vol-ratio"
+      ]
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.27"
+      },
+      "children": []
+    },
+    "stat-change-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+18.5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-change-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+24.8%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$900M"
+      },
+      "children": []
+    },
+    "stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$183M"
+      },
+      "children": []
+    },
+    "stat-vol-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume / Mcap",
+        "value": "0.21"
+      },
+      "children": []
+    },
+    "jup-score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-label",
+        "score-breakdown"
+      ]
+    },
+    "score-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "score-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "trending +2 | vol/mcap +3 | both >5% +2 | 24h >0 +1 | 7d >0 +1 | RS vs BTC/ETH +2 = 11/10",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "jup-catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-label",
+        "catalyst-text"
+      ]
+    },
+    "catalyst-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "Jupiter DAO eliminated all net new JUP emissions for 2026 (postponed Jupuary, paused team vesting), Litterbox buyback raised 50%→70% of protocol fees — supply shock meets $1.08T cumulative Solana perps notional (JUP Perps ~80% share)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "jup-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "JUP dumped -7.7% on Sep 4 showing sharp reversal capacity; SOL ecosystem only +0.9% 7d means this is token-specific, not ecosystem — fragile if fee narrative fades",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "jup-comparison": {
+      "type": "Text",
+      "props": {
+        "text": "First time in 7-day window",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-market",
+        "market-header",
+        "market-question",
+        "market-odds",
+        "market-volume",
+        "market-fair",
+        "market-thesis",
+        "market-risk",
+        "market-resolves"
+      ]
+    },
+    "heading-market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "market-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-market-signal"
+      ]
+    },
+    "badge-market-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH • edge 22pp",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "market-question": {
+      "type": "Text",
+      "props": {
+        "text": "What price will Ethereum hit in September? (↓ 2,400)?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "market-odds": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-yes-odds",
+        "stat-no-odds"
+      ]
+    },
+    "stat-yes-odds": {
+      "type": "Stat",
+      "props": {
+        "label": "YES (touch $2,400)",
+        "value": "82¢"
+      },
+      "children": []
+    },
+    "stat-no-odds": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "18¢"
+      },
+      "children": []
+    },
+    "market-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "~$450K"
+      },
+      "children": []
+    },
+    "market-fair": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair-label",
+        "fair-text"
+      ]
+    },
+    "fair-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair YES Probability",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "fair-text": {
+      "type": "Text",
+      "props": {
+        "text": "~60% (inputs: ETH at $2,475 with +1.0% 7d momentum; Standard Chartered UAE + ETH ETF institutional inflow tailwinds; 3.1% downside barrier with 24 days remaining → touch prob <65%)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "market-thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-label",
+        "thesis-text"
+      ]
+    },
+    "thesis-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market overprices $2,400 touch at 82% — ETH has active institutional buyers and no near-term catalyst for a $75 drawdown; trade NO at 18¢",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "market-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "BTC macro weakness drags ETH below $2,400; HYPE unlock-day broad selling pressure; surprise hawkish CPI print",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "market-resolves": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: Sept 30, 2026",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-text",
+        "disclaimer-text"
+      ]
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "disclaimer-text": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
