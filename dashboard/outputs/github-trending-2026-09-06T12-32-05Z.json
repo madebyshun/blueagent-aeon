@@ -1,0 +1,300 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-06"
+      },
+      "children": [
+        "section_toppick",
+        "sep_1",
+        "section_aiml",
+        "sep_2",
+        "section_devtools",
+        "sep_3",
+        "sources_text"
+      ]
+    },
+    "section_toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "toppick_heading",
+        "story_magnitude_toppick",
+        "text_magnitude_toppick_desc"
+      ]
+    },
+    "toppick_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "story_magnitude_toppick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "magnitudedev/magnitude",
+        "href": "https://github.com/magnitudedev/magnitude",
+        "source": "GitHub"
+      }
+    },
+    "text_magnitude_toppick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Most actively shipping project today: 3 releases in 5 days, pushed this morning, deepening local-model inference for Claude Code and OpenCode.",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_heading",
+        "aiml_item_magnitude"
+      ]
+    },
+    "aiml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "aiml_item_magnitude": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story_magnitude_aiml",
+        "stack_magnitude_meta",
+        "text_magnitude_aiml"
+      ]
+    },
+    "story_magnitude_aiml": {
+      "type": "StoryLink",
+      "props": {
+        "title": "magnitudedev/magnitude",
+        "href": "https://github.com/magnitudedev/magnitude"
+      }
+    },
+    "stack_magnitude_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_magnitude",
+        "badge_magnitude_lang",
+        "badge_magnitude_status"
+      ]
+    },
+    "stat_magnitude": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "3.4k",
+        "delta": "+604 today",
+        "trend": "up"
+      }
+    },
+    "badge_magnitude_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "default"
+      }
+    },
+    "badge_magnitude_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text_magnitude_aiml": {
+      "type": "Text",
+      "props": {
+        "text": "Shipping 3 releases this week; native Claude Code + OpenCode inference layer — pushed Sep 6.",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "devtools_item_nvm",
+        "devtools_item_fmt"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "devtools_item_nvm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story_nvm",
+        "stack_nvm_meta",
+        "text_nvm"
+      ]
+    },
+    "story_nvm": {
+      "type": "StoryLink",
+      "props": {
+        "title": "nvm-sh/nvm",
+        "href": "https://github.com/nvm-sh/nvm"
+      }
+    },
+    "stack_nvm_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_nvm",
+        "badge_nvm_lang",
+        "badge_nvm_status"
+      ]
+    },
+    "stat_nvm": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "95k",
+        "delta": "+151 today",
+        "trend": "up"
+      }
+    },
+    "badge_nvm_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell",
+        "variant": "default"
+      }
+    },
+    "badge_nvm_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text_nvm": {
+      "type": "Text",
+      "props": {
+        "text": "Zsh edge-case fixes (extendedglob, nomatch, markdirs) merged Sep 4 — 9× star spike today signals viral pickup.",
+        "variant": "body"
+      }
+    },
+    "devtools_item_fmt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story_fmt",
+        "stack_fmt_meta",
+        "text_fmt"
+      ]
+    },
+    "story_fmt": {
+      "type": "StoryLink",
+      "props": {
+        "title": "fmtlib/fmt",
+        "href": "https://github.com/fmtlib/fmt"
+      }
+    },
+    "stack_fmt_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_fmt",
+        "badge_fmt_lang",
+        "badge_fmt_status"
+      ]
+    },
+    "stat_fmt": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "25.6k",
+        "delta": "+78 today",
+        "trend": "up"
+      }
+    },
+    "badge_fmt_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C++",
+        "variant": "default"
+      }
+    },
+    "badge_fmt_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text_fmt": {
+      "type": "Text",
+      "props": {
+        "text": "Enables C++ modules by default for AppleClang — zero-overhead fmt imports in Xcode without header workarounds.",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 3/16",
+        "variant": "muted"
+      }
+    }
+  }
+}
