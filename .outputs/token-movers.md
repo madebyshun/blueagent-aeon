@@ -1,42 +1,45 @@
-*Token Movers — Sep 5, 2026*
+*Token Movers — Sep 6, 2026*
 
-_Broad green — ~85% of non-stablecoin top-100 coins positive 24h, BTC flat at $79.7K; DASH +39% leads privacy rotation while NEAR, CAKE, BNB, and ASTER each add 7–13%._
+_Alt rotation — ~58% of non-stablecoin top-100 green; BTC flat at $79.5K, median ~+0.7%; ARB leads DeFi surge while HYPE weathers unlock day and DASH privacy trade reverses._
 
 *Top Winners (24h)*
-1. DASH (Dash) — $69.32  +39.3% / 7d +73.6% / 1h +0.9%  •  $610M / #78  [BREAKOUT]
-2. PONS (Pons) — $0.9253  +21.2% / 7d +384.5% / 1h +0.7%  •  $201M / #93  [TRENDING+UP][BREAKOUT]
-3. 币安人生 — $0.5538  +13.7% / 7d +8.5% / 1h +0.7%  •  $9.6M / #101
-4. CAKE (PancakeSwap) — $2.22  +12.7% / 7d +29.6% / 1h +0.2%  •  $116M / #90  [TRENDING+UP]
-5. ASTER (Aster) — $0.8188  +12.5% / 7d +16.9% / 1h −1.3%  •  $316M / #44  [TRENDING+UP]
-6. NEAR (NEAR Protocol) — $2.20  +12.2% / 7d +22.3% / 1h −1.4%  •  $543M / #35
-7. GT (Gate) — $9.05  +8.8% / 7d +13.4% / 1h +0.4%  •  $2.6M / #74
-8. LTC (Litecoin) — $53.94  +7.2% / 7d +10.5% / 1h +0.6%  •  $385M / #26
-9. ALGO (Algorand) — $0.0974  +7.2% / 7d +11.5% / 1h −0.6%  •  $36.3M / #80
-10. BNB — $763  +6.8% / 7d +10.4% / 1h −0.5%  •  $1.67B / #4  [MAJOR]
+1. STONK (#236) — $0.1423  +277.2%  •  vol n/a  [PUMP-RISK]
+2. RAY (Raydium, #123) — $1.306  +56.8%  •  vol n/a  [TRENDING+UP]
+3. ARB (Arbitrum, #65) — $0.1868  +39.0% / 7d +118.1% / 1h +1.5%  •  $1.00B / #65  [TRENDING+UP][BREAKOUT]
+4. FIRO (#906) — $0.972  +20.6%  •  vol n/a  [MICROCAP]
+5. BULLA (#319) — $0.0812  +17.9% / 7d +375.6% / 1h −0.5%  •  $7.2M  [BREAKOUT]
+6. JUP (Jupiter, #78) — $0.263  +17.6% / 7d +24.8% / 1h +1.8%  •  $184M  [TRENDING+UP]
+7. ZEC (Zcash, #10) — $1,142  +12.2% / 7d +38.9% / 1h +0.9%  •  $1.35B  [MAJOR][TRENDING+UP]
+8. UNI (Uniswap, #24) — $6.91  +8.6% / 7d +33.6% / 1h −0.4%  •  $1.12B  [TRENDING+UP]
+9. NEAR (#33) — $2.39  +8.2% / 7d +30.9% / 1h +5.1%  •  $555M  [TRENDING+UP]
+10. ICP (#55) — $2.74  +4.8% / 7d +12.8% / 1h +2.4%  •  $63M
 
 *Top Losers (24h)*
-1. PUMP (Pump.fun) — $0.004097  −4.1% / 7d −11.8% / 1h −0.6%  •  $128M / #53  [TRENDING+DOWN]
-2. SPX (SPX6900) — $0.5885  −3.4% / 7d +11.3% / 1h −0.6%  •  $8.2M / #103
-3. QNT (Quant) — $63.84  −1.9% / 7d +4.5% / 1h −0.8%  •  $14.2M / #75
-4. ENA (Ethena) — $0.1636  −1.1% / 7d +5.5% / 1h −1.1%  •  $394M / #52
-5. RAIN (Rain) — $0.01643  −1.0% / 7d −6.9% / 1h −0.1%  •  $43.0M / #13
-6. ETHFI (Ether.fi) — $0.5581  −0.9% / 7d +5.1% / 1h −1.0%  •  $37.0M / #105
-7. AAVE (Aave) — $130.16  −0.7% / 7d +6.4% / 1h −0.6%  •  $184M / #46
-8. FLR (Flare) — $0.006707  −0.7% / 7d +6.5% / 1h +0.2%  •  $2.3M / #98
-9. ARB (Arbitrum) — $0.1339  −0.6% / 7d +52.7% / 1h −0.9%  •  $175M / #77
-10. BCH (Bitcoin Cash) — $249.57  −0.6% / 7d +2.4% / 1h +0.2%  •  $139M / #21
+1. SHRUB (#693) — $0.0265  −77.6%  •  vol n/a  [CAPITULATION][TRENDING+DOWN]
+2. Niu Lai (#296) — $0.0918  −19.5% / 7d −12.3%  •  $26.9M
+3. Lobster (#347) — $0.073  −15.1% / 7d +4.7%  •  $9.1M
+4. UP (Unitas, #288) — $0.441  −11.4% / 7d −7.1%  •  $12.3M
+5. FORM (Four, #278) — $0.262  −10.1% / 7d +6.8%  •  $9.3M
+6. CP (Cluster, #550) — $0.0287  −9.4%  •  vol n/a  [TRENDING+DOWN]
+7. PONS (#94) — $0.848  −9.2% / 7d +173.6% / 1h −3.2%  •  $190M  [TRENDING+DOWN]
+8. ASTER (#45) — $0.755  −9.1% / 7d +9.2%  •  $276M
+9. BNB (#4) — $743.3  −3.4% / 7d +7.8%  •  $1.57B  [MAJOR]
+10. XMR (#13) — $527.1  −2.7% / 7d +8.9%  •  $107M  [MAJOR]
 
 *Trending*
-1. FIRO (Firo) — #974, $0.81, +19.5%  [MICROCAP]
-2. PONS (Pons) — #93, $0.925, +21.2%  [TRENDING+UP]
-3. SHRUB (Lil' Shrub) — #231, $0.13, +53.3%  [PUMP-RISK]
-4. PUMP (Pump.fun) — #53, $0.0041, −4.1%  [TRENDING+DOWN]
-5. USELESS — #149, $0.26, +1.7%
-6. ZEC (Zcash) — #11, $1,015, +3.7%  [MAJOR]
-7. MARSCOIN — #167, $0.23, +30.7%  [PUMP-RISK]
+1. FIRO (#906) — $0.972, +20.6%  [MICROCAP]
+2. SHRUB (#693) — $0.027, −77.6%  [CAPITULATION]
+3. ZEC (#10) — $1,165, +15.2%  [MAJOR][TRENDING+UP]
+4. PONS (#94) — $0.859, −8.3%  [TRENDING+DOWN]
+5. ARB (#65) — $0.189, +40.1%  [TRENDING+UP][BREAKOUT]
+6. CP (#550) — $0.029, −9.4%  [TRENDING+DOWN]
+7. PENGU (#102) — $0.00857, −0.2%
 
 *Notable*
-• DASH: +39.3% / 7d +73.6% [BREAKOUT] — privacy rotation accelerating; ZEC in day 5 uptrend, DASH now joining. NU7 Sep 14 + ZCSH ETF narrative spilling into DASH.
-• PONS: Day 2 [TRENDING+UP][BREAKOUT] (Sep 4: +27.3%) — Binance Alpha listing momentum holding; 7d still +384.5%.
-• SHRUB: #231 +53.3% in trending [PUMP-RISK] — no identifiable catalyst; low-cap spike.
-• MARSCOIN: Day 2 trending [PUMP-RISK] (Sep 4: +50.3% → today +30.7%) — continued manipulation signal.
+• ARB: trending + up 39% on $1B volume, 7d +118% — DeFi/L2 breakout; strongest bull signal of the week [BREAKOUT]
+• SHRUB: [PUMP-RISK] Sep 5 at +53% → −77.6% today [CAPITULATION] — classic pump-dump reversal; avoid
+• STONK: #236 up 277% trending [PUMP-RISK] — extreme low-cap spike, manipulation risk high
+• HYPE: +3.7% [MAJOR] on T-0 unlock day ($797M) — low claim rate; unlock absorbed bullishly
+• JUP: Sep 4 top loser (−7.7%) now +17.6% [TRENDING+UP] — V-bounce confirmed
+• DASH: Sep 5 winner (+39.3%) now −3.1% — privacy rotation fatigue; ZEC holds Day 6, DASH retreats
+• PONS: 2-day breakout run ends [TRENDING+DOWN]; BULLA 7d +375.6% [BREAKOUT] new name to watch

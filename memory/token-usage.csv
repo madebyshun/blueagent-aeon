@@ -448,4 +448,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-09-05,security-digest,claude-sonnet-4-6,37,36285,2567679,93153
 2026-09-06,morning-brief,claude-sonnet-4-6,12,4223,319570,31249
 2026-09-06,github-trending,claude-sonnet-4-6,18,12380,600201,41684
-2026-09-06,token-pick,claude-sonnet-4-6,22,16452,859875,55091
+2026-09-06,token-movers,claude-sonnet-4-6,16,30085,610009,66357
