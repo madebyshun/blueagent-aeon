@@ -450,3 +450,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-09-06,github-trending,claude-sonnet-4-6,18,12380,600201,41684
 2026-09-06,token-movers,claude-sonnet-4-6,16,30085,610009,66357
 2026-09-06,narrative-tracker,claude-sonnet-4-6,12,11738,306636,35893
+2026-09-06,security-digest,claude-sonnet-4-6,27,29602,1282054,67499

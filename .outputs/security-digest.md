@@ -1,21 +1,37 @@
-The temp files can stay — they're harmless dotfiles. The skill is complete. Here's the summary:
+*Security Digest — 2026-09-06*
+Verdict: 3 actively exploited (Sep 2 KEV re-surfaced). 0 new KEV additions today. 1 new crates.io advisory. 5 to schedule.
+_Sources: CISA KEV, GH Advisory, EPSS_
 
-## Summary
+*PATCH TODAY* (KEV Sep 2 — confirmed exploitation, outside 2-day dedup window)
+- [CVE-2026-48710](https://github.com/advisories/GHSA-86qp-5c8j-p5mr) — Starlette (pip) · KEV 2026-09-02 · EPSS 0.36 · CVSS 6.5
+  Host header omission → path-based auth bypass. Exploited per CISA.
+  → upgrade starlette to ≥1.0.1 and redeploy.
 
-**Security Digest — 2026-09-05** executed successfully.
+- CVE-2026-9586 — Sangoma Switchvox · KEV 2026-09-02 · EPSS 0.12
+  SQL injection → unauth arbitrary query execution + RCE vs PostgreSQL backend.
+  → apply vendor patch; isolate admin interface.
 
-**Verdict:** Nothing urgent today (no new KEV entries, no EPSS ≥ 0.5). 5 to schedule, 3 to monitor.
+- CVE-2026-82329 — JFrog Artifactory · KEV 2026-09-02 · EPSS 0.08
+  Default-config auth bypass → unauthenticated admin privilege escalation.
+  → apply JFrog Artifactory security update today.
 
-**PATCH THIS WEEK (5):**
-1. **codewhale-tui** (npm/crates.io) — 9-advisory cluster; CVSS 9.3 lead (git_show arg injection → arbitrary file write). No fix.
-2. **openchoreo cluster-gateway** (Go) — CVSS 9.0 new critical; unauthenticated internal proxy reads all K8s Secrets + mutates workloads. No fix.
-3. **semaphore UI** (Go) — CVSS 8.8; manager→owner privilege escalation via slug collision. No fix.
-4. **SiYuan** (Go) — 15 new HIGH advisories (Sep 3–4), CVSS 8.7 peak; XSS, cookie key disclosure, WebSocket broadcast bypass, SSTI→SQL. Adds to the 3 CRITICAL advisories logged Sep 4. No fix.
-5. **@toon-format/toon** (npm) — CVSS 8.3; prototype pollution via `__proto__`. No fix.
+*PATCH THIS WEEK*
+- [CVE-2026-59822](https://github.com/advisories/GHSA-7488-6r32-c95q) — LiteLLM (pip) · KEV 2026-09-02 · EPSS 0.009 · CVSS 8.8
+  Fabricated Bearer token establishes authenticated MCP session → all connected tools exposed.
+  → upgrade litellm to ≥1.84.0.
 
-**MONITOR (3):**
-- **toml** (npm) — CVSS 8.2/7.5; prototype pollution + recursion. No fix.
-- **@typespec/spector** (npm) — CVSS 7.5; unauthenticated shutdown endpoint. No fix.
-- **ffuf** (Go) — CVSS 7.5; decompression bomb OOM. No fix.
+- [GHSA-848m-r628-vrxw](https://github.com/advisories/GHSA-848m-r628-vrxw) — SurrealDB (crates.io) · CVSS 8.1 · EPSS 0.004 · no public PoC [NEW]
+  Authenticated cross-tenant namespace traversal → reach another tenant's custom API endpoints.
+  → schedule upgrade: surrealdb → ≥3.2.0.
 
-**Sources:** CISA KEV (ok), GitHub Advisory API (ok), FIRST EPSS (ok, 12 CVEs enriched). Notification queued to `.pending-notify/` for post-run delivery. Log appended to `memory/logs/2026-09-05.md`.
+- CVE-2026-49869 — Kestra OSS · KEV 2026-09-02 · EPSS 0.019
+  Unauth OS command injection via workflow creation → unauthenticated RCE.
+  → apply vendor patch; restrict workflow creation endpoint.
+
+- CVE-2026-83549 — SonicWall SMA1000 · KEV 2026-09-02 · EPSS 0.016
+  Admin-auth OS command injection → RCE. Exploited per CISA.
+  → apply SonicWall SMA1000 firmware update.
+
+- CVE-2026-83548 — SonicWall SMA1000 · KEV 2026-09-02 · EPSS 0.007
+  Unauth SSRF → internal sensitive function access and unauthorized operations.
+  → apply SonicWall SMA1000 firmware update.

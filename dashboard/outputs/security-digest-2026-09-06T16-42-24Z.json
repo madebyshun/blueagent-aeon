@@ -1,0 +1,338 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-09-06"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "text_verdict",
+        "text_sources",
+        "sep_1",
+        "heading_patch_today",
+        "stack_patch_today",
+        "sep_2",
+        "heading_patch_week",
+        "stack_patch_week"
+      ]
+    },
+    "text_verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 3 actively exploited (Sep 2 KEV re-surfaced). 0 new KEV additions today. 1 new crates.io advisory. 5 to schedule.",
+        "variant": "lead"
+      }
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: CISA KEV, GH Advisory, EPSS",
+        "variant": "muted"
+      }
+    },
+    "sep_1": {
+      "type": "Separator"
+    },
+    "heading_patch_today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "stack_patch_today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_cve_48710",
+        "stack_cve_9586",
+        "stack_cve_82329"
+      ]
+    },
+    "stack_cve_48710": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_cve_48710",
+        "text_cve_48710_desc",
+        "text_cve_48710_action"
+      ]
+    },
+    "link_cve_48710": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48710 — Starlette (pip) · KEV 2026-09-02 · EPSS 0.36 · CVSS 6.5",
+        "href": "https://github.com/advisories/GHSA-86qp-5c8j-p5mr",
+        "source": "GitHub Advisory"
+      }
+    },
+    "text_cve_48710_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Host header omission → path-based auth bypass. Exploited per CISA."
+      }
+    },
+    "text_cve_48710_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade starlette to ≥1.0.1 and redeploy."
+      }
+    },
+    "stack_cve_9586": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_cve_9586_title",
+        "text_cve_9586_desc",
+        "text_cve_9586_action"
+      ]
+    },
+    "text_cve_9586_title": {
+      "type": "Text",
+      "props": {
+        "text": "CVE-2026-9586 — Sangoma Switchvox · KEV 2026-09-02 · EPSS 0.12"
+      }
+    },
+    "text_cve_9586_desc": {
+      "type": "Text",
+      "props": {
+        "text": "SQL injection → unauth arbitrary query execution + RCE vs PostgreSQL backend."
+      }
+    },
+    "text_cve_9586_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply vendor patch; isolate admin interface."
+      }
+    },
+    "stack_cve_82329": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_cve_82329_title",
+        "text_cve_82329_desc",
+        "text_cve_82329_action"
+      ]
+    },
+    "text_cve_82329_title": {
+      "type": "Text",
+      "props": {
+        "text": "CVE-2026-82329 — JFrog Artifactory · KEV 2026-09-02 · EPSS 0.08"
+      }
+    },
+    "text_cve_82329_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Default-config auth bypass → unauthenticated admin privilege escalation."
+      }
+    },
+    "text_cve_82329_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply JFrog Artifactory security update today."
+      }
+    },
+    "sep_2": {
+      "type": "Separator"
+    },
+    "heading_patch_week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "stack_patch_week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_cve_59822",
+        "stack_cve_ghsa_848m",
+        "stack_cve_49869",
+        "stack_cve_83549",
+        "stack_cve_83548"
+      ]
+    },
+    "stack_cve_59822": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_cve_59822",
+        "text_cve_59822_desc",
+        "text_cve_59822_action"
+      ]
+    },
+    "link_cve_59822": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-59822 — LiteLLM (pip) · KEV 2026-09-02 · EPSS 0.009 · CVSS 8.8",
+        "href": "https://github.com/advisories/GHSA-7488-6r32-c95q",
+        "source": "GitHub Advisory"
+      }
+    },
+    "text_cve_59822_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Fabricated Bearer token establishes authenticated MCP session → all connected tools exposed."
+      }
+    },
+    "text_cve_59822_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade litellm to ≥1.84.0."
+      }
+    },
+    "stack_cve_ghsa_848m": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_cve_ghsa_848m",
+        "text_cve_ghsa_848m_desc",
+        "text_cve_ghsa_848m_action"
+      ]
+    },
+    "link_cve_ghsa_848m": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-848m-r628-vrxw — SurrealDB (crates.io) · CVSS 8.1 · EPSS 0.004 · no public PoC [NEW]",
+        "href": "https://github.com/advisories/GHSA-848m-r628-vrxw",
+        "source": "GitHub Advisory"
+      }
+    },
+    "text_cve_ghsa_848m_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Authenticated cross-tenant namespace traversal → reach another tenant's custom API endpoints."
+      }
+    },
+    "text_cve_ghsa_848m_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: surrealdb → ≥3.2.0."
+      }
+    },
+    "stack_cve_49869": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_cve_49869_title",
+        "text_cve_49869_desc",
+        "text_cve_49869_action"
+      ]
+    },
+    "text_cve_49869_title": {
+      "type": "Text",
+      "props": {
+        "text": "CVE-2026-49869 — Kestra OSS · KEV 2026-09-02 · EPSS 0.019"
+      }
+    },
+    "text_cve_49869_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth OS command injection via workflow creation → unauthenticated RCE."
+      }
+    },
+    "text_cve_49869_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply vendor patch; restrict workflow creation endpoint."
+      }
+    },
+    "stack_cve_83549": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_cve_83549_title",
+        "text_cve_83549_desc",
+        "text_cve_83549_action"
+      ]
+    },
+    "text_cve_83549_title": {
+      "type": "Text",
+      "props": {
+        "text": "CVE-2026-83549 — SonicWall SMA1000 · KEV 2026-09-02 · EPSS 0.016"
+      }
+    },
+    "text_cve_83549_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Admin-auth OS command injection → RCE. Exploited per CISA."
+      }
+    },
+    "text_cve_83549_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply SonicWall SMA1000 firmware update."
+      }
+    },
+    "stack_cve_83548": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_cve_83548_title",
+        "text_cve_83548_desc",
+        "text_cve_83548_action"
+      ]
+    },
+    "text_cve_83548_title": {
+      "type": "Text",
+      "props": {
+        "text": "CVE-2026-83548 — SonicWall SMA1000 · KEV 2026-09-02 · EPSS 0.007"
+      }
+    },
+    "text_cve_83548_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth SSRF → internal sensitive function access and unauthorized operations."
+      }
+    },
+    "text_cve_83548_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply SonicWall SMA1000 firmware update."
+      }
+    }
+  }
+}
