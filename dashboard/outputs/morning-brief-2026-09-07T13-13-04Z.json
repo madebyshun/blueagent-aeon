@@ -1,0 +1,304 @@
+{
+  "root": "morning-brief-card",
+  "state": {},
+  "elements": {
+    "morning-brief-card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-09-07"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "yesterday-section",
+        "sep2",
+        "watch-section",
+        "sep3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE post-unlock ATH — why now: $89.54 ATH confirms RIDE entry before momentum fades",
+        "variant": "body"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC NU7 vote closes Sep 14 — why now: 7 days left, Grayscale ZCSH ETF already trading",
+        "variant": "body"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act T-8 — why now: Sep 15 cloture; failure removes DeFi regulatory overhang",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-heading",
+        "hype-item",
+        "arb-item",
+        "jup-item",
+        "shrub-item",
+        "narrative-item"
+      ]
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "hype-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hype-stat",
+        "hype-detail"
+      ]
+    },
+    "hype-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$89.54",
+        "delta": "+3.7%",
+        "trend": "up"
+      }
+    },
+    "hype-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Unlock day; 9.92M tokens absorbed, zero selloff (below 1.75% March baseline)",
+        "variant": "caption"
+      }
+    },
+    "arb-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "arb-stat",
+        "arb-detail"
+      ]
+    },
+    "arb-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ARB",
+        "value": "+39%",
+        "trend": "up"
+      }
+    },
+    "arb-detail": {
+      "type": "Text",
+      "props": {
+        "text": "[BREAKOUT] $1B vol — DeFi revival promoted to RIDE",
+        "variant": "caption"
+      }
+    },
+    "jup-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "jup-stat",
+        "jup-detail"
+      ]
+    },
+    "jup-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "JUP",
+        "value": "+18.5%",
+        "trend": "up"
+      }
+    },
+    "jup-detail": {
+      "type": "Text",
+      "props": {
+        "text": "V-bounce — DAO eliminated 2026 net emissions, buyback raised to 70% protocol fees",
+        "variant": "caption"
+      }
+    },
+    "shrub-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "shrub-stat",
+        "shrub-detail"
+      ]
+    },
+    "shrub-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SHRUB",
+        "value": "−77.6%",
+        "trend": "down"
+      }
+    },
+    "shrub-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Capitulation; DASH Sep 5 winner reversed −3.1% (ZEC Day 6 holds +12.2%)",
+        "variant": "caption"
+      }
+    },
+    "narrative-item": {
+      "type": "Text",
+      "props": {
+        "text": "Narrative: Privacy rotation demoted (DASH out, ZEC core); BNB/AI L1 stalled on −3.4% reversal",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-1",
+        "watch-2"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE new ATH on unlock day — absorption beats March baseline; Post-unlock Squeeze upgrades to RIDE (focus #1)",
+        "variant": "body"
+      }
+    },
+    "watch-2": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC NU7 vote Sep 14 + Grayscale ZCSH spot ETF launched — dual catalyst compresses positioning window (focus #2)",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
