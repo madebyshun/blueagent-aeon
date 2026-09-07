@@ -1,29 +1,23 @@
-*Deal Flow — 2026-08-31*
+The sandbox correctly blocks direct multi-line notify execution — the `.pending-notify/` staging pattern is the intended flow (confirmed by prior logs). The postprocess scripts run `./notify` after the Claude session ends.
 
-**Read:** Two independent $100M+ Series A rounds closed in 72 hours — grid-responsive data center software and ultra-low-power silicon — confirming capital identified electricity as the AI stack's new hard constraint.
+## Summary
 
-1. **Emerald AI** — software orchestrating AI workload power to protect the grid
-   $150M Series A @ $1.05B post (n/d vs prior) | Lead: Energize Capital + DCVC (+ NVIDIA strategic)
-   *Why it matters:* NVIDIA co-investing in software that throttles its own GPU clusters confirms the compute bottleneck migrated from silicon to electricity.
+**Deal Flow — 2026-09-07 complete.**
 
-2. **Instinct** — AI personal assistant connecting to apps and devices for task execution
-   $250M Series B @ $2.5B post (n/d vs prior) | Lead: Index Ventures + Benchmark
-   *Why it matters:* Benchmark + Index at $2.5B for a one-year-old assistant signals category consolidation — top-tier capital picking winners, not the market.
+**What was done:**
+- Read MEMORY.md and last 14 days of logs; built dedup set (13 companies from Aug 24 + Aug 31 runs)
+- Ran 10 parallel source fetches (Crunchbase, TechCrunch, cryptorank.io, crypto-fundraising.info, 6 WebSearches)
+- Gathered 27 candidate deals, scored against 5 dimensions (magnitude, investor signal, thesis fit, narrative weight, valuation signal)
+- Applied quality gates; kept top 8 — no dedup collisions with prior weeks
 
-3. **Velaura AI** — ultra-low-power AI compute silicon for data centers and physical AI
-   $110M Series A @ $1B+ post (n/d vs prior) | Lead: Seligman Ventures + Mayfield + Samsung Catalyst
-   *Why it matters:* Titan Core's 2-4× performance-per-watt gain already deployed in 30M+ ASICs means this is a silicon efficiency bet against NVIDIA's power-hungry roadmap.
+**Top 8 digest (staged to `.pending-notify/deal-flow-2026-09-07.md`):**
+1. **Félix Pago** — $200M Series C @ $1.4B (UP 2.9×), a16z — stablecoin WhatsApp remittance hybrid equity+debt structure (score 22)
+2. **Gimlet Labs** — $300M Series B @ $3B, a16z — first multi-silicon agentic inference cloud (score 22)
+3. **Nscale** — $3.5B pre-IPO @ ~$30B (UP from $14.6B), NVIDIA + Third Point — NVIDIA is both supplier and investor (score 22)
+4. **Wonderful** — $550M Series C @ $5B (UP 2.5×), Insight + Salesforce — enterprise AI OS (score 20)
+5. **AIR** — $50M seed, Sequoia + Greenoaks — first agent skills governance layer (score 19)
+6. **Upwind Security** — $300M growth @ $3.8B, Bessemer + TCV — runtime behavioral cloud security (score 18)
+7. **Lyte AI** — $165M Series C @ $1.6B, Maverick Silicon — physical-AI perception silicon (score 18)
+8. **Crusoe** — $3B Series F @ $30B, Atreides + Valor — neutral AI host for OpenAI/Microsoft/Meta (score 17)
 
-4. **RQD Clearing** — API-native clearing and settlement for tokenized equities and digital assets
-   $74M strategic @ n/d post (n/d vs prior) | Lead: Bain Capital Tech Opportunities + ABN AMRO
-   *Why it matters:* Bain and ABN AMRO building tokenized-equity clearing rails inside the DTCC framework is a settlement-layer bet before the market exists.
-
-5. **Agentrys** — AI agents automating chip verification and physical design for chipmakers
-   $19.1M seed @ n/d post (n/d vs prior) | Lead: Etna Capital + MediaTek (strategic)
-   *Why it matters:* MediaTek backing an EDA agent that beats 90% on NVIDIA's chip-verification benchmark signals AI will displace legacy EDA tooling.
-
-6. **Socure** — AI identity verification platform with agentic fraud detection, acquired Fravity
-   $156M strategic @ $5.2B post (UP vs $1.3B 2021) | Lead: undisclosed
-   *Why it matters:* At $5.2B — 4× its 2021 mark — plus an agentic fraud acquisition, Socure reframes identity verification as AI defense infrastructure.
-
-*Sources:* crunchbase=ok, techcrunch=ok, cryptorank=fail, aift=fail, crypto-fundraising.info=ok | candidates=~28 → kept=6
+**Files modified:** `memory/logs/2026-09-07.md` (appended), `.pending-notify/deal-flow-2026-09-07.md` (created)
