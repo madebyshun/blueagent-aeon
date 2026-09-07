@@ -1,0 +1,352 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-09-07"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_tao",
+        "sep_1",
+        "section_market",
+        "sep_2",
+        "section_meta"
+      ]
+    },
+    "section_tao": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tao_header",
+        "tao_price_row",
+        "tao_vol_row",
+        "tao_breakdown",
+        "tao_catalyst",
+        "tao_risk",
+        "tao_recent"
+      ]
+    },
+    "tao_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading_tao",
+        "badge_tao_high",
+        "stat_tao_signal"
+      ]
+    },
+    "heading_tao": {
+      "type": "Heading",
+      "props": {
+        "text": "TAO",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_tao_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "stat_tao_signal": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "9/10"
+      },
+      "children": []
+    },
+    "tao_price_row": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "stat_tao_price",
+        "stat_tao_24h",
+        "stat_tao_7d",
+        "stat_tao_mcap"
+      ]
+    },
+    "stat_tao_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$260.78"
+      },
+      "children": []
+    },
+    "stat_tao_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+4.49%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_tao_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+11.90%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_tao_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "mcap",
+        "value": "$2.5B"
+      },
+      "children": []
+    },
+    "tao_vol_row": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_tao_vol",
+        "stat_tao_vol_mcap"
+      ]
+    },
+    "stat_tao_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$428M"
+      },
+      "children": []
+    },
+    "stat_tao_vol_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "vol/mcap",
+        "value": "0.17"
+      },
+      "children": []
+    },
+    "tao_breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: trending+2, vol/mcap(0.17)+2, RS vs BTC/ETH+2, DexScreener+1, 24h>0+1, 7d>0+1 = 9/10",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tao_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: Buttensor (BUTT) parody meme coin on Raydium routes 100% of tx fees into TAO buys, creating a reflexive demand loop; OI hit 3-month high $428M; five-day rally eyeing $300 breakout",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "tao_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Overbought at $300 psychological resistance — BUTT volume dying kills the demand loop immediately",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "tao_recent": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: First time in >11 days (last pick Aug 27)",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_header",
+        "market_prices",
+        "market_meta",
+        "market_thesis",
+        "market_risk"
+      ]
+    },
+    "market_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading_market",
+        "badge_market"
+      ]
+    },
+    "heading_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_market": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH | edge 11.5pp",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "market_prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_market_yes",
+        "stat_market_no",
+        "stat_market_vol"
+      ]
+    },
+    "stat_market_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "50.5¢"
+      },
+      "children": []
+    },
+    "stat_market_no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "49.5¢"
+      },
+      "children": []
+    },
+    "stat_market_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$449k"
+      },
+      "children": []
+    },
+    "market_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_market_resolves",
+        "stat_market_fair"
+      ]
+    },
+    "text_market_resolves": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-09-16",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stat_market_fair": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES",
+        "value": "~62%",
+        "delta": "+11.5pp",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "market_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: Polymarket pricing a coin flip at 50.5¢ while CME FedWatch sat at 66% on Aug 31; Warsh hawkish Jackson Hole speech + Barclays call both post-date the last pick (Aug 29) — BUY YES. Inputs: CME FedWatch 66% post-Warsh Aug 31, CNBC 56% post-Warsh Aug 28, Barclays Sept+Dec two-hike call Aug 31",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "market_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Surprise soft CPI or jobs miss in next 9 days pivots the Warsh narrative and collapses hike probability fast",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_sources",
+        "text_disclaimer"
+      ]
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=ok, poly=ok",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "text_disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
