@@ -1,30 +1,31 @@
-*Narrative Tracker — 2026-09-06*
+*Narrative Tracker — 2026-09-07*
 
 TRANSITIONS
-• DEAD: HYPE Unlock FADE — resolved T-0; low claim rate (below 1.75% March baseline) rejected bear thesis; HYPE +3.7% on unlock day
-• NEW: Solana Perp DEX / JUP — JUP V-bounce +18.5%; DAO eliminated 2026 net emissions; buyback raised to 70% of protocol fees; Solana perps $1.08T cumulative with JUP ~80% share
-• PROMOTED: DeFi Revival Rising ↑ WATCH → Rising ↑↑ RIDE — ARB +39% $1B vol 7d+118% [BREAKOUT] confirms infrastructure in actual use
-• DEMOTED: Privacy Coin Rotation ↑↑ FRONT-RUN → ↑ RIDE — DASH −3.1% reversal (was +39.3% Sep 5 Day 2); multi-coin thesis broken; ZEC core holds Day 6 +12.2%
-• DEMOTED: BNB Chain/AI L1 ↑↑ RIDE → ↓ WATCH — BNB −3.4% [MAJOR]; Binance Agent OS flywheel stalled one day after pump
+• DEMOTED: ARB Breakout/L2 Revival Rising ↑↑ → Fading ↓↓ — ARB −13.1% [CAPITULATION]; 85% weekly gain reversed in one session; Sep 6 reflexivity flag triggered exact
+• DEMOTED: DeFi Revival Rising ↑↑ → Fading ↓ — ARB cap dragged JUP −7%, UNI −6%; infrastructure narrative collapses in tandem
+• DEMOTED: Solana Perp DEX/JUP Emerging ↑↑ → ↓ WATCH — JUP −7%, V-bounce reversed 24h after call
+• DEMOTED: Post-Unlock HYPE Squeeze Emerging → Fading — HYPE −2.9%, no squeeze materializing; thesis dead
+• PROMOTED: Hawkish Fed Peak ↓ → ↑ RIDE — Friday jobs report bombastic; rate hike expectations up; FOMC T-8; every inflation print this week is a trigger
+• NEW: Alt L1 Rotation (Emerging ↑↑, FRONT-RUN) — KAS +18.6%, DOT +13.8%, WLD +12.5%, ICP +10.7%, FIL +10.0%; capital rotating out of ARB/DeFi into non-EVM L1s
+• NEW: Bitcoin Custody Security (Emerging ↑↑, WATCH) — ~4,000 BTC/$320M withdrawn from Liquid Federation by purported white-hats; dominating Sep 7 headlines
 
-REFLEXIVITY ALERTS
-• ARB: DeFi narrative creating its own volume signal — $1B 24h vol, 7d +118%; infrastructure story is reflexive
-• JUP: DAO-engineered supply narrative — emission cut + buyback raise is deliberate scarcity construction; price move partly reflexive on governance
-• DASH: Confirmed trap — +39.3% Sep 5 on DashCon Amsterdam (no ETF catalyst); −3.1% Sep 6 while ZEC (real NU7 Sep 14 catalyst) holds; narrative bleed exposed
+REFLEXIVITY ALERT
+• ARB confirmed trap: Sep 6 reflexivity call triggered exactly — narrative-manufactured volume drove 85% weekly gain; cap unwind in one session confirmed the loop
+• BUTT→TAO fee loop: meme coin routing 100% of Raydium TX fees to TAO buys; TAO OI 3-month high; engineered reflexivity — watch for unwind when meme momentum fades
 
 POSITIONS
-• FRONT-RUN: Solana Perp DEX / JUP (MS 3 ↑↑ Bull) — @JupiterExchange DAO, @aeyakovenko — bear: V-bounce at $0.27 may have priced in the emission cut
-• FRONT-RUN: ARB Breakout (MS 4 ↑↑ Bull) — @arbitrum, L2 flows — bear: short-covering rally; sustainable only if TVL follows volume
-• RIDE: DeFi Revival (MS 4 ↑↑ Bull) — ARB + CAKE + JUP — bear: vol spikes front-run announcements, not always organic
-• RIDE: AI Agent Economy (MS 5 → Bull) — @a16zcrypto, @Keyrock_trading — bear: $73M settled = rounding error vs total DeFi TVL
-• RIDE: x402/Agentic Payments (MS 5 ↑↑ Bull) — @base MCP stack — bear: four exchanges is a demo, not network effects yet
-• WATCH: Post-Unlock HYPE Squeeze (MS 3 ↑ Mixed) — low claim rate bullish; 48h absorption window still open; @HyperliquidX
-• WATCH: Hawkish Fed (MS 5 ↓ Mixed) — FOMC Sep 15-16; 50% hike prob; could flip all risk-on in 9 days
-• FADE: CLARITY Act (MS 2 ↓↓ Bear) — T-9; DeFi rules dispute + ethics provisions killing YES votes
-• FADE: Memecoins/Retail (MS 2 ↓↓ Bear) — SHRUB −77.6% capitulation; STONK +277% [PUMP-RISK]; distribution phase
+• FRONT-RUN: Alt L1 Rotation (MS 3 ↑↑, Bull) — KAS/DOT/ICP/FIL leading; bear case: no fundamental catalyst, rotations reverse fast
+• FRONT-RUN: Quantum (MS 4 →, Bull) — structural; no change
+• RIDE: Hawkish Fed/FOMC (MS 5 ↑, Mixed) — jobs + T-8; inflation data this week the key variable; bear case: 50% hike already half-priced
+• RIDE: AI Agent Economy (MS 5 →, Bull) — OKX MCP toolkit live; bear case: saturation, no new catalysts
+• RIDE: Privacy Coin Rotation ZEC-core (MS 3 ↑, Bull) — Day 7; NU7 Sep 14; bear case: DASH reversal warns rotation contracting
+• RIDE: RWA Tokenization (MS 4 →, Bull) — $26.7B tokenized; structural
+• FADE: ARB Breakout/L2 Revival (MS 3 ↓↓, Bear) — capitulation confirmed; was FRONT-RUN 24h ago
+• FADE: DeFi Revival (MS 3 ↓, Bear) — ARB cap + JUP + UNI corroborate; narrative exhausted
+• WATCH: Bitcoin Custody Security (MS 3 ↑↑, Mixed) — Liquid Federation 4,000 BTC/$320M; watch custodian contagion
 
 MAP
-Emerging: Solana Perp DEX/JUP ★NEW, Post-Unlock HYPE Squeeze ★NEW, FHE/Confidential
-Rising: ARB Breakout, DeFi Revival, Privacy Coin Rotation (ZEC), AI Trading Infrastructure, ETH ETF/Institutional, Quantum, RWA, Agent Identity/TEE, AI Compute/DePIN, BNB Chain ↓, Alt-ETF
-Peak: AI Agent Economy, x402/Agentic Payments, Agentic Dev Tools, Hawkish Fed
-Fading: CLARITY Act, Memecoins/Retail, Coinbase AiFi/Base, ENA, Solana Supply Shock, LayerZero L1 Zero
+Emerging: Alt L1 Rotation, Bitcoin Custody Security, Solana Perp DEX/JUP, Alt-ETF/ADA, FHE, X Money, Bitcoin L2/BitVM, Lean Ethereum
+Rising: Privacy Coin (ZEC), AI Trading Infra, ETH ETF/Flows, AI Compute/DePIN, RWA, Oracle/LINK, Agent Identity/TEE, Solana RWA
+Peak: AI Agent Economy, x402/Agentic Payments, Agentic Dev Tools, Hawkish Fed/FOMC
+Fading: ARB/L2 Revival, DeFi Revival, Post-Unlock HYPE Squeeze, CLARITY Act, Memecoins

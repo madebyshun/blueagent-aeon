@@ -1,0 +1,437 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-07"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_transitions",
+        "sep1",
+        "section_reflexivity",
+        "sep2",
+        "section_positions",
+        "sep3",
+        "section_map"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "stack_demoted",
+        "stack_promoted",
+        "stack_new"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "stack_demoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted",
+        "text_demoted_1",
+        "text_demoted_2",
+        "text_demoted_3",
+        "text_demoted_4"
+      ]
+    },
+    "badge_demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "text_demoted_1": {
+      "type": "Text",
+      "props": {
+        "text": "ARB Breakout/L2 Revival Rising ↑↑ → Fading ↓↓ — ARB −13.1% [CAPITULATION]; 85% weekly gain reversed in one session; Sep 6 reflexivity flag triggered exact",
+        "variant": "body"
+      }
+    },
+    "text_demoted_2": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Revival Rising ↑↑ → Fading ↓ — ARB cap dragged JUP −7%, UNI −6%; infrastructure narrative collapses in tandem",
+        "variant": "body"
+      }
+    },
+    "text_demoted_3": {
+      "type": "Text",
+      "props": {
+        "text": "Solana Perp DEX/JUP Emerging ↑↑ → ↓ WATCH — JUP −7%, V-bounce reversed 24h after call",
+        "variant": "body"
+      }
+    },
+    "text_demoted_4": {
+      "type": "Text",
+      "props": {
+        "text": "Post-Unlock HYPE Squeeze Emerging → Fading — HYPE −2.9%, no squeeze materializing; thesis dead",
+        "variant": "body"
+      }
+    },
+    "stack_promoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted",
+        "text_promoted_1"
+      ]
+    },
+    "badge_promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_promoted_1": {
+      "type": "Text",
+      "props": {
+        "text": "Hawkish Fed Peak ↓ → ↑ RIDE — Friday jobs report bombastic; rate hike expectations up; FOMC T-8; every inflation print this week is a trigger",
+        "variant": "body"
+      }
+    },
+    "stack_new": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new",
+        "text_new_1",
+        "text_new_2"
+      ]
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "text_new_1": {
+      "type": "Text",
+      "props": {
+        "text": "Alt L1 Rotation (Emerging ↑↑, FRONT-RUN) — KAS +18.6%, DOT +13.8%, WLD +12.5%, ICP +10.7%, FIL +10.0%; capital rotating out of ARB/DeFi into non-EVM L1s",
+        "variant": "body"
+      }
+    },
+    "text_new_2": {
+      "type": "Text",
+      "props": {
+        "text": "Bitcoin Custody Security (Emerging ↑↑, WATCH) — ~4,000 BTC/$320M withdrawn from Liquid Federation by purported white-hats; dominating Sep 7 headlines",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_reflexivity",
+        "alert_arb_trap",
+        "alert_butt_tao"
+      ]
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert_arb_trap": {
+      "type": "Alert",
+      "props": {
+        "title": "ARB confirmed trap",
+        "message": "Sep 6 reflexivity call triggered exactly — narrative-manufactured volume drove 85% weekly gain; cap unwind in one session confirmed the loop",
+        "type": "warning"
+      }
+    },
+    "alert_butt_tao": {
+      "type": "Alert",
+      "props": {
+        "title": "BUTT→TAO fee loop",
+        "message": "meme coin routing 100% of Raydium TX fees to TAO buys; TAO OI 3-month high; engineered reflexivity — watch for unwind when meme momentum fades",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_positions",
+        "table_positions"
+      ]
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "table_positions": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Type",
+          "Narrative",
+          "Momentum",
+          "Status",
+          "Details"
+        ],
+        "rows": [
+          [
+            "FRONT-RUN",
+            "Alt L1 Rotation",
+            "MS 3 ↑↑",
+            "Bull",
+            "KAS/DOT/ICP/FIL leading; bear case: no fundamental catalyst, rotations reverse fast"
+          ],
+          [
+            "FRONT-RUN",
+            "Quantum",
+            "MS 4 →",
+            "Bull",
+            "structural; no change"
+          ],
+          [
+            "RIDE",
+            "Hawkish Fed/FOMC",
+            "MS 5 ↑",
+            "Mixed",
+            "jobs + T-8; inflation data this week the key variable; bear case: 50% hike already half-priced"
+          ],
+          [
+            "RIDE",
+            "AI Agent Economy",
+            "MS 5 →",
+            "Bull",
+            "OKX MCP toolkit live; bear case: saturation, no new catalysts"
+          ],
+          [
+            "RIDE",
+            "Privacy Coin Rotation ZEC-core",
+            "MS 3 ↑",
+            "Bull",
+            "Day 7; NU7 Sep 14; bear case: DASH reversal warns rotation contracting"
+          ],
+          [
+            "RIDE",
+            "RWA Tokenization",
+            "MS 4 →",
+            "Bull",
+            "$26.7B tokenized; structural"
+          ],
+          [
+            "FADE",
+            "ARB Breakout/L2 Revival",
+            "MS 3 ↓↓",
+            "Bear",
+            "capitulation confirmed; was FRONT-RUN 24h ago"
+          ],
+          [
+            "FADE",
+            "DeFi Revival",
+            "MS 3 ↓",
+            "Bear",
+            "ARB cap + JUP + UNI corroborate; narrative exhausted"
+          ],
+          [
+            "WATCH",
+            "Bitcoin Custody Security",
+            "MS 3 ↑↑",
+            "Mixed",
+            "Liquid Federation 4,000 BTC/$320M; watch custodian contagion"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_map",
+        "grid_map"
+      ]
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "grid_map": {
+      "type": "Grid",
+      "props": {
+        "columns": 1,
+        "gap": "md"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_emerging",
+        "text_emerging"
+      ]
+    },
+    "label_emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "default"
+      }
+    },
+    "text_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "Alt L1 Rotation, Bitcoin Custody Security, Solana Perp DEX/JUP, Alt-ETF/ADA, FHE, X Money, Bitcoin L2/BitVM, Lean Ethereum",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_rising",
+        "text_rising"
+      ]
+    },
+    "label_rising": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "text_rising": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy Coin (ZEC), AI Trading Infra, ETH ETF/Flows, AI Compute/DePIN, RWA, Oracle/LINK, Agent Identity/TEE, Solana RWA",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_peak",
+        "text_peak"
+      ]
+    },
+    "label_peak": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "default"
+      }
+    },
+    "text_peak": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy, x402/Agentic Payments, Agentic Dev Tools, Hawkish Fed/FOMC",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_fading",
+        "text_fading"
+      ]
+    },
+    "label_fading": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      }
+    },
+    "text_fading": {
+      "type": "Text",
+      "props": {
+        "text": "ARB/L2 Revival, DeFi Revival, Post-Unlock HYPE Squeeze, CLARITY Act, Memecoins",
+        "variant": "body"
+      }
+    }
+  }
+}
