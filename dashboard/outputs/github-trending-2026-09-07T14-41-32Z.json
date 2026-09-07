@@ -1,0 +1,356 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-09-07"
+      },
+      "children": [
+        "top-pick-section",
+        "sep1",
+        "aiml-section",
+        "sep2",
+        "devtools-section",
+        "sep3",
+        "sources"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-heading",
+        "markitdown-top-link",
+        "markitdown-top-desc",
+        "markitdown-top-stat"
+      ]
+    },
+    "top-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h2"
+      }
+    },
+    "markitdown-top-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "microsoft/markitdown",
+        "href": "https://github.com/microsoft/markitdown",
+        "source": "GitHub"
+      }
+    },
+    "markitdown-top-desc": {
+      "type": "Text",
+      "props": {
+        "text": "The de facto doc-to-Markdown bridge for LLM pipelines just got a beta refresh — v0.1.8b1 landed Sep 4 and 771 stars today confirms it hit hard across the community."
+      }
+    },
+    "markitdown-top-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "771 today",
+        "label": "Stars (179.5k total)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "aiml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml-heading",
+        "aiml-repo1",
+        "aiml-repo2"
+      ]
+    },
+    "aiml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "aiml-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo1-title",
+        "repo1-badges",
+        "repo1-stat",
+        "repo1-desc"
+      ]
+    },
+    "repo1-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "microsoft/markitdown",
+        "href": "https://github.com/microsoft/markitdown"
+      }
+    },
+    "repo1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-python1",
+        "badge-returning1"
+      ]
+    },
+    "badge-python1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "badge-returning1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo1-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "771 today",
+        "label": "Stars (179.5k total)"
+      }
+    },
+    "repo1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "v0.1.8b1 beta just landed — converts PDFs, Word docs, and spreadsheets into LLM-ready markdown.",
+        "variant": "body"
+      }
+    },
+    "aiml-repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo2-title",
+        "repo2-badges",
+        "repo2-stat",
+        "repo2-desc"
+      ]
+    },
+    "repo2-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bytedance/deer-flow",
+        "href": "https://github.com/bytedance/deer-flow"
+      }
+    },
+    "repo2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-python2",
+        "badge-returning2"
+      ]
+    },
+    "badge-python2": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "badge-returning2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo2-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "188 today",
+        "label": "Stars (81.7k total)"
+      }
+    },
+    "repo2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Agent hard-stops now prioritize across concurrent tool batches — catches runaway loops that burned tokens silently.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-repo1",
+        "devtools-repo2"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "devtools-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo3-title",
+        "repo3-badges",
+        "repo3-stat",
+        "repo3-desc"
+      ]
+    },
+    "repo3-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "lightpanda-io/browser",
+        "href": "https://github.com/lightpanda-io/browser"
+      }
+    },
+    "repo3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-zig",
+        "badge-returning3"
+      ]
+    },
+    "badge-zig": {
+      "type": "Badge",
+      "props": {
+        "text": "Zig",
+        "variant": "outline"
+      }
+    },
+    "badge-returning3": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo3-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "116 today",
+        "label": "Stars (34.7k total)"
+      }
+    },
+    "repo3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "v0.4.0 of the Zig-native headless browser for AI agent scraping — near-zero overhead, no GC pauses, unlike Playwright.",
+        "variant": "body"
+      }
+    },
+    "devtools-repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo4-title",
+        "repo4-badges",
+        "repo4-stat",
+        "repo4-desc"
+      ]
+    },
+    "repo4-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "jo-inc/camofox-browser",
+        "href": "https://github.com/jo-inc/camofox-browser"
+      }
+    },
+    "repo4-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-js",
+        "badge-returning4"
+      ]
+    },
+    "badge-js": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "outline"
+      }
+    },
+    "badge-returning4": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo4-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "117 today",
+        "label": "Stars (9.4k total)"
+      }
+    },
+    "repo4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Stealth headless browser for AI agents — defeats Cloudflare and fingerprinting blocks that stop Playwright and Puppeteer cold.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/14",
+        "variant": "caption"
+      }
+    }
+  }
+}
