@@ -1,21 +1,29 @@
-*GitHub Trending — 2026-09-07*
+*GitHub Trending — 2026-09-08*
 
-*Top pick* — [microsoft/markitdown](https://github.com/microsoft/markitdown)
-The de facto doc-to-Markdown bridge for LLM pipelines just got a beta refresh — v0.1.8b1 landed Sep 4 and 771 stars today confirms it hit hard across the community.
+*Top pick* — [anthropics/fermats-last-theorem](https://github.com/anthropics/fermats-last-theorem)
+Anthropic's Lean 4 formalization of the full FLT proof — the Wiles argument, 232MB machine-verified and open-sourced.
 
 *AI/ML*
-• [microsoft/markitdown](https://github.com/microsoft/markitdown) — ★ 771 today (179.5k total) · Python · [RETURNING]
-v0.1.8b1 beta just landed — converts PDFs, Word docs, and spreadsheets into LLM-ready markdown.
+• [anthropics/fermats-last-theorem](https://github.com/anthropics/fermats-last-theorem) — ★961 total (since Sep 4) · Lean · [DEBUT]
+232MB of Lean proofs spanning Galois reps, adic completions, modular forms — Wiles' FLT argument, formally checkable.
 
-• [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — ★ 188 today (81.7k total) · Python · [RETURNING]
-Agent hard-stops now prioritize across concurrent tool batches — catches runaway loops that burned tokens silently.
+• [okf-memory/okf-agent-memory](https://github.com/okf-memory/okf-agent-memory) — ★481 total (since Sep 5) · Go · [DEBUT]
+Git-native agent memory: sub-300µs BM25 search, embedded MCP server, zero external dependencies; cuts token bloat 80%.
+
+• [browser-use/browser-use](https://github.com/browser-use/browser-use) — ★330 today (113k total) · Python · [RETURNING]
+The production default for AI browser automation spiked 330★ in 24h after a Sep 7 patch — still the one to beat.
 
 *Devtools*
-• [lightpanda-io/browser](https://github.com/lightpanda-io/browser) — ★ 116 today (34.7k total) · Zig · [RETURNING]
-v0.4.0 of the Zig-native headless browser for AI agent scraping — near-zero overhead, no GC pauses, unlike Playwright.
+• [vinzdg/codenotch](https://github.com/vinzdg/codenotch) — ★1k total (since Sep 5) · Swift · [DEBUT]
+macOS menu-bar app that pins Claude Code/Cursor/Codex token-limit burndown to a screen edge without window-switching.
 
-• [jo-inc/camofox-browser](https://github.com/jo-inc/camofox-browser) — ★ 117 today (9.4k total) · JavaScript · [RETURNING]
-Stealth headless browser for AI agents — defeats Cloudflare and fingerprinting blocks that stop Playwright and Puppeteer cold.
+*Web/Apps*
+• [ashemag/human-atlas](https://github.com/ashemag/human-atlas) — ★2.3k total (since Sep 5) · TypeScript · [DEBUT]
+Browser-native 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system-layer toggles, and exploded views — no install.
+
+*Data*
+• [nahrek/polyledger](https://github.com/nahrek/polyledger) — ★621 total (since Sep 2) · Python · [DEBUT]
+Resumable Polymarket CLOB indexer: writes all trades + market metadata to one DuckDB file, queryable with plain SQL.
 
 ---
-sources: trending=ok · gh_api=ok · kept 4/14
+sources: trending=ok · gh_api=ok · kept 6/41 (16 trending + 25 fallback)

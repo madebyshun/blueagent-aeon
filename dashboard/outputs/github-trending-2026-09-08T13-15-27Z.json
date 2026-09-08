@@ -1,0 +1,514 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-08"
+      },
+      "children": [
+        "section-top-pick",
+        "separator-1",
+        "section-aiml",
+        "separator-2",
+        "section-devtools",
+        "separator-3",
+        "section-web",
+        "separator-4",
+        "section-data",
+        "separator-5",
+        "footer"
+      ]
+    },
+    "section-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-top-pick",
+        "repo-flt-top"
+      ]
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "repo-flt-top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-flt-top",
+        "desc-flt-top"
+      ]
+    },
+    "link-flt-top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anthropics/fermats-last-theorem",
+        "href": "https://github.com/anthropics/fermats-last-theorem"
+      }
+    },
+    "desc-flt-top": {
+      "type": "Text",
+      "props": {
+        "text": "Anthropic's Lean 4 formalization of the full FLT proof — the Wiles argument, 232MB machine-verified and open-sourced."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-aiml",
+        "repo-flt",
+        "repo-okf",
+        "repo-browser"
+      ]
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "repo-flt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-flt",
+        "meta-flt",
+        "desc-flt"
+      ]
+    },
+    "link-flt": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anthropics/fermats-last-theorem",
+        "href": "https://github.com/anthropics/fermats-last-theorem"
+      }
+    },
+    "meta-flt": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-flt",
+        "badge-flt-lang",
+        "badge-flt-status"
+      ]
+    },
+    "stat-flt": {
+      "type": "Stat",
+      "props": {
+        "value": "★961 total"
+      }
+    },
+    "badge-flt-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Lean"
+      }
+    },
+    "badge-flt-status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "desc-flt": {
+      "type": "Text",
+      "props": {
+        "text": "232MB of Lean proofs spanning Galois reps, adic completions, modular forms — Wiles' FLT argument, formally checkable."
+      }
+    },
+    "repo-okf": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-okf",
+        "meta-okf",
+        "desc-okf"
+      ]
+    },
+    "link-okf": {
+      "type": "StoryLink",
+      "props": {
+        "title": "okf-memory/okf-agent-memory",
+        "href": "https://github.com/okf-memory/okf-agent-memory"
+      }
+    },
+    "meta-okf": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-okf",
+        "badge-okf-lang",
+        "badge-okf-status"
+      ]
+    },
+    "stat-okf": {
+      "type": "Stat",
+      "props": {
+        "value": "★481 total"
+      }
+    },
+    "badge-okf-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go"
+      }
+    },
+    "badge-okf-status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "desc-okf": {
+      "type": "Text",
+      "props": {
+        "text": "Git-native agent memory: sub-300µs BM25 search, embedded MCP server, zero external dependencies; cuts token bloat 80%."
+      }
+    },
+    "repo-browser": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-browser",
+        "meta-browser",
+        "desc-browser"
+      ]
+    },
+    "link-browser": {
+      "type": "StoryLink",
+      "props": {
+        "title": "browser-use/browser-use",
+        "href": "https://github.com/browser-use/browser-use"
+      }
+    },
+    "meta-browser": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-browser",
+        "badge-browser-lang",
+        "badge-browser-status"
+      ]
+    },
+    "stat-browser": {
+      "type": "Stat",
+      "props": {
+        "value": "★330 today (113k total)"
+      }
+    },
+    "badge-browser-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge-browser-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "desc-browser": {
+      "type": "Text",
+      "props": {
+        "text": "The production default for AI browser automation spiked 330★ in 24h after a Sep 7 patch — still the one to beat."
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-devtools",
+        "repo-codenotch"
+      ]
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "repo-codenotch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-codenotch",
+        "meta-codenotch",
+        "desc-codenotch"
+      ]
+    },
+    "link-codenotch": {
+      "type": "StoryLink",
+      "props": {
+        "title": "vinzdg/codenotch",
+        "href": "https://github.com/vinzdg/codenotch"
+      }
+    },
+    "meta-codenotch": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-codenotch",
+        "badge-codenotch-lang",
+        "badge-codenotch-status"
+      ]
+    },
+    "stat-codenotch": {
+      "type": "Stat",
+      "props": {
+        "value": "★1k total"
+      }
+    },
+    "badge-codenotch-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Swift"
+      }
+    },
+    "badge-codenotch-status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "desc-codenotch": {
+      "type": "Text",
+      "props": {
+        "text": "macOS menu-bar app that pins Claude Code/Cursor/Codex token-limit burndown to a screen edge without window-switching."
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-web": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-web",
+        "repo-atlas"
+      ]
+    },
+    "heading-web": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "repo-atlas": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-atlas",
+        "meta-atlas",
+        "desc-atlas"
+      ]
+    },
+    "link-atlas": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ashemag/human-atlas",
+        "href": "https://github.com/ashemag/human-atlas"
+      }
+    },
+    "meta-atlas": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-atlas",
+        "badge-atlas-lang",
+        "badge-atlas-status"
+      ]
+    },
+    "stat-atlas": {
+      "type": "Stat",
+      "props": {
+        "value": "★2.3k total"
+      }
+    },
+    "badge-atlas-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "badge-atlas-status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "desc-atlas": {
+      "type": "Text",
+      "props": {
+        "text": "Browser-native 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system-layer toggles, and exploded views — no install."
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-data": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-data",
+        "repo-polyledger"
+      ]
+    },
+    "heading-data": {
+      "type": "Heading",
+      "props": {
+        "text": "Data",
+        "level": "h3"
+      }
+    },
+    "repo-polyledger": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-polyledger",
+        "meta-polyledger",
+        "desc-polyledger"
+      ]
+    },
+    "link-polyledger": {
+      "type": "StoryLink",
+      "props": {
+        "title": "nahrek/polyledger",
+        "href": "https://github.com/nahrek/polyledger"
+      }
+    },
+    "meta-polyledger": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-polyledger",
+        "badge-polyledger-lang",
+        "badge-polyledger-status"
+      ]
+    },
+    "stat-polyledger": {
+      "type": "Stat",
+      "props": {
+        "value": "★621 total"
+      }
+    },
+    "badge-polyledger-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge-polyledger-status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "desc-polyledger": {
+      "type": "Text",
+      "props": {
+        "text": "Resumable Polymarket CLOB indexer: writes all trades + market metadata to one DuckDB file, queryable with plain SQL."
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/41 (16 trending + 25 fallback)",
+        "variant": "caption"
+      }
+    }
+  }
+}
