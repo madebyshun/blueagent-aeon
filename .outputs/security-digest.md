@@ -1,19 +1,25 @@
-*Security Digest — 2026-09-07*
-Verdict: nothing urgent today. 4 to schedule, 0 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-09-08*
+Verdict: nothing urgent today. 5 to schedule (nltk cluster), 0 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH THIS WEEK*
-- [CVE-2026-69084](https://github.com/advisories/GHSA-vh22-h7hf-www7) — siyuan-note/siyuan (Go) · CVSS 10.0 · EPSS 1.1%
-  Unauthenticated raw SQL on main read-write DB via /api/search/searchEmbedBlock — no admin gate; anonymous reader executes arbitrary cross-notebook statements.
-  → upgrade siyuan kernel to ≥ commit 23a17d44b5f3.
+nltk (pip) — 5 CVEs fixed in v3.10.3, all affect ≤ 3.10.2. One upgrade covers all.
 
-- [CVE-2026-69083](https://github.com/advisories/GHSA-fph3-ghq9-vw66) — siyuan-note/siyuan (Go) · CVSS 10.0 · EPSS 0.35%
-  Raw SQL execution + REGEXP injection via /api/search/fullTextSearchAssetContent — method 2 missing admin gate, method 3 unescaped quote; read-write handle.
-  → upgrade siyuan kernel to ≥ commit cf42dd5680c8.
+- [CVE-2026-79657](https://github.com/advisories/GHSA-x99w-6fgc-pmfw) · CVSS 9.3 · EPSS 1.2% · no PoC
+  Pickle loader RCE via unsafe module-namespace trust — most severe.
+  → upgrade nltk to ≥3.10.3.
 
-- [CVE-2026-72811](https://github.com/advisories/GHSA-q2vg-7qgx-x5fc) — siyuan-note/siyuan (Go) · CVSS 10.0 · EPSS 0.25%
-  First-order (client keyword) and second-order (stored document title with apostrophe) SQL injection via backlink search — anonymous reader reachable on publish surface.
-  → upgrade siyuan kernel to ≥ commit 1a5b3431d5ab.
+- [CVE-2026-79676](https://github.com/advisories/GHSA-p4rw-rvv2-7xwr) · CVSS 8.2 · EPSS 0.31% · no PoC
+  Corpus readers follow symlinks outside trusted roots — path traversal.
+  → upgrade nltk to ≥3.10.3.
 
-- [CVE-2026-62681](https://github.com/advisories/GHSA-fg9p-mrxr-hvq7) — orval (npm) · CVSS 4.0 ~9.3 · EPSS N/A
-  RCE via backtick in generated URL template literal — malicious OpenAPI path closes template string and executes injected JS. Affects axios/fetch/react-query/swr clients; survives Orval default validation.
-  → upgrade orval to ≥ 8.21.0.
+- [CVE-2026-78681](https://github.com/advisories/GHSA-97qj-x29f-37w7) · CVSS 8.7 · EPSS 0.29% · no PoC
+  Entity-expansion DoS (billion laughs) via raw ElementTree parses.
+  → upgrade nltk to ≥3.10.3.
+
+- [CVE-2026-78682](https://github.com/advisories/GHSA-6ww7-3frv-cqxh) · CVSS 8.7 · EPSS 0.25% · no PoC
+  pathsec SSRF bypass when a proxy is configured.
+  → upgrade nltk to ≥3.10.3.
+
+- [CVE-2026-79674](https://github.com/advisories/GHSA-3gq4-3j92-5w49) · CVSS 8.8 · EPSS 0.23% · no PoC
+  Corpus Reader sandbox bypass — arbitrary corpus paths reachable.
+  → upgrade nltk to ≥3.10.3.

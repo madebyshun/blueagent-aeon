@@ -1,0 +1,279 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest",
+        "description": "2026-09-08"
+      },
+      "children": [
+        "verdict_alert",
+        "separator1",
+        "patch_section"
+      ]
+    },
+    "verdict_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "title": "Status",
+        "message": "Verdict: nothing urgent today. 5 to schedule (nltk cluster), 0 to monitor."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sources_text",
+        "patch_heading",
+        "patch_desc",
+        "cve_list"
+      ]
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV, GH Advisory, EPSS",
+        "variant": "caption"
+      }
+    },
+    "patch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch_desc": {
+      "type": "Text",
+      "props": {
+        "text": "nltk (pip) — 5 CVEs fixed in v3.10.3, all affect ≤ 3.10.2. One upgrade covers all."
+      }
+    },
+    "cve_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "cve1",
+        "cve2",
+        "cve3",
+        "cve4",
+        "cve5"
+      ]
+    },
+    "cve1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve1_link",
+        "cve1_metrics",
+        "cve1_desc",
+        "cve1_rec"
+      ]
+    },
+    "cve1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-79657",
+        "href": "https://github.com/advisories/GHSA-x99w-6fgc-pmfw"
+      }
+    },
+    "cve1_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.3 · EPSS 1.2% · no PoC",
+        "variant": "caption"
+      }
+    },
+    "cve1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pickle loader RCE via unsafe module-namespace trust — most severe."
+      }
+    },
+    "cve1_rec": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade nltk to ≥3.10.3.",
+        "variant": "muted"
+      }
+    },
+    "cve2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve2_link",
+        "cve2_metrics",
+        "cve2_desc",
+        "cve2_rec"
+      ]
+    },
+    "cve2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-79676",
+        "href": "https://github.com/advisories/GHSA-p4rw-rvv2-7xwr"
+      }
+    },
+    "cve2_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 8.2 · EPSS 0.31% · no PoC",
+        "variant": "caption"
+      }
+    },
+    "cve2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Corpus readers follow symlinks outside trusted roots — path traversal."
+      }
+    },
+    "cve2_rec": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade nltk to ≥3.10.3.",
+        "variant": "muted"
+      }
+    },
+    "cve3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve3_link",
+        "cve3_metrics",
+        "cve3_desc",
+        "cve3_rec"
+      ]
+    },
+    "cve3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-78681",
+        "href": "https://github.com/advisories/GHSA-97qj-x29f-37w7"
+      }
+    },
+    "cve3_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 8.7 · EPSS 0.29% · no PoC",
+        "variant": "caption"
+      }
+    },
+    "cve3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Entity-expansion DoS (billion laughs) via raw ElementTree parses."
+      }
+    },
+    "cve3_rec": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade nltk to ≥3.10.3.",
+        "variant": "muted"
+      }
+    },
+    "cve4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve4_link",
+        "cve4_metrics",
+        "cve4_desc",
+        "cve4_rec"
+      ]
+    },
+    "cve4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-78682",
+        "href": "https://github.com/advisories/GHSA-6ww7-3frv-cqxh"
+      }
+    },
+    "cve4_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 8.7 · EPSS 0.25% · no PoC",
+        "variant": "caption"
+      }
+    },
+    "cve4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "pathsec SSRF bypass when a proxy is configured."
+      }
+    },
+    "cve4_rec": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade nltk to ≥3.10.3.",
+        "variant": "muted"
+      }
+    },
+    "cve5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve5_link",
+        "cve5_metrics",
+        "cve5_desc",
+        "cve5_rec"
+      ]
+    },
+    "cve5_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-79674",
+        "href": "https://github.com/advisories/GHSA-3gq4-3j92-5w49"
+      }
+    },
+    "cve5_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 8.8 · EPSS 0.23% · no PoC",
+        "variant": "caption"
+      }
+    },
+    "cve5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Corpus Reader sandbox bypass — arbitrary corpus paths reachable."
+      }
+    },
+    "cve5_rec": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade nltk to ≥3.10.3.",
+        "variant": "muted"
+      }
+    }
+  }
+}
