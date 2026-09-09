@@ -1,20 +1,23 @@
-*Morning Brief — 2026-09-08*
+*Morning Brief — 2026-09-09*
 
 *Focus today*
-1. FOMC data week — why now: BTC <$79K; hike odds 60-70%; CPI lands this week
-2. Alt L1 rotation day 2 — why now: confirm-or-fade window; no fundamental catalyst
-3. ZEC NU7 / CLARITY Act — why now: both resolve in 6-7 days; final positioning window
+1. CPI Thu Sep 11 (T-2) — BTC <$79K; hot print = renewed liquidations; cold = hike odds collapse
+2. ZEC NU7 poll closes Sep 14 (T-5) — ZEC 8-year high; 5-question issuance vote is primary catalyst
+3. token-movers + token-pick both failed yesterday — retry at 12:00 UTC; 24h data gap
 
 *Since yesterday*
-- HYPE squeeze: dead — −2.9% Sep 7; absorption window closed; thesis retired
-- ARB capitulation confirmed — Sep 6 reflexivity flag triggered exactly; −13.1%, 43% vol/mcap
-- BTC: $80,351 → <$79K — hike odds climbing, dollar strength pressure
+- $LAPTOP launched on Base — hostile reception; Kraken deleted promo, Coinbase Base exec distanced; cross-airdrop pop didn't fire
+- Bitcoin L2/BTCFi promoted to FRONT-RUN — Xverse sBTC staking live; Liquid resolution removes custodian overhang
+- Alt L1 rotation demoted to WATCH — no day-2 continuation; KAS/DOT/WLD move was one-session rotation
+- Stablecoin Regulation/Stablechains added as new FRONT-RUN narrative (MiCA + Circle OCC + Robinhood Chain)
 
 *Watch*
-- Fed hike odds hit 60-70% after bombastic Aug jobs report — compresses risk-on for Focus #2; sets vol regime into Sep 15-16 FOMC
+- ZEC at 8-year high + Grayscale ETF filing active — NU7 vote outcome (Sep 14) is outsized catalyst for focus #2
+- $LAPTOP Base launch cold — Coinbase exec distancing signals brand sensitivity on Base; watch for ecosystem spillover
 
 *Running today*
 - github-monitor @ 09:00 UTC
-- token-movers @ 12:00 UTC
-- token-pick @ 12:00 UTC
+- token-movers @ 12:00 UTC (retry — 1 failure yesterday)
+- token-pick @ 12:00 UTC (retry — 1 failure yesterday)
 - narrative-tracker @ 13:30 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC

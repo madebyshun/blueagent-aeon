@@ -1,0 +1,331 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief"
+      },
+      "children": [
+        "date-text",
+        "sep1",
+        "focus-heading",
+        "focus-stack",
+        "sep2",
+        "yesterday-heading",
+        "yesterday-stack",
+        "sep3",
+        "watch-heading",
+        "watch-stack",
+        "sep4",
+        "running-heading",
+        "running-table"
+      ]
+    },
+    "date-text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-09-09",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "CPI Thu Sep 11 (T-2) — BTC <$79K; hot print = renewed liquidations; cold = hike odds collapse"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC NU7 poll closes Sep 14 (T-5) — ZEC 8-year high; 5-question issuance vote is primary catalyst"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers + token-pick both failed yesterday — retry at 12:00 UTC; 24h data gap"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-1",
+        "yesterday-2",
+        "yesterday-3",
+        "yesterday-4"
+      ]
+    },
+    "yesterday-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-1-title",
+        "yesterday-1-text"
+      ]
+    },
+    "yesterday-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "$LAPTOP launched on Base",
+        "variant": "lead"
+      }
+    },
+    "yesterday-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "hostile reception; Kraken deleted promo, Coinbase Base exec distanced; cross-airdrop pop didn't fire"
+      }
+    },
+    "yesterday-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-2-header",
+        "yesterday-2-text"
+      ]
+    },
+    "yesterday-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-2-title",
+        "yesterday-2-badge"
+      ]
+    },
+    "yesterday-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "Bitcoin L2/BTCFi",
+        "variant": "lead"
+      }
+    },
+    "yesterday-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "secondary"
+      }
+    },
+    "yesterday-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Xverse sBTC staking live; Liquid resolution removes custodian overhang"
+      }
+    },
+    "yesterday-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-3-header",
+        "yesterday-3-text"
+      ]
+    },
+    "yesterday-3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-3-title",
+        "yesterday-3-badge"
+      ]
+    },
+    "yesterday-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "Alt L1 rotation",
+        "variant": "lead"
+      }
+    },
+    "yesterday-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "yesterday-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "no day-2 continuation; KAS/DOT/WLD move was one-session rotation"
+      }
+    },
+    "yesterday-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-4-header",
+        "yesterday-4-text"
+      ]
+    },
+    "yesterday-4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-4-title",
+        "yesterday-4-badge"
+      ]
+    },
+    "yesterday-4-title": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin Regulation/Stablechains",
+        "variant": "lead"
+      }
+    },
+    "yesterday-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "secondary"
+      }
+    },
+    "yesterday-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "added as new narrative (MiCA + Circle OCC + Robinhood Chain)"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-1",
+        "watch-2"
+      ]
+    },
+    "watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC at 8-year high + Grayscale ETF filing active — NU7 vote outcome (Sep 14) is outsized catalyst for focus #2"
+      }
+    },
+    "watch-2": {
+      "type": "Text",
+      "props": {
+        "text": "$LAPTOP Base launch cold — Coinbase exec distancing signals brand sensitivity on Base; watch for ecosystem spillover"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Time",
+          "Task",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "09:00 UTC",
+            "github-monitor",
+            ""
+          ],
+          [
+            "12:00 UTC",
+            "token-movers",
+            "retry — 1 failure yesterday"
+          ],
+          [
+            "12:00 UTC",
+            "token-pick",
+            "retry — 1 failure yesterday"
+          ],
+          [
+            "13:30 UTC",
+            "narrative-tracker",
+            ""
+          ],
+          [
+            "08:00, 14:00, 20:00 UTC",
+            "heartbeat",
+            ""
+          ]
+        ]
+      }
+    }
+  }
+}
