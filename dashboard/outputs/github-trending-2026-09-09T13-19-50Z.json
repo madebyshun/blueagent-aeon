@@ -1,0 +1,317 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-date",
+        "sep-1",
+        "section-top-pick",
+        "sep-2",
+        "section-ai-ml",
+        "sep-3",
+        "section-devtools",
+        "sep-4",
+        "text-sources"
+      ]
+    },
+    "text-date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-09-09",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-top-pick",
+        "storylink-top-pick",
+        "text-top-pick-desc"
+      ]
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "storylink-top-pick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "TauricResearch/TradingAgents",
+        "href": "https://github.com/TauricResearch/TradingAgents",
+        "source": "GitHub"
+      }
+    },
+    "text-top-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Quiet day dominated by skill-catalog noise — TradingAgents stands out with a multi-agent debate-before-trade architecture and 103k stars still pulling momentum."
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-ai-ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-ai-ml",
+        "stack-repo-aiml-1"
+      ]
+    },
+    "heading-ai-ml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "stack-repo-aiml-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack-repo-header-aiml-1",
+        "text-repo-desc-aiml-1"
+      ]
+    },
+    "stack-repo-header-aiml-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink-aiml-1",
+        "badge-stars-aiml-1",
+        "badge-lang-aiml-1",
+        "badge-trend-aiml-1"
+      ]
+    },
+    "storylink-aiml-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "TauricResearch/TradingAgents",
+        "href": "https://github.com/TauricResearch/TradingAgents"
+      }
+    },
+    "badge-stars-aiml-1": {
+      "type": "Badge",
+      "props": {
+        "text": "★506 today (104k total)",
+        "variant": "default"
+      }
+    },
+    "badge-lang-aiml-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "badge-trend-aiml-1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text-repo-desc-aiml-1": {
+      "type": "Text",
+      "props": {
+        "text": "Bull/bear analyst, researcher, and trader agents debate before each trade — design pattern validated at 103k stars."
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-devtools",
+        "stack-devtools-items"
+      ]
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "stack-devtools-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack-repo-devtools-1",
+        "stack-repo-devtools-2"
+      ]
+    },
+    "stack-repo-devtools-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack-repo-header-devtools-1",
+        "text-repo-desc-devtools-1"
+      ]
+    },
+    "stack-repo-header-devtools-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink-devtools-1",
+        "badge-stars-devtools-1",
+        "badge-lang-devtools-1",
+        "badge-trend-devtools-1"
+      ]
+    },
+    "storylink-devtools-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Tencent/teamai-cli",
+        "href": "https://github.com/Tencent/teamai-cli"
+      }
+    },
+    "badge-stars-devtools-1": {
+      "type": "Badge",
+      "props": {
+        "text": "★1,083 today (2.7k total)",
+        "variant": "default"
+      }
+    },
+    "badge-lang-devtools-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "badge-trend-devtools-1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text-repo-desc-devtools-1": {
+      "type": "Text",
+      "props": {
+        "text": "Syncs skills, rules, MCP configs team-wide across Claude Code, Codex, and Cursor — one init, all devs aligned."
+      }
+    },
+    "stack-repo-devtools-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack-repo-header-devtools-2",
+        "text-repo-desc-devtools-2"
+      ]
+    },
+    "stack-repo-header-devtools-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink-devtools-2",
+        "badge-stars-devtools-2",
+        "badge-lang-devtools-2",
+        "badge-trend-devtools-2"
+      ]
+    },
+    "storylink-devtools-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "vastsa/PI-Desktop",
+        "href": "https://github.com/vastsa/PI-Desktop"
+      }
+    },
+    "badge-stars-devtools-2": {
+      "type": "Badge",
+      "props": {
+        "text": "★393 today (1.5k total)",
+        "variant": "default"
+      }
+    },
+    "badge-lang-devtools-2": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "badge-trend-devtools-2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text-repo-desc-devtools-2": {
+      "type": "Text",
+      "props": {
+        "text": "v0.14.5 released today — Electron+Rust desktop that runs local AI coding agents with user-installable plugins."
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 3/13",
+        "variant": "caption"
+      }
+    }
+  }
+}

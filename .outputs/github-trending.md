@@ -1,29 +1,18 @@
-*GitHub Trending — 2026-09-08*
+*GitHub Trending — 2026-09-09*
 
-*Top pick* — [anthropics/fermats-last-theorem](https://github.com/anthropics/fermats-last-theorem)
-Anthropic's Lean 4 formalization of the full FLT proof — the Wiles argument, 232MB machine-verified and open-sourced.
+*Top pick* — [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)
+Quiet day dominated by skill-catalog noise — TradingAgents stands out with a multi-agent debate-before-trade architecture and 103k stars still pulling momentum.
 
 *AI/ML*
-• [anthropics/fermats-last-theorem](https://github.com/anthropics/fermats-last-theorem) — ★961 total (since Sep 4) · Lean · [DEBUT]
-232MB of Lean proofs spanning Galois reps, adic completions, modular forms — Wiles' FLT argument, formally checkable.
-
-• [okf-memory/okf-agent-memory](https://github.com/okf-memory/okf-agent-memory) — ★481 total (since Sep 5) · Go · [DEBUT]
-Git-native agent memory: sub-300µs BM25 search, embedded MCP server, zero external dependencies; cuts token bloat 80%.
-
-• [browser-use/browser-use](https://github.com/browser-use/browser-use) — ★330 today (113k total) · Python · [RETURNING]
-The production default for AI browser automation spiked 330★ in 24h after a Sep 7 patch — still the one to beat.
+• [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) — ★506 today (104k total) · Python · [ACCELERATING]
+Bull/bear analyst, researcher, and trader agents debate before each trade — design pattern validated at 103k stars.
 
 *Devtools*
-• [vinzdg/codenotch](https://github.com/vinzdg/codenotch) — ★1k total (since Sep 5) · Swift · [DEBUT]
-macOS menu-bar app that pins Claude Code/Cursor/Codex token-limit burndown to a screen edge without window-switching.
+• [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) — ★1,083 today (2.7k total) · TypeScript · [RETURNING]
+Syncs skills, rules, MCP configs team-wide across Claude Code, Codex, and Cursor — one init, all devs aligned.
 
-*Web/Apps*
-• [ashemag/human-atlas](https://github.com/ashemag/human-atlas) — ★2.3k total (since Sep 5) · TypeScript · [DEBUT]
-Browser-native 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system-layer toggles, and exploded views — no install.
-
-*Data*
-• [nahrek/polyledger](https://github.com/nahrek/polyledger) — ★621 total (since Sep 2) · Python · [DEBUT]
-Resumable Polymarket CLOB indexer: writes all trades + market metadata to one DuckDB file, queryable with plain SQL.
+• [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) — ★393 today (1.5k total) · TypeScript · [RETURNING]
+v0.14.5 released today — Electron+Rust desktop that runs local AI coding agents with user-installable plugins.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/41 (16 trending + 25 fallback)
+sources: trending=ok · gh_api=ok · kept 3/13
