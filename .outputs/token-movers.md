@@ -1,41 +1,39 @@
-*Token Movers — 2026-09-07*
+*Token Movers — 2026-09-09*
 
-_Large caps (BTC −0.9%, ETH −0.1%, SOL −2.3%) softly red while mid-caps rotate; ~48% of top-50 non-stables green, median near flat; DOT/WLD/ICP/KAS breaking out, ARB reversing its 85% weekly gain on heavy volume._
+_Mildly risk-off: ~44% of top-100 non-stablecoins green, median 24h ~−0.5%; BTC flat at $78.3K, broad selling across major alts with strength isolated to ZEC, NEAR, and AI tokens._
 
 *Top Winners (24h)*
-1. KAS — $0.03650  +18.6% / 7d +33.3% / 1h −0.6%  •  $44.5M / #72  [TRENDING+UP][BREAKOUT]
-2. DOT — $1.100  +13.8% / 7d +29.5% / 1h +0.7%  •  $313M / #49
-3. WLD — $0.4615  +12.5% / 7d +25.7% / 1h −3.9%  •  $397M / #54
-4. ICP — $2.990  +10.7% / 7d +20.4% / 1h −2.8%  •  $142M / #55
-5. FIL — $0.8750  +10.0% / 7d +26.0% / 1h −1.5%  •  $124M / #89
-6. INJ — $5.670  +9.8% / 7d +12.3% / 1h −1.3%  •  $145M / #99
-7. PUMP — $0.004251  +9.7% / 7d −2.8% / 1h −3.5%  •  $309M / #52  [TRENDING+UP]
-8. AVAX — $8.060  +5.5% / 7d +11.6% / 1h −0.3%  •  $382M / #29
-9. LINK — $12.92  +4.8% / 7d +13.6% / 1h −1.5%  •  $889M / #15  [MAJOR]
-10. MNT — $0.6270  +4.8% / 7d +9.8% / 1h −1.3%  •  $43.7M / #45
+1. STONK (STONK) — $0.236  +47.1% / 1h n/a  •  trending / #174  [PUMP-RISK][TRENDING+UP]
+2. ZEC (Zcash) — $1,265  +7.7% / 7d +57.5% / 1h +0.1%  •  $1.34B / #10  [MAJOR][TRENDING+UP]
+3. NEAR (NEAR Protocol) — $2.55  +5.8% / 7d +40.4% / 1h +1.4%  •  $652.9M / #31  [TRENDING+UP]
+4. VVV (Venice Token) — $25.41  +5.8% / 7d +62.1% / 1h +2.1%  •  $294.2M / #70  [TRENDING+UP]
+5. LIT (Lighter) — $4.91  +4.8% / 7d +37.8% / 1h −0.7%  •  $120.2M / #68  [TRENDING+UP]
+6. ATOM (Cosmos Hub) — $1.85  +3.2% / 7d +29.7% / 1h −2.7%  •  $111.4M / #75
+7. JUP (Jupiter) — $0.246  +1.9% / 7d +17.9% / 1h +1.1%  •  $85.4M / #85
 
 *Top Losers (24h)*
-1. ARB — $0.1644  −13.1% / 7d +85.4% / 1h −4.9%  •  $469M / #69  [CAPITULATION][TRENDING+DOWN]
-2. JUP — $0.2498  −7.0% / 7d +16.9% / 1h −2.1%  •  $106M / #82
-3. UNI — $6.860  −6.0% / 7d +30.5% / 1h −3.1%  •  $636M / #24
-4. NEAR — $2.320  −4.9% / 7d +21.5% / 1h −2.9%  •  $430M / #33
-5. ENA — $0.1661  −4.4% / 7d +7.9% / 1h −2.8%  •  $466M / #53
-6. DASH — $65.53  −4.4% / 7d +46.3% / 1h −2.5%  •  $254M / #81
-7. JST — $0.1077  −4.3% / 7d +11.5% / 1h +1.1%  •  $39.7M / #78
-8. CC — $0.1058  −3.2% / 7d −10.7% / 1h −1.6%  •  $11.8M / #26
-9. RAIN — $0.01633  −2.9% / 7d −4.5% / 1h −0.6%  •  $35.4M / #12  [MAJOR]
-10. HYPE — $85.53  −2.9% / 7d +4.2% / 1h −2.0%  •  $1.28B / #10  [MAJOR]
+1. AERO (Aerodrome Finance) — $0.560  −11.8% / 7d +22.8% / 1h −1.2%  •  $63.8M / #104
+2. WLD (Worldcoin) — $0.437  −11.0% / 7d +23.7% / 1h −0.6%  •  $213.9M / #54
+3. ETC (Ethereum Classic) — $8.17  −6.4% / 7d +14.4% / 1h −0.5%  •  $117.5M / #65
+4. ADA (Cardano) — $0.215  −6.2% / 7d +10.9% / 1h −0.4%  •  $556.8M / #19  [MAJOR]
+5. ARB (Arbitrum) — $0.157  −5.9% / 7d +47.1% / 1h −1.1%  •  $262.2M / #72
+6. ICP (Internet Computer) — $2.85  −5.8% / 7d +13.4% / 1h +0.2%  •  $61.6M / #55
+7. LINK (Chainlink) — $11.89  −5.6% / 7d +8.2% / 1h −0.7%  •  $6.95B / #17  [MAJOR]
+8. SKY (Sky) — $0.064  −4.8% / 7d −8.5% / 1h 0.0%  •  $9.3M / #59
+9. TRUMP (Official Trump) — $2.17  −4.0% / 7d +0.3% / 1h −0.8%  •  $162.2M / #98  [TRENDING+DOWN]
+10. ENA (Ethena) — $0.156  −3.4% / 7d +6.2% / 1h −1.0%  •  $466.6M / #56
 
 *Trending*
-1. PONS — #109, $0.7127, 24h −15.0%
-2. ZEC — #9, $1160, 24h −1.8%  [MAJOR]
-3. TAO — #40, $261.2, 24h +4.5%  [TRENDING+UP]
-4. STONK — #269, $0.1199, 24h −30.2%  [TRENDING+DOWN]
-5. PUMP — #52, $0.004249, 24h +10.6%  [TRENDING+UP]
-6. ZCAT — #231, $0.1340, 24h −0.8%
-7. PEAQ — #327, $0.03118, 24h +24.1%
+1. LAPTOP (Hunter Biden's Laptop) — #94, $2.00, 0%
+2. STONK (STONK) — #174, $0.236, +47.1%  [PUMP-RISK]
+3. VVV (Venice Token) — #68, $25.83, +10.7%  [TRENDING+UP]
+4. ZEC (Zcash) — #10, $1,265, +7.6%  [MAJOR][TRENDING+UP]
+5. NEAR (NEAR Protocol) — #31, $2.57, +6.1%  [TRENDING+UP]
+6. PUMP (Pump.fun) — #50, $0.0046, +5.5%  [TRENDING+UP]
+7. PONS (Pons) — #108, $0.709, −9.1%  [TRENDING+DOWN]
 
 *Notable*
-• KAS: trending + +18.6% on sustained 7d +33.3% — clean breakout, volume confirms; strongest signal today
-• ARB: −13.1% on $469M volume (vol/mcap 43%) after 7d +85% — exhaustion confirmed; still trending as dip-buyers chase [CAPITULATION][TRENDING+DOWN]
-• STONK: −30.2% while trending #4 — distribution into search interest [TRENDING+DOWN]
+• STONK: #174 up 47.1% while trending — [PUMP-RISK]; was −30.2% on Sep 7; violent reversal, no fundamental catalyst
+• ZEC: [MAJOR][TRENDING+UP] +7.7% / 7d +57.5% — NU7 coinholder vote closes Sep 14 (5 days); sustained move not a flash
+• LAPTOP: launched today on Base (Sep 9), instantly trending #1 — $TRUMP cross-airdrop mechanic; social signal only, no price data yet
+• VVV + NEAR: AI-sector tokens holding up — VVV 7d +62.1%, NEAR 7d +40.4% — while broad alts bleed

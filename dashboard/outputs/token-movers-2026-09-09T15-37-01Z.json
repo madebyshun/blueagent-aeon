@@ -1,0 +1,417 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-09-09"
+      },
+      "children": [
+        "market-sentiment",
+        "sep1",
+        "winners-section",
+        "sep2",
+        "losers-section",
+        "sep3",
+        "trending-section",
+        "sep4",
+        "notable-section"
+      ]
+    },
+    "market-sentiment": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Market Sentiment",
+        "message": "Mildly risk-off: ~44% of top-100 non-stablecoins green, median 24h ~−0.5%; BTC flat at $78.3K, broad selling across major alts with strength isolated to ZEC, NEAR, and AI tokens."
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "winners-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners-heading",
+        "winners-table"
+      ]
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Market Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "STONK (STONK)",
+            "$0.236",
+            "+47.1%",
+            "n/a",
+            "n/a",
+            "—",
+            "#174",
+            "PUMP-RISK, TRENDING+UP"
+          ],
+          [
+            "ZEC (Zcash)",
+            "$1,265",
+            "+7.7%",
+            "+57.5%",
+            "+0.1%",
+            "$1.34B",
+            "#10",
+            "MAJOR, TRENDING+UP"
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "$2.55",
+            "+5.8%",
+            "+40.4%",
+            "+1.4%",
+            "$652.9M",
+            "#31",
+            "TRENDING+UP"
+          ],
+          [
+            "VVV (Venice Token)",
+            "$25.41",
+            "+5.8%",
+            "+62.1%",
+            "+2.1%",
+            "$294.2M",
+            "#70",
+            "TRENDING+UP"
+          ],
+          [
+            "LIT (Lighter)",
+            "$4.91",
+            "+4.8%",
+            "+37.8%",
+            "−0.7%",
+            "$120.2M",
+            "#68",
+            "TRENDING+UP"
+          ],
+          [
+            "ATOM (Cosmos Hub)",
+            "$1.85",
+            "+3.2%",
+            "+29.7%",
+            "−2.7%",
+            "$111.4M",
+            "#75",
+            "—"
+          ],
+          [
+            "JUP (Jupiter)",
+            "$0.246",
+            "+1.9%",
+            "+17.9%",
+            "+1.1%",
+            "$85.4M",
+            "#85",
+            "—"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "losers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers-heading",
+        "losers-table"
+      ]
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Market Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "AERO (Aerodrome Finance)",
+            "$0.560",
+            "−11.8%",
+            "+22.8%",
+            "−1.2%",
+            "$63.8M",
+            "#104",
+            "—"
+          ],
+          [
+            "WLD (Worldcoin)",
+            "$0.437",
+            "−11.0%",
+            "+23.7%",
+            "−0.6%",
+            "$213.9M",
+            "#54",
+            "—"
+          ],
+          [
+            "ETC (Ethereum Classic)",
+            "$8.17",
+            "−6.4%",
+            "+14.4%",
+            "−0.5%",
+            "$117.5M",
+            "#65",
+            "—"
+          ],
+          [
+            "ADA (Cardano)",
+            "$0.215",
+            "−6.2%",
+            "+10.9%",
+            "−0.4%",
+            "$556.8M",
+            "#19",
+            "MAJOR"
+          ],
+          [
+            "ARB (Arbitrum)",
+            "$0.157",
+            "−5.9%",
+            "+47.1%",
+            "−1.1%",
+            "$262.2M",
+            "#72",
+            "—"
+          ],
+          [
+            "ICP (Internet Computer)",
+            "$2.85",
+            "−5.8%",
+            "+13.4%",
+            "+0.2%",
+            "$61.6M",
+            "#55",
+            "—"
+          ],
+          [
+            "LINK (Chainlink)",
+            "$11.89",
+            "−5.6%",
+            "+8.2%",
+            "−0.7%",
+            "$6.95B",
+            "#17",
+            "MAJOR"
+          ],
+          [
+            "SKY (Sky)",
+            "$0.064",
+            "−4.8%",
+            "−8.5%",
+            "0.0%",
+            "$9.3M",
+            "#59",
+            "—"
+          ],
+          [
+            "TRUMP (Official Trump)",
+            "$2.17",
+            "−4.0%",
+            "+0.3%",
+            "−0.8%",
+            "$162.2M",
+            "#98",
+            "TRENDING+DOWN"
+          ],
+          [
+            "ENA (Ethena)",
+            "$0.156",
+            "−3.4%",
+            "+6.2%",
+            "−1.0%",
+            "$466.6M",
+            "#56",
+            "—"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "trending-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending-heading",
+        "trending-table"
+      ]
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h %",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "LAPTOP (Hunter Biden's Laptop)",
+            "#94",
+            "$2.00",
+            "0%",
+            "—"
+          ],
+          [
+            "STONK (STONK)",
+            "#174",
+            "$0.236",
+            "+47.1%",
+            "PUMP-RISK"
+          ],
+          [
+            "VVV (Venice Token)",
+            "#68",
+            "$25.83",
+            "+10.7%",
+            "TRENDING+UP"
+          ],
+          [
+            "ZEC (Zcash)",
+            "#10",
+            "$1,265",
+            "+7.6%",
+            "MAJOR, TRENDING+UP"
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "#31",
+            "$2.57",
+            "+6.1%",
+            "TRENDING+UP"
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "#50",
+            "$0.0046",
+            "+5.5%",
+            "TRENDING+UP"
+          ],
+          [
+            "PONS (Pons)",
+            "#108",
+            "$0.709",
+            "−9.1%",
+            "TRENDING+DOWN"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "notable-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-heading",
+        "notable-stonk",
+        "notable-zec",
+        "notable-laptop",
+        "notable-ai-tokens"
+      ]
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-stonk": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "STONK Volatility Alert",
+        "message": "#174 up 47.1% while trending — [PUMP-RISK]; was −30.2% on Sep 7; violent reversal, no fundamental catalyst"
+      }
+    },
+    "notable-zec": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "ZEC Momentum",
+        "message": "[MAJOR][TRENDING+UP] +7.7% / 7d +57.5% — NU7 coinholder vote closes Sep 14 (5 days); sustained move not a flash"
+      }
+    },
+    "notable-laptop": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "LAPTOP Launch",
+        "message": "launched today on Base (Sep 9), instantly trending #1 — $TRUMP cross-airdrop mechanic; social signal only, no price data yet"
+      }
+    },
+    "notable-ai-tokens": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "AI Tokens Holding Strength",
+        "message": "VVV + NEAR: AI-sector tokens holding up — VVV 7d +62.1%, NEAR 7d +40.4% — while broad alts bleed"
+      }
+    }
+  }
+}
