@@ -1,0 +1,514 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-09-10"
+      },
+      "children": [
+        "top_pick_section",
+        "separator_1",
+        "web_apps_section",
+        "separator_2",
+        "ai_ml_section",
+        "separator_3",
+        "devtools_section",
+        "separator_4",
+        "infra_section",
+        "separator_5",
+        "footer"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_label",
+        "top_pick_repo",
+        "top_pick_desc"
+      ]
+    },
+    "top_pick_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "top_pick_repo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bilawalsidhu/gods-eye-view",
+        "href": "https://github.com/bilawalsidhu/gods-eye-view"
+      }
+    },
+    "top_pick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Most visually distinct repo today: real open-source satellite + spatial intel data rendered on a photorealistic 3D browser globe — no backend, no API key.",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "web_apps_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "web_apps_heading",
+        "wa_repo_1"
+      ]
+    },
+    "web_apps_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "wa_repo_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "wa_repo_1_link",
+        "wa_repo_1_stats",
+        "wa_repo_1_desc"
+      ]
+    },
+    "wa_repo_1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bilawalsidhu/gods-eye-view",
+        "href": "https://github.com/bilawalsidhu/gods-eye-view"
+      }
+    },
+    "wa_repo_1_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "wa_repo_1_stars",
+        "wa_repo_1_lang",
+        "wa_repo_1_status"
+      ]
+    },
+    "wa_repo_1_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★1.6k today (22.4k total)",
+        "variant": "outline"
+      }
+    },
+    "wa_repo_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JS",
+        "variant": "secondary"
+      }
+    },
+    "wa_repo_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "wa_repo_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Renders live open-source satellite imagery and spatial intel on a photorealistic 3D browser globe — no API key needed.",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "ai_ml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "ai_ml_heading",
+        "ai_repo_1",
+        "ai_repo_2",
+        "ai_repo_3"
+      ]
+    },
+    "ai_ml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "ai_repo_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_repo_1_link",
+        "ai_repo_1_stats",
+        "ai_repo_1_desc"
+      ]
+    },
+    "ai_repo_1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "THU-MAIC/OpenMAIC",
+        "href": "https://github.com/THU-MAIC/OpenMAIC"
+      }
+    },
+    "ai_repo_1_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_repo_1_stars",
+        "ai_repo_1_lang",
+        "ai_repo_1_status"
+      ]
+    },
+    "ai_repo_1_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★806 today (35k total)",
+        "variant": "outline"
+      }
+    },
+    "ai_repo_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TS",
+        "variant": "secondary"
+      }
+    },
+    "ai_repo_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "ai_repo_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Deploys role-differentiated LLM agents (tutor, critic, peer) as a full interactive classroom — one-click multi-agent edu infra.",
+        "variant": "body"
+      }
+    },
+    "ai_repo_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_repo_2_link",
+        "ai_repo_2_stats",
+        "ai_repo_2_desc"
+      ]
+    },
+    "ai_repo_2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "JustVugg/colibri",
+        "href": "https://github.com/JustVugg/colibri"
+      }
+    },
+    "ai_repo_2_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_repo_2_stars",
+        "ai_repo_2_lang",
+        "ai_repo_2_status"
+      ]
+    },
+    "ai_repo_2_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★157 today (27.3k total)",
+        "variant": "outline"
+      }
+    },
+    "ai_repo_2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C",
+        "variant": "secondary"
+      }
+    },
+    "ai_repo_2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "ai_repo_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Streams MoE expert layers from disk in pure C — runs frontier models on commodity hardware without full VRAM fit.",
+        "variant": "body"
+      }
+    },
+    "ai_repo_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_repo_3_link",
+        "ai_repo_3_stats",
+        "ai_repo_3_desc"
+      ]
+    },
+    "ai_repo_3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "alsk1992/CloddsBot",
+        "href": "https://github.com/alsk1992/CloddsBot"
+      }
+    },
+    "ai_repo_3_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_repo_3_stars",
+        "ai_repo_3_lang",
+        "ai_repo_3_status"
+      ]
+    },
+    "ai_repo_3_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★299 today (1.4k total)",
+        "variant": "outline"
+      }
+    },
+    "ai_repo_3_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TS",
+        "variant": "secondary"
+      }
+    },
+    "ai_repo_3_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "ai_repo_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted trading agent covering 1,000+ markets autonomously — open-source alternative to paid algo-trading platforms.",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "devtools_heading",
+        "dt_repo_1"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "dt_repo_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dt_repo_1_link",
+        "dt_repo_1_stats",
+        "dt_repo_1_desc"
+      ]
+    },
+    "dt_repo_1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "AlexsJones/llmfit",
+        "href": "https://github.com/AlexsJones/llmfit"
+      }
+    },
+    "dt_repo_1_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "dt_repo_1_stars",
+        "dt_repo_1_lang",
+        "dt_repo_1_status"
+      ]
+    },
+    "dt_repo_1_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★247 today (35.5k total)",
+        "variant": "outline"
+      }
+    },
+    "dt_repo_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      }
+    },
+    "dt_repo_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "dt_repo_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "One CLI command benchmarks 300+ LLM providers against your local hardware — eliminates trial-and-error model selection.",
+        "variant": "body"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "infra_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "infra_heading",
+        "infra_repo_1"
+      ]
+    },
+    "infra_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infra_repo_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_repo_1_link",
+        "infra_repo_1_stats",
+        "infra_repo_1_desc"
+      ]
+    },
+    "infra_repo_1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "diegosouzapw/OmniRoute",
+        "href": "https://github.com/diegosouzapw/OmniRoute"
+      }
+    },
+    "infra_repo_1_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra_repo_1_stars",
+        "infra_repo_1_lang",
+        "infra_repo_1_status"
+      ]
+    },
+    "infra_repo_1_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★591 today (63.9k total)",
+        "variant": "outline"
+      }
+    },
+    "infra_repo_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TS",
+        "variant": "secondary"
+      }
+    },
+    "infra_repo_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "infra_repo_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Single endpoint unifying 352 LLM providers with quota-aware auto-fallback — replace all per-provider SDKs in one swap.",
+        "variant": "body"
+      }
+    },
+    "separator_5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/16",
+        "variant": "muted"
+      }
+    }
+  }
+}
