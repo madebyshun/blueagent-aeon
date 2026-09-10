@@ -1,0 +1,306 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-09-10"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_yesterday",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_focus",
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "NEAR Day live now — price thesis from yesterday's pick resolves today"
+      },
+      "children": []
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "CPI tomorrow (Sep 11) — BTC at $78.4K; hot print risks liquidations to $77K"
+      },
+      "children": []
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC NU7 vote closes Sep 14 (T-4) — 8-year high; position or watch now"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_yesterday",
+        "yesterday_1",
+        "yesterday_2",
+        "yesterday_3",
+        "yesterday_4"
+      ]
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_resolved",
+        "text_yesterday_1"
+      ]
+    },
+    "badge_resolved": {
+      "type": "Badge",
+      "props": {
+        "text": "resolved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_yesterday_1": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers + token-pick back healthy; NEAR picked on today's event"
+      },
+      "children": []
+    },
+    "yesterday_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new",
+        "text_yesterday_2"
+      ]
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "new",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_yesterday_2": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest failed Sep 9 (consecutive_failures=1); watching"
+      },
+      "children": []
+    },
+    "yesterday_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_signal",
+        "text_yesterday_3"
+      ]
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "signal",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_yesterday_3": {
+      "type": "Text",
+      "props": {
+        "text": "LAPTOP launched on Base → trended #1 instantly; gauging follow-through"
+      },
+      "children": []
+    },
+    "yesterday_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_quiet",
+        "text_yesterday_4"
+      ]
+    },
+    "badge_quiet": {
+      "type": "Badge",
+      "props": {
+        "text": "quiet",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_yesterday_4": {
+      "type": "Text",
+      "props": {
+        "text": "github-trending: only 13 repos (vs ~25 typical); low signal day"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_watch",
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC $78.4K, bulls defending $77.6-77.9K ahead of CPI — implication for focus #2"
+      },
+      "children": []
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "NEAR Day live: chain abstraction + confidential computing spotlight — implication for focus #1"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_running",
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC"
+      },
+      "children": []
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      },
+      "children": []
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      },
+      "children": []
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      },
+      "children": []
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      },
+      "children": []
+    }
+  }
+}
