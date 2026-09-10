@@ -1,25 +1,28 @@
-*Security Digest — 2026-09-08*
-Verdict: nothing urgent today. 5 to schedule (nltk cluster), 0 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-09-10*
+Verdict: 1 actively exploited, 5 to schedule. _Sources: KEV, GH Advisory, EPSS_
+
+*PATCH TODAY*
+- [CVE-2026-60004](https://github.com/advisories/GHSA-rcr6-4jqh-j84m) — gitea (Go) · EPSS 86.8% · CVSS 9.8
+  RCE via diffpatch git hook installation. EPSS 86.8% — near-certain active exploitation.
+  → upgrade gitea to ≥1.27.1 and redeploy.
 
 *PATCH THIS WEEK*
-nltk (pip) — 5 CVEs fixed in v3.10.3, all affect ≤ 3.10.2. One upgrade covers all.
+- [CVE-2026-75604](https://github.com/advisories/GHSA-p293-qw3h-jr36) — next (npm) · EPSS 2.5% · CVSS 9.0
+  Unauthenticated RCE on Windows-hosted Next.js servers via path traversal. Affects v13.4–15.x and v16.x.
+  → schedule upgrade: next → ≥15.5.24 (v15) or ≥16.3.3 (v16).
 
-- [CVE-2026-79657](https://github.com/advisories/GHSA-x99w-6fgc-pmfw) · CVSS 9.3 · EPSS 1.2% · no PoC
-  Pickle loader RCE via unsafe module-namespace trust — most severe.
-  → upgrade nltk to ≥3.10.3.
+- [CVE-2026-59161](https://github.com/advisories/GHSA-q5j5-6p94-4gwc) — excelize/v2 (Go) · EPSS 0.66% · CVSS 8.7
+  Streaming GetRows row-bound bypass causes attacker-controlled heap allocation.
+  → schedule upgrade: excelize/v2 → ≥2.11.0.
 
-- [CVE-2026-79676](https://github.com/advisories/GHSA-p4rw-rvv2-7xwr) · CVSS 8.2 · EPSS 0.31% · no PoC
-  Corpus readers follow symlinks outside trusted roots — path traversal.
-  → upgrade nltk to ≥3.10.3.
+- [CVE-2026-73294](https://github.com/advisories/GHSA-xp7j-h7jc-4w8p) — semaphoreui/semaphore (Go) · EPSS 0.57% · CVSS 9.9
+  OS command injection via untrusted git_url argument. Authenticated low-priv exploitable.
+  → schedule upgrade: semaphore → ≥0.0.0-20260704181911-7e8a9434bd81.
 
-- [CVE-2026-78681](https://github.com/advisories/GHSA-97qj-x29f-37w7) · CVSS 8.7 · EPSS 0.29% · no PoC
-  Entity-expansion DoS (billion laughs) via raw ElementTree parses.
-  → upgrade nltk to ≥3.10.3.
+- [CVE-2026-78676](https://github.com/advisories/GHSA-284h-m62q-gf8w) — GitPython (pip) · EPSS 0.43% · CVSS 9.8
+  Dormant multi-line git-config values corrupted into live injected directives — RCE.
+  → schedule upgrade: GitPython → ≥3.1.59.
 
-- [CVE-2026-78682](https://github.com/advisories/GHSA-6ww7-3frv-cqxh) · CVSS 8.7 · EPSS 0.25% · no PoC
-  pathsec SSRF bypass when a proxy is configured.
-  → upgrade nltk to ≥3.10.3.
-
-- [CVE-2026-79674](https://github.com/advisories/GHSA-3gq4-3j92-5w49) · CVSS 8.8 · EPSS 0.23% · no PoC
-  Corpus Reader sandbox bypass — arbitrary corpus paths reachable.
-  → upgrade nltk to ≥3.10.3.
+- [CVE-2026-86076](https://github.com/advisories/GHSA-hw8v-xxg5-vvvx) — n8n (npm) · EPSS 0.33% · CVSS 8.7
+  Expression sandbox escape via class-field sanitizer rebinding — arbitrary code execution.
+  → schedule upgrade: n8n → ≥1.123.76 / ≥2.37.7 / ≥2.38.2.

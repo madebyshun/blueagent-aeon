@@ -1,0 +1,332 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-09-10",
+        "description": "Verdict: 1 actively exploited, 5 to schedule. Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "patch_today_section",
+        "separator1",
+        "patch_week_section"
+      ]
+    },
+    "patch_today_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_today_heading",
+        "cve_60004_container"
+      ]
+    },
+    "patch_today_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve_60004_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_60004_link",
+        "cve_60004_pkg",
+        "cve_60004_desc",
+        "cve_60004_rec"
+      ]
+    },
+    "cve_60004_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-60004",
+        "href": "https://github.com/advisories/GHSA-rcr6-4jqh-j84m",
+        "source": "gitea (Go) · EPSS 86.8% · CVSS 9.8",
+        "score": "9.8"
+      }
+    },
+    "cve_60004_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "Actively Exploited",
+        "variant": "destructive"
+      }
+    },
+    "cve_60004_desc": {
+      "type": "Text",
+      "props": {
+        "text": "RCE via diffpatch git hook installation. EPSS 86.8% — near-certain active exploitation.",
+        "variant": "body"
+      }
+    },
+    "cve_60004_rec": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade gitea to ≥1.27.1 and redeploy.",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_week_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_week_heading",
+        "patch_week_items"
+      ]
+    },
+    "patch_week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch_week_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve_75604_container",
+        "cve_59161_container",
+        "cve_73294_container",
+        "cve_78676_container",
+        "cve_86076_container"
+      ]
+    },
+    "cve_75604_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_75604_link",
+        "cve_75604_pkg",
+        "cve_75604_desc",
+        "cve_75604_rec"
+      ]
+    },
+    "cve_75604_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-75604",
+        "href": "https://github.com/advisories/GHSA-p293-qw3h-jr36",
+        "source": "next (npm) · EPSS 2.5% · CVSS 9.0",
+        "score": "9.0"
+      }
+    },
+    "cve_75604_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "Windows-hosted Next.js v13.4–15.x, v16.x",
+        "variant": "secondary"
+      }
+    },
+    "cve_75604_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated RCE on Windows-hosted Next.js servers via path traversal.",
+        "variant": "body"
+      }
+    },
+    "cve_75604_rec": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: next → ≥15.5.24 (v15) or ≥16.3.3 (v16).",
+        "variant": "lead"
+      }
+    },
+    "cve_59161_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_59161_link",
+        "cve_59161_pkg",
+        "cve_59161_desc",
+        "cve_59161_rec"
+      ]
+    },
+    "cve_59161_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-59161",
+        "href": "https://github.com/advisories/GHSA-q5j5-6p94-4gwc",
+        "source": "excelize/v2 (Go) · EPSS 0.66% · CVSS 8.7",
+        "score": "8.7"
+      }
+    },
+    "cve_59161_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "Heap allocation bypass",
+        "variant": "secondary"
+      }
+    },
+    "cve_59161_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Streaming GetRows row-bound bypass causes attacker-controlled heap allocation.",
+        "variant": "body"
+      }
+    },
+    "cve_59161_rec": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: excelize/v2 → ≥2.11.0.",
+        "variant": "lead"
+      }
+    },
+    "cve_73294_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_73294_link",
+        "cve_73294_pkg",
+        "cve_73294_desc",
+        "cve_73294_rec"
+      ]
+    },
+    "cve_73294_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-73294",
+        "href": "https://github.com/advisories/GHSA-xp7j-h7jc-4w8p",
+        "source": "semaphoreui/semaphore (Go) · EPSS 0.57% · CVSS 9.9",
+        "score": "9.9"
+      }
+    },
+    "cve_73294_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "Authenticated low-priv exploitable",
+        "variant": "secondary"
+      }
+    },
+    "cve_73294_desc": {
+      "type": "Text",
+      "props": {
+        "text": "OS command injection via untrusted git_url argument.",
+        "variant": "body"
+      }
+    },
+    "cve_73294_rec": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: semaphore → ≥0.0.0-20260704181911-7e8a9434bd81.",
+        "variant": "lead"
+      }
+    },
+    "cve_78676_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_78676_link",
+        "cve_78676_pkg",
+        "cve_78676_desc",
+        "cve_78676_rec"
+      ]
+    },
+    "cve_78676_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-78676",
+        "href": "https://github.com/advisories/GHSA-284h-m62q-gf8w",
+        "source": "GitPython (pip) · EPSS 0.43% · CVSS 9.8",
+        "score": "9.8"
+      }
+    },
+    "cve_78676_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "Config injection RCE",
+        "variant": "secondary"
+      }
+    },
+    "cve_78676_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Dormant multi-line git-config values corrupted into live injected directives — RCE.",
+        "variant": "body"
+      }
+    },
+    "cve_78676_rec": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: GitPython → ≥3.1.59.",
+        "variant": "lead"
+      }
+    },
+    "cve_86076_container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_86076_link",
+        "cve_86076_pkg",
+        "cve_86076_desc",
+        "cve_86076_rec"
+      ]
+    },
+    "cve_86076_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-86076",
+        "href": "https://github.com/advisories/GHSA-hw8v-xxg5-vvvx",
+        "source": "n8n (npm) · EPSS 0.33% · CVSS 8.7",
+        "score": "8.7"
+      }
+    },
+    "cve_86076_pkg": {
+      "type": "Badge",
+      "props": {
+        "text": "Sandbox escape",
+        "variant": "secondary"
+      }
+    },
+    "cve_86076_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Expression sandbox escape via class-field sanitizer rebinding — arbitrary code execution.",
+        "variant": "body"
+      }
+    },
+    "cve_86076_rec": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: n8n → ≥1.123.76 / ≥2.37.7 / ≥2.38.2.",
+        "variant": "lead"
+      }
+    }
+  }
+}
