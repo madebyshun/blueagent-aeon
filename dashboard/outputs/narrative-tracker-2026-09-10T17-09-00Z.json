@@ -1,0 +1,391 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-10"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_transitions",
+        "sep_1",
+        "section_reflexivity",
+        "sep_2",
+        "section_positions",
+        "sep_3",
+        "section_map"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "trans_clarity",
+        "trans_stablecoin",
+        "trans_near",
+        "trans_ai_trading"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans_clarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted_1",
+        "text_clarity"
+      ]
+    },
+    "badge_promoted_1": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "default"
+      }
+    },
+    "text_clarity": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act — Fading FADE → Rising FRONT-RUN — Treasury Sec. Bessent publicly called on Senate to pass it Sep 10; T-5 to cloture vote; was written off as dead, now live political push"
+      }
+    },
+    "trans_stablecoin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted_2",
+        "text_stablecoin"
+      ]
+    },
+    "badge_promoted_2": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "default"
+      }
+    },
+    "text_stablecoin": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin/Stablechains — Emerging → Rising RIDE — PayPal launched PYUSDx Sep 10 (custom stablecoin dev platform backed by PYUSD); first major consumer-fintech entry; MiCA+OCC+Robinhood Chain+PayPal alignment now explicit"
+      }
+    },
+    "trans_near": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new",
+        "text_near"
+      ]
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "text_near": {
+      "type": "Text",
+      "props": {
+        "text": "NEAR/Chain Abstraction — Emerging ↑↑ FRONT-RUN — NEAR Day live today; AI+chain abstraction+confidential computing spotlight; NEAR +5.8% / 7d +40.4%; short squeeze cleared Sep 9"
+      }
+    },
+    "trans_ai_trading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted",
+        "text_ai_trading"
+      ]
+    },
+    "badge_demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "text_ai_trading": {
+      "type": "Text",
+      "props": {
+        "text": "AI Trading Infrastructure — Rising RIDE → ↓ WATCH — VVV RSI 76 pump was reflexivity (called Sep 8); AERO −11.8% Sep 9; no new fundamental Sep 10; scanner momentum fading"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_reflexivity",
+        "alert_hawkish",
+        "alert_stablecoin_optics"
+      ]
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert_hawkish": {
+      "type": "Alert",
+      "props": {
+        "title": "Hawkish Fed/FOMC",
+        "message": "BTC sliding Sep 10 before CPI prints; fear narrative moving price without data. Snap reversal risk high if CPI cold — don't position on direction before the number",
+        "type": "warning"
+      }
+    },
+    "alert_stablecoin_optics": {
+      "type": "Alert",
+      "props": {
+        "title": "Stablecoin/PYUSDx",
+        "message": "PayPal announcement inflating narrative before any adoption data; stablecoin infra tokens repricing on optics not revenue",
+        "type": "warning"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_positions",
+        "pos_clarity_act",
+        "pos_near",
+        "pos_btc_l2",
+        "pos_stablecoin",
+        "pos_zec",
+        "pos_fed",
+        "pos_ai_trading_fade"
+      ]
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos_clarity_act": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN: CLARITY Act (MS 3 ↑, Mixed) — @SecBessent lobbying Senate Sep 10; asymmetric: pass removes DeFi regulatory overhang — bear: banking lobby opposition may kill cloture",
+        "variant": "lead"
+      }
+    },
+    "pos_near": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN: NEAR/Chain Abstraction (MS 2 ↑↑, Bull) — NEAR Day live Sep 10; AI+chain abstraction spotlight; short squeeze cleared — bear: event-driven bump fades post-NEAR Day",
+        "variant": "lead"
+      }
+    },
+    "pos_btc_l2": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN: Bitcoin L2/BTCFi (MS 3 ↑, Bull) — Xverse sBTC Sep 8 + Liquid resolution; building quietly — bear: slow-burn, no near-term price catalyst",
+        "variant": "lead"
+      }
+    },
+    "pos_stablecoin": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: Stablecoin/Stablechains (MS 4 ↑↑, Bull) — PayPal PYUSDx; MiCA+OCC+Robinhood Chain+PayPal alignment — bear: incumbents eat native DeFi share",
+        "variant": "lead"
+      }
+    },
+    "pos_zec": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: Privacy Coin/ZEC (MS 3 ↑, Bull) — T-4 to NU7 vote close; 8-year high — bear: sell-the-news post-vote",
+        "variant": "lead"
+      }
+    },
+    "pos_fed": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: Hawkish Fed/FOMC (MS 5 ↑, Mixed) — CPI live today. Hot →BTC $77K, Cold →$82K. Hold, don't add.",
+        "variant": "lead"
+      }
+    },
+    "pos_ai_trading_fade": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: AI Trading Infrastructure (MS 3 ↓, Mixed) — VVV reflexivity confirmed; AERO −11.8%; scanner momentum exhausted",
+        "variant": "lead"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_map",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_map_emerging_header",
+        "text_map_emerging_items"
+      ]
+    },
+    "text_map_emerging_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      }
+    },
+    "text_map_emerging_items": {
+      "type": "Text",
+      "props": {
+        "text": "NEAR/Chain Abstraction ↑↑, Bitcoin L2/BTCFi ↑"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_map_rising_header",
+        "text_map_rising_items"
+      ]
+    },
+    "text_map_rising_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      }
+    },
+    "text_map_rising_items": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin/Stablechains ↑↑, CLARITY Act ↑, RWA Tokenization →, Oracle/LINK →, Agent Identity/TEE →, Quantum →, ETH ETF →, Corporate BTC Treasury →, Privacy Coin/ZEC ↑, AI Trading Infrastructure ↓"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_map_peak_header",
+        "text_map_peak_items"
+      ]
+    },
+    "text_map_peak_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      }
+    },
+    "text_map_peak_items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy →, x402/Agentic Payments ↑, Hawkish Fed/FOMC ↑, Agentic Dev Tools ↓"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_map_fading_header",
+        "text_map_fading_items"
+      ]
+    },
+    "text_map_fading_header": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      }
+    },
+    "text_map_fading_items": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi Revival ↓, ARB Breakout/L2 ↓↓, Bitcoin Custody Security ↓, Memecoins/Retail ↓"
+      }
+    }
+  }
+}
