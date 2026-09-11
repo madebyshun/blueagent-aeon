@@ -1,0 +1,609 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-11"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_transitions",
+        "sep_1",
+        "section_reflexivity",
+        "sep_2",
+        "section_positions",
+        "sep_3",
+        "section_map"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "stack_transitions_items"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "stack_transitions_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_1",
+        "trans_2",
+        "trans_3",
+        "trans_4",
+        "trans_5",
+        "trans_6",
+        "trans_7",
+        "trans_8",
+        "trans_9"
+      ]
+    },
+    "trans_1": {
+      "type": "Text",
+      "props": {
+        "text": "DEMOTED: Hawkish Fed/FOMC Peak → Fading — US CPI soft; BTC +2.2% risk-on snap reversal; hike priced out; ECB +25bps (2nd hike) partial decoupled offset",
+        "variant": "body"
+      }
+    },
+    "trans_2": {
+      "type": "Text",
+      "props": {
+        "text": "PROMOTED: NEAR/Chain Abstraction Emerging → Rising — NEAR +11.2% day after NEAR Day; event thesis confirmed; MS 2→3",
+        "variant": "body"
+      }
+    },
+    "trans_3": {
+      "type": "Text",
+      "props": {
+        "text": "PROMOTED: FHE/Confidential Computing Emerging → Rising — Aragon Confidential Voting powered by Zama live; first production FHE governance on-chain",
+        "variant": "body"
+      }
+    },
+    "trans_4": {
+      "type": "Text",
+      "props": {
+        "text": "DEMOTED: CLARITY Act Rising FRONT-RUN → WATCH — revised 630-page bill out, zero Dem support; 7 Dem crossovers needed for Sep 15 cloture; failure odds rising",
+        "variant": "body"
+      }
+    },
+    "trans_5": {
+      "type": "Text",
+      "props": {
+        "text": "DEMOTED: Bitcoin L2/BTCFi Emerging FRONT-RUN → WATCH — Liquid Network audit 85.75% solvency, 602.5 BTC shortfall; trust damage right after FRONT-RUN call",
+        "variant": "body"
+      }
+    },
+    "trans_6": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: Institutional Perp Infrastructure — SGX opened BTC/ETH perps to US institutional traders; Hyperliquid Events (HIP-3) live; BitGo WalletConnect→Hyperliquid",
+        "variant": "body"
+      }
+    },
+    "trans_7": {
+      "type": "Text",
+      "props": {
+        "text": "DEAD: Alt L1 Rotation — day 4 no signal",
+        "variant": "body"
+      }
+    },
+    "trans_8": {
+      "type": "Text",
+      "props": {
+        "text": "DEAD: Memecoins/Retail — $LAPTOP crashed 99%+ from ~$110B cap; thesis exhausted",
+        "variant": "body"
+      }
+    },
+    "trans_9": {
+      "type": "Text",
+      "props": {
+        "text": "DEAD: Coinbase AiFi/Base — Base App rebranded back to Coinbase Wallet; social experiment confirmed failed",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_reflexivity",
+        "stack_reflexivity_items"
+      ]
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "stack_reflexivity_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "refl_1",
+        "refl_2"
+      ]
+    },
+    "refl_1": {
+      "type": "Text",
+      "props": {
+        "text": "Hawkish Fed/FOMC: Resolved — 3-day BTC selldown on CPI fear, +2.2% snap on soft print. Narrative was the position; data confirmed it.",
+        "variant": "body"
+      }
+    },
+    "refl_2": {
+      "type": "Text",
+      "props": {
+        "text": "Quantum: Researchers halved BTC/ETH attack costs from Google's March benchmark. No real capability — pure sentiment pump on each research drop.",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_positions",
+        "stack_positions_items"
+      ]
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "stack_positions_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos_1",
+        "pos_2",
+        "pos_3",
+        "pos_4",
+        "pos_5",
+        "pos_6",
+        "pos_7",
+        "pos_8",
+        "pos_9"
+      ]
+    },
+    "pos_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_1_title",
+        "pos_1_details"
+      ]
+    },
+    "pos_1_title": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN: FHE/Confidential Computing",
+        "variant": "default"
+      }
+    },
+    "pos_1_details": {
+      "type": "Text",
+      "props": {
+        "text": "MS 3 ↑↑, Bull — @zama_fhe + Aragon live — bear: niche governance, limited trading liquidity",
+        "variant": "caption"
+      }
+    },
+    "pos_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_2_title",
+        "pos_2_details"
+      ]
+    },
+    "pos_2_title": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN: Quantum",
+        "variant": "default"
+      }
+    },
+    "pos_2_details": {
+      "type": "Text",
+      "props": {
+        "text": "MS 4 ↑, Bull — halved attack costs; reflexivity escalating — bear: 5+ years from any real threat",
+        "variant": "caption"
+      }
+    },
+    "pos_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_3_title",
+        "pos_3_details"
+      ]
+    },
+    "pos_3_title": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN: Institutional Perp Infrastructure",
+        "variant": "default"
+      }
+    },
+    "pos_3_details": {
+      "type": "Text",
+      "props": {
+        "text": "MS 2 ↑↑, Bull, NEW — SGX + Hyperliquid Events — bear: institutional ≠ retail adoption",
+        "variant": "caption"
+      }
+    },
+    "pos_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_4_title",
+        "pos_4_details"
+      ]
+    },
+    "pos_4_title": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: Stablecoin/Stablechains",
+        "variant": "secondary"
+      }
+    },
+    "pos_4_details": {
+      "type": "Text",
+      "props": {
+        "text": "MS 5 ↑↑, Bull — Coinbase+Moov→1,000+ banks; MoneyGram USDC-Visa Colombia; Uniswap StablePair Hook — bear: CLARITY fail risks regulatory arbitrage",
+        "variant": "caption"
+      }
+    },
+    "pos_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_5_title",
+        "pos_5_details"
+      ]
+    },
+    "pos_5_title": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: RWA Tokenization",
+        "variant": "secondary"
+      }
+    },
+    "pos_5_details": {
+      "type": "Text",
+      "props": {
+        "text": "MS 4 ↑, Bull — Nasdaq $100M Kraken; FHFA mortgage crypto-as-asset ruling — bear: institutional curves slow",
+        "variant": "caption"
+      }
+    },
+    "pos_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_6_title",
+        "pos_6_details"
+      ]
+    },
+    "pos_6_title": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: AI Agent Economy",
+        "variant": "secondary"
+      }
+    },
+    "pos_6_details": {
+      "type": "Text",
+      "props": {
+        "text": "MS 5 →, Bull — $73M/176M txns; structural baseline — bear: 98.6% USDC micro-payments",
+        "variant": "caption"
+      }
+    },
+    "pos_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_7_title",
+        "pos_7_details"
+      ]
+    },
+    "pos_7_title": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE: NEAR/Chain Abstraction",
+        "variant": "secondary"
+      }
+    },
+    "pos_7_details": {
+      "type": "Text",
+      "props": {
+        "text": "MS 3 ↑, Bull — NEAR +11.2% post-NEAR Day — bear: event-driven spike may fade",
+        "variant": "caption"
+      }
+    },
+    "pos_8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_8_title",
+        "pos_8_details"
+      ]
+    },
+    "pos_8_title": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE: Hawkish Fed/FOMC",
+        "variant": "outline"
+      }
+    },
+    "pos_8_details": {
+      "type": "Text",
+      "props": {
+        "text": "MS 3 ↓↓, Fading — CPI soft; US hike over; ECB decoupled",
+        "variant": "caption"
+      }
+    },
+    "pos_9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_9_title",
+        "pos_9_details"
+      ]
+    },
+    "pos_9_title": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH: CLARITY Act",
+        "variant": "outline"
+      }
+    },
+    "pos_9_details": {
+      "type": "Text",
+      "props": {
+        "text": "MS 3 ↓ — no Dem support; Sep 15 T-4; binary risk",
+        "variant": "caption"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_map",
+        "stack_map_items"
+      ]
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "stack_map_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading",
+        "map_dead"
+      ]
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerging_title",
+        "map_emerging_items"
+      ]
+    },
+    "map_emerging_title": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "default"
+      }
+    },
+    "map_emerging_items": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional Perp Infrastructure, BSC Tokenized Stocks",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_title",
+        "map_rising_items"
+      ]
+    },
+    "map_rising_title": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "map_rising_items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy, x402/Agentic Payments, Stablecoin/Stablechains, RWA Tokenization, Agent Identity/TEE, Quantum, FHE/Confidential Computing, ZEC Privacy, ETH ETF, Corporate BTC Treasury, NEAR/Chain Abstraction, Oracle/LINK, AI Compute/DePIN",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_title",
+        "map_peak_items"
+      ]
+    },
+    "map_peak_title": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "secondary"
+      }
+    },
+    "map_peak_items": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Dev Tools",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_title",
+        "map_fading_items"
+      ]
+    },
+    "map_fading_title": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "outline"
+      }
+    },
+    "map_fading_items": {
+      "type": "Text",
+      "props": {
+        "text": "Hawkish Fed/FOMC, DeFi Revival, ARB/L2 Revival",
+        "variant": "body"
+      }
+    },
+    "map_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_dead_title",
+        "map_dead_items"
+      ]
+    },
+    "map_dead_title": {
+      "type": "Badge",
+      "props": {
+        "text": "Dead",
+        "variant": "destructive"
+      }
+    },
+    "map_dead_items": {
+      "type": "Text",
+      "props": {
+        "text": "Alt L1 Rotation, Memecoins/Retail, Coinbase AiFi/Base",
+        "variant": "body"
+      }
+    }
+  }
+}

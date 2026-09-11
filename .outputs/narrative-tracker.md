@@ -1,26 +1,34 @@
-*Narrative Tracker — 2026-09-10*
+*Narrative Tracker — 2026-09-11*
 
 TRANSITIONS
-• PROMOTED: CLARITY Act — Fading FADE → Rising FRONT-RUN — Treasury Sec. Bessent publicly called on Senate to pass it Sep 10; T-5 to cloture vote; was written off as dead, now live political push
-• PROMOTED: Stablecoin/Stablechains — Emerging → Rising RIDE — PayPal launched PYUSDx Sep 10 (custom stablecoin dev platform backed by PYUSD); first major consumer-fintech entry; MiCA+OCC+Robinhood Chain+PayPal alignment now explicit
-• NEW: NEAR/Chain Abstraction — Emerging ↑↑ FRONT-RUN — NEAR Day live today; AI+chain abstraction+confidential computing spotlight; NEAR +5.8% / 7d +40.4%; short squeeze cleared Sep 9
-• DEMOTED: AI Trading Infrastructure — Rising RIDE → ↓ WATCH — VVV RSI 76 pump was reflexivity (called Sep 8); AERO −11.8% Sep 9; no new fundamental Sep 10; scanner momentum fading
+• DEMOTED: Hawkish Fed/FOMC Peak → Fading — US CPI soft; BTC +2.2% risk-on snap reversal; hike priced out; ECB +25bps (2nd hike) partial decoupled offset
+• PROMOTED: NEAR/Chain Abstraction Emerging → Rising — NEAR +11.2% day after NEAR Day; event thesis confirmed; MS 2→3
+• PROMOTED: FHE/Confidential Computing Emerging → Rising — Aragon Confidential Voting powered by Zama live; first production FHE governance on-chain
+• DEMOTED: CLARITY Act Rising FRONT-RUN → WATCH — revised 630-page bill out, zero Dem support; 7 Dem crossovers needed for Sep 15 cloture; failure odds rising
+• DEMOTED: Bitcoin L2/BTCFi Emerging FRONT-RUN → WATCH — Liquid Network audit 85.75% solvency, 602.5 BTC shortfall; trust damage right after FRONT-RUN call
+• NEW: Institutional Perp Infrastructure — SGX opened BTC/ETH perps to US institutional traders; Hyperliquid Events (HIP-3) live; BitGo WalletConnect→Hyperliquid
+• DEAD: Alt L1 Rotation — day 4 no signal
+• DEAD: Memecoins/Retail — $LAPTOP crashed 99%+ from ~$110B cap; thesis exhausted
+• DEAD: Coinbase AiFi/Base — Base App rebranded back to Coinbase Wallet; social experiment confirmed failed
 
 REFLEXIVITY ALERT
-• Hawkish Fed/FOMC — BTC sliding Sep 10 before CPI prints; fear narrative moving price without data. Snap reversal risk high if CPI cold — don't position on direction before the number
-• Stablecoin/PYUSDx — PayPal announcement inflating narrative before any adoption data; stablecoin infra tokens repricing on optics not revenue
+• Hawkish Fed/FOMC: Resolved — 3-day BTC selldown on CPI fear, +2.2% snap on soft print. Narrative was the position; data confirmed it.
+• Quantum: Researchers halved BTC/ETH attack costs from Google's March benchmark. No real capability — pure sentiment pump on each research drop.
 
 POSITIONS
-• FRONT-RUN: CLARITY Act (MS 3 ↑, Mixed) — @SecBessent lobbying Senate Sep 10; asymmetric: pass removes DeFi regulatory overhang — bear: banking lobby opposition may kill cloture
-• FRONT-RUN: NEAR/Chain Abstraction (MS 2 ↑↑, Bull) — NEAR Day live Sep 10; AI+chain abstraction spotlight; short squeeze cleared — bear: event-driven bump fades post-NEAR Day
-• FRONT-RUN: Bitcoin L2/BTCFi (MS 3 ↑, Bull) — Xverse sBTC Sep 8 + Liquid resolution; building quietly — bear: slow-burn, no near-term price catalyst
-• RIDE: Stablecoin/Stablechains (MS 4 ↑↑, Bull) — PayPal PYUSDx; MiCA+OCC+Robinhood Chain+PayPal alignment — bear: incumbents eat native DeFi share
-• RIDE: Privacy Coin/ZEC (MS 3 ↑, Bull) — T-4 to NU7 vote close; 8-year high — bear: sell-the-news post-vote
-• WATCH: Hawkish Fed/FOMC (MS 5 ↑, Mixed) — CPI live today. Hot →BTC $77K, Cold →$82K. Hold, don't add.
-• FADE: AI Trading Infrastructure (MS 3 ↓, Mixed) — VVV reflexivity confirmed; AERO −11.8%; scanner momentum exhausted
+• FRONT-RUN: FHE/Confidential Computing (MS 3 ↑↑, Bull) — @zama_fhe + Aragon live — bear: niche governance, limited trading liquidity
+• FRONT-RUN: Quantum (MS 4 ↑, Bull) — halved attack costs; reflexivity escalating — bear: 5+ years from any real threat
+• FRONT-RUN: Institutional Perp Infrastructure (MS 2 ↑↑, Bull, NEW) — SGX + Hyperliquid Events — bear: institutional ≠ retail adoption
+• RIDE: Stablecoin/Stablechains (MS 5 ↑↑, Bull) — Coinbase+Moov→1,000+ banks; MoneyGram USDC-Visa Colombia; Uniswap StablePair Hook — bear: CLARITY fail risks regulatory arbitrage
+• RIDE: RWA Tokenization (MS 4 ↑, Bull) — Nasdaq $100M Kraken; FHFA mortgage crypto-as-asset ruling — bear: institutional curves slow
+• RIDE: AI Agent Economy (MS 5 →, Bull) — $73M/176M txns; structural baseline — bear: 98.6% USDC micro-payments
+• RIDE: NEAR/Chain Abstraction (MS 3 ↑, Bull) — NEAR +11.2% post-NEAR Day — bear: event-driven spike may fade
+• FADE: Hawkish Fed/FOMC (MS 3 ↓↓, Fading) — CPI soft; US hike over; ECB decoupled
+• WATCH: CLARITY Act (MS 3 ↓) — no Dem support; Sep 15 T-4; binary risk
 
 MAP
-Emerging: NEAR/Chain Abstraction ↑↑, Bitcoin L2/BTCFi ↑
-Rising: Stablecoin/Stablechains ↑↑, CLARITY Act ↑, RWA Tokenization →, Oracle/LINK →, Agent Identity/TEE →, Quantum →, ETH ETF →, Corporate BTC Treasury →, Privacy Coin/ZEC ↑, AI Trading Infrastructure ↓
-Peak: AI Agent Economy →, x402/Agentic Payments ↑, Hawkish Fed/FOMC ↑, Agentic Dev Tools ↓
-Fading: DeFi Revival ↓, ARB Breakout/L2 ↓↓, Bitcoin Custody Security ↓, Memecoins/Retail ↓
+Emerging: Institutional Perp Infrastructure, BSC Tokenized Stocks
+Rising: AI Agent Economy, x402/Agentic Payments, Stablecoin/Stablechains, RWA Tokenization, Agent Identity/TEE, Quantum, FHE/Confidential Computing, ZEC Privacy, ETH ETF, Corporate BTC Treasury, NEAR/Chain Abstraction, Oracle/LINK, AI Compute/DePIN
+Peak: Agentic Dev Tools
+Fading: Hawkish Fed/FOMC, DeFi Revival, ARB/L2 Revival
+Dead: Alt L1 Rotation, Memecoins/Retail, Coinbase AiFi/Base
