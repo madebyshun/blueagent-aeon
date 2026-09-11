@@ -1,0 +1,589 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest",
+        "description": "2026-09-11 — 3 actively exploited (KEV), 5 to schedule, 3 to monitor"
+      },
+      "children": [
+        "verdict-stack",
+        "sep1",
+        "patch-today-section",
+        "sep2",
+        "patch-week-section",
+        "sep3",
+        "monitor-section"
+      ]
+    },
+    "verdict-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-exploited",
+        "badge-schedule",
+        "badge-monitor"
+      ]
+    },
+    "badge-exploited": {
+      "type": "Badge",
+      "props": {
+        "text": "3 Actively Exploited (KEV)",
+        "variant": "destructive"
+      }
+    },
+    "badge-schedule": {
+      "type": "Badge",
+      "props": {
+        "text": "5 to Schedule",
+        "variant": "secondary"
+      }
+    },
+    "badge-monitor": {
+      "type": "Badge",
+      "props": {
+        "text": "3 to Monitor",
+        "variant": "outline"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch-today-heading",
+        "cve-85046",
+        "cve-67277",
+        "cve-86060"
+      ]
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h3"
+      }
+    },
+    "cve-85046": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-85046-link",
+        "cve-85046-metadata",
+        "cve-85046-description",
+        "cve-85046-action"
+      ]
+    },
+    "cve-85046-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-85046 — Google Chromium V8",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-85046",
+        "source": "KEV",
+        "score": "EPSS 1.26%"
+      }
+    },
+    "cve-85046-metadata": {
+      "type": "Text",
+      "props": {
+        "text": "KEV added 2026-09-04",
+        "variant": "caption"
+      }
+    },
+    "cve-85046-description": {
+      "type": "Text",
+      "props": {
+        "text": "Type confusion enables RCE via malicious HTML in Chromium-based browsers. Exploited per CISA."
+      }
+    },
+    "cve-85046-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ update Chrome/Chromium and Electron apps today.",
+        "variant": "lead"
+      }
+    },
+    "cve-67277": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-67277-link",
+        "cve-67277-metadata",
+        "cve-67277-description",
+        "cve-67277-action"
+      ]
+    },
+    "cve-67277-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-67277 — MikroTik RouterOS",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-67277",
+        "source": "KEV",
+        "score": "EPSS 0.75%"
+      }
+    },
+    "cve-67277-metadata": {
+      "type": "Text",
+      "props": {
+        "text": "KEV added 2026-09-10",
+        "variant": "caption"
+      }
+    },
+    "cve-67277-description": {
+      "type": "Text",
+      "props": {
+        "text": "Missing auth in btest service exposes kernel memory, enables DoS. Exploited per CISA."
+      }
+    },
+    "cve-67277-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ patch RouterOS per vendor advisory today.",
+        "variant": "lead"
+      }
+    },
+    "cve-86060": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-86060-link",
+        "cve-86060-metadata",
+        "cve-86060-description",
+        "cve-86060-action"
+      ]
+    },
+    "cve-86060-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-86060 — MikroTik RouterOS",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-86060",
+        "source": "KEV",
+        "score": "EPSS 0.69%"
+      }
+    },
+    "cve-86060-metadata": {
+      "type": "Text",
+      "props": {
+        "text": "KEV added 2026-09-10",
+        "variant": "caption"
+      }
+    },
+    "cve-86060-description": {
+      "type": "Text",
+      "props": {
+        "text": "Argument-delimiter injection in policy mask enables privilege escalation. Exploited per CISA."
+      }
+    },
+    "cve-86060-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ patch RouterOS per vendor advisory today.",
+        "variant": "lead"
+      }
+    },
+    "patch-week-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch-week-heading",
+        "cve-88018",
+        "ghsa-26w7",
+        "cve-88044",
+        "cve-59160",
+        "cve-88007"
+      ]
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h3"
+      }
+    },
+    "cve-88018": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-88018-link",
+        "cve-88018-metadata",
+        "cve-88018-description",
+        "cve-88018-action"
+      ]
+    },
+    "cve-88018-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-88018 — rclone serve s3 (Go)",
+        "href": "https://github.com/advisories/GHSA-xwwr-4h3p-r22c",
+        "source": "GitHub Advisory",
+        "score": "CVSS 9.8"
+      }
+    },
+    "cve-88018-metadata": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS 0.49% · PoC public",
+        "variant": "caption"
+      }
+    },
+    "cve-88018-description": {
+      "type": "Text",
+      "props": {
+        "text": "--auth-proxy without --auth-key accepts any SigV4 signature — full S3 backend access unauthenticated."
+      }
+    },
+    "cve-88018-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade rclone to ≥1.75.1 and redeploy.",
+        "variant": "lead"
+      }
+    },
+    "ghsa-26w7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-26w7-link",
+        "ghsa-26w7-metadata",
+        "ghsa-26w7-description",
+        "ghsa-26w7-action"
+      ]
+    },
+    "ghsa-26w7-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-26w7-cxv4-gfx2 — astro (npm)",
+        "href": "https://github.com/advisories/GHSA-26w7-cxv4-gfx2",
+        "source": "GitHub Advisory",
+        "score": "CVSS 9.8"
+      }
+    },
+    "ghsa-26w7-metadata": {
+      "type": "Text",
+      "props": {
+        "text": "no public PoC",
+        "variant": "caption"
+      }
+    },
+    "ghsa-26w7-description": {
+      "type": "Text",
+      "props": {
+        "text": "Malicious AVIF triggers RCE via libheif in Sharp image service. No auth required."
+      }
+    },
+    "ghsa-26w7-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade astro to ≥7.2.8.",
+        "variant": "lead"
+      }
+    },
+    "cve-88044": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-88044-link",
+        "cve-88044-metadata",
+        "cve-88044-description",
+        "cve-88044-action"
+      ]
+    },
+    "cve-88044-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-88044 — rclone RC (Go)",
+        "href": "https://github.com/advisories/GHSA-p569-5gjg-9cmj",
+        "source": "GitHub Advisory",
+        "score": "CVSS 9.1"
+      }
+    },
+    "cve-88044-metadata": {
+      "type": "Text",
+      "props": {
+        "text": "EPSS 0.49% · PoC public",
+        "variant": "caption"
+      }
+    },
+    "cve-88044-description": {
+      "type": "Text",
+      "props": {
+        "text": "Per-server auth-proxy bypass: S3 clients reach wrong backends; FTP gets unauthenticated R/W."
+      }
+    },
+    "cve-88044-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade rclone to ≥1.75.1.",
+        "variant": "lead"
+      }
+    },
+    "cve-59160": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-59160-link",
+        "cve-59160-description",
+        "cve-59160-action"
+      ]
+    },
+    "cve-59160-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-59160 — @yeger/turbo-graph (npm)",
+        "href": "https://github.com/advisories/GHSA-2r5q-h53f-9rp3",
+        "source": "GitHub Advisory",
+        "score": "CVSS 8.8"
+      }
+    },
+    "cve-59160-description": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated /api/run endpoint executes arbitrary tasks for any network caller."
+      }
+    },
+    "cve-59160-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade or block network exposure.",
+        "variant": "lead"
+      }
+    },
+    "cve-88007": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-88007-link",
+        "cve-88007-metadata",
+        "cve-88007-description",
+        "cve-88007-action"
+      ]
+    },
+    "cve-88007-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-88007 — Traefik (Go)",
+        "href": "https://github.com/advisories/GHSA-qqjf-53cj-pwvv",
+        "source": "GitHub Advisory",
+        "score": "EPSS 0.37%"
+      }
+    },
+    "cve-88007-metadata": {
+      "type": "Text",
+      "props": {
+        "text": "PoC public",
+        "variant": "caption"
+      }
+    },
+    "cve-88007-description": {
+      "type": "Text",
+      "props": {
+        "text": "HTTP/3 reuses NTLM-authenticated backend connection across clients — identity hijack without credentials."
+      }
+    },
+    "cve-88007-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade Traefik to ≥v2.11.57 (v2) or ≥v3.7.13 (v3).",
+        "variant": "lead"
+      }
+    },
+    "monitor-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "monitor-heading",
+        "cve-88062",
+        "ghsa-2xp9",
+        "cve-84445"
+      ]
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h3"
+      }
+    },
+    "cve-88062": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-88062-link",
+        "cve-88062-metadata",
+        "cve-88062-description",
+        "cve-88062-action"
+      ]
+    },
+    "cve-88062-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-88062 — omniroute (npm)",
+        "href": "https://github.com/advisories/GHSA-hf57-cqmx-p4gr",
+        "source": "GitHub Advisory",
+        "score": "EPSS 0.40%"
+      }
+    },
+    "cve-88062-metadata": {
+      "type": "Text",
+      "props": {
+        "text": "no fix",
+        "variant": "caption"
+      }
+    },
+    "cve-88062-description": {
+      "type": "Text",
+      "props": {
+        "text": "ACP custom-agent endpoint allows unauthenticated RCE."
+      }
+    },
+    "cve-88062-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ watch for patched release.",
+        "variant": "lead"
+      }
+    },
+    "ghsa-2xp9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-2xp9-link",
+        "ghsa-2xp9-metadata",
+        "ghsa-2xp9-description",
+        "ghsa-2xp9-action"
+      ]
+    },
+    "ghsa-2xp9-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-2xp9-vwfh-vxw4 — next (npm)",
+        "href": "https://github.com/advisories/GHSA-2xp9-vwfh-vxw4",
+        "source": "GitHub Advisory",
+        "score": "critical"
+      }
+    },
+    "ghsa-2xp9-metadata": {
+      "type": "Text",
+      "props": {
+        "text": "no fix",
+        "variant": "caption"
+      }
+    },
+    "ghsa-2xp9-description": {
+      "type": "Text",
+      "props": {
+        "text": "AVIF image optimization RCE (distinct from yesterday's CVE-2026-75604)."
+      }
+    },
+    "ghsa-2xp9-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ disable AVIF until patched.",
+        "variant": "lead"
+      }
+    },
+    "cve-84445": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-84445-link",
+        "cve-84445-metadata",
+        "cve-84445-description",
+        "cve-84445-action"
+      ]
+    },
+    "cve-84445-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-84445 — grpc (Go)",
+        "href": "https://github.com/advisories/GHSA-2v4p-qf9q-27wj",
+        "source": "GitHub Advisory",
+        "score": "high"
+      }
+    },
+    "cve-84445-metadata": {
+      "type": "Text",
+      "props": {
+        "text": "no fix",
+        "variant": "caption"
+      }
+    },
+    "cve-84445-description": {
+      "type": "Text",
+      "props": {
+        "text": "xDS server crash via missing :authority/Host — remote DoS."
+      }
+    },
+    "cve-84445-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ watch for patched release.",
+        "variant": "lead"
+      }
+    }
+  }
+}

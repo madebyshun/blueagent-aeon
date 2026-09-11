@@ -1,28 +1,46 @@
-*Security Digest — 2026-09-10*
-Verdict: 1 actively exploited, 5 to schedule. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-09-11*
+Verdict: 3 actively exploited (KEV), 5 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- [CVE-2026-60004](https://github.com/advisories/GHSA-rcr6-4jqh-j84m) — gitea (Go) · EPSS 86.8% · CVSS 9.8
-  RCE via diffpatch git hook installation. EPSS 86.8% — near-certain active exploitation.
-  → upgrade gitea to ≥1.27.1 and redeploy.
+- [CVE-2026-85046](https://nvd.nist.gov/vuln/detail/CVE-2026-85046) — Google Chromium V8 · KEV added 2026-09-04 · EPSS 1.26%
+  Type confusion enables RCE via malicious HTML in Chromium-based browsers. Exploited per CISA.
+  → update Chrome/Chromium and Electron apps today.
+
+- [CVE-2026-67277](https://nvd.nist.gov/vuln/detail/CVE-2026-67277) — MikroTik RouterOS · KEV added 2026-09-10 · EPSS 0.75%
+  Missing auth in btest service exposes kernel memory, enables DoS. Exploited per CISA.
+  → patch RouterOS per vendor advisory today.
+
+- [CVE-2026-86060](https://nvd.nist.gov/vuln/detail/CVE-2026-86060) — MikroTik RouterOS · KEV added 2026-09-10 · EPSS 0.69%
+  Argument-delimiter injection in policy mask enables privilege escalation. Exploited per CISA.
+  → patch RouterOS per vendor advisory today.
 
 *PATCH THIS WEEK*
-- [CVE-2026-75604](https://github.com/advisories/GHSA-p293-qw3h-jr36) — next (npm) · EPSS 2.5% · CVSS 9.0
-  Unauthenticated RCE on Windows-hosted Next.js servers via path traversal. Affects v13.4–15.x and v16.x.
-  → schedule upgrade: next → ≥15.5.24 (v15) or ≥16.3.3 (v16).
+- [CVE-2026-88018](https://github.com/advisories/GHSA-xwwr-4h3p-r22c) — rclone serve s3 (Go) · CVSS 9.8 · EPSS 0.49% · PoC public
+  --auth-proxy without --auth-key accepts any SigV4 signature — full S3 backend access unauthenticated.
+  → upgrade rclone to ≥1.75.1 and redeploy.
 
-- [CVE-2026-59161](https://github.com/advisories/GHSA-q5j5-6p94-4gwc) — excelize/v2 (Go) · EPSS 0.66% · CVSS 8.7
-  Streaming GetRows row-bound bypass causes attacker-controlled heap allocation.
-  → schedule upgrade: excelize/v2 → ≥2.11.0.
+- [GHSA-26w7-cxv4-gfx2](https://github.com/advisories/GHSA-26w7-cxv4-gfx2) — astro (npm) · CVSS 9.8 · no public PoC
+  Malicious AVIF triggers RCE via libheif in Sharp image service. No auth required.
+  → upgrade astro to ≥7.2.8.
 
-- [CVE-2026-73294](https://github.com/advisories/GHSA-xp7j-h7jc-4w8p) — semaphoreui/semaphore (Go) · EPSS 0.57% · CVSS 9.9
-  OS command injection via untrusted git_url argument. Authenticated low-priv exploitable.
-  → schedule upgrade: semaphore → ≥0.0.0-20260704181911-7e8a9434bd81.
+- [CVE-2026-88044](https://github.com/advisories/GHSA-p569-5gjg-9cmj) — rclone RC (Go) · CVSS 9.1 · EPSS 0.49% · PoC public
+  Per-server auth-proxy bypass: S3 clients reach wrong backends; FTP gets unauthenticated R/W.
+  → upgrade rclone to ≥1.75.1.
 
-- [CVE-2026-78676](https://github.com/advisories/GHSA-284h-m62q-gf8w) — GitPython (pip) · EPSS 0.43% · CVSS 9.8
-  Dormant multi-line git-config values corrupted into live injected directives — RCE.
-  → schedule upgrade: GitPython → ≥3.1.59.
+- [CVE-2026-59160](https://github.com/advisories/GHSA-2r5q-h53f-9rp3) — @yeger/turbo-graph (npm) · CVSS 8.8
+  Unauthenticated /api/run endpoint executes arbitrary tasks for any network caller.
+  → upgrade or block network exposure.
 
-- [CVE-2026-86076](https://github.com/advisories/GHSA-hw8v-xxg5-vvvx) — n8n (npm) · EPSS 0.33% · CVSS 8.7
-  Expression sandbox escape via class-field sanitizer rebinding — arbitrary code execution.
-  → schedule upgrade: n8n → ≥1.123.76 / ≥2.37.7 / ≥2.38.2.
+- [CVE-2026-88007](https://github.com/advisories/GHSA-qqjf-53cj-pwvv) — Traefik (Go) · EPSS 0.37% · PoC public
+  HTTP/3 reuses NTLM-authenticated backend connection across clients — identity hijack without credentials.
+  → upgrade Traefik to ≥v2.11.57 (v2) or ≥v3.7.13 (v3).
+
+*MONITOR*
+- [CVE-2026-88062](https://github.com/advisories/GHSA-hf57-cqmx-p4gr) — omniroute (npm) · EPSS 0.40% · no fix
+  ACP custom-agent endpoint allows unauthenticated RCE. → watch for patched release.
+
+- [GHSA-2xp9-vwfh-vxw4](https://github.com/advisories/GHSA-2xp9-vwfh-vxw4) — next (npm) · critical · no fix
+  AVIF image optimization RCE (distinct from yesterday's CVE-2026-75604). → disable AVIF until patched.
+
+- [CVE-2026-84445](https://github.com/advisories/GHSA-2v4p-qf9q-27wj) — grpc (Go) · high · no fix
+  xDS server crash via missing :authority/Host — remote DoS. → watch for patched release.
