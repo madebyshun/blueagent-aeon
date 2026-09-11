@@ -1,23 +1,23 @@
-*Morning Brief — 2026-09-10*
+*Morning Brief — 2026-09-11*
 
 *Focus today*
-1. NEAR Day live now — price thesis from yesterday's pick resolves today
-2. CPI tomorrow (Sep 11) — BTC at $78.4K; hot print risks liquidations to $77K
-3. ZEC NU7 vote closes Sep 14 (T-4) — 8-year high; position or watch now
+1. CPI prints today — why now: BTC at $77K; hot print tests floor, cold opens $82K recovery
+2. CLARITY Act T-4 (cloture Sep 15) — why now: 7 Dem crossovers needed; failure kills 2026 bill
+3. token-pick + token-movers down — why now: both failed yesterday 15:26 UTC; retry today 12:00 UTC
 
 *Since yesterday*
-- [resolved] token-movers + token-pick back healthy; NEAR picked on today's event
-- [new] security-digest failed Sep 9 (consecutive_failures=1); watching
-- [signal] LAPTOP launched on Base → trended #1 instantly; gauging follow-through
-- [quiet] github-trending: only 13 repos (vs ~25 typical); low signal day
+- NEAR Day completed Sep 10: NEAR 10/10 thesis resolved — watch Sep 11 close for confirmation
+- PayPal PYUSDx launched Sep 10: Stablecoin/Stablechains promoted to RIDE
+- security-digest recovered: clean Sep 10 run after Sep 9 failure
+- ZEC NU7 vote T-3 (Sep 14): active catalyst window, no new signal
 
 *Watch*
-- BTC $78.4K, bulls defending $77.6-77.9K ahead of CPI — implication for focus #2
-- NEAR Day live: chain abstraction + confidential computing spotlight — implication for focus #1
+- BTC near $77K pre-CPI; 71% Fed hike priced — hot print risks $77K floor test (focus #1)
+- CLARITY Act cloture Sep 15: needs 60 votes, 53 Republican seats — failure ends bill for 2026 calendar (focus #2)
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
-- token-movers @ 12:00 UTC
-- token-pick @ 12:00 UTC
+- token-movers @ 12:00 UTC (failed yesterday)
+- token-pick @ 12:00 UTC (failed yesterday)
 - narrative-tracker @ 13:30 UTC

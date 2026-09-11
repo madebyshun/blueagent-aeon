@@ -1,0 +1,308 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-09-11"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_yesterday",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_focus_1_main",
+        "text_focus_1_why"
+      ]
+    },
+    "text_focus_1_main": {
+      "type": "Text",
+      "props": {
+        "text": "1. CPI prints today",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_focus_1_why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: BTC at $77K; hot print tests floor, cold opens $82K recovery",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_focus_2_main",
+        "text_focus_2_why"
+      ]
+    },
+    "text_focus_2_main": {
+      "type": "Text",
+      "props": {
+        "text": "2. CLARITY Act T-4 (cloture Sep 15)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_focus_2_why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 7 Dem crossovers needed; failure kills 2026 bill",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_focus_3_main",
+        "text_focus_3_why"
+      ]
+    },
+    "text_focus_3_main": {
+      "type": "Text",
+      "props": {
+        "text": "3. token-pick + token-movers down",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_focus_3_why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: both failed yesterday 15:26 UTC; retry today 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_yesterday",
+        "item_near",
+        "item_paypal",
+        "item_security",
+        "item_zec"
+      ]
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "item_near": {
+      "type": "Text",
+      "props": {
+        "text": "NEAR Day completed Sep 10: NEAR 10/10 thesis resolved — watch Sep 11 close for confirmation",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_paypal": {
+      "type": "Text",
+      "props": {
+        "text": "PayPal PYUSDx launched Sep 10: Stablecoin/Stablechains promoted to RIDE",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_security": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest recovered: clean Sep 10 run after Sep 9 failure",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item_zec": {
+      "type": "Text",
+      "props": {
+        "text": "ZEC NU7 vote T-3 (Sep 14): active catalyst window, no new signal",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_item_1",
+        "watch_item_2"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC near $77K pre-CPI; 71% Fed hike priced — hot print risks $77K floor test (focus #1)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "watch_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act cloture Sep 15: needs 60 votes, 53 Republican seats — failure ends bill for 2026 calendar (focus #2)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC (failed yesterday)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC (failed yesterday)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
