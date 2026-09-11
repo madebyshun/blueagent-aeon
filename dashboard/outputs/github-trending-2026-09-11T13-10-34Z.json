@@ -1,0 +1,549 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-11"
+      },
+      "children": [
+        "heading_toppick",
+        "stack_toppick",
+        "sep1",
+        "heading_devtools",
+        "stack_devtools",
+        "sep2",
+        "heading_aiml",
+        "stack_aiml",
+        "sep3",
+        "heading_infra",
+        "stack_infra",
+        "sep4",
+        "heading_webapps",
+        "stack_webapps",
+        "sep5",
+        "heading_other",
+        "stack_other",
+        "sep6",
+        "text_footer"
+      ]
+    },
+    "heading_toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "stack_toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "link_speckit_toppick",
+        "text_speckit_desc"
+      ]
+    },
+    "link_speckit_toppick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github/spec-kit",
+        "href": "https://github.com/github/spec-kit",
+        "source": "GitHub"
+      }
+    },
+    "text_speckit_desc": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub published its own Spec-Driven Development starter today — specs as source of truth before any code is written, built for AI agent workflows.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "stack_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_speckit"
+      ]
+    },
+    "repo_speckit": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_speckit",
+        "stack_speckit_meta"
+      ]
+    },
+    "link_speckit": {
+      "type": "StoryLink",
+      "props": {
+        "title": "github/spec-kit",
+        "href": "https://github.com/github/spec-kit"
+      }
+    },
+    "stack_speckit_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_speckit",
+        "badge_python1",
+        "text_total1",
+        "badge_accel1"
+      ]
+    },
+    "stat_speckit": {
+      "type": "Stat",
+      "props": {
+        "value": "985",
+        "label": "stars today"
+      }
+    },
+    "badge_python1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "text_total1": {
+      "type": "Text",
+      "props": {
+        "text": "135.5k total",
+        "variant": "caption"
+      }
+    },
+    "badge_accel1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "stack_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_mathmodel",
+        "repo_openresearch"
+      ]
+    },
+    "repo_mathmodel": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_mathmodel",
+        "stack_mathmodel_meta"
+      ]
+    },
+    "link_mathmodel": {
+      "type": "StoryLink",
+      "props": {
+        "title": "jihe520/MathModelAgent",
+        "href": "https://github.com/jihe520/MathModelAgent"
+      }
+    },
+    "stack_mathmodel_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_mathmodel",
+        "badge_python2",
+        "text_total2",
+        "badge_return1"
+      ]
+    },
+    "stat_mathmodel": {
+      "type": "Stat",
+      "props": {
+        "value": "132",
+        "label": "stars today"
+      }
+    },
+    "badge_python2": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "text_total2": {
+      "type": "Text",
+      "props": {
+        "text": "4.8k total",
+        "variant": "caption"
+      }
+    },
+    "badge_return1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "repo_openresearch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_openresearch",
+        "stack_openresearch_meta"
+      ]
+    },
+    "link_openresearch": {
+      "type": "StoryLink",
+      "props": {
+        "title": "alphaXiv/OpenResearch",
+        "href": "https://github.com/alphaXiv/OpenResearch"
+      }
+    },
+    "stack_openresearch_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_openresearch",
+        "badge_rust",
+        "text_total3",
+        "badge_return2"
+      ]
+    },
+    "stat_openresearch": {
+      "type": "Stat",
+      "props": {
+        "value": "210",
+        "label": "stars today"
+      }
+    },
+    "badge_rust": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      }
+    },
+    "text_total3": {
+      "type": "Text",
+      "props": {
+        "text": "1.1k total",
+        "variant": "caption"
+      }
+    },
+    "badge_return2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "stack_infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_openflux"
+      ]
+    },
+    "repo_openflux": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_openflux",
+        "stack_openflux_meta"
+      ]
+    },
+    "link_openflux": {
+      "type": "StoryLink",
+      "props": {
+        "title": "p1neappleXpress/OpenFlux",
+        "href": "https://github.com/p1neappleXpress/OpenFlux"
+      }
+    },
+    "stack_openflux_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_openflux",
+        "badge_go",
+        "text_total4",
+        "badge_accel2"
+      ]
+    },
+    "stat_openflux": {
+      "type": "Stat",
+      "props": {
+        "value": "201",
+        "label": "stars today"
+      }
+    },
+    "badge_go": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "secondary"
+      }
+    },
+    "text_total4": {
+      "type": "Text",
+      "props": {
+        "text": "0.9k total",
+        "variant": "caption"
+      }
+    },
+    "badge_accel2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_webapps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "stack_webapps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_deskcommcrm"
+      ]
+    },
+    "repo_deskcommcrm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_deskcommcrm",
+        "stack_deskcommcrm_meta"
+      ]
+    },
+    "link_deskcommcrm": {
+      "type": "StoryLink",
+      "props": {
+        "title": "melgarafael/DeskcommCRM",
+        "href": "https://github.com/melgarafael/DeskcommCRM"
+      }
+    },
+    "stack_deskcommcrm_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_deskcommcrm",
+        "badge_ts",
+        "text_total5",
+        "badge_return3"
+      ]
+    },
+    "stat_deskcommcrm": {
+      "type": "Stat",
+      "props": {
+        "value": "126",
+        "label": "stars today"
+      }
+    },
+    "badge_ts": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "text_total5": {
+      "type": "Text",
+      "props": {
+        "text": "1.1k total",
+        "variant": "caption"
+      }
+    },
+    "badge_return3": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_other": {
+      "type": "Heading",
+      "props": {
+        "text": "Other",
+        "level": "h3"
+      }
+    },
+    "stack_other": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo_armorpaint"
+      ]
+    },
+    "repo_armorpaint": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_armorpaint",
+        "stack_armorpaint_meta"
+      ]
+    },
+    "link_armorpaint": {
+      "type": "StoryLink",
+      "props": {
+        "title": "armory3d/armorpaint",
+        "href": "https://github.com/armory3d/armorpaint"
+      }
+    },
+    "stack_armorpaint_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_armorpaint",
+        "badge_c",
+        "text_total6",
+        "badge_return4"
+      ]
+    },
+    "stat_armorpaint": {
+      "type": "Stat",
+      "props": {
+        "value": "354",
+        "label": "stars today"
+      }
+    },
+    "badge_c": {
+      "type": "Badge",
+      "props": {
+        "text": "C",
+        "variant": "secondary"
+      }
+    },
+    "text_total6": {
+      "type": "Text",
+      "props": {
+        "text": "4.6k total",
+        "variant": "caption"
+      }
+    },
+    "badge_return4": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/16",
+        "variant": "caption"
+      }
+    }
+  }
+}
