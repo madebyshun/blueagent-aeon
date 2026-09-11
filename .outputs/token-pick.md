@@ -1,11 +1,17 @@
-*Daily Pick — 2026-09-09*
+*Daily Pick — 2026-09-11*
 
-*Token: NEAR*  [HIGH]  signal 10/10
-Price: $2.55 (+5.5% 24h / +40.4% 7d) | mcap $3.32B | vol $653.7M (vol/mcap 0.197)
-Score breakdown: [trending+2, both_5pct+2, vol/mcap≥0.10+2, RS_vs_BTC/ETH+2, 24h>0+1, 7d>0+1, cross-source+1] = 10/10
-Catalyst: NEAR Day event on September 10 spotlights AI, chain abstraction, and confidential computing — combined with a violent short squeeze (futures OI +33%, futures vol +151%) that cleared bearish overhang; DEX volume hit a 17-day high on Sept 9
-Risk: The move is partly short-squeeze-driven, not organic buying — if no new buyers materialize post-event the mean-reversion could be sharp
-Vs recent picks: first time picked
+*Token: VVV*  [HIGH]  signal 8/10
+Price: $25.80 (±9.4% 24h / ±47.8% 7d) | mcap $1.24B | vol $117M (vol/mcap 0.10)
+Score breakdown: [trending+2, both 24h+7d>5%+2, RS vs BTC/ETH 7d+2, 24h>0+1, 7d>0+1] = 8/10
+Catalyst: $391K largest-ever VVV discretionary burn + $100M ARR confirmed by Voorhees + Oct 1 emission cut (3M→2M VVV/year) — three supply-compression signals stacking same week
+Risk: RSI 81.03 (extremely overbought); top 100 wallets hold 98% of supply — single whale exit shreds price
+Vs recent picks: first time
 
-sources: cg=ok, dex=partial, poly=fail
+*Market: "Will the Fed raise rates 25bps at September 2026 meeting?"*  [MEDIUM]  edge ~9pp
+Current: YES 46.5¢ / NO 53.5¢ | 24h vol $2.4M | resolves: Sep 16
+Fair YES: ~55% (inputs: Aug CPI +3.4% YoY +0.4% MoM hot headline, CME FedWatch ~58-60%, Barclays two-hike call)
+Thesis: Hot CPI headline reopened hike debate; Polymarket 46.5¢ underprices institutional odds by ~9pp; BUY YES — new catalyst vs Sep 7 pick (CPI print today)
+Risk: Core CPI cooled to 2.4% YoY — if Fed weights core over headline, they pause and YES resolves zero
+
+sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only
