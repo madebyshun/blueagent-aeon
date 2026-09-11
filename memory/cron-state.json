@@ -11,12 +11,12 @@
     "last_success": "2026-05-16T22:29:00Z"
   },
   "token-pick": {
-    "last_status": "failed",
-    "last_success": "2026-09-09T15:43:00Z",
-    "total_runs": 109,
-    "total_successes": 97,
+    "last_status": "success",
+    "last_success": "2026-09-11T15:37:43Z",
+    "total_runs": 110,
+    "total_successes": 98,
     "total_failures": 12,
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "success_rate": 0.89,
     "last_failed": "2026-09-10T15:26:43Z",
     "last_error": "requested\":{\"background\":0,\"foreground\":0,\"unset\":0},\"started_in_background\":0,\"max_depth\":0,\"spawned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refused\":{\"dep"
