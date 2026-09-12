@@ -1,0 +1,403 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-09-12"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_token",
+        "sep_1",
+        "section_market",
+        "sep_2",
+        "section_sources"
+      ]
+    },
+    "section_token": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token_header",
+        "token_price_stats",
+        "token_score",
+        "token_catalyst",
+        "token_risk",
+        "token_vs_recent"
+      ]
+    },
+    "token_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "token_name",
+        "token_badge_high",
+        "token_signal"
+      ]
+    },
+    "token_name": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: ETHFI",
+        "level": "h2"
+      }
+    },
+    "token_badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "token_signal": {
+      "type": "Text",
+      "props": {
+        "text": "signal 9/10",
+        "variant": "lead"
+      }
+    },
+    "token_price_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_price",
+        "stat_mcap",
+        "stat_vol"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.769",
+        "delta": "+11.5% (24h) / +33.6% (7d)",
+        "trend": "up"
+      }
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$742M"
+      }
+    },
+    "stat_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$151M",
+        "delta": "vol/mcap: 0.20"
+      }
+    },
+    "token_score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score_heading",
+        "score_breakdown_text"
+      ]
+    },
+    "score_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score breakdown",
+        "level": "h3"
+      }
+    },
+    "score_breakdown_text": {
+      "type": "Text",
+      "props": {
+        "text": "[24h>0+1, 7d>0+1, both>5%+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2] = 9/10",
+        "variant": "body"
+      }
+    },
+    "token_catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst_heading",
+        "catalyst_text"
+      ]
+    },
+    "catalyst_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "Ether.fi Summer upgrade routes protocol revenue into programmatic ETHFI buybacks; Liquid ETH vault added Fordefi (institutional custody) + Binance Web3 Wallet (retail) as new distribution rails in early September",
+        "variant": "body"
+      }
+    },
+    "token_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Futures volume ($470M) swamps spot ($54M) at 8.7:1 — leveraged rally that unwinds sharply on a flush",
+        "type": "warning"
+      }
+    },
+    "token_vs_recent": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: First time (ETHFI not picked in prior 7 days)",
+        "variant": "caption"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_header",
+        "market_odds_stats",
+        "market_volume_resolution",
+        "market_fair_yes",
+        "market_inputs",
+        "market_thesis",
+        "market_risk"
+      ]
+    },
+    "market_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "market_title",
+        "market_badge_high",
+        "market_edge"
+      ]
+    },
+    "market_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: US announces end of Iranian blockade by September 30?",
+        "level": "h2"
+      }
+    },
+    "market_badge_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "market_edge": {
+      "type": "Text",
+      "props": {
+        "text": "edge 13pp",
+        "variant": "lead"
+      }
+    },
+    "market_odds_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "odds_yes",
+        "odds_no"
+      ]
+    },
+    "odds_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "Current YES",
+        "value": "23¢"
+      }
+    },
+    "odds_no": {
+      "type": "Stat",
+      "props": {
+        "label": "Current NO",
+        "value": "78¢"
+      }
+    },
+    "market_volume_resolution": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_event_vol",
+        "text_resolves"
+      ]
+    },
+    "stat_event_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Total event volume",
+        "value": "$27.8M"
+      }
+    },
+    "text_resolves": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: Sep 30, 2026",
+        "variant": "caption"
+      }
+    },
+    "market_fair_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES",
+        "value": "~10%"
+      }
+    },
+    "market_inputs": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "inputs_heading",
+        "input_1",
+        "input_2",
+        "input_3"
+      ]
+    },
+    "inputs_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Inputs",
+        "level": "h3"
+      }
+    },
+    "input_1": {
+      "type": "Text",
+      "props": {
+        "text": "Blockade active since Jul 13 with no ceasefire signals Sep 12",
+        "variant": "body"
+      }
+    },
+    "input_2": {
+      "type": "Text",
+      "props": {
+        "text": "Iran crude loadings 220-260K bbl/day — pressure without capitulation",
+        "variant": "body"
+      }
+    },
+    "input_3": {
+      "type": "Text",
+      "props": {
+        "text": "18-day window too short for multilateral diplomatic resolution",
+        "variant": "body"
+      }
+    },
+    "market_thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis_heading",
+        "thesis_text",
+        "thesis_trade"
+      ]
+    },
+    "thesis_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h3"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Market at 23¢ overprices a US-Iran breakthrough in 18 days — Trump blockade shows no reversal signal, Iran regime faces survival-mode incentives against public concession",
+        "variant": "body"
+      }
+    },
+    "thesis_trade": {
+      "type": "Badge",
+      "props": {
+        "text": "trade BUY NO",
+        "variant": "secondary"
+      }
+    },
+    "market_risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Trump surprises with a wider Middle East deal that includes Iran blockade lift as a concession",
+        "type": "warning"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_text",
+        "disclaimer"
+      ]
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
