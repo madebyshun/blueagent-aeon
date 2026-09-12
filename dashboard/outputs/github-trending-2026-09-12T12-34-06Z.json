@@ -1,0 +1,448 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-12"
+      },
+      "children": [
+        "content-stack"
+      ]
+    },
+    "content-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-section",
+        "sep-1",
+        "ai-ml-section",
+        "sep-2",
+        "devtools-section",
+        "sep-3",
+        "other-section",
+        "sep-4",
+        "footer"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top-pick-label",
+        "pentagi-top-pick",
+        "pentagi-top-desc"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "pentagi-top-pick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "vxcontrol/pentagi",
+        "href": "https://github.com/vxcontrol/pentagi",
+        "source": "GitHub"
+      }
+    },
+    "pentagi-top-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Most production-grade AI agent system on today's list — 23k stars, actively maintained, closest open-source implementation of fully autonomous pentesting at scale."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "ai-ml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-heading",
+        "aiml-repo-1",
+        "aiml-repo-2",
+        "aiml-repo-3"
+      ]
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml-repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-1-header",
+        "aiml-1-desc"
+      ]
+    },
+    "aiml-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-1-link",
+        "aiml-1-stats",
+        "aiml-1-lang",
+        "aiml-1-status"
+      ]
+    },
+    "aiml-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "vxcontrol/pentagi",
+        "href": "https://github.com/vxcontrol/pentagi",
+        "source": "GitHub"
+      }
+    },
+    "aiml-1-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 193 today (23k total)",
+        "variant": "caption"
+      }
+    },
+    "aiml-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "secondary"
+      }
+    },
+    "aiml-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "aiml-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "End-to-end autonomous pentesting — agents handle recon, exploitation, and reporting with no human in the loop."
+      }
+    },
+    "aiml-repo-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-2-header",
+        "aiml-2-desc"
+      ]
+    },
+    "aiml-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-2-link",
+        "aiml-2-stats",
+        "aiml-2-lang",
+        "aiml-2-status"
+      ]
+    },
+    "aiml-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "multimodal-art-projection/YuE",
+        "href": "https://github.com/multimodal-art-projection/YuE",
+        "source": "GitHub"
+      }
+    },
+    "aiml-2-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 193 today (7k total)",
+        "variant": "caption"
+      }
+    },
+    "aiml-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "aiml-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "aiml-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Generates complete songs — melody, harmony, lyrics, vocals — from a text prompt using symbolic planning agents."
+      }
+    },
+    "aiml-repo-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-3-header",
+        "aiml-3-desc"
+      ]
+    },
+    "aiml-3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-3-link",
+        "aiml-3-stats",
+        "aiml-3-lang",
+        "aiml-3-status"
+      ]
+    },
+    "aiml-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "asgeirtj/system_prompts_leaks",
+        "href": "https://github.com/asgeirtj/system_prompts_leaks",
+        "source": "GitHub"
+      }
+    },
+    "aiml-3-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 216 today (65k total)",
+        "variant": "caption"
+      }
+    },
+    "aiml-3-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "secondary"
+      }
+    },
+    "aiml-3-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "destructive"
+      }
+    },
+    "aiml-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Running archive of extracted AI system prompts at 65k stars — covers Cursor, Devin, and all major LLM providers; essential reference for prompt engineers."
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-repo-1"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-header",
+        "devtools-1-note",
+        "devtools-1-desc"
+      ]
+    },
+    "devtools-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-link",
+        "devtools-1-stats",
+        "devtools-1-lang",
+        "devtools-1-status"
+      ]
+    },
+    "devtools-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "max-sixty/worktrunk",
+        "href": "https://github.com/max-sixty/worktrunk",
+        "source": "GitHub"
+      }
+    },
+    "devtools-1-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 44 today (7k total)",
+        "variant": "caption"
+      }
+    },
+    "devtools-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      }
+    },
+    "devtools-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "devtools-1-note": {
+      "type": "Text",
+      "props": {
+        "text": "[judgment call: 44★ below threshold — included for AI-dev relevance]",
+        "variant": "caption"
+      }
+    },
+    "devtools-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Worktree-native CLI so parallel AI coding agents can each own a separate branch without context collisions."
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "other-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "other-heading",
+        "other-repo-1"
+      ]
+    },
+    "other-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Other",
+        "level": "h3"
+      }
+    },
+    "other-repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "other-1-header",
+        "other-1-desc"
+      ]
+    },
+    "other-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "other-1-link",
+        "other-1-stats",
+        "other-1-lang",
+        "other-1-status"
+      ]
+    },
+    "other-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "SnailSploit/Claude-Red",
+        "href": "https://github.com/SnailSploit/Claude-Red",
+        "source": "GitHub"
+      }
+    },
+    "other-1-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 99 today (3.4k total)",
+        "variant": "caption"
+      }
+    },
+    "other-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "other-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "other-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Structured offensive-skill library for AI systems — red-teamers benchmark model guardrails without writing jailbreaks from scratch."
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/16",
+        "variant": "muted"
+      }
+    }
+  }
+}

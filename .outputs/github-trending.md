@@ -1,30 +1,25 @@
-*GitHub Trending — 2026-09-11*
+*GitHub Trending — 2026-09-12*
 
-*Top pick* — [github/spec-kit](https://github.com/github/spec-kit)
-GitHub published its own Spec-Driven Development starter today — specs as source of truth before any code is written, built for AI agent workflows.
-
-*Devtools*
-• [github/spec-kit](https://github.com/github/spec-kit) — ★ 985 today (135.5k total) · Python · [ACCELERATING]
-GitHub's own SDD framework makes specs the source of truth — designed to pair with AI agents that code from spec files instead of free-form prompts.
+*Top pick* — [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi)
+Most production-grade AI agent system on today's list — 23k stars, actively maintained, closest open-source implementation of fully autonomous pentesting at scale.
 
 *AI/ML*
-• [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent) — ★ 132 today (4.8k total) · Python · [RETURNING]
-Auto-pilots math modeling competitions end-to-end: problem parsing, model selection, code gen, and PDF report output.
+• [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) — ★ 193 today (23k total) · Go · [RETURNING]
+End-to-end autonomous pentesting — agents handle recon, exploitation, and reporting with no human in the loop.
 
-• [alphaXiv/OpenResearch](https://github.com/alphaXiv/OpenResearch) — ★ 210 today (1.1k total) · Rust · [RETURNING]
-Rust-native orchestrator that fans out research queries across any LLM in parallel — no boilerplate, just prompts and an output graph.
+• [multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE) — ★ 193 today (7k total) · Python · [RETURNING]
+Generates complete songs — melody, harmony, lyrics, vocals — from a text prompt using symbolic planning agents.
 
-*Infra*
-• [p1neappleXpress/OpenFlux](https://github.com/p1neappleXpress/OpenFlux) — ★ 201 today (0.9k total) · Go · [ACCELERATING]
-TCP tunnel with pluggable transports for protocol R&D — swap TLS, QUIC, or custom layers without rewriting the stack.
+• [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) — ★ 216 today (65k total) · JavaScript · [ACCELERATING]
+Running archive of extracted AI system prompts at 65k stars — covers Cursor, Devin, and all major LLM providers; essential reference for prompt engineers.
 
-*Web/Apps*
-• [melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM) — ★ 126 today (1.1k total) · TypeScript · [RETURNING]
-Self-hosted AI sales OS: autonomous CRM + WhatsApp agent + deal pipeline in one open-source stack, no SaaS fees.
+*Devtools*
+• [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) — ★ 44 today (7k total) · Rust · [RETURNING]
+Worktree-native CLI so parallel AI coding agents can each own a separate branch without context collisions. [judgment call: 44★ below threshold — included for AI-dev relevance]
 
 *Other*
-• [armory3d/armorpaint](https://github.com/armory3d/armorpaint) — ★ 354 today (4.6k total) · C · [RETURNING]
-GPU-accelerated 3D texture painter drops a new release today — free cross-platform alternative to Substance Painter.
+• [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red) — ★ 99 today (3.4k total) · Python · [RETURNING]
+Structured offensive-skill library for AI systems — red-teamers benchmark model guardrails without writing jailbreaks from scratch.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/16
+sources: trending=ok · gh_api=ok · kept 5/16
