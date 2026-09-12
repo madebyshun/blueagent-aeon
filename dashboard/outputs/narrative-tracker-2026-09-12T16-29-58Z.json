@@ -1,0 +1,534 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-12"
+      },
+      "children": [
+        "transitions-section",
+        "sep-1",
+        "reflexivity-section",
+        "sep-2",
+        "positions-section",
+        "sep-3",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans-heading",
+        "new-subsection",
+        "promoted-subsection",
+        "demoted-subsection"
+      ]
+    },
+    "trans-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "new-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new",
+        "trans-new-1",
+        "trans-new-2"
+      ]
+    },
+    "badge-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "trans-new-1": {
+      "type": "Text",
+      "props": {
+        "text": "Circle/Tazapay $400M — stablecoin M&A debut; first major payments acquisition this cycle; infrastructure consolidation phase beginning",
+        "variant": "body"
+      }
+    },
+    "trans-new-2": {
+      "type": "Text",
+      "props": {
+        "text": "Solana Triple Trade Size — governance vote passed to 3× on-chain capacity; direct structural catalyst for Solana perp DEX ecosystem",
+        "variant": "body"
+      }
+    },
+    "promoted-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-promoted",
+        "trans-prom-1",
+        "trans-prom-2"
+      ]
+    },
+    "badge-promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "trans-prom-1": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Event Risk — Fading → Rising (T-3; Sep 15-16 meeting; \"highest-impact September event for crypto\"; CLARITY Act cloture same day — double macro collision)",
+        "variant": "body"
+      }
+    },
+    "trans-prom-2": {
+      "type": "Text",
+      "props": {
+        "text": "Solana Perp DEX/JUP — Emerging WATCH → Rising RIDE (triple trade size + JUP +12.2% Sep 11 recovery)",
+        "variant": "body"
+      }
+    },
+    "demoted-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-demoted",
+        "trans-dem-1",
+        "trans-dem-2",
+        "trans-dem-3"
+      ]
+    },
+    "badge-demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "trans-dem-1": {
+      "type": "Text",
+      "props": {
+        "text": "NEAR/Chain Abstraction — Rising RIDE → Emerging WATCH (NEAR -11.6% today; NEAR Day bounce fully exhausted; back to pre-event levels)",
+        "variant": "body"
+      }
+    },
+    "trans-dem-2": {
+      "type": "Text",
+      "props": {
+        "text": "AI Trading Infrastructure — Rising WATCH → Fading FADE (VVV -10.5%; RSI 76 pump confirmed exhausted)",
+        "variant": "body"
+      }
+    },
+    "trans-dem-3": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act — Rising WATCH → Rising FADE (no Dem crossovers; failure now base case; Sep 15 cloture will likely miss 60 votes)",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflex-heading",
+        "alert-ai-economy",
+        "alert-stablecoin",
+        "alert-clarity"
+      ]
+    },
+    "reflex-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert-ai-economy": {
+      "type": "Alert",
+      "props": {
+        "title": "AI Agent Economy",
+        "message": "$AI token +18.4% while 80% of market is red — no fundamental trigger; pure mindshare premium. Flush risk if structural thesis gets questioned.",
+        "type": "warning"
+      }
+    },
+    "alert-stablecoin": {
+      "type": "Alert",
+      "props": {
+        "title": "Stablecoin/Circle",
+        "message": "$400M Tazapay acquisition pre-adoption data. Peak M&A consolidation often = narrative apex — watch post-close growth.",
+        "type": "warning"
+      }
+    },
+    "alert-clarity": {
+      "type": "Alert",
+      "props": {
+        "title": "CLARITY Act",
+        "message": "stablecoin/DeFi tokens partially pricing in passage; failure (now base case) = repricing event Sep 15.",
+        "type": "error"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos-heading",
+        "frontrun-subsection",
+        "ride-subsection",
+        "fade-subsection",
+        "watch-subsection"
+      ]
+    },
+    "pos-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "frontrun-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-frontrun",
+        "pos-fr-1",
+        "pos-fr-2",
+        "pos-fr-3"
+      ]
+    },
+    "badge-frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "pos-fr-1": {
+      "type": "Text",
+      "props": {
+        "text": "FHE/Confidential Computing (3 ↑↑, Bull) — Aragon+Zama live T+1; entry window Sep 12-13 — bear: single deployment ≠ sector",
+        "variant": "body"
+      }
+    },
+    "pos-fr-2": {
+      "type": "Text",
+      "props": {
+        "text": "Agent Identity/TEE (4 →, Bull) — a16z credentials bottleneck + FHE live validates; structural — bear: timing unclear",
+        "variant": "body"
+      }
+    },
+    "pos-fr-3": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional Perp Infrastructure (2 ↑↑, Bull) — Solana 3× trade size + SGX BTC/ETH perps to US institutions — bear: capacity ≠ demand",
+        "variant": "body"
+      }
+    },
+    "ride-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride",
+        "pos-ride-1",
+        "pos-ride-2",
+        "pos-ride-3",
+        "pos-ride-4",
+        "pos-ride-5"
+      ]
+    },
+    "badge-ride": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "pos-ride-1": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy (5 →, Bull) — $AI +18.4% in red market; leads even on risk-off days",
+        "variant": "body"
+      }
+    },
+    "pos-ride-2": {
+      "type": "Text",
+      "props": {
+        "text": "x402/Agentic Payments (5 ↑, Bull) — Circle/Tazapay M&A; Circle+Coinbase+Kraken all building",
+        "variant": "body"
+      }
+    },
+    "pos-ride-3": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin/Stablechains (5 ↑↑, Bull) — Circle/Tazapay + PYUSDx; watch CLARITY Act Sep 15 failure risk",
+        "variant": "body"
+      }
+    },
+    "pos-ride-4": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy Coin/ZEC (3 →, Bull) — NU7 vote closes Sep 14 (T-2 today)",
+        "variant": "body"
+      }
+    },
+    "pos-ride-5": {
+      "type": "Text",
+      "props": {
+        "text": "Solana Perp DEX/JUP (3 ↑, Bull) — triple trade size structural capacity upgrade",
+        "variant": "body"
+      }
+    },
+    "fade-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade",
+        "pos-fade-1",
+        "pos-fade-2"
+      ]
+    },
+    "badge-fade": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "pos-fade-1": {
+      "type": "Text",
+      "props": {
+        "text": "AI Trading Infrastructure (2 ↓↓, Mixed) — VVV -10.5%; pump confirmed exhausted",
+        "variant": "body"
+      }
+    },
+    "pos-fade-2": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act (3 ↓, Mixed) — failure base case; stablecoin/DeFi tokens at risk Sep 15",
+        "variant": "body"
+      }
+    },
+    "watch-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch",
+        "pos-watch-1"
+      ]
+    },
+    "badge-watch": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos-watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "FOMC Sep 15-16 (4 ↑↑, Mixed) — binary; hold = rally, hike = selloff; no edge to position",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-heading",
+        "stage-emerging",
+        "stage-rising",
+        "stage-peak",
+        "stage-fading",
+        "stage-dead"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "stage-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-emerging",
+        "items-emerging"
+      ]
+    },
+    "badge-emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "default"
+      }
+    },
+    "items-emerging": {
+      "type": "Text",
+      "props": {
+        "text": "FHE/Confidential Computing, Agent Identity/TEE, Institutional Perp Infra, Bitcoin L2/BTCFi, NEAR/Chain Abstraction",
+        "variant": "caption"
+      }
+    },
+    "stage-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-rising",
+        "items-rising"
+      ]
+    },
+    "badge-rising": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "items-rising": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy, Stablecoin/Stablechains, RWA Tokenization, Quantum, Solana Perp DEX/JUP, ETH ETF, Corporate BTC Treasury, Oracle/LINK, FOMC Event Risk",
+        "variant": "caption"
+      }
+    },
+    "stage-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-peak",
+        "items-peak"
+      ]
+    },
+    "badge-peak": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "default"
+      }
+    },
+    "items-peak": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Dev Tools",
+        "variant": "caption"
+      }
+    },
+    "stage-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fading",
+        "items-fading"
+      ]
+    },
+    "badge-fading": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      }
+    },
+    "items-fading": {
+      "type": "Text",
+      "props": {
+        "text": "AI Trading Infrastructure, CLARITY Act, DeFi Revival, ARB/L2 Revival",
+        "variant": "caption"
+      }
+    },
+    "stage-dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-dead",
+        "items-dead"
+      ]
+    },
+    "badge-dead": {
+      "type": "Badge",
+      "props": {
+        "text": "Dead",
+        "variant": "destructive"
+      }
+    },
+    "items-dead": {
+      "type": "Text",
+      "props": {
+        "text": "Alt L1 Rotation, Memecoins/Retail, Coinbase AiFi/Base",
+        "variant": "caption"
+      }
+    }
+  }
+}
