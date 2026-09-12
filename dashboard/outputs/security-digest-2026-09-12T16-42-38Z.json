@@ -1,0 +1,848 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-09-12"
+      },
+      "children": [
+        "verdict-stack",
+        "sep1",
+        "patch-today-heading",
+        "patch-today-stack",
+        "sep2",
+        "patch-week-heading",
+        "patch-week-stack",
+        "sep3",
+        "monitor-heading",
+        "monitor-stack"
+      ]
+    },
+    "verdict-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verdict-line1",
+        "verdict-line2"
+      ]
+    },
+    "verdict-line1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-exploited",
+        "stat-schedule",
+        "stat-monitor"
+      ]
+    },
+    "stat-exploited": {
+      "type": "Stat",
+      "props": {
+        "label": "Actively exploited",
+        "value": "3",
+        "trend": "up"
+      }
+    },
+    "stat-schedule": {
+      "type": "Stat",
+      "props": {
+        "label": "To schedule",
+        "value": "5"
+      }
+    },
+    "stat-monitor": {
+      "type": "Stat",
+      "props": {
+        "label": "To monitor",
+        "value": "3"
+      }
+    },
+    "verdict-line2": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV, GH Advisory, EPSS",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "patch-today-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve-85706",
+        "cve-42016-42018",
+        "cve-84869"
+      ]
+    },
+    "cve-85706": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-85706-link",
+        "cve-85706-meta",
+        "cve-85706-desc",
+        "cve-85706-action"
+      ]
+    },
+    "cve-85706-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-85706 — GitLab CE/EE",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706"
+      }
+    },
+    "cve-85706-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-85706-source",
+        "badge-85706-epss",
+        "badge-85706-cvss"
+      ]
+    },
+    "badge-85706-source": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-09-11",
+        "variant": "secondary"
+      }
+    },
+    "badge-85706-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 1.15%"
+      }
+    },
+    "badge-85706-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "outline"
+      }
+    },
+    "cve-85706-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth path traversal in repo commits API → arbitrary file read. Actively exploited per CISA."
+      }
+    },
+    "cve-85706-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade GitLab to latest vendor-patched release immediately.",
+        "type": "error"
+      }
+    },
+    "cve-42016-42018": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-42-header",
+        "cve-42-meta",
+        "cve-42-desc",
+        "cve-42-action"
+      ]
+    },
+    "cve-42-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve-42016-link",
+        "cve-42018-link"
+      ]
+    },
+    "cve-42016-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-42016",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-42016"
+      }
+    },
+    "cve-42018-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-42018",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-42018"
+      }
+    },
+    "cve-42-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-42-product",
+        "badge-42-source",
+        "badge-42-epss",
+        "badge-42-cvss"
+      ]
+    },
+    "badge-42-product": {
+      "type": "Badge",
+      "props": {
+        "text": "JFrog Artifactory"
+      }
+    },
+    "badge-42-source": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-09-11",
+        "variant": "secondary"
+      }
+    },
+    "badge-42-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS ~0.9%"
+      }
+    },
+    "badge-42-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "outline"
+      }
+    },
+    "cve-42-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Token scope bypass (priv-esc) + anonymous token leaked to unauth callers. Dual exploitation confirmed."
+      }
+    },
+    "cve-42-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Apply vendor patch; audit for unauthorized access.",
+        "type": "error"
+      }
+    },
+    "cve-84869": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-84869-link",
+        "cve-84869-meta",
+        "cve-84869-desc",
+        "cve-84869-action"
+      ]
+    },
+    "cve-84869-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-84869 — ConnectWise ScreenConnect",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-84869"
+      }
+    },
+    "cve-84869-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-84869-source",
+        "badge-84869-epss",
+        "badge-84869-cvss"
+      ]
+    },
+    "badge-84869-source": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-09-11",
+        "variant": "secondary"
+      }
+    },
+    "badge-84869-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.69%"
+      }
+    },
+    "badge-84869-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "outline"
+      }
+    },
+    "cve-84869-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Missing auth allows unauth file transfer/exec via active remote sessions."
+      }
+    },
+    "cve-84869-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade ScreenConnect; audit session logs for anomalous transfers.",
+        "type": "error"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch-week-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa-rqfv",
+        "ghsa-h8m9",
+        "ghsa-325j",
+        "ghsa-rqx4",
+        "ghsa-wpmr"
+      ]
+    },
+    "ghsa-rqfv": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-rqfv-link",
+        "ghsa-rqfv-meta",
+        "ghsa-rqfv-desc",
+        "ghsa-rqfv-action"
+      ]
+    },
+    "ghsa-rqfv-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-rqfv-2mw9-78g2 / CVE-2026-59971 — mysql-mcp-server (pip)",
+        "href": "https://github.com/advisories/GHSA-rqfv-2mw9-78g2"
+      }
+    },
+    "ghsa-rqfv-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-rqfv-cvss",
+        "badge-rqfv-instances"
+      ]
+    },
+    "badge-rqfv-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 10.0",
+        "variant": "destructive"
+      }
+    },
+    "badge-rqfv-instances": {
+      "type": "Badge",
+      "props": {
+        "text": "25 exposed instances scanned"
+      }
+    },
+    "ghsa-rqfv-desc": {
+      "type": "Text",
+      "props": {
+        "text": "No origin/host validation on SSE transport → unauth SQL execution via DNS rebinding."
+      }
+    },
+    "ghsa-rqfv-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade mysql-mcp-server to ≥0.4.2; bind SSE port to 127.0.0.1.",
+        "type": "error"
+      }
+    },
+    "ghsa-h8m9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-h8m9-link",
+        "ghsa-h8m9-meta",
+        "ghsa-h8m9-desc",
+        "ghsa-h8m9-action"
+      ]
+    },
+    "ghsa-h8m9-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-h8m9-jgf8-vwvp / CVE-2026-59151 — prowler-cloud (pip)",
+        "href": "https://github.com/advisories/GHSA-h8m9-jgf8-vwvp"
+      }
+    },
+    "ghsa-h8m9-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-h8m9-cvss",
+        "badge-h8m9-epss",
+        "badge-h8m9-status"
+      ]
+    },
+    "badge-h8m9-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.6",
+        "variant": "destructive"
+      }
+    },
+    "badge-h8m9-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.32%"
+      }
+    },
+    "badge-h8m9-status": {
+      "type": "Badge",
+      "props": {
+        "text": "No patch",
+        "variant": "outline"
+      }
+    },
+    "ghsa-h8m9-desc": {
+      "type": "Text",
+      "props": {
+        "text": "SAML domain claiming → cross-tenant account takeover."
+      }
+    },
+    "ghsa-h8m9-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Disable SAML auth until fix; watch prowler-cloud releases.",
+        "type": "error"
+      }
+    },
+    "ghsa-325j": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-325j-link",
+        "ghsa-325j-meta",
+        "ghsa-325j-desc",
+        "ghsa-325j-action"
+      ]
+    },
+    "ghsa-325j-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-325j-mg25-8q58 / CVE-2026-61534 — yayson (npm)",
+        "href": "https://github.com/advisories/GHSA-325j-mg25-8q58"
+      }
+    },
+    "ghsa-325j-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-325j-cvss",
+        "badge-325j-poc"
+      ]
+    },
+    "badge-325j-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.1",
+        "variant": "destructive"
+      }
+    },
+    "badge-325j-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "PoC in advisory"
+      }
+    },
+    "ghsa-325j-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Prototype pollution via type=__proto__ in JSON:API deserialization → process-wide object corruption."
+      }
+    },
+    "ghsa-325j-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade yayson to ≥4.3.0.",
+        "type": "error"
+      }
+    },
+    "ghsa-rqx4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-rqx4-link",
+        "ghsa-rqx4-meta",
+        "ghsa-rqx4-desc",
+        "ghsa-rqx4-action"
+      ]
+    },
+    "ghsa-rqx4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-rqx4-3f6q-3x2v / CVE-2026-59148 — @mockoon/commons-server (npm)",
+        "href": "https://github.com/advisories/GHSA-rqx4-3f6q-3x2v"
+      }
+    },
+    "ghsa-rqx4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-rqx4-cvss",
+        "badge-rqx4-epss",
+        "badge-rqx4-status"
+      ]
+    },
+    "badge-rqx4-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8",
+        "variant": "destructive"
+      }
+    },
+    "badge-rqx4-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.26%"
+      }
+    },
+    "badge-rqx4-status": {
+      "type": "Badge",
+      "props": {
+        "text": "No patch",
+        "variant": "outline"
+      }
+    },
+    "ghsa-rqx4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth admin API + wildcard CORS → mock-state hijack and credential theft."
+      }
+    },
+    "ghsa-rqx4-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Bind Mockoon CLI admin port to 127.0.0.1; watch for patch.",
+        "type": "error"
+      }
+    },
+    "ghsa-wpmr": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-wpmr-link",
+        "ghsa-wpmr-meta",
+        "ghsa-wpmr-desc",
+        "ghsa-wpmr-action"
+      ]
+    },
+    "ghsa-wpmr-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-wpmr-8h3q-fwj7 / CVE-2026-87016 — open-webui (pip)",
+        "href": "https://github.com/advisories/GHSA-wpmr-8h3q-fwj7"
+      }
+    },
+    "ghsa-wpmr-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-wpmr-cvss",
+        "badge-wpmr-epss",
+        "badge-wpmr-status"
+      ]
+    },
+    "badge-wpmr-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "destructive"
+      }
+    },
+    "badge-wpmr-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.33%"
+      }
+    },
+    "badge-wpmr-status": {
+      "type": "Badge",
+      "props": {
+        "text": "No patch",
+        "variant": "outline"
+      }
+    },
+    "ghsa-wpmr-desc": {
+      "type": "Text",
+      "props": {
+        "text": "OAuth wildcard subject claim → sign-in as any user on SQLite backends."
+      }
+    },
+    "ghsa-wpmr-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Use PostgreSQL backend or disable OAuth; monitor releases.",
+        "type": "error"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "monitor-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa-jmc6",
+        "ghsa-65h7",
+        "ghsa-6xcw"
+      ]
+    },
+    "ghsa-jmc6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-jmc6-link",
+        "ghsa-jmc6-meta",
+        "ghsa-jmc6-desc",
+        "ghsa-jmc6-action"
+      ]
+    },
+    "ghsa-jmc6-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-jmc6-2wr8-h3wj / CVE-2026-87995 — open-webui (pip)",
+        "href": "https://github.com/advisories/GHSA-jmc6-2wr8-h3wj"
+      }
+    },
+    "ghsa-jmc6-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-jmc6-cvss",
+        "badge-jmc6-status"
+      ]
+    },
+    "badge-jmc6-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.7",
+        "variant": "destructive"
+      }
+    },
+    "badge-jmc6-status": {
+      "type": "Badge",
+      "props": {
+        "text": "No fix",
+        "variant": "outline"
+      }
+    },
+    "ghsa-jmc6-desc": {
+      "type": "Text",
+      "props": {
+        "text": "XSS via terminal iframe allow-same-origin → full account takeover."
+      }
+    },
+    "ghsa-jmc6-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Disable terminal feature; watch for fix.",
+        "type": "error"
+      }
+    },
+    "ghsa-65h7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-65h7-link",
+        "ghsa-65h7-meta",
+        "ghsa-65h7-desc",
+        "ghsa-65h7-action"
+      ]
+    },
+    "ghsa-65h7-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-65h7-9wrw-629c / CVE-2026-59973 — mcp-from-openapi (npm)",
+        "href": "https://github.com/advisories/GHSA-65h7-9wrw-629c"
+      }
+    },
+    "ghsa-65h7-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-65h7-cvss",
+        "badge-65h7-status"
+      ]
+    },
+    "badge-65h7-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.5",
+        "variant": "destructive"
+      }
+    },
+    "badge-65h7-status": {
+      "type": "Badge",
+      "props": {
+        "text": "No fix",
+        "variant": "outline"
+      }
+    },
+    "ghsa-65h7-desc": {
+      "type": "Text",
+      "props": {
+        "text": "External $ref SSRF bypass via alternate resolution path."
+      }
+    },
+    "ghsa-65h7-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Avoid untrusted OpenAPI inputs.",
+        "type": "warning"
+      }
+    },
+    "ghsa-6xcw": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-6xcw-link",
+        "ghsa-6xcw-meta",
+        "ghsa-6xcw-desc",
+        "ghsa-6xcw-action"
+      ]
+    },
+    "ghsa-6xcw-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-6xcw-7xm6-48c6 / CVE-2026-86083 — n8n (npm)",
+        "href": "https://github.com/advisories/GHSA-6xcw-7xm6-48c6"
+      }
+    },
+    "ghsa-6xcw-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-6xcw-status"
+      ]
+    },
+    "badge-6xcw-status": {
+      "type": "Badge",
+      "props": {
+        "text": "No fix",
+        "variant": "outline"
+      }
+    },
+    "ghsa-6xcw-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Expression sandbox escape via shared builtin tampering → arbitrary code execution."
+      }
+    },
+    "ghsa-6xcw-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Restrict expression use to trusted workflows; watch for patch.",
+        "type": "error"
+      }
+    }
+  }
+}

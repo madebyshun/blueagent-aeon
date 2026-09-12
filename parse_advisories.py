@@ -1,32 +1,25 @@
-import sys, json
+import json, sys
 
-data = json.load(sys.stdin)
-tracked = {'npm', 'pip', 'Go', 'Rust', 'actions'}
-since = '2026-08-17'
-results = []
-for a in data:
-    if a.get('published_at', '') < since:
-        continue
-    ecosystems = [v.get('package', {}).get('ecosystem', '') for v in a.get('vulnerabilities', [])]
-    in_tracked = any(e in tracked for e in ecosystems)
-    results.append({
-        'ghsa_id': a.get('ghsa_id'),
-        'cve_id': a.get('cve_id'),
-        'summary': a.get('summary', '')[:150],
-        'severity': a.get('severity'),
-        'cvss': a.get('cvss', {}).get('score') if a.get('cvss') else None,
-        'published_at': a.get('published_at'),
-        'html_url': a.get('html_url'),
-        'ecosystems': ecosystems,
-        'in_tracked': in_tracked,
-        'packages': [
-            {
-                'ecosystem': v.get('package', {}).get('ecosystem'),
-                'name': v.get('package', {}).get('name'),
-                'patched': v.get('patched_versions'),
-                'vuln': v.get('vulnerable_version_range')
-            }
-            for v in a.get('vulnerabilities', [])
-        ]
-    })
-print(json.dumps(results, indent=2))
+filepath = sys.argv[1] if len(sys.argv) > 1 else '/home/runner/.claude/projects/-home-runner-work-blueagent-aeon-blueagent-aeon/b6300ec5-bd2f-453d-9349-cc8793700f56/tool-results/bfsykufnu.txt'
+
+with open(filepath) as f:
+    data = json.load(f)
+
+TRACKED = {'npm', 'pip', 'Go', 'crates.io', 'GitHub Actions', 'RubyGems', 'Maven', 'NuGet'}
+
+recent = [a for a in data if a.get('published_at','') >= '2026-09-10']
+print(f'Total: {len(data)}, since 2026-09-10: {len(recent)}')
+
+for a in recent:
+    pkgs = a.get('vulnerabilities', [])
+    ecosystems = list(set(p.get('package',{}).get('ecosystem','') for p in pkgs if p.get('package')))
+    tracked_match = bool(set(ecosystems) & TRACKED)
+    pkg_names = [p.get('package',{}).get('name','') for p in pkgs if p.get('package')]
+    patched = [p.get('patched_versions','') for p in pkgs]
+    cvss = a.get('cvss', {})
+    cve = a.get('cve_id','')
+    print(f"{'[TRACKED]' if tracked_match else '[SKIP]'} {a['ghsa_id']} | {cve} | CVSS {cvss.get('score','?')} | {a.get('published_at','')[:10]} | ecosystems:{ecosystems}")
+    print(f"  pkgs: {pkg_names[:5]}")
+    print(f"  patched: {patched[:3]}")
+    print(f"  summary: {a.get('summary','')[:120]}")
+    print()
