@@ -1,0 +1,175 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-09-13"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "text_focus_1",
+        "text_focus_2",
+        "text_focus_3",
+        "sep_1",
+        "heading_yesterday",
+        "text_yesterday_1",
+        "text_yesterday_2",
+        "text_yesterday_3",
+        "text_yesterday_4",
+        "text_yesterday_5",
+        "sep_2",
+        "heading_watch",
+        "text_watch_1",
+        "text_watch_2",
+        "sep_3",
+        "heading_running",
+        "text_running_1",
+        "text_running_2",
+        "text_running_3",
+        "text_running_4"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "text_focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. FOMC T-2 — 87% hike odds shifted overnight; binary event; 48h to reprice or exit"
+      }
+    },
+    "text_focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. CLARITY Act cloture tomorrow — DeFi sweep clause added in rewrite; tokens still priced for passage"
+      }
+    },
+    "text_focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. FHE/Confidential Computing — Aragon+Zama entry window closes today (T+2)"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "text_yesterday_1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC pinned $78.5K; Fed hike odds jumped to 87% from near coin-flip (Sep 3)"
+      }
+    },
+    "text_yesterday_2": {
+      "type": "Text",
+      "props": {
+        "text": "NEAR -11.6% Sep 12 — NEAR Day thesis resolved; position cleared"
+      }
+    },
+    "text_yesterday_3": {
+      "type": "Text",
+      "props": {
+        "text": "AI token +18.4% in 80%-red market — pure mindshare premium, no fundamental; flush risk open"
+      }
+    },
+    "text_yesterday_4": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act 630-page rewrite dropped — new decentralized-in-name-only clause pulls DeFi protocols under SEC scope"
+      }
+    },
+    "text_yesterday_5": {
+      "type": "Text",
+      "props": {
+        "text": "XAI credits: 63 consecutive days zero — narrative-tracker holding on WebSearch fallback"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "text_watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "87% hike odds → FOMC asymmetric risk-off (not coin-flip); reduce leverage through Sep 16 — focus #1"
+      }
+    },
+    "text_watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY DeFi sweep clause → governance/AI-agent tokens exposed, not just stablecoin plays — focus #2"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "text_running_1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      }
+    },
+    "text_running_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      }
+    },
+    "text_running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      }
+    },
+    "text_running_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    }
+  }
+}
