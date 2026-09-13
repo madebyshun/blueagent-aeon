@@ -1,25 +1,28 @@
-*GitHub Trending — 2026-09-12*
+*GitHub Trending — 2026-09-13*
 
-*Top pick* — [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi)
-Most production-grade AI agent system on today's list — 23k stars, actively maintained, closest open-source implementation of fully autonomous pentesting at scale.
+*Top pick* — [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
+Largest single-day spike today — self-hostable ElevenLabs replacement lands the moment voice API costs start to bite at scale.
 
 *AI/ML*
-• [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) — ★ 193 today (23k total) · Go · [RETURNING]
-End-to-end autonomous pentesting — agents handle recon, exploitation, and reporting with no human in the loop.
+• [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — ★ 2.5K today (25.6K total) · Python · [ACCELERATING]
+Self-hostable ElevenLabs drop-in covering 646 languages — eliminates $0.10/1K-char API cost entirely.
 
-• [multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE) — ★ 193 today (7k total) · Python · [RETURNING]
-Generates complete songs — melody, harmony, lyrics, vocals — from a text prompt using symbolic planning agents.
+• [JustVugg/colibri](https://github.com/JustVugg/colibri) — ★ 652 today (29K total) · C · [ACCELERATING]
+Runs frontier MoE models in a single pure-C binary — no Python runtime, no CUDA stack, no Docker dependency chain.
 
-• [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) — ★ 216 today (65k total) · JavaScript · [ACCELERATING]
-Running archive of extracted AI system prompts at 65k stars — covers Cursor, Devin, and all major LLM providers; essential reference for prompt engineers.
+• [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) — ★ 383 today (58.1K total) · Python · [ACCELERATING]
+12 agentic pipelines take a script to finished video cut autonomously — no timeline editor, no render queue handoff.
+
+• [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) — ★ 215 today (5.4K total) · TypeScript · [RETURNING]
+Signed, versioned skill registry for AI coding agents — stops prompt injection via untrusted third-party skill packages.
 
 *Devtools*
-• [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) — ★ 44 today (7k total) · Rust · [RETURNING]
-Worktree-native CLI so parallel AI coding agents can each own a separate branch without context collisions. [judgment call: 44★ below threshold — included for AI-dev relevance]
+• [alibaba/open-code-review](https://github.com/alibaba/open-code-review) — ★ 264 today (22.9K total) · Go · [ACCELERATING]
+Combines LLM agent reasoning with deterministic static analysis gates — catches what each misses alone.
 
 *Other*
-• [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red) — ★ 99 today (3.4k total) · Python · [RETURNING]
-Structured offensive-skill library for AI systems — red-teamers benchmark model guardrails without writing jailbreaks from scratch.
+• [tonhowtf/omniget](https://github.com/tonhowtf/omniget) — ★ 839 today (11.2K total) · Rust · [ACCELERATING]
+Single Rust binary covering 1,800+ sites — yt-dlp scope but no Python dependency and faster parallel fetching.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/16
+sources: trending=ok · gh_api=ok · kept 6/19

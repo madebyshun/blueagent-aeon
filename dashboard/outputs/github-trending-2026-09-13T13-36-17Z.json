@@ -1,0 +1,601 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-13"
+      },
+      "children": [
+        "top_pick_section",
+        "sep1",
+        "aiml_section",
+        "sep2",
+        "devtools_section",
+        "sep3",
+        "other_section",
+        "sep4",
+        "footer_section"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top_pick_label",
+        "vs_top_link",
+        "top_pick_desc"
+      ]
+    },
+    "top_pick_label": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "vs_top_link": {
+      "type": "Link",
+      "props": {
+        "label": "debpalash/VoiceStudio",
+        "href": "https://github.com/debpalash/VoiceStudio"
+      }
+    },
+    "top_pick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Largest single-day spike today — self-hostable ElevenLabs replacement lands the moment voice API costs start to bite at scale."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "aiml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_heading",
+        "vs_item",
+        "colibri_item",
+        "openmontage_item",
+        "agent_skills_item"
+      ]
+    },
+    "aiml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "vs_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vs_header",
+        "vs_stats_row",
+        "vs_desc"
+      ]
+    },
+    "vs_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "vs_link",
+        "vs_lang_badge",
+        "vs_status_badge"
+      ]
+    },
+    "vs_link": {
+      "type": "Link",
+      "props": {
+        "label": "debpalash/VoiceStudio",
+        "href": "https://github.com/debpalash/VoiceStudio"
+      }
+    },
+    "vs_lang_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "vs_status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "vs_stats_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "vs_today_stat",
+        "vs_total_stat"
+      ]
+    },
+    "vs_today_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "2.5K"
+      }
+    },
+    "vs_total_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "25.6K"
+      }
+    },
+    "vs_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hostable ElevenLabs drop-in covering 646 languages — eliminates $0.10/1K-char API cost entirely."
+      }
+    },
+    "colibri_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "colibri_header",
+        "colibri_stats_row",
+        "colibri_desc"
+      ]
+    },
+    "colibri_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "colibri_link",
+        "colibri_lang_badge",
+        "colibri_status_badge"
+      ]
+    },
+    "colibri_link": {
+      "type": "Link",
+      "props": {
+        "label": "JustVugg/colibri",
+        "href": "https://github.com/JustVugg/colibri"
+      }
+    },
+    "colibri_lang_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "C",
+        "variant": "secondary"
+      }
+    },
+    "colibri_status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "colibri_stats_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "colibri_today_stat",
+        "colibri_total_stat"
+      ]
+    },
+    "colibri_today_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "652"
+      }
+    },
+    "colibri_total_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "29K"
+      }
+    },
+    "colibri_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Runs frontier MoE models in a single pure-C binary — no Python runtime, no CUDA stack, no Docker dependency chain."
+      }
+    },
+    "openmontage_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "openmontage_header",
+        "openmontage_stats_row",
+        "openmontage_desc"
+      ]
+    },
+    "openmontage_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "openmontage_link",
+        "openmontage_lang_badge",
+        "openmontage_status_badge"
+      ]
+    },
+    "openmontage_link": {
+      "type": "Link",
+      "props": {
+        "label": "calesthio/OpenMontage",
+        "href": "https://github.com/calesthio/OpenMontage"
+      }
+    },
+    "openmontage_lang_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "openmontage_status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "openmontage_stats_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "openmontage_today_stat",
+        "openmontage_total_stat"
+      ]
+    },
+    "openmontage_today_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "383"
+      }
+    },
+    "openmontage_total_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "58.1K"
+      }
+    },
+    "openmontage_desc": {
+      "type": "Text",
+      "props": {
+        "text": "12 agentic pipelines take a script to finished video cut autonomously — no timeline editor, no render queue handoff."
+      }
+    },
+    "agent_skills_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "agent_skills_header",
+        "agent_skills_stats_row",
+        "agent_skills_desc"
+      ]
+    },
+    "agent_skills_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "agent_skills_link",
+        "agent_skills_lang_badge",
+        "agent_skills_status_badge"
+      ]
+    },
+    "agent_skills_link": {
+      "type": "Link",
+      "props": {
+        "label": "tech-leads-club/agent-skills",
+        "href": "https://github.com/tech-leads-club/agent-skills"
+      }
+    },
+    "agent_skills_lang_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "agent_skills_status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "agent_skills_stats_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "agent_skills_today_stat",
+        "agent_skills_total_stat"
+      ]
+    },
+    "agent_skills_today_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "215"
+      }
+    },
+    "agent_skills_total_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "5.4K"
+      }
+    },
+    "agent_skills_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Signed, versioned skill registry for AI coding agents — stops prompt injection via untrusted third-party skill packages."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "ocr_item"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "ocr_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ocr_header",
+        "ocr_stats_row",
+        "ocr_desc"
+      ]
+    },
+    "ocr_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ocr_link",
+        "ocr_lang_badge",
+        "ocr_status_badge"
+      ]
+    },
+    "ocr_link": {
+      "type": "Link",
+      "props": {
+        "label": "alibaba/open-code-review",
+        "href": "https://github.com/alibaba/open-code-review"
+      }
+    },
+    "ocr_lang_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "secondary"
+      }
+    },
+    "ocr_status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "ocr_stats_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "ocr_today_stat",
+        "ocr_total_stat"
+      ]
+    },
+    "ocr_today_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "264"
+      }
+    },
+    "ocr_total_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "22.9K"
+      }
+    },
+    "ocr_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Combines LLM agent reasoning with deterministic static analysis gates — catches what each misses alone."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "other_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "other_heading",
+        "omniget_item"
+      ]
+    },
+    "other_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Other",
+        "level": "h3"
+      }
+    },
+    "omniget_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "omniget_header",
+        "omniget_stats_row",
+        "omniget_desc"
+      ]
+    },
+    "omniget_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "omniget_link",
+        "omniget_lang_badge",
+        "omniget_status_badge"
+      ]
+    },
+    "omniget_link": {
+      "type": "Link",
+      "props": {
+        "label": "tonhowtf/omniget",
+        "href": "https://github.com/tonhowtf/omniget"
+      }
+    },
+    "omniget_lang_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      }
+    },
+    "omniget_status_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "omniget_stats_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "omniget_today_stat",
+        "omniget_total_stat"
+      ]
+    },
+    "omniget_today_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "839"
+      }
+    },
+    "omniget_total_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total stars",
+        "value": "11.2K"
+      }
+    },
+    "omniget_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Single Rust binary covering 1,800+ sites — yt-dlp scope but no Python dependency and faster parallel fetching."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "footer_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer_text"
+      ]
+    },
+    "footer_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/19",
+        "variant": "caption"
+      }
+    }
+  }
+}
