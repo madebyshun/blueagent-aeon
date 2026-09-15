@@ -1,23 +1,23 @@
-*Morning Brief — 2026-09-13*
+*Morning Brief — 2026-09-15*
 
 *Focus today*
-1. FOMC T-2 — 87% hike odds shifted overnight; binary event; 48h to reprice or exit
-2. CLARITY Act cloture tomorrow — DeFi sweep clause added in rewrite; tokens still priced for passage
-3. FHE/Confidential Computing — Aragon+Zama entry window closes today (T+2)
+1. Investigate token-pick & token-movers failures — why now: both failed 2× in a row, run again at 12:00 UTC
+2. Secrets audit (ANTHROPIC_API_KEY / BANKR_LLM_KEY) — why now: all Sept 14 failures show 1-turn exits, pattern matches auth error
+3. Base native token announcement — why now: fresh catalyst today, direct upside for $BLUEAGENT/$BLOCKY ecosystem
 
 *Since yesterday*
-- BTC pinned $78.5K; Fed hike odds jumped to 87% from near coin-flip (Sep 3)
-- NEAR -11.6% Sep 12 — NEAR Day thesis resolved; position cleared
-- AI token +18.4% in 80%-red market — pure mindshare premium, no fundamental; flush risk open
-- CLARITY Act 630-page rewrite dropped — new decentralized-in-name-only clause pulls DeFi protocols under SEC scope
-- XAI credits: 63 consecutive days zero — narrative-tracker holding on WebSearch fallback
+- [broken] token-pick: 2 consecutive failures, last success Sept 12
+- [broken] token-movers: 2 consecutive failures, last success Sept 12
+- [broken] morning-brief: failed Sept 14 (96% success rate overall — anomaly)
+- [stuck] deal-flow: failed Sept 14; last success Sept 7 — no recent funding signal
 
 *Watch*
-- 87% hike odds → FOMC asymmetric risk-off (not coin-flip); reduce leverage through Sep 16 — focus #1
-- CLARITY DeFi sweep clause → governance/AI-agent tokens exposed, not just stablecoin plays — focus #2
+- Binance pitches AI agents as new class of exchange customers (Sept 14) — tailwind for $BLUEAGENT agent-economy thesis, feeds Focus #3
+- Base exploring native token issuance — ecosystem pump signal, actionable for $BLUEAGENT/$BLOCKY holders
 
 *Running today*
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC
