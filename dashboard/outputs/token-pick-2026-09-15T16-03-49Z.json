@@ -1,0 +1,302 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-09-15"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token_header",
+        "price_section",
+        "sep1",
+        "score_section",
+        "sep2",
+        "catalyst_section",
+        "sep3",
+        "risk_section",
+        "sep4",
+        "recent_section",
+        "sep5",
+        "sources_section",
+        "sep6",
+        "disclaimer_section"
+      ]
+    },
+    "token_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "token_name",
+        "signal_badge",
+        "signal_text"
+      ]
+    },
+    "token_name": {
+      "type": "Heading",
+      "props": {
+        "text": "AKE",
+        "level": "h2"
+      }
+    },
+    "signal_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "signal_text": {
+      "type": "Text",
+      "props": {
+        "text": "signal 10/10"
+      }
+    },
+    "price_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "price_row1",
+        "price_row2"
+      ]
+    },
+    "price_row1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "price_stat",
+        "mcap_stat"
+      ]
+    },
+    "price_row2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "vol_stat",
+        "vol_ratio_stat"
+      ]
+    },
+    "price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.0270",
+        "delta": "+74.3% 24h / +71% 7d",
+        "trend": "up"
+      }
+    },
+    "mcap_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$613M"
+      }
+    },
+    "vol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$67M"
+      }
+    },
+    "vol_ratio_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap Ratio",
+        "value": "0.11"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "score_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score_heading",
+        "score_breakdown_text"
+      ]
+    },
+    "score_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      }
+    },
+    "score_breakdown_text": {
+      "type": "Text",
+      "props": {
+        "text": "[CG trending+2, vol/mcap≥0.10+2, RS vs BTC/ETH 7d+2, both 24h/7d >5%+2, 24h>0+1, 7d>0+1] = 10/10",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalyst_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst_heading",
+        "catalyst_text"
+      ]
+    },
+    "catalyst_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "Bitget launched USDT perpetual futures for AKE today; price cleared September 2 ATH ($0.0266) on volume — derivatives access now expanded beyond spot"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "risk_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "risk_alert"
+      ]
+    },
+    "risk_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Post-futures-listing retracement is documented (common 30-50% reversal within 48-72h); this entry is already 74% into today's move — asymmetric downside from here",
+        "type": "warning"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "recent_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "recent_heading",
+        "recent_text"
+      ]
+    },
+    "recent_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Vs Recent Picks",
+        "level": "h3"
+      }
+    },
+    "recent_text": {
+      "type": "Text",
+      "props": {
+        "text": "First AKE pick (no dedup conflict)"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_heading",
+        "sources_text"
+      ]
+    },
+    "sources_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h3"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=fail, poly=partial",
+        "variant": "caption"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "disclaimer_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "disclaimer_text"
+      ]
+    },
+    "disclaimer_text": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
