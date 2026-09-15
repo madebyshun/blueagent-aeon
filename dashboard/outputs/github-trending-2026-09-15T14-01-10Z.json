@@ -1,0 +1,619 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-09-15"
+      },
+      "children": [
+        "heading_toppick",
+        "toppick_content",
+        "sep1",
+        "heading_aiml",
+        "aiml_section",
+        "sep2",
+        "heading_devtools",
+        "devtools_section",
+        "sep3",
+        "heading_web",
+        "web_section",
+        "footer"
+      ]
+    },
+    "heading_toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "toppick_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "toppick_link",
+        "toppick_stat",
+        "toppick_desc"
+      ]
+    },
+    "toppick_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "earendil-works/pi",
+        "href": "https://github.com/earendil-works/pi",
+        "source": "GitHub"
+      }
+    },
+    "toppick_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "105K",
+        "delta": "+262★/day",
+        "trend": "up"
+      }
+    },
+    "toppick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "The open-source coding-agent toolkit that has quietly become the default foundation.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_1",
+        "aiml_2"
+      ]
+    },
+    "aiml_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_1_title",
+        "aiml_1_meta",
+        "aiml_1_desc"
+      ]
+    },
+    "aiml_1_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "addyosmani/agent-skills",
+        "href": "https://github.com/addyosmani/agent-skills",
+        "source": "GitHub"
+      }
+    },
+    "aiml_1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_1_stars",
+        "aiml_1_total",
+        "aiml_1_lang",
+        "aiml_1_trend"
+      ]
+    },
+    "aiml_1_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 354 today",
+        "variant": "caption"
+      }
+    },
+    "aiml_1_total": {
+      "type": "Text",
+      "props": {
+        "text": "(94.5K total)",
+        "variant": "caption"
+      }
+    },
+    "aiml_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JS"
+      }
+    },
+    "aiml_1_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "aiml_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "94K stars in 7 months: production-grade skill primitives for coding agents from Addy Osmani.",
+        "variant": "body"
+      }
+    },
+    "aiml_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_2_title",
+        "aiml_2_meta",
+        "aiml_2_desc"
+      ]
+    },
+    "aiml_2_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "alphaXiv/OpenResearch",
+        "href": "https://github.com/alphaXiv/OpenResearch",
+        "source": "GitHub"
+      }
+    },
+    "aiml_2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_2_stars",
+        "aiml_2_total",
+        "aiml_2_lang",
+        "aiml_2_trend"
+      ]
+    },
+    "aiml_2_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 593 today",
+        "variant": "caption"
+      }
+    },
+    "aiml_2_total": {
+      "type": "Text",
+      "props": {
+        "text": "(3K total)",
+        "variant": "caption"
+      }
+    },
+    "aiml_2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "aiml_2_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "aiml_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Turns a coding agent into a full research loop — auto-fetches papers, generates hypotheses, runs experiments without manual prompting.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_1",
+        "devtools_2",
+        "devtools_3"
+      ]
+    },
+    "devtools_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_1_title",
+        "devtools_1_meta",
+        "devtools_1_desc"
+      ]
+    },
+    "devtools_1_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "earendil-works/pi",
+        "href": "https://github.com/earendil-works/pi",
+        "source": "GitHub"
+      }
+    },
+    "devtools_1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_1_stars",
+        "devtools_1_total",
+        "devtools_1_lang",
+        "devtools_1_trend"
+      ]
+    },
+    "devtools_1_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 437 today",
+        "variant": "caption"
+      }
+    },
+    "devtools_1_total": {
+      "type": "Text",
+      "props": {
+        "text": "(105K total)",
+        "variant": "caption"
+      }
+    },
+    "devtools_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "devtools_1_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unified coding-agent CLI with TUI, 30+ LLM providers, and built-in agent loop — most-starred open-source agent toolkit going.",
+        "variant": "body"
+      }
+    },
+    "devtools_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_2_title",
+        "devtools_2_meta",
+        "devtools_2_desc"
+      ]
+    },
+    "devtools_2_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "pacifio/atlas",
+        "href": "https://github.com/pacifio/atlas",
+        "source": "GitHub"
+      }
+    },
+    "devtools_2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_2_stars",
+        "devtools_2_total",
+        "devtools_2_lang",
+        "devtools_2_trend"
+      ]
+    },
+    "devtools_2_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 102 today",
+        "variant": "caption"
+      }
+    },
+    "devtools_2_total": {
+      "type": "Text",
+      "props": {
+        "text": "(4.5K total)",
+        "variant": "caption"
+      }
+    },
+    "devtools_2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "devtools_2_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "devtools_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Source control layer for multi-agent workflows — centralizes diffs, errors, and context across concurrent coding agents.",
+        "variant": "body"
+      }
+    },
+    "devtools_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_3_title",
+        "devtools_3_meta",
+        "devtools_3_desc"
+      ]
+    },
+    "devtools_3_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "NationalSecurityAgency/ghidra",
+        "href": "https://github.com/NationalSecurityAgency/ghidra",
+        "source": "GitHub"
+      }
+    },
+    "devtools_3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_3_stars",
+        "devtools_3_total",
+        "devtools_3_lang",
+        "devtools_3_trend"
+      ]
+    },
+    "devtools_3_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 755 today",
+        "variant": "caption"
+      }
+    },
+    "devtools_3_total": {
+      "type": "Text",
+      "props": {
+        "text": "(76.4K total)",
+        "variant": "caption"
+      }
+    },
+    "devtools_3_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Java"
+      }
+    },
+    "devtools_3_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "devtools_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "NSA's reverse engineering suite spiked after yesterday's push — new release likely adds processor support or decompiler updates.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_web": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "web_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web_1",
+        "web_2"
+      ]
+    },
+    "web_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "web_1_title",
+        "web_1_meta",
+        "web_1_desc"
+      ]
+    },
+    "web_1_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "danny-avila/LibreChat",
+        "href": "https://github.com/danny-avila/LibreChat",
+        "source": "GitHub"
+      }
+    },
+    "web_1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "web_1_stars",
+        "web_1_total",
+        "web_1_lang",
+        "web_1_trend"
+      ]
+    },
+    "web_1_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 261 today",
+        "variant": "caption"
+      }
+    },
+    "web_1_total": {
+      "type": "Text",
+      "props": {
+        "text": "(43.6K total)",
+        "variant": "caption"
+      }
+    },
+    "web_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "web_1_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "web_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Native MCP + multi-LLM routing in one self-hosted ChatGPT alternative — now more complete than most paid wrappers.",
+        "variant": "body"
+      }
+    },
+    "web_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "web_2_title",
+        "web_2_meta",
+        "web_2_desc"
+      ]
+    },
+    "web_2_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Homebrew/BrewUI",
+        "href": "https://github.com/Homebrew/BrewUI",
+        "source": "GitHub"
+      }
+    },
+    "web_2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "web_2_stars",
+        "web_2_total",
+        "web_2_lang",
+        "web_2_trend"
+      ]
+    },
+    "web_2_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 388 today",
+        "variant": "caption"
+      }
+    },
+    "web_2_total": {
+      "type": "Text",
+      "props": {
+        "text": "(1.1K total)",
+        "variant": "caption"
+      }
+    },
+    "web_2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Swift"
+      }
+    },
+    "web_2_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "web_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Homebrew's official macOS GUI lands — first-party app replaces the fragmented third-party managers.",
+        "variant": "body"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/14",
+        "variant": "muted"
+      }
+    }
+  }
+}

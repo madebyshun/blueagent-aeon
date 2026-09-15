@@ -1,28 +1,31 @@
-*GitHub Trending — 2026-09-13*
+*GitHub Trending — 2026-09-15*
 
-*Top pick* — [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
-Largest single-day spike today — self-hostable ElevenLabs replacement lands the moment voice API costs start to bite at scale.
+*Top pick* — [earendil-works/pi](https://github.com/earendil-works/pi)
+105K stars and still accelerating at 262★/day — the open-source coding-agent toolkit that has quietly become the default foundation.
 
 *AI/ML*
-• [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — ★ 2.5K today (25.6K total) · Python · [ACCELERATING]
-Self-hostable ElevenLabs drop-in covering 646 languages — eliminates $0.10/1K-char API cost entirely.
+• [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — ★ 354 today (94.5K total) · JS · [ACCELERATING]
+94K stars in 7 months: production-grade skill primitives for coding agents from Addy Osmani.
 
-• [JustVugg/colibri](https://github.com/JustVugg/colibri) — ★ 652 today (29K total) · C · [ACCELERATING]
-Runs frontier MoE models in a single pure-C binary — no Python runtime, no CUDA stack, no Docker dependency chain.
-
-• [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) — ★ 383 today (58.1K total) · Python · [ACCELERATING]
-12 agentic pipelines take a script to finished video cut autonomously — no timeline editor, no render queue handoff.
-
-• [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) — ★ 215 today (5.4K total) · TypeScript · [RETURNING]
-Signed, versioned skill registry for AI coding agents — stops prompt injection via untrusted third-party skill packages.
+• [alphaXiv/OpenResearch](https://github.com/alphaXiv/OpenResearch) — ★ 593 today (3K total) · Rust · [RETURNING]
+Turns a coding agent into a full research loop — auto-fetches papers, generates hypotheses, runs experiments without manual prompting.
 
 *Devtools*
-• [alibaba/open-code-review](https://github.com/alibaba/open-code-review) — ★ 264 today (22.9K total) · Go · [ACCELERATING]
-Combines LLM agent reasoning with deterministic static analysis gates — catches what each misses alone.
+• [earendil-works/pi](https://github.com/earendil-works/pi) — ★ 437 today (105K total) · TypeScript · [ACCELERATING]
+Unified coding-agent CLI with TUI, 30+ LLM providers, and built-in agent loop — most-starred open-source agent toolkit going.
 
-*Other*
-• [tonhowtf/omniget](https://github.com/tonhowtf/omniget) — ★ 839 today (11.2K total) · Rust · [ACCELERATING]
-Single Rust binary covering 1,800+ sites — yt-dlp scope but no Python dependency and faster parallel fetching.
+• [pacifio/atlas](https://github.com/pacifio/atlas) — ★ 102 today (4.5K total) · Rust · [RETURNING]
+Source control layer for multi-agent workflows — centralizes diffs, errors, and context across concurrent coding agents.
+
+• [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) — ★ 755 today (76.4K total) · Java · [RETURNING]
+NSA's reverse engineering suite spiked after yesterday's push — new release likely adds processor support or decompiler updates.
+
+*Web/Apps*
+• [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) — ★ 261 today (43.6K total) · TypeScript · [RETURNING]
+Native MCP + multi-LLM routing in one self-hosted ChatGPT alternative — now more complete than most paid wrappers.
+
+• [Homebrew/BrewUI](https://github.com/Homebrew/BrewUI) — ★ 388 today (1.1K total) · Swift · [RETURNING]
+Homebrew's official macOS GUI lands — first-party app replaces the fragmented third-party managers.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/19
+sources: trending=ok · gh_api=ok · kept 7/14
