@@ -1,35 +1,27 @@
-*Narrative Tracker — 2026-09-12*
+*Narrative Tracker — 2026-09-15*
 
-TRANSITIONS
-• NEW: Circle/Tazapay $400M — stablecoin M&A debut; first major payments acquisition this cycle; infrastructure consolidation phase beginning
-• NEW: Solana Triple Trade Size — governance vote passed to 3× on-chain capacity; direct structural catalyst for Solana perp DEX ecosystem
-• PROMOTED: FOMC Event Risk — Fading → Rising (T-3; Sep 15-16 meeting; "highest-impact September event for crypto"; CLARITY Act cloture same day — double macro collision)
-• PROMOTED: Solana Perp DEX/JUP — Emerging WATCH → Rising RIDE (triple trade size + JUP +12.2% Sep 11 recovery)
-• DEMOTED: NEAR/Chain Abstraction — Rising RIDE → Emerging WATCH (NEAR -11.6% today; NEAR Day bounce fully exhausted; back to pre-event levels)
-• DEMOTED: AI Trading Infrastructure — Rising WATCH → Fading FADE (VVV -10.5%; RSI 76 pump confirmed exhausted)
-• DEMOTED: CLARITY Act — Rising WATCH → Rising FADE (no Dem crossovers; failure now base case; Sep 15 cloture will likely miss 60 votes)
+TRANSITIONS (all NEW — first run, no prior baseline)
+• NEW: FOMC Rate Hike — 83% hike odds on Polymarket; BTC -2.7% to $76.4K already pricing it in; vote window Sep 15-16
+• NEW: CLARITY Act — Senate cloture vote today; DeFi sweep clause removed in rewrite; binary resolution within 24h
+• NEW: AI Agent Payment Rails — $73M settled across 176M txns (USDC 98.6%); OKX MCP toolkit, Circle/Coinbase/Kraken infra push
+• NEW: Base Native Token — Coinbase/Jesse Pollak exploring Base-native token; direct catalyst for $BLUEAGENT/$BLOCKY
 
 REFLEXIVITY ALERT
-• AI Agent Economy: $AI token +18.4% while 80% of market is red — no fundamental trigger; pure mindshare premium. Flush risk if structural thesis gets questioned.
-• Stablecoin/Circle: $400M Tazapay acquisition pre-adoption data. Peak M&A consolidation often = narrative apex — watch post-close growth.
-• CLARITY Act: stablecoin/DeFi tokens partially pricing in passage; failure (now base case) = repricing event Sep 15.
+• FOMC/Polymarket — 83% hike odds moving spot BTC before Fed speaks; prediction market → spot → confirmation loop. Hike already priced at $76.4K.
+• CLARITY Act — DeFi tokens priced for passage; if it clears today, sell-the-news risk. Failure = relief rally.
+• Base Native Token — $BLUEAGENT/$BLOCKY catching narrative bid on exploration announcement; no commitment to launch confirmed.
 
 POSITIONS
-• FRONT-RUN: FHE/Confidential Computing (3 ↑↑, Bull) — Aragon+Zama live T+1; entry window Sep 12-13 — bear: single deployment ≠ sector
-• FRONT-RUN: Agent Identity/TEE (4 →, Bull) — a16z credentials bottleneck + FHE live validates; structural — bear: timing unclear
-• FRONT-RUN: Institutional Perp Infrastructure (2 ↑↑, Bull) — Solana 3× trade size + SGX BTC/ETH perps to US institutions — bear: capacity ≠ demand
-• RIDE: AI Agent Economy (5 →, Bull) — $AI +18.4% in red market; leads even on risk-off days
-• RIDE: x402/Agentic Payments (5 ↑, Bull) — Circle/Tazapay M&A; Circle+Coinbase+Kraken all building
-• RIDE: Stablecoin/Stablechains (5 ↑↑, Bull) — Circle/Tazapay + PYUSDx; watch CLARITY Act Sep 15 failure risk
-• RIDE: Privacy Coin/ZEC (3 →, Bull) — NU7 vote closes Sep 14 (T-2 today)
-• RIDE: Solana Perp DEX/JUP (3 ↑, Bull) — triple trade size structural capacity upgrade
-• FADE: AI Trading Infrastructure (2 ↓↓, Mixed) — VVV -10.5%; pump confirmed exhausted
-• FADE: CLARITY Act (3 ↓, Mixed) — failure base case; stablecoin/DeFi tokens at risk Sep 15
-• WATCH: FOMC Sep 15-16 (4 ↑↑, Mixed) — binary; hold = rally, hike = selloff; no edge to position
+• FRONT-RUN: Base Native Token (mindshare 2 ↑↑, Bull) — @jesse/@base — bear case: exploration ≠ launch, Coinbase regulatory overhang
+• RIDE: AI Agent Payment Rails (mindshare 4 ↑↑, Bull) — @a16zcrypto, @circle, @okxofficial — bear case: $73M is noise vs TradFi; mostly test traffic
+• RIDE: Polymarket/InfoFi (mindshare 3 ↑, Bull) — @polymarket, @kaito_ai — bear case: odds manipulable; reflexivity undermines signal quality
+• FADE: FOMC Rate Hike (mindshare 5 ↑↑, Bear) — resolves today; 83% already priced; sell into announcement
+• FADE: CLARITY Act (mindshare 4 ↑↑, Mixed) — binary today; hold-into-vote is wrong either way
+• WATCH: RWA (mindshare 3 →) — no new catalyst, @blackrock/@ondo_finance
+• WATCH: AI×DePIN (mindshare 3 →) — supply>demand problem persists
 
 MAP
-Emerging: FHE/Confidential Computing, Agent Identity/TEE, Institutional Perp Infra, Bitcoin L2/BTCFi, NEAR/Chain Abstraction
-Rising: AI Agent Economy, Stablecoin/Stablechains, RWA Tokenization, Quantum, Solana Perp DEX/JUP, ETH ETF, Corporate BTC Treasury, Oracle/LINK, FOMC Event Risk
-Peak: Agentic Dev Tools
-Fading: AI Trading Infrastructure, CLARITY Act, DeFi Revival, ARB/L2 Revival
-Dead: Alt L1 Rotation, Memecoins/Retail, Coinbase AiFi/Base
+Emerging: Base Native Token
+Rising: AI Agent Payment Rails, Polymarket/InfoFi, RWA, AI×DePIN, ZK/Privacy
+Peak: FOMC Rate Hike, CLARITY Act
+Fading: —
