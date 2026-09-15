@@ -1,42 +1,36 @@
-*Token Movers — Sep 12, 2026*
+*Token Movers — 2026-09-15*
 
-_Broad risk-off — ~80% of non-stable top-100 alts red; median 24h ≈ −1.8%; BTC −1.7% at $77.4K, ETH −2.6% at $2,542; CPI bounce from yesterday fully reversed._
+_Broad risk-off — 85%+ of top-100 non-stables red, median ~−2.5%; BTC −2.7% to $76.4K with across-the-board selling in L1s, DeFi, and infrastructure._
 
 *Top Winners (24h)*
-1. AI (Artificial Inu) — $0.3280  +18.4% / 7d n/a / 1h n/a  •  vol n/a / #132  [TRENDING+UP]
-2. ETHFI (Ether.fi) — $0.7677  +11.3% / 7d +33.6% / 1h +1.9%  •  $150M / ~#75
-3. WLFI (World Liberty Financial) — $0.0570  +8.3% / 7d +1.2% / 1h −0.2%  •  $52M / ~#46
-4. SKY — $0.0638  +7.5% / 7d −5.2% / 1h +1.6%  •  $20M / ~#52  [FADE]
-5. BTW (Bitway) — $0.5497  +7.5% / 7d +26.1% / 1h −0.9%  •  $10.6M / ~#52
-6. JST (JUST) — $0.1092  +6.8% / 7d +0.3% / 1h 0.0%  •  $31M / ~#85
-7. XMR (Monero) — $533.24  +2.9% / 7d −2.8% / 1h +0.2%  •  $117M / ~#22
-8. VET (VeChain) — $0.007716  +2.8% / 7d +12.5% / 1h −0.3%  •  $11.8M / ~#90
-9. CRO (Cronos) — $0.0587  +2.5% / 7d +3.3% / 1h 0.0%  •  $5.2M / ~#32
-10. STX (Stacks) — $0.2680  +2.1% / 7d +3.1% / 1h −0.8%  •  $17.6M / ~#100
+1. AKE (Akedo) — $0.02751  +76.9% / 7d +42.2% / 1h +4.7%  •  $47.5M / #95  [TRENDING+UP][BREAKOUT]
+2. ARB (Arbitrum) — $0.1483  +9.4% / 7d −20.1% / 1h −2.3%  •  $255M / #73  [TRENDING+UP]
+3. XDC (XDC Network) — $0.02899  +3.9% / 7d +1.3% / 1h −1.3%  •  $11.3M / #98
+4. HBAR (Hedera) — $0.07799  +1.8% / 7d −3.3% / 1h −1.8%  •  $86.4M / #29
+5. JST (JUST) — $0.1155  +1.7% / 7d +7.4% / 1h −0.4%  •  $24.7M / #76
 
 *Top Losers (24h)*
-1. NEAR (NEAR Protocol) — $2.39  −11.6% / 7d +5.6% / 1h −0.1%  •  $416M / #33  [TRENDING+DOWN]
-2. VVV (Venice Token) — $23.14  −10.5% / 7d +30.3% / 1h −1.0%  •  $49M / ~#65
-3. LIT (Lighter) — $4.35  −9.3% / 7d −6.4% / 1h −0.7%  •  $59M / ~#70
-4. ENA (Ethena) — $0.1424  −6.3% / 7d −14.6% / 1h −0.1%  •  $281M / ~#55
-5. MORPHO — $2.28  −6.1% / 7d −9.4% / 1h −0.5%  •  $15.7M / ~#65
-6. RAIN — $0.01508  −6.0% / 7d −8.1% / 1h −0.2%  •  $35M / ~#42
-7. ATOM (Cosmos Hub) — $1.63  −5.9% / 7d +5.6% / 1h −0.1%  •  $45M / #33
-8. CRV (Curve DAO) — $0.3362  −4.7% / 7d −8.4% / 1h −0.1%  •  $47M / ~#78
-9. MNT (Mantle) — $0.5736  −4.2% / 7d −1.5% / 1h −0.2%  •  $23M / ~#50
-10. WLD (Worldcoin) — $0.4038  −4.1% / 7d −0.4% / 1h −0.1%  •  $124M / ~#65
+1. RAIN (Rain) — $0.01256  −12.7% / 7d −24.2% / 1h −4.0%  •  $21.9M / #16  [MAJOR]
+2. FIL (Filecoin) — $0.8599  −10.9% / 7d +1.9% / 1h −2.2%  •  $171M / #89
+3. INJ (Injective) — $5.680  −8.7% / 7d −10.0% / 1h −3.7%  •  $101M / #100
+4. ICP (Internet Computer) — $2.550  −6.9% / 7d −15.7% / 1h −0.8%  •  $45.0M / #60
+5. ETHFI (Ether.fi) — $0.6018  −6.7% / 7d +1.6% / 1h −1.9%  •  $41.1M / #97
+6. LIT (Lighter) — $4.190  −5.0% / 7d −12.7% / 1h −2.5%  •  $82.6M / #71
+7. VET (VeChain) — $0.007365  −4.6% / 7d −4.2% / 1h −1.4%  •  $11.9M / #94
+8. CAKE (PancakeSwap) — $2.270  −4.4% / 7d −0.8% / 1h −1.7%  •  $72.8M / #87
+9. DASH (Dash) — $51.76  −4.1% / 7d −18.4% / 1h −2.4%  •  $95.2M / #93
+10. TAO (Bittensor) — $225.2  −3.6% / 7d −11.5% / 1h −0.9%  •  $155M / #40
 
 *Trending*
-1. AI (Artificial Inu) — #132, $0.3280, 24h +18.4%  [TRENDING+UP]
-2. EMBER (embercurve) — #958, $0.0160, 24h −38.7%
-3. LAPTOP (Hunter Biden's Laptop) — #231, $0.3682, 24h −5.7%
-4. PONS — #116, $0.6300, 24h −2.2%
-5. STONK — #152, $0.2910, 24h −4.9%
-6. PENGU (Pudgy Penguins) — #115, $0.007353, 24h −3.1%
-7. ETH (Ethereum) — #2, $2,543, 24h −2.6%
+1. PONS — #112, $0.6515, 24h +10.6%
+2. AKE (Akedo) — #95, $0.02696, 24h +74.3%  [TRENDING+UP][BREAKOUT]
+3. ARB (Arbitrum) — #73, $0.1454, 24h +7.4%  [TRENDING+UP]
+4. BTC (Bitcoin) — #1, $76,368, 24h −2.7%  [MAJOR]
+5. XRP — #5, $1.392, 24h −1.0%  [MAJOR]
+6. PENGU (Pudgy Penguins) — #115, $0.006980, 24h −2.0%
+7. STANDARD — #627, $0.3289, 24h 0.0%
 
 *Notable*
-• NEAR [TRENDING+DOWN]: +11.2% yesterday → −11.6% today on $416M vol — full CPI bounce retraced in 24h; bearish reversal confirmed
-• AI [TRENDING+UP]: rank 132, +18.4% trending — only top-100+ outlier in today's selloff
-• ZZZ [PUMP-RISK]: #431, +75.9% trending — micro-cap spike, high manipulation probability
-• LSK [PUMP-RISK]: #412, +95.0% trending — same risk; avoid chasing
+• AKE: trending + up 77% / 7d +42% — dual-confirmation breakout across both timeframes; strongest signal in today's tape [TRENDING+UP][BREAKOUT]
+• ARB: trending + counter-rallying 9.4% on $255M volume against 7d −20% downtrend — continuation or dead-cat bounce to watch [TRENDING+UP]
+• RAIN: rank-16 coin down 12.7% / 7d −24.2% — sustained large-cap distribution, no floor in sight [MAJOR]
