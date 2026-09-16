@@ -1,31 +1,35 @@
-*GitHub Trending — 2026-09-15*
+*GitHub Trending — 2026-09-16*
 
-*Top pick* — [earendil-works/pi](https://github.com/earendil-works/pi)
-105K stars and still accelerating at 262★/day — the open-source coding-agent toolkit that has quietly become the default foundation.
+*Top pick* — [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
+Alibaba's internal code review infrastructure open-sourced — hybrid model architecture, battle-tested at hyperscale, drops into any CI.
 
 *AI/ML*
-• [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — ★ 354 today (94.5K total) · JS · [ACCELERATING]
-94K stars in 7 months: production-grade skill primitives for coding agents from Addy Osmani.
+• [JustVugg/colibri](https://github.com/JustVugg/colibri) — ★ 1.5k today (34.6k total) · C · [ACCELERATING]
+Pure-C MoE runtime, zero deps — runs frontier-scale models on a single gaming GPU with no Python stack.
 
-• [alphaXiv/OpenResearch](https://github.com/alphaXiv/OpenResearch) — ★ 593 today (3K total) · Rust · [RETURNING]
-Turns a coding agent into a full research loop — auto-fetches papers, generates hypotheses, runs experiments without manual prompting.
+• [alphaXiv/OpenResearch](https://github.com/alphaXiv/OpenResearch) — ★ 1k today (4k total) · Rust · [RETURNING]
+Wraps coding-agent loops in a structured research harness — persistent hypotheses, citations, reproducible runs.
+
+• [multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE) — ★ 701 today (9.2k total) · Python · [RETURNING]
+YuE2 adds symbolic planning and agentic editing on top of music gen — composable structured output, not just vibes.
 
 *Devtools*
-• [earendil-works/pi](https://github.com/earendil-works/pi) — ★ 437 today (105K total) · TypeScript · [ACCELERATING]
-Unified coding-agent CLI with TUI, 30+ LLM providers, and built-in agent loop — most-starred open-source agent toolkit going.
+• [alibaba/open-code-review](https://github.com/alibaba/open-code-review) — ★ 3.2k today (30.6k total) · Go · [ACCELERATING]
+Fast, hybrid code review at Alibaba's scale — open-sourced today after internal battle-testing across thousands of repos.
 
-• [pacifio/atlas](https://github.com/pacifio/atlas) — ★ 102 today (4.5K total) · Rust · [RETURNING]
-Source control layer for multi-agent workflows — centralizes diffs, errors, and context across concurrent coding agents.
+• [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — ★ 1.4k today (5.8k total) · JavaScript · [ACCELERATING]
+Agent skill for multi-phase security audits with independently verified findings — no human reviewer required in the loop.
 
-• [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) — ★ 755 today (76.4K total) · Java · [RETURNING]
-NSA's reverse engineering suite spiked after yesterday's push — new release likely adds processor support or decompiler updates.
+• [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) — ★ 1.1k today (77.4k total) · Java · [RETURNING]
+NSA's RE framework spiking again — likely a major release; worth checking the changelog if you do reverse engineering.
 
 *Web/Apps*
-• [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) — ★ 261 today (43.6K total) · TypeScript · [RETURNING]
-Native MCP + multi-LLM routing in one self-hosted ChatGPT alternative — now more complete than most paid wrappers.
+• [abue-ammar/tinycast](https://github.com/abue-ammar/tinycast) — ★ 1.1k today (5.3k total) · Swift · [ACCELERATING]
+Native macOS launcher and clipboard manager — no Electron, no web tech, sub-3MB install with instant hotkeys.
 
-• [Homebrew/BrewUI](https://github.com/Homebrew/BrewUI) — ★ 388 today (1.1K total) · Swift · [RETURNING]
-Homebrew's official macOS GUI lands — first-party app replaces the fragmented third-party managers.
+*Infra*
+• [Tencent/WeKnora](https://github.com/Tencent/WeKnora) — ★ 696 today (24.9k total) · Go · [ACCELERATING]
+Open-source LLM RAG platform turning any document corpus into a queryable knowledge base — Tencent's internal tooling released.
 
 ---
-sources: trending=ok · gh_api=ok · kept 7/14
+sources: trending=ok · gh_api=ok · kept 8/21

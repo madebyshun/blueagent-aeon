@@ -485,3 +485,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-09-15,narrative-tracker,claude-sonnet-4-6,14,7111,344423,25949
 2026-09-15,security-digest,claude-sonnet-4-6,38,22639,1692301,46292
 2026-09-16,morning-brief,claude-sonnet-4-6,13,5541,317179,25419
+2026-09-16,github-trending,claude-sonnet-4-6,16,8473,408726,26012
