@@ -1,0 +1,596 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-16"
+      },
+      "children": [
+        "heading_transitions",
+        "stack_transitions",
+        "sep_1",
+        "heading_reflexivity",
+        "stack_reflexivity",
+        "sep_2",
+        "heading_positions",
+        "stack_positions",
+        "sep_3",
+        "heading_map",
+        "stack_map"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h3"
+      }
+    },
+    "stack_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans_clarity",
+        "trans_fomc",
+        "trans_agentic",
+        "trans_fhe"
+      ]
+    },
+    "trans_clarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_1",
+        "link_clarity"
+      ]
+    },
+    "badge_new_1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW"
+      }
+    },
+    "link_clarity": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CLARITY Act Failure",
+        "href": "https://www.cnbc.com/2026/09/15/senate-cloture-vote-on-clarity-act-fails-dealing-regulatory-setback-to-crypto-industry.html",
+        "source": "CNBC"
+      }
+    },
+    "trans_clarity_desc": {
+      "type": "Text",
+      "props": {
+        "text": "49-50 Senate vote kills regulatory clarity bill; DeFi uncertainty restored",
+        "variant": "body"
+      }
+    },
+    "trans_fomc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new_2",
+        "text_fomc_trans"
+      ]
+    },
+    "badge_new_2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW"
+      }
+    },
+    "text_fomc_trans": {
+      "type": "Text",
+      "props": {
+        "text": "Post-FOMC Rate Hike — Fed hikes 25bps today (92% priced); BTC $75.7K, median top-100 -3%, risk-off live",
+        "variant": "body"
+      }
+    },
+    "trans_agentic": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted_1",
+        "text_agentic_trans"
+      ]
+    },
+    "badge_promoted_1": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_agentic_trans": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / Base x402 (Emerging → Peak) — 100M txns on Base confirmed by Chainalysis; Linux Foundation backing; Coinbase Agentic Wallets live",
+        "variant": "body"
+      }
+    },
+    "trans_fhe": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted_2",
+        "text_fhe_trans"
+      ]
+    },
+    "badge_promoted_2": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_fhe_trans": {
+      "type": "Text",
+      "props": {
+        "text": "FHE/Confidential Computing (Fringe → Emerging) — Aragon+Zama entry window called Sept 13; zero mainstream saturation",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h3"
+      }
+    },
+    "stack_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_fomc_refl",
+        "text_agentic_refl"
+      ]
+    },
+    "alert_fomc_refl": {
+      "type": "Alert",
+      "props": {
+        "title": "Post-FOMC",
+        "message": "BTC $75.7K selldown started 48h before decision; 25bps = priced in at 92%; relief bounce scenario live post-conference",
+        "type": "warning"
+      }
+    },
+    "text_agentic_refl": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments — 100M milestone used as adoption proof but 95% txns = meme coin farming (Chainalysis); projects rebranding to agentic without product shifts",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h3"
+      }
+    },
+    "stack_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "pos_fhe",
+        "pos_agentic",
+        "pos_depin",
+        "pos_fomc_risk",
+        "pos_clarity",
+        "pos_ai_hype"
+      ]
+    },
+    "pos_fhe": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_frontrun",
+        "text_fhe_title",
+        "text_fhe_handles",
+        "text_fhe_bear",
+        "text_fhe_note"
+      ]
+    },
+    "badge_frontrun": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN"
+      }
+    },
+    "text_fhe_title": {
+      "type": "Text",
+      "props": {
+        "text": "FHE/Confidential Computing — mindshare 2 ↑, Bull",
+        "variant": "lead"
+      }
+    },
+    "text_fhe_handles": {
+      "type": "Text",
+      "props": {
+        "text": "@AragonProject, @Zama_FHE",
+        "variant": "caption"
+      }
+    },
+    "text_fhe_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: 10,000x compute overhead, no prod apps",
+        "variant": "muted"
+      }
+    },
+    "text_fhe_note": {
+      "type": "Text",
+      "props": {
+        "text": "Pre-saturation entry",
+        "variant": "body"
+      }
+    },
+    "pos_agentic": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_1",
+        "text_agentic_title",
+        "text_agentic_handles",
+        "text_agentic_bear",
+        "text_agentic_note"
+      ]
+    },
+    "badge_ride_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "text_agentic_title": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / Base x402 — mindshare 4 →, Bull",
+        "variant": "lead"
+      }
+    },
+    "text_agentic_handles": {
+      "type": "Text",
+      "props": {
+        "text": "@coinbase, @base, Chainalysis",
+        "variant": "caption"
+      }
+    },
+    "text_agentic_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: meme farming inflates count",
+        "variant": "muted"
+      }
+    },
+    "text_agentic_note": {
+      "type": "Text",
+      "props": {
+        "text": "$BLUEAGENT directly relevant",
+        "variant": "body"
+      }
+    },
+    "pos_depin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_2",
+        "text_depin_title",
+        "text_depin_handles",
+        "text_depin_bear"
+      ]
+    },
+    "badge_ride_2": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "text_depin_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI x DePIN — mindshare 3 ↑, Bull",
+        "variant": "lead"
+      }
+    },
+    "text_depin_handles": {
+      "type": "Text",
+      "props": {
+        "text": "@io_net, @aethir_cloud",
+        "variant": "caption"
+      }
+    },
+    "text_depin_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: supply exceeds demand, inference centralizing",
+        "variant": "muted"
+      }
+    },
+    "pos_fomc_risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch",
+        "text_fomc_risk_title",
+        "text_fomc_risk_ref",
+        "text_fomc_risk_note"
+      ]
+    },
+    "badge_watch": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "text_fomc_risk_title": {
+      "type": "Text",
+      "props": {
+        "text": "Post-FOMC Risk-Off — mindshare 5 ↑↑, Bear",
+        "variant": "lead"
+      }
+    },
+    "text_fomc_risk_ref": {
+      "type": "Text",
+      "props": {
+        "text": "Warsh/Fed",
+        "variant": "caption"
+      }
+    },
+    "text_fomc_risk_note": {
+      "type": "Text",
+      "props": {
+        "text": "Wait for press conference; priced-in flip possible",
+        "variant": "body"
+      }
+    },
+    "pos_clarity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_1",
+        "text_clarity_title",
+        "text_clarity_note"
+      ]
+    },
+    "badge_fade_1": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "text_clarity_title": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act / US Regulation — mindshare 4 ↓↓, Bear",
+        "variant": "lead"
+      }
+    },
+    "text_clarity_note": {
+      "type": "Text",
+      "props": {
+        "text": "Regulatory clarity trade was wrong; DeFi tokens priced on passage thesis now unwinding",
+        "variant": "body"
+      }
+    },
+    "pos_ai_hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade_2",
+        "text_ai_hype_title",
+        "text_ai_hype_handles",
+        "text_ai_hype_note"
+      ]
+    },
+    "badge_fade_2": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "text_ai_hype_title": {
+      "type": "Text",
+      "props": {
+        "text": "Generic AI Agent Hype — mindshare 5 →, Cope",
+        "variant": "lead"
+      }
+    },
+    "text_ai_hype_handles": {
+      "type": "Text",
+      "props": {
+        "text": "@a16zcrypto, @Olas_Network",
+        "variant": "caption"
+      }
+    },
+    "text_ai_hype_note": {
+      "type": "Text",
+      "props": {
+        "text": "High mindshare, flat velocity, rebranding noise = Peak Cope",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h3"
+      }
+    },
+    "stack_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_emerging",
+        "text_emerging"
+      ]
+    },
+    "badge_emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging"
+      }
+    },
+    "text_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "FHE/Confidential Computing",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_rising",
+        "text_rising"
+      ]
+    },
+    "badge_rising": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "text_rising": {
+      "type": "Text",
+      "props": {
+        "text": "AI x DePIN, RWA Tokenization",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_peak",
+        "text_peak"
+      ]
+    },
+    "badge_peak": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "outline"
+      }
+    },
+    "text_peak": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments/Base x402, AI Agent Infrastructure, Post-FOMC Rate Hike",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fading",
+        "text_fading"
+      ]
+    },
+    "badge_fading": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      }
+    },
+    "text_fading": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act / US Crypto Regulation",
+        "variant": "body"
+      }
+    }
+  }
+}
