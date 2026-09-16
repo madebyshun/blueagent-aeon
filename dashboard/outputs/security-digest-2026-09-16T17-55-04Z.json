@@ -1,0 +1,679 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-09-16"
+      },
+      "children": [
+        "verdict_text",
+        "sep_1",
+        "heading_patch_today",
+        "cve_1",
+        "cve_2",
+        "cve_3",
+        "sep_2",
+        "heading_patch_week",
+        "ghsa_1",
+        "ghsa_2",
+        "ghsa_3",
+        "ghsa_4",
+        "ghsa_5",
+        "sep_3",
+        "heading_monitor",
+        "ghsa_6"
+      ]
+    },
+    "verdict_text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 3 actively exploited (KEV), 5 in tracked stack to patch this week, 1 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_patch_today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_1_header",
+        "cve_1_desc",
+        "cve_1_action"
+      ]
+    },
+    "cve_1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_cve_1",
+        "badge_cve_1_prod",
+        "badge_cve_1_kev",
+        "badge_cve_1_epss"
+      ]
+    },
+    "link_cve_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-19490",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "CISA"
+      }
+    },
+    "badge_cve_1_prod": {
+      "type": "Badge",
+      "props": {
+        "text": "Citrix NetScaler ADC/Gateway",
+        "variant": "secondary"
+      }
+    },
+    "badge_cve_1_kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-09-09",
+        "variant": "destructive"
+      }
+    },
+    "badge_cve_1_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.056",
+        "variant": "default"
+      }
+    },
+    "cve_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass via alternate path on AAA/gateway-configured instances. Exploited in the wild."
+      }
+    },
+    "cve_1_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply vendor patches per BOD 26-04; disable gateway role if unpatched.",
+        "variant": "muted"
+      }
+    },
+    "cve_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2_header",
+        "cve_2_desc",
+        "cve_2_action"
+      ]
+    },
+    "cve_2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_cve_2",
+        "badge_cve_2_prod",
+        "badge_cve_2_kev",
+        "badge_cve_2_epss"
+      ]
+    },
+    "link_cve_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2025-25249",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "CISA"
+      }
+    },
+    "badge_cve_2_prod": {
+      "type": "Badge",
+      "props": {
+        "text": "Fortinet FortiOS/FortiSwitchManager/FortiSASE",
+        "variant": "secondary"
+      }
+    },
+    "badge_cve_2_kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-09-09",
+        "variant": "destructive"
+      }
+    },
+    "badge_cve_2_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.024",
+        "variant": "default"
+      }
+    },
+    "cve_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Heap-based buffer overflow enables arbitrary code execution. Exploited in the wild."
+      }
+    },
+    "cve_2_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade affected Fortinet products per vendor advisory immediately.",
+        "variant": "muted"
+      }
+    },
+    "cve_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_3_header",
+        "cve_3_desc",
+        "cve_3_action"
+      ]
+    },
+    "cve_3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_cve_3",
+        "badge_cve_3_prod",
+        "badge_cve_3_kev",
+        "badge_cve_3_epss"
+      ]
+    },
+    "link_cve_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-86060",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "CISA"
+      }
+    },
+    "badge_cve_3_prod": {
+      "type": "Badge",
+      "props": {
+        "text": "MikroTik RouterOS",
+        "variant": "secondary"
+      }
+    },
+    "badge_cve_3_kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-09-10",
+        "variant": "destructive"
+      }
+    },
+    "badge_cve_3_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.011",
+        "variant": "default"
+      }
+    },
+    "cve_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Argument delimiter bypass enables policy mask modification and privilege escalation."
+      }
+    },
+    "cve_3_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade RouterOS to vendor-latest; restrict admin interface exposure.",
+        "variant": "muted"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_patch_week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "ghsa_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_1_header",
+        "ghsa_1_desc",
+        "ghsa_1_action"
+      ]
+    },
+    "ghsa_1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_1",
+        "badge_ghsa_1_prod",
+        "badge_ghsa_1_cvss",
+        "badge_ghsa_1_epss"
+      ]
+    },
+    "link_ghsa_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-cv3r-c5h8-f4g5",
+        "href": "https://github.com/advisories/GHSA-cv3r-c5h8-f4g5",
+        "source": "GitHub"
+      }
+    },
+    "badge_ghsa_1_prod": {
+      "type": "Badge",
+      "props": {
+        "text": "@zereight/mcp-gitlab (npm <2.1.30)",
+        "variant": "secondary"
+      }
+    },
+    "badge_ghsa_1_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8",
+        "variant": "destructive"
+      }
+    },
+    "badge_ghsa_1_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.007",
+        "variant": "default"
+      }
+    },
+    "ghsa_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "File read via upload_markdown leaks PAT tokens → full account takeover. 3 bundled CVEs (SSRF, DNS rebinding, safety bypass) all fixed in 2.1.30."
+      }
+    },
+    "ghsa_1_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade @zereight/mcp-gitlab to ≥2.1.30.",
+        "variant": "muted"
+      }
+    },
+    "ghsa_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_2_header",
+        "ghsa_2_desc",
+        "ghsa_2_action"
+      ]
+    },
+    "ghsa_2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_2",
+        "badge_ghsa_2_prod",
+        "badge_ghsa_2_cvss",
+        "badge_ghsa_2_epss"
+      ]
+    },
+    "link_ghsa_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-5h8j-6crg-7rmw",
+        "href": "https://github.com/advisories/GHSA-5h8j-6crg-7rmw",
+        "source": "GitHub"
+      }
+    },
+    "badge_ghsa_2_prod": {
+      "type": "Badge",
+      "props": {
+        "text": "lmdeploy (pip ≥0.9.1,<0.10.2)",
+        "variant": "secondary"
+      }
+    },
+    "badge_ghsa_2_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8",
+        "variant": "destructive"
+      }
+    },
+    "badge_ghsa_2_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0",
+        "variant": "default"
+      }
+    },
+    "ghsa_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "RCE via Pickle deserialization in zmq_rpc.call_and_response()."
+      }
+    },
+    "ghsa_2_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade lmdeploy to ≥0.10.2.",
+        "variant": "muted"
+      }
+    },
+    "ghsa_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_3_header",
+        "ghsa_3_desc",
+        "ghsa_3_action"
+      ]
+    },
+    "ghsa_3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_3",
+        "badge_ghsa_3_prod",
+        "badge_ghsa_3_cvss",
+        "badge_ghsa_3_epss"
+      ]
+    },
+    "link_ghsa_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-vrh8-c9cm-wh8v",
+        "href": "https://github.com/advisories/GHSA-vrh8-c9cm-wh8v",
+        "source": "GitHub"
+      }
+    },
+    "badge_ghsa_3_prod": {
+      "type": "Badge",
+      "props": {
+        "text": "zitadel (Go <4.15.3)",
+        "variant": "secondary"
+      }
+    },
+    "badge_ghsa_3_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "destructive"
+      }
+    },
+    "badge_ghsa_3_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "default"
+      }
+    },
+    "ghsa_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "OAuth2 Token Exchange grants unauthorized privilege escalation."
+      }
+    },
+    "ghsa_3_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade github.com/zitadel/zitadel to ≥4.15.3.",
+        "variant": "muted"
+      }
+    },
+    "ghsa_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_4_header",
+        "ghsa_4_desc",
+        "ghsa_4_action"
+      ]
+    },
+    "ghsa_4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_4",
+        "badge_ghsa_4_prod",
+        "badge_ghsa_4_cvss",
+        "badge_ghsa_4_epss"
+      ]
+    },
+    "link_ghsa_4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-pg97-jvmf-qfvc",
+        "href": "https://github.com/advisories/GHSA-pg97-jvmf-qfvc",
+        "source": "GitHub"
+      }
+    },
+    "badge_ghsa_4_prod": {
+      "type": "Badge",
+      "props": {
+        "text": "djust (pip <1.0.7)",
+        "variant": "secondary"
+      }
+    },
+    "badge_ghsa_4_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "destructive"
+      }
+    },
+    "badge_ghsa_4_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0",
+        "variant": "default"
+      }
+    },
+    "ghsa_4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "CSRF on SSE transport + multi-tenant data leak + mass-assignment (3 CVEs, all fixed in 1.0.7)."
+      }
+    },
+    "ghsa_4_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade djust to ≥1.0.7.",
+        "variant": "muted"
+      }
+    },
+    "ghsa_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_5_header",
+        "ghsa_5_desc",
+        "ghsa_5_action"
+      ]
+    },
+    "ghsa_5_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_5",
+        "badge_ghsa_5_prod",
+        "badge_ghsa_5_cvss",
+        "badge_ghsa_5_epss"
+      ]
+    },
+    "link_ghsa_5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-5hq8-qhww-jm7q",
+        "href": "https://github.com/advisories/GHSA-5hq8-qhww-jm7q",
+        "source": "GitHub"
+      }
+    },
+    "badge_ghsa_5_prod": {
+      "type": "Badge",
+      "props": {
+        "text": "libp2p-quic (crates.io <0.13.1)",
+        "variant": "secondary"
+      }
+    },
+    "badge_ghsa_5_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS N/A",
+        "variant": "default"
+      }
+    },
+    "badge_ghsa_5_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.002",
+        "variant": "default"
+      }
+    },
+    "ghsa_5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Remote panic via cert expiry race during QUIC handshake."
+      }
+    },
+    "ghsa_5_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade libp2p-quic to ≥0.13.1.",
+        "variant": "muted"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "ghsa_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_6_header",
+        "ghsa_6_desc",
+        "ghsa_6_action"
+      ]
+    },
+    "ghsa_6_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_6",
+        "badge_ghsa_6_prod",
+        "badge_ghsa_6_cvss",
+        "badge_ghsa_6_epss"
+      ]
+    },
+    "link_ghsa_6": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-r2pf-9cw4-5j65",
+        "href": "https://github.com/advisories/GHSA-r2pf-9cw4-5j65",
+        "source": "GitHub"
+      }
+    },
+    "badge_ghsa_6_prod": {
+      "type": "Badge",
+      "props": {
+        "text": "node-opcua (npm <2.170.0)",
+        "variant": "secondary"
+      }
+    },
+    "badge_ghsa_6_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.0",
+        "variant": "default"
+      }
+    },
+    "badge_ghsa_6_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0",
+        "variant": "default"
+      }
+    },
+    "ghsa_6_desc": {
+      "type": "Text",
+      "props": {
+        "text": "TCP socket leak under keepalive reconnect → resource exhaustion. No exploitation signal."
+      }
+    },
+    "ghsa_6_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade node-opcua to ≥2.170.0 at next maintenance window.",
+        "variant": "muted"
+      }
+    }
+  }
+}
