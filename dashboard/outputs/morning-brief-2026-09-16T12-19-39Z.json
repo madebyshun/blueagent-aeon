@@ -1,0 +1,429 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-09-16"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_focus",
+        "sep_1",
+        "section_yesterday",
+        "sep_2",
+        "section_watch",
+        "sep_3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_focus",
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "h_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_reason"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. deal-flow",
+        "variant": "lead"
+      }
+    },
+    "focus_1_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: failed Mon run, 5 days until next weekly window",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_reason"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. onboard degraded",
+        "variant": "lead"
+      }
+    },
+    "focus_2_reason": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 0.33 success rate, well below 0.80 threshold; file issue",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_reason"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. $BLUEAGENT narrative",
+        "variant": "lead"
+      }
+    },
+    "focus_3_reason": {
+      "type": "Text",
+      "props": {
+        "text": "background: Base MCP launched; 100M+ agent payments on Base validates thesis",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_yesterday",
+        "activity_1",
+        "activity_2",
+        "activity_3",
+        "activity_4"
+      ]
+    },
+    "h_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "activity_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "act1_title",
+        "act1_cves"
+      ]
+    },
+    "act1_title": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest: flagged vulnerabilities — notified",
+        "variant": "lead"
+      }
+    },
+    "act1_cves": {
+      "type": "Text",
+      "props": {
+        "text": "CVE-2026-85706 (GitLab CVSS 10, KEV, active exploits), CVE-2026-20079 (Cisco EPSS 0.758), pip GHSA CVSS 9.8",
+        "variant": "body"
+      }
+    },
+    "activity_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "act2_title",
+        "act2_qual"
+      ]
+    },
+    "act2_title": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers: ran",
+        "variant": "lead"
+      }
+    },
+    "act2_qual": {
+      "type": "Text",
+      "props": {
+        "text": "quality 4/5",
+        "variant": "body"
+      }
+    },
+    "activity_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "act3_title",
+        "act3_qual"
+      ]
+    },
+    "act3_title": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker: ran",
+        "variant": "lead"
+      }
+    },
+    "act3_qual": {
+      "type": "Text",
+      "props": {
+        "text": "quality 4/5",
+        "variant": "body"
+      }
+    },
+    "activity_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "act4_title",
+        "act4_status"
+      ]
+    },
+    "act4_title": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick: ran",
+        "variant": "lead"
+      }
+    },
+    "act4_status": {
+      "type": "Text",
+      "props": {
+        "text": "successfully",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_watch",
+        "watch_item"
+      ]
+    },
+    "h_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_detail",
+        "watch_note"
+      ]
+    },
+    "watch_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Base MCP (wallet-to-AI-agent) live + 100M+ agent payments Q1 2026",
+        "variant": "lead"
+      }
+    },
+    "watch_note": {
+      "type": "Text",
+      "props": {
+        "text": "$BLUEAGENT narrative aligned, good time for positioning content",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_running",
+        "schedule_1",
+        "schedule_2",
+        "schedule_3",
+        "schedule_4"
+      ]
+    },
+    "h_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "schedule_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "time_badge_1",
+        "task_name_1"
+      ]
+    },
+    "time_badge_1": {
+      "type": "Badge",
+      "props": {
+        "text": "09:00 UTC",
+        "variant": "secondary"
+      }
+    },
+    "task_name_1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor",
+        "variant": "body"
+      }
+    },
+    "schedule_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "time_badge_2",
+        "task_name_2"
+      ]
+    },
+    "time_badge_2": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "secondary"
+      }
+    },
+    "task_name_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers",
+        "variant": "body"
+      }
+    },
+    "schedule_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "time_badge_3",
+        "task_name_3"
+      ]
+    },
+    "time_badge_3": {
+      "type": "Badge",
+      "props": {
+        "text": "12:00 UTC",
+        "variant": "secondary"
+      }
+    },
+    "task_name_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick",
+        "variant": "body"
+      }
+    },
+    "schedule_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "time_badge_4",
+        "task_name_4"
+      ]
+    },
+    "time_badge_4": {
+      "type": "Badge",
+      "props": {
+        "text": "13:30 UTC",
+        "variant": "secondary"
+      }
+    },
+    "task_name_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "body"
+      }
+    }
+  }
+}
