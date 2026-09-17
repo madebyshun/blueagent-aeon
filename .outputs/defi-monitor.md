@@ -1,3 +1,3 @@
 ## Summary
 
-`memory/on-chain-watches.yml` does not exist — no DeFi positions are configured. Skill completed with `DEFI_MONITOR_OK` and logged the result to `memory/logs/2026-09-16.md`. No notifications sent, no alerts triggered.
+`memory/on-chain-watches.yml` does not exist — no DeFi positions are configured. Per skill instructions: logged `DEFI_MONITOR_OK` to `memory/logs/2026-09-17.md` and ended.
