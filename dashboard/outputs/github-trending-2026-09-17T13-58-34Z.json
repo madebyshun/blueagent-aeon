@@ -1,0 +1,327 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-09-17"
+      },
+      "children": [
+        "section-top-pick",
+        "separator-1",
+        "section-aiml",
+        "separator-2",
+        "section-devtools",
+        "separator-3",
+        "footer"
+      ]
+    },
+    "section-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-top-pick",
+        "repo-top-pick-link",
+        "text-top-pick-desc"
+      ]
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "repo-top-pick-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Tencent/BrowserSkill",
+        "href": "https://github.com/Tencent/BrowserSkill",
+        "source": "GitHub"
+      }
+    },
+    "text-top-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Browser agents that use your real logged-in session — solves the #1 UX failure of current AI browser automation.",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-aiml",
+        "repo-aiml-1",
+        "repo-aiml-2",
+        "repo-aiml-3"
+      ]
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "repo-aiml-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-1-header",
+        "aiml-1-desc"
+      ]
+    },
+    "aiml-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-1-link",
+        "aiml-1-stars",
+        "aiml-1-status"
+      ]
+    },
+    "aiml-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Tencent/BrowserSkill",
+        "href": "https://github.com/Tencent/BrowserSkill",
+        "source": "TypeScript"
+      }
+    },
+    "aiml-1-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 1,350 today (3.7k total)",
+        "variant": "secondary"
+      }
+    },
+    "aiml-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "aiml-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Uses your actual logged-in browser for agent tasks — no re-auth, no popup chaos, no tab hijacking.",
+        "variant": "body"
+      }
+    },
+    "repo-aiml-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-2-header",
+        "aiml-2-desc"
+      ]
+    },
+    "aiml-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-2-link",
+        "aiml-2-stars",
+        "aiml-2-status"
+      ]
+    },
+    "aiml-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "jamiepine/voicebox",
+        "href": "https://github.com/jamiepine/voicebox",
+        "source": "TypeScript"
+      }
+    },
+    "aiml-2-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 665 today (54.8k total)",
+        "variant": "secondary"
+      }
+    },
+    "aiml-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "aiml-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Clone any voice locally in seconds — no cloud API, no subscription, MIT license.",
+        "variant": "body"
+      }
+    },
+    "repo-aiml-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-3-header",
+        "aiml-3-desc"
+      ]
+    },
+    "aiml-3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-3-link",
+        "aiml-3-stars",
+        "aiml-3-status"
+      ]
+    },
+    "aiml-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "TencentCloud/Octop",
+        "href": "https://github.com/TencentCloud/Octop",
+        "source": "Python"
+      }
+    },
+    "aiml-3-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 396 today (3.3k total)",
+        "variant": "secondary"
+      }
+    },
+    "aiml-3-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "aiml-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted multi-user, multi-agent assistant — open answer to closed enterprise AI stacks.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-devtools",
+        "repo-devtools-1"
+      ]
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "repo-devtools-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-header",
+        "devtools-1-desc"
+      ]
+    },
+    "devtools-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-link",
+        "devtools-1-stars",
+        "devtools-1-status"
+      ]
+    },
+    "devtools-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "affaan-m/ECC",
+        "href": "https://github.com/affaan-m/ECC",
+        "source": "JavaScript"
+      }
+    },
+    "devtools-1-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 1,173 today (261k total)",
+        "variant": "secondary"
+      }
+    },
+    "devtools-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "devtools-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "One config for skills, memory, and security across Claude Code, Codex, Cursor, and Opencode.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/20 (7 featured yesterday, 9 noise/well-known)",
+        "variant": "caption"
+      }
+    }
+  }
+}
