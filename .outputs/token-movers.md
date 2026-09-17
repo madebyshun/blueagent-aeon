@@ -1,19 +1,19 @@
 ## Summary
 
-**Skill executed:** `token-movers` for 2026-09-16
+Token-movers skill executed for 2026-09-17.
 
-**Data sources:** CoinGecko markets (WebFetch, ~107/250 top-cap coins) + trending (WebFetch, 15 coins) — both live.
+**What was done:**
+- Fetched 250-coin market data from CoinGecko (curl → jq) + trending endpoint (WebFetch)
+- Filtered stablecoins, wrapped dupes, and sub-$1M volume coins
+- Computed top 10 winners / losers and market pulse
 
-**Market pulse:** Post-FOMC risk-off. BTC $75.7K (−0.9%), ~82% of liquid top-100 red, median 24h ~−3%. Broad selldown across L1s, DeFi, and meme coins.
+**Market picture:**
+- Post-FOMC relief bounce — 87/100 top liquid coins green, median +1.9%
+- Top winner: MCAT +174.9% (rank 92, no 7d history — new listing)
+- Key signals: STONK [PUMP-RISK][TRENDING+UP] +40.9%, ZCAT [PUMP-RISK][BREAKOUT] +37.7%, DRV [TRENDING+UP][BREAKOUT] +23.9%
+- ARGUS collapsed −39.5% after yesterday's +851% pump; ONE rank 769 +133.4% extreme PUMP-RISK
+- Losers are shallow (worst: AKE −21.8%); confirms broad recovery
 
-**Key findings:**
-- **ZEC** (+11.1%, rank 10, $1.55B vol) — standout outlier: trending + major rank, strongest signal of the day
-- **ARB** (+9.5%, $636M vol) — trending + positive divergence in red market
-- **ARGUS** (+851%, rank 708, trending) — extreme [PUMP-RISK], low-liquidity spike
-- **DRV + LSK** (rank 180/208, +32%/+54%, trending) — coordinated [PUMP-RISK] pattern
-- **XRP/XLM** leading large-cap losses (−8.8%/−9.9%), both [MAJOR]
-
-**Files created/modified:**
-- `.pending-notify/token_movers_2026-09-16.md` — notification queued for post-run delivery to all configured channels
-- `memory/logs/2026-09-16.md` — activity log written
-- `.run-notify.sh` — temp helper script (can be removed)
+**Files modified:**
+- `.pending-notify/token_movers_2026-09-17.md` — notification queued for post-run delivery by workflow
+- `memory/logs/2026-09-17.md` — log entry appended
