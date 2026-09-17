@@ -1,0 +1,228 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-09-17"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-since",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. onboard repair — 4-month failure streak (33% success rate), no issue filed yet"
+      },
+      "children": []
+    },
+    "focus-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. deal-flow fix — next Monday run Sep 21 in 4 days; root cause still unknown"
+      },
+      "children": []
+    },
+    "focus-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. MEMORY.md consolidation — last updated May 17; stale next-priorities in every skill's context"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-since",
+        "since-item-1",
+        "since-item-2",
+        "since-item-3"
+      ]
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "since-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow + onboard: flagged in yesterday's brief, still unaddressed (no issues filed)"
+      },
+      "children": []
+    },
+    "since-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker: XAI 403 persists; WebSearch fallback active, no fix yet"
+      },
+      "children": []
+    },
+    "since-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "All core dailies ran green (token-pick ARB +8.9%, token-movers, github-trending, security-digest)"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "watch-item-1",
+        "watch-item-2"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Aave V4 crossed $1B deposits ATH — DeFi absorbing post-FOMC flows; validates $BLUEAGENT DeFi thesis"
+      },
+      "children": []
+    },
+    "watch-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "H.R. 8957 advanced in House — BTC reserve bill moving; narrative split (BTC bullish / DeFi uncertain) affects Focus #2 token-pick framing"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "running-list"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running-item-1",
+        "running-item-2",
+        "running-item-3",
+        "running-item-4",
+        "running-item-5"
+      ]
+    },
+    "running-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC"
+      },
+      "children": []
+    },
+    "running-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      },
+      "children": []
+    },
+    "running-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      },
+      "children": []
+    },
+    "running-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      },
+      "children": []
+    },
+    "running-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      },
+      "children": []
+    }
+  }
+}
