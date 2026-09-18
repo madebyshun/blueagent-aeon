@@ -1,18 +1,17 @@
-*Morning Brief — 2026-09-17*
+*Morning Brief — 2026-09-18*
 
 *Focus today*
-1. onboard repair — 4-month failure streak (33% success rate), no issue filed yet
-2. deal-flow fix — next Monday run Sep 21 in 4 days; root cause still unknown
-3. MEMORY.md consolidation — last updated May 17; stale next-priorities in every skill's context
+1. security-digest — why now: failed yesterday; consecutive failures risk threshold breach
+2. MEMORY.md consolidation — why now: 4 months stale, every skill reads it for context
+3. deal-flow — why now: next Monday run in 3 days, root cause still unknown
 
 *Since yesterday*
-- deal-flow + onboard: flagged in yesterday's brief, still unaddressed (no issues filed)
-- narrative-tracker: XAI 403 persists; WebSearch fallback active, no fix yet
-- All core dailies ran green (token-pick ARB +8.9%, token-movers, github-trending, security-digest)
+- [moved] ZEC +15.6%: yesterday's token pick validated; FOMC bounce lifted 87/100 coins green
+- [moved] github-trending: 4 picks (BrowserSkill top, 1350 stars/day); all ran clean
+- [stuck] MEMORY.md: flagged as focus item yesterday, not yet consolidated
 
 *Watch*
-- Aave V4 crossed $1B deposits ATH — DeFi absorbing post-FOMC flows; validates $BLUEAGENT DeFi thesis
-- H.R. 8957 advanced in House — BTC reserve bill moving; narrative split (BTC bullish / DeFi uncertain) affects Focus #2 token-pick framing
+- Base chain publishes prediction-markets + stablecoins roadmap — aligns with narrative-tracker today @ 13:30 UTC
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC

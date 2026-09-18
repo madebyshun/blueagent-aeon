@@ -1,0 +1,227 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-09-17"
+      },
+      "children": [
+        "zec-section",
+        "separator-1",
+        "market-section",
+        "footer"
+      ]
+    },
+    "zec-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "zec-header",
+        "zec-price",
+        "zec-metrics",
+        "zec-catalyst",
+        "zec-risk"
+      ]
+    },
+    "zec-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zec-title",
+        "zec-signal"
+      ]
+    },
+    "zec-title": {
+      "type": "Heading",
+      "props": {
+        "text": "ZEC",
+        "level": "h2"
+      }
+    },
+    "zec-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "Signal 10/10 [HIGH]",
+        "variant": "default"
+      }
+    },
+    "zec-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$1,445",
+        "delta": "+15.6% 24h / +21.9% 7d",
+        "trend": "up"
+      }
+    },
+    "zec-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zec-rank-vol",
+        "zec-score"
+      ]
+    },
+    "zec-rank-vol": {
+      "type": "Text",
+      "props": {
+        "text": "mcap rank #9 • vol/mcap 0.124",
+        "variant": "caption"
+      }
+    },
+    "zec-score": {
+      "type": "Text",
+      "props": {
+        "text": "Score: trending CoinGecko #1 +2, vol/mcap 0.10–0.20 +2, RS vs BTC(-0.9%)/ETH(+1.1%) +2, both 24h/7d >5% +2, 24h>0 +1, 7d>0 +1 = 10/10",
+        "variant": "caption"
+      }
+    },
+    "zec-catalyst": {
+      "type": "Alert",
+      "props": {
+        "title": "Catalyst",
+        "message": "NU7 governance vote concluded Sept 16–17 — block time cut 75s→25s — fresh speed upgrade narrative layered on top of Grayscale ZCSH ETF ($500M+ AUM) driving continued institutional inflows",
+        "type": "info"
+      }
+    },
+    "zec-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "ZEC up 6,000%+ from 2024 lows — NU7 vote was the final known catalyst; sell-the-event risk is real if ETF inflow pace slows",
+        "type": "warning"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-header",
+        "market-odds",
+        "market-meta",
+        "market-fair-section",
+        "market-thesis",
+        "market-risk"
+      ]
+    },
+    "market-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market-title",
+        "market-edge"
+      ]
+    },
+    "market-title": {
+      "type": "Heading",
+      "props": {
+        "text": "10-year Treasury yield hit 5.1%?",
+        "level": "h2"
+      }
+    },
+    "market-edge": {
+      "type": "Badge",
+      "props": {
+        "text": "Edge 12pp [HIGH]",
+        "variant": "default"
+      }
+    },
+    "market-odds": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Side",
+          "Odds"
+        ],
+        "rows": [
+          [
+            "YES",
+            "74¢"
+          ],
+          [
+            "NO",
+            "26¢"
+          ]
+        ]
+      }
+    },
+    "market-meta": {
+      "type": "Text",
+      "props": {
+        "text": "vol $493K • resolves Dec 31, 2026",
+        "variant": "caption"
+      }
+    },
+    "market-fair-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market-fair-stat",
+        "market-fair-detail"
+      ]
+    },
+    "market-fair-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES",
+        "value": "~62%"
+      }
+    },
+    "market-fair-detail": {
+      "type": "Text",
+      "props": {
+        "text": "10Y at 4.943% today — yields FELL post-hike; Fed just kicked off hiking cycle but bonds rallied; 15.7bps gap to target with 3.5mo remaining",
+        "variant": "caption"
+      }
+    },
+    "market-thesis": {
+      "type": "Alert",
+      "props": {
+        "title": "Thesis",
+        "message": "market overpricing 5.1% touch — yields dropped to 4.943% today AFTER the hike (classic buy-the-rumor/sell-the-news), making near-term path to 5.1% harder than 74% implies — buy NO at 26¢",
+        "type": "info"
+      }
+    },
+    "market-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "second hike faster than expected or inflation re-acceleration forces yields back above 5.1%",
+        "type": "warning"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=ok, poly=partial • not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
