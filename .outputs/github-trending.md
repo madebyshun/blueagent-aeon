@@ -1,21 +1,28 @@
-*GitHub Trending — 2026-09-17*
+*GitHub Trending — 2026-09-18*
 
-*Top pick* — [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill)
-Browser agents that use your real logged-in session — solves the \#1 UX failure of current AI browser automation.
+*Top pick* — [asciimoo/hister](https://github.com/asciimoo/hister)
+842 stars in one day on a 4.7k-star repo — viral surge on a quiet Go project that lets you run your own search engine over your own data.
 
 *AI/ML*
-• [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) — ★ 1,350 today (3.7k total) · TypeScript · [ACCELERATING]
-Uses your actual logged-in browser for agent tasks — no re-auth, no popup chaos, no tab hijacking.
+• [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) — ★ 298 today (69.1k total) · TypeScript · [ACCELERATING]
+Grounds AI coding agents in formal specs before they write a line — gives agents concrete requirements instead of vibes.
 
-• [jamiepine/voicebox](https://github.com/jamiepine/voicebox) — ★ 665 today (54.8k total) · TypeScript · [RETURNING]
-Clone any voice locally in seconds — no cloud API, no subscription, MIT license.
+• [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) — ★ 140 today (30.1k total) · TypeScript · [RETURNING]
+Standalone memory and context API for AI apps — pluggable storage layer so every agent project doesn't rebuild retrieval from scratch.
 
-• [TencentCloud/Octop](https://github.com/TencentCloud/Octop) — ★ 396 today (3.3k total) · Python · [ACCELERATING]
-Self-hosted multi-user, multi-agent assistant — open answer to closed enterprise AI stacks.
+*Infra*
+• [asciimoo/hister](https://github.com/asciimoo/hister) — ★ 842 today (4.7k total) · Go · [RETURNING]
+Self-hostable full-text search engine for your own data — no third-party API, no query exfiltration, no rate limits.
+
+• [rustfs/rustfs](https://github.com/rustfs/rustfs) — ★ 559 today (33k total) · Rust · [RETURNING]
+Drop-in S3-compatible object storage in Rust — MinIO alternative with active commits landing today and direct migration tooling.
 
 *Devtools*
-• [affaan-m/ECC](https://github.com/affaan-m/ECC) — ★ 1,173 today (261k total) · JavaScript · [ACCELERATING]
-One config for skills, memory, and security across Claude Code, Codex, Cursor, and Opencode.
+• [ahmedkhaleel2004/gitdiagram](https://github.com/ahmedkhaleel2004/gitdiagram) — ★ 145 today (16.3k total) · TypeScript · [RETURNING]
+Paste any GitHub URL, get a clickable architecture diagram in seconds — zero config, useful before your first git clone.
+
+• [coder/coder](https://github.com/coder/coder) — ★ 478 today (15.1k total) · Go · [RETURNING]
+Explicitly serves coding agents now — sandboxed dev workspaces with scoped auth so agents run with minimal permissions, not full user keys.
 
 ---
-sources: trending=ok · gh_api=ok · kept 4/20 (7 featured yesterday, 9 noise/well-known)
+sources: trending=ok · gh_api=ok · kept 6/17

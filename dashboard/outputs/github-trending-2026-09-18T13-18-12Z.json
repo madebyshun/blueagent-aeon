@@ -1,0 +1,417 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-09-18"
+      },
+      "children": [
+        "section-top-pick",
+        "sep-1",
+        "section-ai",
+        "sep-2",
+        "section-infra",
+        "sep-3",
+        "section-devtools",
+        "sep-4",
+        "sources-text"
+      ]
+    },
+    "section-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-top-pick",
+        "repo-hister-top",
+        "desc-hister-top"
+      ]
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h2"
+      }
+    },
+    "repo-hister-top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "asciimoo/hister",
+        "href": "https://github.com/asciimoo/hister",
+        "source": "Go",
+        "score": "842 stars today (4.7k total)"
+      }
+    },
+    "desc-hister-top": {
+      "type": "Text",
+      "props": {
+        "text": "viral surge on a quiet Go project that lets you run your own search engine over your own data.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-ai",
+        "item-openspec",
+        "item-supermemory"
+      ]
+    },
+    "heading-ai": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "item-openspec": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-openspec",
+        "meta-openspec"
+      ]
+    },
+    "repo-openspec": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Fission-AI/OpenSpec",
+        "href": "https://github.com/Fission-AI/OpenSpec",
+        "source": "TypeScript",
+        "score": "298 today (69.1k total)"
+      }
+    },
+    "meta-openspec": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-accelerating",
+        "text-openspec-desc"
+      ]
+    },
+    "badge-accelerating": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text-openspec-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Grounds AI coding agents in formal specs before they write a line — gives agents concrete requirements instead of vibes.",
+        "variant": "body"
+      }
+    },
+    "item-supermemory": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-supermemory",
+        "meta-supermemory"
+      ]
+    },
+    "repo-supermemory": {
+      "type": "StoryLink",
+      "props": {
+        "title": "supermemoryai/supermemory",
+        "href": "https://github.com/supermemoryai/supermemory",
+        "source": "TypeScript",
+        "score": "140 today (30.1k total)"
+      }
+    },
+    "meta-supermemory": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-returning-1",
+        "text-supermemory-desc"
+      ]
+    },
+    "badge-returning-1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text-supermemory-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Standalone memory and context API for AI apps — pluggable storage layer so every agent project doesn't rebuild retrieval from scratch.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-infra",
+        "item-hister",
+        "item-rustfs"
+      ]
+    },
+    "heading-infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h2"
+      }
+    },
+    "item-hister": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-hister",
+        "meta-hister"
+      ]
+    },
+    "repo-hister": {
+      "type": "StoryLink",
+      "props": {
+        "title": "asciimoo/hister",
+        "href": "https://github.com/asciimoo/hister",
+        "source": "Go",
+        "score": "842 today (4.7k total)"
+      }
+    },
+    "meta-hister": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-returning-2",
+        "text-hister-desc"
+      ]
+    },
+    "badge-returning-2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text-hister-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hostable full-text search engine for your own data — no third-party API, no query exfiltration, no rate limits.",
+        "variant": "body"
+      }
+    },
+    "item-rustfs": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-rustfs",
+        "meta-rustfs"
+      ]
+    },
+    "repo-rustfs": {
+      "type": "StoryLink",
+      "props": {
+        "title": "rustfs/rustfs",
+        "href": "https://github.com/rustfs/rustfs",
+        "source": "Rust",
+        "score": "559 today (33k total)"
+      }
+    },
+    "meta-rustfs": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-returning-3",
+        "text-rustfs-desc"
+      ]
+    },
+    "badge-returning-3": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text-rustfs-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Drop-in S3-compatible object storage in Rust — MinIO alternative with active commits landing today and direct migration tooling.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-devtools",
+        "item-gitdiagram",
+        "item-coder"
+      ]
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "item-gitdiagram": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-gitdiagram",
+        "meta-gitdiagram"
+      ]
+    },
+    "repo-gitdiagram": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ahmedkhaleel2004/gitdiagram",
+        "href": "https://github.com/ahmedkhaleel2004/gitdiagram",
+        "source": "TypeScript",
+        "score": "145 today (16.3k total)"
+      }
+    },
+    "meta-gitdiagram": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-returning-4",
+        "text-gitdiagram-desc"
+      ]
+    },
+    "badge-returning-4": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text-gitdiagram-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Paste any GitHub URL, get a clickable architecture diagram in seconds — zero config, useful before your first git clone.",
+        "variant": "body"
+      }
+    },
+    "item-coder": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-coder",
+        "meta-coder"
+      ]
+    },
+    "repo-coder": {
+      "type": "StoryLink",
+      "props": {
+        "title": "coder/coder",
+        "href": "https://github.com/coder/coder",
+        "source": "Go",
+        "score": "478 today (15.1k total)"
+      }
+    },
+    "meta-coder": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-returning-5",
+        "text-coder-desc"
+      ]
+    },
+    "badge-returning-5": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text-coder-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Explicitly serves coding agents now — sandboxed dev workspaces with scoped auth so agents run with minimal permissions, not full user keys.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/17",
+        "variant": "caption"
+      }
+    }
+  }
+}
