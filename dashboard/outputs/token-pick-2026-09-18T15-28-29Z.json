@@ -1,0 +1,356 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-09-18"
+      },
+      "children": [
+        "uni-section",
+        "sep1",
+        "election-section",
+        "sep2",
+        "footer"
+      ]
+    },
+    "uni-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "uni-header",
+        "uni-stats",
+        "uni-ratios",
+        "uni-catalyst",
+        "uni-risk",
+        "uni-comparison"
+      ]
+    },
+    "uni-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "uni-title",
+        "uni-high-badge",
+        "uni-score-badge"
+      ]
+    },
+    "uni-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: UNI",
+        "level": "h2"
+      }
+    },
+    "uni-high-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "uni-score-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 10/10",
+        "variant": "default"
+      }
+    },
+    "uni-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 5,
+        "gap": "md"
+      },
+      "children": [
+        "uni-price-stat",
+        "uni-24h-stat",
+        "uni-7d-stat",
+        "uni-mcap-stat",
+        "uni-vol-stat"
+      ]
+    },
+    "uni-price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$8.66"
+      }
+    },
+    "uni-24h-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+20.7%",
+        "trend": "up"
+      }
+    },
+    "uni-7d-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+34.5%",
+        "trend": "up"
+      }
+    },
+    "uni-mcap-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$5.4B"
+      }
+    },
+    "uni-vol-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$2.1B"
+      }
+    },
+    "uni-ratios": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "uni-volmcap",
+        "uni-score-breakdown"
+      ]
+    },
+    "uni-volmcap": {
+      "type": "Text",
+      "props": {
+        "text": "vol/mcap: 0.39",
+        "variant": "caption"
+      }
+    },
+    "uni-score-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "Score: trending +2, vol/mcap ≥0.20 +3, RS vs BTC/ETH 7d +2, both >5% +2, 24h >0 +1 = 11 → 10/10",
+        "variant": "caption"
+      }
+    },
+    "uni-catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "uni-catalyst-label",
+        "uni-catalyst-text"
+      ]
+    },
+    "uni-catalyst-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "uni-catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "SEC 5-year Innovation Exemption (Sept 17) opens permissioned AMM trading of tokenized U.S. stocks on-chain — Uniswap is the sole AAA-rated protocol with Robinhood Chain covering 66% of fees and $263M annualized UNI burns.",
+        "variant": "body"
+      }
+    },
+    "uni-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Sept 17 news already baked into +34.5% 7d run; narrowing of exemption scope or \"buy the news\" unwind could cap next leg.",
+        "type": "warning"
+      }
+    },
+    "uni-comparison": {
+      "type": "Text",
+      "props": {
+        "text": "Comparison: First time this run — UNI last picked >7 days ago",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "election-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "election-header",
+        "election-question",
+        "election-odds-row",
+        "election-volume-res",
+        "election-fair",
+        "election-thesis",
+        "election-risk"
+      ]
+    },
+    "election-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "election-title",
+        "election-high-badge",
+        "election-edge-badge"
+      ]
+    },
+    "election-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: United Russia (ER) Election",
+        "level": "h2"
+      }
+    },
+    "election-high-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "election-edge-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 18.5pp",
+        "variant": "default"
+      }
+    },
+    "election-question": {
+      "type": "Text",
+      "props": {
+        "text": "Will United Russia (ER) gain the most seats in the Russian parliamentary election?",
+        "variant": "lead"
+      }
+    },
+    "election-odds-row": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "election-yes-stat",
+        "election-no-stat"
+      ]
+    },
+    "election-yes-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current YES",
+        "value": "77.5¢"
+      }
+    },
+    "election-no-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current NO",
+        "value": "22.5¢"
+      }
+    },
+    "election-volume-res": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "election-vol-stat",
+        "election-res-text"
+      ]
+    },
+    "election-vol-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$793K"
+      }
+    },
+    "election-res-text": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-09-30",
+        "variant": "body"
+      }
+    },
+    "election-fair": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES Price",
+        "value": "~96%"
+      }
+    },
+    "election-thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "election-thesis-label",
+        "election-thesis-inputs",
+        "election-thesis-body"
+      ]
+    },
+    "election-thesis-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      }
+    },
+    "election-thesis-inputs": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: FOM poll 47–49% UR party-list | 2021: 49.8% vote / 324 of 450 seats | all opposition banned | election ongoing Sept 18–20",
+        "variant": "caption"
+      }
+    },
+    "election-thesis-body": {
+      "type": "Text",
+      "props": {
+        "text": "Market prices a 22.5% chance United Russia doesn't top the Duma — historically impossible in Russia's controlled electoral system; election is already underway with no credible challenger.",
+        "variant": "body"
+      }
+    },
+    "election-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Resolution ambiguity if seat certification delays past Sept 30, or single-member district surprises skewing seat count (extremely unlikely but non-zero).",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=ok, poly=ok | not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}

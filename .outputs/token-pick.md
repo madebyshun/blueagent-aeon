@@ -1,16 +1,17 @@
-*Daily Pick — 2026-09-17*
+*Daily Pick — 2026-09-18*
 
-*Token: ZEC*  [HIGH]  signal 10/10
-Price: $1,445 (+15.6% 24h / +21.9% 7d) | mcap rank #9 | vol/mcap 0.124
-Score breakdown: [trending CoinGecko #1 +2, vol/mcap 0.10–0.20 +2, RS vs BTC(-0.9%)/ETH(+1.1%) +2, both 24h/7d >5% +2, 24h>0 +1, 7d>0 +1] = 10/10
-Catalyst: NU7 governance vote concluded Sept 16–17 — block time cut 75s→25s — fresh speed upgrade narrative layered on top of Grayscale ZCSH ETF ($500M+ AUM) driving continued institutional inflows
-Risk: ZEC up 6,000%+ from 2024 lows — NU7 vote was the final known catalyst; sell-the-event risk is real if ETF inflow pace slows
+*Token: UNI*  [HIGH]  signal 10/10
+Price: $8.66 (+20.7% 24h / +34.5% 7d) | mcap $5.4B | vol $2.1B (vol/mcap 0.39)
+Score breakdown: [trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH 7d+2, both>5%+2, 24h>0+1] = 11→10/10
+Catalyst: SEC 5-year Innovation Exemption (Sept 17) opens permissioned AMM trading of tokenized U.S. stocks on-chain — Uniswap is the sole AAA-rated protocol with Robinhood Chain covering 66% of fees and $263M annualized UNI burns.
+Risk: Sept 17 news already baked into a +34.5% 7d run; a narrowing of the exemption scope or "buy the news" unwind could cap the next leg.
+Vs recent picks: first time this run — UNI last picked >7 days ago.
 
-*Market: "10-year Treasury yield hit 5.1% before 2027?"*  [HIGH]  edge 12pp
-Current: YES 74¢ / NO 26¢ | vol $493K | resolves: Dec 31, 2026
-Fair YES: ~62% (inputs: 10Y at 4.943% today — yields FELL post-hike; Fed just kicked off hiking cycle but bonds rallied; 15.7bps gap to target with 3.5mo remaining)
-Thesis: market overpricing 5.1% touch — yields dropped to 4.943% today AFTER the hike (classic buy-the-rumor/sell-the-news), making near-term path to 5.1% harder than 74% implies — buy NO at 26¢
-Risk: second hike faster than expected or inflation re-acceleration forces yields back above 5.1%
+*Market: "Will United Russia (ER) gain the most seats in the Russian parliamentary election?"*  [HIGH]  edge 18.5pp
+Current: YES 77.5¢ / NO 22.5¢ | 24h vol $793K | resolves: 2026-09-30
+Fair YES: ~96% (inputs: [FOM poll 47-49% UR party-list], [2021: 49.8% vote / 324 of 450 seats], [all opposition banned, election ongoing Sept 18-20])
+Thesis: Market prices a 22.5% chance United Russia doesn't top the Duma — historically impossible in Russia's controlled electoral system; election is already underway with no credible challenger.
+Risk: Resolution ambiguity if seat certification delays past Sept 30, or single-member district surprises skewing seat count (extremely unlikely but non-zero).
 
-sources: cg=ok, dex=ok, poly=partial
+sources: cg=ok, dex=ok, poly=ok
 not financial advice — pattern-matching only
