@@ -1,0 +1,223 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-19",
+        "description": "Market narrative transitions and emerging themes"
+      },
+      "children": [
+        "stack_transitions"
+      ]
+    },
+    "stack_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transition_1",
+        "separator_1",
+        "transition_2",
+        "separator_2",
+        "transition_3",
+        "separator_3",
+        "transition_4",
+        "separator_4",
+        "transition_5"
+      ]
+    },
+    "transition_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted_1",
+        "text_fhe_title",
+        "text_fhe_details"
+      ]
+    },
+    "badge_promoted_1": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "default"
+      }
+    },
+    "text_fhe_title": {
+      "type": "Heading",
+      "props": {
+        "text": "FHE/Confidential Computing Emerging → Rising",
+        "level": "h3"
+      }
+    },
+    "text_fhe_details": {
+      "type": "Text",
+      "props": {
+        "text": "ZAMA +45.7% today, trending CoinGecko; @Zama_FHE graduating from fringe to position-worthy",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "transition_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted_2",
+        "text_depn_title",
+        "text_depn_details"
+      ]
+    },
+    "badge_promoted_2": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "default"
+      }
+    },
+    "text_depn_title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI x DePIN Rising (mindshare 3→4)",
+        "level": "h3"
+      }
+    },
+    "text_depn_details": {
+      "type": "Text",
+      "props": {
+        "text": "@Bittensor_ + @0G_labs dominating Kaito mindshare leaderboard; inference marketplace story top-of-mind",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "transition_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted_1",
+        "text_fomc_title",
+        "text_fomc_details"
+      ]
+    },
+    "badge_demoted_1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_fomc_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Post-FOMC Rally Rising RIDE → Peak FADE",
+        "level": "h3"
+      }
+    },
+    "text_fomc_details": {
+      "type": "Text",
+      "props": {
+        "text": "Day 3 decelerating (75% green, median +2.7% vs +8% day 2); PCE 3.7% hike risk intact",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "transition_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted_2",
+        "text_l2_title",
+        "text_l2_details"
+      ]
+    },
+    "badge_demoted_2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_l2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "L2/DeFi Rotation Rising FRONT-RUN → Rising WATCH",
+        "level": "h3"
+      }
+    },
+    "text_l2_details": {
+      "type": "Text",
+      "props": {
+        "text": "NEAR/ARB absent from today's winners; 3 days old, rotation exhausting",
+        "variant": "body"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "transition_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new",
+        "text_infofi_title",
+        "text_infofi_details"
+      ]
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "outline"
+      }
+    },
+    "text_infofi_title": {
+      "type": "Heading",
+      "props": {
+        "text": "InfoFi / Kaito Attention Markets",
+        "level": "h3"
+      }
+    },
+    "text_infofi_details": {
+      "type": "Text",
+      "props": {
+        "text": "Polygon x Kaito leaderboard live; Social Cards viral; ZachXBT top 0.23% mindshare; attention",
+        "variant": "body"
+      }
+    }
+  }
+}

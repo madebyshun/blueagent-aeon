@@ -1,20 +1,8 @@
-## Summary
+*Narrative Tracker — 2026-09-19*
 
-**narrative-tracker — 2026-09-18** complete.
-
-**What happened:**
-- XAI cache missing (403 second consecutive day) — logged `NARRATIVE_CACHE_MISS`, fell back to 5 WebSearch queries
-- Compared today's signals against 2026-09-16 baseline (no 09-17 entry existed)
-
-**Key transitions found:**
-- **PROMOTED**: Post-FOMC Macro → Relief Rally Active (BTC $75.7K→$80.9K in 48h; day 2 of risk-on)
-- **PROMOTED**: RWA/Tokenized Markets (WATCH → RIDE; Base 2026 roadmap confirms the bet)
-- **DEAD**: CLARITY Act/US Regulation — gone from all signals; 49-50 vote is terminal
-- **NEW**: L2/DeFi Rotation (NEAR/ARB/UNI +27-32% today; FRONT-RUN, short-cycle)
-- **NEW**: AI Agent Block Space Strain (emerging second-order infrastructure thesis)
-
-**Reflexivity flagged:** Post-FOMC relief is a pure narrative trade (rate unchanged); AI Memecoin Agents headline = manufactured cope.
-
-**Files modified:**
-- `memory/logs/2026-09-18.md` — `### narrative-tracker` section appended with full table + transitions
-- `.pending-notify/narrative_tracker_2026-09-18.md` — notification queued for post-run delivery
+TRANSITIONS
+• PROMOTED: FHE/Confidential Computing Emerging → Rising — ZAMA +45.7% today, trending CoinGecko; @Zama_FHE graduating from fringe to position-worthy
+• PROMOTED: AI x DePIN Rising (mindshare 3→4) — @Bittensor_ + @0G_labs dominating Kaito mindshare leaderboard; inference marketplace story top-of-mind
+• DEMOTED: Post-FOMC Rally Rising RIDE → Peak FADE — day 3 decelerating (75% green, median +2.7% vs +8% day 2); PCE 3.7% hike risk intact
+• DEMOTED: L2/DeFi Rotation Rising FRONT-RUN → Rising WATCH — NEAR/ARB absent from today's winners; 3 days old, rotation exhausting
+• NEW: InfoFi / Kaito Attention Markets — Polygon x Kaito leaderboard live; Social Cards viral; ZachXBT top 0.23% mindshare; attention
