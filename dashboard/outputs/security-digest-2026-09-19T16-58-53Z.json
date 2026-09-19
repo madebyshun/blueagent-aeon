@@ -1,0 +1,798 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-09-19",
+        "description": "Verdict: 3 urgent (2 KEV infra + 1 pip exploit chain), 5 to schedule, 3 to monitor"
+      },
+      "children": [
+        "verdict_alert",
+        "sep1",
+        "urgent_section",
+        "sep2",
+        "week_section",
+        "sep3",
+        "monitor_section"
+      ]
+    },
+    "verdict_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Verdict Summary",
+        "message": "3 urgent (2 KEV infra + 1 pip exploit chain), 5 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "urgent_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "urgent_heading",
+        "vuln_39682",
+        "vuln_66455",
+        "vuln_76461"
+      ]
+    },
+    "urgent_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "vuln_39682": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title_39682",
+        "badges_39682",
+        "desc_39682",
+        "action_39682"
+      ]
+    },
+    "title_39682": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2025-39682 + CVE-2025-39964 + CVE-2026-53266 — Linux Kernel",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2025-39682",
+        "source": "KEV added 2026-09-18"
+      }
+    },
+    "badges_39682": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_39682",
+        "badge_epss_39682",
+        "badge_cvss_39682"
+      ]
+    },
+    "badge_kev_39682": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_39682": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.012/0.008/0.003"
+      }
+    },
+    "badge_cvss_39682": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "outline"
+      }
+    },
+    "desc_39682": {
+      "type": "Text",
+      "props": {
+        "text": "TLS zero-length bypass, AF_ALG race, ebtables OOB write — 3 kernel exploits added to KEV yesterday.",
+        "variant": "body"
+      }
+    },
+    "action_39682": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply kernel security patches and reboot affected hosts today.",
+        "variant": "muted"
+      }
+    },
+    "vuln_66455": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title_66455",
+        "badges_66455",
+        "desc_66455",
+        "action_66455"
+      ]
+    },
+    "title_66455": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2025-66455 (GHSA-2vh9-42vm-xmv2) — lmdeploy (pip)",
+        "href": "https://github.com/advisories/GHSA-2vh9-42vm-xmv2",
+        "source": "GH Advisory"
+      }
+    },
+    "badges_66455": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_66455",
+        "badge_epss_66455",
+        "badge_poc_66455"
+      ]
+    },
+    "badge_cvss_66455": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_66455": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.007"
+      }
+    },
+    "badge_poc_66455": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC in advisory",
+        "variant": "destructive"
+      }
+    },
+    "desc_66455": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated RCE via pickle deserialization on DistServe /p2p_connect endpoint. Full exploit chain documented.",
+        "variant": "body"
+      }
+    },
+    "action_66455": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade lmdeploy to >=0.16.0 and redeploy exposed DistServe endpoints today.",
+        "variant": "muted"
+      }
+    },
+    "vuln_76461": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title_76461",
+        "badges_76461",
+        "desc_76461",
+        "action_76461"
+      ]
+    },
+    "title_76461": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-76461 — Cisco Secure Email Gateway",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-76461",
+        "source": "KEV added 2026-09-14"
+      }
+    },
+    "badges_76461": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_76461",
+        "badge_epss_76461_high",
+        "badge_cvss_76461"
+      ]
+    },
+    "badge_kev_76461": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_76461_high": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.020",
+        "variant": "destructive"
+      }
+    },
+    "badge_cvss_76461": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "outline"
+      }
+    },
+    "desc_76461": {
+      "type": "Text",
+      "props": {
+        "text": "AsyncOS SQL injection = unauthenticated RCE with root. Highest EPSS of this week's KEV batch.",
+        "variant": "body"
+      }
+    },
+    "action_76461": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Cisco AsyncOS patch; verify mgmt interface is not internet-exposed.",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "week_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "week_heading",
+        "vuln_61682",
+        "vuln_63374",
+        "vuln_59163",
+        "vuln_xwmw",
+        "vuln_76460"
+      ]
+    },
+    "week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "vuln_61682": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title_61682",
+        "badges_61682",
+        "desc_61682",
+        "action_61682"
+      ]
+    },
+    "title_61682": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-c8w2-fgvx-vhv4 (CVE-2026-61682) — kcp (Go)",
+        "href": "https://github.com/advisories/GHSA-c8w2-fgvx-vhv4",
+        "source": "GH Advisory"
+      }
+    },
+    "badges_61682": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_61682",
+        "badge_epss_61682"
+      ]
+    },
+    "badge_cvss_61682": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.9",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_61682": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003"
+      }
+    },
+    "desc_61682": {
+      "type": "Text",
+      "props": {
+        "text": "Front-proxy fails to strip X-Remote-* headers; any authenticated tenant can forge system:masters across all workspaces.",
+        "variant": "body"
+      }
+    },
+    "action_61682": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: github.com/kcp-dev/kcp → >=v0.31.4 (or >=v0.32.2).",
+        "variant": "muted"
+      }
+    },
+    "vuln_63374": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title_63374",
+        "badges_63374",
+        "desc_63374",
+        "action_63374"
+      ]
+    },
+    "title_63374": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-82r6-8w77-94w6 (CVE-2026-63374) — anyio (pip)",
+        "href": "https://github.com/advisories/GHSA-82r6-8w77-94w6",
+        "source": "GH Advisory"
+      }
+    },
+    "badges_63374": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_63374",
+        "badge_epss_63374"
+      ]
+    },
+    "badge_cvss_63374": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.3",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_63374": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0"
+      }
+    },
+    "desc_63374": {
+      "type": "Text",
+      "props": {
+        "text": "IDNA 2003 encoding enables TLS certificate spoofing for internationalized domain names.",
+        "variant": "body"
+      }
+    },
+    "action_63374": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: anyio → >=4.14.2.",
+        "variant": "muted"
+      }
+    },
+    "vuln_59163": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title_59163",
+        "badges_59163",
+        "desc_59163",
+        "action_59163"
+      ]
+    },
+    "title_59163": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-xcw4-53cc-hv32 (CVE-2026-59163) — mnemosyne-memory (pip)",
+        "href": "https://github.com/advisories/GHSA-xcw4-53cc-hv32",
+        "source": "GH Advisory"
+      }
+    },
+    "badges_59163": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_59163",
+        "badge_epss_59163"
+      ]
+    },
+    "badge_cvss_59163": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.1",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_59163": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003"
+      }
+    },
+    "desc_59163": {
+      "type": "Text",
+      "props": {
+        "text": "JWT signature never verified on sync server; any well-formed token authenticates as any user.",
+        "variant": "body"
+      }
+    },
+    "action_59163": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: mnemosyne-memory → >=3.10.1.",
+        "variant": "muted"
+      }
+    },
+    "vuln_xwmw": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title_xwmw",
+        "badges_xwmw",
+        "desc_xwmw",
+        "action_xwmw"
+      ]
+    },
+    "title_xwmw": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-xwmw-prc4-v3cr — Obot (Go)",
+        "href": "https://github.com/advisories/GHSA-xwmw-prc4-v3cr",
+        "source": "GH Advisory"
+      }
+    },
+    "badges_xwmw": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_xwmw",
+        "badge_epss_xwmw"
+      ]
+    },
+    "badge_cvss_xwmw": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_xwmw": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0"
+      }
+    },
+    "desc_xwmw": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated OAuth client registration + no consent screen leaks full-access API tokens via one crafted link.",
+        "variant": "body"
+      }
+    },
+    "action_xwmw": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade: github.com/obot-platform/obot → >=v0.23.0.",
+        "variant": "muted"
+      }
+    },
+    "vuln_76460": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title_76460",
+        "badges_76460",
+        "desc_76460",
+        "action_76460"
+      ]
+    },
+    "title_76460": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-76460 — Cisco Identity Services Engine",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-76460",
+        "source": "KEV added 2026-09-16"
+      }
+    },
+    "badges_76460": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_76460",
+        "badge_epss_76460"
+      ]
+    },
+    "badge_kev_76460": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_76460": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.008"
+      }
+    },
+    "desc_76460": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth'd privilege escalation via privileged API misuse on web management interface.",
+        "variant": "body"
+      }
+    },
+    "action_76460": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule Cisco ISE patch per vendor advisory.",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "monitor_heading",
+        "vuln_jgh3",
+        "vuln_vr5f",
+        "vuln_87886"
+      ]
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "vuln_jgh3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title_jgh3",
+        "badges_jgh3",
+        "desc_jgh3",
+        "action_jgh3"
+      ]
+    },
+    "title_jgh3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-jgh3-fggc-mcpm — Obot (Go)",
+        "href": "https://github.com/advisories/GHSA-jgh3-fggc-mcpm",
+        "source": "GH Advisory"
+      }
+    },
+    "badges_jgh3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_jgh3",
+        "badge_epss_jgh3",
+        "badge_fix_jgh3"
+      ]
+    },
+    "badge_cvss_jgh3": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.6"
+      }
+    },
+    "badge_epss_jgh3": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0"
+      }
+    },
+    "badge_fix_jgh3": {
+      "type": "Badge",
+      "props": {
+        "text": "fix: v0.23.0",
+        "variant": "secondary"
+      }
+    },
+    "desc_jgh3": {
+      "type": "Text",
+      "props": {
+        "text": "SSRF via unvalidated remote MCP server URL; can pivot to cloud metadata endpoint (169.254.169.254).",
+        "variant": "body"
+      }
+    },
+    "action_jgh3": {
+      "type": "Text",
+      "props": {
+        "text": "→ fix bundled with GHSA-xwmw-prc4-v3cr above; patch together.",
+        "variant": "muted"
+      }
+    },
+    "vuln_vr5f": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title_vr5f",
+        "badges_vr5f",
+        "desc_vr5f",
+        "action_vr5f"
+      ]
+    },
+    "title_vr5f": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-vr5f-w35q-98jp (CVE-2026-63445) — perses (Go)",
+        "href": "https://github.com/advisories/GHSA-vr5f-w35q-98jp",
+        "source": "GH Advisory"
+      }
+    },
+    "badges_vr5f": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_vr5f",
+        "badge_epss_vr5f",
+        "badge_fix_vr5f"
+      ]
+    },
+    "badge_cvss_vr5f": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.1"
+      }
+    },
+    "badge_epss_vr5f": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.006"
+      }
+    },
+    "badge_fix_vr5f": {
+      "type": "Badge",
+      "props": {
+        "text": "fix: v0.54.0-rc.0 only",
+        "variant": "secondary"
+      }
+    },
+    "desc_vr5f": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal on list endpoints reads arbitrary files from filesystem database.",
+        "variant": "body"
+      }
+    },
+    "action_vr5f": {
+      "type": "Text",
+      "props": {
+        "text": "→ avoid perses filesystem DB in prod; watch for stable release.",
+        "variant": "muted"
+      }
+    },
+    "vuln_87886": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "title_87886",
+        "badges_87886",
+        "desc_87886",
+        "action_87886"
+      ]
+    },
+    "title_87886": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-87886 — Acronis Backup",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-87886",
+        "source": "KEV added 2026-09-16"
+      }
+    },
+    "badges_87886": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_87886",
+        "badge_epss_87886"
+      ]
+    },
+    "badge_kev_87886": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_87886": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003"
+      }
+    },
+    "desc_87886": {
+      "type": "Text",
+      "props": {
+        "text": "Incorrect default permissions in cPanel/Plesk plugins enable local privilege escalation.",
+        "variant": "body"
+      }
+    },
+    "action_87886": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply vendor patch if running Acronis Backup with cPanel or Plesk.",
+        "variant": "muted"
+      }
+    }
+  }
+}

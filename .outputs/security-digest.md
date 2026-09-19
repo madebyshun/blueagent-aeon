@@ -1,41 +1,49 @@
-*Security Digest — 2026-09-16*
-Verdict: 3 actively exploited (KEV), 5 in tracked stack to patch this week, 1 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-09-19*
+Verdict: 3 urgent (2 KEV infra + 1 pip exploit chain), 5 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- [CVE-2026-19490](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Citrix NetScaler ADC/Gateway · KEV 2026-09-09 · EPSS 0.056 · CVSS N/A
-  Auth bypass via alternate path on AAA/gateway-configured instances. Exploited in the wild.
-  → apply vendor patches per BOD 26-04; disable gateway role if unpatched.
+- CVE-2025-39682 + CVE-2025-39964 + CVE-2026-53266 — Linux Kernel · KEV added 2026-09-18 · EPSS 0.012/0.008/0.003 · CVSS n/a
+  TLS zero-length bypass, AF_ALG race, ebtables OOB write — 3 kernel exploits added to KEV yesterday.
+  → apply kernel security patches and reboot affected hosts today.
 
-- [CVE-2025-25249](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Fortinet FortiOS/FortiSwitchManager/FortiSASE · KEV 2026-09-09 · EPSS 0.024 · CVSS N/A
-  Heap-based buffer overflow enables arbitrary code execution. Exploited in the wild.
-  → upgrade affected Fortinet products per vendor advisory immediately.
+- CVE-2025-66455 (GHSA-2vh9-42vm-xmv2) — lmdeploy (pip) · CVSS 9.8 · EPSS 0.007 · public PoC in advisory
+  Unauthenticated RCE via pickle deserialization on DistServe /p2p_connect endpoint. Full exploit chain documented.
+  → upgrade lmdeploy to >=0.16.0 and redeploy exposed DistServe endpoints today.
 
-- [CVE-2026-86060](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — MikroTik RouterOS · KEV 2026-09-10 · EPSS 0.011 · CVSS N/A
-  Argument delimiter bypass enables policy mask modification and privilege escalation.
-  → upgrade RouterOS to vendor-latest; restrict admin interface exposure.
+- CVE-2026-76461 — Cisco Secure Email Gateway · KEV added 2026-09-14 · EPSS 0.020 · CVSS n/a
+  AsyncOS SQL injection = unauthenticated RCE with root. Highest EPSS of this week's KEV batch.
+  → apply Cisco AsyncOS patch; verify mgmt interface is not internet-exposed.
 
 *PATCH THIS WEEK*
-- [GHSA-cv3r-c5h8-f4g5](https://github.com/advisories/GHSA-cv3r-c5h8-f4g5) — @zereight/mcp-gitlab (npm <2.1.30) · CVSS 9.8 · EPSS 0.007
-  File read via upload_markdown leaks PAT tokens → full account takeover. 3 bundled CVEs (SSRF, DNS rebinding, safety bypass) all fixed in 2.1.30.
-  → upgrade @zereight/mcp-gitlab to ≥2.1.30.
+- GHSA-c8w2-fgvx-vhv4 (CVE-2026-61682) — kcp (Go) · CVSS 9.9 · EPSS 0.003
+  Front-proxy fails to strip X-Remote-* headers; any authenticated tenant can forge system:masters across all workspaces.
+  → schedule upgrade: github.com/kcp-dev/kcp → >=v0.31.4 (or >=v0.32.2).
 
-- [GHSA-5h8j-6crg-7rmw](https://github.com/advisories/GHSA-5h8j-6crg-7rmw) — lmdeploy (pip ≥0.9.1,<0.10.2) · CVSS 9.8 · EPSS 0
-  RCE via Pickle deserialization in zmq_rpc.call_and_response().
-  → upgrade lmdeploy to ≥0.10.2.
+- GHSA-82r6-8w77-94w6 (CVE-2026-63374) — anyio (pip) · CVSS 9.3 · EPSS 0
+  IDNA 2003 encoding enables TLS certificate spoofing for internationalized domain names.
+  → schedule upgrade: anyio → >=4.14.2.
 
-- [GHSA-vrh8-c9cm-wh8v](https://github.com/advisories/GHSA-vrh8-c9cm-wh8v) — zitadel (Go <4.15.3) · CVSS 8.1 · EPSS 0.004
-  OAuth2 Token Exchange grants unauthorized privilege escalation.
-  → upgrade github.com/zitadel/zitadel to ≥4.15.3.
+- GHSA-xcw4-53cc-hv32 (CVE-2026-59163) — mnemosyne-memory (pip) · CVSS 9.1 · EPSS 0.003
+  JWT signature never verified on sync server; any well-formed token authenticates as any user.
+  → schedule upgrade: mnemosyne-memory → >=3.10.1.
 
-- [GHSA-pg97-jvmf-qfvc](https://github.com/advisories/GHSA-pg97-jvmf-qfvc) — djust (pip <1.0.7) · CVSS 8.1 · EPSS 0
-  CSRF on SSE transport + multi-tenant data leak + mass-assignment (3 CVEs, all fixed in 1.0.7).
-  → upgrade djust to ≥1.0.7.
+- GHSA-xwmw-prc4-v3cr — Obot (Go) · CVSS 8.8 · EPSS 0
+  Unauthenticated OAuth client registration + no consent screen leaks full-access API tokens via one crafted link.
+  → schedule upgrade: github.com/obot-platform/obot → >=v0.23.0.
 
-- [GHSA-5hq8-qhww-jm7q](https://github.com/advisories/GHSA-5hq8-qhww-jm7q) — libp2p-quic (crates.io <0.13.1) · CVSS N/A · EPSS 0.002
-  Remote panic via cert expiry race during QUIC handshake.
-  → upgrade libp2p-quic to ≥0.13.1.
+- CVE-2026-76460 — Cisco Identity Services Engine · KEV added 2026-09-16 · EPSS 0.008
+  Unauth'd privilege escalation via privileged API misuse on web management interface.
+  → schedule Cisco ISE patch per vendor advisory.
 
 *MONITOR*
-- [GHSA-r2pf-9cw4-5j65](https://github.com/advisories/GHSA-r2pf-9cw4-5j65) — node-opcua (npm <2.170.0) · CVSS 7.0 · EPSS 0
-  TCP socket leak under keepalive reconnect → resource exhaustion. No exploitation signal.
-  → upgrade node-opcua to ≥2.170.0 at next maintenance window.
+- GHSA-jgh3-fggc-mcpm — Obot (Go) · CVSS 7.6 · EPSS 0 · fix: v0.23.0
+  SSRF via unvalidated remote MCP server URL; can pivot to cloud metadata endpoint (169.254.169.254).
+  → fix bundled with GHSA-xwmw-prc4-v3cr above; patch together.
+
+- GHSA-vr5f-w35q-98jp (CVE-2026-63445) — perses (Go) · CVSS 7.1 · EPSS 0.006 · fix: v0.54.0-rc.0 only
+  Path traversal on list endpoints reads arbitrary files from filesystem database.
+  → avoid perses filesystem DB in prod; watch for stable release.
+
+- CVE-2026-87886 — Acronis Backup · KEV added 2026-09-16 · EPSS 0.003
+  Incorrect default permissions in cPanel/Plesk plugins enable local privilege escalation.
+  → apply vendor patch if running Acronis Backup with cPanel or Plesk.
