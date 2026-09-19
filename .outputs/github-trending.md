@@ -1,28 +1,22 @@
-*GitHub Trending — 2026-09-18*
+*GitHub Trending — 2026-09-19*
 
-*Top pick* — [asciimoo/hister](https://github.com/asciimoo/hister)
-842 stars in one day on a 4.7k-star repo — viral surge on a quiet Go project that lets you run your own search engine over your own data.
-
-*AI/ML*
-• [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) — ★ 298 today (69.1k total) · TypeScript · [ACCELERATING]
-Grounds AI coding agents in formal specs before they write a line — gives agents concrete requirements instead of vibes.
-
-• [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) — ★ 140 today (30.1k total) · TypeScript · [RETURNING]
-Standalone memory and context API for AI apps — pluggable storage layer so every agent project doesn't rebuild retrieval from scratch.
-
-*Infra*
-• [asciimoo/hister](https://github.com/asciimoo/hister) — ★ 842 today (4.7k total) · Go · [RETURNING]
-Self-hostable full-text search engine for your own data — no third-party API, no query exfiltration, no rate limits.
-
-• [rustfs/rustfs](https://github.com/rustfs/rustfs) — ★ 559 today (33k total) · Rust · [RETURNING]
-Drop-in S3-compatible object storage in Rust — MinIO alternative with active commits landing today and direct migration tooling.
+*Top pick* — [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
+Day 4 at the top of trending — persistent momentum at this scale signals broad adoption, not a one-day spike.
 
 *Devtools*
-• [ahmedkhaleel2004/gitdiagram](https://github.com/ahmedkhaleel2004/gitdiagram) — ★ 145 today (16.3k total) · TypeScript · [RETURNING]
-Paste any GitHub URL, get a clickable architecture diagram in seconds — zero config, useful before your first git clone.
+• [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — ★ 3,162 today (15.1k total) · JavaScript · [RETURNING]
+Day 4 atop trending — security audit agents written as composable Skills, composable into any Claude-based coding infra.
 
-• [coder/coder](https://github.com/coder/coder) — ★ 478 today (15.1k total) · Go · [RETURNING]
-Explicitly serves coding agents now — sandboxed dev workspaces with scoped auth so agents run with minimal permissions, not full user keys.
+*AI/ML*
+• [trycua/cua](https://github.com/trycua/cua) — ★ 383 today (23.9k total) · HTML · [RETURNING]
+Open-source OS drivers let computer-use agents control any app without proprietary screen-capture APIs.
+
+• [cactus-compute/needle](https://github.com/cactus-compute/needle) — ★ 207 today (11.4k total) · Python · [ACCELERATING]
+Structured automation model tuned for <1GB RAM devices — local inference with no cloud round-trips.
+
+*Web/Apps*
+• [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) — ★ 477 today (15.7k total) · TypeScript · [RETURNING]
+Self-hosted stock market platform with live order books and charts — no Bloomberg Terminal required.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/17
+sources: trending=ok · gh_api=ok · kept 4/15

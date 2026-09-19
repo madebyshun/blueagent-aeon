@@ -1,0 +1,394 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-date",
+        "heading-top-pick",
+        "story-cloudflare-topick",
+        "text-cloudflare-topick-desc",
+        "sep-1",
+        "heading-devtools",
+        "stack-devtools",
+        "sep-2",
+        "heading-ai-ml",
+        "stack-ai-ml",
+        "sep-3",
+        "heading-web-apps",
+        "stack-web-apps",
+        "sep-4",
+        "text-footer"
+      ]
+    },
+    "text-date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-09-19",
+        "variant": "muted"
+      }
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "story-cloudflare-topick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cloudflare/security-audit-skill",
+        "href": "https://github.com/cloudflare/security-audit-skill"
+      }
+    },
+    "text-cloudflare-topick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Day 4 at the top of trending — persistent momentum at this scale signals broad adoption, not a one-day spike.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "stack-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "entry-cloudflare"
+      ]
+    },
+    "entry-cloudflare": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack-cloudflare-header",
+        "text-cloudflare-desc"
+      ]
+    },
+    "stack-cloudflare-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "story-cloudflare",
+        "stat-cloudflare-stars",
+        "badge-cloudflare-lang",
+        "badge-cloudflare-status"
+      ]
+    },
+    "story-cloudflare": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cloudflare/security-audit-skill",
+        "href": "https://github.com/cloudflare/security-audit-skill"
+      }
+    },
+    "stat-cloudflare-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "3,162",
+        "delta": "15.1k total",
+        "trend": "up"
+      }
+    },
+    "badge-cloudflare-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "outline"
+      }
+    },
+    "badge-cloudflare-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text-cloudflare-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Day 4 atop trending — security audit agents written as composable Skills, composable into any Claude-based coding infra.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-ai-ml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "stack-ai-ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "entry-trycua",
+        "entry-cactus"
+      ]
+    },
+    "entry-trycua": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack-trycua-header",
+        "text-trycua-desc"
+      ]
+    },
+    "stack-trycua-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "story-trycua",
+        "stat-trycua-stars",
+        "badge-trycua-lang",
+        "badge-trycua-status"
+      ]
+    },
+    "story-trycua": {
+      "type": "StoryLink",
+      "props": {
+        "title": "trycua/cua",
+        "href": "https://github.com/trycua/cua"
+      }
+    },
+    "stat-trycua-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "383",
+        "delta": "23.9k total",
+        "trend": "up"
+      }
+    },
+    "badge-trycua-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "HTML",
+        "variant": "outline"
+      }
+    },
+    "badge-trycua-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text-trycua-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Open-source OS drivers let computer-use agents control any app without proprietary screen-capture APIs.",
+        "variant": "body"
+      }
+    },
+    "entry-cactus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack-cactus-header",
+        "text-cactus-desc"
+      ]
+    },
+    "stack-cactus-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "story-cactus",
+        "stat-cactus-stars",
+        "badge-cactus-lang",
+        "badge-cactus-status"
+      ]
+    },
+    "story-cactus": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cactus-compute/needle",
+        "href": "https://github.com/cactus-compute/needle"
+      }
+    },
+    "stat-cactus-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "207",
+        "delta": "11.4k total",
+        "trend": "up"
+      }
+    },
+    "badge-cactus-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "badge-cactus-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "text-cactus-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Structured automation model tuned for <1GB RAM devices — local inference with no cloud round-trips.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-web-apps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "stack-web-apps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "entry-openstock"
+      ]
+    },
+    "entry-openstock": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack-openstock-header",
+        "text-openstock-desc"
+      ]
+    },
+    "stack-openstock-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "story-openstock",
+        "stat-openstock-stars",
+        "badge-openstock-lang",
+        "badge-openstock-status"
+      ]
+    },
+    "story-openstock": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Open-Dev-Society/OpenStock",
+        "href": "https://github.com/Open-Dev-Society/OpenStock"
+      }
+    },
+    "stat-openstock-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "477",
+        "delta": "15.7k total",
+        "trend": "up"
+      }
+    },
+    "badge-openstock-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "badge-openstock-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "text-openstock-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted stock market platform with live order books and charts — no Bloomberg Terminal required.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/15",
+        "variant": "caption"
+      }
+    }
+  }
+}
