@@ -1,22 +1,22 @@
-*Morning Brief — 2026-09-19*
+*Morning Brief — 2026-09-20*
 
 *Focus today*
-1. XAI credits — why now: narrative-tracker runs 13:30 UTC; third degraded output without fix
-2. MEMORY.md consolidation — why now: 4-month stale index corrupts all downstream skill context
-3. security-digest re-enable — why now: AI-blockchain attack surge headline + unknown failure cause still open
+1. XAI credits — why now: day-4 403; xAI reprices X Search tomorrow 12PM PT
+2. deal-flow repair — why now: Monday cron 2 days out; fix window is now
+3. MEMORY.md consolidation — background: 4-month-stale index dilutes every skill's context
 
 *Since yesterday*
-- [moved] Post-FOMC relief rally day 2: NEAR +31.9%, ARB +27.5%, UNI +20.4%; L2/DeFi rotation confirmed
-- [moved] UNI picked at $8.66 (+20.7%) — SEC tokenized equities exemption as thesis
-- [stuck] XAI 403 second consecutive day — narrative-tracker fell back to WebSearch; Grok data unavailable
-- [moved] narrative-tracker: RWA promoted to RIDE; L2/DeFi rotation + AI Memecoin Agents (FADE) newly tagged
+- security-digest: resolved — ran clean on 09-19 (0 consecutive failures)
+- narrative-tracker: WebSearch fallback again (day 3 XAI 403); quality=4 but degraded vs direct API
+- token-pick: ENA picked — +20.9%, score 10/10; supply overhang removed, buyback vote passed
+- deal-flow: still stuck — consecutive_failures=1, last success 2026-09-07
 
 *Watch*
-- AI fuels 440% surge in blockchain-aided attacks (Chainalysis, Sept 18) — direct case for security-digest re-enable (focus #3)
+- xAI repricing X Search starting Sept 21 at $5/1k posts — deadline pressure on credits fix (Focus #1)
 
 *Running today*
+- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
-- heartbeat @ 08:00, 14:00, 20:00 UTC

@@ -1,0 +1,410 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-09-20"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_focus",
+        "sep_1",
+        "section_yesterday",
+        "sep_2",
+        "section_watch",
+        "sep_3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_why"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. XAI credits",
+        "variant": "lead"
+      }
+    },
+    "focus_1_why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: day-4 403; xAI reprices X Search tomorrow 12PM PT",
+        "variant": "body"
+      }
+    },
+    "focus_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_why"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. deal-flow repair",
+        "variant": "lead"
+      }
+    },
+    "focus_2_why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Monday cron 2 days out; fix window is now",
+        "variant": "body"
+      }
+    },
+    "focus_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_why"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. MEMORY.md consolidation",
+        "variant": "lead"
+      }
+    },
+    "focus_3_why": {
+      "type": "Text",
+      "props": {
+        "text": "background: 4-month-stale index dilutes every skill's context",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_yesterday",
+        "yesterday_item_1",
+        "yesterday_item_2",
+        "yesterday_item_3",
+        "yesterday_item_4"
+      ]
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_1_header",
+        "yesterday_1_detail"
+      ]
+    },
+    "yesterday_1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_1_badge",
+        "yesterday_1_title"
+      ]
+    },
+    "yesterday_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "resolved",
+        "variant": "secondary"
+      }
+    },
+    "yesterday_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "security-digest",
+        "variant": "lead"
+      }
+    },
+    "yesterday_1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "ran clean on 09-19 (0 consecutive failures)",
+        "variant": "body"
+      }
+    },
+    "yesterday_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_2_title",
+        "yesterday_2_detail"
+      ]
+    },
+    "yesterday_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "lead"
+      }
+    },
+    "yesterday_2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "WebSearch fallback again (day 3 XAI 403); quality=4 but degraded vs direct API",
+        "variant": "body"
+      }
+    },
+    "yesterday_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_3_title",
+        "yesterday_3_stats",
+        "yesterday_3_detail"
+      ]
+    },
+    "yesterday_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick: ENA picked",
+        "variant": "lead"
+      }
+    },
+    "yesterday_3_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "stat_ena_gain",
+        "stat_score"
+      ]
+    },
+    "stat_ena_gain": {
+      "type": "Stat",
+      "props": {
+        "label": "ENA gain",
+        "value": "+20.9%",
+        "trend": "up"
+      }
+    },
+    "stat_score": {
+      "type": "Stat",
+      "props": {
+        "label": "score",
+        "value": "10/10"
+      }
+    },
+    "yesterday_3_detail": {
+      "type": "Text",
+      "props": {
+        "text": "supply overhang removed, buyback vote passed",
+        "variant": "body"
+      }
+    },
+    "yesterday_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_4_header",
+        "yesterday_4_detail"
+      ]
+    },
+    "yesterday_4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_4_badge",
+        "yesterday_4_title"
+      ]
+    },
+    "yesterday_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "yesterday_4_title": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow",
+        "variant": "lead"
+      }
+    },
+    "yesterday_4_detail": {
+      "type": "Text",
+      "props": {
+        "text": "consecutive_failures=1, last success 2026-09-07",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_item_1"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_item_1": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "xAI repricing X Search starting Sept 21 at $5/1k posts — deadline pressure on credits fix (Focus #1)"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_item_1",
+        "running_item_2",
+        "running_item_3",
+        "running_item_4",
+        "running_item_5"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
