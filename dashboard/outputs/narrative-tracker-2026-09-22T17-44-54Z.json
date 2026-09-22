@@ -1,0 +1,982 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-22"
+      },
+      "children": [
+        "transitions-section",
+        "sep-1",
+        "reflexivity-section",
+        "sep-2",
+        "positions-section",
+        "sep-3",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions-heading",
+        "transition-1",
+        "transition-2",
+        "transition-3",
+        "transition-4",
+        "transition-5",
+        "transition-6"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transition-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-1",
+        "text-trans-1"
+      ]
+    },
+    "badge-new-1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "text-trans-1": {
+      "type": "Text",
+      "props": {
+        "text": "September Seasonality / Macro Risk — Fed decision + Senate crypto vote + UK licensing Sept 30 all this month; deepbluealpha: \"unusually dense\" calendar"
+      }
+    },
+    "transition-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new-2",
+        "text-trans-2"
+      ]
+    },
+    "badge-new-2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "text-trans-2": {
+      "type": "Text",
+      "props": {
+        "text": "XRP ETF Cycle — named standalone Sep 2026 catalyst in multiple outlooks; institutional ETF inflows cited alongside BTC"
+      }
+    },
+    "transition-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-promoted",
+        "text-trans-3"
+      ]
+    },
+    "badge-promoted": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text-trans-3": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets (Emerging WATCH → Rising RIDE) — Kaito killed Yaps, pivoted to Attention Capital Markets + Polymarket integration live"
+      }
+    },
+    "transition-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-demoted",
+        "text-trans-4"
+      ]
+    },
+    "badge-demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "text-trans-4": {
+      "type": "Text",
+      "props": {
+        "text": "Post-FOMC Relief Rally (Peak FADE → Fading) — breadth 75%→54% green, median +2.7%→+0.5% in 3 days; ETH/SOL edge red; BTC-only rally now"
+      }
+    },
+    "transition-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-demoted-2",
+        "text-trans-5"
+      ]
+    },
+    "badge-demoted-2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "text-trans-5": {
+      "type": "Text",
+      "props": {
+        "text": "L2/DeFi Rotation (Rising WATCH → Fading FADE) — ARB −7.1%, SKY −6.8%, MORPHO −5.8%, ENA −4.3% today; rotation exhausted in 3 days"
+      }
+    },
+    "transition-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-reload",
+        "text-trans-6"
+      ]
+    },
+    "badge-reload": {
+      "type": "Badge",
+      "props": {
+        "text": "CATALYST RELOAD",
+        "variant": "outline"
+      }
+    },
+    "text-trans-6": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / Base x402 — Base MCP live + 100M txns milestone same day (see REFLEXIVITY)"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "reflexivity-1",
+        "reflexivity-2"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-1": {
+      "type": "Alert",
+      "props": {
+        "title": "Agentic Payments / Base x402",
+        "message": "Base MCP launch + \"100M payments\" press cycle same day. Real milestone, manufactured timing. $73M AI-agent settlement = 0.003% of total market cap — story asymmetrically large vs fundamentals.",
+        "type": "warning"
+      }
+    },
+    "reflexivity-2": {
+      "type": "Alert",
+      "props": {
+        "title": "Post-FOMC Relief Rally",
+        "message": "BTC near $80K but ETH/SOL red; 54% positive breadth vs 75% three days ago. Relief rally is now BTC-only dressed as broad bull.",
+        "type": "warning"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "positions-heading",
+        "position-tier-front",
+        "position-tier-ride",
+        "position-tier-watch",
+        "position-tier-fade"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "position-tier-front": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tier-front-label",
+        "position-1"
+      ]
+    },
+    "tier-front-label": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "position-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-1-header",
+        "pos-1-main"
+      ]
+    },
+    "pos-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-1-name",
+        "pos-1-tier",
+        "pos-1-sentiment"
+      ]
+    },
+    "pos-1-name": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi / Kaito Attention Markets",
+        "variant": "lead"
+      }
+    },
+    "pos-1-tier": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↑",
+        "variant": "outline"
+      }
+    },
+    "pos-1-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos-1-main": {
+      "type": "Text",
+      "props": {
+        "text": "@KaitoAI x @Polymarket — structural pivot to Attention Capital Markets; bear: Yaps killed retail flywheel, Studio is invite-only"
+      }
+    },
+    "position-tier-ride": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tier-ride-label",
+        "position-2",
+        "position-3",
+        "position-4",
+        "position-5"
+      ]
+    },
+    "tier-ride-label": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "default"
+      }
+    },
+    "position-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-2-header",
+        "pos-2-main"
+      ]
+    },
+    "pos-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-2-name",
+        "pos-2-tier",
+        "pos-2-sentiment"
+      ]
+    },
+    "pos-2-name": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "lead"
+      }
+    },
+    "pos-2-tier": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑",
+        "variant": "outline"
+      }
+    },
+    "pos-2-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos-2-main": {
+      "type": "Text",
+      "props": {
+        "text": "@KaitoAI, Polymarket, deepbluealpha — Senate crypto vote catalyst this month; bear: regulatory grey zone, thin liquidity"
+      }
+    },
+    "position-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-3-header",
+        "pos-3-main"
+      ]
+    },
+    "pos-3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-3-name",
+        "pos-3-tier",
+        "pos-3-sentiment"
+      ]
+    },
+    "pos-3-name": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / Base x402",
+        "variant": "lead"
+      }
+    },
+    "pos-3-tier": {
+      "type": "Badge",
+      "props": {
+        "text": "5 ↑",
+        "variant": "outline"
+      }
+    },
+    "pos-3-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos-3-main": {
+      "type": "Text",
+      "props": {
+        "text": "@base, @coinbase, @Olas_Network — Base MCP live + 100M milestone real; bear: reflexivity-heavy, $73M negligible vs $2.7T market"
+      }
+    },
+    "position-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-4-header",
+        "pos-4-main"
+      ]
+    },
+    "pos-4-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-4-name",
+        "pos-4-tier",
+        "pos-4-sentiment"
+      ]
+    },
+    "pos-4-name": {
+      "type": "Text",
+      "props": {
+        "text": "AI x DePIN",
+        "variant": "lead"
+      }
+    },
+    "pos-4-tier": {
+      "type": "Badge",
+      "props": {
+        "text": "4 →",
+        "variant": "outline"
+      }
+    },
+    "pos-4-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos-4-main": {
+      "type": "Text",
+      "props": {
+        "text": "@Bittensor_, @0G_labs — top-2026 narrative confirmed across sources; TAO +8.3% today; bear: inference supply > demand"
+      }
+    },
+    "position-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-5-header",
+        "pos-5-main"
+      ]
+    },
+    "pos-5-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-5-name",
+        "pos-5-tier",
+        "pos-5-sentiment"
+      ]
+    },
+    "pos-5-name": {
+      "type": "Text",
+      "props": {
+        "text": "RWA / Tokenized Markets",
+        "variant": "lead"
+      }
+    },
+    "pos-5-tier": {
+      "type": "Badge",
+      "props": {
+        "text": "3 →",
+        "variant": "outline"
+      }
+    },
+    "pos-5-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos-5-main": {
+      "type": "Text",
+      "props": {
+        "text": "@BlackRock, @FranklinTempleton — UK licensing Sept 30 + Senate vote near-term catalysts; bear: CLARITY Act dead"
+      }
+    },
+    "position-tier-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tier-watch-label",
+        "position-6",
+        "position-7"
+      ]
+    },
+    "tier-watch-label": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "secondary"
+      }
+    },
+    "position-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-6-header",
+        "pos-6-main"
+      ]
+    },
+    "pos-6-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-6-name",
+        "pos-6-tier",
+        "pos-6-sentiment"
+      ]
+    },
+    "pos-6-name": {
+      "type": "Text",
+      "props": {
+        "text": "September Seasonality / Macro Risk",
+        "variant": "lead"
+      }
+    },
+    "pos-6-tier": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑↑",
+        "variant": "outline"
+      }
+    },
+    "pos-6-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear",
+        "variant": "destructive"
+      }
+    },
+    "pos-6-main": {
+      "type": "Text",
+      "props": {
+        "text": "deepbluealpha, DailyCoin — historically worst month + densest macro calendar of the year"
+      }
+    },
+    "position-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-7-header",
+        "pos-7-main"
+      ]
+    },
+    "pos-7-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-7-name",
+        "pos-7-tier",
+        "pos-7-sentiment"
+      ]
+    },
+    "pos-7-name": {
+      "type": "Text",
+      "props": {
+        "text": "FHE/Confidential Computing",
+        "variant": "lead"
+      }
+    },
+    "pos-7-tier": {
+      "type": "Badge",
+      "props": {
+        "text": "3 →",
+        "variant": "outline"
+      }
+    },
+    "pos-7-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos-7-main": {
+      "type": "Text",
+      "props": {
+        "text": "@Zama_FHE, @AragonProject — velocity stalled post-ZAMA trade; no new production catalyst; downgraded from FRONT-RUN"
+      }
+    },
+    "position-tier-fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tier-fade-label",
+        "position-8",
+        "position-9",
+        "position-10"
+      ]
+    },
+    "tier-fade-label": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "position-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-8-header",
+        "pos-8-main"
+      ]
+    },
+    "pos-8-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-8-name",
+        "pos-8-tier",
+        "pos-8-sentiment"
+      ]
+    },
+    "pos-8-name": {
+      "type": "Text",
+      "props": {
+        "text": "Post-FOMC Relief Rally",
+        "variant": "lead"
+      }
+    },
+    "pos-8-tier": {
+      "type": "Badge",
+      "props": {
+        "text": "5 ↓↓",
+        "variant": "outline"
+      }
+    },
+    "pos-8-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Cope",
+        "variant": "secondary"
+      }
+    },
+    "pos-8-main": {
+      "type": "Text",
+      "props": {
+        "text": "breadth collapsed; ETH/SOL diverging from BTC"
+      }
+    },
+    "position-9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-9-header",
+        "pos-9-main"
+      ]
+    },
+    "pos-9-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-9-name",
+        "pos-9-tier",
+        "pos-9-sentiment"
+      ]
+    },
+    "pos-9-name": {
+      "type": "Text",
+      "props": {
+        "text": "L2/DeFi Rotation",
+        "variant": "lead"
+      }
+    },
+    "pos-9-tier": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↓↓",
+        "variant": "outline"
+      }
+    },
+    "pos-9-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear",
+        "variant": "destructive"
+      }
+    },
+    "pos-9-main": {
+      "type": "Text",
+      "props": {
+        "text": "ARB/SKY/MORPHO all red; rotation dead"
+      }
+    },
+    "position-10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-10-header",
+        "pos-10-main"
+      ]
+    },
+    "pos-10-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-10-name",
+        "pos-10-tier",
+        "pos-10-sentiment"
+      ]
+    },
+    "pos-10-name": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Infrastructure (generic)",
+        "variant": "lead"
+      }
+    },
+    "pos-10-tier": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↓",
+        "variant": "outline"
+      }
+    },
+    "pos-10-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Cope",
+        "variant": "secondary"
+      }
+    },
+    "pos-10-main": {
+      "type": "Text",
+      "props": {
+        "text": "rebranding fatigue; DePIN + Agentic Payments sub-narratives outperforming the category"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-heading",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading",
+        "map-macro"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map-emerging-label",
+        "map-emerging-content"
+      ]
+    },
+    "map-emerging-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "default"
+      }
+    },
+    "map-emerging-content": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi / Kaito Attention Markets"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map-rising-label",
+        "map-rising-content"
+      ]
+    },
+    "map-rising-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "map-rising-content": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets, AI x DePIN, RWA / Tokenized Markets, FHE/Confidential Computing, XRP ETF Cycle"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map-peak-label",
+        "map-peak-content"
+      ]
+    },
+    "map-peak-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "outline"
+      }
+    },
+    "map-peak-content": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / Base x402"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map-fading-label",
+        "map-fading-content"
+      ]
+    },
+    "map-fading-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      }
+    },
+    "map-fading-content": {
+      "type": "Text",
+      "props": {
+        "text": "Post-FOMC Relief Rally, L2/DeFi Rotation, AI Agent Infrastructure (generic)"
+      }
+    },
+    "map-macro": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "map-macro-label",
+        "map-macro-content"
+      ]
+    },
+    "map-macro-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Macro Overlay",
+        "variant": "secondary"
+      }
+    },
+    "map-macro-content": {
+      "type": "Text",
+      "props": {
+        "text": "September Seasonality / Macro Risk (WATCH)"
+      }
+    }
+  }
+}
