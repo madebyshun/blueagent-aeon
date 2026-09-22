@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-MSG=$(cat notify_msg.txt)
-./notify "$MSG"
+#!/bin/bash
+./notify "$(cat notify_msg.txt)"
