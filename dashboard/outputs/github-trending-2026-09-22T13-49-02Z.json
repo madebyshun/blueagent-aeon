@@ -1,0 +1,718 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-09-22"
+      },
+      "children": [
+        "section_top_pick",
+        "sep1",
+        "section_ai_ml",
+        "sep2",
+        "section_devtools",
+        "sep3",
+        "section_web_apps",
+        "sep4",
+        "footer"
+      ]
+    },
+    "section_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_top_pick",
+        "repo_top_pick"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "repo_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_top_pick",
+        "text_top_pick",
+        "meta_top_pick"
+      ]
+    },
+    "link_top_pick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google/ax",
+        "href": "https://github.com/google/ax"
+      },
+      "children": []
+    },
+    "text_top_pick": {
+      "type": "Text",
+      "props": {
+        "text": "Google's open agentic orchestration runtime hit 2,324 stars in one day — clearest signal yet that the industry is converging on open multi-agent coordination primitives."
+      },
+      "children": []
+    },
+    "meta_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_top_today",
+        "stat_top_total",
+        "badge_top_lang",
+        "badge_top_status"
+      ]
+    },
+    "stat_top_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "2,324 ★"
+      },
+      "children": []
+    },
+    "stat_top_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "7.0k ★"
+      },
+      "children": []
+    },
+    "badge_top_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go"
+      },
+      "children": []
+    },
+    "badge_top_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_ai_ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_ai_ml",
+        "repo_ai_1",
+        "repo_ai_2",
+        "repo_ai_3",
+        "repo_ai_4",
+        "repo_ai_5"
+      ]
+    },
+    "heading_ai_ml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "repo_ai_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ai_1",
+        "text_ai_1",
+        "meta_ai_1"
+      ]
+    },
+    "link_ai_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google/ax",
+        "href": "https://github.com/google/ax"
+      },
+      "children": []
+    },
+    "text_ai_1": {
+      "type": "Text",
+      "props": {
+        "text": "Go-native multi-agent orchestration from Google; production-grade coordination without Python framework lock-in."
+      },
+      "children": []
+    },
+    "meta_ai_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_ai_1_today",
+        "stat_ai_1_total",
+        "badge_ai_1_lang",
+        "badge_ai_1_status"
+      ]
+    },
+    "stat_ai_1_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "2,324 ★"
+      },
+      "children": []
+    },
+    "stat_ai_1_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "7.0k ★"
+      },
+      "children": []
+    },
+    "badge_ai_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go"
+      },
+      "children": []
+    },
+    "badge_ai_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "repo_ai_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ai_2",
+        "text_ai_2",
+        "meta_ai_2"
+      ]
+    },
+    "link_ai_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anthropics/financial-services",
+        "href": "https://github.com/anthropics/financial-services"
+      },
+      "children": []
+    },
+    "text_ai_2": {
+      "type": "Text",
+      "props": {
+        "text": "Reference implementations for AI agents in regulated finance — compliance scaffolding, audit trails, and sandboxed tool calls included."
+      },
+      "children": []
+    },
+    "meta_ai_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_ai_2_today",
+        "stat_ai_2_total",
+        "badge_ai_2_lang",
+        "badge_ai_2_status"
+      ]
+    },
+    "stat_ai_2_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "436 ★"
+      },
+      "children": []
+    },
+    "stat_ai_2_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "36.1k ★"
+      },
+      "children": []
+    },
+    "badge_ai_2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      },
+      "children": []
+    },
+    "badge_ai_2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "repo_ai_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ai_3",
+        "text_ai_3",
+        "meta_ai_3"
+      ]
+    },
+    "link_ai_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "agent-substrate/substrate",
+        "href": "https://github.com/agent-substrate/substrate"
+      },
+      "children": []
+    },
+    "text_ai_3": {
+      "type": "Text",
+      "props": {
+        "text": "Minimal runtime for wiring AI agents to system resources without committing to a heavy framework."
+      },
+      "children": []
+    },
+    "meta_ai_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_ai_3_today",
+        "stat_ai_3_total",
+        "badge_ai_3_lang",
+        "badge_ai_3_status"
+      ]
+    },
+    "stat_ai_3_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "498 ★"
+      },
+      "children": []
+    },
+    "stat_ai_3_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "2.8k ★"
+      },
+      "children": []
+    },
+    "badge_ai_3_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go"
+      },
+      "children": []
+    },
+    "badge_ai_3_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "repo_ai_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ai_4",
+        "text_ai_4",
+        "meta_ai_4"
+      ]
+    },
+    "link_ai_4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "superdesigndev/treg",
+        "href": "https://github.com/superdesigndev/treg"
+      },
+      "children": []
+    },
+    "text_ai_4": {
+      "type": "Text",
+      "props": {
+        "text": "Proxy that normalizes tool definitions across AI providers — one schema, swap models freely."
+      },
+      "children": []
+    },
+    "meta_ai_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_ai_4_today",
+        "stat_ai_4_total",
+        "badge_ai_4_lang",
+        "badge_ai_4_status"
+      ]
+    },
+    "stat_ai_4_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "197 ★"
+      },
+      "children": []
+    },
+    "stat_ai_4_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "2.0k ★"
+      },
+      "children": []
+    },
+    "badge_ai_4_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      },
+      "children": []
+    },
+    "badge_ai_4_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "repo_ai_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ai_5",
+        "text_ai_5",
+        "meta_ai_5"
+      ]
+    },
+    "link_ai_5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "browser-use/video-use",
+        "href": "https://github.com/browser-use/video-use"
+      },
+      "children": []
+    },
+    "text_ai_5": {
+      "type": "Text",
+      "props": {
+        "text": "Coding agents interpret natural-language cut instructions and apply them to video — no manual timeline scrubbing."
+      },
+      "children": []
+    },
+    "meta_ai_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_ai_5_today",
+        "stat_ai_5_total",
+        "badge_ai_5_lang",
+        "badge_ai_5_status"
+      ]
+    },
+    "stat_ai_5_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "155 ★"
+      },
+      "children": []
+    },
+    "stat_ai_5_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "25.6k ★"
+      },
+      "children": []
+    },
+    "badge_ai_5_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      },
+      "children": []
+    },
+    "badge_ai_5_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "repo_dev_1"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "repo_dev_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_dev_1",
+        "text_dev_1",
+        "meta_dev_1"
+      ]
+    },
+    "link_dev_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mvt-project/mvt",
+        "href": "https://github.com/mvt-project/mvt"
+      },
+      "children": []
+    },
+    "text_dev_1": {
+      "type": "Text",
+      "props": {
+        "text": "Mobile forensics toolkit detecting spyware on iOS/Android; today's spike suggests a new exploit or threat disclosure."
+      },
+      "children": []
+    },
+    "meta_dev_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_dev_1_today",
+        "stat_dev_1_total",
+        "badge_dev_1_lang",
+        "badge_dev_1_status"
+      ]
+    },
+    "stat_dev_1_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "441 ★"
+      },
+      "children": []
+    },
+    "stat_dev_1_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "13.8k ★"
+      },
+      "children": []
+    },
+    "badge_dev_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      },
+      "children": []
+    },
+    "badge_dev_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_web_apps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_web_apps",
+        "repo_web_1"
+      ]
+    },
+    "heading_web_apps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "repo_web_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_web_1",
+        "text_web_1",
+        "meta_web_1"
+      ]
+    },
+    "link_web_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "dream-num/univer",
+        "href": "https://github.com/dream-num/univer"
+      },
+      "children": []
+    },
+    "text_web_1": {
+      "type": "Text",
+      "props": {
+        "text": "Embeddable spreadsheet/doc/slide runtime built as the native canvas for AI agents to read and write structured office data."
+      },
+      "children": []
+    },
+    "meta_web_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_web_1_today",
+        "stat_web_1_total",
+        "badge_web_1_lang",
+        "badge_web_1_status"
+      ]
+    },
+    "stat_web_1_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "202 ★"
+      },
+      "children": []
+    },
+    "stat_web_1_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "15.0k ★"
+      },
+      "children": []
+    },
+    "badge_web_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      },
+      "children": []
+    },
+    "badge_web_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_sources"
+      ]
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/8",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
