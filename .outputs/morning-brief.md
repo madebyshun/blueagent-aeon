@@ -1,22 +1,20 @@
-*Morning Brief — 2026-09-20*
+*Morning Brief — 2026-09-22*
 
 *Focus today*
-1. XAI credits — why now: day-4 403; xAI reprices X Search tomorrow 12PM PT
-2. deal-flow repair — why now: Monday cron 2 days out; fix window is now
-3. MEMORY.md consolidation — background: 4-month-stale index dilutes every skill's context
+1. Diagnose cascading skill failures — why now: token-movers + token-pick re-run at noon; third fail = dark pipeline
+2. deal-flow degradation (success_rate 0.76) — why now: last success Sep 7, 15-day coverage gap on funding rounds
+3. Base AI agent narrative — why now: Coinbase MCP live, 100M agent payments on Base; $BLUEAGENT positioning window open
 
 *Since yesterday*
-- security-digest: resolved — ran clean on 09-19 (0 consecutive failures)
-- narrative-tracker: WebSearch fallback again (day 3 XAI 403); quality=4 but degraded vs direct API
-- token-pick: ENA picked — +20.9%, score 10/10; supply overhang removed, buyback vote passed
-- deal-flow: still stuck — consecutive_failures=1, last success 2026-09-07
+- [stuck]: 6 skills hit consecutive_failures=2 with identical truncated errors (token-movers, token-pick, defi-monitor, github-trending, deal-flow, security-digest) — likely shared sandbox/env issue
+- [stuck]: morning-brief itself failed Sep 21
 
 *Watch*
-- xAI repricing X Search starting Sept 21 at $5/1k posts — deadline pressure on credits fix (Focus #1)
+- Coinbase Base surpassed 100M agent payments Q1 2026; new Base MCP lets Claude/ChatGPT control wallets directly — implication for focus #3: $BLUEAGENT's agent-native angle is squarely in-narrative now
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
-- token-movers @ 12:00 UTC
-- token-pick @ 12:00 UTC
+- token-movers @ 12:00 UTC ⚠️ (2 consecutive failures)
+- token-pick @ 12:00 UTC ⚠️ (2 consecutive failures)
 - narrative-tracker @ 13:30 UTC

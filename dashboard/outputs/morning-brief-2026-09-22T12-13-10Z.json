@@ -1,0 +1,374 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-09-22"
+      },
+      "children": [
+        "focus_section",
+        "sep_1",
+        "since_yesterday_section",
+        "sep_2",
+        "watch_section",
+        "sep_3",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_title",
+        "focus_1_detail"
+      ]
+    },
+    "focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. Diagnose cascading skill failures",
+        "variant": "lead"
+      }
+    },
+    "focus_1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "why now: token-movers + token-pick re-run at noon; third fail = dark pipeline",
+        "variant": "body"
+      }
+    },
+    "focus_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_title",
+        "focus_2_detail"
+      ]
+    },
+    "focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. deal-flow degradation (success_rate 0.76)",
+        "variant": "lead"
+      }
+    },
+    "focus_2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "why now: last success Sep 7, 15-day coverage gap on funding rounds",
+        "variant": "body"
+      }
+    },
+    "focus_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_detail"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. Base AI agent narrative",
+        "variant": "lead"
+      }
+    },
+    "focus_3_detail": {
+      "type": "Text",
+      "props": {
+        "text": "why now: Coinbase MCP live, 100M agent payments on Base; $BLUEAGENT positioning window open",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since_yesterday_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_yesterday_heading",
+        "stuck_1",
+        "stuck_2"
+      ]
+    },
+    "since_yesterday_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stuck_1": {
+      "type": "Alert",
+      "props": {
+        "title": "6 skills hit consecutive_failures=2 with identical truncated errors",
+        "message": "token-movers, token-pick, defi-monitor, github-trending, deal-flow, security-digest — likely shared sandbox/env issue",
+        "type": "warning"
+      }
+    },
+    "stuck_2": {
+      "type": "Alert",
+      "props": {
+        "title": "morning-brief itself failed Sep 21",
+        "type": "warning"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_heading",
+        "watch_item"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_text_1",
+        "watch_text_2"
+      ]
+    },
+    "watch_text_1": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase Base surpassed 100M agent payments Q1 2026; new Base MCP lets Claude/ChatGPT control wallets directly",
+        "variant": "body"
+      }
+    },
+    "watch_text_2": {
+      "type": "Text",
+      "props": {
+        "text": "implication for focus #3: $BLUEAGENT's agent-native angle is squarely in-narrative now",
+        "variant": "muted"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_heading",
+        "running_item_1",
+        "running_item_2",
+        "running_item_3",
+        "running_item_4",
+        "running_item_5"
+      ]
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running_1_name",
+        "running_1_time"
+      ]
+    },
+    "running_1_name": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat",
+        "variant": "body"
+      }
+    },
+    "running_1_time": {
+      "type": "Text",
+      "props": {
+        "text": "@ 08:00, 14:00, 20:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running_2_name",
+        "running_2_time"
+      ]
+    },
+    "running_2_name": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor",
+        "variant": "body"
+      }
+    },
+    "running_2_time": {
+      "type": "Text",
+      "props": {
+        "text": "@ 09:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running_3_name",
+        "running_3_badge",
+        "running_3_time"
+      ]
+    },
+    "running_3_name": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers",
+        "variant": "body"
+      }
+    },
+    "running_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "2 consecutive failures",
+        "variant": "destructive"
+      }
+    },
+    "running_3_time": {
+      "type": "Text",
+      "props": {
+        "text": "@ 12:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running_4_name",
+        "running_4_badge",
+        "running_4_time"
+      ]
+    },
+    "running_4_name": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick",
+        "variant": "body"
+      }
+    },
+    "running_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "2 consecutive failures",
+        "variant": "destructive"
+      }
+    },
+    "running_4_time": {
+      "type": "Text",
+      "props": {
+        "text": "@ 12:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running_item_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running_5_name",
+        "running_5_time"
+      ]
+    },
+    "running_5_name": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "body"
+      }
+    },
+    "running_5_time": {
+      "type": "Text",
+      "props": {
+        "text": "@ 13:30 UTC",
+        "variant": "caption"
+      }
+    }
+  }
+}
