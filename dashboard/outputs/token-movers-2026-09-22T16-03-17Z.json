@@ -1,0 +1,420 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-09-22"
+      },
+      "children": [
+        "subtitle",
+        "sep1",
+        "winners_heading",
+        "winners_table",
+        "sep2",
+        "losers_heading",
+        "losers_table",
+        "sep3",
+        "trending_heading",
+        "trending_table",
+        "sep4",
+        "notable_heading",
+        "notable_alerts"
+      ]
+    },
+    "subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Mixed tape, slight green lean — 54/100 top coins positive, median top-50 change +0.5%; BCH breakout dominates while ETH and SOL drift slightly red.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "BCH (Bitcoin Cash)",
+            "$324.49",
+            "+22.8%",
+            "+41.3%",
+            "−2.8%",
+            "$923M",
+            "#21",
+            "BREAKOUT"
+          ],
+          [
+            "TAO (Bittensor)",
+            "$313.50",
+            "+8.3%",
+            "+40.3%",
+            "−1.3%",
+            "$683M",
+            "#34",
+            "TRENDING+UP"
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "$4.38",
+            "+7.5%",
+            "+82.8%",
+            "−1.8%",
+            "$1.8B",
+            "#23",
+            "TRENDING+UP"
+          ],
+          [
+            "HBAR (Hedera)",
+            "$0.09797",
+            "+6.4%",
+            "+22.6%",
+            "−0.5%",
+            "$212M",
+            "#30",
+            ""
+          ],
+          [
+            "STX (Stacks)",
+            "$0.3448",
+            "+5.3%",
+            "+33.6%",
+            "−0.6%",
+            "$38.6M",
+            "#99",
+            ""
+          ],
+          [
+            "XRP",
+            "$1.58",
+            "+5.2%",
+            "+10.4%",
+            "−1.5%",
+            "$6.4B",
+            "#5",
+            "TRENDING+UP"
+          ],
+          [
+            "CRO (Cronos)",
+            "$0.06672",
+            "+5.0%",
+            "+16.5%",
+            "−0.7%",
+            "$17.8M",
+            "#35",
+            ""
+          ],
+          [
+            "ETC (Ethereum Classic)",
+            "$9.25",
+            "+4.9%",
+            "+20.7%",
+            "−1.9%",
+            "$103M",
+            "#64",
+            ""
+          ],
+          [
+            "UNI (Uniswap)",
+            "$9.23",
+            "+3.9%",
+            "+38.0%",
+            "−1.0%",
+            "$1.5B",
+            "#22",
+            "TRENDING+UP"
+          ],
+          [
+            "ZEC (Zcash)",
+            "$1,547",
+            "+3.2%",
+            "+35.0%",
+            "+1.1%",
+            "$1.4B",
+            "#9",
+            "TRENDING+UP MAJOR"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "M (MemeCore)",
+            "$1.31",
+            "−12.0%",
+            "+18.5%",
+            "−1.3%",
+            "$1.5M",
+            "#37",
+            ""
+          ],
+          [
+            "ARB (Arbitrum)",
+            "$0.2141",
+            "−7.1%",
+            "+52.6%",
+            "−1.6%",
+            "$348M",
+            "#65",
+            ""
+          ],
+          [
+            "SKY",
+            "$0.06770",
+            "−6.8%",
+            "+9.7%",
+            "−1.2%",
+            "$16.8M",
+            "#59",
+            ""
+          ],
+          [
+            "MORPHO",
+            "$2.59",
+            "−5.8%",
+            "+20.9%",
+            "−1.2%",
+            "$35.1M",
+            "#56",
+            ""
+          ],
+          [
+            "RAIN",
+            "$0.01344",
+            "−5.3%",
+            "+2.7%",
+            "−0.4%",
+            "$24.3M",
+            "#17",
+            "MAJOR"
+          ],
+          [
+            "ENA (Ethena)",
+            "$0.2065",
+            "−4.3%",
+            "+45.3%",
+            "−1.4%",
+            "$489M",
+            "#49",
+            ""
+          ],
+          [
+            "ASTER",
+            "$0.7226",
+            "−3.3%",
+            "+3.8%",
+            "−0.6%",
+            "$177M",
+            "#53",
+            ""
+          ],
+          [
+            "FIGR (Figure Heloc)",
+            "$1.007",
+            "−3.1%",
+            "−1.4%",
+            "+0.2%",
+            "$49.4M",
+            "#10",
+            "MAJOR"
+          ],
+          [
+            "ONDO",
+            "$0.4308",
+            "−3.1%",
+            "+23.3%",
+            "−1.3%",
+            "$271M",
+            "#48",
+            ""
+          ],
+          [
+            "PEPE",
+            "$0.000004890",
+            "−3.0%",
+            "+41.3%",
+            "−1.0%",
+            "$1.2B",
+            "#51",
+            "TRENDING+DOWN"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Rank",
+          "Price",
+          "24h Change",
+          "Status"
+        ],
+        "rows": [
+          [
+            "ASTRO (astronaut)",
+            "#821",
+            "$0.02401",
+            "+401.0%",
+            "PUMP-RISK"
+          ],
+          [
+            "EDEL",
+            "#854",
+            "$0.03235",
+            "+6.3%",
+            ""
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#104",
+            "$0.009239",
+            "+6.1%",
+            ""
+          ],
+          [
+            "PRL (Pearl)",
+            "#147",
+            "$1.194",
+            "+28.0%",
+            ""
+          ],
+          [
+            "BTC (Bitcoin)",
+            "#1",
+            "$86,557",
+            "+0.5%",
+            ""
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "#23",
+            "$4.38",
+            "+7.9%",
+            "TRENDING+UP"
+          ],
+          [
+            "AURORA",
+            "#326",
+            "$0.1128",
+            "+260.5%",
+            "PUMP-RISK"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable_alerts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert1",
+        "alert2",
+        "alert3",
+        "alert4"
+      ]
+    },
+    "alert1": {
+      "type": "Alert",
+      "props": {
+        "title": "ASTRO",
+        "message": "Rank 821 up +401% — extreme PUMP-RISK, low-cap manipulation likely",
+        "type": "warning"
+      }
+    },
+    "alert2": {
+      "type": "Alert",
+      "props": {
+        "title": "AURORA",
+        "message": "Rank 326 up +261% — PUMP-RISK, sudden spike with no credible catalyst",
+        "type": "warning"
+      }
+    },
+    "alert3": {
+      "type": "Alert",
+      "props": {
+        "title": "BCH [BREAKOUT]",
+        "message": "+22.8% 24h / +41.3% 7d — sustained move across timeframes",
+        "type": "info"
+      }
+    },
+    "alert4": {
+      "type": "Alert",
+      "props": {
+        "title": "NEAR [TRENDING+UP]",
+        "message": "Trending while up +82.8% on the week — strong multi-timeframe signal",
+        "type": "info"
+      }
+    }
+  }
+}
