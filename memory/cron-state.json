@@ -80,13 +80,13 @@
     "last_error": "ackground\":0,\"foreground\":0,\"unset\":0},\"started_in_background\":0,\"max_depth\":0,\"spawned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refused\":{\"depth_limit\":0,\"c"
   },
   "security-digest": {
-    "last_status": "failed",
-    "last_success": "2026-09-19T17:00:25Z",
-    "total_runs": 115,
-    "total_successes": 96,
+    "last_status": "success",
+    "last_success": "2026-09-22T17:55:15Z",
+    "total_runs": 116,
+    "total_successes": 97,
     "total_failures": 19,
-    "consecutive_failures": 2,
-    "success_rate": 0.83,
+    "consecutive_failures": 0,
+    "success_rate": 0.84,
     "last_failed": "2026-09-21T18:57:48Z",
     "last_error": "ackground\":0,\"foreground\":0,\"unset\":0},\"started_in_background\":0,\"max_depth\":0,\"spawned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refused\":{\"depth_limit\":0,\"c",
     "last_quality_score": 4
