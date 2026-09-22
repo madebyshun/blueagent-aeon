@@ -1,17 +1,10 @@
-*Daily Pick — 2026-09-19*
+*Daily Pick — 2026-09-22*
 
-*Token: ENA*  [HIGH]  signal 10/10
-Price: $0.199 (+20.9% 24h / +41.0% 7d) | mcap $2.0B | vol $748M (vol/mcap 0.37)
-Score breakdown: [CG trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2, both 24h&7d>5%+2, 24h>0+1] = 10/10
-Catalyst: Ethena bought out seed investors and ended monthly VC unlocks (supply overhang removed); fee switch passed 100% governance vote tying protocol revenue to ENA buybacks once USDe hits $7.5B
-Risk: Buyback activation conditional on USDe growing 84% from $4.07B — if USDe stalls, near-term catalyst timeline extends; large unlock schedule replaced by buyback mechanism that hasn't triggered yet
-Vs recent picks: first time (ETHFI picked Sep 12; ENA is different asset)
+*Token: NEAR*  [HIGH]  signal 9/10
+Price: $4.38 (+7.68% 24h / +82.79% 7d) | mcap $5.72B | vol $1.81B (vol/mcap 0.32)
+Score breakdown: [24h>0:+1, 7d>0:+1, both>5%:+2, vol/mcap 0.32:+3, RS vs BTC/ETH 7d:+2] = 9/10
+Catalyst: NEAR milestone incentive claim window opened Sep 15 + Hyperliquid confidential perps launch Sep 17 added privacy derivatives utility; Secret Mode TVL crossed $70M
+Risk: 80% move already in across 7 days — profit-taking pressure at $5 resistance; momentum continuation uncertain after extended run
+Vs recent picks: last picked 2026-09-09 (13 days ago), new catalysts confirmed
 
-*Market: "Will New People (NL) gain the most seats in the Russian parliamentary election?"*  [HIGH]  edge 21pp
-Current: YES 24¢ / NO 76¢ | 24h vol $577K | resolves: 2026-09-30
-Fair YES: ~3% (inputs: [Moscow Times: "victory all but certain" Sep 19], [ER controls 70% of Duma with supermajority], [NL has 15 of 450 seats pre-election])
-Thesis: BUY NO — NL winning most seats requires ER supermajority collapse with zero credible signal of managed transition; election underway Sep 18-20, results expected before Sep 30; market prices 24¢ for a ~3¢ outcome
-Risk: If Kremlin engineers surprise managed political rebalancing to NL (no current signals), NO position loses
-
-sources: cg=ok, dex=fail, poly=ok
-not financial advice — pattern-matching only
+*Market: Will
