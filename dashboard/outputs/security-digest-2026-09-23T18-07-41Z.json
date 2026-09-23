@@ -1,0 +1,557 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-09-23",
+        "description": "Verdict: 3 actively exploited (KEV), 5 in stack to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "sep1",
+        "patch_today_section",
+        "sep2",
+        "patch_week_section",
+        "sep3",
+        "monitor_section"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch_today_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_today_heading",
+        "cve_2026_93616",
+        "cve_2026_94127",
+        "cve_2026_85102"
+      ]
+    },
+    "patch_today_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve_2026_93616": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_93616_title",
+        "cve_2026_93616_badge",
+        "cve_2026_93616_desc",
+        "cve_2026_93616_remediation"
+      ]
+    },
+    "cve_2026_93616_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-93616 — Check Point Multiple Products",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "CISA KEV"
+      }
+    },
+    "cve_2026_93616_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-09-22 | EPSS 0.024",
+        "variant": "destructive"
+      }
+    },
+    "cve_2026_93616_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal → unauth upload + arbitrary script execution. Exploited per CISA.",
+        "variant": "body"
+      }
+    },
+    "cve_2026_93616_remediation": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "message": "Apply Check Point hotfix immediately; restrict management interface access."
+      }
+    },
+    "cve_2026_94127": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_94127_title",
+        "cve_2026_94127_badge",
+        "cve_2026_94127_desc",
+        "cve_2026_94127_remediation"
+      ]
+    },
+    "cve_2026_94127_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-94127 — F5 BIG-IP APM",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "CISA KEV"
+      }
+    },
+    "cve_2026_94127_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-09-22 | EPSS 0.014",
+        "variant": "destructive"
+      }
+    },
+    "cve_2026_94127_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Heap buffer overflow → unauth RCE when OAuth profile is configured. Exploited per CISA.",
+        "variant": "body"
+      }
+    },
+    "cve_2026_94127_remediation": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "message": "Patch BIG-IP APM immediately; disable OAuth profile if patch unavailable."
+      }
+    },
+    "cve_2026_85102": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_85102_title",
+        "cve_2026_85102_badge",
+        "cve_2026_85102_desc",
+        "cve_2026_85102_remediation"
+      ]
+    },
+    "cve_2026_85102_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-85102 — Check Point Multiple Products (VPN)",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "CISA KEV"
+      }
+    },
+    "cve_2026_85102_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-09-22 | EPSS 0.007",
+        "variant": "destructive"
+      }
+    },
+    "cve_2026_85102_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Improper cert validation in VPN → unauth remote code execution. Exploited per CISA.",
+        "variant": "body"
+      }
+    },
+    "cve_2026_85102_remediation": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "message": "Apply Check Point VPN hotfix immediately."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch_week_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_week_heading",
+        "cve_2026_77244",
+        "cve_2026_57149",
+        "cve_2026_77243",
+        "cve_2026_62371",
+        "cve_2026_62182"
+      ]
+    },
+    "patch_week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "cve_2026_77244": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_77244_title",
+        "cve_2026_77244_badge",
+        "cve_2026_77244_desc",
+        "cve_2026_77244_remediation"
+      ]
+    },
+    "cve_2026_77244_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-77244 — mcp-atlassian (pip)",
+        "href": "https://github.com/advisories/GHSA-wrhw-j3f9-8vc6",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve_2026_77244_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 10.0 | EPSS 0.005 | no patch yet",
+        "variant": "destructive"
+      }
+    },
+    "cve_2026_77244_desc": {
+      "type": "Text",
+      "props": {
+        "text": "HTTP transport accepts any opaque token — full auth bypass. 15+ CVEs filed against mcp-atlassian this week.",
+        "variant": "body"
+      }
+    },
+    "cve_2026_77244_remediation": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Disable HTTP transport mode; restrict access until patch; monitor github.com/sooperset/mcp-atlassian."
+      }
+    },
+    "cve_2026_57149": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_57149_title",
+        "cve_2026_57149_badge",
+        "cve_2026_57149_desc",
+        "cve_2026_57149_remediation"
+      ]
+    },
+    "cve_2026_57149_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-57149 — plone.app.portlets (pip)",
+        "href": "https://github.com/advisories/GHSA-rr49-f9g6-c9r5",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve_2026_57149_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.9 | EPSS 0.006 | no patch yet",
+        "variant": "destructive"
+      }
+    },
+    "cve_2026_57149_desc": {
+      "type": "Text",
+      "props": {
+        "text": "TALES expression injection via portlets → arbitrary code execution. All versions affected.",
+        "variant": "body"
+      }
+    },
+    "cve_2026_57149_remediation": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Restrict editor portlet access to trusted users now; monitor Plone security releases."
+      }
+    },
+    "cve_2026_77243": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_77243_title",
+        "cve_2026_77243_badge",
+        "cve_2026_77243_desc",
+        "cve_2026_77243_remediation"
+      ]
+    },
+    "cve_2026_77243_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-77243 — mcp-atlassian (pip)",
+        "href": "https://github.com/advisories/GHSA-3r68-hf9h-887v",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve_2026_77243_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8 | EPSS 0.005 | no patch yet",
+        "variant": "secondary"
+      }
+    },
+    "cve_2026_77243_desc": {
+      "type": "Text",
+      "props": {
+        "text": "ENABLED_TOOLS toolset auth bypass — restricted tool set can be circumvented.",
+        "variant": "body"
+      }
+    },
+    "cve_2026_77243_remediation": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Same remediation as CVE-2026-77244; part of mcp-atlassian cluster."
+      }
+    },
+    "cve_2026_62371": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_62371_title",
+        "cve_2026_62371_badge",
+        "cve_2026_62371_desc",
+        "cve_2026_62371_remediation"
+      ]
+    },
+    "cve_2026_62371_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-62371 — KubeEdge (go)",
+        "href": "https://github.com/advisories/GHSA-5jpj-293f-rhvj",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve_2026_62371_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8 | EPSS 0.005 | no patch yet",
+        "variant": "secondary"
+      }
+    },
+    "cve_2026_62371_desc": {
+      "type": "Text",
+      "props": {
+        "text": "NodeUpgradeJob cmd injection via v1alpha2 API → RCE on edge nodes.",
+        "variant": "body"
+      }
+    },
+    "cve_2026_62371_remediation": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Restrict cloud-side NodeUpgradeJob API; require network policy on edge node access."
+      }
+    },
+    "cve_2026_62182": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_62182_title",
+        "cve_2026_62182_badge",
+        "cve_2026_62182_desc",
+        "cve_2026_62182_remediation"
+      ]
+    },
+    "cve_2026_62182_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-62182 — KubeEdge (go)",
+        "href": "https://github.com/advisories/GHSA-m3c6-2p7h-cfr3",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve_2026_62182_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8 | EPSS 0.005 | no patch yet",
+        "variant": "secondary"
+      }
+    },
+    "cve_2026_62182_desc": {
+      "type": "Text",
+      "props": {
+        "text": "ConfigUpdateJob updateFields shell injection → code execution on edge nodes.",
+        "variant": "body"
+      }
+    },
+    "cve_2026_62182_remediation": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Restrict cloud-side ConfigUpdateJob API; monitor KubeEdge releases for patch."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "monitor_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor_heading",
+        "cve_2026_76819",
+        "cve_2026_77262",
+        "cve_2026_77426"
+      ]
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "cve_2026_76819": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_76819_title",
+        "cve_2026_76819_badge",
+        "cve_2026_76819_desc",
+        "cve_2026_76819_remediation"
+      ]
+    },
+    "cve_2026_76819_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-76819 — nuclei/v3 (go)",
+        "href": "https://github.com/advisories/GHSA-vxg7-f2jj-jmqm",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve_2026_76819_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.6 | no fix yet",
+        "variant": "outline"
+      }
+    },
+    "cve_2026_76819_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Goja JS engine ACE via crafted Nuclei template.",
+        "variant": "body"
+      }
+    },
+    "cve_2026_76819_remediation": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Run only trusted templates; watch for patched release."
+      }
+    },
+    "cve_2026_77262": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_77262_title",
+        "cve_2026_77262_badge",
+        "cve_2026_77262_desc",
+        "cve_2026_77262_remediation"
+      ]
+    },
+    "cve_2026_77262_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-77262 — mcp-atlassian (pip)",
+        "href": "https://github.com/advisories/GHSA-p6hp-93wp-fh6p",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve_2026_77262_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.6 | no fix yet",
+        "variant": "outline"
+      }
+    },
+    "cve_2026_77262_desc": {
+      "type": "Text",
+      "props": {
+        "text": "confluence_upload_attachment path traversal → arbitrary server file read.",
+        "variant": "body"
+      }
+    },
+    "cve_2026_77262_remediation": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Part of mcp-atlassian cluster above."
+      }
+    },
+    "cve_2026_77426": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2026_77426_title",
+        "cve_2026_77426_badge",
+        "cve_2026_77426_desc",
+        "cve_2026_77426_remediation"
+      ]
+    },
+    "cve_2026_77426_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-77426 — unleash-server (npm)",
+        "href": "https://github.com/advisories/GHSA-72h8-wp98-7hch",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve_2026_77426_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a | no fix yet",
+        "variant": "outline"
+      }
+    },
+    "cve_2026_77426_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Missing await on perm check + cross-project IDOR in admin API.",
+        "variant": "body"
+      }
+    },
+    "cve_2026_77426_remediation": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Restrict Unleash admin API exposure."
+      }
+    }
+  }
+}
