@@ -1,0 +1,504 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-23"
+      },
+      "children": [
+        "top-pick-section",
+        "sep1",
+        "aiml-section",
+        "sep2",
+        "devtools-section",
+        "sep3",
+        "webapps-section",
+        "sep4",
+        "sources-section"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-heading",
+        "openstock-topPick"
+      ]
+    },
+    "top-pick-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "openstock-topPick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "openstock-link-topPick",
+        "openstock-desc-topPick",
+        "openstock-stats-topPick"
+      ]
+    },
+    "openstock-link-topPick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Open-Dev-Society/OpenStock",
+        "href": "https://github.com/Open-Dev-Society/OpenStock"
+      }
+    },
+    "openstock-desc-topPick": {
+      "type": "Text",
+      "props": {
+        "text": "Highest-momentum new pick today: self-hosted Bloomberg/TradingView alternative with real-time quotes, screeners, and portfolio tracking — 832★ and sustained 51★/day velocity.",
+        "variant": "body"
+      }
+    },
+    "openstock-stats-topPick": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "openstock-stars-topPick",
+        "openstock-velocity-topPick"
+      ]
+    },
+    "openstock-stars-topPick": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "832"
+      }
+    },
+    "openstock-velocity-topPick": {
+      "type": "Stat",
+      "props": {
+        "label": "Velocity",
+        "value": "51★/day"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml-heading",
+        "aiml-list"
+      ]
+    },
+    "aiml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "agent-native-item",
+        "impeccable-item"
+      ]
+    },
+    "agent-native-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "agent-native-link",
+        "agent-native-meta",
+        "agent-native-desc"
+      ]
+    },
+    "agent-native-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "BuilderIO/agent-native",
+        "href": "https://github.com/BuilderIO/agent-native"
+      }
+    },
+    "agent-native-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "agent-native-stars",
+        "agent-native-lang",
+        "agent-native-status"
+      ]
+    },
+    "agent-native-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "609 today (6.4K total)"
+      }
+    },
+    "agent-native-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "agent-native-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "agent-native-desc": {
+      "type": "Text",
+      "props": {
+        "text": "BuilderIO ships a TypeScript framework treating agents as first-class app primitives — not chatbot wrappers bolted onto existing apps.",
+        "variant": "body"
+      }
+    },
+    "impeccable-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "impeccable-link",
+        "impeccable-meta",
+        "impeccable-desc"
+      ]
+    },
+    "impeccable-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "pbakaus/impeccable",
+        "href": "https://github.com/pbakaus/impeccable"
+      }
+    },
+    "impeccable-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "impeccable-stars",
+        "impeccable-lang",
+        "impeccable-status"
+      ]
+    },
+    "impeccable-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "287 today (70K total)"
+      }
+    },
+    "impeccable-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript"
+      }
+    },
+    "impeccable-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "impeccable-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Declarative design language for agent harness optimization; 70K-star project resurfaces with a 9/22 push at 225★/day average velocity.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-list"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "claude-templates-item",
+        "codebase-memory-item"
+      ]
+    },
+    "claude-templates-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "claude-templates-link",
+        "claude-templates-meta",
+        "claude-templates-desc"
+      ]
+    },
+    "claude-templates-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "davila7/claude-code-templates",
+        "href": "https://github.com/davila7/claude-code-templates"
+      }
+    },
+    "claude-templates-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "claude-templates-stars",
+        "claude-templates-lang",
+        "claude-templates-status"
+      ]
+    },
+    "claude-templates-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "393 today (31K total)"
+      }
+    },
+    "claude-templates-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "claude-templates-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "claude-templates-desc": {
+      "type": "Text",
+      "props": {
+        "text": "CLI scaffold and health monitoring for Claude Code projects; 12× overnight star spike (33→393) signals a major version release.",
+        "variant": "body"
+      }
+    },
+    "codebase-memory-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "codebase-memory-link",
+        "codebase-memory-meta",
+        "codebase-memory-desc"
+      ]
+    },
+    "codebase-memory-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DeusData/codebase-memory-mcp",
+        "href": "https://github.com/DeusData/codebase-memory-mcp"
+      }
+    },
+    "codebase-memory-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "codebase-memory-stars",
+        "codebase-memory-lang",
+        "codebase-memory-status"
+      ]
+    },
+    "codebase-memory-stars": {
+      "type": "Stat",
+      "props": {
+        "value": "201 today (44K total)"
+      }
+    },
+    "codebase-memory-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C"
+      }
+    },
+    "codebase-memory-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "codebase-memory-desc": {
+      "type": "Text",
+      "props": {
+        "text": "C-native MCP server for codebase indexing — native-speed symbol lookups without Python overhead, 44K stars of prior traction.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "webapps-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "webapps-heading",
+        "webapps-list"
+      ]
+    },
+    "webapps-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "webapps-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "openstock-webapps-item"
+      ]
+    },
+    "openstock-webapps-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "openstock-link-webapps",
+        "openstock-meta-webapps",
+        "openstock-desc-webapps"
+      ]
+    },
+    "openstock-link-webapps": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Open-Dev-Society/OpenStock",
+        "href": "https://github.com/Open-Dev-Society/OpenStock"
+      }
+    },
+    "openstock-meta-webapps": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "openstock-stars-webapps",
+        "openstock-lang-webapps",
+        "openstock-status-webapps"
+      ]
+    },
+    "openstock-stars-webapps": {
+      "type": "Stat",
+      "props": {
+        "value": "832 today (18.6K total)"
+      }
+    },
+    "openstock-lang-webapps": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "openstock-status-webapps": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "openstock-desc-webapps": {
+      "type": "Text",
+      "props": {
+        "text": "Open-source Bloomberg alternative: real-time quotes, screeners, and portfolio tracking — zero subscription cost.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-text"
+      ]
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/17",
+        "variant": "muted"
+      }
+    }
+  }
+}

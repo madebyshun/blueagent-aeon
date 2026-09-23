@@ -1,31 +1,25 @@
-*GitHub Trending — 2026-09-22*
+*GitHub Trending — 2026-09-23*
 
-*Top pick* — [google/ax](https://github.com/google/ax)
-Google's open agentic orchestration runtime hit 2,324 stars in one day — clearest signal yet that the industry is converging on open multi-agent coordination primitives.
+*Top pick* — [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock)
+Highest-momentum new pick today: self-hosted Bloomberg/TradingView alternative with real-time quotes, screeners, and portfolio tracking — 832★ and sustained 51★/day velocity.
 
 *AI/ML*
-• [google/ax](https://github.com/google/ax) — ★ 2,324 today (7.0k total) · Go · [RETURNING]
-Go-native multi-agent orchestration from Google; production-grade coordination without Python framework lock-in.
+• [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native) — ★ 609 today (6.4K total) · TypeScript · [RETURNING]
+BuilderIO ships a TypeScript framework treating agents as first-class app primitives — not chatbot wrappers bolted onto existing apps.
 
-• [anthropics/financial-services](https://github.com/anthropics/financial-services) — ★ 436 today (36.1k total) · Python · [ACCELERATING]
-Reference implementations for AI agents in regulated finance — compliance scaffolding, audit trails, and sandboxed tool calls included.
-
-• [agent-substrate/substrate](https://github.com/agent-substrate/substrate) — ★ 498 today (2.8k total) · Go · [RETURNING]
-Minimal runtime for wiring AI agents to system resources without committing to a heavy framework.
-
-• [superdesigndev/treg](https://github.com/superdesigndev/treg) — ★ 197 today (2.0k total) · Python · [ACCELERATING]
-Proxy that normalizes tool definitions across AI providers — one schema, swap models freely.
-
-• [browser-use/video-use](https://github.com/browser-use/video-use) — ★ 155 today (25.6k total) · Python · [ACCELERATING]
-Coding agents interpret natural-language cut instructions and apply them to video — no manual timeline scrubbing.
+• [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — ★ 287 today (70K total) · JavaScript · [ACCELERATING]
+Declarative design language for agent harness optimization; 70K-star project resurfaces with a 9/22 push at 225★/day average velocity.
 
 *Devtools*
-• [mvt-project/mvt](https://github.com/mvt-project/mvt) — ★ 441 today (13.8k total) · Python · [RETURNING]
-Mobile forensics toolkit detecting spyware on iOS/Android; today's spike suggests a new exploit or threat disclosure.
+• [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) — ★ 393 today (31K total) · Python · [ACCELERATING]
+CLI scaffold and health monitoring for Claude Code projects; 12× overnight star spike (33→393) signals a major version release.
+
+• [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) — ★ 201 today (44K total) · C · [ACCELERATING]
+C-native MCP server for codebase indexing — native-speed symbol lookups without Python overhead, 44K stars of prior traction.
 
 *Web/Apps*
-• [dream-num/univer](https://github.com/dream-num/univer) — ★ 202 today (15.0k total) · TypeScript · [RETURNING]
-Embeddable spreadsheet/doc/slide runtime built as the native canvas for AI agents to read and write structured office data.
+• [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) — ★ 832 today (18.6K total) · TypeScript · [ACCELERATING]
+Open-source Bloomberg alternative: real-time quotes, screeners, and portfolio tracking — zero subscription cost.
 
 ---
-sources: trending=ok · gh_api=ok · kept 7/8
+sources: trending=ok · gh_api=ok · kept 5/17
