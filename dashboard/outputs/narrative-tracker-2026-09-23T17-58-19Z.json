@@ -1,0 +1,981 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-23"
+      },
+      "children": [
+        "transitions-section",
+        "sep1",
+        "reflexivity-section",
+        "sep2",
+        "positions-section",
+        "sep3",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions-heading",
+        "new-group",
+        "promoted-group",
+        "demoted-group"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "new-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "new-label",
+        "trans-new-1",
+        "trans-new-2"
+      ]
+    },
+    "new-label": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trans-new-1": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-Chain Infrastructure / LayerZero — Arc mainnet (Sep 16) as institutional cross-chain layer; ATLAS fee-burn; ZRO +10.7% bucking risk-off tape",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trans-new-2": {
+      "type": "Text",
+      "props": {
+        "text": "ZK / Privacy-Compliance Bridge — BitcoinFoundation H2 framing + ZEC +2.3% / LIT +9.3% both bucking tape; ZK named as compliance infra",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "promoted-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "promoted-label",
+        "trans-prom-1",
+        "trans-prom-2"
+      ]
+    },
+    "promoted-label": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "trans-prom-1": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi / Kaito Attention Markets — Emerging → Rising — Kaito Social Cards launched w/ strong engagement; post-Yaps product velocity proven",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trans-prom-2": {
+      "type": "Text",
+      "props": {
+        "text": "September Seasonality / Macro Risk — Emerging → Rising — breadth collapsed 54→28/100 green; median −1.9%; thesis materializing intraday",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "demoted-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "demoted-label",
+        "trans-dem-1",
+        "trans-dem-2"
+      ]
+    },
+    "demoted-label": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "trans-dem-1": {
+      "type": "Text",
+      "props": {
+        "text": "Post-FOMC Relief Rally — Fading → Dead — BTC solo at $84K; breadth 28%; decoherence confirmed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "trans-dem-2": {
+      "type": "Text",
+      "props": {
+        "text": "L2/DeFi Rotation — Fading → Dead — AVAX −7% day 4; no bounce",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "reflexivity-item-1",
+        "reflexivity-item-2"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "reflexivity-item-1": {
+      "type": "Alert",
+      "props": {
+        "title": "Agentic Payments / Base x402",
+        "message": "Kraken + Coinbase + OKX all shipping MCP toolkits same month; coordinated exchange-level push amplifying narrative; $73M/176M txs real, announcement timing manufactured",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "reflexivity-item-2": {
+      "type": "Alert",
+      "props": {
+        "title": "September Seasonality",
+        "message": "breadth 54→28% may be self-fulfilling; traders front-running \"historically worst month\" creating the tape they predicted",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions-heading",
+        "pos-frontrun",
+        "pos-ride-1",
+        "pos-ride-2",
+        "pos-ride-3",
+        "pos-ride-4",
+        "pos-ride-5",
+        "pos-watch-1",
+        "pos-watch-2",
+        "pos-watch-3",
+        "pos-watch-4",
+        "pos-fade"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "pos-frontrun": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-fr-badge",
+        "pos-fr-name",
+        "pos-fr-desc",
+        "pos-fr-bear"
+      ]
+    },
+    "pos-fr-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos-fr-name": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-Chain Infrastructure / LayerZero — mindshare 2 ↑↑, Bull",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-fr-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Arc mainnet Sep 16; ATLAS fee-burn",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-fr-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: Wormhole/Hyperlane competition, thin CT cover",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-ride-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-r1-badge",
+        "pos-r1-name",
+        "pos-r1-desc",
+        "pos-r1-bear"
+      ]
+    },
+    "pos-r1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos-r1-name": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / Base x402 — 5 →, Bull",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-r1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "@base @coinbase @Olas_Network",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-r1-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: $73M = 0.003% of market, manufactured timing",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-ride-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-r2-badge",
+        "pos-r2-name",
+        "pos-r2-desc",
+        "pos-r2-bear"
+      ]
+    },
+    "pos-r2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos-r2-name": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi / Kaito Attention Markets — 3 ↑, Bull",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-r2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "@KaitoAI Studio + Social Cards",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-r2-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: invite-only limits retail flywheel",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-ride-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-r3-badge",
+        "pos-r3-name",
+        "pos-r3-desc",
+        "pos-r3-bear"
+      ]
+    },
+    "pos-r3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos-r3-name": {
+      "type": "Text",
+      "props": {
+        "text": "AI x DePIN — 4 →, Bull",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-r3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "@Bittensor_ @0G_labs",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-r3-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: hyperscaler centralization",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-ride-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-r4-badge",
+        "pos-r4-name",
+        "pos-r4-desc",
+        "pos-r4-bear"
+      ]
+    },
+    "pos-r4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos-r4-name": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets — 3 ↑, Bull",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-r4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "@KaitoAI x Polymarket; Fed Oct 67.5¢ mispriced 13.5pp",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-r4-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: regulatory grey zone",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-ride-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-r5-badge",
+        "pos-r5-name",
+        "pos-r5-desc",
+        "pos-r5-bear"
+      ]
+    },
+    "pos-r5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos-r5-name": {
+      "type": "Text",
+      "props": {
+        "text": "RWA / Tokenized Markets — 3 →, Bull",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-r5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "@BlackRock @FranklinTempleton",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-r5-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: custody unresolved",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-watch-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-w1-badge",
+        "pos-w1-name",
+        "pos-w1-desc",
+        "pos-w1-bear"
+      ]
+    },
+    "pos-w1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos-w1-name": {
+      "type": "Text",
+      "props": {
+        "text": "September Seasonality / Macro Risk — 4 ↑↑, Bear",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-w1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "deepbluealpha",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-w1-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: self-fulfilling, no clear reversal catalyst",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-watch-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-w2-badge",
+        "pos-w2-name",
+        "pos-w2-desc",
+        "pos-w2-bear"
+      ]
+    },
+    "pos-w2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos-w2-name": {
+      "type": "Text",
+      "props": {
+        "text": "XRP ETF Cycle — 3 →, Bull",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-w2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "no named CT driver",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-w2-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: approval delays",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-watch-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-w3-badge",
+        "pos-w3-name",
+        "pos-w3-desc",
+        "pos-w3-bear"
+      ]
+    },
+    "pos-w3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos-w3-name": {
+      "type": "Text",
+      "props": {
+        "text": "FHE/Confidential Computing — 3 →, Mixed",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-w3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "@Zama_FHE",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-w3-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: no production app",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-watch-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-w4-badge",
+        "pos-w4-name",
+        "pos-w4-desc",
+        "pos-w4-bear"
+      ]
+    },
+    "pos-w4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "pos-w4-name": {
+      "type": "Text",
+      "props": {
+        "text": "ZK / Privacy-Compliance Bridge — 2 ↑, Bull",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-w4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging privacy compliance layer",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-w4-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: niche, no compliance use case yet",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "pos-fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-fade-badge",
+        "pos-fade-name",
+        "pos-fade-desc",
+        "pos-fade-bear"
+      ]
+    },
+    "pos-fade-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "pos-fade-name": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Infrastructure (generic) — 2 ↓, Cope",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "pos-fade-desc": {
+      "type": "Text",
+      "props": {
+        "text": "sub-narratives cannibalizing",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-fade-bear": {
+      "type": "Text",
+      "props": {
+        "text": "rebranding fatigue",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-heading",
+        "stage-emerging",
+        "stage-rising",
+        "stage-peak",
+        "stage-fading",
+        "stage-dead"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NARRATIVE LIFECYCLE MAP",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stage-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "emerging-label",
+        "emerging-item-1",
+        "emerging-item-2"
+      ]
+    },
+    "emerging-label": {
+      "type": "Badge",
+      "props": {
+        "text": "EMERGING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "emerging-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-Chain Infrastructure",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "emerging-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "ZK / Privacy-Compliance Bridge",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stage-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rising-label",
+        "rising-item-1",
+        "rising-item-2",
+        "rising-item-3",
+        "rising-item-4",
+        "rising-item-5",
+        "rising-item-6",
+        "rising-item-7"
+      ]
+    },
+    "rising-label": {
+      "type": "Badge",
+      "props": {
+        "text": "RISING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "rising-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi / Kaito",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rising-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "AI x DePIN",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rising-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "RWA",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rising-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rising-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "XRP ETF",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rising-item-6": {
+      "type": "Text",
+      "props": {
+        "text": "FHE",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "rising-item-7": {
+      "type": "Text",
+      "props": {
+        "text": "September Seasonality",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stage-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "peak-label",
+        "peak-item"
+      ]
+    },
+    "peak-label": {
+      "type": "Badge",
+      "props": {
+        "text": "PEAK",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "peak-item": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / Base x402",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stage-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fading-label",
+        "fading-item"
+      ]
+    },
+    "fading-label": {
+      "type": "Badge",
+      "props": {
+        "text": "FADING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "fading-item": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Infrastructure (generic)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stage-dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dead-label",
+        "dead-item-1",
+        "dead-item-2",
+        "dead-item-3",
+        "dead-item-4"
+      ]
+    },
+    "dead-label": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "dead-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Post-FOMC Relief Rally",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "dead-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "L2/DeFi Rotation",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "dead-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "AI Memecoins",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "dead-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
