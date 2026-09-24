@@ -1,0 +1,444 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-24"
+      },
+      "children": [
+        "top-pick-section",
+        "sep1",
+        "ai-ml-section",
+        "sep2",
+        "web-apps-section",
+        "sep3",
+        "sources"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-h",
+        "top-pick-item"
+      ]
+    },
+    "top-pick-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h2"
+      }
+    },
+    "top-pick-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top-pick-link",
+        "top-pick-desc"
+      ]
+    },
+    "top-pick-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "obra/superpowers",
+        "href": "https://github.com/obra/superpowers",
+        "source": "GitHub"
+      }
+    },
+    "top-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "A skills-based agentic framework with 291K stars in under a year — the composable shell-skill methodology may be the most-adopted agentic pattern you haven't yet audited.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai-ml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-h",
+        "ai-ml-list"
+      ]
+    },
+    "ai-ml-h": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "ai-ml-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "ai-ml-1",
+        "ai-ml-2",
+        "ai-ml-3",
+        "ai-ml-4"
+      ]
+    },
+    "ai-ml-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-1-meta",
+        "ai-ml-1-desc"
+      ]
+    },
+    "ai-ml-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-1-link",
+        "ai-ml-1-stars",
+        "ai-ml-1-lang",
+        "ai-ml-1-tag"
+      ]
+    },
+    "ai-ml-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "vectorize-io/hindsight",
+        "href": "https://github.com/vectorize-io/hindsight"
+      }
+    },
+    "ai-ml-1-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1,607 today (27K total)",
+        "variant": "caption"
+      }
+    },
+    "ai-ml-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "ai-ml-1-tag": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "ai-ml-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Agent memory that rewrites itself after each run — compounds experience instead of just retrieving it.",
+        "variant": "body"
+      }
+    },
+    "ai-ml-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-2-meta",
+        "ai-ml-2-desc"
+      ]
+    },
+    "ai-ml-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-2-link",
+        "ai-ml-2-stars",
+        "ai-ml-2-lang",
+        "ai-ml-2-tag"
+      ]
+    },
+    "ai-ml-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HKUDS/CLI-Anything",
+        "href": "https://github.com/HKUDS/CLI-Anything"
+      }
+    },
+    "ai-ml-2-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 415 today (50K total)",
+        "variant": "caption"
+      }
+    },
+    "ai-ml-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "ai-ml-2-tag": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "ai-ml-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Wraps any existing CLI tool into a callable agent interface without modifying the tool's source.",
+        "variant": "body"
+      }
+    },
+    "ai-ml-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-3-meta",
+        "ai-ml-3-desc"
+      ]
+    },
+    "ai-ml-3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-3-link",
+        "ai-ml-3-stars",
+        "ai-ml-3-lang",
+        "ai-ml-3-tag"
+      ]
+    },
+    "ai-ml-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "strands-agents/harness-sdk",
+        "href": "https://github.com/strands-agents/harness-sdk"
+      }
+    },
+    "ai-ml-3-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 463 today (8.1K total)",
+        "variant": "caption"
+      }
+    },
+    "ai-ml-3-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "ai-ml-3-tag": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "ai-ml-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Production agent SDK with built-in model routing and cloud portability — removes the infra boilerplate.",
+        "variant": "body"
+      }
+    },
+    "ai-ml-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-4-meta",
+        "ai-ml-4-desc"
+      ]
+    },
+    "ai-ml-4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai-ml-4-link",
+        "ai-ml-4-stars",
+        "ai-ml-4-lang",
+        "ai-ml-4-tag"
+      ]
+    },
+    "ai-ml-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "obra/superpowers",
+        "href": "https://github.com/obra/superpowers"
+      }
+    },
+    "ai-ml-4-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 606 today (291K total)",
+        "variant": "caption"
+      }
+    },
+    "ai-ml-4-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell",
+        "variant": "secondary"
+      }
+    },
+    "ai-ml-4-tag": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "ai-ml-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Skills-based agentic methodology in composable shell scripts — 291K stars in under a year signals genuine adoption.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "web-apps-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web-apps-h",
+        "web-apps-list"
+      ]
+    },
+    "web-apps-h": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h2"
+      }
+    },
+    "web-apps-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "web-1"
+      ]
+    },
+    "web-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "web-1-meta",
+        "web-1-desc"
+      ]
+    },
+    "web-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "web-1-link",
+        "web-1-stars",
+        "web-1-lang",
+        "web-1-tag"
+      ]
+    },
+    "web-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "FxEmbed/FxEmbed",
+        "href": "https://github.com/FxEmbed/FxEmbed"
+      }
+    },
+    "web-1-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 165 today (5.3K total)",
+        "variant": "caption"
+      }
+    },
+    "web-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "web-1-tag": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "web-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Drop-in proxy restoring rich embeds for X/Twitter and Bluesky in Discord and Telegram.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/14",
+        "variant": "muted"
+      }
+    }
+  }
+}

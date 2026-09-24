@@ -1,25 +1,24 @@
-*GitHub Trending — 2026-09-23*
+*GitHub Trending — 2026-09-24*
 
-*Top pick* — [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock)
-Highest-momentum new pick today: self-hosted Bloomberg/TradingView alternative with real-time quotes, screeners, and portfolio tracking — 832★ and sustained 51★/day velocity.
+*Top pick* — [obra/superpowers](https://github.com/obra/superpowers)
+A skills-based agentic framework with 291K stars in under a year — the composable shell-skill methodology may be the most-adopted agentic pattern you haven't yet audited.
 
 *AI/ML*
-• [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native) — ★ 609 today (6.4K total) · TypeScript · [RETURNING]
-BuilderIO ships a TypeScript framework treating agents as first-class app primitives — not chatbot wrappers bolted onto existing apps.
+• [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) — ★ 1,607 today (27K total) · Python · [ACCELERATING]
+Agent memory that rewrites itself after each run — compounds experience instead of just retrieving it.
 
-• [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — ★ 287 today (70K total) · JavaScript · [ACCELERATING]
-Declarative design language for agent harness optimization; 70K-star project resurfaces with a 9/22 push at 225★/day average velocity.
+• [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) — ★ 415 today (50K total) · Python · [ACCELERATING]
+Wraps any existing CLI tool into a callable agent interface without modifying the tool's source.
 
-*Devtools*
-• [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) — ★ 393 today (31K total) · Python · [ACCELERATING]
-CLI scaffold and health monitoring for Claude Code projects; 12× overnight star spike (33→393) signals a major version release.
+• [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) — ★ 463 today (8.1K total) · Python · [RETURNING]
+Production agent SDK with built-in model routing and cloud portability — removes the infra boilerplate.
 
-• [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) — ★ 201 today (44K total) · C · [ACCELERATING]
-C-native MCP server for codebase indexing — native-speed symbol lookups without Python overhead, 44K stars of prior traction.
+• [obra/superpowers](https://github.com/obra/superpowers) — ★ 606 today (291K total) · Shell · [RETURNING]
+Skills-based agentic methodology in composable shell scripts — 291K stars in under a year signals genuine adoption.
 
 *Web/Apps*
-• [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) — ★ 832 today (18.6K total) · TypeScript · [ACCELERATING]
-Open-source Bloomberg alternative: real-time quotes, screeners, and portfolio tracking — zero subscription cost.
+• [FxEmbed/FxEmbed](https://github.com/FxEmbed/FxEmbed) — ★ 165 today (5.3K total) · TypeScript · [RETURNING]
+Drop-in proxy restoring rich embeds for X/Twitter and Bluesky in Discord and Telegram.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/17
+sources: trending=ok · gh_api=ok · kept 5/14
