@@ -1,0 +1,209 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-09-24"
+      },
+      "children": [
+        "heading-token",
+        "stack-token-details",
+        "separator-1",
+        "heading-market",
+        "stack-market-details",
+        "separator-2",
+        "text-sources"
+      ]
+    },
+    "heading-token": {
+      "type": "Heading",
+      "props": {
+        "text": "ONDO",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-token-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-signal",
+        "stat-price",
+        "stat-mcap",
+        "stat-volume",
+        "text-score-breakdown",
+        "text-catalyst",
+        "text-risk",
+        "text-vs-picks"
+      ]
+    },
+    "badge-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "[HIGH] signal 10/10",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price (24h / 7d)",
+        "value": "$0.52",
+        "delta": "+24.1% / +39.5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$2.51B",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$856M",
+        "delta": "vol/mcap: 0.341",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "text-score-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [24h>0 +1, 7d>0 +1, both>5% +2, vol/mcap≥0.20 +3, RS vs BTC/ETH +2, CG trending +2] = 11→10/10",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: Ondo launched three BlackRock-powered Intelligent Portfolio tokens today — BLKHIon/BLKDIGon/BLKGRWon — enabling on-chain institutional strategies for non-US qualified investors (The Block, PR Newswire, Sep 24)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: Buy-the-news setup — widely telegraphed, already +24%, still -59% from ATH; profit-taking pressure likely",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-vs-picks": {
+      "type": "Text",
+      "props": {
+        "text": "vs recent picks: first time picked",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Fed increase rates 25 bps (October 2026)?",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-market-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-market-signal",
+        "text-odds",
+        "text-fair-odds",
+        "progress-odds",
+        "text-thesis",
+        "text-market-risk"
+      ]
+    },
+    "badge-market-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "[MEDIUM] edge 5.5pp",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-odds": {
+      "type": "Text",
+      "props": {
+        "text": "Current: YES 66.5¢ / NO 33.5¢ | 24h vol $445K | resolves: 2026-10-29",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-fair-odds": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~72% (inputs: [CME FedWatch post-Barr/CPI Sep 23 = 73%], [earlier CME baseline = 54-55%], [current market repricing trajectory])",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "progress-odds": {
+      "type": "Progress",
+      "props": {
+        "value": 72,
+        "max": 100,
+        "label": "Fair YES probability"
+      },
+      "children": []
+    },
+    "text-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: YES is underpriced — CME FedWatch jumped to 73% yesterday after Fed Governor Barr explicitly backed an October hike alongside a hot inflation print; Polymarket at 66.5¢ lags this shift",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-market-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: Soft PCE or payrolls next week would collapse hike odds sharply back toward 50-55¢",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=ok, poly=ok | not financial advice — pattern-matching only",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
