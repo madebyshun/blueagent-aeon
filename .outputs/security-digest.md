@@ -1,46 +1,41 @@
-*Security Digest — 2026-09-23*
-Verdict: 3 actively exploited (KEV), 5 in stack to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-09-24*
+Verdict: 1 KEV due tomorrow + 1 critical PoC, 4 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- [CVE-2026-93616](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Check Point Multiple Products · KEV added 2026-09-22 · EPSS 0.024
-  Path traversal → unauth upload + arbitrary script execution. Exploited per CISA.
-  → apply Check Point hotfix immediately; restrict management interface access.
+- [CVE-2026-93952](https://www.arista.com/en/support/advisories-notices/security-advisory/24765-security-advisory-0183) — Arista VeloCloud Orchestrator · KEV added 2026-09-22 · EPSS 0.009 · BOD 26-04 due 2026-09-25
+  Improper input validation enables remote privilege escalation + RCE. Actively exploited per CISA. BOD remediation due tomorrow.
+  → apply Arista vendor mitigations or discontinue internet exposure today.
 
-- [CVE-2026-94127](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — F5 BIG-IP APM · KEV added 2026-09-22 · EPSS 0.014
-  Heap buffer overflow → unauth RCE when OAuth profile is configured. Exploited per CISA.
-  → patch BIG-IP APM immediately; disable OAuth profile if patch unavailable.
-
-- [CVE-2026-85102](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Check Point Multiple Products (VPN) · KEV added 2026-09-22 · EPSS 0.007
-  Improper cert validation in VPN → unauth remote code execution. Exploited per CISA.
-  → apply Check Point VPN hotfix immediately.
+- [CVE-2026-59167](https://github.com/advisories/GHSA-6rf4-v2fh-m6p4) — suneditor (npm) · CVSS 10.0 · EPSS 0.004 · public PoC
+  Sanitizer bypass via namespaced HTML elements enables stored XSS, session hijack, credential theft. PoC published.
+  → upgrade suneditor to ≥2.47.11 and redeploy.
 
 *PATCH THIS WEEK*
-- [CVE-2026-77244](https://github.com/advisories/GHSA-wrhw-j3f9-8vc6) — mcp-atlassian (pip) · CVSS 10.0 · EPSS 0.005 · no patch yet
-  HTTP transport accepts any opaque token — full auth bypass. 15+ CVEs filed against mcp-atlassian this week.
-  → disable HTTP transport mode; restrict access until patch; monitor github.com/sooperset/mcp-atlassian.
+- [CVE-2026-91130](https://github.com/advisories/GHSA-wx4m-69m9-gx3m) — homeassistant (pip) · CVSS 9.3 · EPSS 0.004 · public PoC
+  Statistics Graph card renders entity names as raw HTML; integration providers can silently deliver XSS.
+  → upgrade homeassistant to ≥2026.7.0.
 
-- [CVE-2026-57149](https://github.com/advisories/GHSA-rr49-f9g6-c9r5) — plone.app.portlets (pip) · CVSS 9.9 · EPSS 0.006 · no patch yet
-  TALES expression injection via portlets → arbitrary code execution. All versions affected.
-  → restrict editor portlet access to trusted users now; monitor Plone security releases.
+- [CVE-2026-63132](https://github.com/advisories/GHSA-34fc-gh42-pj53) — openbao (Go) · CVSS 9.1 · EPSS 0.005
+  Timing attack on recovery mode token validation allows full instance compromise.
+  → upgrade github.com/openbao/openbao to ≥v2.6.0.
 
-- [CVE-2026-77243](https://github.com/advisories/GHSA-3r68-hf9h-887v) — mcp-atlassian (pip) · CVSS 8.8 · EPSS 0.005 · no patch yet
-  ENABLED_TOOLS toolset auth bypass — restricted tool set can be circumvented.
-  → same remediation as CVE-2026-77244; part of mcp-atlassian cluster.
+- [CVE-2026-61685](https://github.com/advisories/GHSA-wmw4-mw6x-6vfm) — @fecommunity/reactpress (npm) · High · EPSS 0.005
+  SQL injection via dynamic column names in TypeORM query builders.
+  → schedule upgrade to patched version.
 
-- [CVE-2026-62371](https://github.com/advisories/GHSA-5jpj-293f-rhvj) — KubeEdge (go) · CVSS 8.8 · EPSS 0.005 · no patch yet
-  NodeUpgradeJob cmd injection via v1alpha2 API → RCE on edge nodes.
-  → restrict cloud-side NodeUpgradeJob API; require network policy on edge node access.
-
-- [CVE-2026-62182](https://github.com/advisories/GHSA-m3c6-2p7h-cfr3) — KubeEdge (go) · CVSS 8.8 · EPSS 0.005 · no patch yet
-  ConfigUpdateJob updateFields shell injection → code execution on edge nodes.
-  → restrict cloud-side ConfigUpdateJob API; monitor KubeEdge releases for patch.
+- [CVE-2026-58269](https://github.com/advisories/GHSA-92cr-jxw4-5wjg) — @sync-in/server (npm) · High · EPSS 0.002
+  Complete 2FA bypass via POST /api/auth/token.
+  → schedule upgrade to patched version.
 
 *MONITOR*
-- [CVE-2026-76819](https://github.com/advisories/GHSA-vxg7-f2jj-jmqm) — nuclei/v3 (go) · CVSS 8.6 · no fix yet
-  Goja JS engine ACE via crafted Nuclei template. → run only trusted templates; watch for patched release.
+- [CVE-2026-85734](https://github.com/advisories/GHSA-frch-4w6v-q5xx) — lightrag-hku (pip) · Critical · EPSS 0.004 · no patch
+  No rate limiting on /login allows brute-force credential attacks.
+  → add reverse-proxy rate limiting; watch for patch.
 
-- [CVE-2026-77262](https://github.com/advisories/GHSA-p6hp-93wp-fh6p) — mcp-atlassian (pip) · CVSS 8.6 · no fix yet
-  confluence_upload_attachment path traversal → arbitrary server file read. → part of mcp-atlassian cluster above.
+- [CVE-2026-77394](https://github.com/advisories/GHSA-gvf2-2rh5-mpgf) — @openc3/vue-common (npm) · High · EPSS 0.004
+  Stored cross-user XSS via Telemetry screen BUTTON widget.
+  → restrict telemetry UI access; track GHSA-gvf2-2rh5-mpgf for patch.
 
-- [CVE-2026-77426](https://github.com/advisories/GHSA-72h8-wp98-7hch) — unleash-server (npm) · CVSS n/a · no fix yet
-  Missing await on perm check + cross-project IDOR in admin API. → restrict Unleash admin API exposure.
+- [CVE-2026-56681](https://github.com/advisories/GHSA-5mj8-gf6m-fhw8) — 9router (npm) · High · EPSS 0.005
+  Auth bypass via spoofable X-9r-Real-Ip header in LLM API routes.
+  → avoid exposing LLM API publicly; watch for patched release.

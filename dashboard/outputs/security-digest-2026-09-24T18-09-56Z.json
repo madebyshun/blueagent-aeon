@@ -1,0 +1,678 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-09-24",
+        "description": "Verdict: 1 KEV due tomorrow + 1 critical PoC, 4 to schedule, 3 to monitor"
+      },
+      "children": [
+        "verdict_alert",
+        "sep_1",
+        "section_patch_today",
+        "sep_2",
+        "section_patch_week",
+        "sep_3",
+        "section_monitor"
+      ]
+    },
+    "verdict_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "1 KEV due tomorrow + 1 critical PoC, 4 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_patch_today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_patch_today",
+        "cve_93952",
+        "cve_59167"
+      ]
+    },
+    "heading_patch_today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h3"
+      }
+    },
+    "cve_93952": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_93952_title",
+        "cve_93952_badges",
+        "cve_93952_desc",
+        "cve_93952_action"
+      ]
+    },
+    "cve_93952_title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-93952 — Arista VeloCloud Orchestrator",
+        "href": "https://www.arista.com/en/support/advisories-notices/security-advisory/24765-security-advisory-0183"
+      }
+    },
+    "cve_93952_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_93952_kev",
+        "badge_93952_added",
+        "badge_93952_epss",
+        "badge_93952_bod"
+      ]
+    },
+    "badge_93952_kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV",
+        "variant": "destructive"
+      }
+    },
+    "badge_93952_added": {
+      "type": "Badge",
+      "props": {
+        "text": "added 2026-09-22",
+        "variant": "secondary"
+      }
+    },
+    "badge_93952_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.009",
+        "variant": "secondary"
+      }
+    },
+    "badge_93952_bod": {
+      "type": "Badge",
+      "props": {
+        "text": "BOD 26-04 due 2026-09-25",
+        "variant": "destructive"
+      }
+    },
+    "cve_93952_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Improper input validation enables remote privilege escalation + RCE. Actively exploited per CISA. BOD remediation due tomorrow.",
+        "variant": "body"
+      }
+    },
+    "cve_93952_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Arista vendor mitigations or discontinue internet exposure today.",
+        "variant": "caption"
+      }
+    },
+    "cve_59167": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_59167_title",
+        "cve_59167_badges",
+        "cve_59167_desc",
+        "cve_59167_action"
+      ]
+    },
+    "cve_59167_title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-59167 — suneditor (npm)",
+        "href": "https://github.com/advisories/GHSA-6rf4-v2fh-m6p4"
+      }
+    },
+    "cve_59167_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_59167_cvss",
+        "badge_59167_epss",
+        "badge_59167_poc"
+      ]
+    },
+    "badge_59167_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 10.0",
+        "variant": "destructive"
+      }
+    },
+    "badge_59167_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      }
+    },
+    "badge_59167_poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "destructive"
+      }
+    },
+    "cve_59167_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Sanitizer bypass via namespaced HTML elements enables stored XSS, session hijack, credential theft. PoC published.",
+        "variant": "body"
+      }
+    },
+    "cve_59167_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade suneditor to ≥2.47.11 and redeploy.",
+        "variant": "caption"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_patch_week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_patch_week",
+        "cve_91130",
+        "cve_63132",
+        "cve_61685",
+        "cve_58269"
+      ]
+    },
+    "heading_patch_week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h3"
+      }
+    },
+    "cve_91130": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_91130_title",
+        "cve_91130_badges",
+        "cve_91130_desc",
+        "cve_91130_action"
+      ]
+    },
+    "cve_91130_title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-91130 — homeassistant (pip)",
+        "href": "https://github.com/advisories/GHSA-wx4m-69m9-gx3m"
+      }
+    },
+    "cve_91130_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_91130_cvss",
+        "badge_91130_epss",
+        "badge_91130_poc"
+      ]
+    },
+    "badge_91130_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.3",
+        "variant": "destructive"
+      }
+    },
+    "badge_91130_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      }
+    },
+    "badge_91130_poc": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "destructive"
+      }
+    },
+    "cve_91130_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Statistics Graph card renders entity names as raw HTML; integration providers can silently deliver XSS.",
+        "variant": "body"
+      }
+    },
+    "cve_91130_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade homeassistant to ≥2026.7.0.",
+        "variant": "caption"
+      }
+    },
+    "cve_63132": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_63132_title",
+        "cve_63132_badges",
+        "cve_63132_desc",
+        "cve_63132_action"
+      ]
+    },
+    "cve_63132_title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-63132 — openbao (Go)",
+        "href": "https://github.com/advisories/GHSA-34fc-gh42-pj53"
+      }
+    },
+    "cve_63132_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_63132_cvss",
+        "badge_63132_epss"
+      ]
+    },
+    "badge_63132_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.1",
+        "variant": "destructive"
+      }
+    },
+    "badge_63132_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.005",
+        "variant": "secondary"
+      }
+    },
+    "cve_63132_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Timing attack on recovery mode token validation allows full instance compromise.",
+        "variant": "body"
+      }
+    },
+    "cve_63132_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade github.com/openbao/openbao to ≥v2.6.0.",
+        "variant": "caption"
+      }
+    },
+    "cve_61685": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_61685_title",
+        "cve_61685_badges",
+        "cve_61685_desc",
+        "cve_61685_action"
+      ]
+    },
+    "cve_61685_title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-61685 — @fecommunity/reactpress (npm)",
+        "href": "https://github.com/advisories/GHSA-wmw4-mw6x-6vfm"
+      }
+    },
+    "cve_61685_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_61685_severity",
+        "badge_61685_epss"
+      ]
+    },
+    "badge_61685_severity": {
+      "type": "Badge",
+      "props": {
+        "text": "High",
+        "variant": "destructive"
+      }
+    },
+    "badge_61685_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.005",
+        "variant": "secondary"
+      }
+    },
+    "cve_61685_desc": {
+      "type": "Text",
+      "props": {
+        "text": "SQL injection via dynamic column names in TypeORM query builders.",
+        "variant": "body"
+      }
+    },
+    "cve_61685_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade to patched version.",
+        "variant": "caption"
+      }
+    },
+    "cve_58269": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_58269_title",
+        "cve_58269_badges",
+        "cve_58269_desc",
+        "cve_58269_action"
+      ]
+    },
+    "cve_58269_title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-58269 — @sync-in/server (npm)",
+        "href": "https://github.com/advisories/GHSA-92cr-jxw4-5wjg"
+      }
+    },
+    "cve_58269_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_58269_severity",
+        "badge_58269_epss"
+      ]
+    },
+    "badge_58269_severity": {
+      "type": "Badge",
+      "props": {
+        "text": "High",
+        "variant": "destructive"
+      }
+    },
+    "badge_58269_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.002",
+        "variant": "secondary"
+      }
+    },
+    "cve_58269_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Complete 2FA bypass via POST /api/auth/token.",
+        "variant": "body"
+      }
+    },
+    "cve_58269_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule upgrade to patched version.",
+        "variant": "caption"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_monitor",
+        "cve_85734",
+        "cve_77394",
+        "cve_56681"
+      ]
+    },
+    "heading_monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h3"
+      }
+    },
+    "cve_85734": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_85734_title",
+        "cve_85734_badges",
+        "cve_85734_desc",
+        "cve_85734_action"
+      ]
+    },
+    "cve_85734_title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-85734 — lightrag-hku (pip)",
+        "href": "https://github.com/advisories/GHSA-frch-4w6v-q5xx"
+      }
+    },
+    "cve_85734_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_85734_severity",
+        "badge_85734_epss",
+        "badge_85734_patch"
+      ]
+    },
+    "badge_85734_severity": {
+      "type": "Badge",
+      "props": {
+        "text": "Critical",
+        "variant": "destructive"
+      }
+    },
+    "badge_85734_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      }
+    },
+    "badge_85734_patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch",
+        "variant": "outline"
+      }
+    },
+    "cve_85734_desc": {
+      "type": "Text",
+      "props": {
+        "text": "No rate limiting on /login allows brute-force credential attacks.",
+        "variant": "body"
+      }
+    },
+    "cve_85734_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ add reverse-proxy rate limiting; watch for patch.",
+        "variant": "caption"
+      }
+    },
+    "cve_77394": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_77394_title",
+        "cve_77394_badges",
+        "cve_77394_desc",
+        "cve_77394_action"
+      ]
+    },
+    "cve_77394_title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-77394 — @openc3/vue-common (npm)",
+        "href": "https://github.com/advisories/GHSA-gvf2-2rh5-mpgf"
+      }
+    },
+    "cve_77394_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_77394_severity",
+        "badge_77394_epss"
+      ]
+    },
+    "badge_77394_severity": {
+      "type": "Badge",
+      "props": {
+        "text": "High",
+        "variant": "destructive"
+      }
+    },
+    "badge_77394_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      }
+    },
+    "cve_77394_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Stored cross-user XSS via Telemetry screen BUTTON widget.",
+        "variant": "body"
+      }
+    },
+    "cve_77394_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ restrict telemetry UI access; track GHSA-gvf2-2rh5-mpgf for patch.",
+        "variant": "caption"
+      }
+    },
+    "cve_56681": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_56681_title",
+        "cve_56681_badges",
+        "cve_56681_desc",
+        "cve_56681_action"
+      ]
+    },
+    "cve_56681_title": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-56681 — 9router (npm)",
+        "href": "https://github.com/advisories/GHSA-5mj8-gf6m-fhw8"
+      }
+    },
+    "cve_56681_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_56681_severity",
+        "badge_56681_epss"
+      ]
+    },
+    "badge_56681_severity": {
+      "type": "Badge",
+      "props": {
+        "text": "High",
+        "variant": "destructive"
+      }
+    },
+    "badge_56681_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.005",
+        "variant": "secondary"
+      }
+    },
+    "cve_56681_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass via spoofable X-9r-Real-Ip header in LLM API routes.",
+        "variant": "body"
+      }
+    },
+    "cve_56681_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ avoid exposing LLM API publicly; watch for patched release.",
+        "variant": "caption"
+      }
+    }
+  }
+}
