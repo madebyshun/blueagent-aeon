@@ -1,17 +1,17 @@
-The temp files can't be deleted via sandbox — leaving them as harmless dotfiles. The skill run is complete.
+Done. Here's what was completed:
 
 ## Summary
 
-**Data fetched:** CoinGecko markets (250 coins) and trending endpoints — both live via WebFetch.
+**Data fetched:** CoinGecko top-250 markets + trending (via WebFetch fallback, curl was blocked by sandbox).
 
-**Market pulse:** Risk-off day. Only 28/100 top coins green (down from 54/100 yesterday), median top-50 change −1.9%. BTC holding near $84K while alts sold broadly.
+**Market pulse:** Alt rotation day — 68/100 top coins green. BTC flat at +0.1% while alts lead.
 
-**Key signals:**
-- **[PUMP-RISK]** ASTRO: +117.2% for second consecutive day, 24h vol ($54M) exceeds market cap ($52M)
-- **[TRENDING+UP]** cluster: ZRO, DRV, LIT, PENGU, NEAR — DeFi infrastructure names holding against the tape
-- **[TRENDING+DOWN]** STONK (−11.1%), EDEL (−13.4%), AVAX (−7.0%) — trending names all declining
-- Reversal from yesterday: HBAR, TAO, STACKS all flipped from yesterday's winners to today's losers
+**Top signals:**
+- ONDO +24.1% and LTC +23.2% — both in trending with real volume [TRENDING+UP], sharpest moves of the day
+- NEAR [TRENDING+UP] +8.3% (skipped from winners list — same direction/magnitude/tag as Sep 22)
+- ASTRO #789 −52% while trending [TRENDING+DOWN][MICROCAP] — severe capitulation, vol/mcap 1.8×
+- BP (Backpack) #163 +22% — [PUMP-RISK] flag applied
 
-**Files written:**
-- `.pending-notify/1758636000.md` — notification queued for post-run delivery
-- `memory/logs/2026-09-23.md` — activity log appended
+**Files modified:**
+- `.pending-notify/1790266224.md` — notification queued for post-run delivery (sandbox blocked direct `./notify` call)
+- `memory/logs/2026-09-24.md` — log entry appended
