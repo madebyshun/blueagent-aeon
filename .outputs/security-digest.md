@@ -1,41 +1,37 @@
-*Security Digest — 2026-09-24*
-Verdict: 1 KEV due tomorrow + 1 critical PoC, 4 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-09-25*
+Verdict: 3 actively exploited, 2 to schedule, 3 to monitor. _Sources: CISA KEV, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- [CVE-2026-93952](https://www.arista.com/en/support/advisories-notices/security-advisory/24765-security-advisory-0183) — Arista VeloCloud Orchestrator · KEV added 2026-09-22 · EPSS 0.009 · BOD 26-04 due 2026-09-25
-  Improper input validation enables remote privilege escalation + RCE. Actively exploited per CISA. BOD remediation due tomorrow.
-  → apply Arista vendor mitigations or discontinue internet exposure today.
+- [CVE-2026-71362](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Adobe Commerce/Magento · KEV 2026-09-24 · EPSS 0.896 · CVSS N/A
+  Incorrect authz → elevated resource access, no interaction needed. Due 2026-09-27 (tomorrow).
+  → apply Adobe security patches immediately; discontinue if unavailable.
 
-- [CVE-2026-59167](https://github.com/advisories/GHSA-6rf4-v2fh-m6p4) — suneditor (npm) · CVSS 10.0 · EPSS 0.004 · public PoC
-  Sanitizer bypass via namespaced HTML elements enables stored XSS, session hijack, credential theft. PoC published.
-  → upgrade suneditor to ≥2.47.11 and redeploy.
+- [CVE-2026-61732](https://github.com/advisories/GHSA-g5f9-3xfg-p9mf) — decepticon-core/decepticon-sdk (pip) · CVSS 10.0 · EPSS 0.012 · public PoC
+  ChatML token injection via crawled pages forges operator turns → RCE in agent sandbox. All 16 specialist agents affected.
+  → upgrade decepticon/decepticon-core/decepticon-sdk to ≥ 1.1.17 today.
+
+- [CVE-2025-39682](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Linux Kernel TLS · KEV 2026-09-18 · EPSS 0.029 · CVSS N/A
+  Zero-length TLS records bypass handler, corrupting subsequent record processing.
+  → apply kernel updates; prioritize internet-facing hosts (past due 2026-09-21).
 
 *PATCH THIS WEEK*
-- [CVE-2026-91130](https://github.com/advisories/GHSA-wx4m-69m9-gx3m) — homeassistant (pip) · CVSS 9.3 · EPSS 0.004 · public PoC
-  Statistics Graph card renders entity names as raw HTML; integration providers can silently deliver XSS.
-  → upgrade homeassistant to ≥2026.7.0.
+- [CVE-2026-59723](https://github.com/advisories/GHSA-3cj3-hqcr-g934) — cline (npm) · CVSS 8.8 · EPSS 0.002 · public PoC
+  Cross-origin WebSocket hijack via cline dashboard → RCE, credential theft when victim visits attacker page.
+  → upgrade cline to ≥ 3.0.30.
 
-- [CVE-2026-63132](https://github.com/advisories/GHSA-34fc-gh42-pj53) — openbao (Go) · CVSS 9.1 · EPSS 0.005
-  Timing attack on recovery mode token validation allows full instance compromise.
-  → upgrade github.com/openbao/openbao to ≥v2.6.0.
-
-- [CVE-2026-61685](https://github.com/advisories/GHSA-wmw4-mw6x-6vfm) — @fecommunity/reactpress (npm) · High · EPSS 0.005
-  SQL injection via dynamic column names in TypeORM query builders.
-  → schedule upgrade to patched version.
-
-- [CVE-2026-58269](https://github.com/advisories/GHSA-92cr-jxw4-5wjg) — @sync-in/server (npm) · High · EPSS 0.002
-  Complete 2FA bypass via POST /api/auth/token.
-  → schedule upgrade to patched version.
+- [CVE-2026-57171](https://github.com/advisories/GHSA-r4vp-3vw6-r2x5) — compliance-trestle (pip) · CVSS 8.4 · EPSS 0.002 · no PoC
+  Path traversal in author generate commands allows arbitrary file write.
+  → upgrade compliance-trestle to ≥ 3.12.4 (3.x) or ≥ 4.1.0 (4.x).
 
 *MONITOR*
-- [CVE-2026-85734](https://github.com/advisories/GHSA-frch-4w6v-q5xx) — lightrag-hku (pip) · Critical · EPSS 0.004 · no patch
-  No rate limiting on /login allows brute-force credential attacks.
-  → add reverse-proxy rate limiting; watch for patch.
+- [CVE-2026-57231](https://github.com/advisories/GHSA-4hq8-gpf5-8p68) — podman (Go) · CVSS 7.5 · EPSS 0.004 · no fix yet
+  Malformed image leaks host env vars into container at run time.
+  → avoid untrusted images; track GHSA-4hq8-gpf5-8p68.
 
-- [CVE-2026-77394](https://github.com/advisories/GHSA-gvf2-2rh5-mpgf) — @openc3/vue-common (npm) · High · EPSS 0.004
-  Stored cross-user XSS via Telemetry screen BUTTON widget.
-  → restrict telemetry UI access; track GHSA-gvf2-2rh5-mpgf for patch.
+- [CVE-2026-61782](https://github.com/advisories/GHSA-jmg2-rcxh-w8q3) — @rsdoctor/rspack-plugin (npm) · CVSS 7.5 · EPSS 0.004 · no fix yet
+  Unauthenticated HTTP API exposes full project source code and build metadata.
+  → restrict build-tool ports; track GHSA-jmg2-rcxh-w8q3.
 
-- [CVE-2026-56681](https://github.com/advisories/GHSA-5mj8-gf6m-fhw8) — 9router (npm) · High · EPSS 0.005
-  Auth bypass via spoofable X-9r-Real-Ip header in LLM API routes.
-  → avoid exposing LLM API publicly; watch for patched release.
+- [CVE-2026-61604](https://github.com/advisories/GHSA-w3rp-4cm2-4wgc) — ixo-blockchain (Go) · critical · EPSS 0.003 · no fix yet
+  DID-resolved payer drain + ICA authorization bypass in x/bonds and x/entity modules.
+  → track GHSA-w3rp-4cm2-4wgc; no patch available for v7 or below.

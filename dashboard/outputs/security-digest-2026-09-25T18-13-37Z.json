@@ -1,0 +1,307 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-09-25"
+      },
+      "children": [
+        "verdict-alert",
+        "sep1",
+        "patch-today-section",
+        "sep2",
+        "patch-week-section",
+        "sep3",
+        "monitor-section"
+      ]
+    },
+    "verdict-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "3 actively exploited, 2 to schedule, 3 to monitor. Sources: CISA KEV, GH Advisory, EPSS"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch-today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-today-heading",
+        "cve-71362",
+        "cve-61732",
+        "cve-39682"
+      ]
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve-71362": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-71362-link",
+        "cve-71362-details"
+      ]
+    },
+    "cve-71362-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-71362 — Adobe Commerce/Magento",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "CISA KEV"
+      }
+    },
+    "cve-71362-details": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-09-24 · EPSS 0.896 · CVSS N/A\nIncorrect authz → elevated resource access, no interaction needed. Due 2026-09-27 (tomorrow).\n→ apply Adobe security patches immediately; discontinue if unavailable.",
+        "variant": "caption"
+      }
+    },
+    "cve-61732": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-61732-link",
+        "cve-61732-details"
+      ]
+    },
+    "cve-61732-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-61732 — decepticon-core/decepticon-sdk (pip)",
+        "href": "https://github.com/advisories/GHSA-g5f9-3xfg-p9mf",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-61732-details": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 10.0 · EPSS 0.012 · public PoC\nChatML token injection via crawled pages forges operator turns → RCE in agent sandbox. All 16 specialist agents affected.\n→ upgrade decepticon/decepticon-core/decepticon-sdk to ≥ 1.1.17 today.",
+        "variant": "caption"
+      }
+    },
+    "cve-39682": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-39682-link",
+        "cve-39682-details"
+      ]
+    },
+    "cve-39682-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2025-39682 — Linux Kernel TLS",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "CISA KEV"
+      }
+    },
+    "cve-39682-details": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-09-18 · EPSS 0.029 · CVSS N/A\nZero-length TLS records bypass handler, corrupting subsequent record processing.\n→ apply kernel updates; prioritize internet-facing hosts (past due 2026-09-21).",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch-week-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-week-heading",
+        "cve-59723",
+        "cve-57171"
+      ]
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "cve-59723": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-59723-link",
+        "cve-59723-details"
+      ]
+    },
+    "cve-59723-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-59723 — cline (npm)",
+        "href": "https://github.com/advisories/GHSA-3cj3-hqcr-g934",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-59723-details": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 8.8 · EPSS 0.002 · public PoC\nCross-origin WebSocket hijack via cline dashboard → RCE, credential theft when victim visits attacker page.\n→ upgrade cline to ≥ 3.0.30.",
+        "variant": "caption"
+      }
+    },
+    "cve-57171": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-57171-link",
+        "cve-57171-details"
+      ]
+    },
+    "cve-57171-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-57171 — compliance-trestle (pip)",
+        "href": "https://github.com/advisories/GHSA-r4vp-3vw6-r2x5",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-57171-details": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 8.4 · EPSS 0.002 · no PoC\nPath traversal in author generate commands allows arbitrary file write.\n→ upgrade compliance-trestle to ≥ 3.12.4 (3.x) or ≥ 4.1.0 (4.x).",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "monitor-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor-heading",
+        "cve-57231",
+        "cve-61782",
+        "cve-61604"
+      ]
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "cve-57231": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-57231-link",
+        "cve-57231-details"
+      ]
+    },
+    "cve-57231-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-57231 — podman (Go)",
+        "href": "https://github.com/advisories/GHSA-4hq8-gpf5-8p68",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-57231-details": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 7.5 · EPSS 0.004 · no fix yet\nMalformed image leaks host env vars into container at run time.\n→ avoid untrusted images; track GHSA-4hq8-gpf5-8p68.",
+        "variant": "caption"
+      }
+    },
+    "cve-61782": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-61782-link",
+        "cve-61782-details"
+      ]
+    },
+    "cve-61782-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-61782 — @rsdoctor/rspack-plugin (npm)",
+        "href": "https://github.com/advisories/GHSA-jmg2-rcxh-w8q3",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-61782-details": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 7.5 · EPSS 0.004 · no fix yet\nUnauthenticated HTTP API exposes full project source code and build metadata.\n→ restrict build-tool ports; track GHSA-jmg2-rcxh-w8q3.",
+        "variant": "caption"
+      }
+    },
+    "cve-61604": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-61604-link",
+        "cve-61604-details"
+      ]
+    },
+    "cve-61604-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-61604 — ixo-blockchain (Go)",
+        "href": "https://github.com/advisories/GHSA-w3rp-4cm2-4wgc",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve-61604-details": {
+      "type": "Text",
+      "props": {
+        "text": "critical · EPSS 0.003 · no fix yet\nDID-resolved payer drain + ICA authorization bypass in x/bonds and x/entity modules.\n→ track GHSA-w3rp-4cm2-4wgc; no patch available for v7 or below.",
+        "variant": "caption"
+      }
+    }
+  }
+}
