@@ -1,0 +1,217 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-09-25"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_section",
+        "focus_sep",
+        "yesterday_section",
+        "watch_sep",
+        "watch_section",
+        "running_sep",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_heading",
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item_1": {
+      "type": "Alert",
+      "props": {
+        "title": "CVE-2026-93952 (Arista VeloCloud)",
+        "message": "BOD 26-04 deadline closes today; patches live for 5.2/6.4",
+        "type": "error"
+      }
+    },
+    "focus_item_2": {
+      "type": "Alert",
+      "props": {
+        "title": "deal-flow repair",
+        "message": "18 days dark; next scheduled run (Sep 28) will fail again without fix",
+        "type": "warning"
+      }
+    },
+    "focus_item_3": {
+      "type": "Alert",
+      "props": {
+        "title": "xAI prefetch 403",
+        "message": "fifth consecutive day degraded; purchase credits at console.x.ai to restore narrative-tracker signal",
+        "type": "warning"
+      }
+    },
+    "focus_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_heading",
+        "yesterday_item_1",
+        "yesterday_item_2",
+        "yesterday_item_3"
+      ]
+    },
+    "yesterday_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO +24.1%: BlackRock launched BLKHIon/BLKDIGon/BLKGRWon on-chain portfolio tokens; token-pick logged ONDO (HIGH tier)",
+        "variant": "body"
+      }
+    },
+    "yesterday_item_2": {
+      "type": "Alert",
+      "props": {
+        "title": "mcp-atlassian zero-day",
+        "message": "CVSS 10.0, still no patch — mitigation-only status unchanged",
+        "type": "error"
+      }
+    },
+    "yesterday_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker ran on WebSearch fallback (5th consecutive XAI 403 day); quality degraded",
+        "variant": "body"
+      }
+    },
+    "watch_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_heading",
+        "watch_item"
+      ]
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_item": {
+      "type": "Text",
+      "props": {
+        "text": "BlackRock published formal AI × crypto research today (Sep 25): AI agents as next stablecoin demand driver, $300B+ stablecoin market — accelerates Stablecoins-as-AI-rail narrative already at Rising (focus #3 signal quality)",
+        "variant": "body"
+      }
+    },
+    "running_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running_heading",
+        "running_item_1",
+        "running_item_2",
+        "running_item_3",
+        "running_item_4",
+        "running_item_5"
+      ]
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}

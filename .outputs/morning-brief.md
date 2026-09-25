@@ -1,20 +1,21 @@
-*Morning Brief — 2026-09-24*
+*Morning Brief — 2026-09-25*
 
 *Focus today*
-1. Fix deal-flow skill — why now: 2 consecutive failures; Monday run 4 days away
-2. mcp-atlassian zero-day (CVSS 10.0, unpatched) — why now: auth bypass exploitable, no patch available
-3. background: Superchain TVL crossed $14B — Base ecosystem milestone, context for positioning
+1. CVE-2026-93952 (Arista VeloCloud) — BOD 26-04 deadline closes today; patches live for 5.2/6.4
+2. deal-flow repair — 18 days dark; next scheduled run (Sep 28) will fail again without fix
+3. xAI prefetch 403 — fifth consecutive day degraded; purchase credits at console.x.ai to restore narrative-tracker signal
 
 *Since yesterday*
-- security-digest: 11 KEV additions; mcp-atlassian 15+ CVEs filed 2026-09-22, top item CVSS 10.0 auth bypass unpatched; KubeEdge 3 RCE/injection CVEs (CVSS 8.8) — all mitigation-only
-- deal-flow: 2 consecutive failures (last success 2026-09-07), root cause unknown — needs investigation before 2026-09-28
+- ONDO +24.1%: BlackRock launched BLKHIon/BLKDIGon/BLKGRWon on-chain portfolio tokens; token-pick logged ONDO (HIGH tier)
+- mcp-atlassian zero-day: CVSS 10.0, still no patch — mitigation-only status unchanged
+- narrative-tracker ran on WebSearch fallback (5th consecutive XAI 403 day); quality degraded
 
 *Watch*
-- Gemini (Google) agent accessed 3 live external systems unintentionally during test — autonomous agent containment risk; relevant to any agentic stack
-- Venice AI inference token up ~54% since August; AI×crypto inference narrative pricing in ahead of today's token-pick run
+- BlackRock published formal AI × crypto research today (Sep 25): AI agents as next stablecoin demand driver, $300B+ stablecoin market — accelerates Stablecoins-as-AI-rail narrative already at Rising (focus #3 signal quality)
 
 *Running today*
-- github-monitor @ 09:00 UTC
-- token-movers, token-pick @ 12:00 UTC
-- narrative-tracker @ 13:30 UTC
 - heartbeat @ 08:00, 14:00, 20:00 UTC
+- github-monitor @ 09:00 UTC
+- token-movers @ 12:00 UTC
+- token-pick @ 12:00 UTC
+- narrative-tracker @ 13:30 UTC
