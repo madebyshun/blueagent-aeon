@@ -1,0 +1,755 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-25"
+      },
+      "children": [
+        "transitions_section",
+        "sep1",
+        "reflexivity_section",
+        "sep2",
+        "positions_section",
+        "sep3",
+        "map_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_transitions",
+        "trans_1",
+        "trans_2",
+        "trans_3",
+        "trans_4",
+        "trans_5",
+        "trans_6",
+        "trans_7"
+      ]
+    },
+    "h_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_new",
+        "text_trans_1"
+      ]
+    },
+    "badge_new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "text_trans_1": {
+      "type": "Text",
+      "props": {
+        "text": "SUI / L1 Institutional Adoption — Sui Foundation joined LF Decentralized Trust alongside Swift & Wells Fargo (Sep 24); Protocol 137 live; DeFi TVL $1.2B; Sui Basecamp Oct Singapore"
+      }
+    },
+    "trans_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted_1",
+        "text_trans_2"
+      ]
+    },
+    "badge_promoted_1": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_2": {
+      "type": "Text",
+      "props": {
+        "text": "Alt Season Rotation Emerging → Rising — Day-two: BP +23.7%, ENA +17.3%, GRASS +16.6%, QNT +15.5%, SUI +11.3% with BTC flat −0.3%; breadth confirms rotation"
+      }
+    },
+    "trans_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_promoted_2",
+        "text_trans_3"
+      ]
+    },
+    "badge_promoted_2": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text_trans_3": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins as AI Payment Rail Rising → Peak — BlackRock formal research (Sep 25): AI agents = next stablecoin demand driver; $300B stablecoin market; 306 AI agents mapped on-chain"
+      }
+    },
+    "trans_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted_1",
+        "text_trans_4"
+      ]
+    },
+    "badge_demoted_1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "text_trans_4": {
+      "type": "Text",
+      "props": {
+        "text": "RWA / Tokenized Markets Peak → Fading — ONDO cooling +3.3% vs +24.1% yesterday; post-launch reflexivity confirmed; catalyst exhausted"
+      }
+    },
+    "trans_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_demoted_2",
+        "text_trans_5"
+      ]
+    },
+    "badge_demoted_2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "text_trans_5": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Safety / Containment FRONT-RUN → WATCH — No new incident 24h post-Gemini; single-event narrative losing steam"
+      }
+    },
+    "trans_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dead_1",
+        "text_trans_6"
+      ]
+    },
+    "badge_dead_1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "outline"
+      }
+    },
+    "text_trans_6": {
+      "type": "Text",
+      "props": {
+        "text": "September Seasonality / Macro Risk — Thesis failed; crypto market +17.6% for September (Binance Research); October in 6 days"
+      }
+    },
+    "trans_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_dead_2",
+        "text_trans_7"
+      ]
+    },
+    "badge_dead_2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "outline"
+      }
+    },
+    "text_trans_7": {
+      "type": "Text",
+      "props": {
+        "text": "L2/DeFi Rotation — MORPHO −4.0%, STONK −18.7%; 7-day confirmed fade; no catalyst"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_reflexivity",
+        "alert_reflexivity"
+      ]
+    },
+    "h_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert_reflexivity": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Stablecoins as AI Payment Rail — BlackRock 2-day coordinated push: Sep 24 stablecoin-AI statement + ONDO product launch (BLKHIon/BLKDIGon/BLKGRWon) + Sep 25 formal research paper; single actor manufacturing institutional legitimacy for its own tokenized product suite\n\nSUI / L1 Institutional Adoption — LF Decentralized Trust membership timed 1 day before Sui Basecamp Singapore (Oct); joinable consortium, not earned integration; conference pump risk"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_positions",
+        "pos_1",
+        "pos_2",
+        "pos_3",
+        "pos_4",
+        "pos_5",
+        "pos_6",
+        "pos_7",
+        "pos_8",
+        "pos_9",
+        "pos_10"
+      ]
+    },
+    "h_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_frontrun_1",
+        "text_pos_1",
+        "text_pos_1_meta"
+      ]
+    },
+    "badge_frontrun_1": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "destructive"
+      }
+    },
+    "text_pos_1": {
+      "type": "Text",
+      "props": {
+        "text": "SUI / L1 Institutional Adoption",
+        "variant": "lead"
+      }
+    },
+    "text_pos_1_meta": {
+      "type": "Text",
+      "props": {
+        "text": "(3 ↑↑, Bull) @SuiNetwork + Swift + Wells Fargo — LF consortium = PR, not live integration; Basecamp pump risk",
+        "variant": "caption"
+      }
+    },
+    "pos_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_frontrun_2",
+        "text_pos_2",
+        "text_pos_2_meta"
+      ]
+    },
+    "badge_frontrun_2": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "destructive"
+      }
+    },
+    "text_pos_2": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi / Kaito Attention Markets",
+        "variant": "lead"
+      }
+    },
+    "text_pos_2_meta": {
+      "type": "Text",
+      "props": {
+        "text": "(2 ↑, Bull) @KaitoAI + @0xpolygon leaderboard live; @zacxbt top 0.23% — Yaps dead; Studio invite-only limits growth",
+        "variant": "caption"
+      }
+    },
+    "pos_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_1",
+        "text_pos_3",
+        "text_pos_3_meta"
+      ]
+    },
+    "badge_ride_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "text_pos_3": {
+      "type": "Text",
+      "props": {
+        "text": "Alt Season Rotation",
+        "variant": "lead"
+      }
+    },
+    "text_pos_3_meta": {
+      "type": "Text",
+      "props": {
+        "text": "(4 ↑, Bull) BP, ENA, GRASS, QNT, SUI, NEAR leading — alt seasons last days; BTC snap-back risk",
+        "variant": "caption"
+      }
+    },
+    "pos_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_2",
+        "text_pos_4",
+        "text_pos_4_meta"
+      ]
+    },
+    "badge_ride_2": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "text_pos_4": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins as AI Payment Rail",
+        "variant": "lead"
+      }
+    },
+    "text_pos_4_meta": {
+      "type": "Text",
+      "props": {
+        "text": "(5 ↑↑, Peak, Bull) @BlackRock + @coinbase for Agents — $73M vs $300B = 0.02%; manufactured thesis",
+        "variant": "caption"
+      }
+    },
+    "pos_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_3",
+        "text_pos_5",
+        "text_pos_5_meta"
+      ]
+    },
+    "badge_ride_3": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "text_pos_5": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / Base x402",
+        "variant": "lead"
+      }
+    },
+    "text_pos_5_meta": {
+      "type": "Text",
+      "props": {
+        "text": "(5 ↑, Peak, Bull) @base + @a16zcrypto + @BlackRock — reflexivity building; watch for FADE flip",
+        "variant": "caption"
+      }
+    },
+    "pos_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_4",
+        "text_pos_6",
+        "text_pos_6_meta"
+      ]
+    },
+    "badge_ride_4": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "text_pos_6": {
+      "type": "Text",
+      "props": {
+        "text": "AI x DePIN",
+        "variant": "lead"
+      }
+    },
+    "text_pos_6_meta": {
+      "type": "Text",
+      "props": {
+        "text": "(4 ↑, Bull) @Bittensor_ + GRASS +16.6% — inference supply > demand",
+        "variant": "caption"
+      }
+    },
+    "pos_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ride_5",
+        "text_pos_7",
+        "text_pos_7_meta"
+      ]
+    },
+    "badge_ride_5": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "text_pos_7": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "lead"
+      }
+    },
+    "text_pos_7_meta": {
+      "type": "Text",
+      "props": {
+        "text": "(3 →, Bull) @KaitoAI x Polymarket — regulatory grey zone",
+        "variant": "caption"
+      }
+    },
+    "pos_8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_1",
+        "text_pos_8",
+        "text_pos_8_meta"
+      ]
+    },
+    "badge_watch_1": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "text_pos_8": {
+      "type": "Text",
+      "props": {
+        "text": "FHE / Confidential Computing",
+        "variant": "lead"
+      }
+    },
+    "text_pos_8_meta": {
+      "type": "Text",
+      "props": {
+        "text": "(3 →, Bull) @Zama_FHE — no production dapp live",
+        "variant": "caption"
+      }
+    },
+    "pos_9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_watch_2",
+        "text_pos_9",
+        "text_pos_9_meta"
+      ]
+    },
+    "badge_watch_2": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "text_pos_9": {
+      "type": "Text",
+      "props": {
+        "text": "XRP ETF Cycle",
+        "variant": "lead"
+      }
+    },
+    "text_pos_9_meta": {
+      "type": "Text",
+      "props": {
+        "text": "(3 →, Bull) Ripple + ETF desks — no named CT driver",
+        "variant": "caption"
+      }
+    },
+    "pos_10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fade",
+        "text_pos_10",
+        "text_pos_10_meta"
+      ]
+    },
+    "badge_fade": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "text_pos_10": {
+      "type": "Text",
+      "props": {
+        "text": "RWA / Tokenized Markets",
+        "variant": "lead"
+      }
+    },
+    "text_pos_10_meta": {
+      "type": "Text",
+      "props": {
+        "text": "(4 ↓, Cope) @Ondo_Finance post-peak — CLARITY Act dead; catalyst exhausted",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_map",
+        "stage_emerging",
+        "stage_rising",
+        "stage_peak",
+        "stage_fading",
+        "stage_dead"
+      ]
+    },
+    "h_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "stage_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_emerging",
+        "text_emerging"
+      ]
+    },
+    "label_emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "default"
+      }
+    },
+    "text_emerging": {
+      "type": "Text",
+      "props": {
+        "text": "SUI / L1 Institutional Adoption, InfoFi / Kaito Attention Markets, AI Agent Safety / Containment"
+      }
+    },
+    "stage_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_rising",
+        "text_rising"
+      ]
+    },
+    "label_rising": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "text_rising": {
+      "type": "Text",
+      "props": {
+        "text": "Alt Season Rotation, AI x DePIN, Prediction Markets, FHE / Confidential Computing, XRP ETF Cycle"
+      }
+    },
+    "stage_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_peak",
+        "text_peak"
+      ]
+    },
+    "label_peak": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "outline"
+      }
+    },
+    "text_peak": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins as AI Payment Rail, Agentic Payments / Base x402"
+      }
+    },
+    "stage_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_fading",
+        "text_fading"
+      ]
+    },
+    "label_fading": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      }
+    },
+    "text_fading": {
+      "type": "Text",
+      "props": {
+        "text": "RWA / Tokenized Markets"
+      }
+    },
+    "stage_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_dead",
+        "text_dead"
+      ]
+    },
+    "label_dead": {
+      "type": "Badge",
+      "props": {
+        "text": "Dead",
+        "variant": "outline"
+      }
+    },
+    "text_dead": {
+      "type": "Text",
+      "props": {
+        "text": "September Seasonality / Macro Risk, L2/DeFi Rotation"
+      }
+    }
+  }
+}
