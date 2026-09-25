@@ -1,0 +1,1595 @@
+{
+  "root": "token-movers-card",
+  "state": {},
+  "elements": {
+    "token-movers-card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "2026-09-25"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "summary-text",
+        "sep-1",
+        "winners-heading",
+        "winners-stack",
+        "sep-2",
+        "losers-heading",
+        "losers-stack",
+        "sep-3",
+        "trending-heading",
+        "trending-stack",
+        "sep-4",
+        "notable-heading",
+        "notable-stack"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Selective alt lift — BTC flat (−0.3%) while ENA, NEAR, SUI and QNT all clear +11%; STONK −18.7% and AKE −13.5% are outlier losers.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winner-1",
+        "winner-2",
+        "winner-3",
+        "winner-4",
+        "winner-5",
+        "winner-6",
+        "winner-7",
+        "winner-8",
+        "winner-9",
+        "winner-10"
+      ]
+    },
+    "winner-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "winner-1-row",
+        "winner-1-badges"
+      ]
+    },
+    "winner-1-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "winner-1-stat",
+        "winner-1-rank"
+      ]
+    },
+    "winner-1-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BP (Backpack)",
+        "value": "$1.21",
+        "delta": "+23.7%",
+        "trend": "up"
+      }
+    },
+    "winner-1-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#149",
+        "variant": "muted"
+      }
+    },
+    "winner-1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "winner-1-badge-1"
+      ]
+    },
+    "winner-1-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "winner-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "winner-2-row",
+        "winner-2-metrics",
+        "winner-2-badges"
+      ]
+    },
+    "winner-2-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "winner-2-stat",
+        "winner-2-rank"
+      ]
+    },
+    "winner-2-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ENA (Ethena)",
+        "value": "$0.252",
+        "delta": "+17.3%",
+        "trend": "up"
+      }
+    },
+    "winner-2-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#42",
+        "variant": "muted"
+      }
+    },
+    "winner-2-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "7d +52.7% / 1h +1.2% • $841M",
+        "variant": "caption"
+      }
+    },
+    "winner-2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "winner-2-badge-1",
+        "winner-2-badge-2"
+      ]
+    },
+    "winner-2-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT"
+      }
+    },
+    "winner-2-badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "winner-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "winner-3-row",
+        "winner-3-badges"
+      ]
+    },
+    "winner-3-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "winner-3-stat",
+        "winner-3-rank"
+      ]
+    },
+    "winner-3-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "GRASS (Grass)",
+        "value": "$0.5010",
+        "delta": "+16.6%",
+        "trend": "up"
+      }
+    },
+    "winner-3-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#134",
+        "variant": "muted"
+      }
+    },
+    "winner-3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "winner-3-badge-1"
+      ]
+    },
+    "winner-3-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "winner-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "winner-4-row",
+        "winner-4-metrics",
+        "winner-4-badges"
+      ]
+    },
+    "winner-4-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "winner-4-stat",
+        "winner-4-rank"
+      ]
+    },
+    "winner-4-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "QNT (Quant)",
+        "value": "$95.39",
+        "delta": "+15.5%",
+        "trend": "up"
+      }
+    },
+    "winner-4-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#35",
+        "variant": "muted"
+      }
+    },
+    "winner-4-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "7d +49.9% / 1h +0.5% • $97M",
+        "variant": "caption"
+      }
+    },
+    "winner-4-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "winner-4-badge-1"
+      ]
+    },
+    "winner-4-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT"
+      }
+    },
+    "winner-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "winner-5-row",
+        "winner-5-metrics"
+      ]
+    },
+    "winner-5-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "winner-5-stat"
+      ]
+    },
+    "winner-5-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BITW (Bitway)",
+        "value": "$1.24",
+        "delta": "+15.1%",
+        "trend": "up"
+      }
+    },
+    "winner-5-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "7d +84.1% • $21M",
+        "variant": "caption"
+      }
+    },
+    "winner-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "winner-6-row",
+        "winner-6-metrics",
+        "winner-6-badges"
+      ]
+    },
+    "winner-6-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "winner-6-stat",
+        "winner-6-rank"
+      ]
+    },
+    "winner-6-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "AERO (Aerodrome)",
+        "value": "$0.797",
+        "delta": "+13.1%",
+        "trend": "up"
+      }
+    },
+    "winner-6-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#91",
+        "variant": "muted"
+      }
+    },
+    "winner-6-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "7d +22.6% • $90M",
+        "variant": "caption"
+      }
+    },
+    "winner-6-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "winner-6-badge-1"
+      ]
+    },
+    "winner-6-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "winner-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "winner-7-row",
+        "winner-7-metrics",
+        "winner-7-badges"
+      ]
+    },
+    "winner-7-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "winner-7-stat",
+        "winner-7-rank"
+      ]
+    },
+    "winner-7-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "NEAR (NEAR Protocol)",
+        "value": "$5.11",
+        "delta": "+12.5%",
+        "trend": "up"
+      }
+    },
+    "winner-7-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#22",
+        "variant": "muted"
+      }
+    },
+    "winner-7-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "7d +38.3% • $1.9B",
+        "variant": "caption"
+      }
+    },
+    "winner-7-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "winner-7-badge-1"
+      ]
+    },
+    "winner-7-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "winner-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "winner-8-row",
+        "winner-8-metrics",
+        "winner-8-badges"
+      ]
+    },
+    "winner-8-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "winner-8-stat",
+        "winner-8-rank"
+      ]
+    },
+    "winner-8-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SUI (Sui)",
+        "value": "$1.10",
+        "delta": "+11.3%",
+        "trend": "up"
+      }
+    },
+    "winner-8-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#29",
+        "variant": "muted"
+      }
+    },
+    "winner-8-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "7d +36.4% • $1.4B",
+        "variant": "caption"
+      }
+    },
+    "winner-8-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "winner-8-badge-1"
+      ]
+    },
+    "winner-8-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "winner-9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "winner-9-row",
+        "winner-9-badges"
+      ]
+    },
+    "winner-9-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "winner-9-stat",
+        "winner-9-rank"
+      ]
+    },
+    "winner-9-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "XPL (Plasma)",
+        "value": "$0.1096",
+        "delta": "+7.2%",
+        "trend": "up"
+      }
+    },
+    "winner-9-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#113",
+        "variant": "muted"
+      }
+    },
+    "winner-9-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "winner-9-badge-1"
+      ]
+    },
+    "winner-9-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "winner-10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "winner-10-row",
+        "winner-10-metrics",
+        "winner-10-badges"
+      ]
+    },
+    "winner-10-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "winner-10-stat",
+        "winner-10-rank"
+      ]
+    },
+    "winner-10-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "XRP (XRP)",
+        "value": "$1.58",
+        "delta": "+4.8%",
+        "trend": "up"
+      }
+    },
+    "winner-10-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#5",
+        "variant": "muted"
+      }
+    },
+    "winner-10-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "$6.7B",
+        "variant": "caption"
+      }
+    },
+    "winner-10-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "winner-10-badge-1"
+      ]
+    },
+    "winner-10-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "loser-1",
+        "loser-2",
+        "loser-3",
+        "loser-4",
+        "loser-5",
+        "loser-6",
+        "loser-7",
+        "loser-8",
+        "loser-9"
+      ]
+    },
+    "loser-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "loser-1-row",
+        "loser-1-badges"
+      ]
+    },
+    "loser-1-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "loser-1-stat",
+        "loser-1-rank"
+      ]
+    },
+    "loser-1-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "STONK",
+        "value": "$0.307",
+        "delta": "−18.7%",
+        "trend": "down"
+      }
+    },
+    "loser-1-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#163",
+        "variant": "muted"
+      }
+    },
+    "loser-1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "loser-1-badge-1"
+      ]
+    },
+    "loser-1-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN"
+      }
+    },
+    "loser-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "loser-2-row",
+        "loser-2-metrics"
+      ]
+    },
+    "loser-2-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "loser-2-stat"
+      ]
+    },
+    "loser-2-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "AKE (Akedo)",
+        "value": "$0.0380",
+        "delta": "−13.5%",
+        "trend": "down"
+      }
+    },
+    "loser-2-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "7d +41.9% • $39M",
+        "variant": "caption"
+      }
+    },
+    "loser-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "loser-3-row",
+        "loser-3-metrics"
+      ]
+    },
+    "loser-3-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "loser-3-stat"
+      ]
+    },
+    "loser-3-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "LIT (Lighter)",
+        "value": "$4.75",
+        "delta": "−8.6%",
+        "trend": "down"
+      }
+    },
+    "loser-3-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "$129M",
+        "variant": "caption"
+      }
+    },
+    "loser-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "loser-4-row",
+        "loser-4-metrics"
+      ]
+    },
+    "loser-4-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "loser-4-stat"
+      ]
+    },
+    "loser-4-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETC (Ethereum Classic)",
+        "value": "$9.36",
+        "delta": "−6.1%",
+        "trend": "down"
+      }
+    },
+    "loser-4-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "$121M",
+        "variant": "caption"
+      }
+    },
+    "loser-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "loser-5-row",
+        "loser-5-metrics"
+      ]
+    },
+    "loser-5-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "loser-5-stat"
+      ]
+    },
+    "loser-5-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "LTC (Litecoin)",
+        "value": "$70.17",
+        "delta": "−5.2%",
+        "trend": "down"
+      }
+    },
+    "loser-5-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "7d +25.3% • $892M",
+        "variant": "caption"
+      }
+    },
+    "loser-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "loser-6-row",
+        "loser-6-metrics"
+      ]
+    },
+    "loser-6-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "loser-6-stat"
+      ]
+    },
+    "loser-6-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "MORPHO (Morpho)",
+        "value": "$2.72",
+        "delta": "−4.0%",
+        "trend": "down"
+      }
+    },
+    "loser-6-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "$48M",
+        "variant": "caption"
+      }
+    },
+    "loser-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "loser-7-row",
+        "loser-7-metrics"
+      ]
+    },
+    "loser-7-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "loser-7-stat"
+      ]
+    },
+    "loser-7-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BGB (Bitget Token)",
+        "value": "$1.98",
+        "delta": "−3.8%",
+        "trend": "down"
+      }
+    },
+    "loser-7-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "$62M",
+        "variant": "caption"
+      }
+    },
+    "loser-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "loser-8-row",
+        "loser-8-metrics"
+      ]
+    },
+    "loser-8-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "loser-8-stat"
+      ]
+    },
+    "loser-8-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "INJ (Injective)",
+        "value": "$8.21",
+        "delta": "−2.7%",
+        "trend": "down"
+      }
+    },
+    "loser-8-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "$178M",
+        "variant": "caption"
+      }
+    },
+    "loser-9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "loser-9-row",
+        "loser-9-metrics"
+      ]
+    },
+    "loser-9-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "loser-9-stat"
+      ]
+    },
+    "loser-9-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE (Hyperliquid)",
+        "value": "$91.22",
+        "delta": "−2.1%",
+        "trend": "down"
+      }
+    },
+    "loser-9-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "$1.1B",
+        "variant": "caption"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending-1",
+        "trending-2",
+        "trending-3",
+        "trending-4",
+        "trending-5",
+        "trending-6",
+        "trending-7"
+      ]
+    },
+    "trending-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "trending-1-row",
+        "trending-1-badges"
+      ]
+    },
+    "trending-1-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trending-1-stat",
+        "trending-1-rank"
+      ]
+    },
+    "trending-1-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "NEAR (NEAR Protocol)",
+        "value": "$5.11",
+        "delta": "+11.5%",
+        "trend": "up"
+      }
+    },
+    "trending-1-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#22",
+        "variant": "muted"
+      }
+    },
+    "trending-1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trending-1-badge-1"
+      ]
+    },
+    "trending-1-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "trending-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "trending-2-row",
+        "trending-2-badges"
+      ]
+    },
+    "trending-2-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trending-2-stat",
+        "trending-2-rank"
+      ]
+    },
+    "trending-2-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ENA (Ethena)",
+        "value": "$0.252",
+        "delta": "+16.2%",
+        "trend": "up"
+      }
+    },
+    "trending-2-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#42",
+        "variant": "muted"
+      }
+    },
+    "trending-2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trending-2-badge-1"
+      ]
+    },
+    "trending-2-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "trending-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "trending-3-row",
+        "trending-3-badges"
+      ]
+    },
+    "trending-3-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trending-3-stat",
+        "trending-3-rank"
+      ]
+    },
+    "trending-3-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BP (Backpack)",
+        "value": "$1.21",
+        "delta": "+23.7%",
+        "trend": "up"
+      }
+    },
+    "trending-3-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#149",
+        "variant": "muted"
+      }
+    },
+    "trending-3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trending-3-badge-1"
+      ]
+    },
+    "trending-3-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "trending-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "trending-4-row",
+        "trending-4-badges"
+      ]
+    },
+    "trending-4-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trending-4-stat",
+        "trending-4-rank"
+      ]
+    },
+    "trending-4-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SUI (Sui)",
+        "value": "$1.10",
+        "delta": "+9.4%",
+        "trend": "up"
+      }
+    },
+    "trending-4-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#29",
+        "variant": "muted"
+      }
+    },
+    "trending-4-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trending-4-badge-1"
+      ]
+    },
+    "trending-4-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "trending-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "trending-5-row",
+        "trending-5-badges"
+      ]
+    },
+    "trending-5-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trending-5-stat",
+        "trending-5-rank"
+      ]
+    },
+    "trending-5-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "GRASS (Grass)",
+        "value": "$0.50",
+        "delta": "+16.6%",
+        "trend": "up"
+      }
+    },
+    "trending-5-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#134",
+        "variant": "muted"
+      }
+    },
+    "trending-5-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trending-5-badge-1"
+      ]
+    },
+    "trending-5-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "trending-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "trending-6-row",
+        "trending-6-badges"
+      ]
+    },
+    "trending-6-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trending-6-stat",
+        "trending-6-rank"
+      ]
+    },
+    "trending-6-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "STONK",
+        "value": "$0.31",
+        "delta": "−18.7%",
+        "trend": "down"
+      }
+    },
+    "trending-6-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#163",
+        "variant": "muted"
+      }
+    },
+    "trending-6-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trending-6-badge-1"
+      ]
+    },
+    "trending-6-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN"
+      }
+    },
+    "trending-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "trending-7-row",
+        "trending-7-badges"
+      ]
+    },
+    "trending-7-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trending-7-stat",
+        "trending-7-rank"
+      ]
+    },
+    "trending-7-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "AERO (Aerodrome)",
+        "value": "$0.79",
+        "delta": "+11.1%",
+        "trend": "up"
+      }
+    },
+    "trending-7-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#91",
+        "variant": "muted"
+      }
+    },
+    "trending-7-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trending-7-badge-1"
+      ]
+    },
+    "trending-7-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "notable-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "notable-1-badges",
+        "notable-1-text"
+      ]
+    },
+    "notable-1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-1-badge-1",
+        "notable-1-badge-2"
+      ]
+    },
+    "notable-1-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "notable-1-badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT"
+      }
+    },
+    "notable-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "ENA: +17.3% on $841M vol, 7d +52.7% — sustained multi-day structure, not a flash pump",
+        "variant": "body"
+      }
+    },
+    "notable-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "notable-2-badges",
+        "notable-2-text"
+      ]
+    },
+    "notable-2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-2-badge-1"
+      ]
+    },
+    "notable-2-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT"
+      }
+    },
+    "notable-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "QNT: day two running (+14.4% yesterday → +15.5% today), 7d +49.9% — signal integrity high",
+        "variant": "body"
+      }
+    },
+    "notable-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "notable-3-badges",
+        "notable-3-text"
+      ]
+    },
+    "notable-3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-3-badge-1"
+      ]
+    },
+    "notable-3-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN"
+      }
+    },
+    "notable-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "STONK: #163 trending while dropping −18.7% — possible distribution into search traffic",
+        "variant": "body"
+      }
+    },
+    "notable-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "notable-4-text"
+      ]
+    },
+    "notable-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO cooling: yesterday's +24.1% star now +3.8%; BlackRock headline absorbed",
+        "variant": "body"
+      }
+    }
+  }
+}
