@@ -1,0 +1,371 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-09-25"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_sui",
+        "separator1",
+        "section_market",
+        "separator2",
+        "footer"
+      ]
+    },
+    "section_sui": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_sui",
+        "price_stats",
+        "score_section",
+        "catalyst_section",
+        "risk_sui",
+        "vs_picks"
+      ]
+    },
+    "header_sui": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading_sui",
+        "badge_sui"
+      ]
+    },
+    "heading_sui": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: SUI",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_sui": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH • signal 10/10",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "price_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_price",
+        "stat_mcap",
+        "stat_volume"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$1.11",
+        "delta": "+10.78% 24h / +36.42% 7d",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$4.54B"
+      },
+      "children": []
+    },
+    "stat_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$1.43B",
+        "delta": "vol/mcap ratio 0.31"
+      },
+      "children": []
+    },
+    "score_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_score",
+        "text_score"
+      ]
+    },
+    "label_score": {
+      "type": "Text",
+      "props": {
+        "text": "Score Breakdown",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_score": {
+      "type": "Text",
+      "props": {
+        "text": "trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2, both>5%+2, 24h>0+1, 7d>0+1 = 11→capped 10/10",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "catalyst_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_catalyst",
+        "text_catalyst"
+      ]
+    },
+    "label_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Sui Foundation joined LF Decentralized Trust alongside Swift & Wells Fargo on Sep 24; mainnet Protocol 137 upgrade deployed Sep 23; DeFi TVL crossed $1.2B Sep 24; Sui Basecamp 2026 (Oct, Singapore) as upcoming narrative catalyst",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "risk_sui": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Sep 21 surge had no single confirmed product/partnership catalyst — this is a rotation trade; alt seasons historically last days not weeks; BTC reacceleration or macro shock could reverse SUI sharply",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "vs_picks": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "header_market",
+        "current_prices",
+        "fair_value_section",
+        "thesis_section",
+        "risk_market"
+      ]
+    },
+    "header_market": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading_market",
+        "badge_market"
+      ]
+    },
+    "heading_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: \"Democrats Sweep 2026 Midterms\"",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge_market": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM • edge 8pp",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "current_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_yes_price",
+        "stat_no_price",
+        "stat_volume_market",
+        "text_resolves"
+      ]
+    },
+    "stat_yes_price": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "64¢"
+      },
+      "children": []
+    },
+    "stat_no_price": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "37¢"
+      },
+      "children": []
+    },
+    "stat_volume_market": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Volume",
+        "value": "$3.5M"
+      },
+      "children": []
+    },
+    "text_resolves": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: Jan 5, 2027",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "fair_value_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_fair_yes",
+        "text_fair_inputs"
+      ]
+    },
+    "stat_fair_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES",
+        "value": "~56%"
+      },
+      "children": []
+    },
+    "text_fair_inputs": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: [1] historical full sweeps ~35-40% base rate, [2] map D-favorable but 22/35 R-held seats with only 5 competitive, [3] R Senate/D House scenario at 28¢ underweights split-government probability",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "thesis_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "label_thesis",
+        "text_thesis"
+      ]
+    },
+    "label_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "BUY NO — D Sweep requires both chambers flipping simultaneously; historical rate and competitive-seat math argue for ~56% vs market's 64%; split government is the underpriced outcome",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "risk_market": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Historic wave year with Trump approval collapse could make 64¢ fair or even low; wave correlations between chambers are strong in blowout elections",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_sources",
+        "text_disclaimer"
+      ]
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
