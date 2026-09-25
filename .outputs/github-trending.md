@@ -1,24 +1,28 @@
-*GitHub Trending — 2026-09-24*
+*GitHub Trending — 2026-09-25*
 
-*Top pick* — [obra/superpowers](https://github.com/obra/superpowers)
-A skills-based agentic framework with 291K stars in under a year — the composable shell-skill methodology may be the most-adopted agentic pattern you haven't yet audited.
+*Top pick* — [paperclipai/paperclip](https://github.com/paperclipai/paperclip)
+Self-hosted agent management is the gap nobody filled well until now — 1,853 stars today says devs agree.
 
 *AI/ML*
-• [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) — ★ 1,607 today (27K total) · Python · [ACCELERATING]
-Agent memory that rewrites itself after each run — compounds experience instead of just retrieving it.
+• [paperclipai/paperclip](https://github.com/paperclipai/paperclip) — ★ 1,853 today (83.7k total) · TypeScript · [ACCELERATING]
+First open-source agent management suite with self-host — credible alternative to Microsoft Copilot Studio.
 
-• [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) — ★ 415 today (50K total) · Python · [ACCELERATING]
-Wraps any existing CLI tool into a callable agent interface without modifying the tool's source.
+• [google/ax](https://github.com/google/ax) — ★ 1,386 today (11.1k total) · Go · [ACCELERATING]
+Google's Apache-licensed agentic orchestration runtime in Go — gRPC streaming and tool orchestration without Python overhead.
 
-• [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk) — ★ 463 today (8.1K total) · Python · [RETURNING]
-Production agent SDK with built-in model routing and cloud portability — removes the infra boilerplate.
+• [NVIDIA/Model-Optimizer](https://github.com/NVIDIA/Model-Optimizer) — ★ 360 today (4.3k total) · Python · [RETURNING]
+Updated SOTA unified library for pruning, distillation, and quantization — single toolkit for INT4/FP8 model export.
 
-• [obra/superpowers](https://github.com/obra/superpowers) — ★ 606 today (291K total) · Shell · [RETURNING]
-Skills-based agentic methodology in composable shell scripts — 291K stars in under a year signals genuine adoption.
+*Devtools*
+• [mattpocock/skills](https://github.com/mattpocock/skills) — ★ 671 today (269.5k total) · Shell · [ACCELERATING]
+Matt Pocock open-sourcing the .agents skill files powering his own workflow — reference implementation for structured agent prompting.
+
+• [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — ★ 527 today (71.0k total) · JavaScript · [ACCELERATING]
+Design language spec for AI harness UIs — component rules to escape the 'every agent app looks like a chatbox' trap.
 
 *Web/Apps*
-• [FxEmbed/FxEmbed](https://github.com/FxEmbed/FxEmbed) — ★ 165 today (5.3K total) · TypeScript · [RETURNING]
-Drop-in proxy restoring rich embeds for X/Twitter and Bluesky in Discord and Telegram.
+• [dream-num/univer](https://github.com/dream-num/univer) — ★ 1,048 today (18.2k total) · TypeScript · [RETURNING]
+Office suite behind a single JS API — spreadsheet, doc, slide, PDF that AI agents can read and edit without a browser.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/14
+sources: trending=ok · gh_api=ok · kept 6/16

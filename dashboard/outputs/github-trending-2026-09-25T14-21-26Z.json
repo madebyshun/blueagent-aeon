@@ -1,0 +1,664 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-25"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_top_pick",
+        "sep1",
+        "section_ai_ml",
+        "sep2",
+        "section_devtools",
+        "sep3",
+        "section_web_apps",
+        "sep4",
+        "footer"
+      ]
+    },
+    "section_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_top_pick",
+        "link_paperclip_top",
+        "text_paperclip_desc"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "link_paperclip_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "paperclipai/paperclip",
+        "href": "https://github.com/paperclipai/paperclip",
+        "score": "1,853 stars today"
+      },
+      "children": []
+    },
+    "text_paperclip_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted agent management is the gap nobody filled well until now — 1,853 stars today says devs agree.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_ai_ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_ai_ml",
+        "repo_paperclip",
+        "repo_google_ax",
+        "repo_nvidia_opt"
+      ]
+    },
+    "heading_ai_ml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_paperclip": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack_paperclip_header",
+        "text_paperclip_full_desc"
+      ]
+    },
+    "stack_paperclip_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_paperclip_aiml",
+        "badge_paperclip_lang",
+        "badge_paperclip_status"
+      ]
+    },
+    "link_paperclip_aiml": {
+      "type": "StoryLink",
+      "props": {
+        "title": "paperclipai/paperclip",
+        "href": "https://github.com/paperclipai/paperclip"
+      },
+      "children": []
+    },
+    "badge_paperclip_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      },
+      "children": []
+    },
+    "badge_paperclip_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_paperclip_full_desc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_paperclip_today",
+        "stat_paperclip_total",
+        "text_paperclip_desc_full"
+      ]
+    },
+    "stat_paperclip_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "1,853",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_paperclip_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "83.7k"
+      },
+      "children": []
+    },
+    "text_paperclip_desc_full": {
+      "type": "Text",
+      "props": {
+        "text": "First open-source agent management suite with self-host — credible alternative to Microsoft Copilot Studio.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo_google_ax": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack_ax_header",
+        "stack_ax_stats_desc"
+      ]
+    },
+    "stack_ax_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_google_ax",
+        "badge_ax_lang",
+        "badge_ax_status"
+      ]
+    },
+    "link_google_ax": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google/ax",
+        "href": "https://github.com/google/ax"
+      },
+      "children": []
+    },
+    "badge_ax_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go"
+      },
+      "children": []
+    },
+    "badge_ax_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stack_ax_stats_desc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_ax_today",
+        "stat_ax_total",
+        "text_ax_desc"
+      ]
+    },
+    "stat_ax_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "1,386",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_ax_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "11.1k"
+      },
+      "children": []
+    },
+    "text_ax_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Google's Apache-licensed agentic orchestration runtime in Go — gRPC streaming and tool orchestration without Python overhead.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo_nvidia_opt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack_nvidia_header",
+        "stack_nvidia_stats_desc"
+      ]
+    },
+    "stack_nvidia_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_nvidia_opt",
+        "badge_nvidia_lang",
+        "badge_nvidia_status"
+      ]
+    },
+    "link_nvidia_opt": {
+      "type": "StoryLink",
+      "props": {
+        "title": "NVIDIA/Model-Optimizer",
+        "href": "https://github.com/NVIDIA/Model-Optimizer"
+      },
+      "children": []
+    },
+    "badge_nvidia_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      },
+      "children": []
+    },
+    "badge_nvidia_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "stack_nvidia_stats_desc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_nvidia_today",
+        "stat_nvidia_total",
+        "text_nvidia_desc"
+      ]
+    },
+    "stat_nvidia_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "360",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_nvidia_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "4.3k"
+      },
+      "children": []
+    },
+    "text_nvidia_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Updated SOTA unified library for pruning, distillation, and quantization — single toolkit for INT4/FP8 model export.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "repo_mattpocock",
+        "repo_pbakaus"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_mattpocock": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack_mattpocock_header",
+        "stack_mattpocock_stats_desc"
+      ]
+    },
+    "stack_mattpocock_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_mattpocock",
+        "badge_mattpocock_lang",
+        "badge_mattpocock_status"
+      ]
+    },
+    "link_mattpocock": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mattpocock/skills",
+        "href": "https://github.com/mattpocock/skills"
+      },
+      "children": []
+    },
+    "badge_mattpocock_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell"
+      },
+      "children": []
+    },
+    "badge_mattpocock_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stack_mattpocock_stats_desc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_mattpocock_today",
+        "stat_mattpocock_total",
+        "text_mattpocock_desc"
+      ]
+    },
+    "stat_mattpocock_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "671",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_mattpocock_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "269.5k"
+      },
+      "children": []
+    },
+    "text_mattpocock_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Matt Pocock open-sourcing the .agents skill files powering his own workflow — reference implementation for structured agent prompting.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo_pbakaus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack_pbakaus_header",
+        "stack_pbakaus_stats_desc"
+      ]
+    },
+    "stack_pbakaus_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_pbakaus",
+        "badge_pbakaus_lang",
+        "badge_pbakaus_status"
+      ]
+    },
+    "link_pbakaus": {
+      "type": "StoryLink",
+      "props": {
+        "title": "pbakaus/impeccable",
+        "href": "https://github.com/pbakaus/impeccable"
+      },
+      "children": []
+    },
+    "badge_pbakaus_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript"
+      },
+      "children": []
+    },
+    "badge_pbakaus_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stack_pbakaus_stats_desc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_pbakaus_today",
+        "stat_pbakaus_total",
+        "text_pbakaus_desc"
+      ]
+    },
+    "stat_pbakaus_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "527",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_pbakaus_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "71.0k"
+      },
+      "children": []
+    },
+    "text_pbakaus_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Design language spec for AI harness UIs — component rules to escape the 'every agent app looks like a chatbox' trap.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_web_apps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_web_apps",
+        "repo_dreamnum"
+      ]
+    },
+    "heading_web_apps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo_dreamnum": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack_dreamnum_header",
+        "stack_dreamnum_stats_desc"
+      ]
+    },
+    "stack_dreamnum_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_dreamnum",
+        "badge_dreamnum_lang",
+        "badge_dreamnum_status"
+      ]
+    },
+    "link_dreamnum": {
+      "type": "StoryLink",
+      "props": {
+        "title": "dream-num/univer",
+        "href": "https://github.com/dream-num/univer"
+      },
+      "children": []
+    },
+    "badge_dreamnum_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      },
+      "children": []
+    },
+    "badge_dreamnum_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "stack_dreamnum_stats_desc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_dreamnum_today",
+        "stat_dreamnum_total",
+        "text_dreamnum_desc"
+      ]
+    },
+    "stat_dreamnum_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "1,048",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_dreamnum_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "18.2k"
+      },
+      "children": []
+    },
+    "text_dreamnum_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Office suite behind a single JS API — spreadsheet, doc, slide, PDF that AI agents can read and edit without a browser.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/16",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
