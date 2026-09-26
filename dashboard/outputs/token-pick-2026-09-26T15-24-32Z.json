@@ -1,0 +1,421 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-09-26"
+      },
+      "children": [
+        "token-section",
+        "sep1",
+        "market-section",
+        "sep2",
+        "footer-section"
+      ]
+    },
+    "token-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-header",
+        "token-price-row",
+        "token-metrics-row",
+        "token-score",
+        "token-catalyst-block",
+        "token-risk-alert",
+        "token-freshness"
+      ]
+    },
+    "token-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token-heading",
+        "token-badge",
+        "token-signal"
+      ]
+    },
+    "token-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: TAO",
+        "level": "h2"
+      }
+    },
+    "token-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "token-signal": {
+      "type": "Progress",
+      "props": {
+        "value": 10,
+        "max": 10,
+        "label": "Signal"
+      }
+    },
+    "token-price-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "price-stat",
+        "change-24h-stat",
+        "change-7d-stat"
+      ]
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$329.78",
+        "label": "Price"
+      }
+    },
+    "change-24h-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "+9.0%",
+        "label": "24h",
+        "trend": "up"
+      }
+    },
+    "change-7d-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "+22.93%",
+        "label": "7d",
+        "trend": "up"
+      }
+    },
+    "token-metrics-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "mcap-stat",
+        "volume-stat",
+        "vol-ratio-stat"
+      ]
+    },
+    "mcap-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$3.7B",
+        "label": "Market Cap"
+      }
+    },
+    "volume-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "$370M",
+        "label": "24h Volume"
+      }
+    },
+    "vol-ratio-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "0.100",
+        "label": "Vol/MCap Ratio"
+      }
+    },
+    "token-score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-heading",
+        "score-details"
+      ]
+    },
+    "score-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Score Breakdown:",
+        "variant": "caption"
+      }
+    },
+    "score-details": {
+      "type": "Text",
+      "props": {
+        "text": "CG trending +2 | both >5% +2 | vol/mcap ≥0.10 +2 | RS vs BTC/ETH +2 | 24h +1 | 7d +1 = 10/10",
+        "variant": "body"
+      }
+    },
+    "token-catalyst-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-heading",
+        "catalyst-text"
+      ]
+    },
+    "catalyst-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "Raydium DEX integration live (DexScreener confirms $452M liquidity pool) + Buttensor meme coin fees directed to systematic TAO purchases + ChatGPT-6 Astra release drove AI token rotation; derivatives OI hit $428.57M (3-month high)",
+        "variant": "body"
+      }
+    },
+    "token-risk-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Buttensor meme demand is transient — if meme volume fades, systematic TAO buying dries up; crowded at 3-month OI high",
+        "type": "warning"
+      }
+    },
+    "token-freshness": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time in last 7 days",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-header",
+        "market-odds-block",
+        "market-fair-block",
+        "market-thesis-block",
+        "market-risk-alert",
+        "market-resolution"
+      ]
+    },
+    "market-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market-title",
+        "market-tags"
+      ]
+    },
+    "market-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: \"Will Jon Ossoff win the 2028 Democratic presidential nomination?\"",
+        "level": "h2"
+      }
+    },
+    "market-tags": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market-badge",
+        "market-edge"
+      ]
+    },
+    "market-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "outline"
+      }
+    },
+    "market-edge": {
+      "type": "Stat",
+      "props": {
+        "value": "6pp",
+        "label": "Edge"
+      }
+    },
+    "market-odds-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "odds-label",
+        "odds-values",
+        "volume-note"
+      ]
+    },
+    "odds-label": {
+      "type": "Text",
+      "props": {
+        "text": "Current Odds:",
+        "variant": "caption"
+      }
+    },
+    "odds-values": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "yes-odds",
+        "no-odds"
+      ]
+    },
+    "yes-odds": {
+      "type": "Stat",
+      "props": {
+        "value": "15.25¢",
+        "label": "YES"
+      }
+    },
+    "no-odds": {
+      "type": "Stat",
+      "props": {
+        "value": "84.75¢",
+        "label": "NO"
+      }
+    },
+    "volume-note": {
+      "type": "Text",
+      "props": {
+        "text": "24h volume: $92k | Resolves: 2028-11-08",
+        "variant": "caption"
+      }
+    },
+    "market-fair-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair-heading",
+        "fair-value",
+        "fair-reasoning"
+      ]
+    },
+    "fair-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair Value Analysis",
+        "level": "h3"
+      }
+    },
+    "fair-value": {
+      "type": "Stat",
+      "props": {
+        "value": "~9%",
+        "label": "Fair YES"
+      }
+    },
+    "fair-reasoning": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: explicit non-candidacy statement Sep 2026 \"I am not running for president in 2028\"; Kalshi 18% implies market pricing 50%+ flip probability — overstated; historical early-explicit-denial reversal rate ~15-20%",
+        "variant": "body"
+      }
+    },
+    "market-thesis-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-heading",
+        "thesis-text"
+      ]
+    },
+    "thesis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h3"
+      }
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Ossoff has publicly ruled out a 2028 run; market at 15.25¢ materially overprices reversal — BUY NO",
+        "variant": "body"
+      }
+    },
+    "market-risk-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "2-year horizon allows political calculus to shift; draft effort or party pressure could force reconsideration",
+        "type": "info"
+      }
+    },
+    "market-resolution": {
+      "type": "Text",
+      "props": {
+        "text": "",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-text",
+        "disclaimer-text"
+      ]
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok | dex=ok | poly=ok",
+        "variant": "caption"
+      }
+    },
+    "disclaimer-text": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "caption"
+      }
+    }
+  }
+}

@@ -1,17 +1,17 @@
-*Daily Pick — 2026-09-25*
+*Daily Pick — 2026-09-26*
 
-*Token: SUI*  [HIGH]  signal 10/10
-Price: $1.11 (+10.78% 24h / +36.42% 7d) | mcap $4.54B | vol $1.43B (vol/mcap 0.31)
-Score breakdown: [trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2, both>5%+2, 24h>0+1, 7d>0+1] = 11→capped 10/10
-Catalyst: Sui Foundation joined LF Decentralized Trust alongside Swift & Wells Fargo on Sep 24; mainnet Protocol 137 upgrade deployed Sep 23; DeFi TVL crossed $1.2B Sep 24; Sui Basecamp 2026 (Oct, Singapore) as upcoming narrative catalyst
-Risk: Sep 21 surge had no single confirmed product/partnership catalyst — this is a rotation trade; alt seasons historically last days not weeks; BTC reacceleration or macro shock could reverse SUI sharply
-Vs recent picks: first time
+*Token: TAO*  [HIGH]  signal 10/10
+Price: $329.78 (+9.0% 24h / +22.93% 7d) | mcap $3.7B | vol $370M (vol/mcap 0.100)
+Score breakdown: [CG trending+2, both>5%+2, vol/mcap≥0.10+2, RS vs BTC/ETH+2, 24h+1, 7d+1] = 10/10
+Catalyst: Raydium DEX integration live (DexScreener confirms $452M liquidity pool) + Buttensor meme coin fees directed to systematic TAO purchases + ChatGPT-6 Astra release drove AI token rotation; derivatives OI hit $428.57M (3-month high)
+Risk: Buttensor meme demand is transient — if meme volume fades, systematic TAO buying dries up; crowded at 3-month OI high
+Vs recent picks: first time in last 7 days
 
-*Market: "Democrats Sweep 2026 Midterms"*  [MEDIUM]  edge 8pp
-Current: YES 64¢ / NO 37¢ | total vol $3.5M | resolves: Jan 5, 2027
-Fair YES: ~56% (inputs: [1] historical full sweeps ~35-40% base rate, [2] map D-favorable but 22/35 R-held seats with only 5 competitive, [3] R Senate/D House scenario at 28¢ underweights split-government probability)
-Thesis: BUY NO — D Sweep requires both chambers flipping simultaneously; historical rate and competitive-seat math argue for ~56% vs market's 64%; split government is the underpriced outcome
-Risk: Historic wave year with Trump approval collapse could make 64¢ fair or even low; wave correlations between chambers are strong in blowout elections
+*Market: "Will Jon Ossoff win the 2028 Democratic presidential nomination?"*  [MEDIUM]  edge 6pp
+Current: YES 15.25¢ / NO 84.75¢ | 24h vol $92k | resolves: 2028-11-08
+Fair YES: ~9% (inputs: explicit non-candidacy statement Sep 2026 "I am not running for president in 2028"; Kalshi 18% implies market pricing 50%+ flip probability — overstated; historical early-explicit-denial reversal rate ~15-20%)
+Thesis: Ossoff has publicly ruled out a 2028 run; market at 15.25¢ materially overprices reversal — BUY NO
+Risk: 2-year horizon allows political calculus to shift; draft effort or party pressure could force reconsideration
 
-sources: cg=ok, dex=fail, poly=ok
+sources: cg=ok, dex=ok, poly=ok
 not financial advice — pattern-matching only
