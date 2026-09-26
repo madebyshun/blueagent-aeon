@@ -1,21 +1,22 @@
-*Morning Brief — 2026-09-25*
+*Morning Brief — 2026-09-26*
 
 *Focus today*
-1. CVE-2026-93952 (Arista VeloCloud) — BOD 26-04 deadline closes today; patches live for 5.2/6.4
-2. deal-flow repair — 18 days dark; next scheduled run (Sep 28) will fail again without fix
-3. xAI prefetch 403 — fifth consecutive day degraded; purchase credits at console.x.ai to restore narrative-tracker signal
+1. CVE-2026-71362 (Adobe Commerce) — why now: BOD 26-04 deadline expires tomorrow; EPSS 0.896
+2. deal-flow repair — why now: next auto-run Sep 28; 19 days broken, fix window closes Sunday
+3. xAI console credits — why now: day 7 of 403; narrative-tracker quality degrades further daily
 
 *Since yesterday*
-- ONDO +24.1%: BlackRock launched BLKHIon/BLKDIGon/BLKGRWon on-chain portfolio tokens; token-pick logged ONDO (HIGH tier)
-- mcp-atlassian zero-day: CVSS 10.0, still no patch — mitigation-only status unchanged
-- narrative-tracker ran on WebSearch fallback (5th consecutive XAI 403 day); quality degraded
+- CVE-2026-61732 (decepticon): promoted to PATCH TODAY — public PoC + video demo live
+- Alt season rotation day 2 confirmed: BP +23.7%, ENA +17.3%, SUI +11.3% with BTC flat
+- September crash thesis dead: Binance Research confirmed +17.6% market cap for Sept
+- deal-flow: still broken, no fix landed
 
 *Watch*
-- BlackRock published formal AI × crypto research today (Sep 25): AI agents as next stablecoin demand driver, $300B+ stablecoin market — accelerates Stablecoins-as-AI-rail narrative already at Rising (focus #3 signal quality)
+- Ethereum Foundation launched "dAI Team" — positions ETH as AI agent settlement layer vs Base x402; watch for narrative-tracker mindshare split today
 
 *Running today*
-- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC

@@ -1,0 +1,445 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-09-26"
+      },
+      "children": [
+        "section-focus",
+        "sep1",
+        "section-yesterday",
+        "sep2",
+        "section-watch",
+        "sep3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "grid-focus"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "grid-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-title",
+        "focus-1-context",
+        "focus-1-epss"
+      ]
+    },
+    "focus-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-71362 (Adobe Commerce)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "focus-1-context": {
+      "type": "Text",
+      "props": {
+        "text": "BOD 26-04 deadline expires tomorrow",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-1-epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.896"
+      },
+      "children": []
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-title",
+        "focus-2-context",
+        "focus-2-status"
+      ]
+    },
+    "focus-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "deal-flow repair",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "focus-2-context": {
+      "type": "Text",
+      "props": {
+        "text": "Next auto-run Sep 28; fix window closes Sunday",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-2-status": {
+      "type": "Text",
+      "props": {
+        "text": "19 days broken",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-title",
+        "focus-3-context",
+        "focus-3-degradation"
+      ]
+    },
+    "focus-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "xAI console credits",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "focus-3-context": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker quality degrades further daily",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "focus-3-degradation": {
+      "type": "Progress",
+      "props": {
+        "value": 7,
+        "max": 403,
+        "label": "Day 7 of 403"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-yesterday",
+        "yesterday-items"
+      ]
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yest-item-1",
+        "yest-item-2",
+        "yest-item-3",
+        "yest-item-4"
+      ]
+    },
+    "yest-item-1": {
+      "type": "Alert",
+      "props": {
+        "title": "CVE-2026-61732 (decepticon)",
+        "message": "Promoted to PATCH TODAY — public PoC + video demo live",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "yest-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yest-2-title",
+        "yest-2-stats"
+      ]
+    },
+    "yest-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Alt season rotation day 2 confirmed",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "yest-2-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "sm"
+      },
+      "children": [
+        "yest-2-bp",
+        "yest-2-ena",
+        "yest-2-sui",
+        "yest-2-btc"
+      ]
+    },
+    "yest-2-bp": {
+      "type": "Stat",
+      "props": {
+        "label": "BP",
+        "value": "+23.7%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "yest-2-ena": {
+      "type": "Stat",
+      "props": {
+        "label": "ENA",
+        "value": "+17.3%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "yest-2-sui": {
+      "type": "Stat",
+      "props": {
+        "label": "SUI",
+        "value": "+11.3%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "yest-2-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "flat",
+        "trend": "neutral"
+      },
+      "children": []
+    },
+    "yest-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yest-3-title",
+        "yest-3-stat"
+      ]
+    },
+    "yest-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "September crash thesis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "yest-3-stat": {
+      "type": "Text",
+      "props": {
+        "text": "Dead: Binance Research confirmed +17.6% market cap for Sept",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yest-item-4": {
+      "type": "Alert",
+      "props": {
+        "message": "deal-flow: still broken, no fix landed",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "watch-item"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "watch-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-1-title",
+        "watch-1-desc"
+      ]
+    },
+    "watch-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Ethereum Foundation launched \"dAI Team\"",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "watch-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Positions ETH as AI agent settlement layer vs Base x402; watch for narrative-tracker mindshare split today",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "running-items"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "run-1",
+        "run-2",
+        "run-3",
+        "run-4",
+        "run-5"
+      ]
+    },
+    "run-1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "run-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "run-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "run-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "run-5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
