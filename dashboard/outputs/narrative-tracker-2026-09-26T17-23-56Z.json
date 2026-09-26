@@ -1,0 +1,857 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-26"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "transitions-section",
+        "transitions-separator",
+        "reflexivity-section",
+        "reflexivity-separator",
+        "positions-section",
+        "positions-separator",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions-heading",
+        "transitions-new-badge",
+        "transition-1",
+        "transition-2",
+        "transition-3",
+        "transitions-demoted-badge",
+        "transition-4",
+        "transition-5",
+        "transitions-dead-badge",
+        "transition-6"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transitions-new-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "transition-1": {
+      "type": "Text",
+      "props": {
+        "text": "ETH vs Base / AI Settlement Layer Race — Ethereum Foundation dAI team launches ERC-8004 standard to make ETH the preferred AI agent settlement layer; direct x402 competitor entry. The race for agentic-economy rails is now a named multi-chain fight.",
+        "variant": "body"
+      }
+    },
+    "transition-2": {
+      "type": "Text",
+      "props": {
+        "text": "KAS / PoW Breakout — Kaspa confirmed second-day breakout (+15.6%, node hardened Sep 22, volume +75%, RSI 75.5); spreading to DASH +15.1%; beta-driven but technically confirmed",
+        "variant": "body"
+      }
+    },
+    "transition-3": {
+      "type": "Text",
+      "props": {
+        "text": "WLD / Proof of Personhood — Worldcoin +17.6%; framing as the human-identity layer in an AI-agent economy; one-day signal, watch for narrative latching",
+        "variant": "body"
+      }
+    },
+    "transitions-demoted-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      }
+    },
+    "transition-4": {
+      "type": "Text",
+      "props": {
+        "text": "XRP ETF Cycle (Rising → Fading) — XRP -2.5% while alts rip; no new ETF catalyst; losing rotation momentum",
+        "variant": "body"
+      }
+    },
+    "transition-5": {
+      "type": "Text",
+      "props": {
+        "text": "SUI / L1 Institutional Adoption (FRONT-RUN → WATCH) — no new SUI signal post-Protocol 137; NEAR reversed; Basecamp not until October",
+        "variant": "body"
+      }
+    },
+    "transitions-dead-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "transition-6": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Safety / Containment — zero follow-through after Gemini incident; no policy response surfacing; second consecutive silent day",
+        "variant": "body"
+      }
+    },
+    "transitions-separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "reflexivity-alert-1",
+        "reflexivity-alert-2"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-alert-1": {
+      "type": "Text",
+      "props": {
+        "text": "ETH dAI / Base x402: ERC-8004 explicitly mirrors x402 framing — ETH copying Base's playbook is validation, not competition. Both chains are now converging on the same standard vocabulary. Watch for Base/ETH L2 alignment rather than war; the narrative is structural now.",
+        "variant": "body"
+      }
+    },
+    "reflexivity-alert-2": {
+      "type": "Text",
+      "props": {
+        "text": "Alt Season Rotation: FIL/DASH/WLD leading day 3 — storage/PoW/identity coins absorbing liquidity = later-cycle rotation pattern. Breadth expansion at this phase is historically a FADE precursor.",
+        "variant": "body"
+      }
+    },
+    "reflexivity-separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions-heading",
+        "position-1",
+        "position-2",
+        "position-3",
+        "position-4",
+        "position-5",
+        "position-6",
+        "position-7",
+        "position-8",
+        "position-9"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "position-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1-title",
+        "pos1-meta",
+        "pos1-bear"
+      ]
+    },
+    "pos1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "FRONT-RUN: ETH vs Base / AI Settlement Layer Race",
+        "level": "h4"
+      }
+    },
+    "pos1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos1-signal",
+        "pos1-sentiment",
+        "pos1-src1",
+        "pos1-src2"
+      ]
+    },
+    "pos1-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑↑",
+        "variant": "default"
+      }
+    },
+    "pos1-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "outline"
+      }
+    },
+    "pos1-src1": {
+      "type": "Badge",
+      "props": {
+        "text": "@EthereumFndn",
+        "variant": "secondary"
+      }
+    },
+    "pos1-src2": {
+      "type": "Badge",
+      "props": {
+        "text": "@DavideCrapis",
+        "variant": "secondary"
+      }
+    },
+    "pos1-bear": {
+      "type": "Text",
+      "props": {
+        "text": "🐻 Bear: x402 already live on Base with Coinbase momentum; ETH dAI is a catch-up play with longer delivery",
+        "variant": "caption"
+      }
+    },
+    "position-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos2-title",
+        "pos2-meta",
+        "pos2-context",
+        "pos2-bear"
+      ]
+    },
+    "pos2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "FRONT-RUN: KAS / PoW Breakout",
+        "level": "h4"
+      }
+    },
+    "pos2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos2-signal",
+        "pos2-sentiment"
+      ]
+    },
+    "pos2-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↑↑",
+        "variant": "default"
+      }
+    },
+    "pos2-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos2-context": {
+      "type": "Text",
+      "props": {
+        "text": "KAS technical + DASH correlation",
+        "variant": "caption"
+      }
+    },
+    "pos2-bear": {
+      "type": "Text",
+      "props": {
+        "text": "🐻 Bear: RSI overbought; beta-driven, no fundamental new use case",
+        "variant": "caption"
+      }
+    },
+    "position-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos3-title",
+        "pos3-meta",
+        "pos3-bear"
+      ]
+    },
+    "pos3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE: Alt Season Rotation",
+        "level": "h4"
+      }
+    },
+    "pos3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos3-signal",
+        "pos3-sentiment"
+      ]
+    },
+    "pos3-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑",
+        "variant": "default"
+      }
+    },
+    "pos3-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos3-bear": {
+      "type": "Text",
+      "props": {
+        "text": "🐻 Bear: day 3 with PoW/storage leading = peak proximity",
+        "variant": "caption"
+      }
+    },
+    "position-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos4-title",
+        "pos4-meta",
+        "pos4-bear"
+      ]
+    },
+    "pos4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE: AI x DePIN",
+        "level": "h4"
+      }
+    },
+    "pos4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos4-signal",
+        "pos4-sentiment",
+        "pos4-src1",
+        "pos4-src2"
+      ]
+    },
+    "pos4-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑",
+        "variant": "default"
+      }
+    },
+    "pos4-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos4-src1": {
+      "type": "Badge",
+      "props": {
+        "text": "@Bittensor_ TAO +8.7%",
+        "variant": "secondary"
+      }
+    },
+    "pos4-src2": {
+      "type": "Badge",
+      "props": {
+        "text": "@0G_labs",
+        "variant": "secondary"
+      }
+    },
+    "pos4-bear": {
+      "type": "Text",
+      "props": {
+        "text": "🐻 Bear: inference supply > demand; compute centralizing at hyperscalers",
+        "variant": "caption"
+      }
+    },
+    "position-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos5-title",
+        "pos5-meta",
+        "pos5-notes",
+        "pos5-bear"
+      ]
+    },
+    "pos5-title": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE: Stablecoins as AI Payment Rail",
+        "level": "h4"
+      }
+    },
+    "pos5-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos5-signal",
+        "pos5-sentiment"
+      ]
+    },
+    "pos5-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "5 →",
+        "variant": "default"
+      }
+    },
+    "pos5-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos5-notes": {
+      "type": "Text",
+      "props": {
+        "text": "ETH dAI ERC-8004 confirms structural status; multi-chain convergence",
+        "variant": "caption"
+      }
+    },
+    "pos5-bear": {
+      "type": "Text",
+      "props": {
+        "text": "🐻 Bear: no live cross-chain standard yet",
+        "variant": "caption"
+      }
+    },
+    "position-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos6-title",
+        "pos6-meta",
+        "pos6-bear"
+      ]
+    },
+    "pos6-title": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE: Agentic Payments / Base x402",
+        "level": "h4"
+      }
+    },
+    "pos6-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos6-signal",
+        "pos6-sentiment",
+        "pos6-src1",
+        "pos6-src2",
+        "pos6-src3"
+      ]
+    },
+    "pos6-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "5 →",
+        "variant": "default"
+      }
+    },
+    "pos6-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos6-src1": {
+      "type": "Badge",
+      "props": {
+        "text": "@base",
+        "variant": "secondary"
+      }
+    },
+    "pos6-src2": {
+      "type": "Badge",
+      "props": {
+        "text": "@coinbase",
+        "variant": "secondary"
+      }
+    },
+    "pos6-src3": {
+      "type": "Badge",
+      "props": {
+        "text": "@a16zcrypto",
+        "variant": "secondary"
+      }
+    },
+    "pos6-bear": {
+      "type": "Text",
+      "props": {
+        "text": "🐻 Bear: ETH competition entering dilutes Base monopoly; bifurcation risk",
+        "variant": "caption"
+      }
+    },
+    "position-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos7-title",
+        "pos7-meta",
+        "pos7-bear"
+      ]
+    },
+    "pos7-title": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH: WLD / Proof of Personhood",
+        "level": "h4"
+      }
+    },
+    "pos7-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos7-signal",
+        "pos7-sentiment",
+        "pos7-src"
+      ]
+    },
+    "pos7-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↑↑",
+        "variant": "default"
+      }
+    },
+    "pos7-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos7-src": {
+      "type": "Badge",
+      "props": {
+        "text": "@WorldcoinProject",
+        "variant": "secondary"
+      }
+    },
+    "pos7-bear": {
+      "type": "Text",
+      "props": {
+        "text": "🐻 Bear: biometric controversy ongoing; single-day pump may be pure rotation",
+        "variant": "caption"
+      }
+    },
+    "position-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos8-title",
+        "pos8-meta",
+        "pos8-bear"
+      ]
+    },
+    "pos8-title": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE: RWA / Tokenized Markets",
+        "level": "h4"
+      }
+    },
+    "pos8-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos8-signal",
+        "pos8-sentiment"
+      ]
+    },
+    "pos8-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↓",
+        "variant": "outline"
+      }
+    },
+    "pos8-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Cope",
+        "variant": "outline"
+      }
+    },
+    "pos8-bear": {
+      "type": "Text",
+      "props": {
+        "text": "ONDO cooling; BlackRock catalyst exhausted",
+        "variant": "caption"
+      }
+    },
+    "position-9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos9-title",
+        "pos9-meta",
+        "pos9-bear"
+      ]
+    },
+    "pos9-title": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE: XRP ETF Cycle",
+        "level": "h4"
+      }
+    },
+    "pos9-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos9-signal",
+        "pos9-sentiment"
+      ]
+    },
+    "pos9-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↓",
+        "variant": "outline"
+      }
+    },
+    "pos9-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear",
+        "variant": "destructive"
+      }
+    },
+    "pos9-bear": {
+      "type": "Text",
+      "props": {
+        "text": "XRP -2.5% in alt rip; no catalyst",
+        "variant": "caption"
+      }
+    },
+    "positions-separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-heading",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-label",
+        "map-emerging-content"
+      ]
+    },
+    "map-emerging-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "default"
+      }
+    },
+    "map-emerging-content": {
+      "type": "Text",
+      "props": {
+        "text": "ETH vs Base / AI Settlement Layer Race, KAS / PoW Breakout, WLD / Proof of Personhood, InfoFi / Kaito Attention Markets",
+        "variant": "body"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-label",
+        "map-rising-content"
+      ]
+    },
+    "map-rising-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "default"
+      }
+    },
+    "map-rising-content": {
+      "type": "Text",
+      "props": {
+        "text": "Alt Season Rotation, AI x DePIN, Prediction Markets, FHE / Confidential Computing",
+        "variant": "body"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-label",
+        "map-peak-content"
+      ]
+    },
+    "map-peak-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "default"
+      }
+    },
+    "map-peak-content": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins as AI Payment Rail, Agentic Payments / Base x402",
+        "variant": "body"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-label",
+        "map-fading-content"
+      ]
+    },
+    "map-fading-label": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "outline"
+      }
+    },
+    "map-fading-content": {
+      "type": "Text",
+      "props": {
+        "text": "RWA / Tokenized Markets, XRP ETF Cycle, SUI / L1 Institutional Adoption",
+        "variant": "body"
+      }
+    }
+  }
+}
