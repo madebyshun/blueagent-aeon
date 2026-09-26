@@ -1,0 +1,416 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-09-26"
+      },
+      "children": [
+        "summary-text",
+        "sep1",
+        "winners-section",
+        "sep2",
+        "losers-section",
+        "sep3",
+        "trending-section",
+        "sep4",
+        "notable-section"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "Broad alt lift — 76% of top-50 leaders green, median +1.3%; BTC flat while FIL, WLD, KAS, and DASH all clear +15%.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "winners-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners-heading",
+        "winners-table"
+      ]
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "FIL (Filecoin)",
+            "$1.20",
+            "+17.8%",
+            "+18.3%",
+            "+6.2%",
+            "$202M",
+            "#82",
+            ""
+          ],
+          [
+            "WLD (Worldcoin)",
+            "$0.5302",
+            "+17.6%",
+            "+18.1%",
+            "+3.2%",
+            "$588M",
+            "#53",
+            ""
+          ],
+          [
+            "KAS (Kaspa)",
+            "$0.04832",
+            "+15.6%",
+            "+26.5%",
+            "+5.8%",
+            "$32.5M",
+            "#71",
+            "TRENDING+UP BREAKOUT"
+          ],
+          [
+            "DASH (Dash)",
+            "$72.19",
+            "+15.1%",
+            "+21.1%",
+            "+2.2%",
+            "$236M",
+            "#85",
+            ""
+          ],
+          [
+            "CC (Canton)",
+            "$0.1373",
+            "+9.4%",
+            "+23.0%",
+            "−1.1%",
+            "$50.9M",
+            "#25",
+            ""
+          ],
+          [
+            "TAO (Bittensor)",
+            "$329.78",
+            "+8.7%",
+            "+22.9%",
+            "+0.7%",
+            "$375M",
+            "#33",
+            "TRENDING+UP"
+          ],
+          [
+            "RAIN (Rain)",
+            "$0.01283",
+            "+8.2%",
+            "−6.8%",
+            "+4.4%",
+            "$22.3M",
+            "#18",
+            ""
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.004460",
+            "+7.9%",
+            "+7.7%",
+            "+1.5%",
+            "$229M",
+            "#51",
+            ""
+          ],
+          [
+            "DOT (Polkadot)",
+            "$1.27",
+            "+7.1%",
+            "+10.5%",
+            "+1.5%",
+            "$212M",
+            "#50",
+            ""
+          ],
+          [
+            "AVAX (Avalanche)",
+            "$11.07",
+            "+6.6%",
+            "+17.7%",
+            "+1.8%",
+            "$540M",
+            "#27",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "losers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers-heading",
+        "losers-table"
+      ]
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "BTW (Bitway)",
+            "$1.022",
+            "−16.2%",
+            "+70.0%",
+            "+3.2%",
+            "$40.2M",
+            "#39",
+            ""
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "$4.85",
+            "−5.4%",
+            "+35.3%",
+            "+0.3%",
+            "$1.02B",
+            "#22",
+            "TRENDING+DOWN"
+          ],
+          [
+            "AKE (Akedo)",
+            "$0.03411",
+            "−5.3%",
+            "−46.1%",
+            "−0.3%",
+            "$26.7M",
+            "#91",
+            ""
+          ],
+          [
+            "INJ (Injective)",
+            "$7.84",
+            "−4.2%",
+            "+4.1%",
+            "+0.8%",
+            "$126M",
+            "#90",
+            ""
+          ],
+          [
+            "XRP (Ripple)",
+            "$1.55",
+            "−2.5%",
+            "+7.5%",
+            "+0.2%",
+            "$3.17B",
+            "#5",
+            "MAJOR"
+          ],
+          [
+            "VVV (Venice Token)",
+            "$30.12",
+            "−1.3%",
+            "+7.1%",
+            "+2.1%",
+            "$31.1M",
+            "#67",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trending-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending-heading",
+        "trending-table"
+      ]
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h",
+          "Status"
+        ],
+        "rows": [
+          [
+            "KAS (Kaspa)",
+            "#71",
+            "$0.04832",
+            "+15.6%",
+            "TRENDING+UP BREAKOUT"
+          ],
+          [
+            "ENA (Ethena)",
+            "#37",
+            "$0.2767",
+            "+9.6%",
+            "TRENDING+UP"
+          ],
+          [
+            "TAO (Bittensor)",
+            "#33",
+            "$329.78",
+            "+8.7%",
+            "TRENDING+UP"
+          ],
+          [
+            "EDGE (Definitive)",
+            "#643",
+            "$0.1316",
+            "+33.5%",
+            "PUMP-RISK"
+          ],
+          [
+            "STONK",
+            "#188",
+            "$0.2599",
+            "−17.8%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "NEAR",
+            "#22",
+            "$4.83",
+            "−5.6%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "SUI",
+            "#28",
+            "$1.18",
+            "+4.9%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "notable-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-heading",
+        "notable-items"
+      ]
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "notable-1": {
+      "type": "Text",
+      "props": {
+        "text": "KAS: trending + 7d +26.5% sustained — new [TRENDING+UP][BREAKOUT] signal",
+        "variant": "body"
+      }
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "QNT: day-three continuation, 7d now +68.8% — extended [BREAKOUT]",
+        "variant": "body"
+      }
+    },
+    "notable-3": {
+      "type": "Text",
+      "props": {
+        "text": "NEAR: reversed from yesterday's +12.5% winner to −5.4%, still in trending [TRENDING+DOWN]",
+        "variant": "body"
+      }
+    },
+    "notable-4": {
+      "type": "Text",
+      "props": {
+        "text": "EDGE: rank #643 up +33.5% on thin liquidity — [PUMP-RISK]",
+        "variant": "body"
+      }
+    }
+  }
+}
