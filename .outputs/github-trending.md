@@ -1,28 +1,22 @@
-*GitHub Trending — 2026-09-25*
+*GitHub Trending — 2026-09-26*
 
-*Top pick* — [paperclipai/paperclip](https://github.com/paperclipai/paperclip)
-Self-hosted agent management is the gap nobody filled well until now — 1,853 stars today says devs agree.
+*Top pick* — [block/buzz](https://github.com/block/buzz)
+Jack Dorsey's Block ships a Rust-native hive-mind comms platform — 34k stars in six months signals real adoption, not just hype.
 
-*AI/ML*
-• [paperclipai/paperclip](https://github.com/paperclipai/paperclip) — ★ 1,853 today (83.7k total) · TypeScript · [ACCELERATING]
-First open-source agent management suite with self-host — credible alternative to Microsoft Copilot Studio.
-
-• [google/ax](https://github.com/google/ax) — ★ 1,386 today (11.1k total) · Go · [ACCELERATING]
-Google's Apache-licensed agentic orchestration runtime in Go — gRPC streaming and tool orchestration without Python overhead.
-
-• [NVIDIA/Model-Optimizer](https://github.com/NVIDIA/Model-Optimizer) — ★ 360 today (4.3k total) · Python · [RETURNING]
-Updated SOTA unified library for pruning, distillation, and quantization — single toolkit for INT4/FP8 model export.
+*Infra*
+• [openbao/openbao](https://github.com/openbao/openbao) — ★ 360 today (7.9k total) · Go · [RETURNING]
+Linux Foundation's Vault fork jumped from 16★ to 360★ today — release or adoption news landed overnight.
 
 *Devtools*
-• [mattpocock/skills](https://github.com/mattpocock/skills) — ★ 671 today (269.5k total) · Shell · [ACCELERATING]
-Matt Pocock open-sourcing the .agents skill files powering his own workflow — reference implementation for structured agent prompting.
+• [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) — ★ 409 today (37.8k total) · PowerShell · [ACCELERATING]
+AI-powered router that maps RE tasks to the right tool — 37k stars in 4 months, high sustained pull.
 
-• [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — ★ 527 today (71.0k total) · JavaScript · [ACCELERATING]
-Design language spec for AI harness UIs — component rules to escape the 'every agent app looks like a chatbox' trap.
+• [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp) — ★ 143 today (7.1k total) · TypeScript · [RETURNING]
+MCP server that makes any AI agent a mobile controller — no custom ADB harness or Appium config needed.
 
 *Web/Apps*
-• [dream-num/univer](https://github.com/dream-num/univer) — ★ 1,048 today (18.2k total) · TypeScript · [RETURNING]
-Office suite behind a single JS API — spreadsheet, doc, slide, PDF that AI agents can read and edit without a browser.
+• [block/buzz](https://github.com/block/buzz) — ★ 175 today (34.7k total) · Rust · [ACCELERATING]
+Jack Dorsey's Block ships a Rust hive-mind comms platform — 34k stars in six months.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/16
+sources: trending=ok · gh_api=ok · kept 4/15

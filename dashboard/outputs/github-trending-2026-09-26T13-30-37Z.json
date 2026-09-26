@@ -1,0 +1,492 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-26"
+      },
+      "children": [
+        "section-toppick",
+        "sep-1",
+        "section-infra",
+        "sep-2",
+        "section-devtools",
+        "sep-3",
+        "section-web",
+        "sep-4",
+        "footer-sources"
+      ]
+    },
+    "section-toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-toppick",
+        "item-buzz-top"
+      ]
+    },
+    "heading-toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "item-buzz-top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink-buzz-top",
+        "text-buzz-desc",
+        "badges-buzz-top"
+      ]
+    },
+    "storylink-buzz-top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "block/buzz",
+        "href": "https://github.com/block/buzz",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "text-buzz-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Jack Dorsey's Block ships a Rust-native hive-mind comms platform — 34k stars in six months signals real adoption, not just hype.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "badges-buzz-top": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-buzz-lang-top",
+        "badge-buzz-status-top",
+        "text-buzz-stars-top"
+      ]
+    },
+    "badge-buzz-lang-top": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-buzz-status-top": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-buzz-stars-top": {
+      "type": "Text",
+      "props": {
+        "text": "★ 175 today (34.7k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-infra",
+        "stack-infra-items"
+      ]
+    },
+    "heading-infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-infra-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-openbao"
+      ]
+    },
+    "item-openbao": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink-openbao",
+        "metadata-openbao"
+      ]
+    },
+    "storylink-openbao": {
+      "type": "StoryLink",
+      "props": {
+        "title": "openbao/openbao",
+        "href": "https://github.com/openbao/openbao",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "metadata-openbao": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-openbao-lang",
+        "badge-openbao-status",
+        "text-openbao-stars"
+      ]
+    },
+    "badge-openbao-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-openbao-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-openbao-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 360 today (7.9k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-devtools",
+        "stack-devtools-items"
+      ]
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-devtools-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-reverse-skill",
+        "item-mobile-mcp"
+      ]
+    },
+    "item-reverse-skill": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink-reverse-skill",
+        "description-reverse-skill",
+        "metadata-reverse-skill"
+      ]
+    },
+    "storylink-reverse-skill": {
+      "type": "StoryLink",
+      "props": {
+        "title": "zhaoxuya520/reverse-skill",
+        "href": "https://github.com/zhaoxuya520/reverse-skill",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "description-reverse-skill": {
+      "type": "Text",
+      "props": {
+        "text": "AI-powered router that maps RE tasks to the right tool — 37k stars in 4 months, high sustained pull.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "metadata-reverse-skill": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-reverse-skill-lang",
+        "badge-reverse-skill-status",
+        "text-reverse-skill-stars"
+      ]
+    },
+    "badge-reverse-skill-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "PowerShell",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-reverse-skill-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-reverse-skill-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 409 today (37.8k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "item-mobile-mcp": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink-mobile-mcp",
+        "description-mobile-mcp",
+        "metadata-mobile-mcp"
+      ]
+    },
+    "storylink-mobile-mcp": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mobile-next/mobile-mcp",
+        "href": "https://github.com/mobile-next/mobile-mcp",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "description-mobile-mcp": {
+      "type": "Text",
+      "props": {
+        "text": "MCP server that makes any AI agent a mobile controller — no custom ADB harness or Appium config needed.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "metadata-mobile-mcp": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-mobile-mcp-lang",
+        "badge-mobile-mcp-status",
+        "text-mobile-mcp-stars"
+      ]
+    },
+    "badge-mobile-mcp-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-mobile-mcp-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-mobile-mcp-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 143 today (7.1k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-web": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-web",
+        "stack-web-items"
+      ]
+    },
+    "heading-web": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-web-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item-buzz-web"
+      ]
+    },
+    "item-buzz-web": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "storylink-buzz-web",
+        "description-buzz-web",
+        "metadata-buzz-web"
+      ]
+    },
+    "storylink-buzz-web": {
+      "type": "StoryLink",
+      "props": {
+        "title": "block/buzz",
+        "href": "https://github.com/block/buzz",
+        "source": "GitHub"
+      },
+      "children": []
+    },
+    "description-buzz-web": {
+      "type": "Text",
+      "props": {
+        "text": "Jack Dorsey's Block ships a Rust hive-mind comms platform — 34k stars in six months.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "metadata-buzz-web": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-buzz-lang-web",
+        "badge-buzz-status-web",
+        "text-buzz-stars-web"
+      ]
+    },
+    "badge-buzz-lang-web": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-buzz-status-web": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-buzz-stars-web": {
+      "type": "Text",
+      "props": {
+        "text": "★ 175 today (34.7k total)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer-sources": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-sources"
+      ]
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/15",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
