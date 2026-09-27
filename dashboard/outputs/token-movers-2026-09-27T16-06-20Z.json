@@ -1,0 +1,2233 @@
+{
+  "root": "main",
+  "state": {},
+  "elements": {
+    "main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "2026-09-27"
+      },
+      "children": [
+        "summary",
+        "sep1",
+        "winners-title",
+        "winners",
+        "sep2",
+        "losers-title",
+        "losers",
+        "sep3",
+        "trending-title",
+        "trending",
+        "sep4",
+        "notable-title",
+        "notable"
+      ]
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "Defensive tape — ~27% of top-100 alts positive; median 24h near −1.8%; QNT's +53% outlier masks broad selling in yesterday's winners.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "winners-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "w1",
+        "w2",
+        "w3",
+        "w4",
+        "w5",
+        "w6",
+        "w7",
+        "w8",
+        "w9",
+        "w10"
+      ]
+    },
+    "w1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w1-name",
+        "w1-stats",
+        "w1-meta",
+        "w1-badges"
+      ]
+    },
+    "w1-name": {
+      "type": "Heading",
+      "props": {
+        "text": "QNT (Quant)",
+        "level": "h3"
+      }
+    },
+    "w1-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w1-price",
+        "w1-24h",
+        "w1-7d",
+        "w1-1h"
+      ]
+    },
+    "w1-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$177.19"
+      }
+    },
+    "w1-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+53.2%",
+        "trend": "up"
+      }
+    },
+    "w1-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+164.1%",
+        "trend": "up"
+      }
+    },
+    "w1-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "+4.2%",
+        "trend": "up"
+      }
+    },
+    "w1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$656M / #43",
+        "variant": "caption"
+      }
+    },
+    "w1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w1-b1",
+        "w1-b2"
+      ]
+    },
+    "w1-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "w1-b2": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "secondary"
+      }
+    },
+    "w2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w2-name",
+        "w2-stats",
+        "w2-meta"
+      ]
+    },
+    "w2-name": {
+      "type": "Heading",
+      "props": {
+        "text": "GRAM (Gram)",
+        "level": "h3"
+      }
+    },
+    "w2-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w2-price",
+        "w2-24h",
+        "w2-7d",
+        "w2-1h"
+      ]
+    },
+    "w2-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$1.65"
+      }
+    },
+    "w2-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+11.4%",
+        "trend": "up"
+      }
+    },
+    "w2-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+15.7%",
+        "trend": "up"
+      }
+    },
+    "w2-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "−0.7%",
+        "trend": "down"
+      }
+    },
+    "w2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$173.8M / #29",
+        "variant": "caption"
+      }
+    },
+    "w3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w3-name",
+        "w3-stats",
+        "w3-meta"
+      ]
+    },
+    "w3-name": {
+      "type": "Heading",
+      "props": {
+        "text": "BTW (Bitway)",
+        "level": "h3"
+      }
+    },
+    "w3-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w3-price",
+        "w3-24h",
+        "w3-7d",
+        "w3-1h"
+      ]
+    },
+    "w3-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$1.17"
+      }
+    },
+    "w3-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+10.5%",
+        "trend": "up"
+      }
+    },
+    "w3-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+70.4%",
+        "trend": "up"
+      }
+    },
+    "w3-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "+1.1%",
+        "trend": "up"
+      }
+    },
+    "w3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$24.0M / #37",
+        "variant": "caption"
+      }
+    },
+    "w4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w4-name",
+        "w4-stats",
+        "w4-meta",
+        "w4-badges"
+      ]
+    },
+    "w4-name": {
+      "type": "Heading",
+      "props": {
+        "text": "PUMP (Pump.fun)",
+        "level": "h3"
+      }
+    },
+    "w4-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w4-price",
+        "w4-24h",
+        "w4-7d",
+        "w4-1h"
+      ]
+    },
+    "w4-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$0.004852"
+      }
+    },
+    "w4-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+8.2%",
+        "trend": "up"
+      }
+    },
+    "w4-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+18.8%",
+        "trend": "up"
+      }
+    },
+    "w4-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "+3.2%",
+        "trend": "up"
+      }
+    },
+    "w4-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$196M / #50",
+        "variant": "caption"
+      }
+    },
+    "w4-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w4-b1"
+      ]
+    },
+    "w4-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "w5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w5-name",
+        "w5-stats",
+        "w5-meta",
+        "w5-badges"
+      ]
+    },
+    "w5-name": {
+      "type": "Heading",
+      "props": {
+        "text": "NEAR (NEAR Protocol)",
+        "level": "h3"
+      }
+    },
+    "w5-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w5-price",
+        "w5-24h",
+        "w5-7d",
+        "w5-1h"
+      ]
+    },
+    "w5-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$5.19"
+      }
+    },
+    "w5-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+7.2%",
+        "trend": "up"
+      }
+    },
+    "w5-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+41.5%",
+        "trend": "up"
+      }
+    },
+    "w5-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "+0.1%",
+        "trend": "up"
+      }
+    },
+    "w5-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$1.17B / #21",
+        "variant": "caption"
+      }
+    },
+    "w5-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w5-b1"
+      ]
+    },
+    "w5-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "w6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w6-name",
+        "w6-stats",
+        "w6-meta"
+      ]
+    },
+    "w6-name": {
+      "type": "Heading",
+      "props": {
+        "text": "RAY (Raydium)",
+        "level": "h3"
+      }
+    },
+    "w6-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w6-price",
+        "w6-24h",
+        "w6-7d",
+        "w6-1h"
+      ]
+    },
+    "w6-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$2.19"
+      }
+    },
+    "w6-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+7.0%",
+        "trend": "up"
+      }
+    },
+    "w6-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+34.1%",
+        "trend": "up"
+      }
+    },
+    "w6-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "−1.1%",
+        "trend": "down"
+      }
+    },
+    "w6-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$85.5M / #105",
+        "variant": "caption"
+      }
+    },
+    "w7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w7-name",
+        "w7-stats",
+        "w7-meta"
+      ]
+    },
+    "w7-name": {
+      "type": "Heading",
+      "props": {
+        "text": "PYTH (Pyth Network)",
+        "level": "h3"
+      }
+    },
+    "w7-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w7-price",
+        "w7-24h",
+        "w7-7d",
+        "w7-1h"
+      ]
+    },
+    "w7-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$0.08301"
+      }
+    },
+    "w7-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+6.6%",
+        "trend": "up"
+      }
+    },
+    "w7-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+42.8%",
+        "trend": "up"
+      }
+    },
+    "w7-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "−0.2%",
+        "trend": "down"
+      }
+    },
+    "w7-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$79.4M / #98",
+        "variant": "caption"
+      }
+    },
+    "w8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w8-name",
+        "w8-stats",
+        "w8-meta"
+      ]
+    },
+    "w8-name": {
+      "type": "Heading",
+      "props": {
+        "text": "XDC (XDC Network)",
+        "level": "h3"
+      }
+    },
+    "w8-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w8-price",
+        "w8-24h",
+        "w8-7d",
+        "w8-1h"
+      ]
+    },
+    "w8-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$0.03201"
+      }
+    },
+    "w8-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+5.3%",
+        "trend": "up"
+      }
+    },
+    "w8-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+13.0%",
+        "trend": "up"
+      }
+    },
+    "w8-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "−1.5%",
+        "trend": "down"
+      }
+    },
+    "w8-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$12.2M / #100",
+        "variant": "caption"
+      }
+    },
+    "w9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w9-name",
+        "w9-stats",
+        "w9-meta",
+        "w9-badges"
+      ]
+    },
+    "w9-name": {
+      "type": "Heading",
+      "props": {
+        "text": "SUI (Sui)",
+        "level": "h3"
+      }
+    },
+    "w9-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w9-price",
+        "w9-24h",
+        "w9-7d",
+        "w9-1h"
+      ]
+    },
+    "w9-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$1.23"
+      }
+    },
+    "w9-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+4.3%",
+        "trend": "up"
+      }
+    },
+    "w9-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+51.3%",
+        "trend": "up"
+      }
+    },
+    "w9-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "−0.9%",
+        "trend": "down"
+      }
+    },
+    "w9-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$1.08B / #26",
+        "variant": "caption"
+      }
+    },
+    "w9-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w9-b1"
+      ]
+    },
+    "w9-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "w10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w10-name",
+        "w10-stats",
+        "w10-meta"
+      ]
+    },
+    "w10-name": {
+      "type": "Heading",
+      "props": {
+        "text": "STABLE",
+        "level": "h3"
+      }
+    },
+    "w10-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "w10-price",
+        "w10-24h",
+        "w10-7d",
+        "w10-1h"
+      ]
+    },
+    "w10-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$0.02728"
+      }
+    },
+    "w10-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+3.4%",
+        "trend": "up"
+      }
+    },
+    "w10-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+11.0%",
+        "trend": "up"
+      }
+    },
+    "w10-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "+0.6%",
+        "trend": "up"
+      }
+    },
+    "w10-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$8.89M / #95",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "losers-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "l1",
+        "l2",
+        "l3",
+        "l4",
+        "l5",
+        "l6",
+        "l7",
+        "l8",
+        "l9",
+        "l10"
+      ]
+    },
+    "l1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l1-name",
+        "l1-stats",
+        "l1-meta"
+      ]
+    },
+    "l1-name": {
+      "type": "Heading",
+      "props": {
+        "text": "ETHFI (Ether.fi)",
+        "level": "h3"
+      }
+    },
+    "l1-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l1-price",
+        "l1-24h",
+        "l1-7d",
+        "l1-1h"
+      ]
+    },
+    "l1-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$0.7002"
+      }
+    },
+    "l1-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "−9.0%",
+        "trend": "down"
+      }
+    },
+    "l1-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+4.5%",
+        "trend": "up"
+      }
+    },
+    "l1-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "−0.8%",
+        "trend": "down"
+      }
+    },
+    "l1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$50.6M / #97",
+        "variant": "caption"
+      }
+    },
+    "l2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l2-name",
+        "l2-stats",
+        "l2-meta",
+        "l2-badges"
+      ]
+    },
+    "l2-name": {
+      "type": "Heading",
+      "props": {
+        "text": "AERO (Aerodrome)",
+        "level": "h3"
+      }
+    },
+    "l2-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l2-price",
+        "l2-24h",
+        "l2-7d",
+        "l2-1h"
+      ]
+    },
+    "l2-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$0.8260"
+      }
+    },
+    "l2-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "−7.9%",
+        "trend": "down"
+      }
+    },
+    "l2-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+27.5%",
+        "trend": "up"
+      }
+    },
+    "l2-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "−0.7%",
+        "trend": "down"
+      }
+    },
+    "l2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$58.0M / #88",
+        "variant": "caption"
+      }
+    },
+    "l2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "l2-b1"
+      ]
+    },
+    "l2-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "secondary"
+      }
+    },
+    "l3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l3-name",
+        "l3-stats",
+        "l3-meta"
+      ]
+    },
+    "l3-name": {
+      "type": "Heading",
+      "props": {
+        "text": "DASH (Dash)",
+        "level": "h3"
+      }
+    },
+    "l3-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l3-price",
+        "l3-24h",
+        "l3-7d",
+        "l3-1h"
+      ]
+    },
+    "l3-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$67.15"
+      }
+    },
+    "l3-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "−6.0%",
+        "trend": "down"
+      }
+    },
+    "l3-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+22.4%",
+        "trend": "up"
+      }
+    },
+    "l3-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "−1.1%",
+        "trend": "down"
+      }
+    },
+    "l3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$228.6M / #87",
+        "variant": "caption"
+      }
+    },
+    "l4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l4-name",
+        "l4-stats",
+        "l4-meta"
+      ]
+    },
+    "l4-name": {
+      "type": "Heading",
+      "props": {
+        "text": "TAO (Bittensor)",
+        "level": "h3"
+      }
+    },
+    "l4-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l4-price",
+        "l4-24h",
+        "l4-7d",
+        "l4-1h"
+      ]
+    },
+    "l4-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$321.47"
+      }
+    },
+    "l4-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "−5.6%",
+        "trend": "down"
+      }
+    },
+    "l4-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+28.9%",
+        "trend": "up"
+      }
+    },
+    "l4-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "−1.4%",
+        "trend": "down"
+      }
+    },
+    "l4-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$299.8M / #33",
+        "variant": "caption"
+      }
+    },
+    "l5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l5-name",
+        "l5-stats",
+        "l5-meta"
+      ]
+    },
+    "l5-name": {
+      "type": "Heading",
+      "props": {
+        "text": "FIL (Filecoin)",
+        "level": "h3"
+      }
+    },
+    "l5-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l5-price",
+        "l5-24h",
+        "l5-7d",
+        "l5-1h"
+      ]
+    },
+    "l5-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$1.14"
+      }
+    },
+    "l5-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "−5.1%",
+        "trend": "down"
+      }
+    },
+    "l5-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+23.5%",
+        "trend": "up"
+      }
+    },
+    "l5-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "+0.5%",
+        "trend": "up"
+      }
+    },
+    "l5-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$207.1M / #84",
+        "variant": "caption"
+      }
+    },
+    "l6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l6-name",
+        "l6-stats",
+        "l6-meta"
+      ]
+    },
+    "l6-name": {
+      "type": "Heading",
+      "props": {
+        "text": "ALGO (Algorand)",
+        "level": "h3"
+      }
+    },
+    "l6-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l6-price",
+        "l6-24h",
+        "l6-7d",
+        "l6-1h"
+      ]
+    },
+    "l6-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$0.1164"
+      }
+    },
+    "l6-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "−4.6%",
+        "trend": "down"
+      }
+    },
+    "l6-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+10.1%",
+        "trend": "up"
+      }
+    },
+    "l6-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "−0.2%",
+        "trend": "down"
+      }
+    },
+    "l6-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$51.8M / #77",
+        "variant": "caption"
+      }
+    },
+    "l7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l7-name",
+        "l7-stats",
+        "l7-meta"
+      ]
+    },
+    "l7-name": {
+      "type": "Heading",
+      "props": {
+        "text": "APT (Aptos)",
+        "level": "h3"
+      }
+    },
+    "l7-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l7-price",
+        "l7-24h",
+        "l7-7d",
+        "l7-1h"
+      ]
+    },
+    "l7-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$0.8381"
+      }
+    },
+    "l7-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "−4.6%",
+        "trend": "down"
+      }
+    },
+    "l7-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+16.4%",
+        "trend": "up"
+      }
+    },
+    "l7-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "−0.8%",
+        "trend": "down"
+      }
+    },
+    "l7-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$74.3M / #94",
+        "variant": "caption"
+      }
+    },
+    "l8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l8-name",
+        "l8-stats",
+        "l8-meta"
+      ]
+    },
+    "l8-name": {
+      "type": "Heading",
+      "props": {
+        "text": "ICP (Internet Computer)",
+        "level": "h3"
+      }
+    },
+    "l8-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l8-price",
+        "l8-24h",
+        "l8-7d",
+        "l8-1h"
+      ]
+    },
+    "l8-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$3.17"
+      }
+    },
+    "l8-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "−4.3%",
+        "trend": "down"
+      }
+    },
+    "l8-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+15.5%",
+        "trend": "up"
+      }
+    },
+    "l8-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "−0.4%",
+        "trend": "down"
+      }
+    },
+    "l8-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$70.8M / #59",
+        "variant": "caption"
+      }
+    },
+    "l9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l9-name",
+        "l9-stats",
+        "l9-meta"
+      ]
+    },
+    "l9-name": {
+      "type": "Heading",
+      "props": {
+        "text": "JUP (Jupiter)",
+        "level": "h3"
+      }
+    },
+    "l9-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l9-price",
+        "l9-24h",
+        "l9-7d",
+        "l9-1h"
+      ]
+    },
+    "l9-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$0.3340"
+      }
+    },
+    "l9-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "−4.2%",
+        "trend": "down"
+      }
+    },
+    "l9-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+24.8%",
+        "trend": "up"
+      }
+    },
+    "l9-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "−0.9%",
+        "trend": "down"
+      }
+    },
+    "l9-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$71.0M / #76",
+        "variant": "caption"
+      }
+    },
+    "l10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l10-name",
+        "l10-stats",
+        "l10-meta"
+      ]
+    },
+    "l10-name": {
+      "type": "Heading",
+      "props": {
+        "text": "SKY",
+        "level": "h3"
+      }
+    },
+    "l10-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "l10-price",
+        "l10-24h",
+        "l10-7d",
+        "l10-1h"
+      ]
+    },
+    "l10-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$0.07481"
+      }
+    },
+    "l10-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "−4.0%",
+        "trend": "down"
+      }
+    },
+    "l10-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+9.8%",
+        "trend": "up"
+      }
+    },
+    "l10-1h": {
+      "type": "Stat",
+      "props": {
+        "label": "1h",
+        "value": "−0.5%",
+        "trend": "down"
+      }
+    },
+    "l10-meta": {
+      "type": "Text",
+      "props": {
+        "text": "$14.3M / #60",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trending-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    "t1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-name",
+        "t1-data",
+        "t1-badges"
+      ]
+    },
+    "t1-name": {
+      "type": "Heading",
+      "props": {
+        "text": "QNT (Quant)",
+        "level": "h3"
+      }
+    },
+    "t1-data": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t1-rank",
+        "t1-price",
+        "t1-24h"
+      ]
+    },
+    "t1-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#43",
+        "variant": "caption"
+      }
+    },
+    "t1-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$177.19"
+      }
+    },
+    "t1-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+47.6%",
+        "trend": "up"
+      }
+    },
+    "t1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-b1",
+        "t1-b2"
+      ]
+    },
+    "t1-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "t1-b2": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "secondary"
+      }
+    },
+    "t2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-name",
+        "t2-data",
+        "t2-badges"
+      ]
+    },
+    "t2-name": {
+      "type": "Heading",
+      "props": {
+        "text": "NEAR (NEAR Protocol)",
+        "level": "h3"
+      }
+    },
+    "t2-data": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t2-rank",
+        "t2-price",
+        "t2-24h"
+      ]
+    },
+    "t2-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#21",
+        "variant": "caption"
+      }
+    },
+    "t2-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$5.19"
+      }
+    },
+    "t2-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+8.3%",
+        "trend": "up"
+      }
+    },
+    "t2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-b1"
+      ]
+    },
+    "t2-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "t3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-name",
+        "t3-data",
+        "t3-badges"
+      ]
+    },
+    "t3-name": {
+      "type": "Heading",
+      "props": {
+        "text": "EDEL (Edel)",
+        "level": "h3"
+      }
+    },
+    "t3-data": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t3-rank",
+        "t3-24h"
+      ]
+    },
+    "t3-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#957",
+        "variant": "caption"
+      }
+    },
+    "t3-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "−11.0%",
+        "trend": "down"
+      }
+    },
+    "t3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-b1",
+        "t3-b2"
+      ]
+    },
+    "t3-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "secondary"
+      }
+    },
+    "t3-b2": {
+      "type": "Badge",
+      "props": {
+        "text": "MICROCAP",
+        "variant": "secondary"
+      }
+    },
+    "t4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-name",
+        "t4-data",
+        "t4-badges"
+      ]
+    },
+    "t4-name": {
+      "type": "Heading",
+      "props": {
+        "text": "BP (Backpack)",
+        "level": "h3"
+      }
+    },
+    "t4-data": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t4-rank",
+        "t4-24h"
+      ]
+    },
+    "t4-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#136",
+        "variant": "caption"
+      }
+    },
+    "t4-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+12.1%",
+        "trend": "up"
+      }
+    },
+    "t4-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-b1"
+      ]
+    },
+    "t4-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "t5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t5-name",
+        "t5-data",
+        "t5-badges"
+      ]
+    },
+    "t5-name": {
+      "type": "Heading",
+      "props": {
+        "text": "SUI (Sui)",
+        "level": "h3"
+      }
+    },
+    "t5-data": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t5-rank",
+        "t5-price",
+        "t5-24h"
+      ]
+    },
+    "t5-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#26",
+        "variant": "caption"
+      }
+    },
+    "t5-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$1.23"
+      }
+    },
+    "t5-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+4.7%",
+        "trend": "up"
+      }
+    },
+    "t5-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t5-b1"
+      ]
+    },
+    "t5-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      }
+    },
+    "t6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t6-name",
+        "t6-data"
+      ]
+    },
+    "t6-name": {
+      "type": "Heading",
+      "props": {
+        "text": "ONDO (Ondo)",
+        "level": "h3"
+      }
+    },
+    "t6-data": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t6-rank",
+        "t6-price",
+        "t6-24h"
+      ]
+    },
+    "t6-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#42",
+        "variant": "caption"
+      }
+    },
+    "t6-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$0.5426"
+      }
+    },
+    "t6-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "−0.6%",
+        "trend": "down"
+      }
+    },
+    "t7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t7-name",
+        "t7-data"
+      ]
+    },
+    "t7-name": {
+      "type": "Heading",
+      "props": {
+        "text": "TRUMP (Official Trump)",
+        "level": "h3"
+      }
+    },
+    "t7-data": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "t7-rank",
+        "t7-price",
+        "t7-24h"
+      ]
+    },
+    "t7-rank": {
+      "type": "Text",
+      "props": {
+        "text": "#104",
+        "variant": "caption"
+      }
+    },
+    "t7-price": {
+      "type": "Stat",
+      "props": {
+        "value": "$2.12"
+      }
+    },
+    "t7-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "−2.3%",
+        "trend": "down"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "notable-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "n1",
+        "n2",
+        "n3",
+        "n4"
+      ]
+    },
+    "n1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "n1-badges",
+        "n1-text"
+      ]
+    },
+    "n1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "n1-b1",
+        "n1-b2"
+      ]
+    },
+    "n1-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "QNT",
+        "variant": "secondary"
+      }
+    },
+    "n1-b2": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "secondary"
+      }
+    },
+    "n1-text": {
+      "type": "Text",
+      "props": {
+        "text": "+53% / 7d +164% on $656M vol — four-day breakout now trending; strongest confirmed signal this week"
+      }
+    },
+    "n2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "n2-badge",
+        "n2-text"
+      ]
+    },
+    "n2-badge": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "n2-b1"
+      ]
+    },
+    "n2-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEAR",
+        "variant": "secondary"
+      }
+    },
+    "n2-text": {
+      "type": "Text",
+      "props": {
+        "text": "reversed: was [TRENDING+DOWN] at −5.4% yesterday, now [TRENDING+UP] at +7.2%; direction flip with trending backing"
+      }
+    },
+    "n3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "n3-badges",
+        "n3-text"
+      ]
+    },
+    "n3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "n3-b1"
+      ]
+    },
+    "n3-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "AERO",
+        "variant": "secondary"
+      }
+    },
+    "n3-text": {
+      "type": "Text",
+      "props": {
+        "text": "[TRENDING+DOWN]: two-day reversal from +13% winner (Sep 25) into −8% while trending; typical DeFi alt washout"
+      }
+    },
+    "n4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "n4-badges",
+        "n4-text"
+      ]
+    },
+    "n4-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "n4-b1",
+        "n4-b2",
+        "n4-b3"
+      ]
+    },
+    "n4-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "FIL",
+        "variant": "secondary"
+      }
+    },
+    "n4-b2": {
+      "type": "Badge",
+      "props": {
+        "text": "DASH",
+        "variant": "secondary"
+      }
+    },
+    "n4-b3": {
+      "type": "Badge",
+      "props": {
+        "text": "TAO",
+        "variant": "secondary"
+      }
+    },
+    "n4-text": {
+      "type": "Text",
+      "props": {
+        "text": "yesterday's biggest winners (FIL +17.8%, DASH +15.1%, TAO +8.7%) all now red — single-day alt rotation exhaustion"
+      }
+    }
+  }
+}
