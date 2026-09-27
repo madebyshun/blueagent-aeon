@@ -1,0 +1,580 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-27"
+      },
+      "children": [
+        "top-pick-section",
+        "separator-1",
+        "aiml-section",
+        "separator-2",
+        "devtools-section",
+        "separator-3",
+        "footer"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-label",
+        "hindsight-top-pick"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "hindsight-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hindsight-top-link",
+        "hindsight-top-desc"
+      ]
+    },
+    "hindsight-top-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "vectorize-io/hindsight",
+        "href": "https://github.com/vectorize-io/hindsight"
+      }
+    },
+    "hindsight-top-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Agent memory that rewrites its own retrieval rules after every task — the standout because it solves the core gap in production agent stacks today.",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml-heading",
+        "aiml-repos"
+      ]
+    },
+    "aiml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml-repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo-hindsight-aiml",
+        "repo-voicestudio",
+        "repo-deepopen",
+        "repo-companybrain"
+      ]
+    },
+    "repo-hindsight-aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hindsight-aiml-link",
+        "hindsight-aiml-stats",
+        "hindsight-aiml-desc"
+      ]
+    },
+    "hindsight-aiml-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "vectorize-io/hindsight",
+        "href": "https://github.com/vectorize-io/hindsight"
+      }
+    },
+    "hindsight-aiml-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "hindsight-aiml-today",
+        "hindsight-aiml-total",
+        "hindsight-aiml-lang",
+        "hindsight-aiml-status"
+      ]
+    },
+    "hindsight-aiml-today": {
+      "type": "Stat",
+      "props": {
+        "label": "★ Today",
+        "value": "4,463"
+      }
+    },
+    "hindsight-aiml-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "35.7k"
+      }
+    },
+    "hindsight-aiml-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "hindsight-aiml-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "hindsight-aiml-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rewrites its own memory-retrieval rules after each task — agent memory that improves from use rather than growing stale.",
+        "variant": "body"
+      }
+    },
+    "repo-voicestudio": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "voicestudio-link",
+        "voicestudio-stats",
+        "voicestudio-desc"
+      ]
+    },
+    "voicestudio-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "debpalash/VoiceStudio",
+        "href": "https://github.com/debpalash/VoiceStudio"
+      }
+    },
+    "voicestudio-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "voicestudio-today",
+        "voicestudio-total",
+        "voicestudio-lang",
+        "voicestudio-status"
+      ]
+    },
+    "voicestudio-today": {
+      "type": "Stat",
+      "props": {
+        "label": "★ Today",
+        "value": "3,060"
+      }
+    },
+    "voicestudio-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "38.9k"
+      }
+    },
+    "voicestudio-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "voicestudio-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "voicestudio-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Fully local ElevenLabs replacement in 646 languages — voice cloning and video dubbing with zero API keys required.",
+        "variant": "body"
+      }
+    },
+    "repo-deepopen": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deepopen-link",
+        "deepopen-stats",
+        "deepopen-desc"
+      ]
+    },
+    "deepopen-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "deepopen-com/deepopen",
+        "href": "https://github.com/deepopen-com/deepopen"
+      }
+    },
+    "deepopen-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "deepopen-total",
+        "deepopen-lang",
+        "deepopen-status"
+      ]
+    },
+    "deepopen-total": {
+      "type": "Stat",
+      "props": {
+        "label": "★ Total",
+        "value": "1k"
+      }
+    },
+    "deepopen-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "deepopen-status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "deepopen-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Picks from typed outputs without generating a single token — structured decisions up to 10× faster than chat-completion models.",
+        "variant": "body"
+      }
+    },
+    "repo-companybrain": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "companybrain-link",
+        "companybrain-stats",
+        "companybrain-desc"
+      ]
+    },
+    "companybrain-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "supermemoryai/company-brain",
+        "href": "https://github.com/supermemoryai/company-brain"
+      }
+    },
+    "companybrain-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "companybrain-total",
+        "companybrain-lang",
+        "companybrain-status"
+      ]
+    },
+    "companybrain-total": {
+      "type": "Stat",
+      "props": {
+        "label": "★ Total",
+        "value": "0.6k"
+      }
+    },
+    "companybrain-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "companybrain-status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "companybrain-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Open-sourced Slack bot that ingests every team message and acts as a persistent memory layer for agent workflows.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-repos"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "repo-magpie",
+        "repo-disktree",
+        "repo-scriptc"
+      ]
+    },
+    "repo-magpie": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "magpie-link",
+        "magpie-stats",
+        "magpie-desc"
+      ]
+    },
+    "magpie-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "yetone/magpie",
+        "href": "https://github.com/yetone/magpie"
+      }
+    },
+    "magpie-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "magpie-total",
+        "magpie-lang",
+        "magpie-status"
+      ]
+    },
+    "magpie-total": {
+      "type": "Stat",
+      "props": {
+        "label": "★ Total",
+        "value": "1.2k"
+      }
+    },
+    "magpie-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go"
+      }
+    },
+    "magpie-status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "magpie-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Menu bar model router: point Claude Code at Kimi or Codex at DeepSeek without editing a config file.",
+        "variant": "body"
+      }
+    },
+    "repo-disktree": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "disktree-link",
+        "disktree-stats",
+        "disktree-desc"
+      ]
+    },
+    "disktree-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "tobi/disktree",
+        "href": "https://github.com/tobi/disktree"
+      }
+    },
+    "disktree-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "disktree-total",
+        "disktree-lang",
+        "disktree-status"
+      ]
+    },
+    "disktree-total": {
+      "type": "Stat",
+      "props": {
+        "label": "★ Total",
+        "value": "1.5k"
+      }
+    },
+    "disktree-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "disktree-status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "disktree-desc": {
+      "type": "Text",
+      "props": {
+        "text": "GPU-accelerated disk treemap built on GPUI for Omarchy — shows what's filling your disk in under 100ms.",
+        "variant": "body"
+      }
+    },
+    "repo-scriptc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "scriptc-link",
+        "scriptc-stats",
+        "scriptc-desc"
+      ]
+    },
+    "scriptc-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "vercel-labs/scriptc",
+        "href": "https://github.com/vercel-labs/scriptc"
+      }
+    },
+    "scriptc-stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "scriptc-today",
+        "scriptc-total",
+        "scriptc-lang",
+        "scriptc-status"
+      ]
+    },
+    "scriptc-today": {
+      "type": "Stat",
+      "props": {
+        "label": "★ Today",
+        "value": "76"
+      }
+    },
+    "scriptc-total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "5.3k"
+      }
+    },
+    "scriptc-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "scriptc-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "scriptc-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Compiles TypeScript to native binaries — no Node or Bun runtime, sub-1ms startup, single-file output.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/25+",
+        "variant": "caption"
+      }
+    }
+  }
+}
