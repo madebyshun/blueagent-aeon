@@ -1,0 +1,484 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-09-27"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-qnt",
+        "sep-1",
+        "section-market",
+        "footer"
+      ]
+    },
+    "section-qnt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "qnt-header",
+        "qnt-price-grid",
+        "qnt-score",
+        "qnt-catalyst",
+        "qnt-risk",
+        "qnt-vs"
+      ]
+    },
+    "qnt-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "qnt-title",
+        "badge-high-1",
+        "badge-signal-10"
+      ]
+    },
+    "qnt-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: QNT",
+        "level": "h2"
+      }
+    },
+    "badge-high-1": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "badge-signal-10": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 10/10",
+        "variant": "default"
+      }
+    },
+    "qnt-price-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-price",
+        "stat-24h",
+        "stat-7d",
+        "stat-mcap",
+        "stat-vol",
+        "stat-ratio"
+      ]
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$177.50"
+      }
+    },
+    "stat-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h change",
+        "value": "+47.6%",
+        "trend": "up"
+      }
+    },
+    "stat-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d change",
+        "value": "+164.1%",
+        "trend": "up"
+      }
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$2.54B"
+      }
+    },
+    "stat-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$637M"
+      }
+    },
+    "stat-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "vol/mcap",
+        "value": "0.25"
+      }
+    },
+    "qnt-score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-heading",
+        "score-text"
+      ]
+    },
+    "score-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h4"
+      }
+    },
+    "score-text": {
+      "type": "Text",
+      "props": {
+        "text": "trending +2 | vol/mcap +3 | RS vs BTC/ETH +2 | both 24h/7d>5% +2 | 24h>0 +1 = 11→10/10",
+        "variant": "caption"
+      }
+    },
+    "qnt-catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-heading",
+        "catalyst-text"
+      ]
+    },
+    "catalyst-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "The Clearing House (TCH) — which clears $2T/day — selected Quant's Overledger to power tokenized deposit settlement across 25 major US banks (announced Sep 24–25)",
+        "variant": "body"
+      }
+    },
+    "qnt-risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "risk-heading-1",
+        "risk-text-1"
+      ]
+    },
+    "risk-heading-1": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      }
+    },
+    "risk-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "164% weekly run sets up mean-reversion; TCH launch not until H1 2027 — buy-the-rumor fade risk is real",
+        "variant": "body"
+      }
+    },
+    "qnt-vs": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "vs-heading",
+        "vs-text"
+      ]
+    },
+    "vs-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Vs Recent Picks",
+        "level": "h4"
+      }
+    },
+    "vs-text": {
+      "type": "Text",
+      "props": {
+        "text": "First time — new banking catalyst drives pick",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-header",
+        "market-question",
+        "market-odds",
+        "fair-value-section",
+        "market-thesis",
+        "market-risk"
+      ]
+    },
+    "market-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market-title",
+        "badge-high-2",
+        "badge-edge"
+      ]
+    },
+    "market-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Pick",
+        "level": "h2"
+      }
+    },
+    "badge-high-2": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "badge-edge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 16pp",
+        "variant": "default"
+      }
+    },
+    "market-question": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q-text",
+        "q-meta"
+      ]
+    },
+    "q-text": {
+      "type": "Text",
+      "props": {
+        "text": "Will Bitcoin fall below $82,500 in September?",
+        "variant": "lead"
+      }
+    },
+    "q-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "meta-vol",
+        "meta-resolve"
+      ]
+    },
+    "meta-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h volume",
+        "value": "$647K"
+      }
+    },
+    "meta-resolve": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: Oct 1",
+        "variant": "caption"
+      }
+    },
+    "market-odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "odds-heading",
+        "odds-grid"
+      ]
+    },
+    "odds-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Odds",
+        "level": "h4"
+      }
+    },
+    "odds-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "progress-yes",
+        "progress-no"
+      ]
+    },
+    "progress-yes": {
+      "type": "Progress",
+      "props": {
+        "label": "YES",
+        "value": 44,
+        "max": 100
+      }
+    },
+    "progress-no": {
+      "type": "Progress",
+      "props": {
+        "label": "NO",
+        "value": 56,
+        "max": 100
+      }
+    },
+    "fair-value-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fv-heading",
+        "fv-stat",
+        "fv-detail"
+      ]
+    },
+    "fv-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair YES Value",
+        "level": "h4"
+      }
+    },
+    "fv-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "~28%"
+      }
+    },
+    "fv-detail": {
+      "type": "Text",
+      "props": {
+        "text": "BTC at $84K needs -1.8% in 3 days | $2.39B ETF inflows this week providing floor | volatility tightening at quarter-end",
+        "variant": "caption"
+      }
+    },
+    "market-thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-heading",
+        "thesis-text"
+      ]
+    },
+    "thesis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      }
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market over-prices the downside — institutional ETF inflows ($999M peak day) have held BTC above $84K; bet NO on the sub-$82.5K print",
+        "variant": "body"
+      }
+    },
+    "market-risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "risk-heading-2",
+        "risk-text-2"
+      ]
+    },
+    "risk-heading-2": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      }
+    },
+    "risk-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Weekend thin liquidity or macro shock could trigger a fast liquidation cascade below support",
+        "variant": "body"
+      }
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-text",
+        "disclaimer-alert"
+      ]
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=ok, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "disclaimer-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "not financial advice — pattern-matching only"
+      }
+    }
+  }
+}
