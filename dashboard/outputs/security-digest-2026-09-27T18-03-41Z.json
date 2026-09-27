@@ -1,0 +1,442 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-09-27"
+      },
+      "children": [
+        "verdict",
+        "sep1",
+        "patch-heading",
+        "patch-stack",
+        "sep2",
+        "monitor-heading",
+        "monitor-stack"
+      ]
+    },
+    "verdict": {
+      "type": "Text",
+      "props": {
+        "text": "nothing urgent today. 2 to schedule, 3 to monitor. Sources: KEV (no new adds since 09-25), GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-1",
+        "patch-2"
+      ]
+    },
+    "patch-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "patch-1-link",
+        "patch-1-pkg",
+        "patch-1-severity",
+        "patch-1-desc",
+        "patch-1-action"
+      ]
+    },
+    "patch-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-61732",
+        "href": "https://github.com/advisories/GHSA-g5f9-3xfg-p9mf"
+      }
+    },
+    "patch-1-pkg": {
+      "type": "Text",
+      "props": {
+        "text": "decepticon-core/decepticon/decepticon-sdk (pip)",
+        "variant": "caption"
+      }
+    },
+    "patch-1-severity": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "patch-1-cvss",
+        "patch-1-epss",
+        "patch-1-patch"
+      ]
+    },
+    "patch-1-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 10.0"
+      }
+    },
+    "patch-1-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.012"
+      }
+    },
+    "patch-1-patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch yet",
+        "variant": "destructive"
+      }
+    },
+    "patch-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "ChatML special-token injection via web crawl output → LLM context role-boundary forgery. AI agent pipelines on ≤1.1.16 are affected."
+      }
+    },
+    "patch-1-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action",
+        "message": "Remove decepticon-* from agent pipelines until patch ships.",
+        "type": "warning"
+      }
+    },
+    "patch-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "patch-2-link",
+        "patch-2-pkg",
+        "patch-2-severity",
+        "patch-2-desc",
+        "patch-2-action"
+      ]
+    },
+    "patch-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-59723",
+        "href": "https://github.com/advisories/GHSA-3cj3-hqcr-g934"
+      }
+    },
+    "patch-2-pkg": {
+      "type": "Text",
+      "props": {
+        "text": "cline (npm)",
+        "variant": "caption"
+      }
+    },
+    "patch-2-severity": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "patch-2-cvss",
+        "patch-2-epss",
+        "patch-2-patch"
+      ]
+    },
+    "patch-2-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8"
+      }
+    },
+    "patch-2-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.002"
+      }
+    },
+    "patch-2-patch": {
+      "type": "Badge",
+      "props": {
+        "text": "patched at 3.0.30",
+        "variant": "secondary"
+      }
+    },
+    "patch-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-origin WebSocket hijacking in Cline Hub Dashboard /browser endpoint. Attacker page can hijack dev agent session."
+      }
+    },
+    "patch-2-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action",
+        "message": "Upgrade cline to ≥3.0.30.",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "monitor-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor-1",
+        "monitor-2",
+        "monitor-3"
+      ]
+    },
+    "monitor-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "monitor-1-link",
+        "monitor-1-pkg",
+        "monitor-1-severity",
+        "monitor-1-desc",
+        "monitor-1-action"
+      ]
+    },
+    "monitor-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-jmg2-rcxh-w8q3",
+        "href": "https://github.com/advisories/GHSA-jmg2-rcxh-w8q3"
+      }
+    },
+    "monitor-1-pkg": {
+      "type": "Text",
+      "props": {
+        "text": "@rsdoctor/rspack-plugin (npm)",
+        "variant": "caption"
+      }
+    },
+    "monitor-1-severity": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "monitor-1-cvss",
+        "monitor-1-epss",
+        "monitor-1-patch"
+      ]
+    },
+    "monitor-1-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5"
+      }
+    },
+    "monitor-1-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004"
+      }
+    },
+    "monitor-1-patch": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix yet",
+        "variant": "destructive"
+      }
+    },
+    "monitor-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated HTTP API exposes full project source + build metadata."
+      }
+    },
+    "monitor-1-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action",
+        "message": "Disable rsdoctor plugin in shared/CI envs; watch for patch.",
+        "type": "info"
+      }
+    },
+    "monitor-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "monitor-2-link",
+        "monitor-2-pkg",
+        "monitor-2-severity",
+        "monitor-2-desc",
+        "monitor-2-action"
+      ]
+    },
+    "monitor-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-57231",
+        "href": "https://github.com/advisories/GHSA-4hq8-gpf5-8p68"
+      }
+    },
+    "monitor-2-pkg": {
+      "type": "Text",
+      "props": {
+        "text": "podman v3–v5 (Go)",
+        "variant": "caption"
+      }
+    },
+    "monitor-2-severity": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "monitor-2-cvss",
+        "monitor-2-epss",
+        "monitor-2-patch"
+      ]
+    },
+    "monitor-2-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5"
+      }
+    },
+    "monitor-2-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004"
+      }
+    },
+    "monitor-2-patch": {
+      "type": "Badge",
+      "props": {
+        "text": "patched at 5.8.4",
+        "variant": "secondary"
+      }
+    },
+    "monitor-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Malformed container image leaks host env vars into container runtime."
+      }
+    },
+    "monitor-2-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action",
+        "message": "Schedule podman upgrade to ≥5.8.4.",
+        "type": "info"
+      }
+    },
+    "monitor-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "monitor-3-link",
+        "monitor-3-pkg",
+        "monitor-3-severity",
+        "monitor-3-desc",
+        "monitor-3-action"
+      ]
+    },
+    "monitor-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-29h2-jr22-frmh",
+        "href": "https://github.com/advisories/GHSA-29h2-jr22-frmh"
+      }
+    },
+    "monitor-3-pkg": {
+      "type": "Text",
+      "props": {
+        "text": "@openzeppelin/confidential-contracts (npm)",
+        "variant": "caption"
+      }
+    },
+    "monitor-3-severity": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "monitor-3-cvss",
+        "monitor-3-epss",
+        "monitor-3-patch"
+      ]
+    },
+    "monitor-3-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.1"
+      }
+    },
+    "monitor-3-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a"
+      }
+    },
+    "monitor-3-patch": {
+      "type": "Badge",
+      "props": {
+        "text": "patched at 0.3.2 / 0.4.2 / 0.5.2",
+        "variant": "secondary"
+      }
+    },
+    "monitor-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Malicious ERC-7984 token extracts private data from VestingWalletConfidential."
+      }
+    },
+    "monitor-3-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action",
+        "message": "Upgrade @openzeppelin/confidential-contracts per your branch.",
+        "type": "info"
+      }
+    }
+  }
+}
