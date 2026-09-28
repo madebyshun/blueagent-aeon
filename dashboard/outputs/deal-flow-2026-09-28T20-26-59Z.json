@@ -1,0 +1,431 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Deal Flow"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_read",
+        "text_intro",
+        "sep_1",
+        "deal_1_stack",
+        "sep_2",
+        "deal_2_stack",
+        "sep_3",
+        "deal_3_stack",
+        "sep_4",
+        "deal_4_stack",
+        "sep_5",
+        "deal_5_stack",
+        "sep_6",
+        "deal_6_stack",
+        "sep_7",
+        "deal_7_stack",
+        "sep_8",
+        "deal_8_stack",
+        "sep_9",
+        "text_sources"
+      ]
+    },
+    "heading_read": {
+      "type": "Heading",
+      "props": {
+        "text": "Read — 2026-09-28",
+        "level": "h2"
+      }
+    },
+    "text_intro": {
+      "type": "Text",
+      "props": {
+        "text": "This week capital concentrated in a single convergence bet: AI agent execution infrastructure and the stablecoin rails those agents need to transact — Temporal and Factory captured AI's reliability layer while HIFI and Atum built the payment plumbing, both sides of the same autonomous-economy thesis.",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal_1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_1_heading",
+        "deal_1_desc",
+        "deal_1_funding",
+        "deal_1_why"
+      ]
+    },
+    "deal_1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "1. Temporal Technologies",
+        "level": "h3"
+      }
+    },
+    "deal_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "long-running AI agent execution platform (open-source)"
+      }
+    },
+    "deal_1_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$550M Series E @ $12.55B post (UP >4× vs prior) | Lead: Lightspeed, Goldman Sachs Alternatives, Tiger Global, Wellington"
+      }
+    },
+    "deal_1_why": {
+      "type": "Text",
+      "props": {
+        "text": "43M open-source installs, $250M+ ARR growing 200%+ YoY, OpenAI/NVIDIA/JPMorgan in production confirm durable AI agent execution has crossed from experiment to irreplaceable infrastructure.",
+        "variant": "muted"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal_2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_2_heading",
+        "deal_2_desc",
+        "deal_2_funding",
+        "deal_2_why"
+      ]
+    },
+    "deal_2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "2. Factory",
+        "level": "h3"
+      }
+    },
+    "deal_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI coding agents (Droids) for full-cycle enterprise software development"
+      }
+    },
+    "deal_2_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$200M @ $5B post (UP 3.3× from $1.5B in April 2026) | Lead: Blackstone, Sequoia, Khosla Ventures"
+      }
+    },
+    "deal_2_why": {
+      "type": "Text",
+      "props": {
+        "text": "$5B at 16.7× last year's valuation is capital saying enterprise software labor is the first category AI fully captures — a structural displacement bet, not a feature bet.",
+        "variant": "muted"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal_3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_3_heading",
+        "deal_3_desc",
+        "deal_3_funding",
+        "deal_3_why"
+      ]
+    },
+    "deal_3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "3. Snorkel AI",
+        "level": "h3"
+      }
+    },
+    "deal_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "foundational tools for AI-specialized training data development"
+      }
+    },
+    "deal_3_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$350M Series E @ $3.2B post (UP >3× from $1B Series D) | Lead: Insight Partners, S32"
+      }
+    },
+    "deal_3_why": {
+      "type": "Text",
+      "props": {
+        "text": "As frontier model performance converges, domain data becomes the differentiation layer; a $3.2B training-data-infrastructure valuation bets the AI bottleneck has already shifted from compute to labeled data.",
+        "variant": "muted"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal_4_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_4_heading",
+        "deal_4_desc",
+        "deal_4_funding",
+        "deal_4_why"
+      ]
+    },
+    "deal_4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "4. Nscale",
+        "level": "h3"
+      }
+    },
+    "deal_4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "UK AI neocloud building data center campuses (Norway, West Virginia)"
+      }
+    },
+    "deal_4_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$3.36B convertible @ ~$35B expected post-NYSE IPO | Lead: Third Point ($2.36B), Nvidia ($1B)"
+      }
+    },
+    "deal_4_why": {
+      "type": "Text",
+      "props": {
+        "text": "$103B in pre-IPO contracts signals hyperscaler-grade demand structurally outpacing cloud supply; Nvidia buying a competitor neocloud's debt is a supply-side concession, not a financial bet.",
+        "variant": "muted"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal_5_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_5_heading",
+        "deal_5_desc",
+        "deal_5_funding",
+        "deal_5_why"
+      ]
+    },
+    "deal_5_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "5. Arcee AI",
+        "level": "h3"
+      }
+    },
+    "deal_5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "open-weight frontier AI models for enterprise deployment"
+      }
+    },
+    "deal_5_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$150M Series B @ $1B+ post (n/d vs prior) | Lead: Vista Equity Partners, Emergence Capital, M12 (Microsoft)"
+      }
+    },
+    "deal_5_why": {
+      "type": "Text",
+      "props": {
+        "text": "Training a 400B-parameter model for $20M flips the frontier cost narrative and hands enterprises a sovereign model alternative — first open-weight challenger to reach unicorn status.",
+        "variant": "muted"
+      }
+    },
+    "sep_6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal_6_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_6_heading",
+        "deal_6_desc",
+        "deal_6_funding",
+        "deal_6_why"
+      ]
+    },
+    "deal_6_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "6. HIFI",
+        "level": "h3"
+      }
+    },
+    "deal_6_desc": {
+      "type": "Text",
+      "props": {
+        "text": "stablecoin settlement rails and tokenized capital markets infrastructure"
+      }
+    },
+    "deal_6_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$37M Series A @ n/d (first priced round) | Lead: Left Lane Capital"
+      }
+    },
+    "deal_6_why": {
+      "type": "Text",
+      "props": {
+        "text": "DTCC, BlackRock, Goldman Sachs, and Nasdaq already in production on HIFI rails; $7B annualized volume confirms tokenized money settlement is live infrastructure, not pilot.",
+        "variant": "muted"
+      }
+    },
+    "sep_7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal_7_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_7_heading",
+        "deal_7_desc",
+        "deal_7_funding",
+        "deal_7_why"
+      ]
+    },
+    "deal_7_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "7. Ema",
+        "level": "h3"
+      }
+    },
+    "deal_7_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI agent teams automating enterprise HR, IT, and finance workflows"
+      }
+    },
+    "deal_7_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$77M Series B @ n/d (4× 2024 valuation) | Lead: Creaegis, Accel, Prosus"
+      }
+    },
+    "deal_7_why": {
+      "type": "Text",
+      "props": {
+        "text": "180% net dollar retention and 50× revenue growth show enterprise buyers replacing SaaS products entirely — category destruction, not feature competition.",
+        "variant": "muted"
+      }
+    },
+    "sep_8": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "deal_8_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "deal_8_heading",
+        "deal_8_desc",
+        "deal_8_funding",
+        "deal_8_why"
+      ]
+    },
+    "deal_8_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "8. Atum",
+        "level": "h3"
+      }
+    },
+    "deal_8_desc": {
+      "type": "Text",
+      "props": {
+        "text": "open payments network for global stablecoin coordination"
+      }
+    },
+    "deal_8_funding": {
+      "type": "Text",
+      "props": {
+        "text": "$13.5M seed @ n/d | Lead: Variant, PayPal Ventures"
+      }
+    },
+    "deal_8_why": {
+      "type": "Text",
+      "props": {
+        "text": "Former Visa crypto lead building a chain-agnostic neutral routing layer between x402 and ERC-8004 — whoever owns stablecoin coordination infrastructure owns the agentic payments stack globally.",
+        "variant": "muted"
+      }
+    },
+    "sep_9": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: crunchbase=ok, techcrunch=ok, crypto-fundraising=ok, cryptorank=fail (403), aift=n/a | candidates=33 → kept=8",
+        "variant": "caption"
+      }
+    }
+  }
+}
