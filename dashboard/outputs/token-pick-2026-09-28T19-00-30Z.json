@@ -1,0 +1,427 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-09-28"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-hbar",
+        "separator-1",
+        "section-nvidia",
+        "separator-2",
+        "footer"
+      ]
+    },
+    "section-hbar": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "hbar-header",
+        "hbar-price-row",
+        "hbar-metrics-grid",
+        "hbar-score-section",
+        "hbar-catalyst-section",
+        "hbar-risk-alert",
+        "hbar-comparison"
+      ]
+    },
+    "hbar-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "hbar-title",
+        "hbar-signal-badge"
+      ]
+    },
+    "hbar-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: HBAR",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "hbar-signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH signal 10/10",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "hbar-price-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "hbar-price-stat",
+        "hbar-24h-stat",
+        "hbar-7d-stat"
+      ]
+    },
+    "hbar-price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.130"
+      },
+      "children": []
+    },
+    "hbar-24h-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+34.6%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "hbar-7d-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+41.7%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "hbar-metrics-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "hbar-mcap-stat",
+        "hbar-volume-stat",
+        "hbar-ratio-stat"
+      ]
+    },
+    "hbar-mcap-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$5.60B"
+      },
+      "children": []
+    },
+    "hbar-volume-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$1.28B"
+      },
+      "children": []
+    },
+    "hbar-ratio-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/MCap Ratio",
+        "value": "0.228"
+      },
+      "children": []
+    },
+    "hbar-score-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hbar-score-heading",
+        "hbar-score-text"
+      ]
+    },
+    "hbar-score-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "hbar-score-text": {
+      "type": "Text",
+      "props": {
+        "text": "[trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH 7d+2, 24h>0+1, 7d>0+1, both>5%+2] = 11→10/10",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "hbar-catalyst-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hbar-catalyst-heading",
+        "hbar-catalyst-text"
+      ]
+    },
+    "hbar-catalyst-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "hbar-catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "Hedera Council members appeared in NVIDIA's Open Agent Safety Platform announcement Sept 28, coinciding with IBM Cloud listing HBAR-based IDTrust for enterprise AI-agent identity — triple narrative hit (AI agents + enterprise + institutional tokenization via BlackRock/Securitize Treasury fund on Hedera)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "hbar-risk-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "RSI >80 on all three catalysts landing simultaneously — unverified by official press releases, and retail-driven narrative spikes on Hedera have historically retraced 30-40% within 5-7 days",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "hbar-comparison": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first HBAR pick in 7d (NEAR was the last cross-ecosystem pick)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-nvidia": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "nvidia-header",
+        "nvidia-odds-section",
+        "nvidia-volume-stat",
+        "nvidia-fair-section",
+        "nvidia-thesis-section",
+        "nvidia-risk-alert"
+      ]
+    },
+    "nvidia-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "nvidia-title",
+        "nvidia-edge-badge"
+      ]
+    },
+    "nvidia-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: \"Largest Company end of December 2026?\" — NVIDIA",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "nvidia-edge-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH edge 11pp",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "nvidia-odds-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "nvidia-odds-row",
+        "nvidia-resolves-text"
+      ]
+    },
+    "nvidia-odds-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "nvidia-yes-stat",
+        "nvidia-no-stat"
+      ]
+    },
+    "nvidia-yes-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current: YES",
+        "value": "76¢"
+      },
+      "children": []
+    },
+    "nvidia-no-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Current: NO",
+        "value": "24¢"
+      },
+      "children": []
+    },
+    "nvidia-resolves-text": {
+      "type": "Text",
+      "props": {
+        "text": "24h vol $8M | resolves: Jan 1, 2027",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "nvidia-volume-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$8M"
+      },
+      "children": []
+    },
+    "nvidia-fair-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "nvidia-fair-label",
+        "nvidia-fair-progress",
+        "nvidia-fair-inputs"
+      ]
+    },
+    "nvidia-fair-label": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES Probability",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "nvidia-fair-progress": {
+      "type": "Progress",
+      "props": {
+        "value": 87,
+        "max": 100,
+        "label": "87%"
+      },
+      "children": []
+    },
+    "nvidia-fair-inputs": {
+      "type": "Text",
+      "props": {
+        "text": "NVIDIA $5.58T vs Apple $4.70T gap ~$880B; NVIDIA AI capex supercycle sustained through 2026; 3 months remaining to year-end",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "nvidia-thesis-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "nvidia-thesis-heading",
+        "nvidia-thesis-text"
+      ]
+    },
+    "nvidia-thesis-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "nvidia-thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market prices a ~24% chance NVIDIA loses the top slot — that requires Apple to close an $880B gap while NVIDIA compounds AI revenue; the discount is structurally unwarranted at current momentum",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "nvidia-risk-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "A macro shock or Blackwell oversupply narrative could compress NVIDIA's multiple fast while Apple gets defensive rotation; gap can narrow quickly in risk-off",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer-sources",
+        "footer-disclaimer"
+      ]
+    },
+    "footer-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "footer-disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
