@@ -1,0 +1,457 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-09-28"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "text_summary",
+        "section_winners",
+        "section_losers",
+        "section_trending",
+        "section_notable"
+      ]
+    },
+    "text_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Split tape — 48/100 top coins positive; median −0.95%. HBAR breakout and QNT continuation mask broad sideways-to-red alt action.",
+        "variant": "lead"
+      }
+    },
+    "section_winners": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_winners",
+        "table_winners"
+      ]
+    },
+    "heading_winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table_winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Mcap/Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "HBAR (Hedera)",
+            "$0.1276",
+            "+34.6%",
+            "+41.7%",
+            "+2.3%",
+            "$1.22B / #23",
+            "BREAKOUT TRENDING+UP"
+          ],
+          [
+            "2",
+            "QNT (Quant)",
+            "$245.26",
+            "+32.4%",
+            "+264%",
+            "+0.4%",
+            "$1.61B / #33",
+            "BREAKOUT TRENDING+UP"
+          ],
+          [
+            "3",
+            "ALGO (Algorand)",
+            "$0.1340",
+            "+12.4%",
+            "+21.9%",
+            "+2.3%",
+            "$222M / #74",
+            ""
+          ],
+          [
+            "4",
+            "XDC (XDC Network)",
+            "$0.0360",
+            "+12.1%",
+            "+18.3%",
+            "+1.9%",
+            "$41M / #95",
+            ""
+          ],
+          [
+            "5",
+            "LINK (Chainlink)",
+            "$15.24",
+            "+7.7%",
+            "+16.5%",
+            "−0.4%",
+            "$1.20B / #13",
+            "MAJOR"
+          ],
+          [
+            "6",
+            "XLM (Stellar)",
+            "$0.2310",
+            "+6.2%",
+            "+8.5%",
+            "+0.5%",
+            "$733M / #20",
+            "MAJOR"
+          ],
+          [
+            "7",
+            "SKY (Sky)",
+            "$0.0800",
+            "+5.9%",
+            "+9.1%",
+            "+0.5%",
+            "$58M / #54",
+            ""
+          ],
+          [
+            "8",
+            "PUMP (Pump.fun)",
+            "$0.005276",
+            "+5.8%",
+            "+20.3%",
+            "−2.9%",
+            "$573M / #46",
+            ""
+          ],
+          [
+            "9",
+            "CRO (Cronos)",
+            "$0.0690",
+            "+3.0%",
+            "+9.2%",
+            "+0.4%",
+            "$26M / #35",
+            ""
+          ],
+          [
+            "10",
+            "JST (JUST)",
+            "$0.1290",
+            "+2.9%",
+            "+14.5%",
+            "−1.2%",
+            "$36M / #78",
+            ""
+          ]
+        ]
+      }
+    },
+    "section_losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_losers",
+        "table_losers"
+      ]
+    },
+    "heading_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table_losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Mcap/Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "BTW (Bitway)",
+            "$0.9950",
+            "−17.3%",
+            "+6.6%",
+            "+5.4%",
+            "$39M / #40",
+            ""
+          ],
+          [
+            "2",
+            "WLD (Worldcoin)",
+            "$0.5000",
+            "−12.1%",
+            "+13.3%",
+            "+0.1%",
+            "$600M / #55",
+            "CAPITULATION"
+          ],
+          [
+            "3",
+            "NEAR (NEAR Protocol)",
+            "$4.93",
+            "−9.5%",
+            "+23.1%",
+            "+0.9%",
+            "$1.46B / #21",
+            "TRENDING+DOWN"
+          ],
+          [
+            "4",
+            "ARB (Arbitrum)",
+            "$0.2070",
+            "−9.4%",
+            "−9.2%",
+            "+0.2%",
+            "$357M / #68",
+            ""
+          ],
+          [
+            "5",
+            "VVV (Venice Token)",
+            "$27.64",
+            "−9.0%",
+            "−9.2%",
+            "+1.5%",
+            "$46M / #70",
+            ""
+          ],
+          [
+            "6",
+            "UNI (Uniswap)",
+            "$8.900",
+            "−9.0%",
+            "−0.1%",
+            "+0.1%",
+            "$1.05B / #24",
+            ""
+          ],
+          [
+            "7",
+            "SUI (Sui)",
+            "$1.170",
+            "−8.2%",
+            "+15.0%",
+            "+0.5%",
+            "$1.65B / #29",
+            ""
+          ],
+          [
+            "8",
+            "BCH (Bitcoin Cash)",
+            "$310.9",
+            "−7.5%",
+            "+18.0%",
+            "+0.3%",
+            "$319M / #22",
+            ""
+          ],
+          [
+            "9",
+            "KAS (Kaspa)",
+            "$0.0450",
+            "−7.0%",
+            "+7.9%",
+            "−0.3%",
+            "$31M / #72",
+            ""
+          ],
+          [
+            "10",
+            "DOT (Polkadot)",
+            "$1.190",
+            "−5.8%",
+            "+0.4%",
+            "+0.5%",
+            "$249M / #52",
+            ""
+          ]
+        ]
+      }
+    },
+    "section_trending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_trending",
+        "table_trending"
+      ]
+    },
+    "heading_trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table_trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Coin",
+          "Rank #",
+          "Price",
+          "Change",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "1",
+            "QNT (Quant)",
+            "#33",
+            "$247.34",
+            "+32.4%",
+            "TRENDING+UP"
+          ],
+          [
+            "2",
+            "ASTRO (astronaut)",
+            "#990",
+            "$0.01714",
+            "",
+            "MICROCAP"
+          ],
+          [
+            "3",
+            "FIRO (Firo)",
+            "#797",
+            "$1.306",
+            "",
+            "MICROCAP"
+          ],
+          [
+            "4",
+            "HBAR (Hedera)",
+            "#23",
+            "$0.1276",
+            "+34.6%",
+            "TRENDING+UP"
+          ],
+          [
+            "5",
+            "BABYCALI (Baby Cali)",
+            "#987",
+            "$0.01712",
+            "",
+            "MICROCAP"
+          ],
+          [
+            "6",
+            "NEAR (NEAR Protocol)",
+            "#21",
+            "$4.93",
+            "−9.5%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "7",
+            "TRUMP (Official Trump)",
+            "#105",
+            "$2.026",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    "section_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_notable",
+        "alert_hbar",
+        "alert_qnt",
+        "alert_wld",
+        "alert_near",
+        "alert_btw"
+      ]
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "alert_hbar": {
+      "type": "Alert",
+      "props": {
+        "title": "HBAR [BREAKOUT][TRENDING+UP]",
+        "message": "rank-23 move, +34.6% / 7d +41.7% on $1.2B vol — strongest large-cap signal in weeks",
+        "type": "success"
+      }
+    },
+    "alert_qnt": {
+      "type": "Alert",
+      "props": {
+        "title": "QNT [BREAKOUT][TRENDING+UP]",
+        "message": "day-2 continuation +32% on $1.6B vol, 7d +264% — TCH settlement story holding",
+        "type": "success"
+      }
+    },
+    "alert_wld": {
+      "type": "Alert",
+      "props": {
+        "title": "WLD [CAPITULATION]",
+        "message": "−12.1%, vol/mcap 0.32 — single-day Sep-26 pump fully flushed",
+        "type": "error"
+      }
+    },
+    "alert_near": {
+      "type": "Alert",
+      "props": {
+        "title": "NEAR [TRENDING+DOWN]",
+        "message": "reversed from yesterday's +7.2% to −9.5% — bounce was one-day",
+        "type": "warning"
+      }
+    },
+    "alert_btw": {
+      "type": "Alert",
+      "props": {
+        "title": "BTW",
+        "message": "reversed from yesterday's +10.5% to today's −17.3%",
+        "type": "warning"
+      }
+    }
+  }
+}
