@@ -1,0 +1,225 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-09-28"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "since-section",
+        "sep2",
+        "watch-section",
+        "sep3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-item1",
+        "focus-item2",
+        "focus-item3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item1": {
+      "type": "Text",
+      "props": {
+        "text": "XAI 403 block — day 9; narrative-tracker degraded, no credits fix logged yet"
+      }
+    },
+    "focus-item2": {
+      "type": "Alert",
+      "props": {
+        "title": "CVE-2026-61732 patch v1.1.17",
+        "message": "CVSS 10.0 ChatML injection — apply to aeon stack now",
+        "type": "warning"
+      }
+    },
+    "focus-item3": {
+      "type": "Text",
+      "props": {
+        "text": "QNT day-2/3 fade watch — +300% weekly at $254; reflexivity window is today"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since-heading",
+        "since-item1",
+        "since-item2",
+        "since-item3",
+        "since-item4"
+      ]
+    },
+    "since-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-item1": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker: ran ok via WebSearch fallback (XAI 403, 8th consecutive day)"
+      }
+    },
+    "since-item2": {
+      "type": "Alert",
+      "props": {
+        "title": "morning-brief",
+        "message": "failed 09-27; this run is catch-up",
+        "type": "info"
+      }
+    },
+    "since-item3": {
+      "type": "Alert",
+      "props": {
+        "title": "deal-flow",
+        "message": "2 consecutive failures — stuck since 09-07",
+        "type": "warning"
+      }
+    },
+    "since-item4": {
+      "type": "Text",
+      "props": {
+        "text": "CVE-2026-61732: no patch existed yesterday → v1.1.17 dropped"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-item1",
+        "watch-item2"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-item1": {
+      "type": "Alert",
+      "props": {
+        "title": "QNT +300% weekly",
+        "message": "H1 2027 go-live confirmed — not a single-day pump; reflexivity profile shifts but day 2-3 fade still live (focus #3)",
+        "type": "info"
+      }
+    },
+    "watch-item2": {
+      "type": "Alert",
+      "props": {
+        "title": "CVE-2026-61732 v1.1.17 patch released",
+        "message": "ChatML injection exploitable via web crawl results in agent pipelines; apply now (focus #2)",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-tasks"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-tasks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "task1",
+        "task2",
+        "task3",
+        "task4",
+        "task5"
+      ]
+    },
+    "task1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC"
+      }
+    },
+    "task2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      }
+    },
+    "task3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      }
+    },
+    "task4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      }
+    },
+    "task5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    }
+  }
+}

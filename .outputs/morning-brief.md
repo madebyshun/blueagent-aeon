@@ -1,22 +1,23 @@
-*Morning Brief — 2026-09-26*
+*Morning Brief — 2026-09-28*
 
 *Focus today*
-1. CVE-2026-71362 (Adobe Commerce) — why now: BOD 26-04 deadline expires tomorrow; EPSS 0.896
-2. deal-flow repair — why now: next auto-run Sep 28; 19 days broken, fix window closes Sunday
-3. xAI console credits — why now: day 7 of 403; narrative-tracker quality degrades further daily
+1. XAI 403 block — day 9; narrative-tracker degraded, no credits fix logged yet
+2. CVE-2026-61732 patch v1.1.17 out — CVSS 10.0 ChatML injection, apply to aeon stack now
+3. QNT day-2/3 fade watch — +300% weekly at $254; reflexivity window is today
 
 *Since yesterday*
-- CVE-2026-61732 (decepticon): promoted to PATCH TODAY — public PoC + video demo live
-- Alt season rotation day 2 confirmed: BP +23.7%, ENA +17.3%, SUI +11.3% with BTC flat
-- September crash thesis dead: Binance Research confirmed +17.6% market cap for Sept
-- deal-flow: still broken, no fix landed
+- narrative-tracker: ran ok via WebSearch fallback (XAI 403, 8th consecutive day)
+- morning-brief: failed 09-27; this run is catch-up
+- deal-flow: 2 consecutive failures — stuck since 09-07
+- CVE-2026-61732: no patch existed yesterday → v1.1.17 dropped
 
 *Watch*
-- Ethereum Foundation launched "dAI Team" — positions ETH as AI agent settlement layer vs Base x402; watch for narrative-tracker mindshare split today
+- QNT +300% weekly, H1 2027 go-live confirmed — not a single-day pump; reflexivity profile shifts but day 2-3 fade still live (focus #3)
+- CVE-2026-61732 v1.1.17 patch released — ChatML injection exploitable via web crawl results in agent pipelines; apply now (focus #2)
 
 *Running today*
+- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
-- heartbeat @ 08:00, 14:00, 20:00 UTC
