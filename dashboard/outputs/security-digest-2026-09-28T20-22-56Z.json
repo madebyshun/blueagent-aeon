@@ -1,0 +1,330 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-09-28"
+      },
+      "children": [
+        "verdict_section",
+        "sep_1",
+        "patch_today_section",
+        "sep_2",
+        "patch_week_section",
+        "sep_3",
+        "monitor_section"
+      ]
+    },
+    "verdict_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verdict_text",
+        "sources_text"
+      ]
+    },
+    "verdict_text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 3 confirmed in-the-wild (KEV), 5 KEV overflow past BOD deadline, 1 npm to monitor.",
+        "variant": "lead"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV, GH Advisory, EPSS",
+        "variant": "muted"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_today_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch_today_heading",
+        "cve_88772",
+        "cve_88771",
+        "cve_71362_alert"
+      ]
+    },
+    "patch_today_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve_88772": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_88772_title",
+        "cve_88772_badges",
+        "cve_88772_vuln",
+        "cve_88772_rec"
+      ]
+    },
+    "cve_88772_title": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-88772 — Citrix NetScaler ADC/Gateway",
+        "level": "h3"
+      }
+    },
+    "cve_88772_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_88772_kev",
+        "badge_88772_added",
+        "badge_88772_due",
+        "badge_88772_epss"
+      ]
+    },
+    "badge_88772_kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV",
+        "variant": "destructive"
+      }
+    },
+    "badge_88772_added": {
+      "type": "Badge",
+      "props": {
+        "text": "Added 2026-09-27",
+        "variant": "outline"
+      }
+    },
+    "badge_88772_due": {
+      "type": "Badge",
+      "props": {
+        "text": "Due 2026-09-30",
+        "variant": "outline"
+      }
+    },
+    "badge_88772_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "secondary"
+      }
+    },
+    "cve_88772_vuln": {
+      "type": "Text",
+      "props": {
+        "text": "Memory buffer overflow → RCE or DoS. Unauthenticated. Actively exploited per CISA.",
+        "variant": "body"
+      }
+    },
+    "cve_88772_rec": {
+      "type": "Text",
+      "props": {
+        "text": "→ Apply Citrix security update per CTX advisory before 2026-09-30.",
+        "variant": "body"
+      }
+    },
+    "cve_88771": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_88771_title",
+        "cve_88771_badges",
+        "cve_88771_vuln",
+        "cve_88771_rec"
+      ]
+    },
+    "cve_88771_title": {
+      "type": "Heading",
+      "props": {
+        "text": "CVE-2026-88771 — Citrix NetScaler ADC/Gateway",
+        "level": "h3"
+      }
+    },
+    "cve_88771_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_88771_kev",
+        "badge_88771_added",
+        "badge_88771_due",
+        "badge_88771_epss"
+      ]
+    },
+    "badge_88771_kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV",
+        "variant": "destructive"
+      }
+    },
+    "badge_88771_added": {
+      "type": "Badge",
+      "props": {
+        "text": "Added 2026-09-27",
+        "variant": "outline"
+      }
+    },
+    "badge_88771_due": {
+      "type": "Badge",
+      "props": {
+        "text": "Due 2026-09-30",
+        "variant": "outline"
+      }
+    },
+    "badge_88771_epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS n/a",
+        "variant": "secondary"
+      }
+    },
+    "cve_88771_vuln": {
+      "type": "Text",
+      "props": {
+        "text": "Improper input validation → unauthenticated arbitrary command execution.",
+        "variant": "body"
+      }
+    },
+    "cve_88771_rec": {
+      "type": "Text",
+      "props": {
+        "text": "→ Apply Citrix patch; both CVEs resolved in same maintenance window.",
+        "variant": "body"
+      }
+    },
+    "cve_71362_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "CVE-2026-71362 — Adobe Commerce / Magento [PAST DUE]",
+        "message": "KEV · Added 2026-09-24 · EPSS 0.896 · BOD deadline 2026-09-27 PAST DUE\n\nIncorrect authz → elevated access, no user interaction. Highest exploitation signal this week.\n\n→ Upgrade Adobe Commerce to latest patched build immediately."
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_week_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch_week_heading",
+        "cve_5430_alert",
+        "cve_94127_alert",
+        "cve_93616_alert",
+        "cve_85102_alert",
+        "cve_93952_alert"
+      ]
+    },
+    "patch_week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "cve_5430_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "CVE-2026-5430 — WSO2 (API CP/Manager/Gateway) [PAST DUE]",
+        "message": "KEV · Due 2026-09-27 (PAST DUE)\n\nPath traversal → unrestricted file upload → RCE.\n\n→ Apply WSO2 Security Advisory."
+      }
+    },
+    "cve_94127_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "CVE-2026-94127 — F5 BIG-IP APM [PAST DUE]",
+        "message": "KEV · Due 2026-09-25 (PAST DUE)\n\nHeap overflow w/ OAuth config → unauthenticated RCE.\n\n→ Apply F5 fix; disable OAuth vserver as workaround."
+      }
+    },
+    "cve_93616_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "CVE-2026-93616 — Check Point Security Mgmt [PAST DUE]",
+        "message": "KEV · Due 2026-09-25 (PAST DUE)\n\nPath traversal → unauthenticated script upload + exec.\n\n→ Apply Check Point hotfix."
+      }
+    },
+    "cve_85102_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "CVE-2026-85102 — Check Point Security Gateway (VPN) [PAST DUE]",
+        "message": "KEV · Due 2026-09-25 (PAST DUE)\n\nImproper cert validation → unauthenticated RCE on gateway.\n\n→ Apply fix; restrict VPN exposure."
+      }
+    },
+    "cve_93952_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "CVE-2026-93952 — Arista VeloCloud Orchestrator (on-prem) [PAST DUE]",
+        "message": "KEV · Due 2026-09-25 (PAST DUE)\n\nImproper input validation → privileged internal access.\n\n→ Apply Arista VCO patch."
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor_heading",
+        "ghsa_alert"
+      ]
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "ghsa_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "GHSA-456v-xq2p-r4cj — code-ollama (npm)",
+        "message": "CVSS 7.8 · No fix yet\n\nCommand injection in grep_search via unescaped shell substitution. Affects AI agent toolchains.\n\n→ Pin or sanitize inputs; watch for patched release."
+      }
+    }
+  }
+}
