@@ -1,0 +1,1203 @@
+{
+  "root": "tracker-root",
+  "state": {},
+  "elements": {
+    "tracker-root": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-09-28"
+      },
+      "children": [
+        "section-transitions",
+        "sep1",
+        "section-alerts",
+        "sep2",
+        "section-positions",
+        "sep3",
+        "section-map"
+      ]
+    },
+    "section-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-transitions",
+        "transition-1",
+        "transition-2",
+        "transition-3",
+        "transition-4"
+      ]
+    },
+    "heading-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "transition-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1-badge",
+        "t1-title",
+        "t1-text"
+      ]
+    },
+    "t1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "t1-title": {
+      "type": "Text",
+      "props": {
+        "text": "HBAR / Enterprise AI Infrastructure",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "t1-text": {
+      "type": "Text",
+      "props": {
+        "text": "IBM Cloud IDTrust + NVIDIA Open Agent Safety Platform + BlackRock/Securitize Treasury tokenization all landed today; +34.6% on $1.2B vol",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "transition-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t2-badge",
+        "t2-title",
+        "t2-subtitle",
+        "t2-text"
+      ]
+    },
+    "t2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "t2-title": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi / Kaito Attention Markets",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "t2-subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging → Rising",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "t2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Immutable Leaderboard + Social Cards live; cross-ecosystem expansion beyond CT confirmed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "transition-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3-badge",
+        "t3-title",
+        "t3-subtitle",
+        "t3-text"
+      ]
+    },
+    "t3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "t3-title": {
+      "type": "Text",
+      "props": {
+        "text": "QNT / Tokenized Bank Deposits",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "t3-subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Peak FRONT-RUN → Peak WATCH",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "t3-text": {
+      "type": "Text",
+      "props": {
+        "text": "+300% weekly; H1 2027 go-live = 6+ months; no new catalyst; reflexivity fade watch",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "transition-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4-badge",
+        "t4-title",
+        "t4-subtitle",
+        "t4-text"
+      ]
+    },
+    "t4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "t4-title": {
+      "type": "Text",
+      "props": {
+        "text": "SUI / L1 Institutional Adoption",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "t4-subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging WATCH → Fading FADE",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "t4-text": {
+      "type": "Text",
+      "props": {
+        "text": "SUI -8.2% today; two consecutive weak sessions",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-alerts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-alerts",
+        "alert-1",
+        "alert-2"
+      ]
+    },
+    "heading-alerts": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "HBAR",
+        "message": "Three institutional PR drops same day as +34.6% pump = first-day reflexivity pattern (mirrors QNT day-1); IBM/NVIDIA/BlackRock deployments 6-12 months out; watch for day-2 fade",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "alert-2": {
+      "type": "Alert",
+      "props": {
+        "title": "QNT",
+        "message": "+300% weekly at $254; TCH H1 2027 go-live = no live settlement yet; WATCH not yet FADE — needs a down day to confirm flip",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-positions",
+        "positions-frontrun",
+        "positions-ride",
+        "positions-watch",
+        "positions-fade"
+      ]
+    },
+    "heading-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "positions-frontrun": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ph-frontrun",
+        "p-hbar",
+        "p-infofi",
+        "p-eth-base"
+      ]
+    },
+    "ph-frontrun": {
+      "type": "Heading",
+      "props": {
+        "text": "FRONT-RUN",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p-hbar": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-hbar-badge",
+        "p-hbar-title",
+        "p-hbar-meta",
+        "p-hbar-links",
+        "p-hbar-bear"
+      ]
+    },
+    "p-hbar-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "p-hbar-title": {
+      "type": "Text",
+      "props": {
+        "text": "HBAR / Enterprise AI Infrastructure",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p-hbar-meta": {
+      "type": "Text",
+      "props": {
+        "text": "3 ↑↑, Bull",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "p-hbar-links": {
+      "type": "Text",
+      "props": {
+        "text": "@IBM_Cloud, @NVIDIA_Research, @BlackRock via Securitize",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "p-hbar-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: PR coordination + deployment lag + day-2 fade risk",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "p-infofi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-infofi-badge",
+        "p-infofi-title",
+        "p-infofi-meta",
+        "p-infofi-links",
+        "p-infofi-bear"
+      ]
+    },
+    "p-infofi-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "p-infofi-title": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi / Kaito Attention Markets",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p-infofi-meta": {
+      "type": "Text",
+      "props": {
+        "text": "2 ↑, Bull",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "p-infofi-links": {
+      "type": "Text",
+      "props": {
+        "text": "@KaitoAI, @ImmutableX, @Injective",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "p-infofi-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: leaderboard gaming risk",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "p-eth-base": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-eth-badge",
+        "p-eth-title",
+        "p-eth-meta",
+        "p-eth-links",
+        "p-eth-bear"
+      ]
+    },
+    "p-eth-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "p-eth-title": {
+      "type": "Text",
+      "props": {
+        "text": "ETH vs Base / AI Settlement Layer Race",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p-eth-meta": {
+      "type": "Text",
+      "props": {
+        "text": "3 →, Mixed",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "p-eth-links": {
+      "type": "Text",
+      "props": {
+        "text": "@EthereumFndn dAI, @base",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "p-eth-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: ETH catch-up; x402 already dominant",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "positions-ride": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ph-ride",
+        "p-agentic",
+        "p-stable",
+        "p-depins",
+        "p-pred"
+      ]
+    },
+    "ph-ride": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p-agentic": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-agentic-badge",
+        "p-agentic-title",
+        "p-agentic-meta",
+        "p-agentic-desc",
+        "p-agentic-bear"
+      ]
+    },
+    "p-agentic-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "p-agentic-title": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / Base x402",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p-agentic-meta": {
+      "type": "Text",
+      "props": {
+        "text": "5 ↑, Bull",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "p-agentic-desc": {
+      "type": "Text",
+      "props": {
+        "text": "8.7M weekly transfers 2026 high; x402 mid-task payments live",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "p-agentic-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: $0.04/transfer micro-scale",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "p-stable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-stable-badge",
+        "p-stable-title",
+        "p-stable-meta",
+        "p-stable-desc",
+        "p-stable-bear"
+      ]
+    },
+    "p-stable-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "p-stable-title": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins as AI Payment Rail",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p-stable-meta": {
+      "type": "Text",
+      "props": {
+        "text": "5 →, Bull",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "p-stable-desc": {
+      "type": "Text",
+      "props": {
+        "text": "@BlackRock, $300B supply",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "p-stable-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: GENIUS Act stalled",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "p-depins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-depin-badge",
+        "p-depin-title",
+        "p-depin-meta",
+        "p-depin-links",
+        "p-depin-bear"
+      ]
+    },
+    "p-depin-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "p-depin-title": {
+      "type": "Text",
+      "props": {
+        "text": "AI x DePIN",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p-depin-meta": {
+      "type": "Text",
+      "props": {
+        "text": "4 →, Bull",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "p-depin-links": {
+      "type": "Text",
+      "props": {
+        "text": "@Bittensor_, @0G_labs",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "p-depin-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: inference supply > demand",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "p-pred": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-pred-badge",
+        "p-pred-title",
+        "p-pred-meta",
+        "p-pred-desc",
+        "p-pred-bear"
+      ]
+    },
+    "p-pred-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "p-pred-title": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p-pred-meta": {
+      "type": "Text",
+      "props": {
+        "text": "3 →, Bull",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "p-pred-desc": {
+      "type": "Text",
+      "props": {
+        "text": "TRUMP trending; Polymarket",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "p-pred-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: US regulatory grey zone",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "positions-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ph-watch",
+        "p-qnt",
+        "p-fhe"
+      ]
+    },
+    "ph-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p-qnt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-qnt-badge",
+        "p-qnt-title",
+        "p-qnt-meta",
+        "p-qnt-desc",
+        "p-qnt-bear"
+      ]
+    },
+    "p-qnt-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "p-qnt-title": {
+      "type": "Text",
+      "props": {
+        "text": "QNT / Tokenized Bank Deposits",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p-qnt-meta": {
+      "type": "Text",
+      "props": {
+        "text": "3 →, Mixed",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "p-qnt-desc": {
+      "type": "Text",
+      "props": {
+        "text": "300% weekly; H1 2027 TCH; reflexivity building",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "p-qnt-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: No live settlement yet",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "p-fhe": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-fhe-badge",
+        "p-fhe-title",
+        "p-fhe-meta",
+        "p-fhe-links",
+        "p-fhe-bear"
+      ]
+    },
+    "p-fhe-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "p-fhe-title": {
+      "type": "Text",
+      "props": {
+        "text": "FHE / Confidential Computing",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p-fhe-meta": {
+      "type": "Text",
+      "props": {
+        "text": "3 →, Bull",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "p-fhe-links": {
+      "type": "Text",
+      "props": {
+        "text": "@Zama_FHE",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "p-fhe-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: no production dapp live",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "positions-fade": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ph-fade",
+        "p-sui",
+        "p-altseason",
+        "p-kas",
+        "p-rwa"
+      ]
+    },
+    "ph-fade": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "p-sui": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-sui-badge",
+        "p-sui-title",
+        "p-sui-meta",
+        "p-sui-desc",
+        "p-sui-bear"
+      ]
+    },
+    "p-sui-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "p-sui-title": {
+      "type": "Text",
+      "props": {
+        "text": "SUI / L1 Institutional Adoption",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p-sui-meta": {
+      "type": "Text",
+      "props": {
+        "text": "1 ↓↓, Bear",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "p-sui-desc": {
+      "type": "Text",
+      "props": {
+        "text": "-8.2%; Basecamp not catalyzing",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "p-sui-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: Momentum fade confirmed",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "p-altseason": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-alt-badge",
+        "p-alt-title",
+        "p-alt-meta",
+        "p-alt-desc",
+        "p-alt-bear"
+      ]
+    },
+    "p-alt-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "p-alt-title": {
+      "type": "Text",
+      "props": {
+        "text": "Alt Season Rotation",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p-alt-meta": {
+      "type": "Text",
+      "props": {
+        "text": "4 ↓, Bear",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "p-alt-desc": {
+      "type": "Text",
+      "props": {
+        "text": "48% positive, median -0.95%; NEAR -9.5%, ARB -9.4%, UNI -9.0%",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "p-alt-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: Broad weakness confirmed",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "p-kas": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-kas-badge",
+        "p-kas-title",
+        "p-kas-meta",
+        "p-kas-desc",
+        "p-kas-bear"
+      ]
+    },
+    "p-kas-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "p-kas-title": {
+      "type": "Text",
+      "props": {
+        "text": "KAS / PoW Breakout",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p-kas-meta": {
+      "type": "Text",
+      "props": {
+        "text": "1 ↓↓, Bear",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "p-kas-desc": {
+      "type": "Text",
+      "props": {
+        "text": "absent from movers",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "p-kas-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: No momentum",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "p-rwa": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "p-rwa-badge",
+        "p-rwa-title",
+        "p-rwa-meta",
+        "p-rwa-bear"
+      ]
+    },
+    "p-rwa-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "p-rwa-title": {
+      "type": "Text",
+      "props": {
+        "text": "RWA / Tokenized Markets",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "p-rwa-meta": {
+      "type": "Text",
+      "props": {
+        "text": "3 ↓, Cope",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "p-rwa-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: Category fade",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-map",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "heading-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-heading",
+        "map-emerging-items"
+      ]
+    },
+    "map-emerging-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-emerging-items": {
+      "type": "Text",
+      "props": {
+        "text": "HBAR / Enterprise AI Infrastructure, ETH vs Base / AI Settlement Layer Race",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-heading",
+        "map-rising-items"
+      ]
+    },
+    "map-rising-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-rising-items": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi / Kaito Attention Markets, AI x DePIN, Prediction Markets, FHE / Confidential Computing",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-heading",
+        "map-peak-items"
+      ]
+    },
+    "map-peak-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-peak-items": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / Base x402, Stablecoins as AI Payment Rail, QNT / Tokenized Bank Deposits",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-heading",
+        "map-fading-items"
+      ]
+    },
+    "map-fading-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "map-fading-items": {
+      "type": "Text",
+      "props": {
+        "text": "Alt Season Rotation, SUI / L1 Institutional Adoption, KAS / PoW Breakout, RWA / Tokenized Markets, XRP ETF Cycle",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
