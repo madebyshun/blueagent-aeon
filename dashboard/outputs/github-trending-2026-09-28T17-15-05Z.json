@@ -1,0 +1,579 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-28"
+      },
+      "children": [
+        "top-pick-section",
+        "ai-ml-section",
+        "devtools-section",
+        "web-apps-section",
+        "other-section",
+        "sources-text"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-heading",
+        "top-pick-repo"
+      ]
+    },
+    "top-pick-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "top-pick-repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "toppick-link",
+        "toppick-desc",
+        "toppick-meta"
+      ]
+    },
+    "toppick-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "dzhng/jevgrep",
+        "href": "https://github.com/dzhng/jevgrep"
+      }
+    },
+    "toppick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Semantic code search that understands intent — the first CLI purpose-built for agent context-window budgets.",
+        "variant": "body"
+      }
+    },
+    "toppick-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "toppick-lang",
+        "toppick-status"
+      ]
+    },
+    "toppick-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "toppick-status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "ai-ml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-heading",
+        "aiml-repo1",
+        "aiml-repo2",
+        "aiml-repo3"
+      ]
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml1-link",
+        "aiml1-desc",
+        "aiml1-meta"
+      ]
+    },
+    "aiml1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Niko1221/Strata",
+        "href": "https://github.com/Niko1221/Strata",
+        "score": "★922 total"
+      }
+    },
+    "aiml1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Runs Qwen3.8-Flash-Next 125B MoE on 8GB VRAM with local OpenAI/Anthropic-compatible endpoints.",
+        "variant": "body"
+      }
+    },
+    "aiml1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml1-lang",
+        "aiml1-status"
+      ]
+    },
+    "aiml1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C++"
+      }
+    },
+    "aiml1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "aiml-repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml2-link",
+        "aiml2-desc",
+        "aiml2-meta"
+      ]
+    },
+    "aiml2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ollaya-dev/ollaya",
+        "href": "https://github.com/ollaya-dev/ollaya",
+        "score": "★830 total"
+      }
+    },
+    "aiml2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Ollama-style local runner for decision/NLI models (Laya, GLiClass) behind a TypeSafe-compatible API.",
+        "variant": "body"
+      }
+    },
+    "aiml2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml2-lang",
+        "aiml2-status"
+      ]
+    },
+    "aiml2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "aiml2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "aiml-repo3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml3-link",
+        "aiml3-desc",
+        "aiml3-meta"
+      ]
+    },
+    "aiml3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mvschwarz/openrig",
+        "href": "https://github.com/mvschwarz/openrig",
+        "score": "★781 today (1.5k total)"
+      }
+    },
+    "aiml3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unified harness running Claude Code and Codex as one system — 781★ today after months of low activity.",
+        "variant": "body"
+      }
+    },
+    "aiml3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml3-lang",
+        "aiml3-status"
+      ]
+    },
+    "aiml3-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "aiml3-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-repo1",
+        "devtools-repo2",
+        "devtools-repo3"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools1-link",
+        "devtools1-desc",
+        "devtools1-meta"
+      ]
+    },
+    "devtools1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "dzhng/jevgrep",
+        "href": "https://github.com/dzhng/jevgrep",
+        "score": "★1.2k total"
+      }
+    },
+    "devtools1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Describe what code does, get relevant files — semantic grep built natively for agent context-window budget.",
+        "variant": "body"
+      }
+    },
+    "devtools1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools1-lang",
+        "devtools1-status"
+      ]
+    },
+    "devtools1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "devtools1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "devtools-repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools2-link",
+        "devtools2-desc",
+        "devtools2-meta"
+      ]
+    },
+    "devtools2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mikehasa/golive-skill",
+        "href": "https://github.com/mikehasa/golive-skill",
+        "score": "★1.0k total"
+      }
+    },
+    "devtools2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "CLI deploys agent-built apps to real infra (hosting, DB, domain, payments) on your own accounts — no SaaS.",
+        "variant": "body"
+      }
+    },
+    "devtools2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools2-lang",
+        "devtools2-status"
+      ]
+    },
+    "devtools2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "devtools2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "devtools-repo3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools3-link",
+        "devtools3-desc",
+        "devtools3-meta"
+      ]
+    },
+    "devtools3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "paperclipai/paperclip",
+        "href": "https://github.com/paperclipai/paperclip",
+        "score": "★3.2k today (92.2k total)"
+      }
+    },
+    "devtools3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted open-source agent manager for teams — 3.2K today at 92K total signals real enterprise pull.",
+        "variant": "body"
+      }
+    },
+    "devtools3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools3-lang",
+        "devtools3-status"
+      ]
+    },
+    "devtools3-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "devtools3-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "web-apps-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web-apps-heading",
+        "web-apps-repo1"
+      ]
+    },
+    "web-apps-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "web-apps-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "web-apps1-link",
+        "web-apps1-desc",
+        "web-apps1-meta"
+      ]
+    },
+    "web-apps1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anishfn/shapeshift",
+        "href": "https://github.com/anishfn/shapeshift",
+        "score": "★714 total"
+      }
+    },
+    "web-apps1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Text input that morphs into the right form control (date picker, slider, dropdown) as you type — offline-first.",
+        "variant": "body"
+      }
+    },
+    "web-apps1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "web-apps1-lang",
+        "web-apps1-status"
+      ]
+    },
+    "web-apps1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "web-apps1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "other-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "other-heading",
+        "other-repo1"
+      ]
+    },
+    "other-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Other",
+        "level": "h3"
+      }
+    },
+    "other-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "other1-link",
+        "other1-desc",
+        "other1-meta"
+      ]
+    },
+    "other1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aureliengmz/clearwater",
+        "href": "https://github.com/Aureliengmz/clearwater",
+        "score": "★480 total"
+      }
+    },
+    "other1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Photoreal water sim (waves, refraction, foam) in one raw HTML file — WebGL2, zero dependencies.",
+        "variant": "body"
+      }
+    },
+    "other1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "other1-lang",
+        "other1-status"
+      ]
+    },
+    "other1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "HTML"
+      }
+    },
+    "other1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "DEBUT",
+        "variant": "secondary"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 8/23 evaluated",
+        "variant": "muted"
+      }
+    }
+  }
+}
