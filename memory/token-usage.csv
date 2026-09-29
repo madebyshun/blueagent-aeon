@@ -535,3 +535,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-09-28,narrative-tracker,claude-sonnet-4-6,13,13052,366353,41856
 2026-09-28,deal-flow,claude-sonnet-4-6,17,21372,911319,85813
 2026-09-29,morning-brief,claude-sonnet-4-6,13,4929,363666,33591
+2026-09-29,github-trending,claude-sonnet-4-6,19,11411,632524,36789

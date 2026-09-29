@@ -1,0 +1,490 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-29"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "featured_section",
+        "sep1",
+        "aiml_section",
+        "sep2",
+        "devtools_section",
+        "sep3",
+        "webapps_section",
+        "sep4",
+        "other_section",
+        "sep5",
+        "footer"
+      ]
+    },
+    "featured_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "featured_label",
+        "featured_link",
+        "featured_desc"
+      ]
+    },
+    "featured_label": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "featured_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "NVIDIA/OpenShell",
+        "href": "https://github.com/NVIDIA/OpenShell"
+      }
+    },
+    "featured_desc": {
+      "type": "Text",
+      "props": {
+        "text": "A production-grade sandboxed runtime from NVIDIA enforcing permission boundaries for autonomous agents — directly addresses the containment gap as agent deployments scale.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_heading",
+        "aiml_repos"
+      ]
+    },
+    "aiml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml_repos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_repo1",
+        "aiml_sep1",
+        "aiml_repo2"
+      ]
+    },
+    "aiml_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_r1_link",
+        "aiml_r1_desc",
+        "aiml_r1_meta"
+      ]
+    },
+    "aiml_r1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "NVIDIA/OpenShell",
+        "href": "https://github.com/NVIDIA/OpenShell"
+      }
+    },
+    "aiml_r1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Sandboxed agent runtime enforcing syscall-level permission boundaries — prevents capability escape without sacrificing agent autonomy.",
+        "variant": "body"
+      }
+    },
+    "aiml_r1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_r1_stars",
+        "aiml_r1_lang",
+        "aiml_r1_status"
+      ]
+    },
+    "aiml_r1_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 978 today (10.2k total)",
+        "variant": "caption"
+      }
+    },
+    "aiml_r1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      }
+    },
+    "aiml_r1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "aiml_sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml_repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_r2_link",
+        "aiml_r2_desc",
+        "aiml_r2_meta"
+      ]
+    },
+    "aiml_r2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "VectifyAI/PageIndex",
+        "href": "https://github.com/VectifyAI/PageIndex"
+      }
+    },
+    "aiml_r2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Drops vector embeddings entirely — structures documents into a reasoning-native index models traverse without a vector DB.",
+        "variant": "body"
+      }
+    },
+    "aiml_r2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_r2_stars",
+        "aiml_r2_lang",
+        "aiml_r2_status"
+      ]
+    },
+    "aiml_r2_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 822 today (36.9k total)",
+        "variant": "caption"
+      }
+    },
+    "aiml_r2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "aiml_r2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "devtools_repo1"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_r1_link",
+        "devtools_r1_desc",
+        "devtools_r1_meta"
+      ]
+    },
+    "devtools_r1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "t8y2/dbx",
+        "href": "https://github.com/t8y2/dbx"
+      }
+    },
+    "devtools_r1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Single Rust binary connecting to 100+ database engines — replaces Electron-based GUI clients with a lightweight cross-platform CLI.",
+        "variant": "body"
+      }
+    },
+    "devtools_r1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_r1_stars",
+        "devtools_r1_lang",
+        "devtools_r1_status"
+      ]
+    },
+    "devtools_r1_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 460 today (21.7k total)",
+        "variant": "caption"
+      }
+    },
+    "devtools_r1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      }
+    },
+    "devtools_r1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "webapps_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "webapps_heading",
+        "webapps_repo1"
+      ]
+    },
+    "webapps_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "webapps_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "webapps_r1_link",
+        "webapps_r1_desc",
+        "webapps_r1_meta"
+      ]
+    },
+    "webapps_r1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "dream-num/univer",
+        "href": "https://github.com/dream-num/univer"
+      }
+    },
+    "webapps_r1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Embeds spreadsheet, doc, and slide primitives as structured APIs — agents can read, write, and compute over live office documents without a UI layer.",
+        "variant": "body"
+      }
+    },
+    "webapps_r1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "webapps_r1_stars",
+        "webapps_r1_lang",
+        "webapps_r1_status"
+      ]
+    },
+    "webapps_r1_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 692 today (21.7k total)",
+        "variant": "caption"
+      }
+    },
+    "webapps_r1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "webapps_r1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "other_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "other_heading",
+        "other_repo1"
+      ]
+    },
+    "other_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Other",
+        "level": "h3"
+      }
+    },
+    "other_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "other_r1_link",
+        "other_r1_desc",
+        "other_r1_meta"
+      ]
+    },
+    "other_r1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "willfaust/Madeira",
+        "href": "https://github.com/willfaust/Madeira"
+      }
+    },
+    "other_r1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Runs x86-64 Windows games inside iOS's app sandbox via FEX-Emu binary translation — no jailbreak required.",
+        "variant": "body"
+      }
+    },
+    "other_r1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "other_r1_stars",
+        "other_r1_lang",
+        "other_r1_status"
+      ]
+    },
+    "other_r1_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 229 today (1.0k total)",
+        "variant": "caption"
+      }
+    },
+    "other_r1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C",
+        "variant": "secondary"
+      }
+    },
+    "other_r1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/14",
+        "variant": "muted"
+      }
+    }
+  }
+}

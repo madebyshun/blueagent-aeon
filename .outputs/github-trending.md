@@ -1,35 +1,26 @@
-*GitHub Trending — 2026-09-28*
+*GitHub Trending — 2026-09-29*
 
-*Top pick* — [dzhng/jevgrep](https://github.com/dzhng/jevgrep)
-Semantic code search that understands intent — the first CLI purpose-built for agent context-window budgets.
+*Top pick* — [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell)
+A production-grade sandboxed runtime from NVIDIA enforcing permission boundaries for autonomous agents — directly addresses the containment gap as agent deployments scale.
 
 *AI/ML*
-• [Niko1221/Strata](https://github.com/Niko1221/Strata) — ★922 total · C++ · [DEBUT]
-Runs Qwen3.8-Flash-Next 125B MoE on 8GB VRAM with local OpenAI/Anthropic-compatible endpoints.
+• [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) — ★ 978 today (10.2k total) · Rust · [RETURNING]
+Sandboxed agent runtime enforcing syscall-level permission boundaries — prevents capability escape without sacrificing agent autonomy.
 
-• [ollaya-dev/ollaya](https://github.com/ollaya-dev/ollaya) — ★830 total · Rust · [DEBUT]
-Ollama-style local runner for decision/NLI models (Laya, GLiClass) behind a TypeSafe-compatible API.
-
-• [mvschwarz/openrig](https://github.com/mvschwarz/openrig) — ★781 today (1.5k total) · TypeScript · [RETURNING]
-Unified harness running Claude Code and Codex as one system — 781★ today after months of low activity.
+• [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) — ★ 822 today (36.9k total) · Python · [ACCELERATING]
+Drops vector embeddings entirely — structures documents into a reasoning-native index models traverse without a vector DB.
 
 *Devtools*
-• [dzhng/jevgrep](https://github.com/dzhng/jevgrep) — ★1.2k total · TypeScript · [DEBUT]
-Describe what code does, get relevant files — semantic grep built natively for agent context-window budget.
-
-• [mikehasa/golive-skill](https://github.com/mikehasa/golive-skill) — ★1.0k total · TypeScript · [DEBUT]
-CLI deploys agent-built apps to real infra (hosting, DB, domain, payments) on your own accounts — no SaaS.
-
-• [paperclipai/paperclip](https://github.com/paperclipai/paperclip) — ★3.2k today (92.2k total) · TypeScript · [ACCELERATING]
-Self-hosted open-source agent manager for teams — 3.2K today at 92K total signals real enterprise pull.
+• [t8y2/dbx](https://github.com/t8y2/dbx) — ★ 460 today (21.7k total) · Rust · [ACCELERATING]
+Single Rust binary connecting to 100+ database engines — replaces Electron-based GUI clients with a lightweight cross-platform CLI.
 
 *Web/Apps*
-• [anishfn/shapeshift](https://github.com/anishfn/shapeshift) — ★714 total · TypeScript · [DEBUT]
-Text input that morphs into the right form control (date picker, slider, dropdown) as you type — offline-first.
+• [dream-num/univer](https://github.com/dream-num/univer) — ★ 692 today (21.7k total) · TypeScript · [RETURNING]
+Embeds spreadsheet, doc, and slide primitives as structured APIs — agents can read, write, and compute over live office documents without a UI layer.
 
 *Other*
-• [Aureliengmz/clearwater](https://github.com/Aureliengmz/clearwater) — ★480 total · HTML · [DEBUT]
-Photoreal water sim (waves, refraction, foam) in one raw HTML file — WebGL2, zero dependencies.
+• [willfaust/Madeira](https://github.com/willfaust/Madeira) — ★ 229 today (1.0k total) · C · [RETURNING]
+Runs x86-64 Windows games inside iOS's app sandbox via FEX-Emu binary translation — no jailbreak required.
 
 ---
-sources: trending=ok · gh_api=ok · kept 8/23 evaluated
+sources: trending=ok · gh_api=ok · kept 5/14
