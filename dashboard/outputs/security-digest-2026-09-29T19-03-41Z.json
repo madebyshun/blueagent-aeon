@@ -1,0 +1,594 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-09-29",
+        "description": "3 actively exploited (KEV — all PAST DUE), 1 new KEV due 10-02, 3 npm to monitor. Sources: CISA KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-patch-today",
+        "sep-1",
+        "section-patch-week",
+        "sep-2",
+        "section-monitor"
+      ]
+    },
+    "section-patch-today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-patch-today",
+        "item-87902",
+        "item-65660",
+        "item-67279"
+      ]
+    },
+    "heading-patch-today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "item-87902": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-87902",
+        "badges-87902",
+        "desc-87902",
+        "alert-87902"
+      ]
+    },
+    "story-87902": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-87902 — WordPress Core",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "CISA KEV"
+      }
+    },
+    "badges-87902": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-87902-kev",
+        "badge-87902-epss",
+        "badge-87902-cvss",
+        "badge-87902-deadline"
+      ]
+    },
+    "badge-87902-kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-09-25",
+        "variant": "destructive"
+      }
+    },
+    "badge-87902-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.197"
+      }
+    },
+    "badge-87902-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS N/A"
+      }
+    },
+    "badge-87902-deadline": {
+      "type": "Badge",
+      "props": {
+        "text": "PAST DUE 2026-09-28",
+        "variant": "destructive"
+      }
+    },
+    "desc-87902": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated RCE via PHP file inclusion in page-template resolution.",
+        "variant": "body"
+      }
+    },
+    "alert-87902": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Update WordPress core immediately and audit template plugins."
+      }
+    },
+    "item-65660": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-65660",
+        "badges-65660",
+        "desc-65660",
+        "alert-65660"
+      ]
+    },
+    "story-65660": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-65660 — Microsoft SharePoint",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "CISA KEV"
+      }
+    },
+    "badges-65660": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-65660-kev",
+        "badge-65660-epss",
+        "badge-65660-cvss",
+        "badge-65660-deadline"
+      ]
+    },
+    "badge-65660-kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-09-25",
+        "variant": "destructive"
+      }
+    },
+    "badge-65660-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.021"
+      }
+    },
+    "badge-65660-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS N/A"
+      }
+    },
+    "badge-65660-deadline": {
+      "type": "Badge",
+      "props": {
+        "text": "PAST DUE 2026-09-28",
+        "variant": "destructive"
+      }
+    },
+    "desc-65660": {
+      "type": "Text",
+      "props": {
+        "text": "Code injection; authorized attacker executes arbitrary code over network.",
+        "variant": "body"
+      }
+    },
+    "alert-65660": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Apply Microsoft SharePoint patch via Windows Update or MSRC today."
+      }
+    },
+    "item-67279": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-67279",
+        "badges-67279",
+        "desc-67279",
+        "alert-67279"
+      ]
+    },
+    "story-67279": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-67279 — MikroTik RouterOS",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "CISA KEV"
+      }
+    },
+    "badges-67279": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-67279-kev",
+        "badge-67279-epss",
+        "badge-67279-cvss",
+        "badge-67279-deadline"
+      ]
+    },
+    "badge-67279-kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-09-25",
+        "variant": "destructive"
+      }
+    },
+    "badge-67279-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.010"
+      }
+    },
+    "badge-67279-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS N/A"
+      }
+    },
+    "badge-67279-deadline": {
+      "type": "Badge",
+      "props": {
+        "text": "PAST DUE 2026-09-28",
+        "variant": "destructive"
+      }
+    },
+    "desc-67279": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated remote exec request via improper session workflow.",
+        "variant": "body"
+      }
+    },
+    "alert-67279": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Upgrade RouterOS immediately; restrict Winbox/SSH to trusted IPs."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-patch-week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-patch-week",
+        "item-86950"
+      ]
+    },
+    "heading-patch-week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "item-86950": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-86950",
+        "badges-86950",
+        "desc-86950",
+        "alert-86950"
+      ]
+    },
+    "story-86950": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-86950 — Apple iOS/macOS/iPadOS",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "CISA KEV"
+      }
+    },
+    "badges-86950": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-86950-kev",
+        "badge-86950-epss",
+        "badge-86950-cvss",
+        "badge-86950-deadline"
+      ]
+    },
+    "badge-86950-kev": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added TODAY",
+        "variant": "destructive"
+      }
+    },
+    "badge-86950-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.008"
+      }
+    },
+    "badge-86950-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS N/A"
+      }
+    },
+    "badge-86950-deadline": {
+      "type": "Badge",
+      "props": {
+        "text": "Due 2026-10-02 (3 days)",
+        "variant": "destructive"
+      }
+    },
+    "desc-86950": {
+      "type": "Text",
+      "props": {
+        "text": "Out-of-bounds write in CoreGraphics → arbitrary code execution. Actively exploited.",
+        "variant": "body"
+      }
+    },
+    "alert-86950": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Install Apple security update ASAP via Software Update."
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-monitor",
+        "item-electron",
+        "item-undici",
+        "item-joi"
+      ]
+    },
+    "heading-monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "item-electron": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-electron",
+        "badges-electron",
+        "desc-electron",
+        "alert-electron"
+      ]
+    },
+    "story-electron": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-9qh4-3jw8-366w — electron (npm)",
+        "href": "https://github.com/advisories/GHSA-9qh4-3jw8-366w",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badges-electron": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-electron-cvss",
+        "badge-electron-epss",
+        "badge-electron-status"
+      ]
+    },
+    "badge-electron-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.3"
+      }
+    },
+    "badge-electron-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS pending"
+      }
+    },
+    "badge-electron-status": {
+      "type": "Badge",
+      "props": {
+        "text": "No fix yet",
+        "variant": "secondary"
+      }
+    },
+    "desc-electron": {
+      "type": "Text",
+      "props": {
+        "text": "<webview> bypasses embedder restriction and enables Node.js in Web Workers. Affects < 41.10.6 / 42.x < 42.9.2 / 43.x < 43.4.1. 4 related Electron CVEs in same batch.",
+        "variant": "body"
+      }
+    },
+    "alert-electron": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Watch electron releases; prefer 41.10.6+ or 42.9.2+ if on those branches."
+      }
+    },
+    "item-undici": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-undici",
+        "badges-undici",
+        "desc-undici",
+        "alert-undici"
+      ]
+    },
+    "story-undici": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-rfgv-xxqx-mfg5 — undici (npm)",
+        "href": "https://github.com/advisories/GHSA-rfgv-xxqx-mfg5",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badges-undici": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-undici-cvss",
+        "badge-undici-epss",
+        "badge-undici-status"
+      ]
+    },
+    "badge-undici-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5"
+      }
+    },
+    "badge-undici-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004"
+      }
+    },
+    "badge-undici-status": {
+      "type": "Badge",
+      "props": {
+        "text": "No fix yet",
+        "variant": "secondary"
+      }
+    },
+    "desc-undici": {
+      "type": "Text",
+      "props": {
+        "text": "WebSocket DoS via unrequested subprotocol negotiation. Affects all current undici versions.",
+        "variant": "body"
+      }
+    },
+    "alert-undici": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Track undici releases; monitor for patch."
+      }
+    },
+    "item-joi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-joi",
+        "badges-joi",
+        "desc-joi",
+        "alert-joi"
+      ]
+    },
+    "story-joi": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-6h2x-m376-mqjq — joi (npm)",
+        "href": "https://github.com/advisories/GHSA-6h2x-m376-mqjq",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badges-joi": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-joi-cvss",
+        "badge-joi-epss",
+        "badge-joi-status"
+      ]
+    },
+    "badge-joi-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5"
+      }
+    },
+    "badge-joi-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS pending"
+      }
+    },
+    "badge-joi-status": {
+      "type": "Badge",
+      "props": {
+        "text": "No fix yet",
+        "variant": "secondary"
+      }
+    },
+    "desc-joi": {
+      "type": "Text",
+      "props": {
+        "text": "Quadratic ReDoS in Joi.string().isoDate() validation.",
+        "variant": "body"
+      }
+    },
+    "alert-joi": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Avoid validating untrusted ISO date strings with joi until patched."
+      }
+    }
+  }
+}
