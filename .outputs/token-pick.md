@@ -1,17 +1,16 @@
-*Daily Pick — 2026-09-28*
+*Daily Pick — 2026-09-29*
 
-*Token: HBAR*  [HIGH]  signal 10/10
-Price: $0.130 (+34.6% 24h / +41.7% 7d) | mcap $5.60B | vol $1.28B (vol/mcap 0.228)
-Score breakdown: [trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH 7d+2, 24h>0+1, 7d>0+1, both>5%+2] = 11→10/10
-Catalyst: Hedera Council members appeared in NVIDIA's Open Agent Safety Platform announcement Sept 28, coinciding with IBM Cloud listing HBAR-based IDTrust for enterprise AI-agent identity — triple narrative hit (AI agents + enterprise + institutional tokenization via BlackRock/Securitize Treasury fund on Hedera)
-Risk: RSI >80 on all three catalysts landing simultaneously — unverified by official press releases, and retail-driven narrative spikes on Hedera have historically retraced 30-40% within 5-7 days
-Vs recent picks: first HBAR pick in 7d (NEAR was the last cross-ecosystem pick)
+*Token: NMR*  [HIGH]  signal 9/10
+Price: $14.50 (+33.4% 24h / +48.6% 7d) | mcap $110M | vol $156M (vol/mcap 1.42)
+Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2] = 9/10
+Catalyst: JPMorgan $500M capacity commitment to Numerai + treasury buybacks executed same day; vol spiked 700% confirming institutional-driven momentum
+Risk: RSI >85 overbought; $110M mcap with 1.42 vol/mcap = first-day reflexivity; no on-chain utility expansion — pure institutional attention play; sharp mean-reversion if no follow-through
 
-*Market: "Largest Company end of December 2026?" — NVIDIA*  [HIGH]  edge 11pp
-Current: YES 76¢ / NO 24¢ | 24h vol $8M | resolves: Jan 1, 2027
-Fair YES: ~87% (inputs: NVIDIA $5.58T vs Apple $4.70T gap ~$880B; NVIDIA AI capex supercycle sustained through 2026; 3 months remaining to year-end)
-Thesis: Market prices a ~24% chance NVIDIA loses the top slot — that requires Apple to close an $880B gap while NVIDIA compounds AI revenue; the discount is structurally unwarranted at current momentum
-Risk: A macro shock or Blackwell oversupply narrative could compress NVIDIA's multiple fast while Apple gets defensive rotation; gap can narrow quickly in risk-off
+*Market: "Will the U.S. invade Iran before 2027?"*  [MEDIUM]  edge 7.5pp
+Current: YES 14.5¢ / NO 85.5¢ | 24h vol $264k | resolves: 2027-01-01
+Fair YES: ~22% (inputs: [US airstrikes ongoing since Sept 1 = demonstrated military willingness], [Trump admin rejected Iran ceasefire proposal Sept 28], [active war context elevates ground invasion probability vs historical base rate])
+Thesis: Market prices 14.5% ground invasion probability; active air war + ceasefire rejection + 3 months remaining underprices escalation risk; BUY YES
+Risk: Logistical constraints + congressional authorization + Iran's defensive depth make ground troop deployment hard to execute in 90-day window
 
 sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only
