@@ -1,0 +1,22 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "token-movers"
+      },
+      "children": [
+        "alert"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "CoinGecko markets endpoint unreachable (403) — skipping run. Trending data available but incomplete report suppressed per protocol."
+      }
+    }
+  }
+}
