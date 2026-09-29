@@ -1,0 +1,208 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-09-29"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus",
+        "sep_1",
+        "heading_since",
+        "stack_since",
+        "sep_2",
+        "heading_watch",
+        "stack_watch",
+        "sep_3",
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Apply CVE-2026-61732 patch (v1.1.17) — CVSS 10.0 ChatML injection, aeon stack exposed"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Watch HBAR day-2 close — today's close decides FRONT-RUN exit or hold"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. AWS Bedrock AgentCore Payments on Base — live deployment signal extends Agentic Payments RIDE"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_hbar",
+        "text_qnt",
+        "text_dealflow",
+        "text_xai"
+      ]
+    },
+    "stat_hbar": {
+      "type": "Stat",
+      "props": {
+        "label": "HBAR",
+        "value": "$0.12",
+        "delta": "−9% off $0.1306 high",
+        "trend": "down"
+      }
+    },
+    "text_qnt": {
+      "type": "Text",
+      "props": {
+        "text": "QNT: Spiked $340 then pulled to ~$250; fade watch active, no confirmed red close yet"
+      }
+    },
+    "text_dealflow": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow: 8 deals, Temporal $550M Series E (AI agent exec infra) top pick"
+      }
+    },
+    "text_xai": {
+      "type": "Text",
+      "props": {
+        "text": "XAI 403: Day 13; narrative-tracker on WebSearch fallback, no degradation"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "AWS Bedrock AgentCore Payments (Coinbase + Stripe, USDC on Base/Solana) — validates Focus #3; live deployment extends RIDE beyond reflexivity window"
+      }
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "HBAR $0.12 day-2 — exit signal fires on red close today"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00 / 14:00 / 20:00 UTC"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      }
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      }
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      }
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    }
+  }
+}
