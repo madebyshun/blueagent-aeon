@@ -1,0 +1,466 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-09-30"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "top_pick_label",
+        "top_pick_stack",
+        "sep1",
+        "ai_ml_heading",
+        "ai_ml_stack",
+        "sep2",
+        "devtools_heading",
+        "devtools_stack",
+        "sep3",
+        "other_heading",
+        "other_stack",
+        "sep4",
+        "footer_text"
+      ]
+    },
+    "top_pick_label": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "top_pick_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tp_header",
+        "tp_desc"
+      ]
+    },
+    "tp_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "tp_link",
+        "tp_badge"
+      ]
+    },
+    "tp_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mattpocock/skills",
+        "href": "https://github.com/mattpocock/skills",
+        "source": "736 stars today"
+      }
+    },
+    "tp_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "tp_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Proven .agents config from a TypeScript educator's live setup — 736 stars today signals devs are hungry to see how an expert actually wires their AI toolchain."
+      }
+    },
+    "ai_ml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "ai_ml_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_repo1",
+        "aiml_repo2",
+        "aiml_repo3"
+      ]
+    },
+    "aiml_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml1_header",
+        "aiml1_desc"
+      ]
+    },
+    "aiml1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml1_link",
+        "aiml1_badge"
+      ]
+    },
+    "aiml1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ponytail",
+        "href": "https://github.com/DietrichGebert/ponytail",
+        "source": "675 today (148.8k total) · JavaScript"
+      }
+    },
+    "aiml1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "aiml1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "YAGNI-enforcement layer for AI agents — stops codegen from gold-plating before the first commit."
+      }
+    },
+    "aiml_repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml2_header",
+        "aiml2_desc"
+      ]
+    },
+    "aiml2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml2_link",
+        "aiml2_badge"
+      ]
+    },
+    "aiml2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MoneyPrinterTurbo",
+        "href": "https://github.com/harry0703/MoneyPrinterTurbo",
+        "source": "338 today (127.3k total) · Python"
+      }
+    },
+    "aiml2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      }
+    },
+    "aiml2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Still the most complete keyword-to-HD-video pipeline — 127k stars and active maintenance mean it actually ships."
+      }
+    },
+    "aiml_repo3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml3_header",
+        "aiml3_desc"
+      ]
+    },
+    "aiml3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "aiml3_link",
+        "aiml3_badge"
+      ]
+    },
+    "aiml3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "context-mode",
+        "href": "https://github.com/mksglu/context-mode",
+        "source": "88 today (24.4k total) · TypeScript"
+      }
+    },
+    "aiml3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "aiml3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Sandboxes tool output for 98% context reduction; persists memory across 17 agent platforms via MCP."
+      }
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "dt_repo1",
+        "dt_repo2",
+        "dt_repo3"
+      ]
+    },
+    "dt_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dt1_header",
+        "dt1_desc"
+      ]
+    },
+    "dt1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "dt1_link",
+        "dt1_badge"
+      ]
+    },
+    "dt1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mattpocock/skills",
+        "href": "https://github.com/mattpocock/skills",
+        "source": "736 today (272.7k total) · Shell"
+      }
+    },
+    "dt1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "dt1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Production-grade .agents skills from an expert's live config — see what a real engineer actually runs."
+      }
+    },
+    "dt_repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dt2_header",
+        "dt2_desc"
+      ]
+    },
+    "dt2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "dt2_link",
+        "dt2_badge"
+      ]
+    },
+    "dt2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "hyperframes",
+        "href": "https://github.com/heygen-com/hyperframes",
+        "source": "352 today (54.5k total) · TypeScript"
+      }
+    },
+    "dt2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "dt2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Write HTML/CSS, get video — lets agents produce rendered output without touching ffmpeg or a recording API."
+      }
+    },
+    "dt_repo3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dt3_header",
+        "dt3_desc"
+      ]
+    },
+    "dt3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "dt3_link",
+        "dt3_badge"
+      ]
+    },
+    "dt3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "codegraph",
+        "href": "https://github.com/colbymchenry/codegraph",
+        "source": "116 today (72.5k total) · C"
+      }
+    },
+    "dt3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "dt3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Persistent, auto-updating code graph any agent can query locally — replaces per-request file scans, cuts token waste."
+      }
+    },
+    "other_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Other",
+        "level": "h3"
+      }
+    },
+    "other_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "other_repo1"
+      ]
+    },
+    "other_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "other1_header",
+        "other1_desc"
+      ]
+    },
+    "other1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "other1_link",
+        "other1_badge"
+      ]
+    },
+    "other1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "PLFM_RADAR",
+        "href": "https://github.com/NawfalMotii79/PLFM_RADAR",
+        "source": "466 today (26.3k total) · PLSQL"
+      }
+    },
+    "other1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      }
+    },
+    "other1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Complete open-source phased array radar at 10.5 GHz — full firmware, not just a schematic."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/17",
+        "variant": "caption"
+      }
+    }
+  }
+}
