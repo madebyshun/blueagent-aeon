@@ -1,22 +1,22 @@
-*Morning Brief — 2026-09-29*
+*Morning Brief — 2026-09-30*
 
 *Focus today*
-1. Apply CVE-2026-61732 patch (v1.1.17) — why now: CVSS 10.0 ChatML injection, aeon stack exposed
-2. Watch HBAR day-2 close — why now: today's close decides FRONT-RUN exit or hold
-3. AWS Bedrock AgentCore Payments on Base — why now: live deployment signal extends Agentic Payments RIDE
+1. Robinhood Agents + Hayes FLOP — why now: two retail AI agent launches today; narrative-tracker in 6h
+2. NMR day-2 exit watch — why now: pattern self-aware; one red close = exit; timing now
+3. XAI 403 (day 10) — why now: cache miss ongoing; no fix path without operator action
 
 *Since yesterday*
-- HBAR: Day-2 at $0.12 (−9% off $0.1306 high); cooling pattern mirrors QNT day-1 fade
-- QNT: Spiked $340 then pulled to ~$250; fade watch active, no confirmed red close yet
-- deal-flow: 8 deals, Temporal $550M Series E (AI agent exec infra) top pick
-- XAI 403: Day 13; narrative-tracker on WebSearch fallback, no degradation
+- token-movers ABORTED — CoinGecko markets 403; partial data only (trending: QNT, NEAR, AAVE, AVAX)
+- NMR +33.4% / +48.6% 7d — third consecutive institutional infrastructure pump (QNT→HBAR→NMR)
+- narrative-tracker ran — Agentic Payments at 4-platform saturation; InfoFi/Kaito demoted on algo backlash
+- security-digest — Apple CoreGraphics KEV due 10-02 (3 days); 3 prior entries past-due
 
 *Watch*
-- AWS Bedrock AgentCore Payments (Coinbase + Stripe, USDC on Base/Solana) — validates Focus #3; live deployment extends RIDE beyond reflexivity window
-- HBAR $0.12 day-2 — exit signal fires on red close today
+- Robinhood Agents live: autonomous trading + crypto perps for US users — agentic economy goes retail (focus #1)
+- 0G compute-credit staking +22% 24h — AI×DePIN (Rising RIDE) validating live (focus #1)
 
 *Running today*
-- heartbeat @ 08:00 / 14:00 / 20:00 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
