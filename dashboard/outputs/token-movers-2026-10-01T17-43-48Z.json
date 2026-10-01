@@ -1,0 +1,555 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "Market Analysis — 2026-10-01"
+      },
+      "children": [
+        "risk-assessment",
+        "sep1",
+        "winners-section",
+        "sep2",
+        "losers-section",
+        "sep3",
+        "trending-section",
+        "sep4",
+        "notable-section"
+      ]
+    },
+    "risk-assessment": {
+      "type": "Text",
+      "props": {
+        "text": "Risk-off lean — 34/80 top-100 green, median 24h −0.22%; altcoins broadly red while BTC holds.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "winners-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners-heading",
+        "winners-table"
+      ]
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Vol/Rank",
+          "Alerts"
+        ],
+        "rows": [
+          [
+            "CAP (Cap)",
+            "$0.0875",
+            "+32.9%",
+            "+65.2%",
+            "−0.8%",
+            "$42M / #235",
+            "BREAKOUT, PUMP-RISK"
+          ],
+          [
+            "MON (Monad)",
+            "$0.0347",
+            "+22.0%",
+            "+32.6%",
+            "−0.3%",
+            "$180M / #127",
+            "TRENDING+UP, BREAKOUT"
+          ],
+          [
+            "BP (Backpack)",
+            "$1.4300",
+            "+18.7%",
+            "+42.8%",
+            "−1.0%",
+            "$31M / #137",
+            "TRENDING+UP, BREAKOUT"
+          ],
+          [
+            "JASMY (JasmyCoin)",
+            "$0.005665",
+            "+11.2%",
+            "+25.4%",
+            "−0.5%",
+            "$68M / #160",
+            ""
+          ],
+          [
+            "BTW (Bitway)",
+            "$1.4300",
+            "+8.1%",
+            "+37.2%",
+            "+0.2%",
+            "$41M / #34",
+            ""
+          ],
+          [
+            "KAIA (Kaia)",
+            "$0.0374",
+            "+7.8%",
+            "+11.4%",
+            "−0.3%",
+            "$15M / #168",
+            ""
+          ],
+          [
+            "KITE (Kite)",
+            "$0.1538",
+            "+7.4%",
+            "+13.0%",
+            "−0.5%",
+            "$21M / #132",
+            ""
+          ],
+          [
+            "AR (Arweave)",
+            "$4.3600",
+            "+6.3%",
+            "−4.9%",
+            "−1.4%",
+            "$35M / #156",
+            ""
+          ],
+          [
+            "AAVE (Aave)",
+            "$168.9",
+            "+5.5%",
+            "+15.8%",
+            "−1.1%",
+            "$447M / #42",
+            ""
+          ],
+          [
+            "META (MetaDAO)",
+            "$6.0000",
+            "+6.4%",
+            "+0.4%",
+            "+0.2%",
+            "$7M / #236",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers-heading",
+        "losers-table"
+      ]
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Vol/Rank",
+          "Alerts"
+        ],
+        "rows": [
+          [
+            "SOON (SOON)",
+            "$0.4280",
+            "−13.4%",
+            "+117.4%",
+            "+0.9%",
+            "$104M / #228",
+            "CAPITULATION"
+          ],
+          [
+            "QNT (Quant)",
+            "$265.8",
+            "−12.2%",
+            "+217.7%",
+            "+0.3%",
+            "$520M / #33",
+            "TRENDING+DOWN"
+          ],
+          [
+            "2Z (DoubleZero)",
+            "$0.0561",
+            "−10.2%",
+            "−0.3%",
+            "−2.6%",
+            "$13M / #158",
+            ""
+          ],
+          [
+            "STONK (STONK)",
+            "$0.2401",
+            "−8.7%",
+            "−39.2%",
+            "+0.3%",
+            "$28M / #191",
+            ""
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "$4.9200",
+            "−8.3%",
+            "+5.4%",
+            "−1.7%",
+            "$1.4B / #21",
+            "TRENDING+DOWN"
+          ],
+          [
+            "MET (Meteora)",
+            "$0.3016",
+            "−8.3%",
+            "−14.7%",
+            "−0.8%",
+            "$14M / #208",
+            ""
+          ],
+          [
+            "KMNO (Kamino)",
+            "$0.0412",
+            "−7.2%",
+            "+12.0%",
+            "−1.5%",
+            "$12M / #174",
+            ""
+          ],
+          [
+            "WLD (Worldcoin)",
+            "$0.4961",
+            "−6.9%",
+            "+10.6%",
+            "−0.2%",
+            "$495M / #55",
+            ""
+          ],
+          [
+            "ETHFI (Ether.fi)",
+            "$0.7393",
+            "−6.8%",
+            "+7.5%",
+            "−0.5%",
+            "$52M / #94",
+            ""
+          ],
+          [
+            "MARSCOIN (MarsCoin)",
+            "$0.1277",
+            "−7.1%",
+            "+5.0%",
+            "−6.1%",
+            "$28M / #250",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending-heading",
+        "trending-list"
+      ]
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-1",
+        "trend-2",
+        "trend-3",
+        "trend-4",
+        "trend-5",
+        "trend-6",
+        "trend-7"
+      ]
+    },
+    "trend-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Official Trump (TRUMP) — #107, $2.0600, 24h +0.9%"
+      }
+    },
+    "trend-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-2-text",
+        "trend-2-badge"
+      ]
+    },
+    "trend-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "2. NEAR Protocol (NEAR) — #21, $4.9200, 24h −8.3%"
+      }
+    },
+    "trend-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "destructive"
+      }
+    },
+    "trend-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. MegaETH (MEGA) — #418, $0.0536, 24h +26.2%"
+      }
+    },
+    "trend-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-4-text",
+        "trend-4-badge"
+      ]
+    },
+    "trend-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "4. Quant (QNT) — #34, $265.8, 24h −12.2%"
+      }
+    },
+    "trend-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "destructive"
+      }
+    },
+    "trend-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-5-text",
+        "trend-5-badges"
+      ]
+    },
+    "trend-5-text": {
+      "type": "Text",
+      "props": {
+        "text": "5. Monad (MON) — #127, $0.0347, 24h +22.0%"
+      }
+    },
+    "trend-5-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-5-b1",
+        "trend-5-b2"
+      ]
+    },
+    "trend-5-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "trend-5-b2": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT"
+      }
+    },
+    "trend-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-6-text",
+        "trend-6-badges"
+      ]
+    },
+    "trend-6-text": {
+      "type": "Text",
+      "props": {
+        "text": "6. Backpack (BP) — #137, $1.4300, 24h +18.7%"
+      }
+    },
+    "trend-6-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trend-6-b1",
+        "trend-6-b2"
+      ]
+    },
+    "trend-6-b1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      }
+    },
+    "trend-6-b2": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT"
+      }
+    },
+    "trend-7": {
+      "type": "Text",
+      "props": {
+        "text": "7. Bitcoin (BTC) — #1, $84,865, 24h +1.1%"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-heading",
+        "notable-items"
+      ]
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4",
+        "notable-5"
+      ]
+    },
+    "notable-1": {
+      "type": "Alert",
+      "props": {
+        "title": "MON: Trend Signal",
+        "message": "MON: trending + up +22.0% / 7d +32.6% — TRENDING+UP BREAKOUT cross-signal",
+        "type": "info"
+      }
+    },
+    "notable-2": {
+      "type": "Alert",
+      "props": {
+        "title": "BP: Trend Signal",
+        "message": "BP: trending + up +18.7% / 7d +42.8% — TRENDING+UP BREAKOUT cross-signal",
+        "type": "info"
+      }
+    },
+    "notable-3": {
+      "type": "Alert",
+      "props": {
+        "title": "CAP: Pump Risk",
+        "message": "CAP: #235 rank up +32.9% / 7d +65.2% — PUMP-RISK, low-liquidity spike, warn",
+        "type": "warning"
+      }
+    },
+    "notable-4": {
+      "type": "Alert",
+      "props": {
+        "title": "SOON: Capitulation",
+        "message": "SOON: −13.4% on vol/mcap 0.72 — CAPITULATION, high sell pressure post +117% 7d",
+        "type": "error"
+      }
+    },
+    "notable-5": {
+      "type": "Alert",
+      "props": {
+        "title": "QNT: Trend Reversal",
+        "message": "QNT: trending but down −12.2% after +217.7% 7d — TRENDING+DOWN, reflexivity exit confirmed",
+        "type": "warning"
+      }
+    }
+  }
+}
