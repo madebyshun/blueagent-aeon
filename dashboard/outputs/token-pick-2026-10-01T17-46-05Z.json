@@ -1,0 +1,312 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-10-01"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-token",
+        "sep-1",
+        "section-market",
+        "sep-2",
+        "footer"
+      ]
+    },
+    "section-token": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-mon",
+        "badges-mon",
+        "stat-price",
+        "stat-mcap",
+        "stat-volume",
+        "stat-vol-mcap",
+        "breakdown",
+        "catalyst",
+        "risk",
+        "vs-recent"
+      ]
+    },
+    "heading-mon": {
+      "type": "Heading",
+      "props": {
+        "text": "MON",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badges-mon": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-high",
+        "stat-signal"
+      ]
+    },
+    "badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "stat-signal": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "10/10"
+      },
+      "children": []
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.0345",
+        "delta": "+21.4% 24h / +32.6% 7d",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$0.41B"
+      },
+      "children": []
+    },
+    "stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$174.6M"
+      },
+      "children": []
+    },
+    "stat-vol-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume/Mcap",
+        "value": "0.43"
+      },
+      "children": []
+    },
+    "breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2, CG trending+2, dex confirmed+1] = 10/10",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-label",
+        "catalyst-text"
+      ]
+    },
+    "catalyst-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "StraitsX (~$70B annual stablecoin volume, Singapore) announced XSGD and XUSD launch on Monad targeting early 2027 — first institutional stablecoin rails committed to the chain; all EMAs bullish; DexScreener cross-confirmed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "StraitsX launch is 2027 forward guidance not live today; high-beta token at vol/mcap 0.43 can reverse sharply on any BTC bleed",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "vs-recent": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-aoc",
+        "badges-aoc",
+        "market-current",
+        "market-volume",
+        "market-resolves",
+        "fair-yes",
+        "thesis",
+        "risk-market"
+      ]
+    },
+    "heading-aoc": {
+      "type": "Heading",
+      "props": {
+        "text": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badges-aoc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-medium",
+        "stat-edge"
+      ]
+    },
+    "badge-medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat-edge": {
+      "type": "Stat",
+      "props": {
+        "label": "Edge",
+        "value": "5.5pp"
+      },
+      "children": []
+    },
+    "market-current": {
+      "type": "Text",
+      "props": {
+        "text": "Current: YES 16.55¢ / NO 83.45¢",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "market-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$56.7k"
+      },
+      "children": []
+    },
+    "market-resolves": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2028-11-08",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "fair-yes": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~11% (inputs: AOC at 12% in Harvard CAPS/Harris primary polling; 26% national favorability nationally; centrist Democrats actively opposing run per multiple reports)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "thesis": {
+      "type": "Alert",
+      "props": {
+        "title": "Thesis",
+        "message": "Market at 16.55¢ overprices AOC by ~5.5pp given polling headwinds and electability drag — BUY NO",
+        "type": "info"
+      },
+      "children": []
+    },
+    "risk-market": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "If Harris stays out, the progressive lane clears and AOC's floor rises above fair estimate",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-text",
+        "disclaimer-text"
+      ]
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=ok, poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "disclaimer-text": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
