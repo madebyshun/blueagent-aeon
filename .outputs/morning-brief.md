@@ -1,22 +1,21 @@
-*Morning Brief — 2026-09-30*
+*Morning Brief — 2026-10-01*
 
 *Focus today*
-1. Robinhood Agents + Hayes FLOP — why now: two retail AI agent launches today; narrative-tracker in 6h
-2. NMR day-2 exit watch — why now: pattern self-aware; one red close = exit; timing now
-3. XAI 403 (day 10) — why now: cache miss ongoing; no fix path without operator action
+1. Token-skill cluster — why now: 09-30 failures repeat today → consecutive_failures ≥ 2 threshold
+2. NMR day-2 close — why now: today's close validates or breaks the institutional pump pattern
+3. Base Cobalt live — why now: Validity tx + 200ms blocks just shipped; narrative window open now
 
 *Since yesterday*
-- token-movers ABORTED — CoinGecko markets 403; partial data only (trending: QNT, NEAR, AAVE, AVAX)
-- NMR +33.4% / +48.6% 7d — third consecutive institutional infrastructure pump (QNT→HBAR→NMR)
-- narrative-tracker ran — Agentic Payments at 4-platform saturation; InfoFi/Kaito demoted on algo backlash
-- security-digest — Apple CoreGraphics KEV due 10-02 (3 days); 3 prior entries past-due
+- [moved] Base Cobalt upgrade deployed — Validity transactions, 200ms block target, B20 enhancements
+- [moved] NMR held ~$10.22 after day-1 pump (predicted range $8.78–9.23; running hot)
+- [moved] token-pick, token-movers, defi-monitor, security-digest each had one failure (09-30 ~17:11 UTC)
+- [stuck] XAI 403 day 10 — xai-cache down; no path without operator purchasing XAI credits
 
 *Watch*
-- Robinhood Agents live: autonomous trading + crypto perps for US users — agentic economy goes retail (focus #1)
-- 0G compute-credit staking +22% 24h — AI×DePIN (Rising RIDE) validating live (focus #1)
+- Base Cobalt (200ms blocks + Validity tx) live — narrative-tracker at 13:30 UTC should lead with this; aligns focus #3
 
 *Running today*
-- heartbeat @ 08:00, 14:00, 20:00 UTC
+- heartbeat @ 08:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
