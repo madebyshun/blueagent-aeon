@@ -1,0 +1,842 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-10-01"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_transitions",
+        "sep1",
+        "section_reflexivity",
+        "sep2",
+        "section_positions",
+        "sep3",
+        "section_map"
+      ]
+    },
+    "section_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_transitions",
+        "trans_new_mon",
+        "trans_promoted_eth",
+        "trans_demoted_qnt",
+        "trans_demoted_infofi",
+        "trans_dead_xrp"
+      ]
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans_new_mon": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "NEW: MON / Monad Institutional Rails",
+        "message": "StraitsX ($70B annual stablecoin vol) committed XSGD/XUSD on Monad targeting Q1 2027; first institutional stablecoin rails outside Base/ETH/Sol; MON +21.4% day-1, CoinGecko trending #5"
+      }
+    },
+    "trans_promoted_eth": {
+      "type": "Alert",
+      "props": {
+        "type": "success",
+        "title": "PROMOTED: ETH vs Base / AI Settlement Layer Race (Emerging → Rising)",
+        "message": "Base Cobalt live today (Validity txns + 200ms blocks); ETH Glamsterdam first public testnet Oct 6; both chains shipping simultaneously"
+      }
+    },
+    "trans_demoted_qnt": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "DEMOTED: QNT / Tokenized Bank Deposits (Peak WATCH → Fading FADE)",
+        "message": "−12.2% today after +217.7% 7d; $200 FADE trigger confirmed; reflexivity cycle closed as warned 09-28/09-29"
+      }
+    },
+    "trans_demoted_infofi": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "DEMOTED: InfoFi / Kaito Attention Markets (Rising WATCH → Fading FADE)",
+        "message": "Kaito ended permissionless distribution model (\"no longer viable post-X discussions\"); structural change, not temporary; integrity bear case confirmed"
+      }
+    },
+    "trans_dead_xrp": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "DEAD: XRP ETF Cycle",
+        "message": "fourth consecutive silent day"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_reflexivity",
+        "alert_qnt_closed",
+        "alert_mon_pattern"
+      ]
+    },
+    "heading_reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert_qnt_closed": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "QNT Reflexivity Cycle Closed",
+        "message": "−12.2% completes the cycle; TCH H1 2027 go-live = narrative 6+ months ahead of fundamentals; confirms 3-day reflexivity ceiling on institutional infrastructure pumps (QNT/HBAR/NMR each peaked day-1, faded day-2/3)"
+      }
+    },
+    "alert_mon_pattern": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "MON / Monad Day-1 Reflexivity Pattern",
+        "message": "+21.4% on StraitsX announcement = day-1 reflexivity identical to QNT/HBAR/NMR pattern; FRONT-RUN valid but exit = any red close"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_positions",
+        "pos_fronrun_mon",
+        "pos_ride_eth_base",
+        "pos_ride_agentic",
+        "pos_ride_stablecoins",
+        "pos_watch_nmr",
+        "pos_watch_hbar",
+        "pos_watch_fhe",
+        "pos_fade_altseason",
+        "text_fade_others"
+      ]
+    },
+    "heading_positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos_fronrun_mon": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_fronrun_mon_header",
+        "pos_fronrun_mon_badges",
+        "pos_fronrun_mon_links",
+        "pos_fronrun_mon_bear"
+      ]
+    },
+    "pos_fronrun_mon_header": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN: MON / Monad Institutional Rails",
+        "variant": "lead"
+      }
+    },
+    "pos_fronrun_mon_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_mon_strength",
+        "badge_mon_bull"
+      ]
+    },
+    "badge_mon_strength": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↑↑",
+        "variant": "default"
+      }
+    },
+    "badge_mon_bull": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos_fronrun_mon_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_straitsx",
+        "link_monad_xyz"
+      ]
+    },
+    "link_straitsx": {
+      "type": "Link",
+      "props": {
+        "label": "@StraitsX",
+        "href": "https://twitter.com/StraitsX"
+      }
+    },
+    "link_monad_xyz": {
+      "type": "Link",
+      "props": {
+        "label": "@monad_xyz",
+        "href": "https://twitter.com/monad_xyz"
+      }
+    },
+    "pos_fronrun_mon_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: Q1 2027 go-live not live; day-1 reflexivity risk",
+        "variant": "muted"
+      }
+    },
+    "pos_ride_eth_base": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ride_eth_header",
+        "pos_ride_eth_badges",
+        "pos_ride_eth_links",
+        "pos_ride_eth_bear"
+      ]
+    },
+    "pos_ride_eth_header": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: ETH vs Base / AI Settlement Layer",
+        "variant": "lead"
+      }
+    },
+    "pos_ride_eth_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_eth_strength",
+        "badge_eth_mixed"
+      ]
+    },
+    "badge_eth_strength": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑",
+        "variant": "default"
+      }
+    },
+    "badge_eth_mixed": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "secondary"
+      }
+    },
+    "pos_ride_eth_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_base",
+        "link_ethereumfndn",
+        "link_cftc"
+      ]
+    },
+    "link_base": {
+      "type": "Link",
+      "props": {
+        "label": "@base",
+        "href": "https://twitter.com/base"
+      }
+    },
+    "link_ethereumfndn": {
+      "type": "Link",
+      "props": {
+        "label": "@EthereumFndn",
+        "href": "https://twitter.com/EthereumFndn"
+      }
+    },
+    "link_cftc": {
+      "type": "Link",
+      "props": {
+        "label": "@CFTC",
+        "href": "https://twitter.com/CFTC"
+      }
+    },
+    "pos_ride_eth_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: no clear winner",
+        "variant": "muted"
+      }
+    },
+    "pos_ride_agentic": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ride_agentic_header",
+        "pos_ride_agentic_badges",
+        "pos_ride_agentic_links",
+        "pos_ride_agentic_arc",
+        "pos_ride_agentic_bear"
+      ]
+    },
+    "pos_ride_agentic_header": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: Agentic Payments / Base x402",
+        "variant": "lead"
+      }
+    },
+    "pos_ride_agentic_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_agentic_strength",
+        "badge_agentic_bull"
+      ]
+    },
+    "badge_agentic_strength": {
+      "type": "Badge",
+      "props": {
+        "text": "5 ↑",
+        "variant": "default"
+      }
+    },
+    "badge_agentic_bull": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos_ride_agentic_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_base2",
+        "link_coinbase",
+        "link_kraken"
+      ]
+    },
+    "link_base2": {
+      "type": "Link",
+      "props": {
+        "label": "@base",
+        "href": "https://twitter.com/base"
+      }
+    },
+    "link_coinbase": {
+      "type": "Link",
+      "props": {
+        "label": "@coinbase",
+        "href": "https://twitter.com/coinbase"
+      }
+    },
+    "link_kraken": {
+      "type": "Link",
+      "props": {
+        "label": "@kraken",
+        "href": "https://twitter.com/kraken"
+      }
+    },
+    "pos_ride_agentic_arc": {
+      "type": "Text",
+      "props": {
+        "text": "Circle Arc",
+        "variant": "caption"
+      }
+    },
+    "pos_ride_agentic_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: four-platform consensus = late; FADE watch 6 weeks",
+        "variant": "muted"
+      }
+    },
+    "pos_ride_stablecoins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_ride_stables_header",
+        "pos_ride_stables_badges",
+        "pos_ride_stables_links",
+        "pos_ride_stables_arc",
+        "pos_ride_stables_bear"
+      ]
+    },
+    "pos_ride_stables_header": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: Stablecoins as AI Payment Rail",
+        "variant": "lead"
+      }
+    },
+    "pos_ride_stables_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stables_strength",
+        "badge_stables_bull"
+      ]
+    },
+    "badge_stables_strength": {
+      "type": "Badge",
+      "props": {
+        "text": "5 →",
+        "variant": "default"
+      }
+    },
+    "badge_stables_bull": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "secondary"
+      }
+    },
+    "pos_ride_stables_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_blackrock",
+        "link_coinbase2",
+        "link_straitsx2"
+      ]
+    },
+    "link_blackrock": {
+      "type": "Link",
+      "props": {
+        "label": "@BlackRock",
+        "href": "https://twitter.com/BlackRock"
+      }
+    },
+    "link_coinbase2": {
+      "type": "Link",
+      "props": {
+        "label": "@coinbase",
+        "href": "https://twitter.com/coinbase"
+      }
+    },
+    "link_straitsx2": {
+      "type": "Link",
+      "props": {
+        "label": "@StraitsX",
+        "href": "https://twitter.com/StraitsX"
+      }
+    },
+    "pos_ride_stables_arc": {
+      "type": "Text",
+      "props": {
+        "text": "Circle Arc",
+        "variant": "caption"
+      }
+    },
+    "pos_ride_stables_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: GENIUS Act stalled",
+        "variant": "muted"
+      }
+    },
+    "pos_watch_nmr": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_watch_nmr_header",
+        "pos_watch_nmr_badges",
+        "pos_watch_nmr_note"
+      ]
+    },
+    "pos_watch_nmr_header": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: NMR / Decentralized AI Research",
+        "variant": "lead"
+      }
+    },
+    "pos_watch_nmr_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_nmr_strength",
+        "badge_nmr_emerging"
+      ]
+    },
+    "badge_nmr_strength": {
+      "type": "Badge",
+      "props": {
+        "text": "2 →",
+        "variant": "default"
+      }
+    },
+    "badge_nmr_emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "secondary"
+      }
+    },
+    "pos_watch_nmr_note": {
+      "type": "Text",
+      "props": {
+        "text": "day-2 hold $10.22 > QNT/HBAR day-2 pattern; no new catalyst; exit red close",
+        "variant": "muted"
+      }
+    },
+    "pos_watch_hbar": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_watch_hbar_header",
+        "pos_watch_hbar_badges",
+        "pos_watch_hbar_note"
+      ]
+    },
+    "pos_watch_hbar_header": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: HBAR / Enterprise AI Infrastructure",
+        "variant": "lead"
+      }
+    },
+    "pos_watch_hbar_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_hbar_strength",
+        "badge_hbar_emerging"
+      ]
+    },
+    "badge_hbar_strength": {
+      "type": "Badge",
+      "props": {
+        "text": "2 →",
+        "variant": "default"
+      }
+    },
+    "badge_hbar_emerging": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "secondary"
+      }
+    },
+    "pos_watch_hbar_note": {
+      "type": "Text",
+      "props": {
+        "text": "day-3 silent; DEMOTE to Fading if no catalyst day-4",
+        "variant": "muted"
+      }
+    },
+    "pos_watch_fhe": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_watch_fhe_header",
+        "pos_watch_fhe_badges",
+        "pos_watch_fhe_links",
+        "pos_watch_fhe_note"
+      ]
+    },
+    "pos_watch_fhe_header": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: FHE / Confidential Computing",
+        "variant": "lead"
+      }
+    },
+    "pos_watch_fhe_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_fhe_strength",
+        "badge_fhe_rising"
+      ]
+    },
+    "badge_fhe_strength": {
+      "type": "Badge",
+      "props": {
+        "text": "3 →",
+        "variant": "default"
+      }
+    },
+    "badge_fhe_rising": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "pos_watch_fhe_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_zama",
+        "link_venice"
+      ]
+    },
+    "link_zama": {
+      "type": "Link",
+      "props": {
+        "label": "@Zama_FHE",
+        "href": "https://twitter.com/Zama_FHE"
+      }
+    },
+    "link_venice": {
+      "type": "Link",
+      "props": {
+        "label": "@VeniceAI",
+        "href": "https://twitter.com/VeniceAI"
+      }
+    },
+    "pos_watch_fhe_note": {
+      "type": "Text",
+      "props": {
+        "text": "no prod dapp live",
+        "variant": "muted"
+      }
+    },
+    "pos_fade_altseason": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_fade_altseason_header",
+        "pos_fade_altseason_badges",
+        "pos_fade_altseason_stats"
+      ]
+    },
+    "pos_fade_altseason_header": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: Alt Season Rotation",
+        "variant": "lead"
+      }
+    },
+    "pos_fade_altseason_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_altseason_strength",
+        "badge_altseason_bear"
+      ]
+    },
+    "badge_altseason_strength": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↓↓",
+        "variant": "destructive"
+      }
+    },
+    "badge_altseason_bear": {
+      "type": "Badge",
+      "props": {
+        "text": "Bear",
+        "variant": "secondary"
+      }
+    },
+    "pos_fade_altseason_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 4,
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc_dom",
+        "stat_etf_inflows",
+        "stat_green_ratio",
+        "stat_median"
+      ]
+    },
+    "stat_btc_dom": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Dominance",
+        "value": "Rising",
+        "trend": "up"
+      }
+    },
+    "stat_etf_inflows": {
+      "type": "Stat",
+      "props": {
+        "label": "Spot ETF Inflows",
+        "value": "$2.4B"
+      }
+    },
+    "stat_green_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Altcoins Green",
+        "value": "34/80"
+      }
+    },
+    "stat_median": {
+      "type": "Stat",
+      "props": {
+        "label": "Median Change",
+        "value": "−0.22%",
+        "trend": "down"
+      }
+    },
+    "text_fade_others": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: SUI (1 ↓↓), RWA (2 ↓), QNT (2 ↓↓), InfoFi / Kaito (2 ↓)",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_map",
+        "table_map"
+      ]
+    },
+    "heading_map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "table_map": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Stage",
+          "Narratives"
+        ],
+        "rows": [
+          [
+            "Emerging",
+            "MON / Monad, NMR / Decentralized AI Research, HBAR / Enterprise AI Infrastructure"
+          ],
+          [
+            "Rising",
+            "ETH vs Base / AI Settlement Layer, AI x DePIN, Prediction Markets, FHE / Confidential Computing"
+          ],
+          [
+            "Peak",
+            "Agentic Payments / Base x402, Stablecoins as AI Payment Rail"
+          ],
+          [
+            "Fading",
+            "QNT, InfoFi / Kaito, Alt Season Rotation, SUI / L1, RWA"
+          ],
+          [
+            "Dead",
+            "XRP ETF Cycle, KAS, WLD, AI Agent Safety, September Seasonality, L2/DeFi Rotation"
+          ]
+        ]
+      }
+    }
+  }
+}

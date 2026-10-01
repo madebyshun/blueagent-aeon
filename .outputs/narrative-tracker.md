@@ -1,30 +1,30 @@
-*Narrative Tracker — 2026-09-29*
+*Narrative Tracker — 2026-10-01*
 
 TRANSITIONS
-• NEW: NMR / Decentralized AI Research — JPMorgan $500M capacity + Numerai treasury buybacks; NMR +33.4% vol/mcap 1.42 (highest top-200 today); third straight institutional-infrastructure pump day — QNT 09-27 / HBAR 09-28 / NMR 09-29 — the pattern is now tradeable
-• DEMOTED: HBAR / Enterprise AI Infrastructure (Emerging FRONT-RUN → WATCH) — Day-2 exit signal watch active; broad market −3.48%; IBM/NVIDIA/BlackRock deployments still 6-12 months out
-• DEMOTED: InfoFi / Kaito Attention Markets (Rising FRONT-RUN → WATCH) — Kaito algorithm backlash materializes; algo integrity risk open; Creator Campus/Polygon expansion still live
-• DEAD: KAS / PoW Breakout — third silent day; DEAD confirmed
+• NEW: MON / Monad Institutional Rails — StraitsX ($70B annual stablecoin vol) committed XSGD/XUSD on Monad targeting Q1 2027; first institutional stablecoin rails outside Base/ETH/Sol; MON +21.4% day-1, CoinGecko trending #5
+• PROMOTED: ETH vs Base / AI Settlement Layer Race (Emerging → Rising) — Base Cobalt live today (Validity txns + 200ms blocks); ETH Glamsterdam first public testnet Oct 6; both chains shipping simultaneously
+• DEMOTED: QNT / Tokenized Bank Deposits (Peak WATCH → Fading FADE) — −12.2% today after +217.7% 7d; $200 FADE trigger confirmed; reflexivity cycle closed as warned 09-28/09-29
+• DEMOTED: InfoFi / Kaito Attention Markets (Rising WATCH → Fading FADE) — Kaito ended permissionless distribution model ("no longer viable post-X discussions"); structural change, not temporary; integrity bear case confirmed
+• DEAD: XRP ETF Cycle — fourth consecutive silent day
 
 REFLEXIVITY ALERT
-• Institutional Infrastructure Pattern: QNT +53% (09-27) → HBAR +34.6% (09-28) → NMR +33.4% (09-29); market reflexively pricing deployment announcements 6-12 months pre-launch; exit = confirmed red close on any
-• Agentic Payments x402: Four-platform consensus live (Coinbase + Kraken + OKX + Binance Agent OS) + ADA x402 join = saturation signal; historically FADE within 1-2 weeks
+• QNT closed: −12.2% completes the cycle; TCH H1 2027 go-live = narrative 6+ months ahead of fundamentals; confirms 3-day reflexivity ceiling on institutional infrastructure pumps (QNT/HBAR/NMR each peaked day-1, faded day-2/3)
+• MON / Monad: +21.4% on StraitsX announcement = day-1 reflexivity identical to QNT/HBAR/NMR pattern; FRONT-RUN valid but exit = any red close
 
 POSITIONS
-• FRONT-RUN: NMR / Decentralized AI Research (2 ↑↑, Bull) — @JPMorgan, @Numerai, @richardcraib — bear: capacity ≠ deployed AUM; exit on red close
-• FRONT-RUN: ETH vs Base / AI Settlement Layer Race (3 ↑, Mixed) — @coinbase, @binance Agent OS, ADA x402 — multi-chain expansion dilutes first-mover; no winner yet
-• RIDE: Agentic Payments x402 (5 ↑, Bull) — four-platform saturation; FADE watch intensifying
-• RIDE: Stablecoins as AI Payment Rail (5 ↑, Bull) — BlackRock AI demand paper fresh
-• RIDE: AI x DePIN (4 →, Bull) — TAO 12.4% mindshare; 0G Labs 8.5%
-• RIDE: Prediction Markets (3 →, Bull) — Iran/US war active at 14.5¢ YES
-• WATCH: QNT / Tokenized Bank Deposits (3 →, Mixed) — Day-3 still trending; $200 hold = FADE trigger
-• WATCH: HBAR / Enterprise AI Infrastructure (3 →, Mixed) — Day-2 exit signal live
-• WATCH: InfoFi / Kaito Attention Markets (2 ↓, Mixed) — algo backlash risk live
-• WATCH: FHE / Confidential Computing (3 →, Bull)
-• FADE: SUI | Alt Season Rotation (BTC dom 58.28%) | RWA | XRP ETF Cycle
+• FRONT-RUN: MON / Monad Institutional Rails (2 ↑↑, Bull) — @StraitsX @monad_xyz — bear: Q1 2027 go-live not live; day-1 reflexivity risk
+• RIDE: ETH vs Base / AI Settlement Layer (3 ↑, Mixed) — @base (Cobalt live) @EthereumFndn (Glamsterdam Oct 6) @CFTC (AI/agents forum upcoming) — bear: no clear winner
+• RIDE: Agentic Payments / Base x402 (5 ↑, Bull) — @base @coinbase @kraken (AI agents rebuilt) Circle Arc — bear: four-platform consensus = late; FADE watch 6 weeks
+• RIDE: Stablecoins as AI Payment Rail (5 →, Bull) — @BlackRock @coinbase @StraitsX Circle Arc — bear: GENIUS Act stalled
+• WATCH: NMR / Decentralized AI Research (2 →, Emerging) — day-2 hold $10.22 > QNT/HBAR day-2 pattern; no new catalyst; exit red close
+• WATCH: HBAR / Enterprise AI Infrastructure (2 →, Emerging) — day-3 silent; DEMOTE to Fading if no catalyst day-4
+• WATCH: FHE / Confidential Computing (3 →, Rising) — @Zama_FHE @VeniceAI — no prod dapp live
+• FADE: Alt Season Rotation (4 ↓↓, Bear) — BTC dom rising; $2.4B spot ETF inflows; 34/80 green, median −0.22%
+• FADE: SUI (1 ↓↓), RWA (2 ↓), QNT (2 ↓↓), InfoFi / Kaito (2 ↓)
 
 MAP
-Emerging: NMR / Decentralized AI Research | HBAR / Enterprise AI Infrastructure | ETH vs Base / AI Settlement Layer Race
-Rising: AI x DePIN | Prediction Markets | InfoFi / Kaito Attention Markets | FHE / Confidential Computing
-Peak: Agentic Payments x402 | Stablecoins as AI Payment Rail | QNT / Tokenized Bank Deposits
-Fading: SUI | Alt Season Rotation | RWA / Tokenized Markets | XRP ETF Cycle
+Emerging: MON / Monad, NMR / Decentralized AI Research, HBAR / Enterprise AI Infrastructure
+Rising: ETH vs Base / AI Settlement Layer, AI x DePIN, Prediction Markets, FHE / Confidential Computing
+Peak: Agentic Payments / Base x402, Stablecoins as AI Payment Rail
+Fading: QNT, InfoFi / Kaito, Alt Season Rotation, SUI / L1, RWA
+Dead: XRP ETF Cycle, KAS, WLD, AI Agent Safety, September Seasonality, L2/DeFi Rotation
