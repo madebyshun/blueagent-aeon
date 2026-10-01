@@ -1,0 +1,705 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-10-01",
+        "description": "Verdict: 1 confirmed PoC to patch today, 5 to schedule this week, 3 to monitor. Sources: CISA KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "verdict_stack",
+        "separator_1",
+        "patch_today_section",
+        "separator_2",
+        "patch_week_section",
+        "separator_3",
+        "monitor_section"
+      ]
+    },
+    "verdict_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_poc",
+        "stat_week",
+        "stat_monitor"
+      ]
+    },
+    "stat_poc": {
+      "type": "Stat",
+      "props": {
+        "label": "Patch Today (PoC confirmed)",
+        "value": "1"
+      }
+    },
+    "stat_week": {
+      "type": "Stat",
+      "props": {
+        "label": "Patch This Week",
+        "value": "5"
+      }
+    },
+    "stat_monitor": {
+      "type": "Stat",
+      "props": {
+        "label": "Monitor",
+        "value": "3"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_today_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch_today_heading",
+        "cve_92937"
+      ]
+    },
+    "patch_today_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve_92937": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_92937",
+        "badges_92937",
+        "desc_92937",
+        "action_92937"
+      ]
+    },
+    "link_92937": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-92937 — vm2 (npm)",
+        "href": "https://github.com/advisories/GHSA-647f-g98j-qq25",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badges_92937": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_100",
+        "badge_epss_0010",
+        "badge_poc_confirmed"
+      ]
+    },
+    "badge_cvss_100": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 10.0",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_0010": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.010",
+        "variant": "secondary"
+      }
+    },
+    "badge_poc_confirmed": {
+      "type": "Badge",
+      "props": {
+        "text": "PoC confirmed",
+        "variant": "destructive"
+      }
+    },
+    "desc_92937": {
+      "type": "Text",
+      "props": {
+        "text": "Bypass of prior fix (GHSA-m283-3h24-438v): call/apply indirection on Promise rejection handlers leaks host process → full RCE. Batch of 10 CVEs all fixed at 3.11.7.",
+        "variant": "body"
+      }
+    },
+    "action_92937": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade vm2 to ≥3.11.7 and redeploy today.",
+        "variant": "lead"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_week_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch_week_heading",
+        "cve_vcvr",
+        "cve_ffc3",
+        "cve_239g",
+        "cve_hq2x",
+        "cve_667r"
+      ]
+    },
+    "patch_week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "cve_vcvr": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_vcvr",
+        "badges_vcvr",
+        "desc_vcvr",
+        "action_vcvr"
+      ]
+    },
+    "link_vcvr": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-vcvr-r3jv-pc5j — next (npm)",
+        "href": "https://github.com/advisories/GHSA-vcvr-r3jv-pc5j",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badges_vcvr": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_95",
+        "badge_no_poc_1"
+      ]
+    },
+    "badge_cvss_95": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.5",
+        "variant": "destructive"
+      }
+    },
+    "badge_no_poc_1": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "secondary"
+      }
+    },
+    "desc_vcvr": {
+      "type": "Text",
+      "props": {
+        "text": "RCE via SVG injection in next/og ImageResponse (Node.js renderer path; Edge runtime unaffected).",
+        "variant": "body"
+      }
+    },
+    "action_vcvr": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade next to ≥16.3.6.",
+        "variant": "lead"
+      }
+    },
+    "cve_ffc3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ffc3",
+        "badges_ffc3",
+        "desc_ffc3",
+        "action_ffc3"
+      ]
+    },
+    "link_ffc3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-ffc3-869f-jxw9 — PyJWT (pip)",
+        "href": "https://github.com/advisories/GHSA-ffc3-869f-jxw9",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badges_ffc3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_91",
+        "badge_epss_0002",
+        "badge_no_poc_2"
+      ]
+    },
+    "badge_cvss_91": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.1",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_0002": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.002",
+        "variant": "secondary"
+      }
+    },
+    "badge_no_poc_2": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "secondary"
+      }
+    },
+    "desc_ffc3": {
+      "type": "Text",
+      "props": {
+        "text": "5-CVE batch: PEM whitespace bypass, BOM bypass, public-key-as-HMAC, empty HMAC acceptance, JWKS open redirect — auth bypass across all vectors.",
+        "variant": "body"
+      }
+    },
+    "action_ffc3": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade PyJWT to ≥2.14.0.",
+        "variant": "lead"
+      }
+    },
+    "cve_239g": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_239g",
+        "badges_239g",
+        "desc_239g",
+        "action_239g"
+      ]
+    },
+    "link_239g": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-239g-whfq-7xj9 — gitpython (pip)",
+        "href": "https://github.com/advisories/GHSA-239g-whfq-7xj9",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badges_239g": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_88",
+        "badge_epss_0004",
+        "badge_no_poc_3"
+      ]
+    },
+    "badge_cvss_88": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_0004": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      }
+    },
+    "badge_no_poc_3": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "secondary"
+      }
+    },
+    "desc_239g": {
+      "type": "Text",
+      "props": {
+        "text": "Repo content can impersonate the .git directory → arbitrary command execution during repo operations.",
+        "variant": "body"
+      }
+    },
+    "action_239g": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade gitpython to ≥3.1.60.",
+        "variant": "lead"
+      }
+    },
+    "cve_hq2x": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_hq2x",
+        "badges_hq2x",
+        "desc_hq2x",
+        "action_hq2x"
+      ]
+    },
+    "link_hq2x": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-hq2x-r82h-9wj4 — electron (npm)",
+        "href": "https://github.com/advisories/GHSA-hq2x-r82h-9wj4",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badges_hq2x": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_82",
+        "badge_epss_0001",
+        "badge_no_poc_4"
+      ]
+    },
+    "badge_cvss_82": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.2",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_0001": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.001",
+        "variant": "secondary"
+      }
+    },
+    "badge_no_poc_4": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "secondary"
+      }
+    },
+    "desc_hq2x": {
+      "type": "Text",
+      "props": {
+        "text": "Popups opened from sandboxed documents lose inherited sandbox restrictions; second advisory GHSA-gr2m-v5gq-v685 covers same issue for windows from sandboxed context.",
+        "variant": "body"
+      }
+    },
+    "action_hq2x": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade electron to ≥41.10.4 (or ≥42.5.2 / ≥43.0.0 on those branches).",
+        "variant": "lead"
+      }
+    },
+    "cve_667r": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_667r",
+        "badges_667r",
+        "desc_667r",
+        "action_667r"
+      ]
+    },
+    "link_667r": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-667r-xxjv-c9mm — fastify (npm)",
+        "href": "https://github.com/advisories/GHSA-667r-xxjv-c9mm",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badges_667r": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_81",
+        "badge_epss_0004b",
+        "badge_no_poc_5"
+      ]
+    },
+    "badge_cvss_81": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_0004b": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      }
+    },
+    "badge_no_poc_5": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "secondary"
+      }
+    },
+    "desc_667r": {
+      "type": "Text",
+      "props": {
+        "text": "4-CVE batch: auth bypass via malformed URLs reaching protected routes, body replacement via async validators, header/boolean schema bypass.",
+        "variant": "body"
+      }
+    },
+    "action_667r": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade fastify to ≥5.12.2.",
+        "variant": "lead"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "monitor_heading",
+        "cve_33jq",
+        "cve_hrh2",
+        "cve_ff3f"
+      ]
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "cve_33jq": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_33jq",
+        "badges_33jq",
+        "desc_33jq",
+        "action_33jq"
+      ]
+    },
+    "link_33jq": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-33jq-p8c2-q3q4 — siyuan/kernel (Go)",
+        "href": "https://github.com/advisories/GHSA-33jq-p8c2-q3q4",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badges_33jq": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_100b",
+        "badge_epss_0015"
+      ]
+    },
+    "badge_cvss_100b": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 10.0",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_0015": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.015",
+        "variant": "secondary"
+      }
+    },
+    "desc_33jq": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated SQL injection in searchDocs (publish mode) → cross-notebook read/write via statement stacking. Fix only as a commit pseudo-version; no tagged release.",
+        "variant": "body"
+      }
+    },
+    "action_33jq": {
+      "type": "Text",
+      "props": {
+        "text": "→ track GHSA-33jq-p8c2-q3q4; watch siyuan-note/siyuan for release.",
+        "variant": "lead"
+      }
+    },
+    "cve_hrh2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_hrh2",
+        "badges_hrh2",
+        "desc_hrh2",
+        "action_hrh2"
+      ]
+    },
+    "link_hrh2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-hrh2-vp3x-79xf — decompress (npm)",
+        "href": "https://github.com/advisories/GHSA-hrh2-vp3x-79xf",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badges_hrh2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_91b",
+        "badge_epss_0008"
+      ]
+    },
+    "badge_cvss_91b": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.1",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_0008": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.008",
+        "variant": "secondary"
+      }
+    },
+    "desc_hrh2": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal via symlink chains allows extraction outside target dir. No patch for original decompress ≤4.2.1; only fork @xhmikosr/decompress ≥11.1.4 is fixed.",
+        "variant": "body"
+      }
+    },
+    "action_hrh2": {
+      "type": "Text",
+      "props": {
+        "text": "→ migrate to @xhmikosr/decompress ≥11.1.4; no patch for original package.",
+        "variant": "lead"
+      }
+    },
+    "cve_ff3f": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ff3f",
+        "badges_ff3f",
+        "desc_ff3f",
+        "action_ff3f"
+      ]
+    },
+    "link_ff3f": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-ff3f-86qr-9cv3 — @angular/router (npm)",
+        "href": "https://github.com/advisories/GHSA-ff3f-86qr-9cv3",
+        "source": "GitHub Advisory"
+      }
+    },
+    "badges_ff3f": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_no_poc_6"
+      ]
+    },
+    "badge_no_poc_6": {
+      "type": "Badge",
+      "props": {
+        "text": "no PoC",
+        "variant": "secondary"
+      }
+    },
+    "desc_ff3f": {
+      "type": "Text",
+      "props": {
+        "text": "SSR Node adapter crashes on numeric URLs. No fix for ≤19.2.25; patched in ≥20.3.32, ≥21.2.24, ≥22.2.0.",
+        "variant": "body"
+      }
+    },
+    "action_ff3f": {
+      "type": "Text",
+      "props": {
+        "text": "→ block numeric-port URLs at edge if on Angular 19.x; upgrade if on 20/21/22 branch.",
+        "variant": "lead"
+      }
+    }
+  }
+}
