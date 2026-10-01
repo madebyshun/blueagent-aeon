@@ -1,31 +1,30 @@
-*GitHub Trending — 2026-09-30*
+*GitHub Trending — 2026-10-01*
 
-*Top pick* — [mattpocock/skills](https://github.com/mattpocock/skills)
-Proven .agents config from a TypeScript educator's live setup — 736 stars today signals devs are hungry to see how an expert actually wires their AI toolchain.
+*Top pick* — [earendil-works/pi](https://github.com/earendil-works/pi)
+Most complete all-in-one agent dev toolkit this week — unified LLM API, loop, TUI, and coding CLI, pushed today.
 
 *AI/ML*
-• [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) — ★ 675 today (148.8k total) · JavaScript · [ACCELERATING]
-YAGNI-enforcement layer for AI agents — stops codegen from gold-plating before the first commit.
+• [earendil-works/pi](https://github.com/earendil-works/pi) — ★ 294 today (111k total) · TypeScript · [ACCELERATING]
+Unified LLM API + agent loop in one toolkit — the coding-agent CLI is production-ready today.
 
-• [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — ★ 338 today (127.3k total) · Python · [RETURNING]
-Still the most complete keyword-to-HD-video pipeline — 127k stars and active maintenance mean it actually ships.
+• [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — ★ 463 today (73.4k total) · JavaScript · [ACCELERATING]
+Structured design tokens for prompting AI — teaches models spatial layout without verbose instructions.
 
-• [mksglu/context-mode](https://github.com/mksglu/context-mode) — ★ 88 today (24.4k total) · TypeScript · [ACCELERATING]
-Sandboxes tool output for 98% context reduction; persists memory across 17 agent platforms via MCP.
+• [tile-ai/tilelang](https://github.com/tile-ai/tilelang) — ★ 157 today (8k total) · Python · [RETURNING]
+Write GPU kernels in a Python DSL — ships CUDA/ROCm/Metal backends without boilerplate C++.
+
+• [Friedrich-M/UniMate](https://github.com/Friedrich-M/UniMate) — ★ 225 today (994 total) · Python · [RETURNING]
+Single model animating any skeleton type — SIGGRAPH Asia 2026 paper, code drops today.
 
 *Devtools*
-• [mattpocock/skills](https://github.com/mattpocock/skills) — ★ 736 today (272.7k total) · Shell · [ACCELERATING]
-Production-grade .agents skills from an expert's live config — see what a real engineer actually runs.
+• [obra/superpowers](https://github.com/obra/superpowers) — ★ 476 today (293.8k total) · Shell · [ACCELERATING]
+293k-star opinionated agent workflow framework — ships a complete dev methodology, not just prompt templates.
 
-• [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) — ★ 352 today (54.5k total) · TypeScript · [ACCELERATING]
-Write HTML/CSS, get video — lets agents produce rendered output without touching ffmpeg or a recording API.
+• [cursor/plugins](https://github.com/cursor/plugins) — ★ 157 today (9.3k total) · TypeScript · [RETURNING]
+Official plugin spec for Cursor — first-party extension API makes third-party tooling verifiable.
 
-• [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) — ★ 116 today (72.5k total) · C · [ACCELERATING]
-Persistent, auto-updating code graph any agent can query locally — replaces per-request file scans, cuts token waste.
-
-*Other*
-• [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) — ★ 466 today (26.3k total) · PLSQL · [RETURNING]
-Complete open-source phased array radar at 10.5 GHz — full firmware, not just a schematic.
+• [pablostanley/yoinks](https://github.com/pablostanley/yoinks) — ★ 356 today (2.7k total) · TypeScript · [RETURNING]
+Zero-dependency video downloader that actually works — no yt-dlp wrappers, no maintenance hell.
 
 ---
-sources: trending=ok · gh_api=ok · kept 7/17
+sources: trending=ok · gh_api=ok · kept 7/15
