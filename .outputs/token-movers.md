@@ -1,43 +1,42 @@
-*Token Movers — 2026-10-01*
+*Token Movers — 2026-10-02*
 
-_Risk-off lean — 34/80 top-100 green, median 24h −0.22%; altcoins broadly red while BTC holds._
+_65/100 top coins green, median top-50 24h +1.3% — mild risk-on with gaming/metaverse rotation leading; large caps quiet._
 
 *Top Winners (24h)*
-1. CAP (Cap) — $0.0875  +32.9% / 7d +65.2% / 1h −0.8%  •  $42M / #235  [BREAKOUT] [PUMP-RISK]
-2. MON (Monad) — $0.0347  +22.0% / 7d +32.6% / 1h −0.3%  •  $180M / #127  [TRENDING+UP] [BREAKOUT]
-3. BP (Backpack) — $1.4300  +18.7% / 7d +42.8% / 1h −1.0%  •  $31M / #137  [TRENDING+UP] [BREAKOUT]
-4. JASMY (JasmyCoin) — $0.005665  +11.2% / 7d +25.4% / 1h −0.5%  •  $68M / #160
-5. BTW (Bitway) — $1.4300  +8.1% / 7d +37.2% / 1h +0.2%  •  $41M / #34
-6. KAIA (Kaia) — $0.0374  +7.8% / 7d +11.4% / 1h −0.3%  •  $15M / #168
-7. KITE (Kite) — $0.1538  +7.4% / 7d +13.0% / 1h −0.5%  •  $21M / #132
-8. AR (Arweave) — $4.3600  +6.3% / 7d −4.9% / 1h −1.4%  •  $35M / #156
-9. AAVE (Aave) — $168.9  +5.5% / 7d +15.8% / 1h −1.1%  •  $447M / #42
-10. META (MetaDAO) — $6.0000  +6.4% / 7d +0.4% / 1h +0.2%  •  $7M / #236
+1. GRX (GRX Chain) — $21.17  +62.2% / 7d +62.1% / 1h +0.0%  •  $4M / #191  [BREAKOUT][PUMP-RISK]
+2. SAND (The Sandbox) — $0.0634  +46.5% / 7d +37.9% / 1h -3.7%  •  $467M / #200  [BREAKOUT][PUMP-RISK]
+3. CARDS (Collector Crypt) — $0.2782  +44.2% / 7d +49.0% / 1h +0.0%  •  $28M / #169  [BREAKOUT][PUMP-RISK]
+4. NIGHT (Midnight) — $0.04820  +18.3% / 7d +87.6% / 1h -5.7%  •  $94M / #87  [BREAKOUT]
+5. WLD (Worldcoin) — $0.5773  +18.3% / 7d +26.7% / 1h +1.8%  •  $519M / #53  [BREAKOUT]
+6. SKY (Sky) — $0.09390  +17.7% / 7d +26.9% / 1h +2.6%  •  $59M / #51  [BREAKOUT]
+7. GALA (GALA) — $0.002634  +17.2% / 7d +23.2% / 1h +0.0%  •  $98M / #247
+8. ATH (Aethir) — $0.006695  +16.3% / 7d +10.5% / 1h +0.3%  •  $25M / #244
+9. MANA (Decentraland) — $0.1018  +15.5% / 7d +9.1% / 1h -0.8%  •  $136M / #194
+10. RAIL (Railgun) — $2.880  +14.0% / 7d +0.9% / 1h -1.4%  •  $2M / #210
 
 *Top Losers (24h)*
-1. SOON (SOON) — $0.4280  −13.4% / 7d +117.4% / 1h +0.9%  •  $104M / #228  [CAPITULATION]
-2. QNT (Quant) — $265.8  −12.2% / 7d +217.7% / 1h +0.3%  •  $520M / #33  [TRENDING+DOWN]
-3. 2Z (DoubleZero) — $0.0561  −10.2% / 7d −0.3% / 1h −2.6%  •  $13M / #158
-4. STONK (STONK) — $0.2401  −8.7% / 7d −39.2% / 1h +0.3%  •  $28M / #191
-5. NEAR (NEAR Protocol) — $4.9200  −8.3% / 7d +5.4% / 1h −1.7%  •  $1.4B / #21  [TRENDING+DOWN]
-6. MET (Meteora) — $0.3016  −8.3% / 7d −14.7% / 1h −0.8%  •  $14M / #208
-7. KMNO (Kamino) — $0.0412  −7.2% / 7d +12.0% / 1h −1.5%  •  $12M / #174
-8. WLD (Worldcoin) — $0.4961  −6.9% / 7d +10.6% / 1h −0.2%  •  $495M / #55
-9. ETHFI (Ether.fi) — $0.7393  −6.8% / 7d +7.5% / 1h −0.5%  •  $52M / #94
-10. MARSCOIN (MarsCoin) — $0.1277  −7.1% / 7d +5.0% / 1h −6.1%  •  $28M / #250
+1. SHFL (Shuffle) — $0.4110  -14.7% / 7d +10.7% / 1h -0.3%  •  $3M / #193
+2. 2Z (DoubleZero) — $0.04770  -13.9% / 7d -4.3% / 1h -5.0%  •  $23M / #173
+3. BP (Backpack) — $1.230  -11.4% / 7d -1.0% / 1h -3.1%  •  $18M / #151
+4. SOON (SOON) — $0.3878  -10.0% / 7d +91.9% / 1h +1.9%  •  $39M / #249
+5. FF (Falcon Finance) — $0.1159  -7.9% / 7d -11.5% / 1h -0.9%  •  $7M / #130
+6. BR (Bedrock) — $0.6806  -7.1% / 7d -28.9% / 1h -0.2%  •  $5M / #190
+7. PRL (Pearl) — $1.110  -5.9% / 7d -6.9% / 1h +0.0%  •  $4M / #134
+8. RAIN (Rain) — $0.01140  -5.8% / 7d -3.7% / 1h -0.5%  •  $23M / #19  [MAJOR]
+9. UB (Unibase) — $0.1364  -5.8% / 7d -5.5% / 1h -0.3%  •  $11M / #140
+10. QNT (Quant) — $247.1  -5.6% / 7d +160.9% / 1h -0.3%  •  $451M / #34  [TRENDING+DOWN]
 
 *Trending*
-1. Official Trump (TRUMP) — #107, $2.0600, 24h +0.9%
-2. NEAR Protocol (NEAR) — #21, $4.9200, 24h −8.3%  [TRENDING+DOWN]
-3. MegaETH (MEGA) — #418, $0.0536, 24h +26.2%
-4. Quant (QNT) — #34, $265.8, 24h −12.2%  [TRENDING+DOWN]
-5. Monad (MON) — #127, $0.0347, 24h +22.0%  [TRENDING+UP] [BREAKOUT]
-6. Backpack (BP) — #137, $1.4300, 24h +18.7%  [TRENDING+UP] [BREAKOUT]
-7. Bitcoin (BTC) — #1, $84,865, 24h +1.1%
+1. Super Cat (SC) — #859, $0.02200, 24h +42.7%
+2. Edel (EDEL) — #761, $0.03920, 24h +20.2%
+3. Blast (BLAST) — #906, $0.000283, 24h -31.3%
+4. Official Trump (TRUMP) — #106, $2.125, 24h +4.4%  [TRENDING+UP]
+5. Pudgy Penguins (PENGU) — #105, $0.009639, 24h +3.7%  [TRENDING+UP]
+6. Monad (MON) — #128, $0.03390, 24h +3.4%  [TRENDING+UP]
+7. Quant (QNT) — #34, $248.5, 24h -5.5%  [TRENDING+DOWN]
 
 *Notable*
-• MON: trending + up +22.0% / 7d +32.6% — [TRENDING+UP] [BREAKOUT] cross-signal
-• BP: trending + up +18.7% / 7d +42.8% — [TRENDING+UP] [BREAKOUT] cross-signal
-• CAP: #235 rank up +32.9% / 7d +65.2% — [PUMP-RISK], low-liquidity spike, warn
-• SOON: −13.4% on vol/mcap 0.72 — [CAPITULATION], high sell pressure post +117% 7d
-• QNT: trending but down −12.2% after +217.7% 7d — [TRENDING+DOWN], reflexivity exit confirmed
+• GRX: [PUMP-RISK] #191 +62.2% on only $4M volume — low-liquidity spike, manipulation likely
+• SAND: [BREAKOUT] +46.5% on $467M volume — gaming/metaverse rotation; rank fell to #200 but liquidity real
+• WLD: [BREAKOUT] +18.3% — reversed from yesterday -6.9%; 7d +26.7%; watch for follow-through
+• BP: reversed — was +18.7% yesterday, now -11.4%; 7d flat at -1.0%; relief bounce faded
