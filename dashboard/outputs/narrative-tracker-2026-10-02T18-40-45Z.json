@@ -1,0 +1,201 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_title",
+        "separator_1",
+        "heading_transitions",
+        "stack_transitions"
+      ]
+    },
+    "heading_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Narrative Tracker — 2026-10-02",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "transition_1",
+        "transition_2",
+        "transition_3"
+      ]
+    },
+    "transition_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "transition_1_header",
+        "transition_1_content"
+      ]
+    },
+    "transition_1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_new_1",
+        "text_transition_1_title"
+      ]
+    },
+    "badge_new_1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_transition_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "WLD / Proof of Personhood (DEAD→Emerging, WATCH/COPE)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "transition_1_content": {
+      "type": "Text",
+      "props": {
+        "text": "World Money app live in 150 countries (Stripe/Apple Pay + World ID); WLD +18.3% day-1; BUT Hayes dumped full WLD position June 2026 (-25% crash, ZachXBT pump-and-dump documented) — World Money product catalyst is real, Hayes framing is cope",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "transition_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "transition_2_header",
+        "transition_2_content"
+      ]
+    },
+    "transition_2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_new_2",
+        "text_transition_2_title"
+      ]
+    },
+    "badge_new_2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_transition_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "Gaming/Metaverse Rotation (Emerging, WATCH)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "transition_2_content": {
+      "type": "Text",
+      "props": {
+        "text": "SAND +46.5%, GALA +17.2%, MANA +15.5%; sector rotation during risk-on expansion; no fundamental catalyst beyond capital flow",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "transition_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "transition_3_header",
+        "transition_3_content"
+      ]
+    },
+    "transition_3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_new_3",
+        "text_transition_3_title"
+      ]
+    },
+    "badge_new_3": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_transition_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "Macro Risk / Fed Hike Oct 28 (Emerging, WATCH)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "transition_3_content": {
+      "type": "Text",
+      "props": {
+        "text": "Gov Barr more",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
