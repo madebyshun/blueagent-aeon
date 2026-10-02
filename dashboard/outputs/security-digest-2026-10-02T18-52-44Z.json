@@ -1,0 +1,604 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-10-02"
+      },
+      "children": [
+        "verdict-text",
+        "sep1",
+        "patch-today-section",
+        "sep2",
+        "patch-week-section"
+      ]
+    },
+    "verdict-text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 3 actively exploited (KEV, infra), 5 in tracked stack to schedule. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch-today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "today-heading",
+        "cve-1",
+        "cve-2",
+        "cve-3"
+      ]
+    },
+    "today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-1-link",
+        "cve-1-meta",
+        "cve-1-desc",
+        "cve-1-action"
+      ]
+    },
+    "cve-1-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-104286 — Fortinet FortiMail",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-104286"
+      }
+    },
+    "cve-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-1",
+        "badge-epss-1",
+        "badge-cvss-1",
+        "badge-due-1"
+      ]
+    },
+    "badge-kev-1": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-10-01",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-1": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.018",
+        "variant": "secondary"
+      }
+    },
+    "badge-cvss-1": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "outline"
+      }
+    },
+    "badge-due-1": {
+      "type": "Badge",
+      "props": {
+        "text": "due 2026-10-04",
+        "variant": "outline"
+      }
+    },
+    "cve-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal + null byte → unauthenticated arbitrary file write on underlying system. Actively exploited per CISA.",
+        "variant": "body"
+      }
+    },
+    "cve-1-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply FortiMail patch per FG-IR-26-175 today.",
+        "variant": "body"
+      }
+    },
+    "cve-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-2-link",
+        "cve-2-meta",
+        "cve-2-desc",
+        "cve-2-action"
+      ]
+    },
+    "cve-2-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-102489 — Zammad",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-102489"
+      }
+    },
+    "cve-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-2",
+        "badge-epss-2",
+        "badge-cvss-2",
+        "badge-due-2"
+      ]
+    },
+    "badge-kev-2": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-10-02",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-2": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.006",
+        "variant": "secondary"
+      }
+    },
+    "badge-cvss-2": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "outline"
+      }
+    },
+    "badge-due-2": {
+      "type": "Badge",
+      "props": {
+        "text": "due 2026-10-05",
+        "variant": "outline"
+      }
+    },
+    "cve-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Session fixation → RCE as zammad user. Chains with CVE-2026-102490 (local priv-esc to root). Exploited per CISA.",
+        "variant": "body"
+      }
+    },
+    "cve-2-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade Zammad to latest patched release today.",
+        "variant": "body"
+      }
+    },
+    "cve-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-3-link",
+        "cve-3-meta",
+        "cve-3-desc",
+        "cve-3-action"
+      ]
+    },
+    "cve-3-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-102490 — Zammad",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-102490"
+      }
+    },
+    "cve-3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-3",
+        "badge-epss-3",
+        "badge-cvss-3",
+        "badge-due-3"
+      ]
+    },
+    "badge-kev-3": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-10-02",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-3": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003",
+        "variant": "secondary"
+      }
+    },
+    "badge-cvss-3": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "outline"
+      }
+    },
+    "badge-due-3": {
+      "type": "Badge",
+      "props": {
+        "text": "due 2026-10-05",
+        "variant": "outline"
+      }
+    },
+    "cve-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Improper privilege management → local escalation to root. Chains with CVE-2026-102489 above.",
+        "variant": "body"
+      }
+    },
+    "cve-3-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade Zammad to latest patched release today.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch-week-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "week-heading",
+        "cve-4",
+        "cve-5",
+        "cve-6",
+        "cve-7",
+        "cve-8"
+      ]
+    },
+    "week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "cve-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-4-link",
+        "cve-4-meta",
+        "cve-4-desc",
+        "cve-4-action"
+      ]
+    },
+    "cve-4-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-102992 — piscina (npm)",
+        "href": "https://github.com/advisories/GHSA-67c8-pqhq-4rmx"
+      }
+    },
+    "cve-4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-severity-4",
+        "badge-epss-4",
+        "badge-cvss-4"
+      ]
+    },
+    "badge-severity-4": {
+      "type": "Badge",
+      "props": {
+        "text": "critical",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-4": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      }
+    },
+    "badge-cvss-4": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "outline"
+      }
+    },
+    "cve-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Prototype-pollution gadget in ThreadPool.options enables RCE via execArgv / loadBalancer / env.",
+        "variant": "body"
+      }
+    },
+    "cve-4-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade piscina to ≥5.3.2.",
+        "variant": "body"
+      }
+    },
+    "cve-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-5-link",
+        "cve-5-meta",
+        "cve-5-desc",
+        "cve-5-action"
+      ]
+    },
+    "cve-5-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-92958 — vm2 (npm)",
+        "href": "https://github.com/advisories/GHSA-6rh5-qq4q-97xh"
+      }
+    },
+    "cve-5-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-5",
+        "badge-epss-5"
+      ]
+    },
+    "badge-cvss-5": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.5",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-5": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      }
+    },
+    "cve-5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "fs/promises denylist bypass despite -fs flag; allows host filesystem writes from sandboxed code. (10-01 batch tail, same fix.)",
+        "variant": "body"
+      }
+    },
+    "cve-5-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade vm2 to ≥3.11.7.",
+        "variant": "body"
+      }
+    },
+    "cve-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-6-link",
+        "cve-6-meta",
+        "cve-6-desc",
+        "cve-6-action"
+      ]
+    },
+    "cve-6-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-92950 — vm2 (npm)",
+        "href": "https://github.com/advisories/GHSA-jxxv-8r27-vm4p"
+      }
+    },
+    "cve-6-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-6",
+        "badge-epss-6"
+      ]
+    },
+    "badge-cvss-6": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.6",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-6": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.002",
+        "variant": "secondary"
+      }
+    },
+    "cve-6-desc": {
+      "type": "Text",
+      "props": {
+        "text": "CLI provides no sandbox isolation; host-realm require() reachable from sandboxed scripts. (10-01 batch tail, same fix.)",
+        "variant": "body"
+      }
+    },
+    "cve-6-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade vm2 to ≥3.11.7.",
+        "variant": "body"
+      }
+    },
+    "cve-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-7-link",
+        "cve-7-meta",
+        "cve-7-desc",
+        "cve-7-action"
+      ]
+    },
+    "cve-7-link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-9cqf-hhrq-7v45 — siyuan/kernel (Go)",
+        "href": "https://github.com/advisories/GHSA-9cqf-hhrq-7v45"
+      }
+    },
+    "cve-7-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-7",
+        "badge-epss-7"
+      ]
+    },
+    "badge-cvss-7": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.6",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-7": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS —",
+        "variant": "outline"
+      }
+    },
+    "cve-7-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Database row content returned to anonymous readers; no publish-access check on getAttributeViewSearchTarget. Reopens class closed one day earlier.",
+        "variant": "body"
+      }
+    },
+    "cve-7-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade to ≥v3.1.26 (0.0.0-20260812083335).",
+        "variant": "body"
+      }
+    },
+    "cve-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-8-link",
+        "cve-8-meta",
+        "cve-8-desc",
+        "cve-8-action"
+      ]
+    },
+    "cve-8-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-102831 — jupyterlab (pip)",
+        "href": "https://github.com/advisories/GHSA-6966-vjj6-99xv"
+      }
+    },
+    "cve-8-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-8",
+        "badge-epss-8"
+      ]
+    },
+    "badge-cvss-8": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-8": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.002",
+        "variant": "secondary"
+      }
+    },
+    "cve-8-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Stored XSS via notebook cells pasted from system clipboard.",
+        "variant": "body"
+      }
+    },
+    "cve-8-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade jupyterlab to ≥4.6.4.",
+        "variant": "body"
+      }
+    }
+  }
+}
