@@ -1,0 +1,295 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-10-02"
+      },
+      "children": [
+        "content"
+      ]
+    },
+    "content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "top-pick-section",
+        "separator-1",
+        "ai-ml-section",
+        "separator-2",
+        "devtools-section",
+        "separator-3",
+        "footer"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top-pick-label",
+        "top-pick-item"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "top-pick-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top-pick-link",
+        "top-pick-desc"
+      ]
+    },
+    "top-pick-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Panniantong/Agent-Reach",
+        "href": "https://github.com/Panniantong/Agent-Reach"
+      }
+    },
+    "top-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unified read/search across 6 platforms (Twitter, Reddit, YouTube, GitHub, Bilibili, XHS) — no API keys, zero auth glue, one install for any agent.",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai-ml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-heading",
+        "repo-1",
+        "repo-2",
+        "repo-3"
+      ]
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-1-link",
+        "repo-1-desc"
+      ]
+    },
+    "repo-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Panniantong/Agent-Reach",
+        "href": "https://github.com/Panniantong/Agent-Reach",
+        "source": "★ 683 today (88.1k total) · Python · ACCELERATING"
+      }
+    },
+    "repo-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Hands agents zero-cost multi-platform perception — one CLI covers six networks, no scraper plumbing required.",
+        "variant": "body"
+      }
+    },
+    "repo-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-2-link",
+        "repo-2-desc"
+      ]
+    },
+    "repo-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "NVIDIA/OpenShell",
+        "href": "https://github.com/NVIDIA/OpenShell",
+        "source": "★ 584 today (14.3k total) · Rust · RETURNING"
+      }
+    },
+    "repo-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "NVIDIA's official agent runtime — hardware-isolated sandbox for autonomous AI execution with privacy guarantees; updated today.",
+        "variant": "body"
+      }
+    },
+    "repo-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-3-link",
+        "repo-3-desc"
+      ]
+    },
+    "repo-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mvschwarz/openrig",
+        "href": "https://github.com/mvschwarz/openrig",
+        "source": "★ 691 today (4.1k total) · TypeScript · RETURNING"
+      }
+    },
+    "repo-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Composes persistent multi-agent teams from Claude Code, Codex, and Pi with roles, shared context, and owned work queues.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "repo-4",
+        "repo-5",
+        "repo-6"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "repo-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-4-link",
+        "repo-4-desc"
+      ]
+    },
+    "repo-4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "JuliusBrussee/caveman",
+        "href": "https://github.com/JuliusBrussee/caveman",
+        "source": "★ 271 today (108.9k total) · Go · ACCELERATING"
+      }
+    },
+    "repo-4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Proxy + skill that forces coding agents to talk in minimal tokens — 65% reduction, benchmarks included.",
+        "variant": "body"
+      }
+    },
+    "repo-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-5-link",
+        "repo-5-desc"
+      ]
+    },
+    "repo-5-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "coreyhaines31/marketingskills",
+        "href": "https://github.com/coreyhaines31/marketingskills",
+        "source": "★ 139 today (52.3k total) · JavaScript · ACCELERATING"
+      }
+    },
+    "repo-5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "CRO, SEO, copywriting, and analytics as drop-in agent skills — growth-ops without the prompt-engineering overhead.",
+        "variant": "body"
+      }
+    },
+    "repo-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-6-link",
+        "repo-6-desc"
+      ]
+    },
+    "repo-6-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google/skills",
+        "href": "https://github.com/google/skills",
+        "source": "★ 78 today (20.6k total) · Python · ACCELERATING"
+      }
+    },
+    "repo-6-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Official Google-product agent skills — Maps, Search, and Workspace integrations with no third-party auth wrappers.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/17",
+        "variant": "caption"
+      }
+    }
+  }
+}

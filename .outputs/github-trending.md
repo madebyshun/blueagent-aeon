@@ -1,30 +1,27 @@
-*GitHub Trending — 2026-10-01*
+*GitHub Trending — 2026-10-02*
 
-*Top pick* — [earendil-works/pi](https://github.com/earendil-works/pi)
-Most complete all-in-one agent dev toolkit this week — unified LLM API, loop, TUI, and coding CLI, pushed today.
+*Top pick* — [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)
+Unified read/search across 6 platforms (Twitter, Reddit, YouTube, GitHub, Bilibili, XHS) — no API keys, zero auth glue, one install for any agent.
 
 *AI/ML*
-• [earendil-works/pi](https://github.com/earendil-works/pi) — ★ 294 today (111k total) · TypeScript · [ACCELERATING]
-Unified LLM API + agent loop in one toolkit — the coding-agent CLI is production-ready today.
+• [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) — ★ 683 today (88.1k total) · Python · [ACCELERATING]
+Hands agents zero-cost multi-platform perception — one CLI covers six networks, no scraper plumbing required.
 
-• [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — ★ 463 today (73.4k total) · JavaScript · [ACCELERATING]
-Structured design tokens for prompting AI — teaches models spatial layout without verbose instructions.
+• [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) — ★ 584 today (14.3k total) · Rust · [RETURNING]
+NVIDIA's official agent runtime — hardware-isolated sandbox for autonomous AI execution with privacy guarantees; updated today.
 
-• [tile-ai/tilelang](https://github.com/tile-ai/tilelang) — ★ 157 today (8k total) · Python · [RETURNING]
-Write GPU kernels in a Python DSL — ships CUDA/ROCm/Metal backends without boilerplate C++.
-
-• [Friedrich-M/UniMate](https://github.com/Friedrich-M/UniMate) — ★ 225 today (994 total) · Python · [RETURNING]
-Single model animating any skeleton type — SIGGRAPH Asia 2026 paper, code drops today.
+• [mvschwarz/openrig](https://github.com/mvschwarz/openrig) — ★ 691 today (4.1k total) · TypeScript · [RETURNING]
+Composes persistent multi-agent teams from Claude Code, Codex, and Pi with roles, shared context, and owned work queues.
 
 *Devtools*
-• [obra/superpowers](https://github.com/obra/superpowers) — ★ 476 today (293.8k total) · Shell · [ACCELERATING]
-293k-star opinionated agent workflow framework — ships a complete dev methodology, not just prompt templates.
+• [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) — ★ 271 today (108.9k total) · Go · [ACCELERATING]
+Proxy + skill that forces coding agents to talk in minimal tokens — 65% reduction, benchmarks included.
 
-• [cursor/plugins](https://github.com/cursor/plugins) — ★ 157 today (9.3k total) · TypeScript · [RETURNING]
-Official plugin spec for Cursor — first-party extension API makes third-party tooling verifiable.
+• [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — ★ 139 today (52.3k total) · JavaScript · [ACCELERATING]
+CRO, SEO, copywriting, and analytics as drop-in agent skills — growth-ops without the prompt-engineering overhead.
 
-• [pablostanley/yoinks](https://github.com/pablostanley/yoinks) — ★ 356 today (2.7k total) · TypeScript · [RETURNING]
-Zero-dependency video downloader that actually works — no yt-dlp wrappers, no maintenance hell.
+• [google/skills](https://github.com/google/skills) — ★ 78 today (20.6k total) · Python · [ACCELERATING]
+Official Google-product agent skills — Maps, Search, and Workspace integrations with no third-party auth wrappers.
 
 ---
-sources: trending=ok · gh_api=ok · kept 7/15
+sources: trending=ok · gh_api=ok · kept 6/17

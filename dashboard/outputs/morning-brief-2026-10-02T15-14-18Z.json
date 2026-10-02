@@ -1,0 +1,209 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-10-02"
+      },
+      "children": [
+        "focus_section",
+        "sep1",
+        "activity_section",
+        "sep2",
+        "watch_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "MON day-2 — why now: Oct 6 privacy reveal adds catalyst, exit signal changes"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "NMR day-3 — why now: day-3 silent = DEMOTE threshold in QNT/HBAR/NMR arc"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "Base x402 to production — why now: Peak RIDE saturation clock now ticking"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "activity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "activity_heading",
+        "activity_1",
+        "activity_2",
+        "activity_3",
+        "activity_4"
+      ]
+    },
+    "activity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "activity_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_1",
+        "stat_1",
+        "detail_1"
+      ]
+    },
+    "badge_1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "stat_1": {
+      "type": "Stat",
+      "props": {
+        "value": "21.4%",
+        "label": "token-pick MON day-1",
+        "trend": "up"
+      }
+    },
+    "detail_1": {
+      "type": "Text",
+      "props": {
+        "text": "StraitsX XSGD/XUSD on Monad confirmed Q1 2027",
+        "variant": "caption"
+      }
+    },
+    "activity_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_2",
+        "text_2"
+      ]
+    },
+    "badge_2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text_2": {
+      "type": "Text",
+      "props": {
+        "text": "Base Cobalt live (Validity txns + 200ms blocks); x402 entering live deploys"
+      }
+    },
+    "activity_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_3",
+        "stat_3",
+        "detail_3"
+      ]
+    },
+    "badge_3": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "stat_3": {
+      "type": "Stat",
+      "props": {
+        "value": "12.2%",
+        "label": "QNT day-3",
+        "trend": "down"
+      }
+    },
+    "detail_3": {
+      "type": "Text",
+      "props": {
+        "text": "Closes reflexivity arc; Kaito InfoFi FADE confirmed",
+        "variant": "caption"
+      }
+    },
+    "activity_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_4",
+        "alert_4"
+      ]
+    },
+    "badge_4": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "alert_4": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "XAI API 403 day 11 — narrative-tracker on WebSearch fallback (fund credits at console.x.ai)"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "watch_section": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Watch",
+        "message": "Monad privacy reveal @ Oct 6 Singapore Open Summit — extends MON runway but sharpens event-risk cliff; reconsider exit"
+      }
+    }
+  }
+}
