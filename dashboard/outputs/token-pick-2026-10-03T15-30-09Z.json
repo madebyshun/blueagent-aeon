@@ -1,0 +1,233 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-10-03"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_zro",
+        "sep1",
+        "stack_zro_content",
+        "sep2",
+        "stack_market_content",
+        "sep3",
+        "text_sources"
+      ]
+    },
+    "heading_zro": {
+      "type": "Heading",
+      "props": {
+        "text": "ZRO",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_zro_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_zro_header",
+        "text_price_metrics",
+        "text_score_breakdown",
+        "text_catalyst",
+        "text_risk_zro",
+        "text_vs_picks"
+      ]
+    },
+    "stack_zro_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_zro_high",
+        "stat_signal"
+      ]
+    },
+    "badge_zro_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "stat_signal": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "9/10"
+      },
+      "children": []
+    },
+    "text_price_metrics": {
+      "type": "Text",
+      "props": {
+        "text": "Price: $2.07 (+4.0% 24h / +29.9% 7d) | mcap $730M | vol $228M (vol/mcap 0.31)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_score_breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2, 24h>0+1, 7d>0+1] = 9/10",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: LayerZero Labs announced Zero — standalone L1 for institutional finance (2M TPS) backed by Citadel Securities, DTCC, ICE, Google Cloud, ARK Invest; ZRO is mandatory gas token, mainnet Fall 2026.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_risk_zro": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: Token unlock Oct 20 — 31.25M ZRO (~4.2% mcap) released; $292M Kelp DAO bridge exploit lawsuit shifting flow to Chainlink CCIP.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_vs_picks": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack_market_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_market_header",
+        "text_market_odds",
+        "text_fair_value",
+        "text_market_risk"
+      ]
+    },
+    "stack_market_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_market",
+        "stack_edge_badge"
+      ]
+    },
+    "heading_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Will the Republicans win the Kansas Senate race in 2026?",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_edge_badge": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_market_high",
+        "stat_edge"
+      ]
+    },
+    "badge_market_high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "stat_edge": {
+      "type": "Stat",
+      "props": {
+        "label": "Edge",
+        "value": "24.5pp"
+      },
+      "children": []
+    },
+    "text_market_odds": {
+      "type": "Text",
+      "props": {
+        "text": "Current: YES 62.5¢ / NO 37.5¢ | 24h vol $137k | resolves: 2026-11-04",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_fair_value": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~87% (inputs: [KS has not elected D senator since 1939], [incumbent Marshall won +10pts 2020], [KS PVI R+15])\n\nThesis: Market underprices Republican lock by 24.5pp — BUY YES; Kansas is structurally red at federal Senate level regardless of 2026 wave",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_market_risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: Strong national anti-R wave + exceptional D candidate could compress edge; KS elected Dem governor twice but state exec races differ structurally",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok\nnot financial advice — pattern-matching only",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
