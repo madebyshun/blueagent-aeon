@@ -1,0 +1,929 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-10-03"
+      },
+      "children": [
+        "transitions_section",
+        "sep1",
+        "reflexivity_section",
+        "sep2",
+        "positions_section",
+        "sep3",
+        "map_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions_heading",
+        "zro_new",
+        "gaming_promoted",
+        "fhe_promoted",
+        "agentic_demoted",
+        "altseason_demoted",
+        "nmr_dead",
+        "hbar_dead",
+        "sui_dead"
+      ]
+    },
+    "transitions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "zro_new": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zro_badge",
+        "zro_text",
+        "zro_backing",
+        "zro_timing"
+      ]
+    },
+    "zro_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "zro_text": {
+      "type": "Text",
+      "props": {
+        "text": "ZRO / Cross-Chain Institutional L1 — LayerZero \"Zero\" L1",
+        "variant": "lead"
+      }
+    },
+    "zro_backing": {
+      "type": "Text",
+      "props": {
+        "text": "Backers: Citadel, DTCC, ICE, Google Cloud, ARK Invest; ZRO = mandatory gas; mainnet Fall 2026; strongest institutional backing this cycle (DTCC+ICE = live financial infra, not announcement pump)",
+        "variant": "body"
+      }
+    },
+    "gaming_promoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "gaming_badge",
+        "gaming_text",
+        "sand_stat",
+        "night_stat"
+      ]
+    },
+    "gaming_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "gaming_text": {
+      "type": "Text",
+      "props": {
+        "text": "Gaming/Metaverse Rotation → Rising RIDE",
+        "variant": "lead"
+      }
+    },
+    "sand_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SAND",
+        "value": "day-2 +20.7%",
+        "delta": "+62.8% 7d"
+      }
+    },
+    "night_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "NIGHT",
+        "value": "day-2 +5.1%",
+        "delta": "+92% 7d"
+      }
+    },
+    "fhe_promoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fhe_badge",
+        "fhe_text",
+        "zama_stat"
+      ]
+    },
+    "fhe_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "fhe_text": {
+      "type": "Text",
+      "props": {
+        "text": "FHE / Confidential Computing → Rising RIDE",
+        "variant": "lead"
+      }
+    },
+    "zama_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ZAMA",
+        "value": "+7.0%",
+        "trend": "up"
+      }
+    },
+    "agentic_demoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "agentic_badge",
+        "agentic_text",
+        "ai_stat"
+      ]
+    },
+    "agentic_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "agentic_text": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / AI Crypto → Peak FADE",
+        "variant": "lead"
+      }
+    },
+    "ai_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "AI",
+        "value": "-11.8%",
+        "trend": "down"
+      }
+    },
+    "altseason_demoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "altseason_badge",
+        "altseason_text",
+        "altseason_detail"
+      ]
+    },
+    "altseason_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "altseason_text": {
+      "type": "Text",
+      "props": {
+        "text": "Alt Season Rotation → Rising WATCH",
+        "variant": "lead"
+      }
+    },
+    "altseason_detail": {
+      "type": "Text",
+      "props": {
+        "text": "29/80 green, median -0.9%; gaming bright spot, broad alts red; sector-specific not broad",
+        "variant": "body"
+      }
+    },
+    "nmr_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "nmr_badge",
+        "nmr_text"
+      ]
+    },
+    "nmr_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "nmr_text": {
+      "type": "Text",
+      "props": {
+        "text": "NMR — day-4 silent; reflexivity arc closed",
+        "variant": "muted"
+      }
+    },
+    "hbar_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "hbar_badge",
+        "hbar_text"
+      ]
+    },
+    "hbar_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "hbar_text": {
+      "type": "Text",
+      "props": {
+        "text": "HBAR — day-3 FADE, no catalyst",
+        "variant": "muted"
+      }
+    },
+    "sui_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "sui_badge",
+        "sui_text"
+      ]
+    },
+    "sui_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "sui_text": {
+      "type": "Text",
+      "props": {
+        "text": "SUI — extended fade confirmed",
+        "variant": "muted"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_heading",
+        "zro_alert",
+        "agentic_alert",
+        "gaming_alert"
+      ]
+    },
+    "reflexivity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "zro_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "ZRO: Day-1 Reflexivity Risk",
+        "message": "+4.0% day-1 on Zero L1 announcement — DTCC+ICE as backers stronger than prior arcs; day-1 reflexivity risk still applies; exit = first red close",
+        "type": "warning"
+      }
+    },
+    "agentic_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Agentic Payments / AI Crypto: Distribution Phase",
+        "message": "AI -11.8% = distribution; Grayscale +54% Sept was narrative-led; institutional hands lightening into late retail entry — rotate to ZRO, AI×DePIN",
+        "type": "warning"
+      }
+    },
+    "gaming_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Gaming: Rotation Capital Flow",
+        "message": "SAND $569M vol on no game launch = pure rotation capital from AI/DePIN; RIDE with tight stop",
+        "type": "info"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions_heading",
+        "zro_position",
+        "gaming_position",
+        "ai_depin_position",
+        "fhe_position",
+        "mon_position",
+        "agentic_position"
+      ]
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "zro_position": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "zro_pos_badge",
+        "zro_pos_title",
+        "zro_pos_detail",
+        "zro_pos_bear"
+      ]
+    },
+    "zro_pos_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "zro_pos_title": {
+      "type": "Text",
+      "props": {
+        "text": "ZRO / Cross-Chain Institutional L1 (2 ↑↑, Bull)",
+        "variant": "lead"
+      }
+    },
+    "zro_pos_detail": {
+      "type": "Text",
+      "props": {
+        "text": "@LayerZero_Labs + Citadel/DTCC/ICE/Google Cloud/ARK",
+        "variant": "body"
+      }
+    },
+    "zro_pos_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: bridge fee dilution; Fall 2026 mainnet timing tight",
+        "variant": "caption"
+      }
+    },
+    "gaming_position": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "gaming_pos_badge",
+        "gaming_pos_title",
+        "gaming_pos_detail",
+        "gaming_pos_bear"
+      ]
+    },
+    "gaming_pos_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "gaming_pos_title": {
+      "type": "Text",
+      "props": {
+        "text": "Gaming/Metaverse Rotation (3 ↑↑, Mixed)",
+        "variant": "lead"
+      }
+    },
+    "gaming_pos_detail": {
+      "type": "Text",
+      "props": {
+        "text": "@SandboxGame, whale rotation",
+        "variant": "body"
+      }
+    },
+    "gaming_pos_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: no new game launch; historical false breakouts",
+        "variant": "caption"
+      }
+    },
+    "ai_depin_position": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_depin_pos_badge",
+        "ai_depin_pos_title",
+        "ai_depin_pos_detail",
+        "ai_depin_pos_bear"
+      ]
+    },
+    "ai_depin_pos_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "ai_depin_pos_title": {
+      "type": "Text",
+      "props": {
+        "text": "AI × DePIN (4 ↑, Bull)",
+        "variant": "lead"
+      }
+    },
+    "ai_depin_pos_detail": {
+      "type": "Text",
+      "props": {
+        "text": "@Bittensor_ (TAO 12.4% Kaito), @akashnet (real compute revenue)",
+        "variant": "body"
+      }
+    },
+    "ai_depin_pos_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: inference supply > demand",
+        "variant": "caption"
+      }
+    },
+    "fhe_position": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fhe_pos_badge",
+        "fhe_pos_title",
+        "fhe_pos_detail",
+        "fhe_pos_bear"
+      ]
+    },
+    "fhe_pos_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "fhe_pos_title": {
+      "type": "Text",
+      "props": {
+        "text": "FHE / Confidential Computing (3 ↑, Bull)",
+        "variant": "lead"
+      }
+    },
+    "fhe_pos_detail": {
+      "type": "Text",
+      "props": {
+        "text": "@Zama_FHE ZAMA +7%",
+        "variant": "body"
+      }
+    },
+    "fhe_pos_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: no production dapp live",
+        "variant": "caption"
+      }
+    },
+    "mon_position": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mon_pos_badge",
+        "mon_pos_title",
+        "mon_pos_detail",
+        "mon_pos_bear"
+      ]
+    },
+    "mon_pos_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "mon_pos_title": {
+      "type": "Text",
+      "props": {
+        "text": "MON / Monad Institutional Rails (3 ↓, Mixed)",
+        "variant": "lead"
+      }
+    },
+    "mon_pos_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Exit suspended pending Oct 6 privacy reveal",
+        "variant": "body"
+      }
+    },
+    "mon_pos_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear case: -9% today = day-3 reflexivity pullback; FADE if Oct 6 disappoints",
+        "variant": "caption"
+      }
+    },
+    "agentic_position": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "agentic_pos_badge",
+        "agentic_pos_title",
+        "agentic_pos_detail"
+      ]
+    },
+    "agentic_pos_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "agentic_pos_title": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / AI Crypto Infrastructure (5 ↓, Cope)",
+        "variant": "lead"
+      }
+    },
+    "agentic_pos_detail": {
+      "type": "Text",
+      "props": {
+        "text": "ZRO taking institutional story; AI sector distributing",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_heading",
+        "emerging_subsection",
+        "rising_subsection",
+        "peak_subsection",
+        "fading_subsection",
+        "dead_subsection"
+      ]
+    },
+    "map_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "emerging_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "emerging_subhead",
+        "emerging_items"
+      ]
+    },
+    "emerging_subhead": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      }
+    },
+    "emerging_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "emerging_1",
+        "emerging_2",
+        "emerging_3",
+        "emerging_4"
+      ]
+    },
+    "emerging_1": {
+      "type": "Text",
+      "props": {
+        "text": "ZRO/Institutional L1 (FRONT-RUN)",
+        "variant": "body"
+      }
+    },
+    "emerging_2": {
+      "type": "Text",
+      "props": {
+        "text": "WLD/Proof of Personhood (WATCH)",
+        "variant": "body"
+      }
+    },
+    "emerging_3": {
+      "type": "Text",
+      "props": {
+        "text": "Macro Risk/Fed Oct 28 (WATCH↓)",
+        "variant": "body"
+      }
+    },
+    "emerging_4": {
+      "type": "Text",
+      "props": {
+        "text": "Global Regulatory Wave (WATCH)",
+        "variant": "body"
+      }
+    },
+    "rising_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rising_subhead",
+        "rising_items"
+      ]
+    },
+    "rising_subhead": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      }
+    },
+    "rising_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rising_1",
+        "rising_2",
+        "rising_3",
+        "rising_4",
+        "rising_5",
+        "rising_6"
+      ]
+    },
+    "rising_1": {
+      "type": "Text",
+      "props": {
+        "text": "Gaming/Metaverse",
+        "variant": "body"
+      }
+    },
+    "rising_2": {
+      "type": "Text",
+      "props": {
+        "text": "MON/Monad",
+        "variant": "body"
+      }
+    },
+    "rising_3": {
+      "type": "Text",
+      "props": {
+        "text": "ETH vs Base/AI Settlement",
+        "variant": "body"
+      }
+    },
+    "rising_4": {
+      "type": "Text",
+      "props": {
+        "text": "AI×DePIN",
+        "variant": "body"
+      }
+    },
+    "rising_5": {
+      "type": "Text",
+      "props": {
+        "text": "FHE/Confidential Computing",
+        "variant": "body"
+      }
+    },
+    "rising_6": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets, Stablecoins as AI Rail",
+        "variant": "body"
+      }
+    },
+    "peak_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "peak_subhead",
+        "peak_items"
+      ]
+    },
+    "peak_subhead": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      }
+    },
+    "peak_items": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments/AI Crypto (FADE)",
+        "variant": "body"
+      }
+    },
+    "fading_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fading_subhead",
+        "fading_items"
+      ]
+    },
+    "fading_subhead": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      }
+    },
+    "fading_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fading_1",
+        "fading_2",
+        "fading_3"
+      ]
+    },
+    "fading_1": {
+      "type": "Text",
+      "props": {
+        "text": "QNT",
+        "variant": "body"
+      }
+    },
+    "fading_2": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi/Kaito",
+        "variant": "body"
+      }
+    },
+    "fading_3": {
+      "type": "Text",
+      "props": {
+        "text": "RWA",
+        "variant": "body"
+      }
+    },
+    "dead_subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dead_subhead",
+        "dead_items"
+      ]
+    },
+    "dead_subhead": {
+      "type": "Heading",
+      "props": {
+        "text": "Dead",
+        "level": "h3"
+      }
+    },
+    "dead_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dead_1",
+        "dead_2",
+        "dead_3",
+        "dead_4",
+        "dead_5",
+        "dead_6"
+      ]
+    },
+    "dead_1": {
+      "type": "Text",
+      "props": {
+        "text": "NMR",
+        "variant": "body"
+      }
+    },
+    "dead_2": {
+      "type": "Text",
+      "props": {
+        "text": "HBAR",
+        "variant": "body"
+      }
+    },
+    "dead_3": {
+      "type": "Text",
+      "props": {
+        "text": "SUI",
+        "variant": "body"
+      }
+    },
+    "dead_4": {
+      "type": "Text",
+      "props": {
+        "text": "XRP ETF",
+        "variant": "body"
+      }
+    },
+    "dead_5": {
+      "type": "Text",
+      "props": {
+        "text": "KAS",
+        "variant": "body"
+      }
+    },
+    "dead_6": {
+      "type": "Text",
+      "props": {
+        "text": "L2/DeFi",
+        "variant": "body"
+      }
+    }
+  }
+}
