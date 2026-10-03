@@ -1,15 +1,22 @@
-*Morning Brief — 2026-10-02*
+*Morning Brief — 2026-10-03*
 
 *Focus today*
-1. MON day-2 — why now: Oct 6 privacy reveal adds catalyst, exit signal changes
-2. NMR day-3 — why now: day-3 silent = DEMOTE threshold in QNT/HBAR/NMR arc
-3. Base x402 to production — why now: Peak RIDE saturation clock now ticking
+1. MON day-3 — Oct 6 privacy reveal confirmed; 3 days to exit gate
+2. WLD day-2 — +7.68% so far, green; red close = exit signal fires
+3. FortiMail CVE-2026-104286 — KEV BOD compliance window closes tomorrow
 
 *Since yesterday*
-- moved: token-pick MON +21.4% day-1; StraitsX XSGD/XUSD on Monad confirmed Q1 2027
-- moved: Base Cobalt live (Validity txns + 200ms blocks); x402 entering live deploys
-- moved: QNT −12.2% day-3 closes reflexivity arc; Kaito InfoFi FADE confirmed
-- stuck: XAI API 403 day 11 — narrative-tracker on WebSearch fallback (fund credits at console.x.ai)
+- MON: privacy service launch confirmed @ Singapore Open Summit Oct 6; +15-18% on announcement
+- WLD: day-2 green (+7.68%), hold intact; exit signal not triggered
+- Fed hike odds pulled back: Polymarket 64% (was >70%), CME FedWatch 36%
+- NMR: day-3 DEMOTE confirmed — reflexivity cycle closed
+- Zammad dual-CVE chained exploit added to KEV 10-02; FortiMail due 10-04
 
 *Watch*
-- Monad privacy reveal @ Oct 6 Singapore Open Summit — extends MON runway but sharpens event-risk cliff; reconsider \exit
+- Fed hike odds diverging (Polymarket 64% vs CME 36%, UBS overpricing flag) — macro ceiling thesis softening; extends hold window for MON #1 and WLD #2
+
+*Running today*
+- github-monitor @ 09:00 UTC
+- token-movers @ 12:00 UTC
+- token-pick @ 12:00 UTC
+- narrative-tracker @ 13:30 UTC
