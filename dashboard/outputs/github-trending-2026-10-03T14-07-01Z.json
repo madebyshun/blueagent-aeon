@@ -1,0 +1,572 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-10-03"
+      },
+      "children": [
+        "top-pick-section",
+        "sep1",
+        "aiml-section",
+        "sep2",
+        "infra-section",
+        "sep3",
+        "devtools-section",
+        "sep4",
+        "web-section",
+        "sep5",
+        "footer"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-label",
+        "top-pick-repo"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "top-pick-repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ponytail-link",
+        "ponytail-desc"
+      ]
+    },
+    "ponytail-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DietrichGebert/ponytail",
+        "href": "https://github.com/DietrichGebert/ponytail"
+      }
+    },
+    "ponytail-desc": {
+      "type": "Text",
+      "props": {
+        "text": "While everyone races to build more powerful agents, ponytail argues the key is building lazier ones — and 1,289 stars today suggests devs agree."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml-title",
+        "aiml-repo1",
+        "aiml-repo2",
+        "aiml-repo3",
+        "aiml-repo4"
+      ]
+    },
+    "aiml-title": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml1-link",
+        "aiml1-desc",
+        "aiml1-meta"
+      ]
+    },
+    "aiml1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DietrichGebert/ponytail",
+        "href": "https://github.com/DietrichGebert/ponytail"
+      }
+    },
+    "aiml1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Injects a laziness layer into agent pipelines that biases toward minimal, high-impact solutions — a practical antidote to agent over-engineering."
+      }
+    },
+    "aiml1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml1-stars",
+        "aiml1-lang",
+        "aiml1-status"
+      ]
+    },
+    "aiml1-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1,289 today (152.6k total)"
+      }
+    },
+    "aiml1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JS"
+      }
+    },
+    "aiml1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "aiml-repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml2-link",
+        "aiml2-desc",
+        "aiml2-meta"
+      ]
+    },
+    "aiml2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "affaan-m/ECC",
+        "href": "https://github.com/affaan-m/ECC"
+      }
+    },
+    "aiml2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unified agent harness optimizer — adds skills, instincts, and memory modules on top of Claude Code/Codex/Cursor across all major AI coding platforms."
+      }
+    },
+    "aiml2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml2-stars",
+        "aiml2-lang",
+        "aiml2-status"
+      ]
+    },
+    "aiml2-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 578 today (271.9k total)"
+      }
+    },
+    "aiml2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JS"
+      }
+    },
+    "aiml2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "aiml-repo3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml3-link",
+        "aiml3-desc",
+        "aiml3-meta"
+      ]
+    },
+    "aiml3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mksglu/context-mode",
+        "href": "https://github.com/mksglu/context-mode"
+      }
+    },
+    "aiml3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cuts agent context bloat by 98% via output sandboxing and MCP routing — the missing middle layer between raw tool calls and bloated context windows."
+      }
+    },
+    "aiml3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml3-stars",
+        "aiml3-lang",
+        "aiml3-status"
+      ]
+    },
+    "aiml3-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 256 today (25.2k total)"
+      }
+    },
+    "aiml3-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TS"
+      }
+    },
+    "aiml3-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "aiml-repo4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml4-link",
+        "aiml4-desc",
+        "aiml4-meta"
+      ]
+    },
+    "aiml4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "thedotmack/claude-mem",
+        "href": "https://github.com/thedotmack/claude-mem"
+      }
+    },
+    "aiml4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-platform agent memory: compresses session history and injects relevant context into new sessions across Claude Code, Codex, Copilot, and 5 more tools."
+      }
+    },
+    "aiml4-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml4-stars",
+        "aiml4-lang",
+        "aiml4-status"
+      ]
+    },
+    "aiml4-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 115 today (95.3k total)"
+      }
+    },
+    "aiml4-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TS"
+      }
+    },
+    "aiml4-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "infra-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra-title",
+        "infra-repo1"
+      ]
+    },
+    "infra-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infra-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra1-link",
+        "infra1-desc",
+        "infra1-meta"
+      ]
+    },
+    "infra1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cloudflare/cloudflare-os",
+        "href": "https://github.com/cloudflare/cloudflare-os"
+      }
+    },
+    "infra1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cloudflare's official agentic workspace — sandboxed filesystem + live web access on Workers edge; agents get persistent workspace without spinning up a VM."
+      }
+    },
+    "infra1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra1-stars",
+        "infra1-lang",
+        "infra1-status"
+      ]
+    },
+    "infra1-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 84 today (10.4k total)"
+      }
+    },
+    "infra1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TS"
+      }
+    },
+    "infra1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-title",
+        "devtools-repo1"
+      ]
+    },
+    "devtools-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools1-link",
+        "devtools1-desc",
+        "devtools1-meta"
+      ]
+    },
+    "devtools1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Effect-TS/effect",
+        "href": "https://github.com/Effect-TS/effect"
+      }
+    },
+    "devtools1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "New release pushed today — TypeScript's most composable concurrency library; structured concurrency, resource management, and typed errors in one package."
+      }
+    },
+    "devtools1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools1-stars",
+        "devtools1-lang",
+        "devtools1-status"
+      ]
+    },
+    "devtools1-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 302 today (16.7k total)"
+      }
+    },
+    "devtools1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TS"
+      }
+    },
+    "devtools1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "web-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web-title",
+        "web-repo1"
+      ]
+    },
+    "web-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "web-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "web1-link",
+        "web1-desc",
+        "web1-meta"
+      ]
+    },
+    "web1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "OpenCut-app/OpenCut",
+        "href": "https://github.com/OpenCut-app/OpenCut"
+      }
+    },
+    "web1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Browser-native video timeline editor, no account or watermark — finally a viable open-source CapCut clone after years of half-baked attempts."
+      }
+    },
+    "web1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "web1-stars",
+        "web1-lang",
+        "web1-status"
+      ]
+    },
+    "web1-stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 234 today (91.4k total)"
+      }
+    },
+    "web1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TS"
+      }
+    },
+    "web1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/19",
+        "variant": "caption"
+      }
+    }
+  }
+}
