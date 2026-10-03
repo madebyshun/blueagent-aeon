@@ -1,36 +1,33 @@
-*Security Digest — 2026-10-02*
-Verdict: 3 actively exploited (KEV, infra), 5 in tracked stack to schedule. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-10-03*
+Verdict: 1 PoC-confirmed, 5 to schedule, 3 to monitor. No new KEV adds today. _Sources: KEV ok · GH Advisory ok · EPSS ok_
 
 *PATCH TODAY*
-- [CVE-2026-104286](https://nvd.nist.gov/vuln/detail/CVE-2026-104286) — Fortinet FortiMail · KEV added 2026-10-01 · EPSS 0.018 · CVSS n/a · due 2026-10-04
-  Path traversal + null byte → unauthenticated arbitrary file write on underlying system. Actively exploited per CISA.
-  → apply FortiMail patch per FG-IR-26-175 today.
-
-- [CVE-2026-102489](https://nvd.nist.gov/vuln/detail/CVE-2026-102489) — Zammad · KEV added 2026-10-02 · EPSS 0.006 · CVSS n/a · due 2026-10-05
-  Session fixation → RCE as zammad user. Chains with CVE-2026-102490 (local priv-esc to root). Exploited per CISA.
-  → upgrade Zammad to latest patched release today.
-
-- [CVE-2026-102490](https://nvd.nist.gov/vuln/detail/CVE-2026-102490) — Zammad · KEV added 2026-10-02 · EPSS 0.003 · CVSS n/a · due 2026-10-05
-  Improper privilege management → local escalation to root. Chains with CVE-2026-102489 above.
-  → upgrade Zammad to latest patched release today.
+- [CVE-2026-73802](https://github.com/advisories/GHSA-x4q3-gcj3-m6cf) — gitea-runner (Go) · CVSS 9.9 · EPSS N/A (new CVE)
+  Workflow `container.options` passes `--pid=host --ipc=host --cap-add=ALL` to job containers even when privileged mode is disabled. PoC YAML in advisory — attacker workflow can nsenter to runner host as root.
+  → disable container.options in runner config until gitea-runner ≥1.0.9-20260731 is tagged.
 
 *PATCH THIS WEEK*
-- [CVE-2026-102992](https://github.com/advisories/GHSA-67c8-pqhq-4rmx) — piscina (npm) · critical · EPSS 0.004 · CVSS n/a
-  Prototype-pollution gadget in ThreadPool.options enables RCE via execArgv / loadBalancer / env.
-  → upgrade piscina to ≥5.3.2.
+- [GHSA-jqmf-mx4f-hfr6](https://github.com/advisories/GHSA-jqmf-mx4f-hfr6) — vibe-trading-ai (pip) · CVSS 10.0 · no fix
+  LLM-callable tools (run_command, execute_code) carry no sandbox — any reachable prompt can exec arbitrary commands on the server. → remove vibe-trading-ai; no patch yet.
 
-- [CVE-2026-92958](https://github.com/advisories/GHSA-6rh5-qq4q-97xh) — vm2 (npm) · CVSS 8.5 · EPSS 0.004
-  fs/promises denylist bypass despite -fs flag; allows host filesystem writes from sandboxed code. (10-01 batch tail, same fix.)
-  → upgrade vm2 to ≥3.11.7.
+- [GHSA-v2f8-6655-7grj](https://github.com/advisories/GHSA-v2f8-6655-7grj) — vibe-trading-ai (pip) · CVSS 10.0 · no fix
+  FastAPI endpoints unauthenticated: file upload + arbitrary path read exposed publicly. → remove vibe-trading-ai; no patch yet.
 
-- [CVE-2026-92950](https://github.com/advisories/GHSA-jxxv-8r27-vm4p) — vm2 (npm) · CVSS 8.6 · EPSS 0.002
-  CLI provides no sandbox isolation; host-realm require() reachable from sandboxed scripts. (10-01 batch tail, same fix.)
-  → upgrade vm2 to ≥3.11.7.
+- [CVE-2026-10032](https://github.com/advisories/GHSA-72qq-p3r5-f7wq) — @a2ui/web_core (npm) · CVSS 9.3 · EPSS 0.001 · no fix
+  openUrl passes javascript: URIs through — XSS to RCE in Electron/webview contexts. → audit openUrl usage; reject javascript: scheme manually; no fix released.
 
-- [GHSA-9cqf-hhrq-7v45](https://github.com/advisories/GHSA-9cqf-hhrq-7v45) — siyuan/kernel (Go) · CVSS 8.6 · EPSS —
-  Database row content returned to anonymous readers; no publish-access check on getAttributeViewSearchTarget. Reopens class closed one day earlier.
-  → upgrade to ≥v3.1.26 (0.0.0-20260812083335).
+- [GHSA-8mcx-5rqc-vhmf](https://github.com/advisories/GHSA-8mcx-5rqc-vhmf) — dulwich (pip) · CVSS 8.8 · no fix · +3 related GHSAs
+  Arbitrary file write on Windows via unvalidated drive-letter path in checkout; 3 related symlink-traversal advisories in same batch. → assess dulwich usage; avoid Windows deploys; no fix yet.
 
-- [CVE-2026-102831](https://github.com/advisories/GHSA-6966-vjj6-99xv) — jupyterlab (pip) · CVSS 8.1 · EPSS 0.002
-  Stored XSS via notebook cells pasted from system clipboard.
-  → upgrade jupyterlab to ≥4.6.4.
+- [CVE-2026-71416](https://github.com/advisories/GHSA-h46j-26q3-rggf) — headroom-ai (pip) · CVSS 8.8 · EPSS 0.002 · no fix
+  Cross-Site WebSocket Hijacking — attacker origin issues authenticated WS commands. → remove headroom-ai; no patch available.
+
+*MONITOR*
+- [GHSA-x8gv-g2g3-65fj](https://github.com/advisories/GHSA-x8gv-g2g3-65fj) — siyuan/kernel (Go) · CVSS 8.2 · no fix yet
+  SSRF via DNS-rebinding TOCTOU bypasses CheckHostSafe; 5 total siyuan advisories this batch. → watch for patch; avoid public exposure.
+
+- [GHSA-gg6r-gp4c-89hp](https://github.com/advisories/GHSA-gg6r-gp4c-89hp) — trigger.dev (npm) · no CVSS · no fix yet · +4 related GHSAs
+  Default V1 coordinator secret allows unauth Socket.IO; SQL injection + SSRF + run-replay injection in same batch. → watch patch release; don't expose coordinator publicly.
+
+- [CVE-2026-92708](https://github.com/advisories/GHSA-j22f-vq7h-c4qm) — devalue (npm) · CVSS 7.5 · EPSS 0.007 · no fix yet
+  stringify/uneval leaks cross-request shared memory in SSR contexts. → track devalue patch; audit SSR data paths.

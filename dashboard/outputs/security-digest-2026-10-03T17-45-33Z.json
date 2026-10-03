@@ -1,0 +1,688 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-10-03"
+      },
+      "children": [
+        "verdict",
+        "sources",
+        "sep-header",
+        "patch-today-h",
+        "patch-today-stack",
+        "sep-after-today",
+        "patch-week-h",
+        "patch-week-stack",
+        "sep-after-week",
+        "monitor-h",
+        "monitor-stack"
+      ]
+    },
+    "verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 1 PoC-confirmed, 5 to schedule, 3 to monitor. No new KEV adds today.",
+        "variant": "lead"
+      }
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV ok · GH Advisory ok · EPSS ok",
+        "variant": "muted"
+      }
+    },
+    "sep-header": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch-today-h": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "patch-today-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "vuln-1"
+      ]
+    },
+    "vuln-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v1-link",
+        "v1-badges",
+        "v1-desc",
+        "v1-action"
+      ]
+    },
+    "v1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-73802",
+        "href": "https://github.com/advisories/GHSA-x4q3-gcj3-m6cf",
+        "source": "gitea-runner (Go)"
+      }
+    },
+    "v1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "v1-cvss",
+        "v1-epss",
+        "v1-poc"
+      ]
+    },
+    "v1-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.9",
+        "variant": "destructive"
+      }
+    },
+    "v1-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS N/A",
+        "variant": "secondary"
+      }
+    },
+    "v1-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "PoC confirmed",
+        "variant": "destructive"
+      }
+    },
+    "v1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Workflow `container.options` passes `--pid=host --ipc=host --cap-add=ALL` to job containers even when privileged mode is disabled. PoC YAML in advisory — attacker workflow can nsenter to runner host as root.",
+        "variant": "body"
+      }
+    },
+    "v1-action": {
+      "type": "Text",
+      "props": {
+        "text": "Disable container.options in runner config until gitea-runner ≥1.0.9-20260731 is tagged.",
+        "variant": "caption"
+      }
+    },
+    "sep-after-today": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch-week-h": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch-week-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "vuln-2",
+        "vuln-3",
+        "vuln-4",
+        "vuln-5",
+        "vuln-6"
+      ]
+    },
+    "vuln-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v2-link",
+        "v2-badges",
+        "v2-desc",
+        "v2-action"
+      ]
+    },
+    "v2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-jqmf-mx4f-hfr6",
+        "href": "https://github.com/advisories/GHSA-jqmf-mx4f-hfr6",
+        "source": "vibe-trading-ai (pip)"
+      }
+    },
+    "v2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "v2-cvss",
+        "v2-fix"
+      ]
+    },
+    "v2-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 10.0",
+        "variant": "destructive"
+      }
+    },
+    "v2-fix": {
+      "type": "Badge",
+      "props": {
+        "text": "No fix",
+        "variant": "destructive"
+      }
+    },
+    "v2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "LLM-callable tools (run_command, execute_code) carry no sandbox — any reachable prompt can exec arbitrary commands on the server.",
+        "variant": "body"
+      }
+    },
+    "v2-action": {
+      "type": "Text",
+      "props": {
+        "text": "Remove vibe-trading-ai; no patch yet.",
+        "variant": "caption"
+      }
+    },
+    "vuln-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v3-link",
+        "v3-badges",
+        "v3-desc",
+        "v3-action"
+      ]
+    },
+    "v3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-v2f8-6655-7grj",
+        "href": "https://github.com/advisories/GHSA-v2f8-6655-7grj",
+        "source": "vibe-trading-ai (pip)"
+      }
+    },
+    "v3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "v3-cvss",
+        "v3-fix"
+      ]
+    },
+    "v3-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 10.0",
+        "variant": "destructive"
+      }
+    },
+    "v3-fix": {
+      "type": "Badge",
+      "props": {
+        "text": "No fix",
+        "variant": "destructive"
+      }
+    },
+    "v3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "FastAPI endpoints unauthenticated: file upload + arbitrary path read exposed publicly.",
+        "variant": "body"
+      }
+    },
+    "v3-action": {
+      "type": "Text",
+      "props": {
+        "text": "Remove vibe-trading-ai; no patch yet.",
+        "variant": "caption"
+      }
+    },
+    "vuln-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v4-link",
+        "v4-badges",
+        "v4-desc",
+        "v4-action"
+      ]
+    },
+    "v4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-10032",
+        "href": "https://github.com/advisories/GHSA-72qq-p3r5-f7wq",
+        "source": "@a2ui/web_core (npm)"
+      }
+    },
+    "v4-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "v4-cvss",
+        "v4-epss",
+        "v4-fix"
+      ]
+    },
+    "v4-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.3",
+        "variant": "destructive"
+      }
+    },
+    "v4-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.001",
+        "variant": "outline"
+      }
+    },
+    "v4-fix": {
+      "type": "Badge",
+      "props": {
+        "text": "No fix",
+        "variant": "destructive"
+      }
+    },
+    "v4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "openUrl passes javascript: URIs through — XSS to RCE in Electron/webview contexts.",
+        "variant": "body"
+      }
+    },
+    "v4-action": {
+      "type": "Text",
+      "props": {
+        "text": "Audit openUrl usage; reject javascript: scheme manually; no fix released.",
+        "variant": "caption"
+      }
+    },
+    "vuln-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v5-link",
+        "v5-badges",
+        "v5-desc",
+        "v5-action"
+      ]
+    },
+    "v5-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-8mcx-5rqc-vhmf",
+        "href": "https://github.com/advisories/GHSA-8mcx-5rqc-vhmf",
+        "source": "dulwich (pip)"
+      }
+    },
+    "v5-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "v5-cvss",
+        "v5-fix",
+        "v5-related"
+      ]
+    },
+    "v5-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8",
+        "variant": "secondary"
+      }
+    },
+    "v5-fix": {
+      "type": "Badge",
+      "props": {
+        "text": "No fix",
+        "variant": "destructive"
+      }
+    },
+    "v5-related": {
+      "type": "Badge",
+      "props": {
+        "text": "+3 related GHSAs",
+        "variant": "secondary"
+      }
+    },
+    "v5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Arbitrary file write on Windows via unvalidated drive-letter path in checkout; 3 related symlink-traversal advisories in same batch.",
+        "variant": "body"
+      }
+    },
+    "v5-action": {
+      "type": "Text",
+      "props": {
+        "text": "Assess dulwich usage; avoid Windows deploys; no fix yet.",
+        "variant": "caption"
+      }
+    },
+    "vuln-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v6-link",
+        "v6-badges",
+        "v6-desc",
+        "v6-action"
+      ]
+    },
+    "v6-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-71416",
+        "href": "https://github.com/advisories/GHSA-h46j-26q3-rggf",
+        "source": "headroom-ai (pip)"
+      }
+    },
+    "v6-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "v6-cvss",
+        "v6-epss",
+        "v6-fix"
+      ]
+    },
+    "v6-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8",
+        "variant": "secondary"
+      }
+    },
+    "v6-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.002",
+        "variant": "outline"
+      }
+    },
+    "v6-fix": {
+      "type": "Badge",
+      "props": {
+        "text": "No fix",
+        "variant": "destructive"
+      }
+    },
+    "v6-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-Site WebSocket Hijacking — attacker origin issues authenticated WS commands.",
+        "variant": "body"
+      }
+    },
+    "v6-action": {
+      "type": "Text",
+      "props": {
+        "text": "Remove headroom-ai; no patch available.",
+        "variant": "caption"
+      }
+    },
+    "sep-after-week": {
+      "type": "Separator",
+      "props": {}
+    },
+    "monitor-h": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "monitor-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "vuln-7",
+        "vuln-8",
+        "vuln-9"
+      ]
+    },
+    "vuln-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v7-link",
+        "v7-badges",
+        "v7-desc",
+        "v7-action"
+      ]
+    },
+    "v7-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-x8gv-g2g3-65fj",
+        "href": "https://github.com/advisories/GHSA-x8gv-g2g3-65fj",
+        "source": "siyuan/kernel (Go)"
+      }
+    },
+    "v7-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "v7-cvss",
+        "v7-status"
+      ]
+    },
+    "v7-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.2",
+        "variant": "secondary"
+      }
+    },
+    "v7-status": {
+      "type": "Badge",
+      "props": {
+        "text": "No fix yet",
+        "variant": "destructive"
+      }
+    },
+    "v7-desc": {
+      "type": "Text",
+      "props": {
+        "text": "SSRF via DNS-rebinding TOCTOU bypasses CheckHostSafe; 5 total siyuan advisories this batch.",
+        "variant": "body"
+      }
+    },
+    "v7-action": {
+      "type": "Text",
+      "props": {
+        "text": "Watch for patch; avoid public exposure.",
+        "variant": "caption"
+      }
+    },
+    "vuln-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v8-link",
+        "v8-badges",
+        "v8-desc",
+        "v8-action"
+      ]
+    },
+    "v8-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-gg6r-gp4c-89hp",
+        "href": "https://github.com/advisories/GHSA-gg6r-gp4c-89hp",
+        "source": "trigger.dev (npm)"
+      }
+    },
+    "v8-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "v8-status",
+        "v8-related"
+      ]
+    },
+    "v8-status": {
+      "type": "Badge",
+      "props": {
+        "text": "No fix yet",
+        "variant": "destructive"
+      }
+    },
+    "v8-related": {
+      "type": "Badge",
+      "props": {
+        "text": "+4 related GHSAs",
+        "variant": "secondary"
+      }
+    },
+    "v8-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Default V1 coordinator secret allows unauth Socket.IO; SQL injection + SSRF + run-replay injection in same batch.",
+        "variant": "body"
+      }
+    },
+    "v8-action": {
+      "type": "Text",
+      "props": {
+        "text": "Watch patch release; don't expose coordinator publicly.",
+        "variant": "caption"
+      }
+    },
+    "vuln-9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v9-link",
+        "v9-badges",
+        "v9-desc",
+        "v9-action"
+      ]
+    },
+    "v9-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-92708",
+        "href": "https://github.com/advisories/GHSA-j22f-vq7h-c4qm",
+        "source": "devalue (npm)"
+      }
+    },
+    "v9-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "v9-cvss",
+        "v9-epss",
+        "v9-status"
+      ]
+    },
+    "v9-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "outline"
+      }
+    },
+    "v9-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.007",
+        "variant": "outline"
+      }
+    },
+    "v9-status": {
+      "type": "Badge",
+      "props": {
+        "text": "No fix yet",
+        "variant": "destructive"
+      }
+    },
+    "v9-desc": {
+      "type": "Text",
+      "props": {
+        "text": "stringify/uneval leaks cross-request shared memory in SSR contexts.",
+        "variant": "body"
+      }
+    },
+    "v9-action": {
+      "type": "Text",
+      "props": {
+        "text": "Track devalue patch; audit SSR data paths.",
+        "variant": "caption"
+      }
+    }
+  }
+}
