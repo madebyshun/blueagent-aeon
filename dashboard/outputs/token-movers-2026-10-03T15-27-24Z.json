@@ -1,0 +1,443 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "2026-10-03"
+      },
+      "children": [
+        "summary",
+        "sep1",
+        "section-winners",
+        "sep2",
+        "section-losers",
+        "sep3",
+        "section-trending",
+        "sep4",
+        "section-notable"
+      ]
+    },
+    "summary": {
+      "type": "Text",
+      "props": {
+        "text": "Risk-off — 29/80 top-100 coins green, median top-50 24h −0.9%; gaming sector the lone bright spot as broad market retreats.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-winners": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-winners",
+        "table-winners"
+      ]
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table-winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "SAND (Sandbox)",
+            "$0.0762",
+            "+20.7%",
+            "+62.8%",
+            "+1.0%",
+            "$569M",
+            "#180",
+            "BREAKOUT"
+          ],
+          [
+            "SUPER (SuperVerse)",
+            "$0.2601",
+            "+14.8%",
+            "+43.5%",
+            "+4.2%",
+            "$59.3M",
+            "#210",
+            ""
+          ],
+          [
+            "DGAI (DGrid AI)",
+            "$1.015",
+            "+10.8%",
+            "+0.2%",
+            "−0.3%",
+            "$29.5M",
+            "#227",
+            ""
+          ],
+          [
+            "GRASS (Grass)",
+            "$0.7470",
+            "+7.7%",
+            "+44.9%",
+            "+0.1%",
+            "$35.8M",
+            "#115",
+            ""
+          ],
+          [
+            "JST (JUST)",
+            "$0.1369",
+            "+7.4%",
+            "+10.8%",
+            "−0.0%",
+            "$36.2M",
+            "#76",
+            ""
+          ],
+          [
+            "STRK (Starknet)",
+            "$0.04711",
+            "+7.3%",
+            "+3.5%",
+            "+0.2%",
+            "$38.4M",
+            "#136",
+            ""
+          ],
+          [
+            "ZAMA (Zama)",
+            "$0.08372",
+            "+7.0%",
+            "−7.4%",
+            "+2.0%",
+            "$12.6M",
+            "#187",
+            ""
+          ],
+          [
+            "WLD (Worldcoin)",
+            "$0.6048",
+            "+6.9%",
+            "+23.8%",
+            "+0.1%",
+            "$581M",
+            "#49",
+            ""
+          ],
+          [
+            "RAY (Raydium)",
+            "$2.090",
+            "+6.8%",
+            "+1.6%",
+            "+1.1%",
+            "$60.6M",
+            "#110",
+            ""
+          ],
+          [
+            "NIGHT (Midnight)",
+            "$0.04991",
+            "+5.1%",
+            "+92.0%",
+            "+1.4%",
+            "$92.9M",
+            "#86",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-losers",
+        "table-losers"
+      ]
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table-losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "PONS (Pons)",
+            "$0.4154",
+            "−19.1%",
+            "−32.9%",
+            "−0.6%",
+            "$46.9M",
+            "#161",
+            "TRENDING+DOWN"
+          ],
+          [
+            "BR (Bedrock)",
+            "$0.5456",
+            "−17.6%",
+            "−46.5%",
+            "+5.2%",
+            "$4.8M",
+            "#219",
+            ""
+          ],
+          [
+            "AI (Artificial Inu)",
+            "$0.1370",
+            "−11.8%",
+            "−48.2%",
+            "+5.6%",
+            "$17.0M",
+            "#242",
+            ""
+          ],
+          [
+            "RAIN (Rain)",
+            "$0.01038",
+            "−9.5%",
+            "−20.0%",
+            "−3.1%",
+            "$15.2M",
+            "#20",
+            "MAJOR"
+          ],
+          [
+            "MON (Monad)",
+            "$0.03174",
+            "−9.0%",
+            "+19.2%",
+            "+1.7%",
+            "$57.5M",
+            "#131",
+            ""
+          ],
+          [
+            "CASHCAT (Cash Cat)",
+            "$0.1575",
+            "−8.7%",
+            "−12.7%",
+            "+1.2%",
+            "$16.2M",
+            "#226",
+            ""
+          ],
+          [
+            "NPC (Non-Playable Coin)",
+            "$0.02113",
+            "−8.0%",
+            "−9.9%",
+            "−0.0%",
+            "$1.8M",
+            "#208",
+            ""
+          ],
+          [
+            "EDGE (edgeX)",
+            "$0.4716",
+            "−7.3%",
+            "−22.9%",
+            "+0.2%",
+            "$3.1M",
+            "#215",
+            ""
+          ],
+          [
+            "DRV (Derive)",
+            "$0.3807",
+            "−7.2%",
+            "−9.3%",
+            "+0.5%",
+            "$11.1M",
+            "#130",
+            ""
+          ],
+          [
+            "BP (Backpack)",
+            "$1.210",
+            "−7.0%",
+            "−1.1%",
+            "−4.1%",
+            "$14.2M",
+            "#152",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-trending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-trending",
+        "table-trending"
+      ]
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table-trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Symbol",
+          "Rank",
+          "Price",
+          "24h Change",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "PONS (Pons)",
+            "#161",
+            "$0.4154",
+            "−19.4%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "#22",
+            "$4.651",
+            "−3.7%",
+            ""
+          ],
+          [
+            "QNT (Quant)",
+            "#34",
+            "$248.4",
+            "−0.2%",
+            ""
+          ],
+          [
+            "M87 (MESSIER)",
+            "#910",
+            "$0.00002173",
+            "+5.2%",
+            ""
+          ],
+          [
+            "TAO (Bittensor)",
+            "#37",
+            "$291.5",
+            "−5.6%",
+            ""
+          ],
+          [
+            "LIT (Lighter)",
+            "#84",
+            "$3.508",
+            "−4.6%",
+            ""
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#109",
+            "$0.009182",
+            "−5.2%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-notable",
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-1": {
+      "type": "Text",
+      "props": {
+        "text": "SAND: day-2 [BREAKOUT] — +20.7% on $569M vol, 7d +62.8%; gaming rotation holding"
+      }
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "NIGHT: +5.1% day-2 on 7d +92.0% — sustained multi-week momentum, not a flash spike"
+      }
+    },
+    "notable-3": {
+      "type": "Text",
+      "props": {
+        "text": "PONS: [TRENDING+DOWN] #161 — −19.1% while trending; high-search capitulation"
+      }
+    },
+    "notable-4": {
+      "type": "Text",
+      "props": {
+        "text": "MON: −9.0% post-Oct 6 reveal window — watch for continued unwind"
+      }
+    }
+  }
+}
