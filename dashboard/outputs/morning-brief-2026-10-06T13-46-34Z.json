@@ -1,0 +1,311 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-10-06"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-yesterday",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Skill failure cluster — why now: 3 enabled skills run today; all currently failing",
+        "variant": "body"
+      }
+    },
+    "focus-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Base MCP launch — why now: fresh Base wallet-to-agent tooling, early positioning window open",
+        "variant": "body"
+      }
+    },
+    "focus-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. $BLUEAGENT token pulse — background: data dark 5 days; mcap $8.97M, 608 holders",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-yesterday",
+        "yesterday-text-1",
+        "yesterday-text-2",
+        "yesterday-text-3"
+      ]
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "No Oct 5 log found — skill failures likely silenced all output",
+        "variant": "body"
+      }
+    },
+    "yesterday-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "5 skills at ≥2 consecutive failures: morning-brief, token-movers, narrative-tracker, security-digest, github-trending (all last succeeded Oct 3)",
+        "variant": "body"
+      }
+    },
+    "yesterday-text-3": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow: 0.74 success rate, single failure Oct 5; onboard: 0.33 success rate (long-running)",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "watch-item-1",
+        "watch-item-2"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Grok holds 60% of AI agent trading share on Coinbase (Sep 14–21) — growing agentic volume on Base, tailwind for ecosystem focus #2",
+        "variant": "body"
+      }
+    },
+    "watch-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "85M x402 payments logged on Base — agentic payment rails scaling fast",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "running-item-1",
+        "running-item-2",
+        "running-item-3",
+        "running-item-4",
+        "running-item-5"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-text-1",
+        "running-badge-1"
+      ]
+    },
+    "running-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "running",
+        "variant": "default"
+      }
+    },
+    "running-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-text-2",
+        "running-badge-2"
+      ]
+    },
+    "running-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "running",
+        "variant": "default"
+      }
+    },
+    "running-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-text-3",
+        "running-badge-3"
+      ]
+    },
+    "running-text-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠️ failing",
+        "variant": "destructive"
+      }
+    },
+    "running-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-text-4",
+        "running-badge-4"
+      ]
+    },
+    "running-text-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠️ failing",
+        "variant": "destructive"
+      }
+    },
+    "running-item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "running-text-5",
+        "running-badge-5"
+      ]
+    },
+    "running-text-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "running-badge-5": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠️ failing",
+        "variant": "destructive"
+      }
+    }
+  }
+}
