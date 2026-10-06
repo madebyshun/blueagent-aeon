@@ -1,17 +1,17 @@
-*Daily Pick — 2026-10-03*
+*Daily Pick — 2026-10-06*
 
-*Token: ZRO*  [HIGH]  signal 9/10
-Price: $2.07 (+4.0% 24h / +29.9% 7d) | mcap $730M | vol $228M (vol/mcap 0.31)
-Score breakdown: [trending+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2, 24h>0+1, 7d>0+1] = 9/10
-Catalyst: LayerZero Labs announced Zero — standalone L1 for institutional finance (2M TPS) backed by Citadel Securities, DTCC, ICE, Google Cloud, ARK Invest; ZRO is mandatory gas token, mainnet Fall 2026.
-Risk: Token unlock Oct 20 — 31.25M ZRO (~4.2% mcap) released; $292M Kelp DAO bridge exploit lawsuit shifting flow to Chainlink CCIP.
+*Token: RENDER*  [HIGH]  signal 8/10
+Price: $2.18 (+9.9% 24h / +11.6% 7d) | mcap $1.13B | vol $118M (vol/mcap 0.10)
+Score breakdown: [24h+1, 7d+1, both>5%+2, vol/mc≥0.10+2, RS vs BTC/ETH+2] = 8/10
+Catalyst: RNP-023 governance approval added 60K GPUs to decentralized AI compute network; Salad distributed compute integration triggered +21% spike; Permissionless conference Oct 10 = 4-day forward catalyst; 13/14 days net exchange outflows = accumulation not distribution
+Risk: No single new Oct 6 catalyst — move is AI rotation + event anticipation; Permissionless Oct 10 = potential buy-the-rumor/sell-the-news; RSI stretching after 7-day run
 Vs recent picks: first time
 
-*Market: "Will the Republicans win the Kansas Senate race in 2026?"*  [HIGH]  edge 24.5pp
-Current: YES 62.5¢ / NO 37.5¢ | 24h vol $137k | resolves: 2026-11-04
-Fair YES: ~87% (inputs: [KS has not elected D senator since 1939], [incumbent Marshall won +10pts 2020], [KS PVI R+15])
-Thesis: Market underprices Republican lock by 24.5pp — BUY YES; Kansas is structurally red at federal Senate level regardless of 2026 wave
-Risk: Strong national anti-R wave + exceptional D candidate could compress edge; KS elected Dem governor twice but state exec races differ structurally
+*Market: "US announces end of Iranian blockade by October 15, 2026?"*  [MEDIUM]  edge 7.5pp
+Current: YES 13.5¢ / NO 86.5¢ | 24h vol $343k | resolves: 2026-10-16
+Fair YES: ~6% (inputs: US airstrikes vs Iran active since Sep 1; Trump rejected ceasefire Sep 28; 9-day window too short for diplomatic reversal)
+Thesis: BUY NO — market prices 13.5% chance of blockade end; context argues strongly against: active strikes + ceasefire rejection 8 days ago = zero de-escalation signal
+Risk: Surprise secret diplomatic back-channel; Iran capitulation triggering unilateral US pause
 
 sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only
