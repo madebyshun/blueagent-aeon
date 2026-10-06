@@ -1,0 +1,896 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-10-06"
+      },
+      "children": [
+        "section-transitions",
+        "sep-1",
+        "section-reflexivity",
+        "sep-2",
+        "section-positions",
+        "sep-3",
+        "section-map"
+      ]
+    },
+    "section-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-transitions",
+        "trans-1",
+        "trans-2",
+        "trans-3",
+        "trans-4",
+        "trans-5",
+        "trans-6",
+        "trans-7",
+        "trans-8"
+      ]
+    },
+    "h-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-dead-1",
+        "text-trans-1"
+      ]
+    },
+    "badge-dead-1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "text-trans-1": {
+      "type": "Text",
+      "props": {
+        "text": "Macro Risk / Fed Hike Oct 28 — soft jobs report eliminated the catalyst; October hike off the table; macro ceiling thesis fully closed"
+      }
+    },
+    "trans-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-demoted-1",
+        "text-trans-2"
+      ]
+    },
+    "badge-demoted-1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text-trans-2": {
+      "type": "Text",
+      "props": {
+        "text": "MON / Monad — Rising RIDE → Fading FADE — Oct 6 privacy reveal = sell-the-news confirmed (-7.6% today); exit triggered per standing signal; QNT/HBAR/NMR/WLD/MON = five consecutive institutional-announcement pumps confirmed"
+      }
+    },
+    "trans-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-demoted-2",
+        "text-trans-3"
+      ]
+    },
+    "badge-demoted-2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text-trans-3": {
+      "type": "Text",
+      "props": {
+        "text": "ZRO / Cross-Chain Institutional L1 — Emerging FRONT-RUN → Emerging WATCH — day-3 post-announcement without new signal; same reflexivity arc risk as MON; mainnet still Fall 2026"
+      }
+    },
+    "trans-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-demoted-3",
+        "text-trans-4"
+      ]
+    },
+    "badge-demoted-3": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text-trans-4": {
+      "type": "Text",
+      "props": {
+        "text": "Gaming/Metaverse Rotation — Rising RIDE → Rising WATCH — absent from 10-06 movers; rotation capital moving to RENDER/AI compute"
+      }
+    },
+    "trans-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-demoted-4",
+        "text-trans-5"
+      ]
+    },
+    "badge-demoted-4": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text-trans-5": {
+      "type": "Text",
+      "props": {
+        "text": "FHE / Confidential Computing — Rising RIDE → Rising WATCH — stalling post-ZAMA day-1; needs follow-through"
+      }
+    },
+    "trans-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-demoted-5",
+        "text-trans-6"
+      ]
+    },
+    "badge-demoted-5": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      }
+    },
+    "text-trans-6": {
+      "type": "Text",
+      "props": {
+        "text": "WLD / Proof of Personhood — Emerging WATCH → Fading FADE — absent 3+ days, no new catalyst"
+      }
+    },
+    "trans-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-new",
+        "text-trans-7"
+      ]
+    },
+    "badge-new": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "outline"
+      }
+    },
+    "text-trans-7": {
+      "type": "Text",
+      "props": {
+        "text": "DEX/DeFi Rotation — Emerging WATCH — ORCA +47.6%/7d+58.9% (Solana); insufficient named KOL drivers to FRONT-RUN; PUMP-RISK flagged"
+      }
+    },
+    "trans-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-extended",
+        "text-trans-8"
+      ]
+    },
+    "badge-extended": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE EXTENDED",
+        "variant": "default"
+      }
+    },
+    "text-trans-8": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / AI Crypto Infra — was FADE 10-03; White House 'era of Super Intelligence' proclamation + Base MCP launch (wallet-to-agent: transfer/swap/balance) + BlackRock 'Machine-Native Economy' report + x402 $223K daily vol Oct 2 = fundamental traction; reversing FADE call"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-reflexivity",
+        "alert-reflexivity",
+        "reflex-1",
+        "reflex-2"
+      ]
+    },
+    "h-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "alert-reflexivity": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Government narrative driving price action, not price driving narrative"
+      }
+    },
+    "reflex-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-reflex-1-title",
+        "text-reflex-1-body"
+      ]
+    },
+    "text-reflex-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments",
+        "variant": "lead"
+      }
+    },
+    "text-reflex-1-body": {
+      "type": "Text",
+      "props": {
+        "text": "White House proclamation directly triggered x402 volume spike (Oct 2: $223K daily); AI crypto category hit $26.2B market cap Oct 6; government narrative → price, not price → narrative; watch for sell-the-news once SI bill/regulation drops"
+      }
+    },
+    "reflex-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-reflex-2-title",
+        "text-reflex-2-body"
+      ]
+    },
+    "text-reflex-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "MON arc closed (5th confirmation)",
+        "variant": "lead"
+      }
+    },
+    "text-reflex-2-body": {
+      "type": "Text",
+      "props": {
+        "text": "institutional infra announcement → day-1 pump → sell-the-news at catalyst date = consistent 5-7 day arc; ZRO is day-3 of the same pattern; monitor closely"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-positions",
+        "h-ride-positions",
+        "pos-ride-1",
+        "pos-ride-2",
+        "pos-ride-3",
+        "pos-ride-4",
+        "pos-ride-5",
+        "sep-fade-positions",
+        "h-fade-positions",
+        "pos-fade-1",
+        "pos-fade-2",
+        "pos-fade-3",
+        "pos-fade-4",
+        "sep-watch-positions",
+        "h-watch-positions",
+        "pos-watch-1",
+        "pos-watch-2",
+        "pos-watch-3",
+        "pos-watch-4"
+      ]
+    },
+    "h-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "h-ride-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "RIDE (Bull)",
+        "level": "h3"
+      }
+    },
+    "pos-ride-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text-ride-1-title",
+        "text-ride-1-details",
+        "text-ride-1-bear"
+      ]
+    },
+    "text-ride-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "AI×DePIN/Compute",
+        "variant": "lead"
+      }
+    },
+    "text-ride-1-details": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 4 ↑ | @RENDERNETWORK RNP-023 approved +60K GPUs + Salad + Permissionless conf Oct 10"
+      }
+    },
+    "text-ride-1-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: inference supply > demand",
+        "variant": "muted"
+      }
+    },
+    "pos-ride-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text-ride-2-title",
+        "text-ride-2-details",
+        "text-ride-2-bear"
+      ]
+    },
+    "text-ride-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / x402",
+        "variant": "lead"
+      }
+    },
+    "text-ride-2-details": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 5 ↑ | @WhiteHouse + @base MCP + @BlackRock Machine-Native Economy"
+      }
+    },
+    "text-ride-2-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: peak-mainstream sell-the-news risk",
+        "variant": "muted"
+      }
+    },
+    "pos-ride-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text-ride-3-title",
+        "text-ride-3-details",
+        "text-ride-3-bear"
+      ]
+    },
+    "text-ride-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins as AI Payment Rail",
+        "variant": "lead"
+      }
+    },
+    "text-ride-3-details": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 5 ↑ | @BlackRock + x402 + Base MCP tooling"
+      }
+    },
+    "text-ride-3-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: GENIUS Act stalled",
+        "variant": "muted"
+      }
+    },
+    "pos-ride-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text-ride-4-title",
+        "text-ride-4-details",
+        "text-ride-4-bear"
+      ]
+    },
+    "text-ride-4-title": {
+      "type": "Text",
+      "props": {
+        "text": "ETH vs Base / AI Settlement Layer Race",
+        "variant": "lead"
+      }
+    },
+    "text-ride-4-details": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 3 ↑ | Glamsterdam testnet Oct 6 + Base MCP today"
+      }
+    },
+    "text-ride-4-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: no winner yet; ZRO as third contender",
+        "variant": "muted"
+      }
+    },
+    "pos-ride-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text-ride-5-title",
+        "text-ride-5-details",
+        "text-ride-5-bear"
+      ]
+    },
+    "text-ride-5-title": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "lead"
+      }
+    },
+    "text-ride-5-details": {
+      "type": "Text",
+      "props": {
+        "text": "mindshare 3 → | Brazil election active; Fed reversal removes macro binary"
+      }
+    },
+    "text-ride-5-bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: US grey zone",
+        "variant": "muted"
+      }
+    },
+    "sep-fade-positions": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h-fade-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "FADE (Sell)",
+        "level": "h3"
+      }
+    },
+    "pos-fade-1": {
+      "type": "Text",
+      "props": {
+        "text": "MON — exit now; Oct 6 catalyst date passed; -7.6% sell-the-news"
+      }
+    },
+    "pos-fade-2": {
+      "type": "Text",
+      "props": {
+        "text": "WLD — absent, no new catalyst"
+      }
+    },
+    "pos-fade-3": {
+      "type": "Text",
+      "props": {
+        "text": "QNT — continuing distribution; no new catalyst"
+      }
+    },
+    "pos-fade-4": {
+      "type": "Text",
+      "props": {
+        "text": "RWA — ONDO trending in movers; monitoring for re-emergence"
+      }
+    },
+    "sep-watch-positions": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "h-watch-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "WATCH (Monitor)",
+        "level": "h3"
+      }
+    },
+    "pos-watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "ZRO — day-3 post-announcement; hold only if new mainnet/partnership catalyst"
+      }
+    },
+    "pos-watch-2": {
+      "type": "Text",
+      "props": {
+        "text": "FHE/Confidential Computing — needs ZAMA follow-through post day-1 confirmation"
+      }
+    },
+    "pos-watch-3": {
+      "type": "Text",
+      "props": {
+        "text": "DEX/DeFi Rotation (ORCA +47.6%) — emerging; no named KOL drivers yet"
+      }
+    },
+    "pos-watch-4": {
+      "type": "Text",
+      "props": {
+        "text": "RWA — ONDO trending in movers; monitoring for re-emergence"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-map",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading",
+        "map-dead"
+      ]
+    },
+    "h-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-title",
+        "map-emerging-1",
+        "map-emerging-2",
+        "map-emerging-3",
+        "map-emerging-4"
+      ]
+    },
+    "map-emerging-title": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging",
+        "variant": "lead"
+      }
+    },
+    "map-emerging-1": {
+      "type": "Text",
+      "props": {
+        "text": "DEX/DeFi Rotation (Solana/ORCA)"
+      }
+    },
+    "map-emerging-2": {
+      "type": "Text",
+      "props": {
+        "text": "Global Regulatory Wave"
+      }
+    },
+    "map-emerging-3": {
+      "type": "Text",
+      "props": {
+        "text": "ZRO (degrading)"
+      }
+    },
+    "map-emerging-4": {
+      "type": "Text",
+      "props": {
+        "text": ""
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-title",
+        "map-rising-1",
+        "map-rising-2",
+        "map-rising-3",
+        "map-rising-4",
+        "map-rising-5",
+        "map-rising-6"
+      ]
+    },
+    "map-rising-title": {
+      "type": "Text",
+      "props": {
+        "text": "Rising",
+        "variant": "lead"
+      }
+    },
+    "map-rising-1": {
+      "type": "Text",
+      "props": {
+        "text": "AI×DePIN/Compute"
+      }
+    },
+    "map-rising-2": {
+      "type": "Text",
+      "props": {
+        "text": "ETH vs Base"
+      }
+    },
+    "map-rising-3": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets"
+      }
+    },
+    "map-rising-4": {
+      "type": "Text",
+      "props": {
+        "text": "FHE/Confidential Computing"
+      }
+    },
+    "map-rising-5": {
+      "type": "Text",
+      "props": {
+        "text": "Gaming/Metaverse"
+      }
+    },
+    "map-rising-6": {
+      "type": "Text",
+      "props": {
+        "text": "Alt Season (selective)"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-title",
+        "map-peak-1",
+        "map-peak-2"
+      ]
+    },
+    "map-peak-title": {
+      "type": "Text",
+      "props": {
+        "text": "Peak",
+        "variant": "lead"
+      }
+    },
+    "map-peak-1": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / AI Infra (re-extended)"
+      }
+    },
+    "map-peak-2": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins as AI Rail"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-title",
+        "map-fading-1",
+        "map-fading-2",
+        "map-fading-3",
+        "map-fading-4"
+      ]
+    },
+    "map-fading-title": {
+      "type": "Text",
+      "props": {
+        "text": "Fading",
+        "variant": "lead"
+      }
+    },
+    "map-fading-1": {
+      "type": "Text",
+      "props": {
+        "text": "MON"
+      }
+    },
+    "map-fading-2": {
+      "type": "Text",
+      "props": {
+        "text": "WLD"
+      }
+    },
+    "map-fading-3": {
+      "type": "Text",
+      "props": {
+        "text": "QNT"
+      }
+    },
+    "map-fading-4": {
+      "type": "Text",
+      "props": {
+        "text": "RWA"
+      }
+    },
+    "map-dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-dead-title",
+        "map-dead-1",
+        "map-dead-2",
+        "map-dead-3",
+        "map-dead-4",
+        "map-dead-5",
+        "map-dead-6",
+        "map-dead-7",
+        "map-dead-8",
+        "map-dead-9",
+        "map-dead-10"
+      ]
+    },
+    "map-dead-title": {
+      "type": "Text",
+      "props": {
+        "text": "Dead",
+        "variant": "lead"
+      }
+    },
+    "map-dead-1": {
+      "type": "Text",
+      "props": {
+        "text": "Macro Risk/Fed Hike Oct 28"
+      }
+    },
+    "map-dead-2": {
+      "type": "Text",
+      "props": {
+        "text": "InfoFi/Kaito"
+      }
+    },
+    "map-dead-3": {
+      "type": "Text",
+      "props": {
+        "text": "NMR"
+      }
+    },
+    "map-dead-4": {
+      "type": "Text",
+      "props": {
+        "text": "HBAR"
+      }
+    },
+    "map-dead-5": {
+      "type": "Text",
+      "props": {
+        "text": "SUI"
+      }
+    },
+    "map-dead-6": {
+      "type": "Text",
+      "props": {
+        "text": "XRP ETF"
+      }
+    },
+    "map-dead-7": {
+      "type": "Text",
+      "props": {
+        "text": "KAS"
+      }
+    },
+    "map-dead-8": {
+      "type": "Text",
+      "props": {
+        "text": "L2/DeFi"
+      }
+    },
+    "map-dead-9": {
+      "type": "Text",
+      "props": {
+        "text": ""
+      }
+    },
+    "map-dead-10": {
+      "type": "Text",
+      "props": {
+        "text": ""
+      }
+    }
+  }
+}
