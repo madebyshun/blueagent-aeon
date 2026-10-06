@@ -1,32 +1,32 @@
-*GitHub Trending — 2026-10-03*
+*GitHub Trending — 2026-10-06*
 
-*Top pick* — [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
-While everyone races to build more powerful agents, ponytail argues the key is building lazier ones — and 1,289 stars today suggests devs agree.
+*Top pick* — [morluto/rea](https://github.com/morluto/rea)
+The first framework to fully chain binary analysis with LLM decompilation, opening a new category of agentic static analysis tooling.
 
 *AI/ML*
-• [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) — ★ 1,289 today (152.6k total) · JS · [ACCELERATING]
-Injects a laziness layer into agent pipelines that biases toward minimal, high-impact solutions — a practical antidote to agent over-engineering.
+• [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) — ★ 620 today (17.8k total) · Python · [ACCELERATING]
+Hooks LLM agents into parametric CAD generation — design and modify mechanical parts without CAD-specific training.
 
-• [affaan-m/ECC](https://github.com/affaan-m/ECC) — ★ 578 today (271.9k total) · JS · [ACCELERATING]
-Unified agent harness optimizer — adds skills, instincts, and memory modules on top of Claude Code/Codex/Cursor across all major AI coding platforms.
+• [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — ★ 947 today (77.5k total) · JavaScript · [ACCELERATING]
+Teaches AI agents how to make design decisions via structured tokens — eliminates generic look-and-feel in generated UIs.
 
-• [mksglu/context-mode](https://github.com/mksglu/context-mode) — ★ 256 today (25.2k total) · TS · [ACCELERATING]
-Cuts agent context bloat by 98% via output sandboxing and MCP routing — the missing middle layer between raw tool calls and bloated context windows.
-
-• [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) — ★ 115 today (95.3k total) · TS · [ACCELERATING]
-Cross-platform agent memory: compresses session history and injects relevant context into new sessions across Claude Code, Codex, Copilot, and 5 more tools.
-
-*Infra*
-• [cloudflare/cloudflare-os](https://github.com/cloudflare/cloudflare-os) — ★ 84 today (10.4k total) · TS · [ACCELERATING]
-Cloudflare's official agentic workspace — sandboxed filesystem + live web access on Workers edge; agents get persistent workspace without spinning up a VM.
+• [deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM) — ★ 363 today (8.6k total) · CUDA · [RETURNING]
+DeepSeek's GPU GEMM kernels, openly published — clean separation of the matrix math powering their LLM training stack.
 
 *Devtools*
-• [Effect-TS/effect](https://github.com/Effect-TS/effect) — ★ 302 today (16.7k total) · TS · [RETURNING]
-New release pushed today — TypeScript's most composable concurrency library; structured concurrency, resource management, and typed errors in one package.
+• [morluto/rea](https://github.com/morluto/rea) — ★ 2.9k today (7.6k total) · TypeScript · [RETURNING]
+Feeds any binary or app behavior into an LLM pipeline that produces structured decompilation — point-and-reverse-engineer anything.
+
+• [tester-army/e2e](https://github.com/tester-army/e2e) — ★ 1.7k today (5.8k total) · TypeScript · [ACCELERATING]
+Single TypeScript config covers web and mobile e2e — no more separate Playwright and Appium test suites.
 
 *Web/Apps*
-• [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) — ★ 234 today (91.4k total) · TS · [ACCELERATING]
-Browser-native video timeline editor, no account or watermark — finally a viable open-source CapCut clone after years of half-baked attempts.
+• [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) — ★ 1.4k today (5.2k total) · JavaScript · [ACCELERATING]
+Self-hostable Hevy/Strong alternative — routine planner, workout logger, body-weight tracker with no subscription or data lock-in.
+
+*Other*
+• [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) — ★ 943 today (5.6k total) · C++ · [ACCELERATING]
+Ports PS5 native executables to Linux/Windows using binary translation — no source code or devkit required.
 
 ---
-sources: trending=ok · gh_api=ok · kept 7/19
+sources: trending=ok · gh_api=ok · kept 7/12

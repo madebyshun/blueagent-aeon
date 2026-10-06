@@ -1,0 +1,594 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-10-06"
+      },
+      "children": [
+        "section_top_pick",
+        "sep_1",
+        "section_ai_ml",
+        "sep_2",
+        "section_devtools",
+        "sep_3",
+        "section_web_apps",
+        "sep_4",
+        "section_other",
+        "sep_5",
+        "footer_text"
+      ]
+    },
+    "section_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_top_pick",
+        "item_morluto_rea_top"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "item_morluto_rea_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_morluto_rea_top",
+        "desc_morluto_rea_top"
+      ]
+    },
+    "link_morluto_rea_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "morluto/rea",
+        "href": "https://github.com/morluto/rea",
+        "source": "GitHub"
+      }
+    },
+    "desc_morluto_rea_top": {
+      "type": "Text",
+      "props": {
+        "text": "The first framework to fully chain binary analysis with LLM decompilation, opening a new category of agentic static analysis tooling.",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_ai_ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_ai_ml",
+        "item_text2cad",
+        "item_impeccable",
+        "item_deepgemm"
+      ]
+    },
+    "heading_ai_ml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "item_text2cad": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_text2cad",
+        "meta_text2cad",
+        "desc_text2cad"
+      ]
+    },
+    "link_text2cad": {
+      "type": "StoryLink",
+      "props": {
+        "title": "earthtojake/text-to-cad",
+        "href": "https://github.com/earthtojake/text-to-cad",
+        "source": "GitHub"
+      }
+    },
+    "meta_text2cad": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_text2cad",
+        "badge_lang_py",
+        "badge_trend_accel1"
+      ]
+    },
+    "stat_text2cad": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "620 ★",
+        "delta": "+17.8k total"
+      }
+    },
+    "badge_lang_py": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_trend_accel1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "desc_text2cad": {
+      "type": "Text",
+      "props": {
+        "text": "Hooks LLM agents into parametric CAD generation — design and modify mechanical parts without CAD-specific training.",
+        "variant": "body"
+      }
+    },
+    "item_impeccable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_impeccable",
+        "meta_impeccable",
+        "desc_impeccable"
+      ]
+    },
+    "link_impeccable": {
+      "type": "StoryLink",
+      "props": {
+        "title": "pbakaus/impeccable",
+        "href": "https://github.com/pbakaus/impeccable",
+        "source": "GitHub"
+      }
+    },
+    "meta_impeccable": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_impeccable",
+        "badge_lang_js1",
+        "badge_trend_accel2"
+      ]
+    },
+    "stat_impeccable": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "947 ★",
+        "delta": "+77.5k total"
+      }
+    },
+    "badge_lang_js1": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript"
+      }
+    },
+    "badge_trend_accel2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "desc_impeccable": {
+      "type": "Text",
+      "props": {
+        "text": "Teaches AI agents how to make design decisions via structured tokens — eliminates generic look-and-feel in generated UIs.",
+        "variant": "body"
+      }
+    },
+    "item_deepgemm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_deepgemm",
+        "meta_deepgemm",
+        "desc_deepgemm"
+      ]
+    },
+    "link_deepgemm": {
+      "type": "StoryLink",
+      "props": {
+        "title": "deepseek-ai/DeepGEMM",
+        "href": "https://github.com/deepseek-ai/DeepGEMM",
+        "source": "GitHub"
+      }
+    },
+    "meta_deepgemm": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_deepgemm",
+        "badge_lang_cuda",
+        "badge_trend_ret1"
+      ]
+    },
+    "stat_deepgemm": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "363 ★",
+        "delta": "+8.6k total"
+      }
+    },
+    "badge_lang_cuda": {
+      "type": "Badge",
+      "props": {
+        "text": "CUDA"
+      }
+    },
+    "badge_trend_ret1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      }
+    },
+    "desc_deepgemm": {
+      "type": "Text",
+      "props": {
+        "text": "DeepSeek's GPU GEMM kernels, openly published — clean separation of the matrix math powering their LLM training stack.",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "item_rea",
+        "item_e2e"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "item_rea": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_rea",
+        "meta_rea",
+        "desc_rea"
+      ]
+    },
+    "link_rea": {
+      "type": "StoryLink",
+      "props": {
+        "title": "morluto/rea",
+        "href": "https://github.com/morluto/rea",
+        "source": "GitHub"
+      }
+    },
+    "meta_rea": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_rea",
+        "badge_lang_ts1",
+        "badge_trend_ret2"
+      ]
+    },
+    "stat_rea": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "2.9k ★",
+        "delta": "+7.6k total"
+      }
+    },
+    "badge_lang_ts1": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "badge_trend_ret2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      }
+    },
+    "desc_rea": {
+      "type": "Text",
+      "props": {
+        "text": "Feeds any binary or app behavior into an LLM pipeline that produces structured decompilation — point-and-reverse-engineer anything.",
+        "variant": "body"
+      }
+    },
+    "item_e2e": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_e2e",
+        "meta_e2e",
+        "desc_e2e"
+      ]
+    },
+    "link_e2e": {
+      "type": "StoryLink",
+      "props": {
+        "title": "tester-army/e2e",
+        "href": "https://github.com/tester-army/e2e",
+        "source": "GitHub"
+      }
+    },
+    "meta_e2e": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_e2e",
+        "badge_lang_ts2",
+        "badge_trend_accel3"
+      ]
+    },
+    "stat_e2e": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "1.7k ★",
+        "delta": "+5.8k total"
+      }
+    },
+    "badge_lang_ts2": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "badge_trend_accel3": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "desc_e2e": {
+      "type": "Text",
+      "props": {
+        "text": "Single TypeScript config covers web and mobile e2e — no more separate Playwright and Appium test suites.",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_web_apps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_web_apps",
+        "item_opengym"
+      ]
+    },
+    "heading_web_apps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "item_opengym": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_opengym",
+        "meta_opengym",
+        "desc_opengym"
+      ]
+    },
+    "link_opengym": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DuarteSantos8/openGym",
+        "href": "https://github.com/DuarteSantos8/openGym",
+        "source": "GitHub"
+      }
+    },
+    "meta_opengym": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_opengym",
+        "badge_lang_js2",
+        "badge_trend_accel4"
+      ]
+    },
+    "stat_opengym": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "1.4k ★",
+        "delta": "+5.2k total"
+      }
+    },
+    "badge_lang_js2": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript"
+      }
+    },
+    "badge_trend_accel4": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "desc_opengym": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hostable Hevy/Strong alternative — routine planner, workout logger, body-weight tracker with no subscription or data lock-in.",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_other": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_other",
+        "item_anyps5"
+      ]
+    },
+    "heading_other": {
+      "type": "Heading",
+      "props": {
+        "text": "Other",
+        "level": "h3"
+      }
+    },
+    "item_anyps5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_anyps5",
+        "meta_anyps5",
+        "desc_anyps5"
+      ]
+    },
+    "link_anyps5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "boykopovar/AnyPS5",
+        "href": "https://github.com/boykopovar/AnyPS5",
+        "source": "GitHub"
+      }
+    },
+    "meta_anyps5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_anyps5",
+        "badge_lang_cpp",
+        "badge_trend_accel5"
+      ]
+    },
+    "stat_anyps5": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "943 ★",
+        "delta": "+5.6k total"
+      }
+    },
+    "badge_lang_cpp": {
+      "type": "Badge",
+      "props": {
+        "text": "C++"
+      }
+    },
+    "badge_trend_accel5": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "desc_anyps5": {
+      "type": "Text",
+      "props": {
+        "text": "Ports PS5 native executables to Linux/Windows using binary translation — no source code or devkit required.",
+        "variant": "body"
+      }
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/12",
+        "variant": "caption"
+      }
+    }
+  }
+}
