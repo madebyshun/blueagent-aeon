@@ -1,33 +1,48 @@
-*Security Digest — 2026-10-03*
-Verdict: 1 PoC-confirmed, 5 to schedule, 3 to monitor. No new KEV adds today. _Sources: KEV ok · GH Advisory ok · EPSS ok_
+*Security Digest — 2026-10-06*
+Verdict: 1 actively exploited (KEV, BOD due tomorrow), 2 PoC-confirmed CVSS 10.0, 5 to schedule. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- [CVE-2026-73802](https://github.com/advisories/GHSA-x4q3-gcj3-m6cf) — gitea-runner (Go) · CVSS 9.9 · EPSS N/A (new CVE)
-  Workflow `container.options` passes `--pid=host --ipc=host --cap-add=ALL` to job containers even when privileged mode is disabled. PoC YAML in advisory — attacker workflow can nsenter to runner host as root.
-  → disable container.options in runner config until gitea-runner ≥1.0.9-20260731 is tagged.
+- [CVE-2026-88779](https://nvd.nist.gov/vuln/detail/CVE-2026-88779) — Citrix NetScaler ADC/Gateway · KEV added 2026-10-04 · EPSS 0.006 · CVSS n/a
+  Unauthenticated remote DoS via OOB memory buffer. BOD 26-04 compliance due 2026-10-07.
+  → apply patch CTX697174 today (deadline: tomorrow).
+
+- [CVE-2026-92946](https://github.com/advisories/GHSA-j3hm-6rg5-mchv) — vm2 (npm) · CVSS 10.0 · EPSS 0.009 · PoC public
+  NodeVM require.external without require.root grants full host FS + RCE. Exploitable via vm2's own documented examples.
+  → upgrade vm2 to ≥3.11.7.
+
+- [CVE-2026-92956](https://github.com/advisories/GHSA-wjwh-qqvp-g4p4) — vm2 (npm) · CVSS 10.0 · EPSS 0.006 · PoC public
+  Sandbox escape via WebAssembly Promise species bypass on Node.js 26; PoC writes to host OS.
+  → upgrade vm2 to ≥3.11.7 (≥3.12.2 fixes full batch).
 
 *PATCH THIS WEEK*
-- [GHSA-jqmf-mx4f-hfr6](https://github.com/advisories/GHSA-jqmf-mx4f-hfr6) — vibe-trading-ai (pip) · CVSS 10.0 · no fix
-  LLM-callable tools (run_command, execute_code) carry no sandbox — any reachable prompt can exec arbitrary commands on the server. → remove vibe-trading-ai; no patch yet.
+- [CVE-2026-8505](https://github.com/advisories/GHSA-cf6m-vc3m-7cgm) — langflow (pip) · CVSS 9.8 · EPSS 0.010
+  Webhook auth bypass → unauth flow execution.
+  → upgrade langflow to ≥1.9.1.
 
-- [GHSA-v2f8-6655-7grj](https://github.com/advisories/GHSA-v2f8-6655-7grj) — vibe-trading-ai (pip) · CVSS 10.0 · no fix
-  FastAPI endpoints unauthenticated: file upload + arbitrary path read exposed publicly. → remove vibe-trading-ai; no patch yet.
+- [CVE-2026-10561](https://github.com/advisories/GHSA-8qpj-27x8-pwpq) — langflow (pip) · CVSS 9.9 · EPSS 0.010
+  PythonREPLComponent executes unsandboxed code → auth'd RCE + privesc.
+  → upgrade langflow to ≥1.10.1 (covers both Langflow CVEs).
 
-- [CVE-2026-10032](https://github.com/advisories/GHSA-72qq-p3r5-f7wq) — @a2ui/web_core (npm) · CVSS 9.3 · EPSS 0.001 · no fix
-  openUrl passes javascript: URIs through — XSS to RCE in Electron/webview contexts. → audit openUrl usage; reject javascript: scheme manually; no fix released.
+- [CVE-2026-92934](https://github.com/advisories/GHSA-x965-fc75-jpqh) — vm2 (npm) · CVSS 9.5 · EPSS 0.008
+  Sandbox escape via AggregateError Error sanitization bypass.
+  → upgrade vm2 to ≥3.11.8.
 
-- [GHSA-8mcx-5rqc-vhmf](https://github.com/advisories/GHSA-8mcx-5rqc-vhmf) — dulwich (pip) · CVSS 8.8 · no fix · +3 related GHSAs
-  Arbitrary file write on Windows via unvalidated drive-letter path in checkout; 3 related symlink-traversal advisories in same batch. → assess dulwich usage; avoid Windows deploys; no fix yet.
+- [CVE-2026-92955](https://github.com/advisories/GHSA-88hf-g992-jg85) — vm2 (npm) · CVSS 10.0 · EPSS 0.007
+  NodeVM sandbox escape (batch fix #2).
+  → upgrade vm2 to ≥3.11.8.
 
-- [CVE-2026-71416](https://github.com/advisories/GHSA-h46j-26q3-rggf) — headroom-ai (pip) · CVSS 8.8 · EPSS 0.002 · no fix
-  Cross-Site WebSocket Hijacking — attacker origin issues authenticated WS commands. → remove headroom-ai; no patch available.
+- [CVE-2026-92953](https://github.com/advisories/GHSA-3vgf-8m4q-q4qr) — vm2 (npm) · CVSS 10.0 · EPSS 0.005
+  Default VM mutates host TypedArray/ArrayBuffer intrinsics, bypassing prior prototype-pollution fix.
+  → upgrade vm2 to ≥3.11.8.
 
 *MONITOR*
-- [GHSA-x8gv-g2g3-65fj](https://github.com/advisories/GHSA-x8gv-g2g3-65fj) — siyuan/kernel (Go) · CVSS 8.2 · no fix yet
-  SSRF via DNS-rebinding TOCTOU bypasses CheckHostSafe; 5 total siyuan advisories this batch. → watch for patch; avoid public exposure.
+- [CVE-2026-87776](https://github.com/advisories/GHSA-vc2v-76pw-4v95) — compression (npm) · CVSS 7.5 · EPSS 0.006
+  Memory leak DoS on premature response close. → upgrade compression to ≥1.8.2.
 
-- [GHSA-gg6r-gp4c-89hp](https://github.com/advisories/GHSA-gg6r-gp4c-89hp) — trigger.dev (npm) · no CVSS · no fix yet · +4 related GHSAs
-  Default V1 coordinator secret allows unauth Socket.IO; SQL injection + SSRF + run-replay injection in same batch. → watch patch release; don't expose coordinator publicly.
+- [CVE-2026-92942](https://github.com/advisories/GHSA-r4fx-v8hh-22mv) — vm2 (npm) · CVSS 7.5 · EPSS 0.005
+  Timeout bypass via FinalizationRegistry cleanup callback. → upgrade vm2 to ≥3.11.7.
 
-- [CVE-2026-92708](https://github.com/advisories/GHSA-j22f-vq7h-c4qm) — devalue (npm) · CVSS 7.5 · EPSS 0.007 · no fix yet
-  stringify/uneval leaks cross-request shared memory in SSR contexts. → track devalue patch; audit SSR data paths.
+- [CVE-2026-92959](https://github.com/advisories/GHSA-f8gf-w286-fmq2) — vm2 (npm) · CVSS 7.1 · EPSS 0.004
+  allowAsync:false bypass via Promise thenable assimilation. → upgrade vm2 to ≥3.11.8.
+
+_Also notable: Payload CMS batch (6 advisories 10-06 — SQL injection CVSS 9.8, access control bypass, MCP plugin key exposure; upgrade payload to ≥3.88.0). MCP TypeScript SDK OAuth credential redirect CVSS 7.5 → upgrade @modelcontextprotocol/sdk to ≥1.31.0._
