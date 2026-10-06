@@ -1,42 +1,41 @@
-*Token Movers — 2026-10-03*
+*Token Movers — 2026-10-06*
 
-_Risk-off — 29/80 top-100 coins green, median top-50 24h −0.9%; gaming sector the lone bright spot as broad market retreats._
+_Mixed, near-flat tape — 51/100 top coins green but median move barely above 0%; rotation into AI-infra and DEX names against a soft broader market._
 
 *Top Winners (24h)*
-1. SAND (Sandbox) — $0.0762  +20.7% / 7d +62.8% / 1h +1.0%  •  $569M / #180  [BREAKOUT]
-2. SUPER (SuperVerse) — $0.2601  +14.8% / 7d +43.5% / 1h +4.2%  •  $59.3M / #210
-3. DGAI (DGrid AI) — $1.015  +10.8% / 7d +0.2% / 1h −0.3%  •  $29.5M / #227
-4. GRASS (Grass) — $0.7470  +7.7% / 7d +44.9% / 1h +0.1%  •  $35.8M / #115
-5. JST (JUST) — $0.1369  +7.4% / 7d +10.8% / 1h −0.0%  •  $36.2M / #76
-6. STRK (Starknet) — $0.04711  +7.3% / 7d +3.5% / 1h +0.2%  •  $38.4M / #136
-7. ZAMA (Zama) — $0.08372  +7.0% / 7d −7.4% / 1h +2.0%  •  $12.6M / #187
-8. WLD (Worldcoin) — $0.6048  +6.9% / 7d +23.8% / 1h +0.1%  •  $581M / #49
-9. RAY (Raydium) — $2.090  +6.8% / 7d +1.6% / 1h +1.1%  •  $60.6M / #110
-10. NIGHT (Midnight) — $0.04991  +5.1% / 7d +92.0% / 1h +1.4%  •  $92.9M / #86
+1. BR (Bedrock) — $0.5931  +48.2% / 7d -22.2% / 1h +5.7%  •  $40M / #205  [FADE] [PUMP-RISK]
+2. ORCA (Orca) — $2.95  +47.6% / 7d +58.9% / 1h -2.6%  •  $263M / #204  [BREAKOUT] [PUMP-RISK]
+3. CAP (Cap) — $0.0847  +19.3% / 7d +42.9% / 1h -7.4%  •  $64M / #247  [BREAKOUT]
+4. MET (Meteora) — $0.3361  +15.6% / 7d +6.9% / 1h +2.5%  •  $41M / #195
+5. STONK (STONK) — $0.2155  +15.4% / 7d -16.4% / 1h -0.9%  •  $18M / #209  [TRENDING+UP]
+6. RENDER (Render) — $2.18  +9.7% / 7d +11.6% / 1h +0.8%  •  $118M / #77
+7. PONS (Pons) — $0.4071  +9.5% / 7d -23.6% / 1h -1.0%  •  $37M / #162  [TRENDING+UP]
+8. FIL (Filecoin) — $1.16  +7.4% / 7d +6.7% / 1h +0.6%  •  $243M / #82
+9. OKB (OKB) — $136.8  +7.3% / 7d +13.8% / 1h +0.6%  •  $100M / #42
+10. NPC (Non-Playable Coin) — $0.0225  +9.5% / 7d +0.6% / 1h +5.3%  •  $4M / #200
 
 *Top Losers (24h)*
-1. PONS (Pons) — $0.4154  −19.1% / 7d −32.9% / 1h −0.6%  •  $46.9M / #161  [TRENDING+DOWN]
-2. BR (Bedrock) — $0.5456  −17.6% / 7d −46.5% / 1h +5.2%  •  $4.8M / #219
-3. AI (Artificial Inu) — $0.1370  −11.8% / 7d −48.2% / 1h +5.6%  •  $17.0M / #242
-4. RAIN (Rain) — $0.01038  −9.5% / 7d −20.0% / 1h −3.1%  •  $15.2M / #20  [MAJOR]
-5. MON (Monad) — $0.03174  −9.0% / 7d +19.2% / 1h +1.7%  •  $57.5M / #131
-6. CASHCAT (Cash Cat) — $0.1575  −8.7% / 7d −12.7% / 1h +1.2%  •  $16.2M / #226
-7. NPC (Non-Playable Coin) — $0.02113  −8.0% / 7d −9.9% / 1h −0.0%  •  $1.8M / #208
-8. EDGE (edgeX) — $0.4716  −7.3% / 7d −22.9% / 1h +0.2%  •  $3.1M / #215
-9. DRV (Derive) — $0.3807  −7.2% / 7d −9.3% / 1h +0.5%  •  $11.1M / #130
-10. BP (Backpack) — $1.210  −7.0% / 7d −1.1% / 1h −4.1%  •  $14.2M / #152
+1. MINA (Mina Protocol) — $0.1251  -22.7% / 7d -16.9% / 1h +0.9%  •  $49M / #216  [CAPITULATION]
+2. CASHCAT (Cash Cat) — $0.1396  -10.3% / 7d -19.1% / 1h -4.4%  •  $8M / #242
+3. FLUID (Fluid) — $1.94  -10.2% / 7d +32.3% / 1h -0.6%  •  $27M / #221
+4. SPX (SPX6900) — $0.4144  -7.8% / 7d +2.2% / 1h -0.9%  •  $13M / #129
+5. MON (Monad) — $0.0287  -7.6% / 7d +4.5% / 1h -0.0%  •  $71M / #138
+6. MNT (Mantle) — $0.6039  -6.5% / 7d -9.1% / 1h -5.2%  •  $33M / #55
+7. GRASS (Grass) — $0.6765  -6.4% / 7d +2.2% / 1h -2.2%  •  $38M / #121
+8. AERO (Aerodrome Finance) — $0.7979  -5.9% / 7d +0.3% / 1h -2.1%  •  $50M / #88
 
 *Trending*
-1. PONS (Pons) — #161, $0.4154, 24h −19.4%  [TRENDING+DOWN]
-2. NEAR (NEAR Protocol) — #22, $4.651, 24h −3.7%
-3. QNT (Quant) — #34, $248.4, 24h −0.2%
-4. M87 (MESSIER) — #910, $0.00002173, 24h +5.2%
-5. TAO (Bittensor) — #37, $291.5, 24h −5.6%
-6. LIT (Lighter) — #84, $3.508, 24h −4.6%
-7. PENGU (Pudgy Penguins) — #109, $0.009182, 24h −5.2%
+1. Pons (PONS) — #162, $0.4071, 24h +9.5%  [TRENDING+UP]
+2. ZIG Finance (ZIG) — #323, $0.0620, 24h +8.8%
+3. STONK (STONK) — #211, $0.2155, 24h +15.4%  [TRENDING+UP]
+4. Quant (QNT) — #33, $256.5, 24h +0.8%
+5. NEAR Protocol (NEAR) — #21, $5.03, 24h +0.4%
+6. Ondo (ONDO) — #46, $0.4943, 24h +1.3%
+7. Pudgy Penguins (PENGU) — #106, $0.009372, 24h -1.6%  [TRENDING+DOWN]
 
 *Notable*
-• SAND: day-2 [BREAKOUT] — +20.7% on $569M vol, 7d +62.8%; gaming rotation holding
-• NIGHT: +5.1% day-2 on 7d +92.0% — sustained multi-week momentum, not a flash spike
-• PONS: [TRENDING+DOWN] #161 — −19.1% while trending; high-search capitulation
-• MON: −9.0% post-Oct 6 reveal window — watch for continued unwind
+• ORCA: trending-aligned BREAKOUT — +47.6% / 7d +58.9% on $263M vol; also [PUMP-RISK] at rank #204
+• BR: #205 up +48.2% but 7d -22.2% — [FADE] bounce, [PUMP-RISK], low liquidity
+• MINA: [CAPITULATION] — -22.7% on vol/mcap ratio 0.30, sustained 7d downtrend
+• CAP: [BREAKOUT] — +19.3% 24h / +42.9% 7d, sustained move not a flash pump
+• STONK + PONS: both trending AND green — search volume confirming price

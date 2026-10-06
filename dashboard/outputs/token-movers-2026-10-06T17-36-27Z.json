@@ -1,0 +1,432 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "2026-10-06"
+      },
+      "children": [
+        "intro-text",
+        "sep-1",
+        "winners-section",
+        "sep-2",
+        "losers-section",
+        "sep-3",
+        "trending-section",
+        "sep-4",
+        "notable-section"
+      ]
+    },
+    "intro-text": {
+      "type": "Text",
+      "props": {
+        "text": "Mixed, near-flat tape — 51/100 top coins green but median move barely above 0%; rotation into AI-infra and DEX names against a soft broader market.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "winners-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners-heading",
+        "winners-table"
+      ]
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "BR (Bedrock)",
+            "$0.5931",
+            "+48.2%",
+            "-22.2%",
+            "+5.7%",
+            "$40M / #205",
+            "FADE, PUMP-RISK"
+          ],
+          [
+            "ORCA (Orca)",
+            "$2.95",
+            "+47.6%",
+            "+58.9%",
+            "-2.6%",
+            "$263M / #204",
+            "BREAKOUT, PUMP-RISK"
+          ],
+          [
+            "CAP (Cap)",
+            "$0.0847",
+            "+19.3%",
+            "+42.9%",
+            "-7.4%",
+            "$64M / #247",
+            "BREAKOUT"
+          ],
+          [
+            "MET (Meteora)",
+            "$0.3361",
+            "+15.6%",
+            "+6.9%",
+            "+2.5%",
+            "$41M / #195",
+            ""
+          ],
+          [
+            "STONK (STONK)",
+            "$0.2155",
+            "+15.4%",
+            "-16.4%",
+            "-0.9%",
+            "$18M / #209",
+            "TRENDING+UP"
+          ],
+          [
+            "RENDER (Render)",
+            "$2.18",
+            "+9.7%",
+            "+11.6%",
+            "+0.8%",
+            "$118M / #77",
+            ""
+          ],
+          [
+            "PONS (Pons)",
+            "$0.4071",
+            "+9.5%",
+            "-23.6%",
+            "-1.0%",
+            "$37M / #162",
+            "TRENDING+UP"
+          ],
+          [
+            "FIL (Filecoin)",
+            "$1.16",
+            "+7.4%",
+            "+6.7%",
+            "+0.6%",
+            "$243M / #82",
+            ""
+          ],
+          [
+            "OKB (OKB)",
+            "$136.8",
+            "+7.3%",
+            "+13.8%",
+            "+0.6%",
+            "$100M / #42",
+            ""
+          ],
+          [
+            "NPC (Non-Playable Coin)",
+            "$0.0225",
+            "+9.5%",
+            "+0.6%",
+            "+5.3%",
+            "$4M / #200",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "losers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers-heading",
+        "losers-table"
+      ]
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Market Cap / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "MINA (Mina Protocol)",
+            "$0.1251",
+            "-22.7%",
+            "-16.9%",
+            "+0.9%",
+            "$49M / #216",
+            "CAPITULATION"
+          ],
+          [
+            "CASHCAT (Cash Cat)",
+            "$0.1396",
+            "-10.3%",
+            "-19.1%",
+            "-4.4%",
+            "$8M / #242",
+            ""
+          ],
+          [
+            "FLUID (Fluid)",
+            "$1.94",
+            "-10.2%",
+            "+32.3%",
+            "-0.6%",
+            "$27M / #221",
+            ""
+          ],
+          [
+            "SPX (SPX6900)",
+            "$0.4144",
+            "-7.8%",
+            "+2.2%",
+            "-0.9%",
+            "$13M / #129",
+            ""
+          ],
+          [
+            "MON (Monad)",
+            "$0.0287",
+            "-7.6%",
+            "+4.5%",
+            "-0.0%",
+            "$71M / #138",
+            ""
+          ],
+          [
+            "MNT (Mantle)",
+            "$0.6039",
+            "-6.5%",
+            "-9.1%",
+            "-5.2%",
+            "$33M / #55",
+            ""
+          ],
+          [
+            "GRASS (Grass)",
+            "$0.6765",
+            "-6.4%",
+            "+2.2%",
+            "-2.2%",
+            "$38M / #121",
+            ""
+          ],
+          [
+            "AERO (Aerodrome Finance)",
+            "$0.7979",
+            "-5.9%",
+            "+0.3%",
+            "-2.1%",
+            "$50M / #88",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "trending-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending-heading",
+        "trending-table"
+      ]
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Rank",
+          "Price",
+          "24h Change",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "Pons (PONS)",
+            "#162",
+            "$0.4071",
+            "+9.5%",
+            "TRENDING+UP"
+          ],
+          [
+            "ZIG Finance (ZIG)",
+            "#323",
+            "$0.0620",
+            "+8.8%",
+            ""
+          ],
+          [
+            "STONK (STONK)",
+            "#211",
+            "$0.2155",
+            "+15.4%",
+            "TRENDING+UP"
+          ],
+          [
+            "Quant (QNT)",
+            "#33",
+            "$256.5",
+            "+0.8%",
+            ""
+          ],
+          [
+            "NEAR Protocol (NEAR)",
+            "#21",
+            "$5.03",
+            "+0.4%",
+            ""
+          ],
+          [
+            "Ondo (ONDO)",
+            "#46",
+            "$0.4943",
+            "+1.3%",
+            ""
+          ],
+          [
+            "Pudgy Penguins (PENGU)",
+            "#106",
+            "$0.009372",
+            "-1.6%",
+            "TRENDING+DOWN"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "notable-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-heading",
+        "notable-item-1",
+        "notable-item-2",
+        "notable-item-3",
+        "notable-item-4",
+        "notable-item-5"
+      ]
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "notable-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "ORCA: trending-aligned BREAKOUT — +47.6% / 7d +58.9% on $263M vol; also [PUMP-RISK] at rank #204",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "notable-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "BR: #205 up +48.2% but 7d -22.2% — [FADE] bounce, [PUMP-RISK], low liquidity",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "notable-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "MINA: [CAPITULATION] — -22.7% on vol/mcap ratio 0.30, sustained 7d downtrend",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "notable-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "CAP: [BREAKOUT] — +19.3% 24h / +42.9% 7d, sustained move not a flash pump",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "notable-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "STONK + PONS: both trending AND green — search volume confirming price",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
