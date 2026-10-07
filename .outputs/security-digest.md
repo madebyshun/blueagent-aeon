@@ -1,48 +1,49 @@
-*Security Digest — 2026-10-06*
-Verdict: 1 actively exploited (KEV, BOD due tomorrow), 2 PoC-confirmed CVSS 10.0, 5 to schedule. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-10-07*
+Verdict: 3 confirmed exploited (KEV), 5 to patch this week, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- [CVE-2026-88779](https://nvd.nist.gov/vuln/detail/CVE-2026-88779) — Citrix NetScaler ADC/Gateway · KEV added 2026-10-04 · EPSS 0.006 · CVSS n/a
-  Unauthenticated remote DoS via OOB memory buffer. BOD 26-04 compliance due 2026-10-07.
-  → apply patch CTX697174 today (deadline: tomorrow).
+- CVE-2026-104286 — Fortinet FortiMail · KEV 2026-10-01 · EPSS 0.022 · CVSS —
+  Unauth path traversal → arbitrary file write via crafted HTTP/HTTPS. Active exploitation confirmed.
+  → upgrade FortiMail per vendor advisory; BOD 26-04 deadline passed.
 
-- [CVE-2026-92946](https://github.com/advisories/GHSA-j3hm-6rg5-mchv) — vm2 (npm) · CVSS 10.0 · EPSS 0.009 · PoC public
-  NodeVM require.external without require.root grants full host FS + RCE. Exploitable via vm2's own documented examples.
-  → upgrade vm2 to ≥3.11.7.
+- CVE-2026-76504 — Cisco Catalyst SD-WAN Manager · KEV 2026-09-30 · EPSS 0.018 · CVSS —
+  Hex-encoded URI bypass grants unauth remote admin access. Active exploitation confirmed.
+  → upgrade SD-WAN Manager per Cisco advisory; BOD 26-04 deadline passed.
 
-- [CVE-2026-92956](https://github.com/advisories/GHSA-wjwh-qqvp-g4p4) — vm2 (npm) · CVSS 10.0 · EPSS 0.006 · PoC public
-  Sandbox escape via WebAssembly Promise species bypass on Node.js 26; PoC writes to host OS.
-  → upgrade vm2 to ≥3.11.7 (≥3.12.2 fixes full batch).
+- CVE-2026-102489 — Zammad · KEV 2026-10-02 · EPSS 0.014 · CVSS —
+  Session fixation → RCE as zammad user; chains with CVE-2026-102490 (priv esc → root).
+  → upgrade Zammad per vendor advisory; BOD 26-04 deadline passed.
 
 *PATCH THIS WEEK*
-- [CVE-2026-8505](https://github.com/advisories/GHSA-cf6m-vc3m-7cgm) — langflow (pip) · CVSS 9.8 · EPSS 0.010
-  Webhook auth bypass → unauth flow execution.
-  → upgrade langflow to ≥1.9.1.
+- GHSA-pq68-rvw4-xp4r — vm2 (npm) · CVSS 10.0 · EPSS 0.007 · no patch
+  Sandbox escape, all vm2 ≤3.12.0. Project unmaintained.
+  → replace vm2 with isolated-vm or native Node worker_threads now.
 
-- [CVE-2026-10561](https://github.com/advisories/GHSA-8qpj-27x8-pwpq) — langflow (pip) · CVSS 9.9 · EPSS 0.010
-  PythonREPLComponent executes unsandboxed code → auth'd RCE + privesc.
-  → upgrade langflow to ≥1.10.1 (covers both Langflow CVEs).
+- GHSA-r543-q48m-4c9j — WeasyPrint (pip) · CVSS 8.8 · EPSS 0.007 · no patch
+  EPS images route through Ghostscript → RCE. All versions ≤69.0 affected.
+  → block EPS input to WeasyPrint; disable Ghostscript path until patch lands.
 
-- [CVE-2026-92934](https://github.com/advisories/GHSA-x965-fc75-jpqh) — vm2 (npm) · CVSS 9.5 · EPSS 0.008
-  Sandbox escape via AggregateError Error sanitization bypass.
-  → upgrade vm2 to ≥3.11.8.
+- GHSA-g2v8-7jhw-pp8p — @backstage/plugin-scaffolder-backend (npm) · CVSS 9.6 · EPSS 0.005
+  Sensitive info exposure in Scaffolder. Lead advisory of a 10-advisory Backstage batch.
+  → upgrade plugin-scaffolder-backend ≥4.1.0 and plugin-techdocs-node ≥1.15.4.
 
-- [CVE-2026-92955](https://github.com/advisories/GHSA-88hf-g992-jg85) — vm2 (npm) · CVSS 10.0 · EPSS 0.007
-  NodeVM sandbox escape (batch fix #2).
-  → upgrade vm2 to ≥3.11.8.
+- GHSA-qmw3-745m-w99g — @backstage/plugin-techdocs-node (npm) · CVSS 8.8 · EPSS —
+  Improper MkDocs config validation; 5 related TechDocs CVEs in same release.
+  → upgrade plugin-techdocs-node ≥1.15.4 (fixes all TechDocs batch CVEs).
 
-- [CVE-2026-92953](https://github.com/advisories/GHSA-3vgf-8m4q-q4qr) — vm2 (npm) · CVSS 10.0 · EPSS 0.005
-  Default VM mutates host TypedArray/ArrayBuffer intrinsics, bypassing prior prototype-pollution fix.
-  → upgrade vm2 to ≥3.11.8.
+- GHSA-826h-28h9-65hg — @backstage/plugin-auth-backend-module-oidc-provider (npm) · CVSS 8.1 · EPSS 0.003
+  Improper OIDC auth; affects OIDC-based SSO flows.
+  → upgrade plugin-auth-backend-module-oidc-provider ≥0.4.20.
 
 *MONITOR*
-- [CVE-2026-87776](https://github.com/advisories/GHSA-vc2v-76pw-4v95) — compression (npm) · CVSS 7.5 · EPSS 0.006
-  Memory leak DoS on premature response close. → upgrade compression to ≥1.8.2.
+- GHSA-c3wx-c55w-pxjq — hydra-core (pip) · CVSS 7.8 · EPSS 0.002
+  Unsafe callable resolution in logging config; code exec path.
+  → schedule upgrade: hydra-core → ≥1.3.6.
 
-- [CVE-2026-92942](https://github.com/advisories/GHSA-r4fx-v8hh-22mv) — vm2 (npm) · CVSS 7.5 · EPSS 0.005
-  Timeout bypass via FinalizationRegistry cleanup callback. → upgrade vm2 to ≥3.11.7.
+- GHSA-jg6q-3qfh-r9f8 — @insumermodel/mppx-condition-gate (npm) · CVSS 7.5 · EPSS 0.003
+  Wallet access without ownership proof; no patch.
+  → track; avoid mppx-condition-gate/mppx-token-gate until patched.
 
-- [CVE-2026-92959](https://github.com/advisories/GHSA-f8gf-w286-fmq2) — vm2 (npm) · CVSS 7.1 · EPSS 0.004
-  allowAsync:false bypass via Promise thenable assimilation. → upgrade vm2 to ≥3.11.8.
-
-_Also notable: Payload CMS batch (6 advisories 10-06 — SQL injection CVSS 9.8, access control bypass, MCP plugin key exposure; upgrade payload to ≥3.88.0). MCP TypeScript SDK OAuth credential redirect CVSS 7.5 → upgrade @modelcontextprotocol/sdk to ≥1.31.0._
+- GHSA-cq7v-rfgc-5c7v — @backstage/backend-defaults (npm) · CVSS 7.6 · EPSS 0.002
+  Credential delegation drops access restrictions.
+  → schedule upgrade: @backstage/backend-defaults → ≥0.17.8.

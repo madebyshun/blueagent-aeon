@@ -1,0 +1,189 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-10-07",
+        "description": "3 confirmed exploited (KEV), 5 to patch this week, 3 to monitor. Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "sep-intro",
+        "patch-today-section",
+        "sep-1",
+        "patch-week-section",
+        "sep-2",
+        "monitor-section"
+      ]
+    },
+    "sep-intro": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch-today-heading",
+        "cve-104286",
+        "cve-76504",
+        "cve-102489"
+      ]
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve-104286": {
+      "type": "Alert",
+      "props": {
+        "title": "CVE-2026-104286 — Fortinet FortiMail",
+        "message": "KEV 2026-10-01 · EPSS 0.022 · CVSS —\n\nUnauth path traversal → arbitrary file write via crafted HTTP/HTTPS. Active exploitation confirmed.\n\nAction: upgrade FortiMail per vendor advisory; BOD 26-04 deadline passed.",
+        "type": "error"
+      }
+    },
+    "cve-76504": {
+      "type": "Alert",
+      "props": {
+        "title": "CVE-2026-76504 — Cisco Catalyst SD-WAN Manager",
+        "message": "KEV 2026-09-30 · EPSS 0.018 · CVSS —\n\nHex-encoded URI bypass grants unauth remote admin access. Active exploitation confirmed.\n\nAction: upgrade SD-WAN Manager per Cisco advisory; BOD 26-04 deadline passed.",
+        "type": "error"
+      }
+    },
+    "cve-102489": {
+      "type": "Alert",
+      "props": {
+        "title": "CVE-2026-102489 — Zammad",
+        "message": "KEV 2026-10-02 · EPSS 0.014 · CVSS —\n\nSession fixation → RCE as zammad user; chains with CVE-2026-102490 (priv esc → root).\n\nAction: upgrade Zammad per vendor advisory; BOD 26-04 deadline passed.",
+        "type": "error"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-week-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch-week-heading",
+        "ghsa-pq68",
+        "ghsa-r543",
+        "ghsa-g2v8",
+        "ghsa-qmw3",
+        "ghsa-826h"
+      ]
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "ghsa-pq68": {
+      "type": "Alert",
+      "props": {
+        "title": "GHSA-pq68-rvw4-xp4r — vm2 (npm)",
+        "message": "CVSS 10.0 · EPSS 0.007 · no patch\n\nSandbox escape, all vm2 ≤3.12.0. Project unmaintained.\n\nAction: replace vm2 with isolated-vm or native Node worker_threads now.",
+        "type": "warning"
+      }
+    },
+    "ghsa-r543": {
+      "type": "Alert",
+      "props": {
+        "title": "GHSA-r543-q48m-4c9j — WeasyPrint (pip)",
+        "message": "CVSS 8.8 · EPSS 0.007 · no patch\n\nEPS images route through Ghostscript → RCE. All versions ≤69.0 affected.\n\nAction: block EPS input to WeasyPrint; disable Ghostscript path until patch lands.",
+        "type": "warning"
+      }
+    },
+    "ghsa-g2v8": {
+      "type": "Alert",
+      "props": {
+        "title": "GHSA-g2v8-7jhw-pp8p — @backstage/plugin-scaffolder-backend (npm)",
+        "message": "CVSS 9.6 · EPSS 0.005\n\nSensitive info exposure in Scaffolder. Lead advisory of a 10-advisory Backstage batch.\n\nAction: upgrade plugin-scaffolder-backend ≥4.1.0 and plugin-techdocs-node ≥1.15.4.",
+        "type": "warning"
+      }
+    },
+    "ghsa-qmw3": {
+      "type": "Alert",
+      "props": {
+        "title": "GHSA-qmw3-745m-w99g — @backstage/plugin-techdocs-node (npm)",
+        "message": "CVSS 8.8 · EPSS —\n\nImproper MkDocs config validation; 5 related TechDocs CVEs in same release.\n\nAction: upgrade plugin-techdocs-node ≥1.15.4 (fixes all TechDocs batch CVEs).",
+        "type": "warning"
+      }
+    },
+    "ghsa-826h": {
+      "type": "Alert",
+      "props": {
+        "title": "GHSA-826h-28h9-65hg — @backstage/plugin-auth-backend-module-oidc-provider (npm)",
+        "message": "CVSS 8.1 · EPSS 0.003\n\nImproper OIDC auth; affects OIDC-based SSO flows.\n\nAction: upgrade plugin-auth-backend-module-oidc-provider ≥0.4.20.",
+        "type": "warning"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "monitor-heading",
+        "ghsa-c3wx",
+        "ghsa-jg6q",
+        "ghsa-cq7v"
+      ]
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "ghsa-c3wx": {
+      "type": "Alert",
+      "props": {
+        "title": "GHSA-c3wx-c55w-pxjq — hydra-core (pip)",
+        "message": "CVSS 7.8 · EPSS 0.002\n\nUnsafe callable resolution in logging config; code exec path.\n\nAction: schedule upgrade: hydra-core → ≥1.3.6.",
+        "type": "info"
+      }
+    },
+    "ghsa-jg6q": {
+      "type": "Alert",
+      "props": {
+        "title": "GHSA-jg6q-3qfh-r9f8 — @insumermodel/mppx-condition-gate (npm)",
+        "message": "CVSS 7.5 · EPSS 0.003\n\nWallet access without ownership proof; no patch.\n\nAction: track; avoid mppx-condition-gate/mppx-token-gate until patched.",
+        "type": "info"
+      }
+    },
+    "ghsa-cq7v": {
+      "type": "Alert",
+      "props": {
+        "title": "GHSA-cq7v-rfgc-5c7v — @backstage/backend-defaults (npm)",
+        "message": "CVSS 7.6 · EPSS 0.002\n\nCredential delegation drops access restrictions.\n\nAction: schedule upgrade: @backstage/backend-defaults → ≥0.17.8.",
+        "type": "info"
+      }
+    }
+  }
+}
