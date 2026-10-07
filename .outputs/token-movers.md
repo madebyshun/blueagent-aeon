@@ -1,41 +1,37 @@
-*Token Movers — 2026-10-06*
+*Token Movers — 2026-10-07*
 
-_Mixed, near-flat tape — 51/100 top coins green but median move barely above 0%; rotation into AI-infra and DEX names against a soft broader market._
+_Broad risk-off — 3/100 top coins green; median top-50 −1.6%; BTC −2.9%, ETH −5.4%; L1s and DeFi hit hardest._
 
 *Top Winners (24h)*
-1. BR (Bedrock) — $0.5931  +48.2% / 7d -22.2% / 1h +5.7%  •  $40M / #205  [FADE] [PUMP-RISK]
-2. ORCA (Orca) — $2.95  +47.6% / 7d +58.9% / 1h -2.6%  •  $263M / #204  [BREAKOUT] [PUMP-RISK]
-3. CAP (Cap) — $0.0847  +19.3% / 7d +42.9% / 1h -7.4%  •  $64M / #247  [BREAKOUT]
-4. MET (Meteora) — $0.3361  +15.6% / 7d +6.9% / 1h +2.5%  •  $41M / #195
-5. STONK (STONK) — $0.2155  +15.4% / 7d -16.4% / 1h -0.9%  •  $18M / #209  [TRENDING+UP]
-6. RENDER (Render) — $2.18  +9.7% / 7d +11.6% / 1h +0.8%  •  $118M / #77
-7. PONS (Pons) — $0.4071  +9.5% / 7d -23.6% / 1h -1.0%  •  $37M / #162  [TRENDING+UP]
-8. FIL (Filecoin) — $1.16  +7.4% / 7d +6.7% / 1h +0.6%  •  $243M / #82
-9. OKB (OKB) — $136.8  +7.3% / 7d +13.8% / 1h +0.6%  •  $100M / #42
-10. NPC (Non-Playable Coin) — $0.0225  +9.5% / 7d +0.6% / 1h +5.3%  •  $4M / #200
+1. GRX (GRX Chain) — $21.17  +62.2% / 7d +62.0% / 1h ~0%  •  $2.3M / #191  [PUMP-RISK][BREAKOUT]
+2. PRL (Pearl) — $1.44  +27.0% / 7d +17.2% / 1h +1.2%  •  $7.2M / #118  [TRENDING+UP]
+3. SAND (The Sandbox) — $0.082  +25.1% / 7d +87.6% / 1h +0.7%  •  $271M / #168  [BREAKOUT]
+4. RAY (Raydium) — $2.43  +10.2% / 7d — / 1h —  •  $207M / #99  [TRENDING+UP]
+5. MANA (Decentraland) — $0.107  +4.8% / 7d +17.3% / 1h +1.1%  •  $45.7M / #188
 
 *Top Losers (24h)*
-1. MINA (Mina Protocol) — $0.1251  -22.7% / 7d -16.9% / 1h +0.9%  •  $49M / #216  [CAPITULATION]
-2. CASHCAT (Cash Cat) — $0.1396  -10.3% / 7d -19.1% / 1h -4.4%  •  $8M / #242
-3. FLUID (Fluid) — $1.94  -10.2% / 7d +32.3% / 1h -0.6%  •  $27M / #221
-4. SPX (SPX6900) — $0.4144  -7.8% / 7d +2.2% / 1h -0.9%  •  $13M / #129
-5. MON (Monad) — $0.0287  -7.6% / 7d +4.5% / 1h -0.0%  •  $71M / #138
-6. MNT (Mantle) — $0.6039  -6.5% / 7d -9.1% / 1h -5.2%  •  $33M / #55
-7. GRASS (Grass) — $0.6765  -6.4% / 7d +2.2% / 1h -2.2%  •  $38M / #121
-8. AERO (Aerodrome Finance) — $0.7979  -5.9% / 7d +0.3% / 1h -2.1%  •  $50M / #88
+1. STONK — $0.176  −17.3% / 7d −35.2% / 1h −1.5%  •  $12.5M / #231
+2. SHX (Stronghold) — $0.0069  −15.8% / 7d +20.6% / 1h −3.3%  •  $4.5M / #247
+3. BP (Backpack) — $1.037  −15.4% / 7d −12.4% / 1h −6.4%  •  $18.9M / #163  [TRENDING+DOWN]
+4. FIL (Filecoin) — $1.024  −12.8% / 7d — / 1h —  •  — / #85
+5. BR (Bedrock) — $0.526  −12.8% / 7d −29.3% / 1h −1.6%  •  $45.9M / #220  [CAPITULATION]
+6. MON (Monad) — $0.026  −11.1% / 7d −9.3% / 1h +0.6%  •  $55.6M / #148
+7. APT (Aptos) — $0.746  −10.8% / 7d — / 1h —  •  — / #100
+8. ARB (Arbitrum) — $0.183  −10.6% / 7d — / 1h —  •  — / #70
+9. JTO (Jito) — $0.496  −10.6% / 7d −8.9% / 1h ~0%  •  $37.4M / #161
+10. PENGU (Pudgy Penguins) — $0.0084  −10.2% / 7d −15.5% / 1h −0.6%  •  $237M / #110  [TRENDING+DOWN][CAPITULATION]
 
 *Trending*
-1. Pons (PONS) — #162, $0.4071, 24h +9.5%  [TRENDING+UP]
-2. ZIG Finance (ZIG) — #323, $0.0620, 24h +8.8%
-3. STONK (STONK) — #211, $0.2155, 24h +15.4%  [TRENDING+UP]
-4. Quant (QNT) — #33, $256.5, 24h +0.8%
-5. NEAR Protocol (NEAR) — #21, $5.03, 24h +0.4%
-6. Ondo (ONDO) — #46, $0.4943, 24h +1.3%
-7. Pudgy Penguins (PENGU) — #106, $0.009372, 24h -1.6%  [TRENDING+DOWN]
+1. SWORDINU (inu wif sword) — #839, $0.0213, 24h: —  [MICROCAP]
+2. TRUMP (Official Trump) — #113, $1.84, 24h: —
+3. QTC (Quantus) — #723, $103.7, 24h: —  [MICROCAP]
+4. PONS — #157, $0.395, 24h: —
+5. PRL (Pearl) — #118, $1.44, +27.0%  [TRENDING+UP]
+6. NEAR Protocol — #21, $5.11, 24h: —  [MAJOR]
+7. PENGU (Pudgy Penguins) — #110, $0.0084, −10.2%  [TRENDING+DOWN][CAPITULATION]
 
 *Notable*
-• ORCA: trending-aligned BREAKOUT — +47.6% / 7d +58.9% on $263M vol; also [PUMP-RISK] at rank #204
-• BR: #205 up +48.2% but 7d -22.2% — [FADE] bounce, [PUMP-RISK], low liquidity
-• MINA: [CAPITULATION] — -22.7% on vol/mcap ratio 0.30, sustained 7d downtrend
-• CAP: [BREAKOUT] — +19.3% 24h / +42.9% 7d, sustained move not a flash pump
-• STONK + PONS: both trending AND green — search volume confirming price
+• GRX: #191 up +62% on $2.3M vol — [PUMP-RISK]; negligible liquidity for size of move
+• SAND: +25% / 7d +88% — [BREAKOUT]; gaming rotation active, MANA also +4.8%
+• BR: yesterday's #1 pump (+48%) now [CAPITULATION] at −12.8% — pump arc closed
+• PENGU: trending + [CAPITULATION]; $237M vol on $530M mcap = heavy distribution

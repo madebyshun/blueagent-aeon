@@ -1,0 +1,396 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-10-07"
+      },
+      "children": [
+        "market-summary",
+        "sep1",
+        "winners-section",
+        "sep2",
+        "losers-section",
+        "sep3",
+        "trending-section",
+        "sep4",
+        "notable-section"
+      ]
+    },
+    "market-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Broad risk-off — 3/100 top coins green; median top-50 −1.6%; BTC −2.9%, ETH −5.4%; L1s and DeFi hit hardest.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "winners-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners-heading",
+        "winners-table"
+      ]
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "GRX (GRX Chain)",
+            "$21.17",
+            "+62.2%",
+            "+62.0%",
+            "~0%",
+            "$2.3M",
+            "#191",
+            "PUMP-RISK, BREAKOUT"
+          ],
+          [
+            "PRL (Pearl)",
+            "$1.44",
+            "+27.0%",
+            "+17.2%",
+            "+1.2%",
+            "$7.2M",
+            "#118",
+            "TRENDING+UP"
+          ],
+          [
+            "SAND (The Sandbox)",
+            "$0.082",
+            "+25.1%",
+            "+87.6%",
+            "+0.7%",
+            "$271M",
+            "#168",
+            "BREAKOUT"
+          ],
+          [
+            "RAY (Raydium)",
+            "$2.43",
+            "+10.2%",
+            "—",
+            "—",
+            "$207M",
+            "#99",
+            "TRENDING+UP"
+          ],
+          [
+            "MANA (Decentraland)",
+            "$0.107",
+            "+4.8%",
+            "+17.3%",
+            "+1.1%",
+            "$45.7M",
+            "#188",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "losers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers-heading",
+        "losers-table"
+      ]
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "STONK",
+            "$0.176",
+            "−17.3%",
+            "−35.2%",
+            "−1.5%",
+            "$12.5M",
+            "#231",
+            ""
+          ],
+          [
+            "SHX (Stronghold)",
+            "$0.0069",
+            "−15.8%",
+            "+20.6%",
+            "−3.3%",
+            "$4.5M",
+            "#247",
+            ""
+          ],
+          [
+            "BP (Backpack)",
+            "$1.037",
+            "−15.4%",
+            "−12.4%",
+            "−6.4%",
+            "$18.9M",
+            "#163",
+            "TRENDING+DOWN"
+          ],
+          [
+            "FIL (Filecoin)",
+            "$1.024",
+            "−12.8%",
+            "—",
+            "—",
+            "—",
+            "#85",
+            ""
+          ],
+          [
+            "BR (Bedrock)",
+            "$0.526",
+            "−12.8%",
+            "−29.3%",
+            "−1.6%",
+            "$45.9M",
+            "#220",
+            "CAPITULATION"
+          ],
+          [
+            "MON (Monad)",
+            "$0.026",
+            "−11.1%",
+            "−9.3%",
+            "+0.6%",
+            "$55.6M",
+            "#148",
+            ""
+          ],
+          [
+            "APT (Aptos)",
+            "$0.746",
+            "−10.8%",
+            "—",
+            "—",
+            "—",
+            "#100",
+            ""
+          ],
+          [
+            "ARB (Arbitrum)",
+            "$0.183",
+            "−10.6%",
+            "—",
+            "—",
+            "—",
+            "#70",
+            ""
+          ],
+          [
+            "JTO (Jito)",
+            "$0.496",
+            "−10.6%",
+            "−8.9%",
+            "~0%",
+            "$37.4M",
+            "#161",
+            ""
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "$0.0084",
+            "−10.2%",
+            "−15.5%",
+            "−0.6%",
+            "$237M",
+            "#110",
+            "TRENDING+DOWN, CAPITULATION"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trending-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending-heading",
+        "trending-table"
+      ]
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "SWORDINU (inu wif sword)",
+            "#839",
+            "$0.0213",
+            "—",
+            "MICROCAP"
+          ],
+          [
+            "TRUMP (Official Trump)",
+            "#113",
+            "$1.84",
+            "—",
+            ""
+          ],
+          [
+            "QTC (Quantus)",
+            "#723",
+            "$103.7",
+            "—",
+            "MICROCAP"
+          ],
+          [
+            "PONS",
+            "#157",
+            "$0.395",
+            "—",
+            ""
+          ],
+          [
+            "PRL (Pearl)",
+            "#118",
+            "$1.44",
+            "+27.0%",
+            "TRENDING+UP"
+          ],
+          [
+            "NEAR Protocol",
+            "#21",
+            "$5.11",
+            "—",
+            "MAJOR"
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#110",
+            "$0.0084",
+            "−10.2%",
+            "TRENDING+DOWN, CAPITULATION"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "notable-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-heading",
+        "notable-item1",
+        "notable-item2",
+        "notable-item3",
+        "notable-item4"
+      ]
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-item1": {
+      "type": "Text",
+      "props": {
+        "text": "GRX: #191 up +62% on $2.3M vol — [PUMP-RISK]; negligible liquidity for size of move",
+        "variant": "body"
+      }
+    },
+    "notable-item2": {
+      "type": "Text",
+      "props": {
+        "text": "SAND: +25% / 7d +88% — [BREAKOUT]; gaming rotation active, MANA also +4.8%",
+        "variant": "body"
+      }
+    },
+    "notable-item3": {
+      "type": "Text",
+      "props": {
+        "text": "BR: yesterday's #1 pump (+48%) now [CAPITULATION] at −12.8% — pump arc closed",
+        "variant": "body"
+      }
+    },
+    "notable-item4": {
+      "type": "Text",
+      "props": {
+        "text": "PENGU: trending + [CAPITULATION]; $237M vol on $530M mcap = heavy distribution",
+        "variant": "body"
+      }
+    }
+  }
+}
