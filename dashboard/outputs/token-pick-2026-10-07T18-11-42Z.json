@@ -1,0 +1,309 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-10-07"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "h_sand",
+        "stack_sand_header",
+        "stack_sand_pricing",
+        "text_score_breakdown",
+        "text_catalyst",
+        "alert_risk_sand",
+        "text_vs_recent",
+        "sep_1",
+        "h_market",
+        "stack_market_header",
+        "stack_market_data",
+        "text_resolution_date",
+        "text_inputs",
+        "text_thesis",
+        "alert_risk_market",
+        "sep_2",
+        "text_footer"
+      ]
+    },
+    "h_sand": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: SAND",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_sand_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_sand",
+        "stat_sand_signal"
+      ]
+    },
+    "badge_sand": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "stat_sand_signal": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "9/10"
+      },
+      "children": []
+    },
+    "stack_sand_pricing": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_price",
+        "stat_24h",
+        "stat_7d",
+        "stat_mcap",
+        "stat_vol",
+        "stat_vol_mcap_ratio"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.0819"
+      },
+      "children": []
+    },
+    "stat_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+25.1%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+87.6%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$241M"
+      },
+      "children": []
+    },
+    "stat_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$271M"
+      },
+      "children": []
+    },
+    "stat_vol_mcap_ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap Ratio",
+        "value": "1.13"
+      },
+      "children": []
+    },
+    "text_score_breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2] = 9/10",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: Gaming sector rotation entering day 5 with no reversal — BTC fell 2.9% today while SAND gained 25%, strongest relative-strength signal this week; Coin Bureau published bullish SAND price target; Korean retail flows confirmed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert_risk_sand": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "~1B SAND on exchanges (33% of supply, one-year-high reserves) — supply overhang can flip into a flush without warning; no new fundamental catalyst (no game launch or partnership); late entry on extended run",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "text_vs_recent": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first-time pick — SAND was token-movers BREAKOUT flag Oct 2/3 but never a daily pick",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "h_market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will the Democratic Party control the House after 2026 Midterms?",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_market_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge_market",
+        "stat_market_edge"
+      ]
+    },
+    "badge_market": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat_market_edge": {
+      "type": "Stat",
+      "props": {
+        "label": "Edge",
+        "value": "9.5pp"
+      },
+      "children": []
+    },
+    "stack_market_data": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_yes_odds",
+        "stat_no_odds",
+        "stat_market_vol",
+        "stat_fair_yes"
+      ]
+    },
+    "stat_yes_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "YES (Current Odds)",
+        "value": "92.5¢"
+      },
+      "children": []
+    },
+    "stat_no_odds": {
+      "type": "Stat",
+      "props": {
+        "label": "NO (Current Odds)",
+        "value": "7.5¢"
+      },
+      "children": []
+    },
+    "stat_market_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$303k"
+      },
+      "children": []
+    },
+    "stat_fair_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES Probability",
+        "value": "~83%"
+      },
+      "children": []
+    },
+    "text_resolution_date": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-11-04",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_inputs": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: D+8 generic ballot average across polls; Rs hold 218-212 majority (6 seats); historical avg midterm seat loss for unpopular president ≈ 15-20 seats",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: 92.5¢ overprices Democratic certainty — D+8 lead is real but redistricted seats and 6-week window justify discount to ~83%; BUY NO",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "alert_risk_market": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "if generic ballot widens to D+12+ (Emerson already at D+11), probability approaches or exceeds 92.5% — edge vanishes; any Trump approval shock accelerates",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_footer": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok\n\nDisclaimer: not financial advice — pattern-matching only",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
