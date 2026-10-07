@@ -1,0 +1,327 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-10-07"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "focus-section",
+        "sep-1",
+        "yesterday-section",
+        "sep-2",
+        "watch-section",
+        "sep-3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. RENDER position — why now: Permissionless Main Stage panel 3 days out; exit window opens Oct 10 post-catalyst",
+        "variant": "body"
+      }
+    },
+    "focus-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. ZRO — why now: day-4 post-announcement, no new signal — 5-arc institutional fade threshold reached",
+        "variant": "body"
+      }
+    },
+    "focus-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Agentic Payments / AI compute — why now: x402 hit 100M txs; narrative has hard data, run likely extends",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-heading",
+        "yesterday-item-1",
+        "yesterday-item-2",
+        "yesterday-item-3",
+        "yesterday-item-4",
+        "yesterday-item-5"
+      ]
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-moved-1",
+        "text-yesterday-1"
+      ]
+    },
+    "badge-moved-1": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text-yesterday-1": {
+      "type": "Text",
+      "props": {
+        "text": "Skill health: all 6 core skills at 0 consecutive failures (was cluster of 5 on Oct 6)",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-moved-2",
+        "text-yesterday-2"
+      ]
+    },
+    "badge-moved-2": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text-yesterday-2": {
+      "type": "Text",
+      "props": {
+        "text": "RENDER: token-pick active (+9.9%/24h Oct 6); Permissionless Oct 10 Main Stage confirmed (Jules Urbach, 10:10–10:40 AM)",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-moved-3",
+        "text-yesterday-3"
+      ]
+    },
+    "badge-moved-3": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text-yesterday-3": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments: x402 crossed 100M transactions on Base; narrative extended RIDE w/ hard data",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-moved-4",
+        "text-yesterday-4"
+      ]
+    },
+    "badge-moved-4": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      }
+    },
+    "text-yesterday-4": {
+      "type": "Text",
+      "props": {
+        "text": "MON: sell-the-news arc fully closed (-7.6% Oct 6); five-arc institutional pattern confirmed",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-stuck",
+        "text-yesterday-5"
+      ]
+    },
+    "badge-stuck": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      }
+    },
+    "text-yesterday-5": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow: 1 consecutive failure, success_rate 0.74 — below 0.8 threshold; monitor today",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-item-1",
+        "watch-item-2"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic payment activity tops 100M transactions on Base — x402 value quality 49%→95% txs above $1; narrative not hype anymore → focus #3",
+        "variant": "body"
+      }
+    },
+    "watch-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "RENDER Main Stage panel confirmed at Permissionless Oct 10 — Jules Urbach / Crypto×AI panel = real catalyst, not announcement → focus #1",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-item-1",
+        "running-item-2",
+        "running-item-3",
+        "running-item-4",
+        "running-item-5"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC (madebyshun/blue-agent)",
+        "variant": "body"
+      }
+    },
+    "running-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
