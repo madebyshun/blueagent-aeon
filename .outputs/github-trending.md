@@ -1,32 +1,27 @@
-*GitHub Trending — 2026-10-06*
+*GitHub Trending — 2026-10-07*
 
-*Top pick* — [morluto/rea](https://github.com/morluto/rea)
-The first framework to fully chain binary analysis with LLM decompilation, opening a new category of agentic static analysis tooling.
+*Top pick* — [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
+Cloudflare drops a production multi-agent security audit skill — multi-phase, independently verified findings that run inside any coding agent.
 
 *AI/ML*
-• [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) — ★ 620 today (17.8k total) · Python · [ACCELERATING]
-Hooks LLM agents into parametric CAD generation — design and modify mechanical parts without CAD-specific training.
+• [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) — ★ 578 today (97.5k total) · TypeScript · [ACCELERATING]
+Persistent context across sessions for any AI agent — captures decisions so agents don't restart cold each run.
 
-• [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — ★ 947 today (77.5k total) · JavaScript · [ACCELERATING]
-Teaches AI agents how to make design decisions via structured tokens — eliminates generic look-and-feel in generated UIs.
+• [trycua/cua](https://github.com/trycua/cua) — ★ 229 today (28.6k total) · Rust · [RETURNING]
+Rust drivers for computer-use 2.0 — cross-OS fleets and training benchmarks, active dev pushed today.
 
-• [deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM) — ★ 363 today (8.6k total) · CUDA · [RETURNING]
-DeepSeek's GPU GEMM kernels, openly published — clean separation of the matrix math powering their LLM training stack.
+• [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — ★ 538 today (25.8k total) · JavaScript · [ACCELERATING]
+Cloudflare's multi-phase security audit skill for coding agents — independently verifies findings against your codebase.
 
 *Devtools*
-• [morluto/rea](https://github.com/morluto/rea) — ★ 2.9k today (7.6k total) · TypeScript · [RETURNING]
-Feeds any binary or app behavior into an LLM pipeline that produces structured decompilation — point-and-reverse-engineer anything.
+• [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — ★ 828 today (44.6k total) · HTML · [ACCELERATING]
+Updated yesterday: 42 opinionated diagram types for Claude/Copilot — keeps AI-generated diagrams editorial-grade, not generic boxes.
 
-• [tester-army/e2e](https://github.com/tester-army/e2e) — ★ 1.7k today (5.8k total) · TypeScript · [ACCELERATING]
-Single TypeScript config covers web and mobile e2e — no more separate Playwright and Appium test suites.
+• [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — ★ 453 today (102.5k total) · JavaScript · [ACCELERATING]
+Addyosmani's production AI coding agent skills — battle-tested patterns from one of web performance's most-cited engineers.
 
-*Web/Apps*
-• [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) — ★ 1.4k today (5.2k total) · JavaScript · [ACCELERATING]
-Self-hostable Hevy/Strong alternative — routine planner, workout logger, body-weight tracker with no subscription or data lock-in.
-
-*Other*
-• [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) — ★ 943 today (5.6k total) · C++ · [ACCELERATING]
-Ports PS5 native executables to Linux/Windows using binary translation — no source code or devkit required.
+• [EpicGames/raddebugger](https://github.com/EpicGames/raddebugger) — ★ 82 today (7.8k total) · C · [RETURNING]
+Epic Games' native multi-process graphical debugger — pushed today, rare production-grade C debug tooling from a AAA studio.
 
 ---
-sources: trending=ok · gh_api=ok · kept 7/12
+sources: trending=ok · gh_api=ok · kept 6/13
