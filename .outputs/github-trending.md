@@ -1,27 +1,22 @@
-*GitHub Trending — 2026-10-07*
+*GitHub Trending — 2026-10-08*
 
-*Top pick* — [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
-Cloudflare drops a production multi-agent security audit skill — multi-phase, independently verified findings that run inside any coding agent.
+*Top pick* — [morluto/rea](https://github.com/morluto/rea)
+The only agentic reverse-engineering tool on today's chart, pulling 7.7K daily stars while actively pushed — a sign it's maturing into infrastructure, not staying a demo.
 
 *AI/ML*
-• [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) — ★ 578 today (97.5k total) · TypeScript · [ACCELERATING]
-Persistent context across sessions for any AI agent — captures decisions so agents don't restart cold each run.
+• [morluto/rea](https://github.com/morluto/rea) — ★ 7.7k today (20.6k total) · TypeScript · [ACCELERATING]
+Agent-driven reverse engineering from app behavior to native binaries; pushed today with 7.7K daily stars.
 
-• [trycua/cua](https://github.com/trycua/cua) — ★ 229 today (28.6k total) · Rust · [RETURNING]
-Rust drivers for computer-use 2.0 — cross-OS fleets and training benchmarks, active dev pushed today.
-
-• [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — ★ 538 today (25.8k total) · JavaScript · [ACCELERATING]
-Cloudflare's multi-phase security audit skill for coding agents — independently verifies findings against your codebase.
+• [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — ★ 766 today (27.3k total) · Python · [ACCELERATING]
+Anthropic's open-source plugin layer for Claude Cowork — first public extensibility hooks for AI knowledge work.
 
 *Devtools*
-• [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — ★ 828 today (44.6k total) · HTML · [ACCELERATING]
-Updated yesterday: 42 opinionated diagram types for Claude/Copilot — keeps AI-generated diagrams editorial-grade, not generic boxes.
+• [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) — ★ 4.6k today (14k total) · C++ · [ACCELERATING]
+Cross-compiles PS5 executables to Linux/Windows without recompilation; 4.9× daily star spike + pushed today signals a major update.
 
-• [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — ★ 453 today (102.5k total) · JavaScript · [ACCELERATING]
-Addyosmani's production AI coding agent skills — battle-tested patterns from one of web performance's most-cited engineers.
-
-• [EpicGames/raddebugger](https://github.com/EpicGames/raddebugger) — ★ 82 today (7.8k total) · C · [RETURNING]
-Epic Games' native multi-process graphical debugger — pushed today, rare production-grade C debug tooling from a AAA studio.
+*Other*
+• [storytold/artcraft](https://github.com/storytold/artcraft) — ★ 1.5k today (6.7k total) · Rust · [RETURNING]
+Rust creative engine for artists/filmmakers; 4-year-old project hitting 1.5K daily stars today suggests a new release just dropped.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/13
+sources: trending=ok · gh_api=ok · kept 4/9

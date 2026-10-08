@@ -1,0 +1,455 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-10-08"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-top-pick",
+        "sep-1",
+        "section-aiml",
+        "sep-2",
+        "section-devtools",
+        "sep-3",
+        "section-other",
+        "sep-4",
+        "footer"
+      ]
+    },
+    "section-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-top-pick",
+        "link-rea-top",
+        "desc-rea-top"
+      ]
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "link-rea-top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "morluto/rea",
+        "href": "https://github.com/morluto/rea"
+      },
+      "children": []
+    },
+    "desc-rea-top": {
+      "type": "Text",
+      "props": {
+        "text": "The only agentic reverse-engineering tool on today's chart, pulling 7.7K daily stars while actively pushed — a sign it's maturing into infrastructure, not staying a demo.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-aiml",
+        "repo-rea-aiml",
+        "repo-anthropic"
+      ]
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "repo-rea-aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack-rea-meta",
+        "desc-rea-aiml"
+      ]
+    },
+    "stack-rea-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link-rea-aiml",
+        "stat-rea-today",
+        "stat-rea-total",
+        "badge-rea-lang",
+        "badge-rea-status"
+      ]
+    },
+    "link-rea-aiml": {
+      "type": "StoryLink",
+      "props": {
+        "title": "morluto/rea",
+        "href": "https://github.com/morluto/rea"
+      },
+      "children": []
+    },
+    "stat-rea-today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "7.7k"
+      },
+      "children": []
+    },
+    "stat-rea-total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "20.6k"
+      },
+      "children": []
+    },
+    "badge-rea-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-rea-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "desc-rea-aiml": {
+      "type": "Text",
+      "props": {
+        "text": "Agent-driven reverse engineering from app behavior to native binaries; pushed today with 7.7K daily stars.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo-anthropic": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack-anthropic-meta",
+        "desc-anthropic"
+      ]
+    },
+    "stack-anthropic-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link-anthropic",
+        "stat-anthropic-today",
+        "stat-anthropic-total",
+        "badge-anthropic-lang",
+        "badge-anthropic-status"
+      ]
+    },
+    "link-anthropic": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anthropics/knowledge-work-plugins",
+        "href": "https://github.com/anthropics/knowledge-work-plugins"
+      },
+      "children": []
+    },
+    "stat-anthropic-today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "766"
+      },
+      "children": []
+    },
+    "stat-anthropic-total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "27.3k"
+      },
+      "children": []
+    },
+    "badge-anthropic-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-anthropic-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "desc-anthropic": {
+      "type": "Text",
+      "props": {
+        "text": "Anthropic's open-source plugin layer for Claude Cowork — first public extensibility hooks for AI knowledge work.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-devtools",
+        "repo-anyps5"
+      ]
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "repo-anyps5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack-anyps5-meta",
+        "desc-anyps5"
+      ]
+    },
+    "stack-anyps5-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link-anyps5",
+        "stat-anyps5-today",
+        "stat-anyps5-total",
+        "badge-anyps5-lang",
+        "badge-anyps5-status"
+      ]
+    },
+    "link-anyps5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "boykopovar/AnyPS5",
+        "href": "https://github.com/boykopovar/AnyPS5"
+      },
+      "children": []
+    },
+    "stat-anyps5-today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "4.6k"
+      },
+      "children": []
+    },
+    "stat-anyps5-total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "14k"
+      },
+      "children": []
+    },
+    "badge-anyps5-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C++",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-anyps5-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "desc-anyps5": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-compiles PS5 executables to Linux/Windows without recompilation; 4.9× daily star spike + pushed today signals a major update.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-other": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-other",
+        "repo-artcraft"
+      ]
+    },
+    "heading-other": {
+      "type": "Heading",
+      "props": {
+        "text": "Other",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "repo-artcraft": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stack-artcraft-meta",
+        "desc-artcraft"
+      ]
+    },
+    "stack-artcraft-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link-artcraft",
+        "stat-artcraft-today",
+        "stat-artcraft-total",
+        "badge-artcraft-lang",
+        "badge-artcraft-status"
+      ]
+    },
+    "link-artcraft": {
+      "type": "StoryLink",
+      "props": {
+        "title": "storytold/artcraft",
+        "href": "https://github.com/storytold/artcraft"
+      },
+      "children": []
+    },
+    "stat-artcraft-today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "1.5k"
+      },
+      "children": []
+    },
+    "stat-artcraft-total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "6.7k"
+      },
+      "children": []
+    },
+    "badge-artcraft-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-artcraft-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "desc-artcraft": {
+      "type": "Text",
+      "props": {
+        "text": "Rust creative engine for artists/filmmakers; 4-year-old project hitting 1.5K daily stars today suggests a new release just dropped.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/9",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
