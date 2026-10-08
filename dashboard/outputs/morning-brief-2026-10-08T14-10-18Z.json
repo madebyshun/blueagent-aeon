@@ -1,0 +1,297 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-10-08"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "yesterday-section",
+        "sep2",
+        "watch-section",
+        "sep3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Sui Basecamp (Oct 7-8, Singapore) — event live now, Mysten AI×DeFi product reveal imminent"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. RENDER Oct 10 — 2 days to catalyst, exit window opens post-panel; size accordingly"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. deal-flow skill — 0.74 success rate, last failed Oct 05; next run Mon Oct 12, review before then"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-heading",
+        "agentic-item",
+        "gaming-item",
+        "rwa-item",
+        "zro-item",
+        "sui-item"
+      ]
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "agentic-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-agentic",
+        "text-agentic"
+      ]
+    },
+    "badge-agentic": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED to FADE",
+        "variant": "destructive"
+      }
+    },
+    "text-agentic": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments: TRM Labs audit confirms AI agents only 0.6–7.5% of x402 value; rest is bots"
+      }
+    },
+    "gaming-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-gaming",
+        "text-gaming"
+      ]
+    },
+    "badge-gaming": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED to RIDE",
+        "variant": "secondary"
+      }
+    },
+    "text-gaming": {
+      "type": "Text",
+      "props": {
+        "text": "Gaming/SAND: day-5 +25.1% while BTC -2.9%; decoupling confirmed, token-pick validated"
+      }
+    },
+    "rwa-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-rwa",
+        "text-rwa"
+      ]
+    },
+    "badge-rwa": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED to RIDE",
+        "variant": "secondary"
+      }
+    },
+    "text-rwa": {
+      "type": "Text",
+      "props": {
+        "text": "RWA/Chainlink: CCIP 2.0 + Fulcrum cross-chain financing launched"
+      }
+    },
+    "zro-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-zro",
+        "text-zro"
+      ]
+    },
+    "badge-zro": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE triggered",
+        "variant": "destructive"
+      }
+    },
+    "text-zro": {
+      "type": "Text",
+      "props": {
+        "text": "ZRO: 6th consecutive institutional-announcement fade arc; exit"
+      }
+    },
+    "sui-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-sui",
+        "text-sui"
+      ]
+    },
+    "badge-sui": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN live",
+        "variant": "outline"
+      }
+    },
+    "text-sui": {
+      "type": "Text",
+      "props": {
+        "text": "Sui/Mysten: Basecamp event confirmed Oct 7-8; FRONT-RUN live"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-alert"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Sui Basecamp",
+        "message": "Mysten claims \"solved AI agents moving real money in DeFi\" — product reveal today → confirms FRONT-RUN, watch for product name + testnet",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      }
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    }
+  }
+}
