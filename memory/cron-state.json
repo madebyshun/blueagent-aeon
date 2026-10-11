@@ -70,13 +70,13 @@
   "narrative-tracker": {
     "last_status": "failed",
     "last_success": "2026-10-07T19:31:41Z",
-    "total_runs": 116,
+    "total_runs": 117,
     "total_successes": 109,
-    "total_failures": 7,
-    "consecutive_failures": 2,
-    "success_rate": 0.94,
+    "total_failures": 8,
+    "consecutive_failures": 3,
+    "success_rate": 0.93,
     "last_quality_score": 4,
-    "last_failed": "2026-10-10T17:56:06Z",
+    "last_failed": "2026-10-11T18:17:32Z",
     "last_error": ":0},\"refused\":{\"depth_limit\":0,\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"safety_stops\":0,\"is_error\":true,\"num_turns\":1,\"subtype\":\"success\",\"api_error_status\":403,\"api_error_code\":\"oauth_not_all"
   },
   "security-digest": {
