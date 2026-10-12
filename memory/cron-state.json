@@ -33,12 +33,12 @@
     "last_error": ":0},\"refused\":{\"depth_limit\":0,\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"safety_stops\":0,\"is_error\":true,\"num_turns\":1,\"subtype\":\"success\",\"api_error_status\":403,\"api_error_code\":\"oauth_not_all"
   },
   "github-trending": {
-    "last_status": "failed",
-    "last_success": "2026-10-08T16:00:44Z",
-    "total_runs": 137,
-    "total_successes": 124,
+    "last_status": "success",
+    "last_success": "2026-10-12T18:24:08Z",
+    "total_runs": 138,
+    "total_successes": 125,
     "total_failures": 13,
-    "consecutive_failures": 3,
+    "consecutive_failures": 0,
     "success_rate": 0.91,
     "last_failed": "2026-10-11T15:11:12Z",
     "last_error": ":0},\"refused\":{\"depth_limit\":0,\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"safety_stops\":0,\"is_error\":true,\"num_turns\":1,\"subtype\":\"success\",\"api_error_status\":403,\"api_error_code\":\"oauth_not_all"
