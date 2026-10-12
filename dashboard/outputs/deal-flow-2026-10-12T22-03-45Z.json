@@ -1,0 +1,804 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Deal Flow",
+        "description": "The agent economy has a funding thesis: this week capital clustered on every layer of autonomous agent infrastructure — structured outputs (TypeSafe $870M), sovereign wallets (Manus $500M+), retail trading agents (Catalyst $30M), open-source rails (Nous $90M) — while AI-embedded fintech repriced to infra multiples (Ramp $60B) and quantum compute crossed from theory to CapEx debt (Oratomic $475M)."
+      },
+      "children": [
+        "stack-deals"
+      ]
+    },
+    "stack-deals": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "deal-1",
+        "sep-1",
+        "deal-2",
+        "sep-2",
+        "deal-3",
+        "sep-3",
+        "deal-4",
+        "sep-4",
+        "deal-5",
+        "sep-5",
+        "deal-6",
+        "sep-6",
+        "deal-7",
+        "sep-7",
+        "deal-8",
+        "sep-8",
+        "sources"
+      ]
+    },
+    "deal-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-1",
+        "desc-1",
+        "grid-1",
+        "investors-1",
+        "why-1"
+      ]
+    },
+    "h-1": {
+      "type": "Heading",
+      "props": {
+        "text": "TypeSafe AI",
+        "level": "h3"
+      }
+    },
+    "desc-1": {
+      "type": "Text",
+      "props": {
+        "text": "AI model returning machine-usable structured outputs only"
+      }
+    },
+    "grid-1": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-1a",
+        "stat-1b"
+      ]
+    },
+    "stat-1a": {
+      "type": "Stat",
+      "props": {
+        "label": "Series A",
+        "value": "$870M",
+        "delta": "+37×",
+        "trend": "up"
+      }
+    },
+    "stat-1b": {
+      "type": "Stat",
+      "props": {
+        "label": "Post Valuation",
+        "value": "$7.5B"
+      }
+    },
+    "investors-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1a",
+        "badge-1b",
+        "badge-1c"
+      ]
+    },
+    "badge-1a": {
+      "type": "Badge",
+      "props": {
+        "text": "a16z (Lead)"
+      }
+    },
+    "badge-1b": {
+      "type": "Badge",
+      "props": {
+        "text": "Sequoia"
+      }
+    },
+    "badge-1c": {
+      "type": "Badge",
+      "props": {
+        "text": "DCVC"
+      }
+    },
+    "why-1": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Seed-to-Series A in 3 weeks at 37× confirms a16z treats structured AI output as autonomous agent infrastructure, not application layer.",
+        "variant": "muted"
+      }
+    },
+    "deal-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-2",
+        "desc-2",
+        "stat-2",
+        "investors-2",
+        "why-2"
+      ]
+    },
+    "h-2": {
+      "type": "Heading",
+      "props": {
+        "text": "Manus (Butterfly Effect)",
+        "level": "h3"
+      }
+    },
+    "desc-2": {
+      "type": "Text",
+      "props": {
+        "text": "AI agents, vibe-coding, Cue personal-agent identity app"
+      }
+    },
+    "stat-2": {
+      "type": "Stat",
+      "props": {
+        "label": "Funding Round",
+        "value": "$500M+"
+      }
+    },
+    "investors-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-2a",
+        "badge-2b",
+        "badge-2c",
+        "badge-2d"
+      ]
+    },
+    "badge-2a": {
+      "type": "Badge",
+      "props": {
+        "text": "Boyu Capital (Lead)"
+      }
+    },
+    "badge-2b": {
+      "type": "Badge",
+      "props": {
+        "text": "IDG Capital (Lead)"
+      }
+    },
+    "badge-2c": {
+      "type": "Badge",
+      "props": {
+        "text": "Tencent"
+      }
+    },
+    "badge-2d": {
+      "type": "Badge",
+      "props": {
+        "text": "HSG"
+      }
+    },
+    "why-2": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Cue gives AI agents email, phone, and wallet — first consumer product validating agentic financial identity at $500M+ scale.",
+        "variant": "muted"
+      }
+    },
+    "deal-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-3",
+        "desc-3",
+        "grid-3",
+        "investors-3",
+        "why-3"
+      ]
+    },
+    "h-3": {
+      "type": "Heading",
+      "props": {
+        "text": "Ramp",
+        "level": "h3"
+      }
+    },
+    "desc-3": {
+      "type": "Text",
+      "props": {
+        "text": "AI-native corporate card and spend management platform"
+      }
+    },
+    "grid-3": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-3a",
+        "stat-3b"
+      ]
+    },
+    "stat-3a": {
+      "type": "Stat",
+      "props": {
+        "label": "Latest Valuation",
+        "value": "$60B",
+        "delta": "+36%",
+        "trend": "up"
+      }
+    },
+    "stat-3b": {
+      "type": "Stat",
+      "props": {
+        "label": "vs Jun 2026",
+        "value": "$44B"
+      }
+    },
+    "investors-3": {
+      "type": "Text",
+      "props": {
+        "text": "Lead: Not disclosed"
+      }
+    },
+    "why-3": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Ramp $60B — 36% above June — confirms AI-embedded fintech reprices to infrastructure multiples, not SaaS comps.",
+        "variant": "muted"
+      }
+    },
+    "deal-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-4",
+        "desc-4",
+        "grid-4",
+        "investors-4",
+        "why-4"
+      ]
+    },
+    "h-4": {
+      "type": "Heading",
+      "props": {
+        "text": "Oratomic",
+        "level": "h3"
+      }
+    },
+    "desc-4": {
+      "type": "Text",
+      "props": {
+        "text": "Fault-tolerant neutral-atom quantum computer targeting 20,000 qubits"
+      }
+    },
+    "grid-4": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-4a",
+        "stat-4b"
+      ]
+    },
+    "stat-4a": {
+      "type": "Stat",
+      "props": {
+        "label": "Series B",
+        "value": "$475M"
+      }
+    },
+    "stat-4b": {
+      "type": "Stat",
+      "props": {
+        "label": "Post Valuation",
+        "value": "$5.5B",
+        "delta": "+3.7×",
+        "trend": "up"
+      }
+    },
+    "investors-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-4a",
+        "badge-4b",
+        "badge-4c",
+        "badge-4d",
+        "badge-4e",
+        "badge-4f"
+      ]
+    },
+    "badge-4a": {
+      "type": "Badge",
+      "props": {
+        "text": "ARCH Venture (Lead)"
+      }
+    },
+    "badge-4b": {
+      "type": "Badge",
+      "props": {
+        "text": "Spark"
+      }
+    },
+    "badge-4c": {
+      "type": "Badge",
+      "props": {
+        "text": "Khosla"
+      }
+    },
+    "badge-4d": {
+      "type": "Badge",
+      "props": {
+        "text": "Index"
+      }
+    },
+    "badge-4e": {
+      "type": "Badge",
+      "props": {
+        "text": "Gen Catalyst"
+      }
+    },
+    "badge-4f": {
+      "type": "Badge",
+      "props": {
+        "text": "Bezos"
+      }
+    },
+    "why-4": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Six top-tier funds tripling valuation in 3 months signals post-NISQ quantum shifted from lab-publishing to funded engineering execution.",
+        "variant": "muted"
+      }
+    },
+    "deal-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-5",
+        "desc-5",
+        "stat-5",
+        "investors-5",
+        "why-5"
+      ]
+    },
+    "h-5": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "desc-5": {
+      "type": "Text",
+      "props": {
+        "text": "AI trading agents for retail investors across stocks and crypto"
+      }
+    },
+    "stat-5": {
+      "type": "Stat",
+      "props": {
+        "label": "Seed",
+        "value": "$30M"
+      }
+    },
+    "investors-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-5a",
+        "badge-5b",
+        "badge-5c",
+        "badge-5d",
+        "badge-5e"
+      ]
+    },
+    "badge-5a": {
+      "type": "Badge",
+      "props": {
+        "text": "Sequoia (Lead)"
+      }
+    },
+    "badge-5b": {
+      "type": "Badge",
+      "props": {
+        "text": "Jump Trading"
+      }
+    },
+    "badge-5c": {
+      "type": "Badge",
+      "props": {
+        "text": "Coinbase"
+      }
+    },
+    "badge-5d": {
+      "type": "Badge",
+      "props": {
+        "text": "Lux"
+      }
+    },
+    "badge-5e": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak XV"
+      }
+    },
+    "why-5": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Jump Trading and Coinbase co-signing Sequoia seed confirms TradFi-crypto convergence on AI-native retail agents is funded from both sides.",
+        "variant": "muted"
+      }
+    },
+    "deal-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-6",
+        "desc-6",
+        "grid-6",
+        "investors-6",
+        "why-6"
+      ]
+    },
+    "h-6": {
+      "type": "Heading",
+      "props": {
+        "text": "Instinct",
+        "level": "h3"
+      }
+    },
+    "desc-6": {
+      "type": "Text",
+      "props": {
+        "text": "Personal AI assistant for everyday tasks"
+      }
+    },
+    "grid-6": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-6a",
+        "stat-6b"
+      ]
+    },
+    "stat-6a": {
+      "type": "Stat",
+      "props": {
+        "label": "Series C",
+        "value": "$1B"
+      }
+    },
+    "stat-6b": {
+      "type": "Stat",
+      "props": {
+        "label": "Post Valuation",
+        "value": "$10B"
+      }
+    },
+    "investors-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-6a",
+        "badge-6b",
+        "badge-6c"
+      ]
+    },
+    "badge-6a": {
+      "type": "Badge",
+      "props": {
+        "text": "Sequoia (Co-lead)"
+      }
+    },
+    "badge-6b": {
+      "type": "Badge",
+      "props": {
+        "text": "Benchmark (Co-lead)"
+      }
+    },
+    "badge-6c": {
+      "type": "Badge",
+      "props": {
+        "text": "Coatue (Co-lead)"
+      }
+    },
+    "why-6": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Three-firm VC consensus at $10B — Sequoia, Benchmark, Coatue — confirms personal AI subscriptions sustain infrastructure-level valuations, not feature-tier multiples.",
+        "variant": "muted"
+      }
+    },
+    "deal-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-7",
+        "desc-7",
+        "grid-7",
+        "investors-7",
+        "why-7"
+      ]
+    },
+    "h-7": {
+      "type": "Heading",
+      "props": {
+        "text": "Nous Research",
+        "level": "h3"
+      }
+    },
+    "desc-7": {
+      "type": "Text",
+      "props": {
+        "text": "Open-source AI agents; Hermes cloned 24M times"
+      }
+    },
+    "grid-7": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-7a",
+        "stat-7b"
+      ]
+    },
+    "stat-7a": {
+      "type": "Stat",
+      "props": {
+        "label": "Series B",
+        "value": "$90M"
+      }
+    },
+    "stat-7b": {
+      "type": "Stat",
+      "props": {
+        "label": "Post Valuation",
+        "value": "$1.5B"
+      }
+    },
+    "investors-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-7a",
+        "badge-7b",
+        "badge-7c",
+        "badge-7d",
+        "badge-7e"
+      ]
+    },
+    "badge-7a": {
+      "type": "Badge",
+      "props": {
+        "text": "Robot Ventures (Lead)"
+      }
+    },
+    "badge-7b": {
+      "type": "Badge",
+      "props": {
+        "text": "NVIDIA"
+      }
+    },
+    "badge-7c": {
+      "type": "Badge",
+      "props": {
+        "text": "Microsoft M12"
+      }
+    },
+    "badge-7d": {
+      "type": "Badge",
+      "props": {
+        "text": "USV"
+      }
+    },
+    "badge-7e": {
+      "type": "Badge",
+      "props": {
+        "text": "YC"
+      }
+    },
+    "why-7": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: NVIDIA and Microsoft M12 co-investing signals hyperscalers are funding open-source agent rails as insurance against closed-model concentration risk.",
+        "variant": "muted"
+      }
+    },
+    "deal-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h-8",
+        "desc-8",
+        "grid-8",
+        "investors-8",
+        "why-8"
+      ]
+    },
+    "h-8": {
+      "type": "Heading",
+      "props": {
+        "text": "Armadin",
+        "level": "h3"
+      }
+    },
+    "desc-8": {
+      "type": "Text",
+      "props": {
+        "text": "AI-native autonomous cybersecurity platform"
+      }
+    },
+    "grid-8": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-8a",
+        "stat-8b"
+      ]
+    },
+    "stat-8a": {
+      "type": "Stat",
+      "props": {
+        "label": "Series B",
+        "value": "$255.5M"
+      }
+    },
+    "stat-8b": {
+      "type": "Stat",
+      "props": {
+        "label": "Post Valuation",
+        "value": "$2.5B+"
+      }
+    },
+    "investors-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-8a",
+        "badge-8b"
+      ]
+    },
+    "badge-8a": {
+      "type": "Badge",
+      "props": {
+        "text": "a16z (Co-lead)"
+      }
+    },
+    "badge-8b": {
+      "type": "Badge",
+      "props": {
+        "text": "Accel (Co-lead)"
+      }
+    },
+    "why-8": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Armadin $255M from a16z + Accel prices agentic security as infrastructure: agents create attack surfaces that legacy tools cannot instrument.",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep-8": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: crunchbase=ok, techcrunch=ok, cryptorank=fail (403), aift=fail | candidates=29 → kept=8",
+        "variant": "caption"
+      }
+    }
+  }
+}
