@@ -1,37 +1,41 @@
-*Token Movers — 2026-10-07*
+*Token Movers — 2026-10-12*
 
-_Broad risk-off — 3/100 top coins green; median top-50 −1.6%; BTC −2.9%, ETH −5.4%; L1s and DeFi hit hardest._
+_Risk-off — 83/100 top coins in the red, median 24h -2.1%; broad-based selling across majors and alts._
 
 *Top Winners (24h)*
-1. GRX (GRX Chain) — $21.17  +62.2% / 7d +62.0% / 1h ~0%  •  $2.3M / #191  [PUMP-RISK][BREAKOUT]
-2. PRL (Pearl) — $1.44  +27.0% / 7d +17.2% / 1h +1.2%  •  $7.2M / #118  [TRENDING+UP]
-3. SAND (The Sandbox) — $0.082  +25.1% / 7d +87.6% / 1h +0.7%  •  $271M / #168  [BREAKOUT]
-4. RAY (Raydium) — $2.43  +10.2% / 7d — / 1h —  •  $207M / #99  [TRENDING+UP]
-5. MANA (Decentraland) — $0.107  +4.8% / 7d +17.3% / 1h +1.1%  •  $45.7M / #188
+1. RSR (Reserve Rights) — $0.002297  +40.4% / 7d +34.9% / 1h +2.6%  •  $163M / #231  [BREAKOUT] [PUMP-RISK]
+2. PRL (Pearl) — $1.6600  +21.3% / 7d +39.5% / 1h +7.7%  •  $7M / #109  [TRENDING+UP]
+3. STX (Stacks) — $0.4458  +12.3% / 7d +17.0% / 1h +7.8%  •  $56M / #87
+4. BTW (Bitway) — $1.7700  +9.6% / 7d +35.8% / 1h +2.1%  •  $45M / #25
+5. Q (Quack AI) — $0.0306  +9.0% / 7d +43.4% / 1h +0.3%  •  $8M / #229
+6. BDX (Beldex) — $0.0871  +8.7% / 7d +20.9% / 1h +0.1%  •  $2M / #100
+7. RENDER (Render) — $2.1500  +7.6% / 7d +3.8% / 1h +2.3%  •  $110M / #76
+8. ZRO (LayerZero) — $2.2400  +7.3% / 7d +7.1% / 1h +0.9%  •  $181M / #86
+9. PYTH (Pyth Network) — $0.0838  +6.8% / 7d +6.7% / 1h -0.2%  •  $103M / #101
+10. TWT (Trust Wallet) — $0.5289  +3.7% / 7d -6.4% / 1h +0.5%  •  $8M / #178
 
 *Top Losers (24h)*
-1. STONK — $0.176  −17.3% / 7d −35.2% / 1h −1.5%  •  $12.5M / #231
-2. SHX (Stronghold) — $0.0069  −15.8% / 7d +20.6% / 1h −3.3%  •  $4.5M / #247
-3. BP (Backpack) — $1.037  −15.4% / 7d −12.4% / 1h −6.4%  •  $18.9M / #163  [TRENDING+DOWN]
-4. FIL (Filecoin) — $1.024  −12.8% / 7d — / 1h —  •  — / #85
-5. BR (Bedrock) — $0.526  −12.8% / 7d −29.3% / 1h −1.6%  •  $45.9M / #220  [CAPITULATION]
-6. MON (Monad) — $0.026  −11.1% / 7d −9.3% / 1h +0.6%  •  $55.6M / #148
-7. APT (Aptos) — $0.746  −10.8% / 7d — / 1h —  •  — / #100
-8. ARB (Arbitrum) — $0.183  −10.6% / 7d — / 1h —  •  — / #70
-9. JTO (Jito) — $0.496  −10.6% / 7d −8.9% / 1h ~0%  •  $37.4M / #161
-10. PENGU (Pudgy Penguins) — $0.0084  −10.2% / 7d −15.5% / 1h −0.6%  •  $237M / #110  [TRENDING+DOWN][CAPITULATION]
+1. STRK (Starknet) — $0.0945  -19.1% / 7d +80.6% / 1h -0.3%  •  $414M / #96  [CAPITULATION]
+2. PONS (Pons) — $0.2958  -16.6% / 7d -19.2% / 1h -0.2%  •  $49M / #190
+3. S (Sonic) — $0.0565  -14.0% / 7d +30.8% / 1h +0.4%  •  $163M / #180  [TRENDING+DOWN]
+4. DRV (Derive) — $0.4506  -11.4% / 7d +11.3% / 1h +0.3%  •  $10M / #125
+5. CARDS (Collector Crypt) — $0.2887  -11.1% / 7d +5.8% / 1h +0.8%  •  $8M / #162
+6. KAIA (Kaia) — $0.0469  -10.6% / 7d +15.4% / 1h +1.3%  •  $23M / #150
+7. UB (Unibase) — $0.1280  -10.5% / 7d -7.6% / 1h +0.2%  •  $10M / #142
+8. CFX (Conflux) — $0.0601  -10.1% / 7d +9.7% / 1h -0.4%  •  $33M / #145
+9. ORCA (Orca) — $2.1500  -8.4% / 7d +2.3% / 1h +0.9%  •  $18M / #245
+10. RAY (Raydium) — $2.2100  -8.3% / 7d +3.8% / 1h +2.1%  •  $56M / #106
 
 *Trending*
-1. SWORDINU (inu wif sword) — #839, $0.0213, 24h: —  [MICROCAP]
-2. TRUMP (Official Trump) — #113, $1.84, 24h: —
-3. QTC (Quantus) — #723, $103.7, 24h: —  [MICROCAP]
-4. PONS — #157, $0.395, 24h: —
-5. PRL (Pearl) — #118, $1.44, +27.0%  [TRENDING+UP]
-6. NEAR Protocol — #21, $5.11, 24h: —  [MAJOR]
-7. PENGU (Pudgy Penguins) — #110, $0.0084, −10.2%  [TRENDING+DOWN][CAPITULATION]
+1. Bunker Mode (BUNKER) — #853, N/A, 24h -12.6%
+2. Pearl (PRL) — #109, $1.6600, 24h +22.6%  [TRENDING+UP]
+3. NEAR Protocol (NEAR) — #20, $5.5000, 24h -2.6%  [MAJOR]
+4. Sonic (S) — #180, $0.0565, 24h -12.7%  [TRENDING+DOWN]
+5. Wormhole (W) — #236, $0.0210, 24h -8.3%  [TRENDING+DOWN]
+6. Bitcoin (BTC) — #1, $83,016.00, 24h -0.7%  [MAJOR]
+7. Pump.fun (PUMP) — #45, $0.005221, 24h -8.2%  [TRENDING+DOWN]
 
 *Notable*
-• GRX: #191 up +62% on $2.3M vol — [PUMP-RISK]; negligible liquidity for size of move
-• SAND: +25% / 7d +88% — [BREAKOUT]; gaming rotation active, MANA also +4.8%
-• BR: yesterday's #1 pump (+48%) now [CAPITULATION] at −12.8% — pump arc closed
-• PENGU: trending + [CAPITULATION]; $237M vol on $530M mcap = heavy distribution
+• RSR: #231 rank, up +40% — PUMP-RISK, low liquidity
+• PRL: trending + up +21% on volume — strong signal
+• STRK: down -19% on high relative volume — CAPITULATION signal
