@@ -1,17 +1,17 @@
-*Daily Pick — 2026-10-07*
+*Daily Pick — 2026-10-12*
 
-*Token: SAND* [HIGH] signal 9/10
-Price: $0.0819 (+25.1% 24h / +87.6% 7d) | mcap $241M | vol $271M (vol/mcap 1.13)
-Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2] = 9/10
-Catalyst: Gaming sector rotation entering day 5 with no reversal — BTC fell 2.9% today while SAND gained 25%, strongest relative-strength signal this week; Coin Bureau published bullish SAND price target; Korean retail flows confirmed
-Risk: ~1B SAND on exchanges (33% of supply, one-year-high reserves) — supply overhang can flip into a flush without warning; no new fundamental catalyst (no game launch or partnership); late entry on extended run
-Vs recent picks: first-time pick — SAND was token-movers BREAKOUT flag Oct 2/3 but never a daily pick
+*Token: RSR*  [HIGH]  signal 10/10
+Price: $0.00228 (+39.2% 24h / +34.9% 7d) | mcap $143M | vol $183M (vol/mcap 1.28)
+Score breakdown: [24h>0 +1, 7d>0 +1, both>5% +2, vol/mcap≥0.20 +3, RS vs BTC/ETH +2, DexScreener +1] = 10/10
+Catalyst: Upbit listed RSR in KRW and USDT markets today (Oct 12), opening a top Korean retail venue; September 25 governance vote locked in 4:1 high-burn rate with 86.27% support.
+Risk: Classic listing pump — RSR already +39% today; Korean exchange listings often trigger profit-taking once initial demand clears.
+Vs recent picks: First RSR pick — not in 7-day dedup list.
 
-*Market: "Will the Democratic Party control the House after 2026 Midterms?"* [MEDIUM] edge 9.5pp
-Current: YES 92.5¢ / NO 7.5¢ | 24h vol $303k | resolves: 2026-11-04
-Fair YES: ~83% (inputs: D+8 generic ballot average across polls; Rs hold 218-212 majority (6 seats); historical avg midterm seat loss for unpopular president ≈ 15-20 seats)
-Thesis: 92.5¢ overprices Democratic certainty — D+8 lead is real but redistricted seats and 6-week window justify discount to ~83%; BUY NO
-Risk: if generic ballot widens to D+12+ (Emerson already at D+11), probability approaches or exceeds 92.5% — edge vanishes; any Trump approval shock accelerates
+*Market: "Will the U.S. invade Iran before 2027?"*  [MEDIUM]  edge 9.5pp
+Current: YES 17.5¢ / NO 82.5¢ | 24h vol $464K | resolves: 2027-01-01
+Fair YES: ~8% (inputs: ceasefire-through-Oct-12 market at 99.8%; Congress passed 3rd War Powers resolution Sept 2026 limiting Trump; ground invasion requires months of logistics with only 81 days left)
+Thesis: Market overprices invasion at 17.5% — ongoing air/naval war + congressional headwinds make a ground invasion within 81 days unlikely. BUY NO at 82.5¢.
+Risk: A major Iranian provocation (Hormuz attack, US casualties) could force rapid escalation that breaks the timeline logic.
 
-sources: cg=ok, dex=fail, poly=ok
+sources: cg=ok, dex=ok, poly=ok
 not financial advice — pattern-matching only

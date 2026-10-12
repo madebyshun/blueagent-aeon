@@ -1,0 +1,435 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-10-12"
+      },
+      "children": [
+        "stack-root"
+      ]
+    },
+    "stack-root": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-token",
+        "separator-1",
+        "section-market",
+        "separator-2",
+        "footer"
+      ]
+    },
+    "section-token": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "token-header",
+        "token-badges",
+        "token-price",
+        "token-metrics",
+        "token-score",
+        "token-catalyst",
+        "token-risk",
+        "token-recency"
+      ]
+    },
+    "token-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: RSR",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "token-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-high",
+        "badge-signal"
+      ]
+    },
+    "badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 10/10",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "token-price": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-price",
+        "stat-24h-change",
+        "stat-7d-change"
+      ]
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.00228"
+      },
+      "children": []
+    },
+    "stat-24h-change": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+39.2%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-7d-change": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+34.9%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "token-metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-mcap",
+        "stat-volume",
+        "stat-vol-ratio"
+      ]
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "mcap",
+        "value": "$143M"
+      },
+      "children": []
+    },
+    "stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "vol",
+        "value": "$183M"
+      },
+      "children": []
+    },
+    "stat-vol-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "vol/mcap",
+        "value": "1.28"
+      },
+      "children": []
+    },
+    "token-score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-label",
+        "score-breakdown"
+      ]
+    },
+    "score-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Score breakdown",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "score-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "[24h>0 +1, 7d>0 +1, both>5% +2, vol/mcap≥0.20 +3, RS vs BTC/ETH +2, DexScreener +1] = 10/10",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "token-catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-label",
+        "catalyst-text"
+      ]
+    },
+    "catalyst-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "Upbit listed RSR in KRW and USDT markets today (Oct 12), opening a top Korean retail venue; September 25 governance vote locked in 4:1 high-burn rate with 86.27% support.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "token-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Classic listing pump — RSR already +39% today; Korean exchange listings often trigger profit-taking once initial demand clears.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "token-recency": {
+      "type": "Text",
+      "props": {
+        "text": "First RSR pick — not in 7-day dedup list.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market-header",
+        "market-badges",
+        "market-odds",
+        "market-details",
+        "market-fair",
+        "market-thesis",
+        "market-risk"
+      ]
+    },
+    "market-header": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will the U.S. invade Iran before 2027?",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "market-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-medium",
+        "badge-edge"
+      ]
+    },
+    "badge-medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-edge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 9.5pp",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "market-odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-odds-yes",
+        "stat-odds-no"
+      ]
+    },
+    "stat-odds-yes": {
+      "type": "Stat",
+      "props": {
+        "label": "Current YES",
+        "value": "17.5¢"
+      },
+      "children": []
+    },
+    "stat-odds-no": {
+      "type": "Stat",
+      "props": {
+        "label": "Current NO",
+        "value": "82.5¢"
+      },
+      "children": []
+    },
+    "market-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market-volume",
+        "market-resolve"
+      ]
+    },
+    "market-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "24h volume",
+        "value": "$464K"
+      },
+      "children": []
+    },
+    "market-resolve": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2027-01-01",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "market-fair": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair-label",
+        "fair-text"
+      ]
+    },
+    "fair-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair YES: ~8%",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "fair-text": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: ceasefire-through-Oct-12 market at 99.8%; Congress passed 3rd War Powers resolution Sept 2026 limiting Trump; ground invasion requires months of logistics with only 81 days left",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "market-thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-label",
+        "thesis-text"
+      ]
+    },
+    "thesis-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market overprices invasion at 17.5% — ongoing air/naval war + congressional headwinds make a ground invasion within 81 days unlikely. BUY NO at 82.5¢.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "market-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "A major Iranian provocation (Hormuz attack, US casualties) could force rapid escalation that breaks the timeline logic.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer-sources",
+        "footer-disclaimer"
+      ]
+    },
+    "footer-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=ok, poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "footer-disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
