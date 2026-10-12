@@ -1,22 +1,31 @@
-*GitHub Trending — 2026-10-08*
+*GitHub Trending — 2026-10-12*
 
 *Top pick* — [morluto/rea](https://github.com/morluto/rea)
-The only agentic reverse-engineering tool on today's chart, pulling 7.7K daily stars while actively pushed — a sign it's maturing into infrastructure, not staying a demo.
+AI agents applied to native binary RE is a step-change — first time reverse-engineering scales without specialist knowledge baked in.
 
 *AI/ML*
-• [morluto/rea](https://github.com/morluto/rea) — ★ 7.7k today (20.6k total) · TypeScript · [ACCELERATING]
-Agent-driven reverse engineering from app behavior to native binaries; pushed today with 7.7K daily stars.
+• [morluto/rea](https://github.com/morluto/rea) — (145.9k total) · TypeScript · [ACCELERATING]
+AI agents that reverse-engineer native binaries: disassembles, decompiles, and explains with no RE background needed.
 
-• [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — ★ 766 today (27.3k total) · Python · [ACCELERATING]
-Anthropic's open-source plugin layer for Claude Cowork — first public extensibility hooks for AI knowledge work.
+• [lyogavin/airllm](https://github.com/lyogavin/airllm) — ★ 886 today (37.3k total) · Jupyter · [RETURNING]
+Layer-by-layer GPU streaming cuts 70B model VRAM to 4GB — runs full-size models on a single consumer card.
+
+• [microsoft/BitNet](https://github.com/microsoft/BitNet) — ★ 134 today (40.8k total) · C++ · [RETURNING]
+Microsoft's inference runtime for 1-bit LLMs; eliminates multiply-accumulate ops, runs CPU inference with integer addition only.
 
 *Devtools*
-• [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) — ★ 4.6k today (14k total) · C++ · [ACCELERATING]
-Cross-compiles PS5 executables to Linux/Windows without recompilation; 4.9× daily star spike + pushed today signals a major update.
+• [mksglu/context-mode](https://github.com/mksglu/context-mode) — ★ 394 today (27.1k total) · TypeScript · [ACCELERATING]
+Sandboxes agent tool output so boilerplate never stuffs a coding agent's context window, with session-persistent memory.
 
-*Other*
-• [storytold/artcraft](https://github.com/storytold/artcraft) — ★ 1.5k today (6.7k total) · Rust · [RETURNING]
-Rust creative engine for artists/filmmakers; 4-year-old project hitting 1.5K daily stars today suggests a new release just dropped.
+• [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — ★ 2,100 today (52.2k total) · HTML · [ACCELERATING]
+44 standalone HTML/SVG diagram types built for AI coding context — zero build step, paste directly into prompts.
+
+*Web/Apps*
+• [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) — ★ 1,903 today (53.2k total) · JavaScript · [ACCELERATING]
+Real TLE orbital data rendered on a Three.js globe, fully in-browser — no backend, no account needed.
+
+• [storytold/artcraft](https://github.com/storytold/artcraft) — ★ 4,106 today (21k total) · Rust · [RETURNING]
+Rust-native GPU-accelerated node graph for film and design — ships outside the Python/Electron creative toolchain entirely.
 
 ---
-sources: trending=ok · gh_api=ok · kept 4/9
+sources: trending=ok · gh_api=ok · kept 7/9

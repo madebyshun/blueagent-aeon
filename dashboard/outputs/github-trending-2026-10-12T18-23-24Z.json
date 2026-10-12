@@ -1,0 +1,519 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-10-12"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-section",
+        "sep-1",
+        "aiml-section",
+        "sep-2",
+        "devtools-section",
+        "sep-3",
+        "web-section",
+        "sep-4",
+        "footer-section"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top-pick-label",
+        "rea-link",
+        "rea-desc"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "rea-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "morluto/rea",
+        "href": "https://github.com/morluto/rea"
+      }
+    },
+    "rea-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI agents applied to native binary RE is a step-change — first time reverse-engineering scales without specialist knowledge baked in.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml-heading",
+        "aiml-repo1",
+        "aiml-repo2",
+        "aiml-repo3"
+      ]
+    },
+    "aiml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml1-header",
+        "aiml1-desc"
+      ]
+    },
+    "aiml1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml1-link",
+        "aiml1-stats",
+        "aiml1-badge"
+      ]
+    },
+    "aiml1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "morluto/rea",
+        "href": "https://github.com/morluto/rea",
+        "source": "TypeScript"
+      }
+    },
+    "aiml1-stats": {
+      "type": "Text",
+      "props": {
+        "text": "145.9k total",
+        "variant": "caption"
+      }
+    },
+    "aiml1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "aiml1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI agents that reverse-engineer native binaries: disassembles, decompiles, and explains with no RE background needed.",
+        "variant": "body"
+      }
+    },
+    "aiml-repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml2-header",
+        "aiml2-desc"
+      ]
+    },
+    "aiml2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml2-link",
+        "aiml2-stats",
+        "aiml2-badge"
+      ]
+    },
+    "aiml2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "lyogavin/airllm",
+        "href": "https://github.com/lyogavin/airllm",
+        "source": "Jupyter"
+      }
+    },
+    "aiml2-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 886 today (37.3k total)",
+        "variant": "caption"
+      }
+    },
+    "aiml2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "aiml2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Layer-by-layer GPU streaming cuts 70B model VRAM to 4GB — runs full-size models on a single consumer card.",
+        "variant": "body"
+      }
+    },
+    "aiml-repo3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml3-header",
+        "aiml3-desc"
+      ]
+    },
+    "aiml3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml3-link",
+        "aiml3-stats",
+        "aiml3-badge"
+      ]
+    },
+    "aiml3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "microsoft/BitNet",
+        "href": "https://github.com/microsoft/BitNet",
+        "source": "C++"
+      }
+    },
+    "aiml3-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 134 today (40.8k total)",
+        "variant": "caption"
+      }
+    },
+    "aiml3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "aiml3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Microsoft's inference runtime for 1-bit LLMs; eliminates multiply-accumulate ops, runs CPU inference with integer addition only.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-repo1",
+        "devtools-repo2"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools1-header",
+        "devtools1-desc"
+      ]
+    },
+    "devtools1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools1-link",
+        "devtools1-stats",
+        "devtools1-badge"
+      ]
+    },
+    "devtools1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mksglu/context-mode",
+        "href": "https://github.com/mksglu/context-mode",
+        "source": "TypeScript"
+      }
+    },
+    "devtools1-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 394 today (27.1k total)",
+        "variant": "caption"
+      }
+    },
+    "devtools1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Sandboxes agent tool output so boilerplate never stuffs a coding agent's context window, with session-persistent memory.",
+        "variant": "body"
+      }
+    },
+    "devtools-repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools2-header",
+        "devtools2-desc"
+      ]
+    },
+    "devtools2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools2-link",
+        "devtools2-stats",
+        "devtools2-badge"
+      ]
+    },
+    "devtools2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cathrynlavery/diagram-design",
+        "href": "https://github.com/cathrynlavery/diagram-design",
+        "source": "HTML"
+      }
+    },
+    "devtools2-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 2,100 today (52.2k total)",
+        "variant": "caption"
+      }
+    },
+    "devtools2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "devtools2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "44 standalone HTML/SVG diagram types built for AI coding context — zero build step, paste directly into prompts.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "web-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "web-heading",
+        "web-repo1",
+        "web-repo2"
+      ]
+    },
+    "web-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "web-repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "web1-header",
+        "web1-desc"
+      ]
+    },
+    "web1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "web1-link",
+        "web1-stats",
+        "web1-badge"
+      ]
+    },
+    "web1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "bilawalsidhu/gods-eye-view",
+        "href": "https://github.com/bilawalsidhu/gods-eye-view",
+        "source": "JavaScript"
+      }
+    },
+    "web1-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1,903 today (53.2k total)",
+        "variant": "caption"
+      }
+    },
+    "web1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "web1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Real TLE orbital data rendered on a Three.js globe, fully in-browser — no backend, no account needed.",
+        "variant": "body"
+      }
+    },
+    "web-repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "web2-header",
+        "web2-desc"
+      ]
+    },
+    "web2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "web2-link",
+        "web2-stats",
+        "web2-badge"
+      ]
+    },
+    "web2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "storytold/artcraft",
+        "href": "https://github.com/storytold/artcraft",
+        "source": "Rust"
+      }
+    },
+    "web2-stats": {
+      "type": "Text",
+      "props": {
+        "text": "★ 4,106 today (21k total)",
+        "variant": "caption"
+      }
+    },
+    "web2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "web2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rust-native GPU-accelerated node graph for film and design — ships outside the Python/Electron creative toolchain entirely.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-section": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/9",
+        "variant": "muted"
+      }
+    }
+  }
+}
