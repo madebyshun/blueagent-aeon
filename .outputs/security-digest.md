@@ -1,49 +1,41 @@
-*Security Digest — 2026-10-07*
-Verdict: 3 confirmed exploited (KEV), 5 to patch this week, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-10-12*
+Verdict: 3 actively exploited (KEV, BOD 26-04 overdue), 5 to schedule, 1 to monitor. _Sources: CISA KEV +5, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- CVE-2026-104286 — Fortinet FortiMail · KEV 2026-10-01 · EPSS 0.022 · CVSS —
-  Unauth path traversal → arbitrary file write via crafted HTTP/HTTPS. Active exploitation confirmed.
-  → upgrade FortiMail per vendor advisory; BOD 26-04 deadline passed.
+- [CVE-2015-3306](https://nvd.nist.gov/vuln/detail/CVE-2015-3306) — ProFTPD · KEV 2026-10-08 · EPSS 0.995 · CVSS 9.8
+  Unauth file read/write via SITE CPFR/CPTO. BOD 26-04 due 2026-10-11 — OVERDUE.
+  → patch ProFTPD; disable mod_copy if unused; restrict FTP to trusted hosts.
 
-- CVE-2026-76504 — Cisco Catalyst SD-WAN Manager · KEV 2026-09-30 · EPSS 0.018 · CVSS —
-  Hex-encoded URI bypass grants unauth remote admin access. Active exploitation confirmed.
-  → upgrade SD-WAN Manager per Cisco advisory; BOD 26-04 deadline passed.
+- [CVE-2015-5477](https://nvd.nist.gov/vuln/detail/CVE-2015-5477) — ISC BIND · KEV 2026-10-08 · EPSS 0.994 · CVSS 7.5
+  Remote DoS via crafted TKEY queries. BOD 26-04 due 2026-10-11 — OVERDUE.
+  → upgrade BIND or apply vendor mitigation immediately.
 
-- CVE-2026-102489 — Zammad · KEV 2026-10-02 · EPSS 0.014 · CVSS —
-  Session fixation → RCE as zammad user; chains with CVE-2026-102490 (priv esc → root).
-  → upgrade Zammad per vendor advisory; BOD 26-04 deadline passed.
+- [CVE-2016-3081](https://nvd.nist.gov/vuln/detail/CVE-2016-3081) — Apache Struts · KEV 2026-10-08 · EPSS 0.961 · CVSS 9.8
+  RCE via Dynamic Method Invocation (method: prefix). BOD 26-04 due 2026-10-11 — OVERDUE.
+  → disable DMI; upgrade to patched Struts 2.x release.
 
 *PATCH THIS WEEK*
-- GHSA-pq68-rvw4-xp4r — vm2 (npm) · CVSS 10.0 · EPSS 0.007 · no patch
-  Sandbox escape, all vm2 ≤3.12.0. Project unmaintained.
-  → replace vm2 with isolated-vm or native Node worker_threads now.
+- [CVE-2023-22894](https://nvd.nist.gov/vuln/detail/CVE-2023-22894) — Strapi (npm) · KEV 2026-10-08 · EPSS 0.036 · CVSS 7.7
+  Cleartext admin panel storage → chains with CVE-2023-22621 for RCE. KEV overdue; may be EoL.
+  → upgrade Strapi to supported version; restrict admin panel access.
 
-- GHSA-r543-q48m-4c9j — WeasyPrint (pip) · CVSS 8.8 · EPSS 0.007 · no patch
-  EPS images route through Ghostscript → RCE. All versions ≤69.0 affected.
-  → block EPS input to WeasyPrint; disable Ghostscript path until patch lands.
+- [GHSA-w7x8-q2gp-5cgg](https://github.com/advisories/GHSA-w7x8-q2gp-5cgg) — flowise (npm) · CVSS 9.0 · EPSS 0.010
+  Prompt injection → RCE via CSV/Airtable Python validator bypass. Published 2026-10-07.
+  → upgrade flowise + flowise-components to ≥3.1.3.
 
-- GHSA-g2v8-7jhw-pp8p — @backstage/plugin-scaffolder-backend (npm) · CVSS 9.6 · EPSS 0.005
-  Sensitive info exposure in Scaffolder. Lead advisory of a 10-advisory Backstage batch.
-  → upgrade plugin-scaffolder-backend ≥4.1.0 and plugin-techdocs-node ≥1.15.4.
+- [GHSA-pq68-rvw4-xp4r](https://github.com/advisories/GHSA-pq68-rvw4-xp4r) — vm2 (npm) · CVSS 10.0 · EPSS 0.007
+  Sandbox escape. Published 2026-10-07.
+  → upgrade vm2 to ≥3.12.1.
 
-- GHSA-qmw3-745m-w99g — @backstage/plugin-techdocs-node (npm) · CVSS 8.8 · EPSS —
-  Improper MkDocs config validation; 5 related TechDocs CVEs in same release.
-  → upgrade plugin-techdocs-node ≥1.15.4 (fixes all TechDocs batch CVEs).
+- [GHSA-6rvj-qwjf-3m4q](https://github.com/advisories/GHSA-6rvj-qwjf-3m4q) — Vikunja (Go) · CVSS 8.7 · EPSS 0.006
+  /api/v2 pre-auth endpoints unthrottled — enables credential brute force. Published 2026-10-09.
+  → upgrade code.vikunja.io/api to ≥2.6.0.
 
-- GHSA-826h-28h9-65hg — @backstage/plugin-auth-backend-module-oidc-provider (npm) · CVSS 8.1 · EPSS 0.003
-  Improper OIDC auth; affects OIDC-based SSO flows.
-  → upgrade plugin-auth-backend-module-oidc-provider ≥0.4.20.
+- [GHSA-9gvv-qjj3-2p6g](https://github.com/advisories/GHSA-9gvv-qjj3-2p6g) — flowise (npm) · CVSS 9.4 · EPSS 0.006
+  NodeVM sandbox escape via puppeteer allowlist → authenticated RCE + arbitrary file read. Published 2026-10-07.
+  → upgrade flowise + flowise-components to ≥3.1.3.
 
 *MONITOR*
-- GHSA-c3wx-c55w-pxjq — hydra-core (pip) · CVSS 7.8 · EPSS 0.002
-  Unsafe callable resolution in logging config; code exec path.
-  → schedule upgrade: hydra-core → ≥1.3.6.
-
-- GHSA-jg6q-3qfh-r9f8 — @insumermodel/mppx-condition-gate (npm) · CVSS 7.5 · EPSS 0.003
-  Wallet access without ownership proof; no patch.
-  → track; avoid mppx-condition-gate/mppx-token-gate until patched.
-
-- GHSA-cq7v-rfgc-5c7v — @backstage/backend-defaults (npm) · CVSS 7.6 · EPSS 0.002
-  Credential delegation drops access restrictions.
-  → schedule upgrade: @backstage/backend-defaults → ≥0.17.8.
+- [GHSA-32r8-5843-4qw2](https://github.com/advisories/GHSA-32r8-5843-4qw2) — Vikunja (Go) · CVSS 7.5 · EPSS 0.004 · no fix yet
+  Link-share principal-type confusion → cross-account team removal + bot access. Published 2026-10-09.
+  → track GHSA-32r8-5843-4qw2; avoid public link-share team management until patched.

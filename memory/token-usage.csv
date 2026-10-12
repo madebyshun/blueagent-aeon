@@ -571,3 +571,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-10-12,github-trending,claude-sonnet-4-6,13,9616,307056,26436
 2026-10-12,token-pick,claude-sonnet-4-6,18,13866,581033,41886
 2026-10-12,narrative-tracker,claude-sonnet-4-6,13,11810,376819,43198
+2026-10-12,security-digest,claude-sonnet-4-6,26,20312,943634,43988

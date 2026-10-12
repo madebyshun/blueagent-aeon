@@ -1,0 +1,771 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-10-12"
+      },
+      "children": [
+        "verdict_text",
+        "sep1",
+        "patch_today_section",
+        "sep2",
+        "patch_week_section",
+        "sep3",
+        "monitor_section"
+      ]
+    },
+    "verdict_text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 3 actively exploited (KEV, BOD 26-04 overdue), 5 to schedule, 1 to monitor. Sources: CISA KEV +5, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_today_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_today_heading",
+        "cve_2015_3306",
+        "cve_2015_5477",
+        "cve_2016_3081"
+      ]
+    },
+    "patch_today_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve_2015_3306": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2015_3306_link",
+        "cve_2015_3306_badges",
+        "cve_2015_3306_scores",
+        "cve_2015_3306_desc",
+        "cve_2015_3306_remediation"
+      ]
+    },
+    "cve_2015_3306_link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2015-3306 — ProFTPD",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2015-3306"
+      }
+    },
+    "cve_2015_3306_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_2015_3306",
+        "badge_bod_2015_3306"
+      ]
+    },
+    "badge_kev_2015_3306": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-10-08",
+        "variant": "destructive"
+      }
+    },
+    "badge_bod_2015_3306": {
+      "type": "Badge",
+      "props": {
+        "text": "BOD 26-04 OVERDUE (due 2026-10-11)",
+        "variant": "destructive"
+      }
+    },
+    "cve_2015_3306_scores": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_epss_2015_3306",
+        "stat_cvss_2015_3306"
+      ]
+    },
+    "stat_epss_2015_3306": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.995"
+      }
+    },
+    "stat_cvss_2015_3306": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.8"
+      }
+    },
+    "cve_2015_3306_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth file read/write via SITE CPFR/CPTO.",
+        "variant": "body"
+      }
+    },
+    "cve_2015_3306_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ patch ProFTPD; disable mod_copy if unused; restrict FTP to trusted hosts.",
+        "variant": "caption"
+      }
+    },
+    "cve_2015_5477": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2015_5477_link",
+        "cve_2015_5477_badges",
+        "cve_2015_5477_scores",
+        "cve_2015_5477_desc",
+        "cve_2015_5477_remediation"
+      ]
+    },
+    "cve_2015_5477_link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2015-5477 — ISC BIND",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477"
+      }
+    },
+    "cve_2015_5477_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_2015_5477",
+        "badge_bod_2015_5477"
+      ]
+    },
+    "badge_kev_2015_5477": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-10-08",
+        "variant": "destructive"
+      }
+    },
+    "badge_bod_2015_5477": {
+      "type": "Badge",
+      "props": {
+        "text": "BOD 26-04 OVERDUE (due 2026-10-11)",
+        "variant": "destructive"
+      }
+    },
+    "cve_2015_5477_scores": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_epss_2015_5477",
+        "stat_cvss_2015_5477"
+      ]
+    },
+    "stat_epss_2015_5477": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.994"
+      }
+    },
+    "stat_cvss_2015_5477": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "7.5"
+      }
+    },
+    "cve_2015_5477_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Remote DoS via crafted TKEY queries.",
+        "variant": "body"
+      }
+    },
+    "cve_2015_5477_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade BIND or apply vendor mitigation immediately.",
+        "variant": "caption"
+      }
+    },
+    "cve_2016_3081": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2016_3081_link",
+        "cve_2016_3081_badges",
+        "cve_2016_3081_scores",
+        "cve_2016_3081_desc",
+        "cve_2016_3081_remediation"
+      ]
+    },
+    "cve_2016_3081_link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2016-3081 — Apache Struts",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2016-3081"
+      }
+    },
+    "cve_2016_3081_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_2016_3081",
+        "badge_bod_2016_3081"
+      ]
+    },
+    "badge_kev_2016_3081": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-10-08",
+        "variant": "destructive"
+      }
+    },
+    "badge_bod_2016_3081": {
+      "type": "Badge",
+      "props": {
+        "text": "BOD 26-04 OVERDUE (due 2026-10-11)",
+        "variant": "destructive"
+      }
+    },
+    "cve_2016_3081_scores": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_epss_2016_3081",
+        "stat_cvss_2016_3081"
+      ]
+    },
+    "stat_epss_2016_3081": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.961"
+      }
+    },
+    "stat_cvss_2016_3081": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.8"
+      }
+    },
+    "cve_2016_3081_desc": {
+      "type": "Text",
+      "props": {
+        "text": "RCE via Dynamic Method Invocation (method: prefix).",
+        "variant": "body"
+      }
+    },
+    "cve_2016_3081_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ disable DMI; upgrade to patched Struts 2.x release.",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_week_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_week_heading",
+        "cve_2023_22894",
+        "ghsa_w7x8",
+        "ghsa_pq68",
+        "ghsa_6rvj",
+        "ghsa_9gvv"
+      ]
+    },
+    "patch_week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "cve_2023_22894": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_2023_22894_link",
+        "cve_2023_22894_badges",
+        "cve_2023_22894_scores",
+        "cve_2023_22894_desc",
+        "cve_2023_22894_remediation"
+      ]
+    },
+    "cve_2023_22894_link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2023-22894 — Strapi (npm)",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2023-22894"
+      }
+    },
+    "cve_2023_22894_badges": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-10-08 (overdue)",
+        "variant": "destructive"
+      }
+    },
+    "cve_2023_22894_scores": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_epss_2023_22894",
+        "stat_cvss_2023_22894"
+      ]
+    },
+    "stat_epss_2023_22894": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.036"
+      }
+    },
+    "stat_cvss_2023_22894": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "7.7"
+      }
+    },
+    "cve_2023_22894_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cleartext admin panel storage → chains with CVE-2023-22621 for RCE. May be EoL.",
+        "variant": "body"
+      }
+    },
+    "cve_2023_22894_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade Strapi to supported version; restrict admin panel access.",
+        "variant": "caption"
+      }
+    },
+    "ghsa_w7x8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_w7x8_link",
+        "ghsa_w7x8_date",
+        "ghsa_w7x8_scores",
+        "ghsa_w7x8_desc",
+        "ghsa_w7x8_remediation"
+      ]
+    },
+    "ghsa_w7x8_link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-w7x8-q2gp-5cgg — flowise (npm)",
+        "href": "https://github.com/advisories/GHSA-w7x8-q2gp-5cgg"
+      }
+    },
+    "ghsa_w7x8_date": {
+      "type": "Badge",
+      "props": {
+        "text": "Published 2026-10-07",
+        "variant": "outline"
+      }
+    },
+    "ghsa_w7x8_scores": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_cvss_w7x8",
+        "stat_epss_w7x8"
+      ]
+    },
+    "stat_cvss_w7x8": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.0"
+      }
+    },
+    "stat_epss_w7x8": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.010"
+      }
+    },
+    "ghsa_w7x8_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Prompt injection → RCE via CSV/Airtable Python validator bypass.",
+        "variant": "body"
+      }
+    },
+    "ghsa_w7x8_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade flowise + flowise-components to ≥3.1.3.",
+        "variant": "caption"
+      }
+    },
+    "ghsa_pq68": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_pq68_link",
+        "ghsa_pq68_date",
+        "ghsa_pq68_scores",
+        "ghsa_pq68_desc",
+        "ghsa_pq68_remediation"
+      ]
+    },
+    "ghsa_pq68_link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-pq68-rvw4-xp4r — vm2 (npm)",
+        "href": "https://github.com/advisories/GHSA-pq68-rvw4-xp4r"
+      }
+    },
+    "ghsa_pq68_date": {
+      "type": "Badge",
+      "props": {
+        "text": "Published 2026-10-07",
+        "variant": "outline"
+      }
+    },
+    "ghsa_pq68_scores": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_cvss_pq68",
+        "stat_epss_pq68"
+      ]
+    },
+    "stat_cvss_pq68": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "10.0"
+      }
+    },
+    "stat_epss_pq68": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.007"
+      }
+    },
+    "ghsa_pq68_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Sandbox escape.",
+        "variant": "body"
+      }
+    },
+    "ghsa_pq68_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade vm2 to ≥3.12.1.",
+        "variant": "caption"
+      }
+    },
+    "ghsa_6rvj": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_6rvj_link",
+        "ghsa_6rvj_date",
+        "ghsa_6rvj_scores",
+        "ghsa_6rvj_desc",
+        "ghsa_6rvj_remediation"
+      ]
+    },
+    "ghsa_6rvj_link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-6rvj-qwjf-3m4q — Vikunja (Go)",
+        "href": "https://github.com/advisories/GHSA-6rvj-qwjf-3m4q"
+      }
+    },
+    "ghsa_6rvj_date": {
+      "type": "Badge",
+      "props": {
+        "text": "Published 2026-10-09",
+        "variant": "outline"
+      }
+    },
+    "ghsa_6rvj_scores": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_cvss_6rvj",
+        "stat_epss_6rvj"
+      ]
+    },
+    "stat_cvss_6rvj": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "8.7"
+      }
+    },
+    "stat_epss_6rvj": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.006"
+      }
+    },
+    "ghsa_6rvj_desc": {
+      "type": "Text",
+      "props": {
+        "text": "/api/v2 pre-auth endpoints unthrottled — enables credential brute force.",
+        "variant": "body"
+      }
+    },
+    "ghsa_6rvj_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade code.vikunja.io/api to ≥2.6.0.",
+        "variant": "caption"
+      }
+    },
+    "ghsa_9gvv": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_9gvv_link",
+        "ghsa_9gvv_date",
+        "ghsa_9gvv_scores",
+        "ghsa_9gvv_desc",
+        "ghsa_9gvv_remediation"
+      ]
+    },
+    "ghsa_9gvv_link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-9gvv-qjj3-2p6g — flowise (npm)",
+        "href": "https://github.com/advisories/GHSA-9gvv-qjj3-2p6g"
+      }
+    },
+    "ghsa_9gvv_date": {
+      "type": "Badge",
+      "props": {
+        "text": "Published 2026-10-07",
+        "variant": "outline"
+      }
+    },
+    "ghsa_9gvv_scores": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_cvss_9gvv",
+        "stat_epss_9gvv"
+      ]
+    },
+    "stat_cvss_9gvv": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "9.4"
+      }
+    },
+    "stat_epss_9gvv": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.006"
+      }
+    },
+    "ghsa_9gvv_desc": {
+      "type": "Text",
+      "props": {
+        "text": "NodeVM sandbox escape via puppeteer allowlist → authenticated RCE + arbitrary file read.",
+        "variant": "body"
+      }
+    },
+    "ghsa_9gvv_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade flowise + flowise-components to ≥3.1.3.",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor_heading",
+        "ghsa_32r8"
+      ]
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "ghsa_32r8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_32r8_link",
+        "ghsa_32r8_date",
+        "ghsa_32r8_status",
+        "ghsa_32r8_scores",
+        "ghsa_32r8_desc",
+        "ghsa_32r8_remediation"
+      ]
+    },
+    "ghsa_32r8_link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-32r8-5843-4qw2 — Vikunja (Go)",
+        "href": "https://github.com/advisories/GHSA-32r8-5843-4qw2"
+      }
+    },
+    "ghsa_32r8_date": {
+      "type": "Badge",
+      "props": {
+        "text": "Published 2026-10-09",
+        "variant": "outline"
+      }
+    },
+    "ghsa_32r8_status": {
+      "type": "Badge",
+      "props": {
+        "text": "No fix yet",
+        "variant": "warning"
+      }
+    },
+    "ghsa_32r8_scores": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_cvss_32r8",
+        "stat_epss_32r8"
+      ]
+    },
+    "stat_cvss_32r8": {
+      "type": "Stat",
+      "props": {
+        "label": "CVSS",
+        "value": "7.5"
+      }
+    },
+    "stat_epss_32r8": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.004"
+      }
+    },
+    "ghsa_32r8_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Link-share principal-type confusion → cross-account team removal + bot access.",
+        "variant": "body"
+      }
+    },
+    "ghsa_32r8_remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ track GHSA-32r8-5843-4qw2; avoid public link-share team management until patched.",
+        "variant": "caption"
+      }
+    }
+  }
+}
