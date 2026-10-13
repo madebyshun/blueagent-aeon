@@ -1,0 +1,555 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-10-13",
+        "description": "3 actively exploited (2 new KEV today), 5 high-severity to patch this week, 3 to monitor. Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "verdict_alert",
+        "sep1",
+        "patch_today_section",
+        "sep2",
+        "patch_week_section",
+        "sep3",
+        "monitor_section"
+      ]
+    },
+    "verdict_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Summary",
+        "message": "3 actively exploited (2 new KEV today), 5 high-severity to patch this week, 3 to monitor"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch_today_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_today_heading",
+        "patch_cve1",
+        "patch_cve2",
+        "patch_cve3"
+      ]
+    },
+    "patch_today_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "patch_cve1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve1_link",
+        "cve1_meta",
+        "cve1_desc",
+        "cve1_action"
+      ]
+    },
+    "cve1_link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-104935 — Ivanti Connect Secure",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935"
+      }
+    },
+    "cve1_meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-10-13 · EPSS — · CVSS pending · BOD 26-04 due 2026-10-16",
+        "variant": "caption"
+      }
+    },
+    "cve1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass by spoofing → unauth RCE.",
+        "variant": "body"
+      }
+    },
+    "cve1_action": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "message": "apply Ivanti mitigations immediately; isolate from internet if patch unavailable"
+      }
+    },
+    "patch_cve2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve2_link",
+        "cve2_meta",
+        "cve2_desc",
+        "cve2_action"
+      ]
+    },
+    "cve2_link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-96951 — Microsoft Windows Shell",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951"
+      }
+    },
+    "cve2_meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-10-13 · EPSS — · CVSS pending",
+        "variant": "caption"
+      }
+    },
+    "cve2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Command injection via Windows Shell; security feature bypass over network.",
+        "variant": "body"
+      }
+    },
+    "cve2_action": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "message": "apply October 2026 Windows patches via Windows Update / WSUS"
+      }
+    },
+    "patch_cve3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve3_link",
+        "cve3_meta",
+        "cve3_desc",
+        "cve3_action"
+      ]
+    },
+    "cve3_link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2021-3199 — ONLYOFFICE Docs",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2021-3199"
+      }
+    },
+    "cve3_meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-10-08 · EPSS 0.194 · CVSS —",
+        "variant": "caption"
+      }
+    },
+    "cve3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal via image upload → RCE; chainable with CVE-2023-22621.",
+        "variant": "body"
+      }
+    },
+    "cve3_action": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "message": "upgrade ONLYOFFICE Docs to ≥5.6.3"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "patch_week_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch_week_heading",
+        "ghsa1",
+        "ghsa2",
+        "ghsa3",
+        "ghsa4",
+        "ghsa5"
+      ]
+    },
+    "patch_week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "ghsa1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa1_link",
+        "ghsa1_meta",
+        "ghsa1_desc",
+        "ghsa1_action"
+      ]
+    },
+    "ghsa1_link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-2xv2-w8cq-5gxw (CVE-2026-61447) — praisonaiagents (pip)",
+        "href": "https://github.com/advisories/GHSA-2xv2-w8cq-5gxw"
+      }
+    },
+    "ghsa1_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 10.0 · EPSS 0.025 · PoC included",
+        "variant": "caption"
+      }
+    },
+    "ghsa1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "CodeAgent runs LLM-generated Python without sandbox; leaks all env vars incl. API keys.",
+        "variant": "body"
+      }
+    },
+    "ghsa1_action": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "message": "upgrade praisonaiagents to ≥1.6.78"
+      }
+    },
+    "ghsa2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa2_link",
+        "ghsa2_meta",
+        "ghsa2_desc",
+        "ghsa2_action"
+      ]
+    },
+    "ghsa2_link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-9mp3-24cc-77mg (CVE-2026-61445) — praisonai (pip)",
+        "href": "https://github.com/advisories/GHSA-9mp3-24cc-77mg"
+      }
+    },
+    "ghsa2_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.9 · EPSS 0.009 · no public PoC",
+        "variant": "caption"
+      }
+    },
+    "ghsa2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AICoder write_to_file/execute_command tools: no path or command validation; Docker runs as root.",
+        "variant": "body"
+      }
+    },
+    "ghsa2_action": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "message": "upgrade praisonai to ≥4.6.78"
+      }
+    },
+    "ghsa3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa3_link",
+        "ghsa3_meta",
+        "ghsa3_desc",
+        "ghsa3_action"
+      ]
+    },
+    "ghsa3_link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-8qpj-27x8-pwpq (CVE-2026-10561) — langflow (pip)",
+        "href": "https://github.com/advisories/GHSA-8qpj-27x8-pwpq"
+      }
+    },
+    "ghsa3_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.9 · EPSS 0.008 · PoC included",
+        "variant": "caption"
+      }
+    },
+    "ghsa3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "PythonREPLComponent: unsandboxed execution; auth users get host RCE + DB superuser escalation.",
+        "variant": "body"
+      }
+    },
+    "ghsa3_action": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "message": "upgrade langflow to ≥1.10.1 (≥1.12.3 for full hardening)"
+      }
+    },
+    "ghsa4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa4_link",
+        "ghsa4_meta",
+        "ghsa4_desc",
+        "ghsa4_action"
+      ]
+    },
+    "ghsa4_link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-8r5x-fm3f-whwj (CVE-2026-106446) — handlebars (npm)",
+        "href": "https://github.com/advisories/GHSA-8r5x-fm3f-whwj"
+      }
+    },
+    "ghsa4_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.8 · EPSS 0.006 · PoC + curl exploit",
+        "variant": "caption"
+      }
+    },
+    "ghsa4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AST type confusion bypasses 4.7.9 patch; JS injection → RCE on template render.",
+        "variant": "body"
+      }
+    },
+    "ghsa4_action": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "message": "upgrade handlebars to ≥4.7.10"
+      }
+    },
+    "ghsa5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa5_link",
+        "ghsa5_meta",
+        "ghsa5_desc",
+        "ghsa5_action"
+      ]
+    },
+    "ghsa5_link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-g2v8-7jhw-pp8p (CVE-2026-106501) — @backstage/plugin-scaffolder-backend (npm)",
+        "href": "https://github.com/advisories/GHSA-g2v8-7jhw-pp8p"
+      }
+    },
+    "ghsa5_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.6 · EPSS 0.005 · no PoC",
+        "variant": "caption"
+      }
+    },
+    "ghsa5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth users can read task execution data including external service credentials.",
+        "variant": "body"
+      }
+    },
+    "ghsa5_action": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "message": "upgrade to ≥3.3.1 / ≥3.4.1 / ≥4.1.0 per branch"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "monitor_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor_heading",
+        "monitor1",
+        "monitor2",
+        "monitor3"
+      ]
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "monitor1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "monitor1_link",
+        "monitor1_meta",
+        "monitor1_desc",
+        "monitor1_action"
+      ]
+    },
+    "monitor1_link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-r488-j9vj-wx3q (CVE-2026-105857) — @payloadcms/plugin-form-builder (npm)",
+        "href": "https://github.com/advisories/GHSA-r488-j9vj-wx3q"
+      }
+    },
+    "monitor1_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 10.0 · EPSS 0.004",
+        "variant": "caption"
+      }
+    },
+    "monitor1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Payload Form Builder RCE issue; patch status unclear.",
+        "variant": "body"
+      }
+    },
+    "monitor1_action": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "watch upstream for fix"
+      }
+    },
+    "monitor2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "monitor2_link",
+        "monitor2_meta",
+        "monitor2_desc",
+        "monitor2_action"
+      ]
+    },
+    "monitor2_link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-33rr-wq23-g6gg (CVE-2026-107809) — Nginx-UI (Go)",
+        "href": "https://github.com/advisories/GHSA-33rr-wq23-g6gg"
+      }
+    },
+    "monitor2_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 8.8 · EPSS 0.003",
+        "variant": "caption"
+      }
+    },
+    "monitor2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AuthRequired cookie fallback enables CSRF on management APIs.",
+        "variant": "body"
+      }
+    },
+    "monitor2_action": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "restrict to trusted networks"
+      }
+    },
+    "monitor3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "monitor3_link",
+        "monitor3_meta",
+        "monitor3_desc",
+        "monitor3_action"
+      ]
+    },
+    "monitor3_link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-pwhx-cvv3-qj5c (CVE-2026-108259) — @tinacms/cli (npm)",
+        "href": "https://github.com/advisories/GHSA-pwhx-cvv3-qj5c"
+      }
+    },
+    "monitor3_meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 8.2 · EPSS 0.004",
+        "variant": "caption"
+      }
+    },
+    "monitor3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Code injection via unescaped Git branch name in generated client source.",
+        "variant": "body"
+      }
+    },
+    "monitor3_action": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "watch GHSA-pwhx-cvv3-qj5c"
+      }
+    }
+  }
+}
