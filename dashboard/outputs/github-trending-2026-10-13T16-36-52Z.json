@@ -1,0 +1,307 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-10-13"
+      },
+      "children": [
+        "top_pick_section",
+        "sep1",
+        "aiml_section",
+        "sep2",
+        "devtools_section",
+        "sep3",
+        "footer"
+      ]
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top_pick_label",
+        "voicestudio_toppick",
+        "top_pick_commentary"
+      ]
+    },
+    "top_pick_label": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "voicestudio_toppick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "debpalash/VoiceStudio",
+        "href": "https://github.com/debpalash/VoiceStudio"
+      }
+    },
+    "top_pick_commentary": {
+      "type": "Text",
+      "props": {
+        "text": "Local-first voice AI is the most practical privacy-preserving alternative to expensive API subscriptions right now."
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "aiml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml_heading",
+        "voicestudio_detail"
+      ]
+    },
+    "aiml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "voicestudio_detail": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "vs_link_detail",
+        "vs_stats",
+        "vs_description"
+      ]
+    },
+    "vs_link_detail": {
+      "type": "StoryLink",
+      "props": {
+        "title": "debpalash/VoiceStudio",
+        "href": "https://github.com/debpalash/VoiceStudio"
+      }
+    },
+    "vs_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "vs_stars",
+        "vs_total_stars",
+        "vs_language",
+        "vs_trend"
+      ]
+    },
+    "vs_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 1,691 today",
+        "variant": "default"
+      }
+    },
+    "vs_total_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "62.2k total",
+        "variant": "secondary"
+      }
+    },
+    "vs_language": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "vs_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "vs_description": {
+      "type": "Text",
+      "props": {
+        "text": "Full ElevenLabs feature stack (clone, dub, transcribe) as a local-first app — no subscription, no API cost.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "skills_entry",
+        "xtool_entry"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "skills_entry": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "skills_link",
+        "skills_stats",
+        "skills_description"
+      ]
+    },
+    "skills_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "vercel-labs/skills",
+        "href": "https://github.com/vercel-labs/skills"
+      }
+    },
+    "skills_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "skills_stars",
+        "skills_total_stars",
+        "skills_language",
+        "skills_trend"
+      ]
+    },
+    "skills_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 187 today",
+        "variant": "default"
+      }
+    },
+    "skills_total_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "34.3k total",
+        "variant": "secondary"
+      }
+    },
+    "skills_language": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "skills_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "skills_description": {
+      "type": "Text",
+      "props": {
+        "text": "Ships agent skills as npm packages runnable via npx — standardizes how AI workflows are packaged and shared.",
+        "variant": "body"
+      }
+    },
+    "xtool_entry": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "xtool_link",
+        "xtool_stats",
+        "xtool_description"
+      ]
+    },
+    "xtool_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "xtool-org/xtool",
+        "href": "https://github.com/xtool-org/xtool"
+      }
+    },
+    "xtool_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "xtool_stars",
+        "xtool_total_stars",
+        "xtool_language",
+        "xtool_trend"
+      ]
+    },
+    "xtool_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 936 today",
+        "variant": "default"
+      }
+    },
+    "xtool_total_stars": {
+      "type": "Badge",
+      "props": {
+        "text": "8.9k total",
+        "variant": "secondary"
+      }
+    },
+    "xtool_language": {
+      "type": "Badge",
+      "props": {
+        "text": "Swift",
+        "variant": "outline"
+      }
+    },
+    "xtool_trend": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "default"
+      }
+    },
+    "xtool_description": {
+      "type": "Text",
+      "props": {
+        "text": "Builds and deploys iOS apps from Linux/Windows without Xcode installed — unlocks CI/CD on non-Mac runners.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 3/9 (6 holdovers from 2026-10-12)",
+        "variant": "caption"
+      }
+    }
+  }
+}

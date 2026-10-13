@@ -1,31 +1,18 @@
-*GitHub Trending — 2026-10-12*
+*GitHub Trending — 2026-10-13*
 
-*Top pick* — [morluto/rea](https://github.com/morluto/rea)
-AI agents applied to native binary RE is a step-change — first time reverse-engineering scales without specialist knowledge baked in.
+*Top pick* — [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
+Local-first voice AI is the most practical privacy-preserving alternative to expensive API subscriptions right now.
 
 *AI/ML*
-• [morluto/rea](https://github.com/morluto/rea) — (145.9k total) · TypeScript · [ACCELERATING]
-AI agents that reverse-engineer native binaries: disassembles, decompiles, and explains with no RE background needed.
-
-• [lyogavin/airllm](https://github.com/lyogavin/airllm) — ★ 886 today (37.3k total) · Jupyter · [RETURNING]
-Layer-by-layer GPU streaming cuts 70B model VRAM to 4GB — runs full-size models on a single consumer card.
-
-• [microsoft/BitNet](https://github.com/microsoft/BitNet) — ★ 134 today (40.8k total) · C++ · [RETURNING]
-Microsoft's inference runtime for 1-bit LLMs; eliminates multiply-accumulate ops, runs CPU inference with integer addition only.
+• [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — ★ 1,691 today (62.2k total) · Python · [ACCELERATING]
+Full ElevenLabs feature stack (clone, dub, transcribe) as a local-first app — no subscription, no API cost.
 
 *Devtools*
-• [mksglu/context-mode](https://github.com/mksglu/context-mode) — ★ 394 today (27.1k total) · TypeScript · [ACCELERATING]
-Sandboxes agent tool output so boilerplate never stuffs a coding agent's context window, with session-persistent memory.
+• [vercel-labs/skills](https://github.com/vercel-labs/skills) — ★ 187 today (34.3k total) · TypeScript · [ACCELERATING]
+Ships agent skills as npm packages runnable via npx — standardizes how AI workflows are packaged and shared.
 
-• [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — ★ 2,100 today (52.2k total) · HTML · [ACCELERATING]
-44 standalone HTML/SVG diagram types built for AI coding context — zero build step, paste directly into prompts.
-
-*Web/Apps*
-• [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) — ★ 1,903 today (53.2k total) · JavaScript · [ACCELERATING]
-Real TLE orbital data rendered on a Three.js globe, fully in-browser — no backend, no account needed.
-
-• [storytold/artcraft](https://github.com/storytold/artcraft) — ★ 4,106 today (21k total) · Rust · [RETURNING]
-Rust-native GPU-accelerated node graph for film and design — ships outside the Python/Electron creative toolchain entirely.
+• [xtool-org/xtool](https://github.com/xtool-org/xtool) — ★ 936 today (8.9k total) · Swift · [RETURNING]
+Builds and deploys iOS apps from Linux/Windows without Xcode installed — unlocks CI/CD on non-Mac runners.
 
 ---
-sources: trending=ok · gh_api=ok · kept 7/9
+sources: trending=ok · gh_api=ok · kept 3/9 (6 holdovers from 2026-10-12)
