@@ -1,33 +1,28 @@
-*Narrative Tracker — 2026-10-12*
+*Narrative Tracker — 2026-10-13*
 
 TRANSITIONS
-• DEMOTED: Sui/AI Agents Event FRONT-RUN → Fading FADE — Mysten Basecamp Oct 7-8 over; 4+ days, no product launch or testnet confirmation; event-driven narrative exhausted
-• DEMOTED: Gaming/Metaverse Rotation Rising RIDE → Fading WATCH — absent from all movers 5 days post-SAND peak; risk-off (83/100 coins red); rotation capital moved on
-• DEMOTED: DEX/Solana Rotation Emerging WATCH → Fading WATCH — ORCA -8.4%, RAY -8.3% today; re-entry catalyst: Solana Accelerate China Oct 16-22 approaching
-• DEMOTED: Alt Season Rising WATCH → IGNORE — 83/100 coins red, median -2.1%; broad-based selling; no broadening
-• NEW: Korean Listings / RSR Emerging WATCH — Upbit KRW+USDT listing today (+40.4%); PUMP-RISK; monitor 72h for follow-through or fade
+• PROMOTED: Macro Risk/Rate Hike Oct 28 — DEAD → Emerging — BTC ETF -$681M outflows; hawkish Fed minutes; oil $100+; BTC $80,400 (from $87K resistance fail); hike odds conflicted (Crypto.com >70% vs Zerocap ~20%)
+• PROMOTED: Global Regulatory Wave — Emerging → Rising — CFTC federal leverage framework + ESMA MiCA stablecoin enforcement both moved this week
+• PROMOTED: RWA/Tokenized Markets — Rising → Peak — Securitize tokenized stocks + Morgan Stanley Digital Asset Lab executing in same week
+• DEMOTED: Korean Exchange Listings/RSR — Emerging WATCH → Fading FADE — RSR -10.4% Oct 13; 72h window confirms fade
+• NEW: Security/Custody Risk — Ledger-linked CryptoBilis reseller drain $86M+; HW wallet supply-chain attack
 
 REFLEXIVITY ALERT
-• ZRO +7.3% today despite confirmed FADE (6-arc institutional pattern) — single-day bounce; no new mainnet event; exit into strength
-• RSR +40.4% on Upbit listing: exchange listing reflexivity pump; whales distributed into retail FOMO; #231 rank, low liquidity = PUMP-RISK
-• RENDER +7.6% two days post-Permissionless Oct 10 catalyst: watch for distribution signal; exit window open
+• Agentic Payments/AI Crypto Infra — VC manufacturing legitimacy (Motley Fool + Fortune/TOKEN2049 Oct 12-13) as weekly x402 volume stays 8.7M — 57% below 20.1M ATH; TRM audit: 0.6-7.5% real agent share. FADE strengthens.
+• RWA/Tokenized Markets — Morgan Stanley Digital Asset Lab + Securitize tokenized stocks launch at same narrative peak. Watch for distribution.
 
 POSITIONS
-• RIDE: AI×DePIN/Compute (4 →, Peak) — @RENDERNETWORK catalyst consumed, holding; bear: supply-expansion not demand catalyst
-• RIDE: Stablecoins as AI Rail (5 →, Peak) — @BlackRock; @base x402 100M txs; bear: TRM Labs confirms 0.6-7.5% real AI agent share
-• RIDE: ETH vs Base / AI Settlement Layer Race (3 ↑, Rising) — Glamsterdam second testnet late Oct approaching; bear: no settlement winner
-• RIDE: RWA / Tokenized Markets (3 →, Rising) — @Chainlink CCIP 2.0 + Fulcrum; bear: permissioned tokenization, Goldman/JPMorgan own infra
-• RIDE: Prediction Markets (3 →, Rising) — Kaito × Polymarket Attention Markets; bear: US regulatory grey
-• FADE: Agentic Payments / AI Crypto Infra (5 ↓, deflating) — TRM Labs fundamental gap; narrative ceiling
-• FADE: Sui/AI Agents Event (1 ↓↓) — Basecamp over, no follow-through
-• FADE: ZRO (2 ↑ bounce) — maintain 6-arc FADE; bounce = exit-into-strength signal
-• WATCH: DEX/Solana Rotation — ORCA/RAY down today; Solana Accelerate China Oct 16-22 = re-entry watch
-• WATCH: XRP Ledger Batch Amendment (2 →) — Oct validator decision approaching
-• WATCH: Korean Listings / RSR — 72h confirmation window; PUMP-RISK
-• WATCH: CME BCH Futures (1 →) — Oct 19 monitor date
+• FADE: Agentic Payments/AI Crypto Infra (5 ↓, Mixed) — @BlackRock, @base, VC consensus amplifying while metrics cool
+• RIDE: Stablecoins as AI Rail (5 →, Mixed) — Circle Arc L1 launch + x402 100M txs — no contrarian edge
+• RIDE: ETH vs Base/AI Settlement Layer Race (3 ↑, Mixed) — Glamsterdam Q4, Circle Arc L1 NEW, SOL Alpenglow = three-chain race sharpening
+• RIDE: RWA/Tokenized Markets (4 ↑, Bull) — Securitize + Morgan Stanley executing; permissioned walls still limit open rails
+• WATCH: Macro Risk/Rate Hike Oct 28 (3 ↑↑, Bear) — conflicted odds but ETF outflows + oil are real signals; BTC at key support
+• WATCH: DEX/Solana (2 ↑, Mixed) — Solana Accelerate China Oct 16-22; re-entry catalyst 3 days out
+• FADE: ZRO (1 ↓, Bear) — 6-arc institutional pattern closed
+• FADE: RSR/Korean Listings (1 ↓↓) — 72h window expired
 
 MAP
-Rising: ETH vs Base, RWA, Prediction Markets
-Peak: AI×DePIN/Compute, Stablecoins as AI Rail, Agentic Payments (deflating)
-Fading: Sui/AI Agents, Gaming, DEX/Solana, ZRO, Alt Season
-Dead: InfoFi/Kaito, Macro Risk/Fed, MON/WLD/QNT arcs
+Emerging: Macro Risk/Hike Oct 28 (PROMOTED from DEAD), Security/Custody (NEW), XRP Batch, CME BCH Oct 19
+Rising: Global Regulatory Wave (PROMOTED), ETH vs Base, Prediction Markets, FHE
+Peak: Stablecoins as AI Rail, Agentic Payments, AI×DePIN, RWA (PROMOTED)
+Fading: RSR/Korean (DEMOTED), DEX/Solana, Gaming, Sui
