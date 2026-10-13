@@ -1,0 +1,417 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-10-13"
+      },
+      "children": [
+        "overview",
+        "sep1",
+        "winners-heading",
+        "winners-table",
+        "sep2",
+        "losers-heading",
+        "losers-table",
+        "sep3",
+        "trending-heading",
+        "trending-table",
+        "sep4",
+        "notable-heading",
+        "notable-items"
+      ]
+    },
+    "overview": {
+      "type": "Text",
+      "props": {
+        "text": "Broad risk-off — 57/81 top coins in the red, median 24h -1.1%; selling continues across majors and alts with isolated strength in attention-token and L2 names.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Name",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "Q (Quack AI)",
+            "$0.0410",
+            "+34.2%",
+            "+91.7%",
+            "-0.5%",
+            "$27M",
+            "#191",
+            "BREAKOUT, PUMP-RISK"
+          ],
+          [
+            "BAT (Basic Attention)",
+            "$0.1844",
+            "+24.6%",
+            "+80.2%",
+            "+0.1%",
+            "$129M",
+            "#157",
+            "BREAKOUT"
+          ],
+          [
+            "PRL (Pearl)",
+            "$1.81",
+            "+21.8%",
+            "+60.8%",
+            "-3.5%",
+            "$10M",
+            "#104",
+            "TRENDING+UP, BREAKOUT"
+          ],
+          [
+            "BTW (Bitway)",
+            "$1.90",
+            "+15.1%",
+            "+58.7%",
+            "+0.4%",
+            "$112M",
+            "#23",
+            "BREAKOUT"
+          ],
+          [
+            "OP (Optimism)",
+            "$0.1495",
+            "+11.2%",
+            "+12.0%",
+            "+1.8%",
+            "$147M",
+            "#135",
+            "—"
+          ],
+          [
+            "INJ (Injective)",
+            "$8.21",
+            "+9.1%",
+            "+4.7%",
+            "+0.2%",
+            "$203M",
+            "#87",
+            "—"
+          ],
+          [
+            "SHFL (Shuffle)",
+            "$0.5237",
+            "+7.0%",
+            "+27.2%",
+            "+0.4%",
+            "$1M",
+            "#161",
+            "—"
+          ],
+          [
+            "ZK (ZKsync)",
+            "$0.0159",
+            "+5.6%",
+            "+20.1%",
+            "-2.1%",
+            "$66M",
+            "#204",
+            "—"
+          ],
+          [
+            "JTO (Jito)",
+            "$0.5457",
+            "+5.5%",
+            "-5.4%",
+            "-0.2%",
+            "$37M",
+            "#151",
+            "—"
+          ],
+          [
+            "TIA (Celestia)",
+            "$0.5751",
+            "+5.2%",
+            "+19.7%",
+            "-0.5%",
+            "$148M",
+            "#109",
+            "—"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Name",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "STRK (Starknet)",
+            "$0.0847",
+            "-12.9%",
+            "+62.6%",
+            "+0.1%",
+            "$281M",
+            "#102",
+            "CAPITULATION"
+          ],
+          [
+            "RSR (Reserve Rights)",
+            "$0.002000",
+            "-10.4%",
+            "+14.5%",
+            "-2.0%",
+            "$65M",
+            "#240",
+            "CAPITULATION"
+          ],
+          [
+            "GRASS (Grass)",
+            "$0.6977",
+            "-9.4%",
+            "+0.1%",
+            "-0.3%",
+            "$43M",
+            "#120",
+            "—"
+          ],
+          [
+            "BNLIFE (BinanceLife)",
+            "$0.5220",
+            "-9.4%",
+            "+6.8%",
+            "-0.6%",
+            "$8M",
+            "#115",
+            "—"
+          ],
+          [
+            "M (MemeCore)",
+            "$0.8473",
+            "-8.7%",
+            "-18.5%",
+            "-1.6%",
+            "$2M",
+            "#52",
+            "—"
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "$4.98",
+            "-8.0%",
+            "-2.0%",
+            "0.0%",
+            "$1.3B",
+            "#21",
+            "—"
+          ],
+          [
+            "ZRO (LayerZero)",
+            "$2.02",
+            "-7.6%",
+            "-9.7%",
+            "-0.4%",
+            "$129M",
+            "#88",
+            "—"
+          ],
+          [
+            "AKT (Akash Network)",
+            "$0.6850",
+            "-6.6%",
+            "-9.6%",
+            "-1.2%",
+            "$6M",
+            "#187",
+            "—"
+          ],
+          [
+            "LIT (Lighter)",
+            "$3.37",
+            "-6.5%",
+            "-11.7%",
+            "+0.3%",
+            "$84M",
+            "#85",
+            "—"
+          ],
+          [
+            "QNT (Quant)",
+            "$213.1",
+            "-6.4%",
+            "-21.9%",
+            "-0.4%",
+            "$166M",
+            "#37",
+            "—"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Name",
+          "Rank",
+          "Price",
+          "24h"
+        ],
+        "rows": [
+          [
+            "Wisp (WISP)",
+            "#775",
+            "$0.0231",
+            "+78.7%"
+          ],
+          [
+            "Doge Pepe (DOPE)",
+            "#851",
+            "$0.0201",
+            "+77.4%"
+          ],
+          [
+            "Crawlerpad (CRAWLER)",
+            "#936",
+            "$0.0169",
+            "+0.0%"
+          ],
+          [
+            "Aerodrome Finance (AERO)",
+            "#84",
+            "$0.9009",
+            "+0.4%"
+          ],
+          [
+            "Pearl (PRL)",
+            "#104",
+            "$1.81",
+            "+21.8%"
+          ],
+          [
+            "Zylo Ecosystem (ZYLO)",
+            "#840",
+            "$0.0232",
+            "+3.0%"
+          ],
+          [
+            "Quantus (QTC)",
+            "#590",
+            "$126.4",
+            "-4.9%"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable1",
+        "notable2",
+        "notable3",
+        "notable4",
+        "notable5"
+      ]
+    },
+    "notable1": {
+      "type": "Alert",
+      "props": {
+        "title": "Q: #191 up +34.2% / 7d +91.7%",
+        "message": "Low-cap spike; two-day acceleration, high manipulation probability",
+        "type": "warning"
+      }
+    },
+    "notable2": {
+      "type": "Alert",
+      "props": {
+        "title": "BAT: #157 up +24.6% / 7d +80.2%",
+        "message": "Attention-token narrative in play alongside PRL",
+        "type": "info"
+      }
+    },
+    "notable3": {
+      "type": "Alert",
+      "props": {
+        "title": "PRL: trending + up +21.8% / 7d +60.8%",
+        "message": "Day 2 TRENDING+UP + BREAKOUT; signal holds, watch volume",
+        "type": "info"
+      }
+    },
+    "notable4": {
+      "type": "Alert",
+      "props": {
+        "title": "RSR: yesterday +40.4% → today -10.4%",
+        "message": "Upbit listing fade confirmed; distribution into retail",
+        "type": "warning"
+      }
+    },
+    "notable5": {
+      "type": "Alert",
+      "props": {
+        "title": "STRK: -12.9% on $281M volume",
+        "message": "Day 2 of heavy selling; elevated vol/mcap",
+        "type": "warning"
+      }
+    }
+  }
+}
