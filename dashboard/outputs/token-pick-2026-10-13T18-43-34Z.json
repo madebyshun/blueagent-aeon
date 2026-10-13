@@ -1,0 +1,361 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-10-13",
+        "description": "token-pick"
+      },
+      "children": [
+        "token-section",
+        "sep1",
+        "market-section",
+        "sep2",
+        "footer-section"
+      ]
+    },
+    "token-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-header",
+        "price-metrics",
+        "score-breakdown",
+        "catalyst-block",
+        "token-risk"
+      ]
+    },
+    "token-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token-title",
+        "token-badge",
+        "signal-stat"
+      ]
+    },
+    "token-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: TIA",
+        "level": "h2"
+      }
+    },
+    "token-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "secondary"
+      }
+    },
+    "signal-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "9/10"
+      }
+    },
+    "price-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "price-line",
+        "market-line"
+      ]
+    },
+    "price-line": {
+      "type": "Text",
+      "props": {
+        "text": "Price: $0.576 (±5.2% 24h / ±19.7% 7d)",
+        "variant": "body"
+      }
+    },
+    "market-line": {
+      "type": "Text",
+      "props": {
+        "text": "mcap $565M | vol $149M (vol/mcap 0.26)",
+        "variant": "caption"
+      }
+    },
+    "score-breakdown": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-label",
+        "score-formula"
+      ]
+    },
+    "score-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h4"
+      }
+    },
+    "score-formula": {
+      "type": "Text",
+      "props": {
+        "text": "[24h>0 +1, 7d>0 +1, both>5% +2, vol/mcap≥0.20 +3, RS vs BTC/ETH +2] = 9/10",
+        "variant": "caption"
+      }
+    },
+    "catalyst-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-label",
+        "catalyst-text"
+      ]
+    },
+    "catalyst-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "catalyst-text": {
+      "type": "Text",
+      "props": {
+        "text": "Recovery from Feb 2026 lows ($0.37→$0.58) continuing; modular DA narrative intact while most alts bleed 10–14% on 7d — TIA's relative strength signals rotation into infrastructure layer bets",
+        "variant": "body"
+      }
+    },
+    "token-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "No confirmed fresh catalyst for the 7d run; still 97%+ below Feb 2024 all-time high ($20.85) with heavy overhead supply at every level",
+        "type": "warning"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-header",
+        "market-odds-block",
+        "market-meta",
+        "fair-price-stat",
+        "thesis-block",
+        "market-risk"
+      ]
+    },
+    "market-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market-title",
+        "market-badge",
+        "edge-stat"
+      ]
+    },
+    "market-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Fed: increase by 25 bps after October 2026 meeting?",
+        "level": "h2"
+      }
+    },
+    "market-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "secondary"
+      }
+    },
+    "edge-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Edge",
+        "value": "~12pp"
+      }
+    },
+    "market-odds-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yes-bar",
+        "no-bar"
+      ]
+    },
+    "yes-bar": {
+      "type": "Progress",
+      "props": {
+        "value": 19.5,
+        "max": 100,
+        "label": "YES: 19.5¢"
+      }
+    },
+    "no-bar": {
+      "type": "Progress",
+      "props": {
+        "value": 80.5,
+        "max": 100,
+        "label": "NO: 80.5¢"
+      }
+    },
+    "market-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market-vol-text",
+        "market-resolve-text"
+      ]
+    },
+    "market-vol-text": {
+      "type": "Text",
+      "props": {
+        "text": "24h vol $353K",
+        "variant": "caption"
+      }
+    },
+    "market-resolve-text": {
+      "type": "Text",
+      "props": {
+        "text": "resolves: 2026-10-29",
+        "variant": "caption"
+      }
+    },
+    "fair-price-stat": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair-stat",
+        "fair-inputs"
+      ]
+    },
+    "fair-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES",
+        "value": "~32%"
+      }
+    },
+    "fair-inputs": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: Fed hiked 25bps in Sep 2026 to 3.75–4.00%; WSJ reporting \"series of rate hikes\" cycle in 2026; Polymarket was 50/50 on this hike as recently as September",
+        "variant": "caption"
+      }
+    },
+    "thesis-block": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-label",
+        "thesis-text",
+        "thesis-action"
+      ]
+    },
+    "thesis-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      }
+    },
+    "thesis-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market has overcorrected toward hold (79.5%) — the same hiking cycle that drove September's first hike since 2023 makes October a live call, not a formality. Buying YES on +25bps at 19.5¢.",
+        "variant": "body"
+      }
+    },
+    "thesis-action": {
+      "type": "Badge",
+      "props": {
+        "text": "Action: Buy YES at 19.5¢",
+        "variant": "outline"
+      }
+    },
+    "market-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "October CPI/PCE data (not yet available) could confirm inflation cooling and validate the market's hold bias",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources-label",
+        "sources-text",
+        "disclaimer-text"
+      ]
+    },
+    "sources-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h4"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "disclaimer-text": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
