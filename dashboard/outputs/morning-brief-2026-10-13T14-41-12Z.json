@@ -1,0 +1,231 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-10-13"
+      },
+      "children": [
+        "focus-heading",
+        "focus-stack",
+        "sep1",
+        "yesterday-heading",
+        "yesterday-stack",
+        "sep2",
+        "watch-heading",
+        "watch-stack",
+        "sep3",
+        "running-heading",
+        "running-stack"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-1",
+        "focus-2",
+        "focus-3"
+      ]
+    },
+    "focus-1": {
+      "type": "Alert",
+      "props": {
+        "title": "Fix morning-brief auth",
+        "message": "4 consecutive 403 failures; won't self-heal",
+        "type": "error"
+      }
+    },
+    "focus-2": {
+      "type": "Alert",
+      "props": {
+        "title": "RSR 72h window closes Oct 14",
+        "message": "confirm breakout or call PUMP fade",
+        "type": "warning"
+      }
+    },
+    "focus-3": {
+      "type": "Text",
+      "props": {
+        "text": "Solana Accelerate China starts Oct 16 — set DEX re-entry position before kickoff",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-1",
+        "yesterday-2",
+        "yesterday-3",
+        "yesterday-4",
+        "yesterday-5"
+      ]
+    },
+    "yesterday-1": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker: ran (16th consecutive XAI 403 — no credits funded)",
+        "variant": "body"
+      }
+    },
+    "yesterday-2": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow: 8 deals; TypeSafe AI $870M Series A leads; agent infra dominant",
+        "variant": "body"
+      }
+    },
+    "yesterday-3": {
+      "type": "Alert",
+      "props": {
+        "title": "security-digest",
+        "message": "3 CVEs PATCH TODAY (ProFTPD, BIND, Struts — BOD 26-04 overdue)",
+        "type": "error"
+      }
+    },
+    "yesterday-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick: RSR +39% on Upbit listing; 72h confirmation window active",
+        "variant": "body"
+      }
+    },
+    "yesterday-5": {
+      "type": "Alert",
+      "props": {
+        "title": "morning-brief",
+        "message": "STUCK — 403 oauth since Oct 8 (4 consecutive failures)",
+        "type": "error"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-1"
+      ]
+    },
+    "watch-1": {
+      "type": "Text",
+      "props": {
+        "text": "Solana Accelerate China (Oct 16 Shanghai) — DEX/ORCA/RAY re-entry catalyst; narrative currently Fading WATCH",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-1",
+        "running-2",
+        "running-3",
+        "running-4",
+        "running-5",
+        "running-6"
+      ]
+    },
+    "running-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-2": {
+      "type": "Text",
+      "props": {
+        "text": "fleet-control @ 09:00, 15:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-3": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-5": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-6": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
