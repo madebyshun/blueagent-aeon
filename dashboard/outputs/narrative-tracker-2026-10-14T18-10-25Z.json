@@ -1,0 +1,532 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-10-14"
+      },
+      "children": [
+        "transitions-section",
+        "sep1",
+        "reflexivity-section",
+        "sep2",
+        "positions-section",
+        "sep3",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans-heading",
+        "trans-1",
+        "trans-2",
+        "trans-3",
+        "trans-4",
+        "trans-5",
+        "trans-6"
+      ]
+    },
+    "trans-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-1-badge",
+        "trans-1-text"
+      ]
+    },
+    "trans-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "trans-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Macro Risk / Rate Hike Oct 28 (Emerging → Rising WATCH) — hot CPI Oct 14 → BTC breaks $82K; $80K support under acute test; Fed hike odds re-activating with concrete catalyst"
+      }
+    },
+    "trans-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-2-badge",
+        "trans-2-text"
+      ]
+    },
+    "trans-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "trans-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "XRP Ledger / Ripple Agent Rails (Emerging → Rising FRONT-RUN) — XRPL records 13M AI agent payments (Oct 14) + Ripple/Privy (Stripe) wallet integration; product-layer proof not just validator governance; merges XRP Batch Amendment arc"
+      }
+    },
+    "trans-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-3-badge",
+        "trans-3-text"
+      ]
+    },
+    "trans-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "trans-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "ETH vs Base / AI Settlement Layer Race (Rising RIDE → Rising, diluted) — XRP entering agent payment race = third contender; dilutive for ETH/Base conviction"
+      }
+    },
+    "trans-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-4-badge",
+        "trans-4-text"
+      ]
+    },
+    "trans-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "trans-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "\"Uptober\" Seasonal Pattern (Emerging COPE → Dead) — BTC -3-4% on hot CPI; narrative disproves itself in real time"
+      }
+    },
+    "trans-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-5-badge",
+        "trans-5-text"
+      ]
+    },
+    "trans-5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "trans-5-text": {
+      "type": "Text",
+      "props": {
+        "text": "Korean Exchange Listings / RSR — 72h window expired; classic listing fade confirmed"
+      }
+    },
+    "trans-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-6-badge",
+        "trans-6-text"
+      ]
+    },
+    "trans-6-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "trans-6-text": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy Coins / Zcash (Fading FADE) — ZEC $1,600→$1,180 post-September peak; laundering narrative is liability"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "reflexivity-1",
+        "reflexivity-2"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflex-1-title",
+        "reflex-1-text"
+      ]
+    },
+    "reflex-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "RWA / Tokenized Markets",
+        "level": "h3"
+      }
+    },
+    "reflex-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "BNY tokenized Treasury repo w/ Citadel Securities (Oct 14) + Morgan Stanley Digital Asset Lab (Oct 13) = two top-tier institutional validations in 24h at peak narrative density. Classic legitimacy manufacturing at potential distribution inflection. RIDE still valid; watch for third institution or ETF as exit signal."
+      }
+    },
+    "reflexivity-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflex-2-title",
+        "reflex-2-text"
+      ]
+    },
+    "reflex-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Agentic Payments",
+        "level": "h3"
+      }
+    },
+    "reflex-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "July x402 artificial activity allegation (analyst questions 75M monthly count) added to prior TRM Labs 0.6-7.5% real-agent-share finding. VC narrative production at maximum while fundamental proof dissolves. FADE at max conviction."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions-heading",
+        "pos-1",
+        "pos-2",
+        "pos-3",
+        "pos-4"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-1-badge",
+        "pos-1-text"
+      ]
+    },
+    "pos-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "secondary"
+      }
+    },
+    "pos-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "XRP Ledger / Ripple Agent Rails (mindshare 3 ↑↑, Rising, Bull) — @Ripple + @Privy (Stripe); XRPL 13M AI agent payments; DriveWealth RLUSD — bear: infra ≠ price; XRP dilutes not wins settlement race"
+      }
+    },
+    "pos-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-2-badge",
+        "pos-2-text"
+      ]
+    },
+    "pos-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH pre-entry",
+        "variant": "outline"
+      }
+    },
+    "pos-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "DEX/Solana — Solana Accelerate China Oct 16-22 is 2 days out; catalyst window open; kill switch = sustained risk-off if BTC loses $80K"
+      }
+    },
+    "pos-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-3-badge",
+        "pos-3-text"
+      ]
+    },
+    "pos-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "outline"
+      }
+    },
+    "pos-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments (5 ↓↓, Peak deflating) — artificial activity allegation is the final nail; VC amplification ≠ fundamental adoption"
+      }
+    },
+    "pos-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-4-badge",
+        "pos-4-text"
+      ]
+    },
+    "pos-4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "outline"
+      }
+    },
+    "pos-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy Coins/Zcash (2 ↓, Fading) — post-pump exhaustion; laundering narrative liability"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "map-heading",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading",
+        "map-dead"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerg-label",
+        "map-emerg-items"
+      ]
+    },
+    "map-emerg-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h3"
+      }
+    },
+    "map-emerg-items": {
+      "type": "Text",
+      "props": {
+        "text": "Security/Custody Risk, CME BCH (Oct 19), DEX/Solana (pre-catalyst)"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-label",
+        "map-rising-items"
+      ]
+    },
+    "map-rising-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      }
+    },
+    "map-rising-items": {
+      "type": "Text",
+      "props": {
+        "text": "Macro Risk/Rate Hike Oct 28, XRP Ledger/Ripple Agent Rails, ETH vs Base (diluted), Global Regulatory Wave, Prediction Markets, FHE (stalling)"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-label",
+        "map-peak-items"
+      ]
+    },
+    "map-peak-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      }
+    },
+    "map-peak-items": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments (deflating), Stablecoins AI Rail, RWA/Tokenized Markets, AI×DePIN/Compute"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-label",
+        "map-fading-items"
+      ]
+    },
+    "map-fading-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      }
+    },
+    "map-fading-items": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy Coins/Zcash, ZRO, Sui/AI Agents, Gaming"
+      }
+    },
+    "map-dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-dead-label",
+        "map-dead-items"
+      ]
+    },
+    "map-dead-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Dead",
+        "level": "h3"
+      }
+    },
+    "map-dead-items": {
+      "type": "Text",
+      "props": {
+        "text": "Uptober, Korean Listings/RSR, Alt Season, MON/WLD/QNT, InfoFi/Kaito"
+      }
+    }
+  }
+}
