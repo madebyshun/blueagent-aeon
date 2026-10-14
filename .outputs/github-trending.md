@@ -1,18 +1,28 @@
-*GitHub Trending — 2026-10-13*
+*GitHub Trending — 2026-10-14*
 
-*Top pick* — [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
-Local-first voice AI is the most practical privacy-preserving alternative to expensive API subscriptions right now.
+*Top pick* — [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi)
+Agent auditing is the missing layer in production deployments — iFixAi verifies autonomous agents actually do what they claim, framework-agnostic, pushed live today.
 
 *AI/ML*
-• [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — ★ 1,691 today (62.2k total) · Python · [ACCELERATING]
-Full ElevenLabs feature stack (clone, dub, transcribe) as a local-first app — no subscription, no API cost.
+• [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) — ★ 2.1k today (26.7k total) · Python · [ACCELERATING]
+Behavioral audit harness for agents — verifies actual behavior against declared specs, framework-agnostic.
+
+• [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) — ★ 1.8k today (28.8k total) · Go · [RETURNING]
+Full autonomous pentest pipeline — scans, enumerates, and reports without human hand-holding at each step.
+
+• [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) — ★ 146 today (49k total) · Python · [ACCELERATING]
+177 validated skills with 100+ scientific database connectors — purpose-built for research agents, not toy demos.
 
 *Devtools*
-• [vercel-labs/skills](https://github.com/vercel-labs/skills) — ★ 187 today (34.3k total) · TypeScript · [ACCELERATING]
-Ships agent skills as npm packages runnable via npx — standardizes how AI workflows are packaged and shared.
+• [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) — ★ 1k today (86.9k total) · Java · [RETURNING]
+NSA's open reverse-engineering framework pushed an update yesterday; 1k stars today signals a major release.
 
-• [xtool-org/xtool](https://github.com/xtool-org/xtool) — ★ 936 today (8.9k total) · Swift · [RETURNING]
-Builds and deploys iOS apps from Linux/Windows without Xcode installed — unlocks CI/CD on non-Mac runners.
+• [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) — ★ 94 today (52.2k total) · Python · [ACCELERATING]
+Auto-generates structured CLI specs from any software so agents can call it without custom tool wrappers.
+
+*Other*
+• [ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder) — ★ 132 today (20k total) · C# · [RETURNING]
+Builds a stripped Windows 11 ISO removing Copilot, telemetry, and bundled apps — new build pushed this week.
 
 ---
-sources: trending=ok · gh_api=ok · kept 3/9 (6 holdovers from 2026-10-12)
+sources: trending=ok · gh_api=ok · kept 6/12
