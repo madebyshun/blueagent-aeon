@@ -1,0 +1,369 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-10-14"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-wal",
+        "separator-1",
+        "section-market",
+        "separator-2",
+        "sources-text"
+      ]
+    },
+    "section-wal": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-wal",
+        "badge-wal-signal",
+        "stack-price",
+        "stack-market",
+        "stack-score",
+        "catalyst-text",
+        "risk-wal"
+      ]
+    },
+    "heading-wal": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: WAL",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge-wal-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH signal 11/10",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stack-price": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-price",
+        "stat-24h-change",
+        "stat-7d-change"
+      ]
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.054"
+      },
+      "children": []
+    },
+    "stat-24h-change": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+40.4%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-7d-change": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+51.1%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stack-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-mcap",
+        "stat-volume",
+        "stat-vol-ratio"
+      ]
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$140M"
+      },
+      "children": []
+    },
+    "stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$168M"
+      },
+      "children": []
+    },
+    "stat-vol-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap",
+        "value": "1.20"
+      },
+      "children": []
+    },
+    "stack-score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score-label",
+        "score-detail"
+      ]
+    },
+    "score-label": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "score-detail": {
+      "type": "Text",
+      "props": {
+        "text": "trending+2, vol/mcap=1.20+3, both>5%+2, RS vs BTC/ETH+2, 24h>0+1, 7d>0+1 = 11/10",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "catalyst-text": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-label",
+        "catalyst-detail"
+      ]
+    },
+    "catalyst-label": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "catalyst-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Gate.io + KuCoin listing announcement for a16z-backed Walrus decentralized storage protocol (Sui)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "risk-wal": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Exchange listing pump — early investors likely to exit once listings go live; RSI already in overbought territory",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-market",
+        "badge-market-edge",
+        "stack-odds",
+        "stack-volume-date",
+        "fair-odds-stack",
+        "thesis-stack",
+        "risk-market"
+      ]
+    },
+    "heading-market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will Harry Kane win the 2026 Ballon d'Or?",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "badge-market-edge": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM edge 9pp",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stack-odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-yes-odds",
+        "stat-no-odds"
+      ]
+    },
+    "stat-yes-odds": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "62¢"
+      },
+      "children": []
+    },
+    "stat-no-odds": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "38¢"
+      },
+      "children": []
+    },
+    "stack-volume-date": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-market-volume",
+        "stat-resolution"
+      ]
+    },
+    "stat-market-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$799K"
+      },
+      "children": []
+    },
+    "stat-resolution": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "Oct 26, 2026"
+      },
+      "children": []
+    },
+    "fair-odds-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair-label",
+        "fair-detail"
+      ]
+    },
+    "fair-label": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "fair-detail": {
+      "type": "Text",
+      "props": {
+        "text": "~53% (inputs: Oddschecker late Sep 44%, Kalshi 51%, William Hill 58%)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "thesis-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-label",
+        "thesis-detail"
+      ]
+    },
+    "thesis-label": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis:",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "thesis-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket prices Kane 9pp above bookmaker/Kalshi consensus; NO (Yamal wins) is the value side — vote closed Sep 28, result locked",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "risk-market": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Post-vote insider leakage could explain the premium legitimately",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=ok, poly=ok — not financial advice — pattern-matching only",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
