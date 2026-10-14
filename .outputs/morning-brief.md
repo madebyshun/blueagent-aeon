@@ -1,23 +1,21 @@
-*Morning Brief — 2026-10-13*
+*Morning Brief — 2026-10-14*
 
 *Focus today*
-1. Fix morning-brief auth — 4 consecutive 403 failures; won't self-heal
-2. RSR 72h window closes Oct 14 — confirm breakout or call PUMP fade
-3. Solana Accelerate China starts Oct 16 — set DEX re-entry position before kickoff
+1. Solana Accelerate China (Shanghai Oct 16) — why now: 2 days to set DEX re-entry before kickoff
+2. XAI API credits — why now: 17 consecutive days degraded; operator must purchase or accept permanent fallback
+3. BOD 26-04 patching deadline Oct 16 — why now: Ivanti ICS + Windows Shell KEVs, 2 days to comply
 
 *Since yesterday*
-- narrative-tracker: ran (16th consecutive XAI 403 — no credits funded)
-- deal-flow: 8 deals; TypeSafe AI $870M Series A leads; agent infra dominant
-- security-digest: 3 CVEs PATCH TODAY (ProFTPD, BIND, Struts — BOD 26-04 overdue)
-- token-pick: RSR +39% on Upbit listing; 72h confirmation window active
-- morning-brief: STUCK — 403 oauth since Oct 8 (4 consecutive failures)
+- RSR: +40.4% → -10.4% reversal; Upbit listing fade confirmed, demoted to FADE
+- morning-brief auth: fixed (0 consecutive failures, last success Oct 13)
+- XAI 403: 17+ consecutive days; narrative-tracker on WebSearch fallback only
+- CryptoBilis $86M+ wallet drain: new supply-chain risk flagged (Ledger-linked reseller)
+- BTC rejected at $87-88K; at $80,400 support with ETF outflows -$681M
 
 *Watch*
-- Solana Accelerate China (Oct 16 Shanghai) — DEX/ORCA/RAY re-entry catalyst; narrative currently Fading WATCH
+- Fed Oct 28 hike odds 47-54% (Williams pushback cooled from 70.9%); if Oct hike confirmed, second BTC leg down risk at $80,400 — implication for Focus #1 SOL DEX timing
 
 *Running today*
-- heartbeat @ 08:00, 14:00, 20:00 UTC
-- fleet-control @ 09:00, 15:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC

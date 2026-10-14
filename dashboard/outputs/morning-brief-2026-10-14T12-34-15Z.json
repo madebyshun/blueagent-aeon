@@ -1,0 +1,267 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-10-14"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus_items",
+        "sep1",
+        "heading_since",
+        "stack_since_items",
+        "sep2",
+        "heading_watch",
+        "stack_watch_items",
+        "sep3",
+        "heading_running",
+        "stack_running_items"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack_focus_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Solana Accelerate China (Shanghai Oct 16) — why now: 2 days to set DEX re-entry before kickoff",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. XAI API credits — why now: 17 consecutive days degraded; operator must purchase or accept permanent fallback",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. BOD 26-04 patching deadline Oct 16 — why now: Ivanti ICS + Windows Shell KEVs, 2 days to comply",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack_since_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "since_1",
+        "since_2",
+        "since_3",
+        "since_4",
+        "since_5"
+      ]
+    },
+    "since_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_1_text",
+        "since_1_stat"
+      ]
+    },
+    "since_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "RSR: Upbit listing fade confirmed, demoted to FADE",
+        "variant": "body"
+      }
+    },
+    "since_1_stat": {
+      "type": "Stat",
+      "props": {
+        "value": "-10.4%",
+        "delta": "-50.8%",
+        "trend": "down"
+      }
+    },
+    "since_2": {
+      "type": "Text",
+      "props": {
+        "text": "morning-brief auth: fixed (0 consecutive failures, last success Oct 13)",
+        "variant": "body"
+      }
+    },
+    "since_3": {
+      "type": "Text",
+      "props": {
+        "text": "XAI 403: 17+ consecutive days; narrative-tracker on WebSearch fallback only",
+        "variant": "body"
+      }
+    },
+    "since_4": {
+      "type": "Text",
+      "props": {
+        "text": "CryptoBilis $86M+ wallet drain: new supply-chain risk flagged (Ledger-linked reseller)",
+        "variant": "body"
+      }
+    },
+    "since_5": {
+      "type": "Text",
+      "props": {
+        "text": "BTC rejected at $87-88K; at $80,400 support with ETF outflows -$681M",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "stack_watch_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "watch_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_1_text",
+        "watch_1_progress"
+      ]
+    },
+    "watch_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "Fed Oct 28 hike odds (Williams pushback cooled from 70.9%)",
+        "variant": "body"
+      }
+    },
+    "watch_1_progress": {
+      "type": "Progress",
+      "props": {
+        "value": 50,
+        "max": 100,
+        "label": "47-54% probability"
+      }
+    },
+    "watch_2": {
+      "type": "Text",
+      "props": {
+        "text": "if Oct hike confirmed, second BTC leg down risk at $80,400 — implication for Focus #1 SOL DEX timing",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack_running_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
