@@ -1,28 +1,27 @@
-*GitHub Trending — 2026-10-14*
+*GitHub Trending — 2026-10-15*
 
-*Top pick* — [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi)
-Agent auditing is the missing layer in production deployments — iFixAi verifies autonomous agents actually do what they claim, framework-agnostic, pushed live today.
+*Top pick* — [morluto/rea](https://github.com/morluto/rea)
+Still accelerating at 260k stars with a live push today — 4 days on trending and the longevity itself is the signal.
 
 *AI/ML*
-• [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) — ★ 2.1k today (26.7k total) · Python · [ACCELERATING]
-Behavioral audit harness for agents — verifies actual behavior against declared specs, framework-agnostic.
+• [morluto/rea](https://github.com/morluto/rea) — ★ 32.3k today (260k total) · TypeScript · [ACCELERATING]
+The only trending RE tool where agents own the full disassembly-to-source pipeline without human guidance.
 
-• [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) — ★ 1.8k today (28.8k total) · Go · [RETURNING]
-Full autonomous pentest pipeline — scans, enumerates, and reports without human hand-holding at each step.
-
-• [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) — ★ 146 today (49k total) · Python · [ACCELERATING]
-177 validated skills with 100+ scientific database connectors — purpose-built for research agents, not toy demos.
+• [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) — ★ 398 today (112k total) · Go · [ACCELERATING]
+A proxy that rewrites agent responses as caveman speech, cutting token throughput by ~65%.
 
 *Devtools*
-• [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) — ★ 1k today (86.9k total) · Java · [RETURNING]
-NSA's open reverse-engineering framework pushed an update yesterday; 1k stars today signals a major release.
+• [affaan-m/ECC](https://github.com/affaan-m/ECC) — ★ 1.0k today (280k total) · JavaScript · [ACCELERATING]
+Drop-in agent harness with skill routing, compressed memory, and sandboxed tool execution for Claude Code.
 
-• [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) — ★ 94 today (52.2k total) · Python · [ACCELERATING]
-Auto-generates structured CLI specs from any software so agents can call it without custom tool wrappers.
+• [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) — ★ 181 today (38k total) · Python · [ACCELERATING]
+Anthropic's curated plugin registry — a quality floor signal for the exploding Claude Code plugin ecosystem.
 
-*Other*
-• [ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder) — ★ 132 today (20k total) · C# · [RETURNING]
-Builds a stripped Windows 11 ISO removing Copilot, telemetry, and bundled apps — new build pushed this week.
+• [mksglu/context-mode](https://github.com/mksglu/context-mode) — ★ 902 today (30k total) · TypeScript · [ACCELERATING]
+New push today adds session-persistent memory; sandboxes tool output to keep context lean across long tasks.
+
+• [xerj-org/xerj](https://github.com/xerj-org/xerj) — ★ 725 today (4.9k total) · Rust · [RETURNING]
+Elasticsearch-compatible agent search that pre-indexes code and docs so agents skip raw grep passes entirely.
 
 ---
 sources: trending=ok · gh_api=ok · kept 6/12

@@ -1,0 +1,520 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-10-15"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-section",
+        "sep1",
+        "ai-ml-section",
+        "sep2",
+        "devtools-section",
+        "sep3",
+        "footer-section"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top-pick-label",
+        "top-pick-item"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "top-pick-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top-pick-link",
+        "top-pick-desc"
+      ]
+    },
+    "top-pick-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "morluto/rea",
+        "href": "https://github.com/morluto/rea",
+        "source": "GitHub"
+      }
+    },
+    "top-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Still accelerating at 260k stars with a live push today — 4 days on trending and the longevity itself is the signal.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ai-ml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-heading",
+        "ai-ml-items"
+      ]
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "ai-ml-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo-rea",
+        "repo-caveman"
+      ]
+    },
+    "repo-rea": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-rea-title",
+        "repo-rea-meta",
+        "repo-rea-desc"
+      ]
+    },
+    "repo-rea-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "morluto/rea",
+        "href": "https://github.com/morluto/rea",
+        "source": "GitHub"
+      }
+    },
+    "repo-rea-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-rea-stars",
+        "repo-rea-lang",
+        "repo-rea-status"
+      ]
+    },
+    "repo-rea-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "32.3k",
+        "delta": "260k total"
+      }
+    },
+    "repo-rea-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "repo-rea-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo-rea-desc": {
+      "type": "Text",
+      "props": {
+        "text": "The only trending RE tool where agents own the full disassembly-to-source pipeline without human guidance.",
+        "variant": "body"
+      }
+    },
+    "repo-caveman": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-caveman-title",
+        "repo-caveman-meta",
+        "repo-caveman-desc"
+      ]
+    },
+    "repo-caveman-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "JuliusBrussee/caveman",
+        "href": "https://github.com/JuliusBrussee/caveman",
+        "source": "GitHub"
+      }
+    },
+    "repo-caveman-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-caveman-stars",
+        "repo-caveman-lang",
+        "repo-caveman-status"
+      ]
+    },
+    "repo-caveman-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "398",
+        "delta": "112k total"
+      }
+    },
+    "repo-caveman-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go"
+      }
+    },
+    "repo-caveman-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo-caveman-desc": {
+      "type": "Text",
+      "props": {
+        "text": "A proxy that rewrites agent responses as caveman speech, cutting token throughput by ~65%.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-items"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "devtools-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "repo-ecc",
+        "repo-claude-plugins",
+        "repo-context-mode",
+        "repo-xerj"
+      ]
+    },
+    "repo-ecc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-ecc-title",
+        "repo-ecc-meta",
+        "repo-ecc-desc"
+      ]
+    },
+    "repo-ecc-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "affaan-m/ECC",
+        "href": "https://github.com/affaan-m/ECC",
+        "source": "GitHub"
+      }
+    },
+    "repo-ecc-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-ecc-stars",
+        "repo-ecc-lang",
+        "repo-ecc-status"
+      ]
+    },
+    "repo-ecc-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "1.0k",
+        "delta": "280k total"
+      }
+    },
+    "repo-ecc-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript"
+      }
+    },
+    "repo-ecc-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo-ecc-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Drop-in agent harness with skill routing, compressed memory, and sandboxed tool execution for Claude Code.",
+        "variant": "body"
+      }
+    },
+    "repo-claude-plugins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-claude-plugins-title",
+        "repo-claude-plugins-meta",
+        "repo-claude-plugins-desc"
+      ]
+    },
+    "repo-claude-plugins-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anthropics/claude-plugins-official",
+        "href": "https://github.com/anthropics/claude-plugins-official",
+        "source": "GitHub"
+      }
+    },
+    "repo-claude-plugins-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-claude-plugins-stars",
+        "repo-claude-plugins-lang",
+        "repo-claude-plugins-status"
+      ]
+    },
+    "repo-claude-plugins-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "181",
+        "delta": "38k total"
+      }
+    },
+    "repo-claude-plugins-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "repo-claude-plugins-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo-claude-plugins-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Anthropic's curated plugin registry — a quality floor signal for the exploding Claude Code plugin ecosystem.",
+        "variant": "body"
+      }
+    },
+    "repo-context-mode": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-context-mode-title",
+        "repo-context-mode-meta",
+        "repo-context-mode-desc"
+      ]
+    },
+    "repo-context-mode-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mksglu/context-mode",
+        "href": "https://github.com/mksglu/context-mode",
+        "source": "GitHub"
+      }
+    },
+    "repo-context-mode-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-context-mode-stars",
+        "repo-context-mode-lang",
+        "repo-context-mode-status"
+      ]
+    },
+    "repo-context-mode-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "902",
+        "delta": "30k total"
+      }
+    },
+    "repo-context-mode-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "repo-context-mode-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo-context-mode-desc": {
+      "type": "Text",
+      "props": {
+        "text": "New push today adds session-persistent memory; sandboxes tool output to keep context lean across long tasks.",
+        "variant": "body"
+      }
+    },
+    "repo-xerj": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-xerj-title",
+        "repo-xerj-meta",
+        "repo-xerj-desc"
+      ]
+    },
+    "repo-xerj-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "xerj-org/xerj",
+        "href": "https://github.com/xerj-org/xerj",
+        "source": "GitHub"
+      }
+    },
+    "repo-xerj-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-xerj-stars",
+        "repo-xerj-lang",
+        "repo-xerj-status"
+      ]
+    },
+    "repo-xerj-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "725",
+        "delta": "4.9k total"
+      }
+    },
+    "repo-xerj-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "repo-xerj-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo-xerj-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Elasticsearch-compatible agent search that pre-indexes code and docs so agents skip raw grep passes entirely.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-section": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/12",
+        "variant": "muted"
+      }
+    }
+  }
+}
