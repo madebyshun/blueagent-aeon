@@ -1,0 +1,414 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-10-15"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "verdict-text",
+        "sep1",
+        "patch-heading",
+        "cve-list",
+        "sep2",
+        "footer-stack"
+      ]
+    },
+    "verdict-text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 3 actively exploited, 0 likely soon, 0 to schedule. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "cve1",
+        "cve2",
+        "cve3"
+      ]
+    },
+    "cve1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve1-link",
+        "cve1-meta",
+        "cve1-desc",
+        "cve1-action",
+        "cve1-due"
+      ]
+    },
+    "cve1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-105134 — Ahsay AhsayCBS",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134"
+      }
+    },
+    "cve1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve1-kev-badge",
+        "cve1-epss",
+        "cve1-cvss-badge"
+      ]
+    },
+    "cve1-kev-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-10-14",
+        "variant": "secondary"
+      }
+    },
+    "cve1-epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.032"
+      }
+    },
+    "cve1-cvss-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "outline"
+      }
+    },
+    "cve1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Command injection in replication endpoint; chains with CVE-2026-105133 (auth bypass) → unauth RCE. Exploited per CISA.",
+        "variant": "body"
+      }
+    },
+    "cve1-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ patch AhsayCBS; block /rps/api/json/UpdateReceivers.do at perimeter.",
+        "variant": "caption"
+      }
+    },
+    "cve1-due": {
+      "type": "Alert",
+      "props": {
+        "title": "Due 2026-10-17",
+        "type": "warning"
+      }
+    },
+    "cve2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve2-link",
+        "cve2-meta",
+        "cve2-desc",
+        "cve2-action",
+        "cve2-due"
+      ]
+    },
+    "cve2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-21589 — Atlassian DC (Bitbucket/Confluence/Jira/Bamboo/Crowd)",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589"
+      }
+    },
+    "cve2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve2-kev-badge",
+        "cve2-epss",
+        "cve2-cvss-badge"
+      ]
+    },
+    "cve2-kev-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-10-15",
+        "variant": "secondary"
+      }
+    },
+    "cve2-epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.028"
+      }
+    },
+    "cve2-cvss-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "outline"
+      }
+    },
+    "cve2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth read of web app root files across all DC editions. Exploited per CISA.",
+        "variant": "body"
+      }
+    },
+    "cve2-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Atlassian patches immediately; audit access logs for file disclosure.",
+        "variant": "caption"
+      }
+    },
+    "cve2-due": {
+      "type": "Alert",
+      "props": {
+        "title": "Due 2026-10-18",
+        "type": "warning"
+      }
+    },
+    "cve3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve3-link",
+        "cve3-meta",
+        "cve3-desc",
+        "cve3-action",
+        "cve3-due"
+      ]
+    },
+    "cve3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-76519 — Cisco Secure Email Gateway",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519"
+      }
+    },
+    "cve3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve3-kev-badge",
+        "cve3-epss",
+        "cve3-cvss-badge"
+      ]
+    },
+    "cve3-kev-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-10-14",
+        "variant": "secondary"
+      }
+    },
+    "cve3-epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.017"
+      }
+    },
+    "cve3-cvss-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "outline"
+      }
+    },
+    "cve3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth path traversal → arbitrary OS file write. Exploited per CISA.",
+        "variant": "body"
+      }
+    },
+    "cve3-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade Cisco SEG firmware per vendor advisory.",
+        "variant": "caption"
+      }
+    },
+    "cve3-due": {
+      "type": "Alert",
+      "props": {
+        "title": "Due 2026-10-17",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer-heading",
+        "footer-cve1",
+        "footer-cve2"
+      ]
+    },
+    "footer-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "+2 KEV over cap",
+        "level": "h4"
+      }
+    },
+    "footer-cve1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer-cve1-title",
+        "footer-cve1-meta",
+        "footer-cve1-desc"
+      ]
+    },
+    "footer-cve1-title": {
+      "type": "Text",
+      "props": {
+        "text": "CVE-2026-0322 — Palo Alto PAN-OS",
+        "variant": "body"
+      }
+    },
+    "footer-cve1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "footer-cve1-epss",
+        "footer-cve1-deadline"
+      ]
+    },
+    "footer-cve1-epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.011"
+      }
+    },
+    "footer-cve1-deadline": {
+      "type": "Badge",
+      "props": {
+        "text": "Oct 17 deadline",
+        "variant": "secondary"
+      }
+    },
+    "footer-cve1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth code injection → root RCE",
+        "variant": "caption"
+      }
+    },
+    "footer-cve2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer-cve2-title",
+        "footer-cve2-meta",
+        "footer-cve2-desc"
+      ]
+    },
+    "footer-cve2-title": {
+      "type": "Text",
+      "props": {
+        "text": "CVE-2026-105133 — Ahsay",
+        "variant": "body"
+      }
+    },
+    "footer-cve2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "footer-cve2-epss",
+        "footer-cve2-deadline"
+      ]
+    },
+    "footer-cve2-epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.007"
+      }
+    },
+    "footer-cve2-deadline": {
+      "type": "Badge",
+      "props": {
+        "text": "Oct 17 deadline",
+        "variant": "secondary"
+      }
+    },
+    "footer-cve2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass",
+        "variant": "caption"
+      }
+    }
+  }
+}

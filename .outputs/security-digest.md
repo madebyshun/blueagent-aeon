@@ -1,14 +1,17 @@
-## Summary
+*Security Digest — 2026-10-15*
+Verdict: 3 actively exploited, 0 likely soon, 0 to schedule. _Sources: KEV, GH Advisory, EPSS_
 
-**security-digest — 2026-10-14**
+*PATCH TODAY*
+- [CVE-2026-105134](https://nvd.nist.gov/vuln/detail/CVE-2026-105134) — Ahsay AhsayCBS · KEV added 2026-10-14 · EPSS 0.032 · CVSS n/a
+  Command injection in replication endpoint; chains with CVE-2026-105133 (auth bypass) → unauth RCE. Exploited per CISA.
+  → patch AhsayCBS; block /rps/api/json/UpdateReceivers.do at perimeter. Due 2026-10-17.
 
-All three tiers empty. No notification sent (`SECURITY_DIGEST_OK`).
+- [CVE-2026-21589](https://nvd.nist.gov/vuln/detail/CVE-2026-21589) — Atlassian DC (Bitbucket/Confluence/Jira/Bamboo/Crowd) · KEV added 2026-10-15 · EPSS 0.028 · CVSS n/a
+  Unauth read of web app root files across all DC editions. Exploited per CISA.
+  → apply Atlassian patches immediately; audit access logs for file disclosure. Due 2026-10-18.
 
-**What ran:**
-- **CISA KEV**: 7 entries added this week — all already covered in the 2026-10-12 and 2026-10-13 logs (Ivanti ICS, Windows Shell, BIND, Apache Struts, Strapi, ONLYOFFICE, ProFTPD). No new KEV additions today.
-- **GitHub Advisories (last 48h)**: Microsoft Patch Tuesday dominated — 23 new advisories published Oct 13. All are `nuget` (ASP.NET Core / .NET runtimes), outside the tracked stack (npm/pip/Go/crates.io/GitHub Actions). Most notable: CVE-2026-105016 (Microsoft QUIC RCE, CVSS 9.8) — but EPSS = 1.0%, no exploitation signal, and nuget is not tracked.
-- **EPSS**: Fetched for 3 new critical CVEs; all scored 0.8–1.0% (negligible exploitation probability).
+- [CVE-2026-76519](https://nvd.nist.gov/vuln/detail/CVE-2026-76519) — Cisco Secure Email Gateway · KEV added 2026-10-14 · EPSS 0.017 · CVSS n/a
+  Unauth path traversal → arbitrary OS file write. Exploited per CISA.
+  → upgrade Cisco SEG firmware per vendor advisory. Due 2026-10-17.
 
-**Sources**: kev=ok, gh=ok, epss=ok  
-**Logged** to `memory/logs/2026-10-14.md`  
-**./notify**: skipped per spec (all tiers empty, sources healthy)
+_(+2 KEV over cap: CVE-2026-0322 Palo Alto PAN-OS auth code injection → root RCE · EPSS 0.011; CVE-2026-105133 Ahsay auth bypass · EPSS 0.007 — same Oct 17 deadline)_
