@@ -1,21 +1,18 @@
-*Morning Brief — 2026-10-14*
+*Morning Brief — 2026-10-15*
 
 *Focus today*
-1. Solana Accelerate China (Shanghai Oct 16) — why now: 2 days to set DEX re-entry before kickoff
-2. XAI API credits — why now: 17 consecutive days degraded; operator must purchase or accept permanent fallback
-3. BOD 26-04 patching deadline Oct 16 — why now: Ivanti ICS + Windows Shell KEVs, 2 days to comply
+1. Solana Accelerate China opens tomorrow (Shanghai) — last day to enter DEX/Solana names pre-catalyst
+2. BOD 26-04 patch deadline is today — Ivanti ICS + Windows Shell KEVs must be patched by EOD
+3. XAI API credits — 19th consecutive degraded day; narrative-tracker at 13:30 UTC falls back to WebSearch again
 
 *Since yesterday*
-- RSR: +40.4% → -10.4% reversal; Upbit listing fade confirmed, demoted to FADE
-- morning-brief auth: fixed (0 consecutive failures, last success Oct 13)
-- XAI 403: 17+ consecutive days; narrative-tracker on WebSearch fallback only
-- CryptoBilis $86M+ wallet drain: new supply-chain risk flagged (Ledger-linked reseller)
-- BTC rejected at $87-88K; at $80,400 support with ETF outflows -$681M
-
-*Watch*
-- Fed Oct 28 hike odds 47-54% (Williams pushback cooled from 70.9%); if Oct hike confirmed, second BTC leg down risk at $80,400 — implication for Focus #1 SOL DEX timing
+- [moved] WAL +40.1% (Gate.io/KuCoin listing); market deep risk-off, 11/80 top-100 green
+- [moved] Macro Risk PROMOTED → Rising WATCH; XRP Ledger FRONT-RUN; Uptober DEAD
+- [moved] Microsoft Patch Tuesday — CVE-2026-105016 QUIC RCE CVSS 9.8 published; nuget only, not in tracked stack
+- [stuck] XAI 403 unresolved — team has no credits; operator action required at console.x.ai
 
 *Running today*
+- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
