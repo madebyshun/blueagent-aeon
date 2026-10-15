@@ -1,0 +1,545 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "2026-10-15"
+      },
+      "children": [
+        "text-intro",
+        "sep-1",
+        "heading-winners",
+        "table-winners",
+        "sep-2",
+        "heading-losers",
+        "table-losers",
+        "sep-3",
+        "heading-trending",
+        "table-trending",
+        "sep-4",
+        "heading-notable",
+        "stack-notable"
+      ]
+    },
+    "text-intro": {
+      "type": "Text",
+      "props": {
+        "text": "Mild recovery — 65/100 top coins green, median top-50 +1.0%; L2s (STRK, ZK) and oracle names leading after yesterday's -2.6% selloff; BTW reverses sharply from 2-day run.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Volume/Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "CARDS (Collector Crypt)",
+            "$0.3391",
+            "+29.6%",
+            "+23.9%",
+            "+4.8%",
+            "$17M",
+            "#144",
+            ""
+          ],
+          [
+            "PYTH (Pyth Network)",
+            "$0.1000",
+            "+22.9%",
+            "+18.5%",
+            "+9.8%",
+            "$177M",
+            "#90",
+            "TRENDING+UP"
+          ],
+          [
+            "STRK (Starknet)",
+            "$0.0934",
+            "+21.5%",
+            "+42.1%",
+            "+12.7%",
+            "$329M",
+            "#99",
+            "TRENDING+UP BREAKOUT"
+          ],
+          [
+            "AKE (Akedo)",
+            "$0.0314",
+            "+21.1%",
+            "−2.3%",
+            "−9.5%",
+            "$26M",
+            "#96",
+            "FADE"
+          ],
+          [
+            "ZK (ZKsync)",
+            "$0.0175",
+            "+17.3%",
+            "+43.8%",
+            "+6.8%",
+            "$139M",
+            "#193",
+            "BREAKOUT"
+          ],
+          [
+            "TIA (Celestia)",
+            "$0.5979",
+            "+12.3%",
+            "+15.9%",
+            "+6.4%",
+            "$90M",
+            "#107",
+            ""
+          ],
+          [
+            "ZAMA (Zama)",
+            "$0.0782",
+            "+12.2%",
+            "−0.6%",
+            "+3.9%",
+            "$29M",
+            "#189",
+            ""
+          ],
+          [
+            "ZRO (LayerZero)",
+            "$2.12",
+            "+12.0%",
+            "−2.8%",
+            "+8.7%",
+            "$151M",
+            "#85",
+            ""
+          ],
+          [
+            "BAT (Basic Attention)",
+            "$0.1918",
+            "+11.5%",
+            "+74.3%",
+            "+1.5%",
+            "$49M",
+            "#150",
+            ""
+          ],
+          [
+            "VVV (Venice Token)",
+            "$24.94",
+            "+10.9%",
+            "+8.4%",
+            "+7.8%",
+            "$52M",
+            "#71",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Volume/Cap",
+          "Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "BTW (Bitway)",
+            "$1.90",
+            "−19.9%",
+            "+38.4%",
+            "−3.3%",
+            "$31M",
+            "#39",
+            ""
+          ],
+          [
+            "PRL (Pearl)",
+            "$1.82",
+            "−8.8%",
+            "+25.7%",
+            "−1.5%",
+            "$10M",
+            "#104",
+            "TRENDING+DOWN"
+          ],
+          [
+            "CC (Canton)",
+            "$0.1099",
+            "−6.8%",
+            "−8.7%",
+            "+3.1%",
+            "$27M",
+            "#28",
+            ""
+          ],
+          [
+            "JTO (Jito)",
+            "$0.4694",
+            "−6.3%",
+            "−17.5%",
+            "+4.0%",
+            "$55M",
+            "#161",
+            ""
+          ],
+          [
+            "A (Vaulta)",
+            "$0.0972",
+            "−6.1%",
+            "−1.9%",
+            "+3.1%",
+            "$15M",
+            "#209",
+            ""
+          ],
+          [
+            "DCR (Decred)",
+            "$15.11",
+            "−5.6%",
+            "−15.4%",
+            "+1.9%",
+            "$2M",
+            "#157",
+            ""
+          ],
+          [
+            "LIT (Lighter)",
+            "$3.07",
+            "−4.7%",
+            "−14.8%",
+            "+3.3%",
+            "$106M",
+            "#92",
+            ""
+          ],
+          [
+            "SPCXB (SpaceX Tokenized)",
+            "$147.3",
+            "−4.4%",
+            "−11.0%",
+            "+4.3%",
+            "$117M",
+            "#237",
+            ""
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.004515",
+            "−4.4%",
+            "−23.1%",
+            "+4.5%",
+            "$294M",
+            "#49",
+            ""
+          ],
+          [
+            "OKB (OKB)",
+            "$118.2",
+            "−4.1%",
+            "−5.8%",
+            "+2.5%",
+            "$52M",
+            "#42",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h %",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "NEAR Protocol (NEAR)",
+            "#19",
+            "$5.05",
+            "+5.4%",
+            ""
+          ],
+          [
+            "Pyth Network (PYTH)",
+            "#90",
+            "$0.1004",
+            "+22.9%",
+            "TRENDING+UP"
+          ],
+          [
+            "Starknet (STRK)",
+            "#99",
+            "$0.0934",
+            "+21.5%",
+            "TRENDING+UP BREAKOUT"
+          ],
+          [
+            "Pearl (PRL)",
+            "#104",
+            "$1.811",
+            "−8.8%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "Uniswap (UNI)",
+            "#25",
+            "$7.49",
+            "+4.5%",
+            ""
+          ],
+          [
+            "Quantus (QTC)",
+            "#637",
+            "$111.3",
+            "",
+            ""
+          ],
+          [
+            "Aerodrome Finance (AERO)",
+            "#82",
+            "$0.895",
+            "+4.7%",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "notable-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-1-title",
+        "notable-1-text",
+        "notable-1-badges"
+      ]
+    },
+    "notable-1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "STRK: After 2 days of CAPITULATION (−12.9% / −9.9%), bounced +21.5% with $329M vol",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "notable-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Trending + 7d +42.1% — sharpest reversal signal on the board",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "notable-1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-trending-up",
+        "badge-breakout"
+      ]
+    },
+    "badge-trending-up": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "badge-breakout": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "notable-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-2-title",
+        "notable-2-text"
+      ]
+    },
+    "notable-2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "PYTH: Trending + +22.9% on $177M vol",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "notable-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Oracle narrative catching a bid; follow-through from yesterday's +3.6%",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "notable-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-3-title",
+        "notable-3-text"
+      ]
+    },
+    "notable-3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "BTW: Reversed from Oct 14 top winner (+22.9%) to −19.9% today",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "notable-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Classic 2-day pump fade, no new catalyst visible",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "notable-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable-4-title",
+        "notable-4-text"
+      ]
+    },
+    "notable-4-title": {
+      "type": "Heading",
+      "props": {
+        "text": "BAT: 7d +74.3% quiet compounder (#150)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "notable-4-text": {
+      "type": "Text",
+      "props": {
+        "text": "Watch for BREAKOUT if daily momentum catches up",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
