@@ -1,0 +1,416 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-10-16"
+      },
+      "children": [
+        "verdict_text",
+        "sep_top",
+        "patch_heading",
+        "patch_items_stack",
+        "sep_mid",
+        "monitor_heading",
+        "monitor_items_stack"
+      ]
+    },
+    "verdict_text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: nothing urgent today. 5 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep_top": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch_items_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch_item_1",
+        "patch_item_2",
+        "patch_item_3",
+        "patch_item_4",
+        "patch_item_5"
+      ]
+    },
+    "patch_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "patch_1_link",
+        "patch_1_details",
+        "patch_1_vuln",
+        "patch_1_action"
+      ]
+    },
+    "patch_1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-94603",
+        "href": "https://github.com/advisories/GHSA-2cvf-wqm6-wr9g",
+        "source": "Podman (go)"
+      }
+    },
+    "patch_1_details": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 10.0 · EPSS 0.92% · no PoC",
+        "variant": "caption"
+      }
+    },
+    "patch_1_vuln": {
+      "type": "Text",
+      "props": {
+        "text": "Image annotation disables almost all container sandboxing.",
+        "variant": "body"
+      }
+    },
+    "patch_1_action": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade podman to ≥5.8.8 (v5) or ≥6.1.3 (v6).",
+        "variant": "body"
+      }
+    },
+    "patch_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "patch_2_link",
+        "patch_2_details",
+        "patch_2_vuln",
+        "patch_2_action"
+      ]
+    },
+    "patch_2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-104252",
+        "href": "https://github.com/advisories/GHSA-v75v-6fpf-gvw8",
+        "source": "Vitess vttablet (go)"
+      }
+    },
+    "patch_2_details": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.8 · EPSS 0.89% · no PoC",
+        "variant": "caption"
+      }
+    },
+    "patch_2_vuln": {
+      "type": "Text",
+      "props": {
+        "text": "Reflected XSS in /twopcz endpoint.",
+        "variant": "body"
+      }
+    },
+    "patch_2_action": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade vitess.io/vitess to ≥0.23.5 or ≥0.24.2.",
+        "variant": "body"
+      }
+    },
+    "patch_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "patch_3_link",
+        "patch_3_details",
+        "patch_3_vuln",
+        "patch_3_action"
+      ]
+    },
+    "patch_3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-77459",
+        "href": "https://github.com/advisories/GHSA-fmxq-cgp8-87wp",
+        "source": "Argo CD (go)"
+      }
+    },
+    "patch_3_details": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.9 · EPSS 0.72% · no PoC",
+        "variant": "caption"
+      }
+    },
+    "patch_3_vuln": {
+      "type": "Text",
+      "props": {
+        "text": "AppProject namespace/resource restrictions bypassed via PostDelete hooks.",
+        "variant": "body"
+      }
+    },
+    "patch_3_action": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade argo-cd v3 to ≥3.3.15 / ≥3.4.10 / ≥3.5.4; v2 unpatched.",
+        "variant": "body"
+      }
+    },
+    "patch_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "patch_4_link",
+        "patch_4_details",
+        "patch_4_vuln",
+        "patch_4_action"
+      ]
+    },
+    "patch_4_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-77524",
+        "href": "https://github.com/advisories/GHSA-637c-6jxx-4rwm",
+        "source": "KEDA (go)"
+      }
+    },
+    "patch_4_details": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.9 · EPSS 0.64% · no PoC",
+        "variant": "caption"
+      }
+    },
+    "patch_4_vuln": {
+      "type": "Text",
+      "props": {
+        "text": "Namespace admin escalates to cluster admin via TriggerAuthentication.",
+        "variant": "body"
+      }
+    },
+    "patch_4_action": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade keda/v2 to ≥2.21.0.",
+        "variant": "body"
+      }
+    },
+    "patch_item_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "patch_5_link",
+        "patch_5_details",
+        "patch_5_vuln",
+        "patch_5_action"
+      ]
+    },
+    "patch_5_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-102989",
+        "href": "https://github.com/advisories/GHSA-qx66-fv34-fjm8",
+        "source": "TanStack Start (npm)"
+      }
+    },
+    "patch_5_details": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.3 · EPSS 0.52% · no PoC",
+        "variant": "caption"
+      }
+    },
+    "patch_5_vuln": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated reflected XSS in server-function responses.",
+        "variant": "body"
+      }
+    },
+    "patch_5_action": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade @tanstack/react-start ≥1.168.60 (solid ≥1.168.57, vue ≥1.168.56).",
+        "variant": "body"
+      }
+    },
+    "sep_mid": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "monitor_items_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "monitor_item_1",
+        "monitor_item_2",
+        "monitor_item_3"
+      ]
+    },
+    "monitor_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "monitor_1_link",
+        "monitor_1_details",
+        "monitor_1_vuln",
+        "monitor_1_action"
+      ]
+    },
+    "monitor_1_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-102748",
+        "href": "https://github.com/advisories/GHSA-qj98-gp63-54xj",
+        "source": "Dgraph v25 (go)"
+      }
+    },
+    "monitor_1_details": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS n/a · EPSS 0.49% · no fix yet",
+        "variant": "caption"
+      }
+    },
+    "monitor_1_vuln": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth HTTP admin removeNode → DoS.",
+        "variant": "body"
+      }
+    },
+    "monitor_1_action": {
+      "type": "Text",
+      "props": {
+        "text": "Track GHSA-qj98-gp63-54xj; block admin port at network layer.",
+        "variant": "body"
+      }
+    },
+    "monitor_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "monitor_2_link",
+        "monitor_2_details",
+        "monitor_2_vuln",
+        "monitor_2_action"
+      ]
+    },
+    "monitor_2_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-86063",
+        "href": "https://github.com/advisories/GHSA-pq7j-f95f-qfcv",
+        "source": "@anthropic-ai/claude-code (npm)"
+      }
+    },
+    "monitor_2_details": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS n/a · EPSS 0.17% · fix: ≥2.1.179",
+        "variant": "caption"
+      }
+    },
+    "monitor_2_vuln": {
+      "type": "Text",
+      "props": {
+        "text": "Plugin hash pin bypass — plugins load without hash verification.",
+        "variant": "body"
+      }
+    },
+    "monitor_2_action": {
+      "type": "Text",
+      "props": {
+        "text": "Upgrade claude-code if used as dependency.",
+        "variant": "body"
+      }
+    },
+    "monitor_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "monitor_3_link",
+        "monitor_3_details",
+        "monitor_3_vuln",
+        "monitor_3_action"
+      ]
+    },
+    "monitor_3_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-103929",
+        "href": "https://github.com/advisories/GHSA-g74g-rg72-j2p3",
+        "source": "mise (rust)"
+      }
+    },
+    "monitor_3_details": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 7.8 · EPSS 0.20% · patch unclear",
+        "variant": "caption"
+      }
+    },
+    "monitor_3_vuln": {
+      "type": "Text",
+      "props": {
+        "text": "Untrusted local config overrides shell args.",
+        "variant": "body"
+      }
+    },
+    "monitor_3_action": {
+      "type": "Text",
+      "props": {
+        "text": "Avoid untrusted .mise.toml; watch for confirmed patch.",
+        "variant": "body"
+      }
+    }
+  }
+}
