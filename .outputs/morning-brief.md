@@ -1,19 +1,23 @@
-*Morning Brief — 2026-10-15*
+*Morning Brief — 2026-10-16*
 
 *Focus today*
-1. Solana Accelerate China opens tomorrow (Shanghai) — last day to enter DEX/Solana names pre-catalyst
-2. BOD 26-04 patch deadline is today — Ivanti ICS + Windows Shell KEVs must be patched by EOD
-3. XAI API credits — 19th consecutive degraded day; narrative-tracker at 13:30 UTC falls back to WebSearch again
+1. Solana Accelerate China live (Shanghai) — catalyst window open; confirm or exit DEX/Solana names today
+2. STRK quantum resistance — FRONT-RUN entered yesterday; assess hold vs exit signal today
+3. XAI API credits — 20th degraded day; buy credits or narrative-tracker stays blind
 
 *Since yesterday*
-- [moved] WAL +40.1% (Gate.io/KuCoin listing); market deep risk-off, 11/80 top-100 green
-- [moved] Macro Risk PROMOTED → Rising WATCH; XRP Ledger FRONT-RUN; Uptober DEAD
-- [moved] Microsoft Patch Tuesday — CVE-2026-105016 QUIC RCE CVSS 9.8 published; nuget only, not in tracked stack
-- [stuck] XAI 403 unresolved — team has no credits; operator action required at console.x.ai
+- Solana Shanghai: pre-catalyst → catalyst NOW (confirmed live Oct 16)
+- STRK: FRONT-RUN called @ +22.8%/+42.1% 7d (Oct 15 token-pick 10/10); first checkpoint
+- BOD 26-04 patch deadline passed EOD Oct 15 — de-escalated
+- DEX/Solana narrative: PROMOTED to Rising RIDE in yesterday's narrative-tracker
+- Midterms NO edge: Polymarket 90.5¢ vs ~76% fair value — still active
+
+*Watch*
+- Solana Shanghai confirmed live today — active catalyst for DEX/Solana RIDE; next: Hangzhou Oct 18
 
 *Running today*
-- heartbeat @ 08:00, 14:00, 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC

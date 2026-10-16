@@ -1,0 +1,275 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-10-16"
+      },
+      "children": [
+        "stack-root"
+      ]
+    },
+    "stack-root": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "yesterday-section",
+        "sep2",
+        "watch-section",
+        "sep3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-1-text",
+        "focus-1-badge"
+      ]
+    },
+    "focus-1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Solana Accelerate China live (Shanghai) — catalyst window open; confirm or exit DEX/Solana names today",
+        "variant": "body"
+      }
+    },
+    "focus-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "catalyst window",
+        "variant": "default"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-2-text",
+        "focus-2-badge"
+      ]
+    },
+    "focus-2-text": {
+      "type": "Text",
+      "props": {
+        "text": "STRK quantum resistance — FRONT-RUN entered yesterday; assess hold vs exit signal today",
+        "variant": "body"
+      }
+    },
+    "focus-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "secondary"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-3-text",
+        "focus-3-badge"
+      ]
+    },
+    "focus-3-text": {
+      "type": "Text",
+      "props": {
+        "text": "XAI API credits — 20th degraded day; buy credits or narrative-tracker stays blind",
+        "variant": "body"
+      }
+    },
+    "focus-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "20 days degraded",
+        "variant": "destructive"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-heading",
+        "yesterday-item-1",
+        "yesterday-item-2",
+        "yesterday-item-3",
+        "yesterday-item-4",
+        "yesterday-item-5"
+      ]
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Solana Shanghai: pre-catalyst → catalyst NOW (confirmed live Oct 16)",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "STRK: FRONT-RUN called @ +22.8%/+42.1% 7d (Oct 15 token-pick 10/10); first checkpoint",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "BOD 26-04 patch deadline passed EOD Oct 15 — de-escalated",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "DEX/Solana narrative: PROMOTED to Rising RIDE in yesterday's narrative-tracker",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "Midterms NO edge: Polymarket 90.5¢ vs ~76% fair value — still active",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-item-1"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Solana Shanghai confirmed live today — active catalyst for DEX/Solana RIDE; next: Hangzhou Oct 18",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-table"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Task",
+          "Time"
+        ],
+        "rows": [
+          [
+            "github-monitor",
+            "09:00 UTC"
+          ],
+          [
+            "token-movers",
+            "12:00 UTC"
+          ],
+          [
+            "token-pick",
+            "12:00 UTC"
+          ],
+          [
+            "narrative-tracker",
+            "13:30 UTC"
+          ],
+          [
+            "heartbeat",
+            "08:00, 14:00, 20:00 UTC"
+          ]
+        ]
+      }
+    }
+  }
+}
