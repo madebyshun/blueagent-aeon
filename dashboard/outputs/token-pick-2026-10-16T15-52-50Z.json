@@ -1,0 +1,225 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-10-16"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_inj",
+        "sep1",
+        "section_bitcoin",
+        "sources"
+      ]
+    },
+    "section_inj": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_inj",
+        "stack_inj_metrics",
+        "text_score",
+        "text_catalyst",
+        "text_risk_inj",
+        "text_dedup"
+      ]
+    },
+    "heading_inj": {
+      "type": "Heading",
+      "props": {
+        "text": "INJ [HIGH] signal 11/10",
+        "level": "h2"
+      }
+    },
+    "stack_inj_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_price",
+        "stat_mcap",
+        "stat_vol"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$9.00",
+        "delta": "+13.0% 24h / +30.4% 7d",
+        "trend": "up"
+      }
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "~$900M"
+      }
+    },
+    "stat_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$334M",
+        "delta": "vol/mcap 0.37"
+      }
+    },
+    "text_score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [24h>0 +1, 7d>0 +1, both>5% +2, CG trending +2, vol/mcap≥0.20 +3, RS vs BTC/ETH 7d +2] = 11/10",
+        "variant": "caption"
+      }
+    },
+    "text_catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: Injective CEO Eric Chen confirmed at Korea Blockchain Week (Oct 5) that US INJ ETFs will launch before 2027 — two amended applications active (21Shares TINJ Nasdaq, Canary Capital INJS Cboe)",
+        "variant": "body"
+      }
+    },
+    "text_risk_inj": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: SEC misses ETF timeline again — multiple altcoin ETF applications have stalled 6-12 months past projected dates",
+        "variant": "body"
+      }
+    },
+    "text_dedup": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first INJ pick; no dedup conflict",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_bitcoin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_btc",
+        "badge_recommendation",
+        "stack_btc_metrics",
+        "text_fair_yes_inputs",
+        "text_thesis",
+        "text_risk_btc"
+      ]
+    },
+    "heading_btc": {
+      "type": "Heading",
+      "props": {
+        "text": "Will Bitcoin dip to $77,500 in October?",
+        "level": "h2"
+      }
+    },
+    "badge_recommendation": {
+      "type": "Badge",
+      "props": {
+        "text": "[HIGH] edge 10.5pp → BUY NO"
+      }
+    },
+    "stack_btc_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_odds_yes",
+        "stat_odds_no",
+        "stat_btc_vol",
+        "stat_resolves",
+        "stat_fair_yes"
+      ]
+    },
+    "stat_odds_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Odds (YES)",
+        "value": "42.5¢"
+      }
+    },
+    "stat_odds_no": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Odds (NO)",
+        "value": "57.5¢"
+      }
+    },
+    "stat_btc_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$170K"
+      }
+    },
+    "stat_resolves": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "Nov 1"
+      }
+    },
+    "stat_fair_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "Fair YES",
+        "value": "~32%"
+      }
+    },
+    "text_fair_yes_inputs": {
+      "type": "Text",
+      "props": {
+        "text": "inputs: BTC $81,609 recovered off $80,400 Oct 13 support; 7d change -0.79% flat; alt recovery — INJ +30%, FIL +9% 7d signals improving risk-on",
+        "variant": "caption"
+      }
+    },
+    "text_thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: Market over-prices dip risk; BTC bounced off support and altcoin recovery suggests risk-on — a -5% drop to $77,500 by Oct 31 is over-priced at 42.5%",
+        "variant": "body"
+      }
+    },
+    "text_risk_btc": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: Hot CPI or hawkish Fed commentary before Oct 28 reignites macro sell-off; Oct 13 ETF outflows ($681M) resume",
+        "variant": "body"
+      }
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok | not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}

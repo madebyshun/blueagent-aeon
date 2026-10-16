@@ -1,17 +1,17 @@
-*Daily Pick — 2026-10-15*
+*Daily Pick — 2026-10-16*
 
-*Token: STRK*  [HIGH]  signal 10/10
-Price: $0.0948 (+22.8% 24h / +42.1% 7d) | mcap $702M | vol $363M (vol/mcap 0.52)
-Score breakdown: [trending#3+2, vol/mcap≥0.20+3, both 24h&7d>5%+2, 24h>0+1, 7d>0+1, RS vs BTC/ETH+2] = 11 → capped 10/10
-Catalyst: Starknet announced Oct 9 it is actively considering a pivot from Ethereum L2 to a standalone L1 for full quantum resistance by 2027, amplified by AI-threatens-ECDSA narrative driving rotation into STARK-based cryptography tokens (CoinMarketCap/CoinDesk).
-Risk: Announcement may be vague and get walked back; project has a history of large unlocks (Vitalik previously claimed 845k STRK); quantum narrative is speculative and could fade quickly.
-Vs recent picks: First time — STRK not picked in last 7 days.
+*Token: INJ*  [HIGH]  signal 11/10
+Price: $9.00 (+13.0% 24h / +30.4% 7d) | mcap ~$900M | vol $334M (vol/mcap 0.37)
+Score breakdown: [24h>0 +1, 7d>0 +1, both>5% +2, CG trending +2, vol/mcap≥0.20 +3, RS vs BTC/ETH 7d +2] = 11/10
+Catalyst: Injective CEO Eric Chen confirmed at Korea Blockchain Week (Oct 5) that US INJ ETFs will launch before 2027 — two amended applications active (21Shares TINJ Nasdaq, Canary Capital INJS Cboe)
+Risk: SEC misses ETF timeline again — multiple altcoin ETF applications have stalled 6-12 months past projected dates
+Vs recent picks: first INJ pick; no dedup conflict
 
-*Market: "Will the Democratic Party control the House after the 2026 Midterm elections?"*  [HIGH]  edge 14.5pp (buy NO)
-Current: YES 90.5¢ / NO 9.5¢ | 24h vol $552k | resolves: 2026-11-04
-Fair YES: ~76% (inputs: Decision Desk HQ Oct 12 forecast 76%, Cook Political Report 21 toss-ups with 15 held by GOP, Fabrizio Ward generic ballot Dems +3)
-Thesis: Polymarket overprices Democrats at 90.5% vs DDHQ's 76% — the market isn't fully pricing toss-up risk in 21 competitive districts, 15 currently held by Republicans.
-Risk: Democrats have consistently over-performed polls in 2018/2022/2024; if a major Republican scandal breaks in the next 20 days, NO position gets squeezed.
+*Market: "Will Bitcoin dip to $77,500 in October?"*  [HIGH]  edge 10.5pp → BUY NO
+Current: YES 42.5¢ / NO 57.5¢ | 24h vol $170K | resolves: Nov 1
+Fair YES: ~32% (inputs: BTC $81,609 recovered off $80,400 Oct 13 support; 7d change -0.79% flat; alt recovery — INJ +30%, FIL +9% 7d signals improving risk-on)
+Thesis: Market over-prices dip risk; BTC bounced off support and altcoin recovery suggests risk-on — a -5% drop to $77,500 by Oct 31 is over-priced at 42.5%
+Risk: Hot CPI or hawkish Fed commentary before Oct 28 reignites macro sell-off; Oct 13 ETF outflows ($681M) resume
 
-sources: cg=ok, dex=skip, poly=ok
+sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only
