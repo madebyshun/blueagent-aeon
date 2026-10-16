@@ -1,0 +1,860 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers"
+      },
+      "children": [
+        "header_stack",
+        "sep1",
+        "winners_section",
+        "sep2",
+        "losers_section",
+        "sep3",
+        "trending_section",
+        "sep4",
+        "notable_section"
+      ]
+    },
+    "header_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "date_text",
+        "summary_text"
+      ]
+    },
+    "date_text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-10-16",
+        "variant": "muted"
+      }
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Flat reset — 49/100 top coins split evenly, median top-50 ~0%; yesterday's L2 and oracle winners are today's top losers."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "winners_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "winners_heading",
+        "w1",
+        "w2",
+        "w3",
+        "w4",
+        "w5",
+        "w6",
+        "w7",
+        "w8",
+        "w9",
+        "w10"
+      ]
+    },
+    "winners_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h3"
+      }
+    },
+    "w1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w1_main",
+        "w1_details",
+        "w1_tag"
+      ]
+    },
+    "w1_main": {
+      "type": "Text",
+      "props": {
+        "text": "1. BR (Bedrock) — $0.4787 +23.9%"
+      }
+    },
+    "w1_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d -30.3% / 1h +7.5% • $13M / #226",
+        "variant": "caption"
+      }
+    },
+    "w1_tag": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "secondary"
+      }
+    },
+    "w2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w2_main",
+        "w2_details",
+        "w2_tags_stack"
+      ]
+    },
+    "w2_main": {
+      "type": "Text",
+      "props": {
+        "text": "2. TIA (Celestia) — $0.6936 +17.0%"
+      }
+    },
+    "w2_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d +48.3% / 1h +0.9% • $245M / #99",
+        "variant": "caption"
+      }
+    },
+    "w2_tags_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "w2_tag1",
+        "w2_tag2"
+      ]
+    },
+    "w2_tag1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "outline"
+      }
+    },
+    "w2_tag2": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "default"
+      }
+    },
+    "w3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w3_main",
+        "w3_details",
+        "w3_tag"
+      ]
+    },
+    "w3_main": {
+      "type": "Text",
+      "props": {
+        "text": "3. INJ (Injective) — $9.00 +13.0%"
+      }
+    },
+    "w3_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d +30.4% / 1h -0.8% • $334M / #84",
+        "variant": "caption"
+      }
+    },
+    "w3_tag": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "outline"
+      }
+    },
+    "w4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w4_main",
+        "w4_details"
+      ]
+    },
+    "w4_main": {
+      "type": "Text",
+      "props": {
+        "text": "4. UB (Unibase) — $0.1288 +10.1%"
+      }
+    },
+    "w4_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d -7.1% / 1h +0.2% • $12M / #138",
+        "variant": "caption"
+      }
+    },
+    "w5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w5_main",
+        "w5_details"
+      ]
+    },
+    "w5_main": {
+      "type": "Text",
+      "props": {
+        "text": "5. FIL (Filecoin) — $1.18 +9.9%"
+      }
+    },
+    "w5_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d +9.0% / 1h +1.5% • $246M / #80",
+        "variant": "caption"
+      }
+    },
+    "w6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w6_main",
+        "w6_details"
+      ]
+    },
+    "w6_main": {
+      "type": "Text",
+      "props": {
+        "text": "6. Q (Quack AI) — $0.0566 +7.5%"
+      }
+    },
+    "w6_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d +100.0% / 1h +4.2% • $12M / #155",
+        "variant": "caption"
+      }
+    },
+    "w7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w7_main",
+        "w7_details"
+      ]
+    },
+    "w7_main": {
+      "type": "Text",
+      "props": {
+        "text": "7. SENT (Sentient) — $0.0214 +7.3%"
+      }
+    },
+    "w7_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d -2.0% / 1h -0.2% • $16M / #214",
+        "variant": "caption"
+      }
+    },
+    "w8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w8_main",
+        "w8_details"
+      ]
+    },
+    "w8_main": {
+      "type": "Text",
+      "props": {
+        "text": "8. DOT (Polkadot) — $1.19 +7.1%"
+      }
+    },
+    "w8_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d +2.2% / 1h +2.1% • $215M / #49",
+        "variant": "caption"
+      }
+    },
+    "w9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w9_main",
+        "w9_details"
+      ]
+    },
+    "w9_main": {
+      "type": "Text",
+      "props": {
+        "text": "9. A (Vaulta) — $0.1044 +7.1%"
+      }
+    },
+    "w9_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d +7.7% / 1h +3.5% • $18M / #200",
+        "variant": "caption"
+      }
+    },
+    "w10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "w10_main",
+        "w10_details"
+      ]
+    },
+    "w10_main": {
+      "type": "Text",
+      "props": {
+        "text": "10. APE (ApeCoin) — $0.1520 +7.1%"
+      }
+    },
+    "w10_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d +8.8% / 1h -1.4% • $21M / #218",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "losers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers_heading",
+        "l1",
+        "l2",
+        "l3",
+        "l4",
+        "l5",
+        "l6",
+        "l7",
+        "l8",
+        "l9",
+        "l10"
+      ]
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h3"
+      }
+    },
+    "l1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l1_main",
+        "l1_details",
+        "l1_tag"
+      ]
+    },
+    "l1_main": {
+      "type": "Text",
+      "props": {
+        "text": "1. STRK (Starknet) — $0.0747 -17.3%"
+      }
+    },
+    "l1_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d +6.5% / 1h +0.5% • $266M / #109",
+        "variant": "caption"
+      }
+    },
+    "l1_tag": {
+      "type": "Badge",
+      "props": {
+        "text": "CAPITULATION",
+        "variant": "destructive"
+      }
+    },
+    "l2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l2_main",
+        "l2_details",
+        "l2_tag"
+      ]
+    },
+    "l2_main": {
+      "type": "Text",
+      "props": {
+        "text": "2. WAL (Walrus) — $0.0457 -14.9%"
+      }
+    },
+    "l2_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d +39.5% / 1h +1.3% • $39M / #250",
+        "variant": "caption"
+      }
+    },
+    "l2_tag": {
+      "type": "Badge",
+      "props": {
+        "text": "CAPITULATION",
+        "variant": "destructive"
+      }
+    },
+    "l3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l3_main",
+        "l3_details"
+      ]
+    },
+    "l3_main": {
+      "type": "Text",
+      "props": {
+        "text": "3. PYTH (Pyth Network) — $0.0868 -13.0%"
+      }
+    },
+    "l3_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d +2.8% / 1h +0.1% • $96M / #97",
+        "variant": "caption"
+      }
+    },
+    "l4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l4_main",
+        "l4_details"
+      ]
+    },
+    "l4_main": {
+      "type": "Text",
+      "props": {
+        "text": "4. AKE (Akedo) — $0.0289 -11.9%"
+      }
+    },
+    "l4_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d +4.2% / 1h -2.7% • $25M / #101",
+        "variant": "caption"
+      }
+    },
+    "l5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l5_main",
+        "l5_details"
+      ]
+    },
+    "l5_main": {
+      "type": "Text",
+      "props": {
+        "text": "5. DGAI (DGrid AI) — $0.8515 -6.5%"
+      }
+    },
+    "l5_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d -10.5% / 1h +0.2% • $24M / #239",
+        "variant": "caption"
+      }
+    },
+    "l6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l6_main",
+        "l6_details"
+      ]
+    },
+    "l6_main": {
+      "type": "Text",
+      "props": {
+        "text": "6. FF (Falcon Finance) — $0.1097 -5.8%"
+      }
+    },
+    "l6_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d +3.6% / 1h -0.9% • $18M / #130",
+        "variant": "caption"
+      }
+    },
+    "l7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l7_main",
+        "l7_details"
+      ]
+    },
+    "l7_main": {
+      "type": "Text",
+      "props": {
+        "text": "7. PIEVERSE (Pieverse) — $1.13 -5.4%"
+      }
+    },
+    "l7_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d -12.2% / 1h -0.6% • $2M / #145",
+        "variant": "caption"
+      }
+    },
+    "l8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l8_main",
+        "l8_details"
+      ]
+    },
+    "l8_main": {
+      "type": "Text",
+      "props": {
+        "text": "8. SPX (SPX6900) — $0.3413 -5.1%"
+      }
+    },
+    "l8_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d -7.0% / 1h -0.1% • $5M / #141",
+        "variant": "caption"
+      }
+    },
+    "l9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l9_main",
+        "l9_details"
+      ]
+    },
+    "l9_main": {
+      "type": "Text",
+      "props": {
+        "text": "9. CARDS (Collector Crypt) — $0.3141 -4.9%"
+      }
+    },
+    "l9_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d +10.7% / 1h -0.4% • $13M / #151",
+        "variant": "caption"
+      }
+    },
+    "l10": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "l10_main",
+        "l10_details"
+      ]
+    },
+    "l10_main": {
+      "type": "Text",
+      "props": {
+        "text": "10. SHFL (Shuffle) — $0.4881 -4.9%"
+      }
+    },
+    "l10_details": {
+      "type": "Text",
+      "props": {
+        "text": "7d +27.9% / 1h +0.5% • $2M / #165",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "trending_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending_heading",
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ]
+    },
+    "trending_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h3"
+      }
+    },
+    "t1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t1_main",
+        "t1_tag"
+      ]
+    },
+    "t1_main": {
+      "type": "Text",
+      "props": {
+        "text": "1. DACITY (Dacity Coin) — #723, $0.0262, 24h +110.4%"
+      }
+    },
+    "t1_tag": {
+      "type": "Badge",
+      "props": {
+        "text": "PUMP-RISK",
+        "variant": "destructive"
+      }
+    },
+    "t2": {
+      "type": "Text",
+      "props": {
+        "text": "2. ASTRO (astronaut) — #987, $0.015, 24h -5.0%"
+      }
+    },
+    "t3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t3_main",
+        "t3_tags_stack"
+      ]
+    },
+    "t3_main": {
+      "type": "Text",
+      "props": {
+        "text": "3. TIA (Celestia) — #97, $0.6934, 24h +18.4%"
+      }
+    },
+    "t3_tags_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "t3_tag1",
+        "t3_tag2"
+      ]
+    },
+    "t3_tag1": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "outline"
+      }
+    },
+    "t3_tag2": {
+      "type": "Badge",
+      "props": {
+        "text": "BREAKOUT",
+        "variant": "default"
+      }
+    },
+    "t4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "t4_main",
+        "t4_tag"
+      ]
+    },
+    "t4_main": {
+      "type": "Text",
+      "props": {
+        "text": "4. INJ (Injective) — #84, $8.98, 24h +13.8%"
+      }
+    },
+    "t4_tag": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP",
+        "variant": "outline"
+      }
+    },
+    "t5": {
+      "type": "Text",
+      "props": {
+        "text": "5. TAO (Bittensor) — #34, $281, 24h +3.3%"
+      }
+    },
+    "t6": {
+      "type": "Text",
+      "props": {
+        "text": "6. QTC (Quantus) — #615, $116, 24h +4.6%"
+      }
+    },
+    "t7": {
+      "type": "Text",
+      "props": {
+        "text": "7. PRL (Pearl) — #104, $1.79, 24h -1.2%"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "notable_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable_heading",
+        "notable_stack"
+      ]
+    },
+    "notable_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h3"
+      }
+    },
+    "notable_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable1",
+        "notable2",
+        "notable3",
+        "notable4",
+        "notable5"
+      ]
+    },
+    "notable1": {
+      "type": "Alert",
+      "props": {
+        "message": "STRK: yesterday's #3 winner (+21.5%) → today's biggest loser (-17.3%), vol/mcap 0.47 — [CAPITULATION]; 3-day rally fully reversed",
+        "type": "warning"
+      }
+    },
+    "notable2": {
+      "type": "Alert",
+      "props": {
+        "message": "WAL: second [CAPITULATION] signal, vol/mcap 0.32 — Oct 14 pump (+40%) still distributing",
+        "type": "warning"
+      }
+    },
+    "notable3": {
+      "type": "Alert",
+      "props": {
+        "message": "TIA: trending + +17% on 7d +48% — [BREAKOUT], strongest verified signal today",
+        "type": "success"
+      }
+    },
+    "notable4": {
+      "type": "Alert",
+      "props": {
+        "message": "DACITY: #723 rank, +110% on trending — [PUMP-RISK], low liquidity",
+        "type": "error"
+      }
+    },
+    "notable5": {
+      "type": "Alert",
+      "props": {
+        "message": "PYTH + AKE: yesterday's oracle/L2 bid reversing (-13%, -12%) — one-day event not a trend",
+        "type": "info"
+      }
+    }
+  }
+}
