@@ -1,27 +1,24 @@
-*GitHub Trending — 2026-10-15*
+*GitHub Trending — 2026-10-16*
 
-*Top pick* — [morluto/rea](https://github.com/morluto/rea)
-Still accelerating at 260k stars with a live push today — 4 days on trending and the longevity itself is the signal.
+*Top pick* — [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
+Fully local voice stack posting 2,301 stars today — biggest momentum on the board, zero cloud API dependency.
 
 *AI/ML*
-• [morluto/rea](https://github.com/morluto/rea) — ★ 32.3k today (260k total) · TypeScript · [ACCELERATING]
-The only trending RE tool where agents own the full disassembly-to-source pipeline without human guidance.
+• [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — ★ 2.3k today (70.2k total) · Python · [ACCELERATING]
+Runs 100% offline — clones voices, dubs, and transcribes across 646 languages with no API calls.
 
-• [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) — ★ 398 today (112k total) · Go · [ACCELERATING]
-A proxy that rewrites agent responses as caveman speech, cutting token throughput by ~65%.
+• [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) — ★ 879 today (47.9k total) · Python · [ACCELERATING]
+Uses Claude Code as the agent runtime to score postings and write targeted CV bullets automatically.
 
 *Devtools*
-• [affaan-m/ECC](https://github.com/affaan-m/ECC) — ★ 1.0k today (280k total) · JavaScript · [ACCELERATING]
-Drop-in agent harness with skill routing, compressed memory, and sandboxed tool execution for Claude Code.
+• [ruvnet/ruflo](https://github.com/ruvnet/ruflo) — ★ 672 today (75.4k total) · TypeScript · [ACCELERATING]
+Adaptive memory layer connects multi-agent swarms directly to Claude Code's native skill and tool format.
 
-• [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) — ★ 181 today (38k total) · Python · [ACCELERATING]
-Anthropic's curated plugin registry — a quality floor signal for the exploding Claude Code plugin ecosystem.
+• [cursor/plugins](https://github.com/cursor/plugins) — ★ 214 today (11.8k total) · TypeScript · [RETURNING]
+First official Cursor plugin spec: ships installable IDE extensions via the same JSON format as native tools.
 
-• [mksglu/context-mode](https://github.com/mksglu/context-mode) — ★ 902 today (30k total) · TypeScript · [ACCELERATING]
-New push today adds session-persistent memory; sandboxes tool output to keep context lean across long tasks.
-
-• [xerj-org/xerj](https://github.com/xerj-org/xerj) — ★ 725 today (4.9k total) · Rust · [RETURNING]
-Elasticsearch-compatible agent search that pre-indexes code and docs so agents skip raw grep passes entirely.
+• [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) — ★ 592 today (23.3k total) · JavaScript · [RETURNING]
+Bypasses download-gate requirements on 8 major cloud drives (Baidu, Aliyun, etc.) via a single CLI.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/12
+sources: trending=ok · gh_api=ok · kept 5/13

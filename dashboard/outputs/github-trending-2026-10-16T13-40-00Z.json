@@ -1,0 +1,470 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-10-16"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_top_pick",
+        "sep1",
+        "section_aiml",
+        "sep2",
+        "section_devtools",
+        "sep3",
+        "footer_sources"
+      ]
+    },
+    "section_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_top_pick",
+        "story_voicestudio_top",
+        "text_top_pick_desc"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "story_voicestudio_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "debpalash/VoiceStudio",
+        "href": "https://github.com/debpalash/VoiceStudio",
+        "source": "GitHub"
+      }
+    },
+    "text_top_pick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Fully local voice stack posting 2,301 stars today — biggest momentum on the board, zero cloud API dependency.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aiml",
+        "repo_voicestudio",
+        "repo_aijob"
+      ]
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "repo_voicestudio": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story_voicestudio",
+        "stats_voicestudio",
+        "meta_voicestudio"
+      ]
+    },
+    "story_voicestudio": {
+      "type": "StoryLink",
+      "props": {
+        "title": "debpalash/VoiceStudio",
+        "href": "https://github.com/debpalash/VoiceStudio",
+        "source": "GitHub"
+      }
+    },
+    "stats_voicestudio": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_voicestudio_today",
+        "stat_voicestudio_total",
+        "badge_voicestudio_lang",
+        "badge_voicestudio_status"
+      ]
+    },
+    "stat_voicestudio_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "2.3k"
+      }
+    },
+    "stat_voicestudio_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "70.2k"
+      }
+    },
+    "badge_voicestudio_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "badge_voicestudio_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "meta_voicestudio": {
+      "type": "Text",
+      "props": {
+        "text": "Runs 100% offline — clones voices, dubs, and transcribes across 646 languages with no API calls.",
+        "variant": "body"
+      }
+    },
+    "repo_aijob": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story_aijob",
+        "stats_aijob",
+        "meta_aijob"
+      ]
+    },
+    "story_aijob": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MadsLorentzen/ai-job-search",
+        "href": "https://github.com/MadsLorentzen/ai-job-search",
+        "source": "GitHub"
+      }
+    },
+    "stats_aijob": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_aijob_today",
+        "stat_aijob_total",
+        "badge_aijob_lang",
+        "badge_aijob_status"
+      ]
+    },
+    "stat_aijob_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "879"
+      }
+    },
+    "stat_aijob_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "47.9k"
+      }
+    },
+    "badge_aijob_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "badge_aijob_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "meta_aijob": {
+      "type": "Text",
+      "props": {
+        "text": "Uses Claude Code as the agent runtime to score postings and write targeted CV bullets automatically.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "repo_ruflo",
+        "repo_cursor_plugins",
+        "repo_linkswift"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "repo_ruflo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story_ruflo",
+        "stats_ruflo",
+        "meta_ruflo"
+      ]
+    },
+    "story_ruflo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ruvnet/ruflo",
+        "href": "https://github.com/ruvnet/ruflo",
+        "source": "GitHub"
+      }
+    },
+    "stats_ruflo": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_ruflo_today",
+        "stat_ruflo_total",
+        "badge_ruflo_lang",
+        "badge_ruflo_status"
+      ]
+    },
+    "stat_ruflo_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "672"
+      }
+    },
+    "stat_ruflo_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "75.4k"
+      }
+    },
+    "badge_ruflo_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_ruflo_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "default"
+      }
+    },
+    "meta_ruflo": {
+      "type": "Text",
+      "props": {
+        "text": "Adaptive memory layer connects multi-agent swarms directly to Claude Code's native skill and tool format.",
+        "variant": "body"
+      }
+    },
+    "repo_cursor_plugins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story_cursor_plugins",
+        "stats_cursor_plugins",
+        "meta_cursor_plugins"
+      ]
+    },
+    "story_cursor_plugins": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cursor/plugins",
+        "href": "https://github.com/cursor/plugins",
+        "source": "GitHub"
+      }
+    },
+    "stats_cursor_plugins": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_cursor_plugins_today",
+        "stat_cursor_plugins_total",
+        "badge_cursor_plugins_lang",
+        "badge_cursor_plugins_status"
+      ]
+    },
+    "stat_cursor_plugins_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "214"
+      }
+    },
+    "stat_cursor_plugins_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "11.8k"
+      }
+    },
+    "badge_cursor_plugins_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_cursor_plugins_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "meta_cursor_plugins": {
+      "type": "Text",
+      "props": {
+        "text": "First official Cursor plugin spec: ships installable IDE extensions via the same JSON format as native tools.",
+        "variant": "body"
+      }
+    },
+    "repo_linkswift": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story_linkswift",
+        "stats_linkswift",
+        "meta_linkswift"
+      ]
+    },
+    "story_linkswift": {
+      "type": "StoryLink",
+      "props": {
+        "title": "hmjz100/LinkSwift",
+        "href": "https://github.com/hmjz100/LinkSwift",
+        "source": "GitHub"
+      }
+    },
+    "stats_linkswift": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_linkswift_today",
+        "stat_linkswift_total",
+        "badge_linkswift_lang",
+        "badge_linkswift_status"
+      ]
+    },
+    "stat_linkswift_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "592"
+      }
+    },
+    "stat_linkswift_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "23.3k"
+      }
+    },
+    "badge_linkswift_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_linkswift_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "meta_linkswift": {
+      "type": "Text",
+      "props": {
+        "text": "Bypasses download-gate requirements on 8 major cloud drives (Baidu, Aliyun, etc.) via a single CLI.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/13",
+        "variant": "caption"
+      }
+    }
+  }
+}
