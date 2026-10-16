@@ -1,0 +1,864 @@
+{
+  "root": "narrative-card",
+  "state": {},
+  "elements": {
+    "narrative-card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-10-16"
+      },
+      "children": [
+        "transitions-section",
+        "separator-1",
+        "reflexivity-section",
+        "separator-2",
+        "positions-section",
+        "separator-3",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions-heading",
+        "transition-1",
+        "transition-2",
+        "transition-3"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transition-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-1-badge",
+        "trans-1-title",
+        "trans-1-detail"
+      ]
+    },
+    "trans-1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "trans-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "STARK / Quantum Resistance (Emerging FRONT-RUN → Fading FADE)",
+        "variant": "lead"
+      }
+    },
+    "trans-1-detail": {
+      "type": "Text",
+      "props": {
+        "text": "STRK -17.3% CAPITULATION; narrative pump-and-dump in 24h; exit signal confirmed; close position",
+        "variant": "body"
+      }
+    },
+    "transition-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-2-badge",
+        "trans-2-title",
+        "trans-2-detail"
+      ]
+    },
+    "trans-2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "trans-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "DEX / Solana (Rising RIDE → Rising WATCH)",
+        "variant": "lead"
+      }
+    },
+    "trans-2-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Solana Accelerate China live (Shanghai) but market flat reset (49/50 even); STRK/WAL capitulations dominate; no named Solana DEX mover; await Hangzhou Oct 18",
+        "variant": "body"
+      }
+    },
+    "transition-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans-3-badge",
+        "trans-3-title",
+        "trans-3-detail"
+      ]
+    },
+    "trans-3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "trans-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "INJ / Altcoin ETF Wave (Emerging FRONT-RUN)",
+        "variant": "lead"
+      }
+    },
+    "trans-3-detail": {
+      "type": "Text",
+      "props": {
+        "text": "INJ +13% / +30.4% 7d; 21Shares TINJ (Nasdaq) + Canary INJS (Cboe) filed; CEO Eric Chen: \"US ETF before 2027\"; CoinGecko trending; 11/10 signal",
+        "variant": "body"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "reflexivity-1",
+        "reflexivity-2",
+        "reflexivity-3"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-1": {
+      "type": "Alert",
+      "props": {
+        "title": "STARK / Quantum Resistance",
+        "message": "+22.8% Oct 15 → -17.3% Oct 16; narrative consumed in 1 session; positions should be closed",
+        "type": "warning"
+      }
+    },
+    "reflexivity-2": {
+      "type": "Alert",
+      "props": {
+        "title": "INJ / Altcoin ETF Wave",
+        "message": "+30.4% 7d on CEO statement alone; no approval yet; exit if Q1 2027 timeline slips or gains give back",
+        "type": "warning"
+      }
+    },
+    "reflexivity-3": {
+      "type": "Alert",
+      "props": {
+        "title": "Agentic Payments",
+        "message": "WebSearch returning only spring 2026 data; VC amplification into a complete data vacuum; FADE at maximum conviction",
+        "type": "warning"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions-heading",
+        "position-1",
+        "position-2",
+        "position-3",
+        "position-4",
+        "position-5",
+        "position-6",
+        "position-7",
+        "position-8",
+        "position-9"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "position-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-1-badges",
+        "pos-1-title",
+        "pos-1-detail"
+      ]
+    },
+    "pos-1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-1-badge-status",
+        "pos-1-badge-score",
+        "pos-1-badge-sentiment"
+      ]
+    },
+    "pos-1-badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "outline"
+      }
+    },
+    "pos-1-badge-score": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑↑",
+        "variant": "secondary"
+      }
+    },
+    "pos-1-badge-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "INJ / Altcoin ETF Wave",
+        "variant": "lead"
+      }
+    },
+    "pos-1-detail": {
+      "type": "Text",
+      "props": {
+        "text": "CEO + 21Shares TINJ + Canary INJS — bear: approval speculative; exit on timeline slip",
+        "variant": "body"
+      }
+    },
+    "position-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-2-badges",
+        "pos-2-title",
+        "pos-2-detail"
+      ]
+    },
+    "pos-2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-2-badge-status",
+        "pos-2-badge-score",
+        "pos-2-badge-sentiment"
+      ]
+    },
+    "pos-2-badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "outline"
+      }
+    },
+    "pos-2-badge-score": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑",
+        "variant": "secondary"
+      }
+    },
+    "pos-2-badge-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "XRP Ledger / Ripple Agent Rails",
+        "variant": "lead"
+      }
+    },
+    "pos-2-detail": {
+      "type": "Text",
+      "props": {
+        "text": "@Ripple + @Privy + 13M XRPL agent payments — bear: infra ≠ price catalyst",
+        "variant": "body"
+      }
+    },
+    "position-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-3-badges",
+        "pos-3-title",
+        "pos-3-detail"
+      ]
+    },
+    "pos-3-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-3-badge-status",
+        "pos-3-badge-score",
+        "pos-3-badge-sentiment"
+      ]
+    },
+    "pos-3-badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "pos-3-badge-score": {
+      "type": "Badge",
+      "props": {
+        "text": "5 →",
+        "variant": "secondary"
+      }
+    },
+    "pos-3-badge-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "RWA / Tokenized Markets",
+        "variant": "lead"
+      }
+    },
+    "pos-3-detail": {
+      "type": "Text",
+      "props": {
+        "text": "BNY Citadel + Morgan Stanley — exit signal: third top-tier institution or ETF announcement",
+        "variant": "body"
+      }
+    },
+    "position-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-4-badges",
+        "pos-4-title",
+        "pos-4-detail"
+      ]
+    },
+    "pos-4-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-4-badge-status",
+        "pos-4-badge-score",
+        "pos-4-badge-sentiment"
+      ]
+    },
+    "pos-4-badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "pos-4-badge-score": {
+      "type": "Badge",
+      "props": {
+        "text": "3 →",
+        "variant": "secondary"
+      }
+    },
+    "pos-4-badge-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos-4-title": {
+      "type": "Text",
+      "props": {
+        "text": "Prediction Markets",
+        "variant": "lead"
+      }
+    },
+    "pos-4-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Kaito Attention Markets + Brazil election",
+        "variant": "body"
+      }
+    },
+    "position-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-5-badges",
+        "pos-5-title",
+        "pos-5-detail"
+      ]
+    },
+    "pos-5-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-5-badge-status",
+        "pos-5-badge-score",
+        "pos-5-badge-sentiment"
+      ]
+    },
+    "pos-5-badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      }
+    },
+    "pos-5-badge-score": {
+      "type": "Badge",
+      "props": {
+        "text": "5 →",
+        "variant": "secondary"
+      }
+    },
+    "pos-5-badge-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "default"
+      }
+    },
+    "pos-5-title": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoins as AI Rail",
+        "variant": "lead"
+      }
+    },
+    "pos-5-detail": {
+      "type": "Text",
+      "props": {
+        "text": "@BlackRock + @Circle + GENIUS Act",
+        "variant": "body"
+      }
+    },
+    "position-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-6-badges",
+        "pos-6-title",
+        "pos-6-detail"
+      ]
+    },
+    "pos-6-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-6-badge-status",
+        "pos-6-badge-score"
+      ]
+    },
+    "pos-6-badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "pos-6-badge-score": {
+      "type": "Badge",
+      "props": {
+        "text": "2 ↓↓",
+        "variant": "secondary"
+      }
+    },
+    "pos-6-title": {
+      "type": "Text",
+      "props": {
+        "text": "STARK / Quantum Resistance",
+        "variant": "lead"
+      }
+    },
+    "pos-6-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Close position",
+        "variant": "body"
+      }
+    },
+    "position-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-7-badges",
+        "pos-7-title",
+        "pos-7-detail"
+      ]
+    },
+    "pos-7-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-7-badge-status",
+        "pos-7-badge-score"
+      ]
+    },
+    "pos-7-badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "pos-7-badge-score": {
+      "type": "Badge",
+      "props": {
+        "text": "5 ↓↓",
+        "variant": "secondary"
+      }
+    },
+    "pos-7-title": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments",
+        "variant": "lead"
+      }
+    },
+    "pos-7-detail": {
+      "type": "Text",
+      "props": {
+        "text": "VC narrative, empty data, TRM 0.6-7.5% real share",
+        "variant": "body"
+      }
+    },
+    "position-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-8-badges",
+        "pos-8-title",
+        "pos-8-detail"
+      ]
+    },
+    "pos-8-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-8-badge-status",
+        "pos-8-badge-score",
+        "pos-8-badge-sentiment"
+      ]
+    },
+    "pos-8-badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos-8-badge-score": {
+      "type": "Badge",
+      "props": {
+        "text": "3 →",
+        "variant": "secondary"
+      }
+    },
+    "pos-8-badge-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Neutral",
+        "variant": "default"
+      }
+    },
+    "pos-8-title": {
+      "type": "Text",
+      "props": {
+        "text": "DEX / Solana",
+        "variant": "lead"
+      }
+    },
+    "pos-8-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst live, unconfirmed; re-check Oct 18 Hangzhou",
+        "variant": "body"
+      }
+    },
+    "position-9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-9-badges",
+        "pos-9-title",
+        "pos-9-detail"
+      ]
+    },
+    "pos-9-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos-9-badge-status",
+        "pos-9-badge-score",
+        "pos-9-badge-sentiment"
+      ]
+    },
+    "pos-9-badge-status": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos-9-badge-score": {
+      "type": "Badge",
+      "props": {
+        "text": "4 →",
+        "variant": "secondary"
+      }
+    },
+    "pos-9-badge-sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Neutral",
+        "variant": "default"
+      }
+    },
+    "pos-9-title": {
+      "type": "Text",
+      "props": {
+        "text": "Macro Risk / Oct 28 FOMC",
+        "variant": "lead"
+      }
+    },
+    "pos-9-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Live but de-escalating; 12 days out",
+        "variant": "body"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-heading",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-badge",
+        "map-emerging-text"
+      ]
+    },
+    "map-emerging-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Emerging",
+        "variant": "secondary"
+      }
+    },
+    "map-emerging-text": {
+      "type": "Text",
+      "props": {
+        "text": "INJ / Altcoin ETF Wave",
+        "variant": "body"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-badge",
+        "map-rising-text"
+      ]
+    },
+    "map-rising-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Rising",
+        "variant": "secondary"
+      }
+    },
+    "map-rising-text": {
+      "type": "Text",
+      "props": {
+        "text": "XRP/Ripple Agent Rails, Macro Risk, Global Regulatory Wave, ETH vs Base (stalling), DEX/Solana (catalyst unconfirmed), Prediction Markets, FHE (stall breaking)",
+        "variant": "body"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-badge",
+        "map-peak-text"
+      ]
+    },
+    "map-peak-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Peak",
+        "variant": "default"
+      }
+    },
+    "map-peak-text": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments (deflating), RWA, Stablecoins AI Rail, AI×DePIN",
+        "variant": "body"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-badge",
+        "map-fading-text"
+      ]
+    },
+    "map-fading-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Fading",
+        "variant": "destructive"
+      }
+    },
+    "map-fading-text": {
+      "type": "Text",
+      "props": {
+        "text": "STARK/Quantum Resistance, ZRO, Privacy Coins/ZEC, Sui/AI Agents",
+        "variant": "body"
+      }
+    }
+  }
+}
