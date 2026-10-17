@@ -1,0 +1,388 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending"
+      },
+      "children": [
+        "date_text",
+        "separator1",
+        "top_pick_section",
+        "separator2",
+        "ai_ml_section",
+        "separator3",
+        "devtools_section",
+        "separator4",
+        "sources_section"
+      ]
+    },
+    "date_text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-10-17",
+        "variant": "muted"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "top_pick_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top_pick_heading",
+        "orca_top_pick"
+      ]
+    },
+    "top_pick_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h3"
+      }
+    },
+    "orca_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "orca_link_toppick",
+        "orca_description_toppick"
+      ]
+    },
+    "orca_link_toppick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "stablyai/orca",
+        "href": "https://github.com/stablyai/orca"
+      }
+    },
+    "orca_description_toppick": {
+      "type": "Text",
+      "props": {
+        "text": "Today's clearest signal — the only fleet-level agent orchestrator hitting 1.1k stars on a same-day push, showing the market moving beyond single-agent workflows.",
+        "variant": "body"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "ai_ml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai_ml_heading",
+        "orca_repo"
+      ]
+    },
+    "ai_ml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "orca_repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "orca_repo_title",
+        "orca_repo_meta",
+        "orca_repo_desc"
+      ]
+    },
+    "orca_repo_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "stablyai/orca",
+        "href": "https://github.com/stablyai/orca"
+      }
+    },
+    "orca_repo_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "orca_stars",
+        "orca_lang",
+        "orca_status"
+      ]
+    },
+    "orca_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1.1k today (94.9k total)",
+        "variant": "caption"
+      }
+    },
+    "orca_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "orca_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "orca_repo_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Runs coding agent fleets across desktop, mobile, remote — 95k stars in 7 months signals category arrival.",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "devtools_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools_heading",
+        "opencode_repo",
+        "ai_memory_repo",
+        "android_skills_repo"
+      ]
+    },
+    "devtools_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "opencode_repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "opencode_title",
+        "opencode_meta",
+        "opencode_desc"
+      ]
+    },
+    "opencode_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anomalyco/opencode",
+        "href": "https://github.com/anomalyco/opencode"
+      }
+    },
+    "opencode_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "opencode_stars",
+        "opencode_lang",
+        "opencode_status"
+      ]
+    },
+    "opencode_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 488 today (214.6k total)",
+        "variant": "caption"
+      }
+    },
+    "opencode_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "opencode_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "opencode_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Most-starred open-source coding agent at 214k — vendor-neutral alternative with active daily development.",
+        "variant": "body"
+      }
+    },
+    "ai_memory_repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_memory_title",
+        "ai_memory_meta",
+        "ai_memory_desc"
+      ]
+    },
+    "ai_memory_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "akitaonrails/ai-memory",
+        "href": "https://github.com/akitaonrails/ai-memory"
+      }
+    },
+    "ai_memory_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "ai_memory_stars",
+        "ai_memory_lang",
+        "ai_memory_status"
+      ]
+    },
+    "ai_memory_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 159 today (9.7k total)",
+        "variant": "caption"
+      }
+    },
+    "ai_memory_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust",
+        "variant": "secondary"
+      }
+    },
+    "ai_memory_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "ai_memory_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rust library for persistent agent memory — enables context handoff between Claude Code, Cursor, and other CLI agents.",
+        "variant": "body"
+      }
+    },
+    "android_skills_repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "android_skills_title",
+        "android_skills_meta",
+        "android_skills_desc"
+      ]
+    },
+    "android_skills_title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "android/skills",
+        "href": "https://github.com/android/skills"
+      }
+    },
+    "android_skills_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "android_skills_stars",
+        "android_skills_lang",
+        "android_skills_status"
+      ]
+    },
+    "android_skills_stars": {
+      "type": "Text",
+      "props": {
+        "text": "★ 368 today (8.3k total)",
+        "variant": "caption"
+      }
+    },
+    "android_skills_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Kotlin",
+        "variant": "secondary"
+      }
+    },
+    "android_skills_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "android_skills_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Official Android org agent skill library; went from 35 stars yesterday to 368 today — something triggered.",
+        "variant": "body"
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sources_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_heading",
+        "sources_text"
+      ]
+    },
+    "sources_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h4"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "trending=ok · gh_api=ok · kept 4/13",
+        "variant": "caption"
+      }
+    }
+  }
+}

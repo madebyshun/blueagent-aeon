@@ -1,24 +1,21 @@
-*GitHub Trending — 2026-10-16*
+*GitHub Trending — 2026-10-17*
 
-*Top pick* — [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
-Fully local voice stack posting 2,301 stars today — biggest momentum on the board, zero cloud API dependency.
+*Top pick* — [stablyai/orca](https://github.com/stablyai/orca)
+Today's clearest signal — the only fleet-level agent orchestrator hitting 1.1k stars on a same-day push, showing the market moving beyond single-agent workflows.
 
 *AI/ML*
-• [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — ★ 2.3k today (70.2k total) · Python · [ACCELERATING]
-Runs 100% offline — clones voices, dubs, and transcribes across 646 languages with no API calls.
-
-• [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) — ★ 879 today (47.9k total) · Python · [ACCELERATING]
-Uses Claude Code as the agent runtime to score postings and write targeted CV bullets automatically.
+• [stablyai/orca](https://github.com/stablyai/orca) — ★ 1.1k today (94.9k total) · TypeScript · [ACCELERATING]
+Runs coding agent fleets across desktop, mobile, remote — 95k stars in 7 months signals category arrival.
 
 *Devtools*
-• [ruvnet/ruflo](https://github.com/ruvnet/ruflo) — ★ 672 today (75.4k total) · TypeScript · [ACCELERATING]
-Adaptive memory layer connects multi-agent swarms directly to Claude Code's native skill and tool format.
+• [anomalyco/opencode](https://github.com/anomalyco/opencode) — ★ 488 today (214.6k total) · TypeScript · [ACCELERATING]
+Most-starred open-source coding agent at 214k — vendor-neutral alternative with active daily development.
 
-• [cursor/plugins](https://github.com/cursor/plugins) — ★ 214 today (11.8k total) · TypeScript · [RETURNING]
-First official Cursor plugin spec: ships installable IDE extensions via the same JSON format as native tools.
+• [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) — ★ 159 today (9.7k total) · Rust · [ACCELERATING]
+Rust library for persistent agent memory — enables context handoff between Claude Code, Cursor, and other CLI agents.
 
-• [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) — ★ 592 today (23.3k total) · JavaScript · [RETURNING]
-Bypasses download-gate requirements on 8 major cloud drives (Baidu, Aliyun, etc.) via a single CLI.
+• [android/skills](https://github.com/android/skills) — ★ 368 today (8.3k total) · Kotlin · [RETURNING]
+Official Android org agent skill library; went from 35 stars yesterday to 368 today — something triggered.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/13
+sources: trending=ok · gh_api=ok · kept 4/13
