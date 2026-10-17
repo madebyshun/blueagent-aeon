@@ -1,0 +1,229 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-10-17"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "token-section",
+        "sep-1",
+        "market-section",
+        "sep-2",
+        "footer-section"
+      ]
+    },
+    "token-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-header",
+        "stat-signal",
+        "text-price",
+        "text-mcap-vol",
+        "text-score",
+        "text-catalyst",
+        "text-risk",
+        "text-vs-recent"
+      ]
+    },
+    "token-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading-token",
+        "badge-high"
+      ]
+    },
+    "heading-token": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: Q (Quack AI)",
+        "level": "h2"
+      }
+    },
+    "badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "stat-signal": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "8/10"
+      }
+    },
+    "text-price": {
+      "type": "Text",
+      "props": {
+        "text": "Price: $0.079 (+42.7% 24h / +149.2% 7d)"
+      }
+    },
+    "text-mcap-vol": {
+      "type": "Text",
+      "props": {
+        "text": "mcap $372M | vol $73M (vol/mcap 0.196)"
+      }
+    },
+    "text-score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [24h>0 +1, 7d>0 +1, both>+5% +2, vol/mcap≥0.10 +2, RS vs BTC/ETH +2] = 8/10"
+      }
+    },
+    "text-catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: AI agent narrative sustaining multi-day buying — Q posted 10–43% daily gains across the past week on exchange platforms, powered by the AI × agent economy sector rotation."
+      }
+    },
+    "text-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: September 2026 token unlock overhang still working through; rally is momentum-driven with no single named fundamental event (no new listing, partnership, or protocol launch found)."
+      }
+    },
+    "text-vs-recent": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: First pick"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-header",
+        "text-market-odds",
+        "text-market-vol-resolve",
+        "text-fair-yes",
+        "text-thesis",
+        "text-market-risk"
+      ]
+    },
+    "market-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading-market",
+        "badge-high-2",
+        "badge-edge"
+      ]
+    },
+    "heading-market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: US x Iran ceasefire continues through October 31?",
+        "level": "h2"
+      }
+    },
+    "badge-high-2": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "badge-edge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 15pp",
+        "variant": "outline"
+      }
+    },
+    "text-market-odds": {
+      "type": "Text",
+      "props": {
+        "text": "Current: YES 80.5¢ / NO 19.5¢"
+      }
+    },
+    "text-market-vol-resolve": {
+      "type": "Text",
+      "props": {
+        "text": "24h vol $471K | resolves: 2026-10-31"
+      }
+    },
+    "text-fair-yes": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~65% (inputs: 10+ Hormuz ship strikes week of Oct 11–14; GlobalSecurity tracker labeled \"Ceasefire (fragile)\" Oct 16; Conference Board Oct 15: status quo of US blockade + occasional attacks likely through midterms)"
+      }
+    },
+    "text-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: Market prices YES ~15pp too high — ongoing Hormuz shipping attacks already undermine the ceasefire's functional integrity; buy NO."
+      }
+    },
+    "text-market-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: If market uses a loose definition (no all-out US-Iran exchange), it resolves YES even with Hormuz attacks continuing."
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-sources",
+        "text-disclaimer"
+      ]
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail (junk results), poly=ok",
+        "variant": "caption"
+      }
+    },
+    "text-disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
