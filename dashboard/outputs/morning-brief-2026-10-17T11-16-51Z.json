@@ -1,0 +1,381 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief 2026-10-17"
+      },
+      "children": [
+        "section_focus",
+        "sep1",
+        "section_yesterday",
+        "sep2",
+        "section_watch",
+        "sep3",
+        "section_running"
+      ]
+    },
+    "section_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus",
+        "level": "h2"
+      }
+    },
+    "focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1_badge",
+        "focus_1_text"
+      ]
+    },
+    "focus_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "focus_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "DEX/Solana: Hangzhou tomorrow—flip RIDE or drop by EOD"
+      }
+    },
+    "focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_alert",
+        "focus_2_link"
+      ]
+    },
+    "focus_2_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "XAI API Credits",
+        "message": "21st degraded day—operator action needed",
+        "type": "warning"
+      }
+    },
+    "focus_2_link": {
+      "type": "Link",
+      "props": {
+        "label": "Visit console.x.ai",
+        "href": "https://console.x.ai"
+      }
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_title",
+        "focus_3_stat",
+        "focus_3_action"
+      ]
+    },
+    "focus_3_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_name",
+        "focus_3_badge"
+      ]
+    },
+    "focus_3_name": {
+      "type": "Text",
+      "props": {
+        "text": "INJ FRONT-RUN",
+        "variant": "lead"
+      }
+    },
+    "focus_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "LIVE",
+        "variant": "destructive"
+      }
+    },
+    "focus_3_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Opened (7d)",
+        "value": "$9.00",
+        "delta": "+30.4%",
+        "trend": "up"
+      }
+    },
+    "focus_3_action": {
+      "type": "Text",
+      "props": {
+        "text": "Verify 7d gain holds—exit if ETF slips or price reverses"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_yesterday",
+        "yesterday_1",
+        "yesterday_2",
+        "yesterday_3",
+        "yesterday_4"
+      ]
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since Yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_1_badge",
+        "yesterday_1_text"
+      ]
+    },
+    "yesterday_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "STRK",
+        "variant": "default"
+      }
+    },
+    "yesterday_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "Capitulation confirmed, narrative spent"
+      }
+    },
+    "yesterday_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_2_badge",
+        "yesterday_2_stat"
+      ]
+    },
+    "yesterday_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "INJ FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "yesterday_2_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Opened (7d)",
+        "value": "$9.00",
+        "delta": "+30.4%",
+        "trend": "up"
+      }
+    },
+    "yesterday_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_3_badge",
+        "yesterday_3_text"
+      ]
+    },
+    "yesterday_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEX/Solana",
+        "variant": "default"
+      }
+    },
+    "yesterday_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "Demoted RIDE to WATCH"
+      }
+    },
+    "yesterday_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_4_badge",
+        "yesterday_4_stat"
+      ]
+    },
+    "yesterday_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "XAI",
+        "variant": "secondary"
+      }
+    },
+    "yesterday_4_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Status",
+        "value": "403",
+        "delta": "day 20"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_watch",
+        "watch_1",
+        "watch_2"
+      ]
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_1": {
+      "type": "Text",
+      "props": {
+        "text": "Solana Hangzhou Oct 18 confirmed—4-city series thru Oct 22 (Beijing Canary staked)"
+      }
+    },
+    "watch_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "watch_2_badge",
+        "watch_2_text"
+      ]
+    },
+    "watch_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "INJ",
+        "variant": "default"
+      }
+    },
+    "watch_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "ETF filing confirmed"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_running",
+        "running_table"
+      ]
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running Today",
+        "level": "h2"
+      }
+    },
+    "running_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Time"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "08/14/20 UTC"
+          ],
+          [
+            "github-monitor",
+            "09"
+          ],
+          [
+            "token-movers",
+            "12"
+          ],
+          [
+            "token-pick",
+            "12"
+          ],
+          [
+            "narrative-tracker",
+            "1330"
+          ]
+        ]
+      }
+    }
+  }
+}
