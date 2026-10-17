@@ -1,28 +1,32 @@
-*Security Digest — 2026-10-16*
-Verdict: nothing urgent today. 5 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-10-17*
+Verdict: 2 KEV additions + 1 with public PoC. 4 to schedule. _Sources: KEV, GH Advisory, EPSS_
+
+*PATCH TODAY*
+- [CVE-2026-102764](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — BeyondTrust Remote Support · KEV added 2026-10-16 · EPSS 0.006 · due 2026-10-19
+  Auth bypass by spoofing → arbitrary file ops on appliance. Actively exploited per CISA.
+  → apply vendor mitigation or discontinue use by Oct 19.
+
+- [CVE-2025-61624](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Fortinet FortiOS/FortiPAM/FortiProxy/FortiSwitchManager · KEV added 2026-10-16 · EPSS 0.006 · due 2026-10-19
+  Path traversal (authenticated admin) → write/delete arbitrary files via CLI. Exploited per CISA.
+  → apply vendor mitigation by Oct 19.
+
+- [CVE-2026-105192](https://github.com/advisories/GHSA-w5f2-9q9c-ff4h) — lmcache (pip) · CVSS 9.8 · EPSS 0.005 · public PoC
+  RCE via unsafe ZeroMQ deserialization in multiprocess transport. PoC Python code published in advisory.
+  → upgrade lmcache to ≥0.5.6 and redeploy.
 
 *PATCH THIS WEEK*
-- [CVE-2026-94603](https://github.com/advisories/GHSA-2cvf-wqm6-wr9g) — Podman (go) · CVSS 10.0 · EPSS 0.92% · no PoC
-  Image annotation disables almost all container sandboxing. → upgrade podman to ≥5.8.8 (v5) or ≥6.1.3 (v6).
+- [CVE-2026-84994](https://github.com/advisories/GHSA-x586-xvc8-g7q6) — @builder.io/qwik / @qwik.dev/core (npm) · CVSS 8.7 · EPSS 0.005 · no public PoC
+  Unauthenticated request thenable crashes Qwik server.
+  → upgrade qwik to ≥1.20.0 / @qwik.dev/core to ≥2.0.0-beta37.
 
-- [CVE-2026-104252](https://github.com/advisories/GHSA-v75v-6fpf-gvw8) — Vitess vttablet (go) · CVSS 9.8 · EPSS 0.89% · no PoC
-  Reflected XSS in /twopcz endpoint. → upgrade vitess.io/vitess to ≥0.23.5 or ≥0.24.2.
+- [CVE-2026-100349](https://github.com/advisories/GHSA-74vm-87hj-r66f) — kin-openapi (Go) · CVSS 8.2 · EPSS 0.004 · no public PoC
+  Nil-pointer panic in ValidateResponse on response header with content schema.
+  → upgrade kin-openapi to ≥0.146.0.
 
-- [CVE-2026-77459](https://github.com/advisories/GHSA-fmxq-cgp8-87wp) — Argo CD (go) · CVSS 9.9 · EPSS 0.72% · no PoC
-  AppProject namespace/resource restrictions bypassed via PostDelete hooks. → upgrade argo-cd v3 to ≥3.3.15 / ≥3.4.10 / ≥3.5.4; v2 unpatched.
+- [CVE-2026-96620](https://github.com/advisories/GHSA-h4mw-j7qp-8mwm) — claude-agent-sdk (pip) · CVSS 9.2 · EPSS 0 · no public PoC
+  Arg injection via resume option → arbitrary command exec, bypasses SDK permission controls. Requires untrusted session-ID input.
+  → upgrade claude-agent-sdk to ≥0.2.121.
 
-- [CVE-2026-77524](https://github.com/advisories/GHSA-637c-6jxx-4rwm) — KEDA (go) · CVSS 9.9 · EPSS 0.64% · no PoC
-  Namespace admin escalates to cluster admin via TriggerAuthentication. → upgrade keda/v2 to ≥2.21.0.
-
-- [CVE-2026-102989](https://github.com/advisories/GHSA-qx66-fv34-fjm8) — TanStack Start (npm) · CVSS 9.3 · EPSS 0.52% · no PoC
-  Unauthenticated reflected XSS in server-function responses. → upgrade @tanstack/react-start ≥1.168.60 (solid ≥1.168.57, vue ≥1.168.56).
-
-*MONITOR*
-- [CVE-2026-102748](https://github.com/advisories/GHSA-qj98-gp63-54xj) — Dgraph v25 (go) · CVSS n/a · EPSS 0.49% · no fix yet
-  Unauth HTTP admin removeNode → DoS. → track GHSA-qj98-gp63-54xj; block admin port at network layer.
-
-- [CVE-2026-86063](https://github.com/advisories/GHSA-pq7j-f95f-qfcv) — @anthropic-ai/claude-code (npm) · CVSS n/a · EPSS 0.17% · fix: ≥2.1.179
-  Plugin hash pin bypass — plugins load without hash verification. → upgrade claude-code if used as dependency.
-
-- [CVE-2026-103929](https://github.com/advisories/GHSA-g74g-rg72-j2p3) — mise (rust) · CVSS 7.8 · EPSS 0.20% · patch unclear
-  Untrusted local config overrides shell args. → avoid untrusted .mise.toml; watch for confirmed patch.
+- [CVE-2026-96627](https://github.com/advisories/GHSA-pw5q-rjx4-7f7p) — Arcane backend (Go) · CVSS 8.8 · EPSS 0 · no public PoC
+  users:update permission escalates to full admin via password reset.
+  → upgrade arcane/backend to ≥2.6.0.

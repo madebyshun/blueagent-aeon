@@ -1,0 +1,399 @@
+{
+  "root": "security-digest",
+  "state": {},
+  "elements": {
+    "security-digest": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-10-17"
+      },
+      "children": [
+        "verdict",
+        "sep1",
+        "patch-today",
+        "sep2",
+        "patch-week"
+      ]
+    },
+    "verdict": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 2 KEV additions + 1 with public PoC. 4 to schedule. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "patch-today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "h-today",
+        "c102764",
+        "c61624",
+        "c105192"
+      ]
+    },
+    "h-today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "c102764": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c102764-l",
+        "c102764-m",
+        "c102764-d",
+        "c102764-a"
+      ]
+    },
+    "c102764-l": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-102764 — BeyondTrust Remote Support",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "KEV"
+      },
+      "children": []
+    },
+    "c102764-m": {
+      "type": "Text",
+      "props": {
+        "text": "KEV added 2026-10-16 · EPSS 0.006 · due 2026-10-19",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "c102764-d": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass by spoofing → arbitrary file ops on appliance. Actively exploited per CISA."
+      },
+      "children": []
+    },
+    "c102764-a": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply vendor mitigation or discontinue use by Oct 19.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "c61624": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c61624-l",
+        "c61624-m",
+        "c61624-d",
+        "c61624-a"
+      ]
+    },
+    "c61624-l": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2025-61624 — Fortinet FortiOS/FortiPAM/FortiProxy/FortiSwitchManager",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source": "KEV"
+      },
+      "children": []
+    },
+    "c61624-m": {
+      "type": "Text",
+      "props": {
+        "text": "KEV added 2026-10-16 · EPSS 0.006 · due 2026-10-19",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "c61624-d": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal (authenticated admin) → write/delete arbitrary files via CLI. Exploited per CISA."
+      },
+      "children": []
+    },
+    "c61624-a": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply vendor mitigation by Oct 19.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "c105192": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c105192-l",
+        "c105192-m",
+        "c105192-d",
+        "c105192-a"
+      ]
+    },
+    "c105192-l": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-105192 — lmcache (pip)",
+        "href": "https://github.com/advisories/GHSA-w5f2-9q9c-ff4h",
+        "source": "GH Advisory"
+      },
+      "children": []
+    },
+    "c105192-m": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.8 · EPSS 0.005 · public PoC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "c105192-d": {
+      "type": "Text",
+      "props": {
+        "text": "RCE via unsafe ZeroMQ deserialization in multiprocess transport. PoC Python code published in advisory."
+      },
+      "children": []
+    },
+    "c105192-a": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade lmcache to ≥0.5.6 and redeploy.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "patch-week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "h-week",
+        "c84994",
+        "c100349",
+        "c96620",
+        "c96627"
+      ]
+    },
+    "h-week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "c84994": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c84994-l",
+        "c84994-m",
+        "c84994-d",
+        "c84994-a"
+      ]
+    },
+    "c84994-l": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-84994 — @builder.io/qwik / @qwik.dev/core (npm)",
+        "href": "https://github.com/advisories/GHSA-x586-xvc8-g7q6",
+        "source": "GH Advisory"
+      },
+      "children": []
+    },
+    "c84994-m": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 8.7 · EPSS 0.005 · no public PoC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "c84994-d": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated request thenable crashes Qwik server."
+      },
+      "children": []
+    },
+    "c84994-a": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade qwik to ≥1.20.0 / @qwik.dev/core to ≥2.0.0-beta37.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "c100349": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c100349-l",
+        "c100349-m",
+        "c100349-d",
+        "c100349-a"
+      ]
+    },
+    "c100349-l": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-100349 — kin-openapi (Go)",
+        "href": "https://github.com/advisories/GHSA-74vm-87hj-r66f",
+        "source": "GH Advisory"
+      },
+      "children": []
+    },
+    "c100349-m": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 8.2 · EPSS 0.004 · no public PoC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "c100349-d": {
+      "type": "Text",
+      "props": {
+        "text": "Nil-pointer panic in ValidateResponse on response header with content schema."
+      },
+      "children": []
+    },
+    "c100349-a": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade kin-openapi to ≥0.146.0.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "c96620": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c96620-l",
+        "c96620-m",
+        "c96620-d",
+        "c96620-a"
+      ]
+    },
+    "c96620-l": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-96620 — claude-agent-sdk (pip)",
+        "href": "https://github.com/advisories/GHSA-h4mw-j7qp-8mwm",
+        "source": "GH Advisory"
+      },
+      "children": []
+    },
+    "c96620-m": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.2 · EPSS 0 · no public PoC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "c96620-d": {
+      "type": "Text",
+      "props": {
+        "text": "Arg injection via resume option → arbitrary command exec, bypasses SDK permission controls. Requires untrusted session-ID input."
+      },
+      "children": []
+    },
+    "c96620-a": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade claude-agent-sdk to ≥0.2.121.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "c96627": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "c96627-l",
+        "c96627-m",
+        "c96627-d",
+        "c96627-a"
+      ]
+    },
+    "c96627-l": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-96627 — Arcane backend (Go)",
+        "href": "https://github.com/advisories/GHSA-pw5q-rjx4-7f7p",
+        "source": "GH Advisory"
+      },
+      "children": []
+    },
+    "c96627-m": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 8.8 · EPSS 0 · no public PoC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "c96627-d": {
+      "type": "Text",
+      "props": {
+        "text": "users:update permission escalates to full admin via password reset."
+      },
+      "children": []
+    },
+    "c96627-a": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade arcane/backend to ≥2.6.0.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
