@@ -1,21 +1,16 @@
-*GitHub Trending — 2026-10-17*
+*GitHub Trending — 2026-10-18*
 
-*Top pick* — [stablyai/orca](https://github.com/stablyai/orca)
-Today's clearest signal — the only fleet-level agent orchestrator hitting 1.1k stars on a same-day push, showing the market moving beyond single-agent workflows.
+Thin day — 11 of 13 repos were holdovers or noise. Two picks survived the filter.
 
-*AI/ML*
-• [stablyai/orca](https://github.com/stablyai/orca) — ★ 1.1k today (94.9k total) · TypeScript · [ACCELERATING]
-Runs coding agent fleets across desktop, mobile, remote — 95k stars in 7 months signals category arrival.
+*Top pick* — [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
+Anthropic pushed a fresh batch of official Claude Code plugins today — the highest-signal item on an otherwise stale board.
 
 *Devtools*
-• [anomalyco/opencode](https://github.com/anomalyco/opencode) — ★ 488 today (214.6k total) · TypeScript · [ACCELERATING]
-Most-starred open-source coding agent at 214k — vendor-neutral alternative with active daily development.
+• [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) — ★ 1.2K today (42k total) · Python · [RETURNING]
+Anthropic's Oct 18 push drove 1.2K stars in a day — well above the ~127/day baseline; new official plugins landed.
 
-• [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) — ★ 159 today (9.7k total) · Rust · [ACCELERATING]
-Rust library for persistent agent memory — enables context handoff between Claude Code, Cursor, and other CLI agents.
-
-• [android/skills](https://github.com/android/skills) — ★ 368 today (8.3k total) · Kotlin · [RETURNING]
-Official Android org agent skill library; went from 35 stars yesterday to 368 today — something triggered.
+• [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) — ★ 582 today (54k total) · Python · [RETURNING]
+Auto-generates CLI interfaces for any binary so agents can call it without code changes — no SDK, no wrapper needed.
 
 ---
-sources: trending=ok · gh_api=ok · kept 4/13
+sources: trending=ok · gh_api=ok · kept 2/13

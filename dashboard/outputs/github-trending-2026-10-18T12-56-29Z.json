@@ -1,0 +1,197 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-10-18"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_summary",
+        "sep1",
+        "heading_top",
+        "link_top_pick",
+        "text_top_pick_desc",
+        "sep2",
+        "heading_devtools",
+        "stack_repo1",
+        "stack_repo2",
+        "sep3",
+        "text_sources"
+      ]
+    },
+    "text_summary": {
+      "type": "Text",
+      "props": {
+        "text": "Thin day — 11 of 13 repos were holdovers or noise. Two picks survived the filter.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_top": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "link_top_pick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anthropics/claude-plugins-official",
+        "href": "https://github.com/anthropics/claude-plugins-official"
+      },
+      "children": []
+    },
+    "text_top_pick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Anthropic pushed a fresh batch of official Claude Code plugins today — the highest-signal item on an otherwise stale board."
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_repo1",
+        "stack_repo1_meta",
+        "text_repo1_desc"
+      ]
+    },
+    "link_repo1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anthropics/claude-plugins-official",
+        "href": "https://github.com/anthropics/claude-plugins-official",
+        "source": "Python",
+        "score": "★ 1.2K today (42k total)"
+      },
+      "children": []
+    },
+    "stack_repo1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_returning1"
+      ]
+    },
+    "badge_returning1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      },
+      "children": []
+    },
+    "text_repo1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Anthropic's Oct 18 push drove 1.2K stars in a day — well above the ~127/day baseline; new official plugins landed.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack_repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_repo2",
+        "stack_repo2_meta",
+        "text_repo2_desc"
+      ]
+    },
+    "link_repo2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HKUDS/CLI-Anything",
+        "href": "https://github.com/HKUDS/CLI-Anything",
+        "source": "Python",
+        "score": "★ 582 today (54k total)"
+      },
+      "children": []
+    },
+    "stack_repo2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_returning2"
+      ]
+    },
+    "badge_returning2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      },
+      "children": []
+    },
+    "text_repo2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auto-generates CLI interfaces for any binary so agents can call it without code changes — no SDK, no wrapper needed.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 2/13",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
