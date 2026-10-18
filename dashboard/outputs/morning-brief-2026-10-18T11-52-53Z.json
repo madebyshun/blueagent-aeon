@@ -1,0 +1,221 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-10-18"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-since",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Solana Hangzhou (today) — Shanghai disrupted by police Oct 16; go/no-go live now",
+        "variant": "body"
+      }
+    },
+    "focus-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "INJ position — exit signal fired yesterday; close before further loss",
+        "variant": "body"
+      }
+    },
+    "focus-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "CVE-2026-96620 (claude-agent-sdk) — arg injection hits this infra; patch this week day 2",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-since",
+        "since-item-1",
+        "since-item-2",
+        "since-item-3",
+        "since-item-4"
+      ]
+    },
+    "heading-since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "INJ arc closed: -5.9% Oct 17 reversed entire ETF run; narrative DEAD per tracker",
+        "variant": "body"
+      }
+    },
+    "since-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "Solana Shanghai: police at venue Oct 16, cap exceeded; CZ publicly questioned organizers",
+        "variant": "body"
+      }
+    },
+    "since-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "XAI credits: day 22 degraded; narrative-tracker quality capped at WebSearch fallback",
+        "variant": "body"
+      }
+    },
+    "since-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "CME BCH + UNI futures Oct 19: BCH pre-ran +12–30%; UNI futures addition new",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "watch-item-1",
+        "watch-item-2"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Solana police disruption in Shanghai — China enforcement risk could kill remaining tour stops → changes DEX/Solana thesis (Focus #1)",
+        "variant": "body"
+      }
+    },
+    "watch-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "CME BCH + UNI launch tomorrow — UNI not in yesterday's narrative map; BCH pre-ran, check for entry exhaustion",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "running-item-1",
+        "running-item-2",
+        "running-item-3",
+        "running-item-4"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}

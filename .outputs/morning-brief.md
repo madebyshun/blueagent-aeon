@@ -1,1 +1,22 @@
-Morning Brief 2026-10-17 | Focus: 1. DEX/Solana WATCH Hangzhou tomorrow - flip RIDE or drop by EOD 2. XAI API credits 21st degraded day - operator action needed at console.x.ai 3. INJ FRONT-RUN live - verify 7d gain holds exit if ETF slips or price reverses | Since yesterday: STRK capitulation confirmed narrative spent INJ FRONT-RUN opened at 9.00 +30.4pct 7d DEX/Solana demoted RIDE to WATCH XAI 403 day 20 | Watch: Solana Hangzhou Oct 18 confirmed 4-city series thru Oct 22 Beijing Canary staked INJ ETF filing confirmed | Running today: heartbeat 08/14/20 UTC github-monitor 09 token-movers 12 token-pick 12 narrative-tracker 1330
+*Morning Brief — 2026-10-18*
+
+*Focus today*
+1. Solana Hangzhou (today) — Shanghai disrupted by police Oct 16; go/no-go live now
+2. INJ position — exit signal fired yesterday; close before further loss
+3. CVE-2026-96620 (claude-agent-sdk) — arg injection hits this infra; patch this week day 2
+
+*Since yesterday*
+- INJ arc closed: -5.9% Oct 17 reversed entire ETF run; narrative DEAD per tracker
+- Solana Shanghai: police at venue Oct 16, cap exceeded; CZ publicly questioned organizers
+- XAI credits: day 22 degraded; narrative-tracker quality capped at WebSearch fallback
+- CME BCH + UNI futures Oct 19: BCH pre-ran +12–30%; UNI futures addition new
+
+*Watch*
+- Solana police disruption in Shanghai — China enforcement risk could kill remaining tour stops → changes DEX/Solana thesis (Focus #1)
+- CME BCH + UNI launch tomorrow — UNI not in yesterday's narrative map; BCH pre-ran, check for entry exhaustion
+
+*Running today*
+- github-monitor @ 09:00 UTC
+- token-movers @ 12:00 UTC
+- token-pick @ 12:00 UTC
+- narrative-tracker @ 13:30 UTC
