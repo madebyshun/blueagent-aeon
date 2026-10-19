@@ -1,22 +1,23 @@
-*Morning Brief — 2026-10-18*
+*Morning Brief — 2026-10-19*
 
 *Focus today*
-1. Solana Hangzhou (today) — Shanghai disrupted by police Oct 16; go/no-go live now
-2. INJ position — exit signal fired yesterday; close before further loss
-3. CVE-2026-96620 (claude-agent-sdk) — arg injection hits this infra; patch this week day 2
+1. CVE-2026-96620 (claude-agent-sdk) — why now: arg injection on live infra; upgrade to 0.2.121 now
+2. INJ position — why now: exit signal fired Oct 17; 2 days open, closing window shrinks
+3. token-movers @ 12 UTC — why now: failed yesterday; second fail triggers degraded status
 
 *Since yesterday*
-- INJ arc closed: -5.9% Oct 17 reversed entire ETF run; narrative DEAD per tracker
-- Solana Shanghai: police at venue Oct 16, cap exceeded; CZ publicly questioned organizers
-- XAI credits: day 22 degraded; narrative-tracker quality capped at WebSearch fallback
-- CME BCH + UNI futures Oct 19: BCH pre-ran +12–30%; UNI futures addition new
+- Solana Hangzhou: event date passed, no cancellation logged (resolved)
+- CVE fix confirmed: python claude-agent-sdk 0.2.121 patches the arg injection
+- github-trending OK: 2 picks (claude-plugins-official, CLI-Anything); thin day (8/13 holdovers)
+- security-digest failed Oct 18 (consecutive_failures: 1) — watch for repeat today
 
 *Watch*
-- Solana police disruption in Shanghai — China enforcement risk could kill remaining tour stops → changes DEX/Solana thesis (Focus #1)
-- CME BCH + UNI launch tomorrow — UNI not in yesterday's narrative map; BCH pre-ran, check for entry exhaustion
+- CME BCH + UNI futures launch today — UNI new institutional venue; watch token-pick for flow signal
 
 *Running today*
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
+- deal-flow @ 14:00 UTC (weekly, Monday)
+- heartbeat @ 08:00, 14:00, 20:00 UTC

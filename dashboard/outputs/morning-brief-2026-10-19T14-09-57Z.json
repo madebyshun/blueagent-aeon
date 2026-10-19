@@ -1,0 +1,336 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_heading",
+        "focus_items_stack",
+        "sep1",
+        "since_heading",
+        "since_items_stack",
+        "sep2",
+        "watch_heading",
+        "watch_stack",
+        "sep3",
+        "running_heading",
+        "running_items_stack"
+      ]
+    },
+    "focus_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_items_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_1_badge",
+        "focus_1_text"
+      ]
+    },
+    "focus_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CVE-2026-96620 (claude-agent-sdk)"
+      }
+    },
+    "focus_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "why now: arg injection on live infra; upgrade to 0.2.121 now"
+      }
+    },
+    "focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_2_badge",
+        "focus_2_text"
+      ]
+    },
+    "focus_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "INJ position"
+      }
+    },
+    "focus_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "why now: exit signal fired Oct 17; 2 days open, closing window shrinks"
+      }
+    },
+    "focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus_3_badge",
+        "focus_3_text"
+      ]
+    },
+    "focus_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers @ 12 UTC"
+      }
+    },
+    "focus_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "why now: failed yesterday; second fail triggers degraded status"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "since_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "since_items_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_1",
+        "since_2",
+        "since_3",
+        "since_4"
+      ]
+    },
+    "since_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_1_badge",
+        "since_1_text"
+      ]
+    },
+    "since_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Solana Hangzhou"
+      }
+    },
+    "since_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "event date passed, no cancellation logged (resolved)"
+      }
+    },
+    "since_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_2_badge",
+        "since_2_text"
+      ]
+    },
+    "since_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CVE fix confirmed"
+      }
+    },
+    "since_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "python claude-agent-sdk 0.2.121 patches the arg injection"
+      }
+    },
+    "since_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "since_3_badge",
+        "since_3_text"
+      ]
+    },
+    "since_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "github-trending OK"
+      }
+    },
+    "since_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "2 picks (claude-plugins-official, CLI-Anything); thin day (8/13 holdovers)"
+      }
+    },
+    "since_4": {
+      "type": "Alert",
+      "props": {
+        "title": "security-digest failed Oct 18",
+        "message": "consecutive_failures: 1 — watch for repeat today",
+        "type": "error"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_1"
+      ]
+    },
+    "watch_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch_1_badge",
+        "watch_1_text"
+      ]
+    },
+    "watch_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "CME BCH + UNI futures launch today"
+      }
+    },
+    "watch_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "UNI new institutional venue; watch token-pick for flow signal"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_items_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5",
+        "running_6"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      }
+    },
+    "running_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      }
+    },
+    "running_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      }
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow @ 14:00 UTC (weekly, Monday)"
+      }
+    },
+    "running_6": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC"
+      }
+    }
+  }
+}
