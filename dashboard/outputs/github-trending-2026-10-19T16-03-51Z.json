@@ -1,0 +1,390 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-10-19"
+      },
+      "children": [
+        "section_top_pick",
+        "sep_1",
+        "section_aiml",
+        "sep_2",
+        "section_devtools",
+        "sep_3",
+        "footer"
+      ]
+    },
+    "section_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_top_pick",
+        "entry_ai_job_search_top"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "entry_ai_job_search_top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ai_job_search_top",
+        "desc_ai_job_search_top"
+      ]
+    },
+    "link_ai_job_search_top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MadsLorentzen/ai-job-search",
+        "href": "https://github.com/MadsLorentzen/ai-job-search",
+        "source": "GitHub"
+      }
+    },
+    "desc_ai_job_search_top": {
+      "type": "Text",
+      "props": {
+        "text": "Release pushed today; 3,860 stars in a single day puts it at 14× its average velocity — the biggest single-day signal on the board.",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aiml",
+        "entry_ruflo",
+        "entry_kronos"
+      ]
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "entry_ruflo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ruflo",
+        "desc_ruflo",
+        "stats_ruflo"
+      ]
+    },
+    "link_ruflo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ruvnet/ruflo",
+        "href": "https://github.com/ruvnet/ruflo",
+        "source": "GitHub"
+      }
+    },
+    "desc_ruflo": {
+      "type": "Text",
+      "props": {
+        "text": "New release today; federates Claude Code and Codex in a single swarm with vector RAG and memory — one harness for a mixed-vendor coding fleet.",
+        "variant": "body"
+      }
+    },
+    "stats_ruflo": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_ruflo_today",
+        "stat_ruflo_total",
+        "badge_ruflo_lang",
+        "badge_ruflo_status"
+      ]
+    },
+    "stat_ruflo_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "564"
+      }
+    },
+    "stat_ruflo_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "77k"
+      }
+    },
+    "badge_ruflo_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "badge_ruflo_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "entry_kronos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_kronos",
+        "desc_kronos",
+        "stats_kronos"
+      ]
+    },
+    "link_kronos": {
+      "type": "StoryLink",
+      "props": {
+        "title": "shiyu-coder/Kronos",
+        "href": "https://github.com/shiyu-coder/Kronos",
+        "source": "GitHub"
+      }
+    },
+    "desc_kronos": {
+      "type": "Text",
+      "props": {
+        "text": "Financial-market foundation model trained on price and order-book microstructure — replaces hand-tuned quant features with a pretrained transformer backbone.",
+        "variant": "body"
+      }
+    },
+    "stats_kronos": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_kronos_today",
+        "stat_kronos_total",
+        "badge_kronos_lang",
+        "badge_kronos_status"
+      ]
+    },
+    "stat_kronos_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "355"
+      }
+    },
+    "stat_kronos_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "41k"
+      }
+    },
+    "badge_kronos_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_kronos_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "entry_ai_job_search_devtools",
+        "entry_headroom"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "entry_ai_job_search_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ai_job_search_devtools",
+        "desc_ai_job_search_devtools",
+        "stats_ai_job_search_devtools"
+      ]
+    },
+    "link_ai_job_search_devtools": {
+      "type": "StoryLink",
+      "props": {
+        "title": "MadsLorentzen/ai-job-search",
+        "href": "https://github.com/MadsLorentzen/ai-job-search",
+        "source": "GitHub"
+      }
+    },
+    "desc_ai_job_search_devtools": {
+      "type": "Text",
+      "props": {
+        "text": "Release today; automates the full application loop — CV tailoring, cover letters, interview prep — via Claude Code agents; 3.8k stars in a day confirms the release event.",
+        "variant": "body"
+      }
+    },
+    "stats_ai_job_search_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_ai_job_search_devtools_today",
+        "stat_ai_job_search_devtools_total",
+        "badge_ai_job_search_devtools_lang",
+        "badge_ai_job_search_devtools_status"
+      ]
+    },
+    "stat_ai_job_search_devtools_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "3,860"
+      }
+    },
+    "stat_ai_job_search_devtools_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "56k"
+      }
+    },
+    "badge_ai_job_search_devtools_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_ai_job_search_devtools_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "entry_headroom": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_headroom",
+        "desc_headroom",
+        "stats_headroom"
+      ]
+    },
+    "link_headroom": {
+      "type": "StoryLink",
+      "props": {
+        "title": "headroomlabs-ai/headroom",
+        "href": "https://github.com/headroomlabs-ai/headroom",
+        "source": "GitHub"
+      }
+    },
+    "desc_headroom": {
+      "type": "Text",
+      "props": {
+        "text": "Transparent middleware that compresses tool outputs and RAG chunks before the LLM sees them — cuts token spend on agentic pipelines without touching existing code.",
+        "variant": "body"
+      }
+    },
+    "stats_headroom": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_headroom_today",
+        "stat_headroom_total",
+        "badge_headroom_lang",
+        "badge_headroom_status"
+      ]
+    },
+    "stat_headroom_today": {
+      "type": "Stat",
+      "props": {
+        "label": "Today",
+        "value": "317"
+      }
+    },
+    "stat_headroom_total": {
+      "type": "Stat",
+      "props": {
+        "label": "Total",
+        "value": "76k"
+      }
+    },
+    "badge_headroom_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_headroom_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/12",
+        "variant": "muted"
+      }
+    }
+  }
+}
