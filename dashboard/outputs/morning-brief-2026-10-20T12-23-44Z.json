@@ -1,0 +1,356 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-10-20"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "yesterday-section",
+        "sep2",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "alert-cve",
+        "alert-429",
+        "alert-dealflow"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "alert-cve": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "CVE-2026-96620 (claude-agent-sdk)",
+        "message": "Patch unresolved since Oct 19; arg injection on live infra"
+      }
+    },
+    "alert-429": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "429 rate-limit cluster",
+        "message": "token-movers + token-pick run at 12 UTC; quota hit yesterday at 17:55 UTC"
+      }
+    },
+    "alert-dealflow": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "deal-flow success_rate=0.71",
+        "message": "Below threshold; last succeeded Oct 12"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-heading",
+        "yesterday-stack"
+      ]
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yd-movers",
+        "yd-pick",
+        "yd-trending",
+        "yd-cve"
+      ]
+    },
+    "yd-movers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "movers-header",
+        "movers-detail"
+      ]
+    },
+    "movers-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "movers-label",
+        "movers-stat"
+      ]
+    },
+    "movers-label": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers",
+        "variant": "body"
+      }
+    },
+    "movers-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "consecutive_failures",
+        "value": "2",
+        "delta": "+1"
+      }
+    },
+    "movers-detail": {
+      "type": "Text",
+      "props": {
+        "text": "First-party 429 at 17:55 UTC",
+        "variant": "caption"
+      }
+    },
+    "yd-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pick-label",
+        "pick-badge",
+        "pick-stat"
+      ]
+    },
+    "pick-label": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick",
+        "variant": "body"
+      }
+    },
+    "pick-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "failed",
+        "variant": "destructive"
+      }
+    },
+    "pick-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "consecutive_failures",
+        "value": "1"
+      }
+    },
+    "yd-trending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trending-header",
+        "trending-items"
+      ]
+    },
+    "trending-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "trending-label",
+        "trending-badge",
+        "trending-stat"
+      ]
+    },
+    "trending-label": {
+      "type": "Text",
+      "props": {
+        "text": "github-trending",
+        "variant": "body"
+      }
+    },
+    "trending-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "ok",
+        "variant": "default"
+      }
+    },
+    "trending-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "picks",
+        "value": "4"
+      }
+    },
+    "trending-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trending-1",
+        "trending-2",
+        "trending-3",
+        "trending-4"
+      ]
+    },
+    "trending-1": {
+      "type": "Badge",
+      "props": {
+        "text": "ai-job-search",
+        "variant": "outline"
+      }
+    },
+    "trending-2": {
+      "type": "Badge",
+      "props": {
+        "text": "ruflo",
+        "variant": "outline"
+      }
+    },
+    "trending-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Kronos",
+        "variant": "outline"
+      }
+    },
+    "trending-4": {
+      "type": "Badge",
+      "props": {
+        "text": "headroom",
+        "variant": "outline"
+      }
+    },
+    "yd-cve": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve-label",
+        "cve-badge"
+      ]
+    },
+    "cve-label": {
+      "type": "Text",
+      "props": {
+        "text": "CVE-2026-96620",
+        "variant": "body"
+      }
+    },
+    "cve-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "no resolution logged; still open",
+        "variant": "destructive"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-list"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "run-1",
+        "run-2",
+        "run-3",
+        "run-4",
+        "run-5"
+      ]
+    },
+    "run-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "run-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "run-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "run-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "run-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
