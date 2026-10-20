@@ -1,0 +1,967 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-10-20"
+      },
+      "children": [
+        "transitions_section",
+        "sep1",
+        "reflexivity_section",
+        "sep2",
+        "positions_section",
+        "sep3",
+        "map_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions_heading",
+        "trans_1",
+        "trans_2",
+        "trans_3",
+        "trans_4",
+        "trans_5",
+        "trans_6"
+      ]
+    },
+    "transitions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "trans_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_1_title",
+        "trans_1_desc"
+      ]
+    },
+    "trans_1_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_1_badge",
+        "trans_1_text"
+      ]
+    },
+    "trans_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "trans_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Identity / World ID — Emerging ↑↑",
+        "variant": "lead"
+      }
+    },
+    "trans_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "WLD +11.4% today on Oku Trade + World App integration; AI identity stepping into utility gap; biometric-onboarding narrative gaining concrete use case",
+        "variant": "body"
+      }
+    },
+    "trans_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_2_title",
+        "trans_2_desc"
+      ]
+    },
+    "trans_2_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_2_badge",
+        "trans_2_text"
+      ]
+    },
+    "trans_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "default"
+      }
+    },
+    "trans_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "Base DEX Rotation — Emerging ↑↑",
+        "variant": "lead"
+      }
+    },
+    "trans_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "PEARL +15.7%, AERO +10.5% today; Base DEX is decisively winning the Solana/Base rotation attention",
+        "variant": "body"
+      }
+    },
+    "trans_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_3_title",
+        "trans_3_desc"
+      ]
+    },
+    "trans_3_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_3_badge",
+        "trans_3_text"
+      ]
+    },
+    "trans_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "trans_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / x402 — Fading FADE → Peak RIDE",
+        "variant": "lead"
+      }
+    },
+    "trans_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Chainalysis 138M x402 txns report + BlackRock/Visa/Stripe/Google institutional positioning same week; protocol-layer narrative is real even if retail AI token speculation is cope",
+        "variant": "body"
+      }
+    },
+    "trans_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_4_title",
+        "trans_4_desc"
+      ]
+    },
+    "trans_4_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_4_badge",
+        "trans_4_text"
+      ]
+    },
+    "trans_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "trans_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy Coins (ZEC/XMR) — Fading FADE → Rising WATCH",
+        "variant": "lead"
+      }
+    },
+    "trans_4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "XMR +3.9%, ZEC +6.0% today; 7d ZEC +2.8%, XMR cluster accumulation; no named catalyst yet",
+        "variant": "body"
+      }
+    },
+    "trans_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_5_title",
+        "trans_5_desc"
+      ]
+    },
+    "trans_5_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_5_badge",
+        "trans_5_text"
+      ]
+    },
+    "trans_5_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "outline"
+      }
+    },
+    "trans_5_text": {
+      "type": "Text",
+      "props": {
+        "text": "DEX/Solana — Rising WATCH → Fading WATCH",
+        "variant": "lead"
+      }
+    },
+    "trans_5_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Hangzhou (Oct 18) consumed; Base DEX won the rotation day; Accelerate China Oct 16–22 ongoing but muted",
+        "variant": "body"
+      }
+    },
+    "trans_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_6_title",
+        "trans_6_desc"
+      ]
+    },
+    "trans_6_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "trans_6_badge",
+        "trans_6_text"
+      ]
+    },
+    "trans_6_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "trans_6_text": {
+      "type": "Text",
+      "props": {
+        "text": "CME Bitcoin Cash Futures",
+        "variant": "lead"
+      }
+    },
+    "trans_6_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Oct 19 launch passed; zero price or volume signal; narrative exhausted on announcement",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_heading",
+        "reflex_1",
+        "reflex_2"
+      ]
+    },
+    "reflexivity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflex_1": {
+      "type": "Alert",
+      "props": {
+        "title": "Agentic Payments / x402",
+        "message": "138M metric published ~Oct 14; days later: BlackRock, Visa, Mastercard, Stripe, Google all post AI-agent payments endorsements. x402 is Coinbase-incubated; Base is Coinbase's chain. Real txn volume; manufactured consensus window — watch for distribution.",
+        "type": "warning"
+      }
+    },
+    "reflex_2": {
+      "type": "Alert",
+      "props": {
+        "title": "AI Identity / WLD",
+        "message": "+11.4% on a small app integration. Narrative leading fundamentals. Monitor for ecosystem follow-through vs. one-day bounce.",
+        "type": "info"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions_heading",
+        "pos_1",
+        "pos_2",
+        "pos_3",
+        "pos_4",
+        "pos_5",
+        "pos_6",
+        "pos_7",
+        "pos_8"
+      ]
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "pos_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_1_title",
+        "pos_1_meta",
+        "pos_1_bear"
+      ]
+    },
+    "pos_1_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_1_badge",
+        "pos_1_text"
+      ]
+    },
+    "pos_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "pos_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Identity/World ID (mindshare 2 ↑↑, Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos_1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_1_link_1",
+        "pos_1_link_2"
+      ]
+    },
+    "pos_1_link_1": {
+      "type": "Link",
+      "props": {
+        "label": "@Worldcoin",
+        "href": "https://twitter.com/Worldcoin"
+      }
+    },
+    "pos_1_link_2": {
+      "type": "Link",
+      "props": {
+        "label": "@OkuTrade",
+        "href": "https://twitter.com/OkuTrade"
+      }
+    },
+    "pos_1_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: biometric regulation risk; COI",
+        "variant": "caption"
+      }
+    },
+    "pos_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_2_title",
+        "pos_2_meta",
+        "pos_2_bear"
+      ]
+    },
+    "pos_2_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_2_badge",
+        "pos_2_text"
+      ]
+    },
+    "pos_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FRONT-RUN",
+        "variant": "default"
+      }
+    },
+    "pos_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "Base DEX Rotation (mindshare 2 ↑↑, Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos_2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_2_link_1",
+        "pos_2_link_2"
+      ]
+    },
+    "pos_2_link_1": {
+      "type": "Link",
+      "props": {
+        "label": "@aerodromefi",
+        "href": "https://twitter.com/aerodromefi"
+      }
+    },
+    "pos_2_link_2": {
+      "type": "Link",
+      "props": {
+        "label": "@pearl_fi",
+        "href": "https://twitter.com/pearl_fi"
+      }
+    },
+    "pos_2_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: Accelerate China ends Oct 22",
+        "variant": "caption"
+      }
+    },
+    "pos_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_3_title",
+        "pos_3_meta",
+        "pos_3_bear"
+      ]
+    },
+    "pos_3_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_3_badge",
+        "pos_3_text"
+      ]
+    },
+    "pos_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "pos_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments / x402 protocol layer (5 →, Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos_3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_3_link_1",
+        "pos_3_link_2",
+        "pos_3_link_3"
+      ]
+    },
+    "pos_3_link_1": {
+      "type": "Link",
+      "props": {
+        "label": "@base",
+        "href": "https://twitter.com/base"
+      }
+    },
+    "pos_3_link_2": {
+      "type": "Link",
+      "props": {
+        "label": "@Chainalysis",
+        "href": "https://twitter.com/Chainalysis"
+      }
+    },
+    "pos_3_link_3": {
+      "type": "Link",
+      "props": {
+        "label": "@BlackRock",
+        "href": "https://twitter.com/BlackRock"
+      }
+    },
+    "pos_3_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: 138M txns = ~$24M/month; micro ≠ macro",
+        "variant": "caption"
+      }
+    },
+    "pos_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_4_title",
+        "pos_4_meta",
+        "pos_4_bear"
+      ]
+    },
+    "pos_4_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_4_badge",
+        "pos_4_text"
+      ]
+    },
+    "pos_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "pos_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "XRP Ledger / Ripple Agent Rails (3 →, Bull)",
+        "variant": "lead"
+      }
+    },
+    "pos_4_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_4_link_1",
+        "pos_4_link_2"
+      ]
+    },
+    "pos_4_link_1": {
+      "type": "Link",
+      "props": {
+        "label": "@Ripple",
+        "href": "https://twitter.com/Ripple"
+      }
+    },
+    "pos_4_link_2": {
+      "type": "Link",
+      "props": {
+        "label": "@Privy",
+        "href": "https://twitter.com/Privy"
+      }
+    },
+    "pos_4_bear": {
+      "type": "Text",
+      "props": {
+        "text": "bear: three-chain race diluting each",
+        "variant": "caption"
+      }
+    },
+    "pos_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_5_title",
+        "pos_5_note"
+      ]
+    },
+    "pos_5_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_5_badge",
+        "pos_5_text"
+      ]
+    },
+    "pos_5_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos_5_text": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy Coins/ZEC+XMR (2 ↑, Mixed)",
+        "variant": "lead"
+      }
+    },
+    "pos_5_note": {
+      "type": "Text",
+      "props": {
+        "text": "accumulation building; no catalyst named",
+        "variant": "caption"
+      }
+    },
+    "pos_6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_6_title",
+        "pos_6_note"
+      ]
+    },
+    "pos_6_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_6_badge",
+        "pos_6_text"
+      ]
+    },
+    "pos_6_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "pos_6_text": {
+      "type": "Text",
+      "props": {
+        "text": "Macro/FOMC Oct 28 (4 ↑, Bear)",
+        "variant": "lead"
+      }
+    },
+    "pos_6_note": {
+      "type": "Text",
+      "props": {
+        "text": "8 days; today's risk-on is noise not signal",
+        "variant": "caption"
+      }
+    },
+    "pos_7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_7_title"
+      ]
+    },
+    "pos_7_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_7_badge",
+        "pos_7_text"
+      ]
+    },
+    "pos_7_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "pos_7_text": {
+      "type": "Text",
+      "props": {
+        "text": "Retail AI Wrapper Tokens (4 ↓, Cope) — Q +149% 7d = retail filling institutional exit; divergence from x402 layer",
+        "variant": "lead"
+      }
+    },
+    "pos_8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_8_title"
+      ]
+    },
+    "pos_8_title": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_8_badge",
+        "pos_8_text"
+      ]
+    },
+    "pos_8_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "pos_8_text": {
+      "type": "Text",
+      "props": {
+        "text": "INJ/Altcoin ETF Wave (2 ↓) — Oct 17 reversal confirmed; no recovery signal",
+        "variant": "lead"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_heading",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading",
+        "map_dead"
+      ]
+    },
+    "map_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerg_label",
+        "map_emerg_items"
+      ]
+    },
+    "map_emerg_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Emerging",
+        "level": "h4"
+      }
+    },
+    "map_emerg_items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Identity/World ID • Base DEX Rotation",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_label",
+        "map_rising_items"
+      ]
+    },
+    "map_rising_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h4"
+      }
+    },
+    "map_rising_items": {
+      "type": "Text",
+      "props": {
+        "text": "XRP/Ripple • Prediction Markets • Privacy Coins (building) • Global Regulatory Wave • FHE (stalling)",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_label",
+        "map_peak_items"
+      ]
+    },
+    "map_peak_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h4"
+      }
+    },
+    "map_peak_items": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic Payments/x402 • RWA • Stablecoins AI Rail • AI×DePIN",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_label",
+        "map_fading_items"
+      ]
+    },
+    "map_fading_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h4"
+      }
+    },
+    "map_fading_items": {
+      "type": "Text",
+      "props": {
+        "text": "INJ/ETF Wave • Retail AI Tokens • DEX/Solana • Gaming • Sui",
+        "variant": "body"
+      }
+    },
+    "map_dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_dead_label",
+        "map_dead_items"
+      ]
+    },
+    "map_dead_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Dead",
+        "level": "h4"
+      }
+    },
+    "map_dead_items": {
+      "type": "Text",
+      "props": {
+        "text": "CME BCH • ZRO • STARK • Uptober • InfoFi/Kaito",
+        "variant": "body"
+      }
+    }
+  }
+}
