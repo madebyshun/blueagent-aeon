@@ -1,0 +1,405 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-10-20"
+      },
+      "children": [
+        "wld-section",
+        "separator-1",
+        "market-section",
+        "separator-2",
+        "footer"
+      ]
+    },
+    "wld-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "wld-header",
+        "wld-price-data",
+        "wld-breakdown",
+        "wld-catalyst",
+        "wld-risk",
+        "wld-comparison"
+      ]
+    },
+    "wld-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "wld-title",
+        "wld-badges"
+      ]
+    },
+    "wld-title": {
+      "type": "Heading",
+      "props": {
+        "text": "WLD",
+        "level": "h2"
+      }
+    },
+    "wld-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-high-wld",
+        "badge-signal-wld"
+      ]
+    },
+    "badge-high-wld": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "badge-signal-wld": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 11/10",
+        "variant": "secondary"
+      }
+    },
+    "wld-price-data": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat-wld-price",
+        "stat-wld-24h",
+        "stat-wld-7d",
+        "stat-wld-mcap",
+        "stat-wld-vol",
+        "stat-wld-vol-ratio"
+      ]
+    },
+    "stat-wld-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.56"
+      }
+    },
+    "stat-wld-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h change",
+        "value": "±11.3%",
+        "trend": "neutral"
+      }
+    },
+    "stat-wld-7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d change",
+        "value": "±15.0%",
+        "trend": "neutral"
+      }
+    },
+    "stat-wld-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "mcap",
+        "value": "$2.15B"
+      }
+    },
+    "stat-wld-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h volume",
+        "value": "$510M"
+      }
+    },
+    "stat-wld-vol-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "vol/mcap",
+        "value": "0.24"
+      }
+    },
+    "wld-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, trending#3+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2] = 11/10",
+        "variant": "caption"
+      }
+    },
+    "wld-catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst-label",
+        "catalyst-content"
+      ]
+    },
+    "catalyst-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "catalyst-content": {
+      "type": "Text",
+      "props": {
+        "text": "Oku Trade integration into World App drove fresh on-chain activity; bounce off $0.46 support with AI identity narrative getting renewed attention alongside OpenAI/Altman tailwinds."
+      }
+    },
+    "wld-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "WLD has sharp FOMO-reversal history — prior rallies above $0.40 have faded quickly; ongoing token unlocks create steady sell pressure.",
+        "type": "warning"
+      }
+    },
+    "wld-comparison": {
+      "type": "Text",
+      "props": {
+        "text": "Last picked 2026-10-02; outside 7-day dedup window.",
+        "variant": "caption"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-header",
+        "market-title",
+        "market-current",
+        "market-fair",
+        "market-thesis",
+        "market-risk"
+      ]
+    },
+    "market-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market-label",
+        "market-badges"
+      ]
+    },
+    "market-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Market",
+        "level": "h2"
+      }
+    },
+    "market-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-high-market",
+        "badge-edge-market"
+      ]
+    },
+    "badge-high-market": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "badge-edge-market": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 21pp",
+        "variant": "secondary"
+      }
+    },
+    "market-title": {
+      "type": "Text",
+      "props": {
+        "text": "2026 Balance of Power: R Senate, D House",
+        "variant": "lead"
+      }
+    },
+    "market-current": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-odds",
+        "market-meta"
+      ]
+    },
+    "market-odds": {
+      "type": "Grid",
+      "props": {
+        "columns": 1,
+        "gap": "md"
+      },
+      "children": [
+        "progress-yes",
+        "progress-no"
+      ]
+    },
+    "progress-yes": {
+      "type": "Progress",
+      "props": {
+        "label": "Current YES",
+        "value": 28.5,
+        "max": 100
+      }
+    },
+    "progress-no": {
+      "type": "Progress",
+      "props": {
+        "label": "Current NO",
+        "value": 71.5,
+        "max": 100
+      }
+    },
+    "market-meta": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-market-vol",
+        "stat-market-resolves"
+      ]
+    },
+    "stat-market-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h volume",
+        "value": "$452k"
+      }
+    },
+    "stat-market-resolves": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "Nov 4, 2026"
+      }
+    },
+    "market-fair": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "progress-fair-yes",
+        "fair-yes-inputs"
+      ]
+    },
+    "progress-fair-yes": {
+      "type": "Progress",
+      "props": {
+        "label": "Fair YES",
+        "value": 50,
+        "max": 100
+      }
+    },
+    "fair-yes-inputs": {
+      "type": "Text",
+      "props": {
+        "text": "inputs: DDHQ Oct 12 D-House 76%, Republican Senate map advantage ~68%; 0.76×0.68≈52%",
+        "variant": "caption"
+      }
+    },
+    "market-thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis-label",
+        "thesis-content"
+      ]
+    },
+    "thesis-label": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      }
+    },
+    "thesis-content": {
+      "type": "Text",
+      "props": {
+        "text": "Market back-calcs R-Senate at ~37¢ (28.5¢ ÷ 0.76), but Republicans hold a structural advantage defending far fewer seats — the split outcome is badly underpriced."
+      }
+    },
+    "market-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "A strong Dem wave sweeps both chambers, or House polling miss flips back Republican — either collapses the YES.",
+        "type": "warning"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources",
+        "disclaimer"
+      ]
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=partial, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
