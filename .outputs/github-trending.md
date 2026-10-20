@@ -1,21 +1,27 @@
-*GitHub Trending — 2026-10-19*
+*GitHub Trending — 2026-10-20*
 
-*Top pick* — [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)
-Release pushed today; 3,860 stars in a single day puts it at 14× its average velocity — the biggest single-day signal on the board.
-
-*AI/ML*
-• [ruvnet/ruflo](https://github.com/ruvnet/ruflo) — ★ 564 today (77k total) · TypeScript · [ACCELERATING]
-New release today; federates Claude Code and Codex in a single swarm with vector RAG and memory — one harness for a mixed-vendor coding fleet.
-
-• [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) — ★ 355 today (41k total) · Python · [RETURNING]
-Financial-market foundation model trained on price and order-book microstructure — replaces hand-tuned quant features with a pretrained transformer backbone.
+*Top pick* — [stablyai/orca](https://github.com/stablyai/orca)
+Today's standout: a same-day push and 1,559 stars signal that multi-device coding-agent orchestration is where the field is consolidating.
 
 *Devtools*
-• [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) — ★ 3,860 today (56k total) · Python · [RETURNING]
-Release today; automates the full application loop — CV tailoring, cover letters, interview prep — via Claude Code agents; 3.8k stars in a day confirms the release event.
+• [stablyai/orca](https://github.com/stablyai/orca) — ★ 1,559 today (99K total) · TypeScript · [RETURNING]
+Coding-agent fleet manager ships an update — single control plane for desktop, mobile, and remote agent coordination.
 
-• [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) — ★ 317 today (76k total) · Python · [ACCELERATING]
-Transparent middleware that compresses tool outputs and RAG chunks before the LLM sees them — cuts token spend on agentic pipelines without touching existing code.
+• [anomalyco/opencode](https://github.com/anomalyco/opencode) — ★ 1,256 today (218K total) · TypeScript · [RETURNING]
+Self-hosted coding agent pushed an update today — still the dominant Cursor alternative at 218K stars, actively maintained.
+
+• [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) — ★ 1,007 today (169K total) · JavaScript · [RETURNING]
+Constraint layer that defaults agents to doing nothing — makes code generation the last resort, not the first response.
+
+• [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — ★ 849 today (33K total) · JavaScript · [RETURNING]
+Cloudflare's structured security audit skill ships verified machine-readable findings — purpose-built for CI integration.
+
+*AI/ML*
+• [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — ★ 751 today (130K total) · Python · [RETURNING]
+Builds a queryable knowledge graph from codebases via local AST parsing — no embeddings, no cloud, full cross-file reasoning.
+
+• [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — ★ 262 today (31K total) · Python · [RETURNING]
+Anthropic shipped fresh knowledge-worker plugins for Claude today — native research and doc tooling without third-party wiring.
 
 ---
-sources: trending=ok · gh_api=ok · kept 4/12
+sources: trending=ok · gh_api=ok · kept 6/15

@@ -1,0 +1,528 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-10-20"
+      },
+      "children": [
+        "topPick",
+        "sep1",
+        "devtools",
+        "sep2",
+        "aiml",
+        "sep3",
+        "footer"
+      ]
+    },
+    "topPick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "topPickLabel",
+        "topPickContent"
+      ]
+    },
+    "topPickLabel": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "topPickContent": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "topPickRepo",
+        "topPickDesc"
+      ]
+    },
+    "topPickRepo": {
+      "type": "StoryLink",
+      "props": {
+        "title": "stablyai/orca",
+        "href": "https://github.com/stablyai/orca"
+      }
+    },
+    "topPickDesc": {
+      "type": "Text",
+      "props": {
+        "text": "Today's standout: a same-day push and 1,559 stars signal that multi-device coding-agent orchestration is where the field is consolidating."
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtoolsHead",
+        "repo1",
+        "repo2",
+        "repo3",
+        "repo4"
+      ]
+    },
+    "devtoolsHead": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "repo1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo1Link",
+        "repo1Meta",
+        "repo1Desc"
+      ]
+    },
+    "repo1Link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "stablyai/orca",
+        "href": "https://github.com/stablyai/orca"
+      }
+    },
+    "repo1Meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo1Stars",
+        "repo1Total",
+        "repo1Lang",
+        "repo1Status"
+      ]
+    },
+    "repo1Stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 1,559 today"
+      }
+    },
+    "repo1Total": {
+      "type": "Badge",
+      "props": {
+        "text": "99K total",
+        "variant": "secondary"
+      }
+    },
+    "repo1Lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "repo1Status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo1Desc": {
+      "type": "Text",
+      "props": {
+        "text": "Coding-agent fleet manager ships an update — single control plane for desktop, mobile, and remote agent coordination."
+      }
+    },
+    "repo2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo2Link",
+        "repo2Meta",
+        "repo2Desc"
+      ]
+    },
+    "repo2Link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anomalyco/opencode",
+        "href": "https://github.com/anomalyco/opencode"
+      }
+    },
+    "repo2Meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo2Stars",
+        "repo2Total",
+        "repo2Lang",
+        "repo2Status"
+      ]
+    },
+    "repo2Stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 1,256 today"
+      }
+    },
+    "repo2Total": {
+      "type": "Badge",
+      "props": {
+        "text": "218K total",
+        "variant": "secondary"
+      }
+    },
+    "repo2Lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "outline"
+      }
+    },
+    "repo2Status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo2Desc": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted coding agent pushed an update today — still the dominant Cursor alternative at 218K stars, actively maintained."
+      }
+    },
+    "repo3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo3Link",
+        "repo3Meta",
+        "repo3Desc"
+      ]
+    },
+    "repo3Link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DietrichGebert/ponytail",
+        "href": "https://github.com/DietrichGebert/ponytail"
+      }
+    },
+    "repo3Meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo3Stars",
+        "repo3Total",
+        "repo3Lang",
+        "repo3Status"
+      ]
+    },
+    "repo3Stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 1,007 today"
+      }
+    },
+    "repo3Total": {
+      "type": "Badge",
+      "props": {
+        "text": "169K total",
+        "variant": "secondary"
+      }
+    },
+    "repo3Lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "outline"
+      }
+    },
+    "repo3Status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo3Desc": {
+      "type": "Text",
+      "props": {
+        "text": "Constraint layer that defaults agents to doing nothing — makes code generation the last resort, not the first response."
+      }
+    },
+    "repo4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo4Link",
+        "repo4Meta",
+        "repo4Desc"
+      ]
+    },
+    "repo4Link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cloudflare/security-audit-skill",
+        "href": "https://github.com/cloudflare/security-audit-skill"
+      }
+    },
+    "repo4Meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo4Stars",
+        "repo4Total",
+        "repo4Lang",
+        "repo4Status"
+      ]
+    },
+    "repo4Stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 849 today"
+      }
+    },
+    "repo4Total": {
+      "type": "Badge",
+      "props": {
+        "text": "33K total",
+        "variant": "secondary"
+      }
+    },
+    "repo4Lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "outline"
+      }
+    },
+    "repo4Status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo4Desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cloudflare's structured security audit skill ships verified machine-readable findings — purpose-built for CI integration."
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aimlHead",
+        "repo5",
+        "repo6"
+      ]
+    },
+    "aimlHead": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "repo5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo5Link",
+        "repo5Meta",
+        "repo5Desc"
+      ]
+    },
+    "repo5Link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Graphify-Labs/graphify",
+        "href": "https://github.com/Graphify-Labs/graphify"
+      }
+    },
+    "repo5Meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo5Stars",
+        "repo5Total",
+        "repo5Lang",
+        "repo5Status"
+      ]
+    },
+    "repo5Stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 751 today"
+      }
+    },
+    "repo5Total": {
+      "type": "Badge",
+      "props": {
+        "text": "130K total",
+        "variant": "secondary"
+      }
+    },
+    "repo5Lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "repo5Status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo5Desc": {
+      "type": "Text",
+      "props": {
+        "text": "Builds a queryable knowledge graph from codebases via local AST parsing — no embeddings, no cloud, full cross-file reasoning."
+      }
+    },
+    "repo6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo6Link",
+        "repo6Meta",
+        "repo6Desc"
+      ]
+    },
+    "repo6Link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anthropics/knowledge-work-plugins",
+        "href": "https://github.com/anthropics/knowledge-work-plugins"
+      }
+    },
+    "repo6Meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo6Stars",
+        "repo6Total",
+        "repo6Lang",
+        "repo6Status"
+      ]
+    },
+    "repo6Stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 262 today"
+      }
+    },
+    "repo6Total": {
+      "type": "Badge",
+      "props": {
+        "text": "31K total",
+        "variant": "secondary"
+      }
+    },
+    "repo6Lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "outline"
+      }
+    },
+    "repo6Status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "repo6Desc": {
+      "type": "Text",
+      "props": {
+        "text": "Anthropic shipped fresh knowledge-worker plugins for Claude today — native research and doc tooling without third-party wiring."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "sourceText"
+      ]
+    },
+    "sourceText": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/15",
+        "variant": "caption"
+      }
+    }
+  }
+}
