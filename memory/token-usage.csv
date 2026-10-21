@@ -606,3 +606,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-10-20,token-movers,claude-sonnet-4-6,30,28416,1659608,71763
 2026-10-20,narrative-tracker,claude-sonnet-4-6,18,15338,565309,41185
 2026-10-20,security-digest,claude-sonnet-4-6,26,19640,1204093,54494
+2026-10-21,github-trending,claude-sonnet-4-6,14,12183,357577,29917

@@ -1,27 +1,25 @@
-*GitHub Trending — 2026-10-20*
+*GitHub Trending — 2026-10-21*
 
-*Top pick* — [stablyai/orca](https://github.com/stablyai/orca)
-Today's standout: a same-day push and 1,559 stars signal that multi-device coding-agent orchestration is where the field is consolidating.
-
-*Devtools*
-• [stablyai/orca](https://github.com/stablyai/orca) — ★ 1,559 today (99K total) · TypeScript · [RETURNING]
-Coding-agent fleet manager ships an update — single control plane for desktop, mobile, and remote agent coordination.
-
-• [anomalyco/opencode](https://github.com/anomalyco/opencode) — ★ 1,256 today (218K total) · TypeScript · [RETURNING]
-Self-hosted coding agent pushed an update today — still the dominant Cursor alternative at 218K stars, actively maintained.
-
-• [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) — ★ 1,007 today (169K total) · JavaScript · [RETURNING]
-Constraint layer that defaults agents to doing nothing — makes code generation the last resort, not the first response.
-
-• [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — ★ 849 today (33K total) · JavaScript · [RETURNING]
-Cloudflare's structured security audit skill ships verified machine-readable findings — purpose-built for CI integration.
+*Top pick* — [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
+Challenges the core assumption of AI coding tools — that more code generation is better — by forcing agents to ship the minimum viable implementation.
 
 *AI/ML*
-• [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — ★ 751 today (130K total) · Python · [RETURNING]
-Builds a queryable knowledge graph from codebases via local AST parsing — no embeddings, no cloud, full cross-file reasoning.
+• [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — ★ 1.4k today (131k total) · Python · [ACCELERATING]
+Converts codebases, docs, and PDFs into a queryable knowledge graph with a native Claude Code skill — closes the gap between unstructured data and agent-ready context.
 
-• [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — ★ 262 today (31K total) · Python · [RETURNING]
-Anthropic shipped fresh knowledge-worker plugins for Claude today — native research and doc tooling without third-party wiring.
+• [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) — ★ 810 today (12k total) · Rust · [ACCELERATING]
+Cross-vendor agent memory in Rust — syncs session context between Claude Code, Cursor, and Windsurf without locking you to any one tool.
+
+*Devtools*
+• [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) — ★ 2.1k today (170.9k total) · JavaScript · [ACCELERATING]
+Gets AI to write the least possible code by treating verbosity as a bug — ships 10-line solutions where other agents produce 100.
+
+• [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — ★ 2.0k today (35.2k total) · JavaScript · [RETURNING]
+Cloudflare ships a production-grade Claude Code skill that runs structured, multi-phase security audits and returns verified machine-readable findings.
+
+*Web/Apps*
+• [strelov1/freehire](https://github.com/strelov1/freehire) — ★ 405 today (2.1k total) · Go · [RETURNING]
+Privacy-first open-source job search engine in Go — 27× daily average today; small project going viral on dev frustration with paywalled hiring platforms.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/15
+sources: trending=ok · gh_api=ok · kept 5/13

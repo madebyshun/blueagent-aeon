@@ -1,0 +1,436 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending"
+      },
+      "children": [
+        "subtitle",
+        "section_toppick",
+        "sep1",
+        "section_aiml",
+        "sep2",
+        "section_devtools",
+        "sep3",
+        "section_webapps",
+        "sep4",
+        "footer"
+      ]
+    },
+    "subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "2026-10-21",
+        "variant": "caption"
+      }
+    },
+    "section_toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_toppick",
+        "repo_toppick_link",
+        "repo_toppick_desc"
+      ]
+    },
+    "heading_toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "repo_toppick_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DietrichGebert/ponytail",
+        "href": "https://github.com/DietrichGebert/ponytail"
+      }
+    },
+    "repo_toppick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Challenges the core assumption of AI coding tools — that more code generation is better — by forcing agents to ship the minimum viable implementation.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aiml",
+        "repo_graphify",
+        "repo_aimemory"
+      ]
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "repo_graphify": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_graphify",
+        "meta_graphify",
+        "desc_graphify"
+      ]
+    },
+    "link_graphify": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Graphify-Labs/graphify",
+        "href": "https://github.com/Graphify-Labs/graphify"
+      }
+    },
+    "meta_graphify": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_graphify",
+        "badge_graphify_lang",
+        "badge_graphify_status"
+      ]
+    },
+    "stat_graphify": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1.4k today · 131k total",
+        "variant": "caption"
+      }
+    },
+    "badge_graphify_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_graphify_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "desc_graphify": {
+      "type": "Text",
+      "props": {
+        "text": "Converts codebases, docs, and PDFs into a queryable knowledge graph with a native Claude Code skill — closes the gap between unstructured data and agent-ready context.",
+        "variant": "body"
+      }
+    },
+    "repo_aimemory": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_aimemory",
+        "meta_aimemory",
+        "desc_aimemory"
+      ]
+    },
+    "link_aimemory": {
+      "type": "StoryLink",
+      "props": {
+        "title": "akitaonrails/ai-memory",
+        "href": "https://github.com/akitaonrails/ai-memory"
+      }
+    },
+    "meta_aimemory": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_aimemory",
+        "badge_aimemory_lang",
+        "badge_aimemory_status"
+      ]
+    },
+    "stat_aimemory": {
+      "type": "Text",
+      "props": {
+        "text": "★ 810 today · 12k total",
+        "variant": "caption"
+      }
+    },
+    "badge_aimemory_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "badge_aimemory_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "desc_aimemory": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-vendor agent memory in Rust — syncs session context between Claude Code, Cursor, and Windsurf without locking you to any one tool.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "repo_ponytail_dev",
+        "repo_security"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "repo_ponytail_dev": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ponytail_dev",
+        "meta_ponytail_dev",
+        "desc_ponytail_dev"
+      ]
+    },
+    "link_ponytail_dev": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DietrichGebert/ponytail",
+        "href": "https://github.com/DietrichGebert/ponytail"
+      }
+    },
+    "meta_ponytail_dev": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_ponytail_dev",
+        "badge_ponytail_lang",
+        "badge_ponytail_status"
+      ]
+    },
+    "stat_ponytail_dev": {
+      "type": "Text",
+      "props": {
+        "text": "★ 2.1k today · 170.9k total",
+        "variant": "caption"
+      }
+    },
+    "badge_ponytail_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript"
+      }
+    },
+    "badge_ponytail_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "desc_ponytail_dev": {
+      "type": "Text",
+      "props": {
+        "text": "Gets AI to write the least possible code by treating verbosity as a bug — ships 10-line solutions where other agents produce 100.",
+        "variant": "body"
+      }
+    },
+    "repo_security": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_security",
+        "meta_security",
+        "desc_security"
+      ]
+    },
+    "link_security": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cloudflare/security-audit-skill",
+        "href": "https://github.com/cloudflare/security-audit-skill"
+      }
+    },
+    "meta_security": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_security",
+        "badge_security_lang",
+        "badge_security_status"
+      ]
+    },
+    "stat_security": {
+      "type": "Text",
+      "props": {
+        "text": "★ 2.0k today · 35.2k total",
+        "variant": "caption"
+      }
+    },
+    "badge_security_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript"
+      }
+    },
+    "badge_security_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      }
+    },
+    "desc_security": {
+      "type": "Text",
+      "props": {
+        "text": "Cloudflare ships a production-grade Claude Code skill that runs structured, multi-phase security audits and returns verified machine-readable findings.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_webapps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_webapps",
+        "repo_freehire"
+      ]
+    },
+    "heading_webapps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "repo_freehire": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_freehire",
+        "meta_freehire",
+        "desc_freehire"
+      ]
+    },
+    "link_freehire": {
+      "type": "StoryLink",
+      "props": {
+        "title": "strelov1/freehire",
+        "href": "https://github.com/strelov1/freehire"
+      }
+    },
+    "meta_freehire": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_freehire",
+        "badge_freehire_lang",
+        "badge_freehire_status"
+      ]
+    },
+    "stat_freehire": {
+      "type": "Text",
+      "props": {
+        "text": "★ 405 today · 2.1k total",
+        "variant": "caption"
+      }
+    },
+    "badge_freehire_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go"
+      }
+    },
+    "badge_freehire_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      }
+    },
+    "desc_freehire": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy-first open-source job search engine in Go — 27× daily average today; small project going viral on dev frustration with paywalled hiring platforms.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/13",
+        "variant": "caption"
+      }
+    }
+  }
+}
