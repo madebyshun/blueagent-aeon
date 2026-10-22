@@ -1,15 +1,14 @@
-*Morning Brief — 2026-10-20*
+*Morning Brief — 2026-10-22*
 
 *Focus today*
-1. CVE-2026-96620 (claude-agent-sdk) — why now: patch unresolved since Oct 19; arg injection on live infra
-2. 429 rate-limit cluster — why now: token-movers + token-pick run at 12 UTC; quota hit yesterday at 17:55 UTC
-3. background: deal-flow success_rate=0.71 — below threshold; last succeeded Oct 12
+1. Resolve 429 usage-limit errors — why now: token-movers + token-pick run again at noon UTC
+2. deal-flow degraded (71% success rate) — why now: Monday run approaching, root cause unknown
+3. background: github-trending yielded 5 strong picks yesterday — no follow-up logged yet
 
 *Since yesterday*
-- token-movers: consecutive_failures now 2 (was 1); first-party 429 at 17:55 UTC
-- token-pick: failed (consecutive_failures: 1); same 429 cluster
-- github-trending: ok — 4 picks (ai-job-search, ruflo, Kronos, headroom)
-- CVE-2026-96620: no resolution logged; still open
+- [failed]: morning-brief, token-pick, token-movers, defi-monitor, security-digest — all hit api_error 429 usage_limit
+- [moved]: github-trending ran clean — DietrichGebert/ponytail at ~1,304 stars/day led picks
+- [stuck]: no open PRs; repo issues disabled
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC

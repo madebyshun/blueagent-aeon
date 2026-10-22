@@ -1,0 +1,245 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-10-22"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus",
+        "sep1",
+        "heading_since",
+        "stack_since",
+        "sep2",
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_429",
+        "alert_defiflow",
+        "text_github"
+      ]
+    },
+    "alert_429": {
+      "type": "Alert",
+      "props": {
+        "title": "Resolve 429 usage-limit errors",
+        "message": "why now: token-movers + token-pick run again at noon UTC",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "alert_defiflow": {
+      "type": "Alert",
+      "props": {
+        "title": "deal-flow degraded (71% success rate)",
+        "message": "why now: Monday run approaching, root cause unknown",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "text_github": {
+      "type": "Text",
+      "props": {
+        "text": "background: github-trending yielded 5 strong picks yesterday — no follow-up logged yet",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_failed",
+        "stack_moved",
+        "stack_stuck"
+      ]
+    },
+    "stack_failed": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_failed",
+        "text_failed_detail"
+      ]
+    },
+    "badge_failed": {
+      "type": "Badge",
+      "props": {
+        "text": "failed",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text_failed_detail": {
+      "type": "Text",
+      "props": {
+        "text": "morning-brief, token-pick, token-movers, defi-monitor, security-digest — all hit api_error 429 usage_limit",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack_moved": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_moved",
+        "text_moved_detail"
+      ]
+    },
+    "badge_moved": {
+      "type": "Badge",
+      "props": {
+        "text": "moved",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text_moved_detail": {
+      "type": "Text",
+      "props": {
+        "text": "github-trending ran clean — DietrichGebert/ponytail at ~1,304 stars/day led picks",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "stack_stuck": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stuck",
+        "text_stuck_detail"
+      ]
+    },
+    "badge_stuck": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text_stuck_detail": {
+      "type": "Text",
+      "props": {
+        "text": "no open PRs; repo issues disabled",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_heartbeat",
+        "text_github_monitor",
+        "text_token_movers",
+        "text_token_pick",
+        "text_narrative_tracker"
+      ]
+    },
+    "text_heartbeat": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_github_monitor": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_token_movers": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_token_pick": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text_narrative_tracker": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
