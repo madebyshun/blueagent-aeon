@@ -1,25 +1,18 @@
-*GitHub Trending — 2026-10-21*
+*GitHub Trending — 2026-10-22*
 
-*Top pick* — [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
-Challenges the core assumption of AI coding tools — that more code generation is better — by forcing agents to ship the minimum viable implementation.
+*Top pick* — [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)
+Anthropic's official plugin layer for Claude Cowork hit 300+ stars today — first sign this product is getting traction beyond early adopters.
 
 *AI/ML*
-• [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — ★ 1.4k today (131k total) · Python · [ACCELERATING]
-Converts codebases, docs, and PDFs into a queryable knowledge graph with a native Claude Code skill — closes the gap between unstructured data and agent-ready context.
-
-• [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) — ★ 810 today (12k total) · Rust · [ACCELERATING]
-Cross-vendor agent memory in Rust — syncs session context between Claude Code, Cursor, and Windsurf without locking you to any one tool.
+• [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — ★ 303 today (31.4k total) · Python · [ACCELERATING]
+Official plugin SDK for Claude Cowork — standardized patterns for building productivity integrations without raw API wrappers.
 
 *Devtools*
-• [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) — ★ 2.1k today (170.9k total) · JavaScript · [ACCELERATING]
-Gets AI to write the least possible code by treating verbosity as a bug — ships 10-line solutions where other agents produce 100.
+• [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) — ★ 428 today (42.7k total) · Python · [ACCELERATING]
+Copy-paste templates for Claude Code agent workflows — practical shortcut for anyone standing up a new agentic project.
 
-• [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — ★ 2.0k today (35.2k total) · JavaScript · [RETURNING]
-Cloudflare ships a production-grade Claude Code skill that runs structured, multi-phase security audits and returns verified machine-readable findings.
-
-*Web/Apps*
-• [strelov1/freehire](https://github.com/strelov1/freehire) — ★ 405 today (2.1k total) · Go · [RETURNING]
-Privacy-first open-source job search engine in Go — 27× daily average today; small project going viral on dev frustration with paywalled hiring platforms.
+• [php/php-src](https://github.com/php/php-src) — ★ 110 today (40.9k total) · C · [RETURNING]
+Simultaneous security patches across PHP 8.3/8.4/8.5 released 2026-10-21 — upgrade if you run any PHP in prod.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/13
+sources: trending=ok · gh_api=ok · kept 3/9 (3 holdovers, 3 noise)

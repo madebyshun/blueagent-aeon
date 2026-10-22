@@ -1,0 +1,296 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-10-22"
+      },
+      "children": [
+        "content"
+      ]
+    },
+    "content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "top-pick-section",
+        "ai-ml-section",
+        "devtools-section",
+        "separator-before-sources",
+        "sources"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-label",
+        "repo-1-top"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "repo-1-top": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-1-link-top",
+        "repo-1-desc-top"
+      ]
+    },
+    "repo-1-link-top": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anthropics/knowledge-work-plugins",
+        "href": "https://github.com/anthropics/knowledge-work-plugins"
+      }
+    },
+    "repo-1-desc-top": {
+      "type": "Text",
+      "props": {
+        "text": "Anthropic's official plugin layer for Claude Cowork hit 300+ stars today — first sign this product is getting traction beyond early adopters.",
+        "variant": "body"
+      }
+    },
+    "ai-ml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-ml-heading",
+        "repo-1-aiml"
+      ]
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "repo-1-aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-1-aiml-header",
+        "repo-1-aiml-desc"
+      ]
+    },
+    "repo-1-aiml-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-1-aiml-link",
+        "repo-1-aiml-stars",
+        "repo-1-aiml-lang",
+        "repo-1-aiml-status"
+      ]
+    },
+    "repo-1-aiml-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anthropics/knowledge-work-plugins",
+        "href": "https://github.com/anthropics/knowledge-work-plugins"
+      }
+    },
+    "repo-1-aiml-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 303 today (31.4k total)",
+        "variant": "outline"
+      }
+    },
+    "repo-1-aiml-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "repo-1-aiml-status": {
+      "type": "Badge",
+      "props": {
+        "text": "[ACCELERATING]",
+        "variant": "secondary"
+      }
+    },
+    "repo-1-aiml-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Official plugin SDK for Claude Cowork — standardized patterns for building productivity integrations without raw API wrappers.",
+        "variant": "body"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "repo-2-devtools",
+        "repo-3-devtools"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "repo-2-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-2-devtools-header",
+        "repo-2-devtools-desc"
+      ]
+    },
+    "repo-2-devtools-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-2-devtools-link",
+        "repo-2-devtools-stars",
+        "repo-2-devtools-lang",
+        "repo-2-devtools-status"
+      ]
+    },
+    "repo-2-devtools-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "luongnv89/claude-howto",
+        "href": "https://github.com/luongnv89/claude-howto"
+      }
+    },
+    "repo-2-devtools-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 428 today (42.7k total)",
+        "variant": "outline"
+      }
+    },
+    "repo-2-devtools-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "repo-2-devtools-status": {
+      "type": "Badge",
+      "props": {
+        "text": "[ACCELERATING]",
+        "variant": "secondary"
+      }
+    },
+    "repo-2-devtools-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Copy-paste templates for Claude Code agent workflows — practical shortcut for anyone standing up a new agentic project.",
+        "variant": "body"
+      }
+    },
+    "repo-3-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-3-devtools-header",
+        "repo-3-devtools-desc"
+      ]
+    },
+    "repo-3-devtools-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "repo-3-devtools-link",
+        "repo-3-devtools-stars",
+        "repo-3-devtools-lang",
+        "repo-3-devtools-status"
+      ]
+    },
+    "repo-3-devtools-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "php/php-src",
+        "href": "https://github.com/php/php-src"
+      }
+    },
+    "repo-3-devtools-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 110 today (40.9k total)",
+        "variant": "outline"
+      }
+    },
+    "repo-3-devtools-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C"
+      }
+    },
+    "repo-3-devtools-status": {
+      "type": "Badge",
+      "props": {
+        "text": "[RETURNING]",
+        "variant": "secondary"
+      }
+    },
+    "repo-3-devtools-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Simultaneous security patches across PHP 8.3/8.4/8.5 released 2026-10-21 — upgrade if you run any PHP in prod.",
+        "variant": "body"
+      }
+    },
+    "separator-before-sources": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 3/9 (3 holdovers, 3 noise)",
+        "variant": "caption"
+      }
+    }
+  }
+}
