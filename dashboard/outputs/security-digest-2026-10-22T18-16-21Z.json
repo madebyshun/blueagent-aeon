@@ -1,0 +1,518 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-10-22"
+      },
+      "children": [
+        "verdict-section",
+        "sep1",
+        "patch-today-section",
+        "sep2",
+        "patch-week-section"
+      ]
+    },
+    "verdict-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verdict-badge",
+        "sources-text"
+      ]
+    },
+    "verdict-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "3 confirmed exploited (new KEV entries), 5 to patch this week",
+        "variant": "destructive"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV, GH Advisory, EPSS",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-today-heading",
+        "patch-today-items"
+      ]
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "patch-today-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "vuln-1",
+        "vuln-2",
+        "vuln-3"
+      ]
+    },
+    "vuln-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v1-link",
+        "v1-product",
+        "v1-metrics",
+        "v1-desc",
+        "v1-action"
+      ]
+    },
+    "v1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-102764",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
+        "source": "NVD"
+      }
+    },
+    "v1-product": {
+      "type": "Badge",
+      "props": {
+        "text": "BeyondTrust Remote Support",
+        "variant": "default"
+      }
+    },
+    "v1-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "KEV added 2026-10-16 · EPSS 0.012 (67th %ile) · CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "v1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass via spoofing → unauthenticated file ops on appliance.",
+        "variant": "body"
+      }
+    },
+    "v1-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Apply BeyondTrust Remote Support vendor patch immediately.",
+        "type": "warning"
+      }
+    },
+    "vuln-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v2-link",
+        "v2-product",
+        "v2-metrics",
+        "v2-desc",
+        "v2-action"
+      ]
+    },
+    "v2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-106931",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
+        "source": "NVD"
+      }
+    },
+    "v2-product": {
+      "type": "Badge",
+      "props": {
+        "text": "EG Secure Solutions SiteGuard Server Edition",
+        "variant": "default"
+      }
+    },
+    "v2-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "KEV added 2026-10-20 · EPSS 0.012 (67th %ile)",
+        "variant": "caption"
+      }
+    },
+    "v2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated OS command injection → root/SYSTEM RCE on host.",
+        "variant": "body"
+      }
+    },
+    "v2-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Apply vendor mitigations or isolate from internet.",
+        "type": "warning"
+      }
+    },
+    "vuln-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v3-link",
+        "v3-product",
+        "v3-metrics",
+        "v3-desc",
+        "v3-action"
+      ]
+    },
+    "v3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2025-61624",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
+        "source": "NVD"
+      }
+    },
+    "v3-product": {
+      "type": "Badge",
+      "props": {
+        "text": "Fortinet FortiOS / FortiPAM / FortiProxy / FortiSwitchManager",
+        "variant": "default"
+      }
+    },
+    "v3-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "KEV added 2026-10-16 · EPSS 0.011 (65th %ile)",
+        "variant": "caption"
+      }
+    },
+    "v3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Authenticated admin path traversal → arbitrary file write/delete via CLI.",
+        "variant": "body"
+      }
+    },
+    "v3-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade per Fortinet PSIRT advisory.",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-week-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-week-heading",
+        "patch-week-items"
+      ]
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch-week-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "vuln-4",
+        "vuln-5",
+        "vuln-6",
+        "vuln-7",
+        "vuln-8"
+      ]
+    },
+    "vuln-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v4-link",
+        "v4-product",
+        "v4-metrics",
+        "v4-desc",
+        "v4-action"
+      ]
+    },
+    "v4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-673q-mjm6-r5xr",
+        "href": "https://github.com/advisories/GHSA-673q-mjm6-r5xr",
+        "source": "GitHub"
+      }
+    },
+    "v4-product": {
+      "type": "Badge",
+      "props": {
+        "text": "next (npm)",
+        "variant": "default"
+      }
+    },
+    "v4-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.5 · no CVE yet · no EPSS",
+        "variant": "caption"
+      }
+    },
+    "v4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated RCE via deserialization in App Router `use cache` functions returning typed arrays.",
+        "variant": "body"
+      }
+    },
+    "v4-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade next to ≥ 16.4.1.",
+        "type": "info"
+      }
+    },
+    "vuln-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v5-link",
+        "v5-product",
+        "v5-metrics",
+        "v5-desc",
+        "v5-action"
+      ]
+    },
+    "v5-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-96652 / -96654 / -96655 / -96656",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
+        "source": "NVD"
+      }
+    },
+    "v5-product": {
+      "type": "Badge",
+      "props": {
+        "text": "Plex Media Server",
+        "variant": "default"
+      }
+    },
+    "v5-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "KEV added 2026-10-20 · EPSS 0.002–0.008",
+        "variant": "caption"
+      }
+    },
+    "v5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "4-CVE chain: token-based SSRF + URI scheme injection + admin file write → potential RCE.",
+        "variant": "body"
+      }
+    },
+    "v5-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade Plex Media Server; restrict to trusted networks.",
+        "type": "info"
+      }
+    },
+    "vuln-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v6-link",
+        "v6-product",
+        "v6-metrics",
+        "v6-desc",
+        "v6-action"
+      ]
+    },
+    "v6-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-78g4-xqwv-q3g8",
+        "href": "https://github.com/advisories/GHSA-78g4-xqwv-q3g8",
+        "source": "GitHub"
+      }
+    },
+    "v6-product": {
+      "type": "Badge",
+      "props": {
+        "text": "Pillow (pip)",
+        "variant": "default"
+      }
+    },
+    "v6-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "High severity · no CVE",
+        "variant": "caption"
+      }
+    },
+    "v6-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Bundled libopenjp2 heap-buffer-overflow write via crafted JPEG 2000. OOB write → crash / control-flow primitive. Affects Pillow 11.1.0–12.3.0 wheels.",
+        "variant": "body"
+      }
+    },
+    "v6-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade pillow to ≥ 13.0.0; pass `formats=` to Image.open() to restrict codecs.",
+        "type": "info"
+      }
+    },
+    "vuln-7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v7-link",
+        "v7-product",
+        "v7-metrics",
+        "v7-desc",
+        "v7-action"
+      ]
+    },
+    "v7-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-cg2g-xh64-v4q7",
+        "href": "https://github.com/advisories/GHSA-cg2g-xh64-v4q7",
+        "source": "GitHub"
+      }
+    },
+    "v7-product": {
+      "type": "Badge",
+      "props": {
+        "text": "dompurify (npm)",
+        "variant": "default"
+      }
+    },
+    "v7-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "Critical severity · PoC published",
+        "variant": "caption"
+      }
+    },
+    "v7-desc": {
+      "type": "Text",
+      "props": {
+        "text": "SAFE_FOR_TEMPLATES bypass via attached shadow roots → template expressions survive sanitization → XSS / template injection. Requires non-default config (SAFE_FOR_TEMPLATES + DOM-returning mode).",
+        "variant": "body"
+      }
+    },
+    "v7-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Upgrade dompurify to latest; avoid SAFE_FOR_TEMPLATES + RETURN_DOM/IN_PLACE combo until patched.",
+        "type": "info"
+      }
+    },
+    "vuln-8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "v8-link",
+        "v8-product",
+        "v8-metrics",
+        "v8-desc",
+        "v8-action"
+      ]
+    },
+    "v8-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-110936",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936",
+        "source": "NVD"
+      }
+    },
+    "v8-product": {
+      "type": "Badge",
+      "props": {
+        "text": "Siemens Software Center",
+        "variant": "default"
+      }
+    },
+    "v8-metrics": {
+      "type": "Text",
+      "props": {
+        "text": "KEV added 2026-10-20 · EPSS 0.002 (14th %ile)",
+        "variant": "caption"
+      }
+    },
+    "v8-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Local DLL hijacking → code execution at app privilege (valid credentials required).",
+        "variant": "body"
+      }
+    },
+    "v8-action": {
+      "type": "Alert",
+      "props": {
+        "message": "Apply Siemens patch; restrict write access to app install directories.",
+        "type": "info"
+      }
+    }
+  }
+}
