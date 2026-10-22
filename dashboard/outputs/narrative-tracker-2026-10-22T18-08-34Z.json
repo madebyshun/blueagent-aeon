@@ -1,0 +1,577 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-10-22"
+      },
+      "children": [
+        "transitions_section",
+        "sep_1",
+        "reflexivity_section",
+        "sep_2",
+        "positions_section",
+        "sep_3",
+        "map_section"
+      ]
+    },
+    "transitions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions_heading",
+        "transition_1",
+        "transition_2",
+        "transition_3",
+        "transition_4",
+        "transition_5"
+      ]
+    },
+    "transitions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transition_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "NEW: AI Agents × Onchain Payments",
+        "href": "https://fortune.com/2026/10/14/ai-agents-shopping-spree-payments-base-blockchain-138-million-chainalysis/",
+        "source": "Fortune",
+        "score": "Chainalysis 138M x402 txns on Base; BlackRock paper; Coinbase perps for agents launched Oct 21"
+      }
+    },
+    "transition_2": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: PayFi / Stablecoin Rails — XRP XRPL Nov update + x402 + Remittix 41-currency expansion all active simultaneously",
+        "variant": "body"
+      }
+    },
+    "transition_3": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: Ethereum Glamsterdam — testnet Oct 26; ETH bulls targeting $12K; macro risk: Fed Oct 28 (>70% hike probability)",
+        "variant": "body"
+      }
+    },
+    "transition_4": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: Institutional ETF Flows — $2.4B BTC ETF inflows (best week since Oct 2025); Broadridge $7.5T Canton repo — Peak narrative",
+        "variant": "body"
+      }
+    },
+    "transition_5": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: DePIN Fading — $10.9B mcap declining; LRT down $710M → $375M",
+        "variant": "body"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity_heading",
+        "alert_1",
+        "alert_2",
+        "alert_3"
+      ]
+    },
+    "reflexivity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERTS",
+        "level": "h2"
+      }
+    },
+    "alert_1": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents × x402 — Coinbase perps for agents launched Oct 21; Visa/Mastercard/Stripe backed x402; BlackRock paper all moved on 138M tx headline. Story is moving product roadmaps.",
+        "variant": "body"
+      }
+    },
+    "alert_2": {
+      "type": "Text",
+      "props": {
+        "text": "XRP PayFi — $20 XRP prediction revived on XRPL Nov update alone, no fundamental price trigger",
+        "variant": "body"
+      }
+    },
+    "alert_3": {
+      "type": "Text",
+      "props": {
+        "text": "ETH Glamsterdam — $12K target circulating before mainnet date confirmed; pre-testnet pump setup",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions_heading",
+        "position_1",
+        "position_2",
+        "position_3",
+        "position_4",
+        "position_5"
+      ]
+    },
+    "positions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "position_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_1_title",
+        "pos_1_meta",
+        "pos_1_sources",
+        "pos_1_bear"
+      ]
+    },
+    "pos_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: AI Agents × Onchain Payments",
+        "variant": "lead"
+      }
+    },
+    "pos_1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_1_rating",
+        "pos_1_sentiment"
+      ]
+    },
+    "pos_1_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "4 ↑↑",
+        "variant": "default"
+      }
+    },
+    "pos_1_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos_1_sources": {
+      "type": "Text",
+      "props": {
+        "text": "@Coinbase, @Chainalysis, BlackRock",
+        "variant": "caption"
+      }
+    },
+    "pos_1_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: 93-99% x402 volume is automation scripts not real agents (TRM Labs)",
+        "variant": "muted"
+      }
+    },
+    "position_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_2_title",
+        "pos_2_meta",
+        "pos_2_sources",
+        "pos_2_bear"
+      ]
+    },
+    "pos_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: PayFi / Stablecoin Rails",
+        "variant": "lead"
+      }
+    },
+    "pos_2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_2_rating",
+        "pos_2_sentiment"
+      ]
+    },
+    "pos_2_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑",
+        "variant": "default"
+      }
+    },
+    "pos_2_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos_2_sources": {
+      "type": "Text",
+      "props": {
+        "text": "@Coinbase, @Ripple, Remittix",
+        "variant": "caption"
+      }
+    },
+    "pos_2_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: competing protocols fragment liquidity; rebranded stablecoin UX",
+        "variant": "muted"
+      }
+    },
+    "position_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_3_title",
+        "pos_3_meta",
+        "pos_3_sources",
+        "pos_3_bear"
+      ]
+    },
+    "pos_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: Ethereum Glamsterdam",
+        "variant": "lead"
+      }
+    },
+    "pos_3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_3_rating",
+        "pos_3_sentiment"
+      ]
+    },
+    "pos_3_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↑",
+        "variant": "default"
+      }
+    },
+    "pos_3_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Bull",
+        "variant": "default"
+      }
+    },
+    "pos_3_sources": {
+      "type": "Text",
+      "props": {
+        "text": "ETH Foundation, price bulls",
+        "variant": "caption"
+      }
+    },
+    "pos_3_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: testnet only; Oct 28 Fed hike >70%",
+        "variant": "muted"
+      }
+    },
+    "position_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_4_title",
+        "pos_4_meta",
+        "pos_4_sources",
+        "pos_4_bear"
+      ]
+    },
+    "pos_4_title": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: Institutional ETF Flows",
+        "variant": "lead"
+      }
+    },
+    "pos_4_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_4_rating",
+        "pos_4_sentiment"
+      ]
+    },
+    "pos_4_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "4 →",
+        "variant": "default"
+      }
+    },
+    "pos_4_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Mixed",
+        "variant": "secondary"
+      }
+    },
+    "pos_4_sources": {
+      "type": "Text",
+      "props": {
+        "text": "BlackRock, Broadridge",
+        "variant": "caption"
+      }
+    },
+    "pos_4_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: Oct 28 rate hike; peak sentiment priced in",
+        "variant": "muted"
+      }
+    },
+    "position_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_5_title",
+        "pos_5_meta",
+        "pos_5_sources",
+        "pos_5_bear"
+      ]
+    },
+    "pos_5_title": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: DePIN",
+        "variant": "lead"
+      }
+    },
+    "pos_5_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pos_5_rating",
+        "pos_5_sentiment"
+      ]
+    },
+    "pos_5_rating": {
+      "type": "Badge",
+      "props": {
+        "text": "3 ↓",
+        "variant": "default"
+      }
+    },
+    "pos_5_sentiment": {
+      "type": "Badge",
+      "props": {
+        "text": "Cope",
+        "variant": "secondary"
+      }
+    },
+    "pos_5_sources": {
+      "type": "Text",
+      "props": {
+        "text": "no active drivers",
+        "variant": "caption"
+      }
+    },
+    "pos_5_bear": {
+      "type": "Text",
+      "props": {
+        "text": "Bear: sustained mcap decline; label exhausted",
+        "variant": "muted"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map_heading",
+        "map_emerging",
+        "map_rising",
+        "map_peak",
+        "map_fading"
+      ]
+    },
+    "map_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map_emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_emerging_label",
+        "map_emerging_items"
+      ]
+    },
+    "map_emerging_label": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging:",
+        "variant": "lead"
+      }
+    },
+    "map_emerging_items": {
+      "type": "Text",
+      "props": {
+        "text": "AI-Native L1s (NEAR, Sei, Hyperliquid)",
+        "variant": "body"
+      }
+    },
+    "map_rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_rising_label",
+        "map_rising_items"
+      ]
+    },
+    "map_rising_label": {
+      "type": "Text",
+      "props": {
+        "text": "Rising:",
+        "variant": "lead"
+      }
+    },
+    "map_rising_items": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents × Onchain Payments, PayFi / Stablecoin Rails, Ethereum Glamsterdam",
+        "variant": "body"
+      }
+    },
+    "map_peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_peak_label",
+        "map_peak_items"
+      ]
+    },
+    "map_peak_label": {
+      "type": "Text",
+      "props": {
+        "text": "Peak:",
+        "variant": "lead"
+      }
+    },
+    "map_peak_items": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional ETF Flows",
+        "variant": "body"
+      }
+    },
+    "map_fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map_fading_label",
+        "map_fading_items"
+      ]
+    },
+    "map_fading_label": {
+      "type": "Text",
+      "props": {
+        "text": "Fading:",
+        "variant": "lead"
+      }
+    },
+    "map_fading_items": {
+      "type": "Text",
+      "props": {
+        "text": "DePIN",
+        "variant": "body"
+      }
+    }
+  }
+}

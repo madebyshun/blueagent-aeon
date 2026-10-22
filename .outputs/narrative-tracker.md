@@ -1,30 +1,26 @@
-*Narrative Tracker — 2026-10-20*
+*Narrative Tracker — 2026-10-22*
 
 TRANSITIONS
-• NEW: AI Identity / World ID — Emerging ↑↑ — WLD +11.4% today on Oku Trade + World App integration; AI identity stepping into utility gap; biometric-onboarding narrative gaining concrete use case
-• NEW: Base DEX Rotation — Emerging ↑↑ — PEARL +15.7%, AERO +10.5% today; Base DEX is decisively winning the Solana/Base rotation attention
-• PROMOTED: Agentic Payments / x402 — Fading FADE → Peak RIDE — Chainalysis 138M x402 txns report + BlackRock/Visa/Stripe/Google institutional positioning same week; protocol-layer narrative is real even if retail AI token speculation is cope
-• PROMOTED: Privacy Coins (ZEC/XMR) — Fading FADE → Rising WATCH — XMR +3.9%, ZEC +6.0% today; 7d ZEC +2.8%, XMR cluster accumulation; no named catalyst yet
-• DEMOTED: DEX/Solana — Rising WATCH → Fading WATCH — Hangzhou (Oct 18) consumed; Base DEX won the rotation day; Accelerate China Oct 16–22 ongoing but muted
-• DEAD: CME Bitcoin Cash Futures — Oct 19 launch passed; zero price or volume signal; narrative exhausted on announcement
+• NEW: AI Agents × Onchain Payments — Chainalysis 138M x402 txns on Base; BlackRock paper; Coinbase perps for agents launched Oct 21 — https://fortune.com/2026/10/14/ai-agents-shopping-spree-payments-base-blockchain-138-million-chainalysis/
+• NEW: PayFi / Stablecoin Rails — XRP XRPL Nov update + x402 + Remittix 41-currency expansion all active simultaneously
+• NEW: Ethereum Glamsterdam — testnet Oct 26; ETH bulls targeting $12K; macro risk: Fed Oct 28 (>70% hike probability)
+• NEW: Institutional ETF Flows — $2.4B BTC ETF inflows (best week since Oct 2025); Broadridge $7.5T Canton repo — Peak narrative
+• NEW: DePIN Fading — $10.9B mcap declining; LRT down $710M → $375M
 
-REFLEXIVITY ALERT
-• Agentic Payments / x402 — 138M metric published ~Oct 14; days later: BlackRock, Visa, Mastercard, Stripe, Google all post AI-agent payments endorsements. x402 is Coinbase-incubated; Base is Coinbase's chain. Real txn volume; manufactured consensus window — watch for distribution.
-• AI Identity / WLD — +11.4% on a small app integration. Narrative leading fundamentals. Monitor for ecosystem follow-through vs. one-day bounce.
+REFLEXIVITY ALERTS
+• AI Agents × x402 — Coinbase perps for agents launched Oct 21; Visa/Mastercard/Stripe backed x402; BlackRock paper all moved on 138M tx headline. Story is moving product roadmaps.
+• XRP PayFi — $20 XRP prediction revived on XRPL Nov update alone, no fundamental price trigger
+• ETH Glamsterdam — $12K target circulating before mainnet date confirmed; pre-testnet pump setup
 
 POSITIONS
-• FRONT-RUN: AI Identity/World ID (mindshare 2 ↑↑, Bull) — @Worldcoin @OkuTrade — bear: biometric regulation risk; COI
-• FRONT-RUN: Base DEX Rotation (mindshare 2 ↑↑, Bull) — @aerodromefi @pearl_fi — bear: Accelerate China ends Oct 22
-• RIDE: Agentic Payments / x402 protocol layer (5 →, Bull) — @base @Chainalysis @BlackRock — bear: 138M txns = ~$24M/month; micro ≠ macro
-• RIDE: XRP Ledger / Ripple Agent Rails (3 →, Bull) — @Ripple @Privy — bear: three-chain race diluting each
-• WATCH: Privacy Coins/ZEC+XMR (2 ↑, Mixed) — accumulation building; no catalyst named
-• WATCH: Macro/FOMC Oct 28 (4 ↑, Bear) — 8 days; today's risk-on is noise not signal
-• FADE: Retail AI Wrapper Tokens (4 ↓, Cope) — Q +149% 7d = retail filling institutional exit; divergence from x402 layer
-• FADE: INJ/Altcoin ETF Wave (2 ↓) — Oct 17 reversal confirmed; no recovery signal
+• RIDE: AI Agents × Onchain Payments (4 ↑↑, Bull) — @Coinbase, @Chainalysis, BlackRock — bear: 93-99% x402 volume is automation scripts not real agents (TRM Labs)
+• RIDE: PayFi / Stablecoin Rails (3 ↑, Bull) — @Coinbase, @Ripple, Remittix — bear: competing protocols fragment liquidity; rebranded stablecoin UX
+• WATCH: Ethereum Glamsterdam (3 ↑, Bull) — ETH Foundation, price bulls — bear: testnet only; Oct 28 Fed hike >70%
+• FADE: Institutional ETF Flows (4 →, Mixed) — BlackRock, Broadridge — bear: Oct 28 rate hike; peak sentiment priced in
+• FADE: DePIN (3 ↓, Cope) — no active drivers — bear: sustained mcap decline; label exhausted
 
 MAP
-Emerging: AI Identity/World ID • Base DEX Rotation
-Rising: XRP/Ripple • Prediction Markets • Privacy Coins (building) • Global Regulatory Wave • FHE (stalling)
-Peak: Agentic Payments/x402 • RWA • Stablecoins AI Rail • AI×DePIN
-Fading: INJ/ETF Wave • Retail AI Tokens • DEX/Solana • Gaming • Sui
-Dead: CME BCH • ZRO • STARK • Uptober • InfoFi/Kaito
+Emerging: AI-Native L1s (NEAR, Sei, Hyperliquid)
+Rising: AI Agents × Onchain Payments, PayFi / Stablecoin Rails, Ethereum Glamsterdam
+Peak: Institutional ETF Flows
+Fading: DePIN
