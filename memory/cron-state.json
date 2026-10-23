@@ -33,15 +33,15 @@
     "last_error": "\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"safety_stops\":0,\"is_error\":true,\"num_turns\":15,\"subtype\":\"success\",\"api_error_status\":429,\"api_error_origin\":\"first_party\",\"api_error\":\"usage_limit_rea"
   },
   "github-trending": {
-    "last_status": "success",
+    "last_status": "failed",
     "last_success": "2026-10-22T14:16:49Z",
-    "total_runs": 148,
+    "total_runs": 149,
     "total_successes": 135,
-    "total_failures": 13,
-    "consecutive_failures": 0,
+    "total_failures": 14,
+    "consecutive_failures": 1,
     "success_rate": 0.91,
-    "last_failed": "2026-10-11T15:11:12Z",
-    "last_error": ":0},\"refused\":{\"depth_limit\":0,\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"safety_stops\":0,\"is_error\":true,\"num_turns\":1,\"subtype\":\"success\",\"api_error_status\":403,\"api_error_code\":\"oauth_not_all"
+    "last_failed": "2026-10-23T13:55:33Z",
+    "last_error": ":0,\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"safety_stops\":0,\"is_error\":true,\"num_turns\":1,\"subtype\":\"success\",\"api_error_status\":429,\"api_error_origin\":\"first_party\",\"api_error\":\"usage_limit_r"
   },
   "token-movers": {
     "last_status": "failed",
