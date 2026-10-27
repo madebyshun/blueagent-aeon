@@ -1,0 +1,214 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-10-27"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_verdict",
+        "text_verdict",
+        "sep1",
+        "heading_patch_today",
+        "stack_patch_today",
+        "sep2",
+        "heading_patch_week",
+        "stack_patch_week",
+        "sep3",
+        "heading_monitor",
+        "stack_monitor"
+      ]
+    },
+    "heading_verdict": {
+      "type": "Heading",
+      "props": {
+        "text": "Verdict",
+        "level": "h2"
+      }
+    },
+    "text_verdict": {
+      "type": "Text",
+      "props": {
+        "text": "3 actively exploited, 5 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_patch_today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "stack_patch_today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_cve_109618",
+        "alert_cve_109619",
+        "alert_cve_110447"
+      ]
+    },
+    "alert_cve_109618": {
+      "type": "Alert",
+      "props": {
+        "title": "CVE-2026-109618 — PHP 8.x",
+        "message": "Memory corruption RCE, no auth required. Actively exploited per CISA. KEV added 2026-10-26. EPSS 0.9999\n\nUpgrade PHP to ≥8.3.36 / ≥8.4.27 / ≥8.5.12 and restart servers today.",
+        "type": "error"
+      }
+    },
+    "alert_cve_109619": {
+      "type": "Alert",
+      "props": {
+        "title": "CVE-2026-109619 — PHP 8.x",
+        "message": "Stale request-state RCE, no auth required. Actively exploited per CISA. KEV added 2026-10-26. EPSS 0.9999\n\nUpgrade PHP to ≥8.3.36 / ≥8.4.27 / ≥8.5.12.",
+        "type": "error"
+      }
+    },
+    "alert_cve_110447": {
+      "type": "Alert",
+      "props": {
+        "title": "CVE-2026-110447 — Collabora Online Built-in CODE Server",
+        "message": "OS command injection when CODE server is stopped; allows RCE. Actively exploited per CISA. KEV added 2026-10-23. EPSS 0.116\n\nApply Collabora Online update or disable built-in CODE server now.",
+        "type": "error"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_patch_week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "stack_patch_week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_cve_114625",
+        "alert_ghsa_m4w4",
+        "alert_ghsa_6hp3",
+        "alert_ghsa_6v38",
+        "alert_ghsa_965c"
+      ]
+    },
+    "alert_cve_114625": {
+      "type": "Alert",
+      "props": {
+        "title": "CVE-2026-114625 — Arista VeloCloud Orchestrator",
+        "message": "On-prem SQL injection reaches privileged internal functions. Confirmed in-the-wild. KEV added 2026-10-23. EPSS 0.010\n\nSchedule upgrade: apply Arista VeloCloud vendor patch.",
+        "type": "warning"
+      }
+    },
+    "alert_ghsa_m4w4": {
+      "type": "Alert",
+      "props": {
+        "title": "GHSA-m4w4-3r8h-jw98 — agno (pip)",
+        "message": "Arbitrary code execution via eval() on user-controlled field_type in FunctionCall. CVSS 9.8\n\nSchedule upgrade: agno → ≥2.3.24",
+        "type": "warning"
+      }
+    },
+    "alert_ghsa_6hp3": {
+      "type": "Alert",
+      "props": {
+        "title": "GHSA-6hp3-vr39-rqw8 — MONAI (pip)",
+        "message": "Crafted DICOM input crashes server and silently corrupts inference output. CVSS 9.3\n\nSchedule upgrade: monai → ≥1.6.1",
+        "type": "warning"
+      }
+    },
+    "alert_ghsa_6v38": {
+      "type": "Alert",
+      "props": {
+        "title": "GHSA-6v38-4h7w-rj9h — authlib (pip)",
+        "message": "Empty signature passes JWS JSON deserialization — auth bypass. Related: empty HMAC key forgery (CVE-2026-114616). CVSS 9.1 · EPSS 0.004\n\nSchedule upgrade: authlib → ≥1.9.1",
+        "type": "warning"
+      }
+    },
+    "alert_ghsa_965c": {
+      "type": "Alert",
+      "props": {
+        "title": "GHSA-965c-763c-88jm — better-auth (npm)",
+        "message": "OAuth state accepted as Magic Link token — unauthenticated sign-in as any user. CVSS 9.1 · EPSS 0.004\n\nSchedule upgrade: better-auth → ≥1.7.7",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "stack_monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_ghsa_h3rc",
+        "alert_ghsa_f897",
+        "alert_ghsa_mgcc"
+      ]
+    },
+    "alert_ghsa_h3rc": {
+      "type": "Alert",
+      "props": {
+        "title": "GHSA-h3rc-6mm3-gc2m — vLLM (pip)",
+        "message": "User-controlled mm_processor_kwargs.code_revision allows RCE. Fix in 0.31.0. CVSS 8.1\n\nTrack vllm; upgrade → ≥0.31.0",
+        "type": "info"
+      }
+    },
+    "alert_ghsa_f897": {
+      "type": "Alert",
+      "props": {
+        "title": "GHSA-f897-62hf-6gxq — @modelcontextprotocol/sdk (npm)",
+        "message": "HTTP transports lack request body and JSON-RPC batch size limits — DoS. Fix in 1.30.1. CVSS 7.5\n\nTrack; upgrade @modelcontextprotocol/sdk → ≥1.30.1",
+        "type": "info"
+      }
+    },
+    "alert_ghsa_mgcc": {
+      "type": "Alert",
+      "props": {
+        "title": "GHSA-mgcc-cww5-fp2q — go-jose (Go)",
+        "message": "Panic parsing malformed RSA JWKs — DoS. No patched version confirmed. CVSS 7.5\n\nWatch go-jose/v3 and go-jose/v4 for patch; avoid exposing JWKS parsing to untrusted input.",
+        "type": "info"
+      }
+    }
+  }
+}
