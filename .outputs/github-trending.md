@@ -1,18 +1,31 @@
-*GitHub Trending — 2026-10-22*
+*GitHub Trending — 2026-10-27*
 
-*Top pick* — [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)
-Anthropic's official plugin layer for Claude Cowork hit 300+ stars today — first sign this product is getting traction beyond early adopters.
+*Top pick* — [Nutlope/hallmark](https://github.com/Nutlope/hallmark)
+Biggest spike of the day (2,859 stars) for a skill that forces AI coders to produce design-system-ready output — not vague aesthetics.
 
 *AI/ML*
-• [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — ★ 303 today (31.4k total) · Python · [ACCELERATING]
-Official plugin SDK for Claude Cowork — standardized patterns for building productivity integrations without raw API wrappers.
+• [makecindy/cindy](https://github.com/makecindy/cindy) — ★ 1,446t today (7.2k total) · TypeScript · [ACCELERATING]
+Ships pre-connected with tools and memory — functional out of the box, unlike most agent SDKs that need hours of config first.
+
+• [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) — ★ 1,587t today (45.2k total) · Python · [RETURNING]
+Builds a persistent knowledge graph per learner that evolves across sessions — actual personalization, not just within-session context.
 
 *Devtools*
-• [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) — ★ 428 today (42.7k total) · Python · [ACCELERATING]
-Copy-paste templates for Claude Code agent workflows — practical shortcut for anyone standing up a new agentic project.
+• [Nutlope/hallmark](https://github.com/Nutlope/hallmark) — ★ 2,859t today (38.2k total) · CSS · [ACCELERATING]
+Anti-AI-slop design skill for Claude Code/Cursor/Codex: refuses vague aesthetics at prompt time, enforces design-system constraints.
 
-• [php/php-src](https://github.com/php/php-src) — ★ 110 today (40.9k total) · C · [RETURNING]
-Simultaneous security patches across PHP 8.3/8.4/8.5 released 2026-10-21 — upgrade if you run any PHP in prod.
+• [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — ★ 1,458t today (90k total) · Rust · [RETURNING]
+Design-token spec for LLMs: constrains AI output to your design language, eliminating inconsistent UI generation at the source.
+
+• [affaan-m/ECC](https://github.com/affaan-m/ECC) — ★ 1,183t today (290k total) · JavaScript · [ACCELERATING]
+Caches agent context and dedupes LLM calls across Claude/Codex/Cursor — measurable cost reduction on heavy multi-agent runs.
+
+• [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) — ★ 1,211t today (3.7k total) · TypeScript · [RETURNING]
+JetBrains building their own vibe-coding IDE that learns and adapts its layout and suggestions to your workflow over time.
+
+*Web/Apps*
+• [nightly-labs/openbot](https://github.com/nightly-labs/openbot) — ★ 794t today (2k total) · TypeScript · [ACCELERATING]
+Runs Claude, Codex, and Grok as persistent desktop teammates in one app — shared memory, no context lost between sessions.
 
 ---
-sources: trending=ok · gh_api=ok · kept 3/9 (3 holdovers, 3 noise)
+sources: trending=ok · gh_api=ok · kept 7/10

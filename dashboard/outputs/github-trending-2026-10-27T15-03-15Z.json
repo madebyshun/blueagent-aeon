@@ -1,0 +1,530 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-10-27"
+      },
+      "children": [
+        "top-pick-heading",
+        "hallmark-top-item",
+        "sep1",
+        "ai-ml-heading",
+        "cindy-item",
+        "deeptutor-item",
+        "sep2",
+        "devtools-heading",
+        "hallmark-devtools-item",
+        "impeccable-item",
+        "ecc-item",
+        "thinkrail-item",
+        "sep3",
+        "web-apps-heading",
+        "openbot-item",
+        "sep4",
+        "sources-text"
+      ]
+    },
+    "top-pick-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "hallmark-top-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hallmark-top-header",
+        "hallmark-top-desc"
+      ]
+    },
+    "hallmark-top-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "hallmark-top-link",
+        "hallmark-top-lang",
+        "hallmark-top-stars"
+      ]
+    },
+    "hallmark-top-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Nutlope/hallmark",
+        "href": "https://github.com/Nutlope/hallmark"
+      }
+    },
+    "hallmark-top-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "CSS"
+      }
+    },
+    "hallmark-top-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "2,859 ★ today (38.2k total)"
+      }
+    },
+    "hallmark-top-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Biggest spike of the day (2,859 stars) for a skill that forces AI coders to produce design-system-ready output — not vague aesthetics.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "ai-ml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "cindy-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cindy-header",
+        "cindy-desc"
+      ]
+    },
+    "cindy-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cindy-link",
+        "cindy-lang",
+        "cindy-status",
+        "cindy-stars"
+      ]
+    },
+    "cindy-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "makecindy/cindy",
+        "href": "https://github.com/makecindy/cindy"
+      }
+    },
+    "cindy-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "cindy-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "cindy-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "1,446 ★ today (7.2k total)"
+      }
+    },
+    "cindy-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Ships pre-connected with tools and memory — functional out of the box, unlike most agent SDKs that need hours of config first.",
+        "variant": "body"
+      }
+    },
+    "deeptutor-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "deeptutor-header",
+        "deeptutor-desc"
+      ]
+    },
+    "deeptutor-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "deeptutor-link",
+        "deeptutor-lang",
+        "deeptutor-status",
+        "deeptutor-stars"
+      ]
+    },
+    "deeptutor-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HKUDS/DeepTutor",
+        "href": "https://github.com/HKUDS/DeepTutor"
+      }
+    },
+    "deeptutor-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "deeptutor-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "deeptutor-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "1,587 ★ today (45.2k total)"
+      }
+    },
+    "deeptutor-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Builds a persistent knowledge graph per learner that evolves across sessions — actual personalization, not just within-session context.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "hallmark-devtools-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hallmark-devtools-header",
+        "hallmark-devtools-desc"
+      ]
+    },
+    "hallmark-devtools-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "hallmark-devtools-link",
+        "hallmark-devtools-lang",
+        "hallmark-devtools-status",
+        "hallmark-devtools-stars"
+      ]
+    },
+    "hallmark-devtools-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Nutlope/hallmark",
+        "href": "https://github.com/Nutlope/hallmark"
+      }
+    },
+    "hallmark-devtools-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "CSS"
+      }
+    },
+    "hallmark-devtools-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "hallmark-devtools-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "2,859 ★ today (38.2k total)"
+      }
+    },
+    "hallmark-devtools-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Anti-AI-slop design skill for Claude Code/Cursor/Codex: refuses vague aesthetics at prompt time, enforces design-system constraints.",
+        "variant": "body"
+      }
+    },
+    "impeccable-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "impeccable-header",
+        "impeccable-desc"
+      ]
+    },
+    "impeccable-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "impeccable-link",
+        "impeccable-lang",
+        "impeccable-status",
+        "impeccable-stars"
+      ]
+    },
+    "impeccable-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "pbakaus/impeccable",
+        "href": "https://github.com/pbakaus/impeccable"
+      }
+    },
+    "impeccable-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "impeccable-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "impeccable-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "1,458 ★ today (90k total)"
+      }
+    },
+    "impeccable-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Design-token spec for LLMs: constrains AI output to your design language, eliminating inconsistent UI generation at the source.",
+        "variant": "body"
+      }
+    },
+    "ecc-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ecc-header",
+        "ecc-desc"
+      ]
+    },
+    "ecc-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ecc-link",
+        "ecc-lang",
+        "ecc-status",
+        "ecc-stars"
+      ]
+    },
+    "ecc-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "affaan-m/ECC",
+        "href": "https://github.com/affaan-m/ECC"
+      }
+    },
+    "ecc-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript"
+      }
+    },
+    "ecc-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "ecc-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "1,183 ★ today (290k total)"
+      }
+    },
+    "ecc-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Caches agent context and dedupes LLM calls across Claude/Codex/Cursor — measurable cost reduction on heavy multi-agent runs.",
+        "variant": "body"
+      }
+    },
+    "thinkrail-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thinkrail-header",
+        "thinkrail-desc"
+      ]
+    },
+    "thinkrail-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "thinkrail-link",
+        "thinkrail-lang",
+        "thinkrail-status",
+        "thinkrail-stars"
+      ]
+    },
+    "thinkrail-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "JetBrains/thinkrail",
+        "href": "https://github.com/JetBrains/thinkrail"
+      }
+    },
+    "thinkrail-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "thinkrail-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "thinkrail-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "1,211 ★ today (3.7k total)"
+      }
+    },
+    "thinkrail-desc": {
+      "type": "Text",
+      "props": {
+        "text": "JetBrains building their own vibe-coding IDE that learns and adapts its layout and suggestions to your workflow over time.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "web-apps-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "openbot-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "openbot-header",
+        "openbot-desc"
+      ]
+    },
+    "openbot-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "openbot-link",
+        "openbot-lang",
+        "openbot-status",
+        "openbot-stars"
+      ]
+    },
+    "openbot-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "nightly-labs/openbot",
+        "href": "https://github.com/nightly-labs/openbot"
+      }
+    },
+    "openbot-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "openbot-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "openbot-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "794 ★ today (2k total)"
+      }
+    },
+    "openbot-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Runs Claude, Codex, and Grok as persistent desktop teammates in one app — shared memory, no context lost between sessions.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/10",
+        "variant": "caption"
+      }
+    }
+  }
+}
