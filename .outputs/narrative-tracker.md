@@ -1,26 +1,25 @@
-*Narrative Tracker — 2026-10-22*
+*Narrative Tracker — 2026-10-27*
 
 TRANSITIONS
-• NEW: AI Agents × Onchain Payments — Chainalysis 138M x402 txns on Base; BlackRock paper; Coinbase perps for agents launched Oct 21 — https://fortune.com/2026/10/14/ai-agents-shopping-spree-payments-base-blockchain-138-million-chainalysis/
-• NEW: PayFi / Stablecoin Rails — XRP XRPL Nov update + x402 + Remittix 41-currency expansion all active simultaneously
-• NEW: Ethereum Glamsterdam — testnet Oct 26; ETH bulls targeting $12K; macro risk: Fed Oct 28 (>70% hike probability)
-• NEW: Institutional ETF Flows — $2.4B BTC ETF inflows (best week since Oct 2025); Broadridge $7.5T Canton repo — Peak narrative
-• NEW: DePIN Fading — $10.9B mcap declining; LRT down $710M → $375M
+• PROMOTED: AI Agents × Onchain Payments Rising → Peak — Coinbase opened AI agent trading access Oct 22 (ChatGPT/Claude/Grok hookup); Chainalysis 138.5M x402 transactions on Base; Motley Fool + Fortune mainstream coverage. Market reaction muted = sell-the-news signal.
+• DEMOTED: Ethereum Glamsterdam Rising → Fading — Hoodi testnet ran Oct 6 with no price follow-through; rate hike >70% Oct 28 is headwind; narrative went quiet after testnet.
+• DEMOTED: DePIN Fading → near-Dead — Zero active drivers in new signals; $10.9B mcap context only, not narrative energy.
+• NEW: China AI Bubble / Risk-off — $480B China AI stock selloff being linked to crypto; AI-native tokens flagged as "first casualties" if US Q3 earnings disappoint.
 
-REFLEXIVITY ALERTS
-• AI Agents × x402 — Coinbase perps for agents launched Oct 21; Visa/Mastercard/Stripe backed x402; BlackRock paper all moved on 138M tx headline. Story is moving product roadmaps.
-• XRP PayFi — $20 XRP prediction revived on XRPL Nov update alone, no fundamental price trigger
-• ETH Glamsterdam — $12K target circulating before mainnet date confirmed; pre-testnet pump setup
+REFLEXIVITY ALERT
+• AI Agents × x402 — Coinbase product launch = landmark milestone, reaction was muted. The 138.5M tx stat is 2-week-old Chainalysis data being recycled across media. Story is at peak — price already moved on the narrative, not the fundamentals.
+• ETH Glamsterdam — $12K ETH price targets circulated before any mainnet date was set; testnet is now 3 weeks old with no price follow-through. Pre-event pump thesis has stalled.
 
 POSITIONS
-• RIDE: AI Agents × Onchain Payments (4 ↑↑, Bull) — @Coinbase, @Chainalysis, BlackRock — bear: 93-99% x402 volume is automation scripts not real agents (TRM Labs)
-• RIDE: PayFi / Stablecoin Rails (3 ↑, Bull) — @Coinbase, @Ripple, Remittix — bear: competing protocols fragment liquidity; rebranded stablecoin UX
-• WATCH: Ethereum Glamsterdam (3 ↑, Bull) — ETH Foundation, price bulls — bear: testnet only; Oct 28 Fed hike >70%
-• FADE: Institutional ETF Flows (4 →, Mixed) — BlackRock, Broadridge — bear: Oct 28 rate hike; peak sentiment priced in
-• FADE: DePIN (3 ↓, Cope) — no active drivers — bear: sustained mcap decline; label exhausted
+• FADE: AI Agents × Onchain Payments (mindshare 5 →, Peak, Bull→Cope) — @Coinbase @Chainalysis @Nansen — bear: 93–99% of x402 traffic is automation scripts, not real agent commerce — sell-the-news confirmed
+• RIDE: PayFi / Stablecoin Rails (3 →, Rising, Bull) — Ripple/XRPN Nasdaq debut Oct 12, Remittix — bear: competing protocols fragment liquidity
+• FADE: Ethereum Glamsterdam (2 ↓, Fading, Mixed) — ETH Foundation — bear: catalyst passed, Oct 28 macro headwind
+• FADE: Institutional ETF Flows (3 ↓↓, Fading, Cope) — BlackRock — bear: $635M net outflows Oct 22, BTC below 80K, rate hike imminent
+• WATCH: AI-Native L1s (2 ↑, Emerging, Bull) — Sei EVM pivot, Kite as AI-payments token — bear: rebrand plays, no new fundamentals
+• WATCH: China AI Bubble / Risk-off (2 ↑, Emerging, Bear) — macro overlay; if US earnings disappoint this amplifies — bear: AI crypto with real product like x402 should hold floor
 
 MAP
-Emerging: AI-Native L1s (NEAR, Sei, Hyperliquid)
-Rising: AI Agents × Onchain Payments, PayFi / Stablecoin Rails, Ethereum Glamsterdam
-Peak: Institutional ETF Flows
-Fading: DePIN
+Emerging: AI-Native L1s · China AI Risk-off
+Rising: PayFi / Stablecoin Rails
+Peak: AI Agents × Onchain Payments
+Fading: Ethereum Glamsterdam · Institutional ETF Flows · DePIN
