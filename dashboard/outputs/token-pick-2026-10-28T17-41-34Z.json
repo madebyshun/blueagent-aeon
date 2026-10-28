@@ -1,0 +1,444 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-10-28"
+      },
+      "children": [
+        "pons_section",
+        "separator_1",
+        "market_section",
+        "separator_2",
+        "sources_section"
+      ]
+    },
+    "pons_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pons_header",
+        "pons_signal",
+        "pons_price",
+        "pons_metrics",
+        "pons_score",
+        "pons_catalyst",
+        "pons_risk",
+        "pons_recent"
+      ]
+    },
+    "pons_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "pons_title",
+        "pons_badge"
+      ]
+    },
+    "pons_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: PONS",
+        "level": "h2"
+      }
+    },
+    "pons_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "pons_signal": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "8/10"
+      }
+    },
+    "pons_price": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pons_price_stat",
+        "pons_24h_stat",
+        "pons_7d_stat"
+      ]
+    },
+    "pons_price_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.282"
+      }
+    },
+    "pons_24h_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+10.96%",
+        "trend": "up"
+      }
+    },
+    "pons_7d_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "-3.65%",
+        "trend": "down"
+      }
+    },
+    "pons_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "pons_mcap",
+        "pons_vol",
+        "pons_vol_mcap"
+      ]
+    },
+    "pons_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$190M"
+      }
+    },
+    "pons_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$57.7M"
+      }
+    },
+    "pons_vol_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap",
+        "value": "0.30"
+      }
+    },
+    "pons_score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pons_score_label",
+        "pons_score_breakdown"
+      ]
+    },
+    "pons_score_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Score breakdown",
+        "level": "h4"
+      }
+    },
+    "pons_score_breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "CG trending+2, vol/mcap>=0.20+3, RS vs BTC/ETH+2, 24h>0+1 = 8/10",
+        "variant": "body"
+      }
+    },
+    "pons_catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pons_catalyst_label",
+        "pons_catalyst_text"
+      ]
+    },
+    "pons_catalyst_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      }
+    },
+    "pons_catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "Robinhood Chain meme launchpad — PONS bouncing from 77% drawdown vs September ATH ($830M mcap); 28%+ supply burned, Uniswap Labs partnership intact, returned to CG trending today",
+        "variant": "body"
+      }
+    },
+    "pons_risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pons_risk_label",
+        "pons_risk_text"
+      ]
+    },
+    "pons_risk_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      }
+    },
+    "pons_risk_text": {
+      "type": "Text",
+      "props": {
+        "text": "Meme factory revenue fragile — if Robinhood Chain activity slows, fee-driven burns collapse; 7d still negative",
+        "variant": "body"
+      }
+    },
+    "pons_recent": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pons_recent_label",
+        "pons_recent_text"
+      ]
+    },
+    "pons_recent_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Vs recent picks",
+        "level": "h4"
+      }
+    },
+    "pons_recent_text": {
+      "type": "Text",
+      "props": {
+        "text": "First time (last 7d: INJ, STRK)",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_header",
+        "market_edge",
+        "market_odds",
+        "market_resolve",
+        "market_fair",
+        "market_thesis",
+        "market_risk"
+      ]
+    },
+    "market_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "market_title",
+        "market_badge"
+      ]
+    },
+    "market_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: ATP Swiss Indoors Basel: Djokovic vs Humbert (BO3)",
+        "level": "h2"
+      }
+    },
+    "market_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "market_edge": {
+      "type": "Stat",
+      "props": {
+        "label": "Edge",
+        "value": "18.5pp"
+      }
+    },
+    "market_odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_odds_label",
+        "market_odds_current",
+        "market_odds_volume"
+      ]
+    },
+    "market_odds_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Current Odds",
+        "level": "h4"
+      }
+    },
+    "market_odds_current": {
+      "type": "Text",
+      "props": {
+        "text": "Djokovic YES 90.5¢ / NO 9.5¢",
+        "variant": "body"
+      }
+    },
+    "market_odds_volume": {
+      "type": "Text",
+      "props": {
+        "text": "24h vol $706k",
+        "variant": "caption"
+      }
+    },
+    "market_resolve": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-11-03",
+        "variant": "caption"
+      }
+    },
+    "market_fair": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_fair_label",
+        "market_fair_text"
+      ]
+    },
+    "market_fair_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair Value",
+        "level": "h4"
+      }
+    },
+    "market_fair_text": {
+      "type": "Text",
+      "props": {
+        "text": "~72% YES (inputs: Djokovic 19-8 record in 2026 but 39yo on wild card; Humbert top-30 French player, semi-finalist at Basel; ATP preview flagged as dangerous draw)",
+        "variant": "body"
+      }
+    },
+    "market_thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_thesis_label",
+        "market_thesis_text"
+      ]
+    },
+    "market_thesis_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      }
+    },
+    "market_thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "Market overprices aging Djokovic — 90.5% implies near-certainty; fair value 65-75% given age decline and quality opponent → BUY NO (Humbert wins)",
+        "variant": "body"
+      }
+    },
+    "market_risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_risk_label",
+        "market_risk_text"
+      ]
+    },
+    "market_risk_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      }
+    },
+    "market_risk_text": {
+      "type": "Text",
+      "props": {
+        "text": "Djokovic motivated by milestone (tying Federer's Basel title record); if healthy and motivated, 19-8 record suggests form",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_label",
+        "sources_text",
+        "sources_disclaimer"
+      ]
+    },
+    "sources_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h4"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=fail, poly=ok",
+        "variant": "body"
+      }
+    },
+    "sources_disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "caption"
+      }
+    }
+  }
+}
