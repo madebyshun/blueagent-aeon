@@ -1,0 +1,312 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-10-28"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_focus",
+        "stack_focus",
+        "sep1",
+        "heading_since",
+        "stack_since",
+        "sep2",
+        "heading_watch",
+        "alert_watch",
+        "sep3",
+        "heading_running",
+        "stack_running"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "stack_focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item_focus_1",
+        "item_focus_2",
+        "item_focus_3"
+      ]
+    },
+    "item_focus_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_focus_1_title",
+        "text_focus_1_why"
+      ]
+    },
+    "text_focus_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. token-pick / token-movers 429 fix",
+        "variant": "lead"
+      }
+    },
+    "text_focus_1_why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: both fire at 12:00 UTC (~5 hrs); 8th consecutive dead run",
+        "variant": "body"
+      }
+    },
+    "item_focus_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_focus_2_title",
+        "text_focus_2_why"
+      ]
+    },
+    "text_focus_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. API usage_limit root cause",
+        "variant": "lead"
+      }
+    },
+    "text_focus_2_why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: first-party 429 may mean quota exhausted, not rate cap; affects 3 live skills",
+        "variant": "body"
+      }
+    },
+    "item_focus_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_focus_3_title",
+        "text_focus_3_why"
+      ]
+    },
+    "text_focus_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. background: deal-flow repair",
+        "variant": "lead"
+      }
+    },
+    "text_focus_3_why": {
+      "type": "Text",
+      "props": {
+        "text": "why now: 2 consecutive failures, success_rate 0.68; next run Mon Nov 2",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_since": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "stack_since": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item_recovered",
+        "alert_stuck",
+        "alert_xai"
+      ]
+    },
+    "item_recovered": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_recovered_label",
+        "stack_recovered_skills"
+      ]
+    },
+    "text_recovered_label": {
+      "type": "Text",
+      "props": {
+        "text": "Recovered:",
+        "variant": "lead"
+      }
+    },
+    "stack_recovered_skills": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_morning_brief",
+        "badge_github_trending",
+        "badge_narrative_tracker",
+        "badge_security_digest",
+        "text_all_green"
+      ]
+    },
+    "badge_morning_brief": {
+      "type": "Badge",
+      "props": {
+        "text": "morning-brief",
+        "variant": "secondary"
+      }
+    },
+    "badge_github_trending": {
+      "type": "Badge",
+      "props": {
+        "text": "github-trending",
+        "variant": "secondary"
+      }
+    },
+    "badge_narrative_tracker": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "secondary"
+      }
+    },
+    "badge_security_digest": {
+      "type": "Badge",
+      "props": {
+        "text": "security-digest",
+        "variant": "secondary"
+      }
+    },
+    "text_all_green": {
+      "type": "Text",
+      "props": {
+        "text": "all green again",
+        "variant": "muted"
+      }
+    },
+    "alert_stuck": {
+      "type": "Alert",
+      "props": {
+        "title": "Stuck",
+        "message": "token-pick + token-movers + defi-monitor — still 7 consecutive 429s each (last good data Oct 20)",
+        "type": "error"
+      }
+    },
+    "alert_xai": {
+      "type": "Alert",
+      "props": {
+        "title": "XAI prefetch",
+        "message": "403 (no team credits) — narrative-tracker worked around via WebSearch",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "alert_watch": {
+      "type": "Alert",
+      "props": {
+        "title": "Fed rate decision today at 14:00 ET (19:00 UTC)",
+        "message": "87–94% hold expected; announcement will move crypto markets and token-movers is blind when it drops",
+        "type": "info"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack_running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "task_1",
+        "task_2",
+        "task_3",
+        "task_4"
+      ]
+    },
+    "task_1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "task_2": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC (will fail without fix)",
+        "variant": "body"
+      }
+    },
+    "task_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC (will fail without fix)",
+        "variant": "body"
+      }
+    },
+    "task_4": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
