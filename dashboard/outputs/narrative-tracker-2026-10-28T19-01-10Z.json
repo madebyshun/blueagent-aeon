@@ -1,0 +1,614 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-10-28"
+      },
+      "children": [
+        "transitions-section",
+        "separator-1",
+        "reflexivity-section",
+        "separator-2",
+        "positions-section",
+        "separator-3",
+        "map-section"
+      ]
+    },
+    "transitions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "transitions-heading",
+        "demoted-item",
+        "promoted-item",
+        "new-item",
+        "dead-depin",
+        "dead-etf"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "demoted-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "demoted-badge",
+        "demoted-text"
+      ]
+    },
+    "demoted-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "destructive"
+      }
+    },
+    "demoted-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents × x402 Peak → Fading — 71% alts red today confirmed sell-the-news post-Coinbase perps launch Oct 21; velocity ↓; mainstream saturation without price support"
+      }
+    },
+    "promoted-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "promoted-badge",
+        "promoted-text"
+      ]
+    },
+    "promoted-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      }
+    },
+    "promoted-text": {
+      "type": "Text",
+      "props": {
+        "text": "China AI Bubble / Risk-off Emerging → Rising — today's alts bleed (−1.2% median) correlating with $480B China AI equity selloff; Fed rate decision 14:00 ET (87–94% hold) is live contingency — hold could snap risk-off"
+      }
+    },
+    "new-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "new-badge",
+        "new-text"
+      ]
+    },
+    "new-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      }
+    },
+    "new-text": {
+      "type": "Text",
+      "props": {
+        "text": "Meme Launchpads (Robinhood Chain / PONS) — PONS +10.96% on $57.7M vol today, CG trending, Robinhood Chain launchpad thesis surfacing"
+      }
+    },
+    "dead-depin": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dead-badge-1",
+        "dead-text-1"
+      ]
+    },
+    "dead-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "dead-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "DePIN — zero signals, confirmed gone"
+      }
+    },
+    "dead-etf": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dead-badge-2",
+        "dead-text-2"
+      ]
+    },
+    "dead-badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      }
+    },
+    "dead-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional ETF Flows — $635M outflow Oct 22 already priced, dropped from all signals"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "reflexivity-alert-1",
+        "reflexivity-alert-2"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-alert-1": {
+      "type": "Alert",
+      "props": {
+        "title": "China AI Risk-off",
+        "message": "$480B China AI equity selloff now being cited to reduce AI token exposure broadly; narrative moving portfolio allocation, not just commentary",
+        "type": "warning"
+      }
+    },
+    "reflexivity-alert-2": {
+      "type": "Alert",
+      "props": {
+        "title": "PONS / Meme Launchpads",
+        "message": "CG trending drove volume → drove more trending; $57.7M vol partly self-referential",
+        "type": "warning"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "positions-heading",
+        "fade-pos",
+        "ride-pos",
+        "watch-pos-1",
+        "watch-pos-2",
+        "watch-pos-3"
+      ]
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "fade-pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fade-badge",
+        "fade-text",
+        "fade-stat"
+      ]
+    },
+    "fade-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "destructive"
+      }
+    },
+    "fade-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agents × x402 — @Coinbase @Chainalysis — sell-the-news confirmed; no contrarian edge"
+      }
+    },
+    "fade-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "5 ↓",
+        "delta": "Cope"
+      }
+    },
+    "ride-pos": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ride-badge",
+        "ride-text",
+        "ride-stat"
+      ]
+    },
+    "ride-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "secondary"
+      }
+    },
+    "ride-text": {
+      "type": "Text",
+      "props": {
+        "text": "PayFi / Stablecoin Rails — Ripple/XRPN, Remittix, Visa — competing protocols fragment liquidity; still building"
+      }
+    },
+    "ride-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "3 →",
+        "delta": "Bull"
+      }
+    },
+    "watch-pos-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-badge-1",
+        "watch-text-1",
+        "watch-stat-1"
+      ]
+    },
+    "watch-badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "watch-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "China AI Risk-off — Macro analysts — Fed hold today could reverse; AI tokens first to bounce if risk-on"
+      }
+    },
+    "watch-stat-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "3 ↑",
+        "delta": "Bear"
+      }
+    },
+    "watch-pos-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-badge-2",
+        "watch-text-2",
+        "watch-stat-2"
+      ]
+    },
+    "watch-badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "watch-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Meme Launchpads/PONS — Robinhood Chain team — 3rd wave launchpad; pure reflexivity, no fundamental floor"
+      }
+    },
+    "watch-stat-2": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "2 ↑",
+        "delta": "Mixed"
+      }
+    },
+    "watch-pos-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "watch-badge-3",
+        "watch-text-3",
+        "watch-stat-3"
+      ]
+    },
+    "watch-badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      }
+    },
+    "watch-text-3": {
+      "type": "Text",
+      "props": {
+        "text": "AI-Native L1s (Sei/Kite/NEAR) — Sei/Kite teams — rebrand risk; flat under risk-off"
+      }
+    },
+    "watch-stat-3": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "2 →",
+        "delta": "Bull"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-heading",
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading",
+        "map-dead"
+      ]
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-emerging": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-emerging-label",
+        "map-emerging-badges"
+      ]
+    },
+    "map-emerging-label": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging:",
+        "variant": "lead"
+      }
+    },
+    "map-emerging-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-pons",
+        "badge-l1s"
+      ]
+    },
+    "badge-pons": {
+      "type": "Badge",
+      "props": {
+        "text": "Meme Launchpads (PONS)"
+      }
+    },
+    "badge-l1s": {
+      "type": "Badge",
+      "props": {
+        "text": "AI-Native L1s (Sei/Kite/NEAR)"
+      }
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-rising-label",
+        "map-rising-badges"
+      ]
+    },
+    "map-rising-label": {
+      "type": "Text",
+      "props": {
+        "text": "Rising:",
+        "variant": "lead"
+      }
+    },
+    "map-rising-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-payfi",
+        "badge-china"
+      ]
+    },
+    "badge-payfi": {
+      "type": "Badge",
+      "props": {
+        "text": "PayFi / Stablecoin Rails"
+      }
+    },
+    "badge-china": {
+      "type": "Badge",
+      "props": {
+        "text": "China AI Bubble / Risk-off"
+      }
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-peak-label",
+        "map-peak-empty"
+      ]
+    },
+    "map-peak-label": {
+      "type": "Text",
+      "props": {
+        "text": "Peak:",
+        "variant": "lead"
+      }
+    },
+    "map-peak-empty": {
+      "type": "Text",
+      "props": {
+        "text": "—",
+        "variant": "muted"
+      }
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-fading-label",
+        "map-fading-badges"
+      ]
+    },
+    "map-fading-label": {
+      "type": "Text",
+      "props": {
+        "text": "Fading:",
+        "variant": "lead"
+      }
+    },
+    "map-fading-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-agents",
+        "badge-ethereum"
+      ]
+    },
+    "badge-agents": {
+      "type": "Badge",
+      "props": {
+        "text": "AI Agents × x402"
+      }
+    },
+    "badge-ethereum": {
+      "type": "Badge",
+      "props": {
+        "text": "Ethereum Glamsterdam"
+      }
+    },
+    "map-dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "map-dead-label",
+        "map-dead-badges"
+      ]
+    },
+    "map-dead-label": {
+      "type": "Text",
+      "props": {
+        "text": "Dead:",
+        "variant": "lead"
+      }
+    },
+    "map-dead-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-etf",
+        "badge-depin"
+      ]
+    },
+    "badge-etf": {
+      "type": "Badge",
+      "props": {
+        "text": "Institutional ETF Flows"
+      }
+    },
+    "badge-depin": {
+      "type": "Badge",
+      "props": {
+        "text": "DePIN"
+      }
+    }
+  }
+}
