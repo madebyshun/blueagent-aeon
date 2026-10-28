@@ -1,0 +1,787 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-10-28",
+        "description": "3 actively exploited, 5 to schedule this week, 3 to monitor. Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "alert_verdict",
+        "sep1",
+        "section_patch_today",
+        "sep2",
+        "section_patch_week",
+        "sep3",
+        "section_monitor"
+      ]
+    },
+    "alert_verdict": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "message": "Verdict: 3 actively exploited, 5 to schedule this week, 3 to monitor"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_patch_today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_patch_today",
+        "item_cve_2026_111497",
+        "item_cve_2026_48356",
+        "item_ghsa_26p8"
+      ]
+    },
+    "heading_patch_today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h3"
+      }
+    },
+    "item_cve_2026_111497": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_cve_2026_111497",
+        "info_cve_2026_111497",
+        "desc_cve_2026_111497",
+        "action_cve_2026_111497"
+      ]
+    },
+    "link_cve_2026_111497": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-111497 — Google Brotli",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
+        "source": "KEV"
+      }
+    },
+    "info_cve_2026_111497": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_2026_10_27",
+        "badge_epss_0_88",
+        "badge_cvss_na"
+      ]
+    },
+    "badge_kev_2026_10_27": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-10-27",
+        "variant": "secondary"
+      }
+    },
+    "badge_epss_0_88": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.88",
+        "variant": "destructive"
+      }
+    },
+    "badge_cvss_na": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS n/a",
+        "variant": "outline"
+      }
+    },
+    "desc_cve_2026_111497": {
+      "type": "Text",
+      "props": {
+        "text": "Crafted compressed stream → memory corruption, possible RCE. Confirmed exploitation per CISA.",
+        "variant": "body"
+      }
+    },
+    "action_cve_2026_111497": {
+      "type": "Text",
+      "props": {
+        "text": "→ update brotli in OS packages and container base images; redeploy.",
+        "variant": "caption"
+      }
+    },
+    "item_cve_2026_48356": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_cve_2026_48356",
+        "info_cve_2026_48356",
+        "desc_cve_2026_48356",
+        "action_cve_2026_48356"
+      ]
+    },
+    "link_cve_2026_48356": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48356 — Adobe Commerce & Magento",
+        "href": "https://github.com/advisories/GHSA-p3ch-8535-fp8j",
+        "source": "GH Advisory"
+      }
+    },
+    "info_cve_2026_48356": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_kev_48356",
+        "badge_epss_48356",
+        "badge_cvss_48356"
+      ]
+    },
+    "badge_kev_48356": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-10-27",
+        "variant": "secondary"
+      }
+    },
+    "badge_epss_48356": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.59",
+        "variant": "destructive"
+      }
+    },
+    "badge_cvss_48356": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.6",
+        "variant": "destructive"
+      }
+    },
+    "desc_cve_2026_48356": {
+      "type": "Text",
+      "props": {
+        "text": "Unrestricted file upload → RCE as current user. Confirmed exploitation per CISA.",
+        "variant": "body"
+      }
+    },
+    "action_cve_2026_48356": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Adobe Security Bulletin patch today.",
+        "variant": "caption"
+      }
+    },
+    "item_ghsa_26p8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_26p8",
+        "info_ghsa_26p8",
+        "desc_ghsa_26p8",
+        "action_ghsa_26p8"
+      ]
+    },
+    "link_ghsa_26p8": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-26p8-2jq9-3vq9 — mlflow (pip)",
+        "href": "https://github.com/advisories/GHSA-26p8-2jq9-3vq9",
+        "source": "GH Advisory"
+      }
+    },
+    "info_ghsa_26p8": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_ghsa_26p8",
+        "badge_epss_ghsa_26p8",
+        "badge_poc_ghsa_26p8"
+      ]
+    },
+    "badge_cvss_ghsa_26p8": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_ghsa_26p8": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.007",
+        "variant": "secondary"
+      }
+    },
+    "badge_poc_ghsa_26p8": {
+      "type": "Badge",
+      "props": {
+        "text": "public PoC",
+        "variant": "outline"
+      }
+    },
+    "desc_ghsa_26p8": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth RCE: upload artifact → trigger scorer import → arbitrary Python exec. Default server runs as root.",
+        "variant": "body"
+      }
+    },
+    "action_ghsa_26p8": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade mlflow to ≥3.17.0 and redeploy.",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_patch_week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_patch_week",
+        "item_ghsa_897f",
+        "item_ghsa_5x8w",
+        "item_ghsa_rjh2",
+        "item_ghsa_x94g",
+        "item_ghsa_mgqf"
+      ]
+    },
+    "heading_patch_week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h3"
+      }
+    },
+    "item_ghsa_897f": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_897f",
+        "info_ghsa_897f",
+        "desc_ghsa_897f",
+        "action_ghsa_897f"
+      ]
+    },
+    "link_ghsa_897f": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-897f-g5gm-fmxm — wasmtime (crates.io)",
+        "href": "https://github.com/advisories/GHSA-897f-g5gm-fmxm",
+        "source": "GH Advisory"
+      }
+    },
+    "info_ghsa_897f": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_ghsa_897f",
+        "badge_epss_ghsa_897f"
+      ]
+    },
+    "badge_cvss_ghsa_897f": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.9",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_ghsa_897f": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.005",
+        "variant": "secondary"
+      }
+    },
+    "desc_ghsa_897f": {
+      "type": "Text",
+      "props": {
+        "text": "Numeric truncation + type confusion in Wasm host-call boundary.",
+        "variant": "body"
+      }
+    },
+    "action_ghsa_897f": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade wasmtime to ≥36.0.19 or ≥43.0.0.",
+        "variant": "caption"
+      }
+    },
+    "item_ghsa_5x8w": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_5x8w",
+        "info_ghsa_5x8w",
+        "desc_ghsa_5x8w",
+        "action_ghsa_5x8w"
+      ]
+    },
+    "link_ghsa_5x8w": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-5x8w-8jj5-q52h — pillow (pip)",
+        "href": "https://github.com/advisories/GHSA-5x8w-8jj5-q52h",
+        "source": "GH Advisory"
+      }
+    },
+    "info_ghsa_5x8w": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_ghsa_5x8w",
+        "badge_epss_ghsa_5x8w"
+      ]
+    },
+    "badge_cvss_ghsa_5x8w": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.2",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_ghsa_5x8w": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.007",
+        "variant": "secondary"
+      }
+    },
+    "desc_ghsa_5x8w": {
+      "type": "Text",
+      "props": {
+        "text": "Heap buffer overflow in image decoder.",
+        "variant": "body"
+      }
+    },
+    "action_ghsa_5x8w": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade pillow to ≥13.0.0.",
+        "variant": "caption"
+      }
+    },
+    "item_ghsa_rjh2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_rjh2",
+        "info_ghsa_rjh2",
+        "desc_ghsa_rjh2",
+        "action_ghsa_rjh2"
+      ]
+    },
+    "link_ghsa_rjh2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-rjh2-4xgw-p2hj — atlantis (Go)",
+        "href": "https://github.com/advisories/GHSA-rjh2-4xgw-p2hj",
+        "source": "GH Advisory"
+      }
+    },
+    "info_ghsa_rjh2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_ghsa_rjh2",
+        "badge_epss_ghsa_rjh2"
+      ]
+    },
+    "badge_cvss_ghsa_rjh2": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.8",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_ghsa_rjh2": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.005",
+        "variant": "secondary"
+      }
+    },
+    "desc_ghsa_rjh2": {
+      "type": "Text",
+      "props": {
+        "text": "OS command injection in Terraform automation.",
+        "variant": "body"
+      }
+    },
+    "action_ghsa_rjh2": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade atlantis to ≥0.47.1.",
+        "variant": "caption"
+      }
+    },
+    "item_ghsa_x94g": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_x94g",
+        "info_ghsa_x94g",
+        "desc_ghsa_x94g",
+        "action_ghsa_x94g"
+      ]
+    },
+    "link_ghsa_x94g": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-x94g-w73q-hpcw — dd-trace (npm)",
+        "href": "https://github.com/advisories/GHSA-x94g-w73q-hpcw",
+        "source": "GH Advisory"
+      }
+    },
+    "info_ghsa_x94g": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_ghsa_x94g",
+        "badge_epss_ghsa_x94g"
+      ]
+    },
+    "badge_cvss_ghsa_x94g": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.7",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_ghsa_x94g": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      }
+    },
+    "desc_ghsa_x94g": {
+      "type": "Text",
+      "props": {
+        "text": "ReDoS via inefficient regex.",
+        "variant": "body"
+      }
+    },
+    "action_ghsa_x94g": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade dd-trace to ≥5.131.1 (5.x) or ≥6.20.1 (6.x).",
+        "variant": "caption"
+      }
+    },
+    "item_ghsa_mgqf": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_mgqf",
+        "info_ghsa_mgqf",
+        "desc_ghsa_mgqf",
+        "action_ghsa_mgqf"
+      ]
+    },
+    "link_ghsa_mgqf": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-mgqf-5mf5-prfj — filebrowser/backend (Go)",
+        "href": "https://github.com/advisories/GHSA-mgqf-5mf5-prfj",
+        "source": "GH Advisory"
+      }
+    },
+    "info_ghsa_mgqf": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_ghsa_mgqf",
+        "badge_epss_ghsa_mgqf"
+      ]
+    },
+    "badge_cvss_ghsa_mgqf": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.6",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_ghsa_mgqf": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.005",
+        "variant": "secondary"
+      }
+    },
+    "desc_ghsa_mgqf": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal + symlink following → arbitrary file access.",
+        "variant": "body"
+      }
+    },
+    "action_ghsa_mgqf": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade filebrowser/backend (post 2026-08-14 commit).",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_monitor",
+        "item_ghsa_mf2p",
+        "item_ghsa_rh54",
+        "item_ghsa_m65p"
+      ]
+    },
+    "heading_monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h3"
+      }
+    },
+    "item_ghsa_mf2p": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_mf2p",
+        "info_ghsa_mf2p",
+        "desc_ghsa_mf2p",
+        "action_ghsa_mf2p"
+      ]
+    },
+    "link_ghsa_mf2p": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-mf2p-h6hf-fcwm — tinymce (npm)",
+        "href": "https://github.com/advisories/GHSA-mf2p-h6hf-fcwm",
+        "source": "GH Advisory"
+      }
+    },
+    "info_ghsa_mf2p": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_ghsa_mf2p",
+        "badge_epss_ghsa_mf2p"
+      ]
+    },
+    "badge_cvss_ghsa_mf2p": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.5",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_ghsa_mf2p": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003",
+        "variant": "secondary"
+      }
+    },
+    "desc_ghsa_mf2p": {
+      "type": "Text",
+      "props": {
+        "text": "Stored XSS.",
+        "variant": "body"
+      }
+    },
+    "action_ghsa_mf2p": {
+      "type": "Text",
+      "props": {
+        "text": "→ track; upgrade before next sprint.",
+        "variant": "caption"
+      }
+    },
+    "item_ghsa_rh54": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_rh54",
+        "info_ghsa_rh54",
+        "desc_ghsa_rh54",
+        "action_ghsa_rh54"
+      ]
+    },
+    "link_ghsa_rh54": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-rh54-vffm-5fvp — ckeditor5 (npm)",
+        "href": "https://github.com/advisories/GHSA-rh54-vffm-5fvp",
+        "source": "GH Advisory"
+      }
+    },
+    "info_ghsa_rh54": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_ghsa_rh54",
+        "badge_epss_ghsa_rh54"
+      ]
+    },
+    "badge_cvss_ghsa_rh54": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "destructive"
+      }
+    },
+    "badge_epss_ghsa_rh54": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.005",
+        "variant": "secondary"
+      }
+    },
+    "desc_ghsa_rh54": {
+      "type": "Text",
+      "props": {
+        "text": "XSS in editor engine.",
+        "variant": "body"
+      }
+    },
+    "action_ghsa_rh54": {
+      "type": "Text",
+      "props": {
+        "text": "→ track; upgrade ckeditor5 when convenient.",
+        "variant": "caption"
+      }
+    },
+    "item_ghsa_m65p": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_ghsa_m65p",
+        "info_ghsa_m65p",
+        "desc_ghsa_m65p",
+        "action_ghsa_m65p"
+      ]
+    },
+    "link_ghsa_m65p": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-m65p-9j7q-6w33 — mlflow (pip)",
+        "href": "https://github.com/advisories/GHSA-m65p-9j7q-6w33",
+        "source": "GH Advisory"
+      }
+    },
+    "info_ghsa_m65p": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cvss_ghsa_m65p",
+        "badge_epss_ghsa_m65p"
+      ]
+    },
+    "badge_cvss_ghsa_m65p": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "secondary"
+      }
+    },
+    "badge_epss_ghsa_m65p": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.006",
+        "variant": "secondary"
+      }
+    },
+    "desc_ghsa_m65p": {
+      "type": "Text",
+      "props": {
+        "text": "Arbitrary file read via path traversal + false-tag bypass. Fixed by ≥3.17.0 (same as PATCH TODAY item).",
+        "variant": "body"
+      }
+    },
+    "action_ghsa_m65p": {
+      "type": "Text",
+      "props": {
+        "text": "→ covered by mlflow upgrade to ≥3.17.0",
+        "variant": "caption"
+      }
+    }
+  }
+}

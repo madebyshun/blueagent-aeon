@@ -1,49 +1,41 @@
-*Security Digest — 2026-10-27*
-Verdict: 3 actively exploited, 5 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-10-28*
+Verdict: 3 actively exploited, 5 to schedule this week, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- CVE-2026-109618 — PHP 8.x · KEV added 2026-10-26 · EPSS 0.9999
-  Memory corruption RCE, no auth required. Actively exploited per CISA.
-  → upgrade PHP to ≥8.3.36 / ≥8.4.27 / ≥8.5.12 and restart servers today.
+- [CVE-2026-111497](https://nvd.nist.gov/vuln/detail/CVE-2026-111497) — Google Brotli · KEV 2026-10-27 · EPSS 0.88 · CVSS n/a
+  Crafted compressed stream → memory corruption, possible RCE. Confirmed exploitation per CISA.
+  → update brotli in OS packages and container base images; redeploy.
 
-- CVE-2026-109619 — PHP 8.x · KEV added 2026-10-26 · EPSS 0.9999
-  Stale request-state RCE, no auth required. Actively exploited per CISA.
-  → same fix: upgrade PHP to ≥8.3.36 / ≥8.4.27 / ≥8.5.12.
+- [CVE-2026-48356](https://github.com/advisories/GHSA-p3ch-8535-fp8j) — Adobe Commerce & Magento · KEV 2026-10-27 · EPSS 0.59 · CVSS 9.6
+  Unrestricted file upload → RCE as current user. Confirmed exploitation per CISA.
+  → apply Adobe Security Bulletin patch today.
 
-- CVE-2026-110447 — Collabora Online Built-in CODE Server · KEV added 2026-10-23 · EPSS 0.116
-  OS command injection when CODE server is stopped; allows RCE. Actively exploited per CISA.
-  → apply Collabora Online update or disable built-in CODE server now.
+- [GHSA-26p8-2jq9-3vq9](https://github.com/advisories/GHSA-26p8-2jq9-3vq9) — mlflow (pip) · CVSS 9.8 · EPSS 0.007 · public PoC
+  Unauth RCE: upload artifact → trigger scorer import → arbitrary Python exec. Default server runs as root.
+  → upgrade mlflow to ≥3.17.0 and redeploy.
 
 *PATCH THIS WEEK*
-- CVE-2026-114625 — Arista VeloCloud Orchestrator · KEV added 2026-10-23 · EPSS 0.010
-  On-prem SQL injection reaches privileged internal functions. Confirmed in-the-wild.
-  → schedule upgrade: apply Arista VeloCloud vendor patch.
+- [GHSA-897f-g5gm-fmxm](https://github.com/advisories/GHSA-897f-g5gm-fmxm) — wasmtime (crates.io) · CVSS 9.9 · EPSS 0.005
+  Numeric truncation + type confusion in Wasm host-call boundary. → upgrade wasmtime to ≥36.0.19 or ≥43.0.0.
 
-- GHSA-m4w4-3r8h-jw98 — agno (pip) · CVSS 9.8 · EPSS 0.008
-  Arbitrary code execution via eval() on user-controlled field_type in FunctionCall.
-  → schedule upgrade: agno → ≥2.3.24.
+- [GHSA-5x8w-8jj5-q52h](https://github.com/advisories/GHSA-5x8w-8jj5-q52h) — pillow (pip) · CVSS 9.2 · EPSS 0.007
+  Heap buffer overflow in image decoder. → upgrade pillow to ≥13.0.0.
 
-- GHSA-6hp3-vr39-rqw8 — MONAI (pip) · CVSS 9.3
-  Crafted DICOM input crashes server and silently corrupts inference output.
-  → schedule upgrade: monai → ≥1.6.1.
+- [GHSA-rjh2-4xgw-p2hj](https://github.com/advisories/GHSA-rjh2-4xgw-p2hj) — atlantis (Go) · CVSS 8.8 · EPSS 0.005
+  OS command injection in Terraform automation. → upgrade atlantis to ≥0.47.1.
 
-- GHSA-6v38-4h7w-rj9h — authlib (pip) · CVSS 9.1 · EPSS 0.004
-  Empty signature passes JWS JSON deserialization — auth bypass. Related: empty HMAC key forgery (CVE-2026-114616).
-  → schedule upgrade: authlib → ≥1.9.1.
+- [GHSA-x94g-w73q-hpcw](https://github.com/advisories/GHSA-x94g-w73q-hpcw) — dd-trace (npm) · CVSS 8.7 · EPSS 0.004
+  ReDoS via inefficient regex. → upgrade dd-trace to ≥5.131.1 (5.x) or ≥6.20.1 (6.x).
 
-- GHSA-965c-763c-88jm — better-auth (npm) · CVSS 9.1 · EPSS 0.004
-  OAuth state accepted as Magic Link token — unauthenticated sign-in as any user.
-  → schedule upgrade: better-auth → ≥1.7.7.
+- [GHSA-mgqf-5mf5-prfj](https://github.com/advisories/GHSA-mgqf-5mf5-prfj) — filebrowser/backend (Go) · CVSS 8.6 · EPSS 0.005
+  Path traversal + symlink following → arbitrary file access. → upgrade filebrowser/backend (post 2026-08-14 commit).
 
 *MONITOR*
-- GHSA-h3rc-6mm3-gc2m — vLLM (pip) · CVSS 8.1
-  User-controlled mm_processor_kwargs.code_revision allows RCE. Fix in 0.31.0.
-  → track vllm; upgrade → ≥0.31.0.
+- [GHSA-mf2p-h6hf-fcwm](https://github.com/advisories/GHSA-mf2p-h6hf-fcwm) — tinymce (npm) · CVSS 8.5 · EPSS 0.003
+  Stored XSS. → track; upgrade before next sprint.
 
-- GHSA-f897-62hf-6gxq — @modelcontextprotocol/sdk (npm) · CVSS 7.5
-  HTTP transports lack request body and JSON-RPC batch size limits — DoS. Fix in 1.30.1.
-  → track; upgrade @modelcontextprotocol/sdk → ≥1.30.1.
+- [GHSA-rh54-vffm-5fvp](https://github.com/advisories/GHSA-rh54-vffm-5fvp) — ckeditor5 (npm) · CVSS 8.1 · EPSS 0.005
+  XSS in editor engine. → track; upgrade ckeditor5 when convenient.
 
-- GHSA-mgcc-cww5-fp2q — go-jose (Go) · CVSS 7.5
-  Panic parsing malformed RSA JWKs — DoS. No patched version confirmed.
-  → watch go-jose/v3 and go-jose/v4 for patch; avoid exposing JWKS parsing to untrusted input.
+- [GHSA-m65p-9j7q-6w33](https://github.com/advisories/GHSA-m65p-9j7q-6w33) — mlflow (pip) · CVSS 7.5 · EPSS 0.006
+  Arbitrary file read via path traversal + false-tag bypass. Fixed by ≥3.17.0 (same as PATCH TODAY item).
