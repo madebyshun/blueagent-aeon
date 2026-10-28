@@ -1,38 +1,42 @@
-*Token Movers — 2026-10-20*
+*Token Movers — 2026-10-28*
 
-_Sharp risk-on reversal after Oct 17 selloff — 80+/100 top coins green, median ~+1.5%; no top-250 coin down more than 1.3%._
+_Broad risk-off — ~71% of top-100 alts are red, median −1.2%; BTC flat while alts bleed across L1s, DeFi, and AI sectors._
 
 *Top Winners (24h)*
-1. WLD (Worldcoin) — $0.5635  +11.4% / 7d +15.0% / 1h +3.8%  •  $596M / #49  [TRENDING+UP]
-2. PEPE (Pepe) — $0.0000045  +9.6% / 7d +8.8% / 1h +5.9%  •  $387M / #53
-3. BTW (Bitway) — $1.87  +6.6% / 7d -4.3% / 1h +8.3%  •  $31M / #40
-4. ZEC (Zcash) — $1,191  +6.0% / 7d +2.8% / 1h +4.1%  •  $842M / #10  [MAJOR]
-5. XMR (Monero) — $616  +3.9% / 7d +16.9% / 1h +1.8%  •  $182M / #13  [MAJOR]
-6. AAVE (Aave) — $152  +3.4% / 7d -0.4% / 1h +4.3%  •  $256M / #46
-7. SUI (Sui) — $1.012  +2.2% / 7d +0.1% / 1h +3.0%  •  $431M / #29
-8. XLM (Stellar) — $0.1790  +2.1% / 7d -4.5% / 1h +2.8%  •  $119M / #21  [MAJOR]
-9. SHIB (Shiba Inu) — $0.0000051  +2.1% / 7d -0.7% / 1h +2.5%  •  $45M / #36
-10. ETH (Ethereum) — $2,437  +1.8% / 7d -1.3% / 1h +2.7%  •  $10.9B / #2  [MAJOR]
+1. Q (Quack AI) — $0.06928  +22.5% / 7d −37.7% / 1h +16.2%  •  $138M / #133  [FADE]
+2. BTW (Bitway) — $1.730  +16.9% / 7d +19.1% / 1h +0.4%  •  $11.3M / #41
+3. PONS (Pons) — $0.2821  +10.9% / 7d −3.7% / 1h −1.3%  •  $57.7M / #184  [TRENDING+UP]
+4. PEPE (Pepe) — $0.000004860  +8.2% / 7d +3.6% / 1h +0.3%  •  $642M / #48
+5. M (MemeCore) — $1.120  +6.0% / 7d +45.1% / 1h +0.1%  •  $3.97M / #43
+6. GOMINING (GoMining) — $0.3869  +5.2% / 7d +1.7% / 1h −0.1%  •  $13.3M / #209
+7. AWE (AWE Network) — $0.06810  +5.0% / 7d −3.3% / 1h −0.2%  •  $4.1M / #229
+8. 币安人生 (BinanceLife) — $0.5270  +3.3% / 7d +3.5% / 1h +0.1%  •  $2.9M / #105
+9. LTC (Litecoin) — $58.55  +3.2% / 7d −4.8% / 1h +1.2%  •  $271M / #23
+10. KNTQ (Kinetiq) — $0.4316  +2.5% / 7d +7.9% / 1h −1.2%  •  $4.7M / #223
 
 *Top Losers (24h)*
-1. FIGR_HELOC (Figure Heloc) — $1.019  -1.3% / 7d -4.2% / 1h -0.1%  •  $17M / #9  [MAJOR]
-2. NEAR (NEAR Protocol) — $4.85  -1.0% / 7d +1.1% / 1h +6.4%  •  $895M / #20  [TRENDING+DOWN] [MAJOR]
-3. CRO (Cronos) — $0.0570  -0.5% / 7d -1.9% / 1h +2.0%  •  $5M / #37
-4. GRAM (Toncoin) — $1.34  -0.4% / 7d -1.2% / 1h +1.3%  •  $27M / #31
-5. UNI (Uniswap) — $7.26  -0.3% / 7d +2.3% / 1h +4.0%  •  $349M / #25
-6. QNT (Quant) — $195  -0.1% / 7d -2.2% / 1h +3.5%  •  $59M / #39
-7. TRX (TRON) — $0.331  -0.1% / 7d +1.1% / 1h +0.3%  •  $319M / #8  [MAJOR]
+1. VVV (Venice Token) — $23.88  −7.8% / 7d −13.6% / 1h +0.4%  •  $30.3M / #70  [TRENDING+DOWN]
+2. ENA (Ethena) — $0.1960  −7.0% / 7d −11.2% / 1h +0.1%  •  $535M / #40
+3. BR (Bedrock) — $0.4777  −6.7% / 7d −10.9% / 1h −2.3%  •  $4.2M / #220
+4. BAT (Basic Attention) — $0.1378  −6.6% / 7d −22.6% / 1h +1.7%  •  $21.3M / #174
+5. AKE (Akedo) — $0.02174  −6.1% / 7d −18.3% / 1h +8.4%  •  $20.0M / #109
+6. BDX (Beldex) — $0.07115  −6.0% / 7d −3.7% / 1h −1.7%  •  $10.8M / #100
+7. ZBCN (Zebec) — $0.002062  −5.4% / 7d −14.9% / 1h +0.0%  •  $8.1M / #173
+8. LIT (Lighter) — $2.930  −4.8% / 7d −15.3% / 1h +0.0%  •  $52.0M / #86
+9. MET (Meteora) — $0.3046  −4.7% / 7d −17.0% / 1h −1.3%  •  $6.8M / #195
+10. KAIA (Kaia) — $0.03379  −4.6% / 7d −20.1% / 1h −0.7%  •  $5.8M / #168
 
 *Trending*
-1. PEARL (Pearl) — #91, $2.17, 24h +15.7%  [TRENDING+UP]
-2. AERO (Aerodrome Finance) — #85, $0.853, 24h +10.5%  [TRENDING+UP]
-3. WLD (Worldcoin) — #48, $0.564, 24h +11.0%  [TRENDING+UP]
-4. BTC (Bitcoin) — #1, $82,364, 24h +0.5%
-5. CARDS (Collector Crypt) — #145, $0.332, 24h +18.6%  [TRENDING+UP]
-6. NEAR (NEAR Protocol) — #21, $4.79, 24h -2.4%  [TRENDING+DOWN]
+1. BTC (Bitcoin) — #1, $80,493, 24h −0.2%  [MAJOR]
+2. PONS (Pons) — #184, $0.2821, 24h +10.9%  [TRENDING+UP]
+3. CHIP (USD.AI) — #286, $0.04827, 24h −10.8%
+4. PENGU (Pudgy Penguins) — #114, $0.007687, 24h −0.4%
+5. SOL (Solana) — #7, $100.94, 24h −0.1%  [MAJOR]
+6. QTC (Quantus) — #762, $79.93, 24h +7.6%
+7. KNTQ (Kinetiq) — #223, $0.4324, 24h +2.5%
 
 *Notable*
-• WLD: reversed Oct 17 loser (−5.7%) → +11.4% today [TRENDING+UP] — mean reversion confirmed, 7d +15% = sustained bid
-• PEARL + AERO: both Base-native, both top-2 trending — Base DEX rotation signal active
-• XMR: +3.9% / 7d +16.9% quiet buildup; ZEC also +6.0% — privacy coin cluster moving together
-• NEAR [TRENDING+DOWN]: trending but 1h +6.4% intraday recovery — 24h red may be receding
+• PONS: trending + up 10.9% on $57.7M volume — unusual for rank 184, check for catalyst
+• Q (Quack AI): +22.5% today but 7d −37.7% — [FADE] dead-cat bounce, don't chase
+• BTW (Bitway): +16.9% / 7d +19.1% at rank 41 — sustained move on $11.3M volume, no pump flags
+• VVV: trending while down 7.8% — search interest rising into a selloff
