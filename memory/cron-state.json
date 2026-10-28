@@ -11,12 +11,12 @@
     "last_success": "2026-05-16T22:29:00Z"
   },
   "token-pick": {
-    "last_status": "failed",
-    "last_success": "2026-10-20T16:04:56Z",
-    "total_runs": 154,
-    "total_successes": 124,
+    "last_status": "success",
+    "last_success": "2026-10-28T17:42:34Z",
+    "total_runs": 155,
+    "total_successes": 125,
     "total_failures": 30,
-    "consecutive_failures": 7,
+    "consecutive_failures": 0,
     "success_rate": 0.81,
     "last_failed": "2026-10-27T16:59:39Z",
     "last_error": "imit\":0,\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"safety_stops\":0,\"is_error\":true,\"num_turns\":1,\"subtype\":\"success\",\"api_error_status\":429,\"api_error_origin\":\"first_party\",\"api_error\":\"usage_li"
