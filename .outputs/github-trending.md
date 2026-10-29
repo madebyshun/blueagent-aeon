@@ -1,31 +1,21 @@
-*GitHub Trending — 2026-10-27*
+*GitHub Trending — 2026-10-29*
 
-*Top pick* — [Nutlope/hallmark](https://github.com/Nutlope/hallmark)
-Biggest spike of the day (2,859 stars) for a skill that forces AI coders to produce design-system-ready output — not vague aesthetics.
+*Top pick* — [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)
+Highest single-day momentum today — open-source bot that bundles a real sandboxed VM so agents execute code without touching the host OS.
 
 *AI/ML*
-• [makecindy/cindy](https://github.com/makecindy/cindy) — ★ 1,446t today (7.2k total) · TypeScript · [ACCELERATING]
-Ships pre-connected with tools and memory — functional out of the box, unlike most agent SDKs that need hours of config first.
+• [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) — ★ 1190 today (7.2k total) · TypeScript · [ACCELERATING]
+Bundles a sandboxed VM with the bot so any LLM can execute code without touching the host filesystem.
 
-• [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) — ★ 1,587t today (45.2k total) · Python · [RETURNING]
-Builds a persistent knowledge graph per learner that evolves across sessions — actual personalization, not just within-session context.
+• [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) — ★ 459 today (104.4k total) · TypeScript · [RETURNING]
+Auto-compresses session context to a token-efficient fingerprint that reinjects silently — no custom memory infra needed.
+
+• [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) — ★ 240 today (7.9k total) · TypeScript · [ACCELERATING]
+Each AI coworker gets an isolated browser and filesystem — no shared state between agents in the same workspace.
 
 *Devtools*
-• [Nutlope/hallmark](https://github.com/Nutlope/hallmark) — ★ 2,859t today (38.2k total) · CSS · [ACCELERATING]
-Anti-AI-slop design skill for Claude Code/Cursor/Codex: refuses vague aesthetics at prompt time, enforces design-system constraints.
-
-• [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — ★ 1,458t today (90k total) · Rust · [RETURNING]
-Design-token spec for LLMs: constrains AI output to your design language, eliminating inconsistent UI generation at the source.
-
-• [affaan-m/ECC](https://github.com/affaan-m/ECC) — ★ 1,183t today (290k total) · JavaScript · [ACCELERATING]
-Caches agent context and dedupes LLM calls across Claude/Codex/Cursor — measurable cost reduction on heavy multi-agent runs.
-
-• [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) — ★ 1,211t today (3.7k total) · TypeScript · [RETURNING]
-JetBrains building their own vibe-coding IDE that learns and adapts its layout and suggestions to your workflow over time.
-
-*Web/Apps*
-• [nightly-labs/openbot](https://github.com/nightly-labs/openbot) — ★ 794t today (2k total) · TypeScript · [ACCELERATING]
-Runs Claude, Codex, and Grok as persistent desktop teammates in one app — shared memory, no context lost between sessions.
+• [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) — ★ 538 today (28.8k total) · Shell · [RETURNING]
+Routes game dev roles (art director, writer, QA) to 49 specialized agents so one dev runs the full studio pipeline.
 
 ---
-sources: trending=ok · gh_api=ok · kept 7/10
+sources: trending=ok · gh_api=ok · kept 4/11

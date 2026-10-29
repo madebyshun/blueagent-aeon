@@ -1,0 +1,328 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-10-29"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-top-pick",
+        "sep-1",
+        "section-aiml",
+        "sep-2",
+        "section-devtools",
+        "sep-3",
+        "footer"
+      ]
+    },
+    "section-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-top-pick",
+        "story-top-pick",
+        "text-top-pick"
+      ]
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "story-top-pick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "milind-soni/OpenMausBot",
+        "href": "https://github.com/milind-soni/OpenMausBot",
+        "source": "GitHub"
+      }
+    },
+    "text-top-pick": {
+      "type": "Text",
+      "props": {
+        "text": "Highest single-day momentum today — open-source bot that bundles a real sandboxed VM so agents execute code without touching the host OS."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-aiml",
+        "aiml-item-1",
+        "aiml-item-2",
+        "aiml-item-3"
+      ]
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-1-header",
+        "aiml-1-desc"
+      ]
+    },
+    "aiml-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "story-aiml-1",
+        "badge-aiml-1",
+        "text-aiml-1-meta"
+      ]
+    },
+    "story-aiml-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "milind-soni/OpenMausBot",
+        "href": "https://github.com/milind-soni/OpenMausBot",
+        "source": "GitHub"
+      }
+    },
+    "badge-aiml-1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "text-aiml-1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "★ 1190 today (7.2k total) · TypeScript",
+        "variant": "caption"
+      }
+    },
+    "aiml-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Bundles a sandboxed VM with the bot so any LLM can execute code without touching the host filesystem."
+      }
+    },
+    "aiml-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-2-header",
+        "aiml-2-desc"
+      ]
+    },
+    "aiml-2-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "story-aiml-2",
+        "badge-aiml-2",
+        "text-aiml-2-meta"
+      ]
+    },
+    "story-aiml-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "thedotmack/claude-mem",
+        "href": "https://github.com/thedotmack/claude-mem",
+        "source": "GitHub"
+      }
+    },
+    "badge-aiml-2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      }
+    },
+    "text-aiml-2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "★ 459 today (104.4k total) · TypeScript",
+        "variant": "caption"
+      }
+    },
+    "aiml-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auto-compresses session context to a token-efficient fingerprint that reinjects silently — no custom memory infra needed."
+      }
+    },
+    "aiml-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-3-header",
+        "aiml-3-desc"
+      ]
+    },
+    "aiml-3-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "story-aiml-3",
+        "badge-aiml-3",
+        "text-aiml-3-meta"
+      ]
+    },
+    "story-aiml-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CopilotKit/OpenBot",
+        "href": "https://github.com/CopilotKit/OpenBot",
+        "source": "GitHub"
+      }
+    },
+    "badge-aiml-3": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "text-aiml-3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "★ 240 today (7.9k total) · TypeScript",
+        "variant": "caption"
+      }
+    },
+    "aiml-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Each AI coworker gets an isolated browser and filesystem — no shared state between agents in the same workspace."
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-devtools",
+        "devtools-item-1"
+      ]
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "devtools-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-header",
+        "devtools-1-desc"
+      ]
+    },
+    "devtools-1-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "story-devtools-1",
+        "badge-devtools-1",
+        "text-devtools-1-meta"
+      ]
+    },
+    "story-devtools-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Donchitos/Claude-Code-Game-Studios",
+        "href": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+        "source": "GitHub"
+      }
+    },
+    "badge-devtools-1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      }
+    },
+    "text-devtools-1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "★ 538 today (28.8k total) · Shell",
+        "variant": "caption"
+      }
+    },
+    "devtools-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Routes game dev roles (art director, writer, QA) to 49 specialized agents so one dev runs the full studio pipeline."
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 4/11",
+        "variant": "muted"
+      }
+    }
+  }
+}
