@@ -1,0 +1,294 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-10-29"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-hype",
+        "sep1",
+        "section-market",
+        "sep2",
+        "section-footer"
+      ]
+    },
+    "section-hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-hype",
+        "stack-header-hype",
+        "grid-metrics-hype",
+        "text-score",
+        "text-catalyst",
+        "alert-risk-hype",
+        "text-dedup"
+      ]
+    },
+    "heading-hype": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: HYPE",
+        "level": "h2"
+      }
+    },
+    "stack-header-hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-high",
+        "stat-signal"
+      ]
+    },
+    "badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "stat-signal": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "10/10"
+      }
+    },
+    "grid-metrics-hype": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-price",
+        "stat-mcap",
+        "stat-vol",
+        "stat-vol-ratio"
+      ]
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$94.73",
+        "delta": "+17.97% (24h) / +23.05% (7d)",
+        "trend": "up"
+      }
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$22.7B"
+      }
+    },
+    "stat-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$2.4B"
+      }
+    },
+    "stat-vol-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol / Mcap",
+        "value": "0.104"
+      }
+    },
+    "text-score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [trending+2, both>5%+2, above0+2, vol/mcap≥0.10+2, RS vs BTC/ETH+2] = 10/10",
+        "variant": "caption"
+      }
+    },
+    "text-catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: Two US-listed Hyperliquid ETFs launched (Bitwise BHYP on NYSE + 21Shares THYP on Nasdaq), with Coinbase named official USDC treasury deployer on Hyperliquid — fresh institutional on-ramps driving demand."
+      }
+    },
+    "alert-risk-hype": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "October unlock of 9.92M HYPE (~$940M at current price) — vested contributors selling into the ETF rally could trigger a sharp reversal.",
+        "type": "warning"
+      }
+    },
+    "text-dedup": {
+      "type": "Text",
+      "props": {
+        "text": "Status: first appearance in dedup log",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-market",
+        "stack-header-market",
+        "grid-odds",
+        "text-fair",
+        "text-thesis",
+        "alert-risk-market"
+      ]
+    },
+    "heading-market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Balance of Power: 2026 Midterms — Democrats Sweep?",
+        "level": "h2"
+      }
+    },
+    "stack-header-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-medium",
+        "stat-edge"
+      ]
+    },
+    "badge-medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      }
+    },
+    "stat-edge": {
+      "type": "Stat",
+      "props": {
+        "label": "Edge",
+        "value": "5pp"
+      }
+    },
+    "grid-odds": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-yes",
+        "stat-no",
+        "stat-vol-market",
+        "stat-resolve"
+      ]
+    },
+    "stat-yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES Odds",
+        "value": "67¢"
+      }
+    },
+    "stat-no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO Odds",
+        "value": "33¢"
+      }
+    },
+    "stat-vol-market": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$3M"
+      }
+    },
+    "stat-resolve": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolves",
+        "value": "~2026-11-03"
+      }
+    },
+    "text-fair": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~62% (inputs: Dave Manuel model Oct 24 [94.7% House, 62.1% Senate], Kalshi Oct 16 [90% House, 63% Senate], joint probability with correlation ≈ 62%)",
+        "variant": "caption"
+      }
+    },
+    "text-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: Buy NO at 33¢ — Senate uncertainty (62%) is the binding constraint; the bundled sweep price at 67¢ overpays for House certainty (92%), inflating sweep odds ~5pp above fundamentals."
+      }
+    },
+    "alert-risk-market": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Late polling surge for Democrats in Senate toss-ups (AZ, PA, MI) could push true sweep probability above 67%, invalidating the NO thesis.",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-sources",
+        "text-disclaimer"
+      ]
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok",
+        "variant": "muted"
+      }
+    },
+    "text-disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "⚠️ not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
