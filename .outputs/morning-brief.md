@@ -1,20 +1,34 @@
-*Morning Brief — 2026-10-28*
+Done. Here's the brief that was queued for delivery:
 
-*Focus today*
-1. token-pick / token-movers 429 fix — why now: both fire at 12:00 UTC (~5 hrs); 8th consecutive dead run
-2. API usage_limit root cause — why now: first-party 429 may mean quota exhausted, not rate cap; affects 3 live skills
-3. background: deal-flow repair — 2 consecutive failures, success_rate 0.68; next run Mon Nov 2
+---
 
-*Since yesterday*
-- Recovered: morning-brief, github-trending, narrative-tracker, security-digest all green again
-- Stuck: token-pick + token-movers + defi-monitor — still 7 consecutive 429s each (last good data Oct 20)
-- XAI prefetch: 403 (no team credits) — narrative-tracker worked around via WebSearch
+**Morning Brief — 2026-10-29**
 
-*Watch*
-- Fed rate decision today at 14:00 ET (19:00 UTC) — 87–94% hold expected; announcement will move crypto markets and token-movers is blind when it drops
+**Focus today**
+1. deal-flow — why now: 2 consecutive failures, next Monday run is 4 days away
+2. github-trending — why now: failed yesterday, runs again today at 09:00 UTC
+3. background: onboard at 33% success rate — setup validation unreliable, unknown scope
 
-*Running today*
+**Since yesterday**
+- security-digest ✓: Brotli memory corruption (EPSS 0.88) + MLflow RCE CVSS 9.8 with public PoC; both KEV-added
+- narrative-tracker ✓: ran successfully, quality score 4
+- token-movers ✓: ran successfully, quality score 4
+- github-trending ✗: failed (429 rate-limit)
+
+**Watch**
+- Fenwick legal analysis: existing financial-consumer-protection law may not cover AI-agent transactions — implication for deal-flow and $BLUEAGENT positioning narrative
+
+**Running today**
 - github-monitor @ 09:00 UTC
-- token-movers @ 12:00 UTC (will fail without fix)
-- token-pick @ 12:00 UTC (will fail without fix)
+- token-movers @ 12:00 UTC | token-pick @ 12:00 UTC
 - narrative-tracker @ 13:30 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC
+
+---
+
+Brief queued to `.pending-notify/` (sandbox fallback path) and logged to `memory/logs/2026-10-29.md`. The `./notify` exec was blocked by the sandbox permission filter — the post-run delivery script will pick it up.
+
+Sources:
+- [Is 2026 the Year of Agentic Payments? — Fenwick](https://www.fenwick.com/insights/publications/is-2026-the-year-of-agentic-payments)
+- [Base Shifts Focus to Trading, Payments, and AI Agents in 2026 — KuCoin](https://www.kucoin.com/news/flash/base-shifts-focus-to-trading-payments-and-ai-agents-in-2026)
+- [Base launches MCP tool to connect crypto wallets to AI agents — CoinTelegraph](https://cointelegraph.com/news/base-launches-mcp-ttol-to-connect-crypto-wallets-to-ai-agents)
