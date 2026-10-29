@@ -1,0 +1,732 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-10-29",
+        "description": "2 actively exploited (KEV), 5 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "stack-patch-today",
+        "sep-1",
+        "stack-patch-week",
+        "sep-2",
+        "stack-monitor"
+      ]
+    },
+    "stack-patch-today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-patch-today",
+        "stack-cve-46300",
+        "stack-cve-41709"
+      ]
+    },
+    "heading-patch-today": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "stack-cve-46300": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-cve-46300",
+        "badges-46300",
+        "text-46300-desc",
+        "text-46300-action"
+      ]
+    },
+    "link-cve-46300": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-46300",
+        "href": "https://www.cve.org/CVERecord?id=CVE-2026-46300",
+        "source": "Linux Kernel"
+      }
+    },
+    "badges-46300": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-46300",
+        "badge-epss-46300"
+      ]
+    },
+    "badge-kev-46300": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-10-28",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-46300": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.16",
+        "variant": "secondary"
+      }
+    },
+    "text-46300-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Missing var init in socket buffer coalescing; chained with 2 other CVEs to implant PHP webshells and run as root. Actively exploited.",
+        "variant": "body"
+      }
+    },
+    "text-46300-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply kernel vendor patch immediately; triage hosts for signs of webshell implant.",
+        "variant": "muted"
+      }
+    },
+    "stack-cve-41709": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-cve-41709",
+        "badges-41709",
+        "text-41709-desc",
+        "text-41709-action"
+      ]
+    },
+    "link-cve-41709": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-41709",
+        "href": "https://www.cve.org/CVERecord?id=CVE-2026-41709",
+        "source": "Broadcom VMware ESX"
+      }
+    },
+    "badges-41709": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-41709",
+        "badge-epss-41709"
+      ]
+    },
+    "badge-kev-41709": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV added 2026-10-28",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-41709": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.008",
+        "variant": "secondary"
+      }
+    },
+    "text-41709-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Admin-level ops run without audit log entries — forensic blind spot under active exploitation.",
+        "variant": "body"
+      }
+    },
+    "text-41709-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply VMware patch per CISA BOD 26-04; verify audit log integrity on affected hosts.",
+        "variant": "muted"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-patch-week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-patch-week",
+        "stack-ghsa-mghf",
+        "stack-ghsa-84c9",
+        "stack-ghsa-v9pv",
+        "stack-ghsa-h3rc",
+        "stack-ghsa-3f7j"
+      ]
+    },
+    "heading-patch-week": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "stack-ghsa-mghf": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ghsa-mghf",
+        "badges-mghf",
+        "text-mghf-desc",
+        "text-mghf-action"
+      ]
+    },
+    "link-ghsa-mghf": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-mghf-wjfp-p5xm",
+        "href": "https://github.com/advisories/GHSA-mghf-wjfp-p5xm",
+        "source": "wasmtime (crates.io)"
+      }
+    },
+    "badges-mghf": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-mghf",
+        "badge-epss-mghf",
+        "badge-poc-mghf"
+      ]
+    },
+    "badge-cvss-mghf": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.9",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-mghf": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.01",
+        "variant": "secondary"
+      }
+    },
+    "badge-poc-mghf": {
+      "type": "Badge",
+      "props": {
+        "text": "no public PoC",
+        "variant": "outline"
+      }
+    },
+    "text-mghf-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cranelift aarch64 backend jumps to wrong target on large br_table — silent miscompilation, sandbox escape.",
+        "variant": "body"
+      }
+    },
+    "text-mghf-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade wasmtime to ≥36.0.19 / ≥48.0.7 / ≥49.0.4 per installed branch.",
+        "variant": "muted"
+      }
+    },
+    "stack-ghsa-84c9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ghsa-84c9",
+        "badges-84c9",
+        "text-84c9-desc",
+        "text-84c9-action"
+      ]
+    },
+    "link-ghsa-84c9": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-84c9-qqpq-2pq5 + GHSA-pqh8-4pj7-32xx",
+        "href": "https://github.com/advisories/GHSA-84c9-qqpq-2pq5"
+      }
+    },
+    "badges-84c9": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-source-84c9",
+        "badge-cvss-84c9",
+        "badge-epss-84c9"
+      ]
+    },
+    "badge-source-84c9": {
+      "type": "Badge",
+      "props": {
+        "text": "obsidian-tc (npm)",
+        "variant": "secondary"
+      }
+    },
+    "badge-cvss-84c9": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.9/9.6",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-84c9": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.003/0.002",
+        "variant": "secondary"
+      }
+    },
+    "text-84c9-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Token auth bypass lets attacker read arbitrary vaults; DNS rebinding widens attack surface.",
+        "variant": "body"
+      }
+    },
+    "text-84c9-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade obsidian-tc to ≥1.3.1.",
+        "variant": "muted"
+      }
+    },
+    "stack-ghsa-v9pv": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ghsa-v9pv",
+        "badges-v9pv",
+        "text-v9pv-desc",
+        "text-v9pv-action"
+      ]
+    },
+    "link-ghsa-v9pv": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-v9pv-5gc8-w2m6",
+        "href": "https://github.com/advisories/GHSA-v9pv-5gc8-w2m6",
+        "source": "Pillow (pip)"
+      }
+    },
+    "badges-v9pv": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-v9pv",
+        "badge-epss-v9pv",
+        "badge-poc-v9pv"
+      ]
+    },
+    "badge-cvss-v9pv": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-v9pv": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.007",
+        "variant": "secondary"
+      }
+    },
+    "badge-poc-v9pv": {
+      "type": "Badge",
+      "props": {
+        "text": "no public PoC",
+        "variant": "outline"
+      }
+    },
+    "text-v9pv-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-frame loaders reuse stale native image storage after mode transitions — memory corruption, potential RCE.",
+        "variant": "body"
+      }
+    },
+    "text-v9pv-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade Pillow to ≥13.0.0.",
+        "variant": "muted"
+      }
+    },
+    "stack-ghsa-h3rc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ghsa-h3rc",
+        "badges-h3rc",
+        "text-h3rc-desc",
+        "text-h3rc-action"
+      ]
+    },
+    "link-ghsa-h3rc": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-h3rc-j82p-2c3h",
+        "href": "https://github.com/advisories/GHSA-h3rc-j82p-2c3h",
+        "source": "vLLM (pip)"
+      }
+    },
+    "badges-h3rc": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-h3rc",
+        "badge-epss-h3rc",
+        "badge-poc-h3rc"
+      ]
+    },
+    "badge-cvss-h3rc": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.1",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-h3rc": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.007",
+        "variant": "secondary"
+      }
+    },
+    "badge-poc-h3rc": {
+      "type": "Badge",
+      "props": {
+        "text": "no public PoC",
+        "variant": "outline"
+      }
+    },
+    "text-h3rc-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Untrusted EPS input triggers Ghostscript RCE or DoS on inference servers.",
+        "variant": "body"
+      }
+    },
+    "text-h3rc-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade vllm to ≥0.32.0 (also fixes GHSA-6757-hggm-hp2w SHM pickle forgery).",
+        "variant": "muted"
+      }
+    },
+    "stack-ghsa-3f7j": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ghsa-3f7j",
+        "badges-3f7j",
+        "text-3f7j-desc",
+        "text-3f7j-action"
+      ]
+    },
+    "link-ghsa-3f7j": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-3f7j-7jwc-fxfj",
+        "href": "https://github.com/advisories/GHSA-3f7j-7jwc-fxfj",
+        "source": "systeminformation (npm)"
+      }
+    },
+    "badges-3f7j": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-3f7j",
+        "badge-epss-3f7j"
+      ]
+    },
+    "badge-cvss-3f7j": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.8",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-3f7j": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.001",
+        "variant": "secondary"
+      }
+    },
+    "text-3f7j-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unicode quotation marks bypass Windows command-injection protections in services().",
+        "variant": "body"
+      }
+    },
+    "text-3f7j-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade systeminformation to ≥5.33.16.",
+        "variant": "muted"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading-monitor",
+        "stack-ghsa-f8c7",
+        "stack-ghsa-c8p4",
+        "stack-ghsa-6757"
+      ]
+    },
+    "heading-monitor": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "stack-ghsa-f8c7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ghsa-f8c7",
+        "badges-f8c7",
+        "text-f8c7-desc",
+        "text-f8c7-action"
+      ]
+    },
+    "link-ghsa-f8c7": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-f8c7-rwf9-fmgm + GHSA-rv4m-xm3f-3ccq",
+        "href": "https://github.com/advisories/GHSA-f8c7-rwf9-fmgm",
+        "source": "mercury (pip)"
+      }
+    },
+    "badges-f8c7": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-f8c7",
+        "badge-patch-f8c7"
+      ]
+    },
+    "badge-cvss-f8c7": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 10.0/9.8",
+        "variant": "destructive"
+      }
+    },
+    "badge-patch-f8c7": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch yet",
+        "variant": "outline"
+      }
+    },
+    "text-f8c7-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated RCE via /api/terminals and /api/kernels on notebook server.",
+        "variant": "body"
+      }
+    },
+    "text-f8c7-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ watch for ≥3.2.4/3.2.6 release; block external access now.",
+        "variant": "muted"
+      }
+    },
+    "stack-ghsa-c8p4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ghsa-c8p4",
+        "badges-c8p4",
+        "text-c8p4-desc",
+        "text-c8p4-action"
+      ]
+    },
+    "link-ghsa-c8p4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-c8p4-j97h-3vg8",
+        "href": "https://github.com/advisories/GHSA-c8p4-j97h-3vg8",
+        "source": "happy-dom (npm)"
+      }
+    },
+    "badges-c8p4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-c8p4",
+        "badge-patch-c8p4",
+        "badge-epss-c8p4"
+      ]
+    },
+    "badge-cvss-c8p4": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 8.6",
+        "variant": "destructive"
+      }
+    },
+    "badge-patch-c8p4": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch yet",
+        "variant": "outline"
+      }
+    },
+    "badge-epss-c8p4": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.004",
+        "variant": "secondary"
+      }
+    },
+    "text-c8p4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "SSRF via iframe and link stylesheet when parsing untrusted HTML.",
+        "variant": "body"
+      }
+    },
+    "text-c8p4-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ track issue; sanitize untrusted HTML before passing to happy-dom.",
+        "variant": "muted"
+      }
+    },
+    "stack-ghsa-6757": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ghsa-6757",
+        "badges-6757",
+        "text-6757-desc",
+        "text-6757-action"
+      ]
+    },
+    "link-ghsa-6757": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-6757-hggm-hp2w",
+        "href": "https://github.com/advisories/GHSA-6757-hggm-hp2w",
+        "source": "vLLM (pip)"
+      }
+    },
+    "badges-6757": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-6757",
+        "badge-epss-6757"
+      ]
+    },
+    "badge-cvss-6757": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "destructive"
+      }
+    },
+    "badge-epss-6757": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.005",
+        "variant": "secondary"
+      }
+    },
+    "text-6757-desc": {
+      "type": "Text",
+      "props": {
+        "text": "SHM handle forgery reaches pickle.loads() in worker.",
+        "variant": "body"
+      }
+    },
+    "text-6757-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ resolved by vllm ≥0.32.0 (see PATCH THIS WEEK).",
+        "variant": "muted"
+      }
+    }
+  }
+}
