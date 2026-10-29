@@ -1,26 +1,24 @@
-*Narrative Tracker — 2026-10-28*
+*Narrative Tracker — 2026-10-29*
 
 TRANSITIONS
-• DEMOTED: AI Agents × x402 Peak → Fading — 71% alts red today confirmed sell-the-news post-Coinbase perps launch Oct 21; velocity ↓; mainstream saturation without price support
-• PROMOTED: China AI Bubble / Risk-off Emerging → Rising — today's alts bleed (−1.2% median) correlating with $480B China AI equity selloff; Fed rate decision 14:00 ET (87–94% hold) is live contingency — hold could snap risk-off
-• NEW: Meme Launchpads (Robinhood Chain / PONS) — PONS +10.96% on $57.7M vol today, CG trending, Robinhood Chain launchpad thesis surfacing
-• DEAD: DePIN — zero signals, confirmed gone
-• DEAD: Institutional ETF Flows — $635M outflow Oct 22 already priced, dropped from all signals
+• RECONSIDERATION: AI Agents × Payments — called FADE Oct-27; Mastercard Agent Pay (Fortune Oct-26) + Jordi Visser "app store for crypto" (CoinTelegraph Oct-27) re-accelerates; upgrading to RIDE
+• PROMOTED: Crypto-vs-AI-Stocks Rotation Emerging → Rising — Wall Street veteran Jordi Visser public + AI stock crowded trade cooling; crypto as the rotation play
+• PROMOTED: Institutional Onchain Rails Rising → Peak — DTCC launched blockchain securities with JPMorgan, Citi, Morgan Stanley signed
+• NEW: Fed Hold Surprise — rates held Oct-28 vs 70%+ hike probability; BTC/ETH no reaction yet; watch for delayed move
+• DEAD: DePIN — absent 3rd consecutive run; calling it dead
 
 REFLEXIVITY ALERT
-• China AI Risk-off — $480B China AI equity selloff now being cited to reduce AI token exposure broadly; narrative moving portfolio allocation, not just commentary
-• PONS / Meme Launchpads — CG trending drove volume → drove more trending; $57.7M vol partly self-referential
+• AI Agents × Payments — Mastercard "turning point" quote (Oct-26) landed same cycle as recycled Oct-14 Chainalysis x402 data still syndicated as new. 90.8% of x402 txs under 1¢. Mastercard Agent Pay is a real commercial product; the adoption stats are not.
 
 POSITIONS
-• FADE: AI Agents × x402 (5 ↓, Cope) — @Coinbase @Chainalysis — sell-the-news confirmed; no contrarian edge
-• RIDE: PayFi / Stablecoin Rails (3 →, Bull) — Ripple/XRPN, Remittix, Visa — competing protocols fragment liquidity; still building
-• WATCH: China AI Risk-off (3 ↑, Bear) — Macro analysts — Fed hold today could reverse; AI tokens first to bounce if risk-on
-• WATCH: Meme Launchpads/PONS (2 ↑, Mixed) — Robinhood Chain team — 3rd wave launchpad; pure reflexivity, no fundamental floor
-• WATCH: AI-Native L1s (Sei/Kite/NEAR) (2 →, Bull) — Sei/Kite teams — rebrand risk; flat under risk-off
+• FRONT-RUN: Crypto-vs-AI-Stocks Rotation (mindshare 3 ↑↑, Bull) — @JordiVisser, TokenPost — Bear: crypto underperformed AI stocks 3 yrs; regime-change is reflexive
+• RIDE: Institutional Onchain Rails (mindshare 4 ↑, Bull) — DTCC, Ripple/Robinhood — Bear: DTCC pilot ≠ adoption; chain fragmentation unresolved
+• RIDE: AI Agents × Payments (mindshare 5 ↑, Bull) — Mastercard Agent Pay, Coinbase x402 — Bear: 90.8% txs under 1¢; volume is automation noise
+• WATCH: Bitcoin Seasonality / Fed Hold (mindshare 3, Mixed) — Fed hold surprise; BTC down 4.1% MTD; "Uptober" still weak
+• FADE: Ethereum Glamsterdam (mindshare 2 ↓, Mixed) — no mainnet date, no catalyst
 
 MAP
-Emerging: Meme Launchpads (PONS), AI-Native L1s (Sei/Kite/NEAR)
-Rising: PayFi / Stablecoin Rails, China AI Bubble / Risk-off
-Peak: —
-Fading: AI Agents × x402, Ethereum Glamsterdam
-Dead: Institutional ETF Flows, DePIN
+Emerging: AI-Native L1s
+Rising: Crypto-vs-AI-Stocks Rotation, AI Agents × Payments
+Peak: Institutional Onchain Rails
+Fading: Ethereum Glamsterdam, Bitcoin "Uptober"
