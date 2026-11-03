@@ -1,17 +1,17 @@
-*Daily Pick — 2026-10-29*
+*Daily Pick — 2026-11-03*
 
-*Token: HYPE* [HIGH] signal 10/10
-Price: $94.73 (+17.97% 24h / +23.05% 7d) | mcap $22.7B | vol $2.4B (vol/mcap 0.104)
-Score breakdown: [trending+2, both>5%+2, above0+2, vol/mcap≥0.10+2, RS vs BTC/ETH+2] = 10/10
-Catalyst: Two US-listed Hyperliquid ETFs launched (Bitwise BHYP on NYSE + 21Shares THYP on Nasdaq), with Coinbase named official USDC treasury deployer on Hyperliquid — fresh institutional on-ramps driving demand.
-Risk: October unlock of 9.92M HYPE (~$940M at current price) — vested contributors selling into the ETF rally could trigger a sharp reversal.
-Vs recent picks: first appearance in dedup log.
+*Token: ZRO*  [HIGH]  signal 10/10
+Price: $1.88 (+8.80% 24h / +11.79% 7d) | mcap $751M | vol $76.1M (vol/mcap 0.10)
+Score breakdown: [trending+2, vol/mcap+2, RS vs BTC/ETH+2, both>5%+2, +24h+1, +7d+1] = 10/10
+Catalyst: Zero mainnet + ATLAS exchange infrastructure launch targeting Nov 30 — backed by Citadel Securities/DTCC; ZRO buyback-and-burn at 75% of protocol fees creates structural demand pressure ahead of go-live
+Risk: ~23.6M ZRO unlock (Oct 20) creates supply overhang; April 2026 Kelp DAO exploit ($292M) drove protocol migration away from LayerZero — trust rebuild risk
+Vs recent picks: first time picked
 
-*Market: "Balance of Power: 2026 Midterms — Democrats Sweep?"* [MEDIUM] edge 5pp
-Current: YES 67¢ / NO 33¢ | 24h vol $3M | resolves: ~2026-11-03
-Fair YES: ~62% (inputs: Dave Manuel model Oct 24 [94.7% House, 62.1% Senate], Kalshi Oct 16 [90% House, 63% Senate], joint probability with correlation ≈ 62%)
-Thesis: Buy NO at 33¢ — Senate uncertainty (62%) is the binding constraint; the bundled sweep price at 67¢ overpays for House certainty (92%), inflating sweep odds ~5pp above fundamentals.
-Risk: Late polling surge for Democrats in Senate toss-ups (AZ, PA, MI) could push true sweep probability above 67%, invalidating the NO thesis.
+*Market: "Will Bitcoin dip to $75,000 in November?"*  [MEDIUM]  edge 8.5pp
+Current: YES 70.5c / NO 29.5c | 24h vol $59k | resolves: 2026-12-01
+Fair YES: ~62% (inputs: BTC $77,657 today needs 3.4% further drop; BTC 7d: -3.68% already falling; BTC +1.02% today recovering on election volume)
+Thesis: NO is the play — market overprices the dip at 70.5%; election-day risk-on bounce and near-term support above $75K make the 30% NO too cheap
+Risk: Post-election macro selloff or BTC rejection at resistance could accelerate drop through $75K
 
 sources: cg=ok, dex=fail, poly=ok
 not financial advice — pattern-matching only
