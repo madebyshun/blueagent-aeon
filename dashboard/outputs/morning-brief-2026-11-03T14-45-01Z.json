@@ -1,0 +1,175 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-11-03"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "yesterday-section",
+        "sep2",
+        "today-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Diagnose mass skill failure — 8 skills failing 4 runs straight since Oct 29"
+      },
+      "children": []
+    },
+    "focus-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Confirm secrets still valid — zero-token errors point to auth or gateway break"
+      },
+      "children": []
+    },
+    "focus-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. background: deal-flow — success_rate 0.65, consecutive_failures 3; may be a separate issue"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-heading",
+        "yesterday-item-1",
+        "yesterday-item-2",
+        "yesterday-item-3"
+      ]
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Failed (Nov 2): morning-brief, token-movers, token-pick, narrative-tracker, security-digest, defi-monitor, deal-flow — identical zero-token error pattern"
+      },
+      "children": []
+    },
+    "yesterday-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "No yesterday log found — memory write likely blocked by same failure"
+      },
+      "children": []
+    },
+    "yesterday-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "0 open PRs; issues disabled on this repo"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "today-heading",
+        "today-item-1",
+        "today-item-2",
+        "today-item-3",
+        "today-item-4",
+        "today-item-5"
+      ]
+    },
+    "today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "today-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC"
+      },
+      "children": []
+    },
+    "today-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      },
+      "children": []
+    },
+    "today-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC"
+      },
+      "children": []
+    },
+    "today-item-4": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC"
+      },
+      "children": []
+    },
+    "today-item-5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC"
+      },
+      "children": []
+    }
+  }
+}
