@@ -1,0 +1,114 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-11-03"
+      },
+      "children": [
+        "header",
+        "separator",
+        "items"
+      ]
+    },
+    "header": {
+      "type": "Text",
+      "props": {
+        "text": "TRANSITIONS (no prior log baseline — all NEW this run)",
+        "variant": "caption"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item1",
+        "item2",
+        "item3"
+      ]
+    },
+    "item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item1-title",
+        "item1-desc"
+      ]
+    },
+    "item1-title": {
+      "type": "Heading",
+      "props": {
+        "text": "NEW: Binance Breach",
+        "level": "h3"
+      }
+    },
+    "item1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "largest crypto theft on record (TRM Labs); $643M BTC ETF outflows day-of; immediate sentiment drag"
+      }
+    },
+    "item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item2-title",
+        "item2-desc"
+      ]
+    },
+    "item2-title": {
+      "type": "Heading",
+      "props": {
+        "text": "NEW: BTC Macro/Midterms",
+        "level": "h3"
+      }
+    },
+    "item2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "BTC defending $76K on US midterm day; jobs report Nov 6 is next binary catalyst"
+      }
+    },
+    "item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item3-title",
+        "item3-desc"
+      ]
+    },
+    "item3-title": {
+      "type": "Heading",
+      "props": {
+        "text": "NEW: AI Agent Payments",
+        "level": "h3"
+      }
+    },
+    "item3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "BlackRock + Mastercard Agent"
+      }
+    }
+  }
+}
