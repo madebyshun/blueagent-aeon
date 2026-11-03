@@ -1,42 +1,49 @@
-*Security Digest — 2026-10-29*
-Verdict: 2 actively exploited (KEV), 5 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-11-03*
+Verdict: 3 actively exploited, 5 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- [CVE-2026-46300](https://www.cve.org/CVERecord?id=CVE-2026-46300) — Linux Kernel · KEV added 2026-10-28 · EPSS 0.16 · CVSS n/a
-  Missing var init in socket buffer coalescing; chained with 2 other CVEs to implant PHP webshells and run as root. Actively exploited.
-  → apply kernel vendor patch immediately; triage hosts for signs of webshell implant.
+- [CVE-2026-111497](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Google Brotli · KEV 2026-10-27 · EPSS 0.826 · CVSS N/A
+  Crafted compressed stream → memory corruption, data leak, possible RCE. Highest EPSS this cycle.
+  → upgrade brotli to latest patched version and redeploy.
 
-- [CVE-2026-41709](https://www.cve.org/CVERecord?id=CVE-2026-41709) — Broadcom VMware ESX · KEV added 2026-10-28 · EPSS 0.008 · CVSS n/a
-  Admin-level ops run without audit log entries — forensic blind spot under active exploitation.
-  → apply VMware patch per CISA BOD 26-04; verify audit log integrity on affected hosts.
+- [CVE-2026-48356](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Adobe Commerce/Magento · KEV 2026-10-27 · EPSS 0.446 · CVSS N/A
+  Unrestricted file upload → code execution in current user context.
+  → apply Adobe Commerce security patch and redeploy.
+
+- [CVE-2026-97229](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — GitLab CE/EE · KEV 2026-10-29 · EPSS 0.277 · CVSS N/A
+  Integer overflow in CI/CD regex → unauthenticated RCE on GitLab server.
+  → upgrade GitLab to latest patched release and redeploy.
 
 *PATCH THIS WEEK*
-- [GHSA-mghf-wjfp-p5xm](https://github.com/advisories/GHSA-mghf-wjfp-p5xm) — wasmtime (crates.io) · CVSS 9.9 · EPSS 0.01 · no public PoC
-  Cranelift aarch64 backend jumps to wrong target on large br_table — silent miscompilation, sandbox escape.
-  → upgrade wasmtime to ≥36.0.19 / ≥48.0.7 / ≥49.0.4 per installed branch.
+- [CVE-2026-46300](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Linux Kernel · KEV 2026-10-28 · EPSS 0.161 · CVSS N/A
+  Uninitialized variable in ESP processing chains to PHP webshell + root exec (CVE-2026-109618/109619).
+  → schedule kernel update and redeploy.
 
-- [GHSA-84c9-qqpq-2pq5](https://github.com/advisories/GHSA-84c9-qqpq-2pq5) + [GHSA-pqh8-4pj7-32xx](https://github.com/advisories/GHSA-pqh8-4pj7-32xx) — obsidian-tc (npm) · CVSS 9.9/9.6 · EPSS 0.003/0.002
-  Token auth bypass lets attacker read arbitrary vaults; DNS rebinding widens attack surface.
-  → upgrade obsidian-tc to ≥1.3.1.
+- [CVE-2026-119977](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — WordPress Core · KEV 2026-11-03 · EPSS 0.006 · CVSS N/A
+  TOCTOU race during full-package upgrade → unauthenticated RCE. Added to KEV today.
+  → schedule WordPress core upgrade and redeploy.
 
-- [GHSA-v9pv-5gc8-w2m6](https://github.com/advisories/GHSA-v9pv-5gc8-w2m6) — Pillow (pip) · CVSS 9.8 · EPSS 0.007 · no public PoC
-  Multi-frame loaders reuse stale native image storage after mode transitions — memory corruption, potential RCE.
-  → upgrade Pillow to ≥13.0.0.
+- [CVE-2026-118527](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) + [CVE-2026-111357](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Ivanti Connect Secure · KEV 2026-10-30 · EPSS 0.005 · CVSS N/A
+  Predictable identifiers + missing auth check → file plant to known disk path + local privesc. Full compromise chain.
+  → apply Ivanti Connect Secure vendor patches.
 
-- [GHSA-h3rc-j82p-2c3h](https://github.com/advisories/GHSA-h3rc-j82p-2c3h) — vLLM (pip) · CVSS 8.1 · EPSS 0.007 · no public PoC
-  Untrusted EPS input triggers Ghostscript RCE or DoS on inference servers.
-  → upgrade vllm to ≥0.32.0 (also fixes GHSA-6757-hggm-hp2w SHM pickle forgery).
+- [GHSA-26p8-2jq9-3vq9](https://github.com/advisories/GHSA-26p8-2jq9-3vq9) — mlflow (pip) · CVSS 9.8 · EPSS 0.007 · no public PoC
+  Third-party scorer deserialization → unauthenticated RCE on exposed MLflow servers.
+  → upgrade mlflow to ≥3.17.0.
 
-- [GHSA-3f7j-7jwc-fxfj](https://github.com/advisories/GHSA-3f7j-7jwc-fxfj) — systeminformation (npm) · CVSS 7.8 · EPSS 0.001
-  Unicode quotation marks bypass Windows command-injection protections in services().
-  → upgrade systeminformation to ≥5.33.16.
+- [GHSA-4xm8-rg9h-jhq2](https://github.com/advisories/GHSA-4xm8-rg9h-jhq2) — signalk-server (npm) · CVSS 9.8 · EPSS N/A · no public PoC
+  Path traversal in resources API discloses JWT signing secret → RCE.
+  → upgrade signalk-server to ≥2.34.0 and @signalk/resources-provider to ≥1.5.3.
 
 *MONITOR*
-- [GHSA-f8c7-rwf9-fmgm](https://github.com/advisories/GHSA-f8c7-rwf9-fmgm) + [GHSA-rv4m-xm3f-3ccq](https://github.com/advisories/GHSA-rv4m-xm3f-3ccq) — mercury (pip) · CVSS 10.0/9.8 · no patch yet
-  Unauthenticated RCE via /api/terminals and /api/kernels on notebook server. → watch for ≥3.2.4/3.2.6 release; block external access now.
+- [GHSA-33r5-xmm8-v6x5](https://github.com/advisories/GHSA-33r5-xmm8-v6x5) — @enspirit/elo (npm) · CVSS 9.8 · EPSS N/A · no fix
+  Sandbox escape via .constructor chain → arbitrary Node.js/browser code exec. No patch yet.
+  → track GHSA-33r5-xmm8-v6x5; avoid user-supplied Elo input.
 
-- [GHSA-c8p4-j97h-3vg8](https://github.com/advisories/GHSA-c8p4-j97h-3vg8) — happy-dom (npm) · CVSS 8.6 · no patch yet · EPSS 0.004
-  SSRF via iframe and link stylesheet when parsing untrusted HTML. → track issue; sanitize untrusted HTML before passing to happy-dom.
+- [GHSA-f9j6-8p6x-r9j6](https://github.com/advisories/GHSA-f9j6-8p6x-r9j6) — @sd-jwt/core (npm) · CVSS N/A (high) · EPSS N/A · no fix
+  Tampered SD-JWT disclosures silently dropped — verification bypass for selective disclosure claims.
+  → track GHSA-f9j6-8p6x-r9j6; no patch yet.
 
-- [GHSA-6757-hggm-hp2w](https://github.com/advisories/GHSA-6757-hggm-hp2w) — vLLM (pip) · CVSS 7.5 · EPSS 0.005
-  SHM handle forgery reaches pickle.loads() in worker. → resolved by vllm ≥0.32.0 (see PATCH THIS WEEK).
+- [GHSA-hff9-5pqw-6w9f](https://github.com/advisories/GHSA-hff9-5pqw-6w9f) — imgproxy (Go) · CVSS 9.8 · EPSS N/A · fix at 4.0.16
+  ICO loader integer overflow → DoS and possible RCE on imgproxy v4.0.x.
+  → upgrade imgproxy to ≥4.0.16.

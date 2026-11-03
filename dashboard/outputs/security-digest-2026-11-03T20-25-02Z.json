@@ -1,0 +1,827 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-11-03",
+        "description": "3 actively exploited, 5 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "verdict_text",
+        "sep_1",
+        "patch_today_heading",
+        "patch_today_stack",
+        "sep_2",
+        "patch_week_heading",
+        "patch_week_stack",
+        "sep_3",
+        "monitor_heading",
+        "monitor_stack"
+      ]
+    },
+    "verdict_text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 3 actively exploited, 5 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_today_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "patch_today_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve_111497",
+        "cve_48356",
+        "cve_97229"
+      ]
+    },
+    "cve_111497": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_111497_header",
+        "cve_111497_meta",
+        "cve_111497_desc",
+        "cve_111497_action"
+      ]
+    },
+    "cve_111497_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve_111497_link",
+        "cve_111497_product",
+        "cve_111497_kev_badge",
+        "cve_111497_epss"
+      ]
+    },
+    "cve_111497_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-111497",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      }
+    },
+    "cve_111497_product": {
+      "type": "Text",
+      "props": {
+        "text": "Google Brotli"
+      }
+    },
+    "cve_111497_kev_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-10-27",
+        "variant": "destructive"
+      }
+    },
+    "cve_111497_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.826"
+      }
+    },
+    "cve_111497_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Crafted compressed stream → memory corruption, data leak, possible RCE. Highest EPSS this cycle.",
+        "variant": "body"
+      }
+    },
+    "cve_111497_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Highest priority vulnerability in this cycle.",
+        "variant": "muted"
+      }
+    },
+    "cve_111497_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade brotli to latest patched version and redeploy.",
+        "variant": "caption"
+      }
+    },
+    "cve_48356": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_48356_header",
+        "cve_48356_meta",
+        "cve_48356_action"
+      ]
+    },
+    "cve_48356_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve_48356_link",
+        "cve_48356_product",
+        "cve_48356_kev_badge",
+        "cve_48356_epss"
+      ]
+    },
+    "cve_48356_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-48356",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      }
+    },
+    "cve_48356_product": {
+      "type": "Text",
+      "props": {
+        "text": "Adobe Commerce/Magento"
+      }
+    },
+    "cve_48356_kev_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-10-27",
+        "variant": "destructive"
+      }
+    },
+    "cve_48356_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.446"
+      }
+    },
+    "cve_48356_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Unrestricted file upload → code execution in current user context.",
+        "variant": "body"
+      }
+    },
+    "cve_48356_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Adobe Commerce security patch and redeploy.",
+        "variant": "caption"
+      }
+    },
+    "cve_97229": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_97229_header",
+        "cve_97229_meta",
+        "cve_97229_action"
+      ]
+    },
+    "cve_97229_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve_97229_link",
+        "cve_97229_product",
+        "cve_97229_kev_badge",
+        "cve_97229_epss"
+      ]
+    },
+    "cve_97229_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-97229",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      }
+    },
+    "cve_97229_product": {
+      "type": "Text",
+      "props": {
+        "text": "GitLab CE/EE"
+      }
+    },
+    "cve_97229_kev_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-10-29",
+        "variant": "destructive"
+      }
+    },
+    "cve_97229_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.277"
+      }
+    },
+    "cve_97229_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Integer overflow in CI/CD regex → unauthenticated RCE on GitLab server.",
+        "variant": "body"
+      }
+    },
+    "cve_97229_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade GitLab to latest patched release and redeploy.",
+        "variant": "caption"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch_week_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "patch_week_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve_46300",
+        "cve_119977",
+        "cve_118527",
+        "ghsa_26p8",
+        "ghsa_4xm8"
+      ]
+    },
+    "cve_46300": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_46300_header",
+        "cve_46300_meta",
+        "cve_46300_action"
+      ]
+    },
+    "cve_46300_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve_46300_link",
+        "cve_46300_product",
+        "cve_46300_kev_badge",
+        "cve_46300_epss"
+      ]
+    },
+    "cve_46300_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-46300",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      }
+    },
+    "cve_46300_product": {
+      "type": "Text",
+      "props": {
+        "text": "Linux Kernel"
+      }
+    },
+    "cve_46300_kev_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-10-28",
+        "variant": "secondary"
+      }
+    },
+    "cve_46300_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.161"
+      }
+    },
+    "cve_46300_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Uninitialized variable in ESP processing chains to PHP webshell + root exec (CVE-2026-109618/109619).",
+        "variant": "body"
+      }
+    },
+    "cve_46300_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule kernel update and redeploy.",
+        "variant": "caption"
+      }
+    },
+    "cve_119977": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_119977_header",
+        "cve_119977_meta",
+        "cve_119977_action"
+      ]
+    },
+    "cve_119977_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve_119977_link",
+        "cve_119977_product",
+        "cve_119977_kev_badge",
+        "cve_119977_epss"
+      ]
+    },
+    "cve_119977_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-119977",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      }
+    },
+    "cve_119977_product": {
+      "type": "Text",
+      "props": {
+        "text": "WordPress Core"
+      }
+    },
+    "cve_119977_kev_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-11-03",
+        "variant": "secondary"
+      }
+    },
+    "cve_119977_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.006"
+      }
+    },
+    "cve_119977_meta": {
+      "type": "Text",
+      "props": {
+        "text": "TOCTOU race during full-package upgrade → unauthenticated RCE. Added to KEV today.",
+        "variant": "body"
+      }
+    },
+    "cve_119977_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule WordPress core upgrade and redeploy.",
+        "variant": "caption"
+      }
+    },
+    "cve_118527": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve_118527_header",
+        "cve_118527_meta",
+        "cve_118527_action"
+      ]
+    },
+    "cve_118527_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "cve_118527_link",
+        "cve_111357_link",
+        "cve_118527_product",
+        "cve_118527_kev_badge",
+        "cve_118527_epss"
+      ]
+    },
+    "cve_118527_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-118527",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      }
+    },
+    "cve_111357_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-111357",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      }
+    },
+    "cve_118527_product": {
+      "type": "Text",
+      "props": {
+        "text": "Ivanti Connect Secure"
+      }
+    },
+    "cve_118527_kev_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-10-30",
+        "variant": "secondary"
+      }
+    },
+    "cve_118527_epss": {
+      "type": "Stat",
+      "props": {
+        "label": "EPSS",
+        "value": "0.005"
+      }
+    },
+    "cve_118527_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Predictable identifiers + missing auth check → file plant to known disk path + local privesc. Full compromise chain.",
+        "variant": "body"
+      }
+    },
+    "cve_118527_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Ivanti Connect Secure vendor patches.",
+        "variant": "caption"
+      }
+    },
+    "ghsa_26p8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_26p8_header",
+        "ghsa_26p8_meta",
+        "ghsa_26p8_action"
+      ]
+    },
+    "ghsa_26p8_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_26p8_link",
+        "ghsa_26p8_product",
+        "ghsa_26p8_cvss"
+      ]
+    },
+    "ghsa_26p8_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-26p8-2jq9-3vq9",
+        "href": "https://github.com/advisories/GHSA-26p8-2jq9-3vq9"
+      }
+    },
+    "ghsa_26p8_product": {
+      "type": "Text",
+      "props": {
+        "text": "mlflow (pip)"
+      }
+    },
+    "ghsa_26p8_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8",
+        "variant": "secondary"
+      }
+    },
+    "ghsa_26p8_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Third-party scorer deserialization → unauthenticated RCE on exposed MLflow servers. EPSS 0.007 · no public PoC",
+        "variant": "body"
+      }
+    },
+    "ghsa_26p8_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade mlflow to ≥3.17.0.",
+        "variant": "caption"
+      }
+    },
+    "ghsa_4xm8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_4xm8_header",
+        "ghsa_4xm8_meta",
+        "ghsa_4xm8_action"
+      ]
+    },
+    "ghsa_4xm8_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_4xm8_link",
+        "ghsa_4xm8_product",
+        "ghsa_4xm8_cvss"
+      ]
+    },
+    "ghsa_4xm8_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-4xm8-rg9h-jhq2",
+        "href": "https://github.com/advisories/GHSA-4xm8-rg9h-jhq2"
+      }
+    },
+    "ghsa_4xm8_product": {
+      "type": "Text",
+      "props": {
+        "text": "signalk-server (npm)"
+      }
+    },
+    "ghsa_4xm8_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8",
+        "variant": "secondary"
+      }
+    },
+    "ghsa_4xm8_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal in resources API discloses JWT signing secret → RCE. EPSS N/A · no public PoC",
+        "variant": "body"
+      }
+    },
+    "ghsa_4xm8_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade signalk-server to ≥2.34.0 and @signalk/resources-provider to ≥1.5.3.",
+        "variant": "caption"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "monitor_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_33r5",
+        "ghsa_f9j6",
+        "ghsa_hff9"
+      ]
+    },
+    "ghsa_33r5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_33r5_header",
+        "ghsa_33r5_meta",
+        "ghsa_33r5_action"
+      ]
+    },
+    "ghsa_33r5_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_33r5_link",
+        "ghsa_33r5_product",
+        "ghsa_33r5_status",
+        "ghsa_33r5_cvss"
+      ]
+    },
+    "ghsa_33r5_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-33r5-xmm8-v6x5",
+        "href": "https://github.com/advisories/GHSA-33r5-xmm8-v6x5"
+      }
+    },
+    "ghsa_33r5_product": {
+      "type": "Text",
+      "props": {
+        "text": "@enspirit/elo (npm)"
+      }
+    },
+    "ghsa_33r5_status": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "outline"
+      }
+    },
+    "ghsa_33r5_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8",
+        "variant": "secondary"
+      }
+    },
+    "ghsa_33r5_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Sandbox escape via .constructor chain → arbitrary Node.js/browser code exec. No patch yet. EPSS N/A",
+        "variant": "body"
+      }
+    },
+    "ghsa_33r5_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ track GHSA-33r5-xmm8-v6x5; avoid user-supplied Elo input.",
+        "variant": "caption"
+      }
+    },
+    "ghsa_f9j6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_f9j6_header",
+        "ghsa_f9j6_meta",
+        "ghsa_f9j6_action"
+      ]
+    },
+    "ghsa_f9j6_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_f9j6_link",
+        "ghsa_f9j6_product",
+        "ghsa_f9j6_status"
+      ]
+    },
+    "ghsa_f9j6_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-f9j6-8p6x-r9j6",
+        "href": "https://github.com/advisories/GHSA-f9j6-8p6x-r9j6"
+      }
+    },
+    "ghsa_f9j6_product": {
+      "type": "Text",
+      "props": {
+        "text": "@sd-jwt/core (npm)"
+      }
+    },
+    "ghsa_f9j6_status": {
+      "type": "Badge",
+      "props": {
+        "text": "no fix",
+        "variant": "outline"
+      }
+    },
+    "ghsa_f9j6_meta": {
+      "type": "Text",
+      "props": {
+        "text": "Tampered SD-JWT disclosures silently dropped — verification bypass for selective disclosure claims. CVSS N/A (high) · EPSS N/A",
+        "variant": "body"
+      }
+    },
+    "ghsa_f9j6_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ track GHSA-f9j6-8p6x-r9j6; no patch yet.",
+        "variant": "caption"
+      }
+    },
+    "ghsa_hff9": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa_hff9_header",
+        "ghsa_hff9_meta",
+        "ghsa_hff9_action"
+      ]
+    },
+    "ghsa_hff9_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa_hff9_link",
+        "ghsa_hff9_product",
+        "ghsa_hff9_fix",
+        "ghsa_hff9_cvss"
+      ]
+    },
+    "ghsa_hff9_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-hff9-5pqw-6w9f",
+        "href": "https://github.com/advisories/GHSA-hff9-5pqw-6w9f"
+      }
+    },
+    "ghsa_hff9_product": {
+      "type": "Text",
+      "props": {
+        "text": "imgproxy (Go)"
+      }
+    },
+    "ghsa_hff9_fix": {
+      "type": "Badge",
+      "props": {
+        "text": "fix at 4.0.16",
+        "variant": "outline"
+      }
+    },
+    "ghsa_hff9_cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.8",
+        "variant": "secondary"
+      }
+    },
+    "ghsa_hff9_meta": {
+      "type": "Text",
+      "props": {
+        "text": "ICO loader integer overflow → DoS and possible RCE on imgproxy v4.0.x. EPSS N/A",
+        "variant": "body"
+      }
+    },
+    "ghsa_hff9_action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade imgproxy to ≥4.0.16.",
+        "variant": "caption"
+      }
+    }
+  }
+}
