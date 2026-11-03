@@ -1,0 +1,439 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-11-03"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "intro-text",
+        "sep-1",
+        "heading-winners",
+        "table-winners",
+        "sep-2",
+        "heading-losers",
+        "table-losers",
+        "sep-3",
+        "heading-trending",
+        "table-trending",
+        "sep-4",
+        "heading-notable",
+        "stack-notable"
+      ]
+    },
+    "intro-text": {
+      "type": "Text",
+      "props": {
+        "text": "Broad green tape — ~80% of filtered top-100 coins up 24h, median ~+1.8%; alt rotation across DeFi and crosschain names, though most alts remain red on the week.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table-winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "Q (Quack AI)",
+            "$0.03046",
+            "+16.7%",
+            "−46.5%",
+            "−0.4%",
+            "$20M",
+            "#204",
+            ""
+          ],
+          [
+            "BR (Bedrock)",
+            "$0.4894",
+            "+15.4%",
+            "−2.9%",
+            "+1.1%",
+            "$4M",
+            "#209",
+            ""
+          ],
+          [
+            "KMNO (Kamino)",
+            "$0.03462",
+            "+15.2%",
+            "−15.6%",
+            "+0.8%",
+            "$19M",
+            "#164",
+            ""
+          ],
+          [
+            "RUNE (THORChain)",
+            "$0.6297",
+            "+14.5%",
+            "+1.8%",
+            "+1.7%",
+            "$35M",
+            "#160",
+            ""
+          ],
+          [
+            "PIEVERSE",
+            "$1.16",
+            "+12.6%",
+            "+15.1%",
+            "+0.1%",
+            "$18M",
+            "#129",
+            ""
+          ],
+          [
+            "LIT (Lighter)",
+            "$3.41",
+            "+11.3%",
+            "+10.6%",
+            "+1.7%",
+            "$115M",
+            "#80",
+            ""
+          ],
+          [
+            "FLUID (Fluid)",
+            "$2.01",
+            "+10.4%",
+            "−10.2%",
+            "+0.5%",
+            "$3.2M",
+            "#189",
+            ""
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.004292",
+            "+8.8%",
+            "−1.3%",
+            "−0.2%",
+            "$135M",
+            "#47",
+            ""
+          ],
+          [
+            "ZRO (LayerZero)",
+            "$1.88",
+            "+8.8%",
+            "+11.8%",
+            "−0.8%",
+            "$76M",
+            "#84",
+            "TRENDING+UP"
+          ],
+          [
+            "PYTH (Pyth Network)",
+            "$0.06667",
+            "+7.1%",
+            "−8.5%",
+            "−0.9%",
+            "$21M",
+            "#103",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table-losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Volume",
+          "Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "BEAM (Beam)",
+            "$0.004091",
+            "−10.3%",
+            "+22.6%",
+            "0.0%",
+            "$41M",
+            "#162",
+            ""
+          ],
+          [
+            "BTW (Bitway)",
+            "$1.012",
+            "−7.4%",
+            "−32.7%",
+            "−2.6%",
+            "$7.8M",
+            "#61",
+            ""
+          ],
+          [
+            "SHFL (Shuffle)",
+            "$0.3881",
+            "−6.5%",
+            "−16.4%",
+            "+0.1%",
+            "$4.3M",
+            "#171",
+            ""
+          ],
+          [
+            "XPL (Plasma)",
+            "$0.06383",
+            "−5.2%",
+            "−13.7%",
+            "−0.7%",
+            "$58M",
+            "#134",
+            ""
+          ],
+          [
+            "KAS (Kaspa)",
+            "$0.03088",
+            "−3.0%",
+            "−13.1%",
+            "−0.1%",
+            "$20M",
+            "#78",
+            "TRENDING+DOWN"
+          ],
+          [
+            "PEARL (Pearl)",
+            "$1.45",
+            "−2.4%",
+            "−15.3%",
+            "+1.2%",
+            "$12M",
+            "#101",
+            "TRENDING+DOWN"
+          ],
+          [
+            "OKB (OKB)",
+            "$107.99",
+            "−1.8%",
+            "−0.7%",
+            "−0.5%",
+            "$18M",
+            "#43",
+            ""
+          ],
+          [
+            "QNT (Quant)",
+            "$192.24",
+            "−1.6%",
+            "−2.6%",
+            "0.0%",
+            "$53M",
+            "#35",
+            ""
+          ],
+          [
+            "STX (Stacks)",
+            "$0.3244",
+            "−1.4%",
+            "+6.4%",
+            "−1.3%",
+            "$14M",
+            "#93",
+            ""
+          ],
+          [
+            "NEAR (NEAR Protocol)",
+            "$3.83",
+            "−1.2%",
+            "−16.9%",
+            "−0.2%",
+            "$533M",
+            "#21",
+            "TRENDING+DOWN"
+          ]
+        ]
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "table-trending": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "Change",
+          "Status"
+        ],
+        "rows": [
+          [
+            "SNOWMOON",
+            "#913",
+            "$0.01777",
+            "+555.0%",
+            "PUMP-RISK, MICROCAP"
+          ],
+          [
+            "SP (Super Pepe)",
+            "#869",
+            "$0.01927",
+            "+2537%",
+            "PUMP-RISK, MICROCAP"
+          ],
+          [
+            "DACITYCOIN (AudaCity)",
+            "#899",
+            "$0.01762",
+            "−23.3%",
+            "MICROCAP"
+          ],
+          [
+            "PEARL",
+            "#101",
+            "$1.46",
+            "−1.8%",
+            "TRENDING+DOWN"
+          ],
+          [
+            "PENGU (Pudgy Penguins)",
+            "#113",
+            "$0.007003",
+            "+0.3%",
+            ""
+          ],
+          [
+            "KNTQ (Kinetiq)",
+            "#196",
+            "$0.4912",
+            "+4.2%",
+            ""
+          ],
+          [
+            "NEAR",
+            "#21",
+            "$3.83",
+            "−1.1%",
+            "TRENDING+DOWN"
+          ]
+        ]
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "stack-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4",
+        "notable-5"
+      ]
+    },
+    "notable-1": {
+      "type": "Alert",
+      "props": {
+        "title": "ZRO",
+        "message": "Trending + up 8.8% with 7d +11.8% — sustained crosschain narrative move",
+        "type": "info"
+      }
+    },
+    "notable-2": {
+      "type": "Alert",
+      "props": {
+        "title": "SP (Super Pepe)",
+        "message": "+2537% trending with no real liquidity — extreme pump, manipulation likely",
+        "type": "warning"
+      }
+    },
+    "notable-3": {
+      "type": "Alert",
+      "props": {
+        "title": "SNOWMOON",
+        "message": "+555% trending, rank 913 — PUMP-RISK, avoid entirely",
+        "type": "error"
+      }
+    },
+    "notable-4": {
+      "type": "Alert",
+      "props": {
+        "title": "BEAM",
+        "message": "−10.3% against +22.6% 7d — sharp reversal from weekly highs, watch for follow-through",
+        "type": "warning"
+      }
+    },
+    "notable-5": {
+      "type": "Alert",
+      "props": {
+        "title": "BTW",
+        "message": "−32.7% on the week, −7.4% today — persistent distribution, no floor signal yet",
+        "type": "warning"
+      }
+    }
+  }
+}
