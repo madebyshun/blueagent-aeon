@@ -1,0 +1,262 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker",
+        "description": "2026-11-04"
+      },
+      "children": [
+        "transitions-heading",
+        "transitions-stack",
+        "sep1",
+        "reflexivity-heading",
+        "reflexivity-stack",
+        "sep2",
+        "positions-heading",
+        "positions-stack",
+        "sep3",
+        "map-heading",
+        "map-content"
+      ]
+    },
+    "transitions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      }
+    },
+    "transitions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trans-1",
+        "trans-2",
+        "trans-3",
+        "trans-4",
+        "trans-5",
+        "trans-6",
+        "trans-7",
+        "trans-8"
+      ]
+    },
+    "trans-1": {
+      "type": "Text",
+      "props": {
+        "text": "PROMOTED: Solana Breakpoint Emerging → Rising — 11 days out; dual catalyst (Breakpoint Nov 15 + 34.5% of AI agent x402 flows)"
+      }
+    },
+    "trans-2": {
+      "type": "Text",
+      "props": {
+        "text": "PROMOTED: HYPE Unlock Emerging → Rising — $923M supply event in 48h; sentiment flips Bear"
+      }
+    },
+    "trans-3": {
+      "type": "Text",
+      "props": {
+        "text": "PROMOTED: AI Agent Payments velocity → ↑ — Coinbase AI agent trading launches today (concrete product)"
+      }
+    },
+    "trans-4": {
+      "type": "Text",
+      "props": {
+        "text": "PROMOTED: Binance Breach Rising → Peak — Bloomberg frames as \"pro-crypto restart\"; velocity cools ↑↑ → →"
+      }
+    },
+    "trans-5": {
+      "type": "Text",
+      "props": {
+        "text": "DEMOTED: BTC Macro/Midterms → BTC Macro/Fed — midterms passed, renamed; mindshare 5→4"
+      }
+    },
+    "trans-6": {
+      "type": "Text",
+      "props": {
+        "text": "PROMOTED: InfoFi/Kaito Attention Markets WATCH → RIDE"
+      }
+    },
+    "trans-7": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: Regulation Clarity Wave — Ripple OCC trust bank approved + CFTC clears stock perpetuals (Nov 3)"
+      }
+    },
+    "trans-8": {
+      "type": "Text",
+      "props": {
+        "text": "NEW: MSCI/Strategy Decision — MSCI rules Nov 11 on removing Strategy from indices (binary event)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "refl-1",
+        "refl-2"
+      ]
+    },
+    "refl-1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE Unlock — $923M in 48h shifting hedge positioning; Polymarket BTC dip YES at 70.5¢ reflects unlock-week risk-off"
+      }
+    },
+    "refl-2": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase Agents — Cornell/Yale: agents raise own spending limits autonomously; launch creates reflexive infra demand loop"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "positions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      }
+    },
+    "positions-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "pos-1",
+        "pos-2",
+        "pos-3",
+        "pos-4",
+        "pos-5",
+        "pos-6",
+        "pos-7",
+        "pos-8"
+      ]
+    },
+    "pos-1": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN: ZRO/TradFi Infrastructure (2 ↑, Bull) — Citadel/DTCC ATLAS Nov 30; @zero_protocol — bear: buy-the-news risk"
+      }
+    },
+    "pos-2": {
+      "type": "Text",
+      "props": {
+        "text": "FRONT-RUN: Solana Breakpoint (3 ↑↑, Bull) — Breakpoint Nov 15 + AI payment flows; @solana @toly — bear: sell-the-news"
+      }
+    },
+    "pos-3": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: AI Agent Payments (4 ↑, Mixed) — Coinbase agent trading live; @coinbase — bear: agent autonomy overhang"
+      }
+    },
+    "pos-4": {
+      "type": "Text",
+      "props": {
+        "text": "RIDE: Regulation Clarity Wave (3 ↑, Bull) — NEW; Ripple OCC + CFTC perps; @bgarlinghouse — bear: Congress could reverse"
+      }
+    },
+    "pos-5": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: BTC Macro/Fed (4 ↓, Mixed) — MSCI Strategy event Nov 11; Dec hike at ~83% fair value"
+      }
+    },
+    "pos-6": {
+      "type": "Text",
+      "props": {
+        "text": "WATCH: MSCI/Strategy Decision (2 ↑, Mixed) — NEW binary event Nov 11; passive outflows if removed"
+      }
+    },
+    "pos-7": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: HYPE Unlock (3 ↑↑, Bear) — trim before Nov 6 close; supply math wins"
+      }
+    },
+    "pos-8": {
+      "type": "Text",
+      "props": {
+        "text": "FADE: Binance Breach (3 →, Bear) — Peak, contextualized; no contrarian edge"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "map-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      }
+    },
+    "map-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "map-emerging",
+        "map-rising",
+        "map-peak",
+        "map-fading"
+      ]
+    },
+    "map-emerging": {
+      "type": "Text",
+      "props": {
+        "text": "Emerging: ZRO/TradFi Infrastructure, MSCI/Strategy Decision"
+      }
+    },
+    "map-rising": {
+      "type": "Text",
+      "props": {
+        "text": "Rising: Solana Breakpoint, HYPE Unlock, InfoFi/Kaito, Regulation Clarity Wave"
+      }
+    },
+    "map-peak": {
+      "type": "Text",
+      "props": {
+        "text": "Peak: AI Agent Payments, Binance Breach"
+      }
+    },
+    "map-fading": {
+      "type": "Text",
+      "props": {
+        "text": "Fading: BTC Macro/Fed"
+      }
+    }
+  }
+}
