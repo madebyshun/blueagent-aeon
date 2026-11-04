@@ -1,0 +1,170 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-11-04"
+      },
+      "children": [
+        "stack-cap",
+        "sep-1",
+        "stack-fed",
+        "sep-2",
+        "stack-footer"
+      ]
+    },
+    "stack-cap": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-cap",
+        "badge-cap-signal",
+        "text-cap-price",
+        "text-cap-score",
+        "text-cap-catalyst",
+        "text-cap-risk"
+      ]
+    },
+    "heading-cap": {
+      "type": "Heading",
+      "props": {
+        "text": "CAP",
+        "level": "h2"
+      }
+    },
+    "badge-cap-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH signal 9/10",
+        "variant": "default"
+      }
+    },
+    "text-cap-price": {
+      "type": "Text",
+      "props": {
+        "text": "Price: $0.094 (+26.97% 24h / +28.12% 7d) | mcap $146M | vol $55M (vol/mcap 0.37)",
+        "variant": "body"
+      }
+    },
+    "text-cap-score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [24h+7d>0 +2, both>5% +2, vol/mcap≥0.20 +3, RS vs BTC/ETH +2] = 9/10",
+        "variant": "body"
+      }
+    },
+    "text-cap-catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: Cap protocol growth back in market focus — recovering toward Oct 12 ATH ($0.119); Flow Traders + Franklin Templeton institutional usage driving renewed conviction",
+        "variant": "body"
+      }
+    },
+    "text-cap-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: 4.5-month-old token; prior reports flagged negative funding rate (leveraged long risk); private credit model untested under stress",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-fed": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-fed",
+        "badge-fed-edge",
+        "text-fed-current",
+        "text-fed-fair",
+        "text-fed-thesis",
+        "text-fed-risk"
+      ]
+    },
+    "heading-fed": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+        "level": "h2"
+      }
+    },
+    "badge-fed-edge": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM edge 5.5pp",
+        "variant": "default"
+      }
+    },
+    "text-fed-current": {
+      "type": "Text",
+      "props": {
+        "text": "Current: YES 77.5¢ / NO 22.5¢ | 24h vol $521K | resolves: 2026-12-09",
+        "variant": "body"
+      }
+    },
+    "text-fed-fair": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~83% (inputs: Oct 28 defirate snapshot at 18% hold = 82% hike; two governors dissented for hike at Oct meeting; market blog cited 85% post-Oct-meeting)",
+        "variant": "body"
+      }
+    },
+    "text-fed-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: Market underprices Dec hawkishness — two explicit dissenters at Oct 28 FOMC create must-hike pressure for December; buy YES",
+        "variant": "body"
+      }
+    },
+    "text-fed-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Risk: Jobs report or inflation softening before Dec 9 gives Fed cover to hold",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack-footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-sources",
+        "text-disclaimer"
+      ]
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "text-disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "caption"
+      }
+    }
+  }
+}
