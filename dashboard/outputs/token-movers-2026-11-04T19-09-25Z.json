@@ -1,0 +1,413 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-11-04"
+      },
+      "children": [
+        "text-summary",
+        "sep-1",
+        "heading-winners",
+        "table-winners",
+        "sep-2",
+        "heading-losers",
+        "table-losers",
+        "sep-3",
+        "heading-trending",
+        "stack-trending",
+        "sep-4",
+        "heading-notable",
+        "stack-notable"
+      ]
+    },
+    "text-summary": {
+      "type": "Text",
+      "props": {
+        "text": "Broad risk-on — ~87% of filtered top-100 coins green 24h, median ~+2.5%; BTC at $80K leads majors up with ETH and select DeFi names outperforming, while TRUMP craters -17.5% and WLFI slides.",
+        "variant": "lead"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "table-winners": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Vol / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "STX (Stacks)",
+            "$0.3545",
+            "+9.5%",
+            "+19.0%",
+            "+1.9%",
+            "$36M / #91",
+            ""
+          ],
+          [
+            "CAKE (PancakeSwap)",
+            "$2.040",
+            "+9.4%",
+            "-2.6%",
+            "+1.1%",
+            "$62M / #90",
+            ""
+          ],
+          [
+            "INJ (Injective)",
+            "$7.830",
+            "+8.3%",
+            "+0.7%",
+            "-0.5%",
+            "$89M / #83",
+            ""
+          ],
+          [
+            "PEARL (Pearl)",
+            "$1.530",
+            "+6.9%",
+            "-13.8%",
+            "+1.4%",
+            "$13M / #98",
+            "TRENDING+UP"
+          ],
+          [
+            "ALGO (Algorand)",
+            "$0.1002",
+            "+6.8%",
+            "-1.9%",
+            "+0.2%",
+            "$44M / #76",
+            ""
+          ],
+          [
+            "QNT (Quant)",
+            "$204.2",
+            "+6.4%",
+            "+5.5%",
+            "-0.5%",
+            "$82M / #34",
+            ""
+          ],
+          [
+            "ENA (Ethena)",
+            "$0.1806",
+            "+5.9%",
+            "-8.4%",
+            "-1.7%",
+            "$445M / #41",
+            ""
+          ],
+          [
+            "ETH (Ethereum)",
+            "$2,422",
+            "+5.8%",
+            "+3.3%",
+            "-0.0%",
+            "$16.6B / #2",
+            "MAJOR TRENDING+UP"
+          ],
+          [
+            "STABLE (Stable)",
+            "$0.02861",
+            "+5.8%",
+            "+4.8%",
+            "+1.0%",
+            "$7.8M / #105",
+            ""
+          ],
+          [
+            "ZEC (Zcash)",
+            "$1,284",
+            "+5.6%",
+            "+0.1%",
+            "-1.4%",
+            "$1.3B / #10",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "table-losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Coin",
+          "Price",
+          "24h %",
+          "7d %",
+          "1h %",
+          "Vol / Rank",
+          "Tags"
+        ],
+        "rows": [
+          [
+            "TRUMP (Official Trump)",
+            "$1.302",
+            "-17.5%",
+            "",
+            "",
+            "#121",
+            "TRENDING+DOWN"
+          ],
+          [
+            "WLFI (World Liberty Financial)",
+            "$0.04705",
+            "-7.6%",
+            "-9.8%",
+            "-0.4%",
+            "$69M / #61",
+            ""
+          ],
+          [
+            "ZRO (LayerZero)",
+            "$1.800",
+            "-4.6%",
+            "+6.8%",
+            "-1.6%",
+            "$85M / #87",
+            ""
+          ],
+          [
+            "PUMP (Pump.fun)",
+            "$0.004160",
+            "-2.4%",
+            "-1.2%",
+            "-2.1%",
+            "$178M / #50",
+            ""
+          ],
+          [
+            "FIL (Filecoin)",
+            "$0.8568",
+            "-2.1%",
+            "-3.7%",
+            "-1.5%",
+            "$102M / #86",
+            ""
+          ],
+          [
+            "JST (JUST)",
+            "$0.1400",
+            "-1.9%",
+            "-0.7%",
+            "-0.3%",
+            "$33M / #70",
+            ""
+          ],
+          [
+            "VVV (Venice Token)",
+            "$22.08",
+            "-1.7%",
+            "-7.9%",
+            "-3.3%",
+            "$51M / #72",
+            ""
+          ],
+          [
+            "TRX (TRON)",
+            "$0.3197",
+            "-1.2%",
+            "-3.1%",
+            "-0.1%",
+            "$554M / #8",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "$84.37",
+            "-1.1%",
+            "+5.1%",
+            "-0.3%",
+            "$1.4B / #11",
+            ""
+          ],
+          [
+            "PYTH (Pyth Network)",
+            "$0.06610",
+            "-0.4%",
+            "-6.5%",
+            "-1.4%",
+            "$27M / #102",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "stack-trending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trending-1",
+        "trending-2",
+        "trending-3",
+        "trending-4",
+        "trending-5",
+        "trending-6",
+        "trending-7"
+      ]
+    },
+    "trending-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. DACITYCOIN (AudaCity) — #802, $0.02181, +24.7% [MICROCAP]"
+      }
+    },
+    "trending-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. PEARL — #98, $1.527, +5.0% [TRENDING+UP]"
+      }
+    },
+    "trending-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. ETH (Ethereum) — #2, $2,423, +5.7% [MAJOR]"
+      }
+    },
+    "trending-4": {
+      "type": "Text",
+      "props": {
+        "text": "4. NEAR (NEAR Protocol) — #21, $4.030, +5.4%"
+      }
+    },
+    "trending-5": {
+      "type": "Text",
+      "props": {
+        "text": "5. TRUMP (Official Trump) — #121, $1.302, -17.5% [TRENDING+DOWN]"
+      }
+    },
+    "trending-6": {
+      "type": "Text",
+      "props": {
+        "text": "6. PENGU (Pudgy Penguins) — #112, $0.007306, +4.4%"
+      }
+    },
+    "trending-7": {
+      "type": "Text",
+      "props": {
+        "text": "7. FOCO — #970, $0.01615, +393.0% [PUMP-RISK]"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "stack-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4",
+        "notable-5",
+        "notable-6"
+      ]
+    },
+    "notable-1": {
+      "type": "Alert",
+      "props": {
+        "title": "FOCO #970 — Extreme pump risk",
+        "message": "Trending + +393% 24h — extreme low-cap pump, manipulation probable",
+        "type": "warning"
+      }
+    },
+    "notable-2": {
+      "type": "Alert",
+      "props": {
+        "title": "CLANKER (tokenbot) #780 — Pump risk alert",
+        "message": "+101% 24h in extended trending",
+        "type": "warning"
+      }
+    },
+    "notable-3": {
+      "type": "Alert",
+      "props": {
+        "title": "TRUMP — Major election-anniversary selloff",
+        "message": "Trending but -17.5% 24h — biggest named loser",
+        "type": "error"
+      }
+    },
+    "notable-4": {
+      "type": "Text",
+      "props": {
+        "text": "PEARL: -2.4% yesterday → trending + +6.9% today — sharp reversal [TRENDING+UP]"
+      }
+    },
+    "notable-5": {
+      "type": "Text",
+      "props": {
+        "text": "ZRO: +8.8% yesterday → -4.6% today despite broad green tape — distribution signal"
+      }
+    },
+    "notable-6": {
+      "type": "Text",
+      "props": {
+        "text": "NEAR: -1.2% yesterday → +5.4% today, now in trending — reversal + attention pickup"
+      }
+    }
+  }
+}
