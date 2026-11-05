@@ -1,0 +1,867 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers",
+        "description": "2026-11-05 — Deep risk-off: only 3 of ~90 filtered top-100 alts are green; median 24h ≈ −5.2%; BTC at $75,887 down 5.5%, broad selloff across L1s, DeFi, and meme coins."
+      },
+      "children": [
+        "heading-winners",
+        "stack-winners",
+        "sep-1",
+        "heading-losers",
+        "stack-losers",
+        "sep-2",
+        "heading-trending",
+        "stack-trending",
+        "sep-3",
+        "heading-notable",
+        "stack-notable"
+      ]
+    },
+    "heading-winners": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-winners": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-pearl",
+        "token-btw",
+        "token-inj"
+      ]
+    },
+    "token-pearl": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-pearl",
+        "text-pearl-meta",
+        "badge-pearl"
+      ]
+    },
+    "stat-pearl": {
+      "type": "Stat",
+      "props": {
+        "label": "PEARL (Pearl)",
+        "value": "$1.63",
+        "delta": "+7.0%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-pearl-meta": {
+      "type": "Text",
+      "props": {
+        "text": "7d −10.4% / 1h +0.5%  •  $13.7M / #94",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge-pearl": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      },
+      "children": []
+    },
+    "token-btw": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-btw",
+        "text-btw-meta"
+      ]
+    },
+    "stat-btw": {
+      "type": "Stat",
+      "props": {
+        "label": "BTW (Bitway)",
+        "value": "$1.096",
+        "delta": "+3.3%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-btw-meta": {
+      "type": "Text",
+      "props": {
+        "text": "7d −27.3% / 1h +1.1%  •  $4.72M / #55",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "token-inj": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-inj",
+        "text-inj-meta",
+        "badge-inj"
+      ]
+    },
+    "stat-inj": {
+      "type": "Stat",
+      "props": {
+        "label": "INJ (Injective)",
+        "value": "$8.01",
+        "delta": "+1.7%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-inj-meta": {
+      "type": "Text",
+      "props": {
+        "text": "7d +0.6% / 1h +1.3%  •  $155.8M / #82",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge-inj": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-ethfi",
+        "token-uni",
+        "token-ena",
+        "token-night",
+        "token-ondo",
+        "token-wld",
+        "token-near",
+        "token-zro",
+        "token-mnt",
+        "token-hype"
+      ]
+    },
+    "token-ethfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-ethfi",
+        "text-ethfi-meta"
+      ]
+    },
+    "stat-ethfi": {
+      "type": "Stat",
+      "props": {
+        "label": "ETHFI (Ether.fi)",
+        "value": "$0.5264",
+        "delta": "−11.4%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-ethfi-meta": {
+      "type": "Text",
+      "props": {
+        "text": "7d −20.8% / 1h +1.2%  •  $35.9M / #99",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "token-uni": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-uni",
+        "text-uni-meta"
+      ]
+    },
+    "stat-uni": {
+      "type": "Stat",
+      "props": {
+        "label": "UNI (Uniswap)",
+        "value": "$6.79",
+        "delta": "−10.8%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-uni-meta": {
+      "type": "Text",
+      "props": {
+        "text": "7d −6.1% / 1h −0.6%  •  $772.6M / #25",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "token-ena": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-ena",
+        "text-ena-meta"
+      ]
+    },
+    "stat-ena": {
+      "type": "Stat",
+      "props": {
+        "label": "ENA (Ethena)",
+        "value": "$0.1623",
+        "delta": "−10.2%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-ena-meta": {
+      "type": "Text",
+      "props": {
+        "text": "7d −22.8% / 1h +1.9%  •  $346.1M / #43",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "token-night": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-night",
+        "text-night-meta"
+      ]
+    },
+    "stat-night": {
+      "type": "Stat",
+      "props": {
+        "label": "NIGHT (Midnight)",
+        "value": "$0.03887",
+        "delta": "−9.8%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-night-meta": {
+      "type": "Text",
+      "props": {
+        "text": "7d −0.9% / 1h +0.3%  •  $15.5M / #90",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "token-ondo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-ondo",
+        "text-ondo-meta"
+      ]
+    },
+    "stat-ondo": {
+      "type": "Stat",
+      "props": {
+        "label": "ONDO (Ondo Finance)",
+        "value": "$0.370",
+        "delta": "−9.7%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-ondo-meta": {
+      "type": "Text",
+      "props": {
+        "text": "7d −11.8% / 1h −0.1%  •  $146.4M / #53",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "token-wld": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-wld",
+        "text-wld-meta"
+      ]
+    },
+    "stat-wld": {
+      "type": "Stat",
+      "props": {
+        "label": "WLD (Worldcoin)",
+        "value": "$0.343",
+        "delta": "−9.3%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-wld-meta": {
+      "type": "Text",
+      "props": {
+        "text": "7d −18.8% / 1h +1.4%  •  $262.1M / #66",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "token-near": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-near",
+        "text-near-meta",
+        "badge-near"
+      ]
+    },
+    "stat-near": {
+      "type": "Stat",
+      "props": {
+        "label": "NEAR (NEAR Protocol)",
+        "value": "$3.67",
+        "delta": "−9.2%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-near-meta": {
+      "type": "Text",
+      "props": {
+        "text": "7d −18.3% / 1h −0.4%  •  $554.7M / #21",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge-near": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "token-zro": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-zro",
+        "text-zro-meta"
+      ]
+    },
+    "stat-zro": {
+      "type": "Stat",
+      "props": {
+        "label": "ZRO (LayerZero)",
+        "value": "$1.64",
+        "delta": "−9.1%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-zro-meta": {
+      "type": "Text",
+      "props": {
+        "text": "7d −3.3% / 1h +0.8%  •  $77.6M / #88",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "token-mnt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-mnt",
+        "text-mnt-meta"
+      ]
+    },
+    "stat-mnt": {
+      "type": "Stat",
+      "props": {
+        "label": "MNT (Mantle)",
+        "value": "$0.436",
+        "delta": "−8.7%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-mnt-meta": {
+      "type": "Text",
+      "props": {
+        "text": "7d −13.2% / 1h 0.0%  •  $31.4M / #62",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "token-hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-hype",
+        "text-hype-meta",
+        "stack-hype-badges"
+      ]
+    },
+    "stat-hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE (Hyperliquid)",
+        "value": "$77.61",
+        "delta": "−8.3%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-hype-meta": {
+      "type": "Text",
+      "props": {
+        "text": "7d −17.5% / 1h +0.2%  •  $1.28B / #11",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "stack-hype-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-hype-trending",
+        "badge-hype-major"
+      ]
+    },
+    "badge-hype-trending": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-hype-major": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-trending": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-trending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "trend-btc",
+        "trend-sol",
+        "trend-hype2",
+        "trend-pengu",
+        "trend-inj2",
+        "trend-trump",
+        "trend-near2"
+      ]
+    },
+    "trend-btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-trend-btc",
+        "text-trend-btc-meta",
+        "badge-trend-btc"
+      ]
+    },
+    "stat-trend-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC (Bitcoin)",
+        "value": "$75,887",
+        "delta": "−5.1%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-trend-btc-meta": {
+      "type": "Text",
+      "props": {
+        "text": "#1",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge-trend-btc": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR"
+      },
+      "children": []
+    },
+    "trend-sol": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-trend-sol",
+        "text-trend-sol-meta",
+        "badge-trend-sol"
+      ]
+    },
+    "stat-trend-sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL (Solana)",
+        "value": "$89.27",
+        "delta": "−6.3%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-trend-sol-meta": {
+      "type": "Text",
+      "props": {
+        "text": "#7",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge-trend-sol": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR"
+      },
+      "children": []
+    },
+    "trend-hype2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-trend-hype2",
+        "text-trend-hype2-meta",
+        "stack-trend-hype2-badges"
+      ]
+    },
+    "stat-trend-hype2": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE (Hyperliquid)",
+        "value": "$77.74",
+        "delta": "−7.7%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-trend-hype2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "#11",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "stack-trend-hype2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-trend-hype2-down",
+        "badge-trend-hype2-major"
+      ]
+    },
+    "badge-trend-hype2-down": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-trend-hype2-major": {
+      "type": "Badge",
+      "props": {
+        "text": "MAJOR"
+      },
+      "children": []
+    },
+    "trend-pengu": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-trend-pengu",
+        "text-trend-pengu-meta"
+      ]
+    },
+    "stat-trend-pengu": {
+      "type": "Stat",
+      "props": {
+        "label": "PENGU (Pudgy Penguins)",
+        "value": "$0.006429",
+        "delta": "−11.6%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-trend-pengu-meta": {
+      "type": "Text",
+      "props": {
+        "text": "#114",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "trend-inj2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-trend-inj2",
+        "text-trend-inj2-meta",
+        "badge-trend-inj2"
+      ]
+    },
+    "stat-trend-inj2": {
+      "type": "Stat",
+      "props": {
+        "label": "INJ (Injective)",
+        "value": "$8.05",
+        "delta": "+2.5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "text-trend-inj2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "#82",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge-trend-inj2": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+UP"
+      },
+      "children": []
+    },
+    "trend-trump": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-trend-trump",
+        "text-trend-trump-meta"
+      ]
+    },
+    "stat-trend-trump": {
+      "type": "Stat",
+      "props": {
+        "label": "TRUMP (Official Trump)",
+        "value": "$1.19",
+        "delta": "−7.6%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-trend-trump-meta": {
+      "type": "Text",
+      "props": {
+        "text": "#125",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "trend-near2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-trend-near2",
+        "text-trend-near2-meta",
+        "badge-trend-near2"
+      ]
+    },
+    "stat-trend-near2": {
+      "type": "Stat",
+      "props": {
+        "label": "NEAR (NEAR Protocol)",
+        "value": "$3.67",
+        "delta": "−8.7%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "text-trend-near2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "#21",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "badge-trend-near2": {
+      "type": "Badge",
+      "props": {
+        "text": "TRENDING+DOWN",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-notable": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-hype-unlock",
+        "alert-near-whipsaw",
+        "alert-inj-green",
+        "alert-ena-reversal"
+      ]
+    },
+    "alert-hype-unlock": {
+      "type": "Alert",
+      "props": {
+        "title": "HYPE [TRENDING+DOWN] [MAJOR]",
+        "message": "$923M core-contributor unlock hits tomorrow (Nov 6) — market front-running the supply event",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "alert-near-whipsaw": {
+      "type": "Alert",
+      "props": {
+        "title": "NEAR [TRENDING+DOWN]",
+        "message": "whipsawed from +5.4% (Nov 4) to −9.2% today; 7d −18.3%, downtrend resuming",
+        "type": "info"
+      },
+      "children": []
+    },
+    "alert-inj-green": {
+      "type": "Alert",
+      "props": {
+        "title": "INJ [TRENDING+UP]",
+        "message": "only major alt holding green in a full-market selloff; 7d still positive (+0.6%)",
+        "type": "success"
+      },
+      "children": []
+    },
+    "alert-ena-reversal": {
+      "type": "Alert",
+      "props": {
+        "title": "ENA",
+        "message": "reversed from +5.9% (Nov 4) to −10.2% today; 7d −22.8% — distribution phase continuing",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
