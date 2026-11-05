@@ -1,21 +1,29 @@
-*GitHub Trending — 2026-10-29*
+*GitHub Trending — 2026-11-05*
 
-*Top pick* — [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)
-Highest single-day momentum today — open-source bot that bundles a real sandboxed VM so agents execute code without touching the host OS.
+*Top pick* — [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology)
+Earned 40% of its lifetime stars in one day — NVIDIA's bet that graph-based determinism is the missing layer between LLMs and production AI.
 
 *AI/ML*
-• [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) — ★ 1190 today (7.2k total) · TypeScript · [ACCELERATING]
-Bundles a sandboxed VM with the bot so any LLM can execute code without touching the host filesystem.
-
-• [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) — ★ 459 today (104.4k total) · TypeScript · [RETURNING]
-Auto-compresses session context to a token-efficient fingerprint that reinjects silently — no custom memory infra needed.
-
-• [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) — ★ 240 today (7.9k total) · TypeScript · [ACCELERATING]
-Each AI coworker gets an isolated browser and filesystem — no shared state between agents in the same workspace.
+• [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) — ★ 2,707 today (6.8k total) · Python · [RETURNING]
+NVIDIA graph reasoning enforces deterministic query gen — no hallucinated SPARQL, every AI answer fully auditable.
 
 *Devtools*
-• [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) — ★ 538 today (28.8k total) · Shell · [RETURNING]
-Routes game dev roles (art director, writer, QA) to 49 specialized agents so one dev runs the full studio pipeline.
+• [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) — ★ 2,173 today (16.5k total) · Rust · [ACCELERATING]
+Rust-native computer-use CLI — lets AI agents control the full desktop, not just the browser, zero Electron overhead.
+
+• [garrytan/gstack](https://github.com/garrytan/gstack) — ★ 608 today (139.8k total) · TypeScript · [ACCELERATING]
+One install deploys 23 role-specific agent configs into Claude Code — CEO through QA — no handcrafted prompts.
+
+• [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) — ★ 546 today (11.4k total) · Rust · [RETURNING]
+Git worktree wrapper purpose-built for parallel AI agents — isolated branches, no cross-agent state bleed.
+
+*Infra*
+• [floci-io/floci](https://github.com/floci-io/floci) — ★ 784 today (30.2k total) · Java · [ACCELERATING]
+Free LocalStack alternative — Lambda, S3, SQS, DynamoDB locally without the $400/yr Pro subscription.
+
+*Web/Apps*
+• [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — ★ 1,661 today (97.6k total) · Python · [ACCELERATING]
+Single API scales from a 20ms HTTP request to a full Playwright crawl — no framework-switching as scraping needs grow.
 
 ---
-sources: trending=ok · gh_api=ok · kept 4/11
+sources: trending=ok · gh_api=ok · kept 6/15
