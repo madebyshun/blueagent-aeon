@@ -1,24 +1,13 @@
-*Security Digest — 2026-11-04*
-Verdict: 3 actively exploited, 2 to schedule. _Sources: KEV, GH Advisory, EPSS_
-
-*PATCH TODAY*
-- [CVE-2026-76418](https://nvd.nist.gov/vuln/detail/CVE-2026-76418) — Cisco Secure Firewall ASA/FTD · KEV 2026-10-29 · EPSS 0.008 · CVSS N/A
-  Unauth remote NULL ptr deref causes device reload (DoS). CISA confirmed exploitation.
-  → patch Cisco ASA/FTD firmware and redeploy.
-
-- [CVE-2026-41709](https://nvd.nist.gov/vuln/detail/CVE-2026-41709) — Broadcom VMware ESX · KEV 2026-10-28 · EPSS 0.007 · CVSS N/A
-  Admin ops bypass audit logging; enables covert persistence on ESX hosts. CISA confirmed exploitation.
-  → apply Broadcom ESX update and audit recent admin activity.
-
-- [CVE-2024-27834](https://nvd.nist.gov/vuln/detail/CVE-2024-27834) — Apple iOS/macOS/Safari/tvOS/watchOS · KEV 2026-11-04 · EPSS 0.006 · CVSS N/A
-  Pointer authentication bypass with arbitrary read/write. Added to KEV today.
-  → update all Apple devices; prioritize internet-facing installs.
+*Security Digest — 2026-11-05*
+Verdict: nothing urgent today. 2 to schedule, 0 to monitor. _Sources: KEV (curl), GH Advisory, EPSS_
 
 *PATCH THIS WEEK*
-- [CVE-2026-44266](https://github.com/advisories/GHSA-7w38-ggh5-v542) — @enspirit/elo (npm) · CVSS 9.8 · EPSS 0.010 · public PoC verified
-  Ruby backend RCE via unescaped #{} string interpolation in emitted code; PoC verified on Ruby 3.x.
-  → upgrade @enspirit/elo to >=1.0.1.
+- [CVE-2026-105769](https://github.com/advisories/GHSA-5q7h-w9jf-cx97) — kaniko (Go) · CVSS 9.3 · EPSS 0.20% · no public PoC
+  Azure credential exfil via unanchored ACR regex in kaniko's built-in cred helper. Lookalike host in FROM line leaks Entra ID token to attacker's registry — no RUN needed.
+  → upgrade github.com/chainguard-dev/kaniko to ≥v1.25.20.
 
-- [CVE-2026-62331](https://github.com/advisories/GHSA-48v2-6jcm-fc99) — praktor (Go) · CVSS 8.2 · EPSS 0.008 · no public PoC
-  Path traversal in Telegram file upload handler allows writes outside agent workspace.
-  → upgrade github.com/mtzanidakis/praktor to >=0.9.1.
+- [CVE-2026-61536](https://github.com/advisories/GHSA-64vx-6h2c-rjh7) — banks (pip) · CVSS 7.5 · EPSS 0.38% · no public PoC
+  Unsafe importlib.import_module of LLM-controlled Tool.import_path in CompletionExtension. Any Elo tool_calls JSON the LLM emits can resolve to os.system or subprocess — RCE in the banks process.
+  → upgrade banks to ≥2.4.3.
+
+_KEV note: 6 recent KEV entries (Apple, WordPress, Cisco, GitLab, Ivanti ×2) all covered in prior digests._

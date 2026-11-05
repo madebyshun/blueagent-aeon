@@ -1,0 +1,201 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest",
+        "description": "2026-11-05 · nothing urgent today. 2 to schedule, 0 to monitor."
+      },
+      "children": [
+        "sources-text",
+        "separator-1",
+        "patch-section",
+        "separator-2",
+        "kev-note"
+      ]
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: KEV (curl), GH Advisory, EPSS",
+        "variant": "muted"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-heading",
+        "cve1-container",
+        "cve2-container"
+      ]
+    },
+    "patch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Patch This Week",
+        "level": "h3"
+      }
+    },
+    "cve1-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve1-link",
+        "cve1-badges",
+        "cve1-description",
+        "cve1-remediation"
+      ]
+    },
+    "cve1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-105769 — kaniko (Go)",
+        "href": "https://github.com/advisories/GHSA-5q7h-w9jf-cx97",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve1-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve1-cvss",
+        "cve1-epss",
+        "cve1-poc"
+      ]
+    },
+    "cve1-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 9.3",
+        "variant": "destructive"
+      }
+    },
+    "cve1-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.20%",
+        "variant": "secondary"
+      }
+    },
+    "cve1-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no public PoC",
+        "variant": "outline"
+      }
+    },
+    "cve1-description": {
+      "type": "Text",
+      "props": {
+        "text": "Azure credential exfil via unanchored ACR regex in kaniko's built-in cred helper. Lookalike host in FROM line leaks Entra ID token to attacker's registry — no RUN needed.",
+        "variant": "body"
+      }
+    },
+    "cve1-remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade github.com/chainguard-dev/kaniko to ≥v1.25.20.",
+        "variant": "caption"
+      }
+    },
+    "cve2-container": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve2-link",
+        "cve2-badges",
+        "cve2-description",
+        "cve2-remediation"
+      ]
+    },
+    "cve2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-61536 — banks (pip)",
+        "href": "https://github.com/advisories/GHSA-64vx-6h2c-rjh7",
+        "source": "GitHub Advisory"
+      }
+    },
+    "cve2-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "cve2-cvss",
+        "cve2-epss",
+        "cve2-poc"
+      ]
+    },
+    "cve2-cvss": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "destructive"
+      }
+    },
+    "cve2-epss": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.38%",
+        "variant": "secondary"
+      }
+    },
+    "cve2-poc": {
+      "type": "Badge",
+      "props": {
+        "text": "no public PoC",
+        "variant": "outline"
+      }
+    },
+    "cve2-description": {
+      "type": "Text",
+      "props": {
+        "text": "Unsafe importlib.import_module of LLM-controlled Tool.import_path in CompletionExtension. Any Elo tool_calls JSON the LLM emits can resolve to os.system or subprocess — RCE in the banks process.",
+        "variant": "body"
+      }
+    },
+    "cve2-remediation": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade banks to ≥2.4.3.",
+        "variant": "caption"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "kev-note": {
+      "type": "Text",
+      "props": {
+        "text": "KEV note: 6 recent KEV entries (Apple, WordPress, Cisco, GitLab, Ivanti ×2) all covered in prior digests.",
+        "variant": "muted"
+      }
+    }
+  }
+}
