@@ -1,31 +1,31 @@
-*Narrative Tracker — 2026-11-04*
+*Narrative Tracker — 2026-11-05*
 
 TRANSITIONS
-• PROMOTED: Solana Breakpoint Emerging → Rising — 11 days out; dual catalyst (Breakpoint Nov 15 + 34.5% of AI agent x402 flows)
-• PROMOTED: HYPE Unlock Emerging → Rising — $923M supply event in 48h; sentiment flips Bear
-• PROMOTED: AI Agent Payments velocity → ↑ — Coinbase AI agent trading launches today (concrete product)
-• PROMOTED: Binance Breach Rising → Peak — Bloomberg frames as "pro-crypto restart"; velocity cools ↑↑ → →
-• DEMOTED: BTC Macro/Midterms → BTC Macro/Fed — midterms passed, renamed; mindshare 5→4
-• PROMOTED: InfoFi/Kaito Attention Markets WATCH → RIDE
-• NEW: Regulation Clarity Wave — Ripple OCC trust bank approved + CFTC clears stock perpetuals (Nov 3)
-• NEW: MSCI/Strategy Decision — MSCI rules Nov 11 on removing Strategy from indices (binary event)
+• PROMOTED: MSCI/Strategy Decision Emerging → Rising — Nov 11 binary in 6 days; BTC −5.5% amplifying passive outflow fear
+• PROMOTED: HYPE Unlock Rising → Peak — event executes tomorrow, −8.3% today, $923M supply live
+• DEMOTED: Binance Breach Peak → Fading — no new developments, stolen funds still cold, news cycle done
+• DEMOTED: BTC Macro/Fed velocity ↓ to Bear — BTC at $75,887, breaking below $76K
+• DEMOTED: InfoFi/Kaito RIDE → WATCH — Yapper shutdown confirmed, no new catalyst
+• NEW: Bitmine ETH Ending — largest ETH institutional buyer stopping purchases by Nov 30
 
 REFLEXIVITY ALERT
-• HYPE Unlock — $923M in 48h shifting hedge positioning; Polymarket BTC dip YES at 70.5¢ reflects unlock-week risk-off
-• Coinbase Agents — Cornell/Yale: agents raise own spending limits autonomously; launch creates reflexive infra demand loop
+• HYPE Unlock: $923M supply executing tomorrow; HYPE already −8.3% in a −5.5% BTC day — event is live
+• MSCI/Strategy + HYPE Unlock: dual risk-off catalysts compressing BTC simultaneously; Polymarket BTC $75K YES elevated
+• AI Agent Payments: Google Trends "AI agent" at record → Coinbase agent trading launch → Cornell/Yale study shows agents raise own limits → self-reinforcing loop
 
 POSITIONS
-• FRONT-RUN: ZRO/TradFi Infrastructure (2 ↑, Bull) — Citadel/DTCC ATLAS Nov 30; @zero_protocol — bear: buy-the-news risk
-• FRONT-RUN: Solana Breakpoint (3 ↑↑, Bull) — Breakpoint Nov 15 + AI payment flows; @solana @toly — bear: sell-the-news
-• RIDE: AI Agent Payments (4 ↑, Mixed) — Coinbase agent trading live; @coinbase — bear: agent autonomy overhang
-• RIDE: Regulation Clarity Wave (3 ↑, Bull) — NEW; Ripple OCC + CFTC perps; @bgarlinghouse — bear: Congress could reverse
-• WATCH: BTC Macro/Fed (4 ↓, Mixed) — MSCI Strategy event Nov 11; Dec hike at ~83% fair value
-• WATCH: MSCI/Strategy Decision (2 ↑, Mixed) — NEW binary event Nov 11; passive outflows if removed
-• FADE: HYPE Unlock (3 ↑↑, Bear) — trim before Nov 6 close; supply math wins
-• FADE: Binance Breach (3 →, Bear) — Peak, contextualized; no contrarian edge
+• FRONT-RUN: ZRO/TradFi Infrastructure (2 →, Bull) — @ZRO_xyz, Citadel/DTCC — bear: ATLAS delayed before — Nov 30 catalyst intact
+• FRONT-RUN: Solana Breakpoint (3 ↑, Bull) — @solana, @coinbase x402 — bear: SOL −9.2% today — 10 days out, 34.5% x402 share
+• FRONT-RUN: MSCI/Strategy Decision (3 ↑, Bear) — MSCI, MicroStrategy — bear: MSCI may keep Strategy in index — Nov 11 binary; buy BTC downside
+• FADE: HYPE Unlock (4 ↑↑, Bear) — event executing, sell-the-news
+• FADE: Binance Breach (3 ↓, Bear) — stolen funds cold; news cycle done
+• RIDE: Regulation Clarity Wave (3 →, Bull) — Ripple/OCC, CFTC — bear: clarity declared 3× before
+• RIDE: AI Agent Payments (4 →, Mixed) — @coinbase, @BlackRock — bear: TRM says <8% of x402 is real AI
+• WATCH: BTC Macro/Fed — Dec 9 Fed decision; no near-term reversal catalyst
+• WATCH: Bitmine ETH Ending (2 ↑, Bear) — single source, monitoring for ETH month-end demand cliff
 
 MAP
-Emerging: ZRO/TradFi Infrastructure, MSCI/Strategy Decision
-Rising: Solana Breakpoint, HYPE Unlock, InfoFi/Kaito, Regulation Clarity Wave
-Peak: AI Agent Payments, Binance Breach
-Fading: BTC Macro/Fed
+Emerging: ZRO/TradFi Infrastructure, Regulation Clarity Wave, Bitmine ETH Ending
+Rising: Solana Breakpoint, MSCI/Strategy Decision
+Peak: HYPE Unlock, AI Agent Payments
+Fading: Binance Breach, BTC Macro/Fed
