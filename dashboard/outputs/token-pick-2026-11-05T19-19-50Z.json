@@ -1,0 +1,213 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-11-05"
+      },
+      "children": [
+        "header-stack",
+        "sep1",
+        "stats-grid",
+        "sep2",
+        "score-section",
+        "sep3",
+        "catalyst-alert",
+        "sep4",
+        "risk-alert",
+        "sep5",
+        "recent-text",
+        "market-text"
+      ]
+    },
+    "header-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token-heading",
+        "signal-badge",
+        "score-stat"
+      ]
+    },
+    "token-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "INJ",
+        "level": "h2"
+      }
+    },
+    "signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "destructive"
+      }
+    },
+    "score-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "9/10"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats-grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "price-stat",
+        "price-24h-stat",
+        "price-7d-stat",
+        "mcap-stat",
+        "vol-stat",
+        "vol-ratio-stat"
+      ]
+    },
+    "price-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$8.03"
+      }
+    },
+    "price-24h-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+1.93%",
+        "trend": "up"
+      }
+    },
+    "price-7d-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "7d",
+        "value": "+0.55%",
+        "trend": "up"
+      }
+    },
+    "mcap-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$802M"
+      }
+    },
+    "vol-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$156M"
+      }
+    },
+    "vol-ratio-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/MCap",
+        "value": "0.194"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "score-section": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Factor",
+          "Points"
+        ],
+        "rows": [
+          [
+            "Trending",
+            "+2"
+          ],
+          [
+            "24h > 0",
+            "+1"
+          ],
+          [
+            "7d > 0",
+            "+1"
+          ],
+          [
+            "Vol/MCap",
+            "+2"
+          ],
+          [
+            "RS vs BTC/ETH",
+            "+2"
+          ],
+          [
+            "DexScreener",
+            "+1"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalyst-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Catalyst",
+        "message": "Canary Capital Staked INJ ETF (INJC) listed on Nasdaq Nov 4–5 — first staked Injective ETF, 90% of holdings staked, $15M seed purchase from Injective Foundation",
+        "type": "info"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "risk-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "ETF listings don't guarantee gains — XRP ETF debuted $250M AUM then fell 9%; 21-day unbonding limits fund agility and arbitrage",
+        "type": "warning"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "recent-text": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time",
+        "variant": "caption"
+      }
+    },
+    "market-text": {
+      "type": "Text",
+      "props": {
+        "text": "Market: Will",
+        "variant": "muted"
+      }
+    }
+  }
+}
