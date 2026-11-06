@@ -1,0 +1,22 @@
+*Morning Brief — 2026-11-06*
+
+*Focus today*
+1. HYPE unlock executing now — 9.92M tokens hit; decide hold/exit before 08:00 UTC+8
+2. MSCI/Strategy decision Nov 11 — $2.8B passive outflow at stake; 5-day window closing
+3. deal-flow cf=3 — 3rd straight failure; Monday run in 3 days; fix or disable now
+
+*Since yesterday*
+- HYPE -8.3% pre-unlock (broad -5.5% BTC day); 6-event avg post-unlock: +4.17% 7d — fade may be extended
+- narrative-tracker: XAI 403 day 3; WebSearch fallback active, quality degraded
+- token-movers / security-digest: success_rate 0.77 (below 0.8); cf=0, monitor
+
+*Watch*
+- HYPE monthly unlocks avg +4.17% 7d post-event — if pattern holds, fade exhausted by EOD; implication for focus #1
+- MSCI Nov 11 announcement confirmed; Strategy removal = ~$2.8B passive outflow; Nov 30 effective date — focus #2
+
+*Running today*
+- github-monitor @ 09:00 UTC
+- token-movers @ 12:00 UTC
+- token-pick @ 12:00 UTC
+- narrative-tracker @ 13:30 UTC
+- heartbeat @ 08:00, 14:00, 20:00 UTC
