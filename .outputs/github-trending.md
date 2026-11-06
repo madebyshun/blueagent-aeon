@@ -1,29 +1,25 @@
-*GitHub Trending — 2026-11-05*
+*GitHub Trending — 2026-11-06*
 
-*Top pick* — [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology)
-Earned 40% of its lifetime stars in one day — NVIDIA's bet that graph-based determinism is the missing layer between LLMs and production AI.
+*Top pick* — [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
+Cloudflare's open security-audit skill bridges agentic coding and production security in one structured output.
 
 *AI/ML*
-• [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) — ★ 2,707 today (6.8k total) · Python · [RETURNING]
-NVIDIA graph reasoning enforces deterministic query gen — no hallucinated SPARQL, every AI answer fully auditable.
+• [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — ★ 2524 today (63k total) · JS · [ACCELERATING]
+Agentic coding skill producing machine-readable security findings that feed directly into automated remediation loops.
 
 *Devtools*
-• [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) — ★ 2,173 today (16.5k total) · Rust · [ACCELERATING]
-Rust-native computer-use CLI — lets AI agents control the full desktop, not just the browser, zero Electron overhead.
+• [zed-industries/zed](https://github.com/zed-industries/zed) — ★ 292 today (93k total) · Rust · [RETURNING]
+Pushed today; Rust-native zero-copy editor with built-in multiplayer—the VSCode alternative actually shipping.
 
-• [garrytan/gstack](https://github.com/garrytan/gstack) — ★ 608 today (139.8k total) · TypeScript · [ACCELERATING]
-One install deploys 23 role-specific agent configs into Claude Code — CEO through QA — no handcrafted prompts.
+• [astral-sh/ruff](https://github.com/astral-sh/ruff) — ★ 107 today (50.5k total) · Rust · [RETURNING]
+Pushed today; latest release extends formatter coverage—now a true unified drop-in for Black, isort, and Flake8.
 
-• [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) — ★ 546 today (11.4k total) · Rust · [RETURNING]
-Git worktree wrapper purpose-built for parallel AI agents — isolated branches, no cross-agent state bleed.
+• [nushell/nushell](https://github.com/nushell/nushell) — ★ 88 today (40.8k total) · Rust · [RETURNING]
+Pushed today; treats pipeline data as typed tables—JSON, CSV, and YAML parse without shell gymnastics.
 
 *Infra*
-• [floci-io/floci](https://github.com/floci-io/floci) — ★ 784 today (30.2k total) · Java · [ACCELERATING]
-Free LocalStack alternative — Lambda, S3, SQS, DynamoDB locally without the $400/yr Pro subscription.
-
-*Web/Apps*
-• [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — ★ 1,661 today (97.6k total) · Python · [ACCELERATING]
-Single API scales from a 20ms HTTP request to a full Playwright crawl — no framework-switching as scraping needs grow.
+• [lz4/lz4](https://github.com/lz4/lz4) — ★ 313 today (12.6k total) · C · [RETURNING]
+Pushed today; the invisible compression primitive inside Kafka, RocksDB, and high-throughput storage just updated.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/15
+sources: trending=ok · gh_api=ok · kept 5/18

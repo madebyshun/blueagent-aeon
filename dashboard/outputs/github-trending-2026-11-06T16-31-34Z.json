@@ -1,0 +1,451 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending",
+        "description": "2026-11-06"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-top-pick",
+        "sep-1",
+        "section-ai-ml",
+        "sep-2",
+        "section-devtools",
+        "sep-3",
+        "section-infra",
+        "sep-4",
+        "text-sources"
+      ]
+    },
+    "section-top-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-top-pick",
+        "item-cloudflare-1"
+      ]
+    },
+    "heading-top-pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      }
+    },
+    "item-cloudflare-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "story-cloudflare-1",
+        "text-cloudflare-1"
+      ]
+    },
+    "story-cloudflare-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cloudflare/security-audit-skill",
+        "href": "https://github.com/cloudflare/security-audit-skill"
+      }
+    },
+    "text-cloudflare-1": {
+      "type": "Text",
+      "props": {
+        "text": "Cloudflare's open security-audit skill bridges agentic coding and production security in one structured output.",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-ai-ml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-ai-ml",
+        "item-cloudflare-2"
+      ]
+    },
+    "heading-ai-ml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "item-cloudflare-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header-cloudflare-2",
+        "meta-cloudflare-2",
+        "text-cloudflare-2"
+      ]
+    },
+    "header-cloudflare-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "story-cloudflare-2",
+        "badge-accelerating"
+      ]
+    },
+    "story-cloudflare-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cloudflare/security-audit-skill",
+        "href": "https://github.com/cloudflare/security-audit-skill"
+      }
+    },
+    "badge-accelerating": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "meta-cloudflare-2": {
+      "type": "Text",
+      "props": {
+        "text": "★ 2524 today (63k total) · JS",
+        "variant": "caption"
+      }
+    },
+    "text-cloudflare-2": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic coding skill producing machine-readable security findings that feed directly into automated remediation loops.",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-devtools",
+        "item-zed",
+        "item-ruff",
+        "item-nushell"
+      ]
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "item-zed": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header-zed",
+        "meta-zed",
+        "note-zed",
+        "text-zed"
+      ]
+    },
+    "header-zed": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "story-zed",
+        "badge-returning-1"
+      ]
+    },
+    "story-zed": {
+      "type": "StoryLink",
+      "props": {
+        "title": "zed-industries/zed",
+        "href": "https://github.com/zed-industries/zed"
+      }
+    },
+    "badge-returning-1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "meta-zed": {
+      "type": "Text",
+      "props": {
+        "text": "★ 292 today (93k total) · Rust",
+        "variant": "caption"
+      }
+    },
+    "note-zed": {
+      "type": "Text",
+      "props": {
+        "text": "Pushed today",
+        "variant": "muted"
+      }
+    },
+    "text-zed": {
+      "type": "Text",
+      "props": {
+        "text": "Rust-native zero-copy editor with built-in multiplayer—the VSCode alternative actually shipping.",
+        "variant": "body"
+      }
+    },
+    "item-ruff": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header-ruff",
+        "meta-ruff",
+        "note-ruff",
+        "text-ruff"
+      ]
+    },
+    "header-ruff": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "story-ruff",
+        "badge-returning-2"
+      ]
+    },
+    "story-ruff": {
+      "type": "StoryLink",
+      "props": {
+        "title": "astral-sh/ruff",
+        "href": "https://github.com/astral-sh/ruff"
+      }
+    },
+    "badge-returning-2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "meta-ruff": {
+      "type": "Text",
+      "props": {
+        "text": "★ 107 today (50.5k total) · Rust",
+        "variant": "caption"
+      }
+    },
+    "note-ruff": {
+      "type": "Text",
+      "props": {
+        "text": "Pushed today",
+        "variant": "muted"
+      }
+    },
+    "text-ruff": {
+      "type": "Text",
+      "props": {
+        "text": "Latest release extends formatter coverage—now a true unified drop-in for Black, isort, and Flake8.",
+        "variant": "body"
+      }
+    },
+    "item-nushell": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header-nushell",
+        "meta-nushell",
+        "note-nushell",
+        "text-nushell"
+      ]
+    },
+    "header-nushell": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "story-nushell",
+        "badge-returning-3"
+      ]
+    },
+    "story-nushell": {
+      "type": "StoryLink",
+      "props": {
+        "title": "nushell/nushell",
+        "href": "https://github.com/nushell/nushell"
+      }
+    },
+    "badge-returning-3": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "meta-nushell": {
+      "type": "Text",
+      "props": {
+        "text": "★ 88 today (40.8k total) · Rust",
+        "variant": "caption"
+      }
+    },
+    "note-nushell": {
+      "type": "Text",
+      "props": {
+        "text": "Pushed today",
+        "variant": "muted"
+      }
+    },
+    "text-nushell": {
+      "type": "Text",
+      "props": {
+        "text": "Treats pipeline data as typed tables—JSON, CSV, and YAML parse without shell gymnastics.",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-infra",
+        "item-lz4"
+      ]
+    },
+    "heading-infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "item-lz4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header-lz4",
+        "meta-lz4",
+        "note-lz4",
+        "text-lz4"
+      ]
+    },
+    "header-lz4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "story-lz4",
+        "badge-returning-4"
+      ]
+    },
+    "story-lz4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "lz4/lz4",
+        "href": "https://github.com/lz4/lz4"
+      }
+    },
+    "badge-returning-4": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "meta-lz4": {
+      "type": "Text",
+      "props": {
+        "text": "★ 313 today (12.6k total) · C",
+        "variant": "caption"
+      }
+    },
+    "note-lz4": {
+      "type": "Text",
+      "props": {
+        "text": "Pushed today",
+        "variant": "muted"
+      }
+    },
+    "text-lz4": {
+      "type": "Text",
+      "props": {
+        "text": "The invisible compression primitive inside Kafka, RocksDB, and high-throughput storage just updated.",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/18",
+        "variant": "muted"
+      }
+    }
+  }
+}
