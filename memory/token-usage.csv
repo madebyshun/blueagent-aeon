@@ -639,4 +639,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-11-05,security-digest,claude-sonnet-4-6,33,18740,1747776,77919
 2026-11-06,morning-brief,claude-sonnet-4-6,34,9563,1458793,41198
 2026-11-06,github-trending,claude-sonnet-4-6,15,11903,441414,34101
-2026-11-06,defi-monitor,claude-sonnet-4-6,8,1133,188198,10936
+2026-11-06,token-pick,claude-sonnet-4-6,23,12408,850248,47470

@@ -1,0 +1,400 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-11-06"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "arb_section",
+        "separator1",
+        "ossoff_section",
+        "separator2",
+        "footer"
+      ]
+    },
+    "arb_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "arb_header",
+        "arb_stats",
+        "arb_score",
+        "arb_catalyst",
+        "arb_risk",
+        "arb_comparison"
+      ]
+    },
+    "arb_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "arb_title",
+        "arb_signal_badge",
+        "arb_signal_stat"
+      ]
+    },
+    "arb_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: ARB",
+        "level": "h2"
+      }
+    },
+    "arb_signal_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "default"
+      }
+    },
+    "arb_signal_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "signal",
+        "value": "8/10"
+      }
+    },
+    "arb_stats": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "arb_price",
+        "arb_mcap",
+        "arb_volume",
+        "arb_ratio"
+      ]
+    },
+    "arb_price": {
+      "type": "Text",
+      "props": {
+        "text": "Price: $0.1679 (+6.51% 24h / +3.41% 7d)"
+      }
+    },
+    "arb_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "mcap",
+        "value": "$1.16B"
+      }
+    },
+    "arb_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "vol (24h)",
+        "value": "$189M"
+      }
+    },
+    "arb_ratio": {
+      "type": "Text",
+      "props": {
+        "text": "vol/mcap: 0.163"
+      }
+    },
+    "arb_score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "score_label",
+        "score_breakdown"
+      ]
+    },
+    "score_label": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown:",
+        "variant": "lead"
+      }
+    },
+    "score_breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "[trending+2, vol/mcap≥0.10+2, RS vs BTC/ETH+2, 24h+1, 7d+1] = 8/10"
+      }
+    },
+    "arb_catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst_label",
+        "catalyst_text"
+      ]
+    },
+    "catalyst_label": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst:",
+        "variant": "lead"
+      }
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "ARB rallying in a down market (BTC -0.28%, ETH -0.89%) — Arbitrum trending on CoinGecko today; Robinhood L2 (Arbitrum Orbit) live deployment driving ecosystem attention and fresh capital rotation into the leading L2."
+      }
+    },
+    "arb_risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "arb_risk_label",
+        "arb_risk_text"
+      ]
+    },
+    "arb_risk_label": {
+      "type": "Text",
+      "props": {
+        "text": "Risk:",
+        "variant": "lead"
+      }
+    },
+    "arb_risk_text": {
+      "type": "Text",
+      "props": {
+        "text": "Nov 16 token unlock ~92.65M ARB (~$17M at spot) — scheduled monthly release and known headwind landing in 10 days."
+      }
+    },
+    "arb_comparison": {
+      "type": "Text",
+      "props": {
+        "text": "Vs recent picks: first time (ZRO, CAP, INJ picked in prior runs — ARB is fresh)",
+        "variant": "muted"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "ossoff_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ossoff_header",
+        "ossoff_odds",
+        "ossoff_metrics",
+        "ossoff_fair",
+        "ossoff_thesis",
+        "ossoff_risk"
+      ]
+    },
+    "ossoff_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "ossoff_title",
+        "ossoff_badge",
+        "ossoff_edge"
+      ]
+    },
+    "ossoff_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will Jon Ossoff win the 2028 Democratic presidential nomination?",
+        "level": "h2"
+      }
+    },
+    "ossoff_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "default"
+      }
+    },
+    "ossoff_edge": {
+      "type": "Badge",
+      "props": {
+        "text": "edge 10pp",
+        "variant": "secondary"
+      }
+    },
+    "ossoff_odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "odds_yes",
+        "odds_no"
+      ]
+    },
+    "odds_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "27.25¢"
+      }
+    },
+    "odds_no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "72.75¢"
+      }
+    },
+    "ossoff_metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ossoff_volume",
+        "ossoff_resolution"
+      ]
+    },
+    "ossoff_volume": {
+      "type": "Text",
+      "props": {
+        "text": "24h vol: $79k"
+      }
+    },
+    "ossoff_resolution": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2028-11-08"
+      }
+    },
+    "ossoff_fair": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fair_label",
+        "fair_breakdown"
+      ]
+    },
+    "fair_label": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~17%",
+        "variant": "lead"
+      }
+    },
+    "fair_breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "Inputs: [Polymarket/Kalshi Oct 25 consensus ~15.3%], [national primary polling 7.1% — PollCheck Oct 31], [no declared candidacy]"
+      }
+    },
+    "ossoff_thesis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "thesis_label",
+        "thesis_text"
+      ]
+    },
+    "thesis_label": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis:",
+        "variant": "lead"
+      }
+    },
+    "thesis_text": {
+      "type": "Text",
+      "props": {
+        "text": "YES jumped ~12pp since late October with no named catalyst; at 27¢ the market is pricing Ossoff as a co-frontrunner while polls place him 5th at 7% — the gap is too wide. Bet NO."
+      }
+    },
+    "ossoff_risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ossoff_risk_label",
+        "ossoff_risk_text"
+      ]
+    },
+    "ossoff_risk_label": {
+      "type": "Text",
+      "props": {
+        "text": "Risk:",
+        "variant": "lead"
+      }
+    },
+    "ossoff_risk_text": {
+      "type": "Text",
+      "props": {
+        "text": "Ossoff announces formal 2028 run or lands a major viral moment this week, pulling odds sharply higher."
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_text",
+        "disclaimer"
+      ]
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=skip, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "disclaimer": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "not financial advice — pattern-matching only"
+      }
+    }
+  }
+}
