@@ -70,13 +70,13 @@
   "narrative-tracker": {
     "last_status": "failed",
     "last_success": "2026-11-05T20:48:42Z",
-    "total_runs": 140,
+    "total_runs": 141,
     "total_successes": 123,
-    "total_failures": 17,
-    "consecutive_failures": 1,
-    "success_rate": 0.88,
+    "total_failures": 18,
+    "consecutive_failures": 2,
+    "success_rate": 0.87,
     "last_quality_score": 4,
-    "last_failed": "2026-11-07T18:09:07Z",
+    "last_failed": "2026-11-08T18:25:30Z",
     "last_error": "ubagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refused\":{\"depth_limit\":0,\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"safety_stops\":0,\"is_error\":true,\"num_turns\":1"
   },
   "security-digest": {
