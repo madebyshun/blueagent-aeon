@@ -1,0 +1,546 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-11-10"
+      },
+      "children": [
+        "verdict-alert",
+        "sources-text",
+        "sep-1",
+        "patch-today-section",
+        "sep-2",
+        "patch-week-section",
+        "sep-3",
+        "monitor-section"
+      ]
+    },
+    "verdict-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Verdict",
+        "message": "3 actively exploited (KEV, patch by 2026-11-13), 2 npm supply-chain patches + 3 more to schedule, 3 to monitor.",
+        "type": "warning"
+      }
+    },
+    "sources-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: CISA KEV (+13 this week), GH Advisory, EPSS",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-today-heading",
+        "cve-123158",
+        "cve-116779",
+        "cve-116606"
+      ]
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      }
+    },
+    "cve-123158": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-123158-link",
+        "cve-123158-meta",
+        "cve-123158-desc",
+        "cve-123158-action"
+      ]
+    },
+    "cve-123158-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-123158 — OpenSSH (Linux)",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
+      }
+    },
+    "cve-123158-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-09 · EPSS 0.165 · CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve-123158-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth bypass via mishandled return values."
+      }
+    },
+    "cve-123158-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade OpenSSH immediately; due 2026-11-12"
+      }
+    },
+    "cve-116779": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-116779-link",
+        "cve-116779-meta",
+        "cve-116779-desc",
+        "cve-116779-action"
+      ]
+    },
+    "cve-116779-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-116779 — FreeSwitch (SignalWire)",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
+      }
+    },
+    "cve-116779-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-09 · EPSS 0.022 · CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve-116779-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Code injection exposes creds + enables call control and RCE."
+      }
+    },
+    "cve-116779-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ patch FreeSwitch; due 2026-11-12"
+      }
+    },
+    "cve-116606": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-116606-link",
+        "cve-116606-meta",
+        "cve-116606-desc",
+        "cve-116606-action"
+      ]
+    },
+    "cve-116606-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-116606 — Barracuda ESG",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606"
+      }
+    },
+    "cve-116606-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-10 · EPSS 0.016 · CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve-116606-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth backup restore rewrites appliance config (auth bypass)."
+      }
+    },
+    "cve-116606-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Barracuda fix; due 2026-11-13"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "patch-week-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-week-heading",
+        "ghsa-pcrw",
+        "ghsa-gg4r",
+        "cve-111560",
+        "cve-102895",
+        "cve-119977"
+      ]
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      }
+    },
+    "ghsa-pcrw": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-pcrw-link",
+        "ghsa-pcrw-meta",
+        "ghsa-pcrw-desc",
+        "ghsa-pcrw-action"
+      ]
+    },
+    "ghsa-pcrw-link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-pcrw-h46h-c93h (CVE-2026-125120) — mongoose (npm)",
+        "href": "https://github.com/advisories/GHSA-pcrw-h46h-c93h"
+      }
+    },
+    "ghsa-pcrw-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS critical · EPSS 0.006",
+        "variant": "caption"
+      }
+    },
+    "ghsa-pcrw-desc": {
+      "type": "Text",
+      "props": {
+        "text": "sanitizeFilter silently skipped on countDocuments — query selector injection."
+      }
+    },
+    "ghsa-pcrw-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade mongoose to ≥9.9.2 / ≥8.24.3 / ≥7.8.12 / ≥6.13.11"
+      }
+    },
+    "ghsa-gg4r": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-gg4r-link",
+        "ghsa-gg4r-meta",
+        "ghsa-gg4r-desc",
+        "ghsa-gg4r-action"
+      ]
+    },
+    "ghsa-gg4r-link": {
+      "type": "Link",
+      "props": {
+        "label": "GHSA-gg4r-jv3p-qx3c (CVE-2026-125119) — mongoose (npm)",
+        "href": "https://github.com/advisories/GHSA-gg4r-jv3p-qx3c"
+      }
+    },
+    "ghsa-gg4r-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS high · EPSS 0.005 · public PoC",
+        "variant": "caption"
+      }
+    },
+    "ghsa-gg4r-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Connection-level sanitizeFilter never applies — password {$ne:null} bypasses auth."
+      }
+    },
+    "ghsa-gg4r-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade mongoose (same targets as above)"
+      }
+    },
+    "cve-111560": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-111560-link",
+        "cve-111560-meta",
+        "cve-111560-desc",
+        "cve-111560-action"
+      ]
+    },
+    "cve-111560-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-111560 — Barracuda (multiple)",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560"
+      }
+    },
+    "cve-111560-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-10 · EPSS 0.011 · CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve-111560-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Admin can inject root OS commands via crafted timezone value."
+      }
+    },
+    "cve-111560-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply vendor patch; due 2026-11-13"
+      }
+    },
+    "cve-102895": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-102895-link",
+        "cve-102895-meta",
+        "cve-102895-desc",
+        "cve-102895-action"
+      ]
+    },
+    "cve-102895-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-102895 — GPUStack",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895"
+      }
+    },
+    "cve-102895-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-09 · EPSS 0.006 · CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve-102895-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated users gain admin access + code exec via inference endpoint."
+      }
+    },
+    "cve-102895-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ patch GPUStack; due 2026-11-12"
+      }
+    },
+    "cve-119977": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-119977-link",
+        "cve-119977-meta",
+        "cve-119977-desc",
+        "cve-119977-action"
+      ]
+    },
+    "cve-119977-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-119977 — WordPress Core",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977"
+      }
+    },
+    "cve-119977-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-03 · EPSS 0.012 · CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve-119977-desc": {
+      "type": "Text",
+      "props": {
+        "text": "TOCTOU race during core upgrade lets unauth attackers execute code."
+      }
+    },
+    "cve-119977-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ update WordPress core now (due date 2026-11-06 already passed)"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "monitor-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor-heading",
+        "cve-124194",
+        "cve-125350",
+        "cve-123218"
+      ]
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      }
+    },
+    "cve-124194": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-124194-link",
+        "cve-124194-meta",
+        "cve-124194-desc",
+        "cve-124194-action"
+      ]
+    },
+    "cve-124194-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-124194 — Microsoft Office/Outlook",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
+      }
+    },
+    "cve-124194-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-10 · EPSS n/a · CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve-124194-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Spoofing via missing user-interaction checks for risky actions."
+      }
+    },
+    "cve-124194-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ watch for patch; due 2026-11-24"
+      }
+    },
+    "cve-125350": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-125350-link",
+        "cve-125350-meta",
+        "cve-125350-desc",
+        "cve-125350-action"
+      ]
+    },
+    "cve-125350-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-125350 — Google Chromium",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350"
+      }
+    },
+    "cve-125350-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-10 · EPSS n/a · CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve-125350-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Use-after-free in XML component, sandbox RCE."
+      }
+    },
+    "cve-125350-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ update Chromium/Chrome; due 2026-11-24"
+      }
+    },
+    "cve-123218": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-123218-link",
+        "cve-123218-meta",
+        "cve-123218-desc",
+        "cve-123218-action"
+      ]
+    },
+    "cve-123218-link": {
+      "type": "Link",
+      "props": {
+        "label": "CVE-2026-123218 — IBM Aspera Faspex",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218"
+      }
+    },
+    "cve-123218-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-09 · EPSS 0.007 · CVSS n/a",
+        "variant": "caption"
+      }
+    },
+    "cve-123218-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Authenticated users escalate privileges via crafted messages."
+      }
+    },
+    "cve-123218-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply IBM patch; due 2026-11-12"
+      }
+    }
+  }
+}
