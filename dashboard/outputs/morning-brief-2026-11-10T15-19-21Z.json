@@ -1,0 +1,168 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-11-10"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "yesterday-section",
+        "sep2",
+        "watch-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-list"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      }
+    },
+    "focus-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "focus-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Debug systemic skill outage — why now: same is_error pattern across 7 skills since Nov 7",
+        "variant": "body"
+      }
+    },
+    "focus-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Disable or repair deal-flow — why now: cf=4, sr=0.63, last success Oct 12; Monday run in 6 days",
+        "variant": "body"
+      }
+    },
+    "focus-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "3. background: confirm ANTHROPIC_API_KEY / TELEGRAM_BOT_TOKEN secrets are set and valid",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-heading",
+        "yesterday-list"
+      ]
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h3"
+      }
+    },
+    "yesterday-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday-item-1",
+        "yesterday-item-2",
+        "yesterday-item-3"
+      ]
+    },
+    "yesterday-item-1": {
+      "type": "Text",
+      "props": {
+        "text": "Stuck: no logs Nov 7–9 — 3-day data gap, all core intel skills failing silently",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-2": {
+      "type": "Text",
+      "props": {
+        "text": "Stuck: token-movers dark since Nov 6 — no movers data during AI sector selloff",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-3": {
+      "type": "Text",
+      "props": {
+        "text": "Stuck: narrative-tracker dark since Nov 5 — AI×crypto narrative map 5 days stale",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch-heading",
+        "watch-text"
+      ]
+    },
+    "watch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h3"
+      }
+    },
+    "watch-text": {
+      "type": "Text",
+      "props": {
+        "text": "AI sector down ~7.3% in brutal",
+        "variant": "body"
+      }
+    }
+  }
+}
