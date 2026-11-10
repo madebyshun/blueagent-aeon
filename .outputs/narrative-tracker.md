@@ -1,31 +1,34 @@
-*Narrative Tracker — 2026-11-05*
+*Narrative Tracker — 2026-11-10*
 
 TRANSITIONS
-• PROMOTED: MSCI/Strategy Decision Emerging → Rising — Nov 11 binary in 6 days; BTC −5.5% amplifying passive outflow fear
-• PROMOTED: HYPE Unlock Rising → Peak — event executes tomorrow, −8.3% today, $923M supply live
-• DEMOTED: Binance Breach Peak → Fading — no new developments, stolen funds still cold, news cycle done
-• DEMOTED: BTC Macro/Fed velocity ↓ to Bear — BTC at $75,887, breaking below $76K
-• DEMOTED: InfoFi/Kaito RIDE → WATCH — Yapper shutdown confirmed, no new catalyst
-• NEW: Bitmine ETH Ending — largest ETH institutional buyer stopping purchases by Nov 30
+• NEW: AI Agent Infrastructure Race (Solana/Base/BSC) — x402 hits $50B vol/200M txns; Solana AI Agent Registry + Base MCP live; Breakpoint in 5 days is the front-run window
+• NEW: Russia Crypto Retail (Nov 17) — BTC/ETH/USDT opens to Russian retail in 7 days; concrete demand catalyst with enforcement/sanctions risk
+• PROMOTED: MSCI/Strategy Decision Rising → Peak — final list drops TOMORROW Nov 11; $280M–$2.8B passive sell range; positioning window closes at market open
+• PROMOTED: Solana Breakpoint Rising → Peak — 5 days out; x402 $50B vol supports thesis; buy-rumor-sell-news setup post-Nov 15
+• PROMOTED: Bitmine ETH Ending Emerging → Rising — ETH under $2,100, 6-week ETF outflow streak; Bitmine stop-buy timeline corroborating
+• PROMOTED: Regulation Clarity Wave Emerging → Rising — SEC broker-dealer rules filed, Coinbase trust charter, 401k crypto in final review; Democratic sweep creates RIDE→WATCH flip risk
+• DEMOTED: AI Agent Payments Peak → Fading — 94.5% payment value collapse ($29M Nov 2025 → $1.59M Oct 2026); product launches sustaining narrative past fundamentals
+• DEMOTED: InfoFi/Kaito Rising → Fading — Yapper dead Jan 2026; Attention Markets running but no new engagement driver
+• DEAD: HYPE Unlock — executed Nov 6
 
 REFLEXIVITY ALERT
-• HYPE Unlock: $923M supply executing tomorrow; HYPE already −8.3% in a −5.5% BTC day — event is live
-• MSCI/Strategy + HYPE Unlock: dual risk-off catalysts compressing BTC simultaneously; Polymarket BTC $75K YES elevated
-• AI Agent Payments: Google Trends "AI agent" at record → Coinbase agent trading launch → Cornell/Yale study shows agents raise own limits → self-reinforcing loop
+• MSCI/Strategy Decision — MSTR already pricing in exclusion risk (Invezz confirmed price impact); BTC trading as MSTR proxy means passive sell narrative is live before the Nov 11 print
+• AI Agent Payments — Coinbase agent trading launch + CCN 2028 projections sustaining narrative while Token Terminal confirms 94.5% payment value collapse; story running ahead of underlying
 
 POSITIONS
-• FRONT-RUN: ZRO/TradFi Infrastructure (2 →, Bull) — @ZRO_xyz, Citadel/DTCC — bear: ATLAS delayed before — Nov 30 catalyst intact
-• FRONT-RUN: Solana Breakpoint (3 ↑, Bull) — @solana, @coinbase x402 — bear: SOL −9.2% today — 10 days out, 34.5% x402 share
-• FRONT-RUN: MSCI/Strategy Decision (3 ↑, Bear) — MSCI, MicroStrategy — bear: MSCI may keep Strategy in index — Nov 11 binary; buy BTC downside
-• FADE: HYPE Unlock (4 ↑↑, Bear) — event executing, sell-the-news
-• FADE: Binance Breach (3 ↓, Bear) — stolen funds cold; news cycle done
-• RIDE: Regulation Clarity Wave (3 →, Bull) — Ripple/OCC, CFTC — bear: clarity declared 3× before
-• RIDE: AI Agent Payments (4 →, Mixed) — @coinbase, @BlackRock — bear: TRM says <8% of x402 is real AI
-• WATCH: BTC Macro/Fed — Dec 9 Fed decision; no near-term reversal catalyst
-• WATCH: Bitmine ETH Ending (2 ↑, Bear) — single source, monitoring for ETH month-end demand cliff
+• FRONT-RUN: AI Agent Infrastructure Race (mindshare 3 ↑↑, Bull) — @Solana, @Base, Alchemy — bear: same payment collapse applies to infra utilization metrics
+• FRONT-RUN: MSCI/Strategy Decision (4 ↑↑, Bear) — @Strategy, @MSCI, passive flows — bear: two-year rule may spare Strategy; $280M actual sell vs $2.8B worst-case
+• FRONT-RUN: ZRO/TradFi Infrastructure (2 →, Bull) — ZeroLend, NYSE×Avalanche, Coinbase trust charter — bear: ATLAS launch unconfirmed until Nov 30
+• RIDE: Solana Breakpoint (4 ↑↑, Bull) — @Solana, x402 metrics — bear: post-Nov 15 FADE likely; buy-rumor setup
+• WATCH: Russia Crypto Retail (2 ↑, Bull) — bear: enforcement history poor, US secondary sanctions risk
+• WATCH: Bitmine ETH Ending (2 ↑, Bear) — bear: price floor may attract new institutional buyers on Bitmine exit
+• FADE: AI Agent Payments (4 ↓, Cope) — Token Terminal payment collapse; product launch narrative is cope
+• FADE: BTC Macro/Fed (3 ↓↓, Bear) — Fear & Greed 28, ETF outflows 6 weeks — bear: bottoming if MSCI resolves benign
+• FADE: Binance Breach (3 →, Bear) — TRM Labs; cycle exhausted, stolen funds cold
 
 MAP
-Emerging: ZRO/TradFi Infrastructure, Regulation Clarity Wave, Bitmine ETH Ending
-Rising: Solana Breakpoint, MSCI/Strategy Decision
-Peak: HYPE Unlock, AI Agent Payments
-Fading: Binance Breach, BTC Macro/Fed
+Emerging: ZRO/TradFi Infrastructure, Russia Crypto Retail
+Rising: Regulation Clarity Wave, AI Agent Infrastructure Race, Bitmine ETH Ending
+Peak: MSCI/Strategy Decision (event TOMORROW), Solana Breakpoint (5 days)
+Fading: AI Agent Payments, BTC Macro/Fed, Binance Breach
+Ignored: InfoFi/Kaito
