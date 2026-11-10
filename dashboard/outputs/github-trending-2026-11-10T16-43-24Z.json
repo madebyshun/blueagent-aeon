@@ -1,0 +1,605 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-11-10"
+      },
+      "children": [
+        "top-pick-section",
+        "sep-1",
+        "aiml-section",
+        "sep-2",
+        "devtools-section",
+        "sep-3",
+        "webapps-section",
+        "sep-4",
+        "footer-section"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-heading",
+        "astryx-toppick"
+      ]
+    },
+    "top-pick-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "astryx-toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "astryx-link-toppick",
+        "astryx-desc-toppick"
+      ]
+    },
+    "astryx-link-toppick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "meta/astryx",
+        "href": "https://github.com/meta/astryx"
+      }
+    },
+    "astryx-desc-toppick": {
+      "type": "Text",
+      "props": {
+        "text": "Meta's new agent-ready design system leads today with 3.1k stars — highest single-day volume and the clearest bet on AI-native UI tooling in the ecosystem."
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml-heading",
+        "aiml-repo-1",
+        "aiml-repo-2",
+        "aiml-repo-3"
+      ]
+    },
+    "aiml-heading": {
+      "type": "Text",
+      "props": {
+        "text": "AI/ML",
+        "variant": "lead"
+      }
+    },
+    "aiml-repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-1-link",
+        "aiml-1-meta",
+        "aiml-1-desc"
+      ]
+    },
+    "aiml-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "anthropics/skills",
+        "href": "https://github.com/anthropics/skills"
+      }
+    },
+    "aiml-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-1-stat",
+        "aiml-1-lang",
+        "aiml-1-status"
+      ]
+    },
+    "aiml-1-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "1,676 today (192k total)"
+      }
+    },
+    "aiml-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "aiml-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "aiml-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Official Anthropic skills library powering Claude Code — reusable MCP primitives you can drop into any compliant agent host today."
+      }
+    },
+    "aiml-repo-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-2-link",
+        "aiml-2-meta",
+        "aiml-2-desc"
+      ]
+    },
+    "aiml-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ranxianglei/billion-context",
+        "href": "https://github.com/ranxianglei/billion-context"
+      }
+    },
+    "aiml-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-2-stat",
+        "aiml-2-lang",
+        "aiml-2-status"
+      ]
+    },
+    "aiml-2-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "374 today (6.1k total)"
+      }
+    },
+    "aiml-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "aiml-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "aiml-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Compresses long single-session context ~90% without truncating history — meaningful token savings on multi-hour agent runs."
+      }
+    },
+    "aiml-repo-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-3-link",
+        "aiml-3-meta",
+        "aiml-3-desc"
+      ]
+    },
+    "aiml-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google-deepmind/mujoco",
+        "href": "https://github.com/google-deepmind/mujoco"
+      }
+    },
+    "aiml-3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-3-stat",
+        "aiml-3-lang",
+        "aiml-3-status"
+      ]
+    },
+    "aiml-3-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "453 today (17k total)"
+      }
+    },
+    "aiml-3-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "C++"
+      }
+    },
+    "aiml-3-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      }
+    },
+    "aiml-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "DeepMind's physics engine resurging — a new robotics curriculum or RL release is likely behind today's spike."
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-repo-1",
+        "devtools-repo-2",
+        "devtools-repo-3"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Devtools",
+        "variant": "lead"
+      }
+    },
+    "devtools-repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-link",
+        "devtools-1-meta",
+        "devtools-1-desc"
+      ]
+    },
+    "devtools-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "vercel-labs/agent-browser",
+        "href": "https://github.com/vercel-labs/agent-browser"
+      }
+    },
+    "devtools-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-stat",
+        "devtools-1-lang",
+        "devtools-1-status"
+      ]
+    },
+    "devtools-1-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "775 today (49k total)"
+      }
+    },
+    "devtools-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "devtools-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "devtools-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Lets AI agents drive a real browser headlessly in Rust — handles dynamic SPAs where pure API calls fall short."
+      }
+    },
+    "devtools-repo-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-2-link",
+        "devtools-2-meta",
+        "devtools-2-desc"
+      ]
+    },
+    "devtools-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "homeassistant-ai/ha-mcp",
+        "href": "https://github.com/homeassistant-ai/ha-mcp"
+      }
+    },
+    "devtools-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-2-stat",
+        "devtools-2-lang",
+        "devtools-2-status"
+      ]
+    },
+    "devtools-2-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "792 today (6.5k total)"
+      }
+    },
+    "devtools-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "devtools-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      }
+    },
+    "devtools-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Gives Claude and ChatGPT direct access to Home Assistant sensors and automations via MCP — no custom scripts needed."
+      }
+    },
+    "devtools-repo-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-3-link",
+        "devtools-3-meta",
+        "devtools-3-desc"
+      ]
+    },
+    "devtools-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "sherlock-project/sherlock",
+        "href": "https://github.com/sherlock-project/sherlock"
+      }
+    },
+    "devtools-3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-3-stat",
+        "devtools-3-lang",
+        "devtools-3-status"
+      ]
+    },
+    "devtools-3-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "2,387 today (109k total)"
+      }
+    },
+    "devtools-3-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "devtools-3-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      }
+    },
+    "devtools-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Still the fastest OSINT scanner across 400+ platforms — today's spike suggests a new release or viral moment."
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "webapps-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "webapps-heading",
+        "webapps-repo-1",
+        "webapps-repo-2"
+      ]
+    },
+    "webapps-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Web/Apps",
+        "variant": "lead"
+      }
+    },
+    "webapps-repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "webapps-1-link",
+        "webapps-1-meta",
+        "webapps-1-desc"
+      ]
+    },
+    "webapps-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "meta/astryx",
+        "href": "https://github.com/meta/astryx"
+      }
+    },
+    "webapps-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "webapps-1-stat",
+        "webapps-1-lang",
+        "webapps-1-status"
+      ]
+    },
+    "webapps-1-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "3,111 today (22k total)"
+      }
+    },
+    "webapps-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "webapps-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING"
+      }
+    },
+    "webapps-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Meta's open source design system with native MCP hooks — AI agents can read and compose UI from your component catalog directly."
+      }
+    },
+    "webapps-repo-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "webapps-2-link",
+        "webapps-2-meta",
+        "webapps-2-desc"
+      ]
+    },
+    "webapps-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "tokio-rs/topcoat",
+        "href": "https://github.com/tokio-rs/topcoat"
+      }
+    },
+    "webapps-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "webapps-2-stat",
+        "webapps-2-lang",
+        "webapps-2-status"
+      ]
+    },
+    "webapps-2-stat": {
+      "type": "Stat",
+      "props": {
+        "value": "192 today (6.7k total)"
+      }
+    },
+    "webapps-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "webapps-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING"
+      }
+    },
+    "webapps-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Rust web framework from the Tokio team with built-in auth, migrations, and templates — Axum minus the boilerplate."
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer-text"
+      ]
+    },
+    "footer-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 8/12",
+        "variant": "caption"
+      }
+    }
+  }
+}
