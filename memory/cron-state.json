@@ -33,15 +33,15 @@
     "last_error": "ned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refused\":{\"depth_limit\":0,\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"safety_stops\":0,\"is_error\":true,\"num_"
   },
   "github-trending": {
-    "last_status": "success",
+    "last_status": "failed",
     "last_success": "2026-11-10T16:44:14Z",
-    "total_runs": 167,
+    "total_runs": 168,
     "total_successes": 140,
-    "total_failures": 27,
-    "consecutive_failures": 0,
-    "success_rate": 0.84,
-    "last_failed": "2026-11-09T19:19:12Z",
-    "last_error": "ned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refused\":{\"depth_limit\":0,\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"safety_stops\":0,\"is_error\":true,\"num_"
+    "total_failures": 28,
+    "consecutive_failures": 1,
+    "success_rate": 0.83,
+    "last_failed": "2026-11-11T16:45:27Z",
+    "last_error": "_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refused\":{\"depth_limit\":0,\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"safety_stops\":0,\"is_error\":true,\"num_tur"
   },
   "token-movers": {
     "last_status": "failed",
