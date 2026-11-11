@@ -1,17 +1,11 @@
-*Daily Pick — 2026-11-06*
+*Daily Pick — 2026-11-11*
 
-*Token: ARB*  [HIGH]  signal 8/10
-Price: $0.1679 (+6.51% 24h / +3.41% 7d) | mcap $1.16B | vol $189M (vol/mcap 0.163)
-Score breakdown: [trending+2, vol/mcap≥0.10+2, RS vs BTC/ETH+2, 24h+1, 7d+1] = 8/10
-Catalyst: ARB rallying in a down market (BTC -0.28%, ETH -0.89%) — Arbitrum trending on CoinGecko today; Robinhood L2 (Arbitrum Orbit) live deployment driving ecosystem attention and fresh capital rotation into the leading L2.
-Risk: Nov 16 token unlock ~92.65M ARB (~$17M at spot) — scheduled monthly release and known headwind landing in 10 days.
-Vs recent picks: first time (ZRO, CAP, INJ picked in prior runs — ARB is fresh)
+*Token: GRAM*  [MEDIUM]  signal 6/10
+Price: $1.22 (+9.3% 24h / +2.6% 7d) | mcap $3.5B | vol $159M (vol/mcap 0.05)
+Score breakdown: [24h>0+1, 7d>0+1, trending+2, RS vs BTC/ETH+2] = 6/10
+Catalyst: Positive-7d outlier in a broadly negative crypto market (+2.6% 7d vs BTC -7.5% / ETH -14.1%); TON account base grew 1% week-over-week (Nov 6-12); Telegram 900M-user ecosystem keeps long-term demand floor intact
+Risk: Testing $1.19-$1.22 resistance band that capped the token in early November; vol/mcap at 0.05 signals no fresh buying surge yet — move could stall at resistance
+Vs recent picks: first time
 
-*Market: "Will Jon Ossoff win the 2028 Democratic presidential nomination?"*  [HIGH]  edge 10pp
-Current: YES 27.25¢ / NO 72.75¢ | 24h vol $79k | resolves: 2028-11-08
-Fair YES: ~17% (inputs: [Polymarket/Kalshi Oct 25 consensus ~15.3%], [national primary polling 7.1% — PollCheck Oct 31], [no declared candidacy])
-Thesis: YES jumped ~12pp since late October with no named catalyst; at 27¢ the market is pricing Ossoff as a co-frontrunner while polls place him 5th at 7% — the gap is too wide. Bet NO.
-Risk: Ossoff announces formal 2028 run or lands a major viral moment this week, pulling odds sharply higher.
-
-sources: cg=ok, dex=skip, poly=ok
+sources: cg=ok, dex=fail, poly=ok (no qualifying market — best edge 3.7pp, below 5pp floor)
 not financial advice — pattern-matching only

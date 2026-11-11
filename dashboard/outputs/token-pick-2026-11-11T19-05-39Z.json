@@ -1,0 +1,330 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-11-11"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token_header",
+        "sep1",
+        "price_section",
+        "sep2",
+        "breakdown_section",
+        "sep3",
+        "catalyst_section",
+        "sep4",
+        "risk_section",
+        "sep5",
+        "recent_section",
+        "sep6",
+        "sources_section",
+        "sep7",
+        "disclaimer"
+      ]
+    },
+    "token_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token_name",
+        "badge_medium",
+        "badge_signal"
+      ]
+    },
+    "token_name": {
+      "type": "Heading",
+      "props": {
+        "text": "GRAM",
+        "level": "h2"
+      }
+    },
+    "badge_medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      }
+    },
+    "badge_signal": {
+      "type": "Badge",
+      "props": {
+        "text": "signal 6/10",
+        "variant": "default"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "price_section": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stat_price",
+        "stat_24h",
+        "stat_7d",
+        "stat_mcap",
+        "stat_vol",
+        "stat_vol_mcap"
+      ]
+    },
+    "stat_price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$1.22"
+      }
+    },
+    "stat_24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Change",
+        "value": "+9.3%",
+        "trend": "up"
+      }
+    },
+    "stat_7d": {
+      "type": "Stat",
+      "props": {
+        "label": "7d Change",
+        "value": "+2.6%",
+        "trend": "up"
+      }
+    },
+    "stat_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$3.5B"
+      }
+    },
+    "stat_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$159M"
+      }
+    },
+    "stat_vol_mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap Ratio",
+        "value": "0.05"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "breakdown_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "breakdown_heading",
+        "breakdown_table"
+      ]
+    },
+    "breakdown_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      }
+    },
+    "breakdown_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Factor",
+          "Points"
+        ],
+        "rows": [
+          [
+            "24h > 0",
+            "+1"
+          ],
+          [
+            "7d > 0",
+            "+1"
+          ],
+          [
+            "Trending",
+            "+2"
+          ],
+          [
+            "RS vs BTC/ETH",
+            "+2"
+          ],
+          [
+            "Total",
+            "6/10"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "catalyst_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "catalyst_heading",
+        "catalyst_text"
+      ]
+    },
+    "catalyst_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h3"
+      }
+    },
+    "catalyst_text": {
+      "type": "Text",
+      "props": {
+        "text": "Positive-7d outlier in a broadly negative crypto market (+2.6% 7d vs BTC -7.5% / ETH -14.1%); TON account base grew 1% week-over-week (Nov 6-12); Telegram 900M-user ecosystem keeps long-term demand floor intact",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "risk_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "risk_heading",
+        "risk_text"
+      ]
+    },
+    "risk_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      }
+    },
+    "risk_text": {
+      "type": "Text",
+      "props": {
+        "text": "Testing $1.19-$1.22 resistance band that capped the token in early November; vol/mcap at 0.05 signals no fresh buying surge yet — move could stall at resistance",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "recent_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "recent_heading",
+        "recent_text"
+      ]
+    },
+    "recent_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "vs Recent Picks",
+        "level": "h3"
+      }
+    },
+    "recent_text": {
+      "type": "Text",
+      "props": {
+        "text": "first time",
+        "variant": "body"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sources_heading",
+        "sources_text"
+      ]
+    },
+    "sources_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Data Sources",
+        "level": "h3"
+      }
+    },
+    "sources_text": {
+      "type": "Text",
+      "props": {
+        "text": "cg=ok, dex=fail, poly=ok (no qualifying market — best edge 3.7pp, below 5pp floor)",
+        "variant": "caption"
+      }
+    },
+    "sep7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "disclaimer": {
+      "type": "Alert",
+      "props": {
+        "title": "Disclaimer",
+        "message": "Not financial advice — pattern-matching only",
+        "type": "info"
+      }
+    }
+  }
+}
