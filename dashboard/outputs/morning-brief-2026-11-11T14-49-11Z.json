@@ -1,0 +1,244 @@
+{
+  "root": "card_morning_brief",
+  "state": {},
+  "elements": {
+    "card_morning_brief": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-11-11"
+      },
+      "children": [
+        "heading_focus",
+        "sep_1",
+        "focus_stack",
+        "sep_2",
+        "heading_yesterday",
+        "yesterday_stack",
+        "sep_3",
+        "heading_watch",
+        "watch_text",
+        "sep_4",
+        "heading_running",
+        "running_stack"
+      ]
+    },
+    "heading_focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "focus_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_1",
+        "focus_2",
+        "focus_3"
+      ]
+    },
+    "focus_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Repair token-movers (cf=5) + token-pick (cf=4) before 12:00 UTC — why now: both scheduled to run in ~5 hours; cf ticks up again without fix",
+        "variant": "body"
+      }
+    },
+    "focus_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Clear MSCI/Strategy FRONT-RUN position — why now: web search confirms MSCI resolved this in Jan 2026; narrative-tracker reruns at 13:30 UTC with stale baseline",
+        "variant": "body"
+      }
+    },
+    "focus_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Decide on deal-flow: repair or disable — why now: 30-day outage (last success Oct 12), next run Monday Nov 16 in 5 days",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_1",
+        "yesterday_2",
+        "yesterday_3"
+      ]
+    },
+    "yesterday_1": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker: recovered cf=0 (was cf=3); security-digest: recovered cf=0 (was cf=4)",
+        "variant": "body"
+      }
+    },
+    "yesterday_2": {
+      "type": "Text",
+      "props": {
+        "text": "morning-brief + github-trending: both cf=0 (were cf=3)",
+        "variant": "body"
+      }
+    },
+    "yesterday_3": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers: worsened to cf=5; defi-monitor still cf=4 (disabled in aeon.yml, not scheduling)",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_text": {
+      "type": "Text",
+      "props": {
+        "text": "MSCI retained Strategy in indices (Jan 2026 decision, not today) — narrative-tracker's Nov-11 FRONT-RUN signal is stale; needs clearing before 13:30 UTC run",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_1",
+        "running_2",
+        "running_3",
+        "running_4",
+        "running_5",
+        "running_6"
+      ]
+    },
+    "running_1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "running_3_text",
+        "running_3_badge"
+      ]
+    },
+    "running_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "cf=5",
+        "variant": "destructive"
+      }
+    },
+    "running_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "running_4_text",
+        "running_4_badge"
+      ]
+    },
+    "running_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "cf=4",
+        "variant": "secondary"
+      }
+    },
+    "running_5": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "running_6": {
+      "type": "Text",
+      "props": {
+        "text": "skill-analytics @ 18:30 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
