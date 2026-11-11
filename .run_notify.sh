@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-MSG=$(cat /tmp/token_movers_msg.txt)
+set -euo pipefail
+cd "$(dirname "$0")"
+MSG=$(cat .token_movers_msg.txt)
 ./notify "$MSG"
