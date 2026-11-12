@@ -1,0 +1,302 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-11-12"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-yesterday",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-focus",
+        "focus-dealflow-label",
+        "focus-context"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-dealflow-label": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "focus-context": {
+      "type": "Text",
+      "props": {
+        "text": "why now: cf=4, 31-day outage, Monday auto-run fires in 4 days",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-yesterday",
+        "yesterday-items"
+      ]
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-token-movers",
+        "item-token-pick",
+        "item-defi-monitor",
+        "item-github-trending"
+      ]
+    },
+    "item-token-movers": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-success-1",
+        "text-token-movers"
+      ]
+    },
+    "badge-success-1": {
+      "type": "Badge",
+      "props": {
+        "text": "✓",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-token-movers": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers: broad green; Q (+16.2%), NIGHT (+13.1%), GRAM (+9.3%) led",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item-token-pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-success-2",
+        "text-token-pick"
+      ]
+    },
+    "badge-success-2": {
+      "type": "Badge",
+      "props": {
+        "text": "✓",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-token-pick": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick: GRAM — $1.22, +9.3%, score 6/10",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item-defi-monitor": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-success-3",
+        "text-defi-monitor"
+      ]
+    },
+    "badge-success-3": {
+      "type": "Badge",
+      "props": {
+        "text": "✓",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-defi-monitor": {
+      "type": "Text",
+      "props": {
+        "text": "defi-monitor: clean exit (no positions configured)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item-github-trending": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-failure",
+        "text-github-trending"
+      ]
+    },
+    "badge-failure": {
+      "type": "Badge",
+      "props": {
+        "text": "failed",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text-github-trending": {
+      "type": "Text",
+      "props": {
+        "text": "github-trending: (cf=1) — disabled in aeon.yml, no action needed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-watch",
+        "text-watch"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-watch": {
+      "type": "Text",
+      "props": {
+        "text": "AI sector mcap −7.3% in November, TAO leads; small-cap AI agents outperform — consistent with yesterday's picks, context for 12 UTC token-pick",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-running",
+        "table-running"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table-running": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Task",
+          "Time (UTC)"
+        ],
+        "rows": [
+          [
+            "github-monitor",
+            "09:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "token-pick",
+            "12:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ]
+        ]
+      },
+      "children": []
+    }
+  }
+}
