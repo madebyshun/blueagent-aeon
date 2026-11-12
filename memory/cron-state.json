@@ -33,12 +33,12 @@
     "last_error": "ned_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refused\":{\"depth_limit\":0,\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"safety_stops\":0,\"is_error\":true,\"num_"
   },
   "github-trending": {
-    "last_status": "failed",
-    "last_success": "2026-11-10T16:44:14Z",
-    "total_runs": 168,
-    "total_successes": 140,
+    "last_status": "success",
+    "last_success": "2026-11-12T17:17:59Z",
+    "total_runs": 169,
+    "total_successes": 141,
     "total_failures": 28,
-    "consecutive_failures": 1,
+    "consecutive_failures": 0,
     "success_rate": 0.83,
     "last_failed": "2026-11-11T16:45:27Z",
     "last_error": "_by_subagents\":0,\"completed\":0,\"failed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refused\":{\"depth_limit\":0,\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"safety_stops\":0,\"is_error\":true,\"num_tur"
