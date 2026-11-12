@@ -1,0 +1,510 @@
+{
+  "root": "trending-card",
+  "state": {},
+  "elements": {
+    "trending-card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-11-12"
+      },
+      "children": [
+        "top-pick-section",
+        "separator-1",
+        "aiml-section",
+        "separator-2",
+        "infra-section",
+        "separator-3",
+        "webapps-section",
+        "separator-4",
+        "other-section",
+        "separator-5",
+        "sources-footer"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-label",
+        "codex-security-link",
+        "codex-security-desc"
+      ]
+    },
+    "top-pick-label": {
+      "type": "Text",
+      "props": {
+        "text": "Top pick",
+        "variant": "lead"
+      }
+    },
+    "codex-security-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "openai/codex-security",
+        "href": "https://github.com/openai/codex-security"
+      }
+    },
+    "codex-security-desc": {
+      "type": "Text",
+      "props": {
+        "text": "OpenAI shipping an agentic security CLI signals autonomous code remediation is graduating from research project to developer tool."
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "aiml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml-heading",
+        "aiml-item-1",
+        "aiml-item-2",
+        "aiml-item-3"
+      ]
+    },
+    "aiml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "aiml-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "codex-sec-link",
+        "codex-sec-meta",
+        "codex-sec-desc"
+      ]
+    },
+    "codex-sec-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "openai/codex-security",
+        "href": "https://github.com/openai/codex-security"
+      }
+    },
+    "codex-sec-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "codex-sec-stars",
+        "codex-sec-lang",
+        "codex-sec-trend"
+      ]
+    },
+    "codex-sec-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 663 today (12.2k total)"
+      }
+    },
+    "codex-sec-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TS"
+      }
+    },
+    "codex-sec-trend": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "codex-sec-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Finds, validates, and auto-patches code vulns autonomously — first production security remediation CLI from a major AI lab.",
+        "variant": "body"
+      }
+    },
+    "aiml-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "openbot-link",
+        "openbot-meta",
+        "openbot-desc"
+      ]
+    },
+    "openbot-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CopilotKit/OpenBot",
+        "href": "https://github.com/CopilotKit/OpenBot"
+      }
+    },
+    "openbot-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "openbot-stars",
+        "openbot-lang",
+        "openbot-trend"
+      ]
+    },
+    "openbot-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 291 today (11.4k total)"
+      }
+    },
+    "openbot-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TS"
+      }
+    },
+    "openbot-trend": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "openbot-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Each agent gets a dedicated browser+filesystem; every action is pre-approved and logged — full autonomous loop, fully auditable.",
+        "variant": "body"
+      }
+    },
+    "aiml-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "qwen-link",
+        "qwen-meta",
+        "qwen-desc"
+      ]
+    },
+    "qwen-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "QwenLM/qwen-code",
+        "href": "https://github.com/QwenLM/qwen-code"
+      }
+    },
+    "qwen-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "qwen-stars",
+        "qwen-lang",
+        "qwen-trend"
+      ]
+    },
+    "qwen-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 151 today (29.7k total)"
+      }
+    },
+    "qwen-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TS"
+      }
+    },
+    "qwen-trend": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "qwen-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Alibaba's open terminal coding agent — open weights + source means self-hostable Claude Code competitor without usage caps.",
+        "variant": "body"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "infra-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra-heading",
+        "infra-item-1"
+      ]
+    },
+    "infra-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "infra-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tensorfold-link",
+        "tensorfold-meta",
+        "tensorfold-desc"
+      ]
+    },
+    "tensorfold-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ashhart/TensorFold",
+        "href": "https://github.com/ashhart/TensorFold"
+      }
+    },
+    "tensorfold-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "tensorfold-stars",
+        "tensorfold-lang",
+        "tensorfold-trend"
+      ]
+    },
+    "tensorfold-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 94 today (1.9k total)"
+      }
+    },
+    "tensorfold-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Zig"
+      }
+    },
+    "tensorfold-trend": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "tensorfold-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Zig LLM inference for Metal+CUDA+Vulkan — experiments with Zig's ownership model as a C++ replacement for ML runtimes.",
+        "variant": "body"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "webapps-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "webapps-heading",
+        "webapps-item-1"
+      ]
+    },
+    "webapps-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "webapps-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sure-link",
+        "sure-meta",
+        "sure-desc"
+      ]
+    },
+    "sure-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "we-promise/sure",
+        "href": "https://github.com/we-promise/sure"
+      }
+    },
+    "sure-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "sure-stars",
+        "sure-lang",
+        "sure-trend"
+      ]
+    },
+    "sure-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 974 today (13.7k total)"
+      }
+    },
+    "sure-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Ruby"
+      }
+    },
+    "sure-trend": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "sure-desc": {
+      "type": "Text",
+      "props": {
+        "text": "974 stars today — the most active open-source personal finance app, likely a major release driving the spike.",
+        "variant": "body"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "other-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "other-heading",
+        "other-item-1"
+      ]
+    },
+    "other-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Other",
+        "level": "h3"
+      }
+    },
+    "other-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hermesenabler-link",
+        "hermesenabler-meta",
+        "hermesenabler-desc"
+      ]
+    },
+    "hermesenabler-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "pookjw/HermesEnabler",
+        "href": "https://github.com/pookjw/HermesEnabler"
+      }
+    },
+    "hermesenabler-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "hermesenabler-stars",
+        "hermesenabler-lang",
+        "hermesenabler-trend"
+      ]
+    },
+    "hermesenabler-stars": {
+      "type": "Badge",
+      "props": {
+        "text": "★ 390 today (1.4k total)"
+      }
+    },
+    "hermesenabler-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "ObjC"
+      }
+    },
+    "hermesenabler-trend": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      }
+    },
+    "hermesenabler-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Reverse-engineered Apple's Hermès watch face entitlement; unlocks $1,200+ watch faces on any Apple Watch via software.",
+        "variant": "body"
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 6/13",
+        "variant": "caption"
+      }
+    }
+  }
+}

@@ -1,34 +1,29 @@
-*GitHub Trending — 2026-11-10*
+*GitHub Trending — 2026-11-12*
 
-*Top pick* — [meta/astryx](https://github.com/meta/astryx)
-Meta's new agent-ready design system leads today with 3.1k stars — highest single-day volume and the clearest bet on AI-native UI tooling in the ecosystem.
+*Top pick* — [openai/codex-security](https://github.com/openai/codex-security)
+OpenAI shipping an agentic security CLI signals autonomous code remediation is graduating from research project to developer tool.
 
 *AI/ML*
-• [anthropics/skills](https://github.com/anthropics/skills) — ★ 1,676 today (192k total) · Python · [ACCELERATING]
-Official Anthropic skills library powering Claude Code — reusable MCP primitives you can drop into any compliant agent host today.
+• [openai/codex-security](https://github.com/openai/codex-security) — ★ 663 today (12.2k total) · TS · [ACCELERATING]
+Finds, validates, and auto-patches code vulns autonomously — first production security remediation CLI from a major AI lab.
 
-• [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context) — ★ 374 today (6.1k total) · TypeScript · [ACCELERATING]
-Compresses long single-session context ~90% without truncating history — meaningful token savings on multi-hour agent runs.
+• [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) — ★ 291 today (11.4k total) · TS · [ACCELERATING]
+Each agent gets a dedicated browser+filesystem; every action is pre-approved and logged — full autonomous loop, fully auditable.
 
-• [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) — ★ 453 today (17k total) · C++ · [RETURNING]
-DeepMind's physics engine resurging — a new robotics curriculum or RL release is likely behind today's spike.
+• [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) — ★ 151 today (29.7k total) · TS · [ACCELERATING]
+Alibaba's open terminal coding agent — open weights + source means self-hostable Claude Code competitor without usage caps.
 
-*Devtools*
-• [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) — ★ 775 today (49k total) · Rust · [ACCELERATING]
-Lets AI agents drive a real browser headlessly in Rust — handles dynamic SPAs where pure API calls fall short.
-
-• [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) — ★ 792 today (6.5k total) · Python · [RETURNING]
-Gives Claude and ChatGPT direct access to Home Assistant sensors and automations via MCP — no custom scripts needed.
-
-• [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) — ★ 2,387 today (109k total) · Python · [RETURNING]
-Still the fastest OSINT scanner across 400+ platforms — today's spike suggests a new release or viral moment.
+*Infra*
+• [ashhart/TensorFold](https://github.com/ashhart/TensorFold) — ★ 94 today (1.9k total) · Zig · [RETURNING]
+Zig LLM inference for Metal+CUDA+Vulkan — experiments with Zig's ownership model as a C++ replacement for ML runtimes.
 
 *Web/Apps*
-• [meta/astryx](https://github.com/meta/astryx) — ★ 3,111 today (22k total) · TypeScript · [ACCELERATING]
-Meta's open source design system with native MCP hooks — AI agents can read and compose UI from your component catalog directly.
+• [we-promise/sure](https://github.com/we-promise/sure) — ★ 974 today (13.7k total) · Ruby · [RETURNING]
+974 stars today — the most active open-source personal finance app, likely a major release driving the spike.
 
-• [tokio-rs/topcoat](https://github.com/tokio-rs/topcoat) — ★ 192 today (6.7k total) · Rust · [RETURNING]
-Rust web framework from the Tokio team with built-in auth, migrations, and templates — Axum minus the boilerplate.
+*Other*
+• [pookjw/HermesEnabler](https://github.com/pookjw/HermesEnabler) — ★ 390 today (1.4k total) · ObjC · [RETURNING]
+Reverse-engineered Apple's Hermès watch face entitlement; unlocks $1,200+ watch faces on any Apple Watch via software.
 
 ---
-sources: trending=ok · gh_api=ok · kept 8/12
+sources: trending=ok · gh_api=ok · kept 6/13
