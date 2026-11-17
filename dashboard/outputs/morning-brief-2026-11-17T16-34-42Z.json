@@ -1,0 +1,241 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-11-17"
+      },
+      "children": [
+        "focus-section",
+        "sep1",
+        "yesterday-section",
+        "sep2",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus-heading",
+        "focus-items"
+      ]
+    },
+    "focus-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "focus-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus1",
+        "focus2",
+        "focus3"
+      ]
+    },
+    "focus1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Diagnose systemic skill failures — API/gateway error hitting 7 skills since Nov 12"
+      },
+      "children": []
+    },
+    "focus2": {
+      "type": "Text",
+      "props": {
+        "text": "2. token-movers outage (5 days) — runs again 12:00 UTC; needs fix before then"
+      },
+      "children": []
+    },
+    "focus3": {
+      "type": "Text",
+      "props": {
+        "text": "3. deal-flow degraded (60% rate) — last success Oct 12; failed again yesterday"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday-heading",
+        "yesterday-items"
+      ]
+    },
+    "yesterday-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stuck-item",
+        "commit-item"
+      ]
+    },
+    "stuck-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stuck-badge",
+        "stuck-text"
+      ]
+    },
+    "stuck-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "stuck",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "stuck-text": {
+      "type": "Text",
+      "props": {
+        "text": "7 core skills failing with same api_error pattern — token-movers, token-pick, defi-monitor, narrative-tracker, security-digest, github-trending, deal-flow"
+      },
+      "children": []
+    },
+    "commit-item": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "commit-badge",
+        "commit-text"
+      ]
+    },
+    "commit-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "commit",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "commit-text": {
+      "type": "Text",
+      "props": {
+        "text": "chore(cron): deal-flow failed — acknowledged, not yet fixed"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running-heading",
+        "running-items"
+      ]
+    },
+    "running-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "running-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "run1",
+        "run2",
+        "run3",
+        "run4",
+        "run5"
+      ]
+    },
+    "run1": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC"
+      },
+      "children": []
+    },
+    "run2": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC"
+      },
+      "children": []
+    },
+    "run3": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "token-movers @ 12:00 UTC",
+        "message": "5 consecutive failures"
+      },
+      "children": []
+    },
+    "run4": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "token-pick @ 12:00 UTC",
+        "message": "4 consecutive failures"
+      },
+      "children": []
+    },
+    "run5": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "narrative-tracker @ 13:30 UTC",
+        "message": "4 consecutive failures"
+      },
+      "children": []
+    }
+  }
+}
