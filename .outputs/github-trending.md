@@ -1,29 +1,32 @@
-*GitHub Trending — 2026-11-12*
+*GitHub Trending — 2026-11-17*
 
-*Top pick* — [openai/codex-security](https://github.com/openai/codex-security)
-OpenAI shipping an agentic security CLI signals autonomous code remediation is graduating from research project to developer tool.
+*Top pick* — [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui)
+Open protocol spec standardizing how AI agents connect to any web UI — the missing adapter layer every agent stack needs.
 
 *AI/ML*
-• [openai/codex-security](https://github.com/openai/codex-security) — ★ 663 today (12.2k total) · TS · [ACCELERATING]
-Finds, validates, and auto-patches code vulns autonomously — first production security remediation CLI from a major AI lab.
+• [google-research/paper-orchestra](https://github.com/google-research/paper-orchestra) — ★ 1.2k today (2.7k total) · Python · [RETURNING]
+End-to-end multi-agent pipeline that drafts, cites, and iterates on research papers — Google Research going full autonomous.
 
-• [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) — ★ 291 today (11.4k total) · TS · [ACCELERATING]
-Each agent gets a dedicated browser+filesystem; every action is pre-approved and logged — full autonomous loop, fully auditable.
+*Devtools*
+• [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) — ★ 1k today (8.7k total) · Python · [RETURNING]
+Packages Claude Code tool access into structured bug-bounty workflows — recon, vuln mapping, report gen.
 
-• [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) — ★ 151 today (29.7k total) · TS · [ACCELERATING]
-Alibaba's open terminal coding agent — open weights + source means self-hostable Claude Code competitor without usage caps.
+• [alibaba/open-code-review](https://github.com/alibaba/open-code-review) — ★ 764 today (53.6k total) · Go · [ACCELERATING]
+Chains deterministic rule pipelines with an LLM reviewer to slash false positives in automated PR reviews.
+
+• [backnotprop/plannotator](https://github.com/backnotprop/plannotator) — ★ 691 today (13k total) · TypeScript · [RETURNING]
+Shared workspace where humans annotate agent plans and push feedback back into the agent loop.
 
 *Infra*
-• [ashhart/TensorFold](https://github.com/ashhart/TensorFold) — ★ 94 today (1.9k total) · Zig · [RETURNING]
-Zig LLM inference for Metal+CUDA+Vulkan — experiments with Zig's ownership model as a C++ replacement for ML runtimes.
+• [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) — ★ 1.4k today (19.9k total) · TypeScript · [RETURNING]
+Open protocol spec for wiring AI agents to any web UI — the missing adapter layer.
+
+• [Tencent/LoopForge](https://github.com/Tencent/LoopForge) — ★ 590 today (3k total) · Go · [RETURNING]
+Self-hosted agent workflow runner with human-approval gates — works with any coding model.
 
 *Web/Apps*
-• [we-promise/sure](https://github.com/we-promise/sure) — ★ 974 today (13.7k total) · Ruby · [RETURNING]
-974 stars today — the most active open-source personal finance app, likely a major release driving the spike.
-
-*Other*
-• [pookjw/HermesEnabler](https://github.com/pookjw/HermesEnabler) — ★ 390 today (1.4k total) · ObjC · [RETURNING]
-Reverse-engineered Apple's Hermès watch face entitlement; unlocks $1,200+ watch faces on any Apple Watch via software.
+• [dream-num/univer](https://github.com/dream-num/univer) — ★ 1.8k today (28.8k total) · TypeScript · [RETURNING]
+Embeddable spreadsheet/doc SDK built for AI agent tool calls — not just another UI library.
 
 ---
-sources: trending=ok · gh_api=ok · kept 6/13
+sources: trending=ok · gh_api=ok · kept 7/15

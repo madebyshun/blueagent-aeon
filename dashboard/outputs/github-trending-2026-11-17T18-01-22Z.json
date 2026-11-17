@@ -1,0 +1,639 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-11-17"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_toppick",
+        "sep1",
+        "section_aiml",
+        "sep2",
+        "section_devtools",
+        "sep3",
+        "section_infra",
+        "sep4",
+        "section_webapps",
+        "sep5",
+        "source_footer"
+      ]
+    },
+    "section_toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_toppick",
+        "repo_toppick_header",
+        "desc_toppick"
+      ]
+    },
+    "heading_toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Pick",
+        "level": "h3"
+      }
+    },
+    "repo_toppick_header": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ag-ui-protocol/ag-ui",
+        "href": "https://github.com/ag-ui-protocol/ag-ui"
+      }
+    },
+    "desc_toppick": {
+      "type": "Text",
+      "props": {
+        "text": "Open protocol spec standardizing how AI agents connect to any web UI — the missing adapter layer every agent stack needs.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aiml",
+        "repo_aiml_1"
+      ]
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      }
+    },
+    "repo_aiml_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_aiml_1_meta",
+        "desc_aiml_1"
+      ]
+    },
+    "repo_aiml_1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_aiml_1",
+        "stat_aiml_1_today",
+        "stat_aiml_1_total",
+        "badge_lang_aiml_1",
+        "badge_status_aiml_1"
+      ]
+    },
+    "link_aiml_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google-research/paper-orchestra",
+        "href": "https://github.com/google-research/paper-orchestra"
+      }
+    },
+    "stat_aiml_1_today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "1.2k"
+      }
+    },
+    "stat_aiml_1_total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "2.7k"
+      }
+    },
+    "badge_lang_aiml_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "badge_status_aiml_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "desc_aiml_1": {
+      "type": "Text",
+      "props": {
+        "text": "End-to-end multi-agent pipeline that drafts, cites, and iterates on research papers — Google Research going full autonomous.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "repo_devtools_1",
+        "repo_devtools_2",
+        "repo_devtools_3"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      }
+    },
+    "repo_devtools_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_devtools_1_meta",
+        "desc_devtools_1"
+      ]
+    },
+    "repo_devtools_1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_devtools_1",
+        "stat_devtools_1_today",
+        "stat_devtools_1_total",
+        "badge_lang_devtools_1",
+        "badge_status_devtools_1"
+      ]
+    },
+    "link_devtools_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "elementalsouls/Claude-BugHunter",
+        "href": "https://github.com/elementalsouls/Claude-BugHunter"
+      }
+    },
+    "stat_devtools_1_today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "1k"
+      }
+    },
+    "stat_devtools_1_total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "8.7k"
+      }
+    },
+    "badge_lang_devtools_1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      }
+    },
+    "badge_status_devtools_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "desc_devtools_1": {
+      "type": "Text",
+      "props": {
+        "text": "Packages Claude Code tool access into structured bug-bounty workflows — recon, vuln mapping, report gen.",
+        "variant": "body"
+      }
+    },
+    "repo_devtools_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_devtools_2_meta",
+        "desc_devtools_2"
+      ]
+    },
+    "repo_devtools_2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_devtools_2",
+        "stat_devtools_2_today",
+        "stat_devtools_2_total",
+        "badge_lang_devtools_2",
+        "badge_status_devtools_2"
+      ]
+    },
+    "link_devtools_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "alibaba/open-code-review",
+        "href": "https://github.com/alibaba/open-code-review"
+      }
+    },
+    "stat_devtools_2_today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "764"
+      }
+    },
+    "stat_devtools_2_total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "53.6k"
+      }
+    },
+    "badge_lang_devtools_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "secondary"
+      }
+    },
+    "badge_status_devtools_2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      }
+    },
+    "desc_devtools_2": {
+      "type": "Text",
+      "props": {
+        "text": "Chains deterministic rule pipelines with an LLM reviewer to slash false positives in automated PR reviews.",
+        "variant": "body"
+      }
+    },
+    "repo_devtools_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_devtools_3_meta",
+        "desc_devtools_3"
+      ]
+    },
+    "repo_devtools_3_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_devtools_3",
+        "stat_devtools_3_today",
+        "stat_devtools_3_total",
+        "badge_lang_devtools_3",
+        "badge_status_devtools_3"
+      ]
+    },
+    "link_devtools_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "backnotprop/plannotator",
+        "href": "https://github.com/backnotprop/plannotator"
+      }
+    },
+    "stat_devtools_3_today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "691"
+      }
+    },
+    "stat_devtools_3_total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "13k"
+      }
+    },
+    "badge_lang_devtools_3": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_status_devtools_3": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "desc_devtools_3": {
+      "type": "Text",
+      "props": {
+        "text": "Shared workspace where humans annotate agent plans and push feedback back into the agent loop.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_infra",
+        "repo_infra_1",
+        "repo_infra_2"
+      ]
+    },
+    "heading_infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      }
+    },
+    "repo_infra_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_infra_1_meta",
+        "desc_infra_1"
+      ]
+    },
+    "repo_infra_1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_infra_1",
+        "stat_infra_1_today",
+        "stat_infra_1_total",
+        "badge_lang_infra_1",
+        "badge_status_infra_1"
+      ]
+    },
+    "link_infra_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "ag-ui-protocol/ag-ui",
+        "href": "https://github.com/ag-ui-protocol/ag-ui"
+      }
+    },
+    "stat_infra_1_today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "1.4k"
+      }
+    },
+    "stat_infra_1_total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "19.9k"
+      }
+    },
+    "badge_lang_infra_1": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_status_infra_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "desc_infra_1": {
+      "type": "Text",
+      "props": {
+        "text": "Open protocol spec for wiring AI agents to any web UI — the missing adapter layer.",
+        "variant": "body"
+      }
+    },
+    "repo_infra_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_infra_2_meta",
+        "desc_infra_2"
+      ]
+    },
+    "repo_infra_2_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_infra_2",
+        "stat_infra_2_today",
+        "stat_infra_2_total",
+        "badge_lang_infra_2",
+        "badge_status_infra_2"
+      ]
+    },
+    "link_infra_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Tencent/LoopForge",
+        "href": "https://github.com/Tencent/LoopForge"
+      }
+    },
+    "stat_infra_2_today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "590"
+      }
+    },
+    "stat_infra_2_total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "3k"
+      }
+    },
+    "badge_lang_infra_2": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "secondary"
+      }
+    },
+    "badge_status_infra_2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "desc_infra_2": {
+      "type": "Text",
+      "props": {
+        "text": "Self-hosted agent workflow runner with human-approval gates — works with any coding model.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_webapps": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_webapps",
+        "repo_webapps_1"
+      ]
+    },
+    "heading_webapps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h3"
+      }
+    },
+    "repo_webapps_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "repo_webapps_1_meta",
+        "desc_webapps_1"
+      ]
+    },
+    "repo_webapps_1_meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "link_webapps_1",
+        "stat_webapps_1_today",
+        "stat_webapps_1_total",
+        "badge_lang_webapps_1",
+        "badge_status_webapps_1"
+      ]
+    },
+    "link_webapps_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "dream-num/univer",
+        "href": "https://github.com/dream-num/univer"
+      }
+    },
+    "stat_webapps_1_today": {
+      "type": "Stat",
+      "props": {
+        "label": "today",
+        "value": "1.8k"
+      }
+    },
+    "stat_webapps_1_total": {
+      "type": "Stat",
+      "props": {
+        "label": "total",
+        "value": "28.8k"
+      }
+    },
+    "badge_lang_webapps_1": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      }
+    },
+    "badge_status_webapps_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "desc_webapps_1": {
+      "type": "Text",
+      "props": {
+        "text": "Embeddable spreadsheet/doc SDK built for AI agent tool calls — not just another UI library.",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "source_footer": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/15",
+        "variant": "caption"
+      }
+    }
+  }
+}
