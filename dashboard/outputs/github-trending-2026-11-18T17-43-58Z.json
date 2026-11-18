@@ -1,0 +1,624 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-11-18"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-toppick",
+        "sep1",
+        "section-aiml",
+        "sep2",
+        "section-devtools",
+        "sep3",
+        "section-infra",
+        "sep4",
+        "status-line"
+      ]
+    },
+    "section-toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-toppick",
+        "repo-ecc-toppick"
+      ]
+    },
+    "heading-toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo-ecc-toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ecc-toppick",
+        "text-ecc-desc"
+      ]
+    },
+    "link-ecc-toppick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "affaan-m/ECC",
+        "href": "https://github.com/affaan-m/ECC"
+      },
+      "children": []
+    },
+    "text-ecc-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Leads all repos today in both daily stars (1,109) and total (306k) — hits Claude Code, Codex, and Cursor simultaneously with benchmarked agent harness performance gains.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-aiml",
+        "repo-last30days",
+        "repo-superpowers",
+        "repo-cli-anything",
+        "repo-stitch-skills"
+      ]
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo-last30days": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-last30days",
+        "meta-last30days",
+        "text-last30days"
+      ]
+    },
+    "link-last30days": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mvanhorn/last30days-skill",
+        "href": "https://github.com/mvanhorn/last30days-skill"
+      },
+      "children": []
+    },
+    "meta-last30days": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-last30days",
+        "badge-python1",
+        "badge-accel1"
+      ]
+    },
+    "stat-last30days": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1.1k today / 70k total"
+      },
+      "children": []
+    },
+    "badge-python1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-accel1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-last30days": {
+      "type": "Text",
+      "props": {
+        "text": "One invocation cross-queries Reddit, X, YouTube, HN, and Polymarket simultaneously — no manual source-hopping needed.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo-superpowers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-superpowers",
+        "meta-superpowers",
+        "text-superpowers"
+      ]
+    },
+    "link-superpowers": {
+      "type": "StoryLink",
+      "props": {
+        "title": "obra/superpowers",
+        "href": "https://github.com/obra/superpowers"
+      },
+      "children": []
+    },
+    "meta-superpowers": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-superpowers",
+        "badge-shell",
+        "badge-accel2"
+      ]
+    },
+    "stat-superpowers": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "823 today / 320k total"
+      },
+      "children": []
+    },
+    "badge-shell": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-accel2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-superpowers": {
+      "type": "Text",
+      "props": {
+        "text": "319k stars and still climbing — the skills methodology the whole agent tooling ecosystem measures itself against.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo-cli-anything": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-cli-anything",
+        "meta-cli-anything",
+        "text-cli-anything"
+      ]
+    },
+    "link-cli-anything": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HKUDS/CLI-Anything",
+        "href": "https://github.com/HKUDS/CLI-Anything"
+      },
+      "children": []
+    },
+    "meta-cli-anything": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-cli-anything",
+        "badge-python2",
+        "badge-accel3"
+      ]
+    },
+    "stat-cli-anything": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "384 today / 60k total"
+      },
+      "children": []
+    },
+    "badge-python2": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-accel3": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-cli-anything": {
+      "type": "Text",
+      "props": {
+        "text": "Wraps any existing CLI tool as an agent-callable function — zero refactoring, instant agentic integration.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo-stitch-skills": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-stitch-skills",
+        "meta-stitch-skills",
+        "text-stitch-skills"
+      ]
+    },
+    "link-stitch-skills": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google-labs-code/stitch-skills",
+        "href": "https://github.com/google-labs-code/stitch-skills"
+      },
+      "children": []
+    },
+    "meta-stitch-skills": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-stitch-skills",
+        "badge-typescript1",
+        "badge-return1"
+      ]
+    },
+    "stat-stitch-skills": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "369 today / 10k total"
+      },
+      "children": []
+    },
+    "badge-typescript1": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-return1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-stitch-skills": {
+      "type": "Text",
+      "props": {
+        "text": "Google's official skill library for Stitch MCP — first-party primitives for stable agent-to-agent tool calling.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-devtools",
+        "repo-ecc-devtools",
+        "repo-cursor-plugins"
+      ]
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo-ecc-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-ecc-devtools",
+        "meta-ecc-devtools",
+        "text-ecc-devtools"
+      ]
+    },
+    "link-ecc-devtools": {
+      "type": "StoryLink",
+      "props": {
+        "title": "affaan-m/ECC",
+        "href": "https://github.com/affaan-m/ECC"
+      },
+      "children": []
+    },
+    "meta-ecc-devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-ecc-devtools",
+        "badge-javascript",
+        "badge-accel4"
+      ]
+    },
+    "stat-ecc-devtools": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "1.1k today / 306k total"
+      },
+      "children": []
+    },
+    "badge-javascript": {
+      "type": "Badge",
+      "props": {
+        "text": "JavaScript",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-accel4": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-ecc-devtools": {
+      "type": "Text",
+      "props": {
+        "text": "Benchmarks and tunes agent harness settings across Claude Code, Codex, and Cursor — measurable gains without prompt rewrites.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "repo-cursor-plugins": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-cursor-plugins",
+        "meta-cursor-plugins",
+        "text-cursor-plugins"
+      ]
+    },
+    "link-cursor-plugins": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cursor/plugins",
+        "href": "https://github.com/cursor/plugins"
+      },
+      "children": []
+    },
+    "meta-cursor-plugins": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-cursor-plugins",
+        "badge-typescript2",
+        "badge-accel5"
+      ]
+    },
+    "stat-cursor-plugins": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "315 today / 17k total"
+      },
+      "children": []
+    },
+    "badge-typescript2": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-accel5": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-cursor-plugins": {
+      "type": "Text",
+      "props": {
+        "text": "Official Cursor plugin spec just stabilized — third-party tool builders can now target a first-party API surface.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-infra": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-infra",
+        "repo-arcane"
+      ]
+    },
+    "heading-infra": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "repo-arcane": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-arcane",
+        "meta-arcane",
+        "text-arcane"
+      ]
+    },
+    "link-arcane": {
+      "type": "StoryLink",
+      "props": {
+        "title": "getarcaneapp/arcane",
+        "href": "https://github.com/getarcaneapp/arcane"
+      },
+      "children": []
+    },
+    "meta-arcane": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-arcane",
+        "badge-go",
+        "badge-return2"
+      ]
+    },
+    "stat-arcane": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "547 today / 10k total"
+      },
+      "children": []
+    },
+    "badge-go": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-return2": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-arcane": {
+      "type": "Text",
+      "props": {
+        "text": "Full Docker lifecycle management in a single Go binary — sidesteps Docker Desktop's licensing and daemon complexity.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "status-line": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/20",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
