@@ -1,0 +1,277 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-11-19"
+      },
+      "children": [
+        "focus_section",
+        "yesterday_section",
+        "watch_section",
+        "running_section"
+      ]
+    },
+    "focus_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "focus_title",
+        "focus_item_1",
+        "focus_item_2",
+        "focus_item_3"
+      ]
+    },
+    "focus_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus_item_1": {
+      "type": "Alert",
+      "props": {
+        "title": "token-movers + token-pick",
+        "message": "7 and 6 consecutive failures respectively, both fire at 12:00 UTC",
+        "type": "error"
+      }
+    },
+    "focus_item_2": {
+      "type": "Alert",
+      "props": {
+        "title": "narrative-tracker",
+        "message": "4 consecutive failures, fires at 13:30 UTC",
+        "type": "error"
+      }
+    },
+    "focus_item_3": {
+      "type": "Alert",
+      "props": {
+        "title": "Secrets unvalidated",
+        "message": "Likely root cause blocking all three skills above",
+        "type": "error"
+      }
+    },
+    "yesterday_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yesterday_title",
+        "yesterday_item_1",
+        "yesterday_item_2",
+        "yesterday_item_3"
+      ]
+    },
+    "yesterday_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday_item_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_1_badge",
+        "yesterday_1_text"
+      ]
+    },
+    "yesterday_1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "OK",
+        "variant": "default"
+      }
+    },
+    "yesterday_1_text": {
+      "type": "Text",
+      "props": {
+        "text": "github-trending — 7 repos picked (ECC, last30days-skill, obra/superpowers)",
+        "variant": "body"
+      }
+    },
+    "yesterday_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_2_badge",
+        "yesterday_2_text"
+      ]
+    },
+    "yesterday_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "clean skip",
+        "variant": "secondary"
+      }
+    },
+    "yesterday_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "defi-monitor — no positions in on-chain-watches.yml",
+        "variant": "body"
+      }
+    },
+    "yesterday_item_3": {
+      "type": "Alert",
+      "props": {
+        "title": "morning-brief",
+        "message": "failed yesterday (1 consecutive failure)",
+        "type": "warning"
+      }
+    },
+    "watch_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "watch_title",
+        "watch_alert"
+      ]
+    },
+    "watch_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Base AI agent grants Demo Day + agentic payments",
+        "message": "Base AI agent grants Demo Day (Nov, NYC) + 138M agentic payments on-chain — narrative-tracker blind spot means missing this signal cycle",
+        "type": "warning"
+      }
+    },
+    "running_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "running_title",
+        "running_item_1",
+        "running_item_2",
+        "running_item_3",
+        "running_item_4",
+        "running_item_5"
+      ]
+    },
+    "running_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_item_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "running_2_text",
+        "running_2_badge"
+      ]
+    },
+    "running_2_text": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "failing",
+        "variant": "destructive"
+      }
+    },
+    "running_item_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "running_3_text",
+        "running_3_badge"
+      ]
+    },
+    "running_3_text": {
+      "type": "Text",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "body"
+      }
+    },
+    "running_3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "failing",
+        "variant": "destructive"
+      }
+    },
+    "running_item_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "running_4_text",
+        "running_4_badge"
+      ]
+    },
+    "running_4_text": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "body"
+      }
+    },
+    "running_4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "failing",
+        "variant": "destructive"
+      }
+    },
+    "running_item_5": {
+      "type": "Text",
+      "props": {
+        "text": "heartbeat @ 08:00, 14:00, 20:00 UTC",
+        "variant": "body"
+      }
+    }
+  }
+}
