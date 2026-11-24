@@ -82,13 +82,13 @@
   "security-digest": {
     "last_status": "failed",
     "last_success": "2026-11-10T20:43:04Z",
-    "total_runs": 177,
+    "total_runs": 178,
     "total_successes": 125,
-    "total_failures": 52,
-    "consecutive_failures": 11,
-    "success_rate": 0.71,
-    "last_failed": "2026-11-22T20:30:18Z",
-    "last_error": ",\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refused\":{\"depth_limit\":0,\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"safety_stops\":0,\"is_error\":true,\"num_turns\":1,\"subtype\":\"success\",\"api_error_stat",
+    "total_failures": 53,
+    "consecutive_failures": 12,
+    "success_rate": 0.7,
+    "last_failed": "2026-11-24T01:20:39Z",
+    "last_error": "ailed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refused\":{\"depth_limit\":0,\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"safety_stops\":0,\"is_error\":true,\"num_turns\":1,\"subtype\":\"success\",\"api_er",
     "last_quality_score": 4
   },
   "deal-flow": {
