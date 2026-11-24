@@ -1,39 +1,25 @@
-*Security Digest — 2026-11-10*
-Verdict: 3 actively exploited (KEV, patch by 2026-11-13), 2 npm supply-chain patches + 3 more to schedule, 3 to monitor.
-_Sources: CISA KEV (+13 this week), GH Advisory, EPSS_
+Cleanup blocked — not critical. The notification is queued in `.pending-notify/` for post-run delivery and the log is written.
 
-*PATCH TODAY*
-- CVE-2026-123158 — OpenSSH (Linux) · KEV 2026-11-09 · EPSS 0.165 · CVSS n/a
-  Auth bypass via mishandled return values. → upgrade OpenSSH immediately; due 2026-11-12.
+---
 
-- CVE-2026-116779 — FreeSwitch (SignalWire) · KEV 2026-11-09 · EPSS 0.022 · CVSS n/a
-  Code injection exposes creds + enables call control and RCE. → patch FreeSwitch; due 2026-11-12.
+## Summary
 
-- CVE-2026-116606 — Barracuda ESG · KEV 2026-11-10 · EPSS 0.016 · CVSS n/a
-  Unauth backup restore rewrites appliance config (auth bypass). → apply Barracuda fix; due 2026-11-13.
+**security-digest run complete** — 2026-11-24.
 
-*PATCH THIS WEEK*
-- GHSA-pcrw-h46h-c93h (CVE-2026-125120) — mongoose (npm) · CVSS critical · EPSS 0.006
-  sanitizeFilter silently skipped on countDocuments — query selector injection. → upgrade mongoose to ≥9.9.2 / ≥8.24.3 / ≥7.8.12 / ≥6.13.11.
+**Sources:** CISA KEV (14 entries this week), GitHub Advisories (critical + high, 48h), EPSS (api.first.org) — all OK.
 
-- GHSA-gg4r-jv3p-qx3c (CVE-2026-125119) — mongoose (npm) · CVSS high · EPSS 0.005 · public PoC
-  Connection-level sanitizeFilter never applies — password {$ne:null} bypasses auth. Same fix versions. → upgrade mongoose (same targets as above).
+**PATCH TODAY (3)**
+- **CVE-2026-40217** — BerriAI LiteLLM (pip) · KEV · EPSS 0.83 — RCE via /guardrails/test_custom_code, no auth required. **In-stack.** → `pip install --upgrade litellm`
+- **CVE-2026-133968** — Project MONAI Label · KEV · EPSS 0.50 — path traversal → RCE, unauthenticated
+- **CVE-2026-129448** — Apache Roller · KEV · EPSS 0.40 — XML-RPC deserialization before auth, unauthenticated RCE
 
-- CVE-2026-111560 — Barracuda (multiple) · KEV 2026-11-10 · EPSS 0.011 · CVSS n/a
-  Admin can inject root OS commands via crafted timezone value. → apply vendor patch; due 2026-11-13.
+**PATCH THIS WEEK (5)**
+- **CVE-2026-59726 / GHSA-c4hm-4h84-2cf3** — ruflo (npm) · CVSS 10.0 · EPSS 0.06 — MCP bridge unauthenticated RCE in Docker defaults. **In-stack.** → `≥3.16.3`
+- **CVE-2026-64855 / GHSA-859w-52fx-hcm6** — soapbar (pip) · CVSS 8.2 — signature forgery via embedded cert trust. **In-stack.** → `≥0.13.0`
+- CVE-2026-90817 — REDCap · KEV · EPSS 0.34 — code injection
+- CVE-2026-115731 — Puppet Enterprise · KEV · EPSS 0.13 — deserialization RCE
+- CVE-2026-123890 — VMware vCenter · KEV · EPSS 0.04 — auth bypass
 
-- CVE-2026-102895 — GPUStack · KEV 2026-11-09 · EPSS 0.006 · CVSS n/a
-  Unauthenticated users gain admin access + code exec via inference endpoint. → patch GPUStack; due 2026-11-12.
+**MONITOR:** empty — all in-stack findings have patches.
 
-- CVE-2026-119977 — WordPress Core · KEV 2026-11-03 · EPSS 0.012 · CVSS n/a
-  TOCTOU race during core upgrade lets unauth attackers execute code. → update WordPress core now (due date 2026-11-06 already passed).
-
-*MONITOR*
-- CVE-2026-124194 — Microsoft Office/Outlook · KEV 2026-11-10 · EPSS n/a · CVSS n/a
-  Spoofing via missing user-interaction checks for risky actions. → watch for patch; due 2026-11-24.
-
-- CVE-2026-125350 — Google Chromium · KEV 2026-11-10 · EPSS n/a · CVSS n/a
-  Use-after-free in XML component, sandbox RCE. → update Chromium/Chrome; due 2026-11-24.
-
-- CVE-2026-123218 — IBM Aspera Faspex · KEV 2026-11-09 · EPSS 0.007 · CVSS n/a
-  Authenticated users escalate privileges via crafted messages. → apply IBM patch; due 2026-11-12.
+Notification queued to `.pending-notify/1764835200.md` for post-run delivery. Log written to `memory/logs/2026-11-24.md`.
