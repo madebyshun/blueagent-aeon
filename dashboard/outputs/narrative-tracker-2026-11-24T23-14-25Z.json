@@ -1,0 +1,758 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker — 2026-11-24"
+      },
+      "children": [
+        "section-transitions",
+        "separator-1",
+        "section-reflexivity",
+        "separator-2",
+        "section-positions",
+        "separator-3",
+        "section-map"
+      ]
+    },
+    "section-transitions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-transitions",
+        "transitions-new",
+        "transitions-promoted",
+        "transitions-demoted",
+        "transitions-dead"
+      ]
+    },
+    "heading-transitions": {
+      "type": "Heading",
+      "props": {
+        "text": "TRANSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "transitions-new": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-new-1",
+        "item-new-2"
+      ]
+    },
+    "item-new-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge-new-1",
+        "text-btc-selloff"
+      ]
+    },
+    "badge-new-1": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-btc-selloff": {
+      "type": "Text",
+      "props": {
+        "text": "BTC November Selloff — BTC -23% in November to ~$62K (lowest since July); 6 consecutive weekly losses; 2022 bear comparisons returning; dominant conversation this week",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item-new-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge-new-2",
+        "text-anthropic-ipo"
+      ]
+    },
+    "badge-new-2": {
+      "type": "Badge",
+      "props": {
+        "text": "NEW",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-anthropic-ipo": {
+      "type": "Text",
+      "props": {
+        "text": "Anthropic IPO Capital Drain — ANT listed Nov 19 ($64B raise, Nasdaq:ANT); $80M crypto derivative bets pre-debut; analysts citing as attention/liquidity siphon from crypto",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "transitions-promoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-promoted-1",
+        "item-promoted-2"
+      ]
+    },
+    "item-promoted-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge-promoted-1",
+        "text-ai-agent-infra"
+      ]
+    },
+    "badge-promoted-1": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-ai-agent-infra": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Infrastructure Race Emerging → Rising — Base MCP deployed, Tron AI fund $1B, Solana Breakpoint featured agents; x402 cited as low adoption but infra thesis intact",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item-promoted-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge-promoted-2",
+        "text-regulation-clarity"
+      ]
+    },
+    "badge-promoted-2": {
+      "type": "Badge",
+      "props": {
+        "text": "PROMOTED",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-regulation-clarity": {
+      "type": "Text",
+      "props": {
+        "text": "Regulation Clarity Wave Rising → Peak — OCC finalized GENIUS Act stablecoin framework Nov 9; CFTC approved blockchain derivatives exchange; UK stablecoin perimeter rules; comments due Nov 23",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "transitions-demoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-demoted"
+      ]
+    },
+    "item-demoted": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge-demoted",
+        "text-btc-macro"
+      ]
+    },
+    "badge-demoted": {
+      "type": "Badge",
+      "props": {
+        "text": "DEMOTED",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "text-btc-macro": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Macro/Fed Fading → reversed to Peak — was Fading/↓↓ on Nov 10; November selloff re-elevated macro as dominant narrative (unusual reversal)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "transitions-dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item-dead-1",
+        "item-dead-2",
+        "item-dead-3",
+        "item-dead-4"
+      ]
+    },
+    "item-dead-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge-dead-1",
+        "text-msci"
+      ]
+    },
+    "badge-dead-1": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text-msci": {
+      "type": "Text",
+      "props": {
+        "text": "MSCI/Strategy Decision (resolved Nov 11 — Strategy retained)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item-dead-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge-dead-2",
+        "text-breakpoint"
+      ]
+    },
+    "badge-dead-2": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text-breakpoint": {
+      "type": "Text",
+      "props": {
+        "text": "Solana Breakpoint (event concluded Nov 15–17; SOL hit June lows on news; sell-the-news played out)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item-dead-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge-dead-3",
+        "text-russia"
+      ]
+    },
+    "badge-dead-3": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text-russia": {
+      "type": "Text",
+      "props": {
+        "text": "Russia Crypto Retail (Nov 17 event passed; no ongoing signal)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "item-dead-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "badge-dead-4",
+        "text-binance"
+      ]
+    },
+    "badge-dead-4": {
+      "type": "Badge",
+      "props": {
+        "text": "DEAD",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text-binance": {
+      "type": "Text",
+      "props": {
+        "text": "Binance Breach/Exchange Security (absent from all signals)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-reflexivity": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-reflexivity",
+        "text-btc-reflexivity",
+        "text-anthropic-reflexivity"
+      ]
+    },
+    "heading-reflexivity": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-btc-reflexivity": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Selloff — leveraged liquidations + MSCI Strategy share restriction + Anthropic IPO competing for allocator attention = narrative driving forced selling loops",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-anthropic-reflexivity": {
+      "type": "Text",
+      "props": {
+        "text": "Anthropic IPO — $80M in crypto derivatives before ANT debut; $2T AI IPO valuation vs $2.25T total crypto market cap creates unfavorable relative-size narrative",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-positions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-positions",
+        "pos-1",
+        "pos-2",
+        "pos-3",
+        "pos-4",
+        "pos-5",
+        "pos-6"
+      ]
+    },
+    "heading-positions": {
+      "type": "Heading",
+      "props": {
+        "text": "POSITIONS",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "pos-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade",
+        "text-pos-1-title",
+        "text-pos-1-thesis"
+      ]
+    },
+    "badge-fade": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-pos-1-title": {
+      "type": "Text",
+      "props": {
+        "text": "BTC November Selloff (5 ↑↑, Bear)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-pos-1-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Peak narrative; 6 weeks oversold; Q4 seasonal recovery pattern suggests mean reversion. No FRONT-RUN catalyst visible yet.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-ride",
+        "text-pos-2-title",
+        "text-pos-2-thesis"
+      ]
+    },
+    "badge-ride": {
+      "type": "Badge",
+      "props": {
+        "text": "RIDE",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-pos-2-title": {
+      "type": "Text",
+      "props": {
+        "text": "Stablecoin/GENIUS Act Infrastructure (4 ↑, Bull)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-pos-2-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "OCC + CFTC + UK all moved in 2 weeks; regulatory momentum durable. Bear: CLARITY Act stalling post-midterms.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-1",
+        "text-pos-3-title",
+        "text-pos-3-thesis"
+      ]
+    },
+    "badge-watch-1": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-pos-3-title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Infrastructure Race (3 →, Mixed)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-pos-3-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Base MCP live, Solana Breakpoint featured agents; token prices under macro pressure. Bear: x402 adoption low per Coinbase.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-2",
+        "text-pos-4-title",
+        "text-pos-4-thesis"
+      ]
+    },
+    "badge-watch-2": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-pos-4-title": {
+      "type": "Text",
+      "props": {
+        "text": "Anthropic IPO Capital Drain (4 ↑↑, Mixed)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-pos-4-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "IPO done; effect already priced. Watch ANT post-debut vs crypto capital flows.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-fade-2",
+        "text-pos-5-title",
+        "text-pos-5-thesis"
+      ]
+    },
+    "badge-fade-2": {
+      "type": "Badge",
+      "props": {
+        "text": "FADE",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-pos-5-title": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments (2 ↓↓, Cope)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-pos-5-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Payment value -94.5% YoY confirmed. Narrative running on product launch PRs not fundamentals.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "pos-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-watch-3",
+        "text-pos-6-title",
+        "text-pos-6-thesis"
+      ]
+    },
+    "badge-watch-3": {
+      "type": "Badge",
+      "props": {
+        "text": "WATCH",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-pos-6-title": {
+      "type": "Text",
+      "props": {
+        "text": "ZRO/TradFi Infrastructure (2 →, Bull)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text-pos-6-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Token unlock overhang; no new catalyst.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-map": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-map",
+        "map-peak",
+        "map-rising",
+        "map-fading",
+        "map-dead"
+      ]
+    },
+    "heading-map": {
+      "type": "Heading",
+      "props": {
+        "text": "MAP",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "map-peak": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-peak",
+        "text-peak"
+      ]
+    },
+    "heading-peak": {
+      "type": "Heading",
+      "props": {
+        "text": "Peak",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-peak": {
+      "type": "Text",
+      "props": {
+        "text": "BTC November Selloff · Stablecoin/GENIUS Act Regulation · Anthropic IPO Capital Drain",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-rising": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-rising",
+        "text-rising"
+      ]
+    },
+    "heading-rising": {
+      "type": "Heading",
+      "props": {
+        "text": "Rising",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-rising": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Infrastructure Race",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-fading": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-fading",
+        "text-fading"
+      ]
+    },
+    "heading-fading": {
+      "type": "Heading",
+      "props": {
+        "text": "Fading",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-fading": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Payments · Solana Post-Breakpoint",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "map-dead": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-dead",
+        "text-dead"
+      ]
+    },
+    "heading-dead": {
+      "type": "Heading",
+      "props": {
+        "text": "Dead",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "text-dead": {
+      "type": "Text",
+      "props": {
+        "text": "MSCI/Strategy Decision · Solana Breakpoint · Russia Crypto Retail · Binance Breach",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
