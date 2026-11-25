@@ -1,30 +1,28 @@
-*Narrative Tracker — 2026-11-24*
+*Narrative Tracker — 2026-11-25*
 
 TRANSITIONS
-• NEW: BTC November Selloff — BTC -23% in November to ~$62K (lowest since July); 6 consecutive weekly losses; 2022 bear comparisons returning; dominant conversation this week
-• NEW: Anthropic IPO Capital Drain — ANT listed Nov 19 ($64B raise, Nasdaq:ANT); $80M crypto derivative bets pre-debut; analysts citing as attention/liquidity siphon from crypto
-• PROMOTED: AI Agent Infrastructure Race Emerging → Rising — Base MCP deployed, Tron AI fund $1B, Solana Breakpoint featured agents; x402 cited as low adoption but infra thesis intact
-• PROMOTED: Regulation Clarity Wave Rising → Peak — OCC finalized GENIUS Act stablecoin framework Nov 9; CFTC approved blockchain derivatives exchange; UK stablecoin perimeter rules; comments due Nov 23
-• DEMOTED: BTC Macro/Fed Fading → reversed to Peak — was Fading/↓↓ on Nov 10; November selloff re-elevated macro as dominant narrative (unusual reversal)
-• DEAD: MSCI/Strategy Decision (resolved Nov 11 — Strategy retained)
-• DEAD: Solana Breakpoint (event concluded Nov 15–17; SOL hit June lows on news; sell-the-news played out)
-• DEAD: Russia Crypto Retail (Nov 17 event passed; no ongoing signal)
-• DEAD: Binance Breach/Exchange Security (absent from all signals)
+• NEW: RWA Tokenization (Chainlink-led) — reframed from Solana-specific to broad; LINK trending on-chain + leading altcoin surge; described as 2026's dominant tokenization theme across protocols
+• NEW: Pre-Holiday Altcoin Rally — 85% of top-100 alts green, BTC flat at $60K; LINK/XRP leading; thin holiday liquidity = 2-3 day window; Nov 27 BTC options expiry is the flip risk
+• PROMOTED: AI Agent Economy Rising → Peak — Binance Agent OS + Coinbase Ventures agent toolkit validated; 5x growth in trading agent projects in 2026 (Bitrue). AI Agent Payments merged in — same infra
+• DEMOTED: BTC November Selloff Peak → Fading — broad alt tailwind today, BTC flat; selloff narrative losing steam
+• DEAD: Solana Post-Breakpoint — dissolved into broader RWA theme; no independent Solana signal remaining
+• DEAD: InfoFi/Kaito — Yaps ended Jan 2026 (X API change); Kaito Studio replaced it with curated brand marketplace; open mindshare leaderboard gone
 
 REFLEXIVITY ALERT
-• BTC Selloff — leveraged liquidations + MSCI Strategy share restriction + Anthropic IPO competing for allocator attention = narrative driving forced selling loops
-• Anthropic IPO — $80M in crypto derivatives before ANT debut; $2T AI IPO valuation vs $2.25T total crypto market cap creates unfavorable relative-size narrative
+• AI Agent Economy — Binance building Agent OS + Coinbase building agent toolkits while both invest in agent tokens. Infra build and token price movement are co-dependent loops.
+• Pre-Holiday Rally — LINK trending while simultaneously cited as driver of RWA narrative. Narrative → price → more narrative. 2-3 day window before Nov 27 resets it.
 
 POSITIONS
-• FADE: BTC November Selloff (5 ↑↑, Bear) — peak narrative; 6 weeks oversold; Q4 seasonal recovery pattern suggests mean reversion. No FRONT-RUN catalyst visible yet.
-• RIDE: Stablecoin/GENIUS Act Infrastructure (4 ↑, Bull) — OCC + CFTC + UK all moved in 2 weeks; regulatory momentum durable. Bear: CLARITY Act stalling post-midterms.
-• WATCH: AI Agent Infrastructure Race (3 →, Mixed) — Base MCP live, Solana Breakpoint featured agents; token prices under macro pressure. Bear: x402 adoption low per Coinbase.
-• WATCH: Anthropic IPO Capital Drain (4 ↑↑, Mixed) — IPO done; effect already priced. Watch ANT post-debut vs crypto capital flows.
-• FADE: AI Agent Payments (2 ↓↓, Cope) — payment value -94.5% YoY confirmed. Narrative running on product launch PRs not fundamentals.
-• WATCH: ZRO/TradFi Infrastructure (2 →, Bull) — token unlock overhang; no new catalyst.
+• FRONT-RUN: Pre-Holiday Altcoin Rally (Mindshare 3 ↑↑, Emerging, Bull) — @chainlink community, @CryptoNews — bear case: Nov 27 BTC options expiry flips thin-liquidity move
+• FRONT-RUN: RWA Tokenization (Mindshare 4 ↑↑, Rising, Bull) — @chainlink, broad protocol coverage — bear case: TradFi custody integration still missing; addressable market smaller than narrative
+• RIDE: AI Agent Economy (Mindshare 4 ↑, Peak, Mixed) — @binance, @coinbase, @brian_armstrong — bear case: most agents are API wrappers, not autonomous; 24/7 volatility concerns
+• RIDE: Stablecoin/GENIUS Act (Mindshare 4 →, Peak, Bull) — @circle, @coinbase, OCC — bear case: implementation lag; growth priced into issuers
+• FADE: BTC November Selloff (Mindshare 4 ↓, Fading, Bear) — alts rotating; watch Nov 27 for potential reversal
+• FADE: ZRO/TradFi Infrastructure (Mindshare 2 ↓, Emerging, Bear) — ZRO -24.5% 7d, TRENDING+DOWN; price contradicts bull narrative
+• WATCH: Anthropic IPO Capital Drain (Mindshare 3 →, Fading, Mixed) — post-listing stabilizing; impact priced in
 
 MAP
-Peak: BTC November Selloff · Stablecoin/GENIUS Act Regulation · Anthropic IPO Capital Drain
-Rising: AI Agent Infrastructure Race
-Fading: AI Agent Payments · Solana Post-Breakpoint
-Dead: MSCI/Strategy Decision · Solana Breakpoint · Russia Crypto Retail · Binance Breach
+Emerging: Pre-Holiday Altcoin Rally
+Rising: RWA Tokenization (Chainlink-led)
+Peak: AI Agent Economy, Stablecoin/GENIUS Act
+Fading: BTC November Selloff, Anthropic IPO Capital Drain, ZRO/TradFi Infrastructure
