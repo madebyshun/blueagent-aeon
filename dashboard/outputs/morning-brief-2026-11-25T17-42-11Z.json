@@ -1,0 +1,221 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-11-25"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "focus-section",
+        "sep-1",
+        "yesterday-section",
+        "sep-2",
+        "watch-section",
+        "sep-3",
+        "running-section"
+      ]
+    },
+    "focus-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "alert-focus-1",
+        "alert-focus-2",
+        "alert-focus-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "alert-focus-1": {
+      "type": "Alert",
+      "props": {
+        "title": "token-movers + token-pick",
+        "message": "15 & 13 consecutive failures — 2 weeks of zero token intel on BLUEAGENT/BLOCKY",
+        "type": "warning"
+      }
+    },
+    "alert-focus-2": {
+      "type": "Alert",
+      "props": {
+        "title": "Skills cluster down",
+        "message": "github-trending, defi-monitor, deal-flow all at 6 consec failures — shared root cause likely",
+        "type": "warning"
+      }
+    },
+    "alert-focus-3": {
+      "type": "Alert",
+      "props": {
+        "title": "BTC monthly options expiry Friday (Nov 27)",
+        "message": "vol spike risk heading into weekend; Base ecosystem exposed",
+        "type": "warning"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-yesterday",
+        "text-yesterday-1",
+        "alert-yesterday-2",
+        "alert-yesterday-3"
+      ]
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "text-yesterday-1": {
+      "type": "Text",
+      "props": {
+        "text": "narrative-tracker: recovered via WebSearch fallback; XAI 403 (no credits) still unresolved",
+        "variant": "body"
+      }
+    },
+    "alert-yesterday-2": {
+      "type": "Alert",
+      "props": {
+        "title": "CVE-2026-40217",
+        "message": "LiteLLM/pip, KEV, EPSS 0.83 — patch if in stack",
+        "type": "error"
+      }
+    },
+    "alert-yesterday-3": {
+      "type": "Alert",
+      "props": {
+        "title": "morning-brief",
+        "message": "5 consecutive failures; this run restores it",
+        "type": "success"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "watch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "alert-watch-1"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "alert-watch-1": {
+      "type": "Alert",
+      "props": {
+        "title": "BTC options expiry Nov 27",
+        "message": "short-term volatility risk for Base tokens, implication for focus #3",
+        "type": "warning"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "running-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "stack-tasks"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "stack-tasks": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-task-1",
+        "badge-task-2",
+        "badge-task-3",
+        "badge-task-4"
+      ]
+    },
+    "badge-task-1": {
+      "type": "Badge",
+      "props": {
+        "text": "github-monitor @ 09:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "badge-task-2": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers @ 12:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "badge-task-3": {
+      "type": "Badge",
+      "props": {
+        "text": "token-pick @ 12:00 UTC",
+        "variant": "outline"
+      }
+    },
+    "badge-task-4": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker @ 13:30 UTC",
+        "variant": "outline"
+      }
+    }
+  }
+}
