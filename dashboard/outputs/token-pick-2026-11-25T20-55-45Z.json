@@ -1,0 +1,306 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-11-25"
+      },
+      "children": [
+        "header-token",
+        "grid-price-stats",
+        "sep-1",
+        "section-score",
+        "sep-2",
+        "section-catalyst",
+        "sep-3",
+        "section-risk",
+        "sep-4",
+        "section-recent",
+        "sep-5",
+        "section-market",
+        "sep-6",
+        "section-footer"
+      ]
+    },
+    "header-token": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "heading-token",
+        "badge-medium",
+        "badge-signal"
+      ]
+    },
+    "heading-token": {
+      "type": "Heading",
+      "props": {
+        "text": "VVV (Venice Token)",
+        "level": "h2"
+      }
+    },
+    "badge-medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "default"
+      }
+    },
+    "badge-signal": {
+      "type": "Badge",
+      "props": {
+        "text": "Signal 6/10",
+        "variant": "secondary"
+      }
+    },
+    "grid-price-stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-price",
+        "stat-mcap",
+        "stat-volume",
+        "stat-vol-mcap"
+      ]
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$27.50",
+        "delta": "+12.3% (24h) / +33.0% (7d)",
+        "trend": "up"
+      }
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$1.35B"
+      }
+    },
+    "stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$73.8M"
+      }
+    },
+    "stat-vol-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap Ratio",
+        "value": "0.055"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-score": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-score",
+        "text-score-breakdown"
+      ]
+    },
+    "heading-score": {
+      "type": "Heading",
+      "props": {
+        "text": "Score Breakdown",
+        "level": "h3"
+      }
+    },
+    "text-score-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "[24h>0+1, 7d>0+1, both>5%+2, RS vs BTC/ETH 7d+2] = 6/10",
+        "variant": "caption"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-catalyst": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-catalyst",
+        "text-catalyst-1",
+        "text-catalyst-2",
+        "text-catalyst-3"
+      ]
+    },
+    "heading-catalyst": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalysts",
+        "level": "h3"
+      }
+    },
+    "text-catalyst-1": {
+      "type": "Text",
+      "props": {
+        "text": "Arthur Hayes named VVV in his AI portfolio targeting $40",
+        "variant": "body"
+      }
+    },
+    "text-catalyst-2": {
+      "type": "Text",
+      "props": {
+        "text": "Venice Minds marketplace launched Nov 17",
+        "variant": "body"
+      }
+    },
+    "text-catalyst-3": {
+      "type": "Text",
+      "props": {
+        "text": "Emissions cut from 14M→2M/yr + buybacks up 303% week-over-week",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-risk": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-risk",
+        "alert-whale-concentration"
+      ]
+    },
+    "heading-risk": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h3"
+      }
+    },
+    "alert-whale-concentration": {
+      "type": "Alert",
+      "props": {
+        "message": "100 wallets hold 98% of supply — single whale exit craters liquidity fast",
+        "type": "warning"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-recent": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-recent",
+        "text-recent-picks"
+      ]
+    },
+    "heading-recent": {
+      "type": "Heading",
+      "props": {
+        "text": "Vs Recent Picks",
+        "level": "h3"
+      }
+    },
+    "text-recent-picks": {
+      "type": "Text",
+      "props": {
+        "text": "First time (clean slate, no dedup constraint)",
+        "variant": "body"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-market",
+        "text-market-pick"
+      ]
+    },
+    "heading-market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Pick",
+        "level": "h3"
+      }
+    },
+    "text-market-pick": {
+      "type": "Text",
+      "props": {
+        "text": "All Polymarket candidates below 5pp edge — Fed Dec +25bps priced at 93.5% matches ≥90% external consensus; no qualifying pick today",
+        "variant": "body"
+      }
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-sources",
+        "text-disclaimer"
+      ]
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=ok, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "text-disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
