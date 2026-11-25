@@ -1,0 +1,613 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending"
+      },
+      "children": [
+        "section_top_pick",
+        "separator_1",
+        "section_aiml",
+        "separator_2",
+        "section_devtools",
+        "separator_3",
+        "text_sources"
+      ]
+    },
+    "section_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_top_pick",
+        "item_top_pick"
+      ]
+    },
+    "heading_top_pick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "item_top_pick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top_pick_header",
+        "top_pick_desc"
+      ]
+    },
+    "top_pick_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "story_top_pick",
+        "badge_top_pick_lang",
+        "badge_top_pick_status",
+        "stat_top_pick_stars"
+      ]
+    },
+    "story_top_pick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "elementalsouls/Claude-BugHunter",
+        "href": "https://github.com/elementalsouls/Claude-BugHunter",
+        "source": "GitHub"
+      }
+    },
+    "badge_top_pick_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_top_pick_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "stat_top_pick_stars": {
+      "type": "Stat",
+      "props": {
+        "value": "1,644",
+        "label": "today",
+        "delta": "22.7K total",
+        "trend": "up"
+      }
+    },
+    "top_pick_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Agentic security tooling goes mainstream: Claude Code skill bundle that automates structured red-team workflows end to end.",
+        "variant": "body"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_aiml": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_aiml",
+        "stack_aiml_items"
+      ]
+    },
+    "heading_aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "stack_aiml_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item_aiml_1",
+        "item_aiml_2",
+        "item_aiml_3",
+        "item_aiml_4"
+      ]
+    },
+    "item_aiml_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_1_header",
+        "aiml_1_desc"
+      ]
+    },
+    "aiml_1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "story_aiml_1",
+        "badge_aiml_1_lang",
+        "badge_aiml_1_status",
+        "stat_aiml_1_stars"
+      ]
+    },
+    "story_aiml_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "elementalsouls/Claude-BugHunter",
+        "href": "https://github.com/elementalsouls/Claude-BugHunter",
+        "source": "GitHub"
+      }
+    },
+    "badge_aiml_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_aiml_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "stat_aiml_1_stars": {
+      "type": "Stat",
+      "props": {
+        "value": "1,644",
+        "label": "today",
+        "delta": "22.7K total",
+        "trend": "up"
+      }
+    },
+    "aiml_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Claude Code skill bundle that runs structured red-team sessions — autonomous bug hunting with built-in reporting workflows.",
+        "variant": "body"
+      }
+    },
+    "item_aiml_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_2_header",
+        "aiml_2_desc"
+      ]
+    },
+    "aiml_2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "story_aiml_2",
+        "badge_aiml_2_lang",
+        "badge_aiml_2_status",
+        "stat_aiml_2_stars"
+      ]
+    },
+    "story_aiml_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "HKUDS/CLI-Anything",
+        "href": "https://github.com/HKUDS/CLI-Anything",
+        "source": "GitHub"
+      }
+    },
+    "badge_aiml_2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_aiml_2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "stat_aiml_2_stars": {
+      "type": "Stat",
+      "props": {
+        "value": "1,094",
+        "label": "today",
+        "delta": "65.6K total",
+        "trend": "up"
+      }
+    },
+    "aiml_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Wraps any CLI tool with LLM-readable interfaces so agents can operate software built before the AI era.",
+        "variant": "body"
+      }
+    },
+    "item_aiml_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_3_header",
+        "aiml_3_desc"
+      ]
+    },
+    "aiml_3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "story_aiml_3",
+        "badge_aiml_3_lang",
+        "badge_aiml_3_status",
+        "stat_aiml_3_stars"
+      ]
+    },
+    "story_aiml_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "firecrawl/firecrawl",
+        "href": "https://github.com/firecrawl/firecrawl",
+        "source": "GitHub"
+      }
+    },
+    "badge_aiml_3_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "badge_aiml_3_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "stat_aiml_3_stars": {
+      "type": "Stat",
+      "props": {
+        "value": "1,131",
+        "label": "today",
+        "delta": "210K total",
+        "trend": "up"
+      }
+    },
+    "aiml_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unified scraping API for 550+ data sources — agents stop maintaining per-site scrapers, one endpoint handles all.",
+        "variant": "body"
+      }
+    },
+    "item_aiml_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml_4_header",
+        "aiml_4_desc"
+      ]
+    },
+    "aiml_4_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "story_aiml_4",
+        "badge_aiml_4_lang",
+        "badge_aiml_4_status",
+        "stat_aiml_4_stars"
+      ]
+    },
+    "story_aiml_4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "jingyaogong/minimind",
+        "href": "https://github.com/jingyaogong/minimind",
+        "source": "GitHub"
+      }
+    },
+    "badge_aiml_4_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge_aiml_4_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "stat_aiml_4_stars": {
+      "type": "Stat",
+      "props": {
+        "value": "828",
+        "label": "today",
+        "delta": "70.9K total",
+        "trend": "up"
+      }
+    },
+    "aiml_4_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Full 64M-parameter LLM pre-training pipeline in ~2 hours on consumer hardware — the clearest from-scratch reference available.",
+        "variant": "body"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_devtools": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_devtools",
+        "stack_devtools_items"
+      ]
+    },
+    "heading_devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "stack_devtools_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "item_devtools_1",
+        "item_devtools_2",
+        "item_devtools_3"
+      ]
+    },
+    "item_devtools_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_1_header",
+        "devtools_1_desc"
+      ]
+    },
+    "devtools_1_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "story_devtools_1",
+        "badge_devtools_1_lang",
+        "badge_devtools_1_status",
+        "stat_devtools_1_stars"
+      ]
+    },
+    "story_devtools_1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cathrynlavery/diagram-design",
+        "href": "https://github.com/cathrynlavery/diagram-design",
+        "source": "GitHub"
+      }
+    },
+    "badge_devtools_1_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "HTML"
+      }
+    },
+    "badge_devtools_1_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "stat_devtools_1_stars": {
+      "type": "Stat",
+      "props": {
+        "value": "1,133",
+        "label": "today",
+        "delta": "72.8K total",
+        "trend": "up"
+      }
+    },
+    "devtools_1_desc": {
+      "type": "Text",
+      "props": {
+        "text": "52 diagram types as self-contained HTML/SVG — renders offline, embeds anywhere, zero JS framework dependency.",
+        "variant": "body"
+      }
+    },
+    "item_devtools_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_2_header",
+        "devtools_2_desc"
+      ]
+    },
+    "devtools_2_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "story_devtools_2",
+        "badge_devtools_2_lang",
+        "badge_devtools_2_status",
+        "stat_devtools_2_stars"
+      ]
+    },
+    "story_devtools_2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "cursor/plugins",
+        "href": "https://github.com/cursor/plugins",
+        "source": "GitHub"
+      }
+    },
+    "badge_devtools_2_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "badge_devtools_2_status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "stat_devtools_2_stars": {
+      "type": "Stat",
+      "props": {
+        "value": "408",
+        "label": "today",
+        "delta": "19.5K total",
+        "trend": "up"
+      }
+    },
+    "devtools_2_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Cursor's official plugin API spec — the blueprint for building native extensions on the AI-first IDE.",
+        "variant": "body"
+      }
+    },
+    "item_devtools_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools_3_header",
+        "devtools_3_desc"
+      ]
+    },
+    "devtools_3_header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "story_devtools_3",
+        "badge_devtools_3_lang",
+        "badge_devtools_3_status",
+        "stat_devtools_3_stars"
+      ]
+    },
+    "story_devtools_3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "google-labs-code/stitch-skills",
+        "href": "https://github.com/google-labs-code/stitch-skills",
+        "source": "GitHub"
+      }
+    },
+    "badge_devtools_3_lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "badge_devtools_3_status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "stat_devtools_3_stars": {
+      "type": "Stat",
+      "props": {
+        "value": "352",
+        "label": "today",
+        "delta": "12.9K total",
+        "trend": "up"
+      }
+    },
+    "devtools_3_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Google's first-party skill library for Stitch MCP — shows how agentic Google services integrations are meant to work.",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/16",
+        "variant": "caption"
+      }
+    }
+  }
+}

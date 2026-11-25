@@ -1,31 +1,30 @@
-*GitHub Trending — 2026-11-18*
+*GitHub Trending — 2026-11-25*
 
-*Top pick* — [affaan-m/ECC](https://github.com/affaan-m/ECC)
-Leads all repos today in both daily stars (1,109) and total (306k) — hits Claude Code, Codex, and Cursor simultaneously with benchmarked agent harness performance gains.
+*Top pick* — [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)
+Agentic security tooling goes mainstream: 1,644 stars in a day for a Claude Code skill bundle that automates structured red-team workflows end to end.
 
 *AI/ML*
-• [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — ★ 1.1k today (70k total) · Python · [ACCELERATING]
-One invocation cross-queries Reddit, X, YouTube, HN, and Polymarket simultaneously — no manual source-hopping needed.
+• [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) — ★ 1,644 today (22.7K total) · Python · [ACCELERATING]
+Claude Code skill bundle that runs structured red-team sessions — autonomous bug hunting with built-in reporting workflows.
 
-• [obra/superpowers](https://github.com/obra/superpowers) — ★ 823 today (320k total) · Shell · [ACCELERATING]
-319k stars and still climbing — the skills methodology the whole agent tooling ecosystem measures itself against.
+• [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) — ★ 1,094 today (65.6K total) · Python · [ACCELERATING]
+Wraps any CLI tool with LLM-readable interfaces so agents can operate software built before the AI era.
 
-• [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) — ★ 384 today (60k total) · Python · [ACCELERATING]
-Wraps any existing CLI tool as an agent-callable function — zero refactoring, instant agentic integration.
+• [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) — ★ 1,131 today (210K total) · TypeScript · [RETURNING]
+Unified scraping API for 550+ data sources — agents stop maintaining per-site scrapers, one endpoint handles all.
 
-• [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) — ★ 369 today (10k total) · TypeScript · [RETURNING]
-Google's official skill library for Stitch MCP — first-party primitives for stable agent-to-agent tool calling.
+• [jingyaogong/minimind](https://github.com/jingyaogong/minimind) — ★ 828 today (70.9K total) · Python · [RETURNING]
+Full 64M-parameter LLM pre-training pipeline in ~2 hours on consumer hardware — the clearest from-scratch reference available.
 
 *Devtools*
-• [affaan-m/ECC](https://github.com/affaan-m/ECC) — ★ 1.1k today (306k total) · JavaScript · [ACCELERATING]
-Benchmarks and tunes agent harness settings across Claude Code, Codex, and Cursor — measurable gains without prompt rewrites.
+• [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — ★ 1,133 today (72.8K total) · HTML · [ACCELERATING]
+52 diagram types as self-contained HTML/SVG — renders offline, embeds anywhere, zero JS framework dependency.
 
-• [cursor/plugins](https://github.com/cursor/plugins) — ★ 315 today (17k total) · TypeScript · [ACCELERATING]
-Official Cursor plugin spec just stabilized — third-party tool builders can now target a first-party API surface.
+• [cursor/plugins](https://github.com/cursor/plugins) — ★ 408 today (19.5K total) · TypeScript · [ACCELERATING]
+Cursor's official plugin API spec — the blueprint for building native extensions on the AI-first IDE.
 
-*Infra*
-• [getarcaneapp/arcane](https://github.com/getarcaneapp/arcane) — ★ 547 today (10k total) · Go · [RETURNING]
-Full Docker lifecycle management in a single Go binary — sidesteps Docker Desktop's licensing and daemon complexity.
+• [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) — ★ 352 today (12.9K total) · TypeScript · [RETURNING]
+Google's first-party skill library for Stitch MCP — shows how agentic Google services integrations are meant to work.
 
 ---
-sources: trending=ok · gh_api=ok · kept 7/20
+sources: trending=ok · gh_api=ok · kept 7/16
