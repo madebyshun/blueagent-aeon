@@ -81,12 +81,12 @@
   },
   "security-digest": {
     "last_status": "success",
-    "last_success": "2026-11-24T23:24:38Z",
-    "total_runs": 179,
-    "total_successes": 126,
+    "last_success": "2026-11-25T22:57:17Z",
+    "total_runs": 180,
+    "total_successes": 127,
     "total_failures": 53,
     "consecutive_failures": 0,
-    "success_rate": 0.7,
+    "success_rate": 0.71,
     "last_failed": "2026-11-24T01:20:39Z",
     "last_error": "ailed\":0,\"killed\":{\"parent\":0,\"user\":0,\"system\":0},\"refused\":{\"depth_limit\":0,\"concurrency_limit\":0,\"budget\":0},\"by_type\":{}},\"safety_stops\":0,\"is_error\":true,\"num_turns\":1,\"subtype\":\"success\",\"api_er",
     "last_quality_score": 4
