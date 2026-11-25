@@ -1,0 +1,472 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-11-25",
+        "description": "3 actively exploited, 2 to schedule, 3 to monitor. Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": [
+        "verdict-row",
+        "sep1",
+        "patch-today-heading",
+        "cve-2026-133469-stack",
+        "cve-2026-131914-stack",
+        "cve-2024-10441-stack",
+        "sep2",
+        "patch-week-heading",
+        "ghsa-mc8w-stack",
+        "ghsa-x8q7-stack",
+        "sep3",
+        "monitor-heading",
+        "ghsa-p34x-stack",
+        "ghsa-crj3-stack",
+        "ghsa-833v-stack"
+      ]
+    },
+    "verdict-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-exploited",
+        "stat-schedule",
+        "stat-monitor"
+      ]
+    },
+    "stat-exploited": {
+      "type": "Stat",
+      "props": {
+        "label": "Actively exploited",
+        "value": "3"
+      },
+      "children": []
+    },
+    "stat-schedule": {
+      "type": "Stat",
+      "props": {
+        "label": "To schedule",
+        "value": "2"
+      },
+      "children": []
+    },
+    "stat-monitor": {
+      "type": "Stat",
+      "props": {
+        "label": "To monitor",
+        "value": "3"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "cve-2026-133469-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-2026-133469-link",
+        "cve-2026-133469-meta",
+        "cve-2026-133469-desc",
+        "cve-2026-133469-action"
+      ]
+    },
+    "cve-2026-133469-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-133469 — xo-server (npm)",
+        "href": "https://github.com/advisories/GHSA-2r3w-c2vx-fv5g",
+        "source": "GHSA-2r3w-c2vx-fv5g"
+      },
+      "children": []
+    },
+    "cve-2026-133469-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV added 2026-11-25 · EPSS 0.011 · CVSS 9.8",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve-2026-133469-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Empty-object login token bypasses auth on Xen Orchestra; unauthenticated admin access. In KEV and npm stack."
+      },
+      "children": []
+    },
+    "cve-2026-133469-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action required",
+        "message": "Upgrade xo-server past 5.7.4 and patch Xen Orchestra host immediately.",
+        "type": "error"
+      },
+      "children": []
+    },
+    "cve-2026-131914-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-2026-131914-link",
+        "cve-2026-131914-meta",
+        "cve-2026-131914-desc",
+        "cve-2026-131914-action"
+      ]
+    },
+    "cve-2026-131914-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-131914 — Idunno.AntiCsrf (.NET)",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      },
+      "children": []
+    },
+    "cve-2026-131914-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV added 2026-11-24 · EPSS 0.043",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve-2026-131914-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unsafe deserialization → unauthenticated RCE. Product may be EOL; CISA flagged active exploitation."
+      },
+      "children": []
+    },
+    "cve-2026-131914-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action required",
+        "message": "Remove or replace Idunno.AntiCsrf; no patch available.",
+        "type": "error"
+      },
+      "children": []
+    },
+    "cve-2024-10441-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-2024-10441-link",
+        "cve-2024-10441-meta",
+        "cve-2024-10441-desc",
+        "cve-2024-10441-action"
+      ]
+    },
+    "cve-2024-10441-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2024-10441 — Synology DSM",
+        "href": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      },
+      "children": []
+    },
+    "cve-2024-10441-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV added 2026-11-18 · EPSS 0.028",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve-2024-10441-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Improper output escaping in system plugin daemon → remote RCE. Known ransomware exploitation on record."
+      },
+      "children": []
+    },
+    "cve-2024-10441-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action required",
+        "message": "Apply Synology DSM security update now.",
+        "type": "error"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "ghsa-mc8w-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-mc8w-link",
+        "ghsa-mc8w-meta",
+        "ghsa-mc8w-desc",
+        "ghsa-mc8w-action"
+      ]
+    },
+    "ghsa-mc8w-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-mc8w-wjhw-45x5 — ep_etherpad-lite (npm)",
+        "href": "https://github.com/advisories/GHSA-mc8w-wjhw-45x5"
+      },
+      "children": []
+    },
+    "ghsa-mc8w-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.8 · EPSS 0.041 · no public PoC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ghsa-mc8w-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pre-auth arbitrary file read on etherpad-lite >= 1.8.14, < 3.3.3."
+      },
+      "children": []
+    },
+    "ghsa-mc8w-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action required",
+        "message": "Upgrade etherpad-lite to ≥ 3.3.3.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "ghsa-x8q7-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-x8q7-link",
+        "ghsa-x8q7-meta",
+        "ghsa-x8q7-desc",
+        "ghsa-x8q7-action"
+      ]
+    },
+    "ghsa-x8q7-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-x8q7-6c7m-52gw — nltk (pip)",
+        "href": "https://github.com/advisories/GHSA-x8q7-6c7m-52gw"
+      },
+      "children": []
+    },
+    "ghsa-x8q7-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.8 · EPSS 0.007 · no public PoC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ghsa-x8q7-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Incomplete sandbox fix — additional JVM/JAR bypass via unvalidated launcher tokens in java() args."
+      },
+      "children": []
+    },
+    "ghsa-x8q7-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action required",
+        "message": "Upgrade nltk to ≥ 3.10.4.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "ghsa-p34x-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-p34x-link",
+        "ghsa-p34x-meta",
+        "ghsa-p34x-desc",
+        "ghsa-p34x-action"
+      ]
+    },
+    "ghsa-p34x-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-p34x-fmph-9fjx — flyto-core (pip)",
+        "href": "https://github.com/advisories/GHSA-p34x-fmph-9fjx"
+      },
+      "children": []
+    },
+    "ghsa-p34x-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 10 · EPSS 0.008 · no fix yet",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ghsa-p34x-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Arbitrary file write via unguarded data.*/file.* modules; incomplete fix of CVE-2026-67429."
+      },
+      "children": []
+    },
+    "ghsa-p34x-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action required",
+        "message": "Track flyto-core; audit exposure; no patch yet.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "ghsa-crj3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-crj3-link",
+        "ghsa-crj3-meta",
+        "ghsa-crj3-desc",
+        "ghsa-crj3-action"
+      ]
+    },
+    "ghsa-crj3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-crj3-q72p-ggqm — @waline/client (npm)",
+        "href": "https://github.com/advisories/GHSA-crj3-q72p-ggqm"
+      },
+      "children": []
+    },
+    "ghsa-crj3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.3 · EPSS 0.004 · no fix yet",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ghsa-crj3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Stored XSS via unsanitized comment edit previews."
+      },
+      "children": []
+    },
+    "ghsa-crj3-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action required",
+        "message": "Track @waline/client; restrict comment editing; no patch yet.",
+        "type": "info"
+      },
+      "children": []
+    },
+    "ghsa-833v-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-833v-link",
+        "ghsa-833v-meta",
+        "ghsa-833v-desc",
+        "ghsa-833v-action"
+      ]
+    },
+    "ghsa-833v-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-833v-v58w-294h — @doist/todoist-mcp (npm)",
+        "href": "https://github.com/advisories/GHSA-833v-v58w-294h"
+      },
+      "children": []
+    },
+    "ghsa-833v-meta": {
+      "type": "Text",
+      "props": {
+        "text": "CVSS 9.3 · EPSS 0.002 · no fix yet",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ghsa-833v-desc": {
+      "type": "Text",
+      "props": {
+        "text": "DNS rebinding lets external sites write/delete Todoist data via local MCP server."
+      },
+      "children": []
+    },
+    "ghsa-833v-action": {
+      "type": "Alert",
+      "props": {
+        "title": "Action required",
+        "message": "Avoid exposing todoist-mcp beyond localhost; watch for fix.",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
