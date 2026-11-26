@@ -1,19 +1,22 @@
-*Morning Brief — 2026-11-25*
+*Morning Brief — 2026-11-26*
 
 *Focus today*
-1. token-movers + token-pick: 15 & 13 consecutive failures — 2 weeks of zero token intel on BLUEAGENT/BLOCKY
-2. Skills cluster down: github-trending, defi-monitor, deal-flow all at 6 consec failures — shared root cause likely
-3. BTC monthly options expiry Friday (Nov 27) — vol spike risk heading into weekend; Base ecosystem exposed
+1. BTC options expiry tomorrow (Nov 27) — IV 36.8% vs realized 21.4%; alt rally at flip risk today
+2. deal-flow down 45 days — funding intel blind spot, no repair triggered yet
 
 *Since yesterday*
-- narrative-tracker: recovered via WebSearch fallback; XAI 403 (no credits) still unresolved
-- security-digest: CVE-2026-40217 (LiteLLM/pip, KEV, EPSS 0.83) — patch if in stack
-- morning-brief: 5 consecutive failures; this run restores it
+- Recovered: token-movers + token-pick back to 0 consecutive failures (were 15/13)
+- Picked: VVV at $27.50 — Arthur Hayes AI call + Venice Minds launch, outperforming BTC/ETH by wide margin
+- Stuck: deal-flow (6 consec failures, last success Oct 12) — no fix dispatched
+- Stuck: XAI 403 day 6+ — narrative-tracker running on WebSearch fallback
 
 *Watch*
-- BTC options expiry Nov 27 — short-term volatility risk for Base tokens, implication for focus #3
+- BTC Nov 27 expiry: Deribit IV 36.8% vs 21.4% realized — elevated premium; pre-holiday alt rally (85% alts green, BTC flat $60K) is the most exposed narrative; watch for reversal post-expiry
+
+background: XAI 403 — narrative quality degraded (fallback working but no structured data)
 
 *Running today*
+- heartbeat @ 08:00 / 14:00 / 20:00 UTC
 - github-monitor @ 09:00 UTC
 - token-movers @ 12:00 UTC
 - token-pick @ 12:00 UTC

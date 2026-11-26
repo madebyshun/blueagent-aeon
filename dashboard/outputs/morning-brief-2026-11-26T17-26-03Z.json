@@ -1,0 +1,304 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief",
+        "description": "2026-11-26"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-yesterday",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-focus",
+        "focus-1",
+        "focus-2"
+      ]
+    },
+    "h-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h3"
+      }
+    },
+    "focus-1": {
+      "type": "Text",
+      "props": {
+        "text": "BTC options expiry tomorrow (Nov 27) — IV 36.8% vs realized 21.4%; alt rally at flip risk today",
+        "variant": "body"
+      }
+    },
+    "focus-2": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow down 45 days — funding intel blind spot, no repair triggered yet",
+        "variant": "body"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-yesterday",
+        "row-recovered",
+        "row-picked",
+        "row-stuck1",
+        "row-stuck2",
+        "row-background"
+      ]
+    },
+    "h-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h3"
+      }
+    },
+    "row-recovered": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-recovered",
+        "text-recovered"
+      ]
+    },
+    "badge-recovered": {
+      "type": "Badge",
+      "props": {
+        "text": "Recovered",
+        "variant": "secondary"
+      }
+    },
+    "text-recovered": {
+      "type": "Text",
+      "props": {
+        "text": "token-movers + token-pick back to 0 consecutive failures (were 15/13)",
+        "variant": "body"
+      }
+    },
+    "row-picked": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-picked",
+        "text-picked"
+      ]
+    },
+    "badge-picked": {
+      "type": "Badge",
+      "props": {
+        "text": "Picked",
+        "variant": "secondary"
+      }
+    },
+    "text-picked": {
+      "type": "Text",
+      "props": {
+        "text": "VVV at $27.50 — Arthur Hayes AI call + Venice Minds launch, outperforming BTC/ETH by wide margin",
+        "variant": "body"
+      }
+    },
+    "row-stuck1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-stuck1",
+        "text-stuck1"
+      ]
+    },
+    "badge-stuck1": {
+      "type": "Badge",
+      "props": {
+        "text": "Stuck",
+        "variant": "destructive"
+      }
+    },
+    "text-stuck1": {
+      "type": "Text",
+      "props": {
+        "text": "deal-flow (6 consec failures, last success Oct 12) — no fix dispatched",
+        "variant": "body"
+      }
+    },
+    "row-stuck2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-stuck2",
+        "text-stuck2"
+      ]
+    },
+    "badge-stuck2": {
+      "type": "Badge",
+      "props": {
+        "text": "Stuck",
+        "variant": "destructive"
+      }
+    },
+    "text-stuck2": {
+      "type": "Text",
+      "props": {
+        "text": "XAI 403 day 6+ — narrative-tracker running on WebSearch fallback",
+        "variant": "body"
+      }
+    },
+    "row-background": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text-bg-label",
+        "text-bg-desc"
+      ]
+    },
+    "text-bg-label": {
+      "type": "Text",
+      "props": {
+        "text": "background:",
+        "variant": "muted"
+      }
+    },
+    "text-bg-desc": {
+      "type": "Text",
+      "props": {
+        "text": "XAI 403 — narrative quality degraded (fallback working but no structured data)",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-watch",
+        "watch-content"
+      ]
+    },
+    "h-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h3"
+      }
+    },
+    "watch-content": {
+      "type": "Text",
+      "props": {
+        "text": "BTC Nov 27 expiry: Deribit IV 36.8% vs 21.4% realized — elevated premium; pre-holiday alt rally (85% alts green, BTC flat $60K) is the most exposed narrative; watch for reversal post-expiry",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h-running",
+        "running-table"
+      ]
+    },
+    "h-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h3"
+      }
+    },
+    "running-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Skill",
+          "Schedule (UTC)"
+        ],
+        "rows": [
+          [
+            "heartbeat",
+            "08:00 / 14:00 / 20:00"
+          ],
+          [
+            "github-monitor",
+            "09:00"
+          ],
+          [
+            "token-movers",
+            "12:00"
+          ],
+          [
+            "token-pick",
+            "12:00"
+          ],
+          [
+            "narrative-tracker",
+            "13:30"
+          ]
+        ]
+      }
+    }
+  }
+}
