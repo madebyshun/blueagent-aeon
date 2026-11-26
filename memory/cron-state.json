@@ -81,9 +81,9 @@
   },
   "security-digest": {
     "last_status": "success",
-    "last_success": "2026-11-25T22:57:17Z",
-    "total_runs": 180,
-    "total_successes": 127,
+    "last_success": "2026-11-26T22:47:29Z",
+    "total_runs": 181,
+    "total_successes": 128,
     "total_failures": 53,
     "consecutive_failures": 0,
     "success_rate": 0.71,
