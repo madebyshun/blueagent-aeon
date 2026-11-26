@@ -1,0 +1,464 @@
+{
+  "root": "card-trending",
+  "state": {},
+  "elements": {
+    "card-trending": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-11-26"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-toppick",
+        "repo-toppick",
+        "separator-1",
+        "heading-aiml",
+        "repo-aiml-1",
+        "repo-aiml-2",
+        "repo-aiml-3",
+        "separator-2",
+        "heading-devtools",
+        "repo-devtools-1",
+        "separator-3",
+        "heading-webapps",
+        "repo-webapps-1",
+        "separator-4",
+        "text-status"
+      ]
+    },
+    "heading-toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "repo-toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-toppick",
+        "desc-toppick",
+        "meta-toppick"
+      ]
+    },
+    "link-toppick": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mvanhorn/last30days-skill",
+        "href": "https://github.com/mvanhorn/last30days-skill",
+        "source": "GitHub"
+      }
+    },
+    "desc-toppick": {
+      "type": "Text",
+      "props": {
+        "text": "Cross-platform research sweep across 7 signal sources in a single agent tool call — the missing research primitive for agent builders.",
+        "variant": "body"
+      }
+    },
+    "meta-toppick": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-toppick",
+        "badge-lang-toppick",
+        "badge-trend-toppick"
+      ]
+    },
+    "stat-toppick": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "75.6k",
+        "delta": "755 today",
+        "trend": "up"
+      }
+    },
+    "badge-lang-toppick": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge-trend-toppick": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "repo-aiml-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-aiml-1",
+        "desc-aiml-1",
+        "meta-aiml-1"
+      ]
+    },
+    "link-aiml-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mvanhorn/last30days-skill",
+        "href": "https://github.com/mvanhorn/last30days-skill",
+        "source": "GitHub"
+      }
+    },
+    "desc-aiml-1": {
+      "type": "Text",
+      "props": {
+        "text": "Single-call research sweep: Reddit, X, YouTube, HN, Polymarket, and the web — 7 sources, zero glue code.",
+        "variant": "body"
+      }
+    },
+    "meta-aiml-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-aiml-1",
+        "badge-lang-aiml-1",
+        "badge-trend-aiml-1"
+      ]
+    },
+    "stat-aiml-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "75.6k",
+        "delta": "755 today",
+        "trend": "up"
+      }
+    },
+    "badge-lang-aiml-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge-trend-aiml-1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo-aiml-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-aiml-2",
+        "desc-aiml-2",
+        "meta-aiml-2"
+      ]
+    },
+    "link-aiml-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "obra/superpowers",
+        "href": "https://github.com/obra/superpowers",
+        "source": "GitHub"
+      }
+    },
+    "desc-aiml-2": {
+      "type": "Text",
+      "props": {
+        "text": "Dominant agentic skills framework; pushed this morning while still pulling 850+ daily stars for 13 months.",
+        "variant": "body"
+      }
+    },
+    "meta-aiml-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-aiml-2",
+        "badge-lang-aiml-2",
+        "badge-trend-aiml-2"
+      ]
+    },
+    "stat-aiml-2": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "327.3k",
+        "delta": "853 today",
+        "trend": "up"
+      }
+    },
+    "badge-lang-aiml-2": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell"
+      }
+    },
+    "badge-trend-aiml-2": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "repo-aiml-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-aiml-3",
+        "desc-aiml-3",
+        "meta-aiml-3"
+      ]
+    },
+    "link-aiml-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "zhouxiaoka/autoclip",
+        "href": "https://github.com/zhouxiaoka/autoclip",
+        "source": "GitHub"
+      }
+    },
+    "desc-aiml-3": {
+      "type": "Text",
+      "props": {
+        "text": "Fully local AI video clipper that also surfaces as an MCP tool — agents can cut clips without cloud dependencies.",
+        "variant": "body"
+      }
+    },
+    "meta-aiml-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-aiml-3",
+        "badge-lang-aiml-3",
+        "badge-trend-aiml-3"
+      ]
+    },
+    "stat-aiml-3": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "16.8k",
+        "delta": "770 today",
+        "trend": "up"
+      }
+    },
+    "badge-lang-aiml-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge-trend-aiml-3": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "repo-devtools-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-devtools-1",
+        "desc-devtools-1",
+        "meta-devtools-1"
+      ]
+    },
+    "link-devtools-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Tracer-Cloud/opensre",
+        "href": "https://github.com/Tracer-Cloud/opensre",
+        "source": "GitHub"
+      }
+    },
+    "desc-devtools-1": {
+      "type": "Text",
+      "props": {
+        "text": "Autonomous CI/CD reliability agent; pushed today — closes pipeline failures without waiting for human triage.",
+        "variant": "body"
+      }
+    },
+    "meta-devtools-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-devtools-1",
+        "badge-lang-devtools-1",
+        "badge-trend-devtools-1"
+      ]
+    },
+    "stat-devtools-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "15.7k",
+        "delta": "325 today",
+        "trend": "up"
+      }
+    },
+    "badge-lang-devtools-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "badge-trend-devtools-1": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "secondary"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-webapps": {
+      "type": "Heading",
+      "props": {
+        "text": "Web/Apps",
+        "level": "h2"
+      }
+    },
+    "repo-webapps-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link-webapps-1",
+        "desc-webapps-1",
+        "meta-webapps-1"
+      ]
+    },
+    "link-webapps-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "toeverything/AFFiNE",
+        "href": "https://github.com/toeverything/AFFiNE",
+        "source": "GitHub"
+      }
+    },
+    "desc-webapps-1": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy-first Notion-alternative resurging after a Nov 26 push — local-first, 4-year production history.",
+        "variant": "body"
+      }
+    },
+    "meta-webapps-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-webapps-1",
+        "badge-lang-webapps-1",
+        "badge-trend-webapps-1"
+      ]
+    },
+    "stat-webapps-1": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars",
+        "value": "78.9k",
+        "delta": "521 today",
+        "trend": "up"
+      }
+    },
+    "badge-lang-webapps-1": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "badge-trend-webapps-1": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-status": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 5/16",
+        "variant": "caption"
+      }
+    }
+  }
+}
