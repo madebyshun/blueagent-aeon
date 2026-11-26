@@ -1,0 +1,266 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-11-26"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "token-section",
+        "sep1",
+        "market-section",
+        "sep2",
+        "footer"
+      ]
+    },
+    "token-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "token-header",
+        "token-metrics",
+        "token-score",
+        "token-catalyst",
+        "token-risk"
+      ]
+    },
+    "token-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "token-title",
+        "token-signal-badge"
+      ]
+    },
+    "token-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: WIF",
+        "level": "h2"
+      }
+    },
+    "token-signal-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH | signal 9/10"
+      }
+    },
+    "token-metrics": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Metric",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Price",
+            "$0.138"
+          ],
+          [
+            "24h Change",
+            "+11.4%"
+          ],
+          [
+            "7d Change",
+            "+5.6%"
+          ],
+          [
+            "mcap",
+            "$138M"
+          ],
+          [
+            "24h Volume",
+            "$44.7M"
+          ],
+          [
+            "vol/mcap Ratio",
+            "0.32"
+          ]
+        ]
+      }
+    },
+    "token-score": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [24h>0+1, 7d>0+1, both>5%+2, vol/mcap≥0.20+3, RS vs BTC/ETH+2] = 9/10",
+        "variant": "caption"
+      }
+    },
+    "token-catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "Catalyst: Whale accumulated 14M WIF tokens driving +11% pump — first significant accumulation after a 19% drawdown through Nov 20",
+        "variant": "body"
+      }
+    },
+    "token-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Memecoin with no protocol fundamentals; whale may exit quickly; no utility driver",
+        "type": "warning"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market-header",
+        "market-odds",
+        "market-details",
+        "market-fair",
+        "market-thesis",
+        "market-risk"
+      ]
+    },
+    "market-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market-title",
+        "market-edge-badge"
+      ]
+    },
+    "market-title": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Will Puma Shen win the next Taipei Mayor election?",
+        "level": "h2"
+      }
+    },
+    "market-edge-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH | edge 11.75pp"
+      }
+    },
+    "market-odds": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Outcome",
+          "Odds"
+        ],
+        "rows": [
+          [
+            "YES",
+            "38¢"
+          ],
+          [
+            "NO",
+            "62¢"
+          ]
+        ]
+      }
+    },
+    "market-details": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "market-vol",
+        "market-resolves"
+      ]
+    },
+    "market-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$385k"
+      }
+    },
+    "market-resolves": {
+      "type": "Text",
+      "props": {
+        "text": "Resolves: 2026-11-29",
+        "variant": "caption"
+      }
+    },
+    "market-fair": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~50% (inputs: Oct 2026 polls Shen 50-52% vs Chiang 33-35%; SCMP tight-race framing; KMT Taipei historical advantage discounting -2pp)",
+        "variant": "body"
+      }
+    },
+    "market-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Thesis: Market anchoring to Chiang's Dec 2025 64% lead, hasn't updated on Shen's double-digit polling gains — Puma Shen underpriced at 38¢",
+        "variant": "body"
+      }
+    },
+    "market-risk": {
+      "type": "Alert",
+      "props": {
+        "title": "Risk",
+        "message": "Race tightened to margin-of-error in most recent surveys; KMT Taipei historical advantage; possible DPP overcount in polls",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "footer-sources",
+        "footer-disclaimer"
+      ]
+    },
+    "footer-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      }
+    },
+    "footer-disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "not financial advice — pattern-matching only",
+        "variant": "muted"
+      }
+    }
+  }
+}
