@@ -1,37 +1,45 @@
-*Security Digest — 2026-11-25*
-Verdict: 3 actively exploited, 2 to schedule, 3 to monitor. _Sources: KEV, GH Advisory, EPSS_
+*Security Digest — 2026-11-26*
+Verdict: 3 actively exploited (KEV), 5 to schedule, 2 to monitor. _Sources: KEV, GH Advisory, EPSS_
 
 *PATCH TODAY*
-- [CVE-2026-133469](https://github.com/advisories/GHSA-2r3w-c2vx-fv5g) — xo-server (npm) · KEV added 2026-11-25 · EPSS 0.011 · CVSS 9.8
-  Empty-object login token bypasses auth on Xen Orchestra; unauthenticated admin access. In KEV and npm stack.
-  → upgrade xo-server past 5.7.4 and patch Xen Orchestra host immediately.
+- [CVE-2026-132165](https://nvd.nist.gov/vuln/detail/CVE-2026-132165) — Drupal Core · KEV 2026-11-24 · EPSS 0.11 · CVSS N/A
+  Unauth RCE via install.php reinstall flaw. Highest EPSS of new KEV this week.
+  → disable install.php; apply Drupal security update today.
 
-- [CVE-2026-131914](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Idunno.AntiCsrf (.NET) · KEV added 2026-11-24 · EPSS 0.043
-  Unsafe deserialization → unauthenticated RCE. Product may be EOL; CISA flagged active exploitation.
-  → remove or replace Idunno.AntiCsrf; no patch available.
+- [CVE-2026-133323](https://nvd.nist.gov/vuln/detail/CVE-2026-133323) — Mitel MiCollab AWV · KEV 2026-11-25 · EPSS 0.056 · CVSS N/A
+  Unauth OS cmd injection via AWV component. Part of 5-CVE Mitel cluster added today.
+  → apply MiCollab vendor patch; isolate AWV from public internet.
 
-- [CVE-2024-10441](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — Synology DSM · KEV added 2026-11-18 · EPSS 0.028
-  Improper output escaping in system plugin daemon → remote RCE. Known ransomware exploitation on record.
-  → apply Synology DSM security update now.
+- [CVE-2025-41450](https://nvd.nist.gov/vuln/detail/CVE-2025-41450) — Danfoss AK-SM 800A · KEV 2026-11-25 · EPSS 0.043 · CVSS N/A
+  Improper auth exposes internal IPs, usernames, store names via web reports.
+  → apply Danfoss firmware update; restrict management interface to trusted networks.
 
 *PATCH THIS WEEK*
-- [GHSA-mc8w-wjhw-45x5](https://github.com/advisories/GHSA-mc8w-wjhw-45x5) — ep_etherpad-lite (npm) · CVSS 9.8 · EPSS 0.041 · no public PoC
-  Pre-auth arbitrary file read on etherpad-lite >= 1.8.14, < 3.3.3.
-  → upgrade etherpad-lite to ≥ 3.3.3.
+- [CVE-2023-25915](https://nvd.nist.gov/vuln/detail/CVE-2023-25915) — Danfoss AK-SM 800A · KEV 2026-11-25 · EPSS 0.025
+  Remote cmd exec via XML interface input validation bypass.
+  → schedule Danfoss AK-SM firmware update.
 
-- [GHSA-x8q7-6c7m-52gw](https://github.com/advisories/GHSA-x8q7-6c7m-52gw) — nltk (pip) · CVSS 9.8 · EPSS 0.007 · no public PoC
-  Incomplete sandbox fix — additional JVM/JAR bypass via unvalidated launcher tokens in java() args.
-  → upgrade nltk to ≥ 3.10.4.
+- [CVE-2026-134624](https://nvd.nist.gov/vuln/detail/CVE-2026-134624) — N-able MailAssure · KEV 2026-11-23 · EPSS 0.018
+  Auth'd SSRF via LDAP sync; can reach internal hosts.
+  → schedule MailAssure update; restrict LDAP sync API.
+
+- [CVE-2026-103406](https://nvd.nist.gov/vuln/detail/CVE-2026-103406) — HPE Juniper Session Smart · KEV 2026-11-25 · EPSS 0.015
+  OS cmd injection via crafted salt minion ID; runs as root.
+  → schedule HPE Juniper Session Smart Router update.
+
+- [CVE-2026-76466](https://nvd.nist.gov/vuln/detail/CVE-2026-76466) — Cisco Expressway · KEV 2026-11-20 · EPSS 0.011
+  Hard-coded creds allow unauth root cmd execution on clustered nodes.
+  → schedule Cisco Expressway security update.
+
+- [CVE-2025-42884](https://nvd.nist.gov/vuln/detail/CVE-2025-42884) — SAP NetWeaver · KEV 2026-11-20 · EPSS 0.011
+  JNDI injection via Enterprise Portal; unauth info disclosure/modification.
+  → schedule SAP NetWeaver patch.
 
 *MONITOR*
-- [GHSA-p34x-fmph-9fjx](https://github.com/advisories/GHSA-p34x-fmph-9fjx) — flyto-core (pip) · CVSS 10 · EPSS 0.008 · no fix yet
-  Arbitrary file write via unguarded data.*/file.* modules; incomplete fix of CVE-2026-67429.
-  → track flyto-core; audit exposure; no patch yet.
+- [GHSA-vw2v-g4x7-xcqg](https://github.com/advisories/GHSA-vw2v-g4x7-xcqg) — fulgur (crates.io) · CVSS 7.5 · EPSS 0.007 · no patch
+  Unbounded string-set accumulation → memory/CPU DoS.
+  → track for patched release; audit string-set usage in prod.
 
-- [GHSA-crj3-q72p-ggqm](https://github.com/advisories/GHSA-crj3-q72p-ggqm) — @waline/client (npm) · CVSS 9.3 · EPSS 0.004 · no fix yet
-  Stored XSS via unsanitized comment edit previews.
-  → track @waline/client; restrict comment editing; no patch yet.
-
-- [GHSA-833v-v58w-294h](https://github.com/advisories/GHSA-833v-v58w-294h) — @doist/todoist-mcp (npm) · CVSS 9.3 · EPSS 0.002 · no fix yet
-  DNS rebinding lets external sites write/delete Todoist data via local MCP server.
-  → avoid exposing todoist-mcp beyond localhost; watch for fix.
+- [GHSA-jp3c-6v3g-mpxv](https://github.com/advisories/GHSA-jp3c-6v3g-mpxv) — insomniacslk/dhcp (Go) · CVSS N/A · no patch
+  Malformed IPv4 payload length → DoS.
+  → track for patch; avoid exposing DHCP parsing to untrusted input.

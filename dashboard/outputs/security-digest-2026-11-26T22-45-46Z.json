@@ -1,0 +1,840 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-11-26"
+      },
+      "children": [
+        "verdict-stack",
+        "sep1",
+        "patch-today-section",
+        "sep2",
+        "patch-week-section",
+        "sep3",
+        "monitor-section"
+      ]
+    },
+    "verdict-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verdict-text"
+      ]
+    },
+    "verdict-text": {
+      "type": "Text",
+      "props": {
+        "text": "Verdict: 3 actively exploited (KEV), 5 to schedule, 2 to monitor. Sources: KEV, GH Advisory, EPSS",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "patch-today-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-today-heading",
+        "patch-today-items"
+      ]
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "patch-today-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve-132165",
+        "cve-133323",
+        "cve-25-41450"
+      ]
+    },
+    "cve-132165": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-132165-title",
+        "cve-132165-badges",
+        "cve-132165-desc",
+        "cve-132165-action"
+      ]
+    },
+    "cve-132165-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-132165 — Drupal Core",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
+        "source": "NVD"
+      },
+      "children": []
+    },
+    "cve-132165-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-132165",
+        "badge-epss-132165",
+        "badge-cvss-132165"
+      ]
+    },
+    "badge-kev-132165": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-11-24",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-epss-132165": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.11",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-cvss-132165": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS N/A",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "cve-132165-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth RCE via install.php reinstall flaw. Highest EPSS of new KEV this week.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve-132165-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ disable install.php; apply Drupal security update today.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve-133323": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-133323-title",
+        "cve-133323-badges",
+        "cve-133323-desc",
+        "cve-133323-action"
+      ]
+    },
+    "cve-133323-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-133323 — Mitel MiCollab AWV",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
+        "source": "NVD"
+      },
+      "children": []
+    },
+    "cve-133323-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-133323",
+        "badge-epss-133323",
+        "badge-cvss-133323"
+      ]
+    },
+    "badge-kev-133323": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-11-25",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-epss-133323": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.056",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-cvss-133323": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS N/A",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "cve-133323-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth OS cmd injection via AWV component. Part of 5-CVE Mitel cluster added today.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve-133323-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply MiCollab vendor patch; isolate AWV from public internet.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve-25-41450": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-25-41450-title",
+        "cve-25-41450-badges",
+        "cve-25-41450-desc",
+        "cve-25-41450-action"
+      ]
+    },
+    "cve-25-41450-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2025-41450 — Danfoss AK-SM 800A",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450",
+        "source": "NVD"
+      },
+      "children": []
+    },
+    "cve-25-41450-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-25-41450",
+        "badge-epss-25-41450",
+        "badge-cvss-25-41450"
+      ]
+    },
+    "badge-kev-25-41450": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-11-25",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-epss-25-41450": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.043",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-cvss-25-41450": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS N/A",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "cve-25-41450-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Improper auth exposes internal IPs, usernames, store names via web reports.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve-25-41450-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Danfoss firmware update; restrict management interface to trusted networks.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "patch-week-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "patch-week-heading",
+        "patch-week-items"
+      ]
+    },
+    "patch-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "patch-week-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "cve-23-25915",
+        "cve-26-134624",
+        "cve-26-103406",
+        "cve-26-76466",
+        "cve-25-42884"
+      ]
+    },
+    "cve-23-25915": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-23-25915-title",
+        "cve-23-25915-badges",
+        "cve-23-25915-desc",
+        "cve-23-25915-action"
+      ]
+    },
+    "cve-23-25915-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2023-25915 — Danfoss AK-SM 800A",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915",
+        "source": "NVD"
+      },
+      "children": []
+    },
+    "cve-23-25915-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-23-25915",
+        "badge-epss-23-25915"
+      ]
+    },
+    "badge-kev-23-25915": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-11-25",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-epss-23-25915": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.025",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "cve-23-25915-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Remote cmd exec via XML interface input validation bypass.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve-23-25915-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule Danfoss AK-SM firmware update.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve-26-134624": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-26-134624-title",
+        "cve-26-134624-badges",
+        "cve-26-134624-desc",
+        "cve-26-134624-action"
+      ]
+    },
+    "cve-26-134624-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-134624 — N-able MailAssure",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
+        "source": "NVD"
+      },
+      "children": []
+    },
+    "cve-26-134624-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-26-134624",
+        "badge-epss-26-134624"
+      ]
+    },
+    "badge-kev-26-134624": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-11-23",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-epss-26-134624": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.018",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "cve-26-134624-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Auth'd SSRF via LDAP sync; can reach internal hosts.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve-26-134624-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule MailAssure update; restrict LDAP sync API.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve-26-103406": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-26-103406-title",
+        "cve-26-103406-badges",
+        "cve-26-103406-desc",
+        "cve-26-103406-action"
+      ]
+    },
+    "cve-26-103406-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-103406 — HPE Juniper Session Smart",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+        "source": "NVD"
+      },
+      "children": []
+    },
+    "cve-26-103406-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-26-103406",
+        "badge-epss-26-103406"
+      ]
+    },
+    "badge-kev-26-103406": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-11-25",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-epss-26-103406": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.015",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "cve-26-103406-desc": {
+      "type": "Text",
+      "props": {
+        "text": "OS cmd injection via crafted salt minion ID; runs as root.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve-26-103406-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule HPE Juniper Session Smart Router update.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve-26-76466": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-26-76466-title",
+        "cve-26-76466-badges",
+        "cve-26-76466-desc",
+        "cve-26-76466-action"
+      ]
+    },
+    "cve-26-76466-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-76466 — Cisco Expressway",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
+        "source": "NVD"
+      },
+      "children": []
+    },
+    "cve-26-76466-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-26-76466",
+        "badge-epss-26-76466"
+      ]
+    },
+    "badge-kev-26-76466": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-11-20",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-epss-26-76466": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.011",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "cve-26-76466-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Hard-coded creds allow unauth root cmd execution on clustered nodes.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve-26-76466-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule Cisco Expressway security update.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve-25-42884": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve-25-42884-title",
+        "cve-25-42884-badges",
+        "cve-25-42884-desc",
+        "cve-25-42884-action"
+      ]
+    },
+    "cve-25-42884-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2025-42884 — SAP NetWeaver",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884",
+        "source": "NVD"
+      },
+      "children": []
+    },
+    "cve-25-42884-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-kev-25-42884",
+        "badge-epss-25-42884"
+      ]
+    },
+    "badge-kev-25-42884": {
+      "type": "Badge",
+      "props": {
+        "text": "KEV 2026-11-20",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "badge-epss-25-42884": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.011",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "cve-25-42884-desc": {
+      "type": "Text",
+      "props": {
+        "text": "JNDI injection via Enterprise Portal; unauth info disclosure/modification.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "cve-25-42884-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ schedule SAP NetWeaver patch.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "monitor-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "monitor-heading",
+        "monitor-items"
+      ]
+    },
+    "monitor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "MONITOR",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "monitor-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ghsa-vw2v",
+        "ghsa-jp3c"
+      ]
+    },
+    "ghsa-vw2v": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-vw2v-title",
+        "ghsa-vw2v-badges",
+        "ghsa-vw2v-desc",
+        "ghsa-vw2v-action"
+      ]
+    },
+    "ghsa-vw2v-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-vw2v-g4x7-xcqg — fulgur (crates.io)",
+        "href": "https://github.com/advisories/GHSA-vw2v-g4x7-xcqg",
+        "source": "GitHub Advisory"
+      },
+      "children": []
+    },
+    "ghsa-vw2v-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-vw2v",
+        "badge-epss-vw2v",
+        "badge-patch-vw2v"
+      ]
+    },
+    "badge-cvss-vw2v": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS 7.5",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-epss-vw2v": {
+      "type": "Badge",
+      "props": {
+        "text": "EPSS 0.007",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge-patch-vw2v": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "ghsa-vw2v-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unbounded string-set accumulation → memory/CPU DoS.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ghsa-vw2v-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ track for patched release; audit string-set usage in prod.",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "ghsa-jp3c": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ghsa-jp3c-title",
+        "ghsa-jp3c-badges",
+        "ghsa-jp3c-desc",
+        "ghsa-jp3c-action"
+      ]
+    },
+    "ghsa-jp3c-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "GHSA-jp3c-6v3g-mpxv — insomniacslk/dhcp (Go)",
+        "href": "https://github.com/advisories/GHSA-jp3c-6v3g-mpxv",
+        "source": "GitHub Advisory"
+      },
+      "children": []
+    },
+    "ghsa-jp3c-badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-cvss-jp3c",
+        "badge-patch-jp3c"
+      ]
+    },
+    "badge-cvss-jp3c": {
+      "type": "Badge",
+      "props": {
+        "text": "CVSS N/A",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-patch-jp3c": {
+      "type": "Badge",
+      "props": {
+        "text": "no patch",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "ghsa-jp3c-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Malformed IPv4 payload length → DoS.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "ghsa-jp3c-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ track for patch; avoid exposing DHCP parsing to untrusted input.",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
