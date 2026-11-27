@@ -1,0 +1,412 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-11-27"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section-focus",
+        "sep-1",
+        "section-yesterday",
+        "sep-2",
+        "section-watch",
+        "sep-3",
+        "section-running"
+      ]
+    },
+    "section-focus": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-focus",
+        "focus-item-1",
+        "focus-item-2",
+        "focus-item-3"
+      ]
+    },
+    "heading-focus": {
+      "type": "Heading",
+      "props": {
+        "text": "Focus today",
+        "level": "h2"
+      }
+    },
+    "focus-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-label-1",
+        "focus-text-1"
+      ]
+    },
+    "focus-label-1": {
+      "type": "Badge",
+      "props": {
+        "text": "BTC Nov 27 options expiry",
+        "variant": "default"
+      }
+    },
+    "focus-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: resolves today; IV/realized gap collapses; alt rally confirmation or flush",
+        "variant": "caption"
+      }
+    },
+    "focus-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-label-2",
+        "focus-text-2"
+      ]
+    },
+    "focus-label-2": {
+      "type": "Badge",
+      "props": {
+        "text": "deal-flow repair",
+        "variant": "default"
+      }
+    },
+    "focus-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: 46 days since last success; skill-repair disabled; gap accumulating",
+        "variant": "caption"
+      }
+    },
+    "focus-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "focus-label-3",
+        "focus-text-3"
+      ]
+    },
+    "focus-label-3": {
+      "type": "Badge",
+      "props": {
+        "text": "x402 agent wallet security",
+        "variant": "default"
+      }
+    },
+    "focus-text-3": {
+      "type": "Text",
+      "props": {
+        "text": "Why now: 31 vulns disclosed; Virtuals $500K precedent still live",
+        "variant": "caption"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-yesterday",
+        "yesterday-item-1",
+        "yesterday-item-2",
+        "yesterday-item-3"
+      ]
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Since yesterday",
+        "level": "h2"
+      }
+    },
+    "yesterday-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-token-pick",
+        "text-token-pick"
+      ]
+    },
+    "badge-token-pick": {
+      "type": "Badge",
+      "props": {
+        "text": "token-pick",
+        "variant": "secondary"
+      }
+    },
+    "text-token-pick": {
+      "type": "Text",
+      "props": {
+        "text": "WIF whale play active (+11.4%); Taipei Mayor election (Puma Shen YES 38¢) resolves Nov 29",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-narrative",
+        "text-narrative"
+      ]
+    },
+    "badge-narrative": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "secondary"
+      }
+    },
+    "text-narrative": {
+      "type": "Text",
+      "props": {
+        "text": "XAI 403 day 7 — WebSearch fallback holding but degraded; still no credits on team",
+        "variant": "body"
+      }
+    },
+    "yesterday-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-security",
+        "text-security"
+      ]
+    },
+    "badge-security": {
+      "type": "Badge",
+      "props": {
+        "text": "security-digest",
+        "variant": "secondary"
+      }
+    },
+    "text-security": {
+      "type": "Text",
+      "props": {
+        "text": "Drupal RCE (CVE-2026-132165) + 5 Mitel CVEs added to KEV 2026-11-25",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-watch": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-watch",
+        "watch-content"
+      ]
+    },
+    "heading-watch": {
+      "type": "Heading",
+      "props": {
+        "text": "Watch",
+        "level": "h2"
+      }
+    },
+    "watch-content": {
+      "type": "Alert",
+      "props": {
+        "title": "x402",
+        "message": "31 new vulns (CSA Oct 2026) + $281K lost in two agent incidents Nov 9 — SDK <2.23.0 exposed; x402 FRONT-RUN thesis carries live infrastructure risk, not just narrative upside",
+        "type": "warning"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-running": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-running",
+        "running-item-1",
+        "running-item-2",
+        "running-item-3",
+        "running-item-4",
+        "running-item-5"
+      ]
+    },
+    "heading-running": {
+      "type": "Heading",
+      "props": {
+        "text": "Running today",
+        "level": "h2"
+      }
+    },
+    "running-item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-heartbeat",
+        "text-heartbeat"
+      ]
+    },
+    "badge-heartbeat": {
+      "type": "Badge",
+      "props": {
+        "text": "heartbeat",
+        "variant": "outline"
+      }
+    },
+    "text-heartbeat": {
+      "type": "Text",
+      "props": {
+        "text": "@ 08:00, 14:00, 20:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running-item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-github-monitor",
+        "text-github-monitor"
+      ]
+    },
+    "badge-github-monitor": {
+      "type": "Badge",
+      "props": {
+        "text": "github-monitor",
+        "variant": "outline"
+      }
+    },
+    "text-github-monitor": {
+      "type": "Text",
+      "props": {
+        "text": "@ 09:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running-item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-token-movers",
+        "text-token-movers"
+      ]
+    },
+    "badge-token-movers": {
+      "type": "Badge",
+      "props": {
+        "text": "token-movers",
+        "variant": "outline"
+      }
+    },
+    "text-token-movers": {
+      "type": "Text",
+      "props": {
+        "text": "@ 12:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running-item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-token-pick-run",
+        "text-token-pick-run"
+      ]
+    },
+    "badge-token-pick-run": {
+      "type": "Badge",
+      "props": {
+        "text": "token-pick",
+        "variant": "outline"
+      }
+    },
+    "text-token-pick-run": {
+      "type": "Text",
+      "props": {
+        "text": "@ 12:00 UTC",
+        "variant": "caption"
+      }
+    },
+    "running-item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "badge-narrative-run",
+        "text-narrative-run"
+      ]
+    },
+    "badge-narrative-run": {
+      "type": "Badge",
+      "props": {
+        "text": "narrative-tracker",
+        "variant": "outline"
+      }
+    },
+    "text-narrative-run": {
+      "type": "Text",
+      "props": {
+        "text": "@ 13:30 UTC",
+        "variant": "caption"
+      }
+    }
+  }
+}
