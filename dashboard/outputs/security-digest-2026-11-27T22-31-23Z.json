@@ -1,0 +1,463 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Security Digest — 2026-11-27"
+      },
+      "children": [
+        "verdict-section",
+        "sep1",
+        "patch-today",
+        "sep2",
+        "patch-this-week"
+      ]
+    },
+    "verdict-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "verdict-heading",
+        "verdict-text"
+      ]
+    },
+    "verdict-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Verdict",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "verdict-text": {
+      "type": "Text",
+      "props": {
+        "text": "3 actively exploited, 5 to schedule. Sources: KEV, GH Advisory, EPSS"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "patch-today": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch-today-heading",
+        "cve1",
+        "cve2",
+        "cve3"
+      ]
+    },
+    "patch-today-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH TODAY",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "cve1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve1-title",
+        "cve1-meta",
+        "cve1-desc",
+        "cve1-fix"
+      ]
+    },
+    "cve1-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-133968",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
+        "source": "MONAI Label (pip)"
+      },
+      "children": []
+    },
+    "cve1-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-23 · EPSS 0.272 · CVSS est. 9.x",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauthenticated path traversal → arbitrary file write outside datastore dir → RCE."
+      },
+      "children": []
+    },
+    "cve1-fix": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade monailabel to latest patched release; block public internet access to server.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "cve2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve2-title",
+        "cve2-meta",
+        "cve2-desc",
+        "cve2-fix"
+      ]
+    },
+    "cve2-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-129448",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448",
+        "source": "Apache Roller (Java)"
+      },
+      "children": []
+    },
+    "cve2-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-20 · EPSS 0.242 · CVSS est. 9.x",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "XML-RPC endpoint deserializes vendor extension types before auth → unauthenticated RCE."
+      },
+      "children": []
+    },
+    "cve2-fix": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade Apache Roller; disable XML-RPC endpoint if unused.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "cve3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve3-title",
+        "cve3-meta",
+        "cve3-desc",
+        "cve3-fix"
+      ]
+    },
+    "cve3-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-123890",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+        "source": "VMware vCenter (Broadcom)"
+      },
+      "children": []
+    },
+    "cve3-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-20 · EPSS 0.050 · CVSS est. 9.x",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "VMware Directory Service auth bypass → unauthorized vCenter access."
+      },
+      "children": []
+    },
+    "cve3-fix": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Broadcom patch; restrict vCenter mgmt interface to management VLAN.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "patch-this-week": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "patch-this-week-heading",
+        "cve4",
+        "cve5",
+        "cve6",
+        "cve7",
+        "cve8"
+      ]
+    },
+    "patch-this-week-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PATCH THIS WEEK",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "cve4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve4-title",
+        "cve4-meta",
+        "cve4-desc",
+        "cve4-fix"
+      ]
+    },
+    "cve4-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-120705",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-120705",
+        "source": "OSGeo GeoServer"
+      },
+      "children": []
+    },
+    "cve4-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-27 · EPSS N/A (new) · CVSS est. 9.x",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth XML injection via WFS GetFeatureById → SSRF + local file read; chainable to RCE."
+      },
+      "children": []
+    },
+    "cve4-fix": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade GeoServer; restrict WFS endpoint access.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "cve5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve5-title",
+        "cve5-meta",
+        "cve5-desc",
+        "cve5-fix"
+      ]
+    },
+    "cve5-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-129243",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-129243",
+        "source": "OSGeo GeoServer"
+      },
+      "children": []
+    },
+    "cve5-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-27 · EPSS N/A (new) · CVSS est. 9.x",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth service-role bypass via prefixed parameter → chainable to RCE."
+      },
+      "children": []
+    },
+    "cve5-fix": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade GeoServer (same patch as CVE-2026-120705).",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "cve6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve6-title",
+        "cve6-meta",
+        "cve6-desc",
+        "cve6-fix"
+      ]
+    },
+    "cve6-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-136716",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716",
+        "source": "Drupal Core"
+      },
+      "children": []
+    },
+    "cve6-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-27 · EPSS 0.012 · CVSS est. 9.x",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve6-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Incomplete install state → installer accessible → unauthenticated site takeover."
+      },
+      "children": []
+    },
+    "cve6-fix": {
+      "type": "Text",
+      "props": {
+        "text": "→ block install.php; apply Drupal security update.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "cve7": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve7-title",
+        "cve7-meta",
+        "cve7-desc",
+        "cve7-fix"
+      ]
+    },
+    "cve7-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2023-25914",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914",
+        "source": "Danfoss AK-SM 800A"
+      },
+      "children": []
+    },
+    "cve7-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-25 · EPSS 0.018 · CVSS est. 8.x",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve7-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Path traversal via XML interface → arbitrary server file read."
+      },
+      "children": []
+    },
+    "cve7-fix": {
+      "type": "Text",
+      "props": {
+        "text": "→ apply Danfoss firmware update; isolate device from public network.",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "cve8": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cve8-title",
+        "cve8-meta",
+        "cve8-desc",
+        "cve8-fix"
+      ]
+    },
+    "cve8-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "CVE-2026-133303",
+        "href": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
+        "source": "Mitel MiCollab AWV"
+      },
+      "children": []
+    },
+    "cve8-meta": {
+      "type": "Text",
+      "props": {
+        "text": "KEV 2026-11-25 · EPSS 0.013 · CVSS est. 9.x",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "cve8-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Unauth OS command injection via pre-staged content in AWV component."
+      },
+      "children": []
+    },
+    "cve8-fix": {
+      "type": "Text",
+      "props": {
+        "text": "→ upgrade MiCollab; block AWV component from public internet.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
