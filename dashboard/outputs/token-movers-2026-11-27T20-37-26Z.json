@@ -1,0 +1,396 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Movers — 2026-11-27",
+        "description": "Mixed tape with mild red bias — BTC -1.5%, median top-50 near flat; ~53% of non-stable top-100 green, led by mid-cap DeFi/AI names while BTC, ETH, XMR drag."
+      },
+      "children": [
+        "sep1",
+        "winners-heading",
+        "winners-table",
+        "sep2",
+        "losers-heading",
+        "losers-table",
+        "sep3",
+        "trending-heading",
+        "trending-table",
+        "sep4",
+        "notable-heading",
+        "notable-stack"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "winners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Winners (24h)",
+        "level": "h2"
+      }
+    },
+    "winners-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Cap/Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "BTW (Bitway)",
+            "$1.160",
+            "+16.6%",
+            "+76.9%",
+            "-0.9%",
+            "$15M / #45",
+            "BREAKOUT"
+          ],
+          [
+            "SKY (Sky)",
+            "$0.04959",
+            "+7.7%",
+            "+13.5%",
+            "+4.3%",
+            "$33M / #63",
+            ""
+          ],
+          [
+            "GEOD (Geodnet)",
+            "$0.1922",
+            "+7.5%",
+            "-0.8%",
+            "-1.4%",
+            "$1.2M / #188",
+            ""
+          ],
+          [
+            "SOXLB (Semicon Bull 3X ETF)",
+            "$36.07",
+            "+7.2%",
+            "+3.7%",
+            "+0.4%",
+            "$80M / #208",
+            ""
+          ],
+          [
+            "FET (ASI Alliance)",
+            "$0.1262",
+            "+5.8%",
+            "+9.9%",
+            "+0.2%",
+            "$104M / #124",
+            ""
+          ],
+          [
+            "SENT (Sentient)",
+            "$0.02278",
+            "+5.0%",
+            "+11.3%",
+            "-1.6%",
+            "$13M / #171",
+            ""
+          ],
+          [
+            "RENDER (Render)",
+            "$1.400",
+            "+4.9%",
+            "+10.3%",
+            "-0.5%",
+            "$33M / #79",
+            ""
+          ],
+          [
+            "JUP (Jupiter)",
+            "$0.2479",
+            "+4.6%",
+            "+10.8%",
+            "+0.7%",
+            "$56M / #77",
+            ""
+          ],
+          [
+            "APEPE (Ape and Pepe)",
+            "$0.0000015",
+            "+4.4%",
+            "-1.5%",
+            "+0.2%",
+            "$20M / #122",
+            ""
+          ],
+          [
+            "NIGHT (Midnight)",
+            "$0.05033",
+            "+4.1%",
+            "+17.7%",
+            "+1.2%",
+            "$32M / #75",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h",
+          "7d",
+          "1h",
+          "Cap/Rank",
+          "Status"
+        ],
+        "rows": [
+          [
+            "WLFI (World Liberty Financial)",
+            "$0.03581",
+            "-15.5%",
+            "-17.8%",
+            "-3.0%",
+            "$47M / #65",
+            ""
+          ],
+          [
+            "PEARL (Pearl)",
+            "$1.740",
+            "-10.7%",
+            "-15.2%",
+            "-0.0%",
+            "$19M / #84",
+            "TRENDING+DOWN"
+          ],
+          [
+            "XMR (Monero)",
+            "$402.6",
+            "-10.0%",
+            "-11.0%",
+            "-0.2%",
+            "$139M / #14",
+            "MAJOR TRENDING+DOWN"
+          ],
+          [
+            "RAIN (Rain)",
+            "$0.002304",
+            "-9.4%",
+            "-36.6%",
+            "+0.3%",
+            "$8.0M / #47",
+            ""
+          ],
+          [
+            "FF (Falcon Finance)",
+            "$0.09426",
+            "-9.2%",
+            "-6.5%",
+            "-2.0%",
+            "$4.3M / #118",
+            ""
+          ],
+          [
+            "BDX (Beldex)",
+            "$0.06234",
+            "-7.5%",
+            "-10.4%",
+            "+0.2%",
+            "$7.1M / #98",
+            ""
+          ],
+          [
+            "BAT (Basic Attention)",
+            "$0.07463",
+            "-7.0%",
+            "-6.2%",
+            "+0.2%",
+            "$8.1M / #225",
+            ""
+          ],
+          [
+            "SEI (Sei)",
+            "$0.03791",
+            "-6.0%",
+            "+9.3%",
+            "-1.2%",
+            "$54M / #136",
+            ""
+          ],
+          [
+            "PI (Pi Network)",
+            "$0.05114",
+            "-5.8%",
+            "+5.3%",
+            "+0.0%",
+            "$3.6M / #91",
+            ""
+          ],
+          [
+            "DRV (Derive)",
+            "$0.3654",
+            "-5.5%",
+            "+48.9%",
+            "+0.9%",
+            "$8.0M / #109",
+            "TRENDING+DOWN"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "trending-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Trending",
+        "level": "h2"
+      }
+    },
+    "trending-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Rank",
+          "Price",
+          "24h%",
+          "Status"
+        ],
+        "rows": [
+          [
+            "PENGU (Pudgy Penguins)",
+            "#127",
+            "$0.004451",
+            "+0.8%",
+            ""
+          ],
+          [
+            "PUMPCHAN",
+            "#865",
+            "$0.01581",
+            "+0.0%",
+            ""
+          ],
+          [
+            "PORTAL",
+            "#504",
+            "$0.03918",
+            "+214.0%",
+            "PUMP-RISK"
+          ],
+          [
+            "ZYLO (Zylo Ecosystem)",
+            "#724",
+            "$0.02453",
+            "+1.7%",
+            ""
+          ],
+          [
+            "ZEC (Zcash)",
+            "#11",
+            "$739.8",
+            "+3.0%",
+            ""
+          ],
+          [
+            "BTC (Bitcoin)",
+            "#1",
+            "$59,732",
+            "-1.5%",
+            ""
+          ],
+          [
+            "HYPE (Hyperliquid)",
+            "#10",
+            "$64.03",
+            "+2.2%",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "notable-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Notable",
+        "level": "h2"
+      }
+    },
+    "notable-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable-1",
+        "notable-2",
+        "notable-3",
+        "notable-4"
+      ]
+    },
+    "notable-1": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "PORTAL trending #3 (rank #504)",
+        "message": "+214% [PUMP-RISK]: extreme pump, manipulation probability very high"
+      }
+    },
+    "notable-2": {
+      "type": "Text",
+      "props": {
+        "text": "BTW day 3: [BREAKOUT] 24h +16.6% / 7d +77% — rare 3-day sustained momentum",
+        "variant": "body"
+      }
+    },
+    "notable-3": {
+      "type": "Text",
+      "props": {
+        "text": "XMR + PEARL [TRENDING+DOWN] 2nd consecutive day — privacy coin flush continues",
+        "variant": "body"
+      }
+    },
+    "notable-4": {
+      "type": "Text",
+      "props": {
+        "text": "SEI +20% yesterday → -6% today; BAT +5.4% → -7.0% — 1-day runner reversals confirmed",
+        "variant": "body"
+      }
+    }
+  }
+}
