@@ -1,25 +1,29 @@
-*GitHub Trending — 2026-11-26*
+*GitHub Trending — 2026-11-27*
+⚠️ trending page unavailable (504 × 2) — gh api fallback; velocity shown instead of stars/day
 
-*Top pick* — [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
-Cross-platform research sweep across 7 signal sources in a single agent tool call — the missing research primitive for agent builders.
+*Top pick* — [Marvisak/VIctory](https://github.com/Marvisak/VIctory)
+GTA VI launched console-only; the community already built a Rust Xbox compat layer at 13.7K stars in 4 days.
 
 *AI/ML*
-• [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — ★ 755 today (75.6k total) · Python · [ACCELERATING]
-Single-call research sweep: Reddit, X, YouTube, HN, Polymarket, and the web — 7 sources, zero glue code.
+• [alesha-pro/llm.asm](https://github.com/alesha-pro/llm.asm) — ★ ~1,003/day (2.0K total) · Assembly · [DEBUT]
+Qwen3-0.6B inference, bare-metal OS, and Mini-GPT trainer each under 32KB of pure x86 NASM — zero C, zero libc.
 
-• [obra/superpowers](https://github.com/obra/superpowers) — ★ 853 today (327.3k total) · Shell · [ACCELERATING]
-Dominant agentic skills framework; pushed this morning while still pulling 850+ daily stars for 13 months.
-
-• [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip) — ★ 770 today (16.8k total) · Python · [RETURNING]
-Fully local AI video clipper that also surfaces as an MCP tool — agents can cut clips without cloud dependencies.
+• [nexu-io/opengame](https://github.com/nexu-io/opengame) — ★ ~1,036/day (2.1K total) · TypeScript · [DEBUT]
+Routes 20+ coding agents (Claude Code, Codex, DeepSeek) as a unified game-studio pipeline targeting WeChat, TikTok, itch.io.
 
 *Devtools*
-• [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) — ★ 325 today (15.7k total) · Python · [ACCELERATING]
-Autonomous CI/CD reliability agent; pushed today — closes pipeline failures without waiting for human triage.
+• [EL4CTEO/fast-anything](https://github.com/EL4CTEO/fast-anything) — ★ ~738/day (4.4K total) · Rust · [DEBUT]
+Profile Python/Node/Ruby, port the hot 5% to Rust with your coding agent, verify behavioral parity — no full rewrite required.
 
-*Web/Apps*
-• [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) — ★ 521 today (78.9k total) · TypeScript · [RETURNING]
-Privacy-first Notion-alternative resurging after a Nov 26 push — local-first, 4-year production history.
+• [sybil-solutions/skill-distill](https://github.com/sybil-solutions/skill-distill) — ★ ~165/day (989 total) · Python · [DEBUT]
+Converts a successful Claude Code or Codex session into a reusable skill file an open-weight model can replay.
+
+• [os6/nospeaker](https://github.com/os6/nospeaker) — ★ ~397/day (2.0K total) · Swift · [DEBUT]
+Drives the MacBook Taptic Engine as a speaker via synthesized haptic bursts — bypasses actual audio hardware entirely.
+
+*Other*
+• [lsernau/grh-lean](https://github.com/lsernau/grh-lean) — ★ ~510/day (1.0K total) · Lean · [DEBUT]
+Claims a Lean 4 proof of the Generalized Riemann Hypothesis — 1K stars in 2 days while the community audits it.
 
 ---
-sources: trending=ok · gh_api=ok · kept 5/16
+sources: trending=fail (504) · gh_api=ok · kept 7/25

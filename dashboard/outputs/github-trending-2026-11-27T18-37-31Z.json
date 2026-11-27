@@ -1,0 +1,481 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-11-27"
+      },
+      "children": [
+        "alert-warn",
+        "sep1",
+        "heading-toppick",
+        "repo-victory",
+        "sep2",
+        "heading-aiml",
+        "repo-llmasm",
+        "repo-opengame",
+        "sep3",
+        "heading-devtools",
+        "repo-fastthing",
+        "repo-skilldistill",
+        "repo-nospeaker",
+        "sep4",
+        "heading-other",
+        "repo-grhlean",
+        "sep5",
+        "text-sources"
+      ]
+    },
+    "alert-warn": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "GitHub trending page unavailable",
+        "message": "504 × 2 — gh api fallback; velocity shown instead of stars/day"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "heading-toppick": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h2"
+      }
+    },
+    "repo-victory": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "victory-title",
+        "victory-desc"
+      ]
+    },
+    "victory-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Marvisak/VIctory",
+        "href": "https://github.com/Marvisak/VIctory"
+      }
+    },
+    "victory-desc": {
+      "type": "Text",
+      "props": {
+        "text": "GTA VI launched console-only; the community already built a Rust Xbox compat layer at 13.7K stars in 4 days.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "heading-aiml": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h2"
+      }
+    },
+    "repo-llmasm": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "llmasm-title",
+        "llmasm-desc",
+        "llmasm-metadata"
+      ]
+    },
+    "llmasm-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "alesha-pro/llm.asm",
+        "href": "https://github.com/alesha-pro/llm.asm",
+        "source": "AI/ML"
+      }
+    },
+    "llmasm-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Qwen3-0.6B inference, bare-metal OS, and Mini-GPT trainer each under 32KB of pure x86 NASM — zero C, zero libc.",
+        "variant": "body"
+      }
+    },
+    "llmasm-metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "llmasm-stat",
+        "llmasm-lang",
+        "llmasm-debut"
+      ]
+    },
+    "llmasm-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "⭐/day",
+        "value": "~1,003",
+        "delta": "2.0K total",
+        "trend": "up"
+      }
+    },
+    "llmasm-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Assembly"
+      }
+    },
+    "llmasm-debut": {
+      "type": "Badge",
+      "props": {
+        "text": "[DEBUT]",
+        "variant": "outline"
+      }
+    },
+    "repo-opengame": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opengame-title",
+        "opengame-desc",
+        "opengame-metadata"
+      ]
+    },
+    "opengame-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "nexu-io/opengame",
+        "href": "https://github.com/nexu-io/opengame",
+        "source": "AI/ML"
+      }
+    },
+    "opengame-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Routes 20+ coding agents (Claude Code, Codex, DeepSeek) as a unified game-studio pipeline targeting WeChat, TikTok, itch.io.",
+        "variant": "body"
+      }
+    },
+    "opengame-metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "opengame-stat",
+        "opengame-lang",
+        "opengame-debut"
+      ]
+    },
+    "opengame-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "⭐/day",
+        "value": "~1,036",
+        "delta": "2.1K total",
+        "trend": "up"
+      }
+    },
+    "opengame-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript"
+      }
+    },
+    "opengame-debut": {
+      "type": "Badge",
+      "props": {
+        "text": "[DEBUT]",
+        "variant": "outline"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "heading-devtools": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h2"
+      }
+    },
+    "repo-fastthing": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fastthing-title",
+        "fastthing-desc",
+        "fastthing-metadata"
+      ]
+    },
+    "fastthing-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "EL4CTEO/fast-anything",
+        "href": "https://github.com/EL4CTEO/fast-anything",
+        "source": "Devtools"
+      }
+    },
+    "fastthing-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Profile Python/Node/Ruby, port the hot 5% to Rust with your coding agent, verify behavioral parity — no full rewrite required.",
+        "variant": "body"
+      }
+    },
+    "fastthing-metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "fastthing-stat",
+        "fastthing-lang",
+        "fastthing-debut"
+      ]
+    },
+    "fastthing-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "⭐/day",
+        "value": "~738",
+        "delta": "4.4K total",
+        "trend": "up"
+      }
+    },
+    "fastthing-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Rust"
+      }
+    },
+    "fastthing-debut": {
+      "type": "Badge",
+      "props": {
+        "text": "[DEBUT]",
+        "variant": "outline"
+      }
+    },
+    "repo-skilldistill": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "skilldistill-title",
+        "skilldistill-desc",
+        "skilldistill-metadata"
+      ]
+    },
+    "skilldistill-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "sybil-solutions/skill-distill",
+        "href": "https://github.com/sybil-solutions/skill-distill",
+        "source": "Devtools"
+      }
+    },
+    "skilldistill-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Converts a successful Claude Code or Codex session into a reusable skill file an open-weight model can replay.",
+        "variant": "body"
+      }
+    },
+    "skilldistill-metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "skilldistill-stat",
+        "skilldistill-lang",
+        "skilldistill-debut"
+      ]
+    },
+    "skilldistill-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "⭐/day",
+        "value": "~165",
+        "delta": "989 total",
+        "trend": "up"
+      }
+    },
+    "skilldistill-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python"
+      }
+    },
+    "skilldistill-debut": {
+      "type": "Badge",
+      "props": {
+        "text": "[DEBUT]",
+        "variant": "outline"
+      }
+    },
+    "repo-nospeaker": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "nospeaker-title",
+        "nospeaker-desc",
+        "nospeaker-metadata"
+      ]
+    },
+    "nospeaker-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "os6/nospeaker",
+        "href": "https://github.com/os6/nospeaker",
+        "source": "Devtools"
+      }
+    },
+    "nospeaker-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Drives the MacBook Taptic Engine as a speaker via synthesized haptic bursts — bypasses actual audio hardware entirely.",
+        "variant": "body"
+      }
+    },
+    "nospeaker-metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "nospeaker-stat",
+        "nospeaker-lang",
+        "nospeaker-debut"
+      ]
+    },
+    "nospeaker-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "⭐/day",
+        "value": "~397",
+        "delta": "2.0K total",
+        "trend": "up"
+      }
+    },
+    "nospeaker-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Swift"
+      }
+    },
+    "nospeaker-debut": {
+      "type": "Badge",
+      "props": {
+        "text": "[DEBUT]",
+        "variant": "outline"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "heading-other": {
+      "type": "Heading",
+      "props": {
+        "text": "Other",
+        "level": "h2"
+      }
+    },
+    "repo-grhlean": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "grhlean-title",
+        "grhlean-desc",
+        "grhlean-metadata"
+      ]
+    },
+    "grhlean-title": {
+      "type": "StoryLink",
+      "props": {
+        "title": "lsernau/grh-lean",
+        "href": "https://github.com/lsernau/grh-lean",
+        "source": "Other"
+      }
+    },
+    "grhlean-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Claims a Lean 4 proof of the Generalized Riemann Hypothesis — 1K stars in 2 days while the community audits it.",
+        "variant": "body"
+      }
+    },
+    "grhlean-metadata": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "grhlean-stat",
+        "grhlean-lang",
+        "grhlean-debut"
+      ]
+    },
+    "grhlean-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "⭐/day",
+        "value": "~510",
+        "delta": "1.0K total",
+        "trend": "up"
+      }
+    },
+    "grhlean-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Lean"
+      }
+    },
+    "grhlean-debut": {
+      "type": "Badge",
+      "props": {
+        "text": "[DEBUT]",
+        "variant": "outline"
+      }
+    },
+    "sep5": {
+      "type": "Separator"
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=fail (504) · gh_api=ok · kept 7/25",
+        "variant": "caption"
+      }
+    }
+  }
+}
