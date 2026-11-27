@@ -1,0 +1,364 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Daily Pick — 2026-11-27"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-token",
+        "sep-1",
+        "section-market",
+        "sep-2",
+        "section-footer"
+      ]
+    },
+    "section-token": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-token",
+        "stack-token-header",
+        "stack-token-metrics",
+        "heading-catalyst",
+        "text-catalyst",
+        "heading-risk",
+        "text-risk",
+        "text-score-breakdown",
+        "text-recency"
+      ]
+    },
+    "heading-token": {
+      "type": "Heading",
+      "props": {
+        "text": "Token: FET",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack-token-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-high",
+        "stat-signal"
+      ]
+    },
+    "badge-high": {
+      "type": "Badge",
+      "props": {
+        "text": "HIGH",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "stat-signal": {
+      "type": "Stat",
+      "props": {
+        "label": "Signal",
+        "value": "9/10"
+      },
+      "children": []
+    },
+    "stack-token-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-price",
+        "stat-mcap",
+        "stat-vol",
+        "stat-vol-mcap-ratio"
+      ]
+    },
+    "stat-price": {
+      "type": "Stat",
+      "props": {
+        "label": "Price",
+        "value": "$0.126",
+        "delta": "+5.78% 24h / +9.92% 7d",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-mcap": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Cap",
+        "value": "$292M"
+      },
+      "children": []
+    },
+    "stat-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$104M"
+      },
+      "children": []
+    },
+    "stat-vol-mcap-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Vol/Mcap Ratio",
+        "value": "0.36"
+      },
+      "children": []
+    },
+    "heading-catalyst": {
+      "type": "Heading",
+      "props": {
+        "text": "Catalyst",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text-catalyst": {
+      "type": "Text",
+      "props": {
+        "text": "AI Agent Economy at peak phase (narrative-tracker Nov 26); x402 agentic payments 10,000% monthly usage surge validates AI infra demand; FET/ASI Alliance as the on-chain AI agent execution layer",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading-risk": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Ocean Protocol exit from ASI Alliance weakens multi-party thesis; AI sector mcap -7.3% headwind if rotation out of AI tokens accelerates",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-score-breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "Score breakdown: [24h>0 +1, 7d>0 +1, both>+5% +2, vol/mcap≥0.20 +3, RS vs BTC/ETH +2] = 9/10",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-recency": {
+      "type": "Text",
+      "props": {
+        "text": "First time in 7-day window vs recent picks",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-market",
+        "text-market-question",
+        "stack-market-header",
+        "stack-market-metrics",
+        "heading-fair-value",
+        "text-fair-value-detail",
+        "heading-thesis",
+        "text-thesis",
+        "heading-market-risk",
+        "text-market-risk"
+      ]
+    },
+    "heading-market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market: Taipei Mayor Election",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text-market-question": {
+      "type": "Text",
+      "props": {
+        "text": "Will Chiang Wan-an win the next Taipei Mayor election?",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stack-market-header": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-medium",
+        "stat-edge"
+      ]
+    },
+    "badge-medium": {
+      "type": "Badge",
+      "props": {
+        "text": "MEDIUM",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "stat-edge": {
+      "type": "Stat",
+      "props": {
+        "label": "Edge",
+        "value": "~9.5pp"
+      },
+      "children": []
+    },
+    "stack-market-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-current-pricing",
+        "stat-market-vol",
+        "stat-resolution-date"
+      ]
+    },
+    "stat-current-pricing": {
+      "type": "Stat",
+      "props": {
+        "label": "Current Pricing",
+        "value": "YES 56.5¢ / NO 43.5¢"
+      },
+      "children": []
+    },
+    "stat-market-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$1.1M"
+      },
+      "children": []
+    },
+    "stat-resolution-date": {
+      "type": "Stat",
+      "props": {
+        "label": "Resolution Date",
+        "value": "2026-11-29"
+      },
+      "children": []
+    },
+    "heading-fair-value": {
+      "type": "Heading",
+      "props": {
+        "text": "Fair Value Analysis",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text-fair-value-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Fair YES: ~47% (inputs: TVBS Nov poll Chiang 46% vs Shen 44%; ETtoday 48.1% vs 42.0%; 4-of-7 final pre-blackout polls favor Shen). Current market prices YES 9-10pp above fair value.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading-thesis": {
+      "type": "Heading",
+      "props": {
+        "text": "Thesis",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text-thesis": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket prices Chiang 9-10pp above Nov polling average. Bet NO — Chiang overpriced relative to tight polls.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "heading-market-risk": {
+      "type": "Heading",
+      "props": {
+        "text": "Risk",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "text-market-risk": {
+      "type": "Text",
+      "props": {
+        "text": "Incumbency advantage (Chiang is current Mayor) could lift him on election day; KMT base turnout historically strong in Taipei local elections",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-sources",
+        "text-disclaimer"
+      ]
+    },
+    "text-sources": {
+      "type": "Text",
+      "props": {
+        "text": "Sources: cg=ok, dex=fail, poly=ok",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "text-disclaimer": {
+      "type": "Text",
+      "props": {
+        "text": "Not financial advice — pattern-matching only",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
