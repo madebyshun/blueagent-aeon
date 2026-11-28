@@ -1,29 +1,31 @@
-*GitHub Trending — 2026-11-27*
-⚠️ trending page unavailable (504 × 2) — gh api fallback; velocity shown instead of stars/day
+*GitHub Trending — 2026-11-28*
 
-*Top pick* — [Marvisak/VIctory](https://github.com/Marvisak/VIctory)
-GTA VI launched console-only; the community already built a Rust Xbox compat layer at 13.7K stars in 4 days.
+*Top pick* — [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)
+Highest single-day pull (1,372 stars) and pushed active today — the most-moved security-focused agent skill in the Claude Code ecosystem right now.
 
 *AI/ML*
-• [alesha-pro/llm.asm](https://github.com/alesha-pro/llm.asm) — ★ ~1,003/day (2.0K total) · Assembly · [DEBUT]
-Qwen3-0.6B inference, bare-metal OS, and Mini-GPT trainer each under 32KB of pure x86 NASM — zero C, zero libc.
+• [jingyaogong/minimind](https://github.com/jingyaogong/minimind) — ★ 391 today (72.5k total) · Python · [ACCELERATING]
+Full LLM training pipeline from tokenizer to inference; runs on consumer hardware in ~2 hours.
 
-• [nexu-io/opengame](https://github.com/nexu-io/opengame) — ★ ~1,036/day (2.1K total) · TypeScript · [DEBUT]
-Routes 20+ coding agents (Claude Code, Codex, DeepSeek) as a unified game-studio pipeline targeting WeChat, TikTok, itch.io.
+• [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) — ★ 561 today (67.4k total) · Python · [ACCELERATING]
+Wraps any CLI tool in an agent-callable interface — instant MCP compatibility without custom adapters.
 
 *Devtools*
-• [EL4CTEO/fast-anything](https://github.com/EL4CTEO/fast-anything) — ★ ~738/day (4.4K total) · Rust · [DEBUT]
-Profile Python/Node/Ruby, port the hot 5% to Rust with your coding agent, verify behavioral parity — no full rewrite required.
+• [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) — ★ 1,372 today (27k total) · Python · [ACCELERATING]
+Embeds a security red-team skill pack directly in the Claude Code agent loop — no extra tooling needed.
 
-• [sybil-solutions/skill-distill](https://github.com/sybil-solutions/skill-distill) — ★ ~165/day (989 total) · Python · [DEBUT]
-Converts a successful Claude Code or Codex session into a reusable skill file an open-weight model can replay.
+• [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — ★ 499 today (74.8k total) · HTML · [ACCELERATING]
+52-diagram type agent skill covering ERDs to architecture — plug-in generation for any coding-agent workflow.
 
-• [os6/nospeaker](https://github.com/os6/nospeaker) — ★ ~397/day (2.0K total) · Swift · [DEBUT]
-Drives the MacBook Taptic Engine as a speaker via synthesized haptic bursts — bypasses actual audio hardware entirely.
+• [cursor/plugins](https://github.com/cursor/plugins) — ★ 214 today (20.1k total) · TypeScript · [ACCELERATING]
+Cursor's official plugin spec just shipped; IDE extension ecosystem now open to third-party dev tools.
 
-*Other*
-• [lsernau/grh-lean](https://github.com/lsernau/grh-lean) — ★ ~510/day (1.0K total) · Lean · [DEBUT]
-Claims a Lean 4 proof of the Generalized Riemann Hypothesis — 1K stars in 2 days while the community audits it.
+• [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) — ★ 293 today (13.8k total) · TypeScript · [RETURNING]
+Google's first-party skill library for Stitch MCP — production blueprints for agent workflows.
+
+*Infra*
+• [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) — ★ 717 today (212.1k total) · TypeScript · [ACCELERATING]
+Single API across 550+ data providers — fastest path to data-hungry agents without managing individual scrapers.
 
 ---
-sources: trending=fail (504) · gh_api=ok · kept 7/25
+sources: trending=ok · gh_api=ok · kept 7/16
