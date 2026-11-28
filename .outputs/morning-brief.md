@@ -1,17 +1,18 @@
-*Morning Brief — 2026-11-27*
+*Morning Brief — 2026-11-28*
 
 *Focus today*
-1. BTC Nov 27 options expiry — why now: resolves today; IV/realized gap collapses; alt rally confirmation or flush
-2. deal-flow repair — why now: 46 days since last success; skill-repair disabled; gap accumulating
-3. x402 agent wallet security — why now: 31 vulns disclosed; Virtuals $500K precedent still live
+1. Taipei Mayor election — voting day; Polymarket NO resolves tomorrow, results tonight
+2. deal-flow repair — 47 days broken, 6 consec failures; Monday run next
+3. XAI credits — narrative-tracker WebSearch fallback day 9; Base/AI coverage quality degraded
 
 *Since yesterday*
-- token-pick: WIF whale play active (+11.4%); Taipei Mayor election (Puma Shen YES 38¢) resolves Nov 29
-- narrative-tracker: XAI 403 day 7 — WebSearch fallback holding but degraded; still no credits on team
-- security-digest: Drupal RCE (CVE-2026-132165) + 5 Mitel CVEs added to KEV 2026-11-25
+- narrative-tracker: 2 NEW narratives (Meme/Pump Rotation, AI Agent Security Risk); Pre-Holiday Rally demoted Fading after BTC -1.5% expiry resolved
+- token-movers: BTW BREAKOUT day 3 (+77% 7d), PORTAL +214% pump-risk, XMR -10% day 2 (Zcash governance collapse)
+- security-digest: MONAI pip KEV — EPSS 0.272, highest new entry in tracked stack
+- BTC Nov 27 expiry: resolved -1.5% as flagged; narrative DEAD
 
 *Watch*
-- x402: 31 new vulns (CSA Oct 2026) + $281K lost in two agent incidents Nov 9 — SDK <2.23.0 exposed; x402 FRONT-RUN thesis carries live infrastructure risk, not just narrative upside
+- Taipei election: Shen leads latest polls 52.6% vs 35.3% Chiang (+17pp); strong upside for NO position resolving tomorrow
 
 *Running today*
 - heartbeat @ 08:00, 14:00, 20:00 UTC
